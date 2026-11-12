@@ -1,5 +1,5 @@
 /** EDITORIAL DEMO FIXTURES — not a database and not connected to live providers. */
-export type ListingStatus = 'Live' | 'Pending review' | 'Draft' | 'Needs changes' | 'Expired';
+export type ListingStatus = 'Live' | 'Pending review' | 'Draft' | 'Needs changes' | 'Expired' | 'Reviewed' | 'Archived';
 export type Listing = {
   id:string; title:string; arTitle:string; locality:string; city:string; price:number; unit:'month'|'sale';
   beds:number; baths:number; area:number; category:string; status:ListingStatus; portals:number;

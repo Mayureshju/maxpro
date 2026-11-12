@@ -9,9 +9,9 @@
 | ID | Gemini PRD scope | Main v3 route | Current prototype | Production / UX gap |
 |---|---|---|---|---|
 | GEM-01 | Landlord/broker/agency/super-admin personas, multi-tenant RBAC | `/register`, `/workspace/team`, `/workspace/admin/users` | UI concept | Real onboarding, organization selection, role authorization and verification |
-| GEM-02 | Canonical property CRUD, rent/sale, cheques, deposit, location, compliance | `/workspace/inventory`, `/workspace/inventory/[id]/edit` | Interactive demo | Persist create/edit/revisions; field evidence; validation; API |
+| GEM-02 | Canonical property CRUD, rent/sale, cheques, deposit, location, compliance | `/workspace/inventory`, `/workspace/inventory/[id]/edit` | Interactive demo: canonical browser-local lifecycle | Production CRUD/revisions, per-field evidence, server validation and API |
 | GEM-03 | Arabic/English titles, copy and RTL | `/workspace/inventory/[id]/edit`, `/workspace/studio` | Interactive demo (specific fields) | Most v2 screen bodies need full Arabic extraction and native-speaker RTL UAT |
-| GEM-04 | Multi-media room categories, ordering, watermark and floor plans | `/workspace/inventory/[id]/media` | Interactive demo | S3 upload, image processing, EXIF removal, scanning, CDN; drag/drop alternative to arrow ordering |
+| GEM-04 | Multi-media room categories, ordering, watermark and floor plans | `/workspace/inventory/[id]/media` | Interactive demo: persistent ordered metadata | S3 upload, image processing, EXIF removal, scanning, CDN; drag/drop alternative to arrow ordering |
 | GEM-05 | Per-portal compliance and preflight | `/workspace/publish` | Interactive demo | Official provider contracts and real validation rules; owner verification |
 | GEM-06 | Connector marketplace by category | `/workspace/hub/marketplace` | Interactive demo | OAuth, encrypted credentials, rate limits, provider operations |
 | GEM-07 | Property Finder, Qatar Living, Bayut/Dubizzle adapters | `/workspace/hub/connectors/[id]` | Interactive demo | Partner onboarding and verified permitted API/feed support |
@@ -28,7 +28,7 @@
 | GEM-18 | Listing/connector/AI-seat subscription quotas | `/workspace/billing`, `/workspace/publish` | Interactive demo | Transactional entitlements and enforcement on backend operations |
 | GEM-19 | Sample 179/725/1800+ QAR commercial tiers | `/pricing`, `/workspace/billing` | Config aligned to Gemini illustrations | Commercial approval; no annual discount inferred; gateway selection |
 | GEM-20 | Connector health, failure queue, rate limits | `/workspace/admin/connector-health` | Interactive demo | Telemetry, per-org API limits, retry dashboards and alerts |
-| GEM-21 | AI copy, media enhancement, lead scoring | `/workspace/studio`, `/workspace/leads` | UI concept / local review | AI provider, grounding, approval, credit ledger, evaluations |
+| GEM-21 | AI copy, media enhancement, lead scoring | `/workspace/studio`, `/workspace/leads` | Interactive local source/proposal/human review | AI provider, per-field grounding, server approval, credit ledger, evaluations |
 | GEM-22 | Mobile/PWA for agents | Responsive pages | UI concept | Actual service worker/installability/offline strategy, photos on mobile, device testing |
 | GEM-23 | Multi-tenant Postgres, queues, real integrations, payments | `docs/12-architecture-contracts.md` | Design only | Entire backend/integrations; no production readiness claim |
 | GEM-24 | Channel attribution, qualified leads, ROI | `/workspace/analytics` | Interactive demo | Real event pipeline, marketing cost reconciliation, reporting governance |
@@ -41,4 +41,4 @@
 
 **Production Gate C:** Backend APIs, authorization, row-level tenant isolation, official partner credentials, provider-specific validated schemas, audit events, idempotent queue jobs, external acknowledgement/reconciliation, billing, privacy/legal approval, full Arabic localization and end-to-end UAT.
 
-**Known not completed in v3:** Actual new-property persistence, product-wide Arabic translations, service worker/PWA install, drag-and-drop upload processing, live duplicate detection, live bookings, live AI scoring/copy, real accounts, real billing, real portal/Meta/Google/WhatsApp connectivity. Keep them visible in the backlog, not hidden under a screenshot.
+**Known not completed in v3:** Production property persistence (browser-local canonical create/edit/media/review/history is implemented in change 0005), product-wide Arabic translations, service worker/PWA install, drag-and-drop upload processing, live duplicate detection, live bookings, live AI scoring/copy, real accounts, real billing, real portal/Meta/Google/WhatsApp connectivity. Keep them visible in the backlog, not hidden under a screenshot.

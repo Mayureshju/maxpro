@@ -1,0 +1,516 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test lifecycle.spec.ts
+
+[WebServer] (node:52200) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:52224) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 24 tests using 2 workers
+
+(node:52242) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:52241) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   1 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:34:2 › lifecycle en create, resume, review, media and per-destination history (1.5m)
+  ✘   2 [chromium] › tests/e2e/lifecycle.spec.ts:34:2 › lifecycle en create, resume, review, media and per-destination history (1.5m)
+(node:53473) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:53474) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   4 [chromium] › tests/e2e/lifecycle.spec.ts:114:2 › lifecycle en invalid IDs never fall back to a sample (2.3s)
+  ✓   3 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:114:2 › lifecycle en invalid IDs never fall back to a sample (2.4s)
+  ✘   5 [chromium] › tests/e2e/lifecycle.spec.ts:34:2 › lifecycle ar create, resume, review, media and per-destination history (1.5m)
+  ✘   6 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:34:2 › lifecycle ar create, resume, review, media and per-destination history (1.5m)
+(node:54628) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:54629) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   8 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:114:2 › lifecycle ar invalid IDs never fall back to a sample (2.9s)
+  ✓   7 [chromium] › tests/e2e/lifecycle.spec.ts:114:2 › lifecycle ar invalid IDs never fall back to a sample (3.7s)
+  ✓   9 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:121:1 › arbitrary Studio input and document selection never fabricate extracted property facts (1.2s)
+  ✓  10 [chromium] › tests/e2e/lifecycle.spec.ts:121:1 › arbitrary Studio input and document selection never fabricate extracted property facts (985ms)
+  ✓  11 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:129:1 › file metadata persists without binary or blob URLs and changes actual media checks (1.2s)
+  ✓  12 [chromium] › tests/e2e/lifecycle.spec.ts:129:1 › file metadata persists without binary or blob URLs and changes actual media checks (1.3s)
+  ✓  13 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:139:1 › fact edits invalidate review while media changes alter preflight and preserve revisions (1.2s)
+  ✘  15 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:149:2 › starter enforces 3 listing reservations and preserves drafts over quota (1.0s)
+  ✓  14 [chromium] › tests/e2e/lifecycle.spec.ts:139:1 › fact edits invalidate review while media changes alter preflight and preserve revisions (1.8s)
+(node:54786) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  16 [chromium] › tests/e2e/lifecycle.spec.ts:149:2 › starter enforces 3 listing reservations and preserves drafts over quota (1.1s)
+(node:54828) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  17 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:149:2 › pro enforces 25 listing reservations and preserves drafts over quota (2.4s)
+(node:54861) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  18 [chromium] › tests/e2e/lifecycle.spec.ts:149:2 › pro enforces 25 listing reservations and preserves drafts over quota (2.4s)
+(node:54886) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  19 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:163:1 › Pro portal quota and Starter Meta entitlement are separate from draft saving (2.4s)
+(node:54920) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  20 [chromium] › tests/e2e/lifecycle.spec.ts:163:1 › Pro portal quota and Starter Meta entitlement are separate from draft saving (2.3s)
+(node:54942) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  21 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:168:1 › corrupt canonical records are excluded while valid drafts and legacy edits recover (2.3s)
+  ✓  22 [chromium] › tests/e2e/lifecycle.spec.ts:168:1 › corrupt canonical records are excluded while valid drafts and legacy edits recover (2.3s)
+  ✘  23 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:175:1 › changing a record in another tab rejects stale editor saves and resets publishing approval (1.2s)
+  ✘  24 [chromium] › tests/e2e/lifecycle.spec.ts:175:1 › changing a record in another tab rejects stale editor saves and resets publishing approval (1.1s)
+
+
+  1) [chromium] › tests/e2e/lifecycle.spec.ts:34:2 › lifecycle en create, resume, review, media and per-destination history 
+
+    Test timeout of 90000ms exceeded.
+
+    Error: locator.fill: Test timeout of 90000ms exceeded.
+    Call log:
+      - waiting for getByRole('textbox', { name: /Property source notes|ملاحظات المصدر/ })
+
+
+      70 |    await page.setViewportSize({width:768,height:1000});await capture(page,`${prefix}-768-media`);await page.setViewportSize({width:1440,height:1000});
+      71 |   }
+    > 72 |   await page.goto(`/${locale}/workspace/studio?property=${id}`);
+         |                                                                 ^
+      73 |   await page.getByRole('textbox',{name:/Property source notes|ملاحظات المصدر/}).fill('Fictional operator supplied these facts. No extraction should run.');
+      74 |   await page.getByRole('button',{name:/Review supplied facts|مراجعة الحقائق المقدمة/}).click();
+      75 |   await expect(page.getByRole('textbox',{name:'Title — English',exact:true})).toHaveValue('Lifecycle courtyard residence');
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/lifecycle.spec.ts:72:81
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/lifecycle-lifecycle-en-cre-892d8-and-per-destination-history-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/lifecycle-lifecycle-en-cre-892d8-and-per-destination-history-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/lifecycle-lifecycle-en-cre-892d8-and-per-destination-history-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/lifecycle-lifecycle-en-cre-892d8-and-per-destination-history-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/e2e/lifecycle.spec.ts:34:2 › lifecycle ar create, resume, review, media and per-destination history 
+
+    Test timeout of 90000ms exceeded.
+
+    Error: locator.fill: Test timeout of 90000ms exceeded.
+    Call log:
+      - waiting for getByRole('textbox', { name: /Property source notes|ملاحظات المصدر/ })
+
+
+      70 |    await page.setViewportSize({width:768,height:1000});await capture(page,`${prefix}-768-media`);await page.setViewportSize({width:1440,height:1000});
+      71 |   }
+    > 72 |   await page.goto(`/${locale}/workspace/studio?property=${id}`);
+         |                                                                 ^
+      73 |   await page.getByRole('textbox',{name:/Property source notes|ملاحظات المصدر/}).fill('Fictional operator supplied these facts. No extraction should run.');
+      74 |   await page.getByRole('button',{name:/Review supplied facts|مراجعة الحقائق المقدمة/}).click();
+      75 |   await expect(page.getByRole('textbox',{name:'Title — English',exact:true})).toHaveValue('Lifecycle courtyard residence');
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/lifecycle.spec.ts:72:81
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/lifecycle-lifecycle-ar-cre-8ead3-and-per-destination-history-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/lifecycle-lifecycle-ar-cre-8ead3-and-per-destination-history-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/lifecycle-lifecycle-ar-cre-8ead3-and-per-destination-history-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/lifecycle-lifecycle-ar-cre-8ead3-and-per-destination-history-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [chromium] › tests/e2e/lifecycle.spec.ts:149:2 › starter enforces 3 listing reservations and preserves drafts over quota 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: getByRole('alert')
+    Expected substring: "includes 3 queued properties"
+    Error: strict mode violation: getByRole('alert') resolved to 2 elements:
+        1) <p role="alert" class="gm-error">Starter includes 3 queued properties. This illust…</p> aka getByText('Starter includes 3 queued')
+        2) <div role="alert" aria-live="assertive" id="__next-route-announcer__"></div> aka locator('[id="__next-route-announcer__"]')
+
+    Call log:
+      - Expect "toContainText" getByRole('alert') with timeout 8000ms
+      - waiting for getByRole('alert')
+
+
+      155 |    localStorage.setItem(key,JSON.stringify(state));
+      156 |   },{key:storeKey,limit});
+    > 157 |   await page.goto(`/en/workspace/publish?property=${id}`);await page.getByRole('button',{name:'Continue',exact:true}).click();await page.locator('.gm-destinations label').filter({hasText:'Qatar Living'}).getByRole('checkbox').uncheck();
+          |                                         ^
+      158 |   await expect(page.getByRole('alert')).toContainText(`includes ${limit} queued properties`);await expect(page.getByRole('button',{name:'Continue',exact:true})).toBeDisabled();
+      159 |   await page.goto(`/en/workspace/inventory/${id}/edit`);await page.getByRole('textbox',{name:'Title — English',exact:true}).fill('Draft beyond queue quota');await page.getByRole('button',{name:saveName}).click();await page.reload();await expect(page.getByRole('textbox',{name:'Title — English',exact:true})).toHaveValue('Draft beyond queue quota');
+      160 |   const state=await snapshot(page);expect(state.jobs).toHaveLength(limit);expect(Object.keys(state.properties).length).toBe(limit+7);
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/lifecycle.spec.ts:157:41
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/lifecycle-starter-enforces-4fe69-preserves-drafts-over-quota-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/lifecycle-starter-enforces-4fe69-preserves-drafts-over-quota-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/lifecycle-starter-enforces-4fe69-preserves-drafts-over-quota-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/lifecycle-starter-enforces-4fe69-preserves-drafts-over-quota-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [chromium] › tests/e2e/lifecycle.spec.ts:149:2 › pro enforces 25 listing reservations and preserves drafts over quota 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: getByRole('alert')
+    Expected substring: "includes 25 queued properties"
+    Error: strict mode violation: getByRole('alert') resolved to 2 elements:
+        1) <p role="alert" class="gm-error">Pro includes 25 queued properties. This illustrat…</p> aka getByText('Pro includes 25 queued')
+        2) <div role="alert" aria-live="assertive" id="__next-route-announcer__"></div> aka locator('[id="__next-route-announcer__"]')
+
+    Call log:
+      - Expect "toContainText" getByRole('alert') with timeout 8000ms
+      - waiting for getByRole('alert')
+
+
+      155 |    localStorage.setItem(key,JSON.stringify(state));
+      156 |   },{key:storeKey,limit});
+    > 157 |   await page.goto(`/en/workspace/publish?property=${id}`);await page.getByRole('button',{name:'Continue',exact:true}).click();await page.locator('.gm-destinations label').filter({hasText:'Qatar Living'}).getByRole('checkbox').uncheck();
+          |                                         ^
+      158 |   await expect(page.getByRole('alert')).toContainText(`includes ${limit} queued properties`);await expect(page.getByRole('button',{name:'Continue',exact:true})).toBeDisabled();
+      159 |   await page.goto(`/en/workspace/inventory/${id}/edit`);await page.getByRole('textbox',{name:'Title — English',exact:true}).fill('Draft beyond queue quota');await page.getByRole('button',{name:saveName}).click();await page.reload();await expect(page.getByRole('textbox',{name:'Title — English',exact:true})).toHaveValue('Draft beyond queue quota');
+      160 |   const state=await snapshot(page);expect(state.jobs).toHaveLength(limit);expect(Object.keys(state.properties).length).toBe(limit+7);
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/lifecycle.spec.ts:157:41
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/lifecycle-pro-enforces-25--39b71-preserves-drafts-over-quota-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/lifecycle-pro-enforces-25--39b71-preserves-drafts-over-quota-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/lifecycle-pro-enforces-25--39b71-preserves-drafts-over-quota-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/lifecycle-pro-enforces-25--39b71-preserves-drafts-over-quota-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [chromium] › tests/e2e/lifecycle.spec.ts:163:1 › Pro portal quota and Starter Meta entitlement are separate from draft saving 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: getByRole('alert')
+    Expected substring: "includes 2 destination(s)"
+    Error: strict mode violation: getByRole('alert') resolved to 2 elements:
+        1) <p role="alert" class="gm-error">Pro includes 2 destination(s) in this illustrativ…</p> aka getByText('Pro includes 2 destination(s')
+        2) <div role="alert" aria-live="assertive" id="__next-route-announcer__"></div> aka locator('[id="__next-route-announcer__"]')
+
+    Call log:
+      - Expect "toContainText" getByRole('alert') with timeout 8000ms
+      - waiting for getByRole('alert')
+
+
+      162 | }
+      163 |
+    > 164 | test('Pro portal quota and Starter Meta entitlement are separate from draft saving',async({page})=>{
+          |                                                                                                     ^
+      165 |  await page.goto('/en/workspace/billing');await page.getByRole('button',{name:/^Pro/}).click();await page.goto('/en/workspace/publish');await page.getByRole('button',{name:'Continue',exact:true}).click();await page.locator('.gm-destinations label').filter({hasText:'Bayut / Dubizzle'}).getByRole('checkbox').check();await expect(page.getByRole('alert')).toContainText('includes 2 destination(s)');await expect(page.getByRole('button',{name:'Continue',exact:true})).toBeDisabled();
+      166 |  await page.goto('/en/workspace/billing');await page.getByRole('button',{name:/Starter/}).click();await page.goto('/en/workspace/publish');await page.getByRole('button',{name:'Continue',exact:true}).click();for(const name of ['Property Finder','Qatar Living'])await page.locator('.gm-destinations label').filter({hasText:name}).getByRole('checkbox').uncheck();await page.locator('.gm-destinations label').filter({hasText:'Meta property catalogue'}).getByRole('checkbox').check();await expect(page.getByRole('alert')).toContainText('Starter does not include');
+      167 | });
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/lifecycle.spec.ts:164:355
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/lifecycle-Pro-portal-quota-d8565--separate-from-draft-saving-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/lifecycle-Pro-portal-quota-d8565--separate-from-draft-saving-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/lifecycle-Pro-portal-quota-d8565--separate-from-draft-saving-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/lifecycle-Pro-portal-quota-d8565--separate-from-draft-saving-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [chromium] › tests/e2e/lifecycle.spec.ts:175:1 › changing a record in another tab rejects stale editor saves and resets publishing approval 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: getByRole('alert')
+    Expected substring: "record changed"
+    Error: strict mode violation: getByRole('alert') resolved to 2 elements:
+        1) <p role="alert" class="gm-error">The record changed in another view, or contains a…</p> aka getByText('The record changed in another')
+        2) <div role="alert" aria-live="assertive" id="__next-route-announcer__"></div> aka locator('[id="__next-route-announcer__"]')
+
+    Call log:
+      - Expect "toContainText" getByRole('alert') with timeout 8000ms
+      - waiting for getByRole('alert')
+
+
+      176 | test('changing a record in another tab rejects stale editor saves and resets publishing approval',async({page,context})=>{
+      177 |  await page.goto('/en/workspace/inventory/AQ-10233/edit');const other=await context.newPage();await other.goto('/en/workspace/inventory/AQ-10233/edit');
+    > 178 |  await page.getByRole('textbox',{name:'Title — English',exact:true}).fill('First operator change');await page.getByRole('button',{name:saveName}).click();
+          |                                                                                                                                                           ^
+      179 |  await other.getByRole('textbox',{name:'Title — English',exact:true}).fill('Stale operator change');await other.getByRole('button',{name:saveName}).click();await expect(other.getByRole('alert')).toContainText('record changed');await other.close();
+      180 |  await page.goto('/en/workspace/publish');for(let i=0;i<2;i++)await page.getByRole('button',{name:'Continue',exact:true}).click();await page.getByRole('checkbox').check();await page.getByRole('button',{name:'Continue',exact:true}).click();
+      181 |  const billing=await context.newPage();await billing.goto('/en/workspace/billing');await billing.getByRole('button',{name:/Starter/}).click();await expect(page.getByRole('button',{name:'Simulate publishing',exact:true})).toBeDisabled();expect((await snapshot(page)).jobs).toHaveLength(0);await billing.close();
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/lifecycle.spec.ts:178:196
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/lifecycle-changing-a-recor-b2964--resets-publishing-approval-chromium/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/lifecycle-changing-a-recor-b2964--resets-publishing-approval-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/lifecycle-changing-a-recor-b2964--resets-publishing-approval-chromium/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/lifecycle-changing-a-recor-b2964--resets-publishing-approval-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/lifecycle-changing-a-recor-b2964--resets-publishing-approval-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  7) [mobile-chromium] › tests/e2e/lifecycle.spec.ts:34:2 › lifecycle en create, resume, review, media and per-destination history 
+
+    Test timeout of 90000ms exceeded.
+
+    Error: locator.fill: Test timeout of 90000ms exceeded.
+    Call log:
+      - waiting for getByRole('textbox', { name: /Property source notes|ملاحظات المصدر/ })
+
+
+      70 |    await page.setViewportSize({width:768,height:1000});await capture(page,`${prefix}-768-media`);await page.setViewportSize({width:1440,height:1000});
+      71 |   }
+    > 72 |   await page.goto(`/${locale}/workspace/studio?property=${id}`);
+         |                                                                 ^
+      73 |   await page.getByRole('textbox',{name:/Property source notes|ملاحظات المصدر/}).fill('Fictional operator supplied these facts. No extraction should run.');
+      74 |   await page.getByRole('button',{name:/Review supplied facts|مراجعة الحقائق المقدمة/}).click();
+      75 |   await expect(page.getByRole('textbox',{name:'Title — English',exact:true})).toHaveValue('Lifecycle courtyard residence');
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/lifecycle.spec.ts:72:81
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/lifecycle-lifecycle-en-cre-892d8-and-per-destination-history-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/lifecycle-lifecycle-en-cre-892d8-and-per-destination-history-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/lifecycle-lifecycle-en-cre-892d8-and-per-destination-history-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/lifecycle-lifecycle-en-cre-892d8-and-per-destination-history-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8) [mobile-chromium] › tests/e2e/lifecycle.spec.ts:34:2 › lifecycle ar create, resume, review, media and per-destination history 
+
+    Test timeout of 90000ms exceeded.
+
+    Error: locator.fill: Test timeout of 90000ms exceeded.
+    Call log:
+      - waiting for getByRole('textbox', { name: /Property source notes|ملاحظات المصدر/ })
+
+
+      70 |    await page.setViewportSize({width:768,height:1000});await capture(page,`${prefix}-768-media`);await page.setViewportSize({width:1440,height:1000});
+      71 |   }
+    > 72 |   await page.goto(`/${locale}/workspace/studio?property=${id}`);
+         |                                                                 ^
+      73 |   await page.getByRole('textbox',{name:/Property source notes|ملاحظات المصدر/}).fill('Fictional operator supplied these facts. No extraction should run.');
+      74 |   await page.getByRole('button',{name:/Review supplied facts|مراجعة الحقائق المقدمة/}).click();
+      75 |   await expect(page.getByRole('textbox',{name:'Title — English',exact:true})).toHaveValue('Lifecycle courtyard residence');
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/lifecycle.spec.ts:72:81
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/lifecycle-lifecycle-ar-cre-8ead3-and-per-destination-history-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/lifecycle-lifecycle-ar-cre-8ead3-and-per-destination-history-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/lifecycle-lifecycle-ar-cre-8ead3-and-per-destination-history-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/lifecycle-lifecycle-ar-cre-8ead3-and-per-destination-history-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  9) [mobile-chromium] › tests/e2e/lifecycle.spec.ts:149:2 › starter enforces 3 listing reservations and preserves drafts over quota 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: getByRole('alert')
+    Expected substring: "includes 3 queued properties"
+    Error: strict mode violation: getByRole('alert') resolved to 2 elements:
+        1) <p role="alert" class="gm-error">Starter includes 3 queued properties. This illust…</p> aka getByText('Starter includes 3 queued')
+        2) <div role="alert" aria-live="assertive" id="__next-route-announcer__"></div> aka locator('[id="__next-route-announcer__"]')
+
+    Call log:
+      - Expect "toContainText" getByRole('alert') with timeout 8000ms
+      - waiting for getByRole('alert')
+
+
+      155 |    localStorage.setItem(key,JSON.stringify(state));
+      156 |   },{key:storeKey,limit});
+    > 157 |   await page.goto(`/en/workspace/publish?property=${id}`);await page.getByRole('button',{name:'Continue',exact:true}).click();await page.locator('.gm-destinations label').filter({hasText:'Qatar Living'}).getByRole('checkbox').uncheck();
+          |                                         ^
+      158 |   await expect(page.getByRole('alert')).toContainText(`includes ${limit} queued properties`);await expect(page.getByRole('button',{name:'Continue',exact:true})).toBeDisabled();
+      159 |   await page.goto(`/en/workspace/inventory/${id}/edit`);await page.getByRole('textbox',{name:'Title — English',exact:true}).fill('Draft beyond queue quota');await page.getByRole('button',{name:saveName}).click();await page.reload();await expect(page.getByRole('textbox',{name:'Title — English',exact:true})).toHaveValue('Draft beyond queue quota');
+      160 |   const state=await snapshot(page);expect(state.jobs).toHaveLength(limit);expect(Object.keys(state.properties).length).toBe(limit+7);
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/lifecycle.spec.ts:157:41
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/lifecycle-starter-enforces-4fe69-preserves-drafts-over-quota-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/lifecycle-starter-enforces-4fe69-preserves-drafts-over-quota-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/lifecycle-starter-enforces-4fe69-preserves-drafts-over-quota-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/lifecycle-starter-enforces-4fe69-preserves-drafts-over-quota-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  10) [mobile-chromium] › tests/e2e/lifecycle.spec.ts:149:2 › pro enforces 25 listing reservations and preserves drafts over quota 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: getByRole('alert')
+    Expected substring: "includes 25 queued properties"
+    Error: strict mode violation: getByRole('alert') resolved to 2 elements:
+        1) <p role="alert" class="gm-error">Pro includes 25 queued properties. This illustrat…</p> aka getByText('Pro includes 25 queued')
+        2) <div role="alert" aria-live="assertive" id="__next-route-announcer__"></div> aka locator('[id="__next-route-announcer__"]')
+
+    Call log:
+      - Expect "toContainText" getByRole('alert') with timeout 8000ms
+      - waiting for getByRole('alert')
+
+
+      155 |    localStorage.setItem(key,JSON.stringify(state));
+      156 |   },{key:storeKey,limit});
+    > 157 |   await page.goto(`/en/workspace/publish?property=${id}`);await page.getByRole('button',{name:'Continue',exact:true}).click();await page.locator('.gm-destinations label').filter({hasText:'Qatar Living'}).getByRole('checkbox').uncheck();
+          |                                         ^
+      158 |   await expect(page.getByRole('alert')).toContainText(`includes ${limit} queued properties`);await expect(page.getByRole('button',{name:'Continue',exact:true})).toBeDisabled();
+      159 |   await page.goto(`/en/workspace/inventory/${id}/edit`);await page.getByRole('textbox',{name:'Title — English',exact:true}).fill('Draft beyond queue quota');await page.getByRole('button',{name:saveName}).click();await page.reload();await expect(page.getByRole('textbox',{name:'Title — English',exact:true})).toHaveValue('Draft beyond queue quota');
+      160 |   const state=await snapshot(page);expect(state.jobs).toHaveLength(limit);expect(Object.keys(state.properties).length).toBe(limit+7);
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/lifecycle.spec.ts:157:41
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/lifecycle-pro-enforces-25--39b71-preserves-drafts-over-quota-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/lifecycle-pro-enforces-25--39b71-preserves-drafts-over-quota-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/lifecycle-pro-enforces-25--39b71-preserves-drafts-over-quota-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/lifecycle-pro-enforces-25--39b71-preserves-drafts-over-quota-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  11) [mobile-chromium] › tests/e2e/lifecycle.spec.ts:163:1 › Pro portal quota and Starter Meta entitlement are separate from draft saving 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: getByRole('alert')
+    Expected substring: "includes 2 destination(s)"
+    Error: strict mode violation: getByRole('alert') resolved to 2 elements:
+        1) <p role="alert" class="gm-error">Pro includes 2 destination(s) in this illustrativ…</p> aka getByText('Pro includes 2 destination(s')
+        2) <div role="alert" aria-live="assertive" id="__next-route-announcer__"></div> aka locator('[id="__next-route-announcer__"]')
+
+    Call log:
+      - Expect "toContainText" getByRole('alert') with timeout 8000ms
+      - waiting for getByRole('alert')
+
+
+      162 | }
+      163 |
+    > 164 | test('Pro portal quota and Starter Meta entitlement are separate from draft saving',async({page})=>{
+          |                                                                                                     ^
+      165 |  await page.goto('/en/workspace/billing');await page.getByRole('button',{name:/^Pro/}).click();await page.goto('/en/workspace/publish');await page.getByRole('button',{name:'Continue',exact:true}).click();await page.locator('.gm-destinations label').filter({hasText:'Bayut / Dubizzle'}).getByRole('checkbox').check();await expect(page.getByRole('alert')).toContainText('includes 2 destination(s)');await expect(page.getByRole('button',{name:'Continue',exact:true})).toBeDisabled();
+      166 |  await page.goto('/en/workspace/billing');await page.getByRole('button',{name:/Starter/}).click();await page.goto('/en/workspace/publish');await page.getByRole('button',{name:'Continue',exact:true}).click();for(const name of ['Property Finder','Qatar Living'])await page.locator('.gm-destinations label').filter({hasText:name}).getByRole('checkbox').uncheck();await page.locator('.gm-destinations label').filter({hasText:'Meta property catalogue'}).getByRole('checkbox').check();await expect(page.getByRole('alert')).toContainText('Starter does not include');
+      167 | });
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/lifecycle.spec.ts:164:355
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/lifecycle-Pro-portal-quota-d8565--separate-from-draft-saving-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/lifecycle-Pro-portal-quota-d8565--separate-from-draft-saving-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/lifecycle-Pro-portal-quota-d8565--separate-from-draft-saving-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/lifecycle-Pro-portal-quota-d8565--separate-from-draft-saving-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  12) [mobile-chromium] › tests/e2e/lifecycle.spec.ts:175:1 › changing a record in another tab rejects stale editor saves and resets publishing approval 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: getByRole('alert')
+    Expected substring: "record changed"
+    Error: strict mode violation: getByRole('alert') resolved to 2 elements:
+        1) <p role="alert" class="gm-error">The record changed in another view, or contains a…</p> aka getByText('The record changed in another')
+        2) <div role="alert" aria-live="assertive" id="__next-route-announcer__"></div> aka locator('[id="__next-route-announcer__"]')
+
+    Call log:
+      - Expect "toContainText" getByRole('alert') with timeout 8000ms
+      - waiting for getByRole('alert')
+
+
+      176 | test('changing a record in another tab rejects stale editor saves and resets publishing approval',async({page,context})=>{
+      177 |  await page.goto('/en/workspace/inventory/AQ-10233/edit');const other=await context.newPage();await other.goto('/en/workspace/inventory/AQ-10233/edit');
+    > 178 |  await page.getByRole('textbox',{name:'Title — English',exact:true}).fill('First operator change');await page.getByRole('button',{name:saveName}).click();
+          |                                                                                                                                                           ^
+      179 |  await other.getByRole('textbox',{name:'Title — English',exact:true}).fill('Stale operator change');await other.getByRole('button',{name:saveName}).click();await expect(other.getByRole('alert')).toContainText('record changed');await other.close();
+      180 |  await page.goto('/en/workspace/publish');for(let i=0;i<2;i++)await page.getByRole('button',{name:'Continue',exact:true}).click();await page.getByRole('checkbox').check();await page.getByRole('button',{name:'Continue',exact:true}).click();
+      181 |  const billing=await context.newPage();await billing.goto('/en/workspace/billing');await billing.getByRole('button',{name:/Starter/}).click();await expect(page.getByRole('button',{name:'Simulate publishing',exact:true})).toBeDisabled();expect((await snapshot(page)).jobs).toHaveLength(0);await billing.close();
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/lifecycle.spec.ts:178:196
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/lifecycle-changing-a-recor-b2964--resets-publishing-approval-mobile-chromium/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/lifecycle-changing-a-recor-b2964--resets-publishing-approval-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/lifecycle-changing-a-recor-b2964--resets-publishing-approval-mobile-chromium/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/lifecycle-changing-a-recor-b2964--resets-publishing-approval-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/lifecycle-changing-a-recor-b2964--resets-publishing-approval-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  12 failed
+    [chromium] › tests/e2e/lifecycle.spec.ts:34:2 › lifecycle en create, resume, review, media and per-destination history 
+    [chromium] › tests/e2e/lifecycle.spec.ts:34:2 › lifecycle ar create, resume, review, media and per-destination history 
+    [chromium] › tests/e2e/lifecycle.spec.ts:149:2 › starter enforces 3 listing reservations and preserves drafts over quota 
+    [chromium] › tests/e2e/lifecycle.spec.ts:149:2 › pro enforces 25 listing reservations and preserves drafts over quota 
+    [chromium] › tests/e2e/lifecycle.spec.ts:163:1 › Pro portal quota and Starter Meta entitlement are separate from draft saving 
+    [chromium] › tests/e2e/lifecycle.spec.ts:175:1 › changing a record in another tab rejects stale editor saves and resets publishing approval 
+    [mobile-chromium] › tests/e2e/lifecycle.spec.ts:34:2 › lifecycle en create, resume, review, media and per-destination history 
+    [mobile-chromium] › tests/e2e/lifecycle.spec.ts:34:2 › lifecycle ar create, resume, review, media and per-destination history 
+    [mobile-chromium] › tests/e2e/lifecycle.spec.ts:149:2 › starter enforces 3 listing reservations and preserves drafts over quota 
+    [mobile-chromium] › tests/e2e/lifecycle.spec.ts:149:2 › pro enforces 25 listing reservations and preserves drafts over quota 
+    [mobile-chromium] › tests/e2e/lifecycle.spec.ts:163:1 › Pro portal quota and Starter Meta entitlement are separate from draft saving 
+    [mobile-chromium] › tests/e2e/lifecycle.spec.ts:175:1 › changing a record in another tab rejects stale editor saves and resets publishing approval 
+  12 passed (3.4m)
+ ELIFECYCLE  Command failed with exit code 1.

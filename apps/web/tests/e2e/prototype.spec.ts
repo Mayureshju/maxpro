@@ -16,14 +16,14 @@ test('inventory filtering and property navigation works locally',async({page})=>
  await page.goto('/en/workspace/inventory');
  await page.getByRole('textbox',{name:'Search properties'}).fill('Viva');
  await expect(page.locator('.px-listing-row')).toHaveCount(1);
- await page.locator('.px-listing-row').first().click();
+ await page.locator('.px-listing-row').first().getByRole('link').click();
  await expect(page.locator('h1')).toContainText('Viva Bahriya');
 });
 
 test('studio can walk through local demo with explicit approval',async({page})=>{
  await page.goto('/en/workspace/studio');
- await page.getByRole('button',{name:'Use verified sample input'}).click();
- await page.getByRole('button',{name:/Simulate fact extraction/}).click();
+ await page.getByRole('button',{name:'Use fictional sample input'}).click();
+ await page.getByRole('button',{name:/Review supplied facts/}).click();
  for(const heading of ['Organize the media by room.','Refine the bilingual listing copy.','Quality checks and human approval.']){
   await page.getByRole('button',{name:'Continue',exact:true}).click();
   await expect(page.getByRole('heading',{name:heading,exact:true})).toBeVisible();

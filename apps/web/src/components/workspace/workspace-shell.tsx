@@ -77,7 +77,7 @@ export function WorkspaceShell({children}:{children:React.ReactNode}) {
     <aside ref={sidebar} className={`prototype-sidebar ${open?'is-open':''}`}>{nav}</aside>
     <div className="prototype-app"><header className="prototype-topbar"><div className="topbar-leading"><button ref={opener} aria-expanded={open} aria-controls="workspace-navigation" className="mobile-open" onClick={()=>setOpen(true)} aria-label="Open navigation"><Menu size={20}/></button><span className="topbar-crumb">{ar?'المؤسسة':'Pearl Gate Realty'}</span><span className="topbar-divider-char">/</span><strong>{current?.name[ar?1:0]??(ar?'نظرة عامة':'Overview')}</strong></div><div className="prototype-topbar-end"><span className="preview-chip"><span/>{ar?'وضع المعاينة':'Preview mode'}</span><LanguageLink/><Link aria-label="Notifications" href="/workspace/notifications" className="topbar-utility"><Bell size={18}/><i/></Link><Link href="/workspace/settings" aria-label="Settings" className="topbar-user">YM</Link></div></header>
       <main id="main-content" className="prototype-main">{children}</main>
-      <footer className="prototype-app-footer"><span>{ar?'البيانات والإجراءات توضيحية فقط. لا توجد عمليات دفع أو نشر أو ذكاء اصطناعي متصلة.':'Illustrative data and local demo actions. No payment, publishing, AI or external service is connected.'}</span><span>© 2026 MaxPro · Gemini-aligned v3</span></footer>
+      <footer className="prototype-app-footer"><span>{ar?'تجربة محلية خيالية · الباقات 179 / 725 / +1,800 ر.ق توضيحية بانتظار الموافقة. لا توجد خدمات خارجية متصلة.':'Fictional local demo · plans QAR 179 / 725 / 1,800+ are illustrative pending approval. No external services connected.'}</span><span>© 2026 MaxPro · Gemini-aligned v3</span></footer>
     </div>
   </div>;
 }

@@ -30,7 +30,7 @@ for(const locale of ['en','ar']){
    await expect(page.locator('h1')).toBeVisible();
    await page.evaluate(()=>document.fonts.ready);
    // These are captures of the actual running Next.js page, not visual substitutes.
-   await page.screenshot({path:resolve(`../../artifacts/phase0/screenshots/${testInfo.project.name}-${locale}-${name}.png`),fullPage:true,scale:'css'});
+   await page.screenshot({path:resolve(`../../artifacts/phase1/regression-screenshots/${testInfo.project.name}-${locale}-${name}.png`),fullPage:true,scale:'css'});
    const size=await page.evaluate(()=>({content:document.documentElement.scrollWidth,viewport:window.innerWidth}));
    expect(size.content).toBeLessThanOrEqual(size.viewport+1);
   });
@@ -58,7 +58,7 @@ for(const locale of ['en','ar']){
   }
   await page.goto(`/${locale}/workspace/inventory/AQ-10233/edit`);
   await page.getByRole('textbox',{name:'Permit / license'}).fill('');
-  await page.getByRole('button',{name:/Save browser-local draft/}).click();
+  await page.getByRole('button',{name:/Save browser-local draft|حفظ المسودة محلياً/}).click();
   await page.reload();
   await expect(page.getByRole('textbox',{name:'Permit / license'})).toHaveValue('');
   await page.goto(`/${locale}/workspace/publish`);
@@ -72,7 +72,8 @@ for(const locale of ['en','ar']){
   await expect(page.getByText('Blocked locally',{exact:true})).toHaveCount(2);
   await page.goto(`/${locale}/workspace/inventory/AQ-10233/edit`);
   await page.getByRole('textbox',{name:'Permit / license'}).fill('DEMO-REVIEWED');
-  await page.getByRole('button',{name:/Save browser-local draft/}).click();
+  await page.getByRole('checkbox',{name:/I reviewed the property facts|راجعت حقائق العقار/}).check();
+  await page.getByRole('button',{name:/Save browser-local draft|حفظ المسودة محلياً/}).click();
   await page.goto(`/${locale}/workspace/publish`);
   await page.getByRole('button',{name:next,exact:true}).click();
   await page.getByRole('button',{name:next,exact:true}).click();
@@ -82,7 +83,7 @@ for(const locale of ['en','ar']){
   await page.goto(`/${locale}/workspace/hub/jobs`);
   await expect(page.getByText('Queued locally',{exact:true})).toHaveCount(2);
   await expect(page.getByText('Blocked locally',{exact:true})).toHaveCount(2);
-  await page.screenshot({path:resolve(`../../artifacts/phase0/screenshots/${testInfo.project.name}-${locale}-history-with-jobs.png`),fullPage:true,scale:'css'});
+  await page.screenshot({path:resolve(`../../artifacts/phase1/regression-screenshots/${testInfo.project.name}-${locale}-history-with-jobs.png`),fullPage:true,scale:'css'});
   await page.getByRole('textbox',{name:'Search publishing activity'}).fill('Property Finder');
   await expect(page.locator('tbody tr')).toHaveCount(2);
  });

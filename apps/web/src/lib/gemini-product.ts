@@ -1,3 +1,4 @@
+import {listings} from './prototype-data';
 /** Contract-aligned demo definitions from the Gemini-supplied PRD.
  * Commercial terms and third-party capabilities are illustrative until approved.
  * No integration here is authenticated or active.
@@ -41,34 +42,10 @@ export const samplePropertyFacts:Record<string,{titleAr:string;floorPlan:boolean
   'AQ-10256':{titleAr:'استوديو مشرق في المدينة',floorPlan:false,hasCoordinates:false,mediaCount:0,permitApproved:false,descriptionEn:true,descriptionAr:false}
 };
 
-export type CanonicalDraft={titleEn:string;titleAr:string;descriptionEn:string;descriptionAr:string;propertyType:string;purpose:'rent'|'sale';priceQar:number;depositQar:number;cheques:number;areaSqm:number;beds:number;baths:number;city:string;district:string;latitude:string;longitude:string;permit:string;ownerApproved:boolean;amenities:string[];};
+export type CanonicalDraft={titleEn:string;titleAr:string;descriptionEn:string;descriptionAr:string;propertyType:string;purpose:'rent'|'sale';priceQar:number;depositQar:number;cheques:number;areaSqm:number;beds:number;baths:number;city:string;district:string;latitude:string;longitude:string;permit:string;ownerApproved:boolean;amenities:string[];rentalFrequency:'month'|'year';furnishing:string;};
 export function initialCanonicalDraft(id:string):CanonicalDraft{
- const demo:Record<string,{title:string;ar:string;price:number;type:string;purpose:'rent'|'sale';area:number;beds:number;baths:number;district:string;city:string;permit:string}>= {
-  'AQ-10231':{title:'Marina-facing apartment',ar:'شقة بإطلالة على المارينا',price:12500,type:'Apartment',purpose:'rent',area:171,beds:2,baths:3,district:'The Pearl',city:'Doha',permit:'RE-22981'},
-  'AQ-10233':{title:'Freehold residence, Viva Bahriya',ar:'مسكن للتملك الحر في فيفا بحرية',price:2850000,type:'Apartment',purpose:'sale',area:247,beds:3,baths:4,district:'Viva Bahriya',city:'Doha',permit:'RE-22984'},
-  'AQ-10241':{title:'Courtyard townhouse',ar:'تاون هاوس بفناء داخلي',price:17500,type:'Townhouse',purpose:'rent',area:295,beds:4,baths:5,district:'Lusail Marina',city:'Lusail',permit:'RE-22996'},
-  'AQ-10244':{title:'Penthouse with skyline terrace',ar:'بنتهاوس مع شرفة وإطلالة',price:38000,type:'Penthouse',purpose:'rent',area:401,beds:4,baths:5,district:'West Bay',city:'Doha',permit:''},
-  'AQ-10251':{title:'Family villa with private garden',ar:'فيلا عائلية بحديقة خاصة',price:21000,type:'Villa',purpose:'rent',area:515,beds:5,baths:6,district:'Al Waab',city:'Doha',permit:''},
-  'AQ-10256':{title:'Bright city studio',ar:'استوديو مشرق في المدينة',price:6200,type:'Studio',purpose:'rent',area:61,beds:0,baths:1,district:'Msheireb',city:'Doha',permit:''}
- };
- const x=demo[id]??demo['AQ-10231'];const ready=samplePropertyFacts[id];
- return {titleEn:x.title,titleAr:x.ar,descriptionEn:`Sample description for ${x.title}. Human verification required.`,descriptionAr:ready?.descriptionAr?'وصف عقاري توضيحي للمراجعة البشرية.':'',propertyType:x.type,purpose:x.purpose,priceQar:x.price,depositQar:0,cheques:1,areaSqm:x.area,beds:x.beds,baths:x.baths,city:x.city,district:x.district,latitude:ready?.hasCoordinates?'25.291':'',longitude:ready?.hasCoordinates?'51.542':'',permit:x.permit,ownerApproved:!!ready?.permitApproved,amenities:['Parking','Security']};
+ const x=listings.find(p=>p.id===id);if(!x)throw new Error('Unknown sample property');const ready=samplePropertyFacts[id];
+ return {titleEn:x.title,titleAr:x.arTitle,descriptionEn:`Sample description for ${x.title}. Human verification required.`,descriptionAr:ready?.descriptionAr?'وصف عقاري توضيحي للمراجعة البشرية.':'',propertyType:x.category,purpose:x.unit==='sale'?'sale':'rent',priceQar:x.price,depositQar:0,cheques:1,areaSqm:x.area,beds:x.beds,baths:x.baths,city:x.city,district:x.locality,latitude:ready?.hasCoordinates?'25.291':'',longitude:ready?.hasCoordinates?'51.542':'',permit:ready?.permitApproved?x.permit:'',ownerApproved:!!ready?.permitApproved,amenities:['Parking','Security'],rentalFrequency:'month',furnishing:'Unspecified'};
 }
 export const portalDestinationIds:ConnectorId[]=['property-finder','qatar-living','bayut-dubizzle','meta-catalog'];
-export function preflight(listingId:string,connectorId:ConnectorId,draft?:Partial<CanonicalDraft>):string[]{
-  const x=samplePropertyFacts[listingId]; if(!x) return ['Canonical property record unavailable'];
-  const problems:string[]=[];
-  if(!(draft?draft.descriptionEn?.trim():x.descriptionEn)) problems.push('English description');
-  if(!(draft?draft.descriptionAr?.trim():x.descriptionAr)) problems.push('Arabic description');
-  if(x.mediaCount<3) problems.push('At least three categorized media assets (demo policy)');
-  if(draft?(!draft.latitude?.trim()||!draft.longitude?.trim()):!x.hasCoordinates) problems.push('Location coordinates');
-  if(draft?(!draft.permit?.trim()||!draft.ownerApproved):!x.permitApproved) problems.push('Verified permit and advertiser approval');
-  if(draft&&!draft.titleEn?.trim()) problems.push('English property title');
-  if(draft&&!draft.titleAr?.trim()) problems.push('Arabic property title');
-  if(draft&&(!draft.priceQar||draft.priceQar<=0)) problems.push('Valid asking price');
-  if(connectorId==='property-finder'&&!x.floorPlan) problems.push('Floor plan (example destination rule)');
-  if(connectorId==='bayut-dubizzle') problems.push('Partner and country eligibility confirmation');
-  if(connectorId==='meta-catalog'&&!x.floorPlan) problems.push('Landing-page and catalogue readiness review');
-  return problems;
-}
 export function getConnector(id:ConnectorId){return connectorCatalog.find(c=>c.id===id)!;}
