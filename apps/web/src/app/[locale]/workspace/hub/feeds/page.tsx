@@ -1,2 +1,3 @@
 import {FeedManager} from '@/components/gemini/connectors';
-export default function Page(){return <FeedManager/>;}
+import {Suspense} from 'react';
+export default function Page(){return <Suspense fallback={<p>Loading local records…</p>}><FeedManager/></Suspense>;}

@@ -1,0 +1,506 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test connector-hub.spec.ts --workers=2
+
+[WebServer] (node:93392) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:93416) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 28 tests using 2 workers
+
+(node:93435) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:93436) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   2 [chromium] › tests/e2e/connector-hub.spec.ts:26:1 › internal export contracts handle invalid values, Unicode, XML controls and CSV formulas (316ms)
+  ✓   1 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:26:1 › internal export contracts handle invalid values, Unicode, XML controls and CSV formulas (323ms)
+  ✓   3 [chromium] › tests/e2e/connector-hub.spec.ts:36:1 › command guards reject stale approval, unsupported destinations, missing approval and quota bypass (153ms)
+  ✓   4 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:36:1 › command guards reject stale approval, unsupported destinations, missing approval and quota bypass (161ms)
+  ✓   5 [chromium] › tests/e2e/connector-hub.spec.ts:45:1 › job migration retains old local history and rejects forged or corrupt attempt metadata (222ms)
+  ✓   6 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:45:1 › job migration retains old local history and rejects forged or corrupt attempt metadata (235ms)
+  ✓   7 [chromium] › tests/e2e/connector-hub.spec.ts:53:2 › connector smoke en: directory filtering, setup, removal and eligibility (1.5s)
+  ✓   9 [chromium] › tests/e2e/connector-hub.spec.ts:61:2 › connector smoke en: newly created property drives escaped XML JSON CSV and downloads (1.4s)
+  ✓  10 [chromium] › tests/e2e/connector-hub.spec.ts:72:2 › connector smoke en: blocked retry revalidates, correction queues, cancellation and filters persist (1.4s)
+  ✘   8 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:53:2 › connector smoke en: directory filtering, setup, removal and eligibility (4.9s)
+(node:93587) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  11 [chromium] › tests/e2e/connector-hub.spec.ts:80:2 › connector en: property revision invalidates workbench and retry approval across tabs (1.3s)
+  ✓  12 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:61:2 › connector smoke en: newly created property drives escaped XML JSON CSV and downloads (1.9s)
+  ✓  13 [chromium] › tests/e2e/connector-hub.spec.ts:85:2 › connector en: responsive sections and keyboard controls at required widths (2.6s)
+  ✓  15 [chromium] › tests/e2e/connector-hub.spec.ts:53:2 › connector smoke ar: directory filtering, setup, removal and eligibility (1.0s)
+  ✓  16 [chromium] › tests/e2e/connector-hub.spec.ts:61:2 › connector smoke ar: newly created property drives escaped XML JSON CSV and downloads (1.3s)
+  ✓  17 [chromium] › tests/e2e/connector-hub.spec.ts:72:2 › connector smoke ar: blocked retry revalidates, correction queues, cancellation and filters persist (1.2s)
+  ✓  14 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:72:2 › connector smoke en: blocked retry revalidates, correction queues, cancellation and filters persist (4.8s)
+  ✓  18 [chromium] › tests/e2e/connector-hub.spec.ts:80:2 › connector ar: property revision invalidates workbench and retry approval across tabs (1.4s)
+  ✓  20 [chromium] › tests/e2e/connector-hub.spec.ts:85:2 › connector ar: responsive sections and keyboard controls at required widths (2.3s)
+  ✓  19 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:80:2 › connector en: property revision invalidates workbench and retry approval across tabs (3.2s)
+  ✓  21 [chromium] › tests/e2e/connector-hub.spec.ts:93:1 › corrupt connector state recovers valid properties and excludes malformed job attempts (820ms)
+  ✘  22 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:85:2 › connector en: responsive sections and keyboard controls at required widths (743ms)
+(node:93792) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  23 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:53:2 › connector smoke ar: directory filtering, setup, removal and eligibility (1.0m)
+(node:94577) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  24 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:61:2 › connector smoke ar: newly created property drives escaped XML JSON CSV and downloads (1.6s)
+  ✘  25 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:72:2 › connector smoke ar: blocked retry revalidates, correction queues, cancellation and filters persist (1.5m)
+(node:95854) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  26 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:80:2 › connector ar: property revision invalidates workbench and retry approval across tabs (1.0m)
+(node:96596) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  27 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:85:2 › connector ar: responsive sections and keyboard controls at required widths (606ms)
+(node:96628) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  28 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:93:1 › corrupt connector state recovers valid properties and excludes malformed job attempts (551ms)
+
+
+  1) [mobile-chromium] › tests/e2e/connector-hub.spec.ts:53:2 › connector smoke en: directory filtering, setup, removal and eligibility 
+
+    Error: expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 376
+    Received:    591
+
+      21 | async function capture(page:Page,name:string){
+      22 |  await page.evaluate(()=>document.fonts.ready);await page.screenshot({path:resolve(`../../artifacts/phase2/screenshots/${name}.png`),fullPage:true,scale:'css'});
+    > 23 |  expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBeLessThanOrEqual(page.viewportSize()!.width+1);
+         |                                                                        ^
+      24 | }
+      25 |
+      26 | test('internal export contracts handle invalid values, Unicode, XML controls and CSV formulas',async()=>{
+        at capture (/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/connector-hub.spec.ts:23:72)
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/connector-hub.spec.ts:58:215
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/connector-hub-connector-sm-649e4-tup-removal-and-eligibility-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/connector-hub-connector-sm-649e4-tup-removal-and-eligibility-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/connector-hub-connector-sm-649e4-tup-removal-and-eligibility-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/connector-hub-connector-sm-649e4-tup-removal-and-eligibility-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [mobile-chromium] › tests/e2e/connector-hub.spec.ts:85:2 › connector en: responsive sections and keyboard controls at required widths 
+
+    Error: expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 376
+    Received:    598
+
+      21 | async function capture(page:Page,name:string){
+      22 |  await page.evaluate(()=>document.fonts.ready);await page.screenshot({path:resolve(`../../artifacts/phase2/screenshots/${name}.png`),fullPage:true,scale:'css'});
+    > 23 |  expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBeLessThanOrEqual(page.viewportSize()!.width+1);
+         |                                                                        ^
+      24 | }
+      25 |
+      26 | test('internal export contracts handle invalid values, Unicode, XML controls and CSV formulas',async()=>{
+        at capture (/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/connector-hub.spec.ts:23:72)
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/connector-hub.spec.ts:88:356
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/connector-hub-connector-en-c40d9-controls-at-required-widths-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/connector-hub-connector-en-c40d9-controls-at-required-widths-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/connector-hub-connector-en-c40d9-controls-at-required-widths-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/connector-hub-connector-en-c40d9-controls-at-required-widths-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [mobile-chromium] › tests/e2e/connector-hub.spec.ts:53:2 › connector smoke ar: directory filtering, setup, removal and eligibility 
+
+    Test timeout of 60000ms exceeded.
+
+    Error: locator.check: Test timeout of 60000ms exceeded.
+    Browser logs:
+
+    <launching> /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,HttpsUpgrades,HttpsFirstBalancedModeAutoEnable,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,AvoidCorsURLLoaderRestartOnRedirect,TcpPortRandomizationWin,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,PreconnectToSearch,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface,SkipListAccountsWithoutGaiaCookies --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --enable-unsafe-swiftshader --edge-skip-compat-layer-relaunch --disable-stack-profiler --disable-infobars --disable-sync --do-not-de-elevate --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/var/folders/_t/w2bsc67x24g1qv_2kqlhq3t80000gp/T/playwright_chromiumdev_profile-Svyu5J --remote-debugging-pipe --no-startup-window
+    <launched> pid=93794
+    [pid=93794][err] Trying to load the allocator multiple times. This is *not* supported.
+    [pid=93794][err] [93798:53759732:1112/235332.820471:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+    [pid=93794][err] [93798:53759783:1112/235332.820673:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+    [pid=93794][err] [93798:53759732:1112/235332.823107:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+    [pid=93794][err] [93798:53759783:1112/235332.823148:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+    [pid=93794][err] [93798:53759732:1112/235332.823235:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+    [pid=93794][err] [93798:53759783:1112/235332.823262:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+    [pid=93794][err] [93798:53759732:1112/235332.948293:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+    [pid=93794][err] [93798:53759783:1112/235332.948353:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+    [pid=93794] <gracefully close start>
+    Call log:
+      - waiting for getByRole('checkbox')
+        - locator resolved to <input type="checkbox"/>
+      - attempting click action
+        - waiting for element to be visible, enabled and stable
+        - element is visible, enabled and stable
+        - scrolling into view if needed
+        - done scrolling
+        - <div>…</div> from <div class="gm-setup-steps">…</div> subtree intercepts pointer events
+      - retrying click action
+        - waiting for element to be visible, enabled and stable
+        - element is visible, enabled and stable
+        - scrolling into view if needed
+        - done scrolling
+        - <span class="px-pill px-pill-warning">…</span> from <div class="gm-setup-steps">…</div> subtree intercepts pointer events
+      - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <div>…</div> from <div class="gm-setup-steps">…</div> subtree intercepts pointer events
+        - retrying click action
+          - waiting 100ms
+        28 × waiting for element to be visible, enabled and stable
+           - element is visible, enabled and stable
+           - scrolling into view if needed
+           - done scrolling
+           - <div>…</div> from <div class="gm-setup-steps">…</div> subtree intercepts pointer events
+         - retrying click action
+           - waiting 500ms
+           - waiting for element to be visible, enabled and stable
+           - element is visible, enabled and stable
+           - scrolling into view if needed
+           - done scrolling
+           - <span>أفهم أن هذا إعداد محلي تجريبي ولا يصرح بأي اتصال …</span> intercepts pointer events
+         - retrying click action
+           - waiting 500ms
+           - waiting for element to be visible, enabled and stable
+           - element is visible, enabled and stable
+           - scrolling into view if needed
+           - done scrolling
+           - <div>…</div> from <div class="gm-setup-steps">…</div> subtree intercepts pointer events
+         - retrying click action
+           - waiting 500ms
+           - waiting for element to be visible, enabled and stable
+           - element is visible, enabled and stable
+           - scrolling into view if needed
+           - done scrolling
+           - <div>…</div> from <div class="gm-setup-steps">…</div> subtree intercepts pointer events
+         - retrying click action
+           - waiting 500ms
+        - waiting for element to be visible, enabled and stable
+        - element is visible, enabled and stable
+        - scrolling into view if needed
+        - done scrolling
+        - <div>…</div> from <div class="gm-setup-steps">…</div> subtree intercepts pointer events
+      - retrying click action
+        - waiting 500ms
+        - waiting for element to be visible, enabled and stable
+        - element is visible, enabled and stable
+        - scrolling into view if needed
+        - done scrolling
+        - <span>أفهم أن هذا إعداد محلي تجريبي ولا يصرح بأي اتصال …</span> intercepts pointer events
+      - retrying click action
+        - waiting 500ms
+        - waiting for element to be visible, enabled and stable
+        - element is visible, enabled and stable
+        - scrolling into view if needed
+        - done scrolling
+        - <div>…</div> from <div class="gm-setup-steps">…</div> subtree intercepts pointer events
+      - retrying click action
+        - waiting 500ms
+        - waiting for element to be visible, enabled and stable
+
+
+      12 | async function snapshot(page:Page):Promise<DemoState>{return page.evaluate(key=>JSON.parse(localStorage.getItem(key)!),key);}
+      13 | async function prepare(page:Page,locale:string,id='property-finder'){
+    > 14 |  await page.goto(`/${locale}/workspace/hub/connectors/${id}`);await page.getByRole('checkbox').check();await page.getByRole('button',{name:'Prepare demo connector'}).click();
+         |                                                                                                ^
+      15 | }
+      16 | async function publish(page:Page,locale='en',id='AQ-10233'){
+      17 |  const next=locale==='ar'?'متابعة':'Continue';
+        at prepare (/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/connector-hub.spec.ts:14:96)
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/connector-hub.spec.ts:57:3
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/connector-hub-connector-sm-e1a34-tup-removal-and-eligibility-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/connector-hub-connector-sm-e1a34-tup-removal-and-eligibility-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/connector-hub-connector-sm-e1a34-tup-removal-and-eligibility-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/connector-hub-connector-sm-e1a34-tup-removal-and-eligibility-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [mobile-chromium] › tests/e2e/connector-hub.spec.ts:72:2 › connector smoke ar: blocked retry revalidates, correction queues, cancellation and filters persist 
+
+    Test timeout of 90000ms exceeded.
+
+    Error: locator.check: Test timeout of 90000ms exceeded.
+    Call log:
+      - waiting for getByRole('checkbox')
+        - locator resolved to <input type="checkbox"/>
+      - attempting click action
+        - waiting for element to be visible, enabled and stable
+        - element is visible, enabled and stable
+        - scrolling into view if needed
+        - done scrolling
+        - <div>…</div> from <div class="gm-setup-steps">…</div> subtree intercepts pointer events
+      - retrying click action
+        - waiting for element to be visible, enabled and stable
+        - element is visible, enabled and stable
+        - scrolling into view if needed
+        - done scrolling
+        - <span class="px-pill px-pill-warning">…</span> from <div class="gm-setup-steps">…</div> subtree intercepts pointer events
+      - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <div>…</div> from <div class="gm-setup-steps">…</div> subtree intercepts pointer events
+        - retrying click action
+          - waiting 100ms
+        43 × waiting for element to be visible, enabled and stable
+           - element is visible, enabled and stable
+           - scrolling into view if needed
+           - done scrolling
+           - <div>…</div> from <div class="gm-setup-steps">…</div> subtree intercepts pointer events
+         - retrying click action
+           - waiting 500ms
+           - waiting for element to be visible, enabled and stable
+           - element is visible, enabled and stable
+           - scrolling into view if needed
+           - done scrolling
+           - <span>أفهم أن هذا إعداد محلي تجريبي ولا يصرح بأي اتصال …</span> intercepts pointer events
+         - retrying click action
+           - waiting 500ms
+           - waiting for element to be visible, enabled and stable
+           - element is visible, enabled and stable
+           - scrolling into view if needed
+           - done scrolling
+           - <div>…</div> from <div class="gm-setup-steps">…</div> subtree intercepts pointer events
+         - retrying click action
+           - waiting 500ms
+           - waiting for element to be visible, enabled and stable
+           - element is visible, enabled and stable
+           - scrolling into view if needed
+           - done scrolling
+           - <div>…</div> from <div class="gm-setup-steps">…</div> subtree intercepts pointer events
+         - retrying click action
+           - waiting 500ms
+        - waiting for element to be visible, enabled and stable
+        - element is visible, enabled and stable
+        - scrolling into view if needed
+        - done scrolling
+        - <div>…</div> from <div class="gm-setup-steps">…</div> subtree intercepts pointer events
+      - retrying click action
+        - waiting 500ms
+        - waiting for element to be visible, enabled and stable
+
+
+      12 | async function snapshot(page:Page):Promise<DemoState>{return page.evaluate(key=>JSON.parse(localStorage.getItem(key)!),key);}
+      13 | async function prepare(page:Page,locale:string,id='property-finder'){
+    > 14 |  await page.goto(`/${locale}/workspace/hub/connectors/${id}`);await page.getByRole('checkbox').check();await page.getByRole('button',{name:'Prepare demo connector'}).click();
+         |                                                                                                ^
+      15 | }
+      16 | async function publish(page:Page,locale='en',id='AQ-10233'){
+      17 |  const next=locale==='ar'?'متابعة':'Continue';
+        at prepare (/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/connector-hub.spec.ts:14:96)
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/connector-hub.spec.ts:74:3
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/connector-hub-connector-sm-47d92-llation-and-filters-persist-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/connector-hub-connector-sm-47d92-llation-and-filters-persist-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/connector-hub-connector-sm-47d92-llation-and-filters-persist-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/connector-hub-connector-sm-47d92-llation-and-filters-persist-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [mobile-chromium] › tests/e2e/connector-hub.spec.ts:80:2 › connector ar: property revision invalidates workbench and retry approval across tabs 
+
+    Test timeout of 60000ms exceeded.
+
+    Error: locator.check: Test timeout of 60000ms exceeded.
+    Call log:
+      - waiting for getByRole('checkbox')
+        - locator resolved to <input type="checkbox"/>
+      - attempting click action
+        - waiting for element to be visible, enabled and stable
+        - element is visible, enabled and stable
+        - scrolling into view if needed
+        - done scrolling
+        - <div>…</div> from <div class="gm-setup-steps">…</div> subtree intercepts pointer events
+      - retrying click action
+        - waiting for element to be visible, enabled and stable
+        - element is visible, enabled and stable
+        - scrolling into view if needed
+        - done scrolling
+        - <span class="px-pill px-pill-warning">…</span> from <div class="gm-setup-steps">…</div> subtree intercepts pointer events
+      - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <div>…</div> from <div class="gm-setup-steps">…</div> subtree intercepts pointer events
+        - retrying click action
+          - waiting 100ms
+        28 × waiting for element to be visible, enabled and stable
+           - element is visible, enabled and stable
+           - scrolling into view if needed
+           - done scrolling
+           - <div>…</div> from <div class="gm-setup-steps">…</div> subtree intercepts pointer events
+         - retrying click action
+           - waiting 500ms
+           - waiting for element to be visible, enabled and stable
+           - element is visible, enabled and stable
+           - scrolling into view if needed
+           - done scrolling
+           - <span>أفهم أن هذا إعداد محلي تجريبي ولا يصرح بأي اتصال …</span> intercepts pointer events
+         - retrying click action
+           - waiting 500ms
+           - waiting for element to be visible, enabled and stable
+           - element is visible, enabled and stable
+           - scrolling into view if needed
+           - done scrolling
+           - <div>…</div> from <div class="gm-setup-steps">…</div> subtree intercepts pointer events
+         - retrying click action
+           - waiting 500ms
+           - waiting for element to be visible, enabled and stable
+           - element is visible, enabled and stable
+           - scrolling into view if needed
+           - done scrolling
+           - <div>…</div> from <div class="gm-setup-steps">…</div> subtree intercepts pointer events
+         - retrying click action
+           - waiting 500ms
+        - waiting for element to be visible, enabled and stable
+        - element is visible, enabled and stable
+        - scrolling into view if needed
+        - done scrolling
+        - <div>…</div> from <div class="gm-setup-steps">…</div> subtree intercepts pointer events
+      - retrying click action
+        - waiting 500ms
+        - waiting for element to be visible, enabled and stable
+        - element is visible, enabled and stable
+        - scrolling into view if needed
+        - done scrolling
+        - <span>أفهم أن هذا إعداد محلي تجريبي ولا يصرح بأي اتصال …</span> intercepts pointer events
+      - retrying click action
+        - waiting 500ms
+        - waiting for element to be visible, enabled and stable
+        - element is visible, enabled and stable
+        - scrolling into view if needed
+        - done scrolling
+        - <div>…</div> from <div class="gm-setup-steps">…</div> subtree intercepts pointer events
+      - retrying click action
+        - waiting 500ms
+        - waiting for element to be visible, enabled and stable
+
+
+      12 | async function snapshot(page:Page):Promise<DemoState>{return page.evaluate(key=>JSON.parse(localStorage.getItem(key)!),key);}
+      13 | async function prepare(page:Page,locale:string,id='property-finder'){
+    > 14 |  await page.goto(`/${locale}/workspace/hub/connectors/${id}`);await page.getByRole('checkbox').check();await page.getByRole('button',{name:'Prepare demo connector'}).click();
+         |                                                                                                ^
+      15 | }
+      16 | async function publish(page:Page,locale='en',id='AQ-10233'){
+      17 |  const next=locale==='ar'?'متابعة':'Continue';
+        at prepare (/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/connector-hub.spec.ts:14:96)
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/connector-hub.spec.ts:81:26
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/connector-hub-connector-ar-46345--retry-approval-across-tabs-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/connector-hub-connector-ar-46345--retry-approval-across-tabs-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/connector-hub-connector-ar-46345--retry-approval-across-tabs-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/connector-hub-connector-ar-46345--retry-approval-across-tabs-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [mobile-chromium] › tests/e2e/connector-hub.spec.ts:85:2 › connector ar: responsive sections and keyboard controls at required widths 
+
+    Error: expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 376
+    Received:    594
+
+      21 | async function capture(page:Page,name:string){
+      22 |  await page.evaluate(()=>document.fonts.ready);await page.screenshot({path:resolve(`../../artifacts/phase2/screenshots/${name}.png`),fullPage:true,scale:'css'});
+    > 23 |  expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBeLessThanOrEqual(page.viewportSize()!.width+1);
+         |                                                                        ^
+      24 | }
+      25 |
+      26 | test('internal export contracts handle invalid values, Unicode, XML controls and CSV formulas',async()=>{
+        at capture (/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/connector-hub.spec.ts:23:72)
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/connector-hub.spec.ts:88:356
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/connector-hub-connector-ar-cce81-controls-at-required-widths-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/connector-hub-connector-ar-cce81-controls-at-required-widths-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/connector-hub-connector-ar-cce81-controls-at-required-widths-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/connector-hub-connector-ar-cce81-controls-at-required-widths-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  7) [mobile-chromium] › tests/e2e/connector-hub.spec.ts:93:1 › corrupt connector state recovers valid properties and excludes malformed job attempts 
+
+    Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3106/en/workspace/hub/connectors/property-finder
+    Call log:
+      - navigating to "http://127.0.0.1:3106/en/workspace/hub/connectors/property-finder", waiting until "load"
+
+
+      12 | async function snapshot(page:Page):Promise<DemoState>{return page.evaluate(key=>JSON.parse(localStorage.getItem(key)!),key);}
+      13 | async function prepare(page:Page,locale:string,id='property-finder'){
+    > 14 |  await page.goto(`/${locale}/workspace/hub/connectors/${id}`);await page.getByRole('checkbox').check();await page.getByRole('button',{name:'Prepare demo connector'}).click();
+         |             ^
+      15 | }
+      16 | async function publish(page:Page,locale='en',id='AQ-10233'){
+      17 |  const next=locale==='ar'?'متابعة':'Continue';
+        at prepare (/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/connector-hub.spec.ts:14:13)
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/connector-hub.spec.ts:94:8
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/connector-hub-corrupt-conn-d76c0-udes-malformed-job-attempts-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/connector-hub-corrupt-conn-d76c0-udes-malformed-job-attempts-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/connector-hub-corrupt-conn-d76c0-udes-malformed-job-attempts-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/connector-hub-corrupt-conn-d76c0-udes-malformed-job-attempts-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  7 failed
+    [mobile-chromium] › tests/e2e/connector-hub.spec.ts:53:2 › connector smoke en: directory filtering, setup, removal and eligibility 
+    [mobile-chromium] › tests/e2e/connector-hub.spec.ts:85:2 › connector en: responsive sections and keyboard controls at required widths 
+    [mobile-chromium] › tests/e2e/connector-hub.spec.ts:53:2 › connector smoke ar: directory filtering, setup, removal and eligibility 
+    [mobile-chromium] › tests/e2e/connector-hub.spec.ts:72:2 › connector smoke ar: blocked retry revalidates, correction queues, cancellation and filters persist 
+    [mobile-chromium] › tests/e2e/connector-hub.spec.ts:80:2 › connector ar: property revision invalidates workbench and retry approval across tabs 
+    [mobile-chromium] › tests/e2e/connector-hub.spec.ts:85:2 › connector ar: responsive sections and keyboard controls at required widths 
+    [mobile-chromium] › tests/e2e/connector-hub.spec.ts:93:1 › corrupt connector state recovers valid properties and excludes malformed job attempts 
+  21 passed (3.9m)
+ ELIFECYCLE  Command failed with exit code 1.

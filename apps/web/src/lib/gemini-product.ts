@@ -5,7 +5,18 @@ import {listings} from './prototype-data';
  */
 export type ConnectorId = 'property-finder' | 'qatar-living' | 'bayut-dubizzle' | 'meta-catalog' | 'google-ads' | 'ga4' | 'whatsapp' | 'ai-copy';
 export type ConnectorCategory = 'Property portals' | 'Marketing' | 'Analytics' | 'Communications' | 'AI';
+export type FeedFormat = 'xml' | 'json' | 'csv';
 export interface ConnectorDefinition {
+  region: string;
+  eligibility: 'demo-eligible' | 'confirmation-required';
+  operations: string[];
+  permissions: string[];
+  formats: FeedFormat[];
+  mappingVersion: string;
+  validationPolicy: string;
+  entitlement: 'portal-quota' | 'pro-or-agency' | 'planning-only';
+  contractStatus: 'unverified';
+  remoteConnectivity: 'none';
   id: ConnectorId;
   name: string;
   category: ConnectorCategory;
@@ -15,7 +26,7 @@ export interface ConnectorDefinition {
   demoFields: string[];
   agreement: string;
 }
-export const connectorCatalog: ConnectorDefinition[] = [
+const baseConnectors: Omit<ConnectorDefinition,'region'|'eligibility'|'operations'|'permissions'|'formats'|'mappingVersion'|'validationPolicy'|'entitlement'|'contractStatus'|'remoteConnectivity'>[] = [
   {id:'property-finder',name:'Property Finder',category:'Property portals',type:'Partner API / feed',summary:'Syndication through an authorized enterprise integration or contracted feed.',prerequisites:['Partner onboarding and access','Listing mapping and compliance checks','Test listing accepted by partner'],demoFields:['English title','Price','Property type','Coordinates','Permit','Photos'],agreement:'Requires approved partner access; API/feed availability must be confirmed.'},
   {id:'qatar-living',name:'Qatar Living',category:'Property portals',type:'Business feed (subject to agreement)',summary:'Prepare a Qatar Living-compatible listing feed after verifying the available partner interface.',prerequisites:['Business publishing agreement','Approved transport and schema','Advertiser authorization'],demoFields:['Category','Price','Location','Description','Contact preferences'],agreement:'Do not assume API or scraping permission. Confirm partner access first.'},
   {id:'bayut-dubizzle',name:'Bayut / Dubizzle',category:'Property portals',type:'Partner feed (subject to region)',summary:'Prepare destination mappings only where the organization and geography are eligible.',prerequisites:['Country and account eligibility','Approved partner credentials','Schema and publishing contract'],demoFields:['Property type','Price','Location','Listing media'],agreement:'Country availability, licensing and publishing entitlement are unverified.'},
@@ -25,6 +36,11 @@ export const connectorCatalog: ConnectorDefinition[] = [
   {id:'whatsapp',name:'WhatsApp Business',category:'Communications',type:'Official Cloud API / BSP',summary:'Opted-in messaging, inbound webhooks and human-managed lead follow-up.',prerequisites:['Verified business number','Webhook and template approval','Consent and opt-out workflow'],demoFields:['Listing link','User opt-in','Template status','Conversation context'],agreement:'Only official WhatsApp Business Platform integrations are permitted.'},
   {id:'ai-copy',name:'AI copy & media assistant',category:'AI',type:'Server-side provider adapter',summary:'Grounded English/Arabic listing drafts and optional media transformations.',prerequisites:['Approved AI provider and data policy','Human factual review','Per-plan credit budget'],demoFields:['Verified listing facts','Language','Draft text','Edit history'],agreement:'No model is connected in this prototype; suggestions remain non-authoritative.'}
 ];
+/** Internal demo capabilities only; proposed transports above are not verified partner support. */
+export const connectorCatalog: ConnectorDefinition[] = baseConnectors.map(c=>{
+ const outbound=['property-finder','qatar-living','bayut-dubizzle','meta-catalog'].includes(c.id);
+ return {...c,region:c.id==='qatar-living'?'Qatar':c.id==='bayut-dubizzle'?'Country eligibility pending':'Qatar / GCC concept; account review required',eligibility:c.id==='bayut-dubizzle'?'confirmation-required':'demo-eligible',operations:outbound?['Normalize property','Preview illustrative mapping','Validate example policy','Queue local simulation']:['Prepare local configuration','Review planned permissions'],permissions:outbound?['Organization publishing authorization (unverified)','Partner schema and transport approval (pending)']:['Account owner approval (pending)','Approved scopes and consent policy (pending)'],formats:outbound?['xml','json','csv']:[],mappingVersion:outbound?`internal-${c.id}-2.0`:'planning-1.0',validationPolicy:outbound?'Canonical facts, bilingual review, media and illustrative required fields; not official provider rules.':'Planning only; no publishing adapter in this prototype.',entitlement:c.category==='Property portals'?'portal-quota':c.id==='meta-catalog'?'pro-or-agency':'planning-only',contractStatus:'unverified',remoteConnectivity:'none'};
+});
 export type PlanId='starter'|'pro'|'agency';
 export interface PlanDefinition {id:PlanId;label:string;monthlyQar:number|null;listingLimit:number|null;connectorLimit:number|null;aiCredits:number|null;seats:number|null;audience:string;}
 export const geminiPlans:PlanDefinition[]=[

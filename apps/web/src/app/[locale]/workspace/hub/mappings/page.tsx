@@ -1,2 +1,3 @@
 import {MappingLibrary} from '@/components/gemini/distribution';
-export default function Page(){return <MappingLibrary/>;}
+import {Suspense} from 'react';
+export default function Page(){return <Suspense fallback={<p>Loading local records…</p>}><MappingLibrary/></Suspense>;}

@@ -1,0 +1,29 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test connector-hub.spec.ts --grep 'connector smoke' --workers=2
+
+[WebServer] (node:2348) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:2363) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 12 tests using 2 workers
+
+(node:2378) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2379) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/e2e/connector-hub.spec.ts:65:2 › connector smoke en: directory filtering, setup, removal and eligibility (1.6s)
+  ✓   2 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:65:2 › connector smoke en: directory filtering, setup, removal and eligibility (1.6s)
+  ✓   3 [chromium] › tests/e2e/connector-hub.spec.ts:73:2 › connector smoke en: newly created property drives escaped XML JSON CSV and downloads (1.4s)
+  ✓   4 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:73:2 › connector smoke en: newly created property drives escaped XML JSON CSV and downloads (1.6s)
+  ✓   5 [chromium] › tests/e2e/connector-hub.spec.ts:84:2 › connector smoke en: blocked retry revalidates, correction queues, cancellation and filters persist (1.6s)
+  ✓   6 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:84:2 › connector smoke en: blocked retry revalidates, correction queues, cancellation and filters persist (2.0s)
+  ✓   7 [chromium] › tests/e2e/connector-hub.spec.ts:65:2 › connector smoke ar: directory filtering, setup, removal and eligibility (1.3s)
+  ✓   8 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:65:2 › connector smoke ar: directory filtering, setup, removal and eligibility (1.2s)
+  ✓   9 [chromium] › tests/e2e/connector-hub.spec.ts:73:2 › connector smoke ar: newly created property drives escaped XML JSON CSV and downloads (1.4s)
+  ✓  10 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:73:2 › connector smoke ar: newly created property drives escaped XML JSON CSV and downloads (1.5s)
+  ✓  11 [chromium] › tests/e2e/connector-hub.spec.ts:84:2 › connector smoke ar: blocked retry revalidates, correction queues, cancellation and filters persist (1.3s)
+  ✓  12 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:84:2 › connector smoke ar: blocked retry revalidates, correction queues, cancellation and filters persist (1.6s)
+
+  12 passed (11.1s)

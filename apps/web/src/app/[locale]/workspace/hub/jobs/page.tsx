@@ -1,2 +1,3 @@
 import {PublishingActivity} from '@/components/gemini/distribution';
-export default function Page(){return <PublishingActivity/>;}
+import {Suspense} from 'react';
+export default function Page(){return <Suspense fallback={<p>Loading local records…</p>}><PublishingActivity/></Suspense>;}

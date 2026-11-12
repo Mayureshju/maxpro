@@ -1,5 +1,5 @@
 import {blankFacts,demoOrganizationId,roomCategories,sampleMedia,type CanonicalProperty,type DemoJob} from './canonical-property';
-import {connectorCatalog,type CanonicalDraft,type ConnectorId} from './gemini-product';
+import {connectorCatalog,getConnector,type CanonicalDraft,type ConnectorId} from './gemini-product';
 export const isRecord=(v:unknown):v is Record<string,unknown>=>typeof v==='object'&&v!==null&&!Array.isArray(v);
 export const isConnector=(v:unknown):v is ConnectorId=>connectorCatalog.some(c=>c.id===v);
 export const textValue=(v:unknown,max=12000):v is string=>typeof v==='string'&&v.length<=max;
@@ -35,10 +35,24 @@ export function readProperty(v:unknown):CanonicalProperty|null{
  for(const r of v.publications){if(!isRecord(r)||!textValue(r.jobId,100)||!isConnector(r.destination)||!integer(r.propertyRevision)||r.propertyRevision>v.revision||r.externalReference!==null)return null;publications.push({jobId:r.jobId,destination:r.destination,propertyRevision:r.propertyRevision,externalReference:null});}
  return {id:v.id,organizationId:demoOrganizationId,revision:v.revision,status:v.status as CanonicalProperty['status'],createdAt:v.createdAt,updatedAt:v.updatedAt,facts,source:{kind:s.kind as CanonicalProperty['source']['kind'],notes:s.notes,factsReviewed:s.factsReviewed,copyReviewed:s.copyReviewed,reviewedAt:s.reviewedAt as string|null},proposal:{descriptionEn:proposal.descriptionEn,descriptionAr:proposal.descriptionAr},media:media.sort((a,b)=>a.order-b.order).map((a,i)=>({...a,order:i})),watermark:v.watermark,studioStage:Number(v.studioStage),history,publications};
 }
-export function readJob(v:unknown,properties:Record<string,CanonicalProperty>,legacy=false):DemoJob|null{
- if(!isRecord(v)||!textValue(v.id,100)||!validId(v.listingId)||!Object.hasOwn(properties,v.listingId)||!isConnector(v.destination)||!['queued-demo','blocked-demo'].includes(String(v.status))||!strings(v.missing)||!date(v.at))return null;
+export function readJob(v:unknown,properties:Record<string,CanonicalProperty>,legacy=false,extended=false):DemoJob|null{
+ if(!isRecord(v)||!textValue(v.id,100)||!validId(v.listingId)||!Object.hasOwn(properties,v.listingId)||!isConnector(v.destination)||!['queued-demo','blocked-demo','cancelled-demo'].includes(String(v.status))||!strings(v.missing)||!date(v.at))return null;
  if((v.status==='queued-demo'&&v.missing.length!==0)||(v.status==='blocked-demo'&&v.missing.length===0))return null;
  const revision=legacy?properties[v.listingId].revision:v.propertyRevision;
  if(!integer(revision)||revision>properties[v.listingId].revision||(!legacy&&v.organizationId!==demoOrganizationId))return null;
- return {id:v.id,listingId:v.listingId,organizationId:demoOrganizationId,propertyRevision:revision,destination:v.destination,status:v.status as DemoJob['status'],missing:v.missing,at:v.at};
+ extended=extended&&!(v.mappingVersion===undefined&&v.attempts===undefined);
+ const status=v.status as DemoJob['status'];const mappingVersion=extended?v.mappingVersion:`legacy-${getConnector(v.destination).mappingVersion}`;
+ if(!textValue(mappingVersion,100))return null;
+ const attempts:DemoJob['attempts']=[];
+ if(extended){
+  if(!Array.isArray(v.attempts)||!v.attempts.length||v.attempts.length>100)return null;
+  for(const a of v.attempts){
+   if(!isRecord(a)||!date(a.at)||!['simulate','retry','cancel'].includes(String(a.action))||!integer(a.propertyRevision)||a.propertyRevision>properties[v.listingId].revision||!textValue(a.mappingVersion,100)||!['queued-demo','blocked-demo','cancelled-demo'].includes(String(a.status))||!strings(a.missing))return null;
+   if((a.status==='queued-demo'&&a.missing.length)||(a.status==='blocked-demo'&&!a.missing.length)||(a.action==='cancel')!==(a.status==='cancelled-demo'))return null;
+   attempts.push({at:a.at,action:a.action as 'simulate'|'retry'|'cancel',propertyRevision:a.propertyRevision,mappingVersion:a.mappingVersion,status:a.status as DemoJob['status'],missing:a.missing});
+  }
+  const last=attempts.at(-1)!;
+  if(last.at!==v.at||last.status!==status||last.propertyRevision!==revision||last.mappingVersion!==mappingVersion||JSON.stringify(last.missing)!==JSON.stringify(v.missing))return null;
+ }else attempts.push({at:v.at,action:status==='cancelled-demo'?'cancel':'simulate',propertyRevision:revision,mappingVersion,status,missing:v.missing});
+ return {id:v.id,listingId:v.listingId,organizationId:demoOrganizationId,propertyRevision:revision,destination:v.destination,status,missing:v.missing,at:v.at,mappingVersion,attempts};
 }

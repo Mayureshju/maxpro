@@ -14,7 +14,8 @@ export type CanonicalProperty={
  proposal:{descriptionEn:string;descriptionAr:string};
  media:MediaAsset[];watermark:boolean;studioStage:number;history:PropertyEvent[];publications:PublicationReference[];
 };
-export type DemoJob={id:string;listingId:string;organizationId:string;propertyRevision:number;destination:ConnectorId;status:'queued-demo'|'blocked-demo';missing:string[];at:string};
+export type JobAttempt={at:string;action:'simulate'|'retry'|'cancel';propertyRevision:number;mappingVersion:string;status:'queued-demo'|'blocked-demo'|'cancelled-demo';missing:string[]};
+export type DemoJob={id:string;listingId:string;organizationId:string;propertyRevision:number;destination:ConnectorId;status:'queued-demo'|'blocked-demo'|'cancelled-demo';missing:string[];at:string;mappingVersion:string;attempts:JobAttempt[]};
 export const blankFacts:CanonicalDraft={titleEn:'',titleAr:'',descriptionEn:'',descriptionAr:'',propertyType:'Apartment',purpose:'rent',priceQar:0,depositQar:0,cheques:1,areaSqm:0,beds:0,baths:0,city:'',district:'',latitude:'',longitude:'',permit:'',ownerApproved:false,amenities:[],rentalFrequency:'month',furnishing:'Unspecified'};
 export function newProperty(id:string,at=new Date().toISOString()):CanonicalProperty{
  return {id,organizationId:demoOrganizationId,revision:1,status:'draft',createdAt:at,updatedAt:at,facts:{...blankFacts,amenities:[]},source:{kind:'manual',notes:'',factsReviewed:false,copyReviewed:false,reviewedAt:null},proposal:{descriptionEn:'',descriptionAr:''},media:[],watermark:false,studioStage:0,history:[{revision:1,at,action:'Draft created'}],publications:[]};

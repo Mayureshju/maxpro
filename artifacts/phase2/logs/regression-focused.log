@@ -1,0 +1,421 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test --grep 'keyboard can filter|Gemini connector setup|workflow en canonical|lifecycle en canonical'
+
+
+Running 6 tests using 4 workers
+
+(node:91038) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:91036) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:91035) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:91037) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  3 [chromium] › tests/e2e/stability.spec.ts:51:2 › workflow en canonical edits, blocked and queued local dispatch (20.4s)
+  ✘  4 [mobile-chromium] › tests/e2e/stability.spec.ts:51:2 › workflow en canonical edits, blocked and queued local dispatch (20.4s)
+  ✘  1 [mobile-chromium] › tests/e2e/prototype.spec.ts:63:1 › Gemini connector setup and publishing are browser-local only (20.4s)
+  ✘  2 [chromium] › tests/e2e/prototype.spec.ts:63:1 › Gemini connector setup and publishing are browser-local only (20.4s)
+(node:91467) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:91468) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  6 [chromium] › tests/e2e/stability.spec.ts:180:1 › keyboard can filter the connector directory and enter provider setup (9.3s)
+  ✘  5 [mobile-chromium] › tests/e2e/stability.spec.ts:180:1 › keyboard can filter the connector directory and enter provider setup (9.4s)
+
+
+  1) [chromium] › tests/e2e/prototype.spec.ts:63:1 › Gemini connector setup and publishing are browser-local only 
+
+    Test timeout of 20000ms exceeded.
+
+    Error: Unexpected browser errors
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  -  1
+    + Received  + 11
+
+    - Array []
+    + Array [
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=fJZty4ayY-FgXNN7u6yCU' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=fJZty4ayY-FgXNN7u6yCU' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=fJZty4ayY-FgXNN7u6yCU' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=fJZty4ayY-FgXNN7u6yCU' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=fJZty4ayY-FgXNN7u6yCU' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=fJZty4ayY-FgXNN7u6yCU' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=fJZty4ayY-FgXNN7u6yCU' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=fJZty4ayY-FgXNN7u6yCU' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    + ]
+
+       at fixtures.ts:10
+
+       8 |   page.on('console',message=>{if(message.type()==='error')errors.push(message.text());});
+       9 |   await use();
+    > 10 |   expect(errors,'Unexpected browser errors').toEqual([]);
+         |                                              ^
+      11 |  },{auto:true}],
+      12 | });
+      13 | export {expect};
+        at Object.exports.test._test.test.extend.browserErrors.auto (/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/fixtures.ts:10:46)
+
+    Error: locator.check: Test timeout of 20000ms exceeded.
+    Call log:
+      - waiting for getByRole('checkbox')
+
+
+      64 |  for(const name of ['property-finder','qatar-living']){
+      65 |   await page.goto(`/en/workspace/hub/connectors/${name}`);
+    > 66 |   await page.getByRole('checkbox').check();
+         |                                    ^
+      67 |   await page.getByRole('button',{name:/Prepare demo connector/}).click();
+      68 |   await expect(page.getByText('Local demo setup recorded')).toBeVisible();
+      69 |  }
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/prototype.spec.ts:66:36
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/prototype-Gemini-connector-3f3dd-hing-are-browser-local-only-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/prototype-Gemini-connector-3f3dd-hing-are-browser-local-only-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/prototype-Gemini-connector-3f3dd-hing-are-browser-local-only-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/prototype-Gemini-connector-3f3dd-hing-are-browser-local-only-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/e2e/stability.spec.ts:51:2 › workflow en canonical edits, blocked and queued local dispatch 
+
+    Test timeout of 20000ms exceeded.
+
+    Error: Unexpected browser errors
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  -  1
+    + Received  + 11
+
+    - Array []
+    + Array [
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=ME5QXlbnygPjPft_9nr30' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=ME5QXlbnygPjPft_9nr30' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=ME5QXlbnygPjPft_9nr30' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=ME5QXlbnygPjPft_9nr30' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=ME5QXlbnygPjPft_9nr30' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=ME5QXlbnygPjPft_9nr30' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=ME5QXlbnygPjPft_9nr30' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=ME5QXlbnygPjPft_9nr30' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    + ]
+
+       at fixtures.ts:10
+
+       8 |   page.on('console',message=>{if(message.type()==='error')errors.push(message.text());});
+       9 |   await use();
+    > 10 |   expect(errors,'Unexpected browser errors').toEqual([]);
+         |                                              ^
+      11 |  },{auto:true}],
+      12 | });
+      13 | export {expect};
+        at Object.exports.test._test.test.extend.browserErrors.auto (/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/fixtures.ts:10:46)
+
+    Error: locator.check: Test timeout of 20000ms exceeded.
+    Call log:
+      - waiting for getByRole('checkbox')
+
+
+      54 |   for(const connector of ['property-finder','qatar-living']){
+      55 |    await page.goto(`/${locale}/workspace/hub/connectors/${connector}`);
+    > 56 |    await page.getByRole('checkbox').check();
+         |                                     ^
+      57 |    await page.getByRole('button',{name:/Prepare demo connector/}).click();
+      58 |   }
+      59 |   await page.goto(`/${locale}/workspace/inventory/AQ-10233/edit`);
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/stability.spec.ts:56:37
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/stability-workflow-en-cano-9e3f7-d-and-queued-local-dispatch-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/stability-workflow-en-cano-9e3f7-d-and-queued-local-dispatch-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/stability-workflow-en-cano-9e3f7-d-and-queued-local-dispatch-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/stability-workflow-en-cano-9e3f7-d-and-queued-local-dispatch-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [chromium] › tests/e2e/stability.spec.ts:180:1 › keyboard can filter the connector directory and enter provider setup 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('.gm-market-row')
+    Expected: 1
+    Received: 8
+    Timeout:  8000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('.gm-market-row') with timeout 8000ms
+      - waiting for locator('.gm-market-row')
+        20 × locator resolved to 8 elements
+           - unexpected value "8"
+
+
+      186 |  await page.keyboard.press('Enter');
+      187 |  const provider=page.locator('.gm-market-row');
+    > 188 |  await expect(provider).toHaveCount(1);
+          |                         ^
+      189 |  await provider.focus();
+      190 |  await page.keyboard.press('Enter');
+      191 |  await expect(page.locator('h1')).toHaveText('Property Finder');
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/stability.spec.ts:188:25
+
+    Error: Unexpected browser errors
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 8
+
+    - Array []
+    + Array [
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=phjZfZDd2XHomfp3y6UMJ' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=phjZfZDd2XHomfp3y6UMJ' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=phjZfZDd2XHomfp3y6UMJ' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=phjZfZDd2XHomfp3y6UMJ' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=phjZfZDd2XHomfp3y6UMJ' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=phjZfZDd2XHomfp3y6UMJ' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    + ]
+
+       at fixtures.ts:10
+
+       8 |   page.on('console',message=>{if(message.type()==='error')errors.push(message.text());});
+       9 |   await use();
+    > 10 |   expect(errors,'Unexpected browser errors').toEqual([]);
+         |                                              ^
+      11 |  },{auto:true}],
+      12 | });
+      13 | export {expect};
+        at Object.exports.test._test.test.extend.browserErrors.auto (/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/fixtures.ts:10:46)
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/stability-keyboard-can-fil-5f181-ry-and-enter-provider-setup-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/stability-keyboard-can-fil-5f181-ry-and-enter-provider-setup-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/stability-keyboard-can-fil-5f181-ry-and-enter-provider-setup-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/stability-keyboard-can-fil-5f181-ry-and-enter-provider-setup-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [mobile-chromium] › tests/e2e/prototype.spec.ts:63:1 › Gemini connector setup and publishing are browser-local only 
+
+    Test timeout of 20000ms exceeded.
+
+    Error: Unexpected browser errors
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  -  1
+    + Received  + 11
+
+    - Array []
+    + Array [
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=k475cW8JbbvyEDUHEKLd_' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=k475cW8JbbvyEDUHEKLd_' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=k475cW8JbbvyEDUHEKLd_' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=k475cW8JbbvyEDUHEKLd_' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=k475cW8JbbvyEDUHEKLd_' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=k475cW8JbbvyEDUHEKLd_' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=k475cW8JbbvyEDUHEKLd_' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=k475cW8JbbvyEDUHEKLd_' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    + ]
+
+       at fixtures.ts:10
+
+       8 |   page.on('console',message=>{if(message.type()==='error')errors.push(message.text());});
+       9 |   await use();
+    > 10 |   expect(errors,'Unexpected browser errors').toEqual([]);
+         |                                              ^
+      11 |  },{auto:true}],
+      12 | });
+      13 | export {expect};
+        at Object.exports.test._test.test.extend.browserErrors.auto (/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/fixtures.ts:10:46)
+
+    Error: locator.check: Test timeout of 20000ms exceeded.
+    Call log:
+      - waiting for getByRole('checkbox')
+
+
+      64 |  for(const name of ['property-finder','qatar-living']){
+      65 |   await page.goto(`/en/workspace/hub/connectors/${name}`);
+    > 66 |   await page.getByRole('checkbox').check();
+         |                                    ^
+      67 |   await page.getByRole('button',{name:/Prepare demo connector/}).click();
+      68 |   await expect(page.getByText('Local demo setup recorded')).toBeVisible();
+      69 |  }
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/prototype.spec.ts:66:36
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/prototype-Gemini-connector-3f3dd-hing-are-browser-local-only-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/prototype-Gemini-connector-3f3dd-hing-are-browser-local-only-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/prototype-Gemini-connector-3f3dd-hing-are-browser-local-only-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/prototype-Gemini-connector-3f3dd-hing-are-browser-local-only-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [mobile-chromium] › tests/e2e/stability.spec.ts:51:2 › workflow en canonical edits, blocked and queued local dispatch 
+
+    Test timeout of 20000ms exceeded.
+
+    Error: Unexpected browser errors
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  -  1
+    + Received  + 11
+
+    - Array []
+    + Array [
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=DD-KwJ9ABaj6ZpMHI6AMK' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=DD-KwJ9ABaj6ZpMHI6AMK' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=DD-KwJ9ABaj6ZpMHI6AMK' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=DD-KwJ9ABaj6ZpMHI6AMK' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=DD-KwJ9ABaj6ZpMHI6AMK' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=DD-KwJ9ABaj6ZpMHI6AMK' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=DD-KwJ9ABaj6ZpMHI6AMK' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=DD-KwJ9ABaj6ZpMHI6AMK' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    + ]
+
+       at fixtures.ts:10
+
+       8 |   page.on('console',message=>{if(message.type()==='error')errors.push(message.text());});
+       9 |   await use();
+    > 10 |   expect(errors,'Unexpected browser errors').toEqual([]);
+         |                                              ^
+      11 |  },{auto:true}],
+      12 | });
+      13 | export {expect};
+        at Object.exports.test._test.test.extend.browserErrors.auto (/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/fixtures.ts:10:46)
+
+    Error: locator.check: Test timeout of 20000ms exceeded.
+    Call log:
+      - waiting for getByRole('checkbox')
+
+
+      54 |   for(const connector of ['property-finder','qatar-living']){
+      55 |    await page.goto(`/${locale}/workspace/hub/connectors/${connector}`);
+    > 56 |    await page.getByRole('checkbox').check();
+         |                                     ^
+      57 |    await page.getByRole('button',{name:/Prepare demo connector/}).click();
+      58 |   }
+      59 |   await page.goto(`/${locale}/workspace/inventory/AQ-10233/edit`);
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/stability.spec.ts:56:37
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/stability-workflow-en-cano-9e3f7-d-and-queued-local-dispatch-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/stability-workflow-en-cano-9e3f7-d-and-queued-local-dispatch-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/stability-workflow-en-cano-9e3f7-d-and-queued-local-dispatch-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/stability-workflow-en-cano-9e3f7-d-and-queued-local-dispatch-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [mobile-chromium] › tests/e2e/stability.spec.ts:180:1 › keyboard can filter the connector directory and enter provider setup 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('.gm-market-row')
+    Expected: 1
+    Received: 8
+    Timeout:  8000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('.gm-market-row') with timeout 8000ms
+      - waiting for locator('.gm-market-row')
+        20 × locator resolved to 8 elements
+           - unexpected value "8"
+
+
+      186 |  await page.keyboard.press('Enter');
+      187 |  const provider=page.locator('.gm-market-row');
+    > 188 |  await expect(provider).toHaveCount(1);
+          |                         ^
+      189 |  await provider.focus();
+      190 |  await page.keyboard.press('Enter');
+      191 |  await expect(page.locator('h1')).toHaveText('Property Finder');
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/stability.spec.ts:188:25
+
+    Error: Unexpected browser errors
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 8
+
+    - Array []
+    + Array [
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=s81yWyAf8KChVd2UbZRSG' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=s81yWyAf8KChVd2UbZRSG' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=s81yWyAf8KChVd2UbZRSG' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=s81yWyAf8KChVd2UbZRSG' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=s81yWyAf8KChVd2UbZRSG' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    +   "WebSocket connection to 'ws://127.0.0.1:3000/_next/hmr?id=s81yWyAf8KChVd2UbZRSG' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE",
+    + ]
+
+       at fixtures.ts:10
+
+       8 |   page.on('console',message=>{if(message.type()==='error')errors.push(message.text());});
+       9 |   await use();
+    > 10 |   expect(errors,'Unexpected browser errors').toEqual([]);
+         |                                              ^
+      11 |  },{auto:true}],
+      12 | });
+      13 | export {expect};
+        at Object.exports.test._test.test.extend.browserErrors.auto (/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/fixtures.ts:10:46)
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/stability-keyboard-can-fil-5f181-ry-and-enter-provider-setup-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/stability-keyboard-can-fil-5f181-ry-and-enter-provider-setup-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/stability-keyboard-can-fil-5f181-ry-and-enter-provider-setup-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/stability-keyboard-can-fil-5f181-ry-and-enter-provider-setup-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6 failed
+    [chromium] › tests/e2e/prototype.spec.ts:63:1 › Gemini connector setup and publishing are browser-local only 
+    [chromium] › tests/e2e/stability.spec.ts:51:2 › workflow en canonical edits, blocked and queued local dispatch 
+    [chromium] › tests/e2e/stability.spec.ts:180:1 › keyboard can filter the connector directory and enter provider setup 
+    [mobile-chromium] › tests/e2e/prototype.spec.ts:63:1 › Gemini connector setup and publishing are browser-local only 
+    [mobile-chromium] › tests/e2e/stability.spec.ts:51:2 › workflow en canonical edits, blocked and queued local dispatch 
+    [mobile-chromium] › tests/e2e/stability.spec.ts:180:1 › keyboard can filter the connector directory and enter provider setup 
+ ELIFECYCLE  Command failed with exit code 1.

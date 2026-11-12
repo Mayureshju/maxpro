@@ -1,0 +1,859 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test
+
+[WebServer] (node:97192) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:97207) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 576 tests using 4 workers
+
+(node:97224) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97225) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97226) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97223) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓    4 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/ responds and renders (1.5s)
+  ✓    3 [chromium] › tests/e2e/connector-hub.spec.ts:26:1 › internal export contracts handle invalid values, Unicode, XML controls and CSV formulas (1.7s)
+  ✓    1 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en renders a page heading (1.8s)
+  ✓    5 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/about responds and renders (391ms)
+  ✓    6 [chromium] › tests/e2e/connector-hub.spec.ts:36:1 › command guards reject stale approval, unsupported destinations, missing approval and quota bypass (267ms)
+  ✓    9 [chromium] › tests/e2e/connector-hub.spec.ts:45:1 › job migration retains old local history and rejects forged or corrupt attempt metadata (382ms)
+  ✓    8 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/agencies responds and renders (564ms)
+  ✓    7 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/properties renders a page heading (996ms)
+  ✓   12 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/properties/AQ-10231 renders a page heading (859ms)
+  ✓   11 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/compare responds and renders (1.3s)
+  ✓   13 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/pricing renders a page heading (424ms)
+  ✓   14 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/contact responds and renders (509ms)
+  ✓   15 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/solutions renders a page heading (436ms)
+  ✓   10 [chromium] › tests/e2e/connector-hub.spec.ts:53:2 › connector smoke en: directory filtering, setup, removal and eligibility (2.3s)
+  ✓   16 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/faq responds and renders (482ms)
+  ✓   17 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/favorites renders a page heading (589ms)
+  ✓   19 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/favorites responds and renders (663ms)
+  ✓   20 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/compare renders a page heading (683ms)
+  ✓   21 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/map responds and renders (835ms)
+  ✓   22 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/map renders a page heading (685ms)
+  ✓   23 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/pricing responds and renders (376ms)
+  ✓   18 [chromium] › tests/e2e/connector-hub.spec.ts:61:2 › connector smoke en: newly created property drives escaped XML JSON CSV and downloads (2.0s)
+  ✓   24 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace renders a page heading (362ms)
+  ✓   25 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/privacy responds and renders (449ms)
+  ✓    2 [chromium] › tests/e2e/lifecycle.spec.ts:35:2 › lifecycle en create, resume, review, media and per-destination history (7.2s)
+  ✓   27 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/publish renders a page heading (617ms)
+  ✓   28 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/properties responds and renders (794ms)
+  ✓   30 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/inventory renders a page heading (547ms)
+  ✓   31 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/register responds and renders (512ms)
+  ✓   32 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/inventory/AQ-10231 renders a page heading (625ms)
+  ✓   33 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/resources responds and renders (598ms)
+  ✓   26 [chromium] › tests/e2e/connector-hub.spec.ts:72:2 › connector smoke en: blocked retry revalidates, correction queues, cancellation and filters persist (2.5s)
+  ✓   34 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/inventory/AQ-10231/edit renders a page heading (584ms)
+  ✓   29 [chromium] › tests/e2e/lifecycle.spec.ts:116:2 › lifecycle en invalid IDs never fall back to a sample (2.3s)
+  ✓   35 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/saved-searches responds and renders (407ms)
+  ✓   37 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/studio renders a page heading (489ms)
+  ✓   39 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/sign-in responds and renders (735ms)
+  ✓   40 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/hub renders a page heading (469ms)
+  ✓   41 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/solutions responds and renders (479ms)
+  ✓   42 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/hub/jobs renders a page heading (560ms)
+  ✓   43 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/terms responds and renders (318ms)
+  ✓   44 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/hub/connectors renders a page heading (470ms)
+  ✓   45 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace responds and renders (442ms)
+  ✓   46 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/hub/marketplace renders a page heading (403ms)
+  ✓   47 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/agencies/pearl-gate-realty responds and renders (424ms)
+  ✓   36 [chromium] › tests/e2e/connector-hub.spec.ts:80:2 › connector en: property revision invalidates workbench and retry approval across tabs (2.7s)
+  ✓   48 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/hub/connectors/property-finder renders a page heading (482ms)
+  ✓   49 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/properties/AQ-10231 responds and renders (630ms)
+  ✓   51 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/hub/feeds renders a page heading (443ms)
+  ✓   52 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin responds and renders (537ms)
+  ✓   53 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/hub/mappings renders a page heading (530ms)
+  ✓   54 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/analytics responds and renders (430ms)
+  ✓   55 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/leads renders a page heading (495ms)
+  ✓   56 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/billing responds and renders (429ms)
+  ✓   57 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/leads/assignment renders a page heading (416ms)
+  ✓   58 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/campaigns responds and renders (520ms)
+  ✓   59 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/leads/viewings renders a page heading (426ms)
+  ✓   60 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/hub responds and renders (396ms)
+  ✓   61 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/leads/LE-2101 renders a page heading (377ms)
+  ✓   62 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/inbox responds and renders (389ms)
+  ✓   63 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/inbox renders a page heading (447ms)
+  ✓   50 [chromium] › tests/e2e/connector-hub.spec.ts:85:2 › connector en: responsive sections and keyboard controls at required widths (3.7s)
+  ✓   38 [chromium] › tests/e2e/lifecycle.spec.ts:35:2 › lifecycle ar create, resume, review, media and per-destination history (6.2s)
+  ✓   64 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/inventory responds and renders (485ms)
+  ✓   65 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/campaigns renders a page heading (528ms)
+  ✓   68 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/leads responds and renders (638ms)
+  ✓   69 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/campaigns/new renders a page heading (649ms)
+  ✓   70 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/notifications responds and renders (593ms)
+  ✓   71 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/integrations/ga4 renders a page heading (484ms)
+  ✓   72 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/publish responds and renders (447ms)
+  ✓   73 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/integrations/google-ads renders a page heading (461ms)
+  ✓   66 [chromium] › tests/e2e/connector-hub.spec.ts:53:2 › connector smoke ar: directory filtering, setup, removal and eligibility (2.1s)
+  ✓   74 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/settings responds and renders (425ms)
+  ✓   67 [chromium] › tests/e2e/lifecycle.spec.ts:116:2 › lifecycle ar invalid IDs never fall back to a sample (2.5s)
+  ✓   75 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/integrations/meta-catalog renders a page heading (528ms)
+  ✓   77 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/studio responds and renders (507ms)
+  ✓   79 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/integrations/whatsapp renders a page heading (430ms)
+  ✓   78 [chromium] › tests/e2e/lifecycle.spec.ts:123:1 › arbitrary Studio input and document selection never fabricate extracted property facts (788ms)
+  ✓   80 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/team responds and renders (588ms)
+  ✓   81 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/analytics renders a page heading (420ms)
+  ✓   83 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/verification responds and renders (416ms)
+  ✓   76 [chromium] › tests/e2e/connector-hub.spec.ts:61:2 › connector smoke ar: newly created property drives escaped XML JSON CSV and downloads (1.8s)
+  ✓   84 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/team renders a page heading (495ms)
+  ✓   85 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin/audit responds and renders (439ms)
+  ✓   87 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/billing renders a page heading (472ms)
+  ✓   82 [chromium] › tests/e2e/lifecycle.spec.ts:131:1 › file metadata persists without binary or blob URLs and changes actual media checks (1.2s)
+  ✓   88 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin/cms responds and renders (395ms)
+  ✓   89 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/billing/invoices renders a page heading (401ms)
+  ✓   91 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin/connector-health responds and renders (557ms)
+  ✓   92 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/verification renders a page heading (407ms)
+  ✓   94 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/settings renders a page heading (434ms)
+  ✓   86 [chromium] › tests/e2e/connector-hub.spec.ts:72:2 › connector smoke ar: blocked retry revalidates, correction queues, cancellation and filters persist (1.9s)
+  ✓   90 [chromium] › tests/e2e/lifecycle.spec.ts:141:1 › fact edits invalidate review while media changes alter preflight and preserve revisions (1.2s)
+  ✓   93 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin/integrations responds and renders (657ms)
+  ✓   95 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/settings/domains renders a page heading (466ms)
+  ✓   98 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin/moderation responds and renders (479ms)
+  ✓  100 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin/plans responds and renders (376ms)
+  ✓   99 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/whatsapp/packs renders a page heading (592ms)
+  ✓   97 [chromium] › tests/e2e/lifecycle.spec.ts:151:2 › starter enforces 3 listing reservations and preserves drafts over quota (1.4s)
+  ✓  102 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/support/assistant renders a page heading (441ms)
+  ✓  101 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin/reports responds and renders (465ms)
+  ✓  105 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin/taxonomies responds and renders (468ms)
+  ✓  104 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/ads/placements renders a page heading (619ms)
+  ✓   96 [chromium] › tests/e2e/connector-hub.spec.ts:80:2 › connector ar: property revision invalidates workbench and retry approval across tabs (2.4s)
+  ✓  106 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin/users responds and renders (384ms)
+  ✓  107 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/admin renders a page heading (400ms)
+  ✓  109 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/ads/attribution responds and renders (443ms)
+  ✓  103 [chromium] › tests/e2e/lifecycle.spec.ts:151:2 › pro enforces 25 listing reservations and preserves drafts over quota (1.4s)
+  ✓  110 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/admin/connector-health renders a page heading (474ms)
+  ✓  111 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/ads/catalogue responds and renders (501ms)
+  ✓  113 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/admin/moderation renders a page heading (393ms)
+  ✓  114 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/ads/placements responds and renders (325ms)
+  ✓  115 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/admin/users renders a page heading (382ms)
+  ✓  112 [chromium] › tests/e2e/lifecycle.spec.ts:165:1 › Pro portal quota and Starter Meta entitlement are separate from draft saving (1.2s)
+  ✓  116 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/billing/dunning responds and renders (446ms)
+  ✓  117 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/admin/audit renders a page heading (398ms)
+  ✓  119 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/billing/invoices responds and renders (383ms)
+  ✓  118 [chromium] › tests/e2e/lifecycle.spec.ts:170:1 › corrupt canonical records are excluded while valid drafts and legacy edits recover (861ms)
+  ✓  120 [chromium] › tests/e2e/prototype.spec.ts:15:1 › inventory filtering and property navigation works locally (750ms)
+  ✓  121 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/campaigns/new responds and renders (561ms)
+  ✓  124 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/hub/connectors responds and renders (522ms)
+  ✓  123 [chromium] › tests/e2e/prototype.spec.ts:23:1 › studio can walk through local demo with explicit approval (953ms)
+  ✓  125 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/hub/feeds responds and renders (488ms)
+  ✓  108 [chromium] › tests/e2e/connector-hub.spec.ts:85:2 › connector ar: responsive sections and keyboard controls at required widths (3.8s)
+  ✓  122 [chromium] › tests/e2e/lifecycle.spec.ts:177:1 › changing a record in another tab rejects stale editor saves and resets publishing approval (1.3s)
+  ✓  126 [chromium] › tests/e2e/prototype.spec.ts:37:1 › Arabic routes preserve RTL (485ms)
+  ✓  127 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/hub/jobs responds and renders (361ms)
+  ✓  129 [chromium] › tests/e2e/lifecycle.spec.ts:185:1 › Studio creates a stable route and resumes saved source and proposed copy after reload (630ms)
+  ✓  131 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/hub/mappings responds and renders (571ms)
+  ✓  130 [chromium] › tests/e2e/prototype.spec.ts:43:1 › mobile workspace does not overflow and sidebar opens (903ms)
+  ✓  133 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/hub/marketplace responds and renders (399ms)
+  ✓  128 [chromium] › tests/e2e/connector-hub.spec.ts:93:1 › corrupt connector state recovers valid properties and excludes malformed job attempts (1.4s)
+  ✓  132 [chromium] › tests/e2e/lifecycle.spec.ts:189:1 › valid Phase 0 edits migrate into canonical revisions without losing source identity (663ms)
+  ✓  135 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/integrations/ga4 responds and renders (390ms)
+  ✓  138 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/integrations/google-ads responds and renders (528ms)
+  ✓  137 [chromium] › tests/e2e/lifecycle.spec.ts:195:1 › Studio refuses to overwrite facts changed by another tab (940ms)
+  ✓  139 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/integrations/meta-catalog responds and renders (302ms)
+  ✓  134 [chromium] › tests/e2e/prototype.spec.ts:53:1 › Gemini master property edit is used in preflight (1.7s)
+  ✓  140 [chromium] › tests/e2e/lifecycle.spec.ts:199:1 › portal quota includes destinations already reserved on other properties (574ms)
+  ✓  141 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/integrations/whatsapp responds and renders (392ms)
+  ✓  143 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/inventory/AQ-10231 responds and renders (432ms)
+(node:98128) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  144 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/inventory/import responds and renders (432ms)
+  ✓  146 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/inventory/new responds and renders (386ms)
+  ✓  145 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:26:1 › internal export contracts handle invalid values, Unicode, XML controls and CSV formulas (345ms)
+  ✓  147 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/leads/LE-2101 responds and renders (329ms)
+  ✓  148 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:36:1 › command guards reject stale approval, unsupported destinations, missing approval and quota bypass (176ms)
+  ✓  149 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/leads/assignment responds and renders (323ms)
+  ✓  150 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:45:1 › job migration retains old local history and rejects forged or corrupt attempt metadata (225ms)
+  ✓  136 [chromium] › tests/e2e/connector-hub.spec.ts:98:33 › connector en: correcting canonical data lets a blocked job retry at the current revision (3.5s)
+  ✓  151 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/leads/viewings responds and renders (329ms)
+  ✓  154 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/settings/domains responds and renders (352ms)
+  ✓  155 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/settings/privacy responds and renders (265ms)
+  ✓  156 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/support/assistant responds and renders (290ms)
+  ✓  152 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:53:2 › connector smoke en: directory filtering, setup, removal and eligibility (1.3s)
+  ✓  157 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/support/evaluations responds and renders (282ms)
+  ✓  159 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/support/knowledge responds and renders (310ms)
+  ✓  160 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/whatsapp/packs responds and renders (264ms)
+  ✓  161 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/whatsapp/sla responds and renders (278ms)
+  ✓  162 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/whatsapp/templates responds and renders (259ms)
+  ✓  163 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/billing/invoices/INV-2026-0419 responds and renders (248ms)
+  ✓  158 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:61:2 › connector smoke en: newly created property drives escaped XML JSON CSV and downloads (1.7s)
+  ✓  153 [chromium] › tests/e2e/connector-hub.spec.ts:98:33 › connector ar: correcting canonical data lets a blocked job retry at the current revision (3.2s)
+  ✓  164 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/hub/connectors/property-finder responds and renders (337ms)
+  ✓  166 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/inventory/AQ-10231/edit responds and renders (371ms)
+(node:98278) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  167 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/inventory/AQ-10231/enquiries responds and renders (328ms)
+  ✓  169 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/inventory/AQ-10231/media responds and renders (493ms)
+  ✓  170 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/inventory/AQ-10231/publishing responds and renders (316ms)
+  ✓  165 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:72:2 › connector smoke en: blocked retry revalidates, correction queues, cancellation and filters persist (2.1s)
+  ✓  171 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual en dashboard fits the viewport (401ms)
+  ✓  173 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual en studio fits the viewport (435ms)
+  ✓  174 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual en editor fits the viewport (354ms)
+  ✓  175 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual en media fits the viewport (317ms)
+  ✓  176 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual en marketplace fits the viewport (432ms)
+  ✓  177 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual en provider fits the viewport (415ms)
+  ✘  142 [chromium] › tests/e2e/prototype.spec.ts:63:1 › Gemini connector setup and publishing are browser-local only (9.4s)
+  ✓  178 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual en publishing fits the viewport (351ms)
+  ✓  172 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:80:2 › connector en: property revision invalidates workbench and retry approval across tabs (2.7s)
+(node:98384) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  179 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual en history fits the viewport (390ms)
+  ✓  182 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual en leads fits the viewport (637ms)
+  ✓  183 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual en routing fits the viewport (634ms)
+  ✓  181 [chromium] › tests/e2e/prototype.spec.ts:82:1 › Gemini Starter plan blocks two destination selection (1.0s)
+  ✓  180 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:85:2 › connector en: responsive sections and keyboard controls at required widths (1.9s)
+  ✓  184 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual en billing fits the viewport (549ms)
+  ✓  185 [chromium] › tests/e2e/prototype.spec.ts:91:1 › Gemini sample data and pricing do not advertise former v2 tiers (572ms)
+  ✓  187 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual en analytics fits the viewport (534ms)
+  ✓  168 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:35:2 › lifecycle en create, resume, review, media and per-destination history (6.3s)
+(node:98461) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  188 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual en admin fits the viewport (501ms)
+  ✓  186 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:53:2 › connector smoke ar: directory filtering, setup, removal and eligibility (1.8s)
+  ✓  191 [chromium] › tests/e2e/stability.spec.ts:38:2 › navigation en follows links and preserves most-specific selection (1.0s)
+  ✓  190 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en renders a page heading (1.0s)
+  ✓  189 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:116:2 › lifecycle en invalid IDs never fall back to a sample (2.1s)
+  ✓  194 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/properties renders a page heading (650ms)
+  ✓  196 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/properties/AQ-10231 renders a page heading (600ms)
+  ✓  192 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:61:2 › connector smoke ar: newly created property drives escaped XML JSON CSV and downloads (2.0s)
+  ✓  197 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/pricing renders a page heading (276ms)
+  ✓  199 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/solutions renders a page heading (295ms)
+  ✓  200 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/favorites renders a page heading (526ms)
+  ✓  201 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/compare renders a page heading (555ms)
+  ✓  202 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/map renders a page heading (360ms)
+  ✓  198 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:72:2 › connector smoke ar: blocked retry revalidates, correction queues, cancellation and filters persist (1.9s)
+  ✓  203 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace renders a page heading (368ms)
+  ✓  205 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/publish renders a page heading (378ms)
+  ✓  206 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/inventory renders a page heading (374ms)
+  ✓  207 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/inventory/AQ-10231 renders a page heading (337ms)
+  ✓  208 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/inventory/AQ-10231/edit renders a page heading (373ms)
+  ✓  209 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/studio renders a page heading (282ms)
+  ✓  195 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:35:2 › lifecycle ar create, resume, review, media and per-destination history (5.3s)
+  ✓  210 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/hub renders a page heading (314ms)
+  ✓  212 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/hub/jobs renders a page heading (326ms)
+  ✓  204 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:80:2 › connector ar: property revision invalidates workbench and retry approval across tabs (2.8s)
+  ✓  213 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/hub/connectors renders a page heading (320ms)
+  ✓  215 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/hub/marketplace renders a page heading (366ms)
+  ✓  216 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/hub/connectors/property-finder renders a page heading (353ms)
+  ✓  211 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:116:2 › lifecycle ar invalid IDs never fall back to a sample (1.5s)
+  ✓  214 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:85:2 › connector ar: responsive sections and keyboard controls at required widths (1.2s)
+  ✓  217 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/hub/feeds renders a page heading (365ms)
+  ✓  220 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/hub/mappings renders a page heading (376ms)
+  ✓  218 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:123:1 › arbitrary Studio input and document selection never fabricate extracted property facts (830ms)
+  ✓  221 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/leads renders a page heading (331ms)
+  ✓  219 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:93:1 › corrupt connector state recovers valid properties and excludes malformed job attempts (908ms)
+  ✓  223 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/leads/assignment renders a page heading (325ms)
+  ✓  222 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:131:1 › file metadata persists without binary or blob URLs and changes actual media checks (885ms)
+  ✓  225 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/leads/viewings renders a page heading (436ms)
+  ✓  227 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/leads/LE-2101 renders a page heading (320ms)
+  ✓  228 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/inbox renders a page heading (235ms)
+  ✓  229 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/campaigns renders a page heading (310ms)
+  ✓  226 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:141:1 › fact edits invalidate review while media changes alter preflight and preserve revisions (1.2s)
+  ✓  230 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/campaigns/new renders a page heading (351ms)
+  ✓  232 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/integrations/ga4 renders a page heading (381ms)
+  ✓  231 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:151:2 › starter enforces 3 listing reservations and preserves drafts over quota (825ms)
+  ✓  233 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/integrations/google-ads renders a page heading (276ms)
+  ✓  235 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/integrations/meta-catalog renders a page heading (314ms)
+  ✓  224 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:98:33 › connector en: correcting canonical data lets a blocked job retry at the current revision (3.4s)
+  ✓  236 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/integrations/whatsapp renders a page heading (472ms)
+  ✓  234 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:151:2 › pro enforces 25 listing reservations and preserves drafts over quota (950ms)
+  ✓  238 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/analytics renders a page heading (662ms)
+  ✘  193 [chromium] › tests/e2e/stability.spec.ts:51:2 › workflow en canonical edits, blocked and queued local dispatch (12.2s)
+  ✓  240 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/team renders a page heading (289ms)
+(node:98829) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  241 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/billing renders a page heading (537ms)
+  ✓  239 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:165:1 › Pro portal quota and Starter Meta entitlement are separate from draft saving (1.6s)
+  ✓  243 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/billing/invoices renders a page heading (542ms)
+  ✓  245 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/verification renders a page heading (596ms)
+  ✓  244 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:170:1 › corrupt canonical records are excluded while valid drafts and legacy edits recover (1.0s)
+  ✓  246 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/settings renders a page heading (437ms)
+  ✓  237 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:98:33 › connector ar: correcting canonical data lets a blocked job retry at the current revision (3.8s)
+  ✓  248 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/settings/domains renders a page heading (598ms)
+  ✓  249 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/whatsapp/packs renders a page heading (558ms)
+  ✓  247 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:177:1 › changing a record in another tab rejects stale editor saves and resets publishing approval (1.6s)
+  ✓  251 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/support/assistant renders a page heading (316ms)
+  ✓  250 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/ responds and renders (957ms)
+  ✓  242 [chromium] › tests/e2e/stability.spec.ts:90:2 › links en key workflow targets are valid (3.3s)
+  ✓  252 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:185:1 › Studio creates a stable route and resumes saved source and proposed copy after reload (624ms)
+  ✓  253 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/ads/placements renders a page heading (479ms)
+  ✓  254 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/about responds and renders (511ms)
+  ✓  257 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/admin renders a page heading (509ms)
+  ✓  256 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:189:1 › valid Phase 0 edits migrate into canonical revisions without losing source identity (862ms)
+  ✓  258 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/agencies responds and renders (629ms)
+  ✓  259 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/admin/connector-health renders a page heading (494ms)
+  ✓  262 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/admin/moderation renders a page heading (687ms)
+  ✓  261 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/compare responds and renders (958ms)
+  ✓  260 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:195:1 › Studio refuses to overwrite facts changed by another tab (1.2s)
+  ✓  263 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/admin/users renders a page heading (439ms)
+  ✓  264 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/contact responds and renders (441ms)
+  ✓  255 [chromium] › tests/e2e/stability.spec.ts:105:2 › responsive en tablet and narrow desktop (2.7s)
+  ✓  267 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/faq responds and renders (444ms)
+  ✓  266 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/admin/audit renders a page heading (470ms)
+  ✓  265 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:199:1 › portal quota includes destinations already reserved on other properties (990ms)
+  ✓  268 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/ responds and renders (529ms)
+  ✓  270 [mobile-chromium] › tests/e2e/prototype.spec.ts:15:1 › inventory filtering and property navigation works locally (499ms)
+  ✓  269 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/favorites responds and renders (580ms)
+  ✓  271 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/about responds and renders (337ms)
+  ✓  273 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/map responds and renders (478ms)
+  ✓  274 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/agencies responds and renders (291ms)
+  ✓  272 [mobile-chromium] › tests/e2e/prototype.spec.ts:23:1 › studio can walk through local demo with explicit approval (691ms)
+  ✓  275 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/pricing responds and renders (295ms)
+  ✓  277 [mobile-chromium] › tests/e2e/prototype.spec.ts:37:1 › Arabic routes preserve RTL (369ms)
+  ✓  276 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/compare responds and renders (483ms)
+  ✓  278 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/privacy responds and renders (349ms)
+  ✓  280 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/contact responds and renders (328ms)
+  ✓  279 [mobile-chromium] › tests/e2e/prototype.spec.ts:43:1 › mobile workspace does not overflow and sidebar opens (412ms)
+  ✓  281 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/properties responds and renders (458ms)
+  ✓  282 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/faq responds and renders (272ms)
+  ✓  284 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/register responds and renders (341ms)
+  ✓  283 [mobile-chromium] › tests/e2e/prototype.spec.ts:53:1 › Gemini master property edit is used in preflight (576ms)
+  ✓  285 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/favorites responds and renders (516ms)
+  ✓  286 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/resources responds and renders (264ms)
+  ✓  289 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/saved-searches responds and renders (420ms)
+  ✓  288 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/map responds and renders (499ms)
+  ✓  290 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/sign-in responds and renders (341ms)
+  ✓  291 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/pricing responds and renders (352ms)
+  ✓  293 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/privacy responds and renders (250ms)
+  ✓  292 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/solutions responds and renders (261ms)
+  ✓  295 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/terms responds and renders (270ms)
+  ✓  294 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/properties responds and renders (444ms)
+  ✓  296 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace responds and renders (280ms)
+  ✓  297 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/register responds and renders (249ms)
+  ✓  298 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/agencies/pearl-gate-realty responds and renders (252ms)
+  ✓  299 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/resources responds and renders (230ms)
+  ✓  301 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/saved-searches responds and renders (239ms)
+  ✓  300 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/properties/AQ-10231 responds and renders (542ms)
+  ✓  302 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/sign-in responds and renders (221ms)
+  ✓  304 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/solutions responds and renders (290ms)
+  ✓  303 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin responds and renders (350ms)
+  ✓  305 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/terms responds and renders (286ms)
+  ✓  306 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/analytics responds and renders (469ms)
+  ✓  307 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace responds and renders (222ms)
+  ✓  308 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/billing responds and renders (262ms)
+  ✓  309 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/agencies/pearl-gate-realty responds and renders (246ms)
+  ✓  310 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/campaigns responds and renders (283ms)
+  ✓  311 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/properties/AQ-10231 responds and renders (422ms)
+  ✓  312 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/hub responds and renders (281ms)
+  ✓  313 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin responds and renders (254ms)
+  ✓  314 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/inbox responds and renders (278ms)
+  ✓  315 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/analytics responds and renders (259ms)
+  ✓  316 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/inventory responds and renders (302ms)
+  ✓  317 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/billing responds and renders (274ms)
+  ✓  318 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/leads responds and renders (281ms)
+  ✓  319 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/campaigns responds and renders (271ms)
+  ✓  320 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/notifications responds and renders (294ms)
+  ✓  321 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/hub responds and renders (277ms)
+  ✓  322 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/publish responds and renders (284ms)
+  ✓  323 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/inbox responds and renders (261ms)
+  ✓  324 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/settings responds and renders (289ms)
+  ✓  325 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/inventory responds and renders (280ms)
+  ✓  326 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/studio responds and renders (282ms)
+  ✓  327 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/leads responds and renders (271ms)
+  ✓  328 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/team responds and renders (273ms)
+  ✓  329 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/notifications responds and renders (286ms)
+  ✓  331 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/publish responds and renders (271ms)
+  ✓  330 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/verification responds and renders (293ms)
+  ✓  332 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/settings responds and renders (251ms)
+  ✓  333 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin/audit responds and renders (279ms)
+  ✓  334 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/studio responds and renders (274ms)
+  ✓  335 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin/cms responds and renders (300ms)
+  ✓  336 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/team responds and renders (259ms)
+  ✓  337 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin/connector-health responds and renders (312ms)
+  ✓  338 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/verification responds and renders (293ms)
+  ✓  339 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin/integrations responds and renders (323ms)
+  ✓  340 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin/audit responds and renders (290ms)
+  ✓  341 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin/moderation responds and renders (279ms)
+  ✓  342 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin/cms responds and renders (248ms)
+  ✓  343 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin/plans responds and renders (321ms)
+  ✓  344 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin/connector-health responds and renders (277ms)
+  ✓  345 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin/reports responds and renders (309ms)
+  ✓  346 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin/integrations responds and renders (393ms)
+  ✘  287 [mobile-chromium] › tests/e2e/prototype.spec.ts:63:1 › Gemini connector setup and publishing are browser-local only (9.2s)
+  ✓  347 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin/taxonomies responds and renders (357ms)
+  ✓  348 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin/moderation responds and renders (281ms)
+(node:99440) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  349 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin/users responds and renders (331ms)
+  ✓  350 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin/plans responds and renders (301ms)
+  ✓  352 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/ads/attribution responds and renders (411ms)
+  ✓  353 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin/reports responds and renders (407ms)
+  ✓  354 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/ads/catalogue responds and renders (496ms)
+  ✓  355 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin/taxonomies responds and renders (467ms)
+  ✓  351 [mobile-chromium] › tests/e2e/prototype.spec.ts:82:1 › Gemini Starter plan blocks two destination selection (968ms)
+  ✓  357 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin/users responds and renders (316ms)
+  ✓  356 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/ads/placements responds and renders (326ms)
+  ✓  360 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/billing/dunning responds and renders (363ms)
+  ✓  359 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/ads/attribution responds and renders (366ms)
+  ✓  358 [mobile-chromium] › tests/e2e/prototype.spec.ts:91:1 › Gemini sample data and pricing do not advertise former v2 tiers (448ms)
+  ✓  362 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/ads/catalogue responds and renders (292ms)
+  ✓  361 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/billing/invoices responds and renders (343ms)
+  ✓  363 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/ads/placements responds and renders (273ms)
+  ✓  364 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/campaigns/new responds and renders (340ms)
+  ✓  365 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/billing/dunning responds and renders (330ms)
+  ✓  366 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/hub/connectors responds and renders (328ms)
+  ✓  367 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/billing/invoices responds and renders (299ms)
+  ✓  368 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/hub/feeds responds and renders (308ms)
+  ✓  369 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/campaigns/new responds and renders (292ms)
+  ✓  370 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/hub/jobs responds and renders (307ms)
+  ✓  371 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/hub/connectors responds and renders (313ms)
+  ✓  372 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/hub/mappings responds and renders (300ms)
+  ✓  373 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/hub/feeds responds and renders (311ms)
+  ✓  374 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/hub/marketplace responds and renders (320ms)
+  ✓  375 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/hub/jobs responds and renders (301ms)
+  ✓  376 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/integrations/ga4 responds and renders (289ms)
+  ✓  377 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/hub/mappings responds and renders (302ms)
+  ✓  378 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/integrations/google-ads responds and renders (295ms)
+  ✓  379 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/hub/marketplace responds and renders (282ms)
+  ✓  380 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/integrations/meta-catalog responds and renders (332ms)
+  ✓  381 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/integrations/ga4 responds and renders (336ms)
+  ✓  382 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/integrations/whatsapp responds and renders (420ms)
+  ✓  383 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/integrations/google-ads responds and renders (355ms)
+  ✓  384 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/inventory/AQ-10231 responds and renders (293ms)
+  ✓  385 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/integrations/meta-catalog responds and renders (315ms)
+  ✓  386 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/inventory/import responds and renders (356ms)
+  ✓  387 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/integrations/whatsapp responds and renders (314ms)
+  ✓  388 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/inventory/new responds and renders (291ms)
+  ✓  389 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/inventory/AQ-10231 responds and renders (276ms)
+  ✓  390 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/leads/LE-2101 responds and renders (281ms)
+  ✓  391 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/inventory/import responds and renders (269ms)
+  ✓  392 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/leads/assignment responds and renders (268ms)
+  ✓  393 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/inventory/new responds and renders (265ms)
+  ✓  394 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/leads/viewings responds and renders (295ms)
+  ✓  395 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/leads/LE-2101 responds and renders (291ms)
+  ✓  396 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/settings/domains responds and renders (286ms)
+  ✓  397 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/leads/assignment responds and renders (305ms)
+  ✓  398 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/settings/privacy responds and renders (278ms)
+  ✓  399 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/leads/viewings responds and renders (270ms)
+  ✓  400 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/support/assistant responds and renders (343ms)
+  ✓  401 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/settings/domains responds and renders (345ms)
+  ✓  402 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/support/evaluations responds and renders (333ms)
+  ✓  403 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/settings/privacy responds and renders (321ms)
+  ✓  404 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/support/knowledge responds and renders (302ms)
+  ✓  405 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/support/assistant responds and renders (296ms)
+  ✓  406 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/whatsapp/packs responds and renders (294ms)
+  ✓  407 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/support/evaluations responds and renders (270ms)
+  ✓  409 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/support/knowledge responds and renders (248ms)
+  ✓  408 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/whatsapp/sla responds and renders (274ms)
+  ✓  410 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/whatsapp/packs responds and renders (263ms)
+  ✓  411 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/whatsapp/templates responds and renders (277ms)
+  ✓  412 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/whatsapp/sla responds and renders (247ms)
+  ✓  413 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/billing/invoices/INV-2026-0419 responds and renders (277ms)
+  ✓  414 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/whatsapp/templates responds and renders (266ms)
+  ✓  415 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/hub/connectors/property-finder responds and renders (276ms)
+  ✓  416 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/billing/invoices/INV-2026-0419 responds and renders (269ms)
+  ✓  417 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/inventory/AQ-10231/edit responds and renders (299ms)
+  ✓  418 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/hub/connectors/property-finder responds and renders (260ms)
+  ✓  419 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/inventory/AQ-10231/enquiries responds and renders (283ms)
+  ✓  420 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/inventory/AQ-10231/edit responds and renders (273ms)
+  ✓  421 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/inventory/AQ-10231/media responds and renders (285ms)
+  ✓  422 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/inventory/AQ-10231/enquiries responds and renders (258ms)
+  ✓  423 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/inventory/AQ-10231/publishing responds and renders (268ms)
+  ✓  424 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/inventory/AQ-10231/media responds and renders (258ms)
+  ✓  425 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual en dashboard fits the viewport (369ms)
+  ✓  426 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/inventory/AQ-10231/publishing responds and renders (271ms)
+  ✓  427 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual en studio fits the viewport (353ms)
+  ✓  428 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar dashboard fits the viewport (360ms)
+  ✓  429 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual en editor fits the viewport (345ms)
+  ✓  430 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar studio fits the viewport (324ms)
+  ✓  432 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar editor fits the viewport (399ms)
+  ✓  431 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual en media fits the viewport (442ms)
+  ✓  433 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar media fits the viewport (352ms)
+  ✓  434 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual en marketplace fits the viewport (355ms)
+  ✓  435 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar marketplace fits the viewport (343ms)
+  ✓  436 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual en provider fits the viewport (401ms)
+  ✓  437 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar provider fits the viewport (367ms)
+  ✓  438 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual en publishing fits the viewport (332ms)
+  ✓  439 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar publishing fits the viewport (327ms)
+  ✓  440 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual en history fits the viewport (303ms)
+  ✓  441 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar history fits the viewport (310ms)
+  ✓  442 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual en leads fits the viewport (340ms)
+  ✓  443 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar leads fits the viewport (329ms)
+  ✓  444 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual en routing fits the viewport (344ms)
+  ✓  445 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar routing fits the viewport (325ms)
+  ✓  446 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual en billing fits the viewport (324ms)
+  ✓  447 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar billing fits the viewport (316ms)
+  ✓  448 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual en analytics fits the viewport (356ms)
+  ✓  449 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar analytics fits the viewport (376ms)
+  ✓  450 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual en admin fits the viewport (340ms)
+  ✓  451 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar admin fits the viewport (349ms)
+  ✓  453 [chromium] › tests/e2e/stability.spec.ts:38:2 › navigation ar follows links and preserves most-specific selection (410ms)
+  ✓  452 [mobile-chromium] › tests/e2e/stability.spec.ts:38:2 › navigation en follows links and preserves most-specific selection (957ms)
+  ✘  454 [chromium] › tests/e2e/stability.spec.ts:51:2 › workflow ar canonical edits, blocked and queued local dispatch (11.2s)
+(node:340) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  455 [mobile-chromium] › tests/e2e/stability.spec.ts:51:2 › workflow en canonical edits, blocked and queued local dispatch (11.1s)
+(node:347) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  456 [chromium] › tests/e2e/stability.spec.ts:90:2 › links ar key workflow targets are valid (1.9s)
+  ✓  457 [mobile-chromium] › tests/e2e/stability.spec.ts:90:2 › links en key workflow targets are valid (1.7s)
+  -  459 [mobile-chromium] › tests/e2e/stability.spec.ts:105:2 › responsive en tablet and narrow desktop
+  ✓  460 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/ responds and renders (504ms)
+  ✓  461 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/about responds and renders (263ms)
+  ✓  458 [chromium] › tests/e2e/stability.spec.ts:105:2 › responsive ar tablet and narrow desktop (1.4s)
+  ✓  462 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/agencies responds and renders (296ms)
+  ✓  464 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/compare responds and renders (471ms)
+  ✓  465 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/contact responds and renders (264ms)
+  ✓  463 [chromium] › tests/e2e/stability.spec.ts:118:1 › invalid persisted demo data recovers without crashing or accepting unknown providers (865ms)
+  ✓  466 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/faq responds and renders (263ms)
+  ✓  467 [chromium] › tests/e2e/stability.spec.ts:127:1 › unavailable browser storage still allows local demo interactions (397ms)
+  ✓  468 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/favorites responds and renders (471ms)
+  ✓  469 [chromium] › tests/e2e/stability.spec.ts:136:1 › media ordering, classification and watermark remain local (360ms)
+  ✓  470 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/map responds and renders (342ms)
+  ✓  472 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/pricing responds and renders (283ms)
+  ✓  471 [chromium] › tests/e2e/stability.spec.ts:145:1 › lead routing, viewing requests and analytics controls work locally (598ms)
+  ✓  473 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/privacy responds and renders (290ms)
+  ✓  474 [chromium] › tests/e2e/stability.spec.ts:164:1 › feed copy handles denied clipboard access without a runtime exception (325ms)
+  ✓  475 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/properties responds and renders (383ms)
+  ✓  476 [chromium] › tests/e2e/stability.spec.ts:171:1 › language switch preserves the current workflow and search parameters (408ms)
+  ✓  477 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/register responds and renders (279ms)
+  ✓  478 [chromium] › tests/e2e/stability.spec.ts:180:1 › keyboard can filter the connector directory and enter provider setup (409ms)
+  ✓  479 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/resources responds and renders (242ms)
+  ✓  481 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/saved-searches responds and renders (298ms)
+  ✓  480 [chromium] › tests/e2e/stability.spec.ts:201:2 › commercial en admin examples match Gemini and provider names remain explicit (354ms)
+  ✓  482 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/sign-in responds and renders (271ms)
+  ✓  483 [chromium] › tests/e2e/stability.spec.ts:201:2 › commercial ar admin examples match Gemini and provider names remain explicit (371ms)
+  -  485 [chromium] › tests/e2e/stability.spec.ts:215:2 › mobile menu en manages keyboard focus and Escape
+  ✓  484 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/solutions responds and renders (268ms)
+  -  486 [chromium] › tests/e2e/stability.spec.ts:215:2 › mobile menu ar manages keyboard focus and Escape
+  ✓  487 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/terms responds and renders (259ms)
+  ✓  488 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace responds and renders (231ms)
+  ✓  489 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/agencies/pearl-gate-realty responds and renders (208ms)
+  ✓  490 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/properties/AQ-10231 responds and renders (452ms)
+  ✓  491 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin responds and renders (248ms)
+  ✓  492 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/analytics responds and renders (235ms)
+  ✓  493 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/billing responds and renders (229ms)
+  ✓  494 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/campaigns responds and renders (222ms)
+  ✓  495 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/hub responds and renders (239ms)
+  ✓  496 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/inbox responds and renders (253ms)
+  ✓  497 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/inventory responds and renders (253ms)
+  ✓  498 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/leads responds and renders (239ms)
+  ✓  499 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/notifications responds and renders (236ms)
+  ✓  500 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/publish responds and renders (242ms)
+  ✓  501 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/settings responds and renders (224ms)
+  ✓  502 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/studio responds and renders (245ms)
+  ✓  503 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/team responds and renders (212ms)
+  ✓  504 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/verification responds and renders (214ms)
+  ✓  505 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin/audit responds and renders (221ms)
+  ✓  506 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin/cms responds and renders (226ms)
+  ✓  507 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin/connector-health responds and renders (243ms)
+  ✓  508 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin/integrations responds and renders (247ms)
+  ✓  509 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin/moderation responds and renders (255ms)
+  ✓  510 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin/plans responds and renders (232ms)
+  ✓  511 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin/reports responds and renders (214ms)
+  ✓  512 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin/taxonomies responds and renders (243ms)
+  ✓  513 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin/users responds and renders (228ms)
+  ✓  514 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/ads/attribution responds and renders (220ms)
+  ✓  515 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/ads/catalogue responds and renders (229ms)
+  ✓  516 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/ads/placements responds and renders (221ms)
+  ✓  517 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/billing/dunning responds and renders (213ms)
+  ✓  518 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/billing/invoices responds and renders (244ms)
+  ✓  519 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/campaigns/new responds and renders (234ms)
+  ✓  520 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/hub/connectors responds and renders (228ms)
+  ✓  521 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/hub/feeds responds and renders (261ms)
+  ✓  522 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/hub/jobs responds and renders (256ms)
+  ✓  523 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/hub/mappings responds and renders (240ms)
+  ✓  524 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/hub/marketplace responds and renders (276ms)
+  ✓  525 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/integrations/ga4 responds and renders (224ms)
+  ✓  526 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/integrations/google-ads responds and renders (240ms)
+  ✓  527 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/integrations/meta-catalog responds and renders (226ms)
+  ✓  528 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/integrations/whatsapp responds and renders (218ms)
+  ✓  529 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/inventory/AQ-10231 responds and renders (224ms)
+  ✓  530 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/inventory/import responds and renders (252ms)
+  ✓  531 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/inventory/new responds and renders (224ms)
+  ✓  532 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/leads/LE-2101 responds and renders (212ms)
+  ✓  533 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/leads/assignment responds and renders (230ms)
+  ✓  534 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/leads/viewings responds and renders (247ms)
+  ✓  535 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/settings/domains responds and renders (248ms)
+  ✓  536 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/settings/privacy responds and renders (227ms)
+  ✓  537 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/support/assistant responds and renders (227ms)
+  ✓  538 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/support/evaluations responds and renders (251ms)
+  ✓  539 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/support/knowledge responds and renders (239ms)
+  ✓  540 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/whatsapp/packs responds and renders (236ms)
+  ✓  541 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/whatsapp/sla responds and renders (254ms)
+  ✓  542 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/whatsapp/templates responds and renders (245ms)
+  ✓  543 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/billing/invoices/INV-2026-0419 responds and renders (266ms)
+  ✓  544 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/hub/connectors/property-finder responds and renders (269ms)
+  ✓  545 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/inventory/AQ-10231/edit responds and renders (318ms)
+  ✓  546 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/inventory/AQ-10231/enquiries responds and renders (234ms)
+  ✓  547 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/inventory/AQ-10231/media responds and renders (244ms)
+  ✓  548 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/inventory/AQ-10231/publishing responds and renders (264ms)
+  ✓  549 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar dashboard fits the viewport (285ms)
+  ✓  550 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar studio fits the viewport (292ms)
+  ✓  551 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar editor fits the viewport (304ms)
+  ✓  552 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar media fits the viewport (390ms)
+  ✓  553 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar marketplace fits the viewport (347ms)
+  ✓  554 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar provider fits the viewport (327ms)
+  ✓  555 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar publishing fits the viewport (300ms)
+  ✓  556 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar history fits the viewport (290ms)
+  ✓  557 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar leads fits the viewport (317ms)
+  ✓  558 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar routing fits the viewport (287ms)
+  ✓  559 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar billing fits the viewport (292ms)
+  ✓  560 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar analytics fits the viewport (305ms)
+  ✓  561 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar admin fits the viewport (281ms)
+  ✓  562 [mobile-chromium] › tests/e2e/stability.spec.ts:38:2 › navigation ar follows links and preserves most-specific selection (637ms)
+  ✘  563 [mobile-chromium] › tests/e2e/stability.spec.ts:51:2 › workflow ar canonical edits, blocked and queued local dispatch (11.1s)
+(node:1408) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  564 [mobile-chromium] › tests/e2e/stability.spec.ts:90:2 › links ar key workflow targets are valid (1.3s)
+  -  565 [mobile-chromium] › tests/e2e/stability.spec.ts:105:2 › responsive ar tablet and narrow desktop
+  ✓  566 [mobile-chromium] › tests/e2e/stability.spec.ts:118:1 › invalid persisted demo data recovers without crashing or accepting unknown providers (777ms)
+  ✓  567 [mobile-chromium] › tests/e2e/stability.spec.ts:127:1 › unavailable browser storage still allows local demo interactions (364ms)
+  ✓  568 [mobile-chromium] › tests/e2e/stability.spec.ts:136:1 › media ordering, classification and watermark remain local (743ms)
+  ✓  569 [mobile-chromium] › tests/e2e/stability.spec.ts:145:1 › lead routing, viewing requests and analytics controls work locally (657ms)
+  ✓  570 [mobile-chromium] › tests/e2e/stability.spec.ts:164:1 › feed copy handles denied clipboard access without a runtime exception (328ms)
+  ✓  571 [mobile-chromium] › tests/e2e/stability.spec.ts:171:1 › language switch preserves the current workflow and search parameters (411ms)
+  ✓  572 [mobile-chromium] › tests/e2e/stability.spec.ts:180:1 › keyboard can filter the connector directory and enter provider setup (409ms)
+  ✓  573 [mobile-chromium] › tests/e2e/stability.spec.ts:201:2 › commercial en admin examples match Gemini and provider names remain explicit (362ms)
+  ✓  574 [mobile-chromium] › tests/e2e/stability.spec.ts:201:2 › commercial ar admin examples match Gemini and provider names remain explicit (350ms)
+  ✓  575 [mobile-chromium] › tests/e2e/stability.spec.ts:215:2 › mobile menu en manages keyboard focus and Escape (332ms)
+  ✓  576 [mobile-chromium] › tests/e2e/stability.spec.ts:215:2 › mobile menu ar manages keyboard focus and Escape (323ms)
+
+
+  1) [chromium] › tests/e2e/prototype.spec.ts:63:1 › Gemini connector setup and publishing are browser-local only 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator:  getByText('Queued locally').first()
+    Expected: visible
+    Received: hidden
+    Timeout:  8000ms
+
+    Call log:
+      - Expect "toBeVisible" getByText('Queued locally').first() with timeout 8000ms
+      - waiting for getByText('Queued locally').first()
+        20 × locator resolved to <option value="queued-demo">State: Queued locally</option>
+           - unexpected value "hidden"
+
+
+      76 |  await expect(page.getByText('Demo dispatch completed')).toBeVisible();
+      77 |  await page.goto('/en/workspace/hub/jobs');
+    > 78 |  await expect(page.getByText('Queued locally').first()).toBeVisible();
+         |                                                         ^
+      79 |  await expect(page.getByText('Not connected',{exact:true})).toHaveCount(0);
+      80 | });
+      81 |
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/prototype.spec.ts:78:57
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/prototype-Gemini-connector-3f3dd-hing-are-browser-local-only-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/prototype-Gemini-connector-3f3dd-hing-are-browser-local-only-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/prototype-Gemini-connector-3f3dd-hing-are-browser-local-only-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/prototype-Gemini-connector-3f3dd-hing-are-browser-local-only-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/e2e/stability.spec.ts:51:2 › workflow en canonical edits, blocked and queued local dispatch 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  getByText('Blocked locally', { exact: true })
+    Expected: 2
+    Received: 0
+    Timeout:  8000ms
+
+    Call log:
+      - Expect "toHaveCount" getByText('Blocked locally', { exact: true }) with timeout 8000ms
+      - waiting for getByText('Blocked locally', { exact: true })
+        20 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      83 |   await page.goto(`/${locale}/workspace/hub/jobs`);
+      84 |   await expect(page.getByText('Queued locally',{exact:true})).toHaveCount(2);
+    > 85 |   await expect(page.getByText('Blocked locally',{exact:true})).toHaveCount(2);
+         |                                                                ^
+      86 |   await page.screenshot({path:resolve(`../../artifacts/phase1/regression-screenshots/${testInfo.project.name}-${locale}-history-with-jobs.png`),fullPage:true,scale:'css'});
+      87 |   await page.getByRole('textbox',{name:'Search publishing activity'}).fill('Property Finder');
+      88 |   await expect(page.locator('tbody tr')).toHaveCount(2);
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/stability.spec.ts:85:64
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/stability-workflow-en-cano-9e3f7-d-and-queued-local-dispatch-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/stability-workflow-en-cano-9e3f7-d-and-queued-local-dispatch-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/stability-workflow-en-cano-9e3f7-d-and-queued-local-dispatch-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/stability-workflow-en-cano-9e3f7-d-and-queued-local-dispatch-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [chromium] › tests/e2e/stability.spec.ts:51:2 › workflow ar canonical edits, blocked and queued local dispatch 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  getByText('Blocked locally', { exact: true })
+    Expected: 2
+    Received: 0
+    Timeout:  8000ms
+
+    Call log:
+      - Expect "toHaveCount" getByText('Blocked locally', { exact: true }) with timeout 8000ms
+      - waiting for getByText('Blocked locally', { exact: true })
+        20 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      83 |   await page.goto(`/${locale}/workspace/hub/jobs`);
+      84 |   await expect(page.getByText('Queued locally',{exact:true})).toHaveCount(2);
+    > 85 |   await expect(page.getByText('Blocked locally',{exact:true})).toHaveCount(2);
+         |                                                                ^
+      86 |   await page.screenshot({path:resolve(`../../artifacts/phase1/regression-screenshots/${testInfo.project.name}-${locale}-history-with-jobs.png`),fullPage:true,scale:'css'});
+      87 |   await page.getByRole('textbox',{name:'Search publishing activity'}).fill('Property Finder');
+      88 |   await expect(page.locator('tbody tr')).toHaveCount(2);
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/stability.spec.ts:85:64
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/stability-workflow-ar-cano-8ab6d-d-and-queued-local-dispatch-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/stability-workflow-ar-cano-8ab6d-d-and-queued-local-dispatch-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/stability-workflow-ar-cano-8ab6d-d-and-queued-local-dispatch-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/stability-workflow-ar-cano-8ab6d-d-and-queued-local-dispatch-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [mobile-chromium] › tests/e2e/prototype.spec.ts:63:1 › Gemini connector setup and publishing are browser-local only 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator:  getByText('Queued locally').first()
+    Expected: visible
+    Received: hidden
+    Timeout:  8000ms
+
+    Call log:
+      - Expect "toBeVisible" getByText('Queued locally').first() with timeout 8000ms
+      - waiting for getByText('Queued locally').first()
+        20 × locator resolved to <option value="queued-demo">State: Queued locally</option>
+           - unexpected value "hidden"
+
+
+      76 |  await expect(page.getByText('Demo dispatch completed')).toBeVisible();
+      77 |  await page.goto('/en/workspace/hub/jobs');
+    > 78 |  await expect(page.getByText('Queued locally').first()).toBeVisible();
+         |                                                         ^
+      79 |  await expect(page.getByText('Not connected',{exact:true})).toHaveCount(0);
+      80 | });
+      81 |
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/prototype.spec.ts:78:57
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/prototype-Gemini-connector-3f3dd-hing-are-browser-local-only-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/prototype-Gemini-connector-3f3dd-hing-are-browser-local-only-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/prototype-Gemini-connector-3f3dd-hing-are-browser-local-only-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/prototype-Gemini-connector-3f3dd-hing-are-browser-local-only-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [mobile-chromium] › tests/e2e/stability.spec.ts:51:2 › workflow en canonical edits, blocked and queued local dispatch 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  getByText('Blocked locally', { exact: true })
+    Expected: 2
+    Received: 0
+    Timeout:  8000ms
+
+    Call log:
+      - Expect "toHaveCount" getByText('Blocked locally', { exact: true }) with timeout 8000ms
+      - waiting for getByText('Blocked locally', { exact: true })
+        20 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      83 |   await page.goto(`/${locale}/workspace/hub/jobs`);
+      84 |   await expect(page.getByText('Queued locally',{exact:true})).toHaveCount(2);
+    > 85 |   await expect(page.getByText('Blocked locally',{exact:true})).toHaveCount(2);
+         |                                                                ^
+      86 |   await page.screenshot({path:resolve(`../../artifacts/phase1/regression-screenshots/${testInfo.project.name}-${locale}-history-with-jobs.png`),fullPage:true,scale:'css'});
+      87 |   await page.getByRole('textbox',{name:'Search publishing activity'}).fill('Property Finder');
+      88 |   await expect(page.locator('tbody tr')).toHaveCount(2);
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/stability.spec.ts:85:64
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/stability-workflow-en-cano-9e3f7-d-and-queued-local-dispatch-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/stability-workflow-en-cano-9e3f7-d-and-queued-local-dispatch-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/stability-workflow-en-cano-9e3f7-d-and-queued-local-dispatch-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/stability-workflow-en-cano-9e3f7-d-and-queued-local-dispatch-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [mobile-chromium] › tests/e2e/stability.spec.ts:51:2 › workflow ar canonical edits, blocked and queued local dispatch 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  getByText('Blocked locally', { exact: true })
+    Expected: 2
+    Received: 0
+    Timeout:  8000ms
+
+    Call log:
+      - Expect "toHaveCount" getByText('Blocked locally', { exact: true }) with timeout 8000ms
+      - waiting for getByText('Blocked locally', { exact: true })
+        20 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      83 |   await page.goto(`/${locale}/workspace/hub/jobs`);
+      84 |   await expect(page.getByText('Queued locally',{exact:true})).toHaveCount(2);
+    > 85 |   await expect(page.getByText('Blocked locally',{exact:true})).toHaveCount(2);
+         |                                                                ^
+      86 |   await page.screenshot({path:resolve(`../../artifacts/phase1/regression-screenshots/${testInfo.project.name}-${locale}-history-with-jobs.png`),fullPage:true,scale:'css'});
+      87 |   await page.getByRole('textbox',{name:'Search publishing activity'}).fill('Property Finder');
+      88 |   await expect(page.locator('tbody tr')).toHaveCount(2);
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/stability.spec.ts:85:64
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/stability-workflow-ar-cano-8ab6d-d-and-queued-local-dispatch-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/stability-workflow-ar-cano-8ab6d-d-and-queued-local-dispatch-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/stability-workflow-ar-cano-8ab6d-d-and-queued-local-dispatch-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/stability-workflow-ar-cano-8ab6d-d-and-queued-local-dispatch-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6 failed
+    [chromium] › tests/e2e/prototype.spec.ts:63:1 › Gemini connector setup and publishing are browser-local only 
+    [chromium] › tests/e2e/stability.spec.ts:51:2 › workflow en canonical edits, blocked and queued local dispatch 
+    [chromium] › tests/e2e/stability.spec.ts:51:2 › workflow ar canonical edits, blocked and queued local dispatch 
+    [mobile-chromium] › tests/e2e/prototype.spec.ts:63:1 › Gemini connector setup and publishing are browser-local only 
+    [mobile-chromium] › tests/e2e/stability.spec.ts:51:2 › workflow en canonical edits, blocked and queued local dispatch 
+    [mobile-chromium] › tests/e2e/stability.spec.ts:51:2 › workflow ar canonical edits, blocked and queued local dispatch 
+  4 skipped
+  566 passed (2.6m)
+ ELIFECYCLE  Command failed with exit code 1.
