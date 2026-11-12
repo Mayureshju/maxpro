@@ -1,0 +1,23 @@
+name: UI foundation checks
+on:
+  pull_request:
+  push:
+    branches: [main, develop]
+jobs:
+  web:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.15.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: pnpm
+      # This lockfile is intentionally absent from the downloadable starter.
+      # First install + commit pnpm-lock.yaml. Then use --frozen-lockfile.
+      - run: pnpm install --no-frozen-lockfile
+      - run: pnpm typecheck
+      - run: pnpm lint
+      - run: pnpm build

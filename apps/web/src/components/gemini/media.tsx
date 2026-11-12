@@ -1,0 +1,22 @@
+'use client';
+import Image from 'next/image';
+import {useEffect,useRef,useState} from 'react';
+import {ArrowLeft,ArrowDown,ArrowUp,ImagePlus,Trash2} from 'lucide-react';
+import {Link} from '@/i18n/navigation';
+import {listings} from '@/lib/prototype-data';
+import {Intro,Notice,Pill} from '@/components/prototype/primitives';
+const rooms=['Living room','Bedroom','Bathroom','Kitchen','Exterior','Floor plan','Other'] as const;
+type MediaAsset={id:string;name:string;room:string;url:string;fromUpload:boolean};
+export function MediaWorkbench({id}:{id:string}){
+ const listing=listings.find(l=>l.id===id)??listings[0];
+ const [media,setMedia]=useState<MediaAsset[]>(()=>[{id:'initial-1',name:'Sample hero photo',room:'Living room',url:listing.image,fromUpload:false},{id:'initial-2',name:'Sample bedroom',room:'Bedroom',url:listings[1].image,fromUpload:false},{id:'initial-3',name:'Sample exterior',room:'Exterior',url:listings[2].image,fromUpload:false}]);
+ const [watermark,setWatermark]=useState(false);const [feedback,setFeedback]=useState('');const temporaryUrls=useRef(new Set<string>());
+ useEffect(()=>{const urls=temporaryUrls.current;return ()=>{urls.forEach(url=>URL.revokeObjectURL(url));urls.clear()};},[]); // every local blob URL is revoked on unmount
+ function move(index:number,to:number){if(to<0||to>=media.length)return;setMedia(prev=>{const copy=[...prev];const [item]=copy.splice(index,1);copy.splice(to,0,item);return copy});}
+ function upload(fileList:FileList|null){if(!fileList)return;const allowed=Array.from(fileList).filter(f=>f.type.startsWith('image/')||f.type==='application/pdf');const additions=allowed.slice(0,12).map((f,i)=>{const url=f.type==='application/pdf'?'':URL.createObjectURL(f);if(url)temporaryUrls.current.add(url);return {id:`asset-${Date.now()}-${i}`,name:f.name,room:f.type==='application/pdf'?'Floor plan':'Other',url,fromUpload:true};});setMedia(a=>[...a,...additions]);setFeedback(`${additions.length} file(s) added for local preview only. Optimization and storage are not connected.`);}
+ return <><div className="px-back"><Link href={`/workspace/inventory/${id}`}><ArrowLeft size={16}/> Master property</Link></div><Intro eyebrow="INVENTORY / MEDIA STAGING" title="Room-classified media" description={`Organize the source assets for ${listing.id}. Reorder, classify and preview a watermark locally; real processing requires a secure media backend.`}/>
+ <div className="gm-media-toolbar"><label className="px-button px-button-dark gm-file-button"><ImagePlus size={16}/> Add photos or floor plan <input type="file" accept="image/*,application/pdf" multiple onChange={e=>{upload(e.target.files);e.target.value=''}}/></label><label className="gm-check-line"><input type="checkbox" checked={watermark} onChange={e=>setWatermark(e.target.checked)}/> Show sample agency watermark</label><Pill tone="warning">Not uploaded or optimized</Pill></div>
+ <div className="gm-media-grid">{media.map((asset,i)=><article key={asset.id} className="gm-media-card"><div className="gm-media-thumb">{asset.url?<Image unoptimized fill sizes="(max-width: 750px) 100vw, 33vw" src={asset.url} alt={asset.name}/>:<span>PDF floor plan</span>}{watermark&&<b>PEARL GATE · PREVIEW</b>}</div><div className="gm-media-meta"><strong title={asset.name}>{asset.name}</strong><select aria-label={`Room category for ${asset.name}`} value={asset.room} onChange={e=>setMedia(prev=>prev.map(m=>m.id===asset.id?{...m,room:e.target.value}:m))}>{rooms.map(r=><option key={r}>{r}</option>)}</select><div className="gm-media-actions"><span>Order {i+1}</span><button type="button" aria-label={`Move ${asset.name} up`} disabled={i===0} onClick={()=>move(i,i-1)}><ArrowUp size={16}/></button><button type="button" aria-label={`Move ${asset.name} down`} disabled={i===media.length-1} onClick={()=>move(i,i+1)}><ArrowDown size={16}/></button><button type="button" aria-label={`Remove ${asset.name}`} onClick={()=>{setMedia(prev=>prev.filter(m=>m.id!==asset.id));if(asset.fromUpload&&asset.url){URL.revokeObjectURL(asset.url);temporaryUrls.current.delete(asset.url)}}}><Trash2 size={16}/></button></div></div></article>)}</div>
+ {feedback&&<p role="status" className="gm-success">{feedback}</p>}
+ <Notice>Preview files are not retained after page exit. EXIF stripping, watermark baking, PDF conversion, image optimization, malware scanning, persistent upload and CDN delivery remain production tasks.</Notice></>;
+}
