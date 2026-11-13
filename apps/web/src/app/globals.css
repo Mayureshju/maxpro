@@ -56,6 +56,11 @@ button:disabled { cursor: not-allowed; opacity: .56; }
 .header-inner { display: flex; align-items: center; justify-content: space-between; min-height: 82px; gap: 28px; }
 .logo-link, .workspace-brand { display: inline-flex; align-items: center; }
 .brand { display: inline-flex; align-items: center; gap: 10px; white-space: nowrap; }
+.brand-logo { display: block; inline-size: 164px; max-inline-size: 100%; block-size: auto; object-fit: contain; }
+.brand-compact .brand-logo { inline-size: 120px; }
+.site-footer .brand { padding: 10px 14px; background: #fff; border-radius: 4px; }
+@media (max-width: 610px) { .brand-logo { inline-size: 140px; } }
+
 .brand-symbol { width: 39px; height: 39px; border-radius: 13px; background: var(--primary); color: #fff; display: inline-flex; align-items: center; justify-content: center; box-shadow: inset 0 1px rgba(255,255,255,.17); }
 .brand-word { font-weight: 800; font-size: 25px; letter-spacing: -.07em; }
 .brand-word > span:first-child { font-weight: 550; }
@@ -463,6 +468,7 @@ body { background:var(--canvas);color:var(--ink);font-size:15px; }
 .prototype-shell {display:grid;grid-template-columns:252px minmax(0,1fr);min-height:100dvh;background:#f6f6f2;}
 .prototype-sidebar {height:100dvh;position:sticky;top:0;background:#fff;border-inline-end:1px solid #dce1da;display:flex;flex-direction:column;z-index:45;}
 .workspace-sidebar-header {height:80px;display:flex;align-items:center;justify-content:space-between;padding:0 25px;border-bottom:1px solid #e8eae5;}
+.workspace-sidebar-header .workspace-brand {padding:0;margin:0;}
 .workspace-sidebar-header .brand-word {font-size:23px;}
 .workspace-sidebar-header .brand-symbol {width:32px;height:32px;}
 .agency-identity {display:flex;align-items:center;gap:11px;margin:22px 14px 18px;padding:10px;background:#f5f6f2;border:1px solid #e6e8e1;min-width:0;}
