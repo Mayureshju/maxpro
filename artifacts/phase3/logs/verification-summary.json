@@ -1,0 +1,30 @@
+{
+  "baselineCI": {
+    "run": 43307667444,
+    "status": "completed",
+    "conclusion": "success"
+  },
+  "baselineBrowser": {
+    "passed": 572,
+    "skipped": 4
+  },
+  "install": "passed",
+  "typecheck": "passed",
+  "lint": "passed",
+  "defaultBuild": "failed: sandbox process/port restriction",
+  "webpackBuild": "passed",
+  "finalBrowser": {
+    "passed": 624,
+    "skipped": 12,
+    "total": 636,
+    "newPhase3Passed": 52
+  },
+  "axe": {
+    "auditedStates": 28,
+    "violations": 0,
+    "scope": "Touched CRM main content, EN/AR Chromium desktop/mobile"
+  },
+  "screenshots": 64,
+  "independentReview": "unavailable: expired Claude Code authentication",
+  "commitPushDeploy": false
+}

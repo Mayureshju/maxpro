@@ -1,0 +1,1770 @@
+[
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "leads",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "nodes": [
+          {
+            "html": "<div class=\"px-overline\">RELATIONSHIPS / CRM</div>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #987454, background color: #f6f6f2, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>One property, one source identity, one continuous record. Follow each fictional enquiry from intake to outcome.</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.28 (foreground color: #687873, background color: #f6f6f2, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/leads\">Leads</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/inbox\">Inbox</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/leads/assignment\">Assignment</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/leads/viewings\">Viewings</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/analytics\">Attribution</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>5 matching local records</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.11 (foreground color: #89958c, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Lead</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Source / original event</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Canonical property</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Stage</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Qualification</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Owner</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Received</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>LE-2101</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>DEMO-SEED-1</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span class=\"px-pill px-pill-info\"><span class=\"px-pill-dot\"></span>New</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.46 (foreground color: #4c7180, background color: #e8edef, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Normal</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>LE-2102</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>DEMO-SEED-2</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span class=\"px-pill px-pill-info\"><span class=\"px-pill-dot\"></span>New</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.46 (foreground color: #4c7180, background color: #e8edef, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Normal</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>LE-2103</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>DEMO-SEED-3</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span class=\"px-pill px-pill-neutral\"><span class=\"px-pill-dot\"></span>Contacted</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.35 (foreground color: #66746c, background color: #f0f2ee, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Normal</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>LE-2104</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>DEMO-SEED-4</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span class=\"px-pill px-pill-neutral\"><span class=\"px-pill-dot\"></span>Qualified</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.35 (foreground color: #66746c, background color: #f0f2ee, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Normal</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>LE-2105</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>DEMO-SEED-5</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Normal</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "leads/LE-2101",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "nodes": [
+          {
+            "html": "<div class=\"px-overline\">CRM / LE-2101</div>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #987454, background color: #f6f6f2, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>Website · AQ-10231 · Fictional identity</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.28 (foreground color: #687873, background color: #f6f6f2, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/leads\">Leads</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/inbox\">Inbox</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/leads/assignment\">Assignment</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/leads/viewings\">Viewings</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/analytics\">Attribution</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>Changes persist across CRM, inbox and analytics.</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.11 (foreground color: #89958c, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span>Canonical property</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.21 (foreground color: #869387, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span>Original source / event</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.21 (foreground color: #869387, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span>Source time</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.21 (foreground color: #869387, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span>Received time</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.21 (foreground color: #869387, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span>Destination / campaign</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.21 (foreground color: #869387, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span>Privacy-safe contact</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.21 (foreground color: #869387, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>Browser-local history, including fallback and manual handover.</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.11 (foreground color: #89958c, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Lead</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Owner</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Decision</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Time</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "inbox",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "nodes": [
+          {
+            "html": "<div class=\"px-overline\">RELATIONSHIPS / CONVERSATIONS</div>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #987454, background color: #f6f6f2, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>Linked local conversations with original source identity and human ownership. Replies are saved locally only.</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.28 (foreground color: #687873, background color: #f6f6f2, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/leads\">Leads</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/inbox\">Inbox</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/leads/assignment\">Assignment</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/leads/viewings\">Viewings</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/analytics\">Attribution</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Website · AQ-10231</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.26 (foreground color: #99a59b, background color: #edf3ea, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<em>Fictional enquiry: please share viewing options for this property.</em>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.87 (foreground color: #839384, background color: #edf3ea, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Property Finder · AQ-10233</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.55 (foreground color: #99a59b, background color: #ffffff, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<em>Fictional enquiry: please share viewing options for this property.</em>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.24 (foreground color: #839384, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Qatar Living · AQ-10241</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.55 (foreground color: #99a59b, background color: #ffffff, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<em>Fictional reply saved locally.</em>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.24 (foreground color: #839384, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Meta Lead Ads · AQ-10244</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.55 (foreground color: #99a59b, background color: #ffffff, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<em>Fictional enquiry: please share viewing options for this property.</em>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.24 (foreground color: #839384, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>WhatsApp · AQ-10251</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.55 (foreground color: #99a59b, background color: #ffffff, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<em>Fictional enquiry: please share viewing options for this property.</em>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.24 (foreground color: #839384, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Website · CV-LE-2101</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.79 (foreground color: #8e9f91, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span>inbound · received-local · 2026-11-12T20:33:30.127Z</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.63 (foreground color: #96a397, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span class=\"px-overline\">CONTEXT / HUMAN HANDOVER</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.23 (foreground color: #987454, background color: #ffffff, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>Website · DEMO-SEED-1</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #8e9d90, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>No official WhatsApp API, AI or remote delivery status.</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #8e9d90, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "leads/assignment",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "nodes": [
+          {
+            "html": "<div class=\"px-overline\">CRM / ASSIGNMENT ENGINE</div>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #987454, background color: #f6f6f2, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>Rotate active, available agents or hold leads for manual assignment. Decisions and rotation persist across reloads.</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.28 (foreground color: #687873, background color: #f6f6f2, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/leads\">Leads</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/inbox\">Inbox</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/leads/assignment\">Assignment</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/leads/viewings\">Viewings</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/analytics\">Attribution</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Rotate active available agents</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.78 (foreground color: #85968a, background color: #edf4ed, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Hold for a human owner</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.12 (foreground color: #85968a, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span class=\"px-overline\">NEXT ACCEPTED EVENT</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.23 (foreground color: #987454, background color: #ffffff, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<dt>Policy</dt>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.29 (foreground color: #819284, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<dt>Assigned to</dt>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.29 (foreground color: #819284, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<dt>Rotation cursor</dt>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.29 (foreground color: #819284, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<dt>Reason</dt>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.29 (foreground color: #819284, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>Creates a fictional local lead. No production authorization, concurrency or durable routing guarantee.</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.8 (foreground color: #778779, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>Browser-local history, including fallback and manual handover.</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.11 (foreground color: #89958c, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Lead</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Owner</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Decision</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Time</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "leads/viewings",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "nodes": [
+          {
+            "html": "<div class=\"px-overline\">CRM / VIEWING REQUESTS</div>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #987454, background color: #f6f6f2, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>Request and manage a viewing linked to the lead’s canonical property. All times use Qatar UTC+03. No calendar is connected.</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.28 (foreground color: #687873, background color: #f6f6f2, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/leads\">Leads</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/inbox\">Inbox</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/leads/assignment\">Assignment</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/leads/viewings\">Viewings</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/analytics\">Attribution</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>Local overlapping requests are checked. Example availability: Saturday–Thursday, 09:00–18:00, one-hour slots.</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.11 (foreground color: #89958c, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span class=\"px-overline\">LOCAL SCHEDULING</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.23 (foreground color: #987454, background color: #ffffff, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>Property follows the selected lead and cannot be independently changed. A cancellation releases the local slot. No live calendar, booking guarantee or invitation.</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.8 (foreground color: #778779, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>Persisted in each shared lead record. Requested → Confirmed → Completed, or Cancelled.</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.11 (foreground color: #89958c, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "analytics",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "nodes": [
+          {
+            "html": "<div class=\"px-overline\">ANALYTICS / CHANNEL ATTRIBUTION</div>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #987454, background color: #f6f6f2, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>Counts derive from the shared local CRM. First-touch source stays attached to each lead. No portal traffic or revenue is measured.</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.28 (foreground color: #687873, background color: #f6f6f2, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/leads\">Leads</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/inbox\">Inbox</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/leads/assignment\">Assignment</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/leads/viewings\">Viewings</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/analytics\">Attribution</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>Source is the immutable original event provider. CPQL uses only explicit fictional spend in the same date window; unavailable for property-filtered cohorts.</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.11 (foreground color: #89958c, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Source</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Leads</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>New</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Qualified</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Won / conversion</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Backlog</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Fictional spend (QAR)</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Cost / qualified (QAR)</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>Counts use the same selected source and received-date cohort.</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.11 (foreground color: #89958c, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Canonical property</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Leads</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Qualified</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Won</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Marina-facing apartment</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Freehold residence, Viva Bahriya</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Courtyard townhouse</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Penthouse with skyline terrace</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Family villa with private garden</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Bright city studio</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>Add dated example costs only. This does not authorize spending. No costs are inferred from queued publishing or campaign drafts.</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.11 (foreground color: #89958c, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "leads",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "nodes": [
+          {
+            "html": "<div class=\"px-overline\">RELATIONSHIPS / CRM</div>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #987454, background color: #f6f6f2, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>One property, one source identity, one continuous record. Follow each fictional enquiry from intake to outcome.</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.28 (foreground color: #687873, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/leads\">Leads</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/inbox\">Inbox</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/leads/assignment\">Assignment</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/leads/viewings\">Viewings</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>5 matching local records</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.11 (foreground color: #89958c, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Lead</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Source / original event</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Canonical property</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Stage</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Qualification</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Owner</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Received</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>LE-2101</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>DEMO-SEED-1</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span class=\"px-pill px-pill-info\"><span class=\"px-pill-dot\"></span>New</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.46 (foreground color: #4c7180, background color: #e8edef, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>LE-2102</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>DEMO-SEED-2</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span class=\"px-pill px-pill-info\"><span class=\"px-pill-dot\"></span>New</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.46 (foreground color: #4c7180, background color: #e8edef, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>LE-2103</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>DEMO-SEED-3</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span class=\"px-pill px-pill-neutral\"><span class=\"px-pill-dot\"></span>Contacted</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.35 (foreground color: #66746c, background color: #f0f2ee, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>LE-2104</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>DEMO-SEED-4</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span class=\"px-pill px-pill-neutral\"><span class=\"px-pill-dot\"></span>Qualified</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.35 (foreground color: #66746c, background color: #f0f2ee, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>LE-2105</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>DEMO-SEED-5</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "leads/LE-2101",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "nodes": [
+          {
+            "html": "<div class=\"px-overline\">CRM / LE-2101</div>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #987454, background color: #f6f6f2, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>Website · AQ-10231 · Fictional identity</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.28 (foreground color: #687873, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/leads\">Leads</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/inbox\">Inbox</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/leads/assignment\">Assignment</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/leads/viewings\">Viewings</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>Changes persist across CRM, inbox and analytics.</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.11 (foreground color: #89958c, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span>Canonical property</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.21 (foreground color: #869387, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span>Original source / event</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.21 (foreground color: #869387, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span>Source time</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.21 (foreground color: #869387, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span>Received time</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.21 (foreground color: #869387, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span>Destination / campaign</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.21 (foreground color: #869387, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span>Privacy-safe contact</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.21 (foreground color: #869387, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>Browser-local history, including fallback and manual handover.</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.11 (foreground color: #89958c, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Lead</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Owner</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Decision</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Time</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "inbox",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "nodes": [
+          {
+            "html": "<div class=\"px-overline\">RELATIONSHIPS / CONVERSATIONS</div>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #987454, background color: #f6f6f2, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>Linked local conversations with original source identity and human ownership. Replies are saved locally only.</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.28 (foreground color: #687873, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/leads\">Leads</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/inbox\">Inbox</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/leads/assignment\">Assignment</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/leads/viewings\">Viewings</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Website · AQ-10231</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.26 (foreground color: #99a59b, background color: #edf3ea, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<em>Fictional enquiry: please share viewing options for this property.</em>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.87 (foreground color: #839384, background color: #edf3ea, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Property Finder · AQ-10233</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.55 (foreground color: #99a59b, background color: #ffffff, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<em>Fictional enquiry: please share viewing options for this property.</em>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.24 (foreground color: #839384, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Qatar Living · AQ-10241</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.55 (foreground color: #99a59b, background color: #ffffff, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<em>Fictional reply saved locally.</em>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.24 (foreground color: #839384, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Meta Lead Ads · AQ-10244</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.55 (foreground color: #99a59b, background color: #ffffff, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<em>Fictional enquiry: please share viewing options for this property.</em>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.24 (foreground color: #839384, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>WhatsApp · AQ-10251</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.55 (foreground color: #99a59b, background color: #ffffff, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<em>Fictional enquiry: please share viewing options for this property.</em>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.24 (foreground color: #839384, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Website · CV-LE-2101</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.79 (foreground color: #8e9f91, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span>inbound · received-local · 2026-11-12T20:33:31.450Z</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.63 (foreground color: #96a397, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span class=\"px-overline\">CONTEXT / HUMAN HANDOVER</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.23 (foreground color: #987454, background color: #ffffff, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>Website · DEMO-SEED-1</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #8e9d90, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>No official WhatsApp API, AI or remote delivery status.</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #8e9d90, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "leads/assignment",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "nodes": [
+          {
+            "html": "<div class=\"px-overline\">CRM / ASSIGNMENT ENGINE</div>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #987454, background color: #f6f6f2, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>Rotate active, available agents or hold leads for manual assignment. Decisions and rotation persist across reloads.</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.28 (foreground color: #687873, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/leads\">Leads</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/inbox\">Inbox</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/leads/assignment\">Assignment</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/leads/viewings\">Viewings</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Rotate active available agents</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.78 (foreground color: #85968a, background color: #edf4ed, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Hold for a human owner</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.12 (foreground color: #85968a, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span class=\"px-overline\">NEXT ACCEPTED EVENT</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.23 (foreground color: #987454, background color: #ffffff, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<dt>Policy</dt>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.29 (foreground color: #819284, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<dt>Assigned to</dt>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.29 (foreground color: #819284, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<dt>Rotation cursor</dt>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.29 (foreground color: #819284, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<dt>Reason</dt>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.29 (foreground color: #819284, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>Creates a fictional local lead. No production authorization, concurrency or durable routing guarantee.</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.8 (foreground color: #778779, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>Browser-local history, including fallback and manual handover.</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.11 (foreground color: #89958c, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Lead</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Owner</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Decision</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Time</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "leads/viewings",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "nodes": [
+          {
+            "html": "<div class=\"px-overline\">CRM / VIEWING REQUESTS</div>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #987454, background color: #f6f6f2, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>Request and manage a viewing linked to the lead’s canonical property. All times use Qatar UTC+03. No calendar is connected.</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.28 (foreground color: #687873, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/leads\">Leads</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/inbox\">Inbox</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/leads/assignment\">Assignment</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/leads/viewings\">Viewings</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>Local overlapping requests are checked. Example availability: Saturday–Thursday, 09:00–18:00, one-hour slots.</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.11 (foreground color: #89958c, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span class=\"px-overline\">LOCAL SCHEDULING</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.23 (foreground color: #987454, background color: #ffffff, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>Property follows the selected lead and cannot be independently changed. A cancellation releases the local slot. No live calendar, booking guarantee or invitation.</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.8 (foreground color: #778779, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>Persisted in each shared lead record. Requested → Confirmed → Completed, or Cancelled.</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.11 (foreground color: #89958c, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "analytics",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "nodes": [
+          {
+            "html": "<div class=\"px-overline\">ANALYTICS / CHANNEL ATTRIBUTION</div>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #987454, background color: #f6f6f2, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>Counts derive from the shared local CRM. First-touch source stays attached to each lead. No portal traffic or revenue is measured.</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.28 (foreground color: #687873, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/leads\">Leads</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/inbox\">Inbox</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/leads/assignment\">Assignment</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/en/workspace/leads/viewings\">Viewings</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>Source is the immutable original event provider. CPQL uses only explicit fictional spend in the same date window; unavailable for property-filtered cohorts.</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.11 (foreground color: #89958c, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Source</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Leads</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>New</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Qualified</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Won / conversion</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Backlog</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Fictional spend (QAR)</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Cost / qualified (QAR)</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>Counts use the same selected source and received-date cohort.</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.11 (foreground color: #89958c, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Canonical property</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Leads</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Qualified</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>Won</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Marina-facing apartment</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Freehold residence, Viva Bahriya</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Courtyard townhouse</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Penthouse with skyline terrace</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Family villa with private garden</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Bright city studio</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>Add dated example costs only. This does not authorize spending. No costs are inferred from queued publishing or campaign drafts.</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.11 (foreground color: #89958c, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "leads",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "nodes": [
+          {
+            "html": "<a href=\"/ar/workspace/inbox\">المحادثات</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>5 سجلات محلية مطابقة</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.11 (foreground color: #89958c, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>المرحلة</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>المسؤول</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>LE-2101</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>DEMO-SEED-1</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Normal</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>LE-2102</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>DEMO-SEED-2</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Normal</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>LE-2103</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>DEMO-SEED-3</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Normal</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>LE-2104</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>DEMO-SEED-4</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span class=\"px-pill px-pill-neutral\"><span class=\"px-pill-dot\"></span>مؤهل</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.35 (foreground color: #66746c, background color: #f0f2ee, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Normal</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>LE-2105</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>DEMO-SEED-5</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Normal</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "leads/LE-2101",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "nodes": [
+          {
+            "html": "<div class=\"px-overline\">CRM / LE-2101</div>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #987454, background color: #f6f6f2, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>Website · AQ-10231 · هوية خيالية</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.28 (foreground color: #687873, background color: #f6f6f2, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/ar/workspace/leads\">العملاء</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/ar/workspace/inbox\">المحادثات</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/ar/workspace/leads/assignment\">التوزيع</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/ar/workspace/leads/viewings\">المعاينات</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/ar/workspace/analytics\">الإسناد</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>تستمر التغييرات عبر العملاء والمحادثات والتحليلات.</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.11 (foreground color: #89958c, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span>العقار الأساسي</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.21 (foreground color: #869387, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span>المصدر / الحدث الأصلي</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.21 (foreground color: #869387, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span>وقت المصدر</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.21 (foreground color: #869387, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span>وقت الاستقبال</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.21 (foreground color: #869387, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span>الوجهة / الحملة</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.21 (foreground color: #869387, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span>بيانات تواصل خيالية</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.21 (foreground color: #869387, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>سجل محلي يشمل التوزيع الاحتياطي والتحويل اليدوي.</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.11 (foreground color: #89958c, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>العميل</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>المسؤول</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>القرار</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>الوقت</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "inbox",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "nodes": [
+          {
+            "html": "<a href=\"/ar/workspace/inbox\">المحادثات</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Website · AQ-10231</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.26 (foreground color: #99a59b, background color: #edf3ea, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<em>Fictional enquiry: please share viewing options for this property.</em>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.87 (foreground color: #839384, background color: #edf3ea, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Property Finder · AQ-10233</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.55 (foreground color: #99a59b, background color: #ffffff, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<em>Fictional enquiry: please share viewing options for this property.</em>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.24 (foreground color: #839384, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Qatar Living · AQ-10241</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.55 (foreground color: #99a59b, background color: #ffffff, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<em>Fictional reply saved locally.</em>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.24 (foreground color: #839384, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Meta Lead Ads · AQ-10244</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.55 (foreground color: #99a59b, background color: #ffffff, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<em>Fictional enquiry: please share viewing options for this property.</em>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.24 (foreground color: #839384, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>WhatsApp · AQ-10251</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.55 (foreground color: #99a59b, background color: #ffffff, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<em>Fictional enquiry: please share viewing options for this property.</em>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.24 (foreground color: #839384, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Website · CV-LE-2101</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.79 (foreground color: #8e9f91, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span>inbound · received-local · 2026-11-12T20:33:32.639Z</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.63 (foreground color: #96a397, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>Website · DEMO-SEED-1</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #8e9d90, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>لا واجهة واتساب رسمية أو ذكاء اصطناعي أو حالة تسليم عن بُعد.</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #8e9d90, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "leads/assignment",
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "leads/viewings",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "nodes": [
+          {
+            "html": "<a href=\"/ar/workspace/inbox\">المحادثات</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span class=\"px-overline\">جدولة محلية</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.23 (foreground color: #987454, background color: #ffffff, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>محفوظ في سجل العميل المشترك. مطلوب ثم مؤكد ثم مكتمل، أو ملغى.</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.11 (foreground color: #89958c, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "analytics",
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "leads",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "nodes": [
+          {
+            "html": "<a href=\"/ar/workspace/inbox\">المحادثات</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>5 سجلات محلية مطابقة</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.11 (foreground color: #89958c, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>المرحلة</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>المسؤول</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>LE-2101</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>DEMO-SEED-1</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>LE-2102</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>DEMO-SEED-2</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>LE-2103</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>DEMO-SEED-3</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>LE-2104</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>DEMO-SEED-4</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span class=\"px-pill px-pill-neutral\"><span class=\"px-pill-dot\"></span>مؤهل</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.35 (foreground color: #66746c, background color: #f0f2ee, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>LE-2105</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>DEMO-SEED-5</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #94a096, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "leads/LE-2101",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "nodes": [
+          {
+            "html": "<div class=\"px-overline\">CRM / LE-2101</div>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #987454, background color: #f6f6f2, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>Website · AQ-10231 · هوية خيالية</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.28 (foreground color: #687873, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/ar/workspace/leads\">العملاء</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/ar/workspace/inbox\">المحادثات</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/ar/workspace/leads/assignment\">التوزيع</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/ar/workspace/leads/viewings\">المعاينات</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<a href=\"/ar/workspace/analytics\">الإسناد</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>تستمر التغييرات عبر العملاء والمحادثات والتحليلات.</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.11 (foreground color: #89958c, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span>العقار الأساسي</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.21 (foreground color: #869387, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span>المصدر / الحدث الأصلي</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.21 (foreground color: #869387, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span>وقت المصدر</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.21 (foreground color: #869387, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span>وقت الاستقبال</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.21 (foreground color: #869387, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span>الوجهة / الحملة</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.21 (foreground color: #869387, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span>بيانات تواصل خيالية</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.21 (foreground color: #869387, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>سجل محلي يشمل التوزيع الاحتياطي والتحويل اليدوي.</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.11 (foreground color: #89958c, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>العميل</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>المسؤول</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>القرار</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<th>الوقت</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #839087, background color: #f8f9f6, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "inbox",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "nodes": [
+          {
+            "html": "<a href=\"/ar/workspace/inbox\">المحادثات</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Website · AQ-10231</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.26 (foreground color: #99a59b, background color: #edf3ea, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<em>Fictional enquiry: please share viewing options for this property.</em>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.87 (foreground color: #839384, background color: #edf3ea, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Property Finder · AQ-10233</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.55 (foreground color: #99a59b, background color: #ffffff, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<em>Fictional enquiry: please share viewing options for this property.</em>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.24 (foreground color: #839384, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Qatar Living · AQ-10241</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.55 (foreground color: #99a59b, background color: #ffffff, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<em>Fictional reply saved locally.</em>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.24 (foreground color: #839384, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Meta Lead Ads · AQ-10244</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.55 (foreground color: #99a59b, background color: #ffffff, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<em>Fictional enquiry: please share viewing options for this property.</em>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.24 (foreground color: #839384, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>WhatsApp · AQ-10251</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.55 (foreground color: #99a59b, background color: #ffffff, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<em>Fictional enquiry: please share viewing options for this property.</em>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.24 (foreground color: #839384, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<small>Website · CV-LE-2101</small>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.79 (foreground color: #8e9f91, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span>inbound · received-local · 2026-11-12T20:33:33.739Z</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.63 (foreground color: #96a397, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>Website · DEMO-SEED-1</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #8e9d90, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>لا واجهة واتساب رسمية أو ذكاء اصطناعي أو حالة تسليم عن بُعد.</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #8e9d90, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "leads/assignment",
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "leads/viewings",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "nodes": [
+          {
+            "html": "<a href=\"/ar/workspace/inbox\">المحادثات</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<span class=\"px-overline\">جدولة محلية</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.23 (foreground color: #987454, background color: #ffffff, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "html": "<p>محفوظ في سجل العميل المشترك. مطلوب ثم مؤكد ثم مكتمل، أو ملغى.</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.11 (foreground color: #89958c, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "analytics",
+    "violations": []
+  }
+]

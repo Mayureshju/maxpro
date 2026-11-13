@@ -1,0 +1,246 @@
+[
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "leads",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "count": 34
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "leads/LE-2101",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "count": 19
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "inbox",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "count": 22
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "leads/assignment",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "count": 20
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "leads/viewings",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "count": 11
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "analytics",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "count": 28
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "leads",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "count": 28
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "leads/LE-2101",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "count": 18
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "inbox",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "count": 21
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "leads/assignment",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "count": 19
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "leads/viewings",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "count": 10
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "analytics",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "count": 27
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "leads",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "count": 20
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "leads/LE-2101",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "count": 19
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "inbox",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "count": 15
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "leads/assignment",
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "leads/viewings",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "analytics",
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "leads",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "count": 15
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "leads/LE-2101",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "count": 19
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "inbox",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "count": 15
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "leads/assignment",
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "leads/viewings",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "analytics",
+    "violations": []
+  }
+]

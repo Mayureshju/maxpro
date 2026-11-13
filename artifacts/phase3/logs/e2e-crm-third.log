@@ -1,0 +1,78 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test lead-crm.spec.ts
+
+[WebServer] (node:66522) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:66546) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 60 tests using 2 workers
+
+(node:66554) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:66555) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   2 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:79:1 › CRM domain: five internal payloads preserve source, event, property, timestamps and same-name identities (358ms)
+  ✓   1 [chromium] › tests/e2e/lead-crm.spec.ts:79:1 › CRM domain: five internal payloads preserve source, event, property, timestamps and same-name identities (367ms)
+  ✓   4 [chromium] › tests/e2e/lead-crm.spec.ts:96:1 › CRM domain: replay is idempotent and does not rotate; different source same event is distinct (149ms)
+  ✓   3 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:96:1 › CRM domain: replay is idempotent and does not rotate; different source same event is distinct (194ms)
+  ✓   5 [chromium] › tests/e2e/lead-crm.spec.ts:109:1 › CRM domain: malformed, foreign-org, missing-property, future and personal data inputs reject without mutations (140ms)
+  ✓   6 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:109:1 › CRM domain: malformed, foreign-org, missing-property, future and personal data inputs reject without mutations (181ms)
+  ✓   7 [chromium] › tests/e2e/lead-crm.spec.ts:151:1 › CRM domain: round-robin survives hydration and skips unavailable/inactive agents (135ms)
+  ✓   8 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:151:1 › CRM domain: round-robin survives hydration and skips unavailable/inactive agents (130ms)
+  ✓   9 [chromium] › tests/e2e/lead-crm.spec.ts:173:1 › CRM domain: fallback, backlog, manual and invalid assignment have explicit outcomes (122ms)
+  ✓  10 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:173:1 › CRM domain: fallback, backlog, manual and invalid assignment have explicit outcomes (161ms)
+  ✓  11 [chromium] › tests/e2e/lead-crm.spec.ts:200:1 › CRM domain: arbitrary new canonical properties receive leads; unknown IDs do not substitute (148ms)
+  ✓  12 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:200:1 › CRM domain: arbitrary new canonical properties receive leads; unknown IDs do not substitute (162ms)
+  ✓  13 [chromium] › tests/e2e/lead-crm.spec.ts:213:1 › CRM domain: stage, qualification, notes, opt-out and replies share one lead and response cohort (173ms)
+  ✓  14 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:213:1 › CRM domain: stage, qualification, notes, opt-out and replies share one lead and response cohort (154ms)
+  ✓  15 [chromium] › tests/e2e/lead-crm.spec.ts:243:1 › CRM domain: viewing conflicts, cancellation and valid transitions persist (148ms)
+  ✓  16 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:243:1 › CRM domain: viewing conflicts, cancellation and valid transitions persist (188ms)
+  ✓  17 [chromium] › tests/e2e/lead-crm.spec.ts:289:1 › CRM domain: date filters use inclusive Qatar received dates and explicit costs only (173ms)
+  ✓  18 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:289:1 › CRM domain: date filters use inclusive Qatar received dates and explicit costs only (159ms)
+  ✓  19 [chromium] › tests/e2e/lead-crm.spec.ts:313:1 › CRM storage: migration, invalid references, schema, identity and nested metadata recover safely (175ms)
+  ✓  20 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:313:1 › CRM storage: migration, invalid references, schema, identity and nested metadata recover safely (159ms)
+  ✓  21 [chromium] › tests/e2e/lead-crm.spec.ts:351:3 › CRM en: intake replay, invalid event, filters and keyboard pipeline work (845ms)
+  ✓  22 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:351:3 › CRM en: intake replay, invalid event, filters and keyboard pipeline work (735ms)
+  ✓  23 [chromium] › tests/e2e/lead-crm.spec.ts:393:3 › CRM en: stage, conversation, handover, viewing cancellation and analytics persist (1.2s)
+  ✓  25 [chromium] › tests/e2e/lead-crm.spec.ts:351:3 › CRM ar: intake replay, invalid event, filters and keyboard pipeline work (750ms)
+  ✓  24 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:393:3 › CRM en: stage, conversation, handover, viewing cancellation and analytics persist (2.7s)
+  ✓  27 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:351:3 › CRM ar: intake replay, invalid event, filters and keyboard pipeline work (576ms)
+  ✓  26 [chromium] › tests/e2e/lead-crm.spec.ts:393:3 › CRM ar: stage, conversation, handover, viewing cancellation and analytics persist (2.0s)
+  ✓  29 [chromium] › tests/e2e/lead-crm.spec.ts:465:1 › CRM browser: routing cursor persists, unavailable agents are excluded, manual intake enters backlog (649ms)
+  ✓  30 [chromium] › tests/e2e/lead-crm.spec.ts:487:1 › CRM browser: a newly created canonical property can receive a simulated lead (677ms)
+  ✓  28 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:393:3 › CRM ar: stage, conversation, handover, viewing cancellation and analytics persist (2.6s)
+  ✓  31 [chromium] › tests/e2e/lead-crm.spec.ts:506:1 › CRM browser: corrupt saved CRM excludes invalid leads but preserves properties and jobs; unknown ID is explicit (766ms)
+  ✓  32 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:465:1 › CRM browser: routing cursor persists, unavailable agents are excluded, manual intake enters backlog (731ms)
+  ✓  34 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:487:1 › CRM browser: a newly created canonical property can receive a simulated lead (621ms)
+  ✓  33 [chromium] › tests/e2e/lead-crm.spec.ts:535:1 › CRM browser: fictional spend and date/property filters have explicit provenance (1.3s)
+  ✓  35 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:506:1 › CRM browser: corrupt saved CRM excludes invalid leads but preserves properties and jobs; unknown ID is explicit (775ms)
+  ✓  36 [chromium] › tests/e2e/lead-crm.spec.ts:562:5 › CRM visual en 1440: eight connected operational workspaces (1.8s)
+  ✓  37 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:535:1 › CRM browser: fictional spend and date/property filters have explicit provenance (1.3s)
+  -  39 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:562:5 › CRM visual en 1440: eight connected operational workspaces
+  -  40 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:562:5 › CRM visual en 1024: eight connected operational workspaces
+  -  41 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:562:5 › CRM visual en 768: eight connected operational workspaces
+  -  42 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:562:5 › CRM visual en 375: eight connected operational workspaces
+  -  43 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:562:5 › CRM visual ar 1440: eight connected operational workspaces
+  -  44 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:562:5 › CRM visual ar 1024: eight connected operational workspaces
+  -  45 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:562:5 › CRM visual ar 768: eight connected operational workspaces
+  -  46 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:562:5 › CRM visual ar 375: eight connected operational workspaces
+  ✓  38 [chromium] › tests/e2e/lead-crm.spec.ts:562:5 › CRM visual en 1024: eight connected operational workspaces (1.8s)
+  ✓  47 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:618:1 › CRM domain: rejected receipts preserve safe event IDs and inconsistent restored references are excluded (172ms)
+  ✓  49 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:633:1 › CRM browser: advanced filters, qualification, reply preference and empty states use the same lead (1.5s)
+  ✓  48 [chromium] › tests/e2e/lead-crm.spec.ts:562:5 › CRM visual en 768: eight connected operational workspaces (1.7s)
+  ✓  50 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:652:34 › CRM accessibility en: WCAG A/AA axe checks on touched main content (1.8s)
+  ✓  51 [chromium] › tests/e2e/lead-crm.spec.ts:562:5 › CRM visual en 375: eight connected operational workspaces (1.7s)
+  ✓  52 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:652:34 › CRM accessibility ar: WCAG A/AA axe checks on touched main content (1.7s)
+  ✓  53 [chromium] › tests/e2e/lead-crm.spec.ts:562:5 › CRM visual ar 1440: eight connected operational workspaces (1.8s)
+  ✓  54 [chromium] › tests/e2e/lead-crm.spec.ts:562:5 › CRM visual ar 1024: eight connected operational workspaces (1.7s)
+  ✓  55 [chromium] › tests/e2e/lead-crm.spec.ts:562:5 › CRM visual ar 768: eight connected operational workspaces (1.6s)
+  ✓  56 [chromium] › tests/e2e/lead-crm.spec.ts:562:5 › CRM visual ar 375: eight connected operational workspaces (1.4s)
+  ✓  57 [chromium] › tests/e2e/lead-crm.spec.ts:618:1 › CRM domain: rejected receipts preserve safe event IDs and inconsistent restored references are excluded (117ms)
+  ✓  58 [chromium] › tests/e2e/lead-crm.spec.ts:633:1 › CRM browser: advanced filters, qualification, reply preference and empty states use the same lead (537ms)
+  ✓  59 [chromium] › tests/e2e/lead-crm.spec.ts:652:34 › CRM accessibility en: WCAG A/AA axe checks on touched main content (1.5s)
+  ✓  60 [chromium] › tests/e2e/lead-crm.spec.ts:652:34 › CRM accessibility ar: WCAG A/AA axe checks on touched main content (1.4s)
+
+  8 skipped
+  52 passed (28.9s)

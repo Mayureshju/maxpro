@@ -155,10 +155,13 @@ test('lead routing, viewing requests and analytics controls work locally',async(
  await expect(page.getByText('Cancelled (local)',{exact:true})).toBeVisible();
  await page.goto('/en/workspace/analytics');
  await page.getByRole('combobox',{name:'Source',exact:true}).selectOption('Website');
- await expect(page.locator('tbody tr')).toHaveCount(1);
- await expect(page.locator('.gm-report-lead strong')).toHaveText('7');
+ // Phase 3 derives the selected cohort from shared leads; the former 7/2 values were decorative fixtures.
+ await expect(page.locator('tr[data-channel]')).toHaveCount(1);
+ await expect(page.getByTestId('lead-total')).toHaveText('2');
+ await expect(page.locator('.gm-report-lead strong')).toHaveText('0');
  await page.getByRole('combobox',{name:'Period',exact:true}).selectOption('7');
- await expect(page.locator('.gm-report-lead strong')).toHaveText('2');
+ await expect(page.getByTestId('lead-total')).toHaveText('2');
+ await expect(page.locator('.gm-report-lead strong')).toHaveText('0');
 });
 
 test('feed copy handles denied clipboard access without a runtime exception',async({page})=>{

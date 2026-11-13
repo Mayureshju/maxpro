@@ -20,10 +20,10 @@
 | GEM-10 | Meta catalogue, CAPI, Pixel, ad approvals | `/workspace/integrations/meta-catalog`, `/workspace/campaigns/new` | UI concept | Real account eligibility, consent, campaign policy, server approvals |
 | GEM-11 | Google Ads / PMax | `/workspace/integrations/google-ads` | UI concept | API/country eligibility; validated conversion and asset requirements |
 | GEM-12 | GA4 / GTM / Measurement Protocol | `/workspace/integrations/ga4` | Interactive event preview | Consent enforcement, real browser/server tags, deduplication, secrets |
-| GEM-13 | Multi-channel leads, normalize and deduplicate | `/workspace/leads`, `/workspace/inbox` | UI concept | Signed webhooks, source ID mappings, opt-in, deduplication logic |
-| GEM-14 | Round-robin team assignment | `/workspace/leads/assignment` | Interactive demo | Atomic tenant scoped dispatcher, agent availability and audit |
-| GEM-15 | Viewing appointment booking | `/workspace/leads/viewings` | Interactive demo | Live calendar, conflict checks, invitation and notifications |
-| GEM-16 | Official WhatsApp API and opt-in | `/workspace/integrations/whatsapp`, `/workspace/inbox`, `/workspace/whatsapp/packs` | UI concept | Official number, templates, webhooks, 24h messaging rules, policy review |
+| GEM-13 | Multi-channel leads, normalize and deduplicate | `/workspace/leads`, `/workspace/inbox` | Interactive demo: unified canonical CRM, five internal intake contracts, scoped event deduplication, linked inbox and recovery | Signed partner webhooks, official mappings, privacy consent and durable ingestion |
+| GEM-14 | Round-robin team assignment | `/workspace/leads/assignment` | Interactive demo: persisted round-robin cursor, availability, manual handover, fallback/backlog and decisions | Atomic tenant-scoped dispatcher, real membership/availability and durable audit |
+| GEM-15 | Viewing appointment booking | `/workspace/leads/viewings` | Interactive demo: lead-linked persistent requests, local/example conflict checks, confirmation/completion/cancellation | Live calendar, real availability, invitation and notifications |
+| GEM-16 | Official WhatsApp API and opt-in | `/workspace/integrations/whatsapp`, `/workspace/inbox`, `/workspace/whatsapp/packs` | Bounded interactive demo: linked local conversation, reply preference, simulated replies and handover; official API remains UI concept | Official number, templates, signed webhooks, legal opt-in, 24h messaging rules, policy review |
 | GEM-17 | Branded landing pages and custom domains | `/properties/[id]`, `/workspace/settings/domains` | Interactive demo | DNS verification, TLS, routing, identity and SEO |
 | GEM-18 | Listing/connector/AI-seat subscription quotas | `/workspace/billing`, `/workspace/publish` | Interactive demo: setup + publish/retry command guards, local listing/portal reservations | Transactional entitlements and enforcement on backend operations |
 | GEM-19 | Sample 179/725/1800+ QAR commercial tiers | `/pricing`, `/workspace/billing` | Config aligned to Gemini illustrations | Commercial approval; no annual discount inferred; gateway selection |
@@ -31,7 +31,7 @@
 | GEM-21 | AI copy, media enhancement, lead scoring | `/workspace/studio`, `/workspace/leads` | Interactive local source/proposal/human review | AI provider, per-field grounding, server approval, credit ledger, evaluations |
 | GEM-22 | Mobile/PWA for agents | Responsive pages | UI concept | Actual service worker/installability/offline strategy, photos on mobile, device testing |
 | GEM-23 | Multi-tenant Postgres, queues, real integrations, payments | `docs/12-architecture-contracts.md` | Design only | Entire backend/integrations; no production readiness claim |
-| GEM-24 | Channel attribution, qualified leads, ROI | `/workspace/analytics` | Interactive demo | Real event pipeline, marketing cost reconciliation, reporting governance |
+| GEM-24 | Channel attribution, qualified leads, ROI | `/workspace/analytics` | Interactive demo: shared lead-derived source/property/date cohorts, qualification, conversion, backlog, local response samples and explicit fictional spend/CPQL | Real event pipeline, marketing cost reconciliation, attribution/consent governance and verified revenue |
 
 ## Explicit milestone gates
 
@@ -44,3 +44,5 @@
 **Known not completed in v3:** Production property persistence (browser-local canonical create/edit/media/review/history is implemented in change 0005), product-wide Arabic translations, service worker/PWA install, drag-and-drop upload processing, live duplicate detection, live bookings, live AI scoring/copy, real accounts, real billing, real portal/Meta/Google/WhatsApp connectivity. Keep them visible in the backlog, not hidden under a screenshot.
 
 Phase 2 implementation and verification: `docs/18-phase2-connector-hub.md`, OpenSpec change `0006-connector-hub-prototype`. All provider contracts remain illustrative; production status is unchanged.
+
+Phase 3 implementation and evidence: `docs/19-phase3-lead-crm.md`, OpenSpec `0007-unified-lead-crm`. CRM, conversations, viewings and source reporting share the existing local repository. All providers remain unconnected; production status is unchanged.

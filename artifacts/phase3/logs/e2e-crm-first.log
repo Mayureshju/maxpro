@@ -1,0 +1,377 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test lead-crm.spec.ts
+
+[WebServer] (node:56822) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:56846) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 52 tests using 2 workers
+
+(node:56866) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:56867) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/e2e/lead-crm.spec.ts:16:1 › CRM domain: five internal payloads preserve source, event, property, timestamps and same-name identities (264ms)
+  ✓   2 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:16:1 › CRM domain: five internal payloads preserve source, event, property, timestamps and same-name identities (290ms)
+  ✓   3 [chromium] › tests/e2e/lead-crm.spec.ts:17:1 › CRM domain: replay is idempotent and does not rotate; different source same event is distinct (142ms)
+  ✓   4 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:17:1 › CRM domain: replay is idempotent and does not rotate; different source same event is distinct (145ms)
+  ✓   5 [chromium] › tests/e2e/lead-crm.spec.ts:18:1 › CRM domain: malformed, foreign-org, missing-property, future and personal data inputs reject without mutations (126ms)
+  ✓   6 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:18:1 › CRM domain: malformed, foreign-org, missing-property, future and personal data inputs reject without mutations (192ms)
+  ✓   7 [chromium] › tests/e2e/lead-crm.spec.ts:19:1 › CRM domain: round-robin survives hydration and skips unavailable/inactive agents (142ms)
+  ✓   8 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:19:1 › CRM domain: round-robin survives hydration and skips unavailable/inactive agents (149ms)
+  ✓   9 [chromium] › tests/e2e/lead-crm.spec.ts:20:1 › CRM domain: fallback, backlog, manual and invalid assignment have explicit outcomes (150ms)
+  ✓  10 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:20:1 › CRM domain: fallback, backlog, manual and invalid assignment have explicit outcomes (161ms)
+  ✓  11 [chromium] › tests/e2e/lead-crm.spec.ts:21:1 › CRM domain: arbitrary new canonical properties receive leads; unknown IDs do not substitute (164ms)
+  ✓  12 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:21:1 › CRM domain: arbitrary new canonical properties receive leads; unknown IDs do not substitute (217ms)
+  ✓  13 [chromium] › tests/e2e/lead-crm.spec.ts:22:1 › CRM domain: stage, qualification, notes, opt-out and replies share one lead and response cohort (191ms)
+  ✓  14 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:22:1 › CRM domain: stage, qualification, notes, opt-out and replies share one lead and response cohort (173ms)
+  ✓  15 [chromium] › tests/e2e/lead-crm.spec.ts:23:1 › CRM domain: viewing conflicts, cancellation and valid transitions persist (159ms)
+  ✓  16 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:23:1 › CRM domain: viewing conflicts, cancellation and valid transitions persist (152ms)
+  ✓  17 [chromium] › tests/e2e/lead-crm.spec.ts:24:1 › CRM domain: date filters use inclusive Qatar received dates and explicit costs only (150ms)
+  ✓  18 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:24:1 › CRM domain: date filters use inclusive Qatar received dates and explicit costs only (148ms)
+  ✓  19 [chromium] › tests/e2e/lead-crm.spec.ts:25:1 › CRM storage: migration, invalid references, schema, identity and nested metadata recover safely (137ms)
+  ✓  20 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:25:1 › CRM storage: migration, invalid references, schema, identity and nested metadata recover safely (179ms)
+  ✘  21 [chromium] › tests/e2e/lead-crm.spec.ts:28:2 › CRM en: intake replay, invalid event, filters and keyboard pipeline work (718ms)
+  ✘  22 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:28:2 › CRM en: intake replay, invalid event, filters and keyboard pipeline work (629ms)
+(node:56999) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:57000) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  23 [chromium] › tests/e2e/lead-crm.spec.ts:29:2 › CRM en: stage, conversation, handover, viewing cancellation and analytics persist (2.2s)
+  ✘  25 [chromium] › tests/e2e/lead-crm.spec.ts:28:2 › CRM ar: intake replay, invalid event, filters and keyboard pipeline work (565ms)
+  ✓  24 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:29:2 › CRM en: stage, conversation, handover, viewing cancellation and analytics persist (2.8s)
+(node:57071) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  26 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:28:2 › CRM ar: intake replay, invalid event, filters and keyboard pipeline work (713ms)
+(node:57098) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  27 [chromium] › tests/e2e/lead-crm.spec.ts:29:2 › CRM ar: stage, conversation, handover, viewing cancellation and analytics persist (1.7s)
+  ✓  29 [chromium] › tests/e2e/lead-crm.spec.ts:31:1 › CRM browser: routing cursor persists, unavailable agents are excluded, manual intake enters backlog (651ms)
+  ✓  28 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:29:2 › CRM ar: stage, conversation, handover, viewing cancellation and analytics persist (2.7s)
+  ✓  31 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:31:1 › CRM browser: routing cursor persists, unavailable agents are excluded, manual intake enters backlog (680ms)
+  ✘  30 [chromium] › tests/e2e/lead-crm.spec.ts:32:1 › CRM browser: a newly created canonical property can receive a simulated lead (20.2s)
+(node:57401) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  33 [chromium] › tests/e2e/lead-crm.spec.ts:33:1 › CRM browser: corrupt saved CRM excludes invalid leads but preserves properties and jobs; unknown ID is explicit (831ms)
+  ✘  32 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:32:1 › CRM browser: a newly created canonical property can receive a simulated lead (20.2s)
+(node:57442) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  35 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:33:1 › CRM browser: corrupt saved CRM excludes invalid leads but preserves properties and jobs; unknown ID is explicit (879ms)
+  ✘  34 [chromium] › tests/e2e/lead-crm.spec.ts:34:1 › CRM browser: fictional spend and date/property filters have explicit provenance (20.1s)
+(node:57708) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  36 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:34:1 › CRM browser: fictional spend and date/property filters have explicit provenance (20.2s)
+(node:57750) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  37 [chromium] › tests/e2e/lead-crm.spec.ts:37:2 › CRM visual en 1440: eight connected operational workspaces (1.9s)
+  -  38 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:37:2 › CRM visual en 1440: eight connected operational workspaces
+  -  40 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:37:2 › CRM visual en 1024: eight connected operational workspaces
+  -  41 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:37:2 › CRM visual en 768: eight connected operational workspaces
+  -  42 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:37:2 › CRM visual en 375: eight connected operational workspaces
+  -  43 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:37:2 › CRM visual ar 1440: eight connected operational workspaces
+  -  44 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:37:2 › CRM visual ar 1024: eight connected operational workspaces
+  -  45 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:37:2 › CRM visual ar 768: eight connected operational workspaces
+  -  46 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:37:2 › CRM visual ar 375: eight connected operational workspaces
+  ✓  39 [chromium] › tests/e2e/lead-crm.spec.ts:37:2 › CRM visual en 1024: eight connected operational workspaces (2.0s)
+  ✓  47 [chromium] › tests/e2e/lead-crm.spec.ts:37:2 › CRM visual en 768: eight connected operational workspaces (1.5s)
+  ✓  48 [chromium] › tests/e2e/lead-crm.spec.ts:37:2 › CRM visual en 375: eight connected operational workspaces (1.4s)
+  ✓  49 [chromium] › tests/e2e/lead-crm.spec.ts:37:2 › CRM visual ar 1440: eight connected operational workspaces (1.7s)
+  ✓  50 [chromium] › tests/e2e/lead-crm.spec.ts:37:2 › CRM visual ar 1024: eight connected operational workspaces (1.5s)
+  ✓  51 [chromium] › tests/e2e/lead-crm.spec.ts:37:2 › CRM visual ar 768: eight connected operational workspaces (1.4s)
+  ✓  52 [chromium] › tests/e2e/lead-crm.spec.ts:37:2 › CRM visual ar 375: eight connected operational workspaces (1.4s)
+
+
+  1) [chromium] › tests/e2e/lead-crm.spec.ts:28:2 › CRM en: intake replay, invalid event, filters and keyboard pipeline work 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: getByRole('alert')
+    Expected substring: "Malformed JSON"
+    Error: strict mode violation: getByRole('alert') resolved to 2 elements:
+        1) <p role="alert" class="crm-feedback crm-error">Malformed JSON example.</p> aka getByText('Malformed JSON example.', { exact: true })
+        2) <div role="alert" aria-live="assertive" id="__next-route-announcer__"></div> aka locator('[id="__next-route-announcer__"]')
+
+    Call log:
+      - Expect "toContainText" getByRole('alert') with timeout 8000ms
+      - waiting for getByRole('alert')
+
+
+      26 |
+      27 | for(const locale of ['en','ar']){
+    > 28 |  test(`CRM ${locale}: intake replay, invalid event, filters and keyboard pipeline work`,async({page})=>{await openIntake(page,locale);await page.getByLabel(/Intake source|مصدر الاستقبال/).selectOption('Property Finder');await page.getByLabel(/Canonical property|العقار الأساسي/,{exact:true}).selectOption('AQ-10244');await process(page);let s=await saved(page);const l=s.crm.leads[0];expect(l.propertyId).toBe('AQ-10244');expect(l.source).toBe('Property Finder');expect(s.crm.leads).toHaveLength(6);await process(page);s=await saved(page);expect(s.crm.leads).toHaveLength(6);expect(s.crm.receipts.at(-1)?.status).toBe('duplicate');expect(s.crm.cursor).toBe(1);await page.getByLabel(/Internal example payload|بيانات المثال الداخلي/).fill('{bad');await process(page);await expect(page.getByRole('alert')).toContainText('Malformed JSON');s=await saved(page);expect(s.crm.leads).toHaveLength(6);expect(s.crm.receipts.at(-1)?.status).toBe('rejected');await page.getByLabel(/Search leads|بحث العملاء/).fill(l.sourceEventId);await expect(page.locator('.crm-table tbody tr')).toHaveCount(1);await page.getByRole('button',{name:/^Pipeline$|^مسار$/,exact:true}).focus();await page.keyboard.press('Enter');await expect(page.locator('.crm-lead-tile')).toHaveCount(1);await noOverflow(page);await page.reload();expect((await saved(page)).crm.leads[0].id).toBe(l.id);});
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ^
+      29 |  test(`CRM ${locale}: stage, conversation, handover, viewing cancellation and analytics persist`,async({page})=>{test.setTimeout(60000);await openIntake(page,locale);await process(page);let s=await saved(page);const l=s.crm.leads[0];await page.goto(`/${locale}/workspace/leads/${l.id}`);await page.getByLabel(/Lead stage|مرحلة العميل/).selectOption('Qualified');await page.getByLabel(/Add fictional note|إضافة ملاحظة خيالية/).fill('Fictional follow-up context');await page.getByRole('button',{name:/^Add note$|^إضافة الملاحظة$/}).click();await page.getByRole('link',{name:/Open conversation|فتح المحادثة/}).click();await page.getByLabel(/Write a demo reply|كتابة رد تجريبي/).fill('Fictional viewing options');await page.getByRole('button',{name:/Save local reply|حفظ الرد المحلي/}).click();await page.getByLabel(/Handover agent|مسؤول التحويل/).selectOption('Karim Said');await page.reload();await expect(page.getByRole('log')).toContainText('Fictional viewing options');await expect(page.getByLabel(/Handover agent|مسؤول التحويل/)).toHaveValue('Karim Said');await page.getByRole('link',{name:/^Request viewing$|^طلب معاينة$/}).click();await page.getByLabel(/Requested date|التاريخ المطلوب/).fill('2027-01-05');await page.getByRole('button',{name:/Add demo request|إضافة طلب تجريبي/}).click();await expect(page.getByText(/Requested \(local\)|مطلوب \(محلي\)/,{exact:true})).toBeVisible();await page.reload();await page.getByRole('button',{name:/^Cancel$|^إلغاء$/}).click();await expect(page.getByText(/Cancelled \(local\)|ملغى \(محلي\)/,{exact:true})).toBeVisible();await page.goto(`/${locale}/workspace/leads/${l.id}`);await page.getByLabel(/Lead stage|مرحلة العميل/).selectOption('Won');await page.goto(`/${locale}/workspace/analytics`);await expect(page.getByTestId('lead-total')).toHaveText('6');await expect(page.getByTestId('qualified-total')).toHaveText('2');s=await saved(page);const final=s.crm.leads.find(x=>x.id===l.id)!;expect(final.stage).toBe('Won');expect(final.sourceEventId).toBe(l.sourceEventId);expect(final.viewings[0].status).toBe('Cancelled');expect(s.crm.leads.filter(x=>x.id!==l.id).some(x=>x.conversation.messages.some(m=>m.text==='Fictional viewing options'))).toBe(false);await noOverflow(page);});
+      30 | }
+      31 | test('CRM browser: routing cursor persists, unavailable agents are excluded, manual intake enters backlog',async({page})=>{await page.goto('/en/workspace/leads/assignment');await page.getByRole('button',{name:'Simulate another lead'}).click();expect((await saved(page)).crm.leads[0].assignee).toBe('Fatima Noor');await page.reload();await expect(page.locator('dd').filter({hasText:'Karim Said'})).toBeVisible();await page.getByRole('button',{name:'Simulate another lead'}).click();expect((await saved(page)).crm.leads[0].assignee).toBe('Karim Said');await page.getByLabel('Available Mariam Ahmed',{exact:true}).uncheck();await page.getByLabel('Available Fatima Noor',{exact:true}).uncheck();await page.getByRole('button',{name:'Simulate another lead'}).click();expect((await saved(page)).crm.leads[0].assignee).toBe('Karim Said');await page.getByRole('button',{name:/Manual assignment/}).click();await page.getByRole('button',{name:'Simulate another lead'}).click();expect((await saved(page)).crm.leads[0].assignee).toBeNull();await page.goto('/en/workspace/analytics');await expect(page.getByTestId('assignment-backlog')).toHaveText('3');});
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/lead-crm.spec.ts:28:804
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/lead-crm-CRM-en-intake-rep-0e935--and-keyboard-pipeline-work-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/lead-crm-CRM-en-intake-rep-0e935--and-keyboard-pipeline-work-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/lead-crm-CRM-en-intake-rep-0e935--and-keyboard-pipeline-work-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/lead-crm-CRM-en-intake-rep-0e935--and-keyboard-pipeline-work-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/e2e/lead-crm.spec.ts:28:2 › CRM ar: intake replay, invalid event, filters and keyboard pipeline work 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: getByRole('alert')
+    Expected substring: "Malformed JSON"
+    Error: strict mode violation: getByRole('alert') resolved to 2 elements:
+        1) <p role="alert" class="crm-feedback crm-error">Malformed JSON example.</p> aka getByText('Malformed JSON example.', { exact: true })
+        2) <div role="alert" aria-live="assertive" id="__next-route-announcer__"></div> aka locator('[id="__next-route-announcer__"]')
+
+    Call log:
+      - Expect "toContainText" getByRole('alert') with timeout 8000ms
+      - waiting for getByRole('alert')
+
+
+      26 |
+      27 | for(const locale of ['en','ar']){
+    > 28 |  test(`CRM ${locale}: intake replay, invalid event, filters and keyboard pipeline work`,async({page})=>{await openIntake(page,locale);await page.getByLabel(/Intake source|مصدر الاستقبال/).selectOption('Property Finder');await page.getByLabel(/Canonical property|العقار الأساسي/,{exact:true}).selectOption('AQ-10244');await process(page);let s=await saved(page);const l=s.crm.leads[0];expect(l.propertyId).toBe('AQ-10244');expect(l.source).toBe('Property Finder');expect(s.crm.leads).toHaveLength(6);await process(page);s=await saved(page);expect(s.crm.leads).toHaveLength(6);expect(s.crm.receipts.at(-1)?.status).toBe('duplicate');expect(s.crm.cursor).toBe(1);await page.getByLabel(/Internal example payload|بيانات المثال الداخلي/).fill('{bad');await process(page);await expect(page.getByRole('alert')).toContainText('Malformed JSON');s=await saved(page);expect(s.crm.leads).toHaveLength(6);expect(s.crm.receipts.at(-1)?.status).toBe('rejected');await page.getByLabel(/Search leads|بحث العملاء/).fill(l.sourceEventId);await expect(page.locator('.crm-table tbody tr')).toHaveCount(1);await page.getByRole('button',{name:/^Pipeline$|^مسار$/,exact:true}).focus();await page.keyboard.press('Enter');await expect(page.locator('.crm-lead-tile')).toHaveCount(1);await noOverflow(page);await page.reload();expect((await saved(page)).crm.leads[0].id).toBe(l.id);});
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ^
+      29 |  test(`CRM ${locale}: stage, conversation, handover, viewing cancellation and analytics persist`,async({page})=>{test.setTimeout(60000);await openIntake(page,locale);await process(page);let s=await saved(page);const l=s.crm.leads[0];await page.goto(`/${locale}/workspace/leads/${l.id}`);await page.getByLabel(/Lead stage|مرحلة العميل/).selectOption('Qualified');await page.getByLabel(/Add fictional note|إضافة ملاحظة خيالية/).fill('Fictional follow-up context');await page.getByRole('button',{name:/^Add note$|^إضافة الملاحظة$/}).click();await page.getByRole('link',{name:/Open conversation|فتح المحادثة/}).click();await page.getByLabel(/Write a demo reply|كتابة رد تجريبي/).fill('Fictional viewing options');await page.getByRole('button',{name:/Save local reply|حفظ الرد المحلي/}).click();await page.getByLabel(/Handover agent|مسؤول التحويل/).selectOption('Karim Said');await page.reload();await expect(page.getByRole('log')).toContainText('Fictional viewing options');await expect(page.getByLabel(/Handover agent|مسؤول التحويل/)).toHaveValue('Karim Said');await page.getByRole('link',{name:/^Request viewing$|^طلب معاينة$/}).click();await page.getByLabel(/Requested date|التاريخ المطلوب/).fill('2027-01-05');await page.getByRole('button',{name:/Add demo request|إضافة طلب تجريبي/}).click();await expect(page.getByText(/Requested \(local\)|مطلوب \(محلي\)/,{exact:true})).toBeVisible();await page.reload();await page.getByRole('button',{name:/^Cancel$|^إلغاء$/}).click();await expect(page.getByText(/Cancelled \(local\)|ملغى \(محلي\)/,{exact:true})).toBeVisible();await page.goto(`/${locale}/workspace/leads/${l.id}`);await page.getByLabel(/Lead stage|مرحلة العميل/).selectOption('Won');await page.goto(`/${locale}/workspace/analytics`);await expect(page.getByTestId('lead-total')).toHaveText('6');await expect(page.getByTestId('qualified-total')).toHaveText('2');s=await saved(page);const final=s.crm.leads.find(x=>x.id===l.id)!;expect(final.stage).toBe('Won');expect(final.sourceEventId).toBe(l.sourceEventId);expect(final.viewings[0].status).toBe('Cancelled');expect(s.crm.leads.filter(x=>x.id!==l.id).some(x=>x.conversation.messages.some(m=>m.text==='Fictional viewing options'))).toBe(false);await noOverflow(page);});
+      30 | }
+      31 | test('CRM browser: routing cursor persists, unavailable agents are excluded, manual intake enters backlog',async({page})=>{await page.goto('/en/workspace/leads/assignment');await page.getByRole('button',{name:'Simulate another lead'}).click();expect((await saved(page)).crm.leads[0].assignee).toBe('Fatima Noor');await page.reload();await expect(page.locator('dd').filter({hasText:'Karim Said'})).toBeVisible();await page.getByRole('button',{name:'Simulate another lead'}).click();expect((await saved(page)).crm.leads[0].assignee).toBe('Karim Said');await page.getByLabel('Available Mariam Ahmed',{exact:true}).uncheck();await page.getByLabel('Available Fatima Noor',{exact:true}).uncheck();await page.getByRole('button',{name:'Simulate another lead'}).click();expect((await saved(page)).crm.leads[0].assignee).toBe('Karim Said');await page.getByRole('button',{name:/Manual assignment/}).click();await page.getByRole('button',{name:'Simulate another lead'}).click();expect((await saved(page)).crm.leads[0].assignee).toBeNull();await page.goto('/en/workspace/analytics');await expect(page.getByTestId('assignment-backlog')).toHaveText('3');});
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/lead-crm.spec.ts:28:804
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/lead-crm-CRM-ar-intake-rep-49241--and-keyboard-pipeline-work-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/lead-crm-CRM-ar-intake-rep-49241--and-keyboard-pipeline-work-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/lead-crm-CRM-ar-intake-rep-49241--and-keyboard-pipeline-work-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/lead-crm-CRM-ar-intake-rep-49241--and-keyboard-pipeline-work-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [chromium] › tests/e2e/lead-crm.spec.ts:32:1 › CRM browser: a newly created canonical property can receive a simulated lead 
+
+    Test timeout of 20000ms exceeded.
+
+    Error: locator.selectOption: Test timeout of 20000ms exceeded.
+    Call log:
+      - waiting for getByLabel('Canonical property', { exact: true })
+
+
+      30 | }
+      31 | test('CRM browser: routing cursor persists, unavailable agents are excluded, manual intake enters backlog',async({page})=>{await page.goto('/en/workspace/leads/assignment');await page.getByRole('button',{name:'Simulate another lead'}).click();expect((await saved(page)).crm.leads[0].assignee).toBe('Fatima Noor');await page.reload();await expect(page.locator('dd').filter({hasText:'Karim Said'})).toBeVisible();await page.getByRole('button',{name:'Simulate another lead'}).click();expect((await saved(page)).crm.leads[0].assignee).toBe('Karim Said');await page.getByLabel('Available Mariam Ahmed',{exact:true}).uncheck();await page.getByLabel('Available Fatima Noor',{exact:true}).uncheck();await page.getByRole('button',{name:'Simulate another lead'}).click();expect((await saved(page)).crm.leads[0].assignee).toBe('Karim Said');await page.getByRole('button',{name:/Manual assignment/}).click();await page.getByRole('button',{name:'Simulate another lead'}).click();expect((await saved(page)).crm.leads[0].assignee).toBeNull();await page.goto('/en/workspace/analytics');await expect(page.getByTestId('assignment-backlog')).toHaveText('3');});
+    > 32 | test('CRM browser: a newly created canonical property can receive a simulated lead',async({page})=>{await page.goto('/en/workspace/inventory/new');await page.getByRole('button',{name:'Create empty draft'}).click();const propertyId=page.url().split('/').at(-2)!;await openIntake(page);await page.getByLabel('Canonical property',{exact:true}).selectOption(propertyId);await process(page);const l=(await saved(page)).crm.leads[0];expect(l.propertyId).toBe(propertyId);await page.goto(`/en/workspace/leads/${l.id}`);await expect(page.locator('main')).toContainText(propertyId);await page.reload();await expect(page.locator('main')).toContainText(propertyId);});
+         |                                                                                                                                                                                                                                                                                                                                                      ^
+      33 | test('CRM browser: corrupt saved CRM excludes invalid leads but preserves properties and jobs; unknown ID is explicit',async({page})=>{await openIntake(page);await process(page);const before=await saved(page);await page.evaluate(k=>{const s=JSON.parse(localStorage.getItem(k)!);s.crm.leads[0].propertyId='missing';s.crm.cursor=-4;s.crm.receipts.push({status:'delivered'});localStorage.setItem(k,JSON.stringify(s));},key);await page.reload();await expect(page.getByText(/Some invalid local records/)).toBeVisible();await page.getByRole('button',{name:'Lead intake simulator',exact:true}).click();await page.getByRole('checkbox',{name:/I acknowledge/}).check();await process(page);const after=await saved(page);expect(Object.keys(after.properties)).toEqual(Object.keys(before.properties));expect(after.jobs).toEqual(before.jobs);expect(after.crm.cursor).toBe(1);await page.goto('/en/workspace/leads/unknown');await expect(page.locator('h1')).toHaveText('Lead not found');await page.goto('/en/workspace/inbox?lead=unknown');await expect(page.getByText('No conversation found')).toBeVisible();});
+      34 | test('CRM browser: fictional spend and date/property filters have explicit provenance',async({page})=>{await page.goto('/en/workspace/analytics');await page.getByLabel('Source',{exact:true}).selectOption('Meta Lead Ads');await expect(page.locator('[data-channel="Meta Lead Ads"]')).toContainText('Unavailable');await page.getByLabel('Fictional amount QAR').fill('120');await page.getByRole('button',{name:'Add fictional spend'}).click();await expect(page.locator('[data-channel="Meta Lead Ads"]')).toContainText('120.00');await page.getByLabel('Property',{exact:true}).selectOption('AQ-10231');await expect(page.locator('[data-channel="Meta Lead Ads"]')).toContainText('Unavailable');await page.getByLabel('From date',{exact:true}).fill('2099-01-01');await expect(page.getByTestId('lead-total')).toHaveText('0');});
+      35 |
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/lead-crm.spec.ts:32:342
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/lead-crm-CRM-browser-a-new-af71d-an-receive-a-simulated-lead-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/lead-crm-CRM-browser-a-new-af71d-an-receive-a-simulated-lead-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/lead-crm-CRM-browser-a-new-af71d-an-receive-a-simulated-lead-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/lead-crm-CRM-browser-a-new-af71d-an-receive-a-simulated-lead-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [chromium] › tests/e2e/lead-crm.spec.ts:34:1 › CRM browser: fictional spend and date/property filters have explicit provenance 
+
+    Test timeout of 20000ms exceeded.
+
+    Error: locator.selectOption: Test timeout of 20000ms exceeded.
+    Call log:
+      - waiting for getByLabel('Source', { exact: true })
+
+
+      32 | test('CRM browser: a newly created canonical property can receive a simulated lead',async({page})=>{await page.goto('/en/workspace/inventory/new');await page.getByRole('button',{name:'Create empty draft'}).click();const propertyId=page.url().split('/').at(-2)!;await openIntake(page);await page.getByLabel('Canonical property',{exact:true}).selectOption(propertyId);await process(page);const l=(await saved(page)).crm.leads[0];expect(l.propertyId).toBe(propertyId);await page.goto(`/en/workspace/leads/${l.id}`);await expect(page.locator('main')).toContainText(propertyId);await page.reload();await expect(page.locator('main')).toContainText(propertyId);});
+      33 | test('CRM browser: corrupt saved CRM excludes invalid leads but preserves properties and jobs; unknown ID is explicit',async({page})=>{await openIntake(page);await process(page);const before=await saved(page);await page.evaluate(k=>{const s=JSON.parse(localStorage.getItem(k)!);s.crm.leads[0].propertyId='missing';s.crm.cursor=-4;s.crm.receipts.push({status:'delivered'});localStorage.setItem(k,JSON.stringify(s));},key);await page.reload();await expect(page.getByText(/Some invalid local records/)).toBeVisible();await page.getByRole('button',{name:'Lead intake simulator',exact:true}).click();await page.getByRole('checkbox',{name:/I acknowledge/}).check();await process(page);const after=await saved(page);expect(Object.keys(after.properties)).toEqual(Object.keys(before.properties));expect(after.jobs).toEqual(before.jobs);expect(after.crm.cursor).toBe(1);await page.goto('/en/workspace/leads/unknown');await expect(page.locator('h1')).toHaveText('Lead not found');await page.goto('/en/workspace/inbox?lead=unknown');await expect(page.getByText('No conversation found')).toBeVisible();});
+    > 34 | test('CRM browser: fictional spend and date/property filters have explicit provenance',async({page})=>{await page.goto('/en/workspace/analytics');await page.getByLabel('Source',{exact:true}).selectOption('Meta Lead Ads');await expect(page.locator('[data-channel="Meta Lead Ads"]')).toContainText('Unavailable');await page.getByLabel('Fictional amount QAR').fill('120');await page.getByRole('button',{name:'Add fictional spend'}).click();await expect(page.locator('[data-channel="Meta Lead Ads"]')).toContainText('120.00');await page.getByLabel('Property',{exact:true}).selectOption('AQ-10231');await expect(page.locator('[data-channel="Meta Lead Ads"]')).toContainText('Unavailable');await page.getByLabel('From date',{exact:true}).fill('2099-01-01');await expect(page.getByTestId('lead-total')).toHaveText('0');});
+         |                                                                                                                                                                                                ^
+      35 |
+      36 | for(const locale of ['en','ar'])for(const width of [1440,1024,768,375]){
+      37 |  test(`CRM visual ${locale} ${width}: eight connected operational workspaces`,async({page},info)=>{test.skip(info.project.name!=='chromium','Each width captured once with Chromium.');test.setTimeout(60000);await page.setViewportSize({width,height:1000});await openIntake(page,locale);await process(page);const l=(await saved(page)).crm.leads[0];await page.goto(`/${locale}/workspace/leads/${l.id}`);await page.getByLabel(/Lead stage|مرحلة العميل/).selectOption('Qualified');await page.goto(`/${locale}/workspace/leads/viewings?lead=${l.id}`);await page.getByLabel(/Requested date|التاريخ المطلوب/).fill('2027-01-05');await page.getByRole('button',{name:/Add demo request|إضافة طلب تجريبي/}).click();for(const [name,path] of [['table','leads'],['pipeline','leads'],['detail',`leads/${l.id}`],['inbox',`inbox?lead=${l.id}`],['assignment','leads/assignment'],['viewings','leads/viewings'],['analytics','analytics'],['control-tower','']]){await page.goto(`/${locale}/workspace/${path}`);await expect(page.locator('h1')).toBeVisible();if(name==='pipeline')await page.getByRole('button',{name:/^Pipeline$|^مسار$/,exact:true}).click();await page.evaluate(()=>document.fonts.ready);await expect(page.locator('html')).toHaveAttribute('dir',locale==='ar'?'rtl':'ltr');await noOverflow(page);await page.screenshot({path:resolve(`../../artifacts/phase3/screenshots/${locale}-${width}-${name}.png`),fullPage:true,scale:'css'});}});
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/lead-crm.spec.ts:34:192
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/lead-crm-CRM-browser-ficti-3fe2e-rs-have-explicit-provenance-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/lead-crm-CRM-browser-ficti-3fe2e-rs-have-explicit-provenance-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/lead-crm-CRM-browser-ficti-3fe2e-rs-have-explicit-provenance-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/lead-crm-CRM-browser-ficti-3fe2e-rs-have-explicit-provenance-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [mobile-chromium] › tests/e2e/lead-crm.spec.ts:28:2 › CRM en: intake replay, invalid event, filters and keyboard pipeline work 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: getByRole('alert')
+    Expected substring: "Malformed JSON"
+    Error: strict mode violation: getByRole('alert') resolved to 2 elements:
+        1) <p role="alert" class="crm-feedback crm-error">Malformed JSON example.</p> aka getByText('Malformed JSON example.', { exact: true })
+        2) <div role="alert" aria-live="assertive" id="__next-route-announcer__"></div> aka locator('[id="__next-route-announcer__"]')
+
+    Call log:
+      - Expect "toContainText" getByRole('alert') with timeout 8000ms
+      - waiting for getByRole('alert')
+
+
+      26 |
+      27 | for(const locale of ['en','ar']){
+    > 28 |  test(`CRM ${locale}: intake replay, invalid event, filters and keyboard pipeline work`,async({page})=>{await openIntake(page,locale);await page.getByLabel(/Intake source|مصدر الاستقبال/).selectOption('Property Finder');await page.getByLabel(/Canonical property|العقار الأساسي/,{exact:true}).selectOption('AQ-10244');await process(page);let s=await saved(page);const l=s.crm.leads[0];expect(l.propertyId).toBe('AQ-10244');expect(l.source).toBe('Property Finder');expect(s.crm.leads).toHaveLength(6);await process(page);s=await saved(page);expect(s.crm.leads).toHaveLength(6);expect(s.crm.receipts.at(-1)?.status).toBe('duplicate');expect(s.crm.cursor).toBe(1);await page.getByLabel(/Internal example payload|بيانات المثال الداخلي/).fill('{bad');await process(page);await expect(page.getByRole('alert')).toContainText('Malformed JSON');s=await saved(page);expect(s.crm.leads).toHaveLength(6);expect(s.crm.receipts.at(-1)?.status).toBe('rejected');await page.getByLabel(/Search leads|بحث العملاء/).fill(l.sourceEventId);await expect(page.locator('.crm-table tbody tr')).toHaveCount(1);await page.getByRole('button',{name:/^Pipeline$|^مسار$/,exact:true}).focus();await page.keyboard.press('Enter');await expect(page.locator('.crm-lead-tile')).toHaveCount(1);await noOverflow(page);await page.reload();expect((await saved(page)).crm.leads[0].id).toBe(l.id);});
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ^
+      29 |  test(`CRM ${locale}: stage, conversation, handover, viewing cancellation and analytics persist`,async({page})=>{test.setTimeout(60000);await openIntake(page,locale);await process(page);let s=await saved(page);const l=s.crm.leads[0];await page.goto(`/${locale}/workspace/leads/${l.id}`);await page.getByLabel(/Lead stage|مرحلة العميل/).selectOption('Qualified');await page.getByLabel(/Add fictional note|إضافة ملاحظة خيالية/).fill('Fictional follow-up context');await page.getByRole('button',{name:/^Add note$|^إضافة الملاحظة$/}).click();await page.getByRole('link',{name:/Open conversation|فتح المحادثة/}).click();await page.getByLabel(/Write a demo reply|كتابة رد تجريبي/).fill('Fictional viewing options');await page.getByRole('button',{name:/Save local reply|حفظ الرد المحلي/}).click();await page.getByLabel(/Handover agent|مسؤول التحويل/).selectOption('Karim Said');await page.reload();await expect(page.getByRole('log')).toContainText('Fictional viewing options');await expect(page.getByLabel(/Handover agent|مسؤول التحويل/)).toHaveValue('Karim Said');await page.getByRole('link',{name:/^Request viewing$|^طلب معاينة$/}).click();await page.getByLabel(/Requested date|التاريخ المطلوب/).fill('2027-01-05');await page.getByRole('button',{name:/Add demo request|إضافة طلب تجريبي/}).click();await expect(page.getByText(/Requested \(local\)|مطلوب \(محلي\)/,{exact:true})).toBeVisible();await page.reload();await page.getByRole('button',{name:/^Cancel$|^إلغاء$/}).click();await expect(page.getByText(/Cancelled \(local\)|ملغى \(محلي\)/,{exact:true})).toBeVisible();await page.goto(`/${locale}/workspace/leads/${l.id}`);await page.getByLabel(/Lead stage|مرحلة العميل/).selectOption('Won');await page.goto(`/${locale}/workspace/analytics`);await expect(page.getByTestId('lead-total')).toHaveText('6');await expect(page.getByTestId('qualified-total')).toHaveText('2');s=await saved(page);const final=s.crm.leads.find(x=>x.id===l.id)!;expect(final.stage).toBe('Won');expect(final.sourceEventId).toBe(l.sourceEventId);expect(final.viewings[0].status).toBe('Cancelled');expect(s.crm.leads.filter(x=>x.id!==l.id).some(x=>x.conversation.messages.some(m=>m.text==='Fictional viewing options'))).toBe(false);await noOverflow(page);});
+      30 | }
+      31 | test('CRM browser: routing cursor persists, unavailable agents are excluded, manual intake enters backlog',async({page})=>{await page.goto('/en/workspace/leads/assignment');await page.getByRole('button',{name:'Simulate another lead'}).click();expect((await saved(page)).crm.leads[0].assignee).toBe('Fatima Noor');await page.reload();await expect(page.locator('dd').filter({hasText:'Karim Said'})).toBeVisible();await page.getByRole('button',{name:'Simulate another lead'}).click();expect((await saved(page)).crm.leads[0].assignee).toBe('Karim Said');await page.getByLabel('Available Mariam Ahmed',{exact:true}).uncheck();await page.getByLabel('Available Fatima Noor',{exact:true}).uncheck();await page.getByRole('button',{name:'Simulate another lead'}).click();expect((await saved(page)).crm.leads[0].assignee).toBe('Karim Said');await page.getByRole('button',{name:/Manual assignment/}).click();await page.getByRole('button',{name:'Simulate another lead'}).click();expect((await saved(page)).crm.leads[0].assignee).toBeNull();await page.goto('/en/workspace/analytics');await expect(page.getByTestId('assignment-backlog')).toHaveText('3');});
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/lead-crm.spec.ts:28:804
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/lead-crm-CRM-en-intake-rep-0e935--and-keyboard-pipeline-work-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/lead-crm-CRM-en-intake-rep-0e935--and-keyboard-pipeline-work-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/lead-crm-CRM-en-intake-rep-0e935--and-keyboard-pipeline-work-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/lead-crm-CRM-en-intake-rep-0e935--and-keyboard-pipeline-work-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [mobile-chromium] › tests/e2e/lead-crm.spec.ts:28:2 › CRM ar: intake replay, invalid event, filters and keyboard pipeline work 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: getByRole('alert')
+    Expected substring: "Malformed JSON"
+    Error: strict mode violation: getByRole('alert') resolved to 2 elements:
+        1) <p role="alert" class="crm-feedback crm-error">Malformed JSON example.</p> aka getByText('Malformed JSON example.', { exact: true })
+        2) <div role="alert" aria-live="assertive" id="__next-route-announcer__"></div> aka locator('[id="__next-route-announcer__"]')
+
+    Call log:
+      - Expect "toContainText" getByRole('alert') with timeout 8000ms
+      - waiting for getByRole('alert')
+
+
+      26 |
+      27 | for(const locale of ['en','ar']){
+    > 28 |  test(`CRM ${locale}: intake replay, invalid event, filters and keyboard pipeline work`,async({page})=>{await openIntake(page,locale);await page.getByLabel(/Intake source|مصدر الاستقبال/).selectOption('Property Finder');await page.getByLabel(/Canonical property|العقار الأساسي/,{exact:true}).selectOption('AQ-10244');await process(page);let s=await saved(page);const l=s.crm.leads[0];expect(l.propertyId).toBe('AQ-10244');expect(l.source).toBe('Property Finder');expect(s.crm.leads).toHaveLength(6);await process(page);s=await saved(page);expect(s.crm.leads).toHaveLength(6);expect(s.crm.receipts.at(-1)?.status).toBe('duplicate');expect(s.crm.cursor).toBe(1);await page.getByLabel(/Internal example payload|بيانات المثال الداخلي/).fill('{bad');await process(page);await expect(page.getByRole('alert')).toContainText('Malformed JSON');s=await saved(page);expect(s.crm.leads).toHaveLength(6);expect(s.crm.receipts.at(-1)?.status).toBe('rejected');await page.getByLabel(/Search leads|بحث العملاء/).fill(l.sourceEventId);await expect(page.locator('.crm-table tbody tr')).toHaveCount(1);await page.getByRole('button',{name:/^Pipeline$|^مسار$/,exact:true}).focus();await page.keyboard.press('Enter');await expect(page.locator('.crm-lead-tile')).toHaveCount(1);await noOverflow(page);await page.reload();expect((await saved(page)).crm.leads[0].id).toBe(l.id);});
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ^
+      29 |  test(`CRM ${locale}: stage, conversation, handover, viewing cancellation and analytics persist`,async({page})=>{test.setTimeout(60000);await openIntake(page,locale);await process(page);let s=await saved(page);const l=s.crm.leads[0];await page.goto(`/${locale}/workspace/leads/${l.id}`);await page.getByLabel(/Lead stage|مرحلة العميل/).selectOption('Qualified');await page.getByLabel(/Add fictional note|إضافة ملاحظة خيالية/).fill('Fictional follow-up context');await page.getByRole('button',{name:/^Add note$|^إضافة الملاحظة$/}).click();await page.getByRole('link',{name:/Open conversation|فتح المحادثة/}).click();await page.getByLabel(/Write a demo reply|كتابة رد تجريبي/).fill('Fictional viewing options');await page.getByRole('button',{name:/Save local reply|حفظ الرد المحلي/}).click();await page.getByLabel(/Handover agent|مسؤول التحويل/).selectOption('Karim Said');await page.reload();await expect(page.getByRole('log')).toContainText('Fictional viewing options');await expect(page.getByLabel(/Handover agent|مسؤول التحويل/)).toHaveValue('Karim Said');await page.getByRole('link',{name:/^Request viewing$|^طلب معاينة$/}).click();await page.getByLabel(/Requested date|التاريخ المطلوب/).fill('2027-01-05');await page.getByRole('button',{name:/Add demo request|إضافة طلب تجريبي/}).click();await expect(page.getByText(/Requested \(local\)|مطلوب \(محلي\)/,{exact:true})).toBeVisible();await page.reload();await page.getByRole('button',{name:/^Cancel$|^إلغاء$/}).click();await expect(page.getByText(/Cancelled \(local\)|ملغى \(محلي\)/,{exact:true})).toBeVisible();await page.goto(`/${locale}/workspace/leads/${l.id}`);await page.getByLabel(/Lead stage|مرحلة العميل/).selectOption('Won');await page.goto(`/${locale}/workspace/analytics`);await expect(page.getByTestId('lead-total')).toHaveText('6');await expect(page.getByTestId('qualified-total')).toHaveText('2');s=await saved(page);const final=s.crm.leads.find(x=>x.id===l.id)!;expect(final.stage).toBe('Won');expect(final.sourceEventId).toBe(l.sourceEventId);expect(final.viewings[0].status).toBe('Cancelled');expect(s.crm.leads.filter(x=>x.id!==l.id).some(x=>x.conversation.messages.some(m=>m.text==='Fictional viewing options'))).toBe(false);await noOverflow(page);});
+      30 | }
+      31 | test('CRM browser: routing cursor persists, unavailable agents are excluded, manual intake enters backlog',async({page})=>{await page.goto('/en/workspace/leads/assignment');await page.getByRole('button',{name:'Simulate another lead'}).click();expect((await saved(page)).crm.leads[0].assignee).toBe('Fatima Noor');await page.reload();await expect(page.locator('dd').filter({hasText:'Karim Said'})).toBeVisible();await page.getByRole('button',{name:'Simulate another lead'}).click();expect((await saved(page)).crm.leads[0].assignee).toBe('Karim Said');await page.getByLabel('Available Mariam Ahmed',{exact:true}).uncheck();await page.getByLabel('Available Fatima Noor',{exact:true}).uncheck();await page.getByRole('button',{name:'Simulate another lead'}).click();expect((await saved(page)).crm.leads[0].assignee).toBe('Karim Said');await page.getByRole('button',{name:/Manual assignment/}).click();await page.getByRole('button',{name:'Simulate another lead'}).click();expect((await saved(page)).crm.leads[0].assignee).toBeNull();await page.goto('/en/workspace/analytics');await expect(page.getByTestId('assignment-backlog')).toHaveText('3');});
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/lead-crm.spec.ts:28:804
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/lead-crm-CRM-ar-intake-rep-49241--and-keyboard-pipeline-work-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/lead-crm-CRM-ar-intake-rep-49241--and-keyboard-pipeline-work-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/lead-crm-CRM-ar-intake-rep-49241--and-keyboard-pipeline-work-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/lead-crm-CRM-ar-intake-rep-49241--and-keyboard-pipeline-work-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  7) [mobile-chromium] › tests/e2e/lead-crm.spec.ts:32:1 › CRM browser: a newly created canonical property can receive a simulated lead 
+
+    Test timeout of 20000ms exceeded.
+
+    Error: locator.selectOption: Test timeout of 20000ms exceeded.
+    Call log:
+      - waiting for getByLabel('Canonical property', { exact: true })
+
+
+      30 | }
+      31 | test('CRM browser: routing cursor persists, unavailable agents are excluded, manual intake enters backlog',async({page})=>{await page.goto('/en/workspace/leads/assignment');await page.getByRole('button',{name:'Simulate another lead'}).click();expect((await saved(page)).crm.leads[0].assignee).toBe('Fatima Noor');await page.reload();await expect(page.locator('dd').filter({hasText:'Karim Said'})).toBeVisible();await page.getByRole('button',{name:'Simulate another lead'}).click();expect((await saved(page)).crm.leads[0].assignee).toBe('Karim Said');await page.getByLabel('Available Mariam Ahmed',{exact:true}).uncheck();await page.getByLabel('Available Fatima Noor',{exact:true}).uncheck();await page.getByRole('button',{name:'Simulate another lead'}).click();expect((await saved(page)).crm.leads[0].assignee).toBe('Karim Said');await page.getByRole('button',{name:/Manual assignment/}).click();await page.getByRole('button',{name:'Simulate another lead'}).click();expect((await saved(page)).crm.leads[0].assignee).toBeNull();await page.goto('/en/workspace/analytics');await expect(page.getByTestId('assignment-backlog')).toHaveText('3');});
+    > 32 | test('CRM browser: a newly created canonical property can receive a simulated lead',async({page})=>{await page.goto('/en/workspace/inventory/new');await page.getByRole('button',{name:'Create empty draft'}).click();const propertyId=page.url().split('/').at(-2)!;await openIntake(page);await page.getByLabel('Canonical property',{exact:true}).selectOption(propertyId);await process(page);const l=(await saved(page)).crm.leads[0];expect(l.propertyId).toBe(propertyId);await page.goto(`/en/workspace/leads/${l.id}`);await expect(page.locator('main')).toContainText(propertyId);await page.reload();await expect(page.locator('main')).toContainText(propertyId);});
+         |                                                                                                                                                                                                                                                                                                                                                      ^
+      33 | test('CRM browser: corrupt saved CRM excludes invalid leads but preserves properties and jobs; unknown ID is explicit',async({page})=>{await openIntake(page);await process(page);const before=await saved(page);await page.evaluate(k=>{const s=JSON.parse(localStorage.getItem(k)!);s.crm.leads[0].propertyId='missing';s.crm.cursor=-4;s.crm.receipts.push({status:'delivered'});localStorage.setItem(k,JSON.stringify(s));},key);await page.reload();await expect(page.getByText(/Some invalid local records/)).toBeVisible();await page.getByRole('button',{name:'Lead intake simulator',exact:true}).click();await page.getByRole('checkbox',{name:/I acknowledge/}).check();await process(page);const after=await saved(page);expect(Object.keys(after.properties)).toEqual(Object.keys(before.properties));expect(after.jobs).toEqual(before.jobs);expect(after.crm.cursor).toBe(1);await page.goto('/en/workspace/leads/unknown');await expect(page.locator('h1')).toHaveText('Lead not found');await page.goto('/en/workspace/inbox?lead=unknown');await expect(page.getByText('No conversation found')).toBeVisible();});
+      34 | test('CRM browser: fictional spend and date/property filters have explicit provenance',async({page})=>{await page.goto('/en/workspace/analytics');await page.getByLabel('Source',{exact:true}).selectOption('Meta Lead Ads');await expect(page.locator('[data-channel="Meta Lead Ads"]')).toContainText('Unavailable');await page.getByLabel('Fictional amount QAR').fill('120');await page.getByRole('button',{name:'Add fictional spend'}).click();await expect(page.locator('[data-channel="Meta Lead Ads"]')).toContainText('120.00');await page.getByLabel('Property',{exact:true}).selectOption('AQ-10231');await expect(page.locator('[data-channel="Meta Lead Ads"]')).toContainText('Unavailable');await page.getByLabel('From date',{exact:true}).fill('2099-01-01');await expect(page.getByTestId('lead-total')).toHaveText('0');});
+      35 |
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/lead-crm.spec.ts:32:342
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/lead-crm-CRM-browser-a-new-af71d-an-receive-a-simulated-lead-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/lead-crm-CRM-browser-a-new-af71d-an-receive-a-simulated-lead-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/lead-crm-CRM-browser-a-new-af71d-an-receive-a-simulated-lead-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/lead-crm-CRM-browser-a-new-af71d-an-receive-a-simulated-lead-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8) [mobile-chromium] › tests/e2e/lead-crm.spec.ts:34:1 › CRM browser: fictional spend and date/property filters have explicit provenance 
+
+    Test timeout of 20000ms exceeded.
+
+    Error: locator.selectOption: Test timeout of 20000ms exceeded.
+    Call log:
+      - waiting for getByLabel('Source', { exact: true })
+
+
+      32 | test('CRM browser: a newly created canonical property can receive a simulated lead',async({page})=>{await page.goto('/en/workspace/inventory/new');await page.getByRole('button',{name:'Create empty draft'}).click();const propertyId=page.url().split('/').at(-2)!;await openIntake(page);await page.getByLabel('Canonical property',{exact:true}).selectOption(propertyId);await process(page);const l=(await saved(page)).crm.leads[0];expect(l.propertyId).toBe(propertyId);await page.goto(`/en/workspace/leads/${l.id}`);await expect(page.locator('main')).toContainText(propertyId);await page.reload();await expect(page.locator('main')).toContainText(propertyId);});
+      33 | test('CRM browser: corrupt saved CRM excludes invalid leads but preserves properties and jobs; unknown ID is explicit',async({page})=>{await openIntake(page);await process(page);const before=await saved(page);await page.evaluate(k=>{const s=JSON.parse(localStorage.getItem(k)!);s.crm.leads[0].propertyId='missing';s.crm.cursor=-4;s.crm.receipts.push({status:'delivered'});localStorage.setItem(k,JSON.stringify(s));},key);await page.reload();await expect(page.getByText(/Some invalid local records/)).toBeVisible();await page.getByRole('button',{name:'Lead intake simulator',exact:true}).click();await page.getByRole('checkbox',{name:/I acknowledge/}).check();await process(page);const after=await saved(page);expect(Object.keys(after.properties)).toEqual(Object.keys(before.properties));expect(after.jobs).toEqual(before.jobs);expect(after.crm.cursor).toBe(1);await page.goto('/en/workspace/leads/unknown');await expect(page.locator('h1')).toHaveText('Lead not found');await page.goto('/en/workspace/inbox?lead=unknown');await expect(page.getByText('No conversation found')).toBeVisible();});
+    > 34 | test('CRM browser: fictional spend and date/property filters have explicit provenance',async({page})=>{await page.goto('/en/workspace/analytics');await page.getByLabel('Source',{exact:true}).selectOption('Meta Lead Ads');await expect(page.locator('[data-channel="Meta Lead Ads"]')).toContainText('Unavailable');await page.getByLabel('Fictional amount QAR').fill('120');await page.getByRole('button',{name:'Add fictional spend'}).click();await expect(page.locator('[data-channel="Meta Lead Ads"]')).toContainText('120.00');await page.getByLabel('Property',{exact:true}).selectOption('AQ-10231');await expect(page.locator('[data-channel="Meta Lead Ads"]')).toContainText('Unavailable');await page.getByLabel('From date',{exact:true}).fill('2099-01-01');await expect(page.getByTestId('lead-total')).toHaveText('0');});
+         |                                                                                                                                                                                                ^
+      35 |
+      36 | for(const locale of ['en','ar'])for(const width of [1440,1024,768,375]){
+      37 |  test(`CRM visual ${locale} ${width}: eight connected operational workspaces`,async({page},info)=>{test.skip(info.project.name!=='chromium','Each width captured once with Chromium.');test.setTimeout(60000);await page.setViewportSize({width,height:1000});await openIntake(page,locale);await process(page);const l=(await saved(page)).crm.leads[0];await page.goto(`/${locale}/workspace/leads/${l.id}`);await page.getByLabel(/Lead stage|مرحلة العميل/).selectOption('Qualified');await page.goto(`/${locale}/workspace/leads/viewings?lead=${l.id}`);await page.getByLabel(/Requested date|التاريخ المطلوب/).fill('2027-01-05');await page.getByRole('button',{name:/Add demo request|إضافة طلب تجريبي/}).click();for(const [name,path] of [['table','leads'],['pipeline','leads'],['detail',`leads/${l.id}`],['inbox',`inbox?lead=${l.id}`],['assignment','leads/assignment'],['viewings','leads/viewings'],['analytics','analytics'],['control-tower','']]){await page.goto(`/${locale}/workspace/${path}`);await expect(page.locator('h1')).toBeVisible();if(name==='pipeline')await page.getByRole('button',{name:/^Pipeline$|^مسار$/,exact:true}).click();await page.evaluate(()=>document.fonts.ready);await expect(page.locator('html')).toHaveAttribute('dir',locale==='ar'?'rtl':'ltr');await noOverflow(page);await page.screenshot({path:resolve(`../../artifacts/phase3/screenshots/${locale}-${width}-${name}.png`),fullPage:true,scale:'css'});}});
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/lead-crm.spec.ts:34:192
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/lead-crm-CRM-browser-ficti-3fe2e-rs-have-explicit-provenance-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/lead-crm-CRM-browser-ficti-3fe2e-rs-have-explicit-provenance-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/lead-crm-CRM-browser-ficti-3fe2e-rs-have-explicit-provenance-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/lead-crm-CRM-browser-ficti-3fe2e-rs-have-explicit-provenance-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8 failed
+    [chromium] › tests/e2e/lead-crm.spec.ts:28:2 › CRM en: intake replay, invalid event, filters and keyboard pipeline work 
+    [chromium] › tests/e2e/lead-crm.spec.ts:28:2 › CRM ar: intake replay, invalid event, filters and keyboard pipeline work 
+    [chromium] › tests/e2e/lead-crm.spec.ts:32:1 › CRM browser: a newly created canonical property can receive a simulated lead 
+    [chromium] › tests/e2e/lead-crm.spec.ts:34:1 › CRM browser: fictional spend and date/property filters have explicit provenance 
+    [mobile-chromium] › tests/e2e/lead-crm.spec.ts:28:2 › CRM en: intake replay, invalid event, filters and keyboard pipeline work 
+    [mobile-chromium] › tests/e2e/lead-crm.spec.ts:28:2 › CRM ar: intake replay, invalid event, filters and keyboard pipeline work 
+    [mobile-chromium] › tests/e2e/lead-crm.spec.ts:32:1 › CRM browser: a newly created canonical property can receive a simulated lead 
+    [mobile-chromium] › tests/e2e/lead-crm.spec.ts:34:1 › CRM browser: fictional spend and date/property filters have explicit provenance 
+  8 skipped
+  36 passed (1.1m)
+ ELIFECYCLE  Command failed with exit code 1.

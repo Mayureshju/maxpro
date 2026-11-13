@@ -1,0 +1,474 @@
+{
+  "screenshots": [
+    {
+      "file": "ar-1024-analytics.png",
+      "width": 1024,
+      "height": 2420,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "ar"
+    },
+    {
+      "file": "ar-1024-assignment.png",
+      "width": 1024,
+      "height": 1965,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "ar"
+    },
+    {
+      "file": "ar-1024-control-tower.png",
+      "width": 1024,
+      "height": 2198,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "ar"
+    },
+    {
+      "file": "ar-1024-detail.png",
+      "width": 1024,
+      "height": 1845,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "ar"
+    },
+    {
+      "file": "ar-1024-inbox.png",
+      "width": 1024,
+      "height": 1420,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "ar"
+    },
+    {
+      "file": "ar-1024-pipeline.png",
+      "width": 1024,
+      "height": 1296,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "ar"
+    },
+    {
+      "file": "ar-1024-table.png",
+      "width": 1024,
+      "height": 1412,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "ar"
+    },
+    {
+      "file": "ar-1024-viewings.png",
+      "width": 1024,
+      "height": 1388,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "ar"
+    },
+    {
+      "file": "ar-1440-analytics.png",
+      "width": 1440,
+      "height": 2266,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "ar"
+    },
+    {
+      "file": "ar-1440-assignment.png",
+      "width": 1440,
+      "height": 1560,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "ar"
+    },
+    {
+      "file": "ar-1440-control-tower.png",
+      "width": 1440,
+      "height": 1439,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "ar"
+    },
+    {
+      "file": "ar-1440-detail.png",
+      "width": 1440,
+      "height": 1857,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "ar"
+    },
+    {
+      "file": "ar-1440-inbox.png",
+      "width": 1440,
+      "height": 1182,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "ar"
+    },
+    {
+      "file": "ar-1440-pipeline.png",
+      "width": 1440,
+      "height": 1256,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "ar"
+    },
+    {
+      "file": "ar-1440-table.png",
+      "width": 1440,
+      "height": 1371,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "ar"
+    },
+    {
+      "file": "ar-1440-viewings.png",
+      "width": 1440,
+      "height": 1218,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "ar"
+    },
+    {
+      "file": "ar-375-analytics.png",
+      "width": 375,
+      "height": 3019,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "ar"
+    },
+    {
+      "file": "ar-375-assignment.png",
+      "width": 375,
+      "height": 2145,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "ar"
+    },
+    {
+      "file": "ar-375-control-tower.png",
+      "width": 375,
+      "height": 2798,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "ar"
+    },
+    {
+      "file": "ar-375-detail.png",
+      "width": 375,
+      "height": 2927,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "ar"
+    },
+    {
+      "file": "ar-375-inbox.png",
+      "width": 375,
+      "height": 1461,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "ar"
+    },
+    {
+      "file": "ar-375-pipeline.png",
+      "width": 375,
+      "height": 1575,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "ar"
+    },
+    {
+      "file": "ar-375-table.png",
+      "width": 375,
+      "height": 1691,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "ar"
+    },
+    {
+      "file": "ar-375-viewings.png",
+      "width": 375,
+      "height": 1718,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "ar"
+    },
+    {
+      "file": "ar-768-analytics.png",
+      "width": 768,
+      "height": 2617,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "ar"
+    },
+    {
+      "file": "ar-768-assignment.png",
+      "width": 768,
+      "height": 1945,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "ar"
+    },
+    {
+      "file": "ar-768-control-tower.png",
+      "width": 768,
+      "height": 2175,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "ar"
+    },
+    {
+      "file": "ar-768-detail.png",
+      "width": 768,
+      "height": 2666,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "ar"
+    },
+    {
+      "file": "ar-768-inbox.png",
+      "width": 768,
+      "height": 1461,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "ar"
+    },
+    {
+      "file": "ar-768-pipeline.png",
+      "width": 768,
+      "height": 1435,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "ar"
+    },
+    {
+      "file": "ar-768-table.png",
+      "width": 768,
+      "height": 1551,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "ar"
+    },
+    {
+      "file": "ar-768-viewings.png",
+      "width": 768,
+      "height": 1368,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "ar"
+    },
+    {
+      "file": "en-1024-analytics.png",
+      "width": 1024,
+      "height": 2505,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "en"
+    },
+    {
+      "file": "en-1024-assignment.png",
+      "width": 1024,
+      "height": 2020,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "en"
+    },
+    {
+      "file": "en-1024-control-tower.png",
+      "width": 1024,
+      "height": 2201,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "en"
+    },
+    {
+      "file": "en-1024-detail.png",
+      "width": 1024,
+      "height": 1936,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "en"
+    },
+    {
+      "file": "en-1024-inbox.png",
+      "width": 1024,
+      "height": 1475,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "en"
+    },
+    {
+      "file": "en-1024-pipeline.png",
+      "width": 1024,
+      "height": 1351,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "en"
+    },
+    {
+      "file": "en-1024-table.png",
+      "width": 1024,
+      "height": 1467,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "en"
+    },
+    {
+      "file": "en-1024-viewings.png",
+      "width": 1024,
+      "height": 1506,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "en"
+    },
+    {
+      "file": "en-1440-analytics.png",
+      "width": 1440,
+      "height": 2266,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "en"
+    },
+    {
+      "file": "en-1440-assignment.png",
+      "width": 1440,
+      "height": 1582,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "en"
+    },
+    {
+      "file": "en-1440-control-tower.png",
+      "width": 1440,
+      "height": 1461,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "en"
+    },
+    {
+      "file": "en-1440-detail.png",
+      "width": 1440,
+      "height": 1858,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "en"
+    },
+    {
+      "file": "en-1440-inbox.png",
+      "width": 1440,
+      "height": 1204,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "en"
+    },
+    {
+      "file": "en-1440-pipeline.png",
+      "width": 1440,
+      "height": 1278,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "en"
+    },
+    {
+      "file": "en-1440-table.png",
+      "width": 1440,
+      "height": 1393,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "en"
+    },
+    {
+      "file": "en-1440-viewings.png",
+      "width": 1440,
+      "height": 1240,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "en"
+    },
+    {
+      "file": "en-375-analytics.png",
+      "width": 375,
+      "height": 3110,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "en"
+    },
+    {
+      "file": "en-375-assignment.png",
+      "width": 375,
+      "height": 2347,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "en"
+    },
+    {
+      "file": "en-375-control-tower.png",
+      "width": 375,
+      "height": 2925,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "en"
+    },
+    {
+      "file": "en-375-detail.png",
+      "width": 375,
+      "height": 2963,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "en"
+    },
+    {
+      "file": "en-375-inbox.png",
+      "width": 375,
+      "height": 1445,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "en"
+    },
+    {
+      "file": "en-375-pipeline.png",
+      "width": 375,
+      "height": 1635,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "en"
+    },
+    {
+      "file": "en-375-table.png",
+      "width": 375,
+      "height": 1751,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "en"
+    },
+    {
+      "file": "en-375-viewings.png",
+      "width": 375,
+      "height": 1825,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "en"
+    },
+    {
+      "file": "en-768-analytics.png",
+      "width": 768,
+      "height": 2702,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "en"
+    },
+    {
+      "file": "en-768-assignment.png",
+      "width": 768,
+      "height": 2021,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "en"
+    },
+    {
+      "file": "en-768-control-tower.png",
+      "width": 768,
+      "height": 2193,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "en"
+    },
+    {
+      "file": "en-768-detail.png",
+      "width": 768,
+      "height": 2700,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "en"
+    },
+    {
+      "file": "en-768-inbox.png",
+      "width": 768,
+      "height": 1516,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "en"
+    },
+    {
+      "file": "en-768-pipeline.png",
+      "width": 768,
+      "height": 1490,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "en"
+    },
+    {
+      "file": "en-768-table.png",
+      "width": 768,
+      "height": 1606,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "en"
+    },
+    {
+      "file": "en-768-viewings.png",
+      "width": 768,
+      "height": 1486,
+      "source": "Running Next.js production build / Playwright Chromium",
+      "locale": "en"
+    }
+  ],
+  "count": 64,
+  "widths": [
+    1440,
+    1024,
+    768,
+    375
+  ],
+  "locales": [
+    "en",
+    "ar"
+  ],
+  "review": "Contact sheets plus enlarged representative captures; page overflow asserted in browser tests.",
+  "contactSheets": [
+    "review-ar-1024.jpg",
+    "review-ar-1440.jpg",
+    "review-ar-375.jpg",
+    "review-ar-768.jpg",
+    "review-en-1024.jpg",
+    "review-en-1440.jpg",
+    "review-en-375.jpg",
+    "review-en-768.jpg"
+  ]
+}
