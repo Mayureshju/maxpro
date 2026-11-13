@@ -1,0 +1,54 @@
+[
+  {
+    "route": "organization/new",
+    "violations": []
+  },
+  {
+    "route": "organization",
+    "violations": []
+  },
+  {
+    "route": "team",
+    "violations": []
+  },
+  {
+    "route": "billing",
+    "violations": []
+  },
+  {
+    "route": "settings/domains",
+    "violations": []
+  },
+  {
+    "route": "verification",
+    "violations": []
+  },
+  {
+    "route": "admin",
+    "violations": []
+  },
+  {
+    "route": "admin/moderation",
+    "violations": []
+  },
+  {
+    "route": "admin/plans",
+    "violations": []
+  },
+  {
+    "route": "admin/audit",
+    "violations": []
+  },
+  {
+    "route": "settings",
+    "violations": []
+  },
+  {
+    "route": "billing/invoices",
+    "violations": []
+  },
+  {
+    "route": "admin/taxonomies",
+    "violations": []
+  }
+]

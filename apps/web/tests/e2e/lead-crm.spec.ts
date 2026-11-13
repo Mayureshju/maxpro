@@ -1,3 +1,4 @@
+import {localized} from './fixtures';
 import {resolve} from 'node:path';
 import {readdirSync, mkdirSync, writeFileSync} from 'node:fs';
 import type {Page} from '@playwright/test';
@@ -59,15 +60,15 @@ async function openIntake(page: Page, locale = 'en') {
   await page.goto(`/${locale}/workspace/leads`);
   await page
     .getByRole('button', {
-      name: /Lead intake simulator|محاكي استقبال العملاء/,
+      name: localized(/Lead intake simulator|محاكي استقبال العملاء/),
       exact: true,
     })
     .click();
-  await page.getByRole('checkbox', {name: /I acknowledge|أقر بأن/}).check();
+  await page.getByRole('checkbox', {name: localized(/I acknowledge|أقر بأن/)}).check();
 }
 async function process(page: Page) {
   await page
-    .getByRole('button', {name: /Process example event|معالجة الحدث التجريبي/})
+    .getByRole('button', {name: localized(/Process example event|معالجة الحدث التجريبي/)})
     .click();
 }
 async function noOverflow(page: Page) {
@@ -376,7 +377,7 @@ for (const locale of ['en', 'ar']) {
       .fill('{bad');
     await process(page);
     await expect(page.locator('main [role=alert]')).toContainText(
-      'Malformed JSON',
+      localized('Malformed JSON'),
     );
     s = await saved(page);
     expect(s.crm.leads).toHaveLength(6);
@@ -384,7 +385,7 @@ for (const locale of ['en', 'ar']) {
     await page.getByLabel(/Search leads|بحث العملاء/).fill(l.sourceEventId);
     await expect(page.locator('.crm-table tbody tr')).toHaveCount(1);
     await page
-      .getByRole('button', {name: /^Pipeline$|^مسار$/, exact: true})
+      .getByRole('button', {name: localized(/^Pipeline$|^مسار$/), exact: true})
       .focus();
     await page.keyboard.press('Enter');
     await expect(page.locator('.crm-lead-tile')).toHaveCount(1);
@@ -406,47 +407,47 @@ for (const locale of ['en', 'ar']) {
       .getByLabel(/Add fictional note|إضافة ملاحظة خيالية/)
       .fill('Fictional follow-up context');
     await page
-      .getByRole('button', {name: /^Add note$|^إضافة الملاحظة$/})
+      .getByRole('button', {name: localized(/^Add note$|^إضافة الملاحظة$/)})
       .click();
     await page
-      .getByRole('link', {name: /Open conversation|فتح المحادثة/})
+      .getByRole('link', {name: localized(/Open conversation|فتح المحادثة/)})
       .click();
     await page
       .getByLabel(/Write a demo reply|كتابة رد تجريبي/)
       .fill('Fictional viewing options');
     await page
-      .getByRole('button', {name: /Save local reply|حفظ الرد المحلي/})
+      .getByRole('button', {name: localized(/Save local reply|حفظ الرد المحلي/)})
       .click();
     await page
       .getByLabel(/Handover agent|مسؤول التحويل/)
       .selectOption('Karim Said');
     await page.reload();
     await expect(page.getByRole('log')).toContainText(
-      'Fictional viewing options',
+      localized('Fictional viewing options'),
     );
     await expect(page.getByLabel(/Handover agent|مسؤول التحويل/)).toHaveValue(
       'Karim Said',
     );
     await page
-      .getByRole('link', {name: /^Request viewing$|^طلب معاينة$/})
+      .getByRole('link', {name: localized(/^Request viewing$|^طلب معاينة$/)})
       .click();
     await page.getByLabel(/Requested date|التاريخ المطلوب/).fill('2027-01-05');
     await page
-      .getByRole('button', {name: /Add demo request|إضافة طلب تجريبي/})
+      .getByRole('button', {name: localized(/Add demo request|إضافة طلب تجريبي/)})
       .click();
     await expect(
       page.getByText(/Requested \(local\)|مطلوب \(محلي\)/, {exact: true}),
     ).toBeVisible();
     await page.reload();
-    await page.getByRole('button', {name: /^Cancel$|^إلغاء$/}).click();
+    await page.getByRole('button', {name: localized(/^Cancel$|^إلغاء$/)}).click();
     await expect(
       page.getByText(/Cancelled \(local\)|ملغى \(محلي\)/, {exact: true}),
     ).toBeVisible();
     await page.goto(`/${locale}/workspace/leads/${l.id}`);
     await page.getByLabel(/Lead stage|مرحلة العميل/).selectOption('Won');
     await page.goto(`/${locale}/workspace/analytics`);
-    await expect(page.getByTestId('lead-total')).toHaveText('6');
-    await expect(page.getByTestId('qualified-total')).toHaveText('2');
+    await expect(page.getByTestId('lead-total')).toHaveText(localized('6',true));
+    await expect(page.getByTestId('qualified-total')).toHaveText(localized('2',true));
     s = await saved(page);
     const final = s.crm.leads.find((x) => x.id === l.id)!;
     expect(final.stage).toBe('Won');
@@ -468,44 +469,44 @@ test('CRM browser: routing cursor persists, unavailable agents are excluded, man
   page,
 }) => {
   await page.goto('/en/workspace/leads/assignment');
-  await page.getByRole('button', {name: 'Simulate another lead'}).click();
+  await page.getByRole('button', {name: localized("Simulate another lead")}).click();
   expect((await saved(page)).crm.leads[0].assignee).toBe('Fatima Noor');
   await page.reload();
   await expect(
     page.locator('dd').filter({hasText: 'Karim Said'}),
   ).toBeVisible();
-  await page.getByRole('button', {name: 'Simulate another lead'}).click();
+  await page.getByRole('button', {name: localized("Simulate another lead")}).click();
   expect((await saved(page)).crm.leads[0].assignee).toBe('Karim Said');
-  await page.getByLabel('Available Mariam Ahmed', {exact: true}).uncheck();
-  await page.getByLabel('Available Fatima Noor', {exact: true}).uncheck();
-  await page.getByRole('button', {name: 'Simulate another lead'}).click();
+  await page.getByLabel(localized('Available Mariam Ahmed',true), {exact: true}).uncheck();
+  await page.getByLabel(localized('Available Fatima Noor',true), {exact: true}).uncheck();
+  await page.getByRole('button', {name: localized("Simulate another lead")}).click();
   expect((await saved(page)).crm.leads[0].assignee).toBe('Karim Said');
-  await page.getByRole('button', {name: /Manual assignment/}).click();
-  await page.getByRole('button', {name: 'Simulate another lead'}).click();
+  await page.getByRole('button', {name: localized(/Manual assignment/)}).click();
+  await page.getByRole('button', {name: localized("Simulate another lead")}).click();
   expect((await saved(page)).crm.leads[0].assignee).toBeNull();
   await page.goto('/en/workspace/analytics');
-  await expect(page.getByTestId('assignment-backlog')).toHaveText('3');
+  await expect(page.getByTestId('assignment-backlog')).toHaveText(localized('3',true));
 });
 test('CRM browser: a newly created canonical property can receive a simulated lead', async ({
   page,
 }) => {
   await page.goto('/en/workspace/inventory/new');
-  await page.getByRole('button', {name: 'Create empty draft'}).click();
+  await page.getByRole('button', {name: localized('Create empty draft')}).click();
   await expect(page).toHaveURL(/\/inventory\/DEMO-[a-f0-9-]+\/edit$/);
   const propertyId = page.url().split('/').at(-2)!;
   await page.goto(`/en/workspace/inventory/${propertyId}/enquiries`);
   await expect(
     page.getByText(
-      'No local enquiries for this property yet. Simulate a fictional source event to begin.',
+      localized("No local enquiries for this property yet. Simulate a fictional source event to begin."),
     ),
   ).toBeVisible();
   await page
-    .getByRole('link', {name: 'Simulate an enquiry', exact: true})
+    .getByRole('link', {name: localized("Simulate an enquiry",true), exact: true})
     .click();
   await expect(
-    page.getByRole('combobox', {name: 'Canonical property', exact: true}),
+    page.getByRole('combobox', {name: localized("Canonical property",true), exact: true}),
   ).toHaveValue(propertyId);
-  await page.getByRole('checkbox', {name: /I acknowledge/}).check();
+  await page.getByRole('checkbox', {name: localized(/I acknowledge/)}).check();
   await process(page);
   const l = (await saved(page)).crm.leads[0];
   expect(l.propertyId).toBe(propertyId);
@@ -533,42 +534,42 @@ test('CRM browser: corrupt saved CRM excludes invalid leads but preserves proper
   await page.reload();
   await expect(page.getByText(/Some invalid local records/)).toBeVisible();
   await page
-    .getByRole('button', {name: 'Lead intake simulator', exact: true})
+    .getByRole('button', {name: localized("Lead intake simulator",true), exact: true})
     .click();
-  await page.getByRole('checkbox', {name: /I acknowledge/}).check();
+  await page.getByRole('checkbox', {name: localized(/I acknowledge/)}).check();
   await process(page);
   const after = await saved(page);
   expect(Object.keys(after.properties)).toEqual(Object.keys(before.properties));
   expect(after.jobs).toEqual(before.jobs);
   expect(after.crm.cursor).toBe(1);
   await page.goto('/en/workspace/leads/unknown');
-  await expect(page.locator('h1')).toHaveText('Lead not found');
+  await expect(page.locator('h1')).toHaveText(localized("Lead not found",true));
   await page.goto('/en/workspace/inbox?lead=unknown');
-  await expect(page.getByText('No conversation found')).toBeVisible();
+  await expect(page.getByText(localized("No conversation found"))).toBeVisible();
 });
 test('CRM browser: fictional spend and date/property filters have explicit provenance', async ({
   page,
 }) => {
   await page.goto('/en/workspace/analytics');
   await page
-    .getByRole('combobox', {name: 'Source', exact: true})
+    .getByRole('combobox', {name: localized("Source",true), exact: true})
     .selectOption('Meta Lead Ads');
   await expect(page.locator('[data-channel="Meta Lead Ads"]')).toContainText(
-    'Unavailable',
+    localized("Unavailable"),
   );
-  await page.getByLabel('Fictional amount QAR').fill('120');
-  await page.getByRole('button', {name: 'Add fictional spend'}).click();
+  await page.getByLabel(localized("Fictional amount QAR")).fill('120');
+  await page.getByRole('button', {name: localized("Add fictional spend")}).click();
   await expect(page.locator('[data-channel="Meta Lead Ads"]')).toContainText(
-    '120.00',
+    localized('120.00'),
   );
   await page
-    .getByRole('combobox', {name: 'Property', exact: true})
+    .getByRole('combobox', {name: localized("Property",true), exact: true})
     .selectOption('AQ-10231');
   await expect(page.locator('[data-channel="Meta Lead Ads"]')).toContainText(
-    'Unavailable',
+    localized("Unavailable"),
   );
-  await page.getByLabel('From date', {exact: true}).fill('2099-01-01');
-  await expect(page.getByTestId('lead-total')).toHaveText('0');
+  await page.getByLabel(localized("From date",true), {exact: true}).fill('2099-01-01');
+  await expect(page.getByTestId('lead-total')).toHaveText(localized('0',true));
 });
 
 for (const locale of ['en', 'ar'])
@@ -594,7 +595,7 @@ for (const locale of ['en', 'ar'])
         .getByLabel(/Requested date|التاريخ المطلوب/)
         .fill('2027-01-05');
       await page
-        .getByRole('button', {name: /Add demo request|إضافة طلب تجريبي/})
+        .getByRole('button', {name: localized(/Add demo request|إضافة طلب تجريبي/)})
         .click();
       for (const [name, path] of [
         ['table', 'leads'],
@@ -610,7 +611,7 @@ for (const locale of ['en', 'ar'])
         await expect(page.locator('h1')).toBeVisible();
         if (name === 'pipeline')
           await page
-            .getByRole('button', {name: /^Pipeline$|^مسار$/, exact: true})
+            .getByRole('button', {name: localized(/^Pipeline$|^مسار$/), exact: true})
             .click();
         await page.evaluate(() => document.fonts.ready);
         await expect(page.locator('html')).toHaveAttribute(
@@ -620,7 +621,7 @@ for (const locale of ['en', 'ar'])
         await noOverflow(page);
         await page.screenshot({
           path: resolve(
-            `../../artifacts/phase3/screenshots/${locale}-${width}-${name}.png`,
+            `../../artifacts/phase6/regression/phase3/screenshots/${locale}-${width}-${name}.png`,
           ),
           fullPage: true,
           scale: 'css',
@@ -656,22 +657,22 @@ test('CRM browser: advanced filters, qualification, reply preference and empty s
 }) => {
   await page.goto('/en/workspace/leads/LE-2101');
   await page
-    .getByRole('combobox', {name: 'Qualification status', exact: true})
+    .getByRole('combobox', {name: localized("Qualification status",true), exact: true})
     .selectOption('Qualified');
   await page
-    .getByRole('combobox', {name: 'Priority', exact: true})
+    .getByRole('combobox', {name: localized("Priority",true), exact: true})
     .selectOption('High');
   await page
-    .getByLabel('Qualification / follow-up details')
+    .getByLabel(localized("Qualification / follow-up details"))
     .fill('Fictional budget confirmed');
-  await page.getByRole('button', {name: 'Save qualification'}).click();
+  await page.getByRole('button', {name: localized("Save qualification")}).click();
   await page
-    .getByRole('checkbox', {name: 'Allow local demonstration replies'})
+    .getByRole('checkbox', {name: localized("Allow local demonstration replies")})
     .uncheck();
   await page.goto('/en/workspace/inbox?lead=LE-2101');
-  await page.getByLabel('Write a demo reply').fill('Fictional blocked reply');
+  await page.getByLabel(localized("Write a demo reply")).fill('Fictional blocked reply');
   await expect(
-    page.getByRole('button', {name: 'Save local reply'}),
+    page.getByRole('button', {name: localized("Save local reply")}),
   ).toBeDisabled();
   await page.goto('/en/workspace/leads');
   for (const [name, value] of [
@@ -685,12 +686,12 @@ test('CRM browser: advanced filters, qualification, reply preference and empty s
     await page.getByRole('combobox', {name, exact: true}).selectOption(value);
   await expect(page.locator('.crm-table tbody tr')).toHaveCount(1);
   await page
-    .getByRole('combobox', {name: 'Stage', exact: true})
+    .getByRole('combobox', {name: localized("Stage",true), exact: true})
     .selectOption('Lost');
   await expect(
-    page.getByText('No matching leads', {exact: true}),
+    page.getByText(localized("No matching leads",true), {exact: true}),
   ).toBeVisible();
-  await page.getByRole('button', {name: 'Reset filters'}).click();
+  await page.getByRole('button', {name: localized("Reset filters")}).click();
   await expect(page.locator('.crm-table tbody tr')).toHaveCount(5);
 });
 
@@ -736,7 +737,7 @@ for (const locale of ['en', 'ar'])
       reports.push({route, ...results});
       if (route === 'leads') {
         await page
-          .getByRole('button', {name: /^Pipeline$|^مسار$/, exact: true})
+          .getByRole('button', {name: localized(/^Pipeline$|^مسار$/), exact: true})
           .click();
         const pipeline = await page.evaluate<typeof results>(
           "window.axe.run(document.querySelector('main'),{runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21aa']}})",
@@ -744,10 +745,10 @@ for (const locale of ['en', 'ar'])
         reports.push({route: 'leads-pipeline', ...pipeline});
       }
     }
-    mkdirSync(resolve('../../artifacts/phase3/logs'), {recursive: true});
+    mkdirSync(resolve('../../artifacts/phase6/regression/phase3/logs'), {recursive: true});
     writeFileSync(
       resolve(
-        `../../artifacts/phase3/logs/axe-${info.project.name}-${locale}.json`,
+        `../../artifacts/phase6/regression/phase3/logs/axe-${info.project.name}-${locale}.json`,
       ),
       JSON.stringify(reports, null, 2),
     );

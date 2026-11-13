@@ -1,0 +1,9 @@
+{
+  "changedAfterFullRegression": [
+    "apps/web/messages/prototype-ar.json",
+    "apps/web/src/components/gemini/lead-workspace.tsx",
+    "apps/web/src/lib/ui-copy.ts"
+  ],
+  "scope": "Presentation only: translate the fictional-source UI label, restrict fictional-actor label matching, and preserve original note/message text with automatic direction.",
+  "verification": "logs/e2e-final-copy-followup.log; final typecheck/lint/webpack production build"
+}

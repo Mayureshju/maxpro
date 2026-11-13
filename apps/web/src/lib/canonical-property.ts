@@ -8,7 +8,7 @@ export type MediaAsset={id:string;name:string;room:typeof roomCategories[number]
 export type PropertyEvent={revision:number;at:string;action:string};
 export type PublicationReference={jobId:string;destination:ConnectorId;propertyRevision:number;externalReference:null};
 export type CanonicalProperty={
- id:string;organizationId:typeof demoOrganizationId;revision:number;status:'draft'|'reviewed'|'archived';createdAt:string;updatedAt:string;
+ id:string;organizationId:string;revision:number;status:'draft'|'reviewed'|'archived';createdAt:string;updatedAt:string;
  facts:CanonicalDraft;
  source:{kind:'manual'|'text'|'document'|'voice'|'sample';notes:string;factsReviewed:boolean;copyReviewed:boolean;reviewedAt:string|null};
  proposal:{descriptionEn:string;descriptionAr:string};
@@ -17,8 +17,8 @@ export type CanonicalProperty={
 export type JobAttempt={at:string;action:'simulate'|'retry'|'cancel';propertyRevision:number;mappingVersion:string;status:'queued-demo'|'blocked-demo'|'cancelled-demo';missing:string[]};
 export type DemoJob={id:string;listingId:string;organizationId:string;propertyRevision:number;destination:ConnectorId;status:'queued-demo'|'blocked-demo'|'cancelled-demo';missing:string[];at:string;mappingVersion:string;attempts:JobAttempt[]};
 export const blankFacts:CanonicalDraft={titleEn:'',titleAr:'',descriptionEn:'',descriptionAr:'',propertyType:'Apartment',purpose:'rent',priceQar:0,depositQar:0,cheques:1,areaSqm:0,beds:0,baths:0,city:'',district:'',latitude:'',longitude:'',permit:'',ownerApproved:false,amenities:[],rentalFrequency:'month',furnishing:'Unspecified'};
-export function newProperty(id:string,at=new Date().toISOString()):CanonicalProperty{
- return {id,organizationId:demoOrganizationId,revision:1,status:'draft',createdAt:at,updatedAt:at,facts:{...blankFacts,amenities:[]},source:{kind:'manual',notes:'',factsReviewed:false,copyReviewed:false,reviewedAt:null},proposal:{descriptionEn:'',descriptionAr:''},media:[],watermark:false,studioStage:0,history:[{revision:1,at,action:'Draft created'}],publications:[]};
+export function newProperty(id:string,at=new Date().toISOString(),organizationId:string=demoOrganizationId):CanonicalProperty{
+ return {id,organizationId,revision:1,status:'draft',createdAt:at,updatedAt:at,facts:{...blankFacts,amenities:[]},source:{kind:'manual',notes:'',factsReviewed:false,copyReviewed:false,reviewedAt:null},proposal:{descriptionEn:'',descriptionAr:''},media:[],watermark:false,studioStage:0,history:[{revision:1,at,action:'Draft created'}],publications:[]};
 }
 /** Explicit fictional assets, never partner-hosted or uploaded property photos. */
 export const sampleMedia=[

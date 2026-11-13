@@ -1,4 +1,5 @@
 "use client";
+import {usePrototypeCopy} from '@/components/prototype/use-prototype-copy';
 import { useState } from "react";
 import { useLocale } from "next-intl";
 import { useSearchParams } from "next/navigation";
@@ -38,7 +39,7 @@ export function MarketingProvider({
   kind,
 }: {
   kind: "meta-catalog" | "google-ads";
-}) {
+}) {const copyText=usePrototypeCopy();
   const t = useCopy();
   const ar = useLocale() === "ar";
   const { state, hydrated } = useGeminiDemo();
@@ -143,7 +144,7 @@ export function MarketingProvider({
             className="px-button px-button-outline"
             href={`/workspace/hub/connectors/${kind}`}
           >
-            {t("Provider setup", "إعداد المنصة")} <ArrowRight size={16} />
+            {copyText(t("Provider setup", "إعداد المنصة"))} <ArrowRight size={16} />
           </Link>
         }
       />
@@ -152,22 +153,22 @@ export function MarketingProvider({
         <Pill
           tone={state.preparedConnectors.includes(kind) ? "info" : "warning"}
         >
-          {state.preparedConnectors.includes(kind)
+          {copyText(state.preparedConnectors.includes(kind)
             ? t("Configured locally", "تم الإعداد محلياً")
-            : t("Local configuration needed", "الإعداد المحلي مطلوب")}
+            : t("Local configuration needed", "الإعداد المحلي مطلوب"))}
         </Pill>
         <Pill tone="warning">
-          {t("Awaiting authorization", "بانتظار التصريح")}
+          {copyText(t("Awaiting authorization", "بانتظار التصريح"))}
         </Pill>
         <Pill tone="warning">
-          {t("Policy review required", "مراجعة السياسة مطلوبة")}
+          {copyText(t("Policy review required", "مراجعة السياسة مطلوبة"))}
         </Pill>
         <Pill>
-          {t("Actual integration unavailable", "الاتصال الفعلي غير متاح")}
+          {copyText(t("Actual integration unavailable", "الاتصال الفعلي غير متاح"))}
         </Pill>
       </div>
       {!hydrated ? (
-        <p role="status">{t("Loading properties…", "جار تحميل العقارات…")}</p>
+        <p role="status">{copyText(t("Loading properties…", "جار تحميل العقارات…"))}</p>
       ) : (
         <Section
           title={
@@ -181,7 +182,7 @@ export function MarketingProvider({
           )}
         >
           <label className="px-field">
-            {t("Preview canonical property", "معاينة العقار الأساسي")}
+            {copyText(t("Preview canonical property", "معاينة العقار الأساسي"))}
             <select
               value={p?.id ?? ""}
               onChange={(e) => {
@@ -191,7 +192,7 @@ export function MarketingProvider({
             >
               {Object.values(state.properties).map((p) => (
                 <option key={p.id} value={p.id}>
-                  {p.id} · {p.facts[ar ? "titleAr" : "titleEn"]}
+                  {copyText(p.id)} · {copyText(p.facts[ar ? "titleAr" : "titleEn"])}
                 </option>
               ))}
             </select>
@@ -199,11 +200,11 @@ export function MarketingProvider({
           {p ? (
             <>
               <p className="cm-role-note">
-                {p.id} · r{p.revision} ·{" "}
-                {t(
+                {copyText(p.id)} · r{p.revision} ·{copyText(" ")}
+                {copyText(t(
                   "Facts are read directly, not a campaign snapshot.",
                   "تُقرأ الحقائق مباشرة وليست لقطة منفصلة للحملة.",
-                )}
+                ))}
               </p>
               <div className="px-table-scroll" tabIndex={0}>
                 <table className="px-table cm-mapping">
@@ -215,7 +216,7 @@ export function MarketingProvider({
                         t("Current value", "القيمة الحالية"),
                         t("Local check", "الفحص المحلي"),
                       ].map((s) => (
-                        <th key={s}>{s}</th>
+                        <th key={s}>{copyText(s)}</th>
                       ))}
                     </tr>
                   </thead>
@@ -229,9 +230,9 @@ export function MarketingProvider({
                         <td>{value}</td>
                         <td>
                           <Pill tone={ok ? "info" : "warning"}>
-                            {ok
+                            {copyText(ok
                               ? t("Present in sample", "موجود في النموذج")
-                              : t("Missing / review", "مفقود / مراجعة")}
+                              : t("Missing / review", "مفقود / مراجعة"))}
                           </Pill>
                         </td>
                       </tr>
@@ -244,17 +245,17 @@ export function MarketingProvider({
                   className="px-button px-button-dark"
                   href={`/workspace/campaigns/new?property=${p.id}&channel=${kind}`}
                 >
-                  {t(
+                  {copyText(t(
                     "Plan a campaign for this property",
                     "تخطيط حملة لهذا العقار",
-                  )}{" "}
+                  ))}{copyText(" ")}
                   <ArrowRight size={16} />
                 </Link>
                 <Link
                   className="px-text-link"
                   href={`/workspace/inventory/${p.id}/media`}
                 >
-                  {t("Review canonical media", "مراجعة وسائط العقار")}
+                  {copyText(t("Review canonical media", "مراجعة وسائط العقار"))}
                 </Link>
               </div>
             </>
@@ -281,10 +282,10 @@ export function MarketingProvider({
           )}
         >
           <Notice>
-            {t(
+            {copyText(t(
               "Google plans use the existing Website intake example with a Google campaign reference. This does not demonstrate Google lead delivery, conversion tracking or campaign-type eligibility.",
               "تستخدم خطط جوجل مثال استقبال الموقع مع مرجع حملة جوجل. لا يثبت هذا تسليم عملاء جوجل أو تتبع التحويلات أو أهلية نوع الحملة.",
-            )}
+            ))}
           </Notice>
         </Section>
       )}
@@ -300,10 +301,10 @@ export function MarketingProvider({
             <table className="px-table">
               <thead>
                 <tr>
-                  <th>{t("Campaign", "الحملة")}</th>
-                  <th>{t("Status", "الحالة")}</th>
-                  <th>{t("Media / fee", "الوسائط / الرسوم")}</th>
-                  <th>{t("Simulation eligibility", "أهلية المحاكاة")}</th>
+                  <th>{copyText(t("Campaign", "الحملة"))}</th>
+                  <th>{copyText(t("Status", "الحالة"))}</th>
+                  <th>{copyText(t("Media / fee", "الوسائط / الرسوم"))}</th>
+                  <th>{copyText(t("Simulation eligibility", "أهلية المحاكاة"))}</th>
                 </tr>
               </thead>
               <tbody>
@@ -311,15 +312,15 @@ export function MarketingProvider({
                   <tr key={c.id}>
                     <td>
                       <Link href={`/workspace/campaigns/${c.id}`}>
-                        {c.id.slice(-8)} · r{c.revision}
+                        {copyText(c.id.slice(-8))} · r{c.revision}
                       </Link>
                     </td>
-                    <td>{campaignStatusLabel(c.status, ar)}</td>
+                    <td>{copyText(campaignStatusLabel(c.status, ar))}</td>
                     <td>
-                      {qar(c.input.mediaBudget)} / {qar(c.input.serviceFee)}
+                      {copyText(qar(c.input.mediaBudget))} / {copyText(qar(c.input.serviceFee))}
                     </td>
                     <td>
-                      {!campaignBlockers(state, c).length &&
+                      {copyText(!campaignBlockers(state, c).length &&
                       c.status === "approved-local" &&
                       state.preparedConnectors.includes(kind)
                         ? t(
@@ -329,7 +330,7 @@ export function MarketingProvider({
                         : t(
                             "Complete setup, review and approvals",
                             "أكمل الإعداد والمراجعة والموافقات",
-                          )}
+                          ))}
                     </td>
                   </tr>
                 ))}
@@ -338,10 +339,10 @@ export function MarketingProvider({
           </div>
         ) : (
           <p>
-            {t(
+            {copyText(t(
               "No saved plans for this property and platform.",
               "لا خطط محفوظة لهذا العقار والمنصة.",
-            )}
+            ))}
           </p>
         )}
       </Section>
@@ -354,10 +355,10 @@ export function MarketingProvider({
       >
         <ul className="cm-prerequisites">
           {definition.prerequisites.map((s) => (
-            <li key={s}>{s}</li>
+            <li key={s}>{copyText(s)}</li>
           ))}
         </ul>
-        <p className="px-muted-copy">{definition.agreement}</p>
+        <p className="px-muted-copy">{copyText(definition.agreement)}</p>
       </Section>
       <Section
         title={t(
@@ -378,17 +379,17 @@ export function MarketingProvider({
               setPreview(false);
             }}
           />
-          {t(
+          {copyText(t(
             "Fictional consent for this event preview",
             "موافقة خيالية لمعاينة الحدث",
-          )}
+          ))}
         </label>
         <button
           className="px-button px-button-outline"
           disabled={!consent || !p}
           onClick={() => setPreview(true)}
         >
-          {t("Preview event payload", "معاينة بيانات الحدث")}
+          {copyText(t("Preview event payload", "معاينة بيانات الحدث"))}
         </button>
         {consent && preview && p && (
           <pre className="gm-code">
@@ -413,7 +414,7 @@ export function MarketingProvider({
     </>
   );
 }
-export function CampaignAnalytics() {
+export function CampaignAnalytics() {const copyText=usePrototypeCopy();
   const t = useCopy();
   const ar = useLocale() === "ar";
   const query = useSearchParams();
@@ -457,7 +458,7 @@ export function CampaignAnalytics() {
             className="px-button px-button-outline"
             href="/workspace/analytics"
           >
-            {t("All CRM source reporting", "كل تقارير مصادر العملاء")}{" "}
+            {copyText(t("All CRM source reporting", "كل تقارير مصادر العملاء"))}{copyText(" ")}
             <ArrowRight size={16} />
           </Link>
         }
@@ -465,41 +466,41 @@ export function CampaignAnalytics() {
       <CampaignNavigation />
       <div className="cm-filters">
         <label className="px-field">
-          {t("Campaign filter", "تصفية الحملة")}
+          {copyText(t("Campaign filter", "تصفية الحملة"))}
           <select
             value={selected}
             onChange={(e) => setSelected(e.target.value)}
           >
-            <option value="all">{t("All campaigns", "كل الحملات")}</option>
+            <option value="all">{copyText(t("All campaigns", "كل الحملات"))}</option>
             {state.campaigns.map((c) => (
               <option key={c.id} value={c.id}>
-                {c.input.propertyId} · {c.id.slice(-8)}
+                {copyText(c.input.propertyId)} · {copyText(c.id.slice(-8))}
               </option>
             ))}
           </select>
         </label>
         <label className="px-field">
-          {t("Property filter", "تصفية العقار")}
+          {copyText(t("Property filter", "تصفية العقار"))}
           <select
             value={property}
             onChange={(e) => setProperty(e.target.value)}
           >
-            <option value="all">{t("All properties", "كل العقارات")}</option>
+            <option value="all">{copyText(t("All properties", "كل العقارات"))}</option>
             {Object.keys(state.properties).map((id) => (
-              <option key={id}>{id}</option>
+              <option key={id} value={id}>{copyText(id)}</option>
             ))}
           </select>
         </label>
         <label className="px-field">
-          {t("First-touch source", "المصدر الأول")}
+          {copyText(t("First-touch source", "المصدر الأول"))}
           <select value={source} onChange={(e) => setSource(e.target.value)}>
-            <option value="all">{t("All sources", "كل المصادر")}</option>
-            <option>Meta Lead Ads</option>
-            <option>Website</option>
+            <option value="all">{copyText(t("All sources", "كل المصادر"))}</option>
+            <option value="Meta Lead Ads">{copyText("Meta Lead Ads")}</option>
+            <option value="Website">{copyText("Website")}</option>
           </select>
         </label>
         <label className="px-field">
-          {t("From date", "من تاريخ")}
+          {copyText(t("From date", "من تاريخ"))}
           <input
             type="date"
             value={from}
@@ -507,7 +508,7 @@ export function CampaignAnalytics() {
           />
         </label>
         <label className="px-field">
-          {t("To date", "إلى تاريخ")}
+          {copyText(t("To date", "إلى تاريخ"))}
           <input
             type="date"
             value={to}
@@ -517,10 +518,10 @@ export function CampaignAnalytics() {
       </div>
       {invalid && (
         <p role="alert" className="cm-alert">
-          {t(
+          {copyText(t(
             "From date must precede to date.",
             "يجب أن يسبق تاريخ البداية تاريخ النهاية.",
-          )}
+          ))}
         </p>
       )}
       <Section
@@ -531,7 +532,7 @@ export function CampaignAnalytics() {
         )}
       >
         {!hydrated ? (
-          <p role="status">{t("Loading reports…", "جار تحميل التقارير…")}</p>
+          <p role="status">{copyText(t("Loading reports…", "جار تحميل التقارير…"))}</p>
         ) : rows.length ? (
           <div className="px-table-scroll" tabIndex={0}>
             <table className="px-table cm-report-table">
@@ -550,7 +551,7 @@ export function CampaignAnalytics() {
                     t("Won / leads", "مكتسب / عملاء"),
                     t("Fictional CPQL", "تكلفة المؤهل الخيالية"),
                   ].map((s) => (
-                    <th key={s}>{s}</th>
+                    <th key={s}>{copyText(s)}</th>
                   ))}
                 </tr>
               </thead>
@@ -561,25 +562,25 @@ export function CampaignAnalytics() {
                     <tr key={c.id}>
                       <td>
                         <Link href={`/workspace/campaigns/${c.id}`}>
-                          {c.input.propertyId}
+                          {copyText(c.input.propertyId)}
                           <small>
-                            {c.id.slice(-8)} · {campaignSource(c)}
+                            {copyText(c.id.slice(-8))} · {copyText(campaignSource(c))}
                           </small>
                         </Link>
                       </td>
                       <td>
-                        {campaignStatusLabel(c.status, ar)}
+                        {copyText(campaignStatusLabel(c.status, ar))}
                         <small>r{c.revision}</small>
                       </td>
-                      <td>{qar(c.input.mediaBudget)}</td>
-                      <td>{qar(c.input.serviceFee)}</td>
-                      <td>{qar(c.approvedBudget)}</td>
-                      <td>{qar(m.spend)}</td>
+                      <td>{copyText(qar(c.input.mediaBudget))}</td>
+                      <td>{copyText(qar(c.input.serviceFee))}</td>
+                      <td>{copyText(qar(c.approvedBudget))}</td>
+                      <td>{copyText(qar(m.spend))}</td>
                       <td>{m.total}</td>
                       <td>{m.qualified}</td>
                       <td>{m.won}</td>
-                      <td>{m.total ? `${m.conversion.toFixed(1)}%` : "—"}</td>
-                      <td>{qar(m.cpql)}</td>
+                      <td>{copyText(m.total ? `${m.conversion.toFixed(1)}%` : "—")}</td>
+                      <td>{copyText(qar(m.cpql))}</td>
                     </tr>
                   );
                 })}
@@ -613,9 +614,9 @@ export function CampaignAnalytics() {
           <div
             className="cm-report-bars"
             role="img"
-            aria-label={leadStages
+            aria-label={copyText(leadStages
               .map((s) => `${s}: ${linked.filter((l) => l.stage === s).length}`)
-              .join(", ")}
+              .join(", "))}
           >
             {leadStages.map((s) => {
               const count = linked.filter((l) => l.stage === s).length;
@@ -623,14 +624,14 @@ export function CampaignAnalytics() {
                 <div key={s}>
                   <span>
                     {
-                      {
+                      copyText({
                         New: t("New", "جديد"),
                         Contacted: t("Contacted", "تم التواصل"),
                         Qualified: t("Qualified", "مؤهل"),
                         Viewing: t("Viewing", "معاينة"),
                         Won: t("Won", "مكتسب"),
                         Lost: t("Lost", "مفقود"),
-                      }[s]
+                      }[s])
                     }
                   </span>
                   <i>
@@ -656,37 +657,37 @@ export function CampaignAnalytics() {
           <div className="cm-budget-ledger">
             <div>
               <span>
-                {t("Explicit fictional media cost", "تكلفة وسائط خيالية صريحة")}
+                {copyText(t("Explicit fictional media cost", "تكلفة وسائط خيالية صريحة"))}
               </span>
-              <b>{qar(spend)}</b>
+              <b>{copyText(qar(spend))}</b>
             </div>
             <div>
               <span>
-                {t(
+                {copyText(t(
                   "Fictional cost / qualified lead",
                   "تكلفة خيالية / عميل مؤهل",
-                )}
+                ))}
               </span>
               <b>
-                {qar(
+                {copyText(qar(
                   spend !== null && metrics.qualified
                     ? spend / metrics.qualified
                     : null,
-                )}
+                ))}
               </b>
             </div>
             <div>
               <span>
-                {t("Won / local leads", "المكتسب / العملاء المحليون")}
+                {copyText(t("Won / local leads", "المكتسب / العملاء المحليون"))}
               </span>
-              <b>{metrics.total ? `${metrics.conversion.toFixed(1)}%` : "—"}</b>
+              <b>{copyText(metrics.total ? `${metrics.conversion.toFixed(1)}%` : "—")}</b>
             </div>
           </div>
           <p className="cm-role-note">
-            {t(
+            {copyText(t(
               "Proposed and approved budgets are current-version planning amounts. Recorded costs remain historical inputs when a draft changes.",
               "الميزانيات المقترحة والمعتمدة تخص تخطيط النسخة الحالية. تبقى التكاليف المسجلة مدخلات تاريخية عند تعديل المسودة.",
-            )}
+            ))}
           </p>
         </Section>
       </div>
@@ -700,10 +701,10 @@ export function CampaignAnalytics() {
         <LinkedLeads leads={linked} campaigns={rows} />
       </Section>
       <Notice>
-        {t(
+        {copyText(t(
           "Reach, impressions, clicks, actual spend, revenue and ROAS are unavailable. Consent previews do not collect analytics. Real attribution requires an authorized event pipeline.",
           "الوصول والانطباعات والنقرات والإنفاق الفعلي والإيرادات والعائد الإعلاني غير متاحة. معاينات الموافقة لا تجمع تحليلات. الإسناد الفعلي يحتاج مسار أحداث مصرحاً به.",
-        )}
+        ))}
       </Notice>
       <CampaignDisclosure />
     </>
@@ -715,7 +716,7 @@ function LinkedLeads({
 }: {
   leads: CanonicalLead[];
   campaigns: Campaign[];
-}) {
+}) {const copyText=usePrototypeCopy();
   const t = useCopy();
   return leads.length ? (
     <div className="px-table-scroll" tabIndex={0}>
@@ -728,7 +729,7 @@ function LinkedLeads({
               t("Campaign reference", "مرجع الحملة"),
               t("Stage / qualification", "المرحلة / التأهيل"),
             ].map((s) => (
-              <th key={s}>{s}</th>
+              <th key={s}>{copyText(s)}</th>
             ))}
           </tr>
         </thead>
@@ -737,13 +738,13 @@ function LinkedLeads({
             <tr key={l.id}>
               <td>
                 <Link href={`/workspace/leads/${l.id}`}>
-                  {l.identity.alias}
-                  <small>{l.propertyId}</small>
+                  {copyText(l.identity.alias)}
+                  <small>{copyText(l.propertyId)}</small>
                 </Link>
               </td>
               <td>
-                {l.source}
-                <small>{l.sourceEventId}</small>
+                {copyText(l.source)}
+                <small>{copyText(l.sourceEventId)}</small>
               </td>
               <td>
                 <Link
@@ -753,8 +754,8 @@ function LinkedLeads({
                 </Link>
               </td>
               <td>
-                {l.stage}
-                <small>{l.qualification}</small>
+                {copyText(l.stage)}
+                <small>{copyText(l.qualification)}</small>
               </td>
             </tr>
           ))}
@@ -763,10 +764,10 @@ function LinkedLeads({
     </div>
   ) : (
     <p>
-      {t(
+      {copyText(t(
         "No campaign-attributed local leads yet. Record a fictional enquiry after simulation.",
         "لا عملاء محليون منسوبون لحملة بعد. سجّل استفساراً خيالياً بعد المحاكاة.",
-      )}
+      ))}
     </p>
   );
 }

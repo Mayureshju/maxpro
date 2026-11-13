@@ -1,0 +1,500 @@
+[
+  {
+    "route": "/about",
+    "component": "PublicInformational",
+    "scope": "Secondary public showcase / local form; no account, enquiry or booking delivery",
+    "task": "Read illustrative product/legal information or preview a local form"
+  },
+  {
+    "route": "/agencies/[id]",
+    "component": "PublicInformational",
+    "scope": "Secondary public showcase / local form; no account, enquiry or booking delivery",
+    "task": "Read illustrative product/legal information or preview a local form"
+  },
+  {
+    "route": "/agencies",
+    "component": "PublicInformational",
+    "scope": "Secondary public showcase / local form; no account, enquiry or booking delivery",
+    "task": "Read illustrative product/legal information or preview a local form"
+  },
+  {
+    "route": "/compare",
+    "component": "SavedExperiences",
+    "scope": "Secondary public showcase / local form; no account, enquiry or booking delivery",
+    "task": "Preview local showcase research/compare/map tools"
+  },
+  {
+    "route": "/contact",
+    "component": "PublicInformational",
+    "scope": "Secondary public showcase / local form; no account, enquiry or booking delivery",
+    "task": "Read illustrative product/legal information or preview a local form"
+  },
+  {
+    "route": "/faq",
+    "component": "PublicInformational",
+    "scope": "Secondary public showcase / local form; no account, enquiry or booking delivery",
+    "task": "Read illustrative product/legal information or preview a local form"
+  },
+  {
+    "route": "/favorites",
+    "component": "SavedExperiences",
+    "scope": "Secondary public showcase / local form; no account, enquiry or booking delivery",
+    "task": "Preview local showcase research/compare/map tools"
+  },
+  {
+    "route": "/map",
+    "component": "SavedExperiences",
+    "scope": "Secondary public showcase / local form; no account, enquiry or booking delivery",
+    "task": "Preview local showcase research/compare/map tools"
+  },
+  {
+    "route": "/",
+    "component": "PublicHome",
+    "scope": "Secondary public showcase / local form; no account, enquiry or booking delivery",
+    "task": "Explore the agency operating system and secondary showcase"
+  },
+  {
+    "route": "/pricing",
+    "component": "usePrototypeCopy, SiteHeader, SiteFooter",
+    "scope": "Secondary public showcase / local form; no account, enquiry or booking delivery",
+    "task": "Compare illustrative Gemini subscription tiers"
+  },
+  {
+    "route": "/privacy",
+    "component": "PublicInformational",
+    "scope": "Secondary public showcase / local form; no account, enquiry or booking delivery",
+    "task": "Read illustrative product/legal information or preview a local form"
+  },
+  {
+    "route": "/properties/[id]",
+    "component": "PublicProperty",
+    "scope": "Secondary public showcase / local form; no account, enquiry or booking delivery",
+    "task": "Review a secondary example property and local enquiry form"
+  },
+  {
+    "route": "/properties",
+    "component": "PublicProperties",
+    "scope": "Secondary public showcase / local form; no account, enquiry or booking delivery",
+    "task": "Filter secondary example property listings"
+  },
+  {
+    "route": "/register",
+    "component": "GeminiDemoProvider, OrganizationWorkspace,PersonaBar, SiteHeader, SiteFooter",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Create and select a fictional organization"
+  },
+  {
+    "route": "/resources",
+    "component": "PublicInformational",
+    "scope": "Secondary public showcase / local form; no account, enquiry or booking delivery",
+    "task": "Read illustrative product/legal information or preview a local form"
+  },
+  {
+    "route": "/saved-searches",
+    "component": "SavedExperiences",
+    "scope": "Secondary public showcase / local form; no account, enquiry or booking delivery",
+    "task": "Preview local showcase research/compare/map tools"
+  },
+  {
+    "route": "/sign-in",
+    "component": "PublicInformational",
+    "scope": "Secondary public showcase / local form; no account, enquiry or booking delivery",
+    "task": "Read illustrative product/legal information or preview a local form"
+  },
+  {
+    "route": "/solutions",
+    "component": "PublicInformational",
+    "scope": "Secondary public showcase / local form; no account, enquiry or booking delivery",
+    "task": "Read illustrative product/legal information or preview a local form"
+  },
+  {
+    "route": "/terms",
+    "component": "PublicInformational",
+    "scope": "Secondary public showcase / local form; no account, enquiry or booking delivery",
+    "task": "Read illustrative product/legal information or preview a local form"
+  },
+  {
+    "route": "/workspace/admin/audit",
+    "component": "AuditWorkspace",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Filter the selected organization’s local audit"
+  },
+  {
+    "route": "/workspace/admin/cms",
+    "component": "OperationalSettings",
+    "scope": "Labelled compatibility route → `/workspace/admin/taxonomies`",
+    "task": "Configure local dispatch pause and review policy"
+  },
+  {
+    "route": "/workspace/admin/connector-health",
+    "component": "ConnectorHealth, AdminNavigation",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Inspect local connector readiness and failures"
+  },
+  {
+    "route": "/workspace/admin/integrations",
+    "component": "ConnectorHealth, AdminNavigation",
+    "scope": "Labelled compatibility route → `/workspace/admin/connector-health`",
+    "task": "Inspect local connector readiness and failures"
+  },
+  {
+    "route": "/workspace/admin/moderation",
+    "component": "ModerationWorkspace",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Review the current property revision"
+  },
+  {
+    "route": "/workspace/admin/organizations",
+    "component": "OrganizationDirectory",
+    "scope": "Labelled compatibility route → `/workspace/admin`",
+    "task": "Inspect fictional organization status, plans and members"
+  },
+  {
+    "route": "/workspace/admin",
+    "component": "OrganizationDirectory",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Inspect fictional organization status, plans and members"
+  },
+  {
+    "route": "/workspace/admin/plans",
+    "component": "PlanAdministration",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Configure illustrative entitlement definitions"
+  },
+  {
+    "route": "/workspace/admin/reports",
+    "component": "AuditWorkspace",
+    "scope": "Labelled compatibility route → `/workspace/admin/audit`",
+    "task": "Filter the selected organization’s local audit"
+  },
+  {
+    "route": "/workspace/admin/taxonomies",
+    "component": "OperationalSettings",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Configure local dispatch pause and review policy"
+  },
+  {
+    "route": "/workspace/admin/users",
+    "component": "TeamWorkspace",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Manage fictional membership, roles, seats and availability"
+  },
+  {
+    "route": "/workspace/ads/attribution",
+    "component": "CampaignAnalytics",
+    "scope": "Labelled compatibility route → `/workspace/analytics`",
+    "task": "Inspect campaign-linked lead and fictional cost cohorts"
+  },
+  {
+    "route": "/workspace/ads/catalogue",
+    "component": "MarketingProvider",
+    "scope": "Labelled compatibility route → `/workspace/integrations/meta-catalog`",
+    "task": "Plan a canonical Meta/Google campaign and catalogue"
+  },
+  {
+    "route": "/workspace/ads/placements",
+    "component": "AdvertisingOps",
+    "scope": "Explicit planning concept / local preview; no external service",
+    "task": "Review labelled placement-planning examples"
+  },
+  {
+    "route": "/workspace/analytics",
+    "component": "ChannelAnalytics",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Compare source/property/date lead cohorts"
+  },
+  {
+    "route": "/workspace/billing/dunning",
+    "component": "InvoiceWorkspace",
+    "scope": "Explicit planning concept / local preview; no external service",
+    "task": "Inspect scoped illustrative invoice/history examples"
+  },
+  {
+    "route": "/workspace/billing/invoices/[id]",
+    "component": "InvoiceWorkspace",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Inspect scoped illustrative invoice/history examples"
+  },
+  {
+    "route": "/workspace/billing/invoices",
+    "component": "InvoiceWorkspace",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Inspect scoped illustrative invoice/history examples"
+  },
+  {
+    "route": "/workspace/billing",
+    "component": "SubscriptionWorkspace",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Review scoped usage, quotas and illustrative plan selection"
+  },
+  {
+    "route": "/workspace/campaigns/[id]",
+    "component": "CampaignBuilder",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Draft, review and simulate a canonical campaign"
+  },
+  {
+    "route": "/workspace/campaigns/new",
+    "component": "CampaignBuilder",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Draft, review and simulate a canonical campaign"
+  },
+  {
+    "route": "/workspace/campaigns",
+    "component": "CampaignPortfolio",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Find and resume local campaign drafts"
+  },
+  {
+    "route": "/workspace/hub/connectors/[id]",
+    "component": "ConnectorDetail",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Inspect prerequisites and prepare local setup"
+  },
+  {
+    "route": "/workspace/hub/connectors",
+    "component": "ConnectorMarketplace",
+    "scope": "Labelled compatibility route → `/workspace/hub/marketplace`",
+    "task": "Find a provider and inspect prerequisites"
+  },
+  {
+    "route": "/workspace/hub/feeds",
+    "component": "FeedManager",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Inspect canonical mappings and export examples"
+  },
+  {
+    "route": "/workspace/hub/jobs",
+    "component": "PublishingActivity",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Inspect, revalidate, retry or cancel local jobs"
+  },
+  {
+    "route": "/workspace/hub/mappings",
+    "component": "MappingLibrary",
+    "scope": "Labelled compatibility route → `/workspace/hub/feeds`",
+    "task": "Inspect the shared canonical mapping/export workbench"
+  },
+  {
+    "route": "/workspace/hub/marketplace",
+    "component": "ConnectorMarketplace",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Find a provider and inspect prerequisites"
+  },
+  {
+    "route": "/workspace/hub",
+    "component": "DistributionOverview",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Review per-destination readiness"
+  },
+  {
+    "route": "/workspace/inbox",
+    "component": "InboxPage",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Review linked conversations and local reply consent"
+  },
+  {
+    "route": "/workspace/integrations/ga4",
+    "component": "IntegrationWorkstation",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Prepare consent-aware integration/event plans"
+  },
+  {
+    "route": "/workspace/integrations/google-ads",
+    "component": "MarketingProvider",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Plan a canonical Meta/Google campaign and catalogue"
+  },
+  {
+    "route": "/workspace/integrations/meta-catalog",
+    "component": "MarketingProvider",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Plan a canonical Meta/Google campaign and catalogue"
+  },
+  {
+    "route": "/workspace/integrations/whatsapp",
+    "component": "IntegrationWorkstation",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Prepare consent-aware integration/event plans"
+  },
+  {
+    "route": "/workspace/inventory/[id]/edit",
+    "component": "CanonicalPropertyEditor",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Edit canonical facts and bilingual copy"
+  },
+  {
+    "route": "/workspace/inventory/[id]/enquiries",
+    "component": "InventoryDetail",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Review the canonical property dossier and history"
+  },
+  {
+    "route": "/workspace/inventory/[id]/media",
+    "component": "MediaWorkbench",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Classify and reorder canonical media metadata"
+  },
+  {
+    "route": "/workspace/inventory/[id]",
+    "component": "InventoryDetail",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Review the canonical property dossier and history"
+  },
+  {
+    "route": "/workspace/inventory/[id]/publishing",
+    "component": "PropertyPublication",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Inspect one property’s destination ledger"
+  },
+  {
+    "route": "/workspace/inventory/import",
+    "component": "InventoryImport",
+    "scope": "Explicit file-selection concept; no parser/upload claimed",
+    "task": "Preview a labelled file-selection concept"
+  },
+  {
+    "route": "/workspace/inventory/new",
+    "component": "NewPropertyPage",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Create an empty canonical draft"
+  },
+  {
+    "route": "/workspace/inventory",
+    "component": "InventoryPage",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Search and filter selected canonical inventory"
+  },
+  {
+    "route": "/workspace/leads/[id]",
+    "component": "LeadDetail",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Qualify, assign and follow up one canonical lead"
+  },
+  {
+    "route": "/workspace/leads/assignment",
+    "component": "LeadRouting",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Configure membership-based routing and inspect decisions"
+  },
+  {
+    "route": "/workspace/leads",
+    "component": "LeadsPage",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Ingest examples and manage the canonical pipeline"
+  },
+  {
+    "route": "/workspace/leads/viewings",
+    "component": "ViewingsPage",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Request and manage linked local viewing slots"
+  },
+  {
+    "route": "/workspace/notifications",
+    "component": "NotificationsPage",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Review labelled sample notifications"
+  },
+  {
+    "route": "/workspace/organization/new",
+    "component": "OrganizationWorkspace",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Manage selected profile, preferences, verification or brand"
+  },
+  {
+    "route": "/workspace/organization",
+    "component": "OrganizationWorkspace",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Manage selected profile, preferences, verification or brand"
+  },
+  {
+    "route": "/workspace",
+    "component": "AgencyControlTower",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Resolve property, distribution and lead priorities"
+  },
+  {
+    "route": "/workspace/publish",
+    "component": "SyndicationPage",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Validate and approve per-destination local queueing"
+  },
+  {
+    "route": "/workspace/settings/domains",
+    "component": "OrganizationWorkspace",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Manage selected profile, preferences, verification or brand"
+  },
+  {
+    "route": "/workspace/settings/domains/preview",
+    "component": "AgencyPreview",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Preview the selected branded canonical portfolio"
+  },
+  {
+    "route": "/workspace/settings",
+    "component": "OrganizationWorkspace",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Manage selected profile, preferences, verification or brand"
+  },
+  {
+    "route": "/workspace/settings/privacy",
+    "component": "PrivacyTools",
+    "scope": "Explicit planning concept / local preview; no external service",
+    "task": "Preview labelled data-rights request concepts"
+  },
+  {
+    "route": "/workspace/studio",
+    "component": "StudioPrototype",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Review supplied facts, media and proposed bilingual copy"
+  },
+  {
+    "route": "/workspace/support/assistant",
+    "component": "AgentGovernance",
+    "scope": "Explicit planning concept / local preview; no external service",
+    "task": "Inspect local keyword search and AI planning boundaries"
+  },
+  {
+    "route": "/workspace/support/evaluations",
+    "component": "AgentGovernance",
+    "scope": "Explicit planning concept / local preview; no external service",
+    "task": "Inspect local keyword search and AI planning boundaries"
+  },
+  {
+    "route": "/workspace/support/knowledge",
+    "component": "AgentGovernance",
+    "scope": "Explicit planning concept / local preview; no external service",
+    "task": "Inspect local keyword search and AI planning boundaries"
+  },
+  {
+    "route": "/workspace/team",
+    "component": "TeamWorkspace",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Manage fictional membership, roles, seats and availability"
+  },
+  {
+    "route": "/workspace/verification",
+    "component": "OrganizationWorkspace",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Manage selected profile, preferences, verification or brand"
+  },
+  {
+    "route": "/workspace/whatsapp/packs",
+    "component": "WhatsAppPropertyPack",
+    "scope": "Selected-organization local workflow; canonical records and guarded actions",
+    "task": "Preview a canonical property pack by stage/language"
+  },
+  {
+    "route": "/workspace/whatsapp/sla",
+    "component": "InboxPage",
+    "scope": "Labelled compatibility route → `/workspace/inbox`",
+    "task": "Review linked conversations and local reply consent"
+  },
+  {
+    "route": "/workspace/whatsapp/templates",
+    "component": "WhatsAppTools",
+    "scope": "Explicit planning concept / local preview; no external service",
+    "task": "Review labelled template-planning concepts"
+  }
+]

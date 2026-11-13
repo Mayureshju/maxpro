@@ -1,3 +1,4 @@
+import {localized} from './fixtures';
 import {expect,test} from './fixtures';
 
 const routes=[
@@ -10,28 +11,28 @@ const routes=[
  '/en/workspace/whatsapp/packs','/en/workspace/support/assistant','/en/workspace/ads/placements',
  '/en/workspace/admin','/en/workspace/admin/connector-health','/en/workspace/admin/moderation','/en/workspace/admin/users','/en/workspace/admin/audit'
 ];
-for(const route of routes){test(`${route} renders a page heading`,async({page})=>{await page.goto(route);await expect(page.locator('h1').first()).toBeVisible();await expect(page.locator('body')).not.toContainText('Internal Server Error');});}
+for(const route of routes){test(`${route} renders a page heading`,async({page})=>{await page.goto(route);await expect(page.locator('h1').first()).toBeVisible();await expect(page.locator('body')).not.toContainText(localized('Internal Server Error'));});}
 
 test('inventory filtering and property navigation works locally',async({page})=>{
  await page.goto('/en/workspace/inventory');
- await page.getByRole('textbox',{name:'Search properties'}).fill('Viva');
+ await page.getByRole('textbox',{name:localized("Search properties")}).fill('Viva');
  await expect(page.locator('.px-listing-row')).toHaveCount(1);
  await page.locator('.px-listing-row').first().getByRole('link').click();
- await expect(page.locator('h1')).toContainText('Viva Bahriya');
+ await expect(page.locator('h1')).toContainText(localized('Viva Bahriya'));
 });
 
 test('studio can walk through local demo with explicit approval',async({page})=>{
  await page.goto('/en/workspace/studio');
- await page.getByRole('button',{name:'Use fictional sample input'}).click();
- await page.getByRole('button',{name:/Review supplied facts/}).click();
+ await page.getByRole('button',{name:localized('Use fictional sample input')}).click();
+ await page.getByRole('button',{name:localized(/Review supplied facts/)}).click();
  for(const heading of ['Organize the media by room.','Refine the bilingual listing copy.','Quality checks and human approval.']){
-  await page.getByRole('button',{name:'Continue',exact:true}).click();
-  await expect(page.getByRole('heading',{name:heading,exact:true})).toBeVisible();
+  await page.getByRole('button',{name:localized('Continue',true),exact:true}).click();
+  await expect(page.getByRole('heading',{name:localized(heading,true),exact:true})).toBeVisible();
   expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBeLessThanOrEqual(page.viewportSize()!.width+1);
  }
  await page.getByRole('checkbox').last().check();
- await page.getByRole('button',{name:'Continue to publishing handoff'}).click();
- await expect(page.getByRole('link',{name:/Go to publishing workbench/})).toBeVisible();
+ await page.getByRole('button',{name:localized('Continue to publishing handoff')}).click();
+ await expect(page.getByRole('link',{name:localized(/Go to publishing workbench/)})).toBeVisible();
 });
 
 test('Arabic routes preserve RTL',async({page})=>{
@@ -43,7 +44,7 @@ test('Arabic routes preserve RTL',async({page})=>{
 test('mobile workspace does not overflow and sidebar opens',async({page})=>{
  await page.setViewportSize({width:375,height:800});
  await page.goto('/en/workspace');
- await page.getByRole('button',{name:'Open navigation'}).click();
+ await page.getByRole('button',{name:localized("Open navigation")}).click();
  await expect(page.locator('.prototype-sidebar')).toHaveClass(/is-open/);
  const widths=await page.evaluate(()=>({scroll:document.documentElement.scrollWidth,viewport:window.innerWidth}));
  expect(widths.scroll).toBeLessThanOrEqual(widths.viewport+1);
@@ -52,47 +53,47 @@ test('mobile workspace does not overflow and sidebar opens',async({page})=>{
 
 test('Gemini master property edit is used in preflight',async({page})=>{
  await page.goto('/en/workspace/inventory/AQ-10233/edit');
- await page.getByRole('textbox',{name:'Permit / license'}).fill('');
- await page.getByRole('button',{name:/Save browser-local draft/}).click();
+ await page.getByRole('textbox',{name:localized("Permit / license")}).fill('');
+ await page.getByRole('button',{name:localized(/Save browser-local draft/)}).click();
  await page.goto('/en/workspace/publish');
- await page.getByRole('button',{name:'Continue'}).click();
- await page.getByRole('button',{name:'Continue'}).click();
- await expect(page.getByText('Verified permit and advertiser approval').first()).toBeVisible();
+ await page.getByRole('button',{name:localized('Continue')}).click();
+ await page.getByRole('button',{name:localized('Continue')}).click();
+ await expect(page.getByText(localized('Verified permit and advertiser approval')).first()).toBeVisible();
 });
 
 test('Gemini connector setup and publishing are browser-local only',async({page})=>{
  for(const name of ['property-finder','qatar-living']){
   await page.goto(`/en/workspace/hub/connectors/${name}`);
   await page.getByRole('checkbox').check();
-  await page.getByRole('button',{name:/Prepare demo connector/}).click();
-  await expect(page.getByText('Local demo setup recorded')).toBeVisible();
+  await page.getByRole('button',{name:localized(/Prepare demo connector/)}).click();
+  await expect(page.getByText(localized('Local demo setup recorded'))).toBeVisible();
  }
  await page.goto('/en/workspace/publish');
- await page.getByRole('button',{name:'Continue'}).click();
- await page.getByRole('button',{name:'Continue'}).click();
+ await page.getByRole('button',{name:localized('Continue')}).click();
+ await page.getByRole('button',{name:localized('Continue')}).click();
  await page.getByRole('checkbox').check();
- await page.getByRole('button',{name:'Continue'}).click();
- await page.getByRole('button',{name:'Simulate publishing'}).click();
- await expect(page.getByText('Demo dispatch completed')).toBeVisible();
+ await page.getByRole('button',{name:localized('Continue')}).click();
+ await page.getByRole('button',{name:localized('Simulate publishing')}).click();
+ await expect(page.getByText(localized('Demo dispatch completed'))).toBeVisible();
  await page.goto('/en/workspace/hub/jobs');
- await expect(page.getByText('Queued locally').first()).toBeVisible();
- await expect(page.getByText('Not connected',{exact:true})).toHaveCount(0);
+ await expect(page.getByText(localized("Queued locally")).first()).toBeVisible();
+ await expect(page.getByText(localized("Not connected",true),{exact:true})).toHaveCount(0);
 });
 
 test('Gemini Starter plan blocks two destination selection',async({page})=>{
  await page.goto('/en/workspace/billing');
- await page.getByRole('button',{name:/Starter/}).click();
+ await page.getByRole('button',{name:localized(/Starter/)}).click();
  await page.goto('/en/workspace/publish');
- await page.getByRole('button',{name:'Continue'}).click();
+ await page.getByRole('button',{name:localized('Continue')}).click();
  await expect(page.getByText(/includes 1 destination/)).toBeVisible();
- await expect(page.getByRole('button',{name:'Continue'})).toBeDisabled();
+ await expect(page.getByRole('button',{name:localized('Continue')})).toBeDisabled();
 });
 
 test('Gemini sample data and pricing do not advertise former v2 tiers',async({page})=>{
  await page.goto('/en/workspace/billing');
  await expect(page.locator('.gm-plan-selector b')).toHaveText(['QAR 179 / mo','QAR 725 / mo','QAR 1,800+ / mo']);
  await page.goto('/en/pricing');
- await expect(page.getByText('QAR 179')).toBeVisible();
- await expect(page.getByText('QAR 725')).toBeVisible();
- await expect(page.getByText('QAR 1,800+')).toBeVisible();
+ await expect(page.getByText(localized('QAR 179'))).toBeVisible();
+ await expect(page.getByText(localized('QAR 725'))).toBeVisible();
+ await expect(page.getByText(localized("QAR 1,800+"))).toBeVisible();
 });

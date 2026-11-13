@@ -1,0 +1,8 @@
+import {test,expect} from './fixtures';
+import {mkdirSync,readdirSync,writeFileSync} from 'node:fs';
+import {resolve} from 'node:path';
+for(const locale of ['en','ar'])test(`final copy ${locale}: UI source labels translate and original enquiry messages stay intact`,async({page},info)=>{
+ test.setTimeout(60000);const directory=resolve('../../artifacts/phase6/copy-check');mkdirSync(`${directory}/screenshots`,{recursive:true});const pkg=readdirSync(resolve('../../node_modules/.pnpm')).find(n=>n.startsWith('axe-core@'))!;const axe=resolve('../../node_modules/.pnpm',pkg,'node_modules/axe-core/axe.min.js');const reports=[];
+ for(const route of ['studio','inbox']){await page.goto(`/${locale}/workspace/${route}`);await expect(page.locator('main h1')).toBeVisible();if(route==='studio')await expect(page.locator('.px-intake-methods')).toContainText(locale==='ar'?'ملاحظات مصدر خيالية':'Fictional source notes');else await expect(page.locator('.px-chat-panel')).toContainText('Fictional enquiry: please share viewing options for this property.');await page.addScriptTag({path:axe});const result=await page.evaluate('window.axe.run(document.querySelector("main"),{runOnly:{type:"tag",values:["wcag2a","wcag2aa","wcag21aa"]}})') as {violations:unknown[]};reports.push({route,violations:result.violations});expect(result.violations).toEqual([]);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);await page.screenshot({path:`${directory}/screenshots/${info.project.name}-${locale}-${route}.png`,fullPage:true,scale:'css'});}
+ writeFileSync(`${directory}/axe-${info.project.name}-${locale}.json`,JSON.stringify(reports,null,2));
+});

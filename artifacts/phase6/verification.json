@@ -1,0 +1,140 @@
+{
+  "date": "2026-11-13",
+  "status": "prototype freeze candidate; independent review and native-speaker approval outstanding",
+  "baseline": {
+    "checkedOn": "2026-11-13",
+    "baseline": "ad8571455a93dbde3c1829d301a518a3c973b73d",
+    "id": 43367248388,
+    "status": "completed",
+    "conclusion": "success",
+    "url": "https://github.com/Mayureshju/maxpro/actions/runs/43367248388",
+    "scope": "Remote baseline only; local Phase 6 changes are uncommitted."
+  },
+  "requirements": "GEM-01 through GEM-24; fictional prototype scope, with production exclusions in docs/24",
+  "commands": [
+    {
+      "command": "CI=true pnpm install --frozen-lockfile",
+      "result": "passed with approved registry network access; no dependency manifest or lockfile changes",
+      "log": "logs/install-network.log"
+    },
+    {
+      "command": "pnpm typecheck",
+      "result": "passed on final frontend source",
+      "log": "logs/typecheck.log"
+    },
+    {
+      "command": "pnpm lint",
+      "result": "passed on final frontend source; no warnings",
+      "log": "logs/lint.log"
+    },
+    {
+      "command": "pnpm build",
+      "result": "blocked by sandbox EPERM when Turbopack CSS/PostCSS worker binds a process port; not passed",
+      "log": "logs/build-default-final.log"
+    },
+    {
+      "command": "pnpm --dir apps/web exec next build --webpack",
+      "result": "passed on final frontend source",
+      "log": "logs/build-webpack-final.log"
+    },
+    {
+      "command": "PLAYWRIGHT_PORT=3106 PLAYWRIGHT_PRODUCTION=1 PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH='/Users/dieturetech/Library/Caches/ms-playwright/chromium-1208/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing' pnpm --dir apps/web test:e2e",
+      "result": "passed before the three final presentation-only changes identified in final-copy-delta.json",
+      "passed": 779,
+      "skipped": 31,
+      "failed": 0,
+      "duration": "7.7 minutes",
+      "log": "logs/e2e-final.log",
+      "sourceFingerprint": "source-fingerprint-full-regression.json",
+      "skips": "28 retained project/viewport-specific skips; 2 duplicate tablet runs; 1 native-drag mobile skip (keyboard alternative exercised)"
+    },
+    {
+      "command": "PLAYWRIGHT_PORT=3106 PLAYWRIGHT_PRODUCTION=1 PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH='/Users/dieturetech/Library/Caches/ms-playwright/chromium-1208/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing' pnpm --dir apps/web test:e2e final-acceptance.spec.ts final-copy.spec.ts lead-crm.spec.ts --grep 'final acceptance|final copy|CRM ar:|CRM accessibility ar|CRM browser: advanced'",
+      "result": "passed on final frontend source after the presentation delta; not a second full-suite run",
+      "passed": 37,
+      "skipped": 1,
+      "failed": 0,
+      "duration": "28.5 seconds",
+      "log": "logs/e2e-final-copy-followup.log",
+      "sourceFingerprint": "source-fingerprint.json",
+      "skips": "Native HTML drag on mobile; keyboard alternative covered"
+    }
+  ],
+  "accessibility": {
+    "scope": "WCAG A/AA axe main-content audit of all 83 route templates plus whole-document shared shell, EN/AR × desktop/mobile Chromium; additional final Studio/inbox states",
+    "fullRun": {
+      "states": 336,
+      "violations": 0,
+      "reports": [
+        "logs/axe-chromium-ar.json",
+        "logs/axe-chromium-en.json",
+        "logs/axe-mobile-chromium-ar.json",
+        "logs/axe-mobile-chromium-en.json"
+      ]
+    },
+    "finalCopyFollowup": {
+      "states": 8,
+      "violations": 0,
+      "reports": [
+        "copy-check/axe-chromium-ar.json",
+        "copy-check/axe-chromium-en.json",
+        "copy-check/axe-mobile-chromium-ar.json",
+        "copy-check/axe-mobile-chromium-en.json"
+      ]
+    },
+    "limitation": "Automated checks are not comprehensive accessibility certification."
+  },
+  "visual": {
+    "screenshots": 610,
+    "manifest": "screenshot-manifest.json",
+    "majorViews": 36,
+    "locales": [
+      "en",
+      "ar"
+    ],
+    "testedViewportWidths": [
+      1440,
+      1024,
+      768,
+      375
+    ],
+    "review": "visual-review.md",
+    "contactSheets": 12,
+    "scope": "Actual Chromium application captures and self-review; no physical-device, Safari or Firefox certification."
+  },
+  "finalPresentationDelta": {
+    "changedAfterFullRegression": [
+      "apps/web/messages/prototype-ar.json",
+      "apps/web/src/components/gemini/lead-workspace.tsx",
+      "apps/web/src/lib/ui-copy.ts"
+    ],
+    "scope": "Presentation only: translate the fictional-source UI label, restrict fictional-actor label matching, and preserve original note/message text with automatic direction.",
+    "verification": "logs/e2e-final-copy-followup.log; final typecheck/lint/webpack production build"
+  },
+  "review": {
+    "independentTool": "Claude Code read-only review attempted; Not logged in · Please run /login",
+    "log": "logs/independent-review.log",
+    "independentReviewCompleted": false,
+    "nativeArabicApprovalCompleted": false,
+    "codexImplementationSelfReviewCompleted": true
+  },
+  "unresolvedDecisions": [
+    "Independent architecture/design review and professional Arabic UAT",
+    "Approved Frappe, database and deployment versions/security model",
+    "Legal brand identity, licensed Qatar/GCC imagery and public-showcase launch",
+    "Official portal rights/schemas and Meta/Google/WhatsApp account/policy approvals",
+    "Payment/tax/invoice rules, data residency and retention"
+  ],
+  "scopePreserved": [
+    "No backend or production integration",
+    "No credentials or real spending",
+    "No commit, push or deployment",
+    "Browser-local organizations are UX simulation, not secure tenant isolation"
+  ],
+  "evidenceNotes": [
+    "Earlier failed/intermediate logs are retained for traceability; final named logs above supersede them.",
+    "Playwright HTML report in apps/web/playwright-report reflects the final focused followup; broad-run evidence is logs/e2e-final.log.",
+    "Screenshot manifest includes regression and followup captures; copying refreshed Studio/inbox captures into the main view directory intentionally duplicates those eight files.",
+    "Frontend fingerprints cover source and message files. Documentation and test evidence were finalized afterward."
+  ]
+}

@@ -21,8 +21,8 @@ export type ReviewStatus=typeof reviewStatuses[number];
 export type ModerationReview={propertyId:string;propertyRevision:number;status:ReviewStatus;note:string;actor:string;at:string};
 export type AuditEvent={id:string;organizationId:string;actor:string;role:OrganizationRole;action:string;target:string;revision:number|null;at:string;outcome:'applied-demo'|'denied-demo';note:string};
 export type PlanTerms=Pick<PlanDefinition,'monthlyQar'|'listingLimit'|'connectorLimit'|'aiCredits'|'seats'>;
-export type OrganizationRepository={version:1;organizations:OrganizationProfile[];members:Membership[];actor:OrganizationRole;reviews:ModerationReview[];audit:AuditEvent[];planOverrides:Partial<Record<PlanId,PlanTerms>>;operational:{maintenance:boolean;reviewNoteRequired:boolean}};
-export type OrganizationHost={organization:OrganizationRepository;plan:PlanId;properties:Record<string,CanonicalProperty>;preparedConnectors:ConnectorId[];jobs:DemoJob[];campaigns:Campaign[]};
+export type OrganizationRepository={version:1;activeOrganizationId?:string;organizations:OrganizationProfile[];members:Membership[];actor:OrganizationRole;reviews:ModerationReview[];audit:AuditEvent[];planOverrides:Partial<Record<PlanId,PlanTerms>>;operational:{maintenance:boolean;reviewNoteRequired:boolean}};
+export type OrganizationHost={organization:OrganizationRepository;plan:PlanId;properties:Record<string,CanonicalProperty>;preparedConnectors:ConnectorId[];jobs:DemoJob[];campaigns:Campaign[];workspaces?:Record<string,{jobs:DemoJob[];preparedConnectors:ConnectorId[];campaigns:Campaign[]}>};
 const now=()=>new Date().toISOString();
 const uid=()=>crypto.randomUUID();
 export function seedOrganization(plan:PlanId='agency'):OrganizationRepository{
@@ -34,21 +34,24 @@ export function seedOrganization(plan:PlanId='agency'):OrganizationRepository{
  {id:'MEM-BROKER',organizationId:demoOrganizationId,alias:'Demo Broker',role:'broker',status:'suspended-demo',available:false,revision:1},
  ],actor:'super-admin',reviews:[],audit:[],planOverrides:{},operational:{maintenance:false,reviewNoteRequired:true}};
 }
-export const workspaceOrganization=(r:OrganizationRepository)=>r.organizations.find(o=>o.id===demoOrganizationId)!;
+export const activeOrganizationId=(r?:OrganizationRepository)=>r?.activeOrganizationId??demoOrganizationId;
+export const workspaceOrganization=(r:OrganizationRepository)=>r.organizations.find(o=>o.id===activeOrganizationId(r))!;
 export function can(r:OrganizationRepository,p:Permission){return permissionMatrix[r.actor]?.includes(p)??false;}
-export function audit(r:OrganizationRepository,action:string,target:string,revision:number|null=null,note='',outcome:AuditEvent['outcome']='applied-demo',organizationId=demoOrganizationId):OrganizationRepository{
+export function audit(r:OrganizationRepository,action:string,target:string,revision:number|null=null,note='',outcome:AuditEvent['outcome']='applied-demo',organizationId=activeOrganizationId(r)):OrganizationRepository{
  return {...r,audit:[{id:uid(),organizationId,actor:`Fictional ${r.actor}`,role:r.actor,action,target,revision,at:now(),outcome,note},...r.audit].slice(0,1000)};
 }
 export function effectivePlan(s:{plan:PlanId;organization?:OrganizationRepository}):PlanDefinition{
  const base=geminiPlans.find(p=>p.id===s.plan)!;return {...base,...s.organization?.planOverrides[s.plan]};
 }
-export function usage(s:OrganizationHost,orgId=demoOrganizationId){
- return {listings:orgId===demoOrganizationId?new Set(s.jobs.filter(j=>j.status==='queued-demo').map(j=>j.listingId)).size:0,portals:orgId===demoOrganizationId?new Set([...s.preparedConnectors,...s.jobs.filter(j=>j.status==='queued-demo').map(j=>j.destination)].filter(id=>getConnector(id).entitlement==='portal-quota')).size:0,seats:s.organization.members.filter(m=>m.organizationId===orgId&&m.status!=='suspended-demo').length,credits:orgId===demoOrganizationId?s.campaigns.reduce((n,c)=>n+c.proposals.length,0):0,campaigns:orgId===demoOrganizationId?s.campaigns.length:0};
+export function usage(s:OrganizationHost,orgId=activeOrganizationId(s.organization)){
+ const slice=orgId===activeOrganizationId(s.organization)?s:s.workspaces?.[orgId];const jobs=slice?.jobs??[];const campaigns=slice?.campaigns??[];
+ return {listings:new Set(jobs.filter(j=>j.status==='queued-demo').map(j=>j.listingId)).size,portals:new Set([...(slice?.preparedConnectors??[]),...jobs.filter(j=>j.status==='queued-demo').map(j=>j.destination)].filter(id=>getConnector(id).entitlement==='portal-quota')).size,seats:s.organization.members.filter(m=>m.organizationId===orgId&&m.status!=='suspended-demo').length,credits:campaigns.reduce((n,c)=>n+c.proposals.length,0),campaigns:campaigns.length};
 }
-export function planBlockers(s:OrganizationHost,id:PlanId,orgId=demoOrganizationId){const p=effectivePlan({...s,plan:id}),u=usage(s,orgId);return (['listings','portals','seats','credits'] as const).flatMap((k,i)=>{const limit=[p.listingLimit,p.connectorLimit,p.seats,p.aiCredits][i];return limit!==null&&u[k]>limit?[`${k}: ${u[k]} / ${limit}`]:[];});}
+export function planBlockers(s:OrganizationHost,id:PlanId,orgId=activeOrganizationId(s.organization)){const p=effectivePlan({...s,plan:id}),u=usage(s,orgId);return (['listings','portals','seats','credits'] as const).flatMap((k,i)=>{const limit=[p.listingLimit,p.connectorLimit,p.seats,p.aiCredits][i];return limit!==null&&u[k]>limit?[`${k}: ${u[k]} / ${limit}`]:[];});}
 export function permissionError(r:OrganizationRepository,p:Permission):string|null{return can(r,p)?null:`Local permission denied: ${r.actor} cannot ${p}. Simulated roles provide no production security.`;}
 export function invalidateReviews(r:OrganizationRepository,p:CanonicalProperty){const previous=r.reviews.find(x=>x.propertyId===p.id);if(!previous||previous.propertyRevision===p.revision)return r;return audit({...r,reviews:r.reviews.map(x=>x.propertyId===p.id?{...x,propertyRevision:p.revision,status:'verification-pending',actor:'Fictional system',at:now(),note:`Revision ${previous.propertyRevision} review invalidated by canonical revision ${p.revision}.`}:x)},'review-invalidated',p.id,p.revision,`Previous status: ${previous.status}`);}
 export type OrganizationCommand=
+ |{type:'select';organizationId:string}
  |{type:'persona';role:OrganizationRole}
  |{type:'create';name:string;nameAr:string;organizationType:OrganizationProfile['type'];country:OrganizationProfile['country']}
  |{type:'profile';id:string;revision:number;name:string;nameAr:string;organizationType:OrganizationProfile['type'];country:OrganizationProfile['country'];businessName:string;license:string}
@@ -67,18 +70,19 @@ const short=(s:unknown,max=160):s is string=>typeof s==='string'&&s.trim().lengt
 export function applyOrganizationCommand(s:OrganizationHost,c:OrganizationCommand):OrganizationResult{
  let r=s.organization;let plan=s.plan;
  const fail=(error:string):OrganizationResult=>({organization:audit(r,`denied:${c.type}`,'id' in c?c.id:'workspace',null,error,'denied-demo'),plan,error});
- const done=(action:string,target:string,revision:number|null=null,note='',orgId=demoOrganizationId):OrganizationResult=>({organization:audit(r,action,target,revision,note,'applied-demo',orgId),plan,error:null,id:target});
+ const done=(action:string,target:string,revision:number|null=null,note='',orgId=activeOrganizationId(s.organization)):OrganizationResult=>({organization:audit(r,action,target,revision,note,'applied-demo',orgId),plan,error:null,id:target});
+ if(c.type==='select'){if(!r.organizations.some(o=>o.id===c.organizationId))return fail('Organization not found.');r={...r,activeOrganizationId:c.organizationId};plan=workspaceOrganization(r).plan;return done('organization-selected',c.organizationId,null,'Fictional browser-local workspace; no secure tenant isolation.',c.organizationId);}
  if(c.type==='persona'){if(!roles.includes(c.role))return fail('Unknown simulated persona.');r={...r,actor:c.role};return done('persona-selected',c.role);}
  const required:Permission=c.type==='configure-plan'||c.type==='operations'||c.type==='organization-status'?'admin':c.type==='review'?'moderate':c.type==='plan'?'billing':c.type==='invite'||c.type==='member'?'team':'profile';
  const denied=permissionError(r,required);if(denied)return fail(denied);
- const targetOrg='organizationId' in c?c.organizationId:'id' in c?(c.type==='member'?r.members.find(m=>m.id===c.id)?.organizationId:c.id):demoOrganizationId;
- if(r.actor!=='super-admin'&&targetOrg&&targetOrg!==demoOrganizationId)return fail('Local permission denied: this directory organization requires a super administrator.');
+ const targetOrg='organizationId' in c?c.organizationId:'id' in c?(c.type==='member'?r.members.find(m=>m.id===c.id)?.organizationId:c.id):activeOrganizationId(r);
+ if(r.actor!=='super-admin'&&targetOrg&&targetOrg!==activeOrganizationId(r))return fail('Local permission denied: this directory organization requires a super administrator.');
  if(r.actor!=='super-admin'&&workspaceOrganization(r).status==='suspended-demo')return fail('Organization is suspended in this local demo.');
  if(c.type==='create'){
   if(!short(c.name)||c.nameAr.length>160||!organizationTypes.includes(c.organizationType)||!['QA','AE','SA'].includes(c.country))return fail('Enter a name, valid organization type and country.');
   if(r.organizations.length>=50||r.members.length>=500)return fail('Local organization capacity reached.');
   const id=`ORG-DEMO-${uid()}`;const base=workspaceOrganization(seedOrganization());
-  r={...r,organizations:[...r.organizations,{...base,id,revision:1,name:c.name.trim(),nameAr:c.nameAr.trim(),brand:c.name.trim(),businessName:'Fictional business',license:'',domain:'',domainPreview:false,type:c.organizationType,country:c.country,plan:'starter',status:'onboarding',verification:'verification-pending'}],members:[...r.members,{id:`MEM-${uid()}`,organizationId:id,alias:'Demo Organization Owner',role:c.organizationType==='agency'?'owner':c.organizationType,status:'active-demo',available:false,revision:1}]};return done('organization-created',id,1,'Directory profile only; canonical operations remain in Pearl Gate.',id);
+  r={...r,organizations:[...r.organizations,{...base,id,revision:1,name:c.name.trim(),nameAr:c.nameAr.trim(),brand:c.name.trim(),businessName:'Fictional business',license:'',domain:'',domainPreview:false,type:c.organizationType,country:c.country,plan:'starter',status:'onboarding',verification:'verification-pending'}],members:[...r.members,{id:`MEM-${uid()}`,organizationId:id,alias:'Demo Organization Owner',role:c.organizationType==='agency'?'owner':c.organizationType,status:'active-demo',available:c.organizationType!=='agency',revision:1}]};return done('organization-created',id,1,'Independent empty browser-local workspace created.',id);
  }
  if(c.type==='invite'){
   const org=r.organizations.find(o=>o.id===c.organizationId);if(!org)return fail('Organization not found.');
@@ -102,7 +106,7 @@ export function applyOrganizationCommand(s:OrganizationHost,c:OrganizationComman
  }
  if(c.type==='plan'){
   const org=r.organizations.find(o=>o.id===c.organizationId);if(!org||!geminiPlans.some(p=>p.id===c.plan))return fail('Unknown organization or plan.');
-  if(org.id===demoOrganizationId)plan=c.plan;
+  if(org.id===activeOrganizationId(r))plan=c.plan;
   r={...r,organizations:r.organizations.map(o=>o.id===org.id?{...o,plan:c.plan,revision:o.revision+1}:o)};return done('plan-selected',org.id,org.revision+1,`Illustrative ${c.plan}; no purchase. Overages: ${planBlockers(s,c.plan,org.id).join(', ')||'none'}`,org.id);
  }
  if(c.type==='configure-plan'){
@@ -110,7 +114,7 @@ export function applyOrganizationCommand(s:OrganizationHost,c:OrganizationComman
   r={...r,planOverrides:{...r.planOverrides,[c.plan]:{monthlyQar:c.terms.monthlyQar,listingLimit:c.terms.listingLimit,connectorLimit:c.terms.connectorLimit,aiCredits:c.terms.aiCredits,seats:c.terms.seats}}};return done('plan-configured',c.plan,null,'Illustrative pending business approval.');
  }
  if(c.type==='review'){
-  const p=s.properties[c.propertyId];if(!p||p.revision!==c.revision||p.organizationId!==demoOrganizationId)return fail('Canonical property changed or was not found. Review the current revision.');
+  const p=s.properties[c.propertyId];if(!p||p.revision!==c.revision||p.organizationId!==activeOrganizationId(r))return fail('Canonical property changed or was not found. Review the current revision.');
   if(!reviewStatuses.includes(c.status)||c.note.length>1000||(r.operational.reviewNoteRequired&&!short(c.note,1000)))return fail('Add a review note (maximum 1,000 characters).');
   const review:ModerationReview={propertyId:p.id,propertyRevision:p.revision,status:c.status,note:c.note,actor:`Fictional ${r.actor}`,at:now()};
   r={...r,reviews:[review,...r.reviews.filter(x=>x.propertyId!==p.id)]};return done(`moderation:${c.status}`,p.id,p.revision,c.note);

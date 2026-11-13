@@ -1,3 +1,4 @@
+import {activeOrganizationId} from './organization-engine';
 import type {OrganizationRepository} from './organization-engine';
 /** Internal fictional contracts only. No provider webhook/API or production authorization. */
 import {demoOrganizationId, type CanonicalProperty} from './canonical-property';
@@ -159,12 +160,13 @@ export function exampleLeadPayload(
   propertyId: string,
   eventId = `DEMO-EVENT-${uid()}`,
   at = new Date().toISOString(),
+  organizationId: string = demoOrganizationId,
 ) {
   const [id, property, time] = eventFields[source];
   return JSON.stringify(
     {
       contract: 'internal-example-v1',
-      organization_id: demoOrganizationId,
+      organization_id: organizationId,
       [id]: eventId,
       [property]: propertyId,
       [time]: at,
@@ -197,6 +199,7 @@ function normalize(
   raw: string,
   properties: CrmHost['properties'],
   at: string,
+  organizationId: string,
 ) {
   if (raw.length > 16000) throw new Error('Example payload is too large.');
   const v: unknown = JSON.parse(raw);
@@ -204,7 +207,7 @@ function normalize(
   const [id, property, time] = eventFields[source];
   if (
     v.contract !== 'internal-example-v1' ||
-    v.organization_id !== demoOrganizationId
+    v.organization_id !== organizationId
   )
     throw new Error(
       'Use the internal example contract and current demo organization.',
@@ -216,7 +219,7 @@ function normalize(
   if (
     !short(v[property], 100) ||
     !Object.hasOwn(properties, v[property] as string) ||
-    properties[v[property] as string].organizationId !== demoOrganizationId
+    properties[v[property] as string].organizationId !== organizationId
   )
     throw new Error('Unknown canonical property in this organization.');
   if (!validTime(v[time]) || Date.parse(v[time] as string) > Date.parse(at))
@@ -256,10 +259,10 @@ function normalize(
   };
 }
 export function crmAgentNames(host: Pick<CrmHost,'organization'>): string[]{
- return host.organization ? host.organization.members.filter(m=>m.organizationId===demoOrganizationId).map(m=>m.alias) : [...crmAgents];
+ return host.organization ? host.organization.members.filter(m=>m.organizationId===activeOrganizationId(host.organization)).map(m=>m.alias) : [...crmAgents];
 }
 export function availableMember(host: CrmHost,alias:string):boolean{
- const m=host.organization?.members.find(m=>m.organizationId===demoOrganizationId&&m.alias===alias);
+ const m=host.organization?.members.find(m=>m.organizationId===activeOrganizationId(host.organization)&&m.alias===alias);
  return !host.organization || !!m&&m.status==='active-demo'&&m.available;
 }
 export function nextAssignment(host: CrmHost): {
@@ -302,10 +305,11 @@ function createLead(
   n: ReturnType<typeof normalize>,
   at: string,
   decision: ReturnType<typeof nextAssignment>,
+  organizationId: string = demoOrganizationId,
 ): CanonicalLead {
   return {
     id,
-    organizationId: demoOrganizationId,
+    organizationId,
     propertyId: n.propertyId,
     source,
     sourceEventId: n.sourceEventId,
@@ -460,12 +464,12 @@ export function applyCrmCommand(
       'Internal example received; raw payload not retained.',
     );
     try {
-      const n = normalize(cmd.source, cmd.payload, host.properties, at);
+      const n = normalize(cmd.source, cmd.payload, host.properties, at, activeOrganizationId(host.organization));
       const existing = crm.leads.find(
         (l) =>
           eventKey(l) ===
           eventKey({
-            organizationId: demoOrganizationId,
+            organizationId: activeOrganizationId(host.organization),
             source: cmd.source,
             sourceEventId: n.sourceEventId,
           }),
@@ -484,7 +488,7 @@ export function applyCrmCommand(
           'Local CRM lead capacity reached. Reset the demo to continue.',
         );
       const decision = nextAssignment(host);
-      const lead = createLead(`LE-DEMO-${uid()}`, cmd.source, n, at, decision);
+      const lead = createLead(`LE-DEMO-${uid()}`, cmd.source, n, at, decision, activeOrganizationId(host.organization));
       crm.leads.unshift(lead);
       if (decision.rotate) crm.cursor++;
       receipt(
@@ -532,9 +536,9 @@ export function applyCrmCommand(
     return {crm, error: null};
   }
   const lead = crm.leads.find(
-    (l) => l.id === cmd.leadId && l.organizationId === demoOrganizationId,
+    (l) => l.id === cmd.leadId && l.organizationId === activeOrganizationId(host.organization),
   );
-  if (!lead || !Object.hasOwn(host.properties, lead.propertyId))
+  if (!lead || !Object.hasOwn(host.properties, lead.propertyId) || host.properties[lead.propertyId].organizationId !== activeOrganizationId(host.organization))
     return fail('Lead or canonical property is missing in this organization.');
   if (lead.activity.length >= 500)
     return fail('Local lead history capacity reached.');

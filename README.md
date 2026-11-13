@@ -12,7 +12,7 @@
 - Added product/architecture/UX/acceptance/SDD documentation and shared instructions for Codex, Claude Code and Cursor.
 
 ## Scope honesty
-All external provider connectors, API fields, credentials, feeds, AI, SMS/WhatsApp, billing, booking and marketing are **mock/proposed**. Browser-local setup state does not mean connected. An item "Queued locally" is **not** published or acknowledged by a portal. Most v2 legacy screens still need complete Arabic translations and UX refinement. There is no API, database, server auth, durable file storage or real webhook processing in this package. Full Next.js build and Playwright browser tests could **not** be run while preparing the ZIP because registry access was unavailable; TS/TSX syntax and artifact completeness were checked separately.
+All external provider connectors, API fields, credentials, feeds, AI, SMS/WhatsApp, billing, booking and marketing are **mock/proposed**. Browser-local setup state does not mean connected. An item "Queued locally" is **not** published or acknowledged by a portal. Phase 6 adds an explicit Arabic presentation catalogue and all-route RTL/accessibility evidence; native-speaker approval remains pending. There is no API, database, server auth, durable file storage or real webhook processing in this package. The original ZIP could not be built under its packaging environment. Phase 6 installs the locked dependencies and records actual typecheck, lint, build and browser results in `artifacts/phase6/verification.json`; the default Turbopack worker-port restriction is distinguished from the supported webpack production build.
 
 ## Run with Codex
 ```bash
@@ -42,7 +42,7 @@ pnpm --dir apps/web test:e2e
 7. `/en/workspace/leads/assignment`, `/en/workspace/leads/viewings` and `/en/workspace/analytics` — routing, booking and channel ROI prototypes.
 8. `/en/workspace/billing` — switch illustrative plans and see quota rules; `/en/workspace/admin/connector-health` — demo integration operations.
 
-The older v2 public property discovery, sample campaigns, AI Studio, WhatsApp inbox, admin and support AI screens remain as secondary modules, while incomplete items are explicitly listed in `docs/11-gemini-requirements.md`.
+Property inventory, Studio, campaigns, CRM/inbox, organization management and administration now share canonical browser-local records. Public discovery remains a secondary showcase. Compatibility routes link to their primary workflows, and remaining planning concepts are labelled explicitly. Production gaps are listed in `docs/11-gemini-requirements.md`.
 
 ## Documents to read
 - `docs/reference/GEMINI_USER_PRD.txt` — exact user-supplied Gemini content.
@@ -59,3 +59,9 @@ The older v2 public property discovery, sample campaigns, AI Studio, WhatsApp in
 ## Phase 5 backend direction
 
 Next.js remains the frontend. A future custom Frappe application owns database, authentication/role permissions, Python business methods and background jobs. Earlier NestJS proposals are superseded. This repository remains a browser-local prototype: no Frappe/backend/live integrations are implemented. See [Frappe blueprint](docs/22-frappe-backend-blueprint.md) and [Phase 5 report](docs/21-phase5-organization-admin.md).
+
+## Phase 6 prototype acceptance candidate
+
+Use the **Demo organization** selector in any workspace to switch independent fictional properties, connector setup, jobs, CRM, campaigns and assignment settings. New organizations start empty; Pearl Gate retains its original canonical IDs. Simulated roles and editable local storage provide no authentication or secure tenant isolation. Never enter personal data or credentials.
+
+See [final audit](docs/23-final-prototype-audit.md), [acceptance matrix](docs/24-prototype-acceptance-matrix.md), [Frappe handoff](docs/25-frappe-integration-readiness.md) and [OpenSpec 0010](openspec/changes/0010-final-prototype-acceptance/proposal.md). Exact commands, limitations and screenshot evidence live in `artifacts/phase6/`. Final independent review and Arabic native-speaker signoff remain explicit prerequisites; no production or independent quality approval is implied.

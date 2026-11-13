@@ -1,0 +1,38 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test final-acceptance.spec.ts
+
+[WebServer] (node:57438) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:57453) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 20 tests using 2 workers
+
+(node:57470) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:57471) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/e2e/final-acceptance.spec.ts:14:1 › final acceptance: independent organization command slices, guards and linked records (1.7s)
+  ✓   2 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:14:1 › final acceptance: independent organization command slices, guards and linked records (1.7s)
+  ✓   3 [chromium] › tests/e2e/final-acceptance.spec.ts:28:33 › final acceptance en: organization switching, reload and unknown-record recovery (2.6s)
+  ✓   4 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:28:33 › final acceptance en: organization switching, reload and unknown-record recovery (2.5s)
+  ✓   6 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:28:33 › final acceptance ar: organization switching, reload and unknown-record recovery (2.5s)
+  ✓   7 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:35:1 › final acceptance: scoped repository rejects stale organization and revision envelopes (204ms)
+  ✓   5 [chromium] › tests/e2e/final-acceptance.spec.ts:28:33 › final acceptance ar: organization switching, reload and unknown-record recovery (2.9s)
+  ✓   9 [chromium] › tests/e2e/final-acceptance.spec.ts:35:1 › final acceptance: scoped repository rejects stale organization and revision envelopes (182ms)
+  ✓   8 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:41:1 › final acceptance: Arabic controls and validation are translated while source inputs stay original (930ms)
+  ✓  10 [chromium] › tests/e2e/final-acceptance.spec.ts:41:1 › final acceptance: Arabic controls and validation are translated while source inputs stay original (1.2s)
+  ✓  11 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:45:33 › final acceptance en: property pack and branded preview use selected canonical records (2.1s)
+  ✓  12 [chromium] › tests/e2e/final-acceptance.spec.ts:45:33 › final acceptance en: property pack and branded preview use selected canonical records (1.8s)
+  ✓  13 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:45:33 › final acceptance ar: property pack and branded preview use selected canonical records (2.1s)
+  -  15 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:53:1 › final acceptance: native media drag reorder persists with keyboard alternatives
+  ✓  16 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:57:1 › final acceptance: administrator membership edits update the correct inactive routing pool (161ms)
+  ✓  17 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:62:1 › final acceptance: domain guards reject foreign records even in a malformed host slice (152ms)
+  ✓  14 [chromium] › tests/e2e/final-acceptance.spec.ts:45:33 › final acceptance ar: property pack and branded preview use selected canonical records (2.3s)
+  ✓  18 [chromium] › tests/e2e/final-acceptance.spec.ts:53:1 › final acceptance: native media drag reorder persists with keyboard alternatives (973ms)
+  ✓  19 [chromium] › tests/e2e/final-acceptance.spec.ts:57:1 › final acceptance: administrator membership edits update the correct inactive routing pool (141ms)
+  ✓  20 [chromium] › tests/e2e/final-acceptance.spec.ts:62:1 › final acceptance: domain guards reject foreign records even in a malformed host slice (134ms)
+
+  1 skipped
+  19 passed (17.0s)

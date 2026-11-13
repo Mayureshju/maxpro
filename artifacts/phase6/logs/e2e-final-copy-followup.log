@@ -1,0 +1,64 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test final-acceptance.spec.ts final-copy.spec.ts lead-crm.spec.ts --grep 'final acceptance|final copy|CRM ar:|CRM accessibility ar|CRM browser: advanced'
+
+[WebServer] (node:79132) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:79147) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 38 tests using 4 workers
+
+(node:79174) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:79175) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:79176) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:79177) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   4 [chromium] › tests/e2e/final-acceptance.spec.ts:14:1 › final acceptance: independent organization command slices, guards and linked records (2.2s)
+  ✓   3 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:14:1 › final acceptance: independent organization command slices, guards and linked records (2.3s)
+  ✓   1 [chromium] › tests/e2e/final-copy.spec.ts:4:33 › final copy en: UI source labels translate and original enquiry messages stay intact (4.3s)
+  ✓   2 [chromium] › tests/e2e/lead-crm.spec.ts:354:3 › CRM ar: intake replay, invalid event, filters and keyboard pipeline work (4.7s)
+  ✓   6 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:28:33 › final acceptance en: organization switching, reload and unknown-record recovery (3.6s)
+  ✓   5 [chromium] › tests/e2e/final-acceptance.spec.ts:28:33 › final acceptance en: organization switching, reload and unknown-record recovery (4.5s)
+  ✓   7 [chromium] › tests/e2e/final-copy.spec.ts:4:33 › final copy ar: UI source labels translate and original enquiry messages stay intact (2.7s)
+(node:79363) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   9 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:28:33 › final acceptance ar: organization switching, reload and unknown-record recovery (2.4s)
+  ✓  12 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:35:1 › final acceptance: scoped repository rejects stale organization and revision envelopes (270ms)
+  ✓   8 [chromium] › tests/e2e/lead-crm.spec.ts:396:3 › CRM ar: stage, conversation, handover, viewing cancellation and analytics persist (4.5s)
+  ✓  13 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:41:1 › final acceptance: Arabic controls and validation are translated while source inputs stay original (1.0s)
+  ✓  10 [chromium] › tests/e2e/final-acceptance.spec.ts:28:33 › final acceptance ar: organization switching, reload and unknown-record recovery (3.1s)
+  ✓  16 [chromium] › tests/e2e/final-acceptance.spec.ts:35:1 › final acceptance: scoped repository rejects stale organization and revision envelopes (276ms)
+  ✓  14 [chromium] › tests/e2e/lead-crm.spec.ts:655:1 › CRM browser: advanced filters, qualification, reply preference and empty states use the same lead (2.0s)
+  ✓  17 [chromium] › tests/e2e/final-acceptance.spec.ts:41:1 › final acceptance: Arabic controls and validation are translated while source inputs stay original (1.3s)
+  ✓  15 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:45:33 › final acceptance en: property pack and branded preview use selected canonical records (2.6s)
+  ✓  11 [mobile-chromium] › tests/e2e/final-copy.spec.ts:4:33 › final copy en: UI source labels translate and original enquiry messages stay intact (4.8s)
+  ✓  19 [chromium] › tests/e2e/final-acceptance.spec.ts:45:33 › final acceptance en: property pack and branded preview use selected canonical records (2.8s)
+  ✓  18 [chromium] › tests/e2e/lead-crm.spec.ts:699:3 › CRM accessibility ar: WCAG A/AA axe checks on touched main content (3.0s)
+  ✓  21 [mobile-chromium] › tests/e2e/final-copy.spec.ts:4:33 › final copy ar: UI source labels translate and original enquiry messages stay intact (1.7s)
+(node:79481) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  20 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:45:33 › final acceptance ar: property pack and branded preview use selected canonical records (3.3s)
+  -  24 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:53:1 › final acceptance: native media drag reorder persists with keyboard alternatives
+  ✓  25 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:57:1 › final acceptance: administrator membership edits update the correct inactive routing pool (167ms)
+  ✓  26 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:62:1 › final acceptance: domain guards reject foreign records even in a malformed host slice (150ms)
+  ✓  27 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:67:50 › final acceptance: new landlord receives enquiries directly without team management (157ms)
+  ✓  28 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:67:50 › final acceptance: new broker receives enquiries directly without team management (160ms)
+  ✓  22 [chromium] › tests/e2e/final-acceptance.spec.ts:45:33 › final acceptance ar: property pack and branded preview use selected canonical records (2.3s)
+  ✓  29 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:71:1 › final acceptance: source-message wording is not mistaken for a fictional actor label (159ms)
+  ✓  30 [chromium] › tests/e2e/final-acceptance.spec.ts:53:1 › final acceptance: native media drag reorder persists with keyboard alternatives (1.5s)
+  ✓  31 [chromium] › tests/e2e/final-acceptance.spec.ts:57:1 › final acceptance: administrator membership edits update the correct inactive routing pool (160ms)
+  ✓  32 [chromium] › tests/e2e/final-acceptance.spec.ts:62:1 › final acceptance: domain guards reject foreign records even in a malformed host slice (165ms)
+  ✓  33 [chromium] › tests/e2e/final-acceptance.spec.ts:67:50 › final acceptance: new landlord receives enquiries directly without team management (148ms)
+  ✓  23 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:354:3 › CRM ar: intake replay, invalid event, filters and keyboard pipeline work (3.5s)
+  ✓  34 [chromium] › tests/e2e/final-acceptance.spec.ts:67:50 › final acceptance: new broker receives enquiries directly without team management (148ms)
+  ✓  36 [chromium] › tests/e2e/final-acceptance.spec.ts:71:1 › final acceptance: source-message wording is not mistaken for a fictional actor label (162ms)
+  ✓  35 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:396:3 › CRM ar: stage, conversation, handover, viewing cancellation and analytics persist (2.8s)
+  ✓  37 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:655:1 › CRM browser: advanced filters, qualification, reply preference and empty states use the same lead (1.7s)
+  ✓  38 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:699:3 › CRM accessibility ar: WCAG A/AA axe checks on touched main content (2.8s)
+
+  1 skipped
+  37 passed (28.5s)

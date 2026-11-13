@@ -1,3 +1,4 @@
+import {localized} from './fixtures';
 import { resolve } from "node:path";
 import { mkdirSync, readdirSync, writeFileSync } from "node:fs";
 import type { Page } from "@playwright/test";
@@ -477,7 +478,7 @@ const stage = (page: Page, n: number) =>
   page.locator(".cm-steps button").nth(n).click();
 async function saveDraft(page: Page) {
   await page
-    .getByRole("button", { name: /^Save draft$|^حفظ المسودة$/ })
+    .getByRole("button", { name: localized(/^Save draft$|^حفظ المسودة$/) })
     .click();
 }
 async function noOverflow(page: Page) {
@@ -528,23 +529,23 @@ for (const locale of ["en", "ar"])
     });
     await page.goto(`/${locale}/workspace/campaigns/new?property=AQ-10233`);
     await page
-      .getByRole("button", { name: /Save & continue|حفظ ومتابعة/ })
+      .getByRole("button", { name: localized(/Save & continue|حفظ ومتابعة/) })
       .click();
     await expect(page).toHaveURL(/DEMO-CAMPAIGN-/);
     for (const kind of ["headline", "copy"]) {
       await page.getByLabel(/Suggestion type|نوع المقترح/).selectOption(kind);
       await page
         .getByRole("button", {
-          name: /Prepare simulated suggestion|إعداد مقترح محاكى/,
+          name: localized(/Prepare simulated suggestion|إعداد مقترح محاكى/),
         })
         .click();
       await page
-        .getByRole("button", { name: /Accept proposal|قبول المقترح/ })
+        .getByRole("button", { name: localized(/Accept proposal|قبول المقترح/) })
         .first()
         .click();
     }
     await stage(page, 2);
-    const creative = page.getByRole("checkbox", { name: /Sample hero photo/ });
+    const creative = page.getByRole("checkbox", { name: localized(/Sample hero photo/) });
     await creative.focus();
     await expect(creative).toBeFocused();
     await creative.press("Space");
@@ -564,7 +565,7 @@ for (const locale of ["en", "ar"])
     expect(c.input.copyEn).toContain("247");
     await page.goto(`/${locale}/workspace/hub/connectors/meta-catalog`);
     await page.getByRole("checkbox").check();
-    await page.getByRole("button", { name: "Prepare demo connector" }).click();
+    await page.getByRole("button", { name: localized("Prepare demo connector") }).click();
     await page.goto(`/${locale}/workspace/campaigns/${c.id}`);
     await approveUI(page);
     await page
@@ -574,7 +575,7 @@ for (const locale of ["en", "ar"])
       .check();
     await page
       .getByRole("button", {
-        name: /Record \/ replay fictional enquiry|تسجيل \/ إعادة الاستفسار الخيالي/,
+        name: localized(/Record \/ replay fictional enquiry|تسجيل \/ إعادة الاستفسار الخيالي/),
       })
       .click();
     expect(
@@ -588,12 +589,12 @@ for (const locale of ["en", "ar"]) {
     page,
   }) => {
     await page.goto(`/${locale}/workspace/inventory/AQ-10233`);
-    await page.getByRole("link", { name: /Plan campaign|تخطيط حملة/ }).click();
+    await page.getByRole("link", { name: localized(/Plan campaign|تخطيط حملة/) }).click();
     await expect(
       page.getByLabel(/Canonical property|العقار الأساسي/),
     ).toHaveValue("AQ-10233");
     await page
-      .getByRole("button", { name: /Create campaign draft|إنشاء مسودة حملة/ })
+      .getByRole("button", { name: localized(/Create campaign draft|إنشاء مسودة حملة/) })
       .click();
     await expect(page).toHaveURL(/workspace\/campaigns\/DEMO-CAMPAIGN-/);
     const id = (await saved(page)).campaigns[0].id;
@@ -612,14 +613,14 @@ for (const locale of ["en", "ar"]) {
     ).toHaveValue("Canonical headline");
     await page
       .getByRole("button", {
-        name: /Prepare simulated suggestion|إعداد مقترح محاكى/,
+        name: localized(/Prepare simulated suggestion|إعداد مقترح محاكى/),
       })
       .click();
     await expect(
       page.getByLabel(/Editable English proposal|مقترح إنجليزي قابل للتعديل/),
-    ).toContainText("247");
+    ).toContainText(localized("247"));
     await page
-      .getByRole("button", { name: /Accept proposal|قبول المقترح/ })
+      .getByRole("button", { name: localized(/Accept proposal|قبول المقترح/) })
       .click();
     await page.waitForLoadState();
     await expect(page.locator(".cm-steps")).toBeVisible();
@@ -649,7 +650,7 @@ for (const locale of ["en", "ar"]) {
       )
       .check();
     const record = page.getByRole("button", {
-      name: /Record \/ replay fictional enquiry|تسجيل \/ إعادة الاستفسار الخيالي/,
+      name: localized(/Record \/ replay fictional enquiry|تسجيل \/ إعادة الاستفسار الخيالي/),
     });
     await record.click();
     await record.click();
@@ -658,7 +659,7 @@ for (const locale of ["en", "ar"]) {
     expect(state.crm.receipts.at(-1)?.status).toBe("duplicate");
     await page
       .getByRole("link", {
-        name: /Inspect canonical lead|فحص سجل العميل الأساسي/,
+        name: localized(/Inspect canonical lead|فحص سجل العميل الأساسي/),
       })
       .click();
     await expect(page.locator("main")).toContainText(c.id);
@@ -669,15 +670,15 @@ for (const locale of ["en", "ar"]) {
       .getByLabel(/Fictional media cost QAR|تكلفة الوسائط الخيالية/)
       .fill("90");
     await page
-      .getByRole("button", { name: /Record fictional cost|تسجيل تكلفة خيالية/ })
+      .getByRole("button", { name: localized(/Record fictional cost|تسجيل تكلفة خيالية/) })
       .click();
     await page
       .getByRole("link", {
-        name: /Campaign analytics & linked leads|تحليلات الحملة والعملاء المرتبطون/,
+        name: localized(/Campaign analytics & linked leads|تحليلات الحملة والعملاء المرتبطون/),
       })
       .click();
     await expect(page.locator(".cm-report-table tbody")).toContainText(
-      "QAR 90",
+      localized("QAR 90"),
     );
     await expect(page.locator(".cm-report-table tbody tr")).toHaveCount(1);
     await noOverflow(page);
@@ -694,21 +695,21 @@ for (const locale of ["en", "ar"]) {
     expect(record.status).toBe("draft");
     expect(record.advertiser).toBeNull();
     await page
-      .getByRole("button", { name: /Cancel campaign|إلغاء الحملة/ })
+      .getByRole("button", { name: localized(/Cancel campaign|إلغاء الحملة/) })
       .click();
     await page
       .getByRole("button", {
-        name: /Resume as new revision|متابعة كنسخة جديدة/,
+        name: localized(/Resume as new revision|متابعة كنسخة جديدة/),
       })
       .click();
-    await page.getByRole("button", { name: /Duplicate|نسخ/ }).click();
+    await page.getByRole("button", { name: localized(/Duplicate|نسخ/) }).click();
     await expect(page).not.toHaveURL(new RegExp(c.id));
     expect((await saved(page)).campaigns).toHaveLength(2);
     await page.goto(`/${locale}/workspace/inventory/AQ-10233/edit`);
-    await page.getByLabel("Title — English").fill("Revised canonical title");
+    await page.getByLabel(localized("Title — English")).fill("Revised canonical title");
     await page
       .getByRole("button", {
-        name: /Save browser-local draft|حفظ المسودة محلياً/,
+        name: localized(/Save browser-local draft|حفظ المسودة محلياً/),
       })
       .click();
     record = (await saved(page)).campaigns.find((x) => x.id === c.id)!;
@@ -740,17 +741,17 @@ for (const locale of ["en", "ar"]) {
     await expect(page.locator(".cm-table")).toContainText(valid.id.slice(-8));
     await page.goto(`/${locale}/workspace/campaigns/new?property=AQ-10256`);
     await page
-      .getByRole("button", { name: /Create campaign draft|إنشاء مسودة حملة/ })
+      .getByRole("button", { name: localized(/Create campaign draft|إنشاء مسودة حملة/) })
       .click();
     await stage(page, 3);
-    await expect(page.locator(".cm-policy-readout")).toContainText("licensing");
+    await expect(page.locator(".cm-policy-readout")).toContainText(localized("licensing"));
     await page
       .getByRole("button", {
-        name: /Prepare simulated suggestion|إعداد مقترح محاكى/,
+        name: localized(/Prepare simulated suggestion|إعداد مقترح محاكى/),
       })
       .click();
     await expect(page.locator("main [role=alert]")).toContainText(
-      "Review complete",
+      localized("Review complete"),
     );
   });
   test(`campaign ${locale}: provider catalogue, Google plan and consent-aware event preview`, async ({
@@ -765,7 +766,7 @@ for (const locale of ["en", "ar"]) {
     );
     await expect(
       page.getByRole("button", {
-        name: /Preview event payload|معاينة بيانات الحدث/,
+        name: localized(/Preview event payload|معاينة بيانات الحدث/),
       }),
     ).toBeDisabled();
     await page
@@ -775,10 +776,10 @@ for (const locale of ["en", "ar"]) {
       .check();
     await page
       .getByRole("button", {
-        name: /Preview event payload|معاينة بيانات الحدث/,
+        name: localized(/Preview event payload|معاينة بيانات الحدث/),
       })
       .click();
-    await expect(page.locator(".gm-code")).toContainText("remote_sent");
+    await expect(page.locator(".gm-code")).toContainText(localized("remote_sent"));
     await page
       .getByLabel(
         /Fictional consent for this event|موافقة خيالية لمعاينة الحدث/,
@@ -788,7 +789,7 @@ for (const locale of ["en", "ar"]) {
     await page.goto(`/${locale}/workspace/integrations/google-ads`);
     await page
       .getByRole("link", {
-        name: /Plan a campaign for this property|تخطيط حملة لهذا العقار/,
+        name: localized(/Plan a campaign for this property|تخطيط حملة لهذا العقار/),
       })
       .click();
     await expect(
@@ -804,7 +805,7 @@ for (const locale of ["en", "ar"]) {
       test.setTimeout(90000);
       await page.setViewportSize({ width, height: 1000 });
       const c = await prepareReady(page, locale);
-      const path = resolve("../../artifacts/phase4/screenshots");
+      const path = resolve("../../artifacts/phase6/regression/phase4/screenshots");
       mkdirSync(path, { recursive: true });
       for (const [name, n] of [
         ["builder", 0],
@@ -817,7 +818,7 @@ for (const locale of ["en", "ar"]) {
         if (name === "copy") {
           await page
             .getByRole("button", {
-              name: /Prepare simulated suggestion|إعداد مقترح محاكى/,
+              name: localized(/Prepare simulated suggestion|إعداد مقترح محاكى/),
             })
             .click();
           await page.locator(".cm-proposal-sources summary").click();
@@ -834,7 +835,7 @@ for (const locale of ["en", "ar"]) {
         });
         if (name === "copy")
           await page
-            .getByRole("button", { name: /Reject proposal|رفض المقترح/ })
+            .getByRole("button", { name: localized(/Reject proposal|رفض المقترح/) })
             .click();
       }
       await approveUI(page);
@@ -845,7 +846,7 @@ for (const locale of ["en", "ar"]) {
         .check();
       await page
         .getByRole("button", {
-          name: /Record \/ replay fictional enquiry|تسجيل \/ إعادة الاستفسار الخيالي/,
+          name: localized(/Record \/ replay fictional enquiry|تسجيل \/ إعادة الاستفسار الخيالي/),
         })
         .click();
       await noOverflow(page);
@@ -900,13 +901,13 @@ for (const locale of ["en", "ar"]) {
     await stage(page, 1);
     await page
       .getByRole("button", {
-        name: /Prepare simulated suggestion|إعداد مقترح محاكى/,
+        name: localized(/Prepare simulated suggestion|إعداد مقترح محاكى/),
       })
       .click();
     await page.locator(".cm-proposal-sources summary").click();
     await check("editable-suggestion");
     await page
-      .getByRole("button", { name: /Reject proposal|رفض المقترح/ })
+      .getByRole("button", { name: localized(/Reject proposal|رفض المقترح/) })
       .click();
     await approveUI(page);
     await page
@@ -916,7 +917,7 @@ for (const locale of ["en", "ar"]) {
       .check();
     await page
       .getByRole("button", {
-        name: /Record \/ replay fictional enquiry|تسجيل \/ إعادة الاستفسار الخيالي/,
+        name: localized(/Record \/ replay fictional enquiry|تسجيل \/ إعادة الاستفسار الخيالي/),
       })
       .click();
     await check("simulation");
@@ -930,10 +931,10 @@ for (const locale of ["en", "ar"]) {
       await expect(page.locator("h1")).toBeVisible();
       await check(route);
     }
-    mkdirSync(resolve("../../artifacts/phase4/logs"), { recursive: true });
+    mkdirSync(resolve("../../artifacts/phase6/regression/phase4/logs"), { recursive: true });
     writeFileSync(
       resolve(
-        `../../artifacts/phase4/logs/axe-${info.project.name}-${locale}.json`,
+        `../../artifacts/phase6/regression/phase4/logs/axe-${info.project.name}-${locale}.json`,
       ),
       JSON.stringify(reports, null, 2),
     );

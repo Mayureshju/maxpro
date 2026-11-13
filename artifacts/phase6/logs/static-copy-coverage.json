@@ -1,0 +1,3380 @@
+[
+  {
+    "filename": "apps/web/src/components/gemini/agency-operations.tsx",
+    "entries": [
+      {
+        "text": "TODAY / DISTRIBUTION",
+        "translated": true
+      },
+      {
+        "text": "One listing.",
+        "translated": true
+      },
+      {
+        "text": "Many destinations.",
+        "translated": true
+      },
+      {
+        "text": "Build from one verified master record; send approved versions to authorized external channels. The demo has no partner API connection.",
+        "translated": true
+      },
+      {
+        "text": "Open publishing workbench",
+        "translated": true
+      },
+      {
+        "text": "Explore connectors",
+        "translated": true
+      },
+      {
+        "text": "NEEDS ACTION",
+        "translated": true
+      },
+      {
+        "text": "destination setups need review",
+        "translated": true
+      },
+      {
+        "text": "Business agreement and API access must be checked",
+        "translated": true
+      },
+      {
+        "text": "local dispatch attempts blocked",
+        "translated": true
+      },
+      {
+        "text": "Inspect per-destination readiness and missing facts",
+        "translated": true
+      },
+      {
+        "text": "local leads in New stage",
+        "translated": true
+      },
+      {
+        "text": "Review ownership and assignment routing",
+        "translated": true
+      },
+      {
+        "text": "Canonical records in demo",
+        "translated": true
+      },
+      {
+        "text": "Individual property IDs",
+        "translated": true
+      },
+      {
+        "text": "Prepared demo connectors",
+        "translated": true
+      },
+      {
+        "text": "0 actually connected",
+        "translated": true
+      },
+      {
+        "text": "Publishing simulation jobs",
+        "translated": true
+      },
+      {
+        "text": "blocked",
+        "translated": true
+      },
+      {
+        "text": "Local leads",
+        "translated": true
+      },
+      {
+        "text": "sources represented",
+        "translated": true
+      },
+      {
+        "text": "Your distribution map",
+        "translated": true
+      },
+      {
+        "text": "Integration categories, setup progress and real-world approval dependencies.",
+        "translated": true
+      },
+      {
+        "text": "View all",
+        "translated": true
+      },
+      {
+        "text": "Lead intake and ownership",
+        "translated": true
+      },
+      {
+        "text": "Every incoming enquiry should preserve its original channel and property link.",
+        "translated": true
+      },
+      {
+        "text": "Routing rules",
+        "translated": true
+      },
+      {
+        "text": "The dashboard is an operating-system prototype, not a public listing marketplace. No metrics, accounts or publishing outcomes are connected to external services.",
+        "translated": true
+      }
+    ]
+  },
+  {
+    "filename": "apps/web/src/components/gemini/campaign-marketing.tsx",
+    "entries": [
+      {
+        "text": "Meta Lead Ads",
+        "translated": true
+      },
+      {
+        "text": "Website",
+        "translated": true
+      }
+    ]
+  },
+  {
+    "filename": "apps/web/src/components/gemini/campaign-studio.tsx",
+    "entries": [
+      {
+        "text": "Meta",
+        "translated": true
+      },
+      {
+        "text": "Google Ads",
+        "translated": true
+      },
+      {
+        "text": "Meta",
+        "translated": true
+      },
+      {
+        "text": "Google Ads / PMax (",
+        "translated": true
+      }
+    ]
+  },
+  {
+    "filename": "apps/web/src/components/gemini/connectors.tsx",
+    "entries": [
+      {
+        "text": "Open publish workflow",
+        "translated": true
+      },
+      {
+        "text": "Integration directory",
+        "translated": true
+      },
+      {
+        "text": "Portal, advertising, analytics, communication and AI adapters grouped by purpose.",
+        "translated": true
+      },
+      {
+        "text": "Search connectors",
+        "translated": true
+      },
+      {
+        "text": "Find a provider or capability",
+        "translated": true
+      },
+      {
+        "text": "Connector category",
+        "translated": true
+      },
+      {
+        "text": "No integration matches the filters.",
+        "translated": true
+      },
+      {
+        "text": "Listing each provider does not imply an available API. Partner permissions and permitted transport mechanisms must be verified for the actual market and account.",
+        "translated": true
+      },
+      {
+        "text": "Unknown connector",
+        "translated": true
+      },
+      {
+        "text": "This connector is not part of the Gemini catalogue.",
+        "translated": true
+      },
+      {
+        "text": "Return to connectors",
+        "translated": true
+      },
+      {
+        "text": "Connector sections",
+        "translated": true
+      },
+      {
+        "text": "Structured internal demo capabilities; proposed integration mechanism requires partner confirmation.",
+        "translated": true
+      },
+      {
+        "text": "Target region",
+        "translated": true
+      },
+      {
+        "text": "Demo eligibility",
+        "translated": true
+      },
+      {
+        "text": "Illustrative operations",
+        "translated": true
+      },
+      {
+        "text": "Output formats",
+        "translated": true
+      },
+      {
+        "text": "Entitlement",
+        "translated": true
+      },
+      {
+        "text": "Connection preparation",
+        "translated": true
+      },
+      {
+        "text": "Requires real-world verification",
+        "translated": true
+      },
+      {
+        "text": "Remove local demo setup",
+        "translated": true
+      },
+      {
+        "text": "Prepare demo connector",
+        "translated": true
+      },
+      {
+        "text": "Connector field mappings",
+        "translated": true
+      },
+      {
+        "text": "Normalized source",
+        "translated": true
+      },
+      {
+        "text": "Example output key",
+        "translated": true
+      },
+      {
+        "text": "Required",
+        "translated": true
+      },
+      {
+        "text": "This planning connector has no property export mapping. Review its account and consent requirements before implementation.",
+        "translated": true
+      },
+      {
+        "text": "No feed export is implemented for this connector.",
+        "translated": true
+      },
+      {
+        "text": "Feed endpoint: not provisioned · Credentials: none · Schedule: manual local preview only.",
+        "translated": true
+      },
+      {
+        "text": "Inspect destination jobs",
+        "translated": true
+      },
+      {
+        "text": "No local publishing attempts for this destination yet.",
+        "translated": true
+      },
+      {
+        "text": "No network request or partner acknowledgment has occurred.",
+        "translated": true
+      },
+      {
+        "text": "Configuration:",
+        "translated": true
+      },
+      {
+        "text": ". Eligibility:",
+        "translated": true
+      },
+      {
+        "text": ". Contractual authorization: unverified. Remote connectivity: none.",
+        "translated": true
+      },
+      {
+        "text": "Organization diagnostics",
+        "translated": true
+      },
+      {
+        "text": "ACCESS MODEL",
+        "translated": true
+      },
+      {
+        "text": "Partner-authorized only.",
+        "translated": true
+      },
+      {
+        "text": "Setup",
+        "translated": true
+      },
+      {
+        "text": "Agreement",
+        "translated": true
+      },
+      {
+        "text": "Unverified",
+        "translated": true
+      },
+      {
+        "text": "Remote connection",
+        "translated": true
+      },
+      {
+        "text": "None",
+        "translated": true
+      },
+      {
+        "text": "Mapping",
+        "translated": true
+      },
+      {
+        "text": "Plan examples QAR 179 / 725 / 1,800+: illustrative pending approval.",
+        "translated": true
+      },
+      {
+        "text": "Production control",
+        "translated": true
+      },
+      {
+        "text": "Actual country eligibility, authorized transport, official schemas and server-side credentials are prerequisites for a real adapter.",
+        "translated": true
+      }
+    ]
+  },
+  {
+    "filename": "apps/web/src/components/gemini/distribution.tsx",
+    "entries": [
+      {
+        "text": "DISTRIBUTION / SOURCE-TO-DESTINATION",
+        "translated": true
+      },
+      {
+        "text": "Distribution operations",
+        "translated": true
+      },
+      {
+        "text": "The master inventory remains authoritative. Every destination has a separate configuration, publication attempt and outcome.",
+        "translated": true
+      },
+      {
+        "text": "New publication",
+        "translated": true
+      },
+      {
+        "text": "Available portal concepts",
+        "translated": true
+      },
+      {
+        "text": "Partner access unverified",
+        "translated": true
+      },
+      {
+        "text": "Demo configurations",
+        "translated": true
+      },
+      {
+        "text": "No remote connection",
+        "translated": true
+      },
+      {
+        "text": "Local publication jobs",
+        "translated": true
+      },
+      {
+        "text": "Browser only",
+        "translated": true
+      },
+      {
+        "text": "Blocked local jobs",
+        "translated": true
+      },
+      {
+        "text": "Missing check or setup",
+        "translated": true
+      },
+      {
+        "text": "Destination readiness",
+        "translated": true
+      },
+      {
+        "text": "Configuration and permission are independent from technical capability.",
+        "translated": true
+      },
+      {
+        "text": "Directory",
+        "translated": true
+      },
+      {
+        "text": "Publication pipeline",
+        "translated": true
+      },
+      {
+        "text": "No browser-local event implies live remote publication.",
+        "translated": true
+      },
+      {
+        "text": "Feed previews",
+        "translated": true
+      },
+      {
+        "text": "Field mapping concepts",
+        "translated": true
+      },
+      {
+        "text": "Publishing history",
+        "translated": true
+      },
+      {
+        "text": "Partner agreements and country eligibility are prerequisites; no portal scraping or unsupported bridge will be developed.",
+        "translated": true
+      },
+      {
+        "text": "One master record can have independent destination outcomes, validation errors and update histories.",
+        "translated": true
+      },
+      {
+        "text": "Current local ledger",
+        "translated": true
+      },
+      {
+        "text": "No external partner accepted a listing from this prototype.",
+        "translated": true
+      },
+      {
+        "text": "Destination table; scroll horizontally for more detail",
+        "translated": true
+      },
+      {
+        "text": "Destination",
+        "translated": true
+      },
+      {
+        "text": "State",
+        "translated": true
+      },
+      {
+        "text": "Revision / mapping",
+        "translated": true
+      },
+      {
+        "text": "Missing data",
+        "translated": true
+      },
+      {
+        "text": "Recorded",
+        "translated": true
+      },
+      {
+        "text": "Revision changed / revalidation required",
+        "translated": true
+      },
+      {
+        "text": "No local publication attempts for",
+        "translated": true
+      },
+      {
+        "text": "Choose the listing in the publication workbench to inspect readiness and simulate a submission.",
+        "translated": true
+      },
+      {
+        "text": "Inspect attempts and recovery",
+        "translated": true
+      },
+      {
+        "text": "A published state is awarded only after a verified partner acknowledgment in the future production system. Local queued jobs cannot become live listings.",
+        "translated": true
+      }
+    ]
+  },
+  {
+    "filename": "apps/web/src/components/gemini/feed-preview.tsx",
+    "entries": [
+      {
+        "text": "Canonical revision",
+        "translated": true
+      },
+      {
+        "text": "Mapped property fields",
+        "translated": true
+      },
+      {
+        "text": "Normalized field",
+        "translated": true
+      },
+      {
+        "text": "Illustrative destination key",
+        "translated": true
+      },
+      {
+        "text": "Saved value",
+        "translated": true
+      },
+      {
+        "text": "Requirement",
+        "translated": true
+      },
+      {
+        "text": "Validation and recovery ·",
+        "translated": true
+      },
+      {
+        "text": "open checks",
+        "translated": true
+      },
+      {
+        "text": "Correct the canonical facts, review bilingual copy and available media, then regenerate. These checks are internal examples.",
+        "translated": true
+      },
+      {
+        "text": "CONNECTOR HUB / FEEDS",
+        "translated": true
+      },
+      {
+        "text": "Canonical property → normalized export → illustrative mapping → validation → preview",
+        "translated": true
+      },
+      {
+        "text": "Canonical property",
+        "translated": true
+      },
+      {
+        "text": "Destination",
+        "translated": true
+      },
+      {
+        "text": "Preview format",
+        "translated": true
+      },
+      {
+        "text": "· illustrative example",
+        "translated": true
+      },
+      {
+        "text": "Copy sample",
+        "translated": true
+      },
+      {
+        "text": "Generated example payload",
+        "translated": true
+      },
+      {
+        "text": "Saved values, required fields and versioned internal output keys.",
+        "translated": true
+      },
+      {
+        "text": "CURRENT SAVED RECORD",
+        "translated": true
+      },
+      {
+        "text": "Revision",
+        "translated": true
+      },
+      {
+        "text": "Mapping",
+        "translated": true
+      },
+      {
+        "text": "Local setup",
+        "translated": true
+      },
+      {
+        "text": "Partner schema",
+        "translated": true
+      },
+      {
+        "text": "Unverified",
+        "translated": true
+      },
+      {
+        "text": "Feed URL / token",
+        "translated": true
+      },
+      {
+        "text": "Not provisioned",
+        "translated": true
+      },
+      {
+        "text": "Remote transmissions",
+        "translated": true
+      },
+      {
+        "text": "Destination requirements",
+        "translated": true
+      },
+      {
+        "text": "Invalid drafts can be exported for inspection; downloading never grants publishing approval. XML replaces forbidden control characters; CSV quotes values and neutralizes spreadsheet formulas.",
+        "translated": true
+      }
+    ]
+  },
+  {
+    "filename": "apps/web/src/components/gemini/lead-analytics.tsx",
+    "entries": [
+      {
+        "text": "· QAR",
+        "translated": true
+      }
+    ]
+  },
+  {
+    "filename": "apps/web/src/components/gemini/lead-workspace.tsx",
+    "entries": [
+      {
+        "text": "UTC",
+        "translated": true
+      },
+      {
+        "text": "CRM",
+        "translated": true
+      }
+    ]
+  },
+  {
+    "filename": "apps/web/src/components/gemini/listing-editor.tsx",
+    "entries": [
+      {
+        "text": "Back to property",
+        "translated": true
+      },
+      {
+        "text": "One structured record of property facts, compliance and bilingual description. Drafts are stored only in this browser.",
+        "translated": true
+      },
+      {
+        "text": "Title and descriptions must be reviewed in both languages.",
+        "translated": true
+      },
+      {
+        "text": "Title — English",
+        "translated": true
+      },
+      {
+        "text": "Description — English",
+        "translated": true
+      },
+      {
+        "text": "Structured source facts, not prose-only listing data.",
+        "translated": true
+      },
+      {
+        "text": "Purpose",
+        "translated": true
+      },
+      {
+        "text": "Rent",
+        "translated": true
+      },
+      {
+        "text": "Sale",
+        "translated": true
+      },
+      {
+        "text": "Property type",
+        "translated": true
+      },
+      {
+        "text": "Price (QAR)",
+        "translated": true
+      },
+      {
+        "text": "Area (m²)",
+        "translated": true
+      },
+      {
+        "text": "Bedrooms",
+        "translated": true
+      },
+      {
+        "text": "Bathrooms",
+        "translated": true
+      },
+      {
+        "text": "Deposit (QAR)",
+        "translated": true
+      },
+      {
+        "text": "Payment cheques",
+        "translated": true
+      },
+      {
+        "text": "Furnishing",
+        "translated": true
+      },
+      {
+        "text": "Rental frequency",
+        "translated": true
+      },
+      {
+        "text": "Monthly",
+        "translated": true
+      },
+      {
+        "text": "Yearly",
+        "translated": true
+      },
+      {
+        "text": "Actual country- and portal-specific rules need formal legal and partner verification.",
+        "translated": true
+      },
+      {
+        "text": "City",
+        "translated": true
+      },
+      {
+        "text": "District / zone",
+        "translated": true
+      },
+      {
+        "text": "Latitude",
+        "translated": true
+      },
+      {
+        "text": "Longitude",
+        "translated": true
+      },
+      {
+        "text": "Permit / license",
+        "translated": true
+      },
+      {
+        "text": "Advertiser / owner authorization has been reviewed (demo value only; no identity documents were verified).",
+        "translated": true
+      },
+      {
+        "text": "Source:",
+        "translated": true
+      },
+      {
+        "text": "· Revision",
+        "translated": true
+      },
+      {
+        "text": ". Any fact change requires a new human review.",
+        "translated": true
+      },
+      {
+        "text": "The record changed in another view, or contains an invalid value. Reload to review the current record before saving.",
+        "translated": true
+      },
+      {
+        "text": "Draft saved for local pre-flight checks.",
+        "translated": true
+      },
+      {
+        "text": "SAMPLE PRE-FLIGHT",
+        "translated": true
+      },
+      {
+        "text": "Checks reflect the current facts and media. Official partner requirements remain unverified.",
+        "translated": true
+      },
+      {
+        "text": "Example fields ready",
+        "translated": true
+      },
+      {
+        "text": "Draft stored",
+        "translated": true
+      },
+      {
+        "text": "Human review",
+        "translated": true
+      },
+      {
+        "text": "Field mapping review",
+        "translated": true
+      },
+      {
+        "text": "Review before distribution",
+        "translated": true
+      },
+      {
+        "text": "Save this revision, confirm its source facts and prepare each destination. Human approval never confirms a live portal listing.",
+        "translated": true
+      },
+      {
+        "text": "Saved facts are shared by inventory, Listing Studio, media and local publishing. This fictional browser demo has no real property database. Do not enter personal data.",
+        "translated": true
+      }
+    ]
+  },
+  {
+    "filename": "apps/web/src/components/gemini/measurement.tsx",
+    "entries": [
+      {
+        "text": "Provider setup",
+        "translated": true
+      },
+      {
+        "text": "Not connected",
+        "translated": true
+      },
+      {
+        "text": "Any example event below stays in this browser and never reaches",
+        "translated": true
+      },
+      {
+        "text": "Set up the intended flow before real provider integration and account approval.",
+        "translated": true
+      },
+      {
+        "text": "Consent recorded in this demo (no real user)",
+        "translated": true
+      },
+      {
+        "text": "Include server Measurement Protocol event draft",
+        "translated": true
+      },
+      {
+        "text": "Web tagging",
+        "translated": true
+      },
+      {
+        "text": "Collect only after appropriate consent",
+        "translated": true
+      },
+      {
+        "text": "Signed backend event with idempotency/correlation",
+        "translated": true
+      },
+      {
+        "text": "Preview event payload",
+        "translated": true
+      },
+      {
+        "text": "Provider-specific readiness",
+        "translated": true
+      },
+      {
+        "text": "These are planning prerequisites, not evidence of active access.",
+        "translated": true
+      },
+      {
+        "text": "Open",
+        "translated": true
+      },
+      {
+        "text": "INTEGRATION STATUS",
+        "translated": true
+      },
+      {
+        "text": "Awaiting credentials and approval",
+        "translated": true
+      },
+      {
+        "text": "API connection",
+        "translated": true
+      },
+      {
+        "text": "None",
+        "translated": true
+      },
+      {
+        "text": "Local demo prepared",
+        "translated": true
+      },
+      {
+        "text": "Events delivered",
+        "translated": true
+      },
+      {
+        "text": "Account verified",
+        "translated": true
+      },
+      {
+        "text": "No",
+        "translated": true
+      },
+      {
+        "text": "All providers",
+        "translated": true
+      },
+      {
+        "text": "Before production",
+        "translated": true
+      },
+      {
+        "text": "Housing special-ad-category rules and creative approval are enforced server-side before any campaign spending.",
+        "translated": true
+      },
+      {
+        "text": "GA4 Measurement Protocol supplements browser tagging; server secrets must never appear in client code.",
+        "translated": true
+      },
+      {
+        "text": "Use the official platform only. Capture opt-in with purpose and timestamp, and honor opt-out and human takeover.",
+        "translated": true
+      },
+      {
+        "text": "SUPER ADMIN / INTEGRATION OPS",
+        "translated": true
+      },
+      {
+        "text": "Connector diagnostics",
+        "translated": true
+      },
+      {
+        "text": "Organization-wide prototype observability with explicit statuses. All API traffic, limits and credentials are placeholders.",
+        "translated": true
+      },
+      {
+        "text": "Real integrations",
+        "translated": true
+      },
+      {
+        "text": "No external credentials",
+        "translated": true
+      },
+      {
+        "text": "Local connector preparations",
+        "translated": true
+      },
+      {
+        "text": "Browser-only simulation",
+        "translated": true
+      },
+      {
+        "text": "Demo jobs",
+        "translated": true
+      },
+      {
+        "text": "Not dispatched remotely",
+        "translated": true
+      },
+      {
+        "text": "Blocked jobs",
+        "translated": true
+      },
+      {
+        "text": "See missing checks",
+        "translated": true
+      },
+      {
+        "text": "Provider health table",
+        "translated": true
+      },
+      {
+        "text": "Live metrics require server-side telemetry, partner quotas and credential-specific controls.",
+        "translated": true
+      },
+      {
+        "text": "Search provider health",
+        "translated": true
+      },
+      {
+        "text": "Search provider",
+        "translated": true
+      },
+      {
+        "text": "Provider category",
+        "translated": true
+      },
+      {
+        "text": "Operational table; scroll for more columns",
+        "translated": true
+      },
+      {
+        "text": "Provider",
+        "translated": true
+      },
+      {
+        "text": "Category",
+        "translated": true
+      },
+      {
+        "text": "Local setup / eligibility",
+        "translated": true
+      },
+      {
+        "text": "Remote / agreement",
+        "translated": true
+      },
+      {
+        "text": "Mapping / rate limits",
+        "translated": true
+      },
+      {
+        "text": "Activity / diagnostics",
+        "translated": true
+      },
+      {
+        "text": "No connection",
+        "translated": true
+      },
+      {
+        "text": "Agreement unverified · no requests",
+        "translated": true
+      },
+      {
+        "text": "Rate limits unknown",
+        "translated": true
+      },
+      {
+        "text": "local jobs ·",
+        "translated": true
+      },
+      {
+        "text": "blocked",
+        "translated": true
+      },
+      {
+        "text": "Job activity",
+        "translated": true
+      },
+      {
+        "text": "Reset all local demo data",
+        "translated": true
+      },
+      {
+        "text": "Production requires per-tenant rate-limit dashboards, credential rotation, webhook signature checks, provider incidents, dead-letter queues and alert ownership. None are connected.",
+        "translated": true
+      }
+    ]
+  },
+  {
+    "filename": "apps/web/src/components/gemini/media.tsx",
+    "entries": [
+      {
+        "text": "INVENTORY / MEDIA STAGING",
+        "translated": true
+      },
+      {
+        "text": "Select local media files",
+        "translated": true
+      },
+      {
+        "text": "Show sample agency watermark",
+        "translated": true
+      },
+      {
+        "text": "Not uploaded or optimized",
+        "translated": true
+      },
+      {
+        "text": "Order",
+        "translated": true
+      }
+    ]
+  },
+  {
+    "filename": "apps/web/src/components/gemini/organization-workspace.tsx",
+    "entries": [
+      {
+        "text": "Demo organization",
+        "translated": true
+      },
+      {
+        "text": "Simulated persona",
+        "translated": true
+      },
+      {
+        "text": "Organization name",
+        "translated": true
+      },
+      {
+        "text": "Organization type",
+        "translated": true
+      },
+      {
+        "text": "Country",
+        "translated": true
+      },
+      {
+        "text": "English",
+        "translated": true
+      },
+      {
+        "text": "Public agency name",
+        "translated": true
+      },
+      {
+        "text": "Requested custom domain",
+        "translated": true
+      },
+      {
+        "text": "CNAME",
+        "translated": true
+      },
+      {
+        "text": "tenant-host.example.invalid",
+        "translated": false
+      },
+      {
+        "text": "Search members",
+        "translated": true
+      },
+      {
+        "text": "Fictional member alias",
+        "translated": true
+      },
+      {
+        "text": "QAR",
+        "translated": true
+      },
+      {
+        "text": "/ mo",
+        "translated": true
+      },
+      {
+        "text": "Preview plan",
+        "translated": true
+      },
+      {
+        "text": "· QAR",
+        "translated": true
+      },
+      {
+        "text": "QAR",
+        "translated": true
+      },
+      {
+        "text": "Search organizations",
+        "translated": true
+      },
+      {
+        "text": "Assigned plan",
+        "translated": true
+      },
+      {
+        "text": "Organization status",
+        "translated": true
+      },
+      {
+        "text": "Search review properties",
+        "translated": true
+      },
+      {
+        "text": "Review filter",
+        "translated": true
+      },
+      {
+        "text": "QAR",
+        "translated": true
+      },
+      {
+        "text": "Moderation decision",
+        "translated": true
+      },
+      {
+        "text": "Review notes",
+        "translated": true
+      },
+      {
+        "text": "Search audit history",
+        "translated": true
+      },
+      {
+        "text": "UTC",
+        "translated": true
+      },
+      {
+        "text": "QAR",
+        "translated": true
+      },
+      {
+        "text": "Configure plan",
+        "translated": true
+      }
+    ]
+  },
+  {
+    "filename": "apps/web/src/components/gemini/publishing-activity.tsx",
+    "entries": [
+      {
+        "text": "DISTRIBUTION / ACTIVITY LOG",
+        "translated": true
+      },
+      {
+        "text": "Local states only · no remote delivery or partner acceptance",
+        "translated": true
+      },
+      {
+        "text": "Search publishing activity",
+        "translated": true
+      },
+      {
+        "text": "Filter jobs by property",
+        "translated": true
+      },
+      {
+        "text": "Filter jobs by destination",
+        "translated": true
+      },
+      {
+        "text": "Filter jobs by status",
+        "translated": true
+      },
+      {
+        "text": "From (UTC)",
+        "translated": true
+      },
+      {
+        "text": "Jobs from date",
+        "translated": true
+      },
+      {
+        "text": "Through (UTC)",
+        "translated": true
+      },
+      {
+        "text": "Jobs through date",
+        "translated": true
+      },
+      {
+        "text": "Destination table; scroll horizontally for more detail",
+        "translated": true
+      },
+      {
+        "text": "Destination / inspect",
+        "translated": true
+      },
+      {
+        "text": "Recorded / current state",
+        "translated": true
+      },
+      {
+        "text": "Property",
+        "translated": true
+      },
+      {
+        "text": "Revision / mapping",
+        "translated": true
+      },
+      {
+        "text": "Required action",
+        "translated": true
+      },
+      {
+        "text": "Recorded",
+        "translated": true
+      },
+      {
+        "text": "Revision changed / revalidation required",
+        "translated": true
+      },
+      {
+        "text": "UTC",
+        "translated": true
+      },
+      {
+        "text": "Start a demo",
+        "translated": true
+      },
+      {
+        "text": "Local job inspector",
+        "translated": true
+      },
+      {
+        "text": "LOCAL JOB INSPECTOR",
+        "translated": true
+      },
+      {
+        "text": "Attempted / current revision",
+        "translated": true
+      },
+      {
+        "text": "Attempted mapping",
+        "translated": true
+      },
+      {
+        "text": "Current mapping",
+        "translated": true
+      },
+      {
+        "text": "Remote state",
+        "translated": true
+      },
+      {
+        "text": "Never sent · no external listing ID",
+        "translated": true
+      },
+      {
+        "text": "Recorded validation errors",
+        "translated": true
+      },
+      {
+        "text": "No example validation errors at last attempt.",
+        "translated": true
+      },
+      {
+        "text": "Correct canonical data",
+        "translated": true
+      },
+      {
+        "text": "Review setup",
+        "translated": true
+      },
+      {
+        "text": "Inspect current mapping",
+        "translated": true
+      },
+      {
+        "text": "LOCAL RECOVERY",
+        "translated": true
+      },
+      {
+        "text": "Retry runs the current example validation. Missing facts, setup and eligibility remain blockers.",
+        "translated": true
+      },
+      {
+        "text": "Revision or configuration changed. Approve current validation again.",
+        "translated": true
+      },
+      {
+        "text": "“Queued locally” is a browser record. Every retry rechecks the current property and illustrative quotas. No local state means partner acceptance or a live listing.",
+        "translated": true
+      }
+    ]
+  },
+  {
+    "filename": "apps/web/src/components/gemini/syndication.tsx",
+    "entries": [
+      {
+        "text": "Syndication workflow",
+        "translated": true
+      },
+      {
+        "text": "Only verified canonical facts should be copied into destination payloads.",
+        "translated": true
+      },
+      {
+        "text": "Published destinations are independent. A selected destination is not a live connection.",
+        "translated": true
+      },
+      {
+        "text": "Validation rules below are fictional UI rules; official partner schemas must replace them.",
+        "translated": true
+      },
+      {
+        "text": "· canonical facts and available media passed example checks",
+        "translated": true
+      },
+      {
+        "text": "Demo connector setup missing —",
+        "translated": true
+      },
+      {
+        "text": "open setup",
+        "translated": true
+      },
+      {
+        "text": "Individual destinations may be queued or blocked independently. Nothing is sent remotely.",
+        "translated": true
+      },
+      {
+        "text": "Local publication records are now visible in the publishing activity screen. These do not indicate an accepted, live listing.",
+        "translated": true
+      },
+      {
+        "text": "CANONICAL PROPERTY",
+        "translated": true
+      },
+      {
+        "text": "Price",
+        "translated": true
+      },
+      {
+        "text": "Revision",
+        "translated": true
+      },
+      {
+        "text": "Purpose",
+        "translated": true
+      },
+      {
+        "text": "Property type",
+        "translated": true
+      },
+      {
+        "text": "Permit",
+        "translated": true
+      },
+      {
+        "text": "Selected destinations",
+        "translated": true
+      },
+      {
+        "text": "Subscription",
+        "translated": true
+      },
+      {
+        "text": "View master record",
+        "translated": true
+      },
+      {
+        "text": "Plan examples: QAR 179 / 725 / 1,800+. Illustrative pending approval. Listing reservations:",
+        "translated": true
+      },
+      {
+        "text": ". Drafts do not consume publishing quota.",
+        "translated": true
+      },
+      {
+        "text": "Human-controlled publishing",
+        "translated": true
+      },
+      {
+        "text": "Review factual accuracy, licensing and partner permissions before production dispatch. Every destination gets its own immutable job history and acknowledgement status.",
+        "translated": true
+      }
+    ]
+  },
+  {
+    "filename": "apps/web/src/components/marketing/site-footer.tsx",
+    "entries": [
+      {
+        "text": "MaxPro home",
+        "translated": true
+      },
+      {
+        "text": "A considered property experience. Connected tools for Qatar's agencies and builders.",
+        "translated": true
+      },
+      {
+        "text": "Properties",
+        "translated": true
+      },
+      {
+        "text": "Platform",
+        "translated": true
+      },
+      {
+        "text": "Pricing",
+        "translated": true
+      },
+      {
+        "text": "About",
+        "translated": true
+      },
+      {
+        "text": "Contact",
+        "translated": true
+      },
+      {
+        "text": "FAQ",
+        "translated": true
+      },
+      {
+        "text": "Privacy",
+        "translated": true
+      },
+      {
+        "text": "Workspace",
+        "translated": true
+      },
+      {
+        "text": "© 2026 MaxPro. Concept identity and illustrative product data. Not production services.",
+        "translated": true
+      }
+    ]
+  },
+  {
+    "filename": "apps/web/src/components/marketing/site-header.tsx",
+    "entries": [
+      {
+        "text": "MaxPro — provisional identity",
+        "translated": true
+      },
+      {
+        "text": "MaxPro home",
+        "translated": true
+      },
+      {
+        "text": "Main navigation",
+        "translated": true
+      },
+      {
+        "text": "Mobile navigation",
+        "translated": true
+      },
+      {
+        "text": "Agency workspace",
+        "translated": true
+      }
+    ]
+  },
+  {
+    "filename": "apps/web/src/components/prototype/extended.tsx",
+    "entries": [
+      {
+        "text": "Back to properties",
+        "translated": true
+      },
+      {
+        "text": "DEMO ACCOUNT · SAVED RESEARCH",
+        "translated": true
+      },
+      {
+        "text": "DISCOVERY / PERSONAL WORKSPACE",
+        "translated": true
+      },
+      {
+        "text": "A demonstration of personal property research. Selections are local and no account, alert or map provider is connected.",
+        "translated": true
+      },
+      {
+        "text": "Favourites",
+        "translated": true
+      },
+      {
+        "text": "Compare",
+        "translated": true
+      },
+      {
+        "text": "Saved searches",
+        "translated": true
+      },
+      {
+        "text": "Map discovery",
+        "translated": true
+      },
+      {
+        "text": "Your property alerts",
+        "translated": true
+      },
+      {
+        "text": "The production workflow will require authenticated and consented subscriptions.",
+        "translated": true
+      },
+      {
+        "text": "Search name",
+        "translated": true
+      },
+      {
+        "text": "Purpose",
+        "translated": true
+      },
+      {
+        "text": "Rent",
+        "translated": true
+      },
+      {
+        "text": "Sale",
+        "translated": true
+      },
+      {
+        "text": "Save example search",
+        "translated": true
+      },
+      {
+        "text": "” saved in this view only. Email/WhatsApp alerts are not configured.",
+        "translated": true
+      },
+      {
+        "text": "Illustrative schematic map, not geographical coordinates",
+        "translated": true
+      },
+      {
+        "text": "MAP PREVIEW · NOT TO SCALE",
+        "translated": true
+      },
+      {
+        "text": "THE PEARL",
+        "translated": true
+      },
+      {
+        "text": "WEST BAY",
+        "translated": true
+      },
+      {
+        "text": "LUSAIL",
+        "translated": true
+      },
+      {
+        "text": "/ 4 properties selected",
+        "translated": true
+      },
+      {
+        "text": "Clear selection",
+        "translated": true
+      },
+      {
+        "text": "Operational table; scroll for more columns",
+        "translated": true
+      },
+      {
+        "text": "Specification",
+        "translated": true
+      },
+      {
+        "text": "All actions are local. Authentication, real map tiles, geolocation, compare persistence and alert delivery are not connected.",
+        "translated": true
+      },
+      {
+        "text": "CONVERSATIONS / WHATSAPP",
+        "translated": true
+      },
+      {
+        "text": "Design official Business Platform workflows with human review and explicit consent. This screen never sends WhatsApp messages.",
+        "translated": true
+      },
+      {
+        "text": "Property packs",
+        "translated": true
+      },
+      {
+        "text": "Templates",
+        "translated": true
+      },
+      {
+        "text": "SLA & handover",
+        "translated": true
+      },
+      {
+        "text": "Inbox",
+        "translated": true
+      },
+      {
+        "text": "Design a property pack",
+        "translated": true
+      },
+      {
+        "text": "A summary, location, and room-ordered media. No Cloud API is connected.",
+        "translated": true
+      },
+      {
+        "text": "Property",
+        "translated": true
+      },
+      {
+        "text": "Language",
+        "translated": true
+      },
+      {
+        "text": "English",
+        "translated": true
+      },
+      {
+        "text": "Arabic",
+        "translated": true
+      },
+      {
+        "text": "PACK PREVIEW /",
+        "translated": true
+      },
+      {
+        "text": "OF 5",
+        "translated": true
+      },
+      {
+        "text": "Official channels only",
+        "translated": true
+      },
+      {
+        "text": "Templates and media must comply with WhatsApp Business policies. Opt-out must be reflected in the consent ledger before further messaging.",
+        "translated": true
+      },
+      {
+        "text": "No message sent",
+        "translated": true
+      },
+      {
+        "text": "Template lifecycle",
+        "translated": true
+      },
+      {
+        "text": "Example templates with provider approval states.",
+        "translated": true
+      },
+      {
+        "text": "Operational table; scroll for more columns",
+        "translated": true
+      },
+      {
+        "text": "Template",
+        "translated": true
+      },
+      {
+        "text": "Language",
+        "translated": true
+      },
+      {
+        "text": "Category",
+        "translated": true
+      },
+      {
+        "text": "Approval",
+        "translated": true
+      },
+      {
+        "text": "Scenario",
+        "translated": true
+      },
+      {
+        "text": "Overdue sample conversations",
+        "translated": true
+      },
+      {
+        "text": "Avg first response",
+        "translated": true
+      },
+      {
+        "text": "AI handover requested",
+        "translated": true
+      },
+      {
+        "text": "Active agent inbox threads",
+        "translated": true
+      },
+      {
+        "text": "Handover queue",
+        "translated": true
+      },
+      {
+        "text": "SLA states require a real event clock and ownership changes.",
+        "translated": true
+      },
+      {
+        "text": "Planning concept · local keyword search only. This is not a connected AI assistant.",
+        "translated": true
+      },
+      {
+        "text": "AI & SAFETY / SUPPORT",
+        "translated": true
+      },
+      {
+        "text": "A transparent governance surface for retrieval-grounded assistance. No model, voice transcription or customer data is connected.",
+        "translated": true
+      },
+      {
+        "text": "Assistant demo",
+        "translated": true
+      },
+      {
+        "text": "Knowledge",
+        "translated": true
+      },
+      {
+        "text": "Evaluation",
+        "translated": true
+      },
+      {
+        "text": "Test a guided search",
+        "translated": true
+      },
+      {
+        "text": "Local keyword preview uses only the selected organization’s canonical records. No model or availability verification.",
+        "translated": true
+      },
+      {
+        "text": "Customer request",
+        "translated": true
+      },
+      {
+        "text": "No matching local property. Refine the request or open inventory.",
+        "translated": true
+      },
+      {
+        "text": "Run local rule-based example",
+        "translated": true
+      },
+      {
+        "text": "Grounded sample reply",
+        "translated": true
+      },
+      {
+        "text": "Review canonical inventory",
+        "translated": true
+      },
+      {
+        "text": "Non-negotiable guardrails",
+        "translated": true
+      },
+      {
+        "text": "Only live verified listings may be recommended. No invented pricing or availability. Explicit human handover. Tenant-scoped tools and auditable policy decisions.",
+        "translated": true
+      },
+      {
+        "text": "Approved support knowledge",
+        "translated": true
+      },
+      {
+        "text": "Knowledge versioning, review status, and source links would be real before S2.",
+        "translated": true
+      },
+      {
+        "text": "Operational table; scroll for more columns",
+        "translated": true
+      },
+      {
+        "text": "Source",
+        "translated": true
+      },
+      {
+        "text": "Topic",
+        "translated": true
+      },
+      {
+        "text": "Revision",
+        "translated": true
+      },
+      {
+        "text": "Status",
+        "translated": true
+      },
+      {
+        "text": "Required EN/AR test chats",
+        "translated": true
+      },
+      {
+        "text": "Target fact hallucination",
+        "translated": true
+      },
+      {
+        "text": "Target p95 latency",
+        "translated": true
+      },
+      {
+        "text": "Evaluations actually run",
+        "translated": true
+      },
+      {
+        "text": "Evaluation categories",
+        "translated": true
+      },
+      {
+        "text": "Requirements and targets are not observed test results.",
+        "translated": true
+      },
+      {
+        "text": "Live listing ID and price grounding",
+        "translated": true
+      },
+      {
+        "text": "Arabic/English intent resolution",
+        "translated": true
+      },
+      {
+        "text": "Prompt injection and private data minimization",
+        "translated": true
+      },
+      {
+        "text": "Human takeover and refused unsupported actions",
+        "translated": true
+      },
+      {
+        "text": "Consent and legal/financial boundary evaluation",
+        "translated": true
+      },
+      {
+        "text": "Legacy placement planning concept · no paid placement or campaign is created here.",
+        "translated": true
+      },
+      {
+        "text": "GROWTH / AD OPERATIONS",
+        "translated": true
+      },
+      {
+        "text": "Campaign governance, placement scheduling, and event reconciliation are represented here using example records.",
+        "translated": true
+      },
+      {
+        "text": "Placements",
+        "translated": true
+      },
+      {
+        "text": "Catalogue",
+        "translated": true
+      },
+      {
+        "text": "Attribution",
+        "translated": true
+      },
+      {
+        "text": "Marketing studio",
+        "translated": true
+      },
+      {
+        "text": "Placement schedule",
+        "translated": true
+      },
+      {
+        "text": "Promoted cards, banners and sponsored results require explicit scheduling and disclosures.",
+        "translated": true
+      },
+      {
+        "text": "Operational table; scroll for more columns",
+        "translated": true
+      },
+      {
+        "text": "Placement",
+        "translated": true
+      },
+      {
+        "text": "Location",
+        "translated": true
+      },
+      {
+        "text": "Listing",
+        "translated": true
+      },
+      {
+        "text": "Schedule",
+        "translated": true
+      },
+      {
+        "text": "State",
+        "translated": true
+      },
+      {
+        "text": "Listing feed",
+        "translated": true
+      },
+      {
+        "text": "Only approved and live inventory should reach a partner catalogue.",
+        "translated": true
+      },
+      {
+        "text": "Source: canonical listing ·",
+        "translated": true
+      },
+      {
+        "text": "Not synced",
+        "translated": true
+      },
+      {
+        "text": "Consent-aware event reporting",
+        "translated": true
+      },
+      {
+        "text": "Deduplicate Pixel and Conversions API events using event IDs, not pageview counts.",
+        "translated": true
+      },
+      {
+        "text": "Operational table; scroll for more columns",
+        "translated": true
+      },
+      {
+        "text": "Event",
+        "translated": true
+      },
+      {
+        "text": "Purpose",
+        "translated": true
+      },
+      {
+        "text": "Client/server parity",
+        "translated": true
+      },
+      {
+        "text": "Consent required",
+        "translated": true
+      },
+      {
+        "text": "Housing special-ad category rules and consent enforcement need independent current legal/policy verification.",
+        "translated": true
+      },
+      {
+        "text": "Legacy billing policy concept · fictional examples, separate from the selected organization’s subscription ledger.",
+        "translated": true
+      },
+      {
+        "text": "FINANCE / CUSTOMER LIFECYCLE",
+        "translated": true
+      },
+      {
+        "text": "An internal product mockup for billing resilience. No real transactions, invoices or tax calculations exist.",
+        "translated": true
+      },
+      {
+        "text": "Retry policy",
+        "translated": true
+      },
+      {
+        "text": "Illustrative failed-payment handling; validate with the chosen Qatar gateway.",
+        "translated": true
+      },
+      {
+        "text": "First retry after 1 day",
+        "translated": true
+      },
+      {
+        "text": "Second retry after 3 days",
+        "translated": true
+      },
+      {
+        "text": "Final retry after 5 days",
+        "translated": true
+      },
+      {
+        "text": "Seven-day sample grace period",
+        "translated": true
+      },
+      {
+        "text": "Suspension and entitlement change after policy grace",
+        "translated": true
+      },
+      {
+        "text": "Simulate next retry state",
+        "translated": true
+      },
+      {
+        "text": "Local simulation step:",
+        "translated": true
+      },
+      {
+        "text": "/ 3 retries",
+        "translated": true
+      },
+      {
+        "text": "Exactly-once effects",
+        "translated": true
+      },
+      {
+        "text": "Payment callbacks must verify signatures, be idempotent, and distinguish authorized, captured, refunded and failed states.",
+        "translated": true
+      },
+      {
+        "text": "MaxPro",
+        "translated": false
+      },
+      {
+        "text": "Invoice",
+        "translated": true
+      },
+      {
+        "text": "DEMO DOCUMENT · NOT VALID FOR PAYMENT",
+        "translated": true
+      },
+      {
+        "text": "TO (SAMPLE)",
+        "translated": true
+      },
+      {
+        "text": "Pearl Gate Realty",
+        "translated": false
+      },
+      {
+        "text": "Doha, Qatar",
+        "translated": true
+      },
+      {
+        "text": "INVOICE",
+        "translated": true
+      },
+      {
+        "text": "01 Nov 2026",
+        "translated": true
+      },
+      {
+        "text": "Operational table; scroll for more columns",
+        "translated": true
+      },
+      {
+        "text": "Description",
+        "translated": true
+      },
+      {
+        "text": "Quantity",
+        "translated": true
+      },
+      {
+        "text": "Unit price",
+        "translated": true
+      },
+      {
+        "text": "Total",
+        "translated": true
+      },
+      {
+        "text": "Agency subscription · example base period",
+        "translated": true
+      },
+      {
+        "text": "QAR 1,800+",
+        "translated": true
+      },
+      {
+        "text": "QAR 1,800+",
+        "translated": true
+      },
+      {
+        "text": "Illustrative total",
+        "translated": true
+      },
+      {
+        "text": "QAR 1,800+",
+        "translated": true
+      },
+      {
+        "text": "Invoice numbering, tax lines and downloadable PDFs must be implemented and legally reviewed.",
+        "translated": true
+      },
+      {
+        "text": "ACCOUNT / PRIVACY",
+        "translated": true
+      },
+      {
+        "text": "Privacy, consent & data rights",
+        "translated": true
+      },
+      {
+        "text": "Consent, export and deletion workflows must be authenticated, audited and legally reviewed.",
+        "translated": true
+      },
+      {
+        "text": "Data rights",
+        "translated": true
+      },
+      {
+        "text": "Example request center; no personal data operations are carried out.",
+        "translated": true
+      },
+      {
+        "text": "Request a copy of account and related data",
+        "translated": true
+      },
+      {
+        "text": "Request account deletion and record retention review",
+        "translated": true
+      },
+      {
+        "text": "Withdraw marketing and WhatsApp consent",
+        "translated": true
+      },
+      {
+        "text": "Obtain a timestamped request reference",
+        "translated": true
+      },
+      {
+        "text": "Preview export request",
+        "translated": true
+      },
+      {
+        "text": "A request preview was created locally. No account data exists in this demo.",
+        "translated": true
+      },
+      {
+        "text": "Privacy safeguards",
+        "translated": true
+      },
+      {
+        "text": "Required by design, not optional UI copy.",
+        "translated": true
+      },
+      {
+        "text": "Tenant isolation and least privilege",
+        "translated": true
+      },
+      {
+        "text": "Defined retention and legal hold policy",
+        "translated": true
+      },
+      {
+        "text": "Explicit consent purpose and timestamp",
+        "translated": true
+      },
+      {
+        "text": "Audit access to identity files and exports",
+        "translated": true
+      }
+    ]
+  },
+  {
+    "filename": "apps/web/src/components/prototype/inventory.tsx",
+    "entries": [
+      {
+        "text": "INVENTORY / CREATE",
+        "translated": true
+      },
+      {
+        "text": "Facts → media → bilingual review → destination checks → local job history.",
+        "translated": true
+      },
+      {
+        "text": "PORTFOLIO / INVENTORY",
+        "translated": true
+      },
+      {
+        "text": "Search properties",
+        "translated": true
+      },
+      {
+        "text": "Filter listing status",
+        "translated": true
+      },
+      {
+        "text": "Sort properties",
+        "translated": true
+      },
+      {
+        "text": "Recently updated",
+        "translated": true
+      },
+      {
+        "text": "Price: highest",
+        "translated": true
+      },
+      {
+        "text": "Most viewed (samples)",
+        "translated": true
+      },
+      {
+        "text": "List view",
+        "translated": true
+      },
+      {
+        "text": "Grid view",
+        "translated": true
+      },
+      {
+        "text": "Operational table; scroll for more columns",
+        "translated": true
+      },
+      {
+        "text": "Canonical property inventory",
+        "translated": true
+      },
+      {
+        "text": "Bedrooms",
+        "translated": true
+      },
+      {
+        "text": "Bathrooms",
+        "translated": true
+      },
+      {
+        "text": "Media assets",
+        "translated": true
+      },
+      {
+        "text": "Saved canonical facts used by Studio and preflight.",
+        "translated": true
+      },
+      {
+        "text": "Local property edits and reviews; no partner events.",
+        "translated": true
+      },
+      {
+        "text": "local publishing attempts",
+        "translated": true
+      },
+      {
+        "text": "Saved copy, distinct from pending Studio proposals.",
+        "translated": true
+      },
+      {
+        "text": "PORTFOLIO / DATA IMPORT",
+        "translated": true
+      },
+      {
+        "text": "Bulk import",
+        "translated": true
+      },
+      {
+        "text": "Prepare a spreadsheet or an approved API feed before creating property records.",
+        "translated": true
+      },
+      {
+        "text": "Upload an inventory file",
+        "translated": true
+      },
+      {
+        "text": "Suggested columns: purpose, type, price, area, location, permit, English and Arabic titles.",
+        "translated": true
+      },
+      {
+        "text": "Demo selection only — the file is not uploaded or parsed",
+        "translated": true
+      },
+      {
+        "text": "Preview mapping · requires backend",
+        "translated": true
+      },
+      {
+        "text": "Import workflow",
+        "translated": true
+      },
+      {
+        "text": "Verify schema and ownership",
+        "translated": true
+      },
+      {
+        "text": "Map and normalize fields",
+        "translated": true
+      },
+      {
+        "text": "Detect duplicate properties",
+        "translated": true
+      },
+      {
+        "text": "Review errors and approve changes",
+        "translated": true
+      },
+      {
+        "text": "Create records and audit events",
+        "translated": true
+      }
+    ]
+  },
+  {
+    "filename": "apps/web/src/components/prototype/operations.tsx",
+    "entries": [
+      {
+        "text": "ORGANIZATION / ACTIVITY",
+        "translated": true
+      },
+      {
+        "text": "Notifications",
+        "translated": true
+      },
+      {
+        "text": "Actionable updates should have a source, severity and clear destination.",
+        "translated": true
+      },
+      {
+        "text": "Mark all read (demo)",
+        "translated": true
+      },
+      {
+        "text": "Activity feed",
+        "translated": true
+      },
+      {
+        "text": "Notifications are static example records.",
+        "translated": true
+      },
+      {
+        "text": "Notification delivery, email, SMS and WhatsApp preferences require an authenticated backend.",
+        "translated": true
+      }
+    ]
+  },
+  {
+    "filename": "apps/web/src/components/prototype/overview.tsx",
+    "entries": [
+      {
+        "text": "PORTFOLIO / NOVEMBER 2026",
+        "translated": false
+      },
+      {
+        "text": "Active properties",
+        "translated": false
+      },
+      {
+        "text": "Across your managed portfolio",
+        "translated": false
+      },
+      {
+        "text": "+12 this month",
+        "translated": false
+      },
+      {
+        "text": "Published to portals",
+        "translated": false
+      },
+      {
+        "text": "Under review",
+        "translated": true
+      },
+      {
+        "text": "Drafts",
+        "translated": false
+      },
+      {
+        "text": "New enquiries",
+        "translated": false
+      },
+      {
+        "text": "Last 30 days",
+        "translated": true
+      },
+      {
+        "text": "First response",
+        "translated": false
+      },
+      {
+        "text": "25 min",
+        "translated": false
+      },
+      {
+        "text": "Team average · demo",
+        "translated": false
+      },
+      {
+        "text": "min",
+        "translated": false
+      },
+      {
+        "text": "A short, actionable queue — not another report.",
+        "translated": false
+      },
+      {
+        "text": "View all",
+        "translated": true
+      },
+      {
+        "text": "3 listings waiting for approval",
+        "translated": false
+      },
+      {
+        "text": "Check property facts and licensing fields",
+        "translated": false
+      },
+      {
+        "text": "1 portal upload needs correction",
+        "translated": false
+      },
+      {
+        "text": "Portal B requires floor and permit values",
+        "translated": false
+      },
+      {
+        "text": "2 enquiries need a human response",
+        "translated": false
+      },
+      {
+        "text": "One AI-to-human handover requested",
+        "translated": false
+      },
+      {
+        "text": "Destination visibility and publishing health.",
+        "translated": false
+      },
+      {
+        "text": "Portal Hub",
+        "translated": false
+      },
+      {
+        "text": "Portal A",
+        "translated": false
+      },
+      {
+        "text": "Active demo versions",
+        "translated": false
+      },
+      {
+        "text": "Portal B",
+        "translated": false
+      },
+      {
+        "text": "Active demo versions",
+        "translated": false
+      },
+      {
+        "text": "Portal A",
+        "translated": false
+      },
+      {
+        "text": "Portal B",
+        "translated": false
+      },
+      {
+        "text": "Portal connections are simulated. No live publishing occurs.",
+        "translated": false
+      },
+      {
+        "text": "Open a property to see its complete record.",
+        "translated": false
+      },
+      {
+        "text": "All properties",
+        "translated": true
+      },
+      {
+        "text": "Every enquiry tied to a property and owner.",
+        "translated": false
+      },
+      {
+        "text": "Lead manager",
+        "translated": true
+      },
+      {
+        "text": "score",
+        "translated": false
+      },
+      {
+        "text": "QUICK ACCESS",
+        "translated": false
+      },
+      {
+        "text": "Bulk import",
+        "translated": true
+      },
+      {
+        "text": "Marketing drafts",
+        "translated": false
+      },
+      {
+        "text": "Plan usage",
+        "translated": false
+      },
+      {
+        "text": "Audit events",
+        "translated": false
+      }
+    ]
+  },
+  {
+    "filename": "apps/web/src/components/prototype/primitives.tsx",
+    "entries": [
+      {
+        "text": "portals",
+        "translated": false
+      },
+      {
+        "text": "Illustrative activity trend",
+        "translated": false
+      }
+    ]
+  },
+  {
+    "filename": "apps/web/src/components/prototype/public-pages.tsx",
+    "entries": [
+      {
+        "text": "beds",
+        "translated": true
+      },
+      {
+        "text": "baths",
+        "translated": true
+      },
+      {
+        "text": "/ month",
+        "translated": true
+      },
+      {
+        "text": "One listing.",
+        "translated": true
+      },
+      {
+        "text": "Every channel.",
+        "translated": true
+      },
+      {
+        "text": "Explore the operating system",
+        "translated": true
+      },
+      {
+        "text": "View property showcase",
+        "translated": true
+      },
+      {
+        "text": "01 / LISTINGS",
+        "translated": true
+      },
+      {
+        "text": "02 / DISTRIBUTION",
+        "translated": true
+      },
+      {
+        "text": "03 / RELATIONSHIPS",
+        "translated": true
+      },
+      {
+        "text": "Contemporary residential architecture",
+        "translated": true
+      },
+      {
+        "text": "FEATURED / THE PEARL",
+        "translated": true
+      },
+      {
+        "text": "One property, all channels.",
+        "translated": true
+      },
+      {
+        "text": "Property operations, thoughtfully designed.",
+        "translated": true
+      },
+      {
+        "text": "MADE FOR THE WORK BEHIND PROPERTY",
+        "translated": true
+      },
+      {
+        "text": "01 · A single source of truth",
+        "translated": true
+      },
+      {
+        "text": "02 · Human-reviewed AI",
+        "translated": true
+      },
+      {
+        "text": "03 · Connected enquiry management",
+        "translated": true
+      },
+      {
+        "text": "THE PLATFORM",
+        "translated": true
+      },
+      {
+        "text": "Every part of the property journey, working together.",
+        "translated": true
+      },
+      {
+        "text": "No disconnected spreadsheets. No uncertain publication status. No enquiry left without context.",
+        "translated": true
+      },
+      {
+        "text": "SECONDARY MODULE · PUBLIC PROPERTY SHOWCASE",
+        "translated": true
+      },
+      {
+        "text": "Sample hosted property pages.",
+        "translated": true
+      },
+      {
+        "text": "Explore property listings",
+        "translated": true
+      },
+      {
+        "text": "FOR BUILDERS & AGENCIES",
+        "translated": true
+      },
+      {
+        "text": "More clarity for the team. Better service for everyone.",
+        "translated": true
+      },
+      {
+        "text": "Explore how a connected operating system changes the day-to-day work of managing a property portfolio.",
+        "translated": true
+      },
+      {
+        "text": "Open interactive prototype",
+        "translated": true
+      },
+      {
+        "text": "This website contains example properties and prototype features. No listings, portal connections or bookings are live.",
+        "translated": true
+      },
+      {
+        "text": "Find somewhere that feels right.",
+        "translated": true
+      },
+      {
+        "text": "Explore illustrative property records. Listings, prices and availability are examples only.",
+        "translated": true
+      },
+      {
+        "text": "LOCATION OR KEYWORD",
+        "translated": true
+      },
+      {
+        "text": "The Pearl, Lusail, West Bay…",
+        "translated": true
+      },
+      {
+        "text": "PURPOSE",
+        "translated": true
+      },
+      {
+        "text": "All",
+        "translated": true
+      },
+      {
+        "text": "Rent",
+        "translated": true
+      },
+      {
+        "text": "Sale",
+        "translated": true
+      },
+      {
+        "text": "PROPERTY TYPE",
+        "translated": true
+      },
+      {
+        "text": "MAX PRICE (QAR)",
+        "translated": true
+      },
+      {
+        "text": "No limit",
+        "translated": true
+      },
+      {
+        "text": "example residences",
+        "translated": true
+      },
+      {
+        "text": "Verified data required for a production marketplace.",
+        "translated": true
+      },
+      {
+        "text": "Favourites",
+        "translated": true
+      },
+      {
+        "text": "Compare",
+        "translated": true
+      },
+      {
+        "text": "Saved searches",
+        "translated": true
+      },
+      {
+        "text": "Map demo",
+        "translated": true
+      },
+      {
+        "text": "Reset filters",
+        "translated": true
+      },
+      {
+        "text": "No example properties match these filters.",
+        "translated": true
+      },
+      {
+        "text": "All properties",
+        "translated": true
+      },
+      {
+        "text": "bedrooms",
+        "translated": true
+      },
+      {
+        "text": "bathrooms",
+        "translated": true
+      },
+      {
+        "text": "m² built-up",
+        "translated": true
+      },
+      {
+        "text": "THE RESIDENCE",
+        "translated": true
+      },
+      {
+        "text": "An address with room to live.",
+        "translated": true
+      },
+      {
+        "text": "This demonstration listing is located in",
+        "translated": true
+      },
+      {
+        "text": ". The record illustrates how structured facts, photo galleries, approval status and enquiries will appear. Its actual availability, pricing and licensing have not been verified.",
+        "translated": true
+      },
+      {
+        "text": "Property details",
+        "translated": true
+      },
+      {
+        "text": "PG",
+        "translated": false
+      },
+      {
+        "text": "Pearl Gate Realty",
+        "translated": false
+      },
+      {
+        "text": "Sample agency profile · not verified",
+        "translated": true
+      },
+      {
+        "text": "Enquire about this residence",
+        "translated": true
+      },
+      {
+        "text": "Leave an example enquiry to preview the contact workflow.",
+        "translated": true
+      },
+      {
+        "text": "Your name",
+        "translated": true
+      },
+      {
+        "text": "Email address",
+        "translated": true
+      },
+      {
+        "text": "Message",
+        "translated": true
+      },
+      {
+        "text": "Preview enquiry",
+        "translated": true
+      },
+      {
+        "text": "Your example enquiry was validated locally. Nothing was sent or stored.",
+        "translated": true
+      },
+      {
+        "text": "DISCOVER MORE",
+        "translated": true
+      },
+      {
+        "text": "Other addresses to explore.",
+        "translated": true
+      },
+      {
+        "text": "All properties",
+        "translated": true
+      },
+      {
+        "text": "Explore sample listings",
+        "translated": true
+      },
+      {
+        "text": "Explore workspace",
+        "translated": true
+      },
+      {
+        "text": "Work email",
+        "translated": true
+      },
+      {
+        "text": "Password",
+        "translated": true
+      },
+      {
+        "text": "Form validated locally. No message was sent, no account created, and no password transmitted.",
+        "translated": true
+      }
+    ]
+  },
+  {
+    "filename": "apps/web/src/components/prototype/relationships.tsx",
+    "entries": [
+      {
+        "text": "DISTRIBUTION / PORTAL HUB",
+        "translated": false
+      },
+      {
+        "text": "Keep one canonical property record, adapt it per destination and monitor every publication attempt.",
+        "translated": false
+      },
+      {
+        "text": "Create a listing",
+        "translated": false
+      },
+      {
+        "text": "Overview",
+        "translated": false
+      },
+      {
+        "text": "Connectors",
+        "translated": false
+      },
+      {
+        "text": "Jobs & retries",
+        "translated": false
+      },
+      {
+        "text": "Field mapping",
+        "translated": false
+      },
+      {
+        "text": "Publishing activity",
+        "translated": false
+      },
+      {
+        "text": "Sample jobs, with local retry feedback and no network requests.",
+        "translated": false
+      },
+      {
+        "text": "Search job, listing or portal",
+        "translated": false
+      },
+      {
+        "text": "Search publication jobs",
+        "translated": false
+      },
+      {
+        "text": "Mock statuses",
+        "translated": false
+      },
+      {
+        "text": "Operational table; scroll for more columns",
+        "translated": true
+      },
+      {
+        "text": "Job ID",
+        "translated": false
+      },
+      {
+        "text": "Listing",
+        "translated": true
+      },
+      {
+        "text": "Destination",
+        "translated": true
+      },
+      {
+        "text": "Action",
+        "translated": false
+      },
+      {
+        "text": "Status",
+        "translated": true
+      },
+      {
+        "text": "Submitted",
+        "translated": false
+      },
+      {
+        "text": "Action",
+        "translated": false
+      },
+      {
+        "text": "Demo retry",
+        "translated": false
+      },
+      {
+        "text": "Portal-specific requirements",
+        "translated": false
+      },
+      {
+        "text": "An example capability matrix; not actual partner/API specifications.",
+        "translated": false
+      },
+      {
+        "text": "Operational table; scroll for more columns",
+        "translated": true
+      },
+      {
+        "text": "Canonical field",
+        "translated": false
+      },
+      {
+        "text": "Portal A",
+        "translated": false
+      },
+      {
+        "text": "Portal B",
+        "translated": false
+      },
+      {
+        "text": "Rule",
+        "translated": false
+      },
+      {
+        "text": "Field mappings must be validated against official portal agreements and versioned API contracts before production use.",
+        "translated": false
+      },
+      {
+        "text": "Demo live versions",
+        "translated": false
+      },
+      {
+        "text": "Example connectors",
+        "translated": false
+      },
+      {
+        "text": "Warnings to review",
+        "translated": false
+      },
+      {
+        "text": "Illustrative success rate",
+        "translated": false
+      },
+      {
+        "text": "Destinations",
+        "translated": false
+      },
+      {
+        "text": "A connection is only considered live after authorized onboarding and end-to-end verification.",
+        "translated": false
+      },
+      {
+        "text": "Review mappings",
+        "translated": false
+      },
+      {
+        "text": "Commercial approval required",
+        "translated": false
+      },
+      {
+        "text": "demo versions",
+        "translated": false
+      },
+      {
+        "text": "issues",
+        "translated": false
+      },
+      {
+        "text": "Recent jobs",
+        "translated": false
+      },
+      {
+        "text": "Tracking is per listing and destination.",
+        "translated": false
+      },
+      {
+        "text": "All jobs",
+        "translated": false
+      },
+      {
+        "text": "Connector operating rules",
+        "translated": false
+      },
+      {
+        "text": "Designed for real-world portal differences.",
+        "translated": false
+      },
+      {
+        "text": "Use only official, permitted connections",
+        "translated": false
+      },
+      {
+        "text": "Validate fields before submission",
+        "translated": false
+      },
+      {
+        "text": "Keep idempotency keys and event logs",
+        "translated": false
+      },
+      {
+        "text": "Expose unsupported portal features",
+        "translated": false
+      },
+      {
+        "text": "Retry safely with backoff and visibility",
+        "translated": false
+      },
+      {
+        "text": "Portal A/B/C are fictional mocks. The UI does not send data, retrieve leads or claim any real portal authorization.",
+        "translated": false
+      },
+      {
+        "text": "INTELLIGENCE / PERFORMANCE",
+        "translated": false
+      },
+      {
+        "text": "Portfolio performance",
+        "translated": false
+      },
+      {
+        "text": "An editorial view of supply, engagement and enquiries. Values below are illustrative and not connected to analytics providers.",
+        "translated": false
+      },
+      {
+        "text": "Time period",
+        "translated": false
+      },
+      {
+        "text": "7 days",
+        "translated": false
+      },
+      {
+        "text": "30 days",
+        "translated": false
+      },
+      {
+        "text": "90 days",
+        "translated": false
+      },
+      {
+        "text": "PROPERTY DISCOVERY",
+        "translated": false
+      },
+      {
+        "text": "Listing views",
+        "translated": false
+      },
+      {
+        "text": "+14.8% demo",
+        "translated": false
+      },
+      {
+        "text": "Start of selected window",
+        "translated": false
+      },
+      {
+        "text": "End of window",
+        "translated": false
+      },
+      {
+        "text": "Enquiries",
+        "translated": false
+      },
+      {
+        "text": "Across inbound channels.",
+        "translated": false
+      },
+      {
+        "text": "Qualified or active",
+        "translated": false
+      },
+      {
+        "text": "WhatsApp clicks",
+        "translated": false
+      },
+      {
+        "text": "Click events attributed to listings.",
+        "translated": false
+      },
+      {
+        "text": "Illustrative month",
+        "translated": false
+      },
+      {
+        "text": "Conversion",
+        "translated": false
+      },
+      {
+        "text": "Views to recorded enquiries.",
+        "translated": false
+      },
+      {
+        "text": "Demo estimate",
+        "translated": false
+      },
+      {
+        "text": "Top properties",
+        "translated": false
+      },
+      {
+        "text": "Interest by property and available enquiry count.",
+        "translated": false
+      },
+      {
+        "text": "Operational table; scroll for more columns",
+        "translated": true
+      },
+      {
+        "text": "Property",
+        "translated": true
+      },
+      {
+        "text": "Location",
+        "translated": true
+      },
+      {
+        "text": "Views",
+        "translated": false
+      },
+      {
+        "text": "Enquiries",
+        "translated": false
+      },
+      {
+        "text": "Response",
+        "translated": false
+      }
+    ]
+  },
+  {
+    "filename": "apps/web/src/components/prototype/studio.tsx",
+    "entries": [
+      {
+        "text": "Listing creation stages",
+        "translated": true
+      },
+      {
+        "text": "STAGE",
+        "translated": true
+      },
+      {
+        "text": "Use fictional information only; do not enter personal data.",
+        "translated": true
+      },
+      {
+        "text": "Session selection only; no parsing, transcription or storage of file bytes",
+        "translated": true
+      },
+      {
+        "text": "No extraction results are available. Enter the supplied facts manually; the file is not retained after reload.",
+        "translated": true
+      },
+      {
+        "text": "Confirm facts with source evidence. Location coordinates, payment terms, amenities and owner authorization are editable in the canonical editor.",
+        "translated": true
+      },
+      {
+        "text": "ENGLISH DESCRIPTION",
+        "translated": true
+      },
+      {
+        "text": "English:",
+        "translated": true
+      },
+      {
+        "text": "characters · Arabic:",
+        "translated": true
+      },
+      {
+        "text": "characters",
+        "translated": true
+      },
+      {
+        "text": "Proposed content · human review pending",
+        "translated": true
+      },
+      {
+        "text": "Supplied facts and proposed bilingual copy",
+        "translated": true
+      },
+      {
+        "text": "Source:",
+        "translated": true
+      },
+      {
+        "text": "· Revision",
+        "translated": true
+      },
+      {
+        "text": "Resolve in the canonical editor or media workbench before queueing.",
+        "translated": true
+      },
+      {
+        "text": "Needs attention",
+        "translated": true
+      },
+      {
+        "text": "Sample source checks ready",
+        "translated": true
+      },
+      {
+        "text": "Connector readiness is checked separately.",
+        "translated": true
+      },
+      {
+        "text": "Supplied source",
+        "translated": true
+      },
+      {
+        "text": "Manual structured facts",
+        "translated": true
+      },
+      {
+        "text": "Proposed bilingual copy",
+        "translated": true
+      },
+      {
+        "text": "Explicit human review",
+        "translated": true
+      },
+      {
+        "text": "Fictional browser-local demo only.",
+        "translated": true
+      }
+    ]
+  },
+  {
+    "filename": "apps/web/src/components/workspace/workspace-shell.tsx",
+    "entries": [
+      {
+        "text": "Close navigation",
+        "translated": true
+      },
+      {
+        "text": "Close navigation",
+        "translated": true
+      },
+      {
+        "text": "Open navigation",
+        "translated": true
+      },
+      {
+        "text": "Notifications",
+        "translated": true
+      },
+      {
+        "text": "Settings",
+        "translated": true
+      },
+      {
+        "text": "YM",
+        "translated": false
+      },
+      {
+        "text": "© 2026 MaxPro · Gemini-aligned v3",
+        "translated": true
+      }
+    ]
+  },
+  {
+    "filename": "apps/web/src/app/[locale]/pricing/page.tsx",
+    "entries": [
+      {
+        "text": "SUBSCRIPTIONS / INDICATIVE COMMERCIAL MODEL",
+        "translated": true
+      },
+      {
+        "text": "Indicative monthly subscriptions",
+        "translated": true
+      },
+      {
+        "text": "No payment gateway is integrated. These values are not binding offers.",
+        "translated": true
+      },
+      {
+        "text": "Explore quota controls",
+        "translated": true
+      },
+      {
+        "text": "QAR",
+        "translated": true
+      },
+      {
+        "text": "/ month · illustrative",
+        "translated": true
+      },
+      {
+        "text": "Explore demo onboarding",
+        "translated": true
+      },
+      {
+        "text": "Unlimited / negotiated",
+        "translated": true
+      },
+      {
+        "text": "active listings",
+        "translated": true
+      },
+      {
+        "text": "Multi-agent / negotiated",
+        "translated": true
+      },
+      {
+        "text": "team seat(s)",
+        "translated": true
+      },
+      {
+        "text": "Negotiated",
+        "translated": true
+      },
+      {
+        "text": "AI listing credits per month",
+        "translated": true
+      },
+      {
+        "text": "All authorized",
+        "translated": true
+      },
+      {
+        "text": "portal connector(s)",
+        "translated": true
+      },
+      {
+        "text": "* Directly based on the Gemini PRD's approximate Starter (179 QAR), Pro (725 QAR), and Agency (1,800+ QAR) examples. Actual prices, entitlements, tax, payment methods, invoices and add-ons require business and legal approval.",
+        "translated": true
+      },
+      {
+        "text": "Every plan is more than a listing count.",
+        "translated": true
+      },
+      {
+        "text": "Canonical listing inventory",
+        "translated": true
+      },
+      {
+        "text": "Controlled publication workflow",
+        "translated": true
+      },
+      {
+        "text": "Connector-specific plan gates",
+        "translated": true
+      },
+      {
+        "text": "Lead source attribution",
+        "translated": true
+      },
+      {
+        "text": "Usage and renewal reporting",
+        "translated": true
+      },
+      {
+        "text": "Role-based organization access",
+        "translated": true
+      },
+      {
+        "text": "Open agency control tower",
+        "translated": true
+      }
+    ]
+  }
+]

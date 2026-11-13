@@ -1,0 +1,1176 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test --grep 'final acceptance|final accessibility|lifecycle ar|connector smoke ar|organization ar: roles|workflow .*canonical|media ordering|commercial ar'
+
+[WebServer] (node:32066) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:32090) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 32 tests using 4 workers
+
+(node:32133) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:32131) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:32134) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:32132) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   4 [chromium] › tests/e2e/final-acceptance.spec.ts:12:1 › final acceptance: independent organization command slices, guards and linked records (3.7s)
+  ✓   5 [chromium] › tests/e2e/final-acceptance.spec.ts:26:33 › final acceptance en: organization switching, reload and unknown-record recovery (6.3s)
+  ✓   6 [chromium] › tests/e2e/final-acceptance.spec.ts:26:33 › final acceptance ar: organization switching, reload and unknown-record recovery (7.6s)
+  ✓   7 [chromium] › tests/e2e/final-acceptance.spec.ts:33:1 › final acceptance: scoped repository rejects stale organization and revision envelopes (647ms)
+  ✓   3 [chromium] › tests/e2e/connector-hub.spec.ts:66:2 › connector smoke ar: directory filtering, setup, removal and eligibility (25.9s)
+  ✓   8 [chromium] › tests/e2e/organization-admin.spec.ts:66:2 › organization ar: roles, team updates, subscriptions and guarded controls (9.8s)
+  ✓   9 [chromium] › tests/e2e/connector-hub.spec.ts:74:2 › connector smoke ar: newly created property drives escaped XML JSON CSV and downloads (13.0s)
+  ✘  10 [chromium] › tests/e2e/stability.spec.ts:52:2 › workflow en canonical edits, blocked and queued local dispatch (25.1s)
+(node:32976) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  11 [chromium] › tests/e2e/connector-hub.spec.ts:85:2 › connector smoke ar: blocked retry revalidates, correction queues, cancellation and filters persist (23.7s)
+(node:33113) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/e2e/lifecycle.spec.ts:36:2 › lifecycle ar create, resume, review, media and per-destination history (1.2m)
+  ✘  12 [chromium] › tests/e2e/stability.spec.ts:52:2 › workflow ar canonical edits, blocked and queued local dispatch (21.4s)
+  ✓  14 [chromium] › tests/e2e/lifecycle.spec.ts:117:2 › lifecycle ar invalid IDs never fall back to a sample (6.8s)
+(node:33448) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  13 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:66:2 › connector smoke ar: directory filtering, setup, removal and eligibility (16.6s)
+(node:33450) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  17 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:12:1 › final acceptance: independent organization command slices, guards and linked records (2.0s)
+  ✓  16 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:74:2 › connector smoke ar: newly created property drives escaped XML JSON CSV and downloads (3.6s)
+  ✘   2 [chromium] › tests/e2e/final-visual.spec.ts:12:2 › final accessibility en: every active page and translation inventory (1.4m)
+(node:33560) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  19 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:85:2 › connector smoke ar: blocked retry revalidates, correction queues, cancellation and filters persist (3.1s)
+  ✓  18 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:26:33 › final acceptance en: organization switching, reload and unknown-record recovery (4.2s)
+  ✓  22 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:26:33 › final acceptance ar: organization switching, reload and unknown-record recovery (3.5s)
+  ✓  23 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:33:1 › final acceptance: scoped repository rejects stale organization and revision envelopes (266ms)
+  ✘  15 [chromium] › tests/e2e/stability.spec.ts:137:1 › media ordering, classification and watermark remain local (11.1s)
+(node:33654) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  25 [chromium] › tests/e2e/stability.spec.ts:205:2 › commercial ar admin examples match Gemini and provider names remain explicit (9.2s)
+(node:33804) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  24 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:36:2 › lifecycle ar create, resume, review, media and per-destination history (16.8s)
+  ✓  27 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:117:2 › lifecycle ar invalid IDs never fall back to a sample (4.6s)
+  ✓  26 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:66:2 › organization ar: roles, team updates, subscriptions and guarded controls (10.7s)
+  ✓  28 [mobile-chromium] › tests/e2e/stability.spec.ts:52:2 › workflow en canonical edits, blocked and queued local dispatch (7.4s)
+  ✓  29 [mobile-chromium] › tests/e2e/stability.spec.ts:52:2 › workflow ar canonical edits, blocked and queued local dispatch (7.5s)
+  ✘  21 [mobile-chromium] › tests/e2e/final-visual.spec.ts:12:2 › final accessibility en: every active page and translation inventory (45.3s)
+(node:34360) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  30 [mobile-chromium] › tests/e2e/stability.spec.ts:137:1 › media ordering, classification and watermark remain local (10.2s)
+  ✘  20 [chromium] › tests/e2e/final-visual.spec.ts:12:2 › final accessibility ar: every active page and translation inventory (48.7s)
+(node:34419) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  32 [mobile-chromium] › tests/e2e/stability.spec.ts:205:2 › commercial ar admin examples match Gemini and provider names remain explicit (8.8s)
+  ✘  31 [mobile-chromium] › tests/e2e/final-visual.spec.ts:12:2 › final accessibility ar: every active page and translation inventory (24.5s)
+
+
+  1) [chromium] › tests/e2e/final-visual.spec.ts:12:2 › final accessibility en: every active page and translation inventory 
+
+    Error: Active-screen WCAG A/AA violations
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  -   1
+    + Received  + 304
+
+    - Array []
+    + Array [
+    +   Object {
+    +     "id": "color-contrast",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f5f6f2",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 3.61,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#79837d",
+    +               "fontSize": "7.5pt (10px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 3.61 (foreground color: #79837d, background color: #f5f6f2, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"agency-identity\"><span class=\"agency-monogram\">PG</span><span><strong>Pearl Gate Realty</strong><small>Agency · Demo organization</small></span></div>",
+    +                 "target": Array [
+    +                   ".agency-identity",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 3.61 (foreground color: #79837d, background color: #f5f6f2, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<small>Agency · Demo organization</small>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".agency-identity > span:nth-child(2) > small",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#ffffff",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 2.55,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#9ba4a0",
+    +               "fontSize": "7.5pt (10px)",
+    +               "fontWeight": "bold",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 2.55 (foreground color: #9ba4a0, background color: #ffffff, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<aside class=\"prototype-sidebar \">",
+    +                 "target": Array [
+    +                   "aside",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 2.55 (foreground color: #9ba4a0, background color: #ffffff, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +         "html": "<div class=\"prototype-nav-heading\">PROPERTY OPERATIONS</div>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".prototype-nav-group:nth-child(1) > .prototype-nav-heading",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#ffffff",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 2.55,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#9ba4a0",
+    +               "fontSize": "7.5pt (10px)",
+    +               "fontWeight": "bold",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 2.55 (foreground color: #9ba4a0, background color: #ffffff, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<aside class=\"prototype-sidebar \">",
+    +                 "target": Array [
+    +                   "aside",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 2.55 (foreground color: #9ba4a0, background color: #ffffff, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +         "html": "<div class=\"prototype-nav-heading\">CONNECTOR HUB</div>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".prototype-nav-group:nth-child(2) > .prototype-nav-heading",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#ffffff",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 2.55,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#9ba4a0",
+    +               "fontSize": "7.5pt (10px)",
+    +               "fontWeight": "bold",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 2.55 (foreground color: #9ba4a0, background color: #ffffff, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<aside class=\"prototype-sidebar \">",
+    +                 "target": Array [
+    +                   "aside",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 2.55 (foreground color: #9ba4a0, background color: #ffffff, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +         "html": "<div class=\"prototype-nav-heading\">GROWTH &amp; MEASUREMENT</div>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".prototype-nav-group:nth-child(3) > .prototype-nav-heading",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#ffffff",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 2.53,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#9ca59c",
+    +               "fontSize": "6.8pt (9px)",
+    +               "fontWeight": "bold",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 2.53 (foreground color: #9ca59c, background color: #ffffff, font size: 6.8pt (9px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<aside class=\"prototype-sidebar \">",
+    +                 "target": Array [
+    +                   "aside",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 2.53 (foreground color: #9ca59c, background color: #ffffff, font size: 6.8pt (9px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +         "html": "<span class=\"demo-environment\"><span class=\"demo-dot\"></span>GEMINI PRD DEMO · NO LIVE INTEGRATIONS</span>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".demo-environment",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#fbfbf8",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 3.83,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#78827d",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 3.83 (foreground color: #78827d, background color: #fbfbf8, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<header class=\"prototype-topbar\">",
+    +                 "target": Array [
+    +                   ".prototype-topbar",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 3.83 (foreground color: #78827d, background color: #fbfbf8, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<span class=\"topbar-crumb\">Pearl Gate Realty</span>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".topbar-crumb",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f6f6f2",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 2.42,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#99a29b",
+    +               "fontSize": "7.5pt (10px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 2.42 (foreground color: #99a29b, background color: #f6f6f2, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell\">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 2.42 (foreground color: #99a29b, background color: #f6f6f2, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<span>Fictional local demo · plans QAR 179 / 725 / 1,800+ are illustrative pending approval. No external services connected.</span>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           "footer > span:nth-child(1)",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f6f6f2",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 2.42,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#99a29b",
+    +               "fontSize": "7.5pt (10px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 2.42 (foreground color: #99a29b, background color: #f6f6f2, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell\">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 2.42 (foreground color: #99a29b, background color: #f6f6f2, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<span>© 2026 MaxPro · Gemini-aligned v3</span>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           "footer > span:nth-child(2)",
+    +         ],
+    +       },
+    +     ],
+    +     "route": "/workspace#whole-document",
+    +   },
+    + ]
+
+      14 |   for(const route of routes){await page.goto(`/${locale}${route}`);await expect(page.locator('main h1').first()).toBeVisible();await page.addScriptTag({path:axe});const report=await page.evaluate('window.axe.run(document.querySelector("main"),{runOnly:{type:"tag",values:["wcag2a","wcag2aa","wcag21aa"]}})') as {violations:{id:string;impact:string;nodes:unknown[]}[]};reports.push({route,violations:report.violations});if(locale==='ar')copy.push({route,english:await page.locator('main').evaluate(main=>{const walker=document.createTreeWalker(main,NodeFilter.SHOW_TEXT);const result=[];let node;while((node=walker.nextNode())){const text=node.textContent?.replace(/\s+/g,' ').trim()??'';if(/[A-Za-z]{3}/.test(text)&&!node.parentElement?.closest('pre,code,script,input,textarea,[lang="en"],[aria-hidden="true"]'))result.push(text);}return [...new Set(result)];})});}
+      15 |   await page.goto(`/${locale}/workspace`);await page.addScriptTag({path:axe});const shell=await page.evaluate('window.axe.run(document,{runOnly:{type:"tag",values:["wcag2a","wcag2aa","wcag21aa"]}})') as {violations:{id:string;impact:string;nodes:unknown[]}[]};reports.push({route:'/workspace#whole-document',violations:shell.violations});
+    > 16 |   writeFileSync(`${output}/logs/axe-${info.project.name}-${locale}.json`,JSON.stringify(reports,null,2));if(locale==='ar')writeFileSync(`${output}/logs/copy-${info.project.name}-${locale}.json`,JSON.stringify(copy,null,2));expect(reports.flatMap(r=>r.violations.map(v=>({route:r.route,id:v.id,nodes:v.nodes}))), 'Active-screen WCAG A/AA violations').toEqual([]);
+         |                                                                                                                                                                                                                                                                                                                                                               ^
+      17 |  });
+      18 |  test(`final responsive ${locale}: tablet and narrow desktop`,async({page},info)=>{
+      19 |   test.skip(info.project.name==='mobile-chromium','The desktop project covers the additional widths.');test.setTimeout(180000);for(const width of [1024,768]){await page.setViewportSize({width,height:1000});for(const [name,route] of workflows){await page.goto(`/${locale}/workspace${route?'/'+route:''}`);await expect(page.locator('main h1')).toBeVisible();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),`${width}/${route}`).toBe(true);if(['dashboard','editor','marketplace','publishing','crm','campaign-create','branding','admin'].includes(name))await page.screenshot({path:`${output}/screenshots/${width}-${locale}-${name}.png`,fullPage:true,scale:'css'});}}
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/final-visual.spec.ts:16:351
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/final-visual-final-accessi-f7dc0-e-and-translation-inventory-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/final-visual-final-accessi-f7dc0-e-and-translation-inventory-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/final-visual-final-accessi-f7dc0-e-and-translation-inventory-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/final-visual-final-accessi-f7dc0-e-and-translation-inventory-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/e2e/final-visual.spec.ts:12:2 › final accessibility ar: every active page and translation inventory 
+
+    Error: Active-screen WCAG A/AA violations
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  -   1
+    + Received  + 304
+
+    - Array []
+    + Array [
+    +   Object {
+    +     "id": "color-contrast",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f5f6f2",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 3.61,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#79837d",
+    +               "fontSize": "7.5pt (10px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 3.61 (foreground color: #79837d, background color: #f5f6f2, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"agency-identity\"><span class=\"agency-monogram\">PG</span><span><strong>بيرل غيت العقارية</strong><small>مساحة وكالة تجريبية</small></span></div>",
+    +                 "target": Array [
+    +                   ".agency-identity",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 3.61 (foreground color: #79837d, background color: #f5f6f2, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<small>مساحة وكالة تجريبية</small>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".agency-identity > span:nth-child(2) > small",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#ffffff",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 2.55,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#9ba4a0",
+    +               "fontSize": "7.5pt (10px)",
+    +               "fontWeight": "bold",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 2.55 (foreground color: #9ba4a0, background color: #ffffff, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<aside class=\"prototype-sidebar \">",
+    +                 "target": Array [
+    +                   "aside",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 2.55 (foreground color: #9ba4a0, background color: #ffffff, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +         "html": "<div class=\"prototype-nav-heading\">إدارة العقارات</div>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".prototype-nav-group:nth-child(1) > .prototype-nav-heading",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#ffffff",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 2.55,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#9ba4a0",
+    +               "fontSize": "7.5pt (10px)",
+    +               "fontWeight": "bold",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 2.55 (foreground color: #9ba4a0, background color: #ffffff, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<aside class=\"prototype-sidebar \">",
+    +                 "target": Array [
+    +                   "aside",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 2.55 (foreground color: #9ba4a0, background color: #ffffff, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +         "html": "<div class=\"prototype-nav-heading\">مركز التكاملات</div>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".prototype-nav-group:nth-child(2) > .prototype-nav-heading",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#ffffff",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 2.55,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#9ba4a0",
+    +               "fontSize": "7.5pt (10px)",
+    +               "fontWeight": "bold",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 2.55 (foreground color: #9ba4a0, background color: #ffffff, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<aside class=\"prototype-sidebar \">",
+    +                 "target": Array [
+    +                   "aside",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 2.55 (foreground color: #9ba4a0, background color: #ffffff, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +         "html": "<div class=\"prototype-nav-heading\">النمو والتحليلات</div>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".prototype-nav-group:nth-child(3) > .prototype-nav-heading",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#ffffff",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 2.53,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#9ca59c",
+    +               "fontSize": "6.8pt (9px)",
+    +               "fontWeight": "bold",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 2.53 (foreground color: #9ca59c, background color: #ffffff, font size: 6.8pt (9px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<aside class=\"prototype-sidebar \">",
+    +                 "target": Array [
+    +                   "aside",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 2.53 (foreground color: #9ca59c, background color: #ffffff, font size: 6.8pt (9px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +         "html": "<span class=\"demo-environment\"><span class=\"demo-dot\"></span>النموذج التفاعلي فقط</span>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".demo-environment",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#fbfbf8",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 3.83,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#78827d",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 3.83 (foreground color: #78827d, background color: #fbfbf8, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<header class=\"prototype-topbar\">",
+    +                 "target": Array [
+    +                   ".prototype-topbar",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 3.83 (foreground color: #78827d, background color: #fbfbf8, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<span class=\"topbar-crumb\">بيرل غيت العقارية</span>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".topbar-crumb",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f6f6f2",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 2.42,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#99a29b",
+    +               "fontSize": "7.5pt (10px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 2.42 (foreground color: #99a29b, background color: #f6f6f2, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell\">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 2.42 (foreground color: #99a29b, background color: #f6f6f2, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<span>تجربة محلية خيالية · الباقات 179 / 725 / +1,800 ر.ق توضيحية بانتظار الموافقة. لا توجد خدمات خارجية متصلة.</span>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           "footer > span:nth-child(1)",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f6f6f2",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 2.42,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#99a29b",
+    +               "fontSize": "7.5pt (10px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 2.42 (foreground color: #99a29b, background color: #f6f6f2, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell\">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 2.42 (foreground color: #99a29b, background color: #f6f6f2, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<span>© 2026 ماكس برو · الإصدار الثالث المتوافق مع جيميني</span>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           "footer > span:nth-child(2)",
+    +         ],
+    +       },
+    +     ],
+    +     "route": "/workspace#whole-document",
+    +   },
+    + ]
+
+      14 |   for(const route of routes){await page.goto(`/${locale}${route}`);await expect(page.locator('main h1').first()).toBeVisible();await page.addScriptTag({path:axe});const report=await page.evaluate('window.axe.run(document.querySelector("main"),{runOnly:{type:"tag",values:["wcag2a","wcag2aa","wcag21aa"]}})') as {violations:{id:string;impact:string;nodes:unknown[]}[]};reports.push({route,violations:report.violations});if(locale==='ar')copy.push({route,english:await page.locator('main').evaluate(main=>{const walker=document.createTreeWalker(main,NodeFilter.SHOW_TEXT);const result=[];let node;while((node=walker.nextNode())){const text=node.textContent?.replace(/\s+/g,' ').trim()??'';if(/[A-Za-z]{3}/.test(text)&&!node.parentElement?.closest('pre,code,script,input,textarea,[lang="en"],[aria-hidden="true"]'))result.push(text);}return [...new Set(result)];})});}
+      15 |   await page.goto(`/${locale}/workspace`);await page.addScriptTag({path:axe});const shell=await page.evaluate('window.axe.run(document,{runOnly:{type:"tag",values:["wcag2a","wcag2aa","wcag21aa"]}})') as {violations:{id:string;impact:string;nodes:unknown[]}[]};reports.push({route:'/workspace#whole-document',violations:shell.violations});
+    > 16 |   writeFileSync(`${output}/logs/axe-${info.project.name}-${locale}.json`,JSON.stringify(reports,null,2));if(locale==='ar')writeFileSync(`${output}/logs/copy-${info.project.name}-${locale}.json`,JSON.stringify(copy,null,2));expect(reports.flatMap(r=>r.violations.map(v=>({route:r.route,id:v.id,nodes:v.nodes}))), 'Active-screen WCAG A/AA violations').toEqual([]);
+         |                                                                                                                                                                                                                                                                                                                                                               ^
+      17 |  });
+      18 |  test(`final responsive ${locale}: tablet and narrow desktop`,async({page},info)=>{
+      19 |   test.skip(info.project.name==='mobile-chromium','The desktop project covers the additional widths.');test.setTimeout(180000);for(const width of [1024,768]){await page.setViewportSize({width,height:1000});for(const [name,route] of workflows){await page.goto(`/${locale}/workspace${route?'/'+route:''}`);await expect(page.locator('main h1')).toBeVisible();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),`${width}/${route}`).toBe(true);if(['dashboard','editor','marketplace','publishing','crm','campaign-create','branding','admin'].includes(name))await page.screenshot({path:`${output}/screenshots/${width}-${locale}-${name}.png`,fullPage:true,scale:'css'});}}
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/final-visual.spec.ts:16:351
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/final-visual-final-accessi-b6916-e-and-translation-inventory-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/final-visual-final-accessi-b6916-e-and-translation-inventory-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/final-visual-final-accessi-b6916-e-and-translation-inventory-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/final-visual-final-accessi-b6916-e-and-translation-inventory-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [chromium] › tests/e2e/stability.spec.ts:52:2 › workflow en canonical edits, blocked and queued local dispatch 
+
+    Test timeout of 20000ms exceeded.
+
+    Error: page.screenshot: Test timeout of 20000ms exceeded.
+    Call log:
+      - taking page screenshot
+      - waiting for fonts to load...
+      - fonts loaded
+
+
+      85 |   await expect(page.getByText(localized("Queued locally",true),{exact:true})).toHaveCount(2);
+      86 |   await expect(page.getByText(localized("Blocked locally",true),{exact:true})).toHaveCount(2);
+    > 87 |   await page.screenshot({path:resolve(`../../artifacts/phase6/regression/phase1/regression-screenshots/${testInfo.project.name}-${locale}-history-with-jobs.png`),fullPage:true,scale:'css'});
+         |              ^
+      88 |   await page.getByRole('textbox',{name:localized("Search publishing activity")}).fill('Property Finder');
+      89 |   await expect(page.locator('tbody tr')).toHaveCount(2);
+      90 |  });
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/stability.spec.ts:87:14
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/stability-workflow-en-cano-9e3f7-d-and-queued-local-dispatch-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/stability-workflow-en-cano-9e3f7-d-and-queued-local-dispatch-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/stability-workflow-en-cano-9e3f7-d-and-queued-local-dispatch-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/stability-workflow-en-cano-9e3f7-d-and-queued-local-dispatch-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [chromium] › tests/e2e/stability.spec.ts:52:2 › workflow ar canonical edits, blocked and queued local dispatch 
+
+    Test timeout of 20000ms exceeded.
+
+    Error: locator.check: Test timeout of 20000ms exceeded.
+    Call log:
+      - waiting for getByRole('checkbox')
+        - locator resolved to <input type="checkbox"/>
+      - attempting click action
+        - waiting for element to be visible, enabled and stable
+
+
+      79 |   await page.getByRole('button',{name:localized(next,true),exact:true}).click();
+      80 |   await page.getByRole('button',{name:localized(next,true),exact:true}).click();
+    > 81 |   await page.getByRole('checkbox').check();
+         |                                    ^
+      82 |   await page.getByRole('button',{name:localized(next,true),exact:true}).click();
+      83 |   await page.getByRole('button',{name:localized(publish,true),exact:true}).click();
+      84 |   await page.goto(`/${locale}/workspace/hub/jobs`);
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/stability.spec.ts:81:36
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/stability-workflow-ar-cano-8ab6d-d-and-queued-local-dispatch-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/stability-workflow-ar-cano-8ab6d-d-and-queued-local-dispatch-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/stability-workflow-ar-cano-8ab6d-d-and-queued-local-dispatch-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/stability-workflow-ar-cano-8ab6d-d-and-queued-local-dispatch-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [chromium] › tests/e2e/stability.spec.ts:137:1 › media ordering, classification and watermark remain local 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  getByText(/(?:PEARL GATE · PREVIEW|PEARL GATE · PREVIEW)/)
+    Expected: 3
+    Received: 0
+    Timeout:  8000ms
+
+    Call log:
+      - Expect "toHaveCount" getByText(/(?:PEARL GATE · PREVIEW|PEARL GATE · PREVIEW)/) with timeout 8000ms
+      - waiting for getByText(/(?:PEARL GATE · PREVIEW|PEARL GATE · PREVIEW)/)
+        20 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      141 |  await page.getByRole('combobox',{name:localized('Room category for Sample hero photo')}).selectOption('Kitchen');
+      142 |  await page.getByRole('checkbox',{name:localized("Show sample agency watermark")}).check();
+    > 143 |  await expect(page.getByText(localized('PEARL GATE · PREVIEW'))).toHaveCount(3);
+          |                                                                  ^
+      144 | });
+      145 |
+      146 | test('lead routing, viewing requests and analytics controls work locally',async({page})=>{
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/stability.spec.ts:143:66
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/stability-media-ordering-c-6a413--and-watermark-remain-local-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/stability-media-ordering-c-6a413--and-watermark-remain-local-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/stability-media-ordering-c-6a413--and-watermark-remain-local-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/stability-media-ordering-c-6a413--and-watermark-remain-local-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [chromium] › tests/e2e/stability.spec.ts:205:2 › commercial ar admin examples match Gemini and provider names remain explicit 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByText(/^(?:QAR 1,800\+|\+1,800 ر\.ق)$/)
+    Expected: visible
+    Timeout: 8000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByText(/^(?:QAR 1,800\+|\+1,800 ر\.ق)$/) with timeout 8000ms
+      - waiting for getByText(/^(?:QAR 1,800\+|\+1,800 ر\.ق)$/)
+
+
+      208 |   await expect(page.getByText(localized('QAR 179',true),{exact:true})).toBeVisible();
+      209 |   await expect(page.getByText(localized('QAR 725',true),{exact:true})).toBeVisible();
+    > 210 |   await expect(page.getByText(localized("QAR 1,800+",true),{exact:true})).toBeVisible();
+          |                                                                           ^
+      211 |   for(const route of ['admin/integrations','notifications']){
+      212 |    await page.goto(`/${locale}/workspace/${route}`);
+      213 |    await expect(page.locator('main')).not.toContainText(/Portal [ABC]/);
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/stability.spec.ts:210:75
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/stability-commercial-ar-ad-1aff2-vider-names-remain-explicit-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/stability-commercial-ar-ad-1aff2-vider-names-remain-explicit-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/stability-commercial-ar-ad-1aff2-vider-names-remain-explicit-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/stability-commercial-ar-ad-1aff2-vider-names-remain-explicit-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  7) [mobile-chromium] › tests/e2e/final-visual.spec.ts:12:2 › final accessibility en: every active page and translation inventory 
+
+    Error: Active-screen WCAG A/AA violations
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  -  1
+    + Received  + 82
+
+    - Array []
+    + Array [
+    +   Object {
+    +     "id": "color-contrast",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f6f6f2",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 2.42,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#99a29b",
+    +               "fontSize": "7.5pt (10px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 2.42 (foreground color: #99a29b, background color: #f6f6f2, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell\">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 2.42 (foreground color: #99a29b, background color: #f6f6f2, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<span>Fictional local demo · plans QAR 179 / 725 / 1,800+ are illustrative pending approval. No external services connected.</span>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           "footer > span:nth-child(1)",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f6f6f2",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 2.42,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#99a29b",
+    +               "fontSize": "7.5pt (10px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 2.42 (foreground color: #99a29b, background color: #f6f6f2, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell\">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 2.42 (foreground color: #99a29b, background color: #f6f6f2, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<span>© 2026 MaxPro · Gemini-aligned v3</span>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           "footer > span:nth-child(2)",
+    +         ],
+    +       },
+    +     ],
+    +     "route": "/workspace#whole-document",
+    +   },
+    + ]
+
+      14 |   for(const route of routes){await page.goto(`/${locale}${route}`);await expect(page.locator('main h1').first()).toBeVisible();await page.addScriptTag({path:axe});const report=await page.evaluate('window.axe.run(document.querySelector("main"),{runOnly:{type:"tag",values:["wcag2a","wcag2aa","wcag21aa"]}})') as {violations:{id:string;impact:string;nodes:unknown[]}[]};reports.push({route,violations:report.violations});if(locale==='ar')copy.push({route,english:await page.locator('main').evaluate(main=>{const walker=document.createTreeWalker(main,NodeFilter.SHOW_TEXT);const result=[];let node;while((node=walker.nextNode())){const text=node.textContent?.replace(/\s+/g,' ').trim()??'';if(/[A-Za-z]{3}/.test(text)&&!node.parentElement?.closest('pre,code,script,input,textarea,[lang="en"],[aria-hidden="true"]'))result.push(text);}return [...new Set(result)];})});}
+      15 |   await page.goto(`/${locale}/workspace`);await page.addScriptTag({path:axe});const shell=await page.evaluate('window.axe.run(document,{runOnly:{type:"tag",values:["wcag2a","wcag2aa","wcag21aa"]}})') as {violations:{id:string;impact:string;nodes:unknown[]}[]};reports.push({route:'/workspace#whole-document',violations:shell.violations});
+    > 16 |   writeFileSync(`${output}/logs/axe-${info.project.name}-${locale}.json`,JSON.stringify(reports,null,2));if(locale==='ar')writeFileSync(`${output}/logs/copy-${info.project.name}-${locale}.json`,JSON.stringify(copy,null,2));expect(reports.flatMap(r=>r.violations.map(v=>({route:r.route,id:v.id,nodes:v.nodes}))), 'Active-screen WCAG A/AA violations').toEqual([]);
+         |                                                                                                                                                                                                                                                                                                                                                               ^
+      17 |  });
+      18 |  test(`final responsive ${locale}: tablet and narrow desktop`,async({page},info)=>{
+      19 |   test.skip(info.project.name==='mobile-chromium','The desktop project covers the additional widths.');test.setTimeout(180000);for(const width of [1024,768]){await page.setViewportSize({width,height:1000});for(const [name,route] of workflows){await page.goto(`/${locale}/workspace${route?'/'+route:''}`);await expect(page.locator('main h1')).toBeVisible();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),`${width}/${route}`).toBe(true);if(['dashboard','editor','marketplace','publishing','crm','campaign-create','branding','admin'].includes(name))await page.screenshot({path:`${output}/screenshots/${width}-${locale}-${name}.png`,fullPage:true,scale:'css'});}}
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/final-visual.spec.ts:16:351
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/final-visual-final-accessi-f7dc0-e-and-translation-inventory-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/final-visual-final-accessi-f7dc0-e-and-translation-inventory-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/final-visual-final-accessi-f7dc0-e-and-translation-inventory-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/final-visual-final-accessi-f7dc0-e-and-translation-inventory-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8) [mobile-chromium] › tests/e2e/final-visual.spec.ts:12:2 › final accessibility ar: every active page and translation inventory 
+
+    Error: Active-screen WCAG A/AA violations
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  -  1
+    + Received  + 45
+
+    - Array []
+    + Array [
+    +   Object {
+    +     "id": "color-contrast",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f6f6f2",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 2.42,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#99a29b",
+    +               "fontSize": "7.5pt (10px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 2.42 (foreground color: #99a29b, background color: #f6f6f2, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell\">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 2.42 (foreground color: #99a29b, background color: #f6f6f2, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<span>© 2026 ماكس برو · الإصدار الثالث المتوافق مع جيميني</span>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           "footer > span:nth-child(2)",
+    +         ],
+    +       },
+    +     ],
+    +     "route": "/workspace#whole-document",
+    +   },
+    + ]
+
+      14 |   for(const route of routes){await page.goto(`/${locale}${route}`);await expect(page.locator('main h1').first()).toBeVisible();await page.addScriptTag({path:axe});const report=await page.evaluate('window.axe.run(document.querySelector("main"),{runOnly:{type:"tag",values:["wcag2a","wcag2aa","wcag21aa"]}})') as {violations:{id:string;impact:string;nodes:unknown[]}[]};reports.push({route,violations:report.violations});if(locale==='ar')copy.push({route,english:await page.locator('main').evaluate(main=>{const walker=document.createTreeWalker(main,NodeFilter.SHOW_TEXT);const result=[];let node;while((node=walker.nextNode())){const text=node.textContent?.replace(/\s+/g,' ').trim()??'';if(/[A-Za-z]{3}/.test(text)&&!node.parentElement?.closest('pre,code,script,input,textarea,[lang="en"],[aria-hidden="true"]'))result.push(text);}return [...new Set(result)];})});}
+      15 |   await page.goto(`/${locale}/workspace`);await page.addScriptTag({path:axe});const shell=await page.evaluate('window.axe.run(document,{runOnly:{type:"tag",values:["wcag2a","wcag2aa","wcag21aa"]}})') as {violations:{id:string;impact:string;nodes:unknown[]}[]};reports.push({route:'/workspace#whole-document',violations:shell.violations});
+    > 16 |   writeFileSync(`${output}/logs/axe-${info.project.name}-${locale}.json`,JSON.stringify(reports,null,2));if(locale==='ar')writeFileSync(`${output}/logs/copy-${info.project.name}-${locale}.json`,JSON.stringify(copy,null,2));expect(reports.flatMap(r=>r.violations.map(v=>({route:r.route,id:v.id,nodes:v.nodes}))), 'Active-screen WCAG A/AA violations').toEqual([]);
+         |                                                                                                                                                                                                                                                                                                                                                               ^
+      17 |  });
+      18 |  test(`final responsive ${locale}: tablet and narrow desktop`,async({page},info)=>{
+      19 |   test.skip(info.project.name==='mobile-chromium','The desktop project covers the additional widths.');test.setTimeout(180000);for(const width of [1024,768]){await page.setViewportSize({width,height:1000});for(const [name,route] of workflows){await page.goto(`/${locale}/workspace${route?'/'+route:''}`);await expect(page.locator('main h1')).toBeVisible();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),`${width}/${route}`).toBe(true);if(['dashboard','editor','marketplace','publishing','crm','campaign-create','branding','admin'].includes(name))await page.screenshot({path:`${output}/screenshots/${width}-${locale}-${name}.png`,fullPage:true,scale:'css'});}}
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/final-visual.spec.ts:16:351
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/final-visual-final-accessi-b6916-e-and-translation-inventory-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/final-visual-final-accessi-b6916-e-and-translation-inventory-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/final-visual-final-accessi-b6916-e-and-translation-inventory-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/final-visual-final-accessi-b6916-e-and-translation-inventory-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  9) [mobile-chromium] › tests/e2e/stability.spec.ts:137:1 › media ordering, classification and watermark remain local 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  getByText(/(?:PEARL GATE · PREVIEW|PEARL GATE · PREVIEW)/)
+    Expected: 3
+    Received: 0
+    Timeout:  8000ms
+
+    Call log:
+      - Expect "toHaveCount" getByText(/(?:PEARL GATE · PREVIEW|PEARL GATE · PREVIEW)/) with timeout 8000ms
+      - waiting for getByText(/(?:PEARL GATE · PREVIEW|PEARL GATE · PREVIEW)/)
+        20 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      141 |  await expect(page.locator('.gm-media-card').first()).toContainText(localized('Sample bedroom'));
+      142 |  await page.getByRole('combobox',{name:localized('Room category for Sample hero photo')}).selectOption('Kitchen');
+    > 143 |  await page.getByRole('checkbox',{name:localized("Show sample agency watermark")}).check();
+          |                                                                  ^
+      144 |  await expect(page.getByText(localized('Pearl Gate Realty · PREVIEW'))).toHaveCount(3);
+      145 | });
+      146 |
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/stability.spec.ts:143:66
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/stability-media-ordering-c-6a413--and-watermark-remain-local-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/stability-media-ordering-c-6a413--and-watermark-remain-local-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/stability-media-ordering-c-6a413--and-watermark-remain-local-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/stability-media-ordering-c-6a413--and-watermark-remain-local-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  10) [mobile-chromium] › tests/e2e/stability.spec.ts:205:2 › commercial ar admin examples match Gemini and provider names remain explicit 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByText(/^(?:QAR 1,800\+|\+1,800 ر\.ق)$/)
+    Expected: visible
+    Timeout: 8000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByText(/^(?:QAR 1,800\+|\+1,800 ر\.ق)$/) with timeout 8000ms
+      - waiting for getByText(/^(?:QAR 1,800\+|\+1,800 ر\.ق)$/)
+
+
+      208 |   await expect(page.locator('tbody tr')).toHaveCount(3);
+      209 |   await expect(page.getByText(localized('QAR 179',true),{exact:true})).toBeVisible();
+    > 210 |   await expect(page.getByText(localized('QAR 725',true),{exact:true})).toBeVisible();
+          |                                                                           ^
+      211 |   await expect(page.getByText(/^(?:QAR 1,800\+|ر\.ق 1,800\+|\+1,800 ر\.ق)$/,{exact:true})).toBeVisible();
+      212 |   for(const route of ['admin/integrations','notifications']){
+      213 |    await page.goto(`/${locale}/workspace/${route}`);
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/stability.spec.ts:210:75
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/stability-commercial-ar-ad-1aff2-vider-names-remain-explicit-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/stability-commercial-ar-ad-1aff2-vider-names-remain-explicit-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/stability-commercial-ar-ad-1aff2-vider-names-remain-explicit-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/stability-commercial-ar-ad-1aff2-vider-names-remain-explicit-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  10 failed
+    [chromium] › tests/e2e/final-visual.spec.ts:12:2 › final accessibility en: every active page and translation inventory 
+    [chromium] › tests/e2e/final-visual.spec.ts:12:2 › final accessibility ar: every active page and translation inventory 
+    [chromium] › tests/e2e/stability.spec.ts:52:2 › workflow en canonical edits, blocked and queued local dispatch 
+    [chromium] › tests/e2e/stability.spec.ts:52:2 › workflow ar canonical edits, blocked and queued local dispatch 
+    [chromium] › tests/e2e/stability.spec.ts:137:1 › media ordering, classification and watermark remain local 
+    [chromium] › tests/e2e/stability.spec.ts:205:2 › commercial ar admin examples match Gemini and provider names remain explicit 
+    [mobile-chromium] › tests/e2e/final-visual.spec.ts:12:2 › final accessibility en: every active page and translation inventory 
+    [mobile-chromium] › tests/e2e/final-visual.spec.ts:12:2 › final accessibility ar: every active page and translation inventory 
+    [mobile-chromium] › tests/e2e/stability.spec.ts:137:1 › media ordering, classification and watermark remain local 
+    [mobile-chromium] › tests/e2e/stability.spec.ts:205:2 › commercial ar admin examples match Gemini and provider names remain explicit 
+  22 passed (2.8m)
+ ELIFECYCLE  Command failed with exit code 1.

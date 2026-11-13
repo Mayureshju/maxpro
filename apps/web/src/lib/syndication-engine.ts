@@ -1,5 +1,5 @@
 import {getConnector,portalDestinationIds,type ConnectorId,type PlanId} from './gemini-product';
-import {effectivePlan,type OrganizationRepository} from './organization-engine';
+import {activeOrganizationId,effectivePlan,type OrganizationRepository} from './organization-engine';
 import {mapProperty} from './connector-engine';
 import {type CanonicalProperty,type DemoJob} from './canonical-property';
 export type PublishingState={organization?:OrganizationRepository;plan:PlanId;preparedConnectors:ConnectorId[];jobs:DemoJob[];properties:Record<string,CanonicalProperty>};
@@ -21,7 +21,7 @@ export function publishingQuotaErrors(state:PublishingState,id:string,selected:C
  if(state.plan==='starter'&&selected.includes('meta-catalog'))errors.push('Starter does not include the illustrative Meta catalogue entitlement.');
  return errors;
 }
-export function approvalContext(s:PublishingState,p:CanonicalProperty,selected:ConnectorId[]){return JSON.stringify([p.id,p.revision,selected,s.plan,effectivePlan(s),s.preparedConnectors,selected.map(id=>getConnector(id).mappingVersion)]);}
+export function approvalContext(s:PublishingState,p:CanonicalProperty,selected:ConnectorId[]){return JSON.stringify([p.organizationId,p.id,p.revision,selected,s.plan,effectivePlan(s),s.preparedConnectors,selected.map(id=>getConnector(id).mappingVersion)]);}
 export function destinationReadiness(s:PublishingState,p:CanonicalProperty,id:ConnectorId){
  const mapping=mapProperty(p,id);const setup=[...(s.preparedConnectors.includes(id)?[]:['Demo connector setup missing']),...(getConnector(id).eligibility==='confirmation-required'?['Partner and country eligibility confirmation']:[])];
  const review=s.organization?.reviews.find(r=>r.propertyId===p.id);const moderation=review&&(review.status!=='approved-demo'||review.propertyRevision!==p.revision)?['Local moderation requires current-revision approval (demo only)']:[];
@@ -34,7 +34,7 @@ export const validDestinations=(ids:ConnectorId[])=>ids.length>0&&new Set(ids).s
 /** Shared command guard, used again at mutation time; UI controls are not authority. */
 export function publicationCommandError(s:PublishingState,id:string,revision:number,selected:ConnectorId[],approved:boolean,context:string,excludeJob?:string):string|null{
  const p=Object.hasOwn(s.properties,id)?s.properties[id]:undefined;
- if(!p||p.revision!==revision)return 'Property changed. Review the current revision again.';
+ if(!p||p.organizationId!==activeOrganizationId(s.organization)||p.revision!==revision)return 'Property changed. Review the current revision again.';
  if(!validDestinations(selected)||!approved||context!==approvalContext(s,p,selected))return 'Review and approve the current property, destinations and setup before simulation.';
  return publishingQuotaErrors(s,id,selected,excludeJob).join(' ')||null;
 }

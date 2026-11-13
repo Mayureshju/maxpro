@@ -77,20 +77,21 @@ function readInput(v: unknown, p: CanonicalProperty): CampaignInput | null {
           sampleKey: null,
         })),
     ],
-  }).length
+  }, p.organizationId).length
     ? null
     : i;
 }
 function readCampaign(
   v: unknown,
   properties: Record<string, CanonicalProperty>,
+  organizationId: string = demoOrganizationId,
 ): Campaign | null {
   if (
     !isRecord(v) ||
     v.version !== 1 ||
     !text(v.id, 100) ||
     !/^DEMO-CAMPAIGN-[a-f0-9-]{36}$/.test(v.id) ||
-    v.organizationId !== demoOrganizationId ||
+    v.organizationId !== organizationId ||
     !integer(v.revision) ||
     !integer(v.propertyRevision) ||
     !at(v.createdAt) ||
@@ -104,7 +105,7 @@ function readCampaign(
     return null;
   const p = properties[v.input.propertyId];
   if (
-    p.organizationId !== demoOrganizationId ||
+    p.organizationId !== organizationId ||
     v.propertyRevision > p.revision
   )
     return null;
@@ -269,7 +270,7 @@ function readCampaign(
   let restored: Campaign = {
     version: 1,
     id: c.id,
-    organizationId: demoOrganizationId,
+    organizationId,
     revision: c.revision,
     propertyRevision: c.propertyRevision,
     input,
@@ -306,7 +307,7 @@ function readCampaign(
   if (
     !["draft", "cancelled", "rejected"].includes(status) &&
     restored.propertyRevision === p.revision &&
-    campaignBlockers({ properties, plan: "agency" }, restored).length
+    campaignBlockers({ properties, plan: "agency" }, restored, organizationId).length
   )
     return null;
   if (restored.propertyRevision !== p.revision)
@@ -323,6 +324,7 @@ export function restoreCampaigns(
   version: unknown,
   properties: Record<string, CanonicalProperty>,
   crm?: CrmRepository,
+  organizationId: string = demoOrganizationId,
 ): { campaigns: Campaign[]; corrupt: boolean } {
   if (value === undefined && version === undefined)
     return { campaigns: [], corrupt: false };
@@ -331,7 +333,7 @@ export function restoreCampaigns(
   const campaigns: Campaign[] = [];
   let corrupt = false;
   for (const v of value) {
-    const c = readCampaign(v, properties);
+    const c = readCampaign(v, properties, organizationId);
     if (c && !campaigns.some((x) => x.id === c.id)) {
       if (crm) {
         const validCosts = c.spend.filter(

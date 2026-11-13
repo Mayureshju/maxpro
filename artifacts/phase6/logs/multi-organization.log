@@ -1,0 +1,182 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test final-acceptance.spec.ts
+
+[WebServer] (node:15181) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:15205) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 6 tests using 2 workers
+
+(node:15212) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:15211) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  2 [chromium] › tests/e2e/final-acceptance.spec.ts:12:1 › final acceptance: independent organization command slices, guards and linked records (1.9s)
+  ✓  1 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:12:1 › final acceptance: independent organization command slices, guards and linked records (2.0s)
+  ✘  3 [chromium] › tests/e2e/final-acceptance.spec.ts:26:33 › final acceptance en: organization switching, reload and unknown-record recovery (9.2s)
+  ✘  4 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:26:33 › final acceptance en: organization switching, reload and unknown-record recovery (9.4s)
+(node:15424) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:15425) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  5 [chromium] › tests/e2e/final-acceptance.spec.ts:26:33 › final acceptance ar: organization switching, reload and unknown-record recovery (10.1s)
+  ✘  6 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:26:33 › final acceptance ar: organization switching, reload and unknown-record recovery (10.3s)
+
+
+  1) [chromium] › tests/e2e/final-acceptance.spec.ts:26:33 › final acceptance en: organization switching, reload and unknown-record recovery 
+
+    Error: expect(page).toHaveURL(expected) failed
+
+    Expected pattern: /\/inventory\/DEMO-[a-f0-9-]+\/edit/
+    Received string:  "http://127.0.0.1:3106/en/workspace/inventory/new"
+    Timeout: 8000ms
+
+    Call log:
+      - Expect "toHaveURL" with timeout 8000ms
+        20 × locator resolved to <html lang="en" dir="ltr">…</html>
+           - unexpected value "http://127.0.0.1:3106/en/workspace/inventory/new"
+
+
+      26 | for(const locale of ['en','ar'])test(`final acceptance ${locale}: organization switching, reload and unknown-record recovery`,async({page})=>{
+      27 |  await page.goto(`/${locale}/workspace/organization/new`);await page.getByRole('textbox',{name:localized("Organization name"),exact:true}).fill('Demo Independent Agency');await page.getByRole('button',{name:/Create local organization|إنشاء مؤسسة محلية/}).click();let s=await page.evaluate(k=>JSON.parse(localStorage.getItem(k)!),key) as DemoState;const id=s.organization.organizations.find(o=>o.name==='Demo Independent Agency')!.id;
+    > 28 |  await page.getByRole('combobox',{name:localized("Demo organization"),exact:true}).selectOption(id);await expect(page).toHaveURL(new RegExp(`/${locale}/workspace$`));await page.goto(`/${locale}/workspace/inventory`);await expect(page.locator('main')).not.toContainText('AQ-10233');await page.goto(`/${locale}/workspace/inventory/new`);await expect(page).toHaveURL(/\/inventory\/DEMO-[a-f0-9-]+\/edit/);s=await page.evaluate(k=>JSON.parse(localStorage.getItem(k)!),key);const propertyId=Object.keys(s.properties)[0];expect(s.properties[propertyId].organizationId).toBe(id);await page.reload();await expect(page.getByRole('combobox',{name:localized("Demo organization"),exact:true})).toHaveValue(id);
+         |                                                                                                                                                                                                                                                                                                                                                                   ^
+      29 |  await page.goto(`/${locale}/workspace/inventory/AQ-10233/edit`);await expect(page.locator('main')).toContainText(/not found|unavailable|غير موجود|غير متاح/);await page.getByRole('combobox',{name:localized("Demo organization"),exact:true}).selectOption(demoOrganizationId);await page.goto(`/${locale}/workspace/inventory`);await expect(page.locator('main')).toContainText('AQ-10233');await page.getByRole('combobox',{name:localized("Demo organization"),exact:true}).selectOption(id);await page.reload();s=await page.evaluate(k=>JSON.parse(localStorage.getItem(k)!),key);expect(Object.keys(s.properties)).toEqual([propertyId]);expect(s.crm.leads).toHaveLength(0);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);
+      30 | });
+      31 |
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/final-acceptance.spec.ts:28:355
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/final-acceptance-final-acc-8a2ce-and-unknown-record-recovery-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/final-acceptance-final-acc-8a2ce-and-unknown-record-recovery-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/final-acceptance-final-acc-8a2ce-and-unknown-record-recovery-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/final-acceptance-final-acc-8a2ce-and-unknown-record-recovery-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/e2e/final-acceptance.spec.ts:26:33 › final acceptance ar: organization switching, reload and unknown-record recovery 
+
+    Error: expect(page).toHaveURL(expected) failed
+
+    Expected pattern: /\/inventory\/DEMO-[a-f0-9-]+\/edit/
+    Received string:  "http://127.0.0.1:3106/ar/workspace/inventory/new"
+    Timeout: 8000ms
+
+    Call log:
+      - Expect "toHaveURL" with timeout 8000ms
+        20 × locator resolved to <html lang="ar" dir="rtl">…</html>
+           - unexpected value "http://127.0.0.1:3106/ar/workspace/inventory/new"
+
+
+      26 | for(const locale of ['en','ar'])test(`final acceptance ${locale}: organization switching, reload and unknown-record recovery`,async({page})=>{
+      27 |  await page.goto(`/${locale}/workspace/organization/new`);await page.getByRole('textbox',{name:localized("Organization name"),exact:true}).fill('Demo Independent Agency');await page.getByRole('button',{name:/Create local organization|إنشاء مؤسسة محلية/}).click();let s=await page.evaluate(k=>JSON.parse(localStorage.getItem(k)!),key) as DemoState;const id=s.organization.organizations.find(o=>o.name==='Demo Independent Agency')!.id;
+    > 28 |  await page.getByRole('combobox',{name:localized("Demo organization"),exact:true}).selectOption(id);await expect(page).toHaveURL(new RegExp(`/${locale}/workspace$`));await page.goto(`/${locale}/workspace/inventory`);await expect(page.locator('main')).not.toContainText('AQ-10233');await page.goto(`/${locale}/workspace/inventory/new`);await expect(page).toHaveURL(/\/inventory\/DEMO-[a-f0-9-]+\/edit/);s=await page.evaluate(k=>JSON.parse(localStorage.getItem(k)!),key);const propertyId=Object.keys(s.properties)[0];expect(s.properties[propertyId].organizationId).toBe(id);await page.reload();await expect(page.getByRole('combobox',{name:localized("Demo organization"),exact:true})).toHaveValue(id);
+         |                                                                                                                                                                                                                                                                                                                                                                   ^
+      29 |  await page.goto(`/${locale}/workspace/inventory/AQ-10233/edit`);await expect(page.locator('main')).toContainText(/not found|unavailable|غير موجود|غير متاح/);await page.getByRole('combobox',{name:localized("Demo organization"),exact:true}).selectOption(demoOrganizationId);await page.goto(`/${locale}/workspace/inventory`);await expect(page.locator('main')).toContainText('AQ-10233');await page.getByRole('combobox',{name:localized("Demo organization"),exact:true}).selectOption(id);await page.reload();s=await page.evaluate(k=>JSON.parse(localStorage.getItem(k)!),key);expect(Object.keys(s.properties)).toEqual([propertyId]);expect(s.crm.leads).toHaveLength(0);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);
+      30 | });
+      31 |
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/final-acceptance.spec.ts:28:355
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/final-acceptance-final-acc-ec8c3-and-unknown-record-recovery-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/final-acceptance-final-acc-ec8c3-and-unknown-record-recovery-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/final-acceptance-final-acc-ec8c3-and-unknown-record-recovery-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/final-acceptance-final-acc-ec8c3-and-unknown-record-recovery-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:26:33 › final acceptance en: organization switching, reload and unknown-record recovery 
+
+    Error: expect(page).toHaveURL(expected) failed
+
+    Expected pattern: /\/inventory\/DEMO-[a-f0-9-]+\/edit/
+    Received string:  "http://127.0.0.1:3106/en/workspace/inventory/new"
+    Timeout: 8000ms
+
+    Call log:
+      - Expect "toHaveURL" with timeout 8000ms
+        20 × locator resolved to <html lang="en" dir="ltr">…</html>
+           - unexpected value "http://127.0.0.1:3106/en/workspace/inventory/new"
+
+
+      26 | for(const locale of ['en','ar'])test(`final acceptance ${locale}: organization switching, reload and unknown-record recovery`,async({page})=>{
+      27 |  await page.goto(`/${locale}/workspace/organization/new`);await page.getByRole('textbox',{name:localized("Organization name"),exact:true}).fill('Demo Independent Agency');await page.getByRole('button',{name:/Create local organization|إنشاء مؤسسة محلية/}).click();let s=await page.evaluate(k=>JSON.parse(localStorage.getItem(k)!),key) as DemoState;const id=s.organization.organizations.find(o=>o.name==='Demo Independent Agency')!.id;
+    > 28 |  await page.getByRole('combobox',{name:localized("Demo organization"),exact:true}).selectOption(id);await expect(page).toHaveURL(new RegExp(`/${locale}/workspace$`));await page.goto(`/${locale}/workspace/inventory`);await expect(page.locator('main')).not.toContainText('AQ-10233');await page.goto(`/${locale}/workspace/inventory/new`);await expect(page).toHaveURL(/\/inventory\/DEMO-[a-f0-9-]+\/edit/);s=await page.evaluate(k=>JSON.parse(localStorage.getItem(k)!),key);const propertyId=Object.keys(s.properties)[0];expect(s.properties[propertyId].organizationId).toBe(id);await page.reload();await expect(page.getByRole('combobox',{name:localized("Demo organization"),exact:true})).toHaveValue(id);
+         |                                                                                                                                                                                                                                                                                                                                                                   ^
+      29 |  await page.goto(`/${locale}/workspace/inventory/AQ-10233/edit`);await expect(page.locator('main')).toContainText(/not found|unavailable|غير موجود|غير متاح/);await page.getByRole('combobox',{name:localized("Demo organization"),exact:true}).selectOption(demoOrganizationId);await page.goto(`/${locale}/workspace/inventory`);await expect(page.locator('main')).toContainText('AQ-10233');await page.getByRole('combobox',{name:localized("Demo organization"),exact:true}).selectOption(id);await page.reload();s=await page.evaluate(k=>JSON.parse(localStorage.getItem(k)!),key);expect(Object.keys(s.properties)).toEqual([propertyId]);expect(s.crm.leads).toHaveLength(0);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);
+      30 | });
+      31 |
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/final-acceptance.spec.ts:28:355
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/final-acceptance-final-acc-8a2ce-and-unknown-record-recovery-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/final-acceptance-final-acc-8a2ce-and-unknown-record-recovery-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/final-acceptance-final-acc-8a2ce-and-unknown-record-recovery-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/final-acceptance-final-acc-8a2ce-and-unknown-record-recovery-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:26:33 › final acceptance ar: organization switching, reload and unknown-record recovery 
+
+    Error: expect(page).toHaveURL(expected) failed
+
+    Expected pattern: /\/inventory\/DEMO-[a-f0-9-]+\/edit/
+    Received string:  "http://127.0.0.1:3106/ar/workspace/inventory/new"
+    Timeout: 8000ms
+
+    Call log:
+      - Expect "toHaveURL" with timeout 8000ms
+        20 × locator resolved to <html lang="ar" dir="rtl">…</html>
+           - unexpected value "http://127.0.0.1:3106/ar/workspace/inventory/new"
+
+
+      26 | for(const locale of ['en','ar'])test(`final acceptance ${locale}: organization switching, reload and unknown-record recovery`,async({page})=>{
+      27 |  await page.goto(`/${locale}/workspace/organization/new`);await page.getByRole('textbox',{name:localized("Organization name"),exact:true}).fill('Demo Independent Agency');await page.getByRole('button',{name:/Create local organization|إنشاء مؤسسة محلية/}).click();let s=await page.evaluate(k=>JSON.parse(localStorage.getItem(k)!),key) as DemoState;const id=s.organization.organizations.find(o=>o.name==='Demo Independent Agency')!.id;
+    > 28 |  await page.getByRole('combobox',{name:localized("Demo organization"),exact:true}).selectOption(id);await expect(page).toHaveURL(new RegExp(`/${locale}/workspace$`));await page.goto(`/${locale}/workspace/inventory`);await expect(page.locator('main')).not.toContainText('AQ-10233');await page.goto(`/${locale}/workspace/inventory/new`);await expect(page).toHaveURL(/\/inventory\/DEMO-[a-f0-9-]+\/edit/);s=await page.evaluate(k=>JSON.parse(localStorage.getItem(k)!),key);const propertyId=Object.keys(s.properties)[0];expect(s.properties[propertyId].organizationId).toBe(id);await page.reload();await expect(page.getByRole('combobox',{name:localized("Demo organization"),exact:true})).toHaveValue(id);
+         |                                                                                                                                                                                                                                                                                                                                                                   ^
+      29 |  await page.goto(`/${locale}/workspace/inventory/AQ-10233/edit`);await expect(page.locator('main')).toContainText(/not found|unavailable|غير موجود|غير متاح/);await page.getByRole('combobox',{name:localized("Demo organization"),exact:true}).selectOption(demoOrganizationId);await page.goto(`/${locale}/workspace/inventory`);await expect(page.locator('main')).toContainText('AQ-10233');await page.getByRole('combobox',{name:localized("Demo organization"),exact:true}).selectOption(id);await page.reload();s=await page.evaluate(k=>JSON.parse(localStorage.getItem(k)!),key);expect(Object.keys(s.properties)).toEqual([propertyId]);expect(s.crm.leads).toHaveLength(0);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);
+      30 | });
+      31 |
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/final-acceptance.spec.ts:28:355
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/final-acceptance-final-acc-ec8c3-and-unknown-record-recovery-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/final-acceptance-final-acc-ec8c3-and-unknown-record-recovery-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/final-acceptance-final-acc-ec8c3-and-unknown-record-recovery-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/final-acceptance-final-acc-ec8c3-and-unknown-record-recovery-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4 failed
+    [chromium] › tests/e2e/final-acceptance.spec.ts:26:33 › final acceptance en: organization switching, reload and unknown-record recovery 
+    [chromium] › tests/e2e/final-acceptance.spec.ts:26:33 › final acceptance ar: organization switching, reload and unknown-record recovery 
+    [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:26:33 › final acceptance en: organization switching, reload and unknown-record recovery 
+    [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:26:33 › final acceptance ar: organization switching, reload and unknown-record recovery 
+  2 passed (24.2s)
+ ELIFECYCLE  Command failed with exit code 1.

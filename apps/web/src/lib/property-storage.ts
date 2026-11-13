@@ -14,8 +14,8 @@ export function readFacts(v:unknown,legacy=false):CanonicalDraft|null{
  if(!['rent','sale'].includes(String(value.purpose))||!['month','year'].includes(String(value.rentalFrequency)))return null;
  return Object.fromEntries(Object.keys(blankFacts).map(k=>[k,value[k]])) as CanonicalDraft;
 }
-export function readProperty(v:unknown):CanonicalProperty|null{
- if(!isRecord(v)||!validId(v.id)||v.organizationId!==demoOrganizationId||!integer(v.revision)||!['draft','reviewed','archived'].includes(String(v.status))||!date(v.createdAt)||!date(v.updatedAt))return null;
+export function readProperty(v:unknown,organizationId:string=demoOrganizationId):CanonicalProperty|null{
+ if(!isRecord(v)||!validId(v.id)||v.organizationId!==organizationId||!integer(v.revision)||!['draft','reviewed','archived'].includes(String(v.status))||!date(v.createdAt)||!date(v.updatedAt))return null;
  const facts=readFacts(v.facts);const s=v.source;const proposal=v.proposal;
  if(!Number.isInteger(v.studioStage)||Number(v.studioStage)<0||Number(v.studioStage)>5)return null;
  if(!facts||!isRecord(s)||!['manual','text','document','voice','sample'].includes(String(s.kind))||!textValue(s.notes)||typeof s.factsReviewed!=='boolean'||typeof s.copyReviewed!=='boolean'||!(s.reviewedAt===null||date(s.reviewedAt))||!isRecord(proposal)||!textValue(proposal.descriptionEn)||!textValue(proposal.descriptionAr)||typeof v.watermark!=='boolean')return null;
@@ -33,13 +33,13 @@ export function readProperty(v:unknown):CanonicalProperty|null{
  if(new Set(history.map(e=>e.revision)).size!==history.length)return null;
  const publications:CanonicalProperty['publications']=[];
  for(const r of v.publications){if(!isRecord(r)||!textValue(r.jobId,100)||!isConnector(r.destination)||!integer(r.propertyRevision)||r.propertyRevision>v.revision||r.externalReference!==null)return null;publications.push({jobId:r.jobId,destination:r.destination,propertyRevision:r.propertyRevision,externalReference:null});}
- return {id:v.id,organizationId:demoOrganizationId,revision:v.revision,status:v.status as CanonicalProperty['status'],createdAt:v.createdAt,updatedAt:v.updatedAt,facts,source:{kind:s.kind as CanonicalProperty['source']['kind'],notes:s.notes,factsReviewed:s.factsReviewed,copyReviewed:s.copyReviewed,reviewedAt:s.reviewedAt as string|null},proposal:{descriptionEn:proposal.descriptionEn,descriptionAr:proposal.descriptionAr},media:media.sort((a,b)=>a.order-b.order).map((a,i)=>({...a,order:i})),watermark:v.watermark,studioStage:Number(v.studioStage),history,publications};
+ return {id:v.id,organizationId,revision:v.revision,status:v.status as CanonicalProperty['status'],createdAt:v.createdAt,updatedAt:v.updatedAt,facts,source:{kind:s.kind as CanonicalProperty['source']['kind'],notes:s.notes,factsReviewed:s.factsReviewed,copyReviewed:s.copyReviewed,reviewedAt:s.reviewedAt as string|null},proposal:{descriptionEn:proposal.descriptionEn,descriptionAr:proposal.descriptionAr},media:media.sort((a,b)=>a.order-b.order).map((a,i)=>({...a,order:i})),watermark:v.watermark,studioStage:Number(v.studioStage),history,publications};
 }
-export function readJob(v:unknown,properties:Record<string,CanonicalProperty>,legacy=false,extended=false):DemoJob|null{
+export function readJob(v:unknown,properties:Record<string,CanonicalProperty>,legacy=false,extended=false,organizationId:string=demoOrganizationId):DemoJob|null{
  if(!isRecord(v)||!textValue(v.id,100)||!validId(v.listingId)||!Object.hasOwn(properties,v.listingId)||!isConnector(v.destination)||!['queued-demo','blocked-demo','cancelled-demo'].includes(String(v.status))||!strings(v.missing)||!date(v.at))return null;
  if((v.status==='queued-demo'&&v.missing.length!==0)||(v.status==='blocked-demo'&&v.missing.length===0))return null;
  const revision=legacy?properties[v.listingId].revision:v.propertyRevision;
- if(!integer(revision)||revision>properties[v.listingId].revision||(!legacy&&v.organizationId!==demoOrganizationId))return null;
+ if(!integer(revision)||revision>properties[v.listingId].revision||(!legacy&&v.organizationId!==organizationId))return null;
  extended=extended&&!(v.mappingVersion===undefined&&v.attempts===undefined);
  const status=v.status as DemoJob['status'];const mappingVersion=extended?v.mappingVersion:`legacy-${getConnector(v.destination).mappingVersion}`;
  if(!textValue(mappingVersion,100))return null;
@@ -54,5 +54,5 @@ export function readJob(v:unknown,properties:Record<string,CanonicalProperty>,le
   const last=attempts.at(-1)!;
   if(last.at!==v.at||last.status!==status||last.propertyRevision!==revision||last.mappingVersion!==mappingVersion||JSON.stringify(last.missing)!==JSON.stringify(v.missing))return null;
  }else attempts.push({at:v.at,action:status==='cancelled-demo'?'cancel':'simulate',propertyRevision:revision,mappingVersion,status,missing:v.missing});
- return {id:v.id,listingId:v.listingId,organizationId:demoOrganizationId,propertyRevision:revision,destination:v.destination,status,missing:v.missing,at:v.at,mappingVersion,attempts};
+ return {id:v.id,listingId:v.listingId,organizationId,propertyRevision:revision,destination:v.destination,status,missing:v.missing,at:v.at,mappingVersion,attempts};
 }

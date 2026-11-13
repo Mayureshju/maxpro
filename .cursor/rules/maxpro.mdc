@@ -3,4 +3,4 @@ description: MaxPro v3 Gemini PRD product and design rules
 globs: ["**/*"]
 alwaysApply: true
 ---
-Read `AGENTS.md`, `docs/00-source-of-truth.md`, `docs/11-gemini-requirements.md`, `docs/13-design-acceptance.md` before editing. Gemini is primary, public property search is secondary, and no portal is live. Implement against OpenSpec change 0003; do not create a separate AI-generated design direction. Only claim browser/build verification when run.
+Read `AGENTS.md`, `docs/00-source-of-truth.md`, `docs/11-gemini-requirements.md`, `docs/13-design-acceptance.md` before editing. Gemini is primary, public property search is secondary, and no portal is live. Implement against OpenSpec change 0010 (`0010-final-prototype-acceptance`); do not create a separate AI-generated design direction. Only claim browser/build verification when run.

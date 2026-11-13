@@ -1,2 +1,2 @@
-import {WhatsAppTools} from '@/components/prototype/extended';
-export default function Page(){return <WhatsAppTools part='packs'/>}
+import {WhatsAppPropertyPack} from '@/components/gemini/agency-preview';
+export default function Page(){return <WhatsAppPropertyPack/>;}

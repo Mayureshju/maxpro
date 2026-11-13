@@ -33,6 +33,6 @@ Use existing `px-*` primitives and `gm-*` workflows. Next.js App Router + TypeSc
 ## Known prototype polish backlog
 - Finish Arabic content for all legacy v2 body screens; ask an Arabic-speaking reviewer.
 - Review media design at mobile width; production photo reorder should support drag/drop with keyboard alternative (v3 arrows are only the accessible fallback).
-- Phase 5 adds local organization onboarding/directory, role simulation and guards. Production needs authenticated Frappe membership/permissions and organization isolation; canonical operations remain one fictional agency.
+- Phase 5 adds local organization onboarding/directory, role simulation and guards. Production needs authenticated Frappe membership/permissions and organization isolation; Phase 6 adds independent browser-local organization workspaces; this remains UX simulation, not secure isolation.
 - Build optimistic/pessimistic states against OpenAPI mocks, including timeouts, 403, invalid IDs, retries, empty provider lists.
 - Replace remote stock example images with licensed Qatar content when provided.

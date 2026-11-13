@@ -1,4 +1,6 @@
 "use client";
+import {usePrototypeCopy} from '@/components/prototype/use-prototype-copy';
+import {activeOrganizationId} from '@/lib/organization-engine';
 import { useState } from "react";
 import { useLocale } from "next-intl";
 import { useSearchParams } from "next/navigation";
@@ -21,7 +23,6 @@ import {
 import {can} from '@/lib/organization-engine';
 import { useGeminiDemo } from "./demo-provider";
 import {
-  demoOrganizationId,
   findProperty,
   sampleMedia,
 } from "@/lib/canonical-property";
@@ -66,43 +67,43 @@ export function campaignStatusLabel(s: CampaignStatus, ar = false) {
   };
   return labels[s][ar ? 1 : 0];
 }
-export function CampaignDisclosure() {
+export function CampaignDisclosure() {const copyText=usePrototypeCopy();
   const t = useCopy();
   return (
     <div className="cm-disclosure">
       <ShieldCheck size={16} />
       <p>
-        {t(
+        {copyText(t(
           "Fictional browser-local prototype. No AI model, provider integration, advertising spend or campaign launch. Plans QAR 179 / 725 / 1,800+, quotas 3 / 25 / negotiated and portals 1 / 2 / all authorized are illustrative pending approval. Arabic needs professional completion.",
           "نموذج خيالي محلي في المتصفح. لا اتصال بذكاء اصطناعي أو منصة إعلانية، ولا إنفاق أو إطلاق حملة. الخطط ١٧٩ / ٧٢٥ / ١٨٠٠+ ر.ق وحصص العقارات ٣ / ٢٥ / بالتفاوض والبوابات ١ / ٢ / جميع المصرّح بها أمثلة بانتظار الموافقة. العربية تحتاج إلى مراجعة مهنية.",
-        )}
+        ))}
       </p>
     </div>
   );
 }
-export function CampaignNavigation() {
+export function CampaignNavigation() {const copyText=usePrototypeCopy();
   const t = useCopy();
   return (
     <nav
       className="px-subnav cm-nav"
-      aria-label={t("Marketing workspace", "مساحة التسويق")}
+      aria-label={copyText(t("Marketing workspace", "مساحة التسويق"))}
     >
       <Link href="/workspace/campaigns">
-        {t("Campaign portfolio", "محفظة الحملات")}
+        {copyText(t("Campaign portfolio", "محفظة الحملات"))}
       </Link>
       <Link href="/workspace/integrations/meta-catalog">
-        {t("Meta catalogue", "كتالوج ميتا")}
+        {copyText(t("Meta catalogue", "كتالوج ميتا"))}
       </Link>
       <Link href="/workspace/integrations/google-ads">
-        {t("Google planning", "تخطيط جوجل")}
+        {copyText(t("Google planning", "تخطيط جوجل"))}
       </Link>
       <Link href="/workspace/ads/attribution">
-        {t("Marketing analytics", "تحليلات التسويق")}
+        {copyText(t("Marketing analytics", "تحليلات التسويق"))}
       </Link>
     </nav>
   );
 }
-export function CampaignPortfolio() {
+export function CampaignPortfolio() {const copyText=usePrototypeCopy();
   const t = useCopy();
   const ar = useLocale() === "ar";
   const { state, hydrated } = useGeminiDemo();
@@ -137,7 +138,7 @@ export function CampaignPortfolio() {
             href="/workspace/campaigns/new"
           >
             <Plus size={16} />
-            {t("New campaign", "حملة جديدة")}
+            {copyText(t("New campaign", "حملة جديدة"))}
           </Link>
         }
       />
@@ -149,7 +150,7 @@ export function CampaignPortfolio() {
           t("03 Approve", "٠٣ اعتماد"),
           t("04 Simulate & learn", "٠٤ محاكاة وقياس"),
         ].map((s) => (
-          <span key={s}>{s}</span>
+          <span key={s}>{copyText(s)}</span>
         ))}
       </div>
       <Section
@@ -161,54 +162,54 @@ export function CampaignPortfolio() {
       >
         <div className="cm-filters">
           <label className="px-field">
-            {t("Search campaigns", "بحث الحملات")}
+            {copyText(t("Search campaigns", "بحث الحملات"))}
             <input
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder={t(
+              placeholder={copyText(t(
                 "Property title or campaign ID",
                 "عنوان العقار أو معرّف الحملة",
-              )}
+              ))}
             />
           </label>
           <label className="px-field">
-            {t("Campaign status", "حالة الحملة")}
+            {copyText(t("Campaign status", "حالة الحملة"))}
             <select value={status} onChange={(e) => setStatus(e.target.value)}>
-              <option value="all">{t("All statuses", "كل الحالات")}</option>
+              <option value="all">{copyText(t("All statuses", "كل الحالات"))}</option>
               {campaignStates.map((s) => (
                 <option key={s} value={s}>
-                  {campaignStatusLabel(s, ar)}
+                  {copyText(campaignStatusLabel(s, ar))}
                 </option>
               ))}
             </select>
           </label>
           <label className="px-field">
-            {t("Property filter", "تصفية العقار")}
+            {copyText(t("Property filter", "تصفية العقار"))}
             <select
               value={property}
               onChange={(e) => setProperty(e.target.value)}
             >
-              <option value="all">{t("All properties", "كل العقارات")}</option>
+              <option value="all">{copyText(t("All properties", "كل العقارات"))}</option>
               {Object.keys(state.properties).map((id) => (
-                <option key={id}>{id}</option>
+                <option key={id} value={id}>{copyText(id)}</option>
               ))}
             </select>
           </label>
           <label className="px-field">
-            {t("Proposed platform", "المنصة المقترحة")}
+            {copyText(t("Proposed platform", "المنصة المقترحة"))}
             <select
               value={channel}
               onChange={(e) => setChannel(e.target.value)}
             >
-              <option value="all">{t("All platforms", "كل المنصات")}</option>
-              <option value="meta-catalog">Meta</option>
-              <option value="google-ads">Google Ads</option>
+              <option value="all">{copyText(t("All platforms", "كل المنصات"))}</option>
+              <option value="meta-catalog">{copyText("Meta")}</option>
+              <option value="google-ads">{copyText("Google Ads")}</option>
             </select>
           </label>
         </div>
         {!hydrated ? (
           <p role="status">
-            {t("Loading local portfolio…", "جار تحميل المحفظة المحلية…")}
+            {copyText(t("Loading local portfolio…", "جار تحميل المحفظة المحلية…"))}
           </p>
         ) : rows.length ? (
           <div className="px-table-scroll" tabIndex={0}>
@@ -226,7 +227,7 @@ export function CampaignPortfolio() {
                     t("Local enquiries", "الاستفسارات المحلية"),
                     t("Actions", "الإجراءات"),
                   ].map((s) => (
-                    <th key={s}>{s}</th>
+                    <th key={s}>{copyText(s)}</th>
                   ))}
                 </tr>
               </thead>
@@ -236,20 +237,20 @@ export function CampaignPortfolio() {
                     <td>
                       <Link href={`/workspace/campaigns/${c.id}`}>
                         <strong>
-                          {state.properties[c.input.propertyId]?.facts[
+                          {copyText(state.properties[c.input.propertyId]?.facts[
                             ar ? "titleAr" : "titleEn"
-                          ] || c.input.propertyId}
+                          ] || c.input.propertyId)}
                         </strong>
                         <small>
-                          {c.input.propertyId} · {c.id.slice(-8)}
+                          {copyText(c.input.propertyId)} · {copyText(c.id.slice(-8))}
                         </small>
                       </Link>
                     </td>
                     <td>
-                      {c.input.channel === "meta-catalog"
+                      {copyText(c.input.channel === "meta-catalog"
                         ? "Meta"
-                        : "Google Ads"}
-                      <small>{objectiveLabel(c.input.objective, ar)}</small>
+                        : "Google Ads")}
+                      <small>{copyText(objectiveLabel(c.input.objective, ar))}</small>
                     </td>
                     <td>
                       <Pill
@@ -261,18 +262,18 @@ export function CampaignPortfolio() {
                               : "warning"
                         }
                       >
-                        {campaignStatusLabel(c.status, ar)}
+                        {copyText(campaignStatusLabel(c.status, ar))}
                       </Pill>
                       <small>
-                        r{c.revision} · {t("Property", "العقار")} r
+                        r{c.revision} · {copyText(t("Property", "العقار"))} r
                         {c.propertyRevision}
                       </small>
                     </td>
                     <td>
-                      {money(c.input.mediaBudget)}
+                      {copyText(money(c.input.mediaBudget))}
                       <small>
-                        {t("Service fee", "رسوم الخدمة")}{" "}
-                        {money(c.input.serviceFee)}
+                        {copyText(t("Service fee", "رسوم الخدمة"))}{copyText(" ")}
+                        {copyText(money(c.input.serviceFee))}
                       </small>
                     </td>
                     <td>{campaignMetrics(state, c).total}</td>
@@ -281,7 +282,7 @@ export function CampaignPortfolio() {
                         className="px-mini-action"
                         href={`/workspace/campaigns/${c.id}`}
                       >
-                        {t("Open / resume", "فتح / متابعة")}{" "}
+                        {copyText(t("Open / resume", "فتح / متابعة"))}{copyText(" ")}
                         <ArrowRight size={14} />
                       </Link>
                     </td>
@@ -312,14 +313,14 @@ const objectiveLabel = (v: CampaignInput["objective"], ar: boolean) =>
     awareness: ar ? "التعريف بالعقار" : "Property awareness",
     conversations: ar ? "محادثات" : "Conversations",
   })[v];
-export function CampaignBuilder({ id }: { id?: string }) {
+export function CampaignBuilder({ id }: { id?: string }) {const copyText=usePrototypeCopy();
   const { state, hydrated } = useGeminiDemo();
   const t = useCopy();
   const query = useSearchParams();
   if (!hydrated)
     return (
       <p role="status">
-        {t("Loading campaign repository…", "جار تحميل سجل الحملات…")}
+        {copyText(t("Loading campaign repository…", "جار تحميل سجل الحملات…"))}
       </p>
     );
   const c = id ? state.campaigns.find((c) => c.id === id) : undefined;
@@ -334,7 +335,7 @@ export function CampaignBuilder({ id }: { id?: string }) {
           className="px-button px-button-outline"
           href="/workspace/campaigns"
         >
-          {t("Back to campaigns", "العودة إلى الحملات")}
+          {copyText(t("Back to campaigns", "العودة إلى الحملات"))}
         </Link>
         <CampaignDisclosure />
       </>
@@ -373,7 +374,7 @@ function CampaignEditor({
   initialProperty: string;
   initialChannel: string;
   initialStep: number;
-}) {
+}) {const copyText=usePrototypeCopy();
   const t = useCopy();
   const locale = useLocale();
   const ar = locale === "ar";
@@ -428,10 +429,10 @@ function CampaignEditor({
           id: c.id,
           revision,
           input,
-          organizationId: demoOrganizationId,
+          organizationId: activeOrganizationId(state.organization),
           role,
         }
-      : { type: "create", input, organizationId: demoOrganizationId, role };
+      : { type: "create", input, organizationId: activeOrganizationId(state.organization), role };
     const r = campaignCommand(cmd);
     if (r.error) {
       setFeedback({ error: r.error, message: "" });
@@ -475,7 +476,7 @@ function CampaignEditor({
       type: "transition",
       id: c.id,
       revision,
-      organizationId: demoOrganizationId,
+      organizationId: activeOrganizationId(state.organization),
       role,
       action,
     });
@@ -529,7 +530,7 @@ function CampaignEditor({
             className="px-button px-button-outline"
             href="/workspace/campaigns"
           >
-            {t("Campaign portfolio", "محفظة الحملات")}
+            {copyText(t("Campaign portfolio", "محفظة الحملات"))}
           </Link>
         }
       />
@@ -537,21 +538,21 @@ function CampaignEditor({
       <div className="cm-record-bar">
         <div>
           <Pill tone={c?.status === "simulated" ? "info" : "warning"}>
-            {c
+            {copyText(c
               ? campaignStatusLabel(c.status, ar)
-              : t("Unsaved draft", "مسودة غير محفوظة")}
+              : t("Unsaved draft", "مسودة غير محفوظة"))}
           </Pill>
           <span>
-            {c
+            {copyText(c
               ? `${c.id} · r${c.revision}`
               : t(
                   "A stable ID is assigned on save",
                   "يُمنح معرّف ثابت عند الحفظ",
-                )}
+                ))}
           </span>
         </div>
         <label className="px-field">
-          {t("Local demo role", "دور تجريبي محلي")}
+          {copyText(t("Local demo role", "دور تجريبي محلي"))}
           <select
             value={role}
             onChange={(e) => setRole(e.target.value as CampaignRole)}
@@ -559,12 +560,12 @@ function CampaignEditor({
             {campaignRoles.map((r) => (
               <option key={r} value={r}>
                 {
-                  {
+                  copyText({
                     editor: t("Editor", "محرر"),
                     "policy-reviewer": t("Policy reviewer", "مراجع السياسة"),
                     advertiser: t("Advertiser", "المعلن"),
                     admin: t("MaxPro administrator", "مسؤول ماكس برو"),
-                  }[r]
+                  }[r])
                 }
               </option>
             ))}
@@ -572,28 +573,28 @@ function CampaignEditor({
         </label>
       </div>
       <p className="cm-role-note">
-        {t(
+        {copyText(t(
           "Role selection demonstrates command guards; there is no real account authentication.",
           "اختيار الدور يوضح ضوابط الأوامر؛ لا مصادقة لحساب حقيقي.",
-        )}
+        ))}
       </p>
       {stale && (
         <div role="alert" className="cm-alert">
-          {t(
+          {copyText(t(
             "This draft changed in another view. Reload to review the current version before saving or approving.",
             "تغيرت هذه المسودة في عرض آخر. أعد التحميل لمراجعة النسخة الحالية قبل الحفظ أو الاعتماد.",
-          )}{" "}
+          ))}{copyText(" ")}
           <button
             className="px-text-button"
             onClick={() => window.location.reload()}
           >
-            {t("Reload current version", "إعادة تحميل النسخة الحالية")}
+            {copyText(t("Reload current version", "إعادة تحميل النسخة الحالية"))}
           </button>
         </div>
       )}
       <nav
         className="cm-steps"
-        aria-label={t("Campaign stages", "مراحل الحملة")}
+        aria-label={copyText(t("Campaign stages", "مراحل الحملة"))}
       >
         {steps.map((s, i) => (
           <button
@@ -602,8 +603,8 @@ function CampaignEditor({
             onClick={() => setStep(i)}
             aria-current={step === i ? "step" : undefined}
           >
-            <span>{String(i + 1).padStart(2, "0")}</span>
-            {s}
+            <span>{copyText(String(i + 1).padStart(2, "0"))}</span>
+            {copyText(s)}
           </button>
         ))}
       </nav>
@@ -611,9 +612,9 @@ function CampaignEditor({
         <div className="cm-editor-main">
           <div className="cm-stage-heading">
             <span className="px-overline">
-              {t("STAGE", "المرحلة")} <bdi dir="ltr">{step + 1} / 6</bdi>
+              {copyText(t("STAGE", "المرحلة"))} <bdi dir="ltr">{step + 1} / 6</bdi>
             </span>
-            <h2>{steps[step]}</h2>
+            <h2>{copyText(steps[step])}</h2>
           </div>
           <fieldset
             className="cm-editor-fields"
@@ -622,7 +623,7 @@ function CampaignEditor({
             {step === 0 && (
               <>
                 <label className="px-field">
-                  {t("Canonical property", "العقار الأساسي")}
+                  {copyText(t("Canonical property", "العقار الأساسي"))}
                   <select
                     disabled={!!c}
                     value={input.propertyId}
@@ -640,20 +641,20 @@ function CampaignEditor({
                     }
                   >
                     <option value="">
-                      {t("Choose an existing property", "اختر عقاراً موجوداً")}
+                      {copyText(t("Choose an existing property", "اختر عقاراً موجوداً"))}
                     </option>
                     {Object.values(state.properties).map((p) => (
                       <option key={p.id} value={p.id}>
-                        {p.id} ·{" "}
-                        {p.facts[ar ? "titleAr" : "titleEn"] ||
-                          t("Untitled draft", "مسودة بلا عنوان")}
+                        {copyText(p.id)} ·{copyText(" ")}
+                        {copyText(p.facts[ar ? "titleAr" : "titleEn"] ||
+                          t("Untitled draft", "مسودة بلا عنوان"))}
                       </option>
                     ))}
                   </select>
                 </label>
                 <div className="px-field-grid">
                   <label className="px-field">
-                    {t("Campaign objective", "هدف الحملة")}
+                    {copyText(t("Campaign objective", "هدف الحملة"))}
                     <select
                       value={input.objective}
                       onChange={(e) =>
@@ -665,13 +666,13 @@ function CampaignEditor({
                     >
                       {objectives.map((v) => (
                         <option key={v} value={v}>
-                          {objectiveLabel(v, ar)}
+                          {copyText(objectiveLabel(v, ar))}
                         </option>
                       ))}
                     </select>
                   </label>
                   <label className="px-field">
-                    {t("Proposed platform", "المنصة المقترحة")}
+                    {copyText(t("Proposed platform", "المنصة المقترحة"))}
                     <select
                       value={input.channel}
                       onChange={(e) =>
@@ -681,14 +682,14 @@ function CampaignEditor({
                         )
                       }
                     >
-                      <option value="meta-catalog">Meta</option>
+                      <option value="meta-catalog">{copyText("Meta")}</option>
                       <option value="google-ads">
-                        Google Ads / PMax ({t("planning only", "تخطيط فقط")})
+                        {copyText(" Google Ads / PMax (")}{copyText(t("planning only", "تخطيط فقط"))})
                       </option>
                     </select>
                   </label>
                   <label className="px-field">
-                    {t("Conversion goal", "هدف التحويل")}
+                    {copyText(t("Conversion goal", "هدف التحويل"))}
                     <select
                       value={input.conversionGoal}
                       onChange={(e) =>
@@ -701,7 +702,7 @@ function CampaignEditor({
                       {conversionGoals.map((g) => (
                         <option key={g} value={g}>
                           {
-                            {
+                            copyText({
                               enquiry: t("Enquiry", "استفسار"),
                               "qualified-lead": t(
                                 "Qualified lead",
@@ -711,14 +712,14 @@ function CampaignEditor({
                                 "Viewing request",
                                 "طلب معاينة",
                               ),
-                            }[g]
+                            }[g])
                           }
                         </option>
                       ))}
                     </select>
                   </label>
                   <label className="px-field">
-                    {t("Proposed targeting", "الاستهداف المقترح")}
+                    {copyText(t("Proposed targeting", "الاستهداف المقترح"))}
                     <select
                       value={input.targeting}
                       onChange={(e) =>
@@ -729,28 +730,28 @@ function CampaignEditor({
                       }
                     >
                       <option value="broad-housing">
-                        {t("Broad housing review", "مراجعة إسكان عامة")}
+                        {copyText(t("Broad housing review", "مراجعة إسكان عامة"))}
                       </option>
                       <option value="age-exclusion">
-                        {t(
+                        {copyText(t(
                           "Age exclusion — unsupported",
                           "استبعاد عمري — غير مدعوم",
-                        )}
+                        ))}
                       </option>
                       <option value="sensitive-interests">
-                        {t(
+                        {copyText(t(
                           "Sensitive interests — unsupported",
                           "اهتمامات حساسة — غير مدعومة",
-                        )}
+                        ))}
                       </option>
                     </select>
                   </label>
                 </div>
                 <Notice kind="warning">
-                  {t(
+                  {copyText(t(
                     "Account, country, housing category and campaign-type eligibility require provider/legal review. A generic property feed or PMax listing campaign is not assumed available.",
                     "أهلية الحساب والدولة وفئة الإسكان ونوع الحملة تحتاج مراجعة المنصة والقانون. لا نفترض توفر تغذية عقارات عامة أو حملة PMax للعقارات.",
-                  )}
+                  ))}
                 </Notice>
               </>
             )}
@@ -759,7 +760,7 @@ function CampaignEditor({
                 <div className="px-copy-grid">
                   <div>
                     <label className="px-field">
-                      {t("English headline", "العنوان بالإنجليزية")}
+                      {copyText(t("English headline", "العنوان بالإنجليزية"))}
                       <input
                         lang="en"
                         dir="ltr"
@@ -769,10 +770,10 @@ function CampaignEditor({
                       />
                     </label>
                     <label className="px-field">
-                      {t(
+                      {copyText(t(
                         "English advertisement copy",
                         "النص الإعلاني بالإنجليزية",
-                      )}
+                      ))}
                       <textarea
                         lang="en"
                         dir="ltr"
@@ -785,7 +786,7 @@ function CampaignEditor({
                   </div>
                   <div>
                     <label className="px-field">
-                      {t("Arabic headline", "العنوان بالعربية")}
+                      {copyText(t("Arabic headline", "العنوان بالعربية"))}
                       <input
                         lang="ar"
                         dir="rtl"
@@ -795,7 +796,7 @@ function CampaignEditor({
                       />
                     </label>
                     <label className="px-field">
-                      {t("Arabic advertisement copy", "النص الإعلاني بالعربية")}
+                      {copyText(t("Arabic advertisement copy", "النص الإعلاني بالعربية"))}
                       <textarea
                         lang="ar"
                         dir="rtl"
@@ -808,20 +809,20 @@ function CampaignEditor({
                   </div>
                 </div>
                 <Notice>
-                  {t(
+                  {copyText(t(
                     "Draft copy is editable and stays separate from canonical facts. A human must review factual accuracy and Arabic quality.",
                     "النص المقترح قابل للتعديل ويبقى منفصلاً عن الحقائق الأساسية. يجب على إنسان مراجعة الدقة وجودة العربية.",
-                  )}
+                  ))}
                 </Notice>
               </>
             )}
             {step === 2 && (
               <>
                 <p className="px-muted-copy">
-                  {t(
+                  {copyText(t(
                     "Choose images from this property’s canonical media metadata. These are fictional sample visuals; no upload or enhancement runs.",
                     "اختر صوراً من بيانات وسائط هذا العقار الأساسي. هذه صور نموذجية خيالية؛ لا رفع أو تحسين للصور.",
-                  )}
+                  ))}
                 </p>
                 <div className="cm-creative-gallery">
                   {p?.media.length ? (
@@ -841,7 +842,7 @@ function CampaignEditor({
                           {available ? (
                             <div
                               role="img"
-                              aria-label={a.name}
+                              aria-label={copyText(a.name)}
                               className="cm-creative-image"
                               style={{
                                 backgroundImage: `url('${sample!.url}')`,
@@ -850,7 +851,7 @@ function CampaignEditor({
                           ) : (
                             <div className="cm-creative-metadata">
                               <FileText size={24} />
-                              {t("Metadata only", "بيانات وصفية فقط")}
+                              {copyText(t("Metadata only", "بيانات وصفية فقط"))}
                             </div>
                           )}
                           <span>
@@ -869,16 +870,16 @@ function CampaignEditor({
                                 )
                               }
                             />
-                            <strong>{a.name}</strong>
+                            <strong>{copyText(a.name)}</strong>
                           </span>
                           <small>
-                            {a.room} ·{" "}
-                            {available
+                            {copyText(a.room)} ·{copyText(" ")}
+                            {copyText(available
                               ? t("Sample available", "نموذج متاح")
                               : t(
                                   "Unavailable for simulation",
                                   "غير متاح للمحاكاة",
-                                )}
+                                ))}
                           </small>
                         </label>
                       );
@@ -898,7 +899,7 @@ function CampaignEditor({
                     className="px-text-link"
                     href={`/workspace/inventory/${p.id}/media`}
                   >
-                    {t("Edit canonical media", "تعديل وسائط العقار الأساسية")}{" "}
+                    {copyText(t("Edit canonical media", "تعديل وسائط العقار الأساسية"))}{copyText(" ")}
                     <ArrowRight size={15} />
                   </Link>
                 )}
@@ -907,10 +908,10 @@ function CampaignEditor({
             {step === 3 && (
               <>
                 <Notice kind="warning">
-                  {t(
+                  {copyText(t(
                     "Internal demonstration checklist, not definitive Meta/Google policy or legal approval. Actual provider/legal review remains pending even after local review.",
                     "قائمة تحقق تجريبية داخلية، وليست سياسة نهائية لميتا أو جوجل أو موافقة قانونية. المراجعة الفعلية للمنصة والقانون ما زالت معلقة.",
-                  )}
+                  ))}
                 </Notice>
                 <div className="cm-checklist">
                   {(
@@ -956,7 +957,7 @@ function CampaignEditor({
                           })
                         }
                       />
-                      {label}
+                      {copyText(label)}
                     </label>
                   ))}
                 </div>
@@ -966,10 +967,10 @@ function CampaignEditor({
                     checked={input.adminRequired}
                     onChange={(e) => field("adminRequired", e.target.checked)}
                   />
-                  {t(
+                  {copyText(t(
                     "Require a separate MaxPro administrator approval",
                     "اشتراط موافقة منفصلة من مسؤول ماكس برو",
-                  )}
+                  ))}
                 </label>
               </>
             )}
@@ -977,7 +978,7 @@ function CampaignEditor({
               <>
                 <div className="px-field-grid">
                   <label className="px-field">
-                    {t("Media budget QAR", "ميزانية الوسائط ر.ق")}
+                    {copyText(t("Media budget QAR", "ميزانية الوسائط ر.ق"))}
                     <input
                       type="number"
                       min="0"
@@ -990,10 +991,10 @@ function CampaignEditor({
                     />
                   </label>
                   <label className="px-field">
-                    {t(
+                    {copyText(t(
                       "Illustrative service fee QAR",
                       "رسوم الخدمة التوضيحية ر.ق",
-                    )}
+                    ))}
                     <input
                       type="number"
                       min="0"
@@ -1006,7 +1007,7 @@ function CampaignEditor({
                     />
                   </label>
                   <label className="px-field">
-                    {t("Start date", "تاريخ البداية")}
+                    {copyText(t("Start date", "تاريخ البداية"))}
                     <input
                       type="date"
                       value={input.startDate}
@@ -1014,7 +1015,7 @@ function CampaignEditor({
                     />
                   </label>
                   <label className="px-field">
-                    {t("End date", "تاريخ النهاية")}
+                    {copyText(t("End date", "تاريخ النهاية"))}
                     <input
                       type="date"
                       value={input.endDate}
@@ -1025,44 +1026,44 @@ function CampaignEditor({
                 <div className="cm-budget-ledger">
                   <div>
                     <span>
-                      {t("Proposed media budget", "ميزانية الوسائط المقترحة")}
+                      {copyText(t("Proposed media budget", "ميزانية الوسائط المقترحة"))}
                     </span>
-                    <b>{money(input.mediaBudget)}</b>
+                    <b>{copyText(money(input.mediaBudget))}</b>
                   </div>
                   <div>
                     <span>
-                      {t(
+                      {copyText(t(
                         "Separately disclosed service fee",
                         "رسوم الخدمة المعلنة منفصلة",
-                      )}
+                      ))}
                     </span>
-                    <b>{money(input.serviceFee)}</b>
+                    <b>{copyText(money(input.serviceFee))}</b>
                   </div>
                   <div>
-                    <strong>{t("Proposed total", "الإجمالي المقترح")}</strong>
+                    <strong>{copyText(t("Proposed total", "الإجمالي المقترح"))}</strong>
                     <strong>
-                      {money(input.mediaBudget + input.serviceFee)}
+                      {copyText(money(input.mediaBudget + input.serviceFee))}
                     </strong>
                   </div>
                   <div>
                     <span>
-                      {t(
+                      {copyText(t(
                         "Approved media budget (current revision)",
                         "ميزانية الوسائط المعتمدة (النسخة الحالية)",
-                      )}
+                      ))}
                     </span>
                     <b>
-                      {c?.approvedBudget === null || !c
+                      {copyText(c?.approvedBudget === null || !c
                         ? "—"
-                        : money(c.approvedBudget)}
+                        : money(c.approvedBudget))}
                     </b>
                   </div>
                 </div>
                 <Notice>
-                  {t(
+                  {copyText(t(
                     `Illustrative ${state.plan} local total cap: QAR ${campaignBudgetCaps[state.plan]}. This is a prototype guard, not an approved commercial entitlement. Nothing is charged.`,
                     `الحد المحلي التوضيحي لخطة ${state.plan}: ${campaignBudgetCaps[state.plan]} ر.ق. ضابط تجريبي وليس استحقاقاً تجارياً معتمداً. لا تُحصّل أي رسوم.`,
-                  )}
+                  ))}
                 </Notice>
               </>
             )}
@@ -1089,16 +1090,16 @@ function CampaignEditor({
                   <div key={v.label}>
                     <span className="cm-chain-number">{i + 1}</span>
                     <div>
-                      <strong>{v.label}</strong>
+                      <strong>{copyText(v.label)}</strong>
                       <small>
-                        {v.r
+                        {copyText(v.r
                           ? `r${v.r.revision} · ${v.r.at}`
                           : i === 2 && !input.adminRequired
                             ? t(
                                 "Not configured for this draft",
                                 "غير مشترط لهذه المسودة",
                               )
-                            : t("Pending local action", "بانتظار إجراء محلي")}
+                            : t("Pending local action", "بانتظار إجراء محلي"))}
                       </small>
                     </div>
                     {v.r ? <Check size={18} /> : <span>—</span>}
@@ -1182,32 +1183,32 @@ function CampaignEditor({
                       disabled={disabled || role !== r}
                       onClick={() => transition(a)}
                     >
-                      {label}
+                      {copyText(label)}
                       <ArrowRight size={16} />
                     </button>
                   ))}
               </div>
               {c && (
                 <p className="cm-role-note">
-                  {t(
+                  {copyText(t(
                     "Use the local role selector above for each separate review. Save all changes before requesting approval.",
                     "استخدم محدد الدور المحلي أعلاه لكل مراجعة منفصلة. احفظ كل التغييرات قبل طلب الموافقة.",
-                  )}
+                  ))}
                 </p>
               )}
               {c?.status === "simulated" && (
                 <section className="cm-simulation">
                   <h3>
-                    {t("Local simulation ledger", "سجل المحاكاة المحلية")}
+                    {copyText(t("Local simulation ledger", "سجل المحاكاة المحلية"))}
                   </h3>
                   <p>
-                    {t(
+                    {copyText(t(
                       "No campaign was sent externally. Google examples use Website first-touch with a Google campaign reference; no Google intake adapter exists.",
                       "لم تُرسل حملة خارجياً. تستخدم أمثلة جوجل مصدر الموقع الأول مع مرجع حملة جوجل؛ لا يوجد موصل استقبال لجوجل.",
-                    )}
+                    ))}
                   </p>
                   <label className="px-field">
-                    {t("Fictional source event ID", "معرّف الحدث الخيالي")}
+                    {copyText(t("Fictional source event ID", "معرّف الحدث الخيالي"))}
                     <input
                       value={eventId}
                       maxLength={95}
@@ -1220,10 +1221,10 @@ function CampaignEditor({
                       checked={consent}
                       onChange={(e) => setConsent(e.target.checked)}
                     />
-                    {t(
+                    {copyText(t(
                       "Consent for this fictional enquiry and event preview",
                       "موافقة لهذا الاستفسار الخيالي ومعاينة الحدث",
-                    )}
+                    ))}
                   </label>
                   <div className="cm-action-row">
                     <button
@@ -1235,7 +1236,7 @@ function CampaignEditor({
                           type: "lead",
                           id: c.id,
                           revision,
-                          organizationId: demoOrganizationId,
+                          organizationId: activeOrganizationId(state.organization),
                           role,
                           eventId,
                           consent,
@@ -1243,10 +1244,10 @@ function CampaignEditor({
                         if (r.leadId) setLeadId(r.leadId);
                       }}
                     >
-                      {t(
+                      {copyText(t(
                         "Record / replay fictional enquiry",
                         "تسجيل / إعادة الاستفسار الخيالي",
-                      )}
+                      ))}
                     </button>
                     <button
                       type="button"
@@ -1255,21 +1256,21 @@ function CampaignEditor({
                         setEventId(`DEMO-EVENT-${crypto.randomUUID()}`)
                       }
                     >
-                      {t("New event ID", "معرّف حدث جديد")}
+                      {copyText(t("New event ID", "معرّف حدث جديد"))}
                     </button>
                     {leadId && (
                       <Link href={`/workspace/leads/${leadId}`}>
-                        {t("Inspect canonical lead", "فحص سجل العميل الأساسي")}
+                        {copyText(t("Inspect canonical lead", "فحص سجل العميل الأساسي"))}
                       </Link>
                     )}
                   </div>
                   {consent && (
                     <details>
                       <summary>
-                        {t(
+                        {copyText(t(
                           "Consent-aware event preview",
                           "معاينة حدث تراعي الموافقة",
-                        )}
+                        ))}
                       </summary>
                       <pre className="gm-code">
                         {JSON.stringify(
@@ -1296,7 +1297,7 @@ function CampaignEditor({
                         type: "spend",
                         id: c.id,
                         revision,
-                        organizationId: demoOrganizationId,
+                        organizationId: activeOrganizationId(state.organization),
                         role,
                         date: costDate,
                         qar: cost.trim() ? Number(cost) : NaN,
@@ -1304,7 +1305,7 @@ function CampaignEditor({
                     }}
                   >
                     <label className="px-field">
-                      {t("Fictional cost date", "تاريخ التكلفة الخيالية")}
+                      {copyText(t("Fictional cost date", "تاريخ التكلفة الخيالية"))}
                       <input
                         type="date"
                         value={costDate}
@@ -1312,10 +1313,10 @@ function CampaignEditor({
                       />
                     </label>
                     <label className="px-field">
-                      {t(
+                      {copyText(t(
                         "Fictional media cost QAR",
                         "تكلفة الوسائط الخيالية ر.ق",
-                      )}
+                      ))}
                       <input
                         type="number"
                         min="0"
@@ -1328,17 +1329,17 @@ function CampaignEditor({
                       className="px-button px-button-outline"
                       disabled={role !== "editor" || disabled}
                     >
-                      {t("Record fictional cost", "تسجيل تكلفة خيالية")}
+                      {copyText(t("Record fictional cost", "تسجيل تكلفة خيالية"))}
                     </button>
                   </form>
                   <Link
                     className="px-text-link"
                     href={`/workspace/ads/attribution?campaign=${c.id}`}
                   >
-                    {t(
+                    {copyText(t(
                       "Campaign analytics & linked leads",
                       "تحليلات الحملة والعملاء المرتبطون",
-                    )}{" "}
+                    ))}{copyText(" ")}
                     <ArrowRight size={15} />
                   </Link>
                 </section>
@@ -1347,12 +1348,12 @@ function CampaignEditor({
           )}
           {feedback.error && (
             <p role="alert" className="cm-alert">
-              {feedback.error}
+              {copyText(feedback.error)}
             </p>
           )}
           {feedback.message && (
             <p role="status" className="gm-success">
-              {feedback.message}
+              {copyText(feedback.message)}
             </p>
           )}
           <div className="cm-editor-actions">
@@ -1362,9 +1363,9 @@ function CampaignEditor({
               disabled={!active || role !== "editor" || stale || !can(state.organization,"campaign.edit")}
               onClick={() => save()}
             >
-              {c
+              {copyText(c
                 ? t("Save draft", "حفظ المسودة")
-                : t("Create campaign draft", "إنشاء مسودة حملة")}
+                : t("Create campaign draft", "إنشاء مسودة حملة"))}
             </button>
             {step < 5 && (
               <button
@@ -1373,13 +1374,13 @@ function CampaignEditor({
                 disabled={!active || role !== "editor" || stale || !can(state.organization,"campaign.edit")}
                 onClick={() => save(step + 1)}
               >
-                {t("Save & continue", "حفظ ومتابعة")} <ArrowRight size={16} />
+                {copyText(t("Save & continue", "حفظ ومتابعة"))} <ArrowRight size={16} />
               </button>
             )}
             <span>
-              {dirty
+              {copyText(dirty
                 ? t("Unsaved changes", "تغييرات غير محفوظة")
-                : t("Saved locally", "محفوظ محلياً")}
+                : t("Saved locally", "محفوظ محلياً"))}
             </span>
           </div>
           {c && (
@@ -1391,7 +1392,7 @@ function CampaignEditor({
                 onClick={() => transition("duplicate")}
               >
                 <Copy size={14} />
-                {t("Duplicate", "نسخ")}
+                {copyText(t("Duplicate", "نسخ"))}
               </button>
               {active ? (
                 <button
@@ -1400,7 +1401,7 @@ function CampaignEditor({
                   disabled={disabled || role !== "editor"}
                   onClick={() => transition("cancel")}
                 >
-                  {t("Cancel campaign", "إلغاء الحملة")}
+                  {copyText(t("Cancel campaign", "إلغاء الحملة"))}
                 </button>
               ) : (
                 <button
@@ -1409,7 +1410,7 @@ function CampaignEditor({
                   disabled={disabled || role !== "editor"}
                   onClick={() => transition("resume")}
                 >
-                  {t("Resume as new revision", "متابعة كنسخة جديدة")}
+                  {copyText(t("Resume as new revision", "متابعة كنسخة جديدة"))}
                 </button>
               )}
               {["pending-policy", "pending-admin"].includes(c.status) && (
@@ -1424,7 +1425,7 @@ function CampaignEditor({
                   }
                   onClick={() => transition("reject")}
                 >
-                  {t("Reject local review", "رفض المراجعة المحلية")}
+                  {copyText(t("Reject local review", "رفض المراجعة المحلية"))}
                 </button>
               )}
             </div>
@@ -1433,29 +1434,29 @@ function CampaignEditor({
         <aside className="cm-inspector">
           <div className="cm-fact-dossier">
             <span className="px-overline">
-              {t("CANONICAL SOURCE", "المصدر الأساسي")}
+              {copyText(t("CANONICAL SOURCE", "المصدر الأساسي"))}
             </span>
             <h3>
-              {p?.facts[ar ? "titleAr" : "titleEn"] ||
-                t("Select a property", "اختر عقاراً")}
+              {copyText(p?.facts[ar ? "titleAr" : "titleEn"] ||
+                t("Select a property", "اختر عقاراً"))}
             </h3>
             {p && (
               <>
                 <p>
-                  {p.id} · r{p.revision}
+                  {copyText(p.id)} · r{p.revision}
                 </p>
                 <dl>
                   <div>
-                    <dt>{t("Price", "السعر")}</dt>
+                    <dt>{copyText(t("Price", "السعر"))}</dt>
                     <dd>
-                      {money(p.facts.priceQar)}
-                      {p.facts.purpose === "rent"
+                      {copyText(money(p.facts.priceQar))}
+                      {copyText(p.facts.purpose === "rent"
                         ? ` / ${p.facts.rentalFrequency}`
-                        : ""}
+                        : "")}
                     </dd>
                   </div>
                   <div>
-                    <dt>{t("Area / bedrooms", "المساحة / غرف النوم")}</dt>
+                    <dt>{copyText(t("Area / bedrooms", "المساحة / غرف النوم"))}</dt>
                     <dd>
                       <bdi dir="ltr">
                         {p.facts.areaSqm} m² / {p.facts.beds}
@@ -1463,22 +1464,22 @@ function CampaignEditor({
                     </dd>
                   </div>
                   <div>
-                    <dt>{t("Location", "الموقع")}</dt>
+                    <dt>{copyText(t("Location", "الموقع"))}</dt>
                     <dd>
-                      {p.facts.district}, {p.facts.city}
+                      {copyText(p.facts.district)}, {copyText(p.facts.city)}
                     </dd>
                   </div>
                   <div>
-                    <dt>{t("Factual review", "مراجعة الحقائق")}</dt>
+                    <dt>{copyText(t("Factual review", "مراجعة الحقائق"))}</dt>
                     <dd>
-                      {p.source.factsReviewed
+                      {copyText(p.source.factsReviewed
                         ? t("Reviewed sample", "نموذج تمت مراجعته")
-                        : t("Required", "مطلوبة")}
+                        : t("Required", "مطلوبة"))}
                     </dd>
                   </div>
                 </dl>
                 <Link href={`/workspace/inventory/${p.id}/edit`}>
-                  {t("Open canonical editor", "فتح المحرر الأساسي")}{" "}
+                  {copyText(t("Open canonical editor", "فتح المحرر الأساسي"))}{copyText(" ")}
                   <ArrowRight size={14} />
                 </Link>
               </>
@@ -1486,17 +1487,17 @@ function CampaignEditor({
           </div>
           <div className="cm-ai-panel">
             <span className="px-overline">
-              {t("MARKETING AI / LOCAL EXAMPLES", "ذكاء التسويق / أمثلة محلية")}
+              {copyText(t("MARKETING AI / LOCAL EXAMPLES", "ذكاء التسويق / أمثلة محلية"))}
             </span>
-            <h3>{t("Suggestions with a source.", "مقترحات موثّقة المصدر.")}</h3>
+            <h3>{copyText(t("Suggestions with a source.", "مقترحات موثّقة المصدر."))}</h3>
             <p>
-              {t(
+              {copyText(t(
                 "Deterministic simulated suggestions. No LLM response, prediction or external model. Save the current draft first.",
                 "مقترحات محاكاة حتمية. لا استجابة نموذج لغوي أو توقع أو اتصال خارجي. احفظ المسودة أولاً.",
-              )}
+              ))}
             </p>
             <label className="px-field">
-              {t("Suggestion type", "نوع المقترح")}
+              {copyText(t("Suggestion type", "نوع المقترح"))}
               <select
                 value={kind}
                 onChange={(e) => setKind(e.target.value as SuggestionKind)}
@@ -1514,7 +1515,7 @@ function CampaignEditor({
                 ).map((k) => (
                   <option key={k} value={k}>
                     {
-                      {
+                      copyText({
                         copy: t("Bilingual copy", "نص باللغتين"),
                         headline: t("Headline alternative", "عنوان بديل"),
                         features: t("Feature highlighting", "إبراز الخصائص"),
@@ -1522,7 +1523,7 @@ function CampaignEditor({
                         creative: t("Creative selection", "اختيار الوسائط"),
                         budget: t("Budget scenarios", "سيناريوهات الميزانية"),
                         summary: t("Weekly local summary", "ملخص محلي أسبوعي"),
-                      }[k]
+                      }[k])
                     }
                   </option>
                 ))}
@@ -1538,13 +1539,13 @@ function CampaignEditor({
                   type: "suggest",
                   id: c.id,
                   revision,
-                  organizationId: demoOrganizationId,
+                  organizationId: activeOrganizationId(state.organization),
                   role,
                   kind,
                 })
               }
             >
-              {t("Prepare simulated suggestion", "إعداد مقترح محاكى")}
+              {copyText(t("Prepare simulated suggestion", "إعداد مقترح محاكى"))}
             </button>
             {c?.proposals
               .slice()
@@ -1565,7 +1566,7 @@ function CampaignEditor({
                       type: "review-proposal",
                       id: c.id,
                       revision,
-                      organizationId: demoOrganizationId,
+                      organizationId: activeOrganizationId(state.organization),
                       role,
                       proposalId: s.id,
                       accept,
@@ -1602,13 +1603,13 @@ function CampaignEditor({
                 <li key={e.id}>
                   <span className="cm-timeline-dot" />
                   <div>
-                    <strong>{e.action}</strong>
+                    <strong>{copyText(e.action)}</strong>
                     <small>
-                      r{e.revision} · {e.role} ·{" "}
+                      r{e.revision} · {copyText(e.role)} ·{copyText(" ")}
                       <time dateTime={e.at}>
-                        {new Date(e.at).toLocaleString(ar ? "ar" : "en", {
+                        {copyText(new Date(e.at).toLocaleString(ar ? "ar" : "en", {
                           timeZone: "Asia/Qatar",
-                        })}{" "}
+                        }))}{copyText(" ")}
                         +03
                       </time>
                     </small>
@@ -1622,26 +1623,26 @@ function CampaignEditor({
     </>
   );
 }
-function PolicyReadout({ blockers }: { blockers: string[] }) {
+function PolicyReadout({ blockers }: { blockers: string[] }) {const copyText=usePrototypeCopy();
   const t = useCopy();
   return (
     <div className="cm-policy-readout">
       <h3>
-        {t("Local validation / actionable blockers", "التحقق المحلي / العوائق")}
+        {copyText(t("Local validation / actionable blockers", "التحقق المحلي / العوائق"))}
       </h3>
       {blockers.length ? (
         <ul>
           {blockers.map((b) => (
-            <li key={b}>{b}</li>
+            <li key={b}>{copyText(b)}</li>
           ))}
         </ul>
       ) : (
         <p className="cm-check-ok">
           <Check size={18} />
-          {t(
+          {copyText(t(
             "Internal checks ready for local review. Provider/legal eligibility still unverified.",
             "الفحوصات الداخلية جاهزة للمراجعة المحلية. أهلية المنصة والقانون لم تتحقق.",
-          )}
+          ))}
         </p>
       )}
     </div>
@@ -1655,7 +1656,7 @@ function ProposalReview({
   proposal: MarketingProposal;
   disabled: boolean;
   onReview: (accept: boolean, en: string, ar: string) => void;
-}) {
+}) {const copyText=usePrototypeCopy();
   const t = useCopy();
   const [en, setEn] = useState(s.en);
   const [ar, setAr] = useState(s.ar);
@@ -1664,14 +1665,14 @@ function ProposalReview({
       <details open={s.status === "proposed" && !disabled}>
         <summary>
           <Pill tone="info">
-            {t("Simulated suggestion", "مقترح محاكى")} · {s.kind}
+            {copyText(t("Simulated suggestion", "مقترح محاكى"))} · {copyText(s.kind)}
           </Pill>
           <small>
-            r{s.campaignRevision} · {s.status}
+            r{s.campaignRevision} · {copyText(s.status)}
           </small>
         </summary>
         <label className="px-field">
-          {t("Editable English proposal", "مقترح إنجليزي قابل للتعديل")}
+          {copyText(t("Editable English proposal", "مقترح إنجليزي قابل للتعديل"))}
           <textarea
             rows={4}
             lang="en"
@@ -1682,7 +1683,7 @@ function ProposalReview({
           />
         </label>
         <label className="px-field">
-          {t("Editable Arabic proposal", "مقترح عربي قابل للتعديل")}
+          {copyText(t("Editable Arabic proposal", "مقترح عربي قابل للتعديل"))}
           <textarea
             rows={4}
             lang="ar"
@@ -1694,7 +1695,7 @@ function ProposalReview({
         </label>
         <details className="cm-proposal-sources">
           <summary>
-            {t("Source / fact references", "مراجع المصدر / الحقائق")}
+            {copyText(t("Source / fact references", "مراجع المصدر / الحقائق"))}
           </summary>
           <ul>
             {s.references.map((r) => (
@@ -1711,7 +1712,7 @@ function ProposalReview({
             disabled={disabled}
             onClick={() => onReview(true, en, ar)}
           >
-            {t("Accept proposal", "قبول المقترح")}
+            {copyText(t("Accept proposal", "قبول المقترح"))}
           </button>
           <button
             type="button"
@@ -1719,7 +1720,7 @@ function ProposalReview({
             disabled={disabled}
             onClick={() => onReview(false, en, ar)}
           >
-            {t("Reject proposal", "رفض المقترح")}
+            {copyText(t("Reject proposal", "رفض المقترح"))}
           </button>
         </div>
       </details>

@@ -1,4 +1,5 @@
 'use client';
+import {usePrototypeCopy} from '@/components/prototype/use-prototype-copy';
 import {useState} from 'react';
 import {Link} from '@/i18n/navigation';
 import {Intro, Notice, Section, Pill} from '@/components/prototype/primitives';
@@ -20,7 +21,7 @@ import {
   CrmEmpty,
   useCrmCopy,
 } from './lead-workspace';
-export function ChannelAnalytics() {
+export function ChannelAnalytics() {const copyText=usePrototypeCopy();
   const {state, hydrated, crmCommand} = useGeminiDemo();
   const t = useCrmCopy();
   const [scope, setScope] = useState('All');
@@ -67,14 +68,14 @@ export function ChannelAnalytics() {
         )}
         action={
           <Link className="px-button px-button-outline" href="/workspace/leads">
-            {t('Open CRM', 'فتح إدارة العملاء')}
+            {copyText(t('Open CRM', 'فتح إدارة العملاء'))}
           </Link>
         }
       />
       <CrmNavigation />
       <div className="crm-filters">
         <label className="px-field">
-          {t('Period', 'الفترة')}
+          {copyText(t('Period', 'الفترة'))}
           <select
             value={period}
             onChange={(e) => {
@@ -98,36 +99,36 @@ export function ChannelAnalytics() {
             }}
           >
             <option value="all">
-              {t('All local history', 'كل السجل المحلي')}
+              {copyText(t('All local history', 'كل السجل المحلي'))}
             </option>
-            <option value="7">{t('Last 7 days', 'آخر ٧ أيام')}</option>
-            <option value="30">{t('Last 30 days', 'آخر ٣٠ يوماً')}</option>
-            <option value="90">{t('Last 90 days', 'آخر ٩٠ يوماً')}</option>
+            <option value="7">{copyText(t('Last 7 days', 'آخر ٧ أيام'))}</option>
+            <option value="30">{copyText(t('Last 30 days', 'آخر ٣٠ يوماً'))}</option>
+            <option value="90">{copyText(t('Last 90 days', 'آخر ٩٠ يوماً'))}</option>
           </select>
         </label>
         <label className="px-field">
-          {t('Source', 'المصدر')}
+          {copyText(t('Source', 'المصدر'))}
           <select value={scope} onChange={(e) => setScope(e.target.value)}>
-            <option value="All">{t('All channels', 'كل القنوات')}</option>
+            <option value="All">{copyText(t('All channels', 'كل القنوات'))}</option>
             {leadSources.map((s) => (
-              <option key={s}>{s}</option>
+              <option key={s} value={s}>{copyText(s)}</option>
             ))}
           </select>
         </label>
         <label className="px-field">
-          {t('Property', 'العقار')}
+          {copyText(t('Property', 'العقار'))}
           <select
             value={property}
             onChange={(e) => setProperty(e.target.value)}
           >
-            <option value="All">{t('All properties', 'كل العقارات')}</option>
+            <option value="All">{copyText(t('All properties', 'كل العقارات'))}</option>
             {Object.keys(state.properties).map((id) => (
-              <option key={id}>{id}</option>
+              <option key={id} value={id}>{copyText(id)}</option>
             ))}
           </select>
         </label>
         <label className="px-field">
-          {t('From date', 'من تاريخ')}
+          {copyText(t('From date', 'من تاريخ'))}
           <input
             type="date"
             value={from}
@@ -138,7 +139,7 @@ export function ChannelAnalytics() {
           />
         </label>
         <label className="px-field">
-          {t('To date', 'إلى تاريخ')}
+          {copyText(t('To date', 'إلى تاريخ'))}
           <input
             type="date"
             value={to}
@@ -151,64 +152,64 @@ export function ChannelAnalytics() {
       </div>
       {invalidDates && (
         <p role="alert">
-          {t(
+          {copyText(t(
             'From date must be on or before To date.',
             'يجب أن يكون تاريخ البداية قبل النهاية أو مساوياً له.',
-          )}
+          ))}
         </p>
       )}
       <p className="crm-muted">
-        {t(
+        {copyText(t(
           'Inclusive received-date window · Qatar time (UTC+03). Fictional seed records and local actions only.',
           'الفترة تشمل تاريخ الاستقبال بتوقيت قطر. سجلات أولية خيالية وإجراءات محلية فقط.',
-        )}
+        ))}
       </p>
       <div className="gm-report-lead">
         <div>
           <span className="px-overline">
-            {t(
+            {copyText(t(
               'QUALIFIED / SELECTED LOCAL COHORT',
               'المؤهلون / المجموعة المحلية المحددة',
-            )}
+            ))}
           </span>
           <strong data-testid="qualified-total">{metrics.qualified}</strong>
           <p>
-            {metrics.total}{' '}
-            {t(
+            {metrics.total}{copyText(' ')}
+            {copyText(t(
               'local leads · no live analytics connection',
               'عميل محلي · لا اتصال تحليلات حي',
-            )}
+            ))}
           </p>
         </div>
         <div>
-          <span>{t('WON / TOTAL LEADS', 'الناجحون / إجمالي العملاء')}</span>
-          <b>{metrics.conversion.toFixed(1)}%</b>
+          <span>{copyText(t('WON / TOTAL LEADS', 'الناجحون / إجمالي العملاء'))}</span>
+          <b>{copyText(metrics.conversion.toFixed(1))}%</b>
           <small>
-            {metrics.won} / {metrics.total} ·{' '}
-            {t('local stage conversion', 'تحويل المرحلة المحلي')}
+            {metrics.won} / {metrics.total} ·{copyText(' ')}
+            {copyText(t('local stage conversion', 'تحويل المرحلة المحلي'))}
           </small>
         </div>
       </div>
       <div className="crm-summary">
         <span>
-          <b data-testid="lead-total">{metrics.total}</b>{' '}
-          {t('total', 'الإجمالي')}
+          <b data-testid="lead-total">{metrics.total}</b>{copyText(' ')}
+          {copyText(t('total', 'الإجمالي'))}
         </span>
         <span>
-          <b>{metrics.new}</b> {t('new', 'جديد')}
+          <b>{metrics.new}</b> {copyText(t('new', 'جديد'))}
         </span>
         <span>
-          <b data-testid="assignment-backlog">{metrics.backlog}</b>{' '}
-          {t('assignment backlog', 'بانتظار التوزيع')}
+          <b data-testid="assignment-backlog">{metrics.backlog}</b>{copyText(' ')}
+          {copyText(t('assignment backlog', 'بانتظار التوزيع'))}
         </span>
         <span>
           <b>
-            {metrics.responseMinutes === null
+            {copyText(metrics.responseMinutes === null
               ? '—'
-              : `${metrics.responseMinutes.toFixed(1)} min`}
-          </b>{' '}
-          {t('first local reply average', 'متوسط أول رد محلي')} (
-          {metrics.responseSamples} {t('samples', 'عينات')})
+              : `${metrics.responseMinutes.toFixed(1)} min`)}
+          </b>{copyText(' ')}
+          {copyText(t('first local reply average', 'متوسط أول رد محلي'))} (
+          {metrics.responseSamples} {copyText(t('samples', 'عينات'))})
         </span>
       </div>
       <Section
@@ -223,7 +224,7 @@ export function ChannelAnalytics() {
           className="px-table-scroll"
           tabIndex={0}
           role="region"
-          aria-label={t('Channel contribution table', 'جدول مساهمة القنوات')}
+          aria-label={copyText(t('Channel contribution table', 'جدول مساهمة القنوات'))}
         >
           <table className="px-table">
             <thead>
@@ -238,7 +239,7 @@ export function ChannelAnalytics() {
                   t('Fictional spend (QAR)', 'الإنفاق الخيالي (ر.ق)'),
                   t('Cost / qualified (QAR)', 'تكلفة / مؤهل (ر.ق)'),
                 ].map((s) => (
-                  <th key={s}>{s}</th>
+                  <th key={s}>{copyText(s)}</th>
                 ))}
               </tr>
             </thead>
@@ -252,24 +253,24 @@ export function ChannelAnalytics() {
                 return (
                   <tr key={source} data-channel={source}>
                     <td>
-                      <b>{source}</b>
+                      <b>{copyText(source)}</b>
                     </td>
                     <td>{m.total}</td>
                     <td>{m.new}</td>
                     <td>{m.qualified}</td>
                     <td>
-                      {m.won} / {m.conversion.toFixed(1)}%
+                      {m.won} / {copyText(m.conversion.toFixed(1))}%
                     </td>
                     <td>{m.backlog}</td>
                     <td>
-                      {measurable
+                      {copyText(measurable
                         ? cost.toFixed(2)
-                        : t('Unavailable', 'غير متاح')}
+                        : t('Unavailable', 'غير متاح'))}
                     </td>
                     <td>
-                      {measurable && m.qualified
+                      {copyText(measurable && m.qualified
                         ? (cost / m.qualified).toFixed(2)
-                        : '—'}
+                        : '—')}
                     </td>
                   </tr>
                 );
@@ -279,10 +280,10 @@ export function ChannelAnalytics() {
         </div>
         {!leads.length && (
           <CrmEmpty>
-            {t(
+            {copyText(t(
               'No local leads in this cohort. Adjust filters or simulate intake.',
               'لا عملاء محليون في هذه المجموعة. عدّل المرشحات أو حاكِ الاستقبال.',
-            )}
+            ))}
           </CrmEmpty>
         )}
       </Section>
@@ -298,10 +299,10 @@ export function ChannelAnalytics() {
           <table className="px-table">
             <thead>
               <tr>
-                <th>{t('Canonical property', 'العقار الأساسي')}</th>
-                <th>{t('Leads', 'العملاء')}</th>
-                <th>{t('Qualified', 'مؤهل')}</th>
-                <th>{t('Won', 'ناجح')}</th>
+                <th>{copyText(t('Canonical property', 'العقار الأساسي'))}</th>
+                <th>{copyText(t('Leads', 'العملاء'))}</th>
+                <th>{copyText(t('Qualified', 'مؤهل'))}</th>
+                <th>{copyText(t('Won', 'ناجح'))}</th>
               </tr>
             </thead>
             <tbody>
@@ -315,12 +316,12 @@ export function ChannelAnalytics() {
                     <tr key={p.id}>
                       <td>
                         <Link href={`/workspace/inventory/${p.id}`}>
-                          <b>{p.id}</b>
+                          <b>{copyText(p.id)}</b>
                           <small>
-                            {t(
+                            {copyText(t(
                               p.facts.titleEn || 'Untitled',
                               p.facts.titleAr || 'بدون عنوان',
-                            )}
+                            ))}
                           </small>
                         </Link>
                       </td>
@@ -365,18 +366,18 @@ export function ChannelAnalytics() {
           }}
         >
           <label className="px-field">
-            {t('Spend source', 'مصدر الإنفاق')}
+            {copyText(t('Spend source', 'مصدر الإنفاق'))}
             <select
               value={spendSource}
               onChange={(e) => setSpendSource(e.target.value as LeadSource)}
             >
               {leadSources.map((s) => (
-                <option key={s}>{s}</option>
+                <option key={s} value={s}>{copyText(s)}</option>
               ))}
             </select>
           </label>
           <label className="px-field">
-            {t('Spend date', 'تاريخ الإنفاق')}
+            {copyText(t('Spend date', 'تاريخ الإنفاق'))}
             <input
               type="date"
               required
@@ -385,7 +386,7 @@ export function ChannelAnalytics() {
             />
           </label>
           <label className="px-field">
-            {t('Fictional amount QAR', 'المبلغ الخيالي ر.ق')}
+            {copyText(t('Fictional amount QAR', 'المبلغ الخيالي ر.ق'))}
             <input
               type="number"
               required
@@ -397,35 +398,35 @@ export function ChannelAnalytics() {
             />
           </label>
           <button className="px-button px-button-outline">
-            {t('Add fictional spend', 'إضافة إنفاق خيالي')}
+            {copyText(t('Add fictional spend', 'إضافة إنفاق خيالي'))}
           </button>
         </form>
         <CrmFeedback {...feedback} />
         <details>
           <summary>
-            {t('Saved fictional costs', 'التكاليف الخيالية المحفوظة')} (
+            {copyText(t('Saved fictional costs', 'التكاليف الخيالية المحفوظة'))} (
             {state.crm.spend.length})
           </summary>
           <ul>
             {state.crm.spend.map((s) => (
               <li key={s.id}>
-                {s.date} · {s.source} · QAR {s.qar.toFixed(2)}
+                {copyText(s.date)} · {copyText(s.source)} {copyText(" · QAR ")}{copyText(s.qar.toFixed(2))}
               </li>
             ))}
           </ul>
         </details>
       </Section>
       <Notice>
-        {t(
+        {copyText(t(
           'Portal views, ad reach, actual spend and revenue: unavailable. These are local workflow measurements, not verified financial ROI.',
           'زيارات البوابات والوصول الإعلاني والإنفاق الفعلي والإيرادات غير متاحة. هذه قياسات محلية وليست عائداً مالياً مؤكداً.',
-        )}
+        ))}
       </Notice>
       <CrmDisclosure />
     </>
   );
 }
-export function ViewingsPage({initialLead}: {initialLead?: string}) {
+export function ViewingsPage({initialLead}: {initialLead?: string}) {const copyText=usePrototypeCopy();
   const {state, hydrated, crmCommand} = useGeminiDemo();
   const t = useCrmCopy();
   const [selected, setSelected] = useState(initialLead ?? '');
@@ -505,7 +506,7 @@ export function ViewingsPage({initialLead}: {initialLead?: string}) {
             >
               <div className="px-field-grid">
                 <label className="px-field">
-                  {t('Lead', 'العميل')}
+                  {copyText(t('Lead', 'العميل'))}
                   <select
                     value={lead?.id ?? ''}
                     onChange={(e) => {
@@ -515,18 +516,18 @@ export function ViewingsPage({initialLead}: {initialLead?: string}) {
                   >
                     {!lead && (
                       <option value="">
-                        {t('Select an existing lead', 'اختر عميلاً موجوداً')}
+                        {copyText(t('Select an existing lead', 'اختر عميلاً موجوداً'))}
                       </option>
                     )}
                     {state.crm.leads.map((l) => (
                       <option key={l.id} value={l.id}>
-                        {l.identity.alias} · {l.id}
+                        {copyText(l.identity.alias)} · {copyText(l.id)}
                       </option>
                     ))}
                   </select>
                 </label>
                 <label className="px-field">
-                  {t('Linked canonical property', 'العقار الأساسي المرتبط')}
+                  {copyText(t('Linked canonical property', 'العقار الأساسي المرتبط'))}
                   <input
                     readOnly
                     value={
@@ -535,7 +536,7 @@ export function ViewingsPage({initialLead}: {initialLead?: string}) {
                   />
                 </label>
                 <label className="px-field">
-                  {t('Requested date', 'التاريخ المطلوب')}
+                  {copyText(t('Requested date', 'التاريخ المطلوب'))}
                   <input
                     type="date"
                     required
@@ -544,7 +545,7 @@ export function ViewingsPage({initialLead}: {initialLead?: string}) {
                   />
                 </label>
                 <label className="px-field">
-                  {t('Requested time', 'الوقت المطلوب')}
+                  {copyText(t('Requested time', 'الوقت المطلوب'))}
                   <input
                     type="time"
                     required
@@ -553,7 +554,7 @@ export function ViewingsPage({initialLead}: {initialLead?: string}) {
                   />
                 </label>
                 <label className="px-field">
-                  {t('Viewing agent', 'مسؤول المعاينة')}
+                  {copyText(t('Viewing agent', 'مسؤول المعاينة'))}
                   <select
                     value={agent}
                     onChange={(e) => setAgent(e.target.value)}
@@ -563,14 +564,14 @@ export function ViewingsPage({initialLead}: {initialLead?: string}) {
                         key={a}
                         disabled={state.crm.unavailableAgents.includes(a)}
                       >
-                        {a}
+                        {copyText(a)}
                       </option>
                     ))}
                   </select>
                 </label>
               </div>
               <button className="px-button px-button-dark" disabled={!lead}>
-                {t('Add demo request', 'إضافة طلب تجريبي')}
+                {copyText(t('Add demo request', 'إضافة طلب تجريبي'))}
               </button>
             </form>
           </Section>
@@ -578,14 +579,14 @@ export function ViewingsPage({initialLead}: {initialLead?: string}) {
         <aside className="gm-aside">
           <div className="gm-context">
             <span className="px-overline">
-              {t('LOCAL SCHEDULING', 'جدولة محلية')}
+              {copyText(t('LOCAL SCHEDULING', 'جدولة محلية'))}
             </span>
-            <h3>{t('Keep every request in context.', 'كل طلب في سياقه.')}</h3>
+            <h3>{copyText(t('Keep every request in context.', 'كل طلب في سياقه.'))}</h3>
             <p>
-              {t(
+              {copyText(t(
                 'Property follows the selected lead and cannot be independently changed. A cancellation releases the local slot. No live calendar, booking guarantee or invitation.',
                 'يتبع العقار العميل المحدد ولا يمكن تغييره مستقلاً. يلغي الإلغاء حجز الفترة المحلية. لا تقويم حي أو ضمان حجز أو دعوة.',
-              )}
+              ))}
             </p>
           </div>
         </aside>
@@ -609,7 +610,7 @@ export function ViewingsPage({initialLead}: {initialLead?: string}) {
                     t('Status', 'الحالة'),
                     t('Actions', 'الإجراءات'),
                   ].map((s) => (
-                    <th key={s}>{s}</th>
+                    <th key={s}>{copyText(s)}</th>
                   ))}
                 </tr>
               </thead>
@@ -618,19 +619,19 @@ export function ViewingsPage({initialLead}: {initialLead?: string}) {
                   <tr key={v.id}>
                     <td>
                       <Link href={`/workspace/leads/${v.lead.id}`}>
-                        <b>{v.lead.identity.alias}</b>
-                        <small>{v.lead.propertyId}</small>
+                        <b>{copyText(v.lead.identity.alias)}</b>
+                        <small>{copyText(v.lead.propertyId)}</small>
                       </Link>
                     </td>
                     <td>
-                      {v.date} · {v.time} +03
+                      {copyText(v.date)} · {copyText(v.time)} +03
                     </td>
-                    <td>{v.agent}</td>
+                    <td>{copyText(v.agent)}</td>
                     <td>
                       <Pill
                         tone={v.status === 'Cancelled' ? 'neutral' : 'info'}
                       >
-                        {t(
+                        {copyText(t(
                           `${v.status} (local)`,
                           {
                             Requested: 'مطلوب (محلي)',
@@ -638,7 +639,7 @@ export function ViewingsPage({initialLead}: {initialLead?: string}) {
                             Completed: 'مكتمل (محلي)',
                             Cancelled: 'ملغى (محلي)',
                           }[v.status],
-                        )}
+                        ))}
                       </Pill>
                     </td>
                     <td>
@@ -648,7 +649,7 @@ export function ViewingsPage({initialLead}: {initialLead?: string}) {
                             className="px-mini-action"
                             onClick={() => status(v.lead.id, v.id, 'Confirmed')}
                           >
-                            {t('Confirm locally', 'تأكيد محلي')}
+                            {copyText(t('Confirm locally', 'تأكيد محلي'))}
                           </button>
                         )}
                         {v.status === 'Confirmed' && (
@@ -656,7 +657,7 @@ export function ViewingsPage({initialLead}: {initialLead?: string}) {
                             className="px-mini-action"
                             onClick={() => status(v.lead.id, v.id, 'Completed')}
                           >
-                            {t('Complete', 'إكمال')}
+                            {copyText(t('Complete', 'إكمال'))}
                           </button>
                         )}
                         {['Requested', 'Confirmed'].includes(v.status) && (
@@ -664,7 +665,7 @@ export function ViewingsPage({initialLead}: {initialLead?: string}) {
                             className="px-mini-action"
                             onClick={() => status(v.lead.id, v.id, 'Cancelled')}
                           >
-                            {t('Cancel', 'إلغاء')}
+                            {copyText(t('Cancel', 'إلغاء'))}
                           </button>
                         )}
                       </div>
@@ -676,10 +677,10 @@ export function ViewingsPage({initialLead}: {initialLead?: string}) {
           </div>
         ) : (
           <CrmEmpty>
-            {t(
+            {copyText(t(
               'No viewing requests yet. Select a lead and request a local slot.',
               'لا توجد طلبات معاينة بعد. اختر عميلاً واطلب فترة محلية.',
-            )}
+            ))}
           </CrmEmpty>
         )}
       </Section>

@@ -112,3 +112,8 @@ Production marketing must move these commands behind authenticated Frappe permis
 ## Phase 5 organization boundary (GEM-01 / 17 / 18 / 19 / 20)
 
 `organization-engine.ts` and `organization-storage.ts` add shared typed browser-local profiles, membership, selected fictional personas, central permissions, effective illustrative plan configuration, canonical revision-bound moderation and audit. Local command guards apply across property/publishing/CRM/campaign/billing/admin. `prototype-repository.ts` defines the data boundary with a local adapter; no Frappe API is called. Directory profiles do not select another operational dataset. See `21-phase5-organization-admin.md` for evidence and prototype limitations. Production must enforce every invariant in Frappe authenticated document permissions/controllers/whitelisted methods, with transactional quotas, outbox, revisions, isolation and durable audit as specified in the blueprint.
+
+
+## Phase 6 selected-organization frontend boundary
+
+Phase 6 supersedes the Phase 5 directory-only restriction. The browser envelope now carries independent operational slices and selected organization context; command guards validate linked organization ownership, and publishing approval context includes the organization ID. This remains editable UX simulation, not server isolation. `api-contracts.ts` proposes scoped paginated reads, errors/loading states and approval/acknowledgment DTOs for a separately implemented Frappe adapter. See `25-frappe-integration-readiness.md`. No backend framework, database version, real credentials or API transport is added.

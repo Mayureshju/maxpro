@@ -56,15 +56,16 @@ function readLead(
   v: unknown,
   properties: Record<string, CanonicalProperty>,
   names: readonly string[]=crmAgents,
+  organizationId: string = demoOrganizationId,
 ): CanonicalLead | null {
   if (
     !isRecord(v) ||
     !id(v.id) ||
     !/^LE-(?:21\d{2}|DEMO-[a-f0-9-]{36})$/.test(v.id) ||
-    v.organizationId !== demoOrganizationId ||
+    v.organizationId !== organizationId ||
     !id(v.propertyId) ||
     !Object.hasOwn(properties, v.propertyId) ||
-    properties[v.propertyId].organizationId !== demoOrganizationId ||
+    properties[v.propertyId].organizationId !== organizationId ||
     !source(v.source) ||
     !id(v.sourceEventId) ||
     !/^DEMO-[A-Za-z0-9-]+$/.test(v.sourceEventId) ||
@@ -144,7 +145,7 @@ function readLead(
   // Reconstruct known fields only; injected payloads/credentials never survive hydration.
   return {
     id: l.id,
-    organizationId: demoOrganizationId,
+    organizationId,
     propertyId: l.propertyId,
     source: l.source,
     sourceEventId: l.sourceEventId,
@@ -209,6 +210,7 @@ export function restoreCrm(
   version: unknown,
   properties: Record<string, CanonicalProperty>,
   names: readonly string[]=crmAgents,
+  organizationId: string = demoOrganizationId,
 ): {crm: CrmRepository; corrupt: boolean} {
   if (version === undefined && value === undefined)
     return {crm: seedCrm(properties), corrupt: false};
@@ -228,7 +230,7 @@ export function restoreCrm(
   const ids = new Set<string>();
   if (Array.isArray(value.leads) && value.leads.length <= 500) {
     for (const v of value.leads) {
-      const l = readLead(v, properties,names);
+      const l = readLead(v, properties,names,organizationId);
       const key = l
         ? JSON.stringify([l.organizationId, l.source, l.sourceEventId])
         : '';

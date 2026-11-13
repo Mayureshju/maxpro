@@ -1,0 +1,42 @@
+
+> maxpro-platform@0.1.0 lint /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3
+> pnpm --dir apps/web lint
+
+
+> @maxpro/web@0.1.0 lint /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> eslint .
+
+
+/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/src/components/gemini/distribution.tsx
+  15:40  warning  'copyText' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/src/components/gemini/lead-workspace.tsx
+  1364:85  warning  'copyText' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  1367:68  warning  'copyText' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/src/components/gemini/listing-editor.tsx
+  13:65  warning  'copyText' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/src/components/gemini/property-state.tsx
+  7:61  warning  'copyText' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/src/components/gemini/syndication.tsx
+  20:41  warning  'copyText' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/src/components/marketing/site-header.tsx
+  8:38  warning  'copyText' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/src/components/prototype/primitives.tsx
+  15:125  warning  'copyText' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  21:98   warning  'copyText' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  30:84   warning  'copyText' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/src/components/prototype/public-pages.tsx
+   4:66  warning  'copyText' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  32:60  warning  'copyText' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/src/components/prototype/studio.tsx
+  18:41  warning  'copyText' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+✖ 13 problems (0 errors, 13 warnings)
+

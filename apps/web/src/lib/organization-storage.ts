@@ -15,7 +15,7 @@ export function restoreOrganization(value:unknown,version:unknown,properties:Rec
  const organizations:OrganizationProfile[]=[];
  for(const o of list(v.organizations,50)){
   if(!isRecord(o)||!text(o.id,100)||!/^ORG-DEMO-[A-Za-z0-9-]+$/.test(o.id)||!revision(o.revision)||!text(o.name)||!o.name.trim()||!text(o.nameAr)||!one(o.type,organizationTypes)||!one(o.country,['QA','AE','SA'])||!text(o.businessName)||!text(o.license,100)||!text(o.brand)||!text(o.domain,200)||(o.domain!==''&&!/^(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+example$/.test(o.domain))||typeof o.domainPreview!=='boolean'||!plan(o.plan)||!one(o.status,['onboarding','active-demo','suspended-demo'])||!one(o.verification,['verification-pending','submitted-demo'])||!isRecord(o.settings)||typeof o.settings.approvalRequired!=='boolean'||typeof o.settings.leadNotifications!=='boolean'||!one(o.settings.locale,['en','ar'])||organizations.some(x=>x.id===o.id)){corrupt=true;continue;}
-  organizations.push({id:o.id,revision:o.revision,name:o.name,nameAr:o.nameAr,type:o.type as OrganizationProfile['type'],country:o.country as OrganizationProfile['country'],businessName:o.businessName,license:o.license,brand:o.brand,domain:o.domain,domainPreview:o.domainPreview,plan:o.id===demoOrganizationId?selectedPlan:o.plan,status:o.status as OrganizationProfile['status'],verification:o.verification as OrganizationProfile['verification'],settings:{approvalRequired:o.settings.approvalRequired,leadNotifications:o.settings.leadNotifications,locale:o.settings.locale as 'en'|'ar'}});
+  organizations.push({id:o.id,revision:o.revision,name:o.name,nameAr:o.nameAr,type:o.type as OrganizationProfile['type'],country:o.country as OrganizationProfile['country'],businessName:o.businessName,license:o.license,brand:o.brand,domain:o.domain,domainPreview:o.domainPreview,plan:(!v.activeOrganizationId&&o.id===demoOrganizationId)?selectedPlan:o.plan,status:o.status as OrganizationProfile['status'],verification:o.verification as OrganizationProfile['verification'],settings:{approvalRequired:o.settings.approvalRequired,leadNotifications:o.settings.leadNotifications,locale:o.settings.locale as 'en'|'ar'}});
  }
  if(!organizations.some(o=>o.id===demoOrganizationId)){organizations.unshift(r.organizations[0]);corrupt=true;}
  const members:Membership[]=[];
@@ -43,7 +43,9 @@ export function restoreOrganization(value:unknown,version:unknown,properties:Rec
  let operational=r.operational;
  if(isRecord(v.operational)&&typeof v.operational.maintenance==='boolean'&&typeof v.operational.reviewNoteRequired==='boolean')operational={maintenance:v.operational.maintenance,reviewNoteRequired:v.operational.reviewNoteRequired};else corrupt=true;
  const actor=one(v.actor,roles)?v.actor as OrganizationRepository['actor']:'super-admin';if(actor!==v.actor)corrupt=true;
- r={version:1,organizations,members,actor,reviews,audit:events,planOverrides:overrides,operational};
+ const activeOrganizationId=typeof v.activeOrganizationId==='string'&&organizations.some(o=>o.id===v.activeOrganizationId)?v.activeOrganizationId:demoOrganizationId;
+ if(v.activeOrganizationId!==undefined&&v.activeOrganizationId!==activeOrganizationId)corrupt=true;
+ r={version:1,activeOrganizationId,organizations,members,actor,reviews,audit:events,planOverrides:overrides,operational};
  for(const p of Object.values(properties))r=invalidateReviews(r,p);
  return {organization:r,corrupt};
 }

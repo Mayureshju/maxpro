@@ -1,0 +1,10 @@
+▲ Next.js 16.4.6 (webpack)
+✓ Running next.config.ts took 83ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 4.1s
+  Running TypeScript ...
+tests/e2e/final-acceptance.spec.ts(68,727): error TS2339: Property 'leadId' does not exist on type '{ error: string | null; id: string | undefined; } | { error: string; leadId?: undefined; } | { error: string | null; leadId: string | undefined; }'.
+  Property 'leadId' does not exist on type '{ error: string | null; id: string | undefined; }'.
+Failed to type check.
+

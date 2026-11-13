@@ -1,0 +1,3662 @@
+[
+  {
+    "path": "artifacts/phase6/copy-check/screenshots/chromium-ar-inbox.png",
+    "width": 1440,
+    "height": 1221,
+    "sha256": "3d4030ee1b833a6327d3e874380687dd9f88f1967239bebb8c4374263edd7db4"
+  },
+  {
+    "path": "artifacts/phase6/copy-check/screenshots/chromium-ar-studio.png",
+    "width": 1440,
+    "height": 1232,
+    "sha256": "d7f4be1ea5c8f0fed5ec4fd3b42d834327b536e217a1678d5796c3403ef9df88"
+  },
+  {
+    "path": "artifacts/phase6/copy-check/screenshots/chromium-en-inbox.png",
+    "width": 1440,
+    "height": 1243,
+    "sha256": "276942391697db1f4755a8b6e41e02b5e121d84a5ad0242520cd9903e59ac5a7"
+  },
+  {
+    "path": "artifacts/phase6/copy-check/screenshots/chromium-en-studio.png",
+    "width": 1440,
+    "height": 1254,
+    "sha256": "d16213cded37a619d9e327965bbe55066e9385d5b6119d3a7a16ad73a5e6fd47"
+  },
+  {
+    "path": "artifacts/phase6/copy-check/screenshots/mobile-chromium-ar-inbox.png",
+    "width": 375,
+    "height": 1676,
+    "sha256": "d6e11ca49d14b4c9d5bf35fd1b9a6bd80ef02fa7ade4ce4e03cae291c2338c5b"
+  },
+  {
+    "path": "artifacts/phase6/copy-check/screenshots/mobile-chromium-ar-studio.png",
+    "width": 375,
+    "height": 2117,
+    "sha256": "ed3af2a712d3a16e746b53d97be8273f359ad39fa8783b37b3df7e3d17d9620f"
+  },
+  {
+    "path": "artifacts/phase6/copy-check/screenshots/mobile-chromium-en-inbox.png",
+    "width": 375,
+    "height": 1680,
+    "sha256": "1417eb67799b707875e6317f64bd5038087c3f15b6bb81c83ecaf5bf27afb421"
+  },
+  {
+    "path": "artifacts/phase6/copy-check/screenshots/mobile-chromium-en-studio.png",
+    "width": 375,
+    "height": 2245,
+    "sha256": "31d8339afd5cc9c04c1c481fa58ac52782078330e13ae7e0dbfa36738e7241ee"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/chromium-ar-admin.png",
+    "width": 1440,
+    "height": 1725,
+    "sha256": "30f2aa185a520f4c29566d4272c3fe78378e2644014a69bb300804144c96f5f1"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/chromium-ar-analytics.png",
+    "width": 1440,
+    "height": 2382,
+    "sha256": "ba473b8e1a05db7459f30ffb0ceac86eb523818c79ccf0d648eeb7957e643335"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/chromium-ar-billing.png",
+    "width": 1440,
+    "height": 1416,
+    "sha256": "1aee8634a3cb6766619b7718d45d063139789e9ad8c0f2b2cb1ab2474b951242"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/chromium-ar-dashboard.png",
+    "width": 1440,
+    "height": 1567,
+    "sha256": "5925707c6d3740bb99a96a0cf753e464dab8b7e0551cf5fe227869b5d4edd4ea"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/chromium-ar-editor.png",
+    "width": 1440,
+    "height": 2583,
+    "sha256": "e2b27b45a5fa0dfec1651dfb0bbbd23e478bd5b3cec94df08083c92ce9774e4b"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/chromium-ar-history-with-jobs.png",
+    "width": 1440,
+    "height": 1258,
+    "sha256": "43cc87afecabe439a925340446a444256d4471e1d6de30ffdcdc959c7818c591"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/chromium-ar-history.png",
+    "width": 1440,
+    "height": 1050,
+    "sha256": "5a190e52bb82b0e8f9abbe26e14f320847341cb069e1aef761002387546909c8"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/chromium-ar-leads.png",
+    "width": 1440,
+    "height": 1415,
+    "sha256": "5f151a9a6ebf7013df9f27a4a29cc8f53f9491be25449008962d9b97a190ad32"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/chromium-ar-marketplace.png",
+    "width": 1440,
+    "height": 1297,
+    "sha256": "18248041a1d040bd1c85aea020b4ce08a655045596f216df258e4d6acb74d75d"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/chromium-ar-media.png",
+    "width": 1440,
+    "height": 1617,
+    "sha256": "78d0a94e21020cf5a22b8596e5798fe7886b93d8a993f9696da570995fe9898e"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/chromium-ar-provider.png",
+    "width": 1440,
+    "height": 3677,
+    "sha256": "2e88965ba7ef0d9c8089c57839811f761c07ea15579ddae07b3726cb20dbcb7e"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/chromium-ar-publishing.png",
+    "width": 1440,
+    "height": 1367,
+    "sha256": "7d30011e7e4e71654600b018d8c8e51d30ef5140eaa3bc1aacf8128a6fa03c24"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/chromium-ar-routing.png",
+    "width": 1440,
+    "height": 1781,
+    "sha256": "6592c9c7685d36ea1bf9c90df266af6bf34b0894316450a341904403d697355a"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/chromium-ar-studio.png",
+    "width": 1440,
+    "height": 1232,
+    "sha256": "b37da64e57c5bb18471f8448818b474571f475758c097306bd8fc432725ed000"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/chromium-en-admin.png",
+    "width": 1440,
+    "height": 1747,
+    "sha256": "af1263b22e135a83b3856b03caf8c7de9f374c8d28bafdced92ec9e8154ad511"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/chromium-en-analytics.png",
+    "width": 1440,
+    "height": 2382,
+    "sha256": "a06774d8c902e7aab438064abaf0c3c53bd7a8847828ba82392d856e8d7e27bb"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/chromium-en-billing.png",
+    "width": 1440,
+    "height": 1411,
+    "sha256": "6721305ce6fb3d9566a2f3f54c0a5e4bb9b62acff4d4555a9ccbe51298acc278"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/chromium-en-dashboard.png",
+    "width": 1440,
+    "height": 1577,
+    "sha256": "da1a25bcc63fa0e541a19341f9870128c535c744845120d7137f702654d420de"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/chromium-en-editor.png",
+    "width": 1440,
+    "height": 2606,
+    "sha256": "69d609f7e69f423c635b0e21e97b29afbd1caeed13796e170d0c0338ae046049"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/chromium-en-history-with-jobs.png",
+    "width": 1440,
+    "height": 1310,
+    "sha256": "b5db3497d56e2b0273f8b2427a17d88fc32c07abcfba5d0c9481246e47408468"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/chromium-en-history.png",
+    "width": 1440,
+    "height": 1082,
+    "sha256": "14a2e4f57591bd108db004e9eba99a3783ebb0356006ef178329d014efa3f9f4"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/chromium-en-leads.png",
+    "width": 1440,
+    "height": 1437,
+    "sha256": "5c8d3d20d539f424b8954072605893767e99e943c1c76a18e370b0d1b80342bb"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/chromium-en-marketplace.png",
+    "width": 1440,
+    "height": 1369,
+    "sha256": "1962fd5d54cfd2eaebeb0c082c6ea8a67cebee3cb91ca1845c960b7199a897e8"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/chromium-en-media.png",
+    "width": 1440,
+    "height": 1657,
+    "sha256": "5ad783dbe17bb445d2c45bd9eb922cb3d18e758e09e9e1f63ede32ddc4915753"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/chromium-en-provider.png",
+    "width": 1440,
+    "height": 3692,
+    "sha256": "100849fc7d8bd08ae4154c6b96cc58b99e43ee337c624158ccb6f30a8afaaaa9"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/chromium-en-publishing.png",
+    "width": 1440,
+    "height": 1449,
+    "sha256": "60ecd4e1cf66a9dbcefa17c87ddab7256c32dcd19ad6ffd12a31d4ac1a8dcbcd"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/chromium-en-routing.png",
+    "width": 1440,
+    "height": 1803,
+    "sha256": "ad48cfff04e99cf30989dc76f70082e21792fdba44004bad3f10d09c92488e5b"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/chromium-en-studio.png",
+    "width": 1440,
+    "height": 1254,
+    "sha256": "d16213cded37a619d9e327965bbe55066e9385d5b6119d3a7a16ad73a5e6fd47"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/mobile-chromium-ar-admin.png",
+    "width": 375,
+    "height": 2305,
+    "sha256": "34e7d3d22cbe47be0d477d258e6e19ac130135a7a9b0d0ceb62cb7fdae874966"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/mobile-chromium-ar-analytics.png",
+    "width": 375,
+    "height": 3282,
+    "sha256": "81b6a54db23b8d02754a534d8c76282dd266c41f7a7513eae5f4f9b7e8114acf"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/mobile-chromium-ar-billing.png",
+    "width": 375,
+    "height": 2055,
+    "sha256": "306e9a7e0b056a212016f0506fae004551e585e34e6cf8a8537f38f043dfb5e9"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/mobile-chromium-ar-dashboard.png",
+    "width": 375,
+    "height": 3001,
+    "sha256": "a3c51b94a7933074229dbec9f1d21ccc7bbccd9ea3ee421538d10dcee3d270e4"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/mobile-chromium-ar-editor.png",
+    "width": 375,
+    "height": 3887,
+    "sha256": "c24879daf97162b7b45c0af3112a156795ea8b3e48d796a8146b7200fc079042"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/mobile-chromium-ar-history-with-jobs.png",
+    "width": 375,
+    "height": 1706,
+    "sha256": "79ef57c43aac1a62b76e56ac2b179c61b4efb7610250264dec94f1c1954fde13"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/mobile-chromium-ar-history.png",
+    "width": 375,
+    "height": 1498,
+    "sha256": "e7f408a03bd21ccc36289b9f3bde1e826154cbf8126ad2eda9af66aa00bf23b7"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/mobile-chromium-ar-leads.png",
+    "width": 375,
+    "height": 1867,
+    "sha256": "d83a8b7b10578d5c08025dccf66435570021c490da5d5e11df8e5fa964017936"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/mobile-chromium-ar-marketplace.png",
+    "width": 375,
+    "height": 2458,
+    "sha256": "71446aefbbb2f1bc1c74d9b2e1ca552059baa22f7035058a483320a9235fd37a"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/mobile-chromium-ar-media.png",
+    "width": 375,
+    "height": 2871,
+    "sha256": "4a2cc1a99bafe8fc6d01a6ea4e59551dd333574dd21e6dae33363e37a67cc586"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/mobile-chromium-ar-provider.png",
+    "width": 375,
+    "height": 4835,
+    "sha256": "cc8d5da67a889ce1a0e33445710c4655314603d2c1cd1ac08105b47bba5bd719"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/mobile-chromium-ar-publishing.png",
+    "width": 375,
+    "height": 2277,
+    "sha256": "0ed2a09afa3f45cf1e59d16805d6574b87816351eaade9568ccb1f463df33ee6"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/mobile-chromium-ar-routing.png",
+    "width": 375,
+    "height": 2498,
+    "sha256": "d6a077a6e08ca5b9e5c8bed05b73812b6f213202629ecf769b2cb4b1cc0c183a"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/mobile-chromium-ar-studio.png",
+    "width": 375,
+    "height": 2117,
+    "sha256": "2fb703570813ca2ee108b981a9e57e94ee9b010f1204691d67bdf9150736c444"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/mobile-chromium-en-admin.png",
+    "width": 375,
+    "height": 2326,
+    "sha256": "42bf7b283cac58e31f22bbead193bf46f26eabf351b2c5054865663186dbe8ff"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/mobile-chromium-en-analytics.png",
+    "width": 375,
+    "height": 3393,
+    "sha256": "0f09abae139c8023be42518d6bfd6f16b03b0c54fe1efe900674356ebfd24148"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/mobile-chromium-en-billing.png",
+    "width": 375,
+    "height": 2077,
+    "sha256": "f495edffac1e3b9247e2cd6840870eda607d78878468ce5d85ec019462fd258d"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/mobile-chromium-en-dashboard.png",
+    "width": 375,
+    "height": 3436,
+    "sha256": "e4aa745ef22b48272cfa9f79731d379a808659e0ca22768592ad49c5d2200329"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/mobile-chromium-en-editor.png",
+    "width": 375,
+    "height": 4019,
+    "sha256": "134cfe03cc622a1c1aa7159ed5f4b8178402c0eba2f293714c552058e4e9f003"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/mobile-chromium-en-history-with-jobs.png",
+    "width": 375,
+    "height": 1797,
+    "sha256": "6fc204ae51b9a063acedd86d5a6cbb7f88b7140f829c0d034c15f7805636e1ff"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/mobile-chromium-en-history.png",
+    "width": 375,
+    "height": 1596,
+    "sha256": "a58d66f24a1bf5bdce874be436fea72772c0d691a0b8d9242ea6138444b6b9c5"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/mobile-chromium-en-leads.png",
+    "width": 375,
+    "height": 1947,
+    "sha256": "1498389a36810c874406196ca85c69776de0cfde419069b4ac53799f51d6b0ce"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/mobile-chromium-en-marketplace.png",
+    "width": 375,
+    "height": 2691,
+    "sha256": "916d55d722d2e0322aed427571b9f360fff647054ca913a96603c4445f662d51"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/mobile-chromium-en-media.png",
+    "width": 375,
+    "height": 2995,
+    "sha256": "46cabec82122d753e1809eb67ec84e663a3304b78ebc2b5424c699aa7d04fa5a"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/mobile-chromium-en-provider.png",
+    "width": 375,
+    "height": 4943,
+    "sha256": "6c2314a148f0367f14d6625751a70ff054d6ee056c1e1eac74205ec4b9765066"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/mobile-chromium-en-publishing.png",
+    "width": 375,
+    "height": 2416,
+    "sha256": "421971ebf4181e951037294f01dc1e2a3a513c8d1591c8f4600a05d2c2d7ae90"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/mobile-chromium-en-routing.png",
+    "width": 375,
+    "height": 2815,
+    "sha256": "2979b8889adac9ac1c22db3c74adc5ca59b33dd31e99a3aafbff6ec285310408"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/regression-screenshots/mobile-chromium-en-studio.png",
+    "width": 375,
+    "height": 2245,
+    "sha256": "31d8339afd5cc9c04c1c481fa58ac52782078330e13ae7e0dbfa36738e7241ee"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/chromium-ar-1024-editor.png",
+    "width": 1024,
+    "height": 3306,
+    "sha256": "8caf85a3afda92620f928a37c20d502f6fe4f72dc5cc0c11370b0b2dad902c41"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/chromium-ar-1024-preflight.png",
+    "width": 1024,
+    "height": 1880,
+    "sha256": "70c3cb7aaf8720fdce0588da1099d30213d346ff8392a875c85b72b33ef33745"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/chromium-ar-768-editor.png",
+    "width": 768,
+    "height": 3286,
+    "sha256": "3b82d40686fdd58869ffa155975b415beb330f92a90f4c2dc4bd6d02e42fd4ba"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/chromium-ar-768-media.png",
+    "width": 768,
+    "height": 1668,
+    "sha256": "84b07e596801ff6a3708f8f2ad835f093f2510e00568e4720f9d6a66a37faa89"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/chromium-ar-768-preflight.png",
+    "width": 768,
+    "height": 1878,
+    "sha256": "6ffed71a163ff8d954502b9f545584472848ef319a51af4025b1f62e544efbac"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/chromium-ar-create.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "b439e3ae02e24f0c0132fe7c780c0dca04f04a96db3b3e0b5aef081bc85a1dd8"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/chromium-ar-destinations.png",
+    "width": 1440,
+    "height": 1357,
+    "sha256": "3cd86522b81270fadf281e34be5361d7067f9e458828b77524fb481bbac40d58"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/chromium-ar-dispatch.png",
+    "width": 1440,
+    "height": 1357,
+    "sha256": "3957e52c21115e7d0101fbd7c3f39ba8c79506cf8664fc99176c4cad792cb7c4"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/chromium-ar-editor.png",
+    "width": 1440,
+    "height": 2695,
+    "sha256": "95f18c799a81f76eb60ab46cc0316194834d529314cb5ed3c069a29295107f3a"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/chromium-ar-inventory.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "4e7de0a0569734332e29cb1ce7083919bdb0e65f36f42acc063414503f9f0686"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/chromium-ar-job-history.png",
+    "width": 1440,
+    "height": 1020,
+    "sha256": "b8156702b02a4490b3e779c92a2529f0872f1428e1134ee47006b320bd82fdc6"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/chromium-ar-media.png",
+    "width": 1440,
+    "height": 1617,
+    "sha256": "15c2a7a9df3fb25051dd65f92372a57fa921c55c974e666e70f3925b6103a22f"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/chromium-ar-preflight.png",
+    "width": 1440,
+    "height": 1357,
+    "sha256": "d578e53ca1788ddd6761fed23cf0a68a9377a690d65a53c64145465fdb5f5267"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/chromium-ar-property-history.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "da12a5d01d47e9b8bb37c06ee07515f7f50cdd2df951de07430aae0f8691c556"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/chromium-ar-property-record.png",
+    "width": 1440,
+    "height": 1896,
+    "sha256": "7067727dd5fd9a938b0705961d7bdf030b46c144df02258e105795fcf76dc1f9"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/chromium-ar-studio-approval.png",
+    "width": 1440,
+    "height": 1116,
+    "sha256": "cbb061ae28fc780c19742de86633fbd2c62e9347184a2e51eb759889267fb0bf"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/chromium-ar-studio-copy.png",
+    "width": 1440,
+    "height": 1189,
+    "sha256": "2ee60e89aa6f4698a79cb25103c661196017a1e976e651d15aba0b80547ed83f"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/chromium-ar-studio-facts.png",
+    "width": 1440,
+    "height": 1525,
+    "sha256": "26e88940d2bc0fffb816eec940c2b3a5012c3b2a137dd5e9966771f68c4e7646"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/chromium-en-1024-editor.png",
+    "width": 1024,
+    "height": 3418,
+    "sha256": "0be07e899ab04cc0be6ce2f8c62c8476e34f136f295d011fabfe1d782a9f9754"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/chromium-en-1024-preflight.png",
+    "width": 1024,
+    "height": 1983,
+    "sha256": "f8f04cad2d2f1084cbbc52c99fb2c8654f7df64198369444ce3ba1099cac3899"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/chromium-en-768-editor.png",
+    "width": 768,
+    "height": 3398,
+    "sha256": "08328afc228fa95fa1a66693bd78921ef78e1af8bebb8353612dc9c6498af694"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/chromium-en-768-media.png",
+    "width": 768,
+    "height": 1761,
+    "sha256": "bc29d61106aa05fb9b9c0c7b33cb18c5586517224f4ea05106e8b00fdeff1800"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/chromium-en-768-preflight.png",
+    "width": 768,
+    "height": 1963,
+    "sha256": "544fa256028be7d482564513a0a40889d0d372efc20f05dba8625670b0179357"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/chromium-en-create.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "903d7342ab601db23d96f61b1c7f176cfb6bb33befd3cf70c15577edb9a05168"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/chromium-en-destinations.png",
+    "width": 1440,
+    "height": 1470,
+    "sha256": "5ad19d386e7f4de784b2c78e8e2a396bb14c6d57d102b3c8ff4585aa32d13f8f"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/chromium-en-dispatch.png",
+    "width": 1440,
+    "height": 1470,
+    "sha256": "cdc7b08c149ee1f3a2b74b59e1b1bac3d1f6c957fd50b71f73063cf5910efa6c"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/chromium-en-editor.png",
+    "width": 1440,
+    "height": 2718,
+    "sha256": "579148eb4257eaf42cc54b858593c8a5be176acf64113c1ffc7229f6b63435d1"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/chromium-en-inventory.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "dc6b4e9c88d6233bcd93c096f7960f2906fee4000e48446f7600e5321eb14256"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/chromium-en-job-history.png",
+    "width": 1440,
+    "height": 1044,
+    "sha256": "2093075153ea186f42e13cd405763179ed52be4715cdd94ba40509cfa3e55a0e"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/chromium-en-media.png",
+    "width": 1440,
+    "height": 1657,
+    "sha256": "97aa6381682af78b013e31b8427c15c3e4a275d8db124b82de73948ead535c65"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/chromium-en-preflight.png",
+    "width": 1440,
+    "height": 1470,
+    "sha256": "0e7c1b61cf255d6bf1523b6b6ee1eb8482a8c9141e1763db0363670b74a596ff"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/chromium-en-property-history.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "0f27b4d51f4b5d9b36ac90ae4bd8ed930b577376537b42c1c68d1c70c9c5fd07"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/chromium-en-property-record.png",
+    "width": 1440,
+    "height": 1896,
+    "sha256": "610592d84c933624635a13d88c0a1c123da63bb521e2500adfc9e2e9cdcc1baa"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/chromium-en-studio-approval.png",
+    "width": 1440,
+    "height": 1116,
+    "sha256": "86668d950b26ad3d3628917034186a3045e0fa40cdb3fd7203100fa55b34ecac"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/chromium-en-studio-copy.png",
+    "width": 1440,
+    "height": 1211,
+    "sha256": "f91707a219131edaa861dc2fc76e1b9701aef3d482ee9ddac4379ca3960b2442"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/chromium-en-studio-facts.png",
+    "width": 1440,
+    "height": 1565,
+    "sha256": "dd07f15c12d9834948450c4c6df38276ba6a4071bee65a1a11901eeaad8f565e"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/mobile-chromium-ar-create.png",
+    "width": 375,
+    "height": 831,
+    "sha256": "30428779f27d4b28b2907333cda82e439e8c13baf83c1bb2e106323500582a1b"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/mobile-chromium-ar-destinations.png",
+    "width": 375,
+    "height": 2484,
+    "sha256": "4164a0f85651c2bfe2969ac471cbea7858da54c0ca9482a4cedf682b3154fe79"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/mobile-chromium-ar-dispatch.png",
+    "width": 375,
+    "height": 2248,
+    "sha256": "5235067f0fc49325888b4c6f31a036a98d70937428e24efece7ddf425ba32dd0"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/mobile-chromium-ar-editor.png",
+    "width": 375,
+    "height": 4311,
+    "sha256": "6d41579e0a2f6b2ae9d805884e257453352108f842bc65ab4106458ceb4f44c7"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/mobile-chromium-ar-inventory.png",
+    "width": 375,
+    "height": 1231,
+    "sha256": "decd58a8911624285d2621099fda8eb6cad40900df057de0d5258c0dcff50e35"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/mobile-chromium-ar-job-history.png",
+    "width": 375,
+    "height": 1468,
+    "sha256": "615c7ad6a92dddfdb9271d978822c32d8df22a0061adb211f184e590cb93ebed"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/mobile-chromium-ar-media.png",
+    "width": 375,
+    "height": 2871,
+    "sha256": "36e26a7b55c938381567f5bf158670be3e2ff9308c00d8ed3430e232f050f77c"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/mobile-chromium-ar-preflight.png",
+    "width": 375,
+    "height": 2296,
+    "sha256": "5a371111a61692ab24f52d04c1c2217295c03fdf58077754dca7af409452e280"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/mobile-chromium-ar-property-history.png",
+    "width": 375,
+    "height": 1176,
+    "sha256": "97d57dc98e2c05a1393349f75dcfa0e814561f09461c8e19fc8d1ee84b2d9d15"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/mobile-chromium-ar-property-record.png",
+    "width": 375,
+    "height": 2777,
+    "sha256": "4ef6cba70ed73b4b819bd941c357c4f91d2faa413a496388aaed7a896ccb0674"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/mobile-chromium-ar-studio-approval.png",
+    "width": 375,
+    "height": 1927,
+    "sha256": "1261c878a3c78b7c34434824980957a091bff8aeab73545a0771cd9e138a366e"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/mobile-chromium-ar-studio-copy.png",
+    "width": 375,
+    "height": 2260,
+    "sha256": "a339131be2c32d4dbb16ac58163247d6f5c91a2ff15439cff9c0233be634342d"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/mobile-chromium-ar-studio-facts.png",
+    "width": 375,
+    "height": 2882,
+    "sha256": "fe1406f22498ae337c2ff4b81406d6448db4628dd7c1b60a7790edc1b1d98cec"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/mobile-chromium-en-create.png",
+    "width": 375,
+    "height": 888,
+    "sha256": "7635dc6070aa2ffbb2cc685dd5ba9dd8a99dc7523810b7644a9e57bcb27e89fc"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/mobile-chromium-en-destinations.png",
+    "width": 375,
+    "height": 3025,
+    "sha256": "f6eae39f7119bdbb28c73c97959727ef2c072864c2b3ca5f923c55f114c5dbcb"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/mobile-chromium-en-dispatch.png",
+    "width": 375,
+    "height": 2405,
+    "sha256": "051a2e94ead7be31f0ba9d57799fd74d228042537fd9b0b80920ff02734cabaf"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/mobile-chromium-en-editor.png",
+    "width": 375,
+    "height": 4462,
+    "sha256": "8413edc9c5b2f367e7205b08ae2eddcdebf2bbea27aeacfca353d13bc553c0dd"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/mobile-chromium-en-inventory.png",
+    "width": 375,
+    "height": 1250,
+    "sha256": "bdb55740e64edf8c894826e6884410a585bf1a72a6c684e9c0f3649a40604152"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/mobile-chromium-en-job-history.png",
+    "width": 375,
+    "height": 1531,
+    "sha256": "fbee0f99b89eb374eb6878136e0dee9a67c921e7297ff12f4f158f04cdd925fc"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/mobile-chromium-en-media.png",
+    "width": 375,
+    "height": 3015,
+    "sha256": "c8e6fc4496ca2da929f4a3cc2406e377f4f55d1372ab40d1f091fcf934f2479a"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/mobile-chromium-en-preflight.png",
+    "width": 375,
+    "height": 2482,
+    "sha256": "88721a7fa11e73f0afc3c9d4b13eb39d5db962f07b689b3beca0a325d5403dfe"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/mobile-chromium-en-property-history.png",
+    "width": 375,
+    "height": 1231,
+    "sha256": "65f297e07db43c24bb4a83123189e367e5736859d3379ed182899f6a8ecda55e"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/mobile-chromium-en-property-record.png",
+    "width": 375,
+    "height": 2863,
+    "sha256": "8ec35ee8e7f4b6fffb0bc853ca8e3b0f3a8a0f28eabc5bfe2a7c3e4cee2c5126"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/mobile-chromium-en-studio-approval.png",
+    "width": 375,
+    "height": 2105,
+    "sha256": "16f7a3ca56774283b1dfb450bb8316ca481c40acbd249b93e2ef9eb48971e540"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/mobile-chromium-en-studio-copy.png",
+    "width": 375,
+    "height": 2379,
+    "sha256": "dc5515e27069acde1bdfecc49b70493749e969751514aa598211a88dd2fa5df4"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase1/screenshots/mobile-chromium-en-studio-facts.png",
+    "width": 375,
+    "height": 3020,
+    "sha256": "8b276fd541658a9166fbe7f0ca67634c61d313659dc31f337e13dd1448aa9dab"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/ar-1024-directory.png",
+    "width": 1024,
+    "height": 1826,
+    "sha256": "df5ecca8d713e1a27a95e7600f9c18f1a9d6987ad05882def0eb07081d3aac5b"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/ar-1024-feed.png",
+    "width": 1024,
+    "height": 3947,
+    "sha256": "5edae383a28c90f1ec9893304662712769e3559cb4c78bf36fc4b322804cb80d"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/ar-1024-history.png",
+    "width": 1024,
+    "height": 1097,
+    "sha256": "fd2428016ff05cc218d100d7ad5b913f7cee655822cbb8671ea9bfd17b8fbc4d"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/ar-1024-provider.png",
+    "width": 1024,
+    "height": 4213,
+    "sha256": "3969846564c574db235255e2a91daf0d6fd6bbedf24069696117de15fb9b215b"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/ar-1024-workbench.png",
+    "width": 1024,
+    "height": 1940,
+    "sha256": "7763651574ff81e9f2a603881404501309d74b0acacc26d39ce589a3dadb3110"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/ar-1440-directory.png",
+    "width": 1440,
+    "height": 1297,
+    "sha256": "18248041a1d040bd1c85aea020b4ce08a655045596f216df258e4d6acb74d75d"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/ar-1440-feed.png",
+    "width": 1440,
+    "height": 3157,
+    "sha256": "61a8e502c4404f3f767a5d9846be254e262efb93fe2405db8241092ff4702634"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/ar-1440-history.png",
+    "width": 1440,
+    "height": 1050,
+    "sha256": "5a190e52bb82b0e8f9abbe26e14f320847341cb069e1aef761002387546909c8"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/ar-1440-provider.png",
+    "width": 1440,
+    "height": 3677,
+    "sha256": "2e88965ba7ef0d9c8089c57839811f761c07ea15579ddae07b3726cb20dbcb7e"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/ar-1440-workbench.png",
+    "width": 1440,
+    "height": 1367,
+    "sha256": "7d30011e7e4e71654600b018d8c8e51d30ef5140eaa3bc1aacf8128a6fa03c24"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/ar-375-directory.png",
+    "width": 375,
+    "height": 2458,
+    "sha256": "71446aefbbb2f1bc1c74d9b2e1ca552059baa22f7035058a483320a9235fd37a"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/ar-375-feed.png",
+    "width": 375,
+    "height": 5684,
+    "sha256": "1fae7cfb113c70c7e066d2117e6de4a3117899d013bfc1c13a9c05c7b4a1ddf9"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/ar-375-history.png",
+    "width": 375,
+    "height": 1498,
+    "sha256": "e7f408a03bd21ccc36289b9f3bde1e826154cbf8126ad2eda9af66aa00bf23b7"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/ar-375-provider.png",
+    "width": 375,
+    "height": 4835,
+    "sha256": "cc8d5da67a889ce1a0e33445710c4655314603d2c1cd1ac08105b47bba5bd719"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/ar-375-workbench.png",
+    "width": 375,
+    "height": 2277,
+    "sha256": "0ed2a09afa3f45cf1e59d16805d6574b87816351eaade9568ccb1f463df33ee6"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/ar-768-directory.png",
+    "width": 768,
+    "height": 1806,
+    "sha256": "e2bb2750a6521bea4b80050ffa10381e9cfa23c7505ee1bd3bc37d683d65fd6e"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/ar-768-feed.png",
+    "width": 768,
+    "height": 3947,
+    "sha256": "8850a11b8345b4f37447b57081fdadc6686835f137d0e188b89861545f32b998"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/ar-768-history.png",
+    "width": 768,
+    "height": 1077,
+    "sha256": "089849bf94ded7b57f6e63b43d5b5b94da70a2c150070cf4aca09c9fc5dcff14"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/ar-768-provider.png",
+    "width": 768,
+    "height": 4193,
+    "sha256": "a8b28d6429e49b414ee2e5dd7463b593d30787969191af499b76eb94d3678637"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/ar-768-workbench.png",
+    "width": 768,
+    "height": 1938,
+    "sha256": "7dd548aac86407dde162621279dadead667ff72c6690e937b200cd009030d631"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/chromium-ar-directory.png",
+    "width": 1440,
+    "height": 1297,
+    "sha256": "18248041a1d040bd1c85aea020b4ce08a655045596f216df258e4d6acb74d75d"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/chromium-ar-feed.png",
+    "width": 1440,
+    "height": 2906,
+    "sha256": "41b26fc869437264b3c017b4bad63290720f7c6625ab8251b63a0bd68a1a41aa"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/chromium-ar-job-inspector.png",
+    "width": 1440,
+    "height": 1877,
+    "sha256": "c934a423fdd4eb7286cb7cc14bf9813bc8c871849c3443d8781532a2670aea1c"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/chromium-ar-provider.png",
+    "width": 1440,
+    "height": 3738,
+    "sha256": "7bd8dc5083fd6169ecf5c5e4fb9fc2842eb8fc5740f0c90b8bd5a155054f97bb"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/chromium-en-directory.png",
+    "width": 1440,
+    "height": 1369,
+    "sha256": "1962fd5d54cfd2eaebeb0c082c6ea8a67cebee3cb91ca1845c960b7199a897e8"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/chromium-en-feed.png",
+    "width": 1440,
+    "height": 2921,
+    "sha256": "0d49e44ad9d453991b3a272b761dffa7d3acf7b5878da78574549086f7a01571"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/chromium-en-job-inspector.png",
+    "width": 1440,
+    "height": 1893,
+    "sha256": "8ce36a121f5e26d3228927f0374ad3f7e9977380a91649cd57eb8413a36f6364"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/chromium-en-provider.png",
+    "width": 1440,
+    "height": 3754,
+    "sha256": "6264b3154289382568bf644eb00ae3b61f640342cf4c93367cc60b80b76a4bd0"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/en-1024-directory.png",
+    "width": 1024,
+    "height": 1895,
+    "sha256": "ca2276f1e7ac8feaf7f0fd803dc0efb13808ba59188e91aed449dfaf78ce392c"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/en-1024-feed.png",
+    "width": 1024,
+    "height": 4040,
+    "sha256": "4119175c64b4fc01293c42b684e38af938b4f7d16733f08e80520fe03ba61775"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/en-1024-history.png",
+    "width": 1024,
+    "height": 1169,
+    "sha256": "00fcd0ae8f67cc2d9d41d707ada6274ff6e4ecf1958b6ad6d71b62477603678c"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/en-1024-provider.png",
+    "width": 1024,
+    "height": 4284,
+    "sha256": "1abbd498e44a8cb7b2f15eaf1181e1286a6f096cc297969e860765318dd916c2"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/en-1024-workbench.png",
+    "width": 1024,
+    "height": 2043,
+    "sha256": "50b7843e28bfdd1525a2445eb4799cd58e4fb1e85e38541f58a9cf03a8cd20b8"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/en-1440-directory.png",
+    "width": 1440,
+    "height": 1369,
+    "sha256": "1962fd5d54cfd2eaebeb0c082c6ea8a67cebee3cb91ca1845c960b7199a897e8"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/en-1440-feed.png",
+    "width": 1440,
+    "height": 3197,
+    "sha256": "39f65136d379b2ece5f28897bed6c8ec8511a9a3ce434c12f61acf0345376083"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/en-1440-history.png",
+    "width": 1440,
+    "height": 1082,
+    "sha256": "14a2e4f57591bd108db004e9eba99a3783ebb0356006ef178329d014efa3f9f4"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/en-1440-provider.png",
+    "width": 1440,
+    "height": 3692,
+    "sha256": "100849fc7d8bd08ae4154c6b96cc58b99e43ee337c624158ccb6f30a8afaaaa9"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/en-1440-workbench.png",
+    "width": 1440,
+    "height": 1449,
+    "sha256": "60ecd4e1cf66a9dbcefa17c87ddab7256c32dcd19ad6ffd12a31d4ac1a8dcbcd"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/en-375-directory.png",
+    "width": 375,
+    "height": 2691,
+    "sha256": "916d55d722d2e0322aed427571b9f360fff647054ca913a96603c4445f662d51"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/en-375-feed.png",
+    "width": 375,
+    "height": 5761,
+    "sha256": "7c8c92bc06fbafb6294bbf1778cdee0efca23e2b03c1a4bf1a8efaabcb723b62"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/en-375-history.png",
+    "width": 375,
+    "height": 1596,
+    "sha256": "a58d66f24a1bf5bdce874be436fea72772c0d691a0b8d9242ea6138444b6b9c5"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/en-375-provider.png",
+    "width": 375,
+    "height": 4943,
+    "sha256": "6c2314a148f0367f14d6625751a70ff054d6ee056c1e1eac74205ec4b9765066"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/en-375-workbench.png",
+    "width": 375,
+    "height": 2416,
+    "sha256": "421971ebf4181e951037294f01dc1e2a3a513c8d1591c8f4600a05d2c2d7ae90"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/en-768-directory.png",
+    "width": 768,
+    "height": 1875,
+    "sha256": "90ade7b826b983cad31260a9afa1a2081bcb9588413ae52090c2589e09a5e20a"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/en-768-feed.png",
+    "width": 768,
+    "height": 4040,
+    "sha256": "fad00574a27790ce1366c5a6260e3bd7c0a283dc7313b64ce09f9660573dc5c3"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/en-768-history.png",
+    "width": 768,
+    "height": 1149,
+    "sha256": "3e9854bfef3558b33d29a233ea2d51f2defae9f9caaafddc386a4a55ab2b838a"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/en-768-provider.png",
+    "width": 768,
+    "height": 4264,
+    "sha256": "7f5f91f551520a90b67a439e25438b4edf4682c1ad7b2c17664daf2887f5cf41"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/en-768-workbench.png",
+    "width": 768,
+    "height": 2023,
+    "sha256": "a034cf2c7afd06f3493b100d3692552a39f0d35cc23c8c11da67898ff06bdd36"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/mobile-chromium-ar-directory.png",
+    "width": 375,
+    "height": 2458,
+    "sha256": "71446aefbbb2f1bc1c74d9b2e1ca552059baa22f7035058a483320a9235fd37a"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/mobile-chromium-ar-feed.png",
+    "width": 375,
+    "height": 4366,
+    "sha256": "49ba10ef57bb438e5fb9faa99ceee13732b14b2f839f119d5f5655309c9a1d35"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/mobile-chromium-ar-job-inspector.png",
+    "width": 375,
+    "height": 2932,
+    "sha256": "221c536f2c1a5d567448d1fafd57c3735d45f31d8573c6746031c7a470bd7775"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/mobile-chromium-ar-provider.png",
+    "width": 375,
+    "height": 4892,
+    "sha256": "0a42c2970c3b99113bcac2e86472a3d6cccc55f7c73c192371527a8c8827f73a"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/mobile-chromium-en-directory.png",
+    "width": 375,
+    "height": 2691,
+    "sha256": "916d55d722d2e0322aed427571b9f360fff647054ca913a96603c4445f662d51"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/mobile-chromium-en-feed.png",
+    "width": 375,
+    "height": 4449,
+    "sha256": "d1499e96879eeee4bef9e89da98c1e35aa4d80cfd7615ced7b3ab472869a9a32"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/mobile-chromium-en-job-inspector.png",
+    "width": 375,
+    "height": 3008,
+    "sha256": "895781c5ffaf5dcf68345964d7313db52305e49ecfee4bed7621e753b65fee5f"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase2/screenshots/mobile-chromium-en-provider.png",
+    "width": 375,
+    "height": 5001,
+    "sha256": "c8d45838a7f691325fbde6714bc063f5aefc992f944e438e9e460855051db391"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/ar-1024-analytics.png",
+    "width": 1024,
+    "height": 2574,
+    "sha256": "918f3eb61770548abf47fefc857e82ef9d22c0676c68ef2ee010aebb7f4b2e20"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/ar-1024-assignment.png",
+    "width": 1024,
+    "height": 2277,
+    "sha256": "703056a6d2acb222daf3bd3db836a2e7acf061a3f172b5ea05eec4e09b181b14"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/ar-1024-control-tower.png",
+    "width": 1024,
+    "height": 2333,
+    "sha256": "f6a60ba74579ac6d0ccf690400a242396979bff998e2d4312335efae5c837bb9"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/ar-1024-detail.png",
+    "width": 1024,
+    "height": 2047,
+    "sha256": "38914cddd9d664db9748e79c1f055c7252fb1d4f5896efdec8ec501f4355fa61"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/ar-1024-inbox.png",
+    "width": 1024,
+    "height": 1574,
+    "sha256": "1f7719397eae1e6986a357fb6d31af0aae4e8cc4514525c07abafa8264b031b9"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/ar-1024-pipeline.png",
+    "width": 1024,
+    "height": 1450,
+    "sha256": "60a33fc6c4b06f044f3cdd89d435561772f8d82dbf280b40c328c1a46ac3a6d7"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/ar-1024-table.png",
+    "width": 1024,
+    "height": 1565,
+    "sha256": "3bbd70b63bbbbd48090b880d1c1ea7d48edae60dbeadd6db8a205faa9e70d810"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/ar-1024-viewings.png",
+    "width": 1024,
+    "height": 1557,
+    "sha256": "87e0dc76a08ac3ada4d989be1fdb2ce8cba9cfd12e7c0204db2f2a726e585559"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/ar-1440-analytics.png",
+    "width": 1440,
+    "height": 2382,
+    "sha256": "05eb80c5938cd01e41a7606ad927f8d809fa38fb97eb9ef0e0b72d21445d80d9"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/ar-1440-assignment.png",
+    "width": 1440,
+    "height": 1834,
+    "sha256": "fa726fd239ad1647d997234863007e2bbab9c7b508fd51836bb6fb646fcd6731"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/ar-1440-control-tower.png",
+    "width": 1440,
+    "height": 1567,
+    "sha256": "b40b01036554983e371a3ab340c60f833aa2bc306227b34c37125387c119e602"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/ar-1440-detail.png",
+    "width": 1440,
+    "height": 2003,
+    "sha256": "e26442f31f906282f7cf03ad6595b08fe0f843e112c223010f0ea442d90fb7ab"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/ar-1440-inbox.png",
+    "width": 1440,
+    "height": 1298,
+    "sha256": "3f965ae3b18d007663625d7b296eacca4bd5a480f35d9f71f472e2f1e08e6b08"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/ar-1440-pipeline.png",
+    "width": 1440,
+    "height": 1372,
+    "sha256": "90c5264be42deae4c1d30730c5873bbc5ce3c2dfa1987e386aa69997d4e0dfcb"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/ar-1440-table.png",
+    "width": 1440,
+    "height": 1487,
+    "sha256": "ff7adcb200945a12d505b174054676c5e3ad9af8fc3f1209936edfde33a53c67"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/ar-1440-viewings.png",
+    "width": 1440,
+    "height": 1349,
+    "sha256": "1a33df842d6868782cc16ace6506322f6ce021b70b573f84c12e8ad5ebe7c6e2"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/ar-375-analytics.png",
+    "width": 375,
+    "height": 3282,
+    "sha256": "07324988547c0b3cc166c34b7333de780a4daef0d10e37997cfe3cf205cb1fac"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/ar-375-assignment.png",
+    "width": 375,
+    "height": 2551,
+    "sha256": "8ee43b05a642c4001920c85c046474106e4a5353517cd91c1b6cca29a8df4788"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/ar-375-control-tower.png",
+    "width": 375,
+    "height": 3001,
+    "sha256": "335ac0e10df634e05ac440d900c3c2a5f7e3b659ca077dcdf75c8c9a9976f49c"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/ar-375-detail.png",
+    "width": 375,
+    "height": 3206,
+    "sha256": "80059f56c8dccf30de482f1cf787b65f4fd689d902a6520daba69262eef58f95"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/ar-375-inbox.png",
+    "width": 375,
+    "height": 1710,
+    "sha256": "ff99f10c3ab2c1a15e5b78aa846326db3ed908177efe7657937d576fcac452c5"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/ar-375-pipeline.png",
+    "width": 375,
+    "height": 1824,
+    "sha256": "cb45e0199d62d95a9a8b5bd13541b5849f83a9d0ef82311cef7372085fafe5f1"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/ar-375-table.png",
+    "width": 375,
+    "height": 1939,
+    "sha256": "57026e9671a762f62565000549099e832e22f5c6b201048a175241441a6d3371"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/ar-375-viewings.png",
+    "width": 375,
+    "height": 1981,
+    "sha256": "7cb6416e727fcfae8894773414095465c7221288f57675cd6d7176fb1ce77593"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/ar-768-analytics.png",
+    "width": 768,
+    "height": 2786,
+    "sha256": "1453a6d8d23d17a894709d318404d76cb21c0ce1013ca198d27cf9be862c50be"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/ar-768-assignment.png",
+    "width": 768,
+    "height": 2257,
+    "sha256": "7deae13ae463c07715f7aff20d11f5e5b7f9968f12ba51be8fc26af1d8b5ed81"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/ar-768-control-tower.png",
+    "width": 768,
+    "height": 2325,
+    "sha256": "ca2c5d18a6331563bce3f2efbdd86d508832ac0c42bd288e0bfb4e915ff1f07b"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/ar-768-detail.png",
+    "width": 768,
+    "height": 2868,
+    "sha256": "9a88fb47d83b520d013467960eb3944029e2f007863f6a0733b9d6e879f4d922"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/ar-768-inbox.png",
+    "width": 768,
+    "height": 1614,
+    "sha256": "4c2040eea6c2ec04f80ea7ce5fc785582fa0fc3fa0ae348b6bcb16f8c71d0d30"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/ar-768-pipeline.png",
+    "width": 768,
+    "height": 1589,
+    "sha256": "8eebe3eae8fca62b82a672632b4206ee1598a90d0b0fb367070619423f6dfe1b"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/ar-768-table.png",
+    "width": 768,
+    "height": 1704,
+    "sha256": "0d62e3bb0269268bdf24db140257d8ff1d6b694679333223e146d468a855973d"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/ar-768-viewings.png",
+    "width": 768,
+    "height": 1537,
+    "sha256": "1aad2d9fe01e7c5db480b53df1cce7a93ebe0f4725116983b06eef5c46783ee8"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/en-1024-analytics.png",
+    "width": 1024,
+    "height": 2679,
+    "sha256": "87c2c8fd353400c5abbd6b2372a5d1ebc7fdc730d5fff620d2edaa7b5b9b157d"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/en-1024-assignment.png",
+    "width": 1024,
+    "height": 2352,
+    "sha256": "585e5562f1ec12aa4a01864964513be741863e2860bc00ffcf5278529ce11a0c"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/en-1024-control-tower.png",
+    "width": 1024,
+    "height": 2374,
+    "sha256": "2dc20c47cca5b1734fee1ad3b4cd1e8953bece0e708fb495a0703bd16c698afc"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/en-1024-detail.png",
+    "width": 1024,
+    "height": 2140,
+    "sha256": "2102b6daae086d8bb385852f2516acd433ebe6b1b063a5e2f3e254cda8b3cdec"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/en-1024-inbox.png",
+    "width": 1024,
+    "height": 1649,
+    "sha256": "cee5a8d9a8c403d8f36b9383c8675adaebc6e178a18f74ceabafb490d8a6822d"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/en-1024-pipeline.png",
+    "width": 1024,
+    "height": 1525,
+    "sha256": "0f624d5a0e8079f07beabc5a0c2412fae2ad1d91bd1dd92bc2a369ab6110d053"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/en-1024-table.png",
+    "width": 1024,
+    "height": 1641,
+    "sha256": "63c06b1565f438da3245e083ce0c75b3275ea1ce11a2eb65fcc13df5aa154058"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/en-1024-viewings.png",
+    "width": 1024,
+    "height": 1695,
+    "sha256": "a841bfb0c6720cfa150aa33fb2acd90221a042328fdfd019efc1b58651511b14"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/en-1440-analytics.png",
+    "width": 1440,
+    "height": 2382,
+    "sha256": "cd2bd1e69a949582544c1f0158d01c6dd5befa4cc517e14c3ee0e2504258b012"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/en-1440-assignment.png",
+    "width": 1440,
+    "height": 1856,
+    "sha256": "2fb00d98cbc6f86014171f40e25bec552a098c75a7817fbb0fe5b493ef0513ee"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/en-1440-control-tower.png",
+    "width": 1440,
+    "height": 1577,
+    "sha256": "09873d1270418f40c03db4fbc60b482d8a2fa20c87d1e16da6af84ac3047c4c4"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/en-1440-detail.png",
+    "width": 1440,
+    "height": 2004,
+    "sha256": "364707926123d5d853494f2894a4cb019b57adeda12a84b441ce008c28a90348"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/en-1440-inbox.png",
+    "width": 1440,
+    "height": 1320,
+    "sha256": "efb22664f34f4dc3ad441d389156157c1e59f4e29e397936f403c8e4f3b7f658"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/en-1440-pipeline.png",
+    "width": 1440,
+    "height": 1394,
+    "sha256": "43035c2ad6e2d56a0f479d645316f1a12e507fbb06cb6b125184f08cd1c27bcf"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/en-1440-table.png",
+    "width": 1440,
+    "height": 1509,
+    "sha256": "60502a3b3cd4141c8acd0499ca3f545f5a0a035170cc5d3d6796e114719f8606"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/en-1440-viewings.png",
+    "width": 1440,
+    "height": 1371,
+    "sha256": "623342806fca5aa39f1b83fea075fd121f5be7ef6e707d9eab4c81daef1857b4"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/en-375-analytics.png",
+    "width": 375,
+    "height": 3393,
+    "sha256": "c58145575b106b169ebea9875ab01b486d45328c29a31023a9f3cf50815d0dfa"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/en-375-assignment.png",
+    "width": 375,
+    "height": 2868,
+    "sha256": "ce66e6b2145fc4d54bbe5b9f7701023debd11e88e419f0bbfcd5d123a73ffb2f"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/en-375-control-tower.png",
+    "width": 375,
+    "height": 3418,
+    "sha256": "d3af69fcb986942e3c46899143ff7503081df70899cd76d7b52ca173ce6c6bad"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/en-375-detail.png",
+    "width": 375,
+    "height": 3262,
+    "sha256": "40a5c598b2979bcb56c3786bab9d9e9e5eb08474701c1ebdebab3104d1a9136a"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/en-375-inbox.png",
+    "width": 375,
+    "height": 1714,
+    "sha256": "19bcbdfbb10b60a9d51468f356eb6e811e1f0a9f23b7d68e6a3340c2c1947d0d"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/en-375-pipeline.png",
+    "width": 375,
+    "height": 1904,
+    "sha256": "cd7783ac91034c8cba26d9a890c38224cf9d9bcda50a48aa86eda718124cd766"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/en-375-table.png",
+    "width": 375,
+    "height": 2019,
+    "sha256": "c808a8ce2915b6c457f1ae1cbc25a66f2b1d978d73cd1422b1e96af3f759ba32"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/en-375-viewings.png",
+    "width": 375,
+    "height": 2109,
+    "sha256": "0dc90e8dadbd7b31fba254218f3d411a45bc3d5c28898ab2ad55215880f51a49"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/en-768-analytics.png",
+    "width": 768,
+    "height": 2891,
+    "sha256": "8a5e929523fa3f400b31125d614b35643fd55c5098fc71f120d38153f02e7cf0"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/en-768-assignment.png",
+    "width": 768,
+    "height": 2352,
+    "sha256": "c50c7118bf8222003a100a22d62249ee77002e63f3253f50e9dea0f7b65d1c68"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/en-768-control-tower.png",
+    "width": 768,
+    "height": 2366,
+    "sha256": "e4a591f590967494754a331922c4810c1c7f68a016e6e0d2811fe2c1b30f817b"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/en-768-detail.png",
+    "width": 768,
+    "height": 2904,
+    "sha256": "1276dd76f96399f8e974e52c47e60fd1faa46e5f420b5c3eafe0cc892c19b35b"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/en-768-inbox.png",
+    "width": 768,
+    "height": 1689,
+    "sha256": "5835cdb6a819570a3541e1720fab42fd7528ebf389e92f40f561f1cd466cf116"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/en-768-pipeline.png",
+    "width": 768,
+    "height": 1664,
+    "sha256": "a133f1c5811e61337d14fb1ae0c390a5fc5e7ebd053025acb9233727fe2f5f41"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/en-768-table.png",
+    "width": 768,
+    "height": 1780,
+    "sha256": "dc3023a9bf0a015f9356543e475526ef00c4a44873f39a8eee92664df6eb6d40"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase3/screenshots/en-768-viewings.png",
+    "width": 768,
+    "height": 1675,
+    "sha256": "4470f0b1d86dda5e473e0d1f7e83c229ffad7ebb2d9b04cf3fd691fa7ac5f530"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/ar-1024-analytics.png",
+    "width": 1024,
+    "height": 2274,
+    "sha256": "3d940bb572b3683e92ce4a3091ce7c4e24b53d6f66c4c80c6f5f4f6a85e839fe"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/ar-1024-approval.png",
+    "width": 1024,
+    "height": 3328,
+    "sha256": "2d4b59935f2d70408b582b5af2f035aef51c8068feee9cc3d7a991cbc7e5d470"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/ar-1024-budget.png",
+    "width": 1024,
+    "height": 2197,
+    "sha256": "233e555b2f54e0f71116a62a08dfbd16c38a731559df03a656ce8cb1a95ad917"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/ar-1024-builder.png",
+    "width": 1024,
+    "height": 1837,
+    "sha256": "eaa16543a2923eeaab94aa318b3b4e353d2117049382d4eba8337f135a80c07c"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/ar-1024-copy.png",
+    "width": 1024,
+    "height": 2631,
+    "sha256": "58ccfa1f56e4a4cce2cc34d9994e1c0e0dc9ba8d32d65da9a52ee8015a0507ca"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/ar-1024-creative.png",
+    "width": 1024,
+    "height": 2174,
+    "sha256": "ebc569ec3eb37399375c91a068a2425a77bfc2260c6411653c4a9bb8bec39606"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/ar-1024-google.png",
+    "width": 1024,
+    "height": 2449,
+    "sha256": "d5e77b80ed1c8a59c4483697638a51d9c04ca5cf35e00548b608ce7234e782d2"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/ar-1024-meta.png",
+    "width": 1024,
+    "height": 2267,
+    "sha256": "e02a412dfb32918651b5755482542590399861991ffabb8de5b3357e2c35e1d2"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/ar-1024-policy.png",
+    "width": 1024,
+    "height": 2179,
+    "sha256": "50d0d2631b93b24e82052433aecc9d0ad16a778a418c7e623f64e9ec14a6eccd"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/ar-1024-portfolio.png",
+    "width": 1024,
+    "height": 1188,
+    "sha256": "a43310cedebebaa0ebb7122be64bf4efa277bfa613d716e13f7314ca4a9cc4b2"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/ar-1440-analytics.png",
+    "width": 1440,
+    "height": 1845,
+    "sha256": "e8af181fc8a8b6e7c2ce95c6cc3c3857d4efb4888f6a7f3275f2ff2c0bc41f71"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/ar-1440-approval.png",
+    "width": 1440,
+    "height": 3175,
+    "sha256": "9728476c2d93b221e58587ad3eff63bff8f9d9324e67bfb1606784d3a6080789"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/ar-1440-budget.png",
+    "width": 1440,
+    "height": 2100,
+    "sha256": "209556c65cfbc6298dae2272669413cdea379562ca81e34b553682f01e09b843"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/ar-1440-builder.png",
+    "width": 1440,
+    "height": 1740,
+    "sha256": "6adf8624cbe285f6e69ff5d25064018706e743a26799d3cb3ce4ef64d19eb5cb"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/ar-1440-copy.png",
+    "width": 1440,
+    "height": 2552,
+    "sha256": "5bb54c24edfeab0dc007c3ca7d9eca7123ef5ccf838db96f5912d159fdaf317c"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/ar-1440-creative.png",
+    "width": 1440,
+    "height": 2270,
+    "sha256": "1af05f03c203ad628c498e72994f8fbcec295cb531c6a1241594ca66677a84f1"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/ar-1440-google.png",
+    "width": 1440,
+    "height": 2383,
+    "sha256": "e8e084bc6de3779aee8c85dcde416c4d7f5bfb762b192ccd2b9544f70de93a46"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/ar-1440-meta.png",
+    "width": 1440,
+    "height": 2219,
+    "sha256": "aacf3d32ea7b0223628928bea03a59003c97196f3ae7fa82923f0c7a10b01236"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/ar-1440-policy.png",
+    "width": 1440,
+    "height": 2083,
+    "sha256": "85fc7f56af09dc63c927386df57e0a7ce4fff95e41d83bf55d9e5706e4006ceb"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/ar-1440-portfolio.png",
+    "width": 1440,
+    "height": 1057,
+    "sha256": "1cc6582ad629beec3a06f714f972b3393416c370fccbd9f217ec00e51ab9b8d5"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/ar-375-analytics.png",
+    "width": 375,
+    "height": 2896,
+    "sha256": "0e2186cec1ab5a29743cdfac05d2b7a8c538273826857ba8d616b47ef532da02"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/ar-375-approval.png",
+    "width": 375,
+    "height": 4713,
+    "sha256": "dfa959a996abbadee96aca130c25fe0f03de4a49b347c908d97fc2c139460ded"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/ar-375-budget.png",
+    "width": 375,
+    "height": 3663,
+    "sha256": "4da03159ae4ca506f491112d88fad802699e743bd7807a420a7d2dfebdd2739d"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/ar-375-builder.png",
+    "width": 375,
+    "height": 3226,
+    "sha256": "7c8212facc68c8475f748314c409ce9784c42a328bd10c0898b98d2f7e6eb548"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/ar-375-copy.png",
+    "width": 375,
+    "height": 4197,
+    "sha256": "f163d23cf7d5c89fd5e02f9bfbf141e9388c176164f01ba82ecb9d02cbbde855"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/ar-375-creative.png",
+    "width": 375,
+    "height": 4247,
+    "sha256": "f66b773a87ef7c75d40603062ed394d82d83f929ffa9317c78089691e5781608"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/ar-375-google.png",
+    "width": 375,
+    "height": 2961,
+    "sha256": "d951480468347a8b0fc140ced45b4a1ee4d8f654a6745e66026fd8ac811fb7ed"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/ar-375-meta.png",
+    "width": 375,
+    "height": 2726,
+    "sha256": "65ac48e3d7884a8d0a14ab107bcb528a7be78dc0da5c2debfac5cae8d8f8ad90"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/ar-375-policy.png",
+    "width": 375,
+    "height": 3555,
+    "sha256": "7d2b9f14279fe2ea8e903bc074e0bb5b2f6a002ccfbf1f93d91c6272f1f1a8d3"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/ar-375-portfolio.png",
+    "width": 375,
+    "height": 1729,
+    "sha256": "0b748cafacd746147a7bf55ff6575f5641a98049d29e87e03ac758b8c4e24eb0"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/ar-768-analytics.png",
+    "width": 768,
+    "height": 2254,
+    "sha256": "9ad5d6c40534f6a405f0c32a41751643166f8a02fbe2475ca38fd9dfb4fe2ba0"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/ar-768-approval.png",
+    "width": 768,
+    "height": 3637,
+    "sha256": "a0c6b04617059a61eb8a433d2960e35c9a8456066f3d4b9755f232c789dc9b30"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/ar-768-budget.png",
+    "width": 768,
+    "height": 2561,
+    "sha256": "dacf0aa35b7ebcb0f5d9fe95ae1312a150371292d1daa4dabdba4dfe47de250a"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/ar-768-builder.png",
+    "width": 768,
+    "height": 2143,
+    "sha256": "0cba4f9e3680fb88d47adb39d5e5643582090cc5e572e3639ad8a8f1af8e4683"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/ar-768-copy.png",
+    "width": 768,
+    "height": 2970,
+    "sha256": "d426116607235da1b070a57df153f55e0c59b5ae1c00499605a224a9f88d7b66"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/ar-768-creative.png",
+    "width": 768,
+    "height": 2708,
+    "sha256": "601138a188da1dc58eb1e0374040db4a333ae1428cdf734c7db557e4f4b4b9b9"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/ar-768-google.png",
+    "width": 768,
+    "height": 2447,
+    "sha256": "9fb154992745d77f80286222498cad65ae1d3ddf4815597beae91f97df2ccc23"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/ar-768-meta.png",
+    "width": 768,
+    "height": 2247,
+    "sha256": "8443649263c64ffeb832cab345c891b54b2ad801380d3f2f412bcdf30a81f862"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/ar-768-policy.png",
+    "width": 768,
+    "height": 2544,
+    "sha256": "7b15dd60699b797a0b34472d5ac7b57ebfbb68c2fe5c55a5aacec14db73fb14f"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/ar-768-portfolio.png",
+    "width": 768,
+    "height": 1216,
+    "sha256": "f2da90f5b3836893289611b4b7e4f51128101312ff2fe01c8ee696091e1d9cd9"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/en-1024-analytics.png",
+    "width": 1024,
+    "height": 2382,
+    "sha256": "06d263f37d06678ef0ab1a1dd83dc8f3f506f346d5c4b07eade613033592f638"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/en-1024-approval.png",
+    "width": 1024,
+    "height": 3426,
+    "sha256": "fc583b503d6165ac357e4b3d780dc70d5652316349d8b772c3660d88d48df04c"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/en-1024-budget.png",
+    "width": 1024,
+    "height": 2274,
+    "sha256": "65cfcb372ecbe8397254580ff153011ed6a9de645e6787d8e33a12b7863cbab4"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/en-1024-builder.png",
+    "width": 1024,
+    "height": 1933,
+    "sha256": "dbe01a14b308fa5552af80e42d2b0bfdb204e5824ab46248356c4be6f1d70f60"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/en-1024-copy.png",
+    "width": 1024,
+    "height": 2764,
+    "sha256": "9fb4062d5c6f1921e72bb2bb8e9a8a0a2c76695cc42e88dc0a1468930ec5ec52"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/en-1024-creative.png",
+    "width": 1024,
+    "height": 2270,
+    "sha256": "2f846252d0aecf4395e9d7cfd13f1a9655aedb93b9e36610fbf2f7a2d383900b"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/en-1024-google.png",
+    "width": 1024,
+    "height": 2556,
+    "sha256": "3f232bfca6dfd6b8f457ccfef84fb38e63bb7b61d9199e6f3b3313d620346047"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/en-1024-meta.png",
+    "width": 1024,
+    "height": 2323,
+    "sha256": "2420ee6baa1941e2412ca4255d420f50fd72c7c0cf92337c31275b6dfd166dc8"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/en-1024-policy.png",
+    "width": 1024,
+    "height": 2317,
+    "sha256": "303a923821578bedbd19041d01e11a1a9e60bac7a28e5cd0049651694d2589cf"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/en-1024-portfolio.png",
+    "width": 1024,
+    "height": 1243,
+    "sha256": "3bed577028e3b559a2190048dddde9a08127d9e8ea4017fdf68edae7a5d6e336"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/en-1440-analytics.png",
+    "width": 1440,
+    "height": 1864,
+    "sha256": "590905b5050b69009be5f9b13ba8bc61ed278440a304496fe1645967583a7e01"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/en-1440-approval.png",
+    "width": 1440,
+    "height": 3218,
+    "sha256": "e37007ce3e2a6f5bf8ed3e0a632b325a1b85032e30e874557ce89a095abb941d"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/en-1440-budget.png",
+    "width": 1440,
+    "height": 2140,
+    "sha256": "18f1c7ac0f38905b16c54fd637a0d136080d7a84e394a27174745becc4d2402b"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/en-1440-builder.png",
+    "width": 1440,
+    "height": 1786,
+    "sha256": "9432665c567b1d069fcc590a8639c43383f9d81d806235c00a59d600ee01b82b"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/en-1440-copy.png",
+    "width": 1440,
+    "height": 2631,
+    "sha256": "3eecbe18b41d88c3bc4b8e25518b9bf73f400afbcf2c43bfacc8b32b2513e14b"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/en-1440-creative.png",
+    "width": 1440,
+    "height": 2314,
+    "sha256": "eef64d76cae90c755753a928bbe9f57c0dcc6ae7422c08031bb2f1a8f48004bb"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/en-1440-google.png",
+    "width": 1440,
+    "height": 2441,
+    "sha256": "7ed3a69515b963f4a5dd27be6fb455a3c04c8f70d2db0c860fa2390116dd400b"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/en-1440-meta.png",
+    "width": 1440,
+    "height": 2241,
+    "sha256": "8cb52490ab3c373d010936e02ebbcb7fed099275771eb14ae8ad770f97920f7d"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/en-1440-policy.png",
+    "width": 1440,
+    "height": 2123,
+    "sha256": "fec41d44ff723791e99c384adc8ad45220a992ff6073dce89846b97352346914"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/en-1440-portfolio.png",
+    "width": 1440,
+    "height": 1079,
+    "sha256": "279be55616d9e6c794e2d3b05c49ab01d2d86f48403c2eb34ed7d44a546246d5"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/en-375-analytics.png",
+    "width": 375,
+    "height": 2989,
+    "sha256": "4e74afc9df2896e86d86cd00f00e262c1239af70a08e6f7ac8ee955368293517"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/en-375-approval.png",
+    "width": 375,
+    "height": 4870,
+    "sha256": "1bd0edd2efa05c2f69c26662af74bea69412a87d7b7658cae2c385d9b6828d8b"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/en-375-budget.png",
+    "width": 375,
+    "height": 3795,
+    "sha256": "e5599cfc03efc57b740e36f934d2fb6b120e31cacc282d57fd5d34edfc5203a8"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/en-375-builder.png",
+    "width": 375,
+    "height": 3335,
+    "sha256": "be3440f328dbfd98e4f63c73641c6ebf72130023a41551445f46d37ed80feb3f"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/en-375-copy.png",
+    "width": 375,
+    "height": 4329,
+    "sha256": "6e13b44b4fd41e8ce7c0263c1c15f39f90e6be4923ede09b46708a23f744dc6d"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/en-375-creative.png",
+    "width": 375,
+    "height": 4384,
+    "sha256": "8a0958cfd4242f1f837671159a4a2e51bd512e6f0a2770033adcd7d59b07a2c7"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/en-375-google.png",
+    "width": 375,
+    "height": 3141,
+    "sha256": "b367e1f96f7cf2e8fbaf356790f12022935233c1f268326d883279a37349cf5b"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/en-375-meta.png",
+    "width": 375,
+    "height": 2836,
+    "sha256": "4bc4dc007897242587223c58f4b666ce591ba82a7ca45419f6f9736b77051adb"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/en-375-policy.png",
+    "width": 375,
+    "height": 3709,
+    "sha256": "d0549291a7a6bf14d6d9c33985f338730e2aa514c667d8ab16f0e1f76ae499cf"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/en-375-portfolio.png",
+    "width": 375,
+    "height": 1786,
+    "sha256": "abd7d8d80f265985fdfd17e79e72740cee704f40f8d8d36cfd1ab80a67df7a87"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/en-768-analytics.png",
+    "width": 768,
+    "height": 2362,
+    "sha256": "6bd1a723fe0833962155b0b1ef93f9c1612b9ebafd61083cac50b49902a59c2b"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/en-768-approval.png",
+    "width": 768,
+    "height": 3734,
+    "sha256": "717bcf02fbde4c8940dc728c62a5aaa0590278fce0d9e24e7a9f15a921e35ef9"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/en-768-budget.png",
+    "width": 768,
+    "height": 2657,
+    "sha256": "98fab3063d5dfa4521cc13546e3a298929e9968b916f7fe688c74691a26744a9"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/en-768-builder.png",
+    "width": 768,
+    "height": 2274,
+    "sha256": "a8b9aa566a64192459b32cd3906e57e2d4c03ccd028627b3812fca9192a57ba8"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/en-768-copy.png",
+    "width": 768,
+    "height": 3048,
+    "sha256": "3fc0fea72c1618abe65c677f63ed7e4bd91ff4752227a6be40c0ea3706b37101"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/en-768-creative.png",
+    "width": 768,
+    "height": 2807,
+    "sha256": "48e6a6c3f194e6c776787a60e2b069b9a25e69200b22494cc4179ca30aa298e4"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/en-768-google.png",
+    "width": 768,
+    "height": 2536,
+    "sha256": "d5ffb3d3f837a3459afed1a2d23ccc738cc2e87f2f26e1e653e09c78033b7a4a"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/en-768-meta.png",
+    "width": 768,
+    "height": 2303,
+    "sha256": "f47558a6813cd5d5a1fb5d2edb291301261e91ad47da1a5303ef0ec91430db96"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/en-768-policy.png",
+    "width": 768,
+    "height": 2639,
+    "sha256": "e7c89b45fad62dbd028b313dce8e5cf6da3c0f720689513d7cd1c8b3c71644d3"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase4/screenshots/en-768-portfolio.png",
+    "width": 768,
+    "height": 1271,
+    "sha256": "d112b40bc142bae07992294c6628f30596e6cf1e648feeb8bb183f68477adbb1"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-1024-audit.png",
+    "width": 1024,
+    "height": 1000,
+    "sha256": "c3749944faf4ecf9d88201f6a2da324cef3b1ded38293f4e05efde95b22542e3"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-1024-billing.png",
+    "width": 1024,
+    "height": 1442,
+    "sha256": "bef4e503e647132775523baf3784ab483d8040c39baca2b665cb67424fa61f14"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-1024-brand.png",
+    "width": 1024,
+    "height": 1470,
+    "sha256": "0afca08b15c06d82ebfc0fd11c95010f5570ed697ba317bf51a43159fb63cee0"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-1024-directory.png",
+    "width": 1024,
+    "height": 1651,
+    "sha256": "3e76af53dbc77e9d905486ff94f64b8e0232e91f22277c177e4d79e483d08c68"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-1024-invoices.png",
+    "width": 1024,
+    "height": 1000,
+    "sha256": "a4c8cf3b101e80f152e670a4db7d532e0fc61b1dc2bd9b41c14b3aa9af401f83"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-1024-moderation.png",
+    "width": 1024,
+    "height": 2216,
+    "sha256": "ab13b75717c39873b42f10712888953e83a498ae3d453c7cc3695a59729b702e"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-1024-onboarding.png",
+    "width": 1024,
+    "height": 1033,
+    "sha256": "e02cd7c104b66ff4acd32a5ed2c24b448c2e6f02b87c268a64e99bb7b74ba6f4"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-1024-plans.png",
+    "width": 1024,
+    "height": 1405,
+    "sha256": "69156baecadab5a13c4cc48e08eb763643d3929280b6b5b29f403a821e502035"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-1024-preferences.png",
+    "width": 1024,
+    "height": 1045,
+    "sha256": "9d438b5a28fffb168a2c1151938ddac894818937291fba139eb5b1339a23a4ec"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-1024-profile.png",
+    "width": 1024,
+    "height": 1122,
+    "sha256": "ba952f38e94aa13294e9758cc7c736b9d37449a134c3475b0f2fd73bccb5cc7a"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-1024-settings.png",
+    "width": 1024,
+    "height": 1000,
+    "sha256": "f9bf8afa26b721ae91b8320bbdda54f4be0112bc4b560a7765bd4d424cb32749"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-1024-team.png",
+    "width": 1024,
+    "height": 2297,
+    "sha256": "9b18001d497575836d9b7b89b9a3425376e94f24a3da261b40cc593a12ea0a06"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-1024-verification.png",
+    "width": 1024,
+    "height": 1061,
+    "sha256": "20eb2825d947dbf59b7f4114ff60c9d02fd727dd6fe38528d56803cab92b19b6"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-1440-audit.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "bf63db277b5a827c00fe085d1a522f39512342abe75b53dce614af669fa38efe"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-1440-billing.png",
+    "width": 1440,
+    "height": 1416,
+    "sha256": "1aee8634a3cb6766619b7718d45d063139789e9ad8c0f2b2cb1ab2474b951242"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-1440-brand.png",
+    "width": 1440,
+    "height": 1206,
+    "sha256": "276558db8947ecede07a5e13c33d47d4fe97392cd249ac1fc7abb49498a08b47"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-1440-directory.png",
+    "width": 1440,
+    "height": 1547,
+    "sha256": "c6118d282060f26f30feb110a06036978457422ed29f6625a642c626692154dc"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-1440-invoices.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "27b327a3813bf66af0ad2637e2d77ed24cf9e8af451aef869c59bbe482eccff3"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-1440-moderation.png",
+    "width": 1440,
+    "height": 1389,
+    "sha256": "1738841427b768c5063f78ff729a900ba9add017aaab6693c2448cfccf84b8af"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-1440-onboarding.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "6500e475e18621a80cbfaeba46d6a5fad77af6c4a1562737f61b0a231ca2c33e"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-1440-plans.png",
+    "width": 1440,
+    "height": 1301,
+    "sha256": "f32d9f703d4dfd4eef0854306379391903147dbc05d779117bdf531fb9f45a41"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-1440-preferences.png",
+    "width": 1440,
+    "height": 1001,
+    "sha256": "1df5169df89ef411f8f30e612435ba53463d7d2bd5499d64eb7faf0375f0aa81"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-1440-profile.png",
+    "width": 1440,
+    "height": 1078,
+    "sha256": "04e9e297970c545fdc76a011308b2e94d6e2cb50e3c40b0fa5d4b2922ad07f2e"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-1440-settings.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "4680bf4bc9cf3709173b3246150c917088916339e5e8570f5bb36fac64e93f78"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-1440-team.png",
+    "width": 1440,
+    "height": 2271,
+    "sha256": "092966915a58289f1282bf2d243ae376c72a56c3649e84672ac13bf63c75ecc3"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-1440-verification.png",
+    "width": 1440,
+    "height": 1017,
+    "sha256": "73054b56a22c164db4941a58a5d4af894af149f9a92dee530d36a9a6dcf86805"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-375-audit.png",
+    "width": 375,
+    "height": 1227,
+    "sha256": "f15d10f6c111f810c91c2d71681042b0c01b4b76836c0fe0818677e7032dbb28"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-375-billing.png",
+    "width": 375,
+    "height": 2055,
+    "sha256": "ef0a2212df4a86b7352dab5ca3462d419ffc435711da09c89a4b7dcac9cae528"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-375-brand.png",
+    "width": 375,
+    "height": 1677,
+    "sha256": "e3d4e24d62b1c8a044713e6c9bf34dc53490014863024275b830a040bf9c218d"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-375-directory.png",
+    "width": 375,
+    "height": 2257,
+    "sha256": "01063053e97525bc3af4f95219f1a2b2f327f8ad377016b946bddcb65010b0fa"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-375-invoices.png",
+    "width": 375,
+    "height": 1054,
+    "sha256": "42ca4051b131c65f7784ecd6267cfd2bf1b4dee25950e1f5c2af6663302569a1"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-375-moderation.png",
+    "width": 375,
+    "height": 2599,
+    "sha256": "0496f3d5cd7a3d216a5a02e4340f6f05d5ce59000b71acde76a966dde9f5261e"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-375-onboarding.png",
+    "width": 375,
+    "height": 1428,
+    "sha256": "b38f62d48d6f0596ea978c65a86767e6d7af4311f2a2eb82c99310b18c308720"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-375-plans.png",
+    "width": 375,
+    "height": 1823,
+    "sha256": "268113b213e4ddb5d689960a90ec5cf01890fa2b7c054817b29fc5da9bd8139e"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-375-preferences.png",
+    "width": 375,
+    "height": 1283,
+    "sha256": "b69aaa4f07272fe3cc26d5eaf3f601512eeb2620aefaadc7daf937167f2757d8"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-375-profile.png",
+    "width": 375,
+    "height": 1590,
+    "sha256": "1c8943ac30839e2ba6ccdbc570765b696842b245d43c30423a7e22404bbf886b"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-375-settings.png",
+    "width": 375,
+    "height": 1067,
+    "sha256": "290aec3e453356b873272cc04ac3cb4fc7cbc98eafb9ec98afc67d7d8e81548a"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-375-team.png",
+    "width": 375,
+    "height": 2616,
+    "sha256": "c3ddfbef37c068aa1519949ed506e6a0394173f127425746d998639ac6f39407"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-375-verification.png",
+    "width": 375,
+    "height": 1538,
+    "sha256": "c729f351b2a55e20a0090e8fe0586805f193737a3f7132b801aafe1e50cc7a09"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-768-audit.png",
+    "width": 768,
+    "height": 1000,
+    "sha256": "3edaa24cc9e08bed9ba366ee33438e5a3c277160536f48c656ce52e4cac81946"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-768-billing.png",
+    "width": 768,
+    "height": 1422,
+    "sha256": "92c864bd1290d23df1aff5a060a80abdd8caddc981ecf8ee3e62612a671799db"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-768-brand.png",
+    "width": 768,
+    "height": 1450,
+    "sha256": "b883232b7019e06ad734f8006887443aee98963073e7865b006370f89504524d"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-768-directory.png",
+    "width": 768,
+    "height": 1631,
+    "sha256": "ff248f831bee27a995d059baed372624360a347cf9cf1b1082f920ab2028a566"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-768-invoices.png",
+    "width": 768,
+    "height": 1000,
+    "sha256": "75d63b1787bf57ad78a0b41e7e8a10f7cb58270e61788adebb95c15761e038a1"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-768-moderation.png",
+    "width": 768,
+    "height": 2196,
+    "sha256": "476933c6fbee0c7021181d99a3b1814cc2a04c8d0f3913364efc0aa7397508a7"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-768-onboarding.png",
+    "width": 768,
+    "height": 1013,
+    "sha256": "83af8b01a7802a79b3f915904113706e5f48f7a3b40b907e2dc7fb9cac603bb7"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-768-plans.png",
+    "width": 768,
+    "height": 1385,
+    "sha256": "8d2b8413274765da177dc68c2048df5fcb4dc9989fc6e0b00bee375718b9bb6e"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-768-preferences.png",
+    "width": 768,
+    "height": 1025,
+    "sha256": "7a5e700e8ee1a88455b40d733e001c44a02c59848d37439f7c9330debdcb3336"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-768-profile.png",
+    "width": 768,
+    "height": 1102,
+    "sha256": "0d8b4f82b789ae938a6fbc7d46d0670587a1fa99d9463fe4bfd44cff8300a1a4"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-768-settings.png",
+    "width": 768,
+    "height": 1000,
+    "sha256": "a0ac4d696d914c3a7147e0c1f39258b78b717ffb8d1f3abf09d4391e077d81f9"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-768-team.png",
+    "width": 768,
+    "height": 2277,
+    "sha256": "655765b7ba209248f884893b70522fcacd8140bed3904f143e4e39302043afb5"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/ar-768-verification.png",
+    "width": 768,
+    "height": 1041,
+    "sha256": "c4dd6ea0f2c46d13db788136999eb55ffa89527feea5ebe3b52407c7aa47853f"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-1024-audit.png",
+    "width": 1024,
+    "height": 1016,
+    "sha256": "6c400277c54dbc54660c4e3e2a418265e58d63a08513ee73c059b68dc1395cf8"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-1024-billing.png",
+    "width": 1024,
+    "height": 1472,
+    "sha256": "4b566e2df9fec4bb5696674580bd64ebb0e8fea7a2e1cfde8ac476336a502dd2"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-1024-brand.png",
+    "width": 1024,
+    "height": 1504,
+    "sha256": "9221ab81ec9edf63ee58eecbb606ec6d7547b28dcf49c2b1d59211d6f46dc12a"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-1024-directory.png",
+    "width": 1024,
+    "height": 1708,
+    "sha256": "46628f79eacd7ad9a1296a5a39a054dddc66a546d9c16e84e8f6457645828e72"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-1024-invoices.png",
+    "width": 1024,
+    "height": 1000,
+    "sha256": "4c88c48369dd207b118ee46ef8d95eacbc2c8dc248ef99343ffd2459ca5c184b"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-1024-moderation.png",
+    "width": 1024,
+    "height": 2272,
+    "sha256": "00771956fec041a266d662987af070820e8c4b4d3c1707864e3e7bb0fec91aa3"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-1024-onboarding.png",
+    "width": 1024,
+    "height": 1067,
+    "sha256": "9c4b1eb15832265e9369dc2be07683c4796d86125a87dc23dc52d646ebda302c"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-1024-plans.png",
+    "width": 1024,
+    "height": 1462,
+    "sha256": "e3cad6a4b3e1b53c53d6b3e77bbc5510c6a33e245ffcf25a5d3fb30ccae4054e"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-1024-preferences.png",
+    "width": 1024,
+    "height": 1080,
+    "sha256": "f1c03ad0f29d52cc9b329529988bb2f1456afb33dedc4435646d59d505b52f38"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-1024-profile.png",
+    "width": 1024,
+    "height": 1157,
+    "sha256": "e3c60e9f7c3139bacbbb4bf5f9e2de317d3f1819c79876a6e207da3d5079d4d2"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-1024-settings.png",
+    "width": 1024,
+    "height": 1000,
+    "sha256": "0e43f390dd7048dada1fcc8bd58a7377e9b3499ef129be4d5efefa204249b4b8"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-1024-team.png",
+    "width": 1024,
+    "height": 2332,
+    "sha256": "448b3656e6b29e2893ebc25f1a4ebabae0d87671b3a9d01a675224c44dfe4fcc"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-1024-verification.png",
+    "width": 1024,
+    "height": 1096,
+    "sha256": "ac4778f73b02178b95124ef87299d946bc7e15f335fb29596358e8e1b2b0f853"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-1440-audit.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "7aca1e69bc2a22c1b54e54661180b5fe671e4d0e83f9889d6a7be48bf602a853"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-1440-billing.png",
+    "width": 1440,
+    "height": 1411,
+    "sha256": "6721305ce6fb3d9566a2f3f54c0a5e4bb9b62acff4d4555a9ccbe51298acc278"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-1440-brand.png",
+    "width": 1440,
+    "height": 1206,
+    "sha256": "3d5b6ceab9b8ce29158d63e53cd5f508241e6dee8faee36ca18f3dbc07cb0341"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-1440-directory.png",
+    "width": 1440,
+    "height": 1547,
+    "sha256": "24dbf97d4890ae9bb838dc697e63ecae3ce75f48a7d4b7796e46455409aade8f"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-1440-invoices.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "93bd2faac5785e1883555bad4a4915c5ef0d694ea5380c7389eea0aad0c9db1d"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-1440-moderation.png",
+    "width": 1440,
+    "height": 1432,
+    "sha256": "f45a57ba9d2498be42c3edd73481e37677b49668023fdf277ecac4be30745f3f"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-1440-onboarding.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "a9721c976878c04fafdafb05dc7cd7f75ded34d52ad355f615974893d812f5b1"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-1440-plans.png",
+    "width": 1440,
+    "height": 1323,
+    "sha256": "a065f04029d52f948e96332b045703ed1fbe7594e3e9ba6a38ccdc535c087008"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-1440-preferences.png",
+    "width": 1440,
+    "height": 1001,
+    "sha256": "5528b7a7f04b52d41d4bc263ee6f24d0262c1db70fb411136fbd25fb3443546c"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-1440-profile.png",
+    "width": 1440,
+    "height": 1078,
+    "sha256": "4d6d985ac1d6cce96f67d8a14199f7b75c29ded9775368fa734d6cb9c5d0bc75"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-1440-settings.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "7cd4a46b659da5b4b5a6762c9f90331d9b4d392290a60efbe074550cb014b17e"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-1440-team.png",
+    "width": 1440,
+    "height": 2271,
+    "sha256": "1dc59ca834b1ae99c890cf8384b864f1fa79044d1a85328b84be0ec6e1eb32ef"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-1440-verification.png",
+    "width": 1440,
+    "height": 1017,
+    "sha256": "791e32b72cc920155e2aad20dd7f6ab8cc1ae5812e5ff40873a2385cf7959def"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-375-audit.png",
+    "width": 375,
+    "height": 1267,
+    "sha256": "3fe0dbd30ab5cf244d7ce933717d58a738ffea09c335223da07eba960dae68bb"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-375-billing.png",
+    "width": 375,
+    "height": 2077,
+    "sha256": "ed96a7b6d11a6f8a6ccb0b576e34baa70caa15aa5641d4db4c505b6889a4c2a9"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-375-brand.png",
+    "width": 375,
+    "height": 1715,
+    "sha256": "7e32408458e4becf2efa90adde758aeb2ec6114c1a931f78e50e60b7f581e469"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-375-directory.png",
+    "width": 375,
+    "height": 2321,
+    "sha256": "cfe8fce0e0a790d5594b4975452501a7182ef544103fc258e6963e76e7a99035"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-375-invoices.png",
+    "width": 375,
+    "height": 1094,
+    "sha256": "6114d21e55f3e6b726118f4baa3da1481ef6998d89b1653873753a8ebac1bf7b"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-375-moderation.png",
+    "width": 375,
+    "height": 2619,
+    "sha256": "f3c15ce1668ee63c946892639b7aa5691bb5d23b825ea0b4e4ec9154775b10ce"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-375-onboarding.png",
+    "width": 375,
+    "height": 1466,
+    "sha256": "6979956a77c74d350235367a0959c0cfe7a8da14aa06d37922c2d16feaeeb762"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-375-plans.png",
+    "width": 375,
+    "height": 1863,
+    "sha256": "8abc33a4a42fe7864ea26bfc62b7ace0dfc33e645217832c267ba2fd23c8ca8a"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-375-preferences.png",
+    "width": 375,
+    "height": 1341,
+    "sha256": "695212a0aa2df4ceddc1f8a2b0adb5821b87b0790828af2a54ded315ec73a6a9"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-375-profile.png",
+    "width": 375,
+    "height": 1628,
+    "sha256": "561b1668cc631d024fef6410e2b29efcbd5b9745b093a7b64c02c78826d70388"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-375-settings.png",
+    "width": 375,
+    "height": 1107,
+    "sha256": "1c91aa63370c039d2c0c172c41b600620740c83e2891cedbc5e4aaeb6775adba"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-375-team.png",
+    "width": 375,
+    "height": 2673,
+    "sha256": "a14c7fe7846cb1cc4815b73d66caad45f1770431379699ac376455708342980c"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-375-verification.png",
+    "width": 375,
+    "height": 1593,
+    "sha256": "cffcbdb0094a419e2baa79bcf1cc1d32f087e5f18af0647215292e986ef620eb"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-768-audit.png",
+    "width": 768,
+    "height": 1000,
+    "sha256": "8f94c03de54e0e42646c11b67f635235660952a646a0434af7818527bd4a177d"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-768-billing.png",
+    "width": 768,
+    "height": 1452,
+    "sha256": "3aa6fb260c23f626321abc87bfcde7e3ecfcc06fa1a8eddea087a4d6730f690d"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-768-brand.png",
+    "width": 768,
+    "height": 1484,
+    "sha256": "4b7e6441356bcd3d0ac8baba41cdce517ae7d8dc62b32c20d977e460a707851c"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-768-directory.png",
+    "width": 768,
+    "height": 1688,
+    "sha256": "4d2215b63dec00f9ef8012d7db5842d6c257d346f5de5ee67590436ac11bad9e"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-768-invoices.png",
+    "width": 768,
+    "height": 1000,
+    "sha256": "b90e790f81f50c98e1d665df2ca864f8afcb02fb3cc682f6a2fa80fad8defc59"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-768-moderation.png",
+    "width": 768,
+    "height": 2252,
+    "sha256": "6b19f063995a594ca352aba2fd48cbf8b2449cd46d41f25aa95ed7a89946ab35"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-768-onboarding.png",
+    "width": 768,
+    "height": 1047,
+    "sha256": "5bb3b581125684613e1577a12f3a331fbbb4777bb53e7cbc2110379dbcc2eb18"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-768-plans.png",
+    "width": 768,
+    "height": 1442,
+    "sha256": "5951733c7eef8af505c3af0e71cd6f77f014acc59b67d35ef13aa67272297777"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-768-preferences.png",
+    "width": 768,
+    "height": 1060,
+    "sha256": "fd9890d63ee44e8c07c857c59e6ce5a98fff11af2e4aea0ab123208faaf7b67f"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-768-profile.png",
+    "width": 768,
+    "height": 1137,
+    "sha256": "6f2eb3fbcb2939bc815ee2887beec4cbf4391afcbb2f6aeebdb2867fa6c24045"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-768-settings.png",
+    "width": 768,
+    "height": 1000,
+    "sha256": "82da3bb0109b172bcec55b9bf42b72b18bff641da755c04d79ff58769dc30e99"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-768-team.png",
+    "width": 768,
+    "height": 2312,
+    "sha256": "e8c7b6685557c1a175561f86331935bcd280927a77ab14f135a86b7e4f2c0395"
+  },
+  {
+    "path": "artifacts/phase6/regression/phase5/screenshots/en-768-verification.png",
+    "width": 768,
+    "height": 1138,
+    "sha256": "9b7b0dc4fdfcff0eb534127a73b6e288a0c689ec45b610684ed39db77f5193f5"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/1024-ar-admin.png",
+    "width": 1024,
+    "height": 1574,
+    "sha256": "788f42a2a7f950bbc0e225c8079003bef32797db0c3d8ccc12119716717a6cae"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/1024-ar-branding.png",
+    "width": 1024,
+    "height": 1470,
+    "sha256": "0363a507f93ff96105a0205b613468f78206d595ff83aef09aa26e29736d9da5"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/1024-ar-campaign-create.png",
+    "width": 1024,
+    "height": 1548,
+    "sha256": "865bdf1a7fe04cd563f1069a48daa54d71faf3ee8b63aad69b8f94d711dbbdf7"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/1024-ar-crm.png",
+    "width": 1024,
+    "height": 1493,
+    "sha256": "58d1ad8c55b4c91e3541fb09b66576e2a3d178b889d499355adece209f41bf0a"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/1024-ar-dashboard.png",
+    "width": 1024,
+    "height": 2333,
+    "sha256": "0a4d58d4df17c5a66ff21015b88b404ca81c52ad29529caaf8e6a4700c647330"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/1024-ar-editor.png",
+    "width": 1024,
+    "height": 3093,
+    "sha256": "7788857076c27bafe43f3720c05ab04f8e22d74d6b2a8e5d5481e92c2f20c55d"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/1024-ar-marketplace.png",
+    "width": 1024,
+    "height": 1826,
+    "sha256": "df5ecca8d713e1a27a95e7600f9c18f1a9d6987ad05882def0eb07081d3aac5b"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/1024-ar-publishing.png",
+    "width": 1024,
+    "height": 1940,
+    "sha256": "7763651574ff81e9f2a603881404501309d74b0acacc26d39ce589a3dadb3110"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/1024-en-admin.png",
+    "width": 1024,
+    "height": 1631,
+    "sha256": "308520083493179f82e33b839cf245784cde2c3b1d1b2a1cc572967594cbe948"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/1024-en-branding.png",
+    "width": 1024,
+    "height": 1504,
+    "sha256": "0c2abbd5f318a17cf03ab431972742a59d87be689c9091ebe2457538c7d54ba8"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/1024-en-campaign-create.png",
+    "width": 1024,
+    "height": 1673,
+    "sha256": "9fdccd14f05c43ab1477860daee043e8340fa1a72ee9522870d3966c8e380b4a"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/1024-en-crm.png",
+    "width": 1024,
+    "height": 1569,
+    "sha256": "99321e29ad6aa53aa7567254584aafacddd0c1bedca98f8120a7d790361a1541"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/1024-en-dashboard.png",
+    "width": 1024,
+    "height": 2374,
+    "sha256": "2f6e447d118c77e4eb257ffbc986fab25286efdfc1bb71f8293dc82415f22f6f"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/1024-en-editor.png",
+    "width": 1024,
+    "height": 3190,
+    "sha256": "b7cf51d8241dc39ad6ce3f302db90aa06e7034bac7d61df9b4385de38139dd3c"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/1024-en-marketplace.png",
+    "width": 1024,
+    "height": 1895,
+    "sha256": "ca2276f1e7ac8feaf7f0fd803dc0efb13808ba59188e91aed449dfaf78ce392c"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/1024-en-publishing.png",
+    "width": 1024,
+    "height": 2043,
+    "sha256": "50b7843e28bfdd1525a2445eb4799cd58e4fb1e85e38541f58a9cf03a8cd20b8"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/768-ar-admin.png",
+    "width": 768,
+    "height": 1554,
+    "sha256": "c08b56b6e680ffe5bf6fa75f6de544c46aef7ac6df8e691cf6963b07030ac3d4"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/768-ar-branding.png",
+    "width": 768,
+    "height": 1450,
+    "sha256": "202081af30764237d16486637c345a01e14f527efcaf36b68c7700f2324951b1"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/768-ar-campaign-create.png",
+    "width": 768,
+    "height": 1802,
+    "sha256": "247e144f57401c8162fb65ac3e7c796a3878ef9548309a379682d5d6b1e7cacc"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/768-ar-crm.png",
+    "width": 768,
+    "height": 1632,
+    "sha256": "9a35de0b3003ebff139101e57105c596dcdbdd701d4c5c1454457180545317e8"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/768-ar-dashboard.png",
+    "width": 768,
+    "height": 2325,
+    "sha256": "2c3da4bd82564e7c47cee76f746c81ef0aedae2bc37ddc7ec871f1d6b5ce1971"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/768-ar-editor.png",
+    "width": 768,
+    "height": 3073,
+    "sha256": "12810a8c0069bd2939d6569de9b283fbf6d799a15caff2e24d8aa49451b3be90"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/768-ar-marketplace.png",
+    "width": 768,
+    "height": 1806,
+    "sha256": "e2bb2750a6521bea4b80050ffa10381e9cfa23c7505ee1bd3bc37d683d65fd6e"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/768-ar-publishing.png",
+    "width": 768,
+    "height": 1938,
+    "sha256": "f98f6ae20b29f32feb2cf353904f10cb55c44779a59fae8dfd88f11d788ec90a"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/768-en-admin.png",
+    "width": 768,
+    "height": 1611,
+    "sha256": "31891a03297f3fc4a2ac9d741a37776a853c9fde93cf979b503ea069871af235"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/768-en-branding.png",
+    "width": 768,
+    "height": 1484,
+    "sha256": "ac1cd75fdaf9341c2a1647e290c734c91ff668f5832b904c6bd1842e4937b821"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/768-en-campaign-create.png",
+    "width": 768,
+    "height": 1897,
+    "sha256": "1158a5e0a33ce6143ff2be9f1494c10cb01fb59b189ae25ddaa78e29389fb480"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/768-en-crm.png",
+    "width": 768,
+    "height": 1708,
+    "sha256": "12e0d69d10c5c253d4df69dd10306c46eb100836958ae99a9aded9621d046e20"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/768-en-dashboard.png",
+    "width": 768,
+    "height": 2366,
+    "sha256": "3cff1c999368c1848139f503692db4bff6f9bc75ccb5f9294f5276bf5d749581"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/768-en-editor.png",
+    "width": 768,
+    "height": 3170,
+    "sha256": "3ee67db427fae99bcb7745c89a62fb4216b91aff0733e4cb205e12c3ffb538fc"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/768-en-marketplace.png",
+    "width": 768,
+    "height": 1875,
+    "sha256": "90ade7b826b983cad31260a9afa1a2081bcb9588413ae52090c2589e09a5e20a"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/768-en-publishing.png",
+    "width": 768,
+    "height": 2023,
+    "sha256": "a034cf2c7afd06f3493b100d3692552a39f0d35cc23c8c11da67898ff06bdd36"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-ar-admin.png",
+    "width": 1440,
+    "height": 1470,
+    "sha256": "9fc4db5d0d84373376128b55b391bb0da1a67ed1ccb24fba9da1b5088908f155"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-ar-analytics.png",
+    "width": 1440,
+    "height": 2382,
+    "sha256": "ba473b8e1a05db7459f30ffb0ceac86eb523818c79ccf0d648eeb7957e643335"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-ar-audit.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "2fa93b4e52214f29743db35aa56757fe0ae5af32b161b851d2ba467dc0670d72"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-ar-billing.png",
+    "width": 1440,
+    "height": 1416,
+    "sha256": "1aee8634a3cb6766619b7718d45d063139789e9ad8c0f2b2cb1ab2474b951242"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-ar-brand-preview.png",
+    "width": 1440,
+    "height": 1410,
+    "sha256": "e6584fa16a3dd24ea013717c7ce1b0396547adcc91c04ab22d9aba97bc9e39c8"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-ar-branding.png",
+    "width": 1440,
+    "height": 1206,
+    "sha256": "348e64b0056bd26f15d8525acb54513defdcb4b18a657907eadbcca134451a4b"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-ar-campaign-create.png",
+    "width": 1440,
+    "height": 1451,
+    "sha256": "af96931c83359aaa13813d64767e84eaacf083cef20555d1569491f9e74352cf"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-ar-campaigns.png",
+    "width": 1440,
+    "height": 1086,
+    "sha256": "07bd694d6ed8aefd1e21c54e736da0694a90ce44c47a4581918645cb3e56cd6d"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-ar-compliance.png",
+    "width": 1440,
+    "height": 1258,
+    "sha256": "a70e7236a7ecf3baf114d0bdc45d6ea3a2458de525255f23320ad633ea57e464"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-ar-connector.png",
+    "width": 1440,
+    "height": 3677,
+    "sha256": "2e88965ba7ef0d9c8089c57839811f761c07ea15579ddae07b3726cb20dbcb7e"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-ar-create.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "b439e3ae02e24f0c0132fe7c780c0dca04f04a96db3b3e0b5aef081bc85a1dd8"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-ar-crm.png",
+    "width": 1440,
+    "height": 1415,
+    "sha256": "2843e7c8b0109adf7833b671919f503bfa6d4fbc97088afafcac13cca76f4784"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-ar-dashboard.png",
+    "width": 1440,
+    "height": 1567,
+    "sha256": "5925707c6d3740bb99a96a0cf753e464dab8b7e0551cf5fe227869b5d4edd4ea"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-ar-editor.png",
+    "width": 1440,
+    "height": 2583,
+    "sha256": "e2b27b45a5fa0dfec1651dfb0bbbd23e478bd5b3cec94df08083c92ce9774e4b"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-ar-feeds.png",
+    "width": 1440,
+    "height": 3157,
+    "sha256": "61a8e502c4404f3f767a5d9846be254e262efb93fe2405db8241092ff4702634"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-ar-ga4.png",
+    "width": 1440,
+    "height": 1458,
+    "sha256": "d2d3f65a78356beedf55c500bb055cb92cbf98773f20513af8b07b9a596c9299"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-ar-google.png",
+    "width": 1440,
+    "height": 2383,
+    "sha256": "db8677e0ea417e4dda79d96af2b4e1bc90117bc46cc1df3ef1afe554fe0a400d"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-ar-inbox.png",
+    "width": 1440,
+    "height": 1221,
+    "sha256": "3d4030ee1b833a6327d3e874380687dd9f88f1967239bebb8c4374263edd7db4"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-ar-inventory.png",
+    "width": 1440,
+    "height": 1280,
+    "sha256": "e15ef940ef32a7ad62da0e5fb660903f6a50504ac53ff6d931f0d14e357ee6e2"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-ar-invoices.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "27b327a3813bf66af0ad2637e2d77ed24cf9e8af451aef869c59bbe482eccff3"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-ar-jobs.png",
+    "width": 1440,
+    "height": 1050,
+    "sha256": "5a190e52bb82b0e8f9abbe26e14f320847341cb069e1aef761002387546909c8"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-ar-lead.png",
+    "width": 1440,
+    "height": 1985,
+    "sha256": "17f662992434f3409515f3a9c79a8e788269bafa57654796ceb98226724d009f"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-ar-marketplace.png",
+    "width": 1440,
+    "height": 1297,
+    "sha256": "18248041a1d040bd1c85aea020b4ce08a655045596f216df258e4d6acb74d75d"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-ar-media.png",
+    "width": 1440,
+    "height": 1617,
+    "sha256": "7fc71e6b190beb552ae4960624d6d502507f8f1806f3c2a9ed84a5e7694372d5"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-ar-meta.png",
+    "width": 1440,
+    "height": 2219,
+    "sha256": "637e7acbcccf1a4e74779d41e6f0fd722246ccb0861dca689c42b23796e806e0"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-ar-new-organization-empty.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "8bbb0d559fd3654b42e9d412c4dcae3c3a7c6ae1e3645e878662212150fc3bb9"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-ar-onboarding.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "a596bbad1eb9e30984804ccd3025590ae39b41ca7431949e8ec8489c0c253650"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-ar-organization.png",
+    "width": 1440,
+    "height": 1078,
+    "sha256": "04e9e297970c545fdc76a011308b2e94d6e2cb50e3c40b0fa5d4b2922ad07f2e"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-ar-plans.png",
+    "width": 1440,
+    "height": 1301,
+    "sha256": "f32d9f703d4dfd4eef0854306379391903147dbc05d779117bdf531fb9f45a41"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-ar-property.png",
+    "width": 1440,
+    "height": 1896,
+    "sha256": "29bf9e18641b09c18ac6ad2f79b14392ca9eb7fb29b9bbe8cb8a600ca82df731"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-ar-publishing.png",
+    "width": 1440,
+    "height": 1367,
+    "sha256": "7d30011e7e4e71654600b018d8c8e51d30ef5140eaa3bc1aacf8128a6fa03c24"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-ar-routing.png",
+    "width": 1440,
+    "height": 1781,
+    "sha256": "74cc860bffbdac0ec477c9384c4e7c079e88a6531f79775547e51a3d2794c065"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-ar-studio.png",
+    "width": 1440,
+    "height": 1232,
+    "sha256": "d7f4be1ea5c8f0fed5ec4fd3b42d834327b536e217a1678d5796c3403ef9df88"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-ar-team.png",
+    "width": 1440,
+    "height": 2271,
+    "sha256": "092966915a58289f1282bf2d243ae376c72a56c3649e84672ac13bf63c75ecc3"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-ar-verification.png",
+    "width": 1440,
+    "height": 1017,
+    "sha256": "73054b56a22c164db4941a58a5d4af894af149f9a92dee530d36a9a6dcf86805"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-ar-viewings.png",
+    "width": 1440,
+    "height": 1315,
+    "sha256": "00ef68264d287f182340109e0a51f38fcd1afb1c955971c82c805d50c6cc5eef"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-ar-whatsapp.png",
+    "width": 1440,
+    "height": 1277,
+    "sha256": "1b7db8d436934e5adefbe70cdcfb5a9d95bafc4dcfbf4cbaf942d231ba304e91"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-en-admin.png",
+    "width": 1440,
+    "height": 1470,
+    "sha256": "c5fcb8a8c695b8821010a5e905a5fc8f90ba336e37b11faca47fe367023860d8"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-en-analytics.png",
+    "width": 1440,
+    "height": 2382,
+    "sha256": "a06774d8c902e7aab438064abaf0c3c53bd7a8847828ba82392d856e8d7e27bb"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-en-audit.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "0fff64222f6d8eea09822211ce1027cf26394530f3a5c1eb53ac6d3bda572c3e"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-en-billing.png",
+    "width": 1440,
+    "height": 1411,
+    "sha256": "6721305ce6fb3d9566a2f3f54c0a5e4bb9b62acff4d4555a9ccbe51298acc278"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-en-brand-preview.png",
+    "width": 1440,
+    "height": 1410,
+    "sha256": "16b9c084ddf5bbb3f18298b084202efab63db748fafb66625c211c421e6acbd9"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-en-branding.png",
+    "width": 1440,
+    "height": 1206,
+    "sha256": "5a060f179a72b22f46921e88fa92d73a85d905f92145215780a2cd64764ce2dc"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-en-campaign-create.png",
+    "width": 1440,
+    "height": 1491,
+    "sha256": "07cbae7665dfa90dc56435e74939d43faebcc991f22d18502115cd805b88f0fb"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-en-campaigns.png",
+    "width": 1440,
+    "height": 1109,
+    "sha256": "8a440e5a895128245442b3be61da12cb55c8722c884aeddfe598ba77c8cf5f5e"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-en-compliance.png",
+    "width": 1440,
+    "height": 1280,
+    "sha256": "2e1b5bb3cec1b35a7d979632f9cbd2591af6052dfb5d9fa797f30f7bae80c4c8"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-en-connector.png",
+    "width": 1440,
+    "height": 3692,
+    "sha256": "100849fc7d8bd08ae4154c6b96cc58b99e43ee337c624158ccb6f30a8afaaaa9"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-en-create.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "903d7342ab601db23d96f61b1c7f176cfb6bb33befd3cf70c15577edb9a05168"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-en-crm.png",
+    "width": 1440,
+    "height": 1437,
+    "sha256": "5c8d3d20d539f424b8954072605893767e99e943c1c76a18e370b0d1b80342bb"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-en-dashboard.png",
+    "width": 1440,
+    "height": 1577,
+    "sha256": "da1a25bcc63fa0e541a19341f9870128c535c744845120d7137f702654d420de"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-en-editor.png",
+    "width": 1440,
+    "height": 2606,
+    "sha256": "69d609f7e69f423c635b0e21e97b29afbd1caeed13796e170d0c0338ae046049"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-en-feeds.png",
+    "width": 1440,
+    "height": 3197,
+    "sha256": "39f65136d379b2ece5f28897bed6c8ec8511a9a3ce434c12f61acf0345376083"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-en-ga4.png",
+    "width": 1440,
+    "height": 1458,
+    "sha256": "2c8f9ad92105f26abc0e51225c810a742263e615520b0a08c20ce9f119c20334"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-en-google.png",
+    "width": 1440,
+    "height": 2441,
+    "sha256": "da563e35079d4733754c11beb35441a97f077bda58364634df74aa69dd812f9a"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-en-inbox.png",
+    "width": 1440,
+    "height": 1243,
+    "sha256": "276942391697db1f4755a8b6e41e02b5e121d84a5ad0242520cd9903e59ac5a7"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-en-inventory.png",
+    "width": 1440,
+    "height": 1280,
+    "sha256": "a290235d9c3e8a277195e8736b2517abf4e3b566ab5ae6cf591241dc13cc79e2"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-en-invoices.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "93bd2faac5785e1883555bad4a4915c5ef0d694ea5380c7389eea0aad0c9db1d"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-en-jobs.png",
+    "width": 1440,
+    "height": 1082,
+    "sha256": "14a2e4f57591bd108db004e9eba99a3783ebb0356006ef178329d014efa3f9f4"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-en-lead.png",
+    "width": 1440,
+    "height": 1986,
+    "sha256": "e2d236c06cb24f9818b07f2e3dd14f472bf6e8f1425c33d3cac7fa7b62962d88"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-en-marketplace.png",
+    "width": 1440,
+    "height": 1369,
+    "sha256": "1962fd5d54cfd2eaebeb0c082c6ea8a67cebee3cb91ca1845c960b7199a897e8"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-en-media.png",
+    "width": 1440,
+    "height": 1657,
+    "sha256": "5ad783dbe17bb445d2c45bd9eb922cb3d18e758e09e9e1f63ede32ddc4915753"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-en-meta.png",
+    "width": 1440,
+    "height": 2241,
+    "sha256": "af8a1e15714770130c2f901ccfaf3d990f9029406cd1fc01e951a153d5e18cf9"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-en-new-organization-empty.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "453c265bc5fd723de93ea1c148956f74a7fb58f17a0bdf799406a0b46fb12890"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-en-onboarding.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "a9721c976878c04fafdafb05dc7cd7f75ded34d52ad355f615974893d812f5b1"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-en-organization.png",
+    "width": 1440,
+    "height": 1078,
+    "sha256": "4d6d985ac1d6cce96f67d8a14199f7b75c29ded9775368fa734d6cb9c5d0bc75"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-en-plans.png",
+    "width": 1440,
+    "height": 1323,
+    "sha256": "a065f04029d52f948e96332b045703ed1fbe7594e3e9ba6a38ccdc535c087008"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-en-property.png",
+    "width": 1440,
+    "height": 1896,
+    "sha256": "b5e2808cd07d1224d36df2e7b614f25cd8d3527a8e8d709ccc1e3d3c90826427"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-en-publishing.png",
+    "width": 1440,
+    "height": 1449,
+    "sha256": "60ecd4e1cf66a9dbcefa17c87ddab7256c32dcd19ad6ffd12a31d4ac1a8dcbcd"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-en-routing.png",
+    "width": 1440,
+    "height": 1803,
+    "sha256": "b8694e5b6354e82b860f748516756860f3e678090f4feeccef1dfacdd0e05f21"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-en-studio.png",
+    "width": 1440,
+    "height": 1254,
+    "sha256": "d16213cded37a619d9e327965bbe55066e9385d5b6119d3a7a16ad73a5e6fd47"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-en-team.png",
+    "width": 1440,
+    "height": 2271,
+    "sha256": "1dc59ca834b1ae99c890cf8384b864f1fa79044d1a85328b84be0ec6e1eb32ef"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-en-verification.png",
+    "width": 1440,
+    "height": 1017,
+    "sha256": "791e32b72cc920155e2aad20dd7f6ab8cc1ae5812e5ff40873a2385cf7959def"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-en-viewings.png",
+    "width": 1440,
+    "height": 1337,
+    "sha256": "b780fe5a3322e5ff09ce33f7ff81c77d79b25081e9cde2ab74cbbe6a53a8dc80"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/chromium-en-whatsapp.png",
+    "width": 1440,
+    "height": 1300,
+    "sha256": "c38821e3bb1e145fce0e06ef576909277f82e1d027749d81961037e7f734351d"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-ar-admin.png",
+    "width": 375,
+    "height": 2180,
+    "sha256": "6e1b5f00d9aca2283a7070ad23d0e7bf77188b5003163c3a09a1cadd3c77a69d"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-ar-analytics.png",
+    "width": 375,
+    "height": 3282,
+    "sha256": "81b6a54db23b8d02754a534d8c76282dd266c41f7a7513eae5f4f9b7e8114acf"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-ar-audit.png",
+    "width": 375,
+    "height": 1245,
+    "sha256": "67b202d78f216cf2c56b73834da1b6e38edc116e781a0cf21999b7836d83ead4"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-ar-billing.png",
+    "width": 375,
+    "height": 2055,
+    "sha256": "306e9a7e0b056a212016f0506fae004551e585e34e6cf8a8537f38f043dfb5e9"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-ar-brand-preview.png",
+    "width": 375,
+    "height": 2833,
+    "sha256": "5db29ffb75d1cae0484ff347b2619db2ec43492123a2fed8d80f7b9b0fbd05ef"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-ar-branding.png",
+    "width": 375,
+    "height": 1677,
+    "sha256": "e3d4e24d62b1c8a044713e6c9bf34dc53490014863024275b830a040bf9c218d"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-ar-campaign-create.png",
+    "width": 375,
+    "height": 2696,
+    "sha256": "a7117cef11a443b8867dd852f81b5907587c9a7779578d3ae0628386821b0aa3"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-ar-campaigns.png",
+    "width": 375,
+    "height": 1776,
+    "sha256": "7f51bad0d46149e6d13647153c11c968570fffbfaf42a2928c9634a30550035c"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-ar-compliance.png",
+    "width": 375,
+    "height": 2393,
+    "sha256": "b7ebe42211748bb63faa466f316e3036deb3b670e7dec3044dc50c3d39a4e576"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-ar-connector.png",
+    "width": 375,
+    "height": 4835,
+    "sha256": "cc8d5da67a889ce1a0e33445710c4655314603d2c1cd1ac08105b47bba5bd719"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-ar-create.png",
+    "width": 375,
+    "height": 831,
+    "sha256": "30428779f27d4b28b2907333cda82e439e8c13baf83c1bb2e106323500582a1b"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-ar-crm.png",
+    "width": 375,
+    "height": 1867,
+    "sha256": "3280870a50f8f18ee3ce558855c88124f5768cd23bd7c5d575378103f49241a3"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-ar-dashboard.png",
+    "width": 375,
+    "height": 3001,
+    "sha256": "a3c51b94a7933074229dbec9f1d21ccc7bbccd9ea3ee421538d10dcee3d270e4"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-ar-editor.png",
+    "width": 375,
+    "height": 3887,
+    "sha256": "c24879daf97162b7b45c0af3112a156795ea8b3e48d796a8146b7200fc079042"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-ar-feeds.png",
+    "width": 375,
+    "height": 5684,
+    "sha256": "1fae7cfb113c70c7e066d2117e6de4a3117899d013bfc1c13a9c05c7b4a1ddf9"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-ar-ga4.png",
+    "width": 375,
+    "height": 2455,
+    "sha256": "6f3dbfa1198878f947b752379711bb0dc50cd5f68011b83c8729e46465def6c6"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-ar-google.png",
+    "width": 375,
+    "height": 2961,
+    "sha256": "0e241e5b83a04e90c932d4791d123bfc8eac7af15ee1e4982a51de5e414ea24e"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-ar-inbox.png",
+    "width": 375,
+    "height": 1676,
+    "sha256": "d6e11ca49d14b4c9d5bf35fd1b9a6bd80ef02fa7ade4ce4e03cae291c2338c5b"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-ar-inventory.png",
+    "width": 375,
+    "height": 1576,
+    "sha256": "1533a15b2d2d8f5cd27501f115ad9295e234c8206feacdfc2c984edec35c3f3e"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-ar-invoices.png",
+    "width": 375,
+    "height": 1054,
+    "sha256": "60ee8078b7028a0437df71b33e584282560f2756c9dfd7b2be0b3591022889e0"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-ar-jobs.png",
+    "width": 375,
+    "height": 1498,
+    "sha256": "e7f408a03bd21ccc36289b9f3bde1e826154cbf8126ad2eda9af66aa00bf23b7"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-ar-lead.png",
+    "width": 375,
+    "height": 3002,
+    "sha256": "bea915d33687448fa1b69d18ceb52fae0a0d8f4cb4764d428b3a4b4b2d6f9013"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-ar-marketplace.png",
+    "width": 375,
+    "height": 2458,
+    "sha256": "71446aefbbb2f1bc1c74d9b2e1ca552059baa22f7035058a483320a9235fd37a"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-ar-media.png",
+    "width": 375,
+    "height": 2871,
+    "sha256": "01b462e78d89896ef80dda59e0dc80ec1a7eb47e7d77e446bba42e6b3b99b87f"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-ar-meta.png",
+    "width": 375,
+    "height": 2726,
+    "sha256": "4b79e19805e5e0a435e53a0f35dec63f6ece6add9de9fcf93269bbd0e82a6f71"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-ar-new-organization-empty.png",
+    "width": 375,
+    "height": 1270,
+    "sha256": "113cf6bd2f57f9af646df6d9003eb9fc732ce3d42842d0f9abf87847bb757fc0"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-ar-onboarding.png",
+    "width": 375,
+    "height": 1428,
+    "sha256": "b38f62d48d6f0596ea978c65a86767e6d7af4311f2a2eb82c99310b18c308720"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-ar-organization.png",
+    "width": 375,
+    "height": 1590,
+    "sha256": "1c8943ac30839e2ba6ccdbc570765b696842b245d43c30423a7e22404bbf886b"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-ar-plans.png",
+    "width": 375,
+    "height": 1823,
+    "sha256": "21c57891c347650c581d49a93dc782d43349411a764faa6c00a09dc6013b3e20"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-ar-property.png",
+    "width": 375,
+    "height": 2702,
+    "sha256": "254245315172a805a9b8849961d00ed3cae123040fd6ae2ded1a427b99da8431"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-ar-publishing.png",
+    "width": 375,
+    "height": 2277,
+    "sha256": "0ed2a09afa3f45cf1e59d16805d6574b87816351eaade9568ccb1f463df33ee6"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-ar-routing.png",
+    "width": 375,
+    "height": 2498,
+    "sha256": "d6a077a6e08ca5b9e5c8bed05b73812b6f213202629ecf769b2cb4b1cc0c183a"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-ar-studio.png",
+    "width": 375,
+    "height": 2117,
+    "sha256": "ed3af2a712d3a16e746b53d97be8273f359ad39fa8783b37b3df7e3d17d9620f"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-ar-team.png",
+    "width": 375,
+    "height": 2616,
+    "sha256": "c3ddfbef37c068aa1519949ed506e6a0394173f127425746d998639ac6f39407"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-ar-verification.png",
+    "width": 375,
+    "height": 1538,
+    "sha256": "c729f351b2a55e20a0090e8fe0586805f193737a3f7132b801aafe1e50cc7a09"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-ar-viewings.png",
+    "width": 375,
+    "height": 1926,
+    "sha256": "0ba25cb6ec6ce3fd29809c97abb67159df7357b0c55281b54b355f4e94531178"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-ar-whatsapp.png",
+    "width": 375,
+    "height": 1589,
+    "sha256": "b58b8202887c9d7cce2114528901065336da943ca185524e9fa479274f68af48"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-en-admin.png",
+    "width": 375,
+    "height": 2244,
+    "sha256": "9b8a3b7344e24470a4fdbb503c5a68fc96be6e0d73fe7f1b572544655a6c1527"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-en-analytics.png",
+    "width": 375,
+    "height": 3393,
+    "sha256": "8c82db577e5dbcd8e42011e52a3d5e18f0a5ea32763fc5292a00d40fdd2bc102"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-en-audit.png",
+    "width": 375,
+    "height": 1285,
+    "sha256": "70fad4a3d2b69e136ced266a4a27ebeeed60725a15d5de0b05601c6d7c4883cd"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-en-billing.png",
+    "width": 375,
+    "height": 2077,
+    "sha256": "f495edffac1e3b9247e2cd6840870eda607d78878468ce5d85ec019462fd258d"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-en-brand-preview.png",
+    "width": 375,
+    "height": 2853,
+    "sha256": "7055e7c08230d2b8e655ee59e885c6795a29807cea2dcbccb6ecead313181563"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-en-branding.png",
+    "width": 375,
+    "height": 1715,
+    "sha256": "7e32408458e4becf2efa90adde758aeb2ec6114c1a931f78e50e60b7f581e469"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-en-campaign-create.png",
+    "width": 375,
+    "height": 2753,
+    "sha256": "9a2685901f8a138198e0104eb5acc71ed4b25b6c8e2f6e459d7fec047a1b6a74"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-en-campaigns.png",
+    "width": 375,
+    "height": 1833,
+    "sha256": "0d42f5b68b5826832ceee4523576825a35e2681ac062d0d41fe29e4b1ecd7e96"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-en-compliance.png",
+    "width": 375,
+    "height": 2413,
+    "sha256": "171fd8ea3266bfc9b4e51046e4e8e93e916ca56c7e3f3c1f3bcf910cea4dbf56"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-en-connector.png",
+    "width": 375,
+    "height": 4943,
+    "sha256": "6c2314a148f0367f14d6625751a70ff054d6ee056c1e1eac74205ec4b9765066"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-en-create.png",
+    "width": 375,
+    "height": 888,
+    "sha256": "7635dc6070aa2ffbb2cc685dd5ba9dd8a99dc7523810b7644a9e57bcb27e89fc"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-en-crm.png",
+    "width": 375,
+    "height": 1947,
+    "sha256": "1498389a36810c874406196ca85c69776de0cfde419069b4ac53799f51d6b0ce"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-en-dashboard.png",
+    "width": 375,
+    "height": 3436,
+    "sha256": "e4aa745ef22b48272cfa9f79731d379a808659e0ca22768592ad49c5d2200329"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-en-editor.png",
+    "width": 375,
+    "height": 4019,
+    "sha256": "134cfe03cc622a1c1aa7159ed5f4b8178402c0eba2f293714c552058e4e9f003"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-en-feeds.png",
+    "width": 375,
+    "height": 5761,
+    "sha256": "7c8c92bc06fbafb6294bbf1778cdee0efca23e2b03c1a4bf1a8efaabcb723b62"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-en-ga4.png",
+    "width": 375,
+    "height": 2630,
+    "sha256": "7a89204345b0a2ce1b501ba41c8764205b6455258c1258115503cfd3704e96bf"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-en-google.png",
+    "width": 375,
+    "height": 3141,
+    "sha256": "c0bec637fa1726bd0f9641721b198ec63798b1fdf79462059aeb97ef36b2a767"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-en-inbox.png",
+    "width": 375,
+    "height": 1680,
+    "sha256": "1417eb67799b707875e6317f64bd5038087c3f15b6bb81c83ecaf5bf27afb421"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-en-inventory.png",
+    "width": 375,
+    "height": 1595,
+    "sha256": "3057dfb9b62738330ed55d5a3e936b5e5cd7da40996c4aee17d6b926d10187d1"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-en-invoices.png",
+    "width": 375,
+    "height": 1094,
+    "sha256": "788aca29a5ef1b9b2a87eb09ffa04f0f3cf4576856cb46c4f089c2c13958af25"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-en-jobs.png",
+    "width": 375,
+    "height": 1596,
+    "sha256": "a58d66f24a1bf5bdce874be436fea72772c0d691a0b8d9242ea6138444b6b9c5"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-en-lead.png",
+    "width": 375,
+    "height": 3012,
+    "sha256": "0121f006a6e3a4525d5dc6adbb7d62e7cbc6f0c293da0000b808929f0bfff420"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-en-marketplace.png",
+    "width": 375,
+    "height": 2691,
+    "sha256": "916d55d722d2e0322aed427571b9f360fff647054ca913a96603c4445f662d51"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-en-media.png",
+    "width": 375,
+    "height": 2995,
+    "sha256": "f2bbfd94205541ec6d8459ddc0a61b07593592ec7deb055d72a80e92cb4971d7"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-en-meta.png",
+    "width": 375,
+    "height": 2836,
+    "sha256": "176904d1a5682752c790c65a6fd5030e0cded5bef4a8ce56bc012bedd33edee8"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-en-new-organization-empty.png",
+    "width": 375,
+    "height": 1289,
+    "sha256": "7aa2aad11f6736a7bea5bb22ce0fdb445a9f4b26d20e140ce19bb5133a75ebff"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-en-onboarding.png",
+    "width": 375,
+    "height": 1466,
+    "sha256": "6979956a77c74d350235367a0959c0cfe7a8da14aa06d37922c2d16feaeeb762"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-en-organization.png",
+    "width": 375,
+    "height": 1628,
+    "sha256": "561b1668cc631d024fef6410e2b29efcbd5b9745b093a7b64c02c78826d70388"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-en-plans.png",
+    "width": 375,
+    "height": 1863,
+    "sha256": "ab3daaeb423b819a4e82d787452bd42241d57db21e218c8b8a92a7d21540aabb"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-en-property.png",
+    "width": 375,
+    "height": 2723,
+    "sha256": "153260451c8cfe6d4dc7f82a6d5272da3548b9e3cea3f7f0a7a6fb0aa95fa6e6"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-en-publishing.png",
+    "width": 375,
+    "height": 2416,
+    "sha256": "421971ebf4181e951037294f01dc1e2a3a513c8d1591c8f4600a05d2c2d7ae90"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-en-routing.png",
+    "width": 375,
+    "height": 2815,
+    "sha256": "2979b8889adac9ac1c22db3c74adc5ca59b33dd31e99a3aafbff6ec285310408"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-en-studio.png",
+    "width": 375,
+    "height": 2245,
+    "sha256": "31d8339afd5cc9c04c1c481fa58ac52782078330e13ae7e0dbfa36738e7241ee"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-en-team.png",
+    "width": 375,
+    "height": 2673,
+    "sha256": "a14c7fe7846cb1cc4815b73d66caad45f1770431379699ac376455708342980c"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-en-verification.png",
+    "width": 375,
+    "height": 1593,
+    "sha256": "cffcbdb0094a419e2baa79bcf1cc1d32f087e5f18af0647215292e986ef620eb"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-en-viewings.png",
+    "width": 375,
+    "height": 2054,
+    "sha256": "3292583a461236c4046cb84222da20bbcd6f10e2009a2a699684472a9102539d"
+  },
+  {
+    "path": "artifacts/phase6/screenshots/mobile-chromium-en-whatsapp.png",
+    "width": 375,
+    "height": 1735,
+    "sha256": "3071916b6b4836a98af261cea99075323cff7e68a0d827e7bf87ce26ce51cca3"
+  }
+]

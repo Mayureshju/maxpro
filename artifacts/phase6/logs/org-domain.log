@@ -1,0 +1,29 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test organization-admin.spec.ts --grep 'domain|boundary|moderation:|quotas:'
+
+[WebServer] (node:11340) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:11364) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 12 tests using 2 workers
+
+(node:11414) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:11413) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/e2e/organization-admin.spec.ts:20:1 › organization domain: six personas, denied commands, foreign directory and stale revisions (1.9s)
+  ✓   2 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:20:1 › organization domain: six personas, denied commands, foreign directory and stale revisions (2.0s)
+  ✓   3 [chromium] › tests/e2e/organization-admin.spec.ts:27:1 › organization domain: seat reservation, last owner, membership routing and CRM persistence (405ms)
+  ✓   4 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:27:1 › organization domain: seat reservation, last owner, membership routing and CRM persistence (398ms)
+  ✓   5 [chromium] › tests/e2e/organization-admin.spec.ts:35:1 › organization domain: configurable terms drive connector and AI consumption guards (196ms)
+  ✓   6 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:35:1 › organization domain: configurable terms drive connector and AI consumption guards (198ms)
+  ✓   7 [chromium] › tests/e2e/organization-admin.spec.ts:86:1 › organization repository boundary: async local commands and revision conflict mapping (231ms)
+  ✓   8 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:86:1 › organization repository boundary: async local commands and revision conflict mapping (212ms)
+  ✓   9 [chromium] › tests/e2e/organization-admin.spec.ts:95:1 › organization quotas: invitations reserve seats, suspension releases them, owner escalation is denied (214ms)
+  ✓  10 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:95:1 › organization quotas: invitations reserve seats, suspension releases them, owner escalation is denied (247ms)
+  ✓  11 [chromium] › tests/e2e/organization-admin.spec.ts:99:1 › organization moderation: all local decisions retain revision actor note and history; dispatch pause is enforced (212ms)
+  ✓  12 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:99:1 › organization moderation: all local decisions retain revision actor note and history; dispatch pause is enforced (218ms)
+
+  12 passed (6.6s)

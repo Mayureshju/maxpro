@@ -1,0 +1,33 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test --grep 'media ordering|commercial ar|workflow .*canonical|final accessibility'
+
+[WebServer] (node:41317) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:41332) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 12 tests using 4 workers
+
+(node:41349) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:41347) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:41348) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:41350) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   4 [mobile-chromium] › tests/e2e/stability.spec.ts:52:2 › workflow en canonical edits, blocked and queued local dispatch (8.6s)
+  ✓   3 [chromium] › tests/e2e/stability.spec.ts:52:2 › workflow en canonical edits, blocked and queued local dispatch (11.3s)
+  ✓   5 [mobile-chromium] › tests/e2e/stability.spec.ts:52:2 › workflow ar canonical edits, blocked and queued local dispatch (7.0s)
+  ✓   7 [mobile-chromium] › tests/e2e/stability.spec.ts:138:1 › media ordering, classification and watermark remain local (2.3s)
+  ✓   8 [mobile-chromium] › tests/e2e/stability.spec.ts:206:2 › commercial ar admin examples match Gemini and provider names remain explicit (1.5s)
+  ✓   6 [chromium] › tests/e2e/stability.spec.ts:52:2 › workflow ar canonical edits, blocked and queued local dispatch (10.0s)
+  ✓   9 [chromium] › tests/e2e/stability.spec.ts:138:1 › media ordering, classification and watermark remain local (1.5s)
+  ✓  10 [chromium] › tests/e2e/stability.spec.ts:206:2 › commercial ar admin examples match Gemini and provider names remain explicit (1.2s)
+  ✓   2 [chromium] › tests/e2e/final-visual.spec.ts:12:2 › final accessibility en: every active page and translation inventory (35.1s)
+  ✓   1 [mobile-chromium] › tests/e2e/final-visual.spec.ts:12:2 › final accessibility en: every active page and translation inventory (35.4s)
+  ✓  11 [chromium] › tests/e2e/final-visual.spec.ts:12:2 › final accessibility ar: every active page and translation inventory (24.8s)
+  ✓  12 [mobile-chromium] › tests/e2e/final-visual.spec.ts:12:2 › final accessibility ar: every active page and translation inventory (24.7s)
+
+  12 passed (1.1m)

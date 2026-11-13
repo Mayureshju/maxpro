@@ -1,7 +1,8 @@
+import {activeOrganizationId} from './organization-engine';
 /** Local-only marketing domain. These guards demonstrate workflow, not authenticated RBAC. */
 import {
-  demoOrganizationId,
   findProperty,
+  demoOrganizationId,
   type CanonicalProperty,
 } from "./canonical-property";
 import { type PlanId, type ConnectorId } from "./gemini-product";
@@ -101,7 +102,7 @@ export type MarketingProposal = {
 export type Campaign = {
   version: 1;
   id: string;
-  organizationId: typeof demoOrganizationId;
+  organizationId: string;
   revision: number;
   propertyRevision: number;
   input: CampaignInput;
@@ -167,6 +168,7 @@ export function blankCampaignInput(propertyId = ""): CampaignInput {
 export function inputErrors(
   i: CampaignInput,
   p: CanonicalProperty | undefined,
+  organizationId: string = demoOrganizationId,
 ) {
   const errors: string[] = [];
   if (
@@ -177,7 +179,7 @@ export function inputErrors(
     typeof i.checklist !== "object"
   )
     return ["Malformed campaign input."];
-  if (!p || p.organizationId !== demoOrganizationId)
+  if (!p || p.organizationId !== organizationId)
     errors.push("Unknown canonical property in this organization.");
   if (
     !objectives.includes(i.objective) ||
@@ -249,13 +251,14 @@ function cleanInput(i: CampaignInput): CampaignInput {
   };
 }
 export function campaignBlockers(
-  host: Pick<CampaignHost, "properties" | "plan">,
+  host: Pick<CampaignHost, "properties" | "plan" | "organization">,
   c: Campaign,
+  organizationId: string = activeOrganizationId(host.organization),
 ) {
   const p = findProperty(host.properties, c.input.propertyId);
   const i = c.input;
-  const errors = inputErrors(i, p);
-  if (!p) return errors;
+  const errors = inputErrors(i, p, organizationId);
+  if (!p || p.organizationId !== organizationId) return errors;
   if (c.propertyRevision !== p.revision)
     errors.push("Property revision changed. Save a refreshed draft.");
   if (p.status === "archived")
@@ -462,7 +465,7 @@ export function applyCampaignCommand(
     error,
   });
   if (
-    cmd.organizationId !== demoOrganizationId ||
+    cmd.organizationId !== activeOrganizationId(host.organization) ||
     !campaignRoles.includes(cmd.role)
   )
     return fail("Unauthorized local organization or role.");
@@ -480,12 +483,12 @@ export function applyCampaignCommand(
     if (host.campaigns.length >= 100)
       return fail("Local portfolio is full (100 campaigns).");
     const p = findProperty(host.properties, cmd.input.propertyId);
-    const errors = inputErrors(cmd.input, p);
+    const errors = inputErrors(cmd.input, p, activeOrganizationId(host.organization));
     if (errors.length) return fail(errors.join(" "));
     const c: Campaign = {
       version: 1,
       id: `DEMO-CAMPAIGN-${crypto.randomUUID()}`,
-      organizationId: demoOrganizationId,
+      organizationId: activeOrganizationId(host.organization),
       revision: 1,
       propertyRevision: p!.revision,
       input: cleanInput(cmd.input),
@@ -511,7 +514,7 @@ export function applyCampaignCommand(
       "Stale campaign revision. Reload and review the current draft.",
     );
   const p = findProperty(host.properties, c.input.propertyId);
-  if (!p) return fail("Linked canonical property is unavailable.");
+  if (!p || p.organizationId !== activeOrganizationId(host.organization)) return fail("Linked canonical property is unavailable.");
   if (c.propertyRevision !== p.revision)
     return fail("Property revision changed. Reload the refreshed draft.");
   const active = !["cancelled", "rejected"].includes(c.status);
@@ -534,7 +537,7 @@ export function applyCampaignCommand(
         "A simulated campaign retains its original platform. Duplicate it to plan another platform.",
       );
     const property = findProperty(host.properties, cmd.input.propertyId);
-    const errors = inputErrors(cmd.input, property);
+    const errors = inputErrors(cmd.input, property, activeOrganizationId(host.organization));
     if (errors.length) return fail(errors.join(" "));
     if (JSON.stringify(cmd.input) === JSON.stringify(c.input)) return finish(c);
     return finish(
@@ -643,7 +646,7 @@ export function applyCampaignCommand(
       if (s.kind === "creative") input = { ...input, assetIds: s.assetIds };
       if (s.kind === "budget") input = { ...input, mediaBudget: s.amount! };
     }
-    const proposedErrors = inputErrors(input, p);
+    const proposedErrors = inputErrors(input, p, activeOrganizationId(host.organization));
     if (proposedErrors.length)
       return fail(`Proposal cannot be applied: ${proposedErrors.join(" ")}`);
     const changed = JSON.stringify(input) !== JSON.stringify(c.input);
@@ -680,14 +683,14 @@ export function applyCampaignCommand(
       return fail("Use a fictional DEMO- event ID.");
     const source = campaignSource(c);
     const payload = JSON.parse(
-      exampleLeadPayload(source, c.input.propertyId, cmd.eventId, at),
+      exampleLeadPayload(source, c.input.propertyId, cmd.eventId, at, activeOrganizationId(host.organization)),
     );
     payload.campaign_reference = c.id;
     const existing = host.crm.leads.find(
       (l) =>
         l.source === source &&
         l.sourceEventId === cmd.eventId &&
-        l.organizationId === demoOrganizationId,
+        l.organizationId === activeOrganizationId(host.organization),
     );
     if (
       existing &&

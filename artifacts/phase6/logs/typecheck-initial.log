@@ -1,0 +1,13 @@
+
+> maxpro-platform@0.1.0 typecheck /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3
+> pnpm --dir apps/web typecheck
+
+
+> @maxpro/web@0.1.0 typecheck /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> tsc --noEmit
+
+src/components/gemini/demo-provider.tsx(64,64): error TS18046: 'saved' is of type 'unknown'.
+src/components/gemini/demo-provider.tsx(65,82): error TS18046: 'saved' is of type 'unknown'.
+src/components/gemini/demo-provider.tsx(71,69): error TS2345: Argument of type 'unknown' is not assignable to parameter of type 'Record<string, unknown>'.
+ ELIFECYCLE  Command failed with exit code 2.
+ ELIFECYCLE  Command failed with exit code 2.

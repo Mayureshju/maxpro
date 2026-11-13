@@ -1,2 +1,3 @@
-import {WhatsAppTools} from '@/components/prototype/extended';
-export default function Page(){return <WhatsAppTools part='sla'/>}
+import {LegacyRouteNotice} from '@/components/gemini/legacy-route-notice';
+import {InboxPage} from '@/components/gemini/lead-workspace';
+export default function Page(){return <><LegacyRouteNotice href="/workspace/inbox"/><InboxPage/></>;}

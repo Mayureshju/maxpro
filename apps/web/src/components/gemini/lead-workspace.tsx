@@ -1,4 +1,5 @@
 'use client';
+import {usePrototypeCopy} from '@/components/prototype/use-prototype-copy';
 import {can} from '@/lib/organization-engine';
 import {useState, type ReactNode} from 'react';
 import {useLocale} from 'next-intl';
@@ -17,6 +18,7 @@ import {
   type LeadSource,
   type LeadStage,
 } from '@/lib/lead-crm';
+import {activeOrganizationId} from '@/lib/organization-engine';
 import {useGeminiDemo} from './demo-provider';
 export function useCrmCopy() {
   const ar = useLocale() === 'ar';
@@ -30,13 +32,13 @@ export const stageAr: Record<LeadStage, string> = {
   Won: 'ناجح',
   Lost: 'مفقود',
 };
-export function CrmNavigation() {
+export function CrmNavigation() {const copyText=usePrototypeCopy();
   const t = useCrmCopy();
   const path = usePathname();
   return (
     <nav
       className="px-subnav crm-nav"
-      aria-label={t('CRM navigation', 'تنقل إدارة العملاء')}
+      aria-label={copyText(t('CRM navigation', 'تنقل إدارة العملاء'))}
     >
       {[
         ['/workspace/leads', 'Leads', 'العملاء'],
@@ -57,59 +59,59 @@ export function CrmNavigation() {
           }
           aria-current={path === href ? 'page' : undefined}
         >
-          {t(en, ar)}
+          {copyText(t(en, ar))}
         </Link>
       ))}
     </nav>
   );
 }
-export function CrmDisclosure() {
+export function CrmDisclosure() {const copyText=usePrototypeCopy();
   const t = useCrmCopy();
   return (
     <Notice>
-      {t(
+      {copyText(t(
         'Fictional browser-local demo. Enter fictional notes only. No provider webhook, message, calendar or analytics connection. Browser state is editable and is not production authorization.',
         'عرض تجريبي محلي ببيانات خيالية فقط. لا اتصال بمزودي الخدمات أو الرسائل أو التقويم أو التحليلات. حالة المتصفح ليست صلاحية إنتاجية.',
-      )}
+      ))}
     </Notice>
   );
 }
-export function CrmLoading() {
+export function CrmLoading() {const copyText=usePrototypeCopy();
   const t = useCrmCopy();
   return (
     <p role="status">
-      {t('Loading local CRM…', 'جارٍ تحميل العملاء المحليين…')}
+      {copyText(t('Loading local CRM…', 'جارٍ تحميل العملاء المحليين…'))}
     </p>
   );
 }
-function Feedback({error, message}: {error?: string | null; message?: string}) {
+function Feedback({error, message}: {error?: string | null; message?: string}) {const copyText=usePrototypeCopy();
   return error ? (
     <p className="crm-feedback crm-error" role="alert">
-      {error}
+      {copyText(error)}
     </p>
   ) : message ? (
     <p className="crm-feedback" role="status">
-      {message}
+      {copyText(message)}
     </p>
   ) : null;
 }
-function PropertyLabel({id}: {id: string}) {
+function PropertyLabel({id}: {id: string}) {const copyText=usePrototypeCopy();
   const {state} = useGeminiDemo();
   const t = useCrmCopy();
   const p = state.properties[id];
   return (
     <>
-      {id} ·{' '}
-      {p
+      {copyText(id)} ·{copyText(' ')}
+      {copyText(p
         ? t(
             p.facts.titleEn || 'Untitled property',
             p.facts.titleAr || 'عقار بدون عنوان',
           )
-        : 'Missing property'}
+        : 'Missing property')}
     </>
   );
 }
-export function LeadIntake({initialProperty}: {initialProperty?: string}) {
+export function LeadIntake({initialProperty}: {initialProperty?: string}) {const copyText=usePrototypeCopy();
   const {state, crmCommand} = useGeminiDemo();
   const t = useCrmCopy();
   const [source, setSource] = useState<LeadSource>('Website');
@@ -120,6 +122,7 @@ export function LeadIntake({initialProperty}: {initialProperty?: string}) {
     exampleLeadPayload(
       'Website',
       initialProperty ?? Object.keys(state.properties)[0] ?? '',
+      undefined,undefined,activeOrganizationId(state.organization),
     ),
   );
   const [ack, setAck] = useState(false);
@@ -129,7 +132,7 @@ export function LeadIntake({initialProperty}: {initialProperty?: string}) {
     message?: string;
   }>({error: null});
   function load(s: LeadSource, p: string) {
-    setPayload(exampleLeadPayload(s, p));
+    setPayload(exampleLeadPayload(s, p,undefined,undefined,activeOrganizationId(state.organization)));
     setFeedback({error: null});
   }
   return (
@@ -161,18 +164,18 @@ export function LeadIntake({initialProperty}: {initialProperty?: string}) {
       >
         {!Object.keys(state.properties).length && (
           <p role="status">
-            {t(
+            {copyText(t(
               'Create a canonical property before simulating intake.',
               'أنشئ عقاراً أساسياً قبل محاكاة الاستقبال.',
-            )}{' '}
+            ))}{copyText(' ')}
             <Link href="/workspace/inventory/new">
-              {t('Create property', 'إنشاء عقار')}
+              {copyText(t('Create property', 'إنشاء عقار'))}
             </Link>
           </p>
         )}
         <div className="px-field-grid">
           <label className="px-field">
-            {t('Intake source', 'مصدر الاستقبال')}
+            {copyText(t('Intake source', 'مصدر الاستقبال'))}
             <select
               value={source}
               onChange={(e) => {
@@ -182,12 +185,12 @@ export function LeadIntake({initialProperty}: {initialProperty?: string}) {
               }}
             >
               {leadSources.map((s) => (
-                <option key={s}>{s}</option>
+                <option key={s} value={s}>{copyText(s)}</option>
               ))}
             </select>
           </label>
           <label className="px-field">
-            {t('Canonical property', 'العقار الأساسي')}
+            {copyText(t('Canonical property', 'العقار الأساسي'))}
             <select
               value={property}
               onChange={(e) => {
@@ -197,23 +200,23 @@ export function LeadIntake({initialProperty}: {initialProperty?: string}) {
             >
               {!Object.hasOwn(state.properties, property) && (
                 <option value={property}>
-                  {t('Unknown canonical property', 'العقار الأساسي غير موجود')}
+                  {copyText(t('Unknown canonical property', 'العقار الأساسي غير موجود'))}
                 </option>
               )}
               {Object.values(state.properties).map((p) => (
                 <option key={p.id} value={p.id}>
-                  {p.id} ·{' '}
-                  {t(
+                  {copyText(p.id)} ·{copyText(' ')}
+                  {copyText(t(
                     p.facts.titleEn || 'Untitled',
                     p.facts.titleAr || 'بدون عنوان',
-                  )}
+                  ))}
                 </option>
               ))}
             </select>
           </label>
         </div>
         <label className="px-field">
-          {t('Internal example payload', 'بيانات المثال الداخلي')}
+          {copyText(t('Internal example payload', 'بيانات المثال الداخلي'))}
           <textarea
             className="crm-payload"
             dir="ltr"
@@ -230,24 +233,24 @@ export function LeadIntake({initialProperty}: {initialProperty?: string}) {
             checked={ack}
             onChange={(e) => setAck(e.target.checked)}
           />
-          {t(
+          {copyText(t(
             'I acknowledge this is fictional local intake; no personal data or real webhook.',
             'أقر بأن هذا استقبال محلي خيالي، دون بيانات شخصية أو اتصال حي.',
-          )}
+          ))}
         </label>
         <div className="crm-actions">
           <button
             className="px-button px-button-dark"
             disabled={!ack || !Object.hasOwn(state.properties, property)}
           >
-            {t('Process example event', 'معالجة الحدث التجريبي')}
+            {copyText(t('Process example event', 'معالجة الحدث التجريبي'))}
           </button>
           <button
             type="button"
             className="px-button px-button-outline"
             onClick={() => load(source, property)}
           >
-            {t('New example identity', 'معرّف حدث جديد')}
+            {copyText(t('New example identity', 'معرّف حدث جديد'))}
           </button>
         </div>
         <Feedback {...feedback} />
@@ -256,13 +259,13 @@ export function LeadIntake({initialProperty}: {initialProperty?: string}) {
             className="px-text-link"
             href={`/workspace/leads/${feedback.leadId}`}
           >
-            {t('Open resulting lead', 'فتح العميل الناتج')} →
+            {copyText(t('Open resulting lead', 'فتح العميل الناتج'))} →
           </Link>
         )}
       </form>
       <details className="crm-receipts">
         <summary>
-          {t('Intake receipt ledger', 'سجل أحداث الاستقبال')} (
+          {copyText(t('Intake receipt ledger', 'سجل أحداث الاستقبال'))} (
           {state.crm.receipts.length})
         </summary>
         {state.crm.receipts.length ? (
@@ -281,17 +284,17 @@ export function LeadIntake({initialProperty}: {initialProperty?: string}) {
                           : 'neutral'
                     }
                   >
-                    {r.status}
+                    {copyText(r.status)}
                   </Pill>
                   <span>
-                    {r.source} · {r.eventId ?? '—'}
+                    {r.source} · {copyText(r.eventId ?? '—')}
                   </span>
                   <small>
-                    {r.detail} · {r.at}
+                    {copyText(r.detail)} · {copyText(r.at)}
                   </small>
                   {r.leadId && (
                     <Link href={`/workspace/leads/${r.leadId}`}>
-                      {r.leadId}
+                      {copyText(r.leadId)}
                     </Link>
                   )}
                 </li>
@@ -299,10 +302,10 @@ export function LeadIntake({initialProperty}: {initialProperty?: string}) {
           </ol>
         ) : (
           <p>
-            {t(
+            {copyText(t(
               'No simulated events received yet.',
               'لم يتم استقبال أحداث تجريبية بعد.',
-            )}
+            ))}
           </p>
         )}
       </details>
@@ -315,7 +318,7 @@ export function LeadsPage({
 }: {
   initialProperty?: string;
   initialIntake?: boolean;
-}) {
+}) {const copyText=usePrototypeCopy();
   const {state, hydrated} = useGeminiDemo();
   const t = useCrmCopy();
   const [search, setSearch] = useState('');
@@ -357,26 +360,26 @@ export function LeadsPage({
             aria-expanded={intake}
             onClick={() => setIntake(!intake)}
           >
-            {t('Lead intake simulator', 'محاكي استقبال العملاء')}
+            {copyText(t('Lead intake simulator', 'محاكي استقبال العملاء'))}
           </button>
         }
       />
       <CrmNavigation />
       <div
         className="crm-summary"
-        aria-label={t('Local lead totals', 'إجماليات العملاء المحليين')}
+        aria-label={copyText(t('Local lead totals', 'إجماليات العملاء المحليين'))}
       >
         <span>
-          <b>{metrics.total}</b> {t('local leads', 'عميل محلي')}
+          <b>{metrics.total}</b> {copyText(t('local leads', 'عميل محلي'))}
         </span>
         <span>
-          <b>{metrics.new}</b> {t('new', 'جديد')}
+          <b>{metrics.new}</b> {copyText(t('new', 'جديد'))}
         </span>
         <span>
-          <b>{metrics.qualified}</b> {t('qualified', 'مؤهل')}
+          <b>{metrics.qualified}</b> {copyText(t('qualified', 'مؤهل'))}
         </span>
         <span>
-          <b>{metrics.backlog}</b> {t('assignment backlog', 'بانتظار التوزيع')}
+          <b>{metrics.backlog}</b> {copyText(t('assignment backlog', 'بانتظار التوزيع'))}
         </span>
       </div>
       {intake && <LeadIntake initialProperty={initialProperty} />}
@@ -390,28 +393,28 @@ export function LeadsPage({
               aria-pressed={view === 'table'}
               onClick={() => setView('table')}
             >
-              {t('Table', 'جدول')}
+              {copyText(t('Table', 'جدول'))}
             </button>
             <button
               className="px-mini-action"
               aria-pressed={view === 'pipeline'}
               onClick={() => setView('pipeline')}
             >
-              {t('Pipeline', 'مسار')}
+              {copyText(t('Pipeline', 'مسار'))}
             </button>
           </div>
         }
       >
         <div className="crm-filters">
           <label className="px-field">
-            {t('Search leads', 'بحث العملاء')}
+            {copyText(t('Search leads', 'بحث العملاء'))}
             <input
               value={search}
               onChange={(e) => setSearch(e.target.value)}
-              placeholder={t(
+              placeholder={copyText(t(
                 'Identity, event, property or ID',
                 'الهوية أو الحدث أو العقار أو المعرّف',
-              )}
+              ))}
             />
           </label>
           {[
@@ -453,14 +456,14 @@ export function LeadsPage({
             },
           ].map((f) => (
             <label className="px-field" key={f.label}>
-              {f.label}
+              {copyText(f.label)}
               <select value={f.value} onChange={(e) => f.set(e.target.value)}>
-                <option value="All">{t('All', 'الكل')}</option>
+                <option value="All">{copyText(t('All', 'الكل'))}</option>
                 {f.options.map((o) => (
                   <option key={o} value={o}>
-                    {leadStages.includes(o as LeadStage)
+                    {copyText(leadStages.includes(o as LeadStage)
                       ? t(o, stageAr[o as LeadStage])
-                      : o}
+                      : o)}
                   </option>
                 ))}
               </select>
@@ -478,17 +481,17 @@ export function LeadsPage({
               setQualification('All');
             }}
           >
-            {t('Reset filters', 'إعادة ضبط')}
+            {copyText(t('Reset filters', 'إعادة ضبط'))}
           </button>
         </div>
         {!filtered.length ? (
           <div className="crm-empty">
-            <h3>{t('No matching leads', 'لا توجد نتائج مطابقة')}</h3>
+            <h3>{copyText(t('No matching leads', 'لا توجد نتائج مطابقة'))}</h3>
             <p>
-              {t(
+              {copyText(t(
                 'Reset filters or simulate an enquiry for a canonical property.',
                 'أعد ضبط المرشحات أو حاكِ استفساراً لعقار أساسي.',
-              )}
+              ))}
             </p>
           </div>
         ) : view === 'table' ? (
@@ -496,7 +499,7 @@ export function LeadsPage({
             className="px-table-scroll"
             tabIndex={0}
             role="region"
-            aria-label={t('Lead records table', 'جدول العملاء')}
+            aria-label={copyText(t('Lead records table', 'جدول العملاء'))}
           >
             <table className="px-table crm-table">
               <thead>
@@ -511,7 +514,7 @@ export function LeadsPage({
                     'Received',
                   ].map((s) => (
                     <th key={s}>
-                      {t(
+                      {copyText(t(
                         s,
                         (
                           {
@@ -524,7 +527,7 @@ export function LeadsPage({
                             Received: 'الاستقبال',
                           } as Record<string, string>
                         )[s],
-                      )}
+                      ))}
                     </th>
                   ))}
                 </tr>
@@ -534,13 +537,13 @@ export function LeadsPage({
                   <tr key={l.id} data-lead-id={l.id}>
                     <td>
                       <Link href={`/workspace/leads/${l.id}`}>
-                        <b>{l.identity.alias}</b>
-                        <small>{l.id}</small>
+                        <b>{copyText(l.identity.alias)}</b>
+                        <small>{copyText(l.id)}</small>
                       </Link>
                     </td>
                     <td>
-                      {l.source}
-                      <small>{l.sourceEventId}</small>
+                      {copyText(l.source)}
+                      <small>{copyText(l.sourceEventId)}</small>
                     </td>
                     <td>
                       <Link href={`/workspace/inventory/${l.propertyId}`}>
@@ -559,30 +562,29 @@ export function LeadsPage({
                                 : 'neutral'
                         }
                       >
-                        {t(l.stage, stageAr[l.stage])}
+                        {copyText(t(l.stage, stageAr[l.stage]))}
                       </Pill>
                     </td>
                     <td>
-                      {t(
+                      {copyText(t(
                         l.qualification,
                         {
                           Unreviewed: 'لم يراجع',
                           Qualified: 'مؤهل',
                           'Not qualified': 'غير مؤهل',
                         }[l.qualification],
-                      )}
+                      ))}
                       <small>
-                        {t(
+                        {copyText(t(
                           l.priority,
                           l.priority === 'High' ? 'عالية' : 'عادية',
-                        )}
+                        ))}
                       </small>
                     </td>
-                    <td>{l.assignee ?? t('Unassigned', 'غير موزع')}</td>
+                    <td>{copyText(l.assignee ?? t('Unassigned', 'غير موزع'))}</td>
                     <td>
                       <time dateTime={l.receivedAt}>
-                        {l.receivedAt.slice(0, 16).replace('T', ' ')} UTC
-                      </time>
+                        {copyText(l.receivedAt.slice(0, 16).replace('T', ' '))} {copyText(" UTC ")}</time>
                     </td>
                   </tr>
                 ))}
@@ -594,12 +596,12 @@ export function LeadsPage({
             className="crm-pipeline"
             tabIndex={0}
             role="region"
-            aria-label={t('Lead pipeline columns', 'أعمدة مسار العملاء')}
+            aria-label={copyText(t('Lead pipeline columns', 'أعمدة مسار العملاء'))}
           >
             {leadStages.map((s) => (
               <section key={s} className="crm-lane">
                 <header>
-                  <h3>{t(s, stageAr[s])}</h3>
+                  <h3>{copyText(t(s, stageAr[s]))}</h3>
                   <span>{filtered.filter((l) => l.stage === s).length}</span>
                 </header>
                 {filtered
@@ -610,14 +612,14 @@ export function LeadsPage({
                       key={l.id}
                       href={`/workspace/leads/${l.id}`}
                     >
-                      <b>{l.identity.alias}</b>
-                      <span>{l.source}</span>
-                      <small>{l.propertyId}</small>
-                      <small>{l.assignee ?? t('Unassigned', 'غير موزع')}</small>
+                      <b>{copyText(l.identity.alias)}</b>
+                      <span>{copyText(l.source)}</span>
+                      <small>{copyText(l.propertyId)}</small>
+                      <small>{copyText(l.assignee ?? t('Unassigned', 'غير موزع'))}</small>
                     </Link>
                   ))}
                 {!filtered.some((l) => l.stage === s) && (
-                  <p>{t('No leads', 'لا عملاء')}</p>
+                  <p>{copyText(t('No leads', 'لا عملاء'))}</p>
                 )}
               </section>
             ))}
@@ -628,7 +630,7 @@ export function LeadsPage({
     </>
   );
 }
-export function LeadDetail({id}: {id: string}) {
+export function LeadDetail({id}: {id: string}) {const copyText=usePrototypeCopy();
   const {state, hydrated} = useGeminiDemo();
   const t = useCrmCopy();
   if (!hydrated) return <CrmLoading />;
@@ -637,7 +639,7 @@ export function LeadDetail({id}: {id: string}) {
     return (
       <>
         <Intro
-          eyebrow="CRM"
+          eyebrow={copyText("CRM")}
           title={t('Lead not found', 'العميل غير موجود')}
           description={t(
             'This ID does not exist in the current local organization. No other lead has been substituted.',
@@ -645,13 +647,13 @@ export function LeadDetail({id}: {id: string}) {
           )}
         />
         <Link href="/workspace/leads">
-          {t('Return to leads', 'العودة للعملاء')}
+          {copyText(t('Return to leads', 'العودة للعملاء'))}
         </Link>
       </>
     );
   return <LeadDossier key={id} lead={lead} />;
 }
-function LeadDossier({lead: l}: {lead: CanonicalLead}) {
+function LeadDossier({lead: l}: {lead: CanonicalLead}) {const copyText=usePrototypeCopy();
   const {state,crmCommand} = useGeminiDemo();
   const t = useCrmCopy();
   const [note, setNote] = useState('');
@@ -688,7 +690,7 @@ function LeadDossier({lead: l}: {lead: CanonicalLead}) {
             className="px-button px-button-dark"
             href={`/workspace/inbox?lead=${l.id}`}
           >
-            {t('Open conversation', 'فتح المحادثة')}
+            {copyText(t('Open conversation', 'فتح المحادثة'))}
           </Link>
         }
       />
@@ -705,7 +707,7 @@ function LeadDossier({lead: l}: {lead: CanonicalLead}) {
           >
             <div className="px-field-grid">
               <label className="px-field">
-                {t('Lead stage', 'مرحلة العميل')}
+                {copyText(t('Lead stage', 'مرحلة العميل'))}
                 <select
                   value={l.stage}
                   onChange={(e) =>
@@ -718,7 +720,7 @@ function LeadDossier({lead: l}: {lead: CanonicalLead}) {
                 >
                   {leadStages.map((s) => (
                     <option key={s} value={s}>
-                      {t(s, stageAr[s])}
+                      {copyText(t(s, stageAr[s]))}
                     </option>
                   ))}
                 </select>
@@ -732,36 +734,36 @@ function LeadDossier({lead: l}: {lead: CanonicalLead}) {
             </div>
             <div className="px-detail-pairs">
               <div>
-                <span>{t('Canonical property', 'العقار الأساسي')}</span>
+                <span>{copyText(t('Canonical property', 'العقار الأساسي'))}</span>
                 <Link href={`/workspace/inventory/${l.propertyId}`}>
                   <PropertyLabel id={l.propertyId} />
                 </Link>
               </div>
               <div>
                 <span>
-                  {t('Original source / event', 'المصدر / الحدث الأصلي')}
+                  {copyText(t('Original source / event', 'المصدر / الحدث الأصلي'))}
                 </span>
                 <strong>
-                  {l.source} · {l.sourceEventId}
+                  {copyText(l.source)} · {copyText(l.sourceEventId)}
                 </strong>
               </div>
               <div>
-                <span>{t('Source time', 'وقت المصدر')}</span>
-                <time>{l.sourceAt}</time>
+                <span>{copyText(t('Source time', 'وقت المصدر'))}</span>
+                <time>{copyText(l.sourceAt)}</time>
               </div>
               <div>
-                <span>{t('Received time', 'وقت الاستقبال')}</span>
-                <time>{l.receivedAt}</time>
+                <span>{copyText(t('Received time', 'وقت الاستقبال'))}</span>
+                <time>{copyText(l.receivedAt)}</time>
               </div>
               <div>
-                <span>{t('Destination / campaign', 'الوجهة / الحملة')}</span>
+                <span>{copyText(t('Destination / campaign', 'الوجهة / الحملة'))}</span>
                 <strong>
-                  {l.destination ?? '—'} / {l.campaign && state.campaigns.some(c=>c.id===l.campaign)?<Link href={`/workspace/campaigns/${l.campaign}`}>{l.campaign}</Link>:l.campaign ?? '—'}
+                  {copyText(l.destination ?? '—')} / {l.campaign && state.campaigns.some(c=>c.id===l.campaign)?<Link href={`/workspace/campaigns/${l.campaign}`}>{copyText(l.campaign)}</Link>:l.campaign ?? '—'}
                 </strong>
               </div>
               <div>
-                <span>{t('Privacy-safe contact', 'بيانات تواصل خيالية')}</span>
-                <strong>{l.identity.email}</strong>
+                <span>{copyText(t('Privacy-safe contact', 'بيانات تواصل خيالية'))}</span>
+                <strong>{copyText(l.identity.email)}</strong>
               </div>
             </div>
             <label className="px-approval">
@@ -776,16 +778,16 @@ function LeadDossier({lead: l}: {lead: CanonicalLead}) {
                   })
                 }
               />
-              {t(
+              {copyText(t(
                 'Allow local demonstration replies',
                 'السماح بالردود التجريبية المحلية',
-              )}
+              ))}
             </label>
             <Link
               className="px-text-link"
               href={`/workspace/leads/viewings?lead=${l.id}`}
             >
-              {t('Request a viewing', 'طلب معاينة')} →
+              {copyText(t('Request a viewing', 'طلب معاينة'))} →
             </Link>
           </Section>
           <Section title={t('Qualification & follow-up', 'التأهيل والمتابعة')}>
@@ -803,7 +805,7 @@ function LeadDossier({lead: l}: {lead: CanonicalLead}) {
             >
               <div className="px-field-grid">
                 <label className="px-field">
-                  {t('Qualification status', 'حالة التأهيل')}
+                  {copyText(t('Qualification status', 'حالة التأهيل'))}
                   <select
                     value={qualification}
                     onChange={(e) =>
@@ -814,36 +816,36 @@ function LeadDossier({lead: l}: {lead: CanonicalLead}) {
                       ['Unreviewed', 'Qualified', 'Not qualified'] as const
                     ).map((q) => (
                       <option key={q} value={q}>
-                        {t(
+                        {copyText(t(
                           q,
                           {
                             Unreviewed: 'لم يراجع',
                             Qualified: 'مؤهل',
                             'Not qualified': 'غير مؤهل',
                           }[q],
-                        )}
+                        ))}
                       </option>
                     ))}
                   </select>
                 </label>
                 <label className="px-field">
-                  {t('Priority', 'الأولوية')}
+                  {copyText(t('Priority', 'الأولوية'))}
                   <select
                     value={priority}
                     onChange={(e) =>
                       setPriority(e.target.value as typeof priority)
                     }
                   >
-                    <option value="Normal">{t('Normal', 'عادية')}</option>
-                    <option value="High">{t('High', 'عالية')}</option>
+                    <option value="Normal">{copyText(t('Normal', 'عادية'))}</option>
+                    <option value="High">{copyText(t('High', 'عالية'))}</option>
                   </select>
                 </label>
               </div>
               <label className="px-field">
-                {t(
+                {copyText(t(
                   'Qualification / follow-up details',
                   'تفاصيل التأهيل والمتابعة',
-                )}
+                ))}
                 <textarea
                   rows={3}
                   value={qualificationNote}
@@ -852,7 +854,7 @@ function LeadDossier({lead: l}: {lead: CanonicalLead}) {
                 />
               </label>
               <button className="px-button px-button-outline">
-                {t('Save qualification', 'حفظ التأهيل')}
+                {copyText(t('Save qualification', 'حفظ التأهيل'))}
               </button>
             </form>
           </Section>
@@ -860,8 +862,8 @@ function LeadDossier({lead: l}: {lead: CanonicalLead}) {
             <ul className="crm-timeline">
               {l.notes.map((n) => (
                 <li key={n.id}>
-                  <p>{n.text}</p>
-                  <small>{n.at}</small>
+                  <p dir="auto">{n.text}</p>
+                  <small>{copyText(n.at)}</small>
                 </li>
               ))}
             </ul>
@@ -872,7 +874,7 @@ function LeadDossier({lead: l}: {lead: CanonicalLead}) {
               }}
             >
               <label className="px-field">
-                {t('Add fictional note', 'إضافة ملاحظة خيالية')}
+                {copyText(t('Add fictional note', 'إضافة ملاحظة خيالية'))}
                 <textarea
                   value={note}
                   maxLength={2000}
@@ -884,7 +886,7 @@ function LeadDossier({lead: l}: {lead: CanonicalLead}) {
                 className="px-button px-button-dark"
                 disabled={!note.trim()}
               >
-                {t('Add note', 'إضافة الملاحظة')}
+                {copyText(t('Add note', 'إضافة الملاحظة'))}
               </button>
             </form>
           </Section>
@@ -894,8 +896,8 @@ function LeadDossier({lead: l}: {lead: CanonicalLead}) {
             <ol className="crm-timeline">
               {[...l.activity].reverse().map((a) => (
                 <li key={a.id}>
-                  <p>{a.text}</p>
-                  <small>{a.at}</small>
+                  <p>{copyText(a.text)}</p>
+                  <small>{copyText(a.at)}</small>
                 </li>
               ))}
             </ol>
@@ -907,12 +909,12 @@ function LeadDossier({lead: l}: {lead: CanonicalLead}) {
             {l.viewings.length ? (
               l.viewings.map((v) => (
                 <p key={v.id}>
-                  {v.date} · {v.time} +03 · {v.agent} <Pill>{v.status}</Pill>
+                  {copyText(v.date)} · {copyText(v.time)} +03 · {copyText(v.agent)} <Pill>{copyText(v.status)}</Pill>
                 </p>
               ))
             ) : (
               <p>
-                {t('No local viewing requests.', 'لا توجد طلبات معاينة محلية.')}
+                {copyText(t('No local viewing requests.', 'لا توجد طلبات معاينة محلية.'))}
               </p>
             )}
           </Section>
@@ -930,24 +932,24 @@ export function AgentSelect({
   value: string;
   onChange: (v: string) => void;
   label?: string;
-}) {
+}) {const copyText=usePrototypeCopy();
   const {state} = useGeminiDemo();
   const t = useCrmCopy();
   return (
     <label className="px-field">
-      {label ?? t('Assigned agent', 'المسؤول')}
+      {copyText(label ?? t('Assigned agent', 'المسؤول'))}
       <select value={value} disabled={!can(state.organization,"lead.assign")} onChange={(e) => onChange(e.target.value)}>
-        <option value="">{t('Unassigned', 'غير موزع')}</option>
+        <option value="">{copyText(t('Unassigned', 'غير موزع'))}</option>
         {crmAgentNames(state).map((a) => (
           <option key={a} disabled={state.crm.unavailableAgents.includes(a)||!availableMember(state,a)}>
-            {a}
+            {copyText(a)}
           </option>
         ))}
       </select>
     </label>
   );
 }
-export function AssignmentHistory({leads}: {leads: CanonicalLead[]}) {
+export function AssignmentHistory({leads}: {leads: CanonicalLead[]}) {const copyText=usePrototypeCopy();
   const t = useCrmCopy();
   const rows = leads
     .flatMap((l) => l.assignments.map((a) => ({...a, leadId: l.id})))
@@ -964,35 +966,35 @@ export function AssignmentHistory({leads}: {leads: CanonicalLead[]}) {
         <table className="px-table">
           <thead>
             <tr>
-              <th>{t('Lead', 'العميل')}</th>
-              <th>{t('Owner', 'المسؤول')}</th>
-              <th>{t('Decision', 'القرار')}</th>
-              <th>{t('Time', 'الوقت')}</th>
+              <th>{copyText(t('Lead', 'العميل'))}</th>
+              <th>{copyText(t('Owner', 'المسؤول'))}</th>
+              <th>{copyText(t('Decision', 'القرار'))}</th>
+              <th>{copyText(t('Time', 'الوقت'))}</th>
             </tr>
           </thead>
           <tbody>
             {rows.map((r) => (
               <tr key={r.id}>
                 <td>
-                  <Link href={`/workspace/leads/${r.leadId}`}>{r.leadId}</Link>
+                  <Link href={`/workspace/leads/${r.leadId}`}>{copyText(r.leadId)}</Link>
                 </td>
                 <td>
-                  {r.from ?? '—'} → {r.to ?? t('Unassigned', 'غير موزع')}
+                  {copyText(r.from ?? '—')} → {copyText(r.to ?? t('Unassigned', 'غير موزع'))}
                 </td>
-                <td>{r.reason}</td>
-                <td>{r.at}</td>
+                <td>{copyText(r.reason)}</td>
+                <td>{copyText(r.at)}</td>
               </tr>
             ))}
           </tbody>
         </table>
       </div>
       {!rows.length && (
-        <p>{t('No assignment decisions yet.', 'لا توجد قرارات توزيع بعد.')}</p>
+        <p>{copyText(t('No assignment decisions yet.', 'لا توجد قرارات توزيع بعد.'))}</p>
       )}
     </Section>
   );
 }
-export function InboxPage({initialLead}: {initialLead?: string}) {
+export function InboxPage({initialLead}: {initialLead?: string}) {const copyText=usePrototypeCopy();
   const {state, hydrated, crmCommand} = useGeminiDemo();
   const t = useCrmCopy();
   const [selected, setSelected] = useState(initialLead ?? '');
@@ -1020,7 +1022,7 @@ export function InboxPage({initialLead}: {initialLead?: string}) {
       <div className="px-inbox crm-inbox">
         <div className="px-inbox-list">
           <div className="px-inbox-list-header">
-            <h2>{t('Conversations', 'المحادثات')}</h2>
+            <h2>{copyText(t('Conversations', 'المحادثات'))}</h2>
             <span>{state.crm.leads.length}</span>
           </div>
           {state.crm.leads.map((lead) => (
@@ -1035,9 +1037,9 @@ export function InboxPage({initialLead}: {initialLead?: string}) {
               }}
             >
               <span>
-                <strong>{lead.identity.alias}</strong>
+                <strong>{copyText(lead.identity.alias)}</strong>
                 <small>
-                  {lead.source} · {lead.propertyId}
+                  {copyText(lead.source)} · {copyText(lead.propertyId)}
                 </small>
                 <em>{lead.conversation.messages.at(-1)?.text}</em>
               </span>
@@ -1048,32 +1050,32 @@ export function InboxPage({initialLead}: {initialLead?: string}) {
           <>
             <section
               className="px-chat-panel"
-              aria-label={t('Selected conversation', 'المحادثة المحددة')}
+              aria-label={copyText(t('Selected conversation', 'المحادثة المحددة'))}
             >
               <header className="px-chat-head">
                 <div>
-                  <strong>{l.identity.alias}</strong>
+                  <strong>{copyText(l.identity.alias)}</strong>
                   <small>
-                    {l.source} · {l.conversation.id}
+                    {copyText(l.source)} · {copyText(l.conversation.id)}
                   </small>
                 </div>
                 <Link href={`/workspace/leads/${l.id}`}>
-                  {t('Lead record', 'سجل العميل')}
+                  {copyText(t('Lead record', 'سجل العميل'))}
                 </Link>
               </header>
               <div
                 className="px-chat-messages"
                 role="log"
-                aria-label={t('Local messages', 'الرسائل المحلية')}
+                aria-label={copyText(t('Local messages', 'الرسائل المحلية'))}
               >
                 {l.conversation.messages.map((m) => (
                   <div
                     className={`px-chat-bubble ${m.direction === 'outbound' ? 'mine' : ''}`}
                     key={m.id}
                   >
-                    <p>{m.text}</p>
+                    <p dir="auto">{m.text}</p>
                     <span>
-                      {m.direction} · {m.status} · {m.at}
+                      {copyText(m.direction)} · {copyText(m.status)} · {copyText(m.at)}
                     </span>
                   </div>
                 ))}
@@ -1100,7 +1102,7 @@ export function InboxPage({initialLead}: {initialLead?: string}) {
                 }}
               >
                 <label className="sr-only" htmlFor="crm-reply">
-                  {t('Write a demo reply', 'كتابة رد تجريبي')}
+                  {copyText(t('Write a demo reply', 'كتابة رد تجريبي'))}
                 </label>
                 <textarea
                   id="crm-reply"
@@ -1108,34 +1110,34 @@ export function InboxPage({initialLead}: {initialLead?: string}) {
                   maxLength={2000}
                   value={draft}
                   onChange={(e) => setDraft(e.target.value)}
-                  placeholder={t('Fictional reply only', 'رد خيالي فقط')}
+                  placeholder={copyText(t('Fictional reply only', 'رد خيالي فقط'))}
                 />
                 <button
                   className="px-button px-button-dark"
                   disabled={!draft.trim() || !l.consent.replyAllowed}
                 >
-                  {t('Save local reply', 'حفظ الرد المحلي')}
+                  {copyText(t('Save local reply', 'حفظ الرد المحلي'))}
                 </button>
               </form>
               {!l.consent.replyAllowed && (
                 <p role="status">
-                  {t(
+                  {copyText(t(
                     'Opted out: local replies blocked.',
                     'تم إلغاء الاشتراك: الردود المحلية محظورة.',
-                  )}
+                  ))}
                 </p>
               )}
             </section>
             <aside className="px-chat-context">
               <span className="px-overline">
-                {t('CONTEXT / HUMAN HANDOVER', 'السياق / التحويل البشري')}
+                {copyText(t('CONTEXT / HUMAN HANDOVER', 'السياق / التحويل البشري'))}
               </span>
-              <h3>{t('Linked property', 'العقار المرتبط')}</h3>
+              <h3>{copyText(t('Linked property', 'العقار المرتبط'))}</h3>
               <Link href={`/workspace/inventory/${l.propertyId}`}>
                 <PropertyLabel id={l.propertyId} />
               </Link>
               <p>
-                {l.source} · {l.sourceEventId}
+                {copyText(l.source)} · {copyText(l.sourceEventId)}
               </p>
               <AgentSelect
                 value={l.assignee ?? ''}
@@ -1155,24 +1157,24 @@ export function InboxPage({initialLead}: {initialLead?: string}) {
                 }}
               />
               <Link href={`/workspace/leads/viewings?lead=${l.id}`}>
-                {t('Request viewing', 'طلب معاينة')}
+                {copyText(t('Request viewing', 'طلب معاينة'))}
               </Link>
               <p>
-                {t(
+                {copyText(t(
                   'No official WhatsApp API, AI or remote delivery status.',
                   'لا واجهة واتساب رسمية أو ذكاء اصطناعي أو حالة تسليم عن بُعد.',
-                )}
+                ))}
               </p>
             </aside>
           </>
         ) : (
           <div className="crm-empty">
-            <h3>{t('No conversation found', 'لم يتم العثور على محادثة')}</h3>
+            <h3>{copyText(t('No conversation found', 'لم يتم العثور على محادثة'))}</h3>
             <p>
-              {t(
+              {copyText(t(
                 'Choose an existing lead or create a fictional enquiry.',
                 'اختر عميلاً موجوداً أو أنشئ استفساراً خيالياً.',
-              )}
+              ))}
             </p>
           </div>
         )}
@@ -1181,7 +1183,7 @@ export function InboxPage({initialLead}: {initialLead?: string}) {
     </>
   );
 }
-export function LeadRouting() {
+export function LeadRouting() {const copyText=usePrototypeCopy();
   const {state, update, crmCommand, hydrated} = useGeminiDemo();
   const t = useCrmCopy();
   const [feedback, setFeedback] = useState<{
@@ -1217,32 +1219,32 @@ export function LeadRouting() {
                   onClick={() => update((s) => ({...s, assignMethod: method}))}
                 >
                   <b>
-                    {method === 'round-robin'
+                    {copyText(method === 'round-robin'
                       ? t('Round-robin', 'توزيع دوري')
-                      : t('Manual assignment', 'توزيع يدوي')}
+                      : t('Manual assignment', 'توزيع يدوي'))}
                   </b>
                   <small>
-                    {method === 'round-robin'
+                    {copyText(method === 'round-robin'
                       ? t(
                           'Rotate active available agents',
                           'تدوير المسؤولين المتاحين',
                         )
-                      : t('Hold for a human owner', 'انتظار اختيار المسؤول')}
+                      : t('Hold for a human owner', 'انتظار اختيار المسؤول'))}
                   </small>
                 </button>
               ))}
             </div>
             <h3 className="gm-inner-heading">
-              {t('Agent eligibility & availability', 'أهلية المسؤولين وتوفرهم')}
+              {copyText(t('Agent eligibility & availability', 'أهلية المسؤولين وتوفرهم'))}
             </h3>
             <div className="crm-agent-list">
               {crmAgentNames(state).map((agent) => (
                 <div key={agent}>
-                  <strong>{agent}</strong>
+                  <strong>{copyText(agent)}</strong>
                   <label>
                     <input
                       type="checkbox"
-                      aria-label={t(`Active ${agent}`, `نشط ${agent}`)}
+                      aria-label={copyText(t(`Active ${agent}`, `نشط ${agent}`))}
                       checked={state.activeAgents.includes(agent)}
                       onChange={(e) =>
                         update((s) => ({
@@ -1253,12 +1255,12 @@ export function LeadRouting() {
                         }))
                       }
                     />
-                    {t('Active', 'نشط')}
+                    {copyText(t('Active', 'نشط'))}
                   </label>
                   <label>
                     <input
                       type="checkbox"
-                      aria-label={t(`Available ${agent}`, `متاح ${agent}`)}
+                      aria-label={copyText(t(`Available ${agent}`, `متاح ${agent}`))}
                       checked={availableMember(state,agent)&&!state.crm.unavailableAgents.includes(agent)}
                       onChange={(e) =>
                         crmCommand({
@@ -1268,13 +1270,13 @@ export function LeadRouting() {
                         })
                       }
                     />
-                    {t('Available (simulation)', 'متاح (محاكاة)')}
+                    {copyText(t('Available (simulation)', 'متاح (محاكاة)'))}
                   </label>
                 </div>
               ))}
             </div>
             <label className="px-field">
-              {t('Fallback assignee', 'المسؤول الاحتياطي')}
+              {copyText(t('Fallback assignee', 'المسؤول الاحتياطي'))}
               <select
                 value={state.fallbackAgent}
                 onChange={(e) =>
@@ -1282,40 +1284,40 @@ export function LeadRouting() {
                 }
               >
                 {crmAgentNames(state).map((a) => (
-                  <option key={a}>{a}</option>
+                  <option key={a} value={a}>{copyText(a)}</option>
                 ))}
               </select>
             </label>
             <p>
-              {t(
+              {copyText(t(
                 'If no rotating agent is eligible, use an available fallback. Otherwise the lead remains unassigned with a recorded reason.',
                 'إذا لم يتوفر مسؤول مؤهل، يُستخدم الاحتياطي المتاح، وإلا يبقى العميل دون توزيع مع تسجيل السبب.',
-              )}
+              ))}
             </p>
           </Section>
         </div>
         <aside className="gm-aside">
           <div className="gm-context">
             <span className="px-overline">
-              {t('NEXT ACCEPTED EVENT', 'الحدث المقبول التالي')}
+              {copyText(t('NEXT ACCEPTED EVENT', 'الحدث المقبول التالي'))}
             </span>
-            <h3>{t('A predictable next owner.', 'المسؤول التالي واضح.')}</h3>
+            <h3>{copyText(t('A predictable next owner.', 'المسؤول التالي واضح.'))}</h3>
             <dl>
               <div>
-                <dt>{t('Policy', 'السياسة')}</dt>
-                <dd>{state.assignMethod}</dd>
+                <dt>{copyText(t('Policy', 'السياسة'))}</dt>
+                <dd>{copyText(state.assignMethod)}</dd>
               </div>
               <div>
-                <dt>{t('Assigned to', 'المسؤول')}</dt>
-                <dd>{next.agent ?? t('Unassigned', 'غير موزع')}</dd>
+                <dt>{copyText(t('Assigned to', 'المسؤول'))}</dt>
+                <dd>{copyText(next.agent ?? t('Unassigned', 'غير موزع'))}</dd>
               </div>
               <div>
-                <dt>{t('Rotation cursor', 'موضع الدوران')}</dt>
+                <dt>{copyText(t('Rotation cursor', 'موضع الدوران'))}</dt>
                 <dd>{state.crm.cursor}</dd>
               </div>
               <div>
-                <dt>{t('Reason', 'السبب')}</dt>
-                <dd>{next.reason}</dd>
+                <dt>{copyText(t('Reason', 'السبب'))}</dt>
+                <dd>{copyText(next.reason)}</dd>
               </div>
             </dl>
             <button
@@ -1329,7 +1331,7 @@ export function LeadRouting() {
                 const r = crmCommand({
                   type: 'intake',
                   source: 'Website',
-                  payload: exampleLeadPayload('Website', propertyId),
+                  payload: exampleLeadPayload('Website', propertyId,undefined,undefined,activeOrganizationId(state.organization)),
                   acknowledged: true,
                 });
                 setFeedback({
@@ -1343,13 +1345,13 @@ export function LeadRouting() {
                 });
               }}
             >
-              {t('Simulate another lead', 'محاكاة عميل آخر')}
+              {copyText(t('Simulate another lead', 'محاكاة عميل آخر'))}
             </button>
             <p>
-              {t(
+              {copyText(t(
                 'Creates a fictional local lead. No production authorization, concurrency or durable routing guarantee.',
                 'ينشئ عميلاً محلياً خيالياً. لا يوفر صلاحيات إنتاجية أو ضمان تزامن أو دوام.',
-              )}
+              ))}
             </p>
           </div>
         </aside>
@@ -1366,14 +1368,14 @@ export function CrmEmpty({children}: {children: ReactNode}) {
   return <div className="crm-empty">{children}</div>;
 }
 
-export function PropertyLeadEnquiries({propertyId}: {propertyId: string}) {
+export function PropertyLeadEnquiries({propertyId}: {propertyId: string}) {const copyText=usePrototypeCopy();
   const {state, hydrated} = useGeminiDemo();
   const t = useCrmCopy();
   if (!hydrated) return <CrmLoading />;
   if (!Object.hasOwn(state.properties, propertyId))
     return (
       <p role="alert">
-        {t('Unknown canonical property.', 'العقار الأساسي غير موجود.')}
+        {copyText(t('Unknown canonical property.', 'العقار الأساسي غير موجود.'))}
       </p>
     );
   const leads = state.crm.leads.filter((l) => l.propertyId === propertyId);
@@ -1387,7 +1389,7 @@ export function PropertyLeadEnquiries({propertyId}: {propertyId: string}) {
           className="px-button px-button-dark"
           href={`/workspace/leads?property=${propertyId}&intake=1`}
         >
-          {t('Simulate an enquiry', 'محاكاة استفسار')}
+          {copyText(t('Simulate an enquiry', 'محاكاة استفسار'))}
         </Link>
       }
     >
@@ -1396,15 +1398,15 @@ export function PropertyLeadEnquiries({propertyId}: {propertyId: string}) {
           className="px-table-scroll"
           tabIndex={0}
           role="region"
-          aria-label={t('Property lead records', 'سجلات عملاء العقار')}
+          aria-label={copyText(t('Property lead records', 'سجلات عملاء العقار'))}
         >
           <table className="px-table">
             <thead>
               <tr>
-                <th>{t('Lead', 'العميل')}</th>
-                <th>{t('Source', 'المصدر')}</th>
-                <th>{t('Stage', 'المرحلة')}</th>
-                <th>{t('Owner', 'المسؤول')}</th>
+                <th>{copyText(t('Lead', 'العميل'))}</th>
+                <th>{copyText(t('Source', 'المصدر'))}</th>
+                <th>{copyText(t('Stage', 'المرحلة'))}</th>
+                <th>{copyText(t('Owner', 'المسؤول'))}</th>
               </tr>
             </thead>
             <tbody>
@@ -1412,16 +1414,16 @@ export function PropertyLeadEnquiries({propertyId}: {propertyId: string}) {
                 <tr key={l.id}>
                   <td>
                     <Link href={`/workspace/leads/${l.id}`}>
-                      <b>{l.identity.alias}</b>
-                      <small>{l.id}</small>
+                      <b>{copyText(l.identity.alias)}</b>
+                      <small>{copyText(l.id)}</small>
                     </Link>
                   </td>
                   <td>
-                    {l.source}
-                    <small>{l.sourceEventId}</small>
+                    {copyText(l.source)}
+                    <small>{copyText(l.sourceEventId)}</small>
                   </td>
-                  <td>{t(l.stage, stageAr[l.stage])}</td>
-                  <td>{l.assignee ?? t('Unassigned', 'غير موزع')}</td>
+                  <td>{copyText(t(l.stage, stageAr[l.stage]))}</td>
+                  <td>{copyText(l.assignee ?? t('Unassigned', 'غير موزع'))}</td>
                 </tr>
               ))}
             </tbody>
@@ -1429,10 +1431,10 @@ export function PropertyLeadEnquiries({propertyId}: {propertyId: string}) {
         </div>
       ) : (
         <CrmEmpty>
-          {t(
+          {copyText(t(
             'No local enquiries for this property yet. Simulate a fictional source event to begin.',
             'لا توجد استفسارات محلية لهذا العقار بعد. ابدأ بمحاكاة حدث خيالي.',
-          )}
+          ))}
         </CrmEmpty>
       )}
       <div className="px-narrative-row">
@@ -1440,7 +1442,7 @@ export function PropertyLeadEnquiries({propertyId}: {propertyId: string}) {
           className="px-text-link"
           href={`/workspace/leads?property=${propertyId}`}
         >
-          {t('Open filtered lead manager', 'فتح إدارة العملاء المرشحة')} →
+          {copyText(t('Open filtered lead manager', 'فتح إدارة العملاء المرشحة'))} →
         </Link>
       </div>
     </Section>
