@@ -1,2 +1,2 @@
-import {IntegrationWorkstation} from '@/components/gemini/measurement';
-export default function Page(){return <IntegrationWorkstation kind='meta-catalog'/>;}
+import {MarketingProvider} from '@/components/gemini/campaign-marketing';
+export default function Page(){return <MarketingProvider kind="meta-catalog"/>}

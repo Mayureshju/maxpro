@@ -1,0 +1,11 @@
+
+> maxpro-platform@0.1.0 typecheck /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3
+> pnpm --dir apps/web typecheck
+
+
+> @maxpro/web@0.1.0 typecheck /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> tsc --noEmit
+
+src/lib/campaign-storage.ts(28,198): error TS18046: 'v.history' is of type 'unknown'.
+ ELIFECYCLE  Command failed with exit code 2.
+ ELIFECYCLE  Command failed with exit code 2.

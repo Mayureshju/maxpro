@@ -1,0 +1,13 @@
+{
+  "repository": "Mayureshju/maxpro",
+  "head_sha": "95cc5a28c9d473448a48af1fdab058119d0daa2b",
+  "verified_via": "GitHub connector GET actions/runs filtered by head_sha",
+  "workflow": "UI foundation checks",
+  "run_id": 43353538562,
+  "event": "push",
+  "status": "completed",
+  "conclusion": "success",
+  "updated_at": "2026-11-13T02:40:16Z",
+  "url": "https://github.com/Mayureshju/maxpro/actions/runs/43353538562",
+  "combined_commit_statuses": []
+}

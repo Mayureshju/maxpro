@@ -22,9 +22,9 @@ export function newProperty(id:string,at=new Date().toISOString()):CanonicalProp
 }
 /** Explicit fictional assets, never partner-hosted or uploaded property photos. */
 export const sampleMedia=[
- {key:'living',name:'Sample hero photo',room:'Living room' as const,url:listings[0].image},
- {key:'bedroom',name:'Sample bedroom',room:'Bedroom' as const,url:listings[1].image},
- {key:'exterior',name:'Sample exterior',room:'Exterior' as const,url:listings[2].image},
+ {key:'living',name:'Sample hero photo',room:'Living room' as const,url:'/demo-media/living.jpg'},
+ {key:'bedroom',name:'Sample bedroom',room:'Bedroom' as const,url:'/demo-media/bedroom.jpg'},
+ {key:'exterior',name:'Sample exterior',room:'Exterior' as const,url:'/demo-media/exterior.jpg'},
  {key:'floor-plan',name:'Sample floor plan metadata',room:'Floor plan' as const,url:''},
 ];
 export function sampleAsset(key:string,order:number):MediaAsset{

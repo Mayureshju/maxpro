@@ -1,0 +1,44 @@
+{
+  "baseline": "95cc5a28c9d473448a48af1fdab058119d0daa2b",
+  "baseline_ci": "success / run 43353538562",
+  "baseline_e2e": {
+    "passed": 624,
+    "skipped": 12
+  },
+  "install": "passed / frozen lockfile",
+  "typecheck": "passed",
+  "lint": "passed, no warnings",
+  "default_build": "failed: Turbopack process port binding EPERM in sandbox",
+  "webpack_build": "passed / next build --webpack",
+  "final_e2e": {
+    "passed": 678,
+    "skipped": 20,
+    "failed": 0,
+    "duration": "2.7 minutes",
+    "chrome": "installed Google Chrome",
+    "production": true
+  },
+  "axe": {
+    "states": 48,
+    "violations": 0,
+    "locales": [
+      "en",
+      "ar"
+    ],
+    "projects": [
+      "chromium",
+      "mobile-chromium"
+    ]
+  },
+  "screenshots": 80,
+  "widths": [
+    1440,
+    1024,
+    768,
+    375
+  ],
+  "independent_review": "pending: Claude Code auth status loggedIn false",
+  "arabic": "professional completion / native-speaker UAT pending",
+  "external_providers": "none connected",
+  "commit_push_deploy": "not performed"
+}

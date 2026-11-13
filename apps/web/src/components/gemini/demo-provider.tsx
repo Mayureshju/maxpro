@@ -5,13 +5,16 @@ import {findProperty,demoOrganizationId,newProperty,reviseProperty,seedPropertie
 import {isConnector,isRecord,readFacts,readJob,readProperty,strings} from '@/lib/property-storage';
 import {applyCrmCommand,seedCrm,crmAgents,type CrmRepository,type CrmCommand} from '@/lib/lead-crm';
 import {restoreCrm} from '@/lib/lead-storage';
+import {applyCampaignCommand,invalidateCampaign,type Campaign,type CampaignCommand,type CampaignResult} from '@/lib/campaign-engine';
+import {restoreCampaigns} from '@/lib/campaign-storage';
+import {localMarketingAI} from '@/lib/marketing-ai';
 import {destinationReadiness,setupErrors,publicationCommandError} from '@/lib/syndication-engine';
 export {publishingQuotaErrors} from '@/lib/syndication-engine';
 export type {DemoJob} from '@/lib/canonical-property';
-export type DemoState={schemaVersion:1;connectorSchemaVersion:2;crmSchemaVersion:1;crm:CrmRepository;plan:PlanId;preparedConnectors:ConnectorId[];jobs:DemoJob[];assignMethod:'round-robin'|'manual';fallbackAgent:string;activeAgents:string[];properties:Record<string,CanonicalProperty>};
-const initialState:DemoState={schemaVersion:1,connectorSchemaVersion:2,crmSchemaVersion:1,crm:seedCrm(seedProperties()),plan:'agency',preparedConnectors:[],jobs:[],assignMethod:'round-robin',fallbackAgent:'Fatima Noor',activeAgents:['Fatima Noor','Karim Said','Mariam Ahmed'],properties:seedProperties()};
+export type DemoState={schemaVersion:1;connectorSchemaVersion:2;campaignSchemaVersion:1;campaigns:Campaign[];crmSchemaVersion:1;crm:CrmRepository;plan:PlanId;preparedConnectors:ConnectorId[];jobs:DemoJob[];assignMethod:'round-robin'|'manual';fallbackAgent:string;activeAgents:string[];properties:Record<string,CanonicalProperty>};
+const initialState:DemoState={schemaVersion:1,connectorSchemaVersion:2,campaignSchemaVersion:1,campaigns:[],crmSchemaVersion:1,crm:seedCrm(seedProperties()),plan:'agency',preparedConnectors:[],jobs:[],assignMethod:'round-robin',fallbackAgent:'Fatima Noor',activeAgents:['Fatima Noor','Karim Said','Mariam Ahmed'],properties:seedProperties()};
 type PropertyChanges=Partial<Pick<CanonicalProperty,'facts'|'media'|'watermark'|'source'|'proposal'|'status'|'studioStage'>>;
-type DemoContext={crmCommand:(command:CrmCommand)=>{error:string|null;leadId?:string};state:DemoState;update:(fn:(prev:DemoState)=>DemoState)=>void;reset:()=>void;hydrated:boolean;storageWarning:string;createProperty:()=>string;saveProperty:(id:string,revision:number,changes:PropertyChanges,action:string,approved?:boolean)=>boolean;simulatePublishing:(id:string,revision:number,selected:ConnectorId[],approved:boolean,context:string)=>string|null;prepareConnector:(id:ConnectorId,prepared:boolean,acknowledged:boolean)=>string|null;retryJob:(id:string,revision:number,approved:boolean,context:string)=>string|null;cancelJob:(id:string)=>string|null};
+type DemoContext={campaignCommand:(command:CampaignCommand)=>Pick<CampaignResult,'error'|'id'|'leadId'>&{campaign?:Campaign};crmCommand:(command:CrmCommand)=>{error:string|null;leadId?:string};state:DemoState;update:(fn:(prev:DemoState)=>DemoState)=>void;reset:()=>void;hydrated:boolean;storageWarning:string;createProperty:()=>string;saveProperty:(id:string,revision:number,changes:PropertyChanges,action:string,approved?:boolean)=>boolean;simulatePublishing:(id:string,revision:number,selected:ConnectorId[],approved:boolean,context:string)=>string|null;prepareConnector:(id:ConnectorId,prepared:boolean,acknowledged:boolean)=>string|null;retryJob:(id:string,revision:number,approved:boolean,context:string)=>string|null;cancelJob:(id:string)=>string|null};
 const Context=createContext<DemoContext|null>(null);
 const storeKey='maxpro-gemini-v3-demo-state';
 const serverSnapshot={state:initialState,hydrated:false,storageWarning:''};
@@ -33,7 +36,8 @@ function restoreState():{state:DemoState;storageWarning:string}{
   const uniqueJobs=jobs.filter((j,i)=>{const unique=jobs.findIndex(other=>other.id===j.id)===i;if(!unique)corrupt=true;return unique;});
   for(const p of Object.values(properties))p.publications=uniqueJobs.filter(j=>j.listingId===p.id).map(j=>({jobId:j.id,destination:j.destination,propertyRevision:j.propertyRevision,externalReference:null}));
   const restored=restoreCrm(saved.crm,saved.crmSchemaVersion,properties);corrupt=corrupt||restored.corrupt;
-  return {state:{schemaVersion:1,connectorSchemaVersion:2,crmSchemaVersion:1,crm:restored.crm,plan:geminiPlans.find(p=>p.id===saved.plan)?.id??initialState.plan,preparedConnectors:Array.isArray(saved.preparedConnectors)?[...new Set(saved.preparedConnectors.filter(isConnector))]:[],jobs:uniqueJobs,assignMethod:saved.assignMethod==='manual'?'manual':'round-robin',fallbackAgent:typeof saved.fallbackAgent==='string'&&crmAgents.some(a=>a===saved.fallbackAgent)?saved.fallbackAgent:initialState.fallbackAgent,activeAgents:strings(saved.activeAgents)?[...new Set(saved.activeAgents.filter(a=>crmAgents.some(x=>x===a)))]:initialState.activeAgents,properties},storageWarning:corrupt?'Some invalid local records were excluded. Other valid drafts remain available.':''};
+  const marketing=restoreCampaigns(saved.campaigns,saved.campaignSchemaVersion,properties,restored.crm);corrupt=corrupt||marketing.corrupt;
+  return {state:{schemaVersion:1,connectorSchemaVersion:2,campaignSchemaVersion:1,campaigns:marketing.campaigns,crmSchemaVersion:1,crm:restored.crm,plan:geminiPlans.find(p=>p.id===saved.plan)?.id??initialState.plan,preparedConnectors:Array.isArray(saved.preparedConnectors)?[...new Set(saved.preparedConnectors.filter(isConnector))]:[],jobs:uniqueJobs,assignMethod:saved.assignMethod==='manual'?'manual':'round-robin',fallbackAgent:typeof saved.fallbackAgent==='string'&&crmAgents.some(a=>a===saved.fallbackAgent)?saved.fallbackAgent:initialState.fallbackAgent,activeAgents:strings(saved.activeAgents)?[...new Set(saved.activeAgents.filter(a=>crmAgents.some(x=>x===a)))]:initialState.activeAgents,properties},storageWarning:corrupt?'Some invalid local records were excluded. Other valid drafts remain available.':''};
  }catch{return {state:initialState,storageWarning:'Local demo storage is unavailable or damaged. Built-in examples are shown; changes may last only for this session.'};}
 }
 function createDemoStore(){
@@ -48,12 +52,13 @@ function createDemoStore(){
   getSnapshot:()=>snapshot,
   subscribe:(listener:()=>void)=>{listeners.add(listener);if(listeners.size===1)window.addEventListener('storage',sync);return ()=>{listeners.delete(listener);if(!listeners.size)window.removeEventListener('storage',sync);};},
   update,reset:()=>update(()=>({...initialState,properties:seedProperties(),crm:seedCrm(seedProperties())})),
+  campaignCommand:(command:CampaignCommand)=>{const result=applyCampaignCommand(snapshot.state,command,localMarketingAI);if(!result.error)update(s=>({...s,campaigns:result.campaigns,crm:result.crm}));return {error:result.error,id:result.id,leadId:result.leadId,campaign:result.campaigns.find(c=>c.id===result.id)};},
   crmCommand:(command:CrmCommand)=>{const result=applyCrmCommand(snapshot.state,command);if(result.crm!==snapshot.state.crm)update(s=>({...s,crm:result.crm}));return {error:result.error,leadId:result.leadId};},
   createProperty:()=>{const id=`DEMO-${crypto.randomUUID()}`;update(p=>({...p,properties:{...p.properties,[id]:newProperty(id)}}));return id;},
   saveProperty:(id:string,revision:number,changes:PropertyChanges,action:string,approved=false)=>{
    const p=findProperty(snapshot.state.properties,id);if(!p||p.revision!==revision)return false;
    const next=reviseProperty(p,changes,action,approved);if(!readProperty(next))return false;
-   update(s=>({...s,properties:{...s.properties,[id]:next}}));return true;
+   update(s=>({...s,properties:{...s.properties,[id]:next},campaigns:s.campaigns.map(c=>c.input.propertyId===id?invalidateCampaign(c,next):c)}));return true;
   },
   prepareConnector:(id:ConnectorId,prepared:boolean,acknowledged:boolean):string|null=>{
    const s=snapshot.state;if(!getConnector(id)||!acknowledged)return 'Acknowledge the local demo setup before changing configuration.';
@@ -90,7 +95,7 @@ function createDemoStore(){
 }
 export function GeminiDemoProvider({children}:{children:React.ReactNode}){
  const [store]=useState(createDemoStore);const snapshot=useSyncExternalStore(store.subscribe,store.getSnapshot,getServerSnapshot);
- const value=useMemo(()=>({...snapshot,crmCommand:store.crmCommand,update:store.update,reset:store.reset,createProperty:store.createProperty,saveProperty:store.saveProperty,simulatePublishing:store.simulatePublishing,prepareConnector:store.prepareConnector,retryJob:store.retryJob,cancelJob:store.cancelJob}),[snapshot,store]);
+ const value=useMemo(()=>({...snapshot,campaignCommand:store.campaignCommand,crmCommand:store.crmCommand,update:store.update,reset:store.reset,createProperty:store.createProperty,saveProperty:store.saveProperty,simulatePublishing:store.simulatePublishing,prepareConnector:store.prepareConnector,retryJob:store.retryJob,cancelJob:store.cancelJob}),[snapshot,store]);
  return <Context.Provider value={value}>{snapshot.storageWarning&&<p role="status" className="gm-storage-warning">{snapshot.storageWarning}</p>}{children}</Context.Provider>;
 }
 export function useGeminiDemo(){const ctx=useContext(Context);if(!ctx)throw new Error('GeminiDemoProvider is required');return ctx;}

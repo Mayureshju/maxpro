@@ -1,0 +1,6 @@
+apps/web/src/lib/campaign-engine.ts 93ms
+apps/web/src/lib/campaign-storage.ts 23ms
+apps/web/src/lib/marketing-ai.ts 10ms
+apps/web/src/components/gemini/campaign-studio.tsx 90ms
+apps/web/src/components/gemini/campaign-marketing.tsx 33ms
+apps/web/tests/e2e/campaigns.spec.ts 45ms

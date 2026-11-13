@@ -1,2 +1,2 @@
-import {AdvertisingOps} from '@/components/prototype/extended';
-export default function Page(){return <AdvertisingOps part='catalogue'/>}
+import {MarketingProvider} from '@/components/gemini/campaign-marketing';
+export default function Page(){return <MarketingProvider kind="meta-catalog"/>}

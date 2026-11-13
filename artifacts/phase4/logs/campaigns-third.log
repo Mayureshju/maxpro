@@ -1,0 +1,76 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test campaigns.spec.ts
+
+[WebServer] (node:16659) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:16675) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 58 tests using 2 workers
+
+(node:16684) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:16692) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/e2e/campaigns.spec.ts:110:1 › campaign domain: ordered approvals, stale revisions, roles, tenant and setup guards (319ms)
+  ✓   2 [mobile-chromium] › tests/e2e/campaigns.spec.ts:110:1 › campaign domain: ordered approvals, stale revisions, roles, tenant and setup guards (341ms)
+  ✓   3 [chromium] › tests/e2e/campaigns.spec.ts:151:1 › campaign domain: policy blockers include licensing, review, media, targeted exclusions, numeric facts and caps (115ms)
+  ✓   4 [mobile-chromium] › tests/e2e/campaigns.spec.ts:151:1 › campaign domain: policy blockers include licensing, review, media, targeted exclusions, numeric facts and caps (164ms)
+  ✓   5 [chromium] › tests/e2e/campaigns.spec.ts:172:1 › campaign domain: deterministic bilingual suggestions cite only current canonical facts; accept/reject is audited (153ms)
+  ✓   6 [mobile-chromium] › tests/e2e/campaigns.spec.ts:172:1 › campaign domain: deterministic bilingual suggestions cite only current canonical facts; accept/reject is audited (190ms)
+  ✓   7 [chromium] › tests/e2e/campaigns.spec.ts:241:1 › campaign domain: property changes invalidate approvals and stale creative references on recovery (131ms)
+  ✓   8 [mobile-chromium] › tests/e2e/campaigns.spec.ts:241:1 › campaign domain: property changes invalidate approvals and stale creative references on recovery (161ms)
+  ✓   9 [chromium] › tests/e2e/campaigns.spec.ts:261:1 › campaign domain: optional admin, cancel/resume/duplicate and rejection retain independent histories (160ms)
+  ✓  10 [mobile-chromium] › tests/e2e/campaigns.spec.ts:261:1 › campaign domain: optional admin, cancel/resume/duplicate and rejection retain independent histories (157ms)
+  ✓  11 [chromium] › tests/e2e/campaigns.spec.ts:294:1 › campaign domain: Meta and Google attributed lead intake deduplicates and reports actual fictional CRM observations (161ms)
+  ✓  12 [mobile-chromium] › tests/e2e/campaigns.spec.ts:294:1 › campaign domain: Meta and Google attributed lead intake deduplicates and reports actual fictional CRM observations (164ms)
+  ✓  13 [chromium] › tests/e2e/campaigns.spec.ts:370:1 › campaign domain: migration and corrupted state preserve valid records and strip unknown fields (138ms)
+  ✓  14 [mobile-chromium] › tests/e2e/campaigns.spec.ts:370:1 › campaign domain: migration and corrupted state preserve valid records and strip unknown fields (151ms)
+  ✓  15 [chromium] › tests/e2e/campaigns.spec.ts:468:3 › campaign full journey en: canonical selection to grounded creative, approvals and enquiry without seeded campaigns (1.6s)
+  ✓  16 [mobile-chromium] › tests/e2e/campaigns.spec.ts:468:3 › campaign full journey en: canonical selection to grounded creative, approvals and enquiry without seeded campaigns (2.0s)
+  ✓  17 [chromium] › tests/e2e/campaigns.spec.ts:468:3 › campaign full journey ar: canonical selection to grounded creative, approvals and enquiry without seeded campaigns (1.4s)
+  ✓  18 [mobile-chromium] › tests/e2e/campaigns.spec.ts:468:3 › campaign full journey ar: canonical selection to grounded creative, approvals and enquiry without seeded campaigns (1.8s)
+  ✓  19 [chromium] › tests/e2e/campaigns.spec.ts:524:3 › campaign en: create from canonical property, persist, edit and grounded proposal review (1.0s)
+  ✓  21 [chromium] › tests/e2e/campaigns.spec.ts:575:3 › campaign en: policy blockers, ordered approval, simulation, attributed lead replay and analytics (1.3s)
+  ✓  22 [chromium] › tests/e2e/campaigns.spec.ts:622:3 › campaign en: approval invalidation, cancel/resume/duplicate and property integrity (897ms)
+  ✓  23 [chromium] › tests/e2e/campaigns.spec.ts:655:3 › campaign en: invalid IDs, corrupt records, old-envelope migration and missing prerequisites (525ms)
+  ✓  20 [mobile-chromium] › tests/e2e/campaigns.spec.ts:524:3 › campaign en: create from canonical property, persist, edit and grounded proposal review (3.1s)
+  ✓  24 [chromium] › tests/e2e/campaigns.spec.ts:693:3 › campaign en: provider catalogue, Google plan and consent-aware event preview (594ms)
+  ✓  25 [mobile-chromium] › tests/e2e/campaigns.spec.ts:575:3 › campaign en: policy blockers, ordered approval, simulation, attributed lead replay and analytics (2.0s)
+  ✓  26 [chromium] › tests/e2e/campaigns.spec.ts:737:5 › campaign evidence en 1440: screenshots and responsive workflow (2.1s)
+  ✓  27 [mobile-chromium] › tests/e2e/campaigns.spec.ts:622:3 › campaign en: approval invalidation, cancel/resume/duplicate and property integrity (1.1s)
+  ✓  29 [mobile-chromium] › tests/e2e/campaigns.spec.ts:655:3 › campaign en: invalid IDs, corrupt records, old-envelope migration and missing prerequisites (857ms)
+  ✓  28 [chromium] › tests/e2e/campaigns.spec.ts:737:5 › campaign evidence en 1024: screenshots and responsive workflow (2.0s)
+  ✓  30 [mobile-chromium] › tests/e2e/campaigns.spec.ts:693:3 › campaign en: provider catalogue, Google plan and consent-aware event preview (1.3s)
+  -  32 [mobile-chromium] › tests/e2e/campaigns.spec.ts:737:5 › campaign evidence en 1440: screenshots and responsive workflow
+  -  33 [mobile-chromium] › tests/e2e/campaigns.spec.ts:737:5 › campaign evidence en 1024: screenshots and responsive workflow
+  -  34 [mobile-chromium] › tests/e2e/campaigns.spec.ts:737:5 › campaign evidence en 768: screenshots and responsive workflow
+  -  35 [mobile-chromium] › tests/e2e/campaigns.spec.ts:737:5 › campaign evidence en 375: screenshots and responsive workflow
+  ✓  31 [chromium] › tests/e2e/campaigns.spec.ts:737:5 › campaign evidence en 768: screenshots and responsive workflow (2.0s)
+  ✓  37 [chromium] › tests/e2e/campaigns.spec.ts:737:5 › campaign evidence en 375: screenshots and responsive workflow (1.8s)
+  ✓  36 [mobile-chromium] › tests/e2e/campaigns.spec.ts:811:3 › campaign accessibility en: axe across editor stages, approvals, portfolio, catalogue and analytics (2.7s)
+  ✓  38 [chromium] › tests/e2e/campaigns.spec.ts:811:3 › campaign accessibility en: axe across editor stages, approvals, portfolio, catalogue and analytics (2.5s)
+  ✓  40 [chromium] › tests/e2e/campaigns.spec.ts:524:3 › campaign ar: create from canonical property, persist, edit and grounded proposal review (665ms)
+  ✓  39 [mobile-chromium] › tests/e2e/campaigns.spec.ts:524:3 › campaign ar: create from canonical property, persist, edit and grounded proposal review (3.2s)
+  ✓  41 [chromium] › tests/e2e/campaigns.spec.ts:575:3 › campaign ar: policy blockers, ordered approval, simulation, attributed lead replay and analytics (1.4s)
+  ✓  43 [chromium] › tests/e2e/campaigns.spec.ts:622:3 › campaign ar: approval invalidation, cancel/resume/duplicate and property integrity (834ms)
+  ✓  42 [mobile-chromium] › tests/e2e/campaigns.spec.ts:575:3 › campaign ar: policy blockers, ordered approval, simulation, attributed lead replay and analytics (2.1s)
+  ✓  44 [chromium] › tests/e2e/campaigns.spec.ts:655:3 › campaign ar: invalid IDs, corrupt records, old-envelope migration and missing prerequisites (860ms)
+  ✓  45 [mobile-chromium] › tests/e2e/campaigns.spec.ts:622:3 › campaign ar: approval invalidation, cancel/resume/duplicate and property integrity (994ms)
+  ✓  46 [chromium] › tests/e2e/campaigns.spec.ts:693:3 › campaign ar: provider catalogue, Google plan and consent-aware event preview (513ms)
+  ✓  47 [mobile-chromium] › tests/e2e/campaigns.spec.ts:655:3 › campaign ar: invalid IDs, corrupt records, old-envelope migration and missing prerequisites (871ms)
+  ✓  49 [mobile-chromium] › tests/e2e/campaigns.spec.ts:693:3 › campaign ar: provider catalogue, Google plan and consent-aware event preview (516ms)
+  -  50 [mobile-chromium] › tests/e2e/campaigns.spec.ts:737:5 › campaign evidence ar 1440: screenshots and responsive workflow
+  -  51 [mobile-chromium] › tests/e2e/campaigns.spec.ts:737:5 › campaign evidence ar 1024: screenshots and responsive workflow
+  -  52 [mobile-chromium] › tests/e2e/campaigns.spec.ts:737:5 › campaign evidence ar 768: screenshots and responsive workflow
+  -  53 [mobile-chromium] › tests/e2e/campaigns.spec.ts:737:5 › campaign evidence ar 375: screenshots and responsive workflow
+  ✓  48 [chromium] › tests/e2e/campaigns.spec.ts:737:5 › campaign evidence ar 1440: screenshots and responsive workflow (2.1s)
+  ✓  55 [chromium] › tests/e2e/campaigns.spec.ts:737:5 › campaign evidence ar 1024: screenshots and responsive workflow (1.9s)
+  ✓  54 [mobile-chromium] › tests/e2e/campaigns.spec.ts:811:3 › campaign accessibility ar: axe across editor stages, approvals, portfolio, catalogue and analytics (2.6s)
+  ✓  56 [chromium] › tests/e2e/campaigns.spec.ts:737:5 › campaign evidence ar 768: screenshots and responsive workflow (1.8s)
+  ✓  57 [chromium] › tests/e2e/campaigns.spec.ts:737:5 › campaign evidence ar 375: screenshots and responsive workflow (1.7s)
+  ✓  58 [chromium] › tests/e2e/campaigns.spec.ts:811:3 › campaign accessibility ar: axe across editor stages, approvals, portfolio, catalogue and analytics (2.4s)
+
+  8 skipped
+  50 passed (35.2s)

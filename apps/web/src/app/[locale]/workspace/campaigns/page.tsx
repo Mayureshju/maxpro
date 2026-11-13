@@ -1,2 +1,2 @@
-import {CampaignsPage} from '@/components/prototype/relationships';
-export default function Page(){return <CampaignsPage />}
+import {CampaignPortfolio} from '@/components/gemini/campaign-studio';
+export default function Page(){return <CampaignPortfolio/>}

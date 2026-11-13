@@ -1,0 +1,726 @@
+{
+  "source": "Running Next.js Webpack production app, Playwright Chrome",
+  "count": 80,
+  "screenshots": [
+    {
+      "file": "screenshots/ar-1024-analytics.png",
+      "locale": "ar",
+      "viewport_width": 1024,
+      "image_width": 1024,
+      "image_height": 2042,
+      "screen": "analytics",
+      "sha256": "e26886ef9f74825a2e0d17def088315c9d4987aff26af7f0eeba73d31215eae0"
+    },
+    {
+      "file": "screenshots/ar-1024-approval.png",
+      "locale": "ar",
+      "viewport_width": 1024,
+      "image_width": 1024,
+      "image_height": 3159,
+      "screen": "approval",
+      "sha256": "86c3866df1d87b917228a1740e10f6657aa6bd7d4afff56080bfd77223ec736b"
+    },
+    {
+      "file": "screenshots/ar-1024-budget.png",
+      "locale": "ar",
+      "viewport_width": 1024,
+      "image_width": 1024,
+      "image_height": 2043,
+      "screen": "budget",
+      "sha256": "e58f7aefcafcecc0cd4f8104a134f47a6e3a1105054b486d825c6c6ae107e50d"
+    },
+    {
+      "file": "screenshots/ar-1024-builder.png",
+      "locale": "ar",
+      "viewport_width": 1024,
+      "image_width": 1024,
+      "image_height": 1683,
+      "screen": "builder",
+      "sha256": "f9517974519fcf83e8e8ddb3a23db5b3d0968deb192adf033c6512092cadbbe8"
+    },
+    {
+      "file": "screenshots/ar-1024-copy.png",
+      "locale": "ar",
+      "viewport_width": 1024,
+      "image_width": 1024,
+      "image_height": 2477,
+      "screen": "copy",
+      "sha256": "0dae47d9a894010709dbfd4dac33e05857f265548f283c0b1d38cc7b53763b94"
+    },
+    {
+      "file": "screenshots/ar-1024-creative.png",
+      "locale": "ar",
+      "viewport_width": 1024,
+      "image_width": 1024,
+      "image_height": 2020,
+      "screen": "creative",
+      "sha256": "bb004db3c90fd9eec857e6c92d72443d4673afbf1a946094368ecd6e263f110c"
+    },
+    {
+      "file": "screenshots/ar-1024-google.png",
+      "locale": "ar",
+      "viewport_width": 1024,
+      "image_width": 1024,
+      "image_height": 2295,
+      "screen": "google",
+      "sha256": "f48f81273ee52ec0ad9dcb54599cb2d596e57a70fea906e651759d840f61a8b0"
+    },
+    {
+      "file": "screenshots/ar-1024-meta.png",
+      "locale": "ar",
+      "viewport_width": 1024,
+      "image_width": 1024,
+      "image_height": 2114,
+      "screen": "meta",
+      "sha256": "cbb68c55fcd19c994c81f6c18b917beb2340aa5cef2b09d5421a87eadc06c78d"
+    },
+    {
+      "file": "screenshots/ar-1024-policy.png",
+      "locale": "ar",
+      "viewport_width": 1024,
+      "image_width": 1024,
+      "image_height": 2026,
+      "screen": "policy",
+      "sha256": "5d2c5d3bf76390edeccca1ff2404050ab73c7c744c146d5a1bcd4356b14c29e6"
+    },
+    {
+      "file": "screenshots/ar-1024-portfolio.png",
+      "locale": "ar",
+      "viewport_width": 1024,
+      "image_width": 1024,
+      "image_height": 1034,
+      "screen": "portfolio",
+      "sha256": "f6a9075792669b5ac10f0547e5b50c2ac228c46f092fc7f0dbf5b7d5417dc989"
+    },
+    {
+      "file": "screenshots/ar-1440-analytics.png",
+      "locale": "ar",
+      "viewport_width": 1440,
+      "image_width": 1440,
+      "image_height": 1651,
+      "screen": "analytics",
+      "sha256": "154e27dab57ba471aabc0f7896abd795a23b60329753c94e58ab8a2725fe468d"
+    },
+    {
+      "file": "screenshots/ar-1440-approval.png",
+      "locale": "ar",
+      "viewport_width": 1440,
+      "image_width": 1440,
+      "image_height": 3044,
+      "screen": "approval",
+      "sha256": "2766cb385df781c1a241cb777e170cb08968c37dc0dad514b1ff75d2cb729bb4"
+    },
+    {
+      "file": "screenshots/ar-1440-budget.png",
+      "locale": "ar",
+      "viewport_width": 1440,
+      "image_width": 1440,
+      "image_height": 1984,
+      "screen": "budget",
+      "sha256": "abbb1117249f1c583907b708fef7fb5cf011f4600862d65f16f9d9806b3254e6"
+    },
+    {
+      "file": "screenshots/ar-1440-builder.png",
+      "locale": "ar",
+      "viewport_width": 1440,
+      "image_width": 1440,
+      "image_height": 1624,
+      "screen": "builder",
+      "sha256": "00548a992d7c266f59c7454c5261cde168abb12020c663a6c276a2e43a262b83"
+    },
+    {
+      "file": "screenshots/ar-1440-copy.png",
+      "locale": "ar",
+      "viewport_width": 1440,
+      "image_width": 1440,
+      "image_height": 2436,
+      "screen": "copy",
+      "sha256": "c4622095c84eac164bc9c57e5d1b30cdcfaeb33e0a9bb3b6f8c9aeba4d11f496"
+    },
+    {
+      "file": "screenshots/ar-1440-creative.png",
+      "locale": "ar",
+      "viewport_width": 1440,
+      "image_width": 1440,
+      "image_height": 2154,
+      "screen": "creative",
+      "sha256": "6d7d1ddfb7ec44d7b5a0fdc350fb7bb271a1b6f771582ca3e9d7244d3dba6ed0"
+    },
+    {
+      "file": "screenshots/ar-1440-google.png",
+      "locale": "ar",
+      "viewport_width": 1440,
+      "image_width": 1440,
+      "image_height": 2267,
+      "screen": "google",
+      "sha256": "7bfe5cbed907ceff3132447dc57f1c534abd369e4808df33d9592f2a0488a1bb"
+    },
+    {
+      "file": "screenshots/ar-1440-meta.png",
+      "locale": "ar",
+      "viewport_width": 1440,
+      "image_width": 1440,
+      "image_height": 2103,
+      "screen": "meta",
+      "sha256": "c53491cc5fc030afa08cba92c1b48c8fca5c6cb53f9ff81a8e4fb213c5c74c39"
+    },
+    {
+      "file": "screenshots/ar-1440-policy.png",
+      "locale": "ar",
+      "viewport_width": 1440,
+      "image_width": 1440,
+      "image_height": 1967,
+      "screen": "policy",
+      "sha256": "ced8e89107dcb04e35633dd97c292f398f2f0de37fd5739662aa13aadb80b465"
+    },
+    {
+      "file": "screenshots/ar-1440-portfolio.png",
+      "locale": "ar",
+      "viewport_width": 1440,
+      "image_width": 1440,
+      "image_height": 1000,
+      "screen": "portfolio",
+      "sha256": "a7942fc45386d55e9159674bccc3e79b26623940cc00e8d65efb500d460a01c2"
+    },
+    {
+      "file": "screenshots/ar-375-analytics.png",
+      "locale": "ar",
+      "viewport_width": 375,
+      "image_width": 375,
+      "image_height": 2551,
+      "screen": "analytics",
+      "sha256": "a579036f8d0eb48cea5fd6f269dd7c531ea2a189c68b1fc6c6a6b0270d2ccb9f"
+    },
+    {
+      "file": "screenshots/ar-375-approval.png",
+      "locale": "ar",
+      "viewport_width": 375,
+      "image_width": 375,
+      "image_height": 4449,
+      "screen": "approval",
+      "sha256": "7f34a653eaa6d74a1d24d052c9ee742526910aae74237c2e50487af2114cd2c8"
+    },
+    {
+      "file": "screenshots/ar-375-budget.png",
+      "locale": "ar",
+      "viewport_width": 375,
+      "image_width": 375,
+      "image_height": 3414,
+      "screen": "budget",
+      "sha256": "aa0cfaba4774c8efd2b5d8a5be3e0a4ea29e30c07502202c28b0b132479a33f8"
+    },
+    {
+      "file": "screenshots/ar-375-builder.png",
+      "locale": "ar",
+      "viewport_width": 375,
+      "image_width": 375,
+      "image_height": 2977,
+      "screen": "builder",
+      "sha256": "80dca7850e9e4588b6e22319d626b65023126978bb8a347d408e2539b0671919"
+    },
+    {
+      "file": "screenshots/ar-375-copy.png",
+      "locale": "ar",
+      "viewport_width": 375,
+      "image_width": 375,
+      "image_height": 3948,
+      "screen": "copy",
+      "sha256": "e713cdcaca489bf8e6535da4ef9079bff91bf4c7a06d9d308b99facbcd5943e5"
+    },
+    {
+      "file": "screenshots/ar-375-creative.png",
+      "locale": "ar",
+      "viewport_width": 375,
+      "image_width": 375,
+      "image_height": 3999,
+      "screen": "creative",
+      "sha256": "454901f420ec26181f12d0365ffd9a753c46613ee5f4de31a4e7f4f88115f2aa"
+    },
+    {
+      "file": "screenshots/ar-375-google.png",
+      "locale": "ar",
+      "viewport_width": 375,
+      "image_width": 375,
+      "image_height": 2712,
+      "screen": "google",
+      "sha256": "5445a45295b99a73de46a1c71abc9e1c96adb177925200ebc1c81857d200e539"
+    },
+    {
+      "file": "screenshots/ar-375-meta.png",
+      "locale": "ar",
+      "viewport_width": 375,
+      "image_width": 375,
+      "image_height": 2478,
+      "screen": "meta",
+      "sha256": "899d16b9847d6b719188a7e76ea0b60d63880b63fbd08652cb49c2dce393a278"
+    },
+    {
+      "file": "screenshots/ar-375-policy.png",
+      "locale": "ar",
+      "viewport_width": 375,
+      "image_width": 375,
+      "image_height": 3306,
+      "screen": "policy",
+      "sha256": "d56fb3623521dd526c07975acce7de60139ddf9c86b21a97d2cb9895ef15495c"
+    },
+    {
+      "file": "screenshots/ar-375-portfolio.png",
+      "locale": "ar",
+      "viewport_width": 375,
+      "image_width": 375,
+      "image_height": 1480,
+      "screen": "portfolio",
+      "sha256": "71f96523a5ffa3f2c337d76480660d7d9ba2d6eb44867424eb2580a526bd6b19"
+    },
+    {
+      "file": "screenshots/ar-768-analytics.png",
+      "locale": "ar",
+      "viewport_width": 768,
+      "image_width": 768,
+      "image_height": 2022,
+      "screen": "analytics",
+      "sha256": "ca881098b2b02ccc47435e4b3062ef444efa0bf622f7551fe68b3f189fc449f1"
+    },
+    {
+      "file": "screenshots/ar-768-approval.png",
+      "locale": "ar",
+      "viewport_width": 768,
+      "image_width": 768,
+      "image_height": 3468,
+      "screen": "approval",
+      "sha256": "d6b14ae78f1b123d770b63d34a5d280999e31c8bff29691f38109bc11f6f19c0"
+    },
+    {
+      "file": "screenshots/ar-768-budget.png",
+      "locale": "ar",
+      "viewport_width": 768,
+      "image_width": 768,
+      "image_height": 2408,
+      "screen": "budget",
+      "sha256": "7151f370e7b1bc24904d4f302f65fda3b5e919c49f378e0aa2c03ec94170f6df"
+    },
+    {
+      "file": "screenshots/ar-768-builder.png",
+      "locale": "ar",
+      "viewport_width": 768,
+      "image_width": 768,
+      "image_height": 1989,
+      "screen": "builder",
+      "sha256": "8e4f30f265e4b00aef5ff4d2356ea0941988957a944c5344beec279329f11726"
+    },
+    {
+      "file": "screenshots/ar-768-copy.png",
+      "locale": "ar",
+      "viewport_width": 768,
+      "image_width": 768,
+      "image_height": 2817,
+      "screen": "copy",
+      "sha256": "5de3ae3f7729bc348b8c5e4641f3b95b0814907b1c9ea6ee5f0f39018459c21d"
+    },
+    {
+      "file": "screenshots/ar-768-creative.png",
+      "locale": "ar",
+      "viewport_width": 768,
+      "image_width": 768,
+      "image_height": 2554,
+      "screen": "creative",
+      "sha256": "f2356620280a0cc1973a616e371c6f59612ecb9534623169c74b99897470f881"
+    },
+    {
+      "file": "screenshots/ar-768-google.png",
+      "locale": "ar",
+      "viewport_width": 768,
+      "image_width": 768,
+      "image_height": 2293,
+      "screen": "google",
+      "sha256": "893fbc471fad57f1c8e6f55a1343feb37ec137a3e40a36915d9413069209f309"
+    },
+    {
+      "file": "screenshots/ar-768-meta.png",
+      "locale": "ar",
+      "viewport_width": 768,
+      "image_width": 768,
+      "image_height": 2094,
+      "screen": "meta",
+      "sha256": "4c11e6fc72fa37e1ad200cb1d452b151c49e1b2498f5033eb1014a7402912605"
+    },
+    {
+      "file": "screenshots/ar-768-policy.png",
+      "locale": "ar",
+      "viewport_width": 768,
+      "image_width": 768,
+      "image_height": 2390,
+      "screen": "policy",
+      "sha256": "69b77606459489b5d19310adce2fc6472ba81fb508143d8f9e3089aef96b2755"
+    },
+    {
+      "file": "screenshots/ar-768-portfolio.png",
+      "locale": "ar",
+      "viewport_width": 768,
+      "image_width": 768,
+      "image_height": 1062,
+      "screen": "portfolio",
+      "sha256": "65f4a8853185ab180d12a274967ea735716fd77f7c689ef183b41dbe83e11a0a"
+    },
+    {
+      "file": "screenshots/en-1024-analytics.png",
+      "locale": "en",
+      "viewport_width": 1024,
+      "image_width": 1024,
+      "image_height": 2131,
+      "screen": "analytics",
+      "sha256": "fbc56a5d9ddde3ff9d8facecbfb4b37c7ea3038fc6326059924de8bc4a09d974"
+    },
+    {
+      "file": "screenshots/en-1024-approval.png",
+      "locale": "en",
+      "viewport_width": 1024,
+      "image_width": 1024,
+      "image_height": 3237,
+      "screen": "approval",
+      "sha256": "9335611696cebee82fd7a9ff17b57dd577fdee209d7d4c14ad2f37583edaf07f"
+    },
+    {
+      "file": "screenshots/en-1024-budget.png",
+      "locale": "en",
+      "viewport_width": 1024,
+      "image_width": 1024,
+      "image_height": 2101,
+      "screen": "budget",
+      "sha256": "bb3f37e3c0180f409455bc8558e4ca0172ca20322ad4710f52ac283be6dec854"
+    },
+    {
+      "file": "screenshots/en-1024-builder.png",
+      "locale": "en",
+      "viewport_width": 1024,
+      "image_width": 1024,
+      "image_height": 1759,
+      "screen": "builder",
+      "sha256": "a0327bf7b85635f908374d295a74898d7259c20314ef5acd647511bedb5e7521"
+    },
+    {
+      "file": "screenshots/en-1024-copy.png",
+      "locale": "en",
+      "viewport_width": 1024,
+      "image_width": 1024,
+      "image_height": 2591,
+      "screen": "copy",
+      "sha256": "550c5975cefd86f2e3f8a76a812bf0debe5e6187e0fdddfc868d66cd2578878b"
+    },
+    {
+      "file": "screenshots/en-1024-creative.png",
+      "locale": "en",
+      "viewport_width": 1024,
+      "image_width": 1024,
+      "image_height": 2096,
+      "screen": "creative",
+      "sha256": "e7b0f6ccad4b8b11aa6efe4e393b40a47be15ce89241528df0b128068c8876f9"
+    },
+    {
+      "file": "screenshots/en-1024-google.png",
+      "locale": "en",
+      "viewport_width": 1024,
+      "image_width": 1024,
+      "image_height": 2382,
+      "screen": "google",
+      "sha256": "fced0d5fb4ffc929a9b2c0482e187509123e554d5e21908c393978ed33a34571"
+    },
+    {
+      "file": "screenshots/en-1024-meta.png",
+      "locale": "en",
+      "viewport_width": 1024,
+      "image_width": 1024,
+      "image_height": 2149,
+      "screen": "meta",
+      "sha256": "ff29749cb880a3b5efd05a7033cb947562f82dc93380b1410b3db604a62ea7b1"
+    },
+    {
+      "file": "screenshots/en-1024-policy.png",
+      "locale": "en",
+      "viewport_width": 1024,
+      "image_width": 1024,
+      "image_height": 2144,
+      "screen": "policy",
+      "sha256": "6433cb534ff20abde991d8fd153f702262cff88f581e47d2488f59921e815515"
+    },
+    {
+      "file": "screenshots/en-1024-portfolio.png",
+      "locale": "en",
+      "viewport_width": 1024,
+      "image_width": 1024,
+      "image_height": 1070,
+      "screen": "portfolio",
+      "sha256": "a2fec77b4d294d92339188a5f5e29df791cab3b97f01aa139de6e1ebe7933042"
+    },
+    {
+      "file": "screenshots/en-1440-analytics.png",
+      "locale": "en",
+      "viewport_width": 1440,
+      "image_width": 1440,
+      "image_height": 1670,
+      "screen": "analytics",
+      "sha256": "9fe103812759f6d0e82bbdd122a0cb604c127473d65dc5b43efed6373b7e5219"
+    },
+    {
+      "file": "screenshots/en-1440-approval.png",
+      "locale": "en",
+      "viewport_width": 1440,
+      "image_width": 1440,
+      "image_height": 3087,
+      "screen": "approval",
+      "sha256": "2799f13656eca51849faa3aaed9acfe03c1f5c35119ca7a7e702cf3d83ea5a09"
+    },
+    {
+      "file": "screenshots/en-1440-budget.png",
+      "locale": "en",
+      "viewport_width": 1440,
+      "image_width": 1440,
+      "image_height": 2024,
+      "screen": "budget",
+      "sha256": "ef4ea0c6a1fdebcd48e4899c04ed3ea487637a000dcda7a630602dd2dcc5f7e9"
+    },
+    {
+      "file": "screenshots/en-1440-builder.png",
+      "locale": "en",
+      "viewport_width": 1440,
+      "image_width": 1440,
+      "image_height": 1670,
+      "screen": "builder",
+      "sha256": "3d199a911c405ce1297b66cf80fcc3fc360365d1c2b13a18376e0b6cb77e8f7c"
+    },
+    {
+      "file": "screenshots/en-1440-copy.png",
+      "locale": "en",
+      "viewport_width": 1440,
+      "image_width": 1440,
+      "image_height": 2515,
+      "screen": "copy",
+      "sha256": "27665d694a680d90a7f5f04220648ad9567bb145feb3d5a777a094e2544d14e3"
+    },
+    {
+      "file": "screenshots/en-1440-creative.png",
+      "locale": "en",
+      "viewport_width": 1440,
+      "image_width": 1440,
+      "image_height": 2198,
+      "screen": "creative",
+      "sha256": "b45ac101229322268e96aa6321e63298959c26e684805ff5020ae25894af96b3"
+    },
+    {
+      "file": "screenshots/en-1440-google.png",
+      "locale": "en",
+      "viewport_width": 1440,
+      "image_width": 1440,
+      "image_height": 2325,
+      "screen": "google",
+      "sha256": "8c8d9b46c206e2c1d18d805772b57a9976a26bf4857439a05b9c60cc27d60d7a"
+    },
+    {
+      "file": "screenshots/en-1440-meta.png",
+      "locale": "en",
+      "viewport_width": 1440,
+      "image_width": 1440,
+      "image_height": 2125,
+      "screen": "meta",
+      "sha256": "6c23c7f0b24586a4612888c5b81eec94b713337501840ff6f1cf9f851cbbc819"
+    },
+    {
+      "file": "screenshots/en-1440-policy.png",
+      "locale": "en",
+      "viewport_width": 1440,
+      "image_width": 1440,
+      "image_height": 2007,
+      "screen": "policy",
+      "sha256": "e30c641c59c646f85ef603eeb0203e9b0323f2b78feb9d727f69f936ca5d88f6"
+    },
+    {
+      "file": "screenshots/en-1440-portfolio.png",
+      "locale": "en",
+      "viewport_width": 1440,
+      "image_width": 1440,
+      "image_height": 1000,
+      "screen": "portfolio",
+      "sha256": "04f351a217bbc72f232622b2078014240fa8cf8cc2941ce2a5b2e3383c8352f9"
+    },
+    {
+      "file": "screenshots/en-375-analytics.png",
+      "locale": "en",
+      "viewport_width": 375,
+      "image_width": 375,
+      "image_height": 2607,
+      "screen": "analytics",
+      "sha256": "96911e0375912c172a75c85520aabe826db3f41c9a0f34527c760aa54fc9f943"
+    },
+    {
+      "file": "screenshots/en-375-approval.png",
+      "locale": "en",
+      "viewport_width": 375,
+      "image_width": 375,
+      "image_height": 4587,
+      "screen": "approval",
+      "sha256": "81dade539ed57e6cc733d13e4d9aae9177bfe51f8a154455d8e9d89734120c47"
+    },
+    {
+      "file": "screenshots/en-375-budget.png",
+      "locale": "en",
+      "viewport_width": 375,
+      "image_width": 375,
+      "image_height": 3526,
+      "screen": "budget",
+      "sha256": "4d159975583b1b0a9d2349cd15386ca8c4c2d392ef1607fcb0b7bbd68b4d43da"
+    },
+    {
+      "file": "screenshots/en-375-builder.png",
+      "locale": "en",
+      "viewport_width": 375,
+      "image_width": 375,
+      "image_height": 3067,
+      "screen": "builder",
+      "sha256": "abc3a23c6dd474f7a57abf02dec864ee0998cf8f7e8768762a14ef86c29c828b"
+    },
+    {
+      "file": "screenshots/en-375-copy.png",
+      "locale": "en",
+      "viewport_width": 375,
+      "image_width": 375,
+      "image_height": 4060,
+      "screen": "copy",
+      "sha256": "99166055da38f08ec2adcf9ef3ddc5ed19adc1420194ad9a41b7365b8c873139"
+    },
+    {
+      "file": "screenshots/en-375-creative.png",
+      "locale": "en",
+      "viewport_width": 375,
+      "image_width": 375,
+      "image_height": 4115,
+      "screen": "creative",
+      "sha256": "c8c823af9116697a9eb843ec6fa90db5046beb9e43c42746c1ae60665ed145f6"
+    },
+    {
+      "file": "screenshots/en-375-google.png",
+      "locale": "en",
+      "viewport_width": 375,
+      "image_width": 375,
+      "image_height": 2873,
+      "screen": "google",
+      "sha256": "19d3d8a6dd48991a0d6230271c924683de21667772849a1f5f0558a1b22c5e22"
+    },
+    {
+      "file": "screenshots/en-375-meta.png",
+      "locale": "en",
+      "viewport_width": 375,
+      "image_width": 375,
+      "image_height": 2568,
+      "screen": "meta",
+      "sha256": "4e685b6b35402dd7972cfdb10a989f89eb2c3a01582135694907b8b518e95b26"
+    },
+    {
+      "file": "screenshots/en-375-policy.png",
+      "locale": "en",
+      "viewport_width": 375,
+      "image_width": 375,
+      "image_height": 3440,
+      "screen": "policy",
+      "sha256": "12d4b22ca1db9faf658a056a5461b2f2f689f417d374478873d889478c75d482"
+    },
+    {
+      "file": "screenshots/en-375-portfolio.png",
+      "locale": "en",
+      "viewport_width": 375,
+      "image_width": 375,
+      "image_height": 1518,
+      "screen": "portfolio",
+      "sha256": "72884a773b1177baa81a9b527e86676f5f6e9e95a108307255ba8ab25104912f"
+    },
+    {
+      "file": "screenshots/en-768-analytics.png",
+      "locale": "en",
+      "viewport_width": 768,
+      "image_width": 768,
+      "image_height": 2111,
+      "screen": "analytics",
+      "sha256": "29fd93c400230d58b1a699a4f4ba44a2060867c200df16bae9db26ac0f7d19be"
+    },
+    {
+      "file": "screenshots/en-768-approval.png",
+      "locale": "en",
+      "viewport_width": 768,
+      "image_width": 768,
+      "image_height": 3546,
+      "screen": "approval",
+      "sha256": "1646dfa7870139d3834317796d7e10b2f96c995e169ef15cc366224d757e8c5d"
+    },
+    {
+      "file": "screenshots/en-768-budget.png",
+      "locale": "en",
+      "viewport_width": 768,
+      "image_width": 768,
+      "image_height": 2483,
+      "screen": "budget",
+      "sha256": "ccb5c3ca347c9efcfc71d01edf51ecef849a0382382ec8cbe6ba306a2d80360f"
+    },
+    {
+      "file": "screenshots/en-768-builder.png",
+      "locale": "en",
+      "viewport_width": 768,
+      "image_width": 768,
+      "image_height": 2101,
+      "screen": "builder",
+      "sha256": "026a52d0677cb51851f470180f01e78934f5a4d621f96368b9943bf3e386b698"
+    },
+    {
+      "file": "screenshots/en-768-copy.png",
+      "locale": "en",
+      "viewport_width": 768,
+      "image_width": 768,
+      "image_height": 2874,
+      "screen": "copy",
+      "sha256": "01b1e5a807441aa564ec10064ec789958ff3567cbd9b40f63d795e8ac03871ed"
+    },
+    {
+      "file": "screenshots/en-768-creative.png",
+      "locale": "en",
+      "viewport_width": 768,
+      "image_width": 768,
+      "image_height": 2634,
+      "screen": "creative",
+      "sha256": "8dc083f94e13f199dd1c2794b700149e8ee76d20f522c2f2a105728bb2296244"
+    },
+    {
+      "file": "screenshots/en-768-google.png",
+      "locale": "en",
+      "viewport_width": 768,
+      "image_width": 768,
+      "image_height": 2362,
+      "screen": "google",
+      "sha256": "b99a0bf2092008e007e017f96d9c2b908bb06470ab77327fb2a5dc2b7f6b9c2c"
+    },
+    {
+      "file": "screenshots/en-768-meta.png",
+      "locale": "en",
+      "viewport_width": 768,
+      "image_width": 768,
+      "image_height": 2129,
+      "screen": "meta",
+      "sha256": "ad5874009575c1eee8fb474b221a272bbd796680ffb082853fa487fb239f0b1b"
+    },
+    {
+      "file": "screenshots/en-768-policy.png",
+      "locale": "en",
+      "viewport_width": 768,
+      "image_width": 768,
+      "image_height": 2466,
+      "screen": "policy",
+      "sha256": "685f7a53e10705091565c7e0d097c89226f76402ac5d511c4444dce7c0c8e1dc"
+    },
+    {
+      "file": "screenshots/en-768-portfolio.png",
+      "locale": "en",
+      "viewport_width": 768,
+      "image_width": 768,
+      "image_height": 1098,
+      "screen": "portfolio",
+      "sha256": "ae63c6cfcc12d87711b25d29a691cb058e2e42b41b1809c750fe8b46e81cb5c3"
+    }
+  ]
+}

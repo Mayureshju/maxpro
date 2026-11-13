@@ -650,7 +650,7 @@ export function LeadDetail({id}: {id: string}) {
   return <LeadDossier key={id} lead={lead} />;
 }
 function LeadDossier({lead: l}: {lead: CanonicalLead}) {
-  const {crmCommand} = useGeminiDemo();
+  const {state,crmCommand} = useGeminiDemo();
   const t = useCrmCopy();
   const [note, setNote] = useState('');
   const [qualification, setQualification] = useState(l.qualification);
@@ -754,7 +754,7 @@ function LeadDossier({lead: l}: {lead: CanonicalLead}) {
               <div>
                 <span>{t('Destination / campaign', 'الوجهة / الحملة')}</span>
                 <strong>
-                  {l.destination ?? '—'} / {l.campaign ?? '—'}
+                  {l.destination ?? '—'} / {l.campaign && state.campaigns.some(c=>c.id===l.campaign)?<Link href={`/workspace/campaigns/${l.campaign}`}>{l.campaign}</Link>:l.campaign ?? '—'}
                 </strong>
               </div>
               <div>
