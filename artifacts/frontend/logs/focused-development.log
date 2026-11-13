@@ -1,0 +1,631 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test frontend-polish.spec.ts
+
+
+Running 20 tests using 2 workers
+
+(node:23313) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:23312) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   2 [chromium] › tests/e2e/frontend-polish.spec.ts:7:2 › frontend en: inventory filters combine, validate, reset and preserve both views (12.5s)
+  ✘   1 [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:7:2 › frontend en: inventory filters combine, validate, reset and preserve both views (12.6s)
+(node:23582) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:23583) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   4 [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:27:2 › frontend en: unsaved edits survive stay and failed save; successful save releases navigation (10.1s)
+  ✘   3 [chromium] › tests/e2e/frontend-polish.spec.ts:27:2 › frontend en: unsaved edits survive stay and failed save; successful save releases navigation (10.2s)
+(node:23743) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:23742) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   5 [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:46:2 › frontend en: dashboard links to canonical creation and scoped activity (15.2s)
+  ✘   6 [chromium] › tests/e2e/frontend-polish.spec.ts:46:2 › frontend en: dashboard links to canonical creation and scoped activity (15.1s)
+(node:24019) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:24020) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   8 [chromium] › tests/e2e/frontend-polish.spec.ts:54:2 › frontend en: navigation search and mobile focus remain usable (9.6s)
+  ✘   7 [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:54:2 › frontend en: navigation search and mobile focus remain usable (20.4s)
+(node:24326) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   9 [chromium] › tests/e2e/frontend-polish.spec.ts:62:2 › frontend en: bulk import, FAQ and agency preview have truthful behavior (21.2s)
+(node:24479) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  11 [chromium] › tests/e2e/frontend-polish.spec.ts:7:2 › frontend ar: inventory filters combine, validate, reset and preserve both views (7.5s)
+(node:24597) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  10 [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:62:2 › frontend en: bulk import, FAQ and agency preview have truthful behavior (19.8s)
+(node:24638) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  12 [chromium] › tests/e2e/frontend-polish.spec.ts:27:2 › frontend ar: unsaved edits survive stay and failed save; successful save releases navigation (7.5s)
+(node:24760) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  13 [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:7:2 › frontend ar: inventory filters combine, validate, reset and preserve both views (7.6s)
+(node:24821) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  15 [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:27:2 › frontend ar: unsaved edits survive stay and failed save; successful save releases navigation (11.3s)
+(node:24979) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  14 [chromium] › tests/e2e/frontend-polish.spec.ts:46:2 › frontend ar: dashboard links to canonical creation and scoped activity (15.4s)
+  ✓  16 [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:46:2 › frontend ar: dashboard links to canonical creation and scoped activity (6.0s)
+  ✘  18 [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:54:2 › frontend ar: navigation search and mobile focus remain usable (1.6s)
+  ✘  17 [chromium] › tests/e2e/frontend-polish.spec.ts:54:2 › frontend ar: navigation search and mobile focus remain usable (7.9s)
+
+
+  1) [chromium] › tests/e2e/frontend-polish.spec.ts:7:2 › frontend en: inventory filters combine, validate, reset and preserve both views 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: getByRole('alert')
+    Expected substring: "Maximum price must"
+    Error: strict mode violation: getByRole('alert') resolved to 2 elements:
+        1) <p role="alert" class="gm-error" id="inventory-price-error">Maximum price must be at least the minimum price.</p> aka getByText('Maximum price must be at')
+        2) <div role="alert" aria-live="assertive" id="__next-route-announcer__"></div> aka locator('[id="__next-route-announcer__"]')
+
+    Call log:
+      - Expect "toContainText" getByRole('alert') with timeout 8000ms
+      - waiting for getByRole('alert')
+
+
+      22 |   await search.fill('');await page.getByRole('spinbutton',{name:t('Minimum price (QAR)','الحد الأدنى للسعر (ر.ق)'),exact:true}).fill('30000');
+      23 |   await page.getByRole('spinbutton',{name:t('Maximum price (QAR)','الحد الأقصى للسعر (ر.ق)'),exact:true}).fill('10000');
+    > 24 |   await expect(page.getByRole('alert')).toContainText(t('Maximum price must','يجب أن يكون الحد الأقصى'));
+         |                                         ^
+      25 |   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);
+      26 |  });
+      27 |  test(`frontend ${locale}: unsaved edits survive stay and failed save; successful save releases navigation`,async({page},info)=>{
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/frontend-polish.spec.ts:24:41
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/frontend-polish-frontend-e-e8e5d-set-and-preserve-both-views-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/frontend-polish-frontend-e-e8e5d-set-and-preserve-both-views-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/frontend-polish-frontend-e-e8e5d-set-and-preserve-both-views-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/frontend-polish-frontend-e-e8e5d-set-and-preserve-both-views-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/e2e/frontend-polish.spec.ts:27:2 › frontend en: unsaved edits survive stay and failed save; successful save releases navigation 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByRole('alert')
+    Expected: visible
+    Error: strict mode violation: getByRole('alert') resolved to 2 elements:
+        1) <p role="alert" class="gm-error">The record changed in another view, or contains a…</p> aka getByText('The record changed in another')
+        2) <div role="alert" aria-live="assertive" id="__next-route-announcer__"></div> aka locator('[id="__next-route-announcer__"]')
+
+    Call log:
+      - Expect "toBeVisible" getByRole('alert') with timeout 8000ms
+      - waiting for getByRole('alert')
+
+
+      33 |   await page.keyboard.press('Escape');await expect(page.getByRole('dialog')).not.toBeVisible();await expect(title).toHaveValue('Fictional review draft');
+      34 |   const price=page.getByRole('spinbutton',{name:localized('Price (QAR)',true),exact:true});await price.fill('-1');
+    > 35 |   await page.getByRole('button',{name:t('Save browser-local draft','حفظ المسودة محلياً'),exact:true}).click();await expect(page.getByRole('alert')).toBeVisible();
+         |                                                                                                                                                     ^
+      36 |   await page.getByRole('link',{name:t('Media workbench','إدارة الوسائط'),exact:true}).click();await expect(page.getByRole('dialog')).toBeVisible();
+      37 |   await keep.click();await price.fill('2850000');await page.getByRole('button',{name:t('Save browser-local draft','حفظ المسودة محلياً'),exact:true}).click();
+      38 |   await expect(page.getByRole('status')).toContainText(localized('Draft saved for local pre-flight checks.'));
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/frontend-polish.spec.ts:35:149
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/frontend-polish-frontend-e-5ebda-ul-save-releases-navigation-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/frontend-polish-frontend-e-5ebda-ul-save-releases-navigation-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/frontend-polish-frontend-e-5ebda-ul-save-releases-navigation-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/frontend-polish-frontend-e-5ebda-ul-save-releases-navigation-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [chromium] › tests/e2e/frontend-polish.spec.ts:46:2 › frontend en: dashboard links to canonical creation and scoped activity 
+
+    Error: expect(page).toHaveURL(expected) failed
+
+    Expected pattern: /\/inventory\/new$/
+    Received string:  "http://127.0.0.1:3000/en/workspace"
+    Timeout: 8000ms
+
+    Call log:
+      - Expect "toHaveURL" with timeout 8000ms
+        19 × locator resolved to <html lang="en" dir="ltr">…</html>
+           - unexpected value "http://127.0.0.1:3000/en/workspace"
+
+
+      50 |   await expect(page.getByRole('heading',{name:t('Campaign activity','نشاط الحملات'),exact:true})).toBeVisible();
+      51 |   await expect(page.locator('.fx-usage-grid')).toContainText(t('Queued properties','عقارات في الانتظار'));
+    > 52 |   await page.getByRole('link',{name:t('Add property','إضافة عقار'),exact:true}).click();await expect(page).toHaveURL(/\/inventory\/new$/);
+         |                                                                                                            ^
+      53 |  });
+      54 |  test(`frontend ${locale}: navigation search and mobile focus remain usable`,async({page},info)=>{
+      55 |   await page.goto(`/${locale}/workspace`);const mobile=info.project.name==='mobile-chromium';
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/frontend-polish.spec.ts:52:108
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/frontend-polish-frontend-e-538ec-reation-and-scoped-activity-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/frontend-polish-frontend-e-538ec-reation-and-scoped-activity-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/frontend-polish-frontend-e-538ec-reation-and-scoped-activity-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/frontend-polish-frontend-e-538ec-reation-and-scoped-activity-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [chromium] › tests/e2e/frontend-polish.spec.ts:62:2 › frontend en: bulk import, FAQ and agency preview have truthful behavior 
+
+    Test timeout of 20000ms exceeded.
+
+    Error: page.goto: Test timeout of 20000ms exceeded.
+    Call log:
+      - navigating to "http://127.0.0.1:3000/en/agencies", waiting until "load"
+
+
+      64 |   await expect(page.getByRole('button',{name:localized('Preview mapping · requires backend',true)})).toBeDisabled();
+      65 |   await page.goto(`/${locale}/faq`);const question=page.locator('.fx-faq').first();await question.locator('summary').click();await expect(question).toHaveAttribute('open','');
+    > 66 |   await page.goto(`/${locale}/agencies`);await page.getByRole('link',{name:t('View agency profile','عرض ملف الوكالة'),exact:true}).click();await expect(page).toHaveURL(/\/agencies\/pearl-gate-realty$/);await expect(page.locator('.fx-agency-properties a')).toHaveCount(3);
+         |              ^
+      67 |  });
+      68 | }
+      69 |
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/frontend-polish.spec.ts:66:14
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/frontend-polish-frontend-e-24e8b-view-have-truthful-behavior-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/frontend-polish-frontend-e-24e8b-view-have-truthful-behavior-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/frontend-polish-frontend-e-24e8b-view-have-truthful-behavior-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/frontend-polish-frontend-e-24e8b-view-have-truthful-behavior-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [chromium] › tests/e2e/frontend-polish.spec.ts:7:2 › frontend ar: inventory filters combine, validate, reset and preserve both views 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: getByRole('alert')
+    Expected substring: "يجب أن يكون الحد الأقصى"
+    Error: strict mode violation: getByRole('alert') resolved to 2 elements:
+        1) <p role="alert" class="gm-error" id="inventory-price-error">يجب أن يكون الحد الأقصى للسعر أكبر من الحد الأدنى…</p> aka getByText('يجب أن يكون الحد الأقصى للسعر أكبر من الحد الأدنى أو مساوياً له')
+        2) <div role="alert" aria-live="assertive" id="__next-route-announcer__"></div> aka locator('[id="__next-route-announcer__"]')
+
+    Call log:
+      - Expect "toContainText" getByRole('alert') with timeout 8000ms
+      - waiting for getByRole('alert')
+
+
+      22 |   await search.fill('');await page.getByRole('spinbutton',{name:t('Minimum price (QAR)','الحد الأدنى للسعر (ر.ق)'),exact:true}).fill('30000');
+      23 |   await page.getByRole('spinbutton',{name:t('Maximum price (QAR)','الحد الأقصى للسعر (ر.ق)'),exact:true}).fill('10000');
+    > 24 |   await expect(page.getByRole('alert')).toContainText(t('Maximum price must','يجب أن يكون الحد الأقصى'));
+         |                                         ^
+      25 |   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);
+      26 |  });
+      27 |  test(`frontend ${locale}: unsaved edits survive stay and failed save; successful save releases navigation`,async({page},info)=>{
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/frontend-polish.spec.ts:24:41
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/frontend-polish-frontend-a-1228d-set-and-preserve-both-views-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/frontend-polish-frontend-a-1228d-set-and-preserve-both-views-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/frontend-polish-frontend-a-1228d-set-and-preserve-both-views-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/frontend-polish-frontend-a-1228d-set-and-preserve-both-views-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [chromium] › tests/e2e/frontend-polish.spec.ts:27:2 › frontend ar: unsaved edits survive stay and failed save; successful save releases navigation 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByRole('alert')
+    Expected: visible
+    Error: strict mode violation: getByRole('alert') resolved to 2 elements:
+        1) <p role="alert" class="gm-error">تغيّر السجل في عرض آخر أو يتضمن قيمة غير صالحة. أ…</p> aka getByText('تغيّر السجل في عرض آخر أو يتضمن قيمة غير صالحة. أعد التحميل لمراجعة السجل الحالي')
+        2) <div role="alert" aria-live="assertive" id="__next-route-announcer__"></div> aka locator('[id="__next-route-announcer__"]')
+
+    Call log:
+      - Expect "toBeVisible" getByRole('alert') with timeout 8000ms
+      - waiting for getByRole('alert')
+
+
+      33 |   await page.keyboard.press('Escape');await expect(page.getByRole('dialog')).not.toBeVisible();await expect(title).toHaveValue('Fictional review draft');
+      34 |   const price=page.getByRole('spinbutton',{name:localized('Price (QAR)',true),exact:true});await price.fill('-1');
+    > 35 |   await page.getByRole('button',{name:t('Save browser-local draft','حفظ المسودة محلياً'),exact:true}).click();await expect(page.locator('main').getByRole('alert')).toBeVisible();
+         |                                                                                                                                                     ^
+      36 |   await page.getByRole('link',{name:t('Media workbench','إدارة الوسائط'),exact:true}).click();await expect(page.getByRole('dialog')).toBeVisible();
+      37 |   await keep.click();await price.fill('2850000');await page.getByRole('button',{name:t('Save browser-local draft','حفظ المسودة محلياً'),exact:true}).click();
+      38 |   await expect(page.locator('main').getByRole('status')).toContainText(localized('Draft saved for local pre-flight checks.'));
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/frontend-polish.spec.ts:35:149
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/frontend-polish-frontend-a-82833-ul-save-releases-navigation-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/frontend-polish-frontend-a-82833-ul-save-releases-navigation-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/frontend-polish-frontend-a-82833-ul-save-releases-navigation-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/frontend-polish-frontend-a-82833-ul-save-releases-navigation-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  7) [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:7:2 › frontend en: inventory filters combine, validate, reset and preserve both views 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: getByRole('alert')
+    Expected substring: "Maximum price must"
+    Error: strict mode violation: getByRole('alert') resolved to 2 elements:
+        1) <p role="alert" class="gm-error" id="inventory-price-error">Maximum price must be at least the minimum price.</p> aka getByText('Maximum price must be at')
+        2) <div role="alert" aria-live="assertive" id="__next-route-announcer__"></div> aka locator('[id="__next-route-announcer__"]')
+
+    Call log:
+      - Expect "toContainText" getByRole('alert') with timeout 8000ms
+      - waiting for getByRole('alert')
+
+
+      22 |   await search.fill('');await page.getByRole('spinbutton',{name:t('Minimum price (QAR)','الحد الأدنى للسعر (ر.ق)'),exact:true}).fill('30000');
+      23 |   await page.getByRole('spinbutton',{name:t('Maximum price (QAR)','الحد الأقصى للسعر (ر.ق)'),exact:true}).fill('10000');
+    > 24 |   await expect(page.getByRole('alert')).toContainText(t('Maximum price must','يجب أن يكون الحد الأقصى'));
+         |                                         ^
+      25 |   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);
+      26 |  });
+      27 |  test(`frontend ${locale}: unsaved edits survive stay and failed save; successful save releases navigation`,async({page},info)=>{
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/frontend-polish.spec.ts:24:41
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/frontend-polish-frontend-e-e8e5d-set-and-preserve-both-views-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/frontend-polish-frontend-e-e8e5d-set-and-preserve-both-views-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/frontend-polish-frontend-e-e8e5d-set-and-preserve-both-views-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/frontend-polish-frontend-e-e8e5d-set-and-preserve-both-views-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8) [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:27:2 › frontend en: unsaved edits survive stay and failed save; successful save releases navigation 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByRole('alert')
+    Expected: visible
+    Error: strict mode violation: getByRole('alert') resolved to 2 elements:
+        1) <p role="alert" class="gm-error">The record changed in another view, or contains a…</p> aka getByText('The record changed in another')
+        2) <div role="alert" aria-live="assertive" id="__next-route-announcer__"></div> aka locator('[id="__next-route-announcer__"]')
+
+    Call log:
+      - Expect "toBeVisible" getByRole('alert') with timeout 8000ms
+      - waiting for getByRole('alert')
+
+
+      33 |   await page.keyboard.press('Escape');await expect(page.getByRole('dialog')).not.toBeVisible();await expect(title).toHaveValue('Fictional review draft');
+      34 |   const price=page.getByRole('spinbutton',{name:localized('Price (QAR)',true),exact:true});await price.fill('-1');
+    > 35 |   await page.getByRole('button',{name:t('Save browser-local draft','حفظ المسودة محلياً'),exact:true}).click();await expect(page.getByRole('alert')).toBeVisible();
+         |                                                                                                                                                     ^
+      36 |   await page.getByRole('link',{name:t('Media workbench','إدارة الوسائط'),exact:true}).click();await expect(page.getByRole('dialog')).toBeVisible();
+      37 |   await keep.click();await price.fill('2850000');await page.getByRole('button',{name:t('Save browser-local draft','حفظ المسودة محلياً'),exact:true}).click();
+      38 |   await expect(page.getByRole('status')).toContainText(localized('Draft saved for local pre-flight checks.'));
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/frontend-polish.spec.ts:35:149
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/frontend-polish-frontend-e-5ebda-ul-save-releases-navigation-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/frontend-polish-frontend-e-5ebda-ul-save-releases-navigation-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/frontend-polish-frontend-e-5ebda-ul-save-releases-navigation-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/frontend-polish-frontend-e-5ebda-ul-save-releases-navigation-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  9) [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:46:2 › frontend en: dashboard links to canonical creation and scoped activity 
+
+    Error: expect(page).toHaveURL(expected) failed
+
+    Expected pattern: /\/inventory\/new$/
+    Received string:  "http://127.0.0.1:3000/en/workspace"
+    Timeout: 8000ms
+
+    Call log:
+      - Expect "toHaveURL" with timeout 8000ms
+        19 × locator resolved to <html lang="en" dir="ltr">…</html>
+           - unexpected value "http://127.0.0.1:3000/en/workspace"
+
+
+      50 |   await expect(page.getByRole('heading',{name:t('Campaign activity','نشاط الحملات'),exact:true})).toBeVisible();
+      51 |   await expect(page.locator('.fx-usage-grid')).toContainText(t('Queued properties','عقارات في الانتظار'));
+    > 52 |   await page.getByRole('link',{name:t('Add property','إضافة عقار'),exact:true}).click();await expect(page).toHaveURL(/\/inventory\/new$/);
+         |                                                                                                            ^
+      53 |  });
+      54 |  test(`frontend ${locale}: navigation search and mobile focus remain usable`,async({page},info)=>{
+      55 |   await page.goto(`/${locale}/workspace`);const mobile=info.project.name==='mobile-chromium';
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/frontend-polish.spec.ts:52:108
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/frontend-polish-frontend-e-538ec-reation-and-scoped-activity-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/frontend-polish-frontend-e-538ec-reation-and-scoped-activity-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/frontend-polish-frontend-e-538ec-reation-and-scoped-activity-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/frontend-polish-frontend-e-538ec-reation-and-scoped-activity-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  10) [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:54:2 › frontend en: navigation search and mobile focus remain usable 
+
+    Test timeout of 20000ms exceeded.
+
+    Error: locator.fill: Test timeout of 20000ms exceeded.
+    Call log:
+      - waiting for getByRole('searchbox', { name: 'Search navigation', exact: true })
+
+
+      55 |   await page.goto(`/${locale}/workspace`);const mobile=info.project.name==='mobile-chromium';
+      56 |   const opener=page.getByRole('button',{name:localized('Open navigation',true)});if(mobile)await opener.click();
+    > 57 |   const search=page.getByRole('searchbox',{name:t('Search navigation','البحث في التنقل'),exact:true});await search.fill(t('Plans','الباقات'));
+         |                                                                                                                    ^
+      58 |   const nav=page.getByRole('navigation',{name:localized('Workspace navigation',true)});await expect(nav.getByRole('link',{name:localized('Plans & entitlements',true)})).toBeVisible();
+      59 |   await search.fill('nonexistent-destination');await expect(page.locator('.fx-nav-empty')).toBeVisible();
+      60 |   await search.fill('');if(mobile){await page.keyboard.press('Escape');await expect(opener).toBeFocused();await expect(search).not.toBeVisible();}
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/frontend-polish.spec.ts:57:116
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/frontend-polish-frontend-e-ed119--mobile-focus-remain-usable-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/frontend-polish-frontend-e-ed119--mobile-focus-remain-usable-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/frontend-polish-frontend-e-ed119--mobile-focus-remain-usable-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/frontend-polish-frontend-e-ed119--mobile-focus-remain-usable-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  11) [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:62:2 › frontend en: bulk import, FAQ and agency preview have truthful behavior 
+
+    Error: expect(page).toHaveURL(expected) failed
+
+    Expected pattern: /\/agencies\/pearl-gate-realty$/
+    Received string:  "http://127.0.0.1:3000/en/agencies"
+    Timeout: 8000ms
+
+    Call log:
+      - Expect "toHaveURL" with timeout 8000ms
+        13 × locator resolved to <html lang="en" dir="ltr">…</html>
+           - unexpected value "http://127.0.0.1:3000/en/agencies"
+        - waiting for "http://127.0.0.1:3000/en/agencies" navigation to finish...
+        - navigated to "http://127.0.0.1:3000/en/agencies"
+        5 × locator resolved to <html lang="en" dir="ltr">…</html>
+          - unexpected value "http://127.0.0.1:3000/en/agencies"
+
+
+      64 |   await expect(page.getByRole('button',{name:localized('Preview mapping · requires backend',true)})).toBeDisabled();
+      65 |   await page.goto(`/${locale}/faq`);const question=page.locator('.fx-faq').first();await question.locator('summary').click();await expect(question).toHaveAttribute('open','');
+    > 66 |   await page.goto(`/${locale}/agencies`);await page.getByRole('link',{name:t('View agency profile','عرض ملف الوكالة'),exact:true}).click();await expect(page).toHaveURL(/\/agencies\/pearl-gate-realty$/);await expect(page.locator('.fx-agency-properties a')).toHaveCount(3);
+         |                                                                                                                                                               ^
+      67 |  });
+      68 | }
+      69 |
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/frontend-polish.spec.ts:66:159
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/frontend-polish-frontend-e-24e8b-view-have-truthful-behavior-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/frontend-polish-frontend-e-24e8b-view-have-truthful-behavior-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/frontend-polish-frontend-e-24e8b-view-have-truthful-behavior-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/frontend-polish-frontend-e-24e8b-view-have-truthful-behavior-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  12) [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:7:2 › frontend ar: inventory filters combine, validate, reset and preserve both views 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: getByRole('alert')
+    Expected substring: "يجب أن يكون الحد الأقصى"
+    Error: strict mode violation: getByRole('alert') resolved to 2 elements:
+        1) <p role="alert" class="gm-error" id="inventory-price-error">يجب أن يكون الحد الأقصى للسعر أكبر من الحد الأدنى…</p> aka getByText('يجب أن يكون الحد الأقصى للسعر أكبر من الحد الأدنى أو مساوياً له')
+        2) <div role="alert" aria-live="assertive" id="__next-route-announcer__"></div> aka locator('[id="__next-route-announcer__"]')
+
+    Call log:
+      - Expect "toContainText" getByRole('alert') with timeout 8000ms
+      - waiting for getByRole('alert')
+
+
+      22 |   await search.fill('');await page.getByRole('spinbutton',{name:t('Minimum price (QAR)','الحد الأدنى للسعر (ر.ق)'),exact:true}).fill('30000');
+      23 |   await page.getByRole('spinbutton',{name:t('Maximum price (QAR)','الحد الأقصى للسعر (ر.ق)'),exact:true}).fill('10000');
+    > 24 |   await expect(page.locator('main').getByRole('alert')).toContainText(t('Maximum price must','يجب أن يكون الحد الأقصى'));
+         |                                         ^
+      25 |   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);
+      26 |  });
+      27 |  test(`frontend ${locale}: unsaved edits survive stay and failed save; successful save releases navigation`,async({page},info)=>{
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/frontend-polish.spec.ts:24:41
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/frontend-polish-frontend-a-1228d-set-and-preserve-both-views-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/frontend-polish-frontend-a-1228d-set-and-preserve-both-views-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/frontend-polish-frontend-a-1228d-set-and-preserve-both-views-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/frontend-polish-frontend-a-1228d-set-and-preserve-both-views-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  13) [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:27:2 › frontend ar: unsaved edits survive stay and failed save; successful save releases navigation 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByRole('alert')
+    Expected: visible
+    Error: strict mode violation: getByRole('alert') resolved to 2 elements:
+        1) <p role="alert" class="gm-error">تغيّر السجل في عرض آخر أو يتضمن قيمة غير صالحة. أ…</p> aka getByText('تغيّر السجل في عرض آخر أو يتضمن قيمة غير صالحة. أعد التحميل لمراجعة السجل الحالي')
+        2) <div role="alert" aria-live="assertive" id="__next-route-announcer__"></div> aka locator('[id="__next-route-announcer__"]')
+
+    Call log:
+      - Expect "toBeVisible" getByRole('alert') with timeout 8000ms
+      - waiting for getByRole('alert')
+
+
+      33 |   await page.keyboard.press('Escape');await expect(page.getByRole('dialog')).not.toBeVisible();await expect(title).toHaveValue('Fictional review draft');
+      34 |   const price=page.getByRole('spinbutton',{name:localized('Price (QAR)',true),exact:true});await price.fill('-1');
+    > 35 |   await page.getByRole('button',{name:t('Save browser-local draft','حفظ المسودة محلياً'),exact:true}).click();await expect(page.locator('main').getByRole('alert')).toBeVisible();
+         |                                                                                                                                                     ^
+      36 |   await page.getByRole('link',{name:t('Media workbench','إدارة الوسائط'),exact:true}).click();await expect(page.getByRole('dialog')).toBeVisible();
+      37 |   await keep.click();await price.fill('2850000');await page.getByRole('button',{name:t('Save browser-local draft','حفظ المسودة محلياً'),exact:true}).click();
+      38 |   await expect(page.locator('main').getByRole('status')).toContainText(localized('Draft saved for local pre-flight checks.'));
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/frontend-polish.spec.ts:35:149
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/frontend-polish-frontend-a-82833-ul-save-releases-navigation-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/frontend-polish-frontend-a-82833-ul-save-releases-navigation-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/frontend-polish-frontend-a-82833-ul-save-releases-navigation-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/frontend-polish-frontend-a-82833-ul-save-releases-navigation-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  14) [chromium] › tests/e2e/frontend-polish.spec.ts:54:2 › frontend ar: navigation search and mobile focus remain usable 
+
+    Test was interrupted.
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByRole('navigation', { name: /^(?:Workspace navigation|Workspace navigation)$/ }).getByRole('link', { name: /^(?:Plans & entitlements|Plans & entitlements)$/ })
+    Expected: visible
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByRole('navigation', { name: /^(?:Workspace navigation|Workspace navigation)$/ }).getByRole('link', { name: /^(?:Plans & entitlements|Plans & entitlements)$/ }) with timeout 8000ms
+      - waiting for getByRole('navigation', { name: /^(?:Workspace navigation|Workspace navigation)$/ }).getByRole('link', { name: /^(?:Plans & entitlements|Plans & entitlements)$/ })
+      - Test ended.
+
+
+      56 |   const opener=page.getByRole('button',{name:localized('Open navigation',true)});if(mobile)await opener.click();
+      57 |   const search=page.getByRole('searchbox',{name:t('Search navigation','البحث في التنقل'),exact:true});await search.fill(t('Plans','الباقات'));
+    > 58 |   const nav=page.getByRole('navigation',{name:localized('Workspace navigation',true)});await expect(nav.getByRole('link',{name:localized('Plans & entitlements',true)})).toBeVisible();
+         |                                                                                                                                                                          ^
+      59 |   await search.fill('nonexistent-destination');await expect(page.locator('.fx-nav-empty')).toBeVisible();
+      60 |   await search.fill('');if(mobile){await page.keyboard.press('Escape');await expect(opener).toBeFocused();await expect(search).not.toBeVisible();}
+      61 |  });
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/frontend-polish.spec.ts:58:170
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/frontend-polish-frontend-a-b05a8--mobile-focus-remain-usable-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/frontend-polish-frontend-a-b05a8--mobile-focus-remain-usable-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/frontend-polish-frontend-a-b05a8--mobile-focus-remain-usable-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/frontend-polish-frontend-a-b05a8--mobile-focus-remain-usable-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  15) [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:54:2 › frontend ar: navigation search and mobile focus remain usable 
+
+    Test was interrupted.
+
+    Error: page.goto: Test ended.
+    Call log:
+      - navigating to "http://127.0.0.1:3000/ar/workspace", waiting until "load"
+
+
+      53 |  });
+      54 |  test(`frontend ${locale}: navigation search and mobile focus remain usable`,async({page},info)=>{
+    > 55 |   await page.goto(`/${locale}/workspace`);const mobile=info.project.name==='mobile-chromium';
+         |              ^
+      56 |   const opener=page.getByRole('button',{name:localized('Open navigation',true)});if(mobile)await opener.click();
+      57 |   const search=page.getByRole('searchbox',{name:t('Search navigation','البحث في التنقل'),exact:true});await search.fill(t('Plans','الباقات'));
+      58 |   const nav=page.getByRole('navigation',{name:localized('Workspace navigation',true)});await expect(nav.getByRole('link',{name:localized('Plans & entitlements',true)})).toBeVisible();
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/frontend-polish.spec.ts:55:14
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/frontend-polish-frontend-a-b05a8--mobile-focus-remain-usable-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/frontend-polish-frontend-a-b05a8--mobile-focus-remain-usable-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/frontend-polish-frontend-a-b05a8--mobile-focus-remain-usable-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/frontend-polish-frontend-a-b05a8--mobile-focus-remain-usable-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  13 failed
+    [chromium] › tests/e2e/frontend-polish.spec.ts:7:2 › frontend en: inventory filters combine, validate, reset and preserve both views 
+    [chromium] › tests/e2e/frontend-polish.spec.ts:27:2 › frontend en: unsaved edits survive stay and failed save; successful save releases navigation 
+    [chromium] › tests/e2e/frontend-polish.spec.ts:46:2 › frontend en: dashboard links to canonical creation and scoped activity 
+    [chromium] › tests/e2e/frontend-polish.spec.ts:62:2 › frontend en: bulk import, FAQ and agency preview have truthful behavior 
+    [chromium] › tests/e2e/frontend-polish.spec.ts:7:2 › frontend ar: inventory filters combine, validate, reset and preserve both views 
+    [chromium] › tests/e2e/frontend-polish.spec.ts:27:2 › frontend ar: unsaved edits survive stay and failed save; successful save releases navigation 
+    [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:7:2 › frontend en: inventory filters combine, validate, reset and preserve both views 
+    [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:27:2 › frontend en: unsaved edits survive stay and failed save; successful save releases navigation 
+    [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:46:2 › frontend en: dashboard links to canonical creation and scoped activity 
+    [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:54:2 › frontend en: navigation search and mobile focus remain usable 
+    [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:62:2 › frontend en: bulk import, FAQ and agency preview have truthful behavior 
+    [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:7:2 › frontend ar: inventory filters combine, validate, reset and preserve both views 
+    [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:27:2 › frontend ar: unsaved edits survive stay and failed save; successful save releases navigation 
+  2 interrupted
+    [chromium] › tests/e2e/frontend-polish.spec.ts:54:2 › frontend ar: navigation search and mobile focus remain usable 
+    [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:54:2 › frontend ar: navigation search and mobile focus remain usable 
+  2 did not run
+  3 passed (2.3m)
+ ELIFECYCLE  Command failed with exit code 130.

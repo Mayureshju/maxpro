@@ -1,7 +1,7 @@
 'use client';
 import {usePrototypeCopy} from '@/components/prototype/use-prototype-copy';
 import type {ReactNode} from 'react';
-import {ArrowUpRight, ChevronRight, CircleAlert, Info} from 'lucide-react';import {Link} from '@/i18n/navigation';import type {Listing} from '@/lib/prototype-data';
+import {ArrowUpRight, ChevronRight, CircleAlert, House, Info} from 'lucide-react';import {Link} from '@/i18n/navigation';import type {Listing} from '@/lib/prototype-data';
 import {q} from '@/lib/prototype-data';
 export function Intro({eyebrow,title,description,action,aside}:{eyebrow?:string;title:string;description?:string;action?:ReactNode;aside?:ReactNode}){const copyText=usePrototypeCopy();
   return <header className="px-intro"><div className="px-intro-main">{eyebrow&&<div className="px-overline">{copyText(eyebrow)}</div>}<h1>{copyText(title)}</h1>{description&&<p>{copyText(description)}</p>}</div>{(action||aside)&&<div className="px-intro-action">{aside}{action}</div>}</header>;
@@ -22,7 +22,7 @@ export function Notice({children,kind='info'}:{children:ReactNode;kind?:'info'|'
   return <div className={`px-notice px-notice-${kind}`}>{kind==='info'?<Info size={17}/>:<CircleAlert size={17}/>}<span>{typeof children==='string'?copyText(children):children}</span></div>;
 }
 export function PropertyImage({listing,aspect='wide'}:{listing:Listing;aspect?:'wide'|'square'|'mini'}) {const copyText=usePrototypeCopy();
-  return <div className={`px-property-image image-${aspect}`} style={{backgroundImage:`linear-gradient(0deg,rgba(22,37,43,.06),rgba(22,37,43,0)),url('${listing.image}')`}} role="img" aria-label={copyText(`${listing.title}, ${listing.locality}`)}><span>{copyText(listing.category)}</span></div>;
+  return <div className={`px-property-image image-${aspect}`} style={listing.image?{backgroundImage:`linear-gradient(0deg,rgba(22,37,43,.06),rgba(22,37,43,0)),url('${listing.image}')`}:undefined} role="img" aria-label={copyText(`${listing.title}, ${listing.locality}`)}>{listing.image?<span>{copyText(listing.category)}</span>:<div className="fx-image-empty"><House size={22} aria-hidden="true"/></div>}</div>;
 }
 export function ListingRow({listing}:{listing:Listing}) {const copyText=usePrototypeCopy();
   return <Link className="px-listing-row" href={`/workspace/inventory/${listing.id}`}><PropertyImage listing={listing} aspect="mini"/><span className="px-listing-name"><strong>{copyText(listing.title)}</strong><small>{copyText(listing.id)} · {copyText(listing.locality)}</small></span><span className="px-listing-price">{copyText(q(listing.price))}<small>{copyText(listing.unit==='month'?'/ month':'Sale')}</small></span><Pill tone={listing.status==='Live'?'good':listing.status==='Pending review'?'warning':'neutral'}>{copyText(listing.status)}</Pill><span className="px-listing-connectors">{listing.portals} {copyText(" portals")}</span><ChevronRight className="px-listing-go" size={17}/></Link>;

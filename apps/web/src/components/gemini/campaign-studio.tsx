@@ -2,6 +2,7 @@
 import {usePrototypeCopy} from '@/components/prototype/use-prototype-copy';
 import {activeOrganizationId} from '@/lib/organization-engine';
 import { useState } from "react";
+import {WorkspaceLoading} from "@/components/prototype/loading-state";
 import { useLocale } from "next-intl";
 import { useSearchParams } from "next/navigation";
 import { Link, useRouter } from "@/i18n/navigation";
@@ -397,6 +398,7 @@ function CampaignEditor({
     initial ? JSON.stringify(initial.input) : "",
   );
   const [revision, setRevision] = useState(initial?.revision ?? 0);
+  const [openingDraft,setOpeningDraft]=useState(false);
   const [step, setStep] = useState(initialStep);
   const [role, setRole] = useState<CampaignRole>("editor");
   const [feedback, setFeedback] = useState({ error: "", message: "" });
@@ -439,6 +441,7 @@ function CampaignEditor({
       return false;
     }
     if (!c) {
+      setOpeningDraft(true);
       router.replace(`/workspace/campaigns/${r.id}?step=${nextStep}`);
       return true;
     }
@@ -502,6 +505,7 @@ function CampaignEditor({
     t("Budget & schedule", "الميزانية والجدول"),
     t("Approvals & simulation", "الموافقات والمحاكاة"),
   ];
+  if(openingDraft)return <><Intro title={t("Opening the saved campaign draft", "جارٍ فتح مسودة الحملة المحفوظة")}/><WorkspaceLoading/></>;
   const disabled = dirty || stale || !c || !can(state.organization, role === "editor" ? "campaign.edit" : "campaign.approve");
   return (
     <>

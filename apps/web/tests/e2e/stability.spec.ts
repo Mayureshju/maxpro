@@ -20,7 +20,7 @@ for(const locale of ['en','ar']){
   test(`route ${locale}${route||'/'} responds and renders`,async({page})=>{
    const response=await page.goto(`/${locale}${route}`);
    expect(response?.status()).toBe(200);
-   await expect(page.locator('h1').first()).toBeVisible();
+   await expect(page.getByRole('heading',{level:1}).first()).toBeVisible();
    await expect(page.locator('html')).toHaveAttribute('lang',locale);
    await expect(page.locator('html')).toHaveAttribute('dir',locale==='ar'?'rtl':'ltr');
   });
@@ -28,10 +28,10 @@ for(const locale of ['en','ar']){
  for(const [name,route] of workflows){
   test(`visual ${locale} ${name} fits the viewport`,async({page},testInfo)=>{
    await page.goto(`/${locale}${route}`);
-   await expect(page.locator('h1')).toBeVisible();
+   await expect(page.getByRole('heading',{level:1})).toBeVisible();
    await page.evaluate(()=>document.fonts.ready);
    // These are captures of the actual running Next.js page, not visual substitutes.
-   await page.screenshot({path:resolve(`../../artifacts/phase6/regression/phase1/regression-screenshots/${testInfo.project.name}-${locale}-${name}.png`),fullPage:true,scale:'css'});
+   await page.screenshot({path:resolve(`../../${globalThis.process.env.MAXPRO_EVIDENCE_ROOT??'artifacts/phase6'}/regression/phase1/regression-screenshots/${testInfo.project.name}-${locale}-${name}.png`),fullPage:true,scale:'css'});
    const size=await page.evaluate(()=>({content:document.documentElement.scrollWidth,viewport:window.innerWidth}));
    expect(size.content).toBeLessThanOrEqual(size.viewport+1);
   });
@@ -47,7 +47,7 @@ for(const locale of ['en','ar']){
   await page.getByRole('textbox',{name:localized("Search connectors")}).fill('WhatsApp');
   await expect(page.locator('.gm-market-row')).toHaveCount(1);
   await page.locator('.gm-market-row').click();
-  await expect(page.locator('h1')).toHaveText(localized('WhatsApp Business',true));await expect(page.locator('.prototype-nav-item.is-current')).toHaveAttribute('href',`/${locale}/workspace/hub/marketplace`);
+  await expect(page.getByRole('heading',{level:1})).toHaveText(localized('WhatsApp Business',true));await expect(page.locator('.prototype-nav-item.is-current')).toHaveAttribute('href',`/${locale}/workspace/hub/marketplace`);
  });
  test(`workflow ${locale} canonical edits, blocked and queued local dispatch`,async({page},testInfo)=>{
   test.setTimeout(60000);
@@ -85,7 +85,7 @@ for(const locale of ['en','ar']){
   await page.goto(`/${locale}/workspace/hub/jobs`);
   await expect(page.getByText(localized("Queued locally",true),{exact:true})).toHaveCount(2);
   await expect(page.getByText(localized("Blocked locally",true),{exact:true})).toHaveCount(2);
-  await page.screenshot({path:resolve(`../../artifacts/phase6/regression/phase1/regression-screenshots/${testInfo.project.name}-${locale}-history-with-jobs.png`),fullPage:true,scale:'css'});
+  await page.screenshot({path:resolve(`../../${globalThis.process.env.MAXPRO_EVIDENCE_ROOT??'artifacts/phase6'}/regression/phase1/regression-screenshots/${testInfo.project.name}-${locale}-history-with-jobs.png`),fullPage:true,scale:'css'});
   await page.getByRole('textbox',{name:localized("Search publishing activity")}).fill('Property Finder');
   await expect(page.locator('tbody tr')).toHaveCount(2);
  });
@@ -121,7 +121,7 @@ test('invalid persisted demo data recovers without crashing or accepting unknown
  await page.addInitScript(()=>localStorage.setItem('maxpro-gemini-v3-demo-state',JSON.stringify({plan:'obsolete',preparedConnectors:['unknown',null,'property-finder'],jobs:[{},null,{destination:'obsolete'}],activeAgents:[null],propertyEdits:{'AQ-10233':{permit:42}}})));
  for(const route of ['/workspace','/workspace/billing','/workspace/publish','/workspace/hub/jobs','/workspace/hub/marketplace','/workspace/inventory/AQ-10233/edit']){
   await page.goto(`/en${route}`);
-  await expect(page.locator('h1')).toBeVisible();
+  await expect(page.getByRole('heading',{level:1})).toBeVisible();
  }
  await expect(page.getByRole('textbox',{name:localized("Permit / license")})).toHaveValue('RE-22984');
 });
@@ -132,7 +132,7 @@ test('unavailable browser storage still allows local demo interactions',async({p
  await page.getByRole('button',{name:localized(/Starter/)}).click();
  await page.goto('/en/workspace/publish');
  // Full navigations reset in-memory state when storage is disabled; the app still renders safely.
- await expect(page.locator('h1')).toBeVisible();
+ await expect(page.getByRole('heading',{level:1})).toBeVisible();
 });
 
 test('media ordering, classification and watermark remain local',async({page})=>{
@@ -193,7 +193,7 @@ test('keyboard can filter the connector directory and enter provider setup',asyn
  await expect(provider).toHaveCount(1);
  await provider.focus();
  await page.keyboard.press('Enter');
- await expect(page.locator('h1')).toHaveText(localized('Property Finder',true));
+ await expect(page.getByRole('heading',{level:1})).toHaveText(localized('Property Finder',true));
  await page.getByRole('checkbox').focus();
  await page.keyboard.press('Space');
  await page.keyboard.press('Tab');

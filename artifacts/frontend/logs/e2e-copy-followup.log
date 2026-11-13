@@ -1,0 +1,100 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test frontend-polish.spec.ts connector-hub.spec.ts final-copy.spec.ts final-visual.spec.ts --reporter=list,json,html
+
+
+Running 76 tests using 4 workers
+
+(node:63596) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:63597) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:63594) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:63595) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   4 [chromium] › tests/e2e/connector-hub.spec.ts:39:1 › internal export contracts handle invalid values, Unicode, XML controls and CSV formulas (1.2s)
+  ✓   5 [chromium] › tests/e2e/connector-hub.spec.ts:49:1 › command guards reject stale approval, unsupported destinations, missing approval and quota bypass (498ms)
+  ✓   6 [chromium] › tests/e2e/connector-hub.spec.ts:58:1 › job migration retains old local history and rejects forged or corrupt attempt metadata (358ms)
+  ✓   1 [chromium] › tests/e2e/frontend-polish.spec.ts:7:2 › frontend en: inventory filters combine, validate, reset and preserve both views (2.4s)
+  ✓   2 [chromium] › tests/e2e/final-copy.spec.ts:4:33 › final copy en: UI source labels translate and original enquiry messages stay intact (2.9s)
+  ✓   8 [chromium] › tests/e2e/frontend-polish.spec.ts:27:2 › frontend en: unsaved edits survive stay and failed save; successful save releases navigation (2.8s)
+  ✓   7 [chromium] › tests/e2e/connector-hub.spec.ts:66:2 › connector smoke en: directory filtering, setup, removal and eligibility (3.7s)
+  ✓   9 [chromium] › tests/e2e/final-copy.spec.ts:4:33 › final copy ar: UI source labels translate and original enquiry messages stay intact (3.0s)
+  ✓  10 [chromium] › tests/e2e/frontend-polish.spec.ts:46:2 › frontend en: dashboard links to canonical creation and scoped activity (978ms)
+(node:63810) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  12 [chromium] › tests/e2e/frontend-polish.spec.ts:54:2 › frontend en: navigation search and mobile focus remain usable (635ms)
+  ✓  11 [chromium] › tests/e2e/connector-hub.spec.ts:74:2 › connector smoke en: newly created property drives escaped XML JSON CSV and downloads (1.7s)
+  ✓  13 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:39:1 › internal export contracts handle invalid values, Unicode, XML controls and CSV formulas (603ms)
+  ✓  16 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:49:1 › command guards reject stale approval, unsupported destinations, missing approval and quota bypass (351ms)
+  ✓  17 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:58:1 › job migration retains old local history and rejects forged or corrupt attempt metadata (358ms)
+  ✓  14 [chromium] › tests/e2e/frontend-polish.spec.ts:62:2 › frontend en: bulk import, FAQ and agency preview have truthful behavior (1.6s)
+  ✓  19 [chromium] › tests/e2e/frontend-polish.spec.ts:7:2 › frontend ar: inventory filters combine, validate, reset and preserve both views (1.2s)
+  ✓  15 [chromium] › tests/e2e/connector-hub.spec.ts:85:2 › connector smoke en: blocked retry revalidates, correction queues, cancellation and filters persist (3.1s)
+  ✓  18 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:66:2 › connector smoke en: directory filtering, setup, removal and eligibility (3.0s)
+  ✓  20 [chromium] › tests/e2e/frontend-polish.spec.ts:27:2 › frontend ar: unsaved edits survive stay and failed save; successful save releases navigation (2.9s)
+  ✓  21 [chromium] › tests/e2e/connector-hub.spec.ts:93:2 › connector en: property revision invalidates workbench and retry approval across tabs (2.9s)
+  ✓  23 [chromium] › tests/e2e/frontend-polish.spec.ts:46:2 › frontend ar: dashboard links to canonical creation and scoped activity (928ms)
+  ✓  22 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:74:2 › connector smoke en: newly created property drives escaped XML JSON CSV and downloads (2.5s)
+  ✓  25 [chromium] › tests/e2e/frontend-polish.spec.ts:54:2 › frontend ar: navigation search and mobile focus remain usable (588ms)
+  ✓  27 [chromium] › tests/e2e/frontend-polish.spec.ts:62:2 › frontend ar: bulk import, FAQ and agency preview have truthful behavior (1.2s)
+  ✓  26 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:85:2 › connector smoke en: blocked retry revalidates, correction queues, cancellation and filters persist (3.3s)
+  ✓  28 [chromium] › tests/e2e/frontend-polish.spec.ts:70:33 › frontend en: public responsive layouts keep research actions, footer and editorial content inside viewport (2.1s)
+  ✓   3 [chromium] › tests/e2e/final-visual.spec.ts:8:2 › final visual en: every major workflow in the running app (18.1s)
+  ✓  24 [chromium] › tests/e2e/connector-hub.spec.ts:98:2 › connector en: responsive sections and keyboard controls at required widths (4.6s)
+  ✓  29 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:93:2 › connector en: property revision invalidates workbench and retry approval across tabs (2.3s)
+  ✓  30 [chromium] › tests/e2e/frontend-polish.spec.ts:70:33 › frontend ar: public responsive layouts keep research actions, footer and editorial content inside viewport (2.2s)
+  ✓  34 [chromium] › tests/e2e/frontend-polish.spec.ts:77:33 › frontend en: newly saved campaign keeps the next stage after navigation (866ms)
+  ✓  32 [chromium] › tests/e2e/connector-hub.spec.ts:66:2 › connector smoke ar: directory filtering, setup, removal and eligibility (2.8s)
+  ✓  35 [chromium] › tests/e2e/frontend-polish.spec.ts:77:33 › frontend ar: newly saved campaign keeps the next stage after navigation (876ms)
+  ✓  33 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:98:2 › connector en: responsive sections and keyboard controls at required widths (2.3s)
+(node:64106) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  36 [chromium] › tests/e2e/connector-hub.spec.ts:74:2 › connector smoke ar: newly created property drives escaped XML JSON CSV and downloads (2.0s)
+  ✓  37 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:66:2 › connector smoke ar: directory filtering, setup, removal and eligibility (2.4s)
+  ✓  38 [mobile-chromium] › tests/e2e/final-copy.spec.ts:4:33 › final copy en: UI source labels translate and original enquiry messages stay intact (1.7s)
+  ✓  40 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:74:2 › connector smoke ar: newly created property drives escaped XML JSON CSV and downloads (1.7s)
+  ✓  39 [chromium] › tests/e2e/connector-hub.spec.ts:85:2 › connector smoke ar: blocked retry revalidates, correction queues, cancellation and filters persist (2.8s)
+  ✓  41 [mobile-chromium] › tests/e2e/final-copy.spec.ts:4:33 › final copy ar: UI source labels translate and original enquiry messages stay intact (1.8s)
+  ✓  43 [chromium] › tests/e2e/connector-hub.spec.ts:93:2 › connector ar: property revision invalidates workbench and retry approval across tabs (3.1s)
+  ✓  42 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:85:2 › connector smoke ar: blocked retry revalidates, correction queues, cancellation and filters persist (3.6s)
+  ✓  46 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:93:2 › connector ar: property revision invalidates workbench and retry approval across tabs (2.5s)
+  ✓  45 [chromium] › tests/e2e/connector-hub.spec.ts:98:2 › connector ar: responsive sections and keyboard controls at required widths (5.0s)
+  ✓  47 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:98:2 › connector ar: responsive sections and keyboard controls at required widths (2.5s)
+  ✓  48 [chromium] › tests/e2e/connector-hub.spec.ts:106:1 › corrupt connector state recovers valid properties and excludes malformed job attempts (1.8s)
+  ✓  49 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:106:1 › corrupt connector state recovers valid properties and excludes malformed job attempts (1.6s)
+  ✓  44 [mobile-chromium] › tests/e2e/final-visual.spec.ts:8:2 › final visual en: every major workflow in the running app (13.0s)
+  ✓  50 [chromium] › tests/e2e/connector-hub.spec.ts:111:33 › connector en: correcting canonical data lets a blocked job retry at the current revision (4.0s)
+  ✓  51 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:111:33 › connector en: correcting canonical data lets a blocked job retry at the current revision (4.8s)
+  ✓  53 [chromium] › tests/e2e/connector-hub.spec.ts:111:33 › connector ar: correcting canonical data lets a blocked job retry at the current revision (3.5s)
+(node:64454) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  54 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:111:33 › connector ar: correcting canonical data lets a blocked job retry at the current revision (4.6s)
+  ✓  55 [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:7:2 › frontend en: inventory filters combine, validate, reset and preserve both views (1.4s)
+  ✓  56 [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:27:2 › frontend en: unsaved edits survive stay and failed save; successful save releases navigation (2.0s)
+  ✓  57 [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:46:2 › frontend en: dashboard links to canonical creation and scoped activity (616ms)
+  ✓  58 [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:54:2 › frontend en: navigation search and mobile focus remain usable (855ms)
+  ✓  59 [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:62:2 › frontend en: bulk import, FAQ and agency preview have truthful behavior (771ms)
+  ✓  60 [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:7:2 › frontend ar: inventory filters combine, validate, reset and preserve both views (975ms)
+  ✓  31 [chromium] › tests/e2e/final-visual.spec.ts:12:2 › final accessibility en: every active page and translation inventory (35.4s)
+  ✓  61 [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:27:2 › frontend ar: unsaved edits survive stay and failed save; successful save releases navigation (2.6s)
+  ✓  63 [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:46:2 › frontend ar: dashboard links to canonical creation and scoped activity (447ms)
+  ✓  64 [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:54:2 › frontend ar: navigation search and mobile focus remain usable (521ms)
+  ✓  65 [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:62:2 › frontend ar: bulk import, FAQ and agency preview have truthful behavior (723ms)
+  -  66 [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:70:33 › frontend en: public responsive layouts keep research actions, footer and editorial content inside viewport
+  -  67 [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:70:33 › frontend ar: public responsive layouts keep research actions, footer and editorial content inside viewport
+  ✓  68 [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:77:33 › frontend en: newly saved campaign keeps the next stage after navigation (671ms)
+  ✓  69 [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:77:33 › frontend ar: newly saved campaign keeps the next stage after navigation (567ms)
+  ✓  62 [chromium] › tests/e2e/final-visual.spec.ts:18:2 › final responsive en: tablet and narrow desktop (9.0s)
+  ✓  52 [mobile-chromium] › tests/e2e/final-visual.spec.ts:12:2 › final accessibility en: every active page and translation inventory (25.4s)
+  -  71 [mobile-chromium] › tests/e2e/final-visual.spec.ts:18:2 › final responsive en: tablet and narrow desktop
+  ✓  70 [chromium] › tests/e2e/final-visual.spec.ts:8:2 › final visual ar: every major workflow in the running app (6.0s)
+  ✓  72 [mobile-chromium] › tests/e2e/final-visual.spec.ts:8:2 › final visual ar: every major workflow in the running app (5.1s)
+  ✓  73 [chromium] › tests/e2e/final-visual.spec.ts:12:2 › final accessibility ar: every active page and translation inventory (21.2s)
+  ✓  74 [mobile-chromium] › tests/e2e/final-visual.spec.ts:12:2 › final accessibility ar: every active page and translation inventory (21.1s)
+  -  76 [mobile-chromium] › tests/e2e/final-visual.spec.ts:18:2 › final responsive ar: tablet and narrow desktop
+  ✓  75 [chromium] › tests/e2e/final-visual.spec.ts:18:2 › final responsive ar: tablet and narrow desktop (6.2s)
+
+  4 skipped
+  72 passed (1.6m)

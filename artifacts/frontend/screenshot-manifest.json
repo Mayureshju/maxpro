@@ -1,0 +1,5486 @@
+[
+  {
+    "path": "artifacts/frontend/before/1440-ar-about.png",
+    "width": 1440,
+    "height": 1204,
+    "sha256": "c7c8e3f27a2582c93188a93618d31a376b79879c5583a26c71697a92ed0e338c"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-agencies-pearl-gate-realty.png",
+    "width": 1440,
+    "height": 1040,
+    "sha256": "e4f613d081a89becf3e83e604628f02e85604811dd3abb10bdb397c7886c15e0"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-agencies.png",
+    "width": 1440,
+    "height": 1040,
+    "sha256": "e4f613d081a89becf3e83e604628f02e85604811dd3abb10bdb397c7886c15e0"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-compare.png",
+    "width": 1440,
+    "height": 2057,
+    "sha256": "81cc5419bd6f1a9e2d5048d6a5c6f009335b4655900752f95c7e4bcacb5205fb"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-contact.png",
+    "width": 1440,
+    "height": 1282,
+    "sha256": "7f8578be450f4f7cc00f4ed637c6d3e9ef833d1fd2ef4a28b06c36cb399bfd2b"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-faq.png",
+    "width": 1440,
+    "height": 1640,
+    "sha256": "34a76379e0fff761b20d053b89aa30fa4e938a8a24bcc75166872251c5bf75ab"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-favorites.png",
+    "width": 1440,
+    "height": 1677,
+    "sha256": "382f758fcc555e4ef58b137ff6f9a2dacfc3ec7ca48fc736d99601e0ab150283"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-home.png",
+    "width": 1440,
+    "height": 3165,
+    "sha256": "a3c8a0df8b9c2c7d21d633c4a2ec464a81aef86cbc45dd932c4836d66c97f0fa"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-map.png",
+    "width": 1440,
+    "height": 1289,
+    "sha256": "837fd04bb2b23ef425995d16e7a53ec0c69db935c54059b78383c27832c68a7b"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-pricing.png",
+    "width": 1440,
+    "height": 1678,
+    "sha256": "6df2ba21b79d65404c06da15a4039b02a06b7cf1652db58a82a17cd8edc9f71c"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-privacy.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "a70eecb8856106db2eccf67eb96b4170a59c0589857b02138355e63e180d4fe8"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-properties-AQ-10233.png",
+    "width": 1440,
+    "height": 2663,
+    "sha256": "48c07bcf4592fb4c31a90f5589b96a74c59c6cebbbe9a98f063fc88fc99fecda"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-properties.png",
+    "width": 1440,
+    "height": 2010,
+    "sha256": "f59d7840c602ddee62eac3cc2332f0fd7081f0cbf72c343145ee8ec62895a44f"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-register.png",
+    "width": 1440,
+    "height": 1198,
+    "sha256": "7bf4650dd525152281296ee16417208c546c625e6ce60123aaccf09f4c19920f"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-resources.png",
+    "width": 1440,
+    "height": 1204,
+    "sha256": "a45af1ed122c303a834a725816a72992955688e4612b71486dda2a52b5e327f6"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-saved-searches.png",
+    "width": 1440,
+    "height": 1089,
+    "sha256": "d1756d168e9925da5f5c9457a17c5d38c8c161aa1faad044622715aeca12e38c"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-sign-in.png",
+    "width": 1440,
+    "height": 1133,
+    "sha256": "59ad4c4c3571e60529f62e7dc9aea4530f592406db478bce0753bc93bfe02c33"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-solutions.png",
+    "width": 1440,
+    "height": 1656,
+    "sha256": "7b618111f69b460b89835d0e42f1bf96003e871b7ba185851a670c0108e0c5c8"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-terms.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "9607f1d23b2a6e8c8a37c5506b0203e26f54e58eb11c5f60b61c9e1cefef2ea9"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-admin-audit.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "a8c2ae6454640b34ddd5ba4b68979b217d644b3d8479ee401ad391f0cfdafb9a"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-admin-cms.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "926a48bdc4c3a22cb2e88ffac364989101b54a65c58e0a71a8153188e3c06f63"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-admin-connector-health.png",
+    "width": 1440,
+    "height": 1725,
+    "sha256": "c0e2153043c2e40e6841f6b3ce0c71307f71f7e05a16e0093d1ee3d9e1cebb4f"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-admin-integrations.png",
+    "width": 1440,
+    "height": 1795,
+    "sha256": "8e0abd9b6618be82d83c41901737b4f60de5dd0e714846460f97d5511692cf11"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-admin-moderation.png",
+    "width": 1440,
+    "height": 1258,
+    "sha256": "34ebd64da0cb8871e4f5d57a2aa4338834455abd3ed4b7fe4268522096f11099"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-admin-organizations.png",
+    "width": 1440,
+    "height": 1548,
+    "sha256": "71ee0b95c04e4fdebb39f9c973a5889366923539aadab131da70a4b50194b18d"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-admin-plans.png",
+    "width": 1440,
+    "height": 1301,
+    "sha256": "59b88b07774daf08fae973fbddfbeb38792e14878dceda782093eadc0ba1c1bc"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-admin-reports.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "427f25ec54b81ee4e316b4eb9cb6de6347dd32be4e98133a0a56eb1b14f67a23"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-admin-taxonomies.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "01946873123f36cd2274c7578d593c61f4eb2cf4f339f0068cb53ce9cd4cab89"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-admin-users.png",
+    "width": 1440,
+    "height": 2271,
+    "sha256": "4c5e9fe9729f1f4283d7871b7cb497afe9dd5186df98d8ed2de0bcf398481dfd"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-admin.png",
+    "width": 1440,
+    "height": 1470,
+    "sha256": "fd71a23ca1a1c0d41a358ca8a158071a9819de16c10bc66fcc275dbc14b7e67a"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-ads-attribution.png",
+    "width": 1440,
+    "height": 1789,
+    "sha256": "a9975fb976bf8fb3712bf3626a3b8208d0ff62885c787afae32a14e17f7cae72"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-ads-catalogue.png",
+    "width": 1440,
+    "height": 2297,
+    "sha256": "0e48de85ea532f92ed14ba681aa5c95c1f31ae77a72a6730aae5da91cc87cbf8"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-ads-placements.png",
+    "width": 1440,
+    "height": 1038,
+    "sha256": "6ed8b9bcc76f45c9dbc8c239dbb13872131915963112e3802605e717cca9e60e"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-analytics.png",
+    "width": 1440,
+    "height": 2382,
+    "sha256": "34d7a038f3bb19878aa7bf93af81d27f8c4dac1fc6fd65f665fbf2c913867e3d"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-billing-dunning.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "4ffad3616fa969c0c77bb5b8f5e0086800c4582321b56c591682377c6b70b6a4"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-billing-invoices-INV-2026-0419.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "2b7162530dd301e9b88bf08912d1e6e9443ac80b265f6fd052e63e3456a93bd5"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-billing-invoices.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "4ffad3616fa969c0c77bb5b8f5e0086800c4582321b56c591682377c6b70b6a4"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-billing.png",
+    "width": 1440,
+    "height": 1416,
+    "sha256": "f9d003ccf5121806a5ad7ce78012e77ad61eb0c8808aa7e65f3d36958fad932e"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-campaigns-AQ-10233.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "ca96b66fe996b7b52686b2ab3b38ea137d7eb4c04b91fa0e1996c1f2a7732f21"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-campaigns-new.png",
+    "width": 1440,
+    "height": 1451,
+    "sha256": "f1e8105bfcf84e7e8a2246f04ea70179e3ffdd937969b8fe7a8d322a825fbb45"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-campaigns.png",
+    "width": 1440,
+    "height": 1086,
+    "sha256": "f2d79feeb0c0546108d20e597ba9a81f26ab4fec1488d21fd89ad04a0dc62b51"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-hub-connectors-property-finder.png",
+    "width": 1440,
+    "height": 3677,
+    "sha256": "4143bf699e6cfb5d6f644f88e108f16c87c92289c3686f22a4b91d67df9bb41f"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-hub-connectors.png",
+    "width": 1440,
+    "height": 1375,
+    "sha256": "7aff229d8ffa48047d5f90d8d24d4ac9895f1af7b6c382252842bc1effa162cf"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-hub-feeds.png",
+    "width": 1440,
+    "height": 3157,
+    "sha256": "c7516c08f0a907dea4902cc38f41d98b0a7997636ffb375da94b8ccd5cd0c620"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-hub-jobs.png",
+    "width": 1440,
+    "height": 1050,
+    "sha256": "91dadff78c16b1cd9749748c40f73f494af9c9ca5134171e71761092ad5d18f7"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-hub-mappings.png",
+    "width": 1440,
+    "height": 3235,
+    "sha256": "fcec6e931e20419f4ee92de3177933bc31e3862d5ee8f53d79dad5f8f7f50c47"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-hub-marketplace.png",
+    "width": 1440,
+    "height": 1297,
+    "sha256": "0ffc4e7a5e35acd503b74c62c7c3ebf25ec53661f8ae91a2ae962ff3ab8a3170"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-hub.png",
+    "width": 1440,
+    "height": 1305,
+    "sha256": "abf10c1c32435e1476f900cbdd0b9cdc72b85044573256ce7b3c8476e888717e"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-inbox.png",
+    "width": 1440,
+    "height": 1221,
+    "sha256": "65d6798fe96738fa17ef8ca6ee50d4c199d37e265cff0fd23ac22a041d6cc914"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-integrations-ga4.png",
+    "width": 1440,
+    "height": 1458,
+    "sha256": "b838a024f8675ce7122347ff01fe943e16caf1d61c61f3d1b0c8408001cd5b19"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-integrations-google-ads.png",
+    "width": 1440,
+    "height": 2383,
+    "sha256": "903669583f9a76f2090073eb117e412e5e51d79facb0aff8c08fe1c3bc68d0e4"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-integrations-meta-catalog.png",
+    "width": 1440,
+    "height": 2219,
+    "sha256": "65b9879f4356b9f1b44f90e0c966178f311bab38e1b959cd0115fa6f95cc2623"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-integrations-whatsapp.png",
+    "width": 1440,
+    "height": 1417,
+    "sha256": "ac12113b71c7ef7bac766a8a9aafaa10cc620f9263b8b82e6e4ceeef04eb823b"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-inventory-AQ-10233-edit.png",
+    "width": 1440,
+    "height": 2583,
+    "sha256": "4d0253f37ce5f5a89adb6350b0a518d8e40f1d626d59349ee4783e997cb411f6"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-inventory-AQ-10233-enquiries.png",
+    "width": 1440,
+    "height": 1350,
+    "sha256": "530832818496d05620e4c9f8a4f27e2715dc0cabd65f17a3f5aab2212ff911e2"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-inventory-AQ-10233-media.png",
+    "width": 1440,
+    "height": 1617,
+    "sha256": "6306e40e2f562f9447fe749d21873d32857c8566f9dcbfc38e4cc03a153686bc"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-inventory-AQ-10233-publishing.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "5b46d0d2ed0bbbfe82a7b8154f8c4630e938691312546669efc845cbdfc3124b"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-inventory-AQ-10233.png",
+    "width": 1440,
+    "height": 1896,
+    "sha256": "6faf0efb57dde3b8847abe165e9089e8026444d516ead073a6e710a6e1c593a3"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-inventory-import.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "28a40e6db19d3f9ee4843a22dfbf13562ad46a42934557149277a6497dbf3b26"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-inventory-new.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "c01eb9caef13db3c3d237906978cd26efee8c5233b6f174a787f8da1f4bd3dbf"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-inventory.png",
+    "width": 1440,
+    "height": 1280,
+    "sha256": "7e6fb2ffaf45f73f8df97445922576a9d5da80366fc2c28476cdbab270790329"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-leads-LE-2101.png",
+    "width": 1440,
+    "height": 1985,
+    "sha256": "6d5fe6eb4e53ee25576f6f3eb62412b0a103917233393085ccf80fb9949ea55c"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-leads-assignment.png",
+    "width": 1440,
+    "height": 1781,
+    "sha256": "4e8aa2a8e70fbb7c7ab4e07c9c8f5b3de1a3e824dbdd08aadcbe26c63c995563"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-leads-viewings.png",
+    "width": 1440,
+    "height": 1315,
+    "sha256": "8d43e1c5a6948dfcbe9e1f1be3c00984ee452c0df9fe997dc7b19dbdb6488bc5"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-leads.png",
+    "width": 1440,
+    "height": 1415,
+    "sha256": "d1cb4581dde4f74e977e96b4251e026dee81d808cc091cb1b14d2add51a02259"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-notifications.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "c52e7873a5f166b184085fa8b076c4eb8559d322aad82bb2dbab87a035f2e327"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-organization-new.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "017b6b18a90f3597da1d065ea3ffc7c39dd83d109134fbbc0ab4206d633d6907"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-organization.png",
+    "width": 1440,
+    "height": 1078,
+    "sha256": "1373d1acd0657b166906a01a4bffe3612127468c725994f7248c67c9d5df31e0"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-publish.png",
+    "width": 1440,
+    "height": 1367,
+    "sha256": "7efd15f5c7638badc77441c7bdfd2b05fcdaa3d877e117b3a953826ff39e83c4"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-settings-domains-preview.png",
+    "width": 1440,
+    "height": 1410,
+    "sha256": "2a5829b7171c6ab75f9b915f6b41e8bcc1bf235c542a6e9c166d89e8e3a15084"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-settings-domains.png",
+    "width": 1440,
+    "height": 1206,
+    "sha256": "debf02a741bd1a4b0e24eb6fd730ad935049729b95b546a28932987f81ee1559"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-settings-privacy.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "6098fd82ecd280d3c7da68f857884869949ba4a5f196679d63284c65bc5ebc7d"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-settings.png",
+    "width": 1440,
+    "height": 1001,
+    "sha256": "85c8ba1050b12112d94dc9efd23cd25a9581a3d08f4714b7919bd91570474191"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-studio.png",
+    "width": 1440,
+    "height": 1232,
+    "sha256": "147e181a5dda46ff3fbccfe0bd79c983d48bd51639ca277cf2ff5ce11391ce20"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-support-assistant.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "3605f7501ea0346517bae261a73758589a7526c6195106766d3d6d69b5b0df23"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-support-evaluations.png",
+    "width": 1440,
+    "height": 1070,
+    "sha256": "adaf5ab0ecd7573cb6f23c79cbe4ab2a0b42a2d26b46f9b7da909ff7f5ac86ba"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-support-knowledge.png",
+    "width": 1440,
+    "height": 1022,
+    "sha256": "d1d25f38964b2ebd8ef07cdd5ca74ae4dda29dbf0d5b8e06a2ae5205f94d7581"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-team.png",
+    "width": 1440,
+    "height": 2271,
+    "sha256": "ced5075f1fc1e62f0cafd9b4c7d2ccda04d2cd31ddd16d9af1e6fe9a91ca080e"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-verification.png",
+    "width": 1440,
+    "height": 1017,
+    "sha256": "eef7a643cd62285a08e99dafba846f00e55d20e7fe3c1b6f67a65cb977cfb509"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-whatsapp-packs.png",
+    "width": 1440,
+    "height": 1277,
+    "sha256": "0809dddc0a2a533a4268e5abf5e3767e90d41ab9a2ce73c60a3b415d6faafa09"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-whatsapp-sla.png",
+    "width": 1440,
+    "height": 1299,
+    "sha256": "1b8f5f671114d8bc16bf53a11a8e6b5677bc5d50cc5d6741f3e168908a113f4a"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace-whatsapp-templates.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "8806cbb38c1c7015b0a6c73344bc4858f92c0e410e25f82af202c350199094b2"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-ar-workspace.png",
+    "width": 1440,
+    "height": 1567,
+    "sha256": "d11cfd1c3fa061e23f644e5097d1863a0e0aa8c2edd6dd0583e958cf011c89e0"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-about.png",
+    "width": 1440,
+    "height": 1268,
+    "sha256": "62cf8e4ace14a7246ce725ee7e33fe91fbf3c720d6d7cf3c88659397eec98596"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-agencies-pearl-gate-realty.png",
+    "width": 1440,
+    "height": 1067,
+    "sha256": "271703555fd5cb37f54553faa5d89e327e33371a418254bc315040a111856d0e"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-agencies.png",
+    "width": 1440,
+    "height": 1067,
+    "sha256": "271703555fd5cb37f54553faa5d89e327e33371a418254bc315040a111856d0e"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-compare.png",
+    "width": 1440,
+    "height": 2079,
+    "sha256": "14cb9b1e9393950bad9e3752b5fb51c689dae9fdfba3fb77d3883a63c292e283"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-contact.png",
+    "width": 1440,
+    "height": 1282,
+    "sha256": "1764350bc7db2b1bfa286498842b9b6ec8e79da7d4205575e15a3ccef8dbc830"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-faq.png",
+    "width": 1440,
+    "height": 1745,
+    "sha256": "28869481fa7b6b435f00d804e21190190ed2c3ce70c57f64fd773503ec9e3d8d"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-favorites.png",
+    "width": 1440,
+    "height": 1699,
+    "sha256": "5038f6039f49d782db3f899d50c56c0dd484c8cbc9a45ad4600fc4a04b799d05"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-home.png",
+    "width": 1440,
+    "height": 3291,
+    "sha256": "d242b516cee7db1e3eceb75c16ea2050ce9386d8aa52ed1cefaff0a4ff678808"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-map.png",
+    "width": 1440,
+    "height": 1311,
+    "sha256": "1cbb3cd913cf3ff77ba38be69c486f484cb29c83f3e664db6b5a76915ce97369"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-pricing.png",
+    "width": 1440,
+    "height": 1768,
+    "sha256": "dda52fe2bcf5bde6985b0f87f0f48ac7dc68405f75518150e2aff92ffeb2058d"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-privacy.png",
+    "width": 1440,
+    "height": 1025,
+    "sha256": "010a27ee14d6f5064aa1454075cb5bb598bebd466e7c1f05ad24c9ad3221e764"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-properties-AQ-10233.png",
+    "width": 1440,
+    "height": 2663,
+    "sha256": "aa3ff46988a31bb843d8db2a56aba939d658f6d3b306623fa367c519873c0f14"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-properties.png",
+    "width": 1440,
+    "height": 2010,
+    "sha256": "05a29672a8e3ed8697c70dcb6097ea59d46d461e58da3062aeafbec6b896212b"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-register.png",
+    "width": 1440,
+    "height": 1216,
+    "sha256": "2577e5715809153e05b3be9df5c99701dd5ba0092600caec184ee86c36af0a5c"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-resources.png",
+    "width": 1440,
+    "height": 1204,
+    "sha256": "f5a8e6d6c90231e16135b15f366436b4aaa393032bd9288fd4454c928ec0a5e0"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-saved-searches.png",
+    "width": 1440,
+    "height": 1111,
+    "sha256": "25134b1451edb4e3f3f21a29ea87cd498d7c20d9dda8baae8a405cd9323b458d"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-sign-in.png",
+    "width": 1440,
+    "height": 1133,
+    "sha256": "98b87ddda84967fe50a4ece3cfb6488f099d9a1149230f872d8d19967773b602"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-solutions.png",
+    "width": 1440,
+    "height": 1682,
+    "sha256": "4434fca91cff8891a07e6cf49c2eb5fa060a8f3c02146443430630b209d67fcd"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-terms.png",
+    "width": 1440,
+    "height": 1025,
+    "sha256": "5495f794040142a89b19e9789b9195e815bd1634743777a59c35fc3b500c80ce"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-admin-audit.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "453996a39f0c1abba3f067b97c7955c7ebe48e48ca5180a4ed4fc5ebb3937466"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-admin-cms.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "dfae353a0d559b501fe9abba2cec434fd94310fcf02b0fce0e035b1c6bf252b0"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-admin-connector-health.png",
+    "width": 1440,
+    "height": 1747,
+    "sha256": "66257e931e06cc72bbdf53adbd66489840a19dfc0e87be033166a007844e752c"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-admin-integrations.png",
+    "width": 1440,
+    "height": 1817,
+    "sha256": "34a2dedbf036a0cedc8bd6765b4932c31293f4e75101c8081979818b910c08b4"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-admin-moderation.png",
+    "width": 1440,
+    "height": 1280,
+    "sha256": "76f1a99f989d4cf3895bb3781b062b2644e37d0e4a9b625625619fca1af2113e"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-admin-organizations.png",
+    "width": 1440,
+    "height": 1548,
+    "sha256": "ab362e0202b118150fcdbf1ef47966ecf9c4adbc18b3dc405cceeb3db72959d1"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-admin-plans.png",
+    "width": 1440,
+    "height": 1323,
+    "sha256": "d988b0d92001ea06af92df751c10051f3800da592010b1c5ef94f5688f4c5bc3"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-admin-reports.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "460048c2bf91759cebcd81cecccdcc4de80abb64219fa14175cd044f02c46366"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-admin-taxonomies.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "b3862836bc4ca092eea258075d58901d3b5ef43399561e410e929fe124ea8a45"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-admin-users.png",
+    "width": 1440,
+    "height": 2271,
+    "sha256": "f7c1948f41e695bd9362ee5cbd02686cfebb685e3dd3c56433240e27e0073a6f"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-admin.png",
+    "width": 1440,
+    "height": 1470,
+    "sha256": "e69214997888eb6a0b517e657c1d91033617acfa1bc97863e63ecc7dfec59918"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-ads-attribution.png",
+    "width": 1440,
+    "height": 1808,
+    "sha256": "51874b9c8024ab7bfda6ec5172b94c4ca843df7cb577b953b181449d33c5c3cf"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-ads-catalogue.png",
+    "width": 1440,
+    "height": 2319,
+    "sha256": "002de935ce6557f805a8929a411fe5daf1429c2413cb9c721bffcb5ce7b8e1b9"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-ads-placements.png",
+    "width": 1440,
+    "height": 1060,
+    "sha256": "22cc7bc990b698209f8b48dbe7a9631f8c8f83c5be407accbf04aee8cd628383"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-analytics.png",
+    "width": 1440,
+    "height": 2382,
+    "sha256": "700eca33b39ba8c7461e1b9123226fca4d7eec67c32bf552740af7eae0a01678"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-billing-dunning.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "ffe91abaaf96c65369aa152c37ef7da0b80376205ceeadf687069431e564eeb8"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-billing-invoices-INV-2026-0419.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "0782a04ded297ed7a0443fb8bbd0765a3b6a218536a92aef12af8c30cba64391"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-billing-invoices.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "ffe91abaaf96c65369aa152c37ef7da0b80376205ceeadf687069431e564eeb8"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-billing.png",
+    "width": 1440,
+    "height": 1411,
+    "sha256": "4bbdec85d24302868323a025a93dff59083a51dfd733fb83e207a8032dd8b2e4"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-campaigns-AQ-10233.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "aa712e3bcc82a407a1df49d645d62e515a4ea05e0df8f6393a967bfd19997e5a"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-campaigns-new.png",
+    "width": 1440,
+    "height": 1491,
+    "sha256": "71dc1c937eea75ec6b4d41f47728c5e6023ce8fb36a794ae4e2fc618d3ba0d51"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-campaigns.png",
+    "width": 1440,
+    "height": 1109,
+    "sha256": "cf32d5c3df2a2e1dc6f522660000ce5c4294e685a8ccaf3aebf36e13bbc07038"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-hub-connectors-property-finder.png",
+    "width": 1440,
+    "height": 3692,
+    "sha256": "b9764b03fc969d49f8f8741b47bf879fa5d4094629108fc313ebed2810f0e4d4"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-hub-connectors.png",
+    "width": 1440,
+    "height": 1447,
+    "sha256": "f5f123372bb4c2e1797b90c011a457e5a8974e813c757798b22cb6455ce9a1af"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-hub-feeds.png",
+    "width": 1440,
+    "height": 3197,
+    "sha256": "93094a73ad3f4cc26124487f023dd85cffe6c60d0502a17c146f0fb78afa5aa2"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-hub-jobs.png",
+    "width": 1440,
+    "height": 1082,
+    "sha256": "dbe02013eea4a19da9d26a92994ec70234330d65510d41e5e44e7c35ad487655"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-hub-mappings.png",
+    "width": 1440,
+    "height": 3275,
+    "sha256": "5873815434e6c244ccf3c43391995d261bb9eb0914f22dcdedd89dfbae0b8748"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-hub-marketplace.png",
+    "width": 1440,
+    "height": 1369,
+    "sha256": "bdb237d136503b77722d0448c864428af173546b5f5901185140230f3c8f70b3"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-hub.png",
+    "width": 1440,
+    "height": 1327,
+    "sha256": "82dc99836658dbbd7ad9637a4b0d5994d74346c333cc59fb186761c9178fcb9c"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-inbox.png",
+    "width": 1440,
+    "height": 1243,
+    "sha256": "52d91a227689c770dc9810533773084bdcae72e2e70ea473b0bc6efcdb0eaeff"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-integrations-ga4.png",
+    "width": 1440,
+    "height": 1458,
+    "sha256": "017f06523f727806c2898a6b5bf9a586e7343961c459f2e250f4e78241292950"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-integrations-google-ads.png",
+    "width": 1440,
+    "height": 2441,
+    "sha256": "7bf836c700c7b613ab63137b2f05ba3b7620e6d63231103bad04b778b15b91c1"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-integrations-meta-catalog.png",
+    "width": 1440,
+    "height": 2241,
+    "sha256": "b865be8f91f7b53622480d76c87b5ddea7e6eda6001c01e881d25bfd222bab54"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-integrations-whatsapp.png",
+    "width": 1440,
+    "height": 1417,
+    "sha256": "7743ac6a90979f9ffbdbc98345c9fe0de1506e24282fbcf79b096b527a7fbfce"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-inventory-AQ-10233-edit.png",
+    "width": 1440,
+    "height": 2606,
+    "sha256": "44feaa667431ba63b5c3ea361a26eca0d71eda91495091e414c7d16f5e8f3b00"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-inventory-AQ-10233-enquiries.png",
+    "width": 1440,
+    "height": 1350,
+    "sha256": "c5711b40bee9981f7372df07e797ffaddbe70eb69bf852eafe4454a7c1997b2a"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-inventory-AQ-10233-media.png",
+    "width": 1440,
+    "height": 1657,
+    "sha256": "ad8dd313e632ffe8572beb4ed2eda5e13d055b9097f4079d6bcd76edb88342d1"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-inventory-AQ-10233-publishing.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "69b2826c3ff0a33015111081f45af077f4c5a8f3bf0439af81dfe372e1228f25"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-inventory-AQ-10233.png",
+    "width": 1440,
+    "height": 1896,
+    "sha256": "352e0bbfee972449c10b365e3b83057c3d633a17159d85978daa47e8eb690324"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-inventory-import.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "2e462e6eca87b7a1e7a0f260941b67893e9437f81bea878a016385f3d87e4bc5"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-inventory-new.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "4273a30da3cefbd28b63f21728d4d28ec2ec95e1db861ba5db50d8037a9fc9d1"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-inventory.png",
+    "width": 1440,
+    "height": 1280,
+    "sha256": "977d78c23462037f0866167f4945caf854f8dcd5329d8a01dc7807d233b77337"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-leads-LE-2101.png",
+    "width": 1440,
+    "height": 1986,
+    "sha256": "06b6dba2a6adb2e1192dcfc88479c83cc254a3f51fe2fd992cd4e1fc5ad4fff5"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-leads-assignment.png",
+    "width": 1440,
+    "height": 1803,
+    "sha256": "46d09d88a109bb8db94bb04a5ef00b03a82731f31c0e269e949abd8b7e3cf2e7"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-leads-viewings.png",
+    "width": 1440,
+    "height": 1337,
+    "sha256": "e3391ab846ccc7a2867f51567ba6ef6717193bf7fea781f7d095da30ed8ae5e1"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-leads.png",
+    "width": 1440,
+    "height": 1437,
+    "sha256": "170854344e8b2d8cc7cf9397a0084a2fc39757400012bf8cdd8e0ea46c592366"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-notifications.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "1047b324009714d2204b29987af4a8041e44f841d4cceee7e7f5d70a7bc5c98d"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-organization-new.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "1adda270c1ef75877435d544de1a0bd977401b640269006d108ac0158aa8672a"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-organization.png",
+    "width": 1440,
+    "height": 1078,
+    "sha256": "07ab711b6fe5834208adfe4a85bd92be310d0602b97f3f0764dba9872bff9291"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-publish.png",
+    "width": 1440,
+    "height": 1449,
+    "sha256": "6d7323c0c87c70f871fdc03c8a2b291e341cadf1d958d481f5b4ace1fa9d2d95"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-settings-domains-preview.png",
+    "width": 1440,
+    "height": 1410,
+    "sha256": "e685ccba80e108897365b2ae21eccaab73f386e17547660aabe428d53ff1e25e"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-settings-domains.png",
+    "width": 1440,
+    "height": 1206,
+    "sha256": "a170e9d461034b44e4c284f3c0be2912a4e0a033e548d2e671b1916f44a15a6f"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-settings-privacy.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "699533d760acec08aae0ba31de2fff72684adff6f94e94177df8e1eeef7f230f"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-settings.png",
+    "width": 1440,
+    "height": 1001,
+    "sha256": "df2156545d484f67271ac1d4bc3b412e7adddc1759f39e12c911decc9d57e3b5"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-studio.png",
+    "width": 1440,
+    "height": 1254,
+    "sha256": "13a6469c6290e4528edbab9eaa268beeb3c7ed72a588fbdb477d7f3a2343a4d8"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-support-assistant.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "32fade483126a8447a8579799b43b2892668b0fdc407cf27f7b993bd05f7a49f"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-support-evaluations.png",
+    "width": 1440,
+    "height": 1092,
+    "sha256": "6dcb9c9ca33bbd7fed9a4857e6d8224058feeacda85d7983b64dc5cc940ce3a9"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-support-knowledge.png",
+    "width": 1440,
+    "height": 1044,
+    "sha256": "d6c26719d1f756160acaa1179611998fac8e34d8abce4e87b16a46737e99a03c"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-team.png",
+    "width": 1440,
+    "height": 2271,
+    "sha256": "c5fb286be803e535dde268896b2e89eab9bafa2e5286c4a56ecf894bb098ac04"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-verification.png",
+    "width": 1440,
+    "height": 1017,
+    "sha256": "2c257db42f102d06570d931718ef5af6a1d34c749f47ea71ba27cf842d33a634"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-whatsapp-packs.png",
+    "width": 1440,
+    "height": 1300,
+    "sha256": "99560e7e54d68e290c04287e34cae5db9b1535bdf8f97f4b29850ebe70a6815e"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-whatsapp-sla.png",
+    "width": 1440,
+    "height": 1321,
+    "sha256": "891fdab6e257d95c33edc07e4396a335a69cd630e9e50d55171a5ce79b5da11a"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace-whatsapp-templates.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "ef99114138d717cc58b308bcd94a2437a02d8e50454630ceec9a1ff85c014d99"
+  },
+  {
+    "path": "artifacts/frontend/before/1440-en-workspace.png",
+    "width": 1440,
+    "height": 1577,
+    "sha256": "a3fbe7d879231c27a534df4617be0836a1e2d4307d213fbe2907e5928aad4b1c"
+  },
+  {
+    "path": "artifacts/frontend/before/375-ar-home.png",
+    "width": 375,
+    "height": 4600,
+    "sha256": "3161ed9f51b425d8ca5054b737f34b03edc7c7b7292a92864e637467848f94d7"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-about.png",
+    "width": 375,
+    "height": 1434,
+    "sha256": "28645b156ebce3c34aef5247d28433de41efed93e990a2abdf53701b2027d9b0"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-agencies-pearl-gate-realty.png",
+    "width": 375,
+    "height": 1279,
+    "sha256": "41a697ab71b7ad85f9396ce2bec6d4bce5cb9d3f923ed8c4b704ac2cb6d82a85"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-agencies.png",
+    "width": 375,
+    "height": 1279,
+    "sha256": "41a697ab71b7ad85f9396ce2bec6d4bce5cb9d3f923ed8c4b704ac2cb6d82a85"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-compare.png",
+    "width": 375,
+    "height": 3257,
+    "sha256": "bbb0d0808e0bd993600ca7c975dc4f8ae320f6293e2651904ec1b05712d4bc89"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-contact.png",
+    "width": 375,
+    "height": 1446,
+    "sha256": "90d2b527745cf63e6bff8924d07dade596b7b16ae9dfdfa1143d64fcd80e454e"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-faq.png",
+    "width": 375,
+    "height": 2028,
+    "sha256": "8e3d6b00044f3d4c07c38179dae2d008e55b88e52aacc80d595a6c31aba13e95"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-favorites.png",
+    "width": 375,
+    "height": 2877,
+    "sha256": "d8c124b66129cf9940cc51f952957e32c3684dca446c6d692c1be5580c90c90d"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-home.png",
+    "width": 375,
+    "height": 4776,
+    "sha256": "18e9faf63b51f0b76134d83c285c9510bad06eb6fc8846011a93811937f10373"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-map.png",
+    "width": 375,
+    "height": 1641,
+    "sha256": "116a53fc6548b3f897027d41d7bb3382dea67f00f6e40f6ef430b1c0e19d73f0"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-pricing.png",
+    "width": 375,
+    "height": 3283,
+    "sha256": "9422f69bb527496d7c274c88766e2683156b282aa9777c70c0f5b237c0c7a17c"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-privacy.png",
+    "width": 375,
+    "height": 1140,
+    "sha256": "e65529b797bd3871cd3a1d7ce09cbeeea918ac48acb00db1b2e77caddc43e7ce"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-properties-AQ-10233.png",
+    "width": 375,
+    "height": 4684,
+    "sha256": "9eb94920cb3a62b41ecc1d579dc3947903e21f4e347e3ea880bdb6acf0b247ce"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-properties.png",
+    "width": 467,
+    "height": 4361,
+    "sha256": "71951541caf4acee4af3cb002ea01382222d41b6652e759eb55a259667fa0fa4"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-register.png",
+    "width": 375,
+    "height": 1810,
+    "sha256": "34ebf37ee3d7394cc10e20359ac8a3f0fd0f3ea773f0cba172b88a4803286fb1"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-resources.png",
+    "width": 375,
+    "height": 1429,
+    "sha256": "f02e9f3b3a33edd179c04d729075c5d50afd3b5b79bda25c0b9745a8ead83979"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-saved-searches.png",
+    "width": 375,
+    "height": 1409,
+    "sha256": "b4ed555c3416c484e62ec74c580c701d69cb2a9e4d682faa1e3f9b31a11b5f85"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-sign-in.png",
+    "width": 375,
+    "height": 1249,
+    "sha256": "5eb26903e92fc553d3a0eb6103dcf8ac22bf3733f7e9df59e3443b451a970aef"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-solutions.png",
+    "width": 375,
+    "height": 1903,
+    "sha256": "36d8cf5d6a716251780ac6ebb103bac9c29195da8be6dd98914e8a0ebc662c6e"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-terms.png",
+    "width": 375,
+    "height": 1140,
+    "sha256": "612c1fa39b4473df1af78c7edf73871a594c174686a9d3f5c0f64bf4932cc920"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-admin-audit.png",
+    "width": 375,
+    "height": 1285,
+    "sha256": "fed5d42ff1d671fe54928694fda58a3d51eed92ec3e6c8d7df7c3452ee660e9a"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-admin-cms.png",
+    "width": 375,
+    "height": 1222,
+    "sha256": "ef267096d375fcd56e42f40cb197a8636ee6813eef5433b729ef0e1bb623b24f"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-admin-connector-health.png",
+    "width": 375,
+    "height": 2326,
+    "sha256": "afeba3720d46c810336faac6fecf28635f1dccc655f437719a4ef46fce9c3192"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-admin-integrations.png",
+    "width": 375,
+    "height": 2433,
+    "sha256": "ba98fa97ab42fa5362b5bab40d9071bb0cd47da58120e7c0651236d19a4417bf"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-admin-moderation.png",
+    "width": 375,
+    "height": 2413,
+    "sha256": "f1d87dc74a32016df0e90c52cde168aa9b68ec25a220a1e1958cbaac2bb32c1c"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-admin-organizations.png",
+    "width": 375,
+    "height": 2359,
+    "sha256": "091d53ce22dd5fbfd2505251619c0af0cc26b5381871cf3d091af680104f688d"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-admin-plans.png",
+    "width": 375,
+    "height": 1863,
+    "sha256": "415278bc9b9d1dc218d5d02d2b68f235a6757d1e84c8a486da808c6759d7f9eb"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-admin-reports.png",
+    "width": 375,
+    "height": 1400,
+    "sha256": "5a1e90cc7fd414ae1fdd09d43ba4c22a68aee2fe2a814cdae10164a801e6b16b"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-admin-taxonomies.png",
+    "width": 375,
+    "height": 1107,
+    "sha256": "e5458e7e147e662b6b8028e149b8af9cda1bbf8031458eae85c40e6d2f63f6f1"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-admin-users.png",
+    "width": 375,
+    "height": 2751,
+    "sha256": "d12bb345775a064c9e1f3f735f9804e562634d9d5cb1ce942e3ade680d2de2fc"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-admin.png",
+    "width": 375,
+    "height": 2244,
+    "sha256": "d829298d54dd1f3921edade0811839a5951642232441e57ca62aaaf5c83fad84"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-ads-attribution.png",
+    "width": 375,
+    "height": 2992,
+    "sha256": "b00831f2721eb9a00a5764235818f56e103f160ace83c6004ff5a97184003d47"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-ads-catalogue.png",
+    "width": 375,
+    "height": 2951,
+    "sha256": "7eb7703a61699cdf766e618da790a793d83a8fcd7d83481f4ca06e9ecaa21c3d"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-ads-placements.png",
+    "width": 375,
+    "height": 1346,
+    "sha256": "4e8ce2719e7fd9963c153b47245fb63b9217e33a649881e4193a171f74aec703"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-analytics.png",
+    "width": 375,
+    "height": 3393,
+    "sha256": "5b777748ac7742ef25edfa6f046ac495173721d70c1aaa8aa585e51ef19aeab3"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-billing-dunning.png",
+    "width": 375,
+    "height": 1094,
+    "sha256": "e694a85ab82fc413913c53138f690d938fac50f3b1886feba9392937a7be0259"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-billing-invoices-INV-2026-0419.png",
+    "width": 375,
+    "height": 1041,
+    "sha256": "bcf011592796577ed5adb0147ea4d6ed926f0a827ee4d58f25f0834b2e25b21f"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-billing-invoices.png",
+    "width": 375,
+    "height": 1094,
+    "sha256": "e694a85ab82fc413913c53138f690d938fac50f3b1886feba9392937a7be0259"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-billing.png",
+    "width": 375,
+    "height": 2077,
+    "sha256": "7ef98abc82b9b192e93dc02e22a9ecb6ebe2dd94b90244d73f73f7db64c98ef7"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-campaigns-AQ-10233.png",
+    "width": 375,
+    "height": 820,
+    "sha256": "e914f298203c13e4d1e6854ce9760d351f103382822bd9d63112ccc9146fe779"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-campaigns-new.png",
+    "width": 375,
+    "height": 2753,
+    "sha256": "283d9aad4a644194c246321114046a77b56e0f98a3b240c28bfafc107f876a70"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-campaigns.png",
+    "width": 375,
+    "height": 1833,
+    "sha256": "e088e54a8774afc9d5fd4c61713cc46cc44ccab40495eb8a8382297a05215f4c"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-hub-connectors-property-finder.png",
+    "width": 375,
+    "height": 4943,
+    "sha256": "ca91bb25b6e50b259cd4a8d501910a4ad2b215978908108eb26054d3b671d214"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-hub-connectors.png",
+    "width": 375,
+    "height": 2805,
+    "sha256": "7cc7dcb6c713506be6e308ecae794356607a868c0a5117d36dd73920c1dc177b"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-hub-feeds.png",
+    "width": 375,
+    "height": 5761,
+    "sha256": "8e8efd885e864d162133fa0dffc5e48d0d5f2d70c34f29fa6cf07014190cbd92"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-hub-jobs.png",
+    "width": 375,
+    "height": 1596,
+    "sha256": "8926fe3bb376428bb4d7a649c802b050251e47f9350028a01953bb6bfcc040b1"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-hub-mappings.png",
+    "width": 375,
+    "height": 5875,
+    "sha256": "7e8e02982a8e9e1925be03e9a37f6ea6387129083b446e287b3ae1c2aaa0132a"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-hub-marketplace.png",
+    "width": 375,
+    "height": 2691,
+    "sha256": "f33263503ea1c431e2271d9b6e67e9577e612ab6527c0b4788d079376d3b9f0c"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-hub.png",
+    "width": 375,
+    "height": 2490,
+    "sha256": "45a31533de917a81b40683ab598f116721aebb8666f5278d33ecb943e9678d42"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-inbox.png",
+    "width": 375,
+    "height": 1680,
+    "sha256": "7b043c516bb17c2aaa0d9c38595617a18d895f2fec0dd59c0b846a78d49cb76f"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-integrations-ga4.png",
+    "width": 375,
+    "height": 2630,
+    "sha256": "4d3ddbe687a92f7bea457cbbe2d5ccd67f18d9df16824ea41e02870dd2a1b12a"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-integrations-google-ads.png",
+    "width": 375,
+    "height": 3141,
+    "sha256": "a0319f6477665e8329eadd4f5e78206f8c5f937fd12f7f742450b66e4b25c234"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-integrations-meta-catalog.png",
+    "width": 375,
+    "height": 2836,
+    "sha256": "421a2888f1e72518452e97acfae858311c4aa7d7241549ca595f773f6a042ffd"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-integrations-whatsapp.png",
+    "width": 375,
+    "height": 2613,
+    "sha256": "b67739b0399b2ca3fb0e79f4533dafaa662c07f690fcc3f398490e4f16dee472"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-inventory-AQ-10233-edit.png",
+    "width": 375,
+    "height": 4019,
+    "sha256": "87f7bf2f55e0c2742d28ddcd0c592be99262627332620ec0955609dcbc1bb9b9"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-inventory-AQ-10233-enquiries.png",
+    "width": 375,
+    "height": 1969,
+    "sha256": "24af5c687acd00bf214d7bffab16f7435d4ed6bdc278bac07e84f3d050c3e0ec"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-inventory-AQ-10233-media.png",
+    "width": 375,
+    "height": 2995,
+    "sha256": "d745aad1a0b26017222221dceeb40877378ce20f99107f6b5aaaa80642bdbff1"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-inventory-AQ-10233-publishing.png",
+    "width": 375,
+    "height": 1232,
+    "sha256": "11c4eeffd8bf905a7f83ee116dab15f59511537374b7ead19f89c53dfd2a164e"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-inventory-AQ-10233.png",
+    "width": 375,
+    "height": 2723,
+    "sha256": "d11db098b59efe22f9e88ef4c8a8c8b58a5aec12a0f5d9662da1265cb1ff4679"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-inventory-import.png",
+    "width": 375,
+    "height": 1302,
+    "sha256": "5ea0b873c13d3392fe4c903982f491841412a9ef29bd49e470823c0b2fdef44c"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-inventory-new.png",
+    "width": 375,
+    "height": 888,
+    "sha256": "06a9e852a38b5cb0fdaab861d1998d955f42194faf1f95a8eb21fec1704f8941"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-inventory.png",
+    "width": 375,
+    "height": 1595,
+    "sha256": "19e94fdd5f9d678a06c5752952b305f91b69b01a5f628bbb2f7cddef9604810d"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-leads-LE-2101.png",
+    "width": 375,
+    "height": 3012,
+    "sha256": "5d185eed8321da9fab0616912eba406f6596aa6324b738ad1e9ee2635c52024a"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-leads-assignment.png",
+    "width": 375,
+    "height": 2815,
+    "sha256": "338d64e51b693acbc82b3d3624a8b12a23d76be8ccad8940ef36a35f7c9a615d"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-leads-viewings.png",
+    "width": 375,
+    "height": 2054,
+    "sha256": "b1132b134b9a05ea9a7b04c18f14987ec13842924f394fe6feeea6e493a8a53d"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-leads.png",
+    "width": 375,
+    "height": 1947,
+    "sha256": "281446c6c3f1a9dfda4c4ed355b2ae068e11435ba91a1ff9f2d82a250bf17d4d"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-notifications.png",
+    "width": 375,
+    "height": 1210,
+    "sha256": "cf293e9aa0df0f6ee62abea07615b7419715536009c416284d63004dc9170fbc"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-organization-new.png",
+    "width": 375,
+    "height": 1466,
+    "sha256": "8c7f20df3797515c1b67a900b0d9c3d37928db2914426ffe1b3570fe3158d3c5"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-organization.png",
+    "width": 375,
+    "height": 1628,
+    "sha256": "3fe54d9b691f22fa042f23eb81c80931ba08c82e1c28c39fb65d28bbc8de75ae"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-publish.png",
+    "width": 375,
+    "height": 2416,
+    "sha256": "b3cfed8b803ef991e276fd82660bcd374b10f7e798ab6406ee0ff9a1c246eacf"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-settings-domains-preview.png",
+    "width": 375,
+    "height": 2853,
+    "sha256": "4bda87d7c2d902931be18f533c0b3934d0b9bdb164437b6a2b31dc3c15cf0887"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-settings-domains.png",
+    "width": 375,
+    "height": 1715,
+    "sha256": "9e58e51d29764e39523833474c0ec21432becc4c218c7d35cdf47cc90fdba708"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-settings-privacy.png",
+    "width": 375,
+    "height": 1351,
+    "sha256": "1e2b5ac48d80a963d114b1978e548ddd330d206d2c36540039c1788aee706079"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-settings.png",
+    "width": 375,
+    "height": 1341,
+    "sha256": "8b587917b0dc9bfc643867b3faa9dc4869e0354e3f42b848a4a9c775b134955f"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-studio.png",
+    "width": 375,
+    "height": 2245,
+    "sha256": "a50426089b486896ea250e0341170c1d54e59a08e4f003134baf03f3532da958"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-support-assistant.png",
+    "width": 375,
+    "height": 1378,
+    "sha256": "74511b6caa5dd457de78c7dbcfdbd866e0045415d96f045859d1ee19e0200ab8"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-support-evaluations.png",
+    "width": 375,
+    "height": 1391,
+    "sha256": "a0a02960de4e5b36430c2b9f3d967f1a21e4bddc7b36261b32ea661efbd8bc59"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-support-knowledge.png",
+    "width": 375,
+    "height": 1236,
+    "sha256": "321cc47072f8de2f40ab2ecdb989adf391d73f360993b1099692c30fc50e8547"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-team.png",
+    "width": 375,
+    "height": 2673,
+    "sha256": "460d73ad67066678d8c12e63d9a4c97f99469cd34daf18330a2119edd5385422"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-verification.png",
+    "width": 375,
+    "height": 1593,
+    "sha256": "98ca336662dca3dcca21e1a0f45a416f8b9756a8d53d07ef5b01d7d34b6eb908"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-whatsapp-packs.png",
+    "width": 375,
+    "height": 1735,
+    "sha256": "42c249c6a58922258144166e19dbdea38facae8d6027f4dbef4d5411a9af4723"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-whatsapp-sla.png",
+    "width": 375,
+    "height": 1794,
+    "sha256": "2eba6a8d3b82267a16b6e340546325e659049de584399c476e2384121a5310fc"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace-whatsapp-templates.png",
+    "width": 375,
+    "height": 1201,
+    "sha256": "b3a8a1cd6e99191b6267db36766ea22e4fa26522b40f352ef49a9f461ffcba72"
+  },
+  {
+    "path": "artifacts/frontend/before/375-en-workspace.png",
+    "width": 375,
+    "height": 3436,
+    "sha256": "74e3a905e6196079619504ccd7d17dc49a380982ef9f7e14b3cc4cfe0404e403"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-about.png",
+    "width": 1024,
+    "height": 1187,
+    "sha256": "bb66bf3810d0d7dbf08566bd40dfa21d750c5b62349e00e223333908091114dd"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-agencies-pearl-gate-realty.png",
+    "width": 1024,
+    "height": 1402,
+    "sha256": "88d5949e41cec16fdea572135cfb44c41789fd214ccee9044093db956e0ec0fd"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-agencies.png",
+    "width": 1024,
+    "height": 1000,
+    "sha256": "084545b5d2de086c52a895ae139cd631b17b5776056dcea33161049e5b580596"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-compare.png",
+    "width": 1024,
+    "height": 2636,
+    "sha256": "92df9f954f04fb72d97322d993fe7cfa664f62cbd06d19276c5e9013ecf60891"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-contact.png",
+    "width": 1024,
+    "height": 1208,
+    "sha256": "38042dbc1b1b76f8bbacd2336a8ac9905ca7fd662e692608c9d9b7e6788ba3d9"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-faq.png",
+    "width": 1024,
+    "height": 1149,
+    "sha256": "c3f8d6b0d74f77f3fad5385fe2b02510b3a40b60f5797104fe375fafa4cf0d63"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-favorites.png",
+    "width": 1024,
+    "height": 2243,
+    "sha256": "1b91346122afc89ad54a50dc7a3ff217b25212747ef92c3133279e86c553e8b5"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-home.png",
+    "width": 1024,
+    "height": 3690,
+    "sha256": "69047d1c9317fa5ae145dfa1e6686c8231dcfc11e01b55272cbe60cd8baa2c01"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-map.png",
+    "width": 1024,
+    "height": 1340,
+    "sha256": "9a7002a6f5d5a0bd0b1bd2210fea44184db4956941d93daa61fcba5d8d675046"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-pricing.png",
+    "width": 1024,
+    "height": 2135,
+    "sha256": "6b0dcd4171886ff0aae43cb1b42b5362f6e7c29c58d12eccac5837fe4715481f"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-privacy.png",
+    "width": 1024,
+    "height": 1009,
+    "sha256": "ce628cf6cd080bf856499ac677ebdb6c0fb1522b56a5ff41ac658dedfccee959"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-properties-AQ-10233.png",
+    "width": 1024,
+    "height": 3320,
+    "sha256": "0fc766f006cf5a25b4e4ca1384cefb921344929ba8f836fba95eece4136cd446"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-properties.png",
+    "width": 1024,
+    "height": 2818,
+    "sha256": "f6cfd6650979b10b27d5a5beb5d9ada0d5dea73abddad1e1270fcc9c3d05d28d"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-register.png",
+    "width": 1024,
+    "height": 1258,
+    "sha256": "587fc9f4b355aec38c75c7baeb04b3cb26aa29a5332f06c479c6def3b464a6d5"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-resources.png",
+    "width": 1024,
+    "height": 1187,
+    "sha256": "5d018f56ed50b56122d5bbae95bd8c2a813821701db08f8ee8e574c518cbf6cd"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-saved-searches.png",
+    "width": 1024,
+    "height": 1098,
+    "sha256": "c0ae7080b3b80f3ca4d3fee7f473965b105075fa2405c8b90875cd1ac377c32e"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-sign-in.png",
+    "width": 1024,
+    "height": 1051,
+    "sha256": "cbd8fbf44f3d318a10717611e02b2626a39765679f3573ab0567ae4fd126a0a3"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-solutions.png",
+    "width": 1024,
+    "height": 2447,
+    "sha256": "3416a0f4490ee0332c7d987d5256462c3a570f6bb84c8376b8e5bd4ba095c90e"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-terms.png",
+    "width": 1024,
+    "height": 1000,
+    "sha256": "75e6a3f7669e77fb1f8b486c0e7b7c020193c08d3972a2f90e095b72598be470"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-admin-audit.png",
+    "width": 1024,
+    "height": 1000,
+    "sha256": "c329e2f539019788c8b74bcf18436312783ece312e6c043bdfe2d954e16218c9"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-admin-cms.png",
+    "width": 1024,
+    "height": 1000,
+    "sha256": "c5757101c08b9eff5a8aec0dbec1a8368e65ccdbee7ff54734ad1bf6513c01ef"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-admin-connector-health.png",
+    "width": 1024,
+    "height": 1787,
+    "sha256": "c9e8481bedb891358200ad00bba12cfc54d9f0211fa77f66171998a0d9fa6874"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-admin-integrations.png",
+    "width": 1024,
+    "height": 1861,
+    "sha256": "d5772998d67bebd67d8ff4cf23eb5471ab37e8fb37e444d549d558c8d67c1d98"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-admin-moderation.png",
+    "width": 1024,
+    "height": 1953,
+    "sha256": "7f1dad0db49a277208fbbf39e893f98862fc385a1672b61981c04b9a3eadf91d"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-admin-organizations.png",
+    "width": 1024,
+    "height": 1591,
+    "sha256": "213c9d3ebf7e757ae96e385b59dc4f5d3040743267faf0d1c487290ab3a496dd"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-admin-plans.png",
+    "width": 1024,
+    "height": 1334,
+    "sha256": "ff5f3ffbbcdb098ba2d71fd1b29ab73cfdf2eb4617c9f834e528965a43d96932"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-admin-reports.png",
+    "width": 1024,
+    "height": 1000,
+    "sha256": "8f62085576f708310782a50601e28d27e752a66a03b8c96cbce6a43b6f28273c"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-admin-taxonomies.png",
+    "width": 1024,
+    "height": 1000,
+    "sha256": "5fbad7af8b1f4453f46722eed82c5481e110425dc815240348340442faf1b4a3"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-admin-users.png",
+    "width": 1024,
+    "height": 2324,
+    "sha256": "dc7967089de9eb89ef0b71024058d3621525ac870a801f73b1f0413e63e8ec4c"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-admin.png",
+    "width": 1024,
+    "height": 1510,
+    "sha256": "ec697e7b7b5e0f39a2a7a68d5e988d5830e6c25f8bc1ea23f3cf5e5c094dab87"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-ads-attribution.png",
+    "width": 1024,
+    "height": 2243,
+    "sha256": "5d8b15f3dd2e1c409d023fc908d8b90af1fd3323e6e475cfc6e068162a428732"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-ads-catalogue.png",
+    "width": 1024,
+    "height": 2721,
+    "sha256": "a7d8fa31c4d82b15efb02412a9aa09d72d76743a4a262ebaf28588e14de65eb7"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-ads-placements.png",
+    "width": 1024,
+    "height": 1060,
+    "sha256": "002aebe77cd4537a37d28fc6adf360e5bb236ccc8d483b3a1d6e98b4140a36a7"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-analytics.png",
+    "width": 1024,
+    "height": 2674,
+    "sha256": "83140a82d1fd6d50f5860d3380e8779895a96a7b39bce622fba8da365166da0a"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-billing-dunning.png",
+    "width": 1024,
+    "height": 1000,
+    "sha256": "c722e7f81d85ef002e72aa254e6a29c5910fff3e099855f8d828ebf448261158"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-billing-invoices-INV-2026-0419.png",
+    "width": 1024,
+    "height": 1000,
+    "sha256": "0fced5350be776a99ed6d0d214fd0cdf74ae8388c483b0ab175cb30f9871d638"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-billing-invoices.png",
+    "width": 1024,
+    "height": 1000,
+    "sha256": "c722e7f81d85ef002e72aa254e6a29c5910fff3e099855f8d828ebf448261158"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-billing.png",
+    "width": 1024,
+    "height": 1449,
+    "sha256": "fbb6f7f0ae86ad10fd7f7fedcad4128b7378ec6a2177d6dfdd4f7a354668c6f0"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-campaigns-AQ-10233.png",
+    "width": 1024,
+    "height": 1000,
+    "sha256": "9fd0434890df0ff923bbc587643f1634d924c6151d504df550f21c1211be69e4"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-campaigns-new.png",
+    "width": 1024,
+    "height": 1550,
+    "sha256": "b697681a17d8409297d580dec2c98a3349f20fe4f8c095336cf7b76770530aa4"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-campaigns.png",
+    "width": 1024,
+    "height": 1212,
+    "sha256": "bacb7e282741e3bf667deca5dafaeef8876f75e2d82b7cb0863186365fbd44a2"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-hub-connectors-property-finder.png",
+    "width": 1024,
+    "height": 4256,
+    "sha256": "79af7b9fddb2e2a9b5a5a5db2c49cfc193e0a64432cfeb8c8ec3c61754534e2d"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-hub-connectors.png",
+    "width": 1024,
+    "height": 1986,
+    "sha256": "856054dac80980167801e879e4e51f970b7a36940f01d7a5fdb655a95ee2a075"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-hub-feeds.png",
+    "width": 1024,
+    "height": 3930,
+    "sha256": "f5fa89d6e8dfca6a905c6b4e0fd996fcc54fb3f9ec43c5f919de679f53595a78"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-hub-jobs.png",
+    "width": 1024,
+    "height": 1096,
+    "sha256": "8e5d0a4742934176e70fdd00526eb12e9a0236cb66e80de5728734fb2ecddb5a"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-hub-mappings.png",
+    "width": 1024,
+    "height": 4011,
+    "sha256": "6e15af5ae494bed9e0dd921173586e562de7b1a74648eb5647b4279d8ccfda0f"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-hub-marketplace.png",
+    "width": 1024,
+    "height": 1904,
+    "sha256": "351085272cf0f439fb62a8a6c32311786e19c6377f6737f0e304605636c7babc"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-hub.png",
+    "width": 1024,
+    "height": 1721,
+    "sha256": "5198f2e15cf5c337418683e0990572b82c86b5a4a10572f54586e970428481fc"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-inbox.png",
+    "width": 1024,
+    "height": 1485,
+    "sha256": "d8f51c8bfcf690962cdaf80f6a0bb396a790625e30e0555a08a95df7ce4f2ce9"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-integrations-ga4.png",
+    "width": 1024,
+    "height": 2040,
+    "sha256": "43a9bae171eca2ff702626a8bcd1badcc0d6de1c22fba1fd818e84a1c478c33b"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-integrations-google-ads.png",
+    "width": 1024,
+    "height": 2853,
+    "sha256": "851c60b46099d8116661b9693731fb046eba7e7027479d974f6344d762150bc6"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-integrations-meta-catalog.png",
+    "width": 1024,
+    "height": 2640,
+    "sha256": "d7ed5bfbfa9d3d8bbe8e5424a347a60f02480772cde4e58e474bec784d3a3273"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-integrations-whatsapp.png",
+    "width": 1024,
+    "height": 1999,
+    "sha256": "9b606fc02c169a93a7d304bba727476188a1cc785230539a1eea672236ce5c52"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-inventory-AQ-10233-edit.png",
+    "width": 1024,
+    "height": 3281,
+    "sha256": "23d2bd892de6e19ba2563f344689c13c955be430365d84fd2a92bc47a6ffa001"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-inventory-AQ-10233-enquiries.png",
+    "width": 1024,
+    "height": 1424,
+    "sha256": "ad62c8aa368df910a97838baa98c3c35a24d5fcda465c9bc7655cc74534dd6df"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-inventory-AQ-10233-media.png",
+    "width": 1024,
+    "height": 1659,
+    "sha256": "60b02eb61d58674ce5281b681876fb29d55b7ddaef9e3e8b676d5fb25630272d"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-inventory-AQ-10233-publishing.png",
+    "width": 1024,
+    "height": 1000,
+    "sha256": "57a0b17467bfb203198fe51e4e74ec09a812602f6e1202b218a7afd5464ba19f"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-inventory-AQ-10233.png",
+    "width": 1024,
+    "height": 2236,
+    "sha256": "c6e1090479186b1fb450df54edf5f96904e8862fc1d066f9ef65adf8b70630c2"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-inventory-import.png",
+    "width": 1024,
+    "height": 1193,
+    "sha256": "9141dbf5c82f71e6f8d4375ef87e882089e0293c062b2f18a9b3123b27632186"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-inventory-new.png",
+    "width": 1024,
+    "height": 1000,
+    "sha256": "78f674ff88ae1833e29ed193733b6268eda96bb169519d039b79eee468f2b26c"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-inventory.png",
+    "width": 1024,
+    "height": 1426,
+    "sha256": "cda7e7dbecf2321b3304c03bfeb38755e61a76a5044274736439ea957c425c5a"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-leads-LE-2101.png",
+    "width": 1024,
+    "height": 2050,
+    "sha256": "8b1ffdff08597c4230b916c234906bbdeb8319cdb9c2afed3dc51adf6e30c36a"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-leads-assignment.png",
+    "width": 1024,
+    "height": 2266,
+    "sha256": "c014a941e7affbbe09a86b0c4cec29a5ce9c34713d2153157bc0bc632b0d8915"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-leads-viewings.png",
+    "width": 1024,
+    "height": 1552,
+    "sha256": "0e695ebe1b0d89ffabfd10691960c71fe19a2ebd65c8960cdc89b496431d961f"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-leads.png",
+    "width": 1024,
+    "height": 1538,
+    "sha256": "52c4bb741d58f81e1e35351a849281a8559f906343a0304977d9ef8a6ff199b7"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-notifications.png",
+    "width": 1024,
+    "height": 1000,
+    "sha256": "00fe99b74dde4de534a283590fef967bcc79778b8f5859596371c446e2e3a8ae"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-organization-new.png",
+    "width": 1024,
+    "height": 1034,
+    "sha256": "0f7cd7f28e4d755edb411dd61ebba63a3783b67101636aca7f10ca0a9a1fce75"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-organization.png",
+    "width": 1024,
+    "height": 1127,
+    "sha256": "99d94b41888d0d94d8764f399d3ccf9ae8af6aa8a8071024bf385fe943db296a"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-publish.png",
+    "width": 1024,
+    "height": 1948,
+    "sha256": "a784767eeba6ad2140efbd73234e9bf2af47def1f41a0454d1711354c3a95a0c"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-settings-domains-preview.png",
+    "width": 1024,
+    "height": 1786,
+    "sha256": "769058af4a2733a5bc1ba9d178498330794c8d93a01096273b60f0431af5e959"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-settings-domains.png",
+    "width": 1024,
+    "height": 1474,
+    "sha256": "0645acc480fa00817bc2b7b727be23ba9a84e038c21bfdc4e11aecd7075d6a74"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-settings-privacy.png",
+    "width": 1024,
+    "height": 1142,
+    "sha256": "ad7a2b9bfff9593779e2f4b843717ba996faf4f7278324eb82bd8dea72005423"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-settings.png",
+    "width": 1024,
+    "height": 1043,
+    "sha256": "c16cc6059f51da910cd3db8331f813f07680246430ac0610885c479bbf80d057"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-studio.png",
+    "width": 1024,
+    "height": 1676,
+    "sha256": "eb2f5e02f690c87affbb62574c62c08a1a0014b10539508398e1944d2160554a"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-support-assistant.png",
+    "width": 1024,
+    "height": 1129,
+    "sha256": "36174777d4977d43107ced4ac62ce23951538465938be0818ed8b46c16a78524"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-support-evaluations.png",
+    "width": 1024,
+    "height": 1101,
+    "sha256": "734d74cf2c4f02dc31394f001d2a377a252bf21caa3734dd20d1d12ebebf1f0f"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-support-knowledge.png",
+    "width": 1024,
+    "height": 1040,
+    "sha256": "11d7388bdeae49595fe203c911c028836d9bf52991610706bcf069d6f95041be"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-team.png",
+    "width": 1024,
+    "height": 2324,
+    "sha256": "174077f86b3d5b5da6375ef4361e0d5bbd5c746460bf00ade1945416d13a59b0"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-verification.png",
+    "width": 1024,
+    "height": 1056,
+    "sha256": "9166b8326c752bd635fee64eb1ac98fd90a24789dde15b04a1c48f50a854a633"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-whatsapp-packs.png",
+    "width": 1024,
+    "height": 1304,
+    "sha256": "e6a5bebdfb6f4fbf9e5c83ab6688bdd2404989109b588d2b7931834880d942ae"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-whatsapp-sla.png",
+    "width": 1024,
+    "height": 1567,
+    "sha256": "6670688ca70a6627a0b67ccc7c7f0cb28f75a2071b7517ae05417980864f1df6"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace-whatsapp-templates.png",
+    "width": 1024,
+    "height": 1000,
+    "sha256": "de8486d5c25099ac9de525de60fe7659843b0b47833f564b0ad281eed78d8849"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-ar-workspace.png",
+    "width": 1024,
+    "height": 3081,
+    "sha256": "9e6e420900cf8b273ecb440f46d0069bdeeedc29d1da248b34cb088547f65324"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-about.png",
+    "width": 1024,
+    "height": 1260,
+    "sha256": "427e70790d2b7d4e4baadc929d6892f0c76de2c297b879be423f97b8956e0159"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-agencies-pearl-gate-realty.png",
+    "width": 1024,
+    "height": 1436,
+    "sha256": "ba1dd4317f3f47661bd6ea6b5e4b766bd69edf5a20b08be67a84c3a171b0b1e2"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-agencies.png",
+    "width": 1024,
+    "height": 1000,
+    "sha256": "24325f0fc59ec94249784230e854589d512f757ccabb47d5236e039f969eae0e"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-compare.png",
+    "width": 1024,
+    "height": 2671,
+    "sha256": "0e3d9a19f6898c97110ed3e589e6fd54952c38b91e67d388eda2f94f1d59668d"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-contact.png",
+    "width": 1024,
+    "height": 1228,
+    "sha256": "5352fa9f4ede72658e0d455b4b65ba5a3c8bff98ef3b8c706c7717f31a6ccb02"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-faq.png",
+    "width": 1024,
+    "height": 1169,
+    "sha256": "58f762af9e3c1a0d69fa8f4e7317f85db0ebd25908656a174c6fa8285cc42ae2"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-favorites.png",
+    "width": 1024,
+    "height": 2278,
+    "sha256": "488aae06846b8e25a963ca39a0f046e922dbb524d89d364ae1bf54209017cfee"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-home.png",
+    "width": 1024,
+    "height": 3874,
+    "sha256": "6dc5137dfaf58a2899870a8ab2e3040dcf81df89f5f7851f7da57e42f511eec2"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-map.png",
+    "width": 1024,
+    "height": 1376,
+    "sha256": "827aa763900ae8c29a1101ddfc168e67de37d07fd9728e91316a2b13048f83a5"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-pricing.png",
+    "width": 1024,
+    "height": 2199,
+    "sha256": "f9d9e1350579aab037c77a9954395dcda63d55e69e2faa750e702d21743f8853"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-privacy.png",
+    "width": 1024,
+    "height": 1028,
+    "sha256": "bc7ddc0ce0bfd0c4e55dffef012a62e64ace75d4072a5b52712f047742dd157d"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-properties-AQ-10233.png",
+    "width": 1024,
+    "height": 3366,
+    "sha256": "c7296a48ba34a6e66879bae686f8b539309896306b05aee252ca270a22893664"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-properties.png",
+    "width": 1024,
+    "height": 2837,
+    "sha256": "a22f8f427a0604a7da480339c54108df2f105b21cf49ef2406902a7b2bf6d0a8"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-register.png",
+    "width": 1024,
+    "height": 1291,
+    "sha256": "5e5098f6d25af8a92e172e26c58a75195cf4edb6e27f9bd14b1259b4ffa4da8c"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-resources.png",
+    "width": 1024,
+    "height": 1260,
+    "sha256": "c66f19ed5f91c02a0ca21bfe7fbe451f17ea04669377d734055e6c3b3a12982e"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-saved-searches.png",
+    "width": 1024,
+    "height": 1133,
+    "sha256": "62b08df3176517d95048dde6c4d9fc0d2490710bdac1d95b97285d4497430730"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-sign-in.png",
+    "width": 1024,
+    "height": 1070,
+    "sha256": "3845ae912e173b6149e9957e90f02a9343c8ef00b590b6125704c268fe7ad6f6"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-solutions.png",
+    "width": 1024,
+    "height": 2490,
+    "sha256": "82b6cad48b62ef191115b9993a8e96d958a2410f702e0d503581fc6d572ce571"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-terms.png",
+    "width": 1024,
+    "height": 1028,
+    "sha256": "c78e49967e91dfea60b62d72bc7ffd762139eb4592a2476ce1ec21a5b8099980"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-admin-audit.png",
+    "width": 1024,
+    "height": 1000,
+    "sha256": "1cfa4403b282dcef2df60a6c140f6122c77a05aca23acbeb8d0599035a61f8b2"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-admin-cms.png",
+    "width": 1024,
+    "height": 1000,
+    "sha256": "863dcff1d4b8ac285b55f7cc9d3f8dc8a5c3ff3a5d8ad58ed92537142bc7d437"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-admin-connector-health.png",
+    "width": 1024,
+    "height": 1911,
+    "sha256": "bd23c6d5cc6d9d00612f4c65b78ee01a8017c1f7edc4bb051c05e9e4bc40026b"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-admin-integrations.png",
+    "width": 1024,
+    "height": 2006,
+    "sha256": "06bb500e1158e29c6e046c7e085f76ec8f3e40ca15c9d6c6253a5db7be35e33b"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-admin-moderation.png",
+    "width": 1024,
+    "height": 2062,
+    "sha256": "7faa012307293002c1ec20c10567a9662685359d1bcec4b087cf3caf8dd291fd"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-admin-organizations.png",
+    "width": 1024,
+    "height": 1721,
+    "sha256": "080dfb68b41e0d319c83a0180574cc0ed3e17227073a3f8cf4756f8643ce7e89"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-admin-plans.png",
+    "width": 1024,
+    "height": 1443,
+    "sha256": "8e1ca305a27c298fd93fbb2e8c58eaf14ea001672c24c9e84a66448468da5619"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-admin-reports.png",
+    "width": 1024,
+    "height": 1085,
+    "sha256": "15bac99951e5633d90e037894301f8b68cb68c7000f95817feef087236091f11"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-admin-taxonomies.png",
+    "width": 1024,
+    "height": 1000,
+    "sha256": "b818dea5f75c6f20fc7cf607f512f7f0e8bb718fbf892a0312a40ef6cc8d6a1e"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-admin-users.png",
+    "width": 1024,
+    "height": 2409,
+    "sha256": "d67685fd8058340c856d25ae1fe6e55c91c8a38eda2396a65a7a177bbcc4fdb6"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-admin.png",
+    "width": 1024,
+    "height": 1618,
+    "sha256": "3070339464bfb95552ad14444298b91f4628fb6900b29942a20b709fa23a38b8"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-ads-attribution.png",
+    "width": 1024,
+    "height": 2366,
+    "sha256": "a689729a29bd8cdf6e2177f0eb38d5d5679d60096b101d6b85b048ae7d0ef534"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-ads-catalogue.png",
+    "width": 1024,
+    "height": 2770,
+    "sha256": "9b696a42fe6db8acf4131a58dea38d5d5e9b4da445dde904a8c9fbc111cadf08"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-ads-placements.png",
+    "width": 1024,
+    "height": 1091,
+    "sha256": "6ffe510718fed7f37315238f38316b3ecd2ba8db67b4fcdf2af83c405d890a36"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-analytics.png",
+    "width": 1024,
+    "height": 2723,
+    "sha256": "3dd171065e777682fe619d43a2b61e32f01677ad1c478de6a24662c47b5ea7d6"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-billing-dunning.png",
+    "width": 1024,
+    "height": 1000,
+    "sha256": "763d758e1d134976fef63644532705a5f616ce24e252ec5d025c3b802f27ab24"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-billing-invoices-INV-2026-0419.png",
+    "width": 1024,
+    "height": 1000,
+    "sha256": "516cf20c515e6bc2552832abf3f70e21319c89d7145507f90ade71330f6b5fbe"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-billing-invoices.png",
+    "width": 1024,
+    "height": 1000,
+    "sha256": "763d758e1d134976fef63644532705a5f616ce24e252ec5d025c3b802f27ab24"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-billing.png",
+    "width": 1024,
+    "height": 1451,
+    "sha256": "36b95ba0a968354a35039aa0bd200c58ef214ec63aaae2775c1057267e3dcf8a"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-campaigns-AQ-10233.png",
+    "width": 1024,
+    "height": 1000,
+    "sha256": "3e8428e11d782042c0e04cbd864035cab80488d8f44139046991f1cd318e3289"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-campaigns-new.png",
+    "width": 1024,
+    "height": 1653,
+    "sha256": "4f789b5555bb1e6738967d0fbfd768dff00971f443503443764bcd85e0883297"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-campaigns.png",
+    "width": 1024,
+    "height": 1239,
+    "sha256": "d6788baae3a3ef2870df8b7aa844d1bbc8c6005497cdb08636e06776fe0f2712"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-hub-connectors-property-finder.png",
+    "width": 1024,
+    "height": 4327,
+    "sha256": "be03eb80a48118e15ed7f61abdd74e3223dcb1f5d5d538b39c0ba5903f5adc79"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-hub-connectors.png",
+    "width": 1024,
+    "height": 2054,
+    "sha256": "1ee92d9943d0808e7daf6392587274749a07c32dc4025eda8166655e8297c48e"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-hub-feeds.png",
+    "width": 1024,
+    "height": 4044,
+    "sha256": "d5723bc87fc13268a504e85e282c0d6b410dc44da1913b6a6d12b5f3cd7c3d36"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-hub-jobs.png",
+    "width": 1024,
+    "height": 1143,
+    "sha256": "67bf072788a5e494e8f3d0505d044e58d62c8e11af12db378ea4b98ad380908a"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-hub-mappings.png",
+    "width": 1024,
+    "height": 4147,
+    "sha256": "3fb31384cd99bd92dfb0bee275eea9dd629b78791c551729cdb5ad9c41f1eefc"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-hub-marketplace.png",
+    "width": 1024,
+    "height": 1951,
+    "sha256": "0585d3322cf07b86b70abd7293ca5e042913b5cc5cd70364eae908f786d278c4"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-hub.png",
+    "width": 1024,
+    "height": 1773,
+    "sha256": "d4e81f97556018cee6cedd9e1f8236980366d8657e288f0878d667da48dcfeef"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-inbox.png",
+    "width": 1024,
+    "height": 1492,
+    "sha256": "f22bc4d44cb3f547e33cc9eaea03225c20c5349ece75c1b339191d369015f557"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-integrations-ga4.png",
+    "width": 1024,
+    "height": 2046,
+    "sha256": "02ef413c184382a9ec7e9878ebf9c10c9676c616b3eacafd5eb2b2684fe56762"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-integrations-google-ads.png",
+    "width": 1024,
+    "height": 2936,
+    "sha256": "171ddefcb15043ec1a8eee1d3a2330f9ab25ea81c71eb404352a7461a6941800"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-integrations-meta-catalog.png",
+    "width": 1024,
+    "height": 2667,
+    "sha256": "ce207590e01e0e952eb8d8f634fdb31b4a4af47819c53f775fa6e618867b866c"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-integrations-whatsapp.png",
+    "width": 1024,
+    "height": 2006,
+    "sha256": "e510d68e54a117e7801c20f5d163b4cf34ff1880da33f7e1494f583cd066afd0"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-inventory-AQ-10233-edit.png",
+    "width": 1024,
+    "height": 3333,
+    "sha256": "c2722c5b3935aa8527ac82170a2e8355b8d85f5801dfb7e0a7950a01c1bb2601"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-inventory-AQ-10233-enquiries.png",
+    "width": 1024,
+    "height": 1431,
+    "sha256": "85f82e3156129769fe80628684d460b259fb55fd8d99fab88174bf564b0e7aa8"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-inventory-AQ-10233-media.png",
+    "width": 1024,
+    "height": 1750,
+    "sha256": "447f2b8c697e357c9979e3b459bebeac038db512efadac95731f1e1718551aa9"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-inventory-AQ-10233-publishing.png",
+    "width": 1024,
+    "height": 1000,
+    "sha256": "d2076972f2d42aef77d76c4a7e4a19af4fa7215625fd0109a20154a84d8fd08f"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-inventory-AQ-10233.png",
+    "width": 1024,
+    "height": 2243,
+    "sha256": "be3d9346622c33ec6de4bd8efb0e182226e6456a4160f33b3404bb2d1e3ff9f4"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-inventory-import.png",
+    "width": 1024,
+    "height": 1254,
+    "sha256": "807326fa868e09aa9342392268aafbb505a20f383cb72a6e827c0637cb17e7a1"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-inventory-new.png",
+    "width": 1024,
+    "height": 1000,
+    "sha256": "751c6dc51d7546b793936b1f02b1ec5fff8370c1b1a1ef30773c947e6ae6ed58"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-inventory.png",
+    "width": 1024,
+    "height": 1457,
+    "sha256": "d2d79c19fd71dd67e3778c83efc9bcf38d68e607cb6dfcd0caf4a8266741a154"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-leads-LE-2101.png",
+    "width": 1024,
+    "height": 2086,
+    "sha256": "a957f63af19ba3ec874e615666ea4162971a3d217506c5654be97fdd2bbd982c"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-leads-assignment.png",
+    "width": 1024,
+    "height": 2296,
+    "sha256": "040e4a1af5235726ec1a8fa6804a39fd972025c55214f115774b16e52a46d452"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-leads-viewings.png",
+    "width": 1024,
+    "height": 1623,
+    "sha256": "7bf4e2e13254ef4cf3bf9e3665145806cd73095d3422576746fb2f2124387779"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-leads.png",
+    "width": 1024,
+    "height": 1567,
+    "sha256": "0fe170fe772cf6ce2a4cd0319d0bf4fcad16c8ad5df42c4c90747b9ee8967a89"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-notifications.png",
+    "width": 1024,
+    "height": 1000,
+    "sha256": "f1d0802374ad78e26451ef0af8dd4a55a08808343040db53187b315ed7b0856a"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-organization-new.png",
+    "width": 1024,
+    "height": 1041,
+    "sha256": "11ddde3f60d29a4ccf8825dd780319bacd86a03423c3980d8e5f7d5774ec9965"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-organization.png",
+    "width": 1024,
+    "height": 1134,
+    "sha256": "3b1acc87bba55a5a0d5021a04b1e56652f87c9879d17779b6873445981e4cdb0"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-publish.png",
+    "width": 1024,
+    "height": 2018,
+    "sha256": "7af3e7c654d0de7f78de763d26c880d03e78622ce4fcab2206eb0576f16504c3"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-settings-domains-preview.png",
+    "width": 1024,
+    "height": 1814,
+    "sha256": "5e46a404e376cdafb61a73d125965fc100e20d7bb0fad6a02ed7b0049331b87a"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-settings-domains.png",
+    "width": 1024,
+    "height": 1481,
+    "sha256": "e8542f51f5767106dd889152a0c4e9f0f04ea9e90c854196dc6e07abf78b0866"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-settings-privacy.png",
+    "width": 1024,
+    "height": 1149,
+    "sha256": "55ac826d4bd68df4ce34a9ae08a8debfaf98af1cb291509fee242a8b67d53ec7"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-settings.png",
+    "width": 1024,
+    "height": 1049,
+    "sha256": "03e4f11f73736adbc7728545e7dfc612169d02abb851169460914f07db921793"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-studio.png",
+    "width": 1024,
+    "height": 1726,
+    "sha256": "582cc7ebeda955fd5754cf60f49c709432f047a62222c4559a75b3a5a4c6c432"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-support-assistant.png",
+    "width": 1024,
+    "height": 1179,
+    "sha256": "b25b76f2ead4feae4b2b9ab340fdb227ec92d1edd37877af675bea27ddbcd642"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-support-evaluations.png",
+    "width": 1024,
+    "height": 1132,
+    "sha256": "6192ea4819769d468096fb4370500b677a1dbf28d71f0c48d6a674dc9d7624da"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-support-knowledge.png",
+    "width": 1024,
+    "height": 1071,
+    "sha256": "002ca278e4d9e30401a6c206664d70ebeb421707b901960ac094ee5bc902e819"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-team.png",
+    "width": 1024,
+    "height": 2331,
+    "sha256": "2839ae18b277d539fea4faef27fdc0f1f87c26e1c33e6b0c1dcb1e975c5591ea"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-verification.png",
+    "width": 1024,
+    "height": 1126,
+    "sha256": "11e25c8bfd0083aeaf45e654bf92def989422c67708377e26728fbc4f22e3261"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-whatsapp-packs.png",
+    "width": 1024,
+    "height": 1311,
+    "sha256": "62d127c6a746e00c248e448124708abaa45d762f2e61fee64ebdf76142d313b5"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-whatsapp-sla.png",
+    "width": 1024,
+    "height": 1595,
+    "sha256": "ecbff4283416a02af2e0e9cad67e5dda951d89bbedb27260cb511aa74300fb2e"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace-whatsapp-templates.png",
+    "width": 1024,
+    "height": 1000,
+    "sha256": "7278515c718a6dda156856c9a8407d7848ef1135326575f7cc14d4201b2ade76"
+  },
+  {
+    "path": "artifacts/frontend/after/1024-en-workspace.png",
+    "width": 1024,
+    "height": 3157,
+    "sha256": "f14aac0fd7a312b44335cb766774f3d64eabdfcba1e18ff9b03068b5b909783a"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-about.png",
+    "width": 1440,
+    "height": 1204,
+    "sha256": "dc633fbccd172842cf1794af6724e3ba2388612f5cef6f9f25f0956695e33c42"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-agencies-pearl-gate-realty.png",
+    "width": 1440,
+    "height": 1419,
+    "sha256": "95502009aa15182d578eab6c9f6f22c7abe585b6fc31ca55d56d57cf556420b2"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-agencies.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "3e3cbefb96bcffa1a4310ba251304d870ed97798046dba9d7bcd21b816181273"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-compare.png",
+    "width": 1440,
+    "height": 2093,
+    "sha256": "f1497c95e186a65da2a0df8a1b7d3d3565517b7b44fb4718e5ccc3a8cc4d9098"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-contact.png",
+    "width": 1440,
+    "height": 1224,
+    "sha256": "7ef02d62d9b2a12ca498b95b28b804bbc9f89c0e8b51243e59178be88d7498a7"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-faq.png",
+    "width": 1440,
+    "height": 1165,
+    "sha256": "1843e71b15236ef469b0929689109320e9ee0213558001d0bb3f5b84b6bd0a41"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-favorites.png",
+    "width": 1440,
+    "height": 1699,
+    "sha256": "4f280b197cf9b3b2183fae2b320520b900a95fc9da5de490d9b1feb68dcfcc0f"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-home.png",
+    "width": 1440,
+    "height": 3171,
+    "sha256": "3d3d613c7ac55625f1faf255dbf0abd9fd3493edc8245b093622ad26a2df851e"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-map.png",
+    "width": 1440,
+    "height": 1301,
+    "sha256": "0ba86f05ecf665132a24799f2da8e7fa13bc84d56d6a927a987c6e99b3066c46"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-pricing.png",
+    "width": 1440,
+    "height": 1682,
+    "sha256": "ae13c9068da45d4ff1d815310d47ffb1508b15f188f74aa10a83c37e2a99cf66"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-privacy.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "603cf507be123d3021634c0b29e131537c83cb4223840f44f813681540d2a506"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-properties-AQ-10233.png",
+    "width": 1440,
+    "height": 2663,
+    "sha256": "a5320e6f0a1f3f694860f131e78d935ca7adb806a4237d1cf26a187f8e3533a6"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-properties.png",
+    "width": 1440,
+    "height": 2010,
+    "sha256": "7c8fd3fda6377f1bb3bc98e1d974e3e288494b9c1a053842e20d2e83529cf402"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-register.png",
+    "width": 1440,
+    "height": 1219,
+    "sha256": "fd44c6120168d4bf382c18e22de2a733ebfb3ba85f97cb6d60630e09192f6165"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-resources.png",
+    "width": 1440,
+    "height": 1204,
+    "sha256": "f63c801bf7c2b7d6f2d2150c5b08af8b795193a3b7996ca048007f2b6f79dc19"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-saved-searches.png",
+    "width": 1440,
+    "height": 1111,
+    "sha256": "8ca2478f1ac0de5d78661a7533c3d86ffee2f227fc7685e5443454b93efb337b"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-sign-in.png",
+    "width": 1440,
+    "height": 1067,
+    "sha256": "cea7d7564818f6e7dcf85f7bd327a55c898e3d6d284cd78eb97e7c098e4db574"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-solutions.png",
+    "width": 1440,
+    "height": 2577,
+    "sha256": "31b3d69f764b57908d7ca9728566a1ecd36389fd687f156c33e6f06b19c91a59"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-terms.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "d160e93fff073416793a587c6c14c1ee0d91ee64b5cfaff8feddc296198e00c7"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-admin-audit.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "33681a40c342da3cb52e9e04282fda67748f902860c96d2ae4d76cca1d5d8c8b"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-admin-cms.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "956ed644e07b555962b9e661a5e2580e8de0189706687ace4ce9a483e0a68fca"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-admin-connector-health.png",
+    "width": 1440,
+    "height": 1727,
+    "sha256": "986b4d72ce42cdca62f17dc3190015572d24393b0a966e041eed19687d0228ff"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-admin-integrations.png",
+    "width": 1440,
+    "height": 1800,
+    "sha256": "7b65cf206fa3ebd41f0be79767a85e9e51f7b2045e66069b2e9029a7749f2dc4"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-admin-moderation.png",
+    "width": 1440,
+    "height": 1237,
+    "sha256": "34bbd8572f755a096298e3faa148857d4f2ad4a8b412e4fe2f1a5ba962edf462"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-admin-organizations.png",
+    "width": 1440,
+    "height": 1552,
+    "sha256": "166079e556098ff35a18b180becfcb54798fad8b6500e3b278a06a6972ebb552"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-admin-plans.png",
+    "width": 1440,
+    "height": 1295,
+    "sha256": "3f1e72475814a885cabd14c2261123d990eb02ca8024b392278a94968b466f2e"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-admin-reports.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "07f903ae51d681bd6798076bf1f44f03c9b5bb0477468f948b6c18483fc753f9"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-admin-taxonomies.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "54aa222a547a641300c2faec485a61a393e7369237ef19737711f6bf01698285"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-admin-users.png",
+    "width": 1440,
+    "height": 2286,
+    "sha256": "888a93e1071601ee85028f7c819f96acc4efeeaf873e103c10f8603e9f6052c1"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-admin.png",
+    "width": 1440,
+    "height": 1471,
+    "sha256": "69d17182d8cbd3480e63d0cad9dd6a5ec7325a4cbac9df13714d718776708253"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-ads-attribution.png",
+    "width": 1440,
+    "height": 1790,
+    "sha256": "8c2dab53131c68ba5dc4331f6641d60843e5f212be20284e3c370f34bae19827"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-ads-catalogue.png",
+    "width": 1440,
+    "height": 2296,
+    "sha256": "a5c80b5fbe6426e8e89a425834089138c913887ca6ee2cf8f3369dce6e7d4fe1"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-ads-placements.png",
+    "width": 1440,
+    "height": 1021,
+    "sha256": "5df647b12e9747a4c30bcdbeb5226d022cc5e8e30125f368c40351835c1a71d6"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-analytics.png",
+    "width": 1440,
+    "height": 2441,
+    "sha256": "76bb7f307c084d9728ff068758830796d9cfe39d47167998612398ba75f24200"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-billing-dunning.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "481492717fbb020933ad9d31e251404f4523561cdd8f2ecd7762562b12f595c3"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-billing-invoices-INV-2026-0419.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "84da680596b43fa35e72033026427fdbf4225bdd50ee5af6071f0c493764c258"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-billing-invoices.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "b135a00fd7ed9f09fb39e315d2f7f4886f2a17ed5381d738f0377a862ffa8c5f"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-billing.png",
+    "width": 1440,
+    "height": 1410,
+    "sha256": "a412abdc3de702d6ca063e98afefb24391d6514769e203f97c0f49e3240fd88b"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-campaigns-AQ-10233.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "f1bb51c884bee27cb558543073bc1f09943448c7931525f469b866a4c54ae79b"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-campaigns-new.png",
+    "width": 1440,
+    "height": 1437,
+    "sha256": "a8d2aa2dd401bf19a9e26286b69399d3de17301ebf8872eb3e84dbd702b20d60"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-campaigns.png",
+    "width": 1440,
+    "height": 1063,
+    "sha256": "944627b01f23d30bc98b4c1ffa7e1d6020443b0da268866531bb6c7671c533a4"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-hub-connectors-property-finder.png",
+    "width": 1440,
+    "height": 3695,
+    "sha256": "ea3f8ed663ee263938f62d694d6d2a742f5ef6ff4ce85a59e7b9bda2fcaa4490"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-hub-connectors.png",
+    "width": 1440,
+    "height": 1400,
+    "sha256": "fb932d14aa488cf17875f7321026bfd2b5c7f4a71c9cf5ac7c2df1d9b6089277"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-hub-feeds.png",
+    "width": 1440,
+    "height": 3193,
+    "sha256": "3f08c5536362b3ff13b7c098e23c001e4da2e90e791ba0093aa930a1f3e2cbd8"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-hub-jobs.png",
+    "width": 1440,
+    "height": 1035,
+    "sha256": "bd52b5a11e248950a9a8e11aea73955f47de8f491b49565ba1bf6d9c817e3464"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-hub-mappings.png",
+    "width": 1440,
+    "height": 3275,
+    "sha256": "b1b610981b5ac156fd51544404c4d6d834811e443c40c27609365fa1f8ca94cc"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-hub-marketplace.png",
+    "width": 1440,
+    "height": 1319,
+    "sha256": "0d487b6681d3d4bf3c057e0a339718ec9c93ac9e28a5df710fafe4cfa809d41e"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-hub.png",
+    "width": 1440,
+    "height": 1283,
+    "sha256": "e6414ce25a41777ae7b2bae95407e0e1dc7d6f93fb7e0387da601c04c56d58b6"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-inbox.png",
+    "width": 1440,
+    "height": 1193,
+    "sha256": "0cbed0384f151b66f6654b0ec093b09972ec924bd11c3670fde2bc7f5e2c458a"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-integrations-ga4.png",
+    "width": 1440,
+    "height": 1444,
+    "sha256": "d32b74c6f40ff3fd892509d8aaff762accbe184e95dadb1ddceae156107e6381"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-integrations-google-ads.png",
+    "width": 1440,
+    "height": 2406,
+    "sha256": "8dc2728a6cf514ccc3a7a4a43654baecb7ce3cee6e4cf1155ab61da8692a6494"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-integrations-meta-catalog.png",
+    "width": 1440,
+    "height": 2214,
+    "sha256": "fe811f46cdb24d5e9111bba8f5bc8c7e421eccba98364ab38639c489a9ce9cbc"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-integrations-whatsapp.png",
+    "width": 1440,
+    "height": 1403,
+    "sha256": "9af53a3d477cb71fdca70a3404950c330ac2f71ffc691678e724a342167dbbb8"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-inventory-AQ-10233-edit.png",
+    "width": 1440,
+    "height": 2729,
+    "sha256": "fe01fc1d7fde8bf7d3998656f4942bd803312486812328aa47e763e2862b378f"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-inventory-AQ-10233-enquiries.png",
+    "width": 1440,
+    "height": 1337,
+    "sha256": "d1bbd87e6936a19843d9f8dd966d579de7d7dbcb6f52ee238a8a9668ddd01d08"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-inventory-AQ-10233-media.png",
+    "width": 1440,
+    "height": 1620,
+    "sha256": "abc3369da9deaa41e095c0cadc9fc2f1ef18139b56d5dc469b328f01111c0f74"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-inventory-AQ-10233-publishing.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "f2be0661872613efee2aa82b0d14c63df6e5a3f8fdb893b21771f596c2cef3a6"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-inventory-AQ-10233.png",
+    "width": 1440,
+    "height": 1887,
+    "sha256": "224db4ed14d65cf6b4d272a7aa5aaf1b3eac129e0ac27d7a3049546f58ed0297"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-inventory-import.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "4771baae3c948ffa73ae1453723fb60d316ce6e84c0fac0ff973972d6c789c87"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-inventory-new.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "63d06818f23b2a9bc6999c82121984028017611f67c60c3cc3b063485d3a154e"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-inventory.png",
+    "width": 1440,
+    "height": 1387,
+    "sha256": "d961cc510cf18420478377026dabfa4d6e804c70d55a8f5e233d76c04beef54d"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-leads-LE-2101.png",
+    "width": 1440,
+    "height": 1990,
+    "sha256": "89ee241106477892f9fadd85645054c5f21e372c88718340c34bf3e9dd1c8b16"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-leads-assignment.png",
+    "width": 1440,
+    "height": 1774,
+    "sha256": "6408dc20062b96f3911dd61a616f61b89a2bde5a576dbc2de5d40891c8044945"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-leads-viewings.png",
+    "width": 1440,
+    "height": 1308,
+    "sha256": "3ced183ab86fee077e8a3b984a6674a0972af781092d8bc56ffda831522cdec9"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-leads.png",
+    "width": 1440,
+    "height": 1426,
+    "sha256": "f037f84caf4246d13c395044f1c7515266cfd07f7ca539f688a53100908359eb"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-notifications.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "52c77557657fb6e2ba62ed71c9023204c17a0ddf82ba64cd89d9ea0776367a25"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-organization-new.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "40f999b8fdd70eb2d1d14eed0504e87fc991679d408625c7f1769e34fa949d81"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-organization.png",
+    "width": 1440,
+    "height": 1067,
+    "sha256": "deb3db67e0e2e59e6366f0f9f3ec6095f3c8470c74ca2986864c740338e92350"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-publish.png",
+    "width": 1440,
+    "height": 1357,
+    "sha256": "597da8ebe83efb490a9bf60057eb430eadb055c30ec1d0015550c72367d0c681"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-settings-domains-preview.png",
+    "width": 1440,
+    "height": 1396,
+    "sha256": "5a7c5daa2d01a5cd77cf2d97d78505c54a5c609e4850ac341f29992644d2965c"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-settings-domains.png",
+    "width": 1440,
+    "height": 1194,
+    "sha256": "1c38b5828d4bceb1dc1f847c7296337a4a1392e271c8dfbe876eab73830d41d4"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-settings-privacy.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "cef70c27a1f27c91a3fb36c96a95588c6b6947b0e42a20cf122685484fe3186a"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-settings.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "69d2552d7228a0dac8774c58acce6520af736d4203ad78ac4709e441c4bfd600"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-studio.png",
+    "width": 1440,
+    "height": 1225,
+    "sha256": "6fb5ceefc8f002ab8a57601c65060001503ed45eb8843ae4bd4a41f0bb91c145"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-support-assistant.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "f334c9160618455515285c7050ce45b91644faf08d2e03316c7a54f03e83371c"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-support-evaluations.png",
+    "width": 1440,
+    "height": 1046,
+    "sha256": "41cb8294088bcb5956d594dddb032e818f36fedcf9f5154c003d115fd1fdd6e6"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-support-knowledge.png",
+    "width": 1440,
+    "height": 1001,
+    "sha256": "185c448b3f548a4911f58ece98160a4c022cbeb644100a28797bcb7e1ff8808d"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-team.png",
+    "width": 1440,
+    "height": 2286,
+    "sha256": "5a1ae51812cb6977edde5d5af66aaa4368ab018da73e1f623eb5cdda0020e9c3"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-verification.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "63cfc88c7476c32f0ee3f87030d65d2304607154ecfa822156916cbfc3ad96c9"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-whatsapp-packs.png",
+    "width": 1440,
+    "height": 1265,
+    "sha256": "480aa734068848a8801198530ec87429703a2fe20583038b70d27f2ca9d901ed"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-whatsapp-sla.png",
+    "width": 1440,
+    "height": 1274,
+    "sha256": "9d5b0a92f4a9441aa5e87f7d9655a76f5c6805d8d4947b5ba4b5665c7e492609"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace-whatsapp-templates.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "c754d3d143a356406a7adb14dd0e7adba5e23cd50aee47f7a14b07f969ee42c7"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-ar-workspace.png",
+    "width": 1440,
+    "height": 2074,
+    "sha256": "d22cef797bb5f5b1ffb6750696389d0e00a22a0fe3612bdd0a5caf93395c6ccf"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-about.png",
+    "width": 1440,
+    "height": 1268,
+    "sha256": "084713a0e61b988c2143d2d705c88bb3faed40054fdce03c7a6d61ef22e7e2f6"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-agencies-pearl-gate-realty.png",
+    "width": 1440,
+    "height": 1433,
+    "sha256": "ec83d8471ed9fa872d2e73fab7e351e6fcbc93c142b81d2aca6ab924bb638fbf"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-agencies.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "3d5c769896d4565c4e1f3db040ef4d747cde5a58388d97a9624e551de915b44b"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-compare.png",
+    "width": 1440,
+    "height": 2106,
+    "sha256": "e87d808db33465e48888dd1ec5c668deea582765025bc0a7f7fce6a89a0b68a8"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-contact.png",
+    "width": 1440,
+    "height": 1224,
+    "sha256": "65a1a8546329cf578a3ccabd5e44e6fd26f203d58fde88c5d127dca8bb9ca099"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-faq.png",
+    "width": 1440,
+    "height": 1165,
+    "sha256": "6168285798729dd7f4a077e2d29c15aed53b1f1c00828b400fe0e1a61534898b"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-favorites.png",
+    "width": 1440,
+    "height": 1712,
+    "sha256": "4c8bd45963ad94ac8b1bc0d06ed804224802810e40571d1c183e75739b7be2a7"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-home.png",
+    "width": 1440,
+    "height": 3297,
+    "sha256": "9086a370ac7b85f01f4227da2f0e74e9735bfab7d882cffcdcfb1d3b6c0df4de"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-map.png",
+    "width": 1440,
+    "height": 1314,
+    "sha256": "d4b9cff39e6a9fc69cdc30e6dfff66bfc17b74fd252e81c752e99f66e5a4fe99"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-pricing.png",
+    "width": 1440,
+    "height": 1772,
+    "sha256": "79eff70878f0997f07ca18ca8d1eb9d2fb42870429211eca5b49abef97a44c7a"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-privacy.png",
+    "width": 1440,
+    "height": 1025,
+    "sha256": "7d4f929efd5f397d0b576510a67f9af8ba7ba08a4469a2afab86781e963fdc3e"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-properties-AQ-10233.png",
+    "width": 1440,
+    "height": 2663,
+    "sha256": "eb5ca70d39ac04ae7a52a98f14f662f1646aedcf2360ea053c2651f682e91d90"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-properties.png",
+    "width": 1440,
+    "height": 2010,
+    "sha256": "1039a7a13ebc28428205151f502187f7f83ebc920057c1cdf024bfbe19a1e1a4"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-register.png",
+    "width": 1440,
+    "height": 1230,
+    "sha256": "61c1451297c6ffdef4fc5c0a95d867df51f68db090251e3367d1719d1802456b"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-resources.png",
+    "width": 1440,
+    "height": 1204,
+    "sha256": "6bbbc7885e9b6f0fed7191af1f6eb33e8ea35b43fe5fe751c1242547fe051e0a"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-saved-searches.png",
+    "width": 1440,
+    "height": 1124,
+    "sha256": "f287112d1ae2ba45f313e8165211a7262aa73fced11077ca50cec4c4c80d0380"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-sign-in.png",
+    "width": 1440,
+    "height": 1067,
+    "sha256": "2b32b73b5705a12070efe53bc5589db0b47ac299bbdb2f8a3e90a54060ef273e"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-solutions.png",
+    "width": 1440,
+    "height": 2510,
+    "sha256": "1899848d472668fbd50c8cebfadbb9c0bc56f17e3895f9c25301acd01e86c52a"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-terms.png",
+    "width": 1440,
+    "height": 1025,
+    "sha256": "0b70d6c0cccf8f93874f2125d5c4b064479d562c4ac2e848f4b490cf25cdc417"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-admin-audit.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "cae6313f62b9786952102db18f6ba6443e3a587a13ae6dc9f99583dba671e7bb"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-admin-cms.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "330404f5e86c66a71dc5bf5715c5354f0cc39ecc3e500dd73355b1e4d76e0a18"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-admin-connector-health.png",
+    "width": 1440,
+    "height": 1740,
+    "sha256": "61afee89114629f2f985022431540a0b4c4bb2456522bdde391f2646f1326c9c"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-admin-integrations.png",
+    "width": 1440,
+    "height": 1813,
+    "sha256": "f8caf6ae09245258bc50858ffc867a0131169e2c0dd81102a59ac0e0ce851553"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-admin-moderation.png",
+    "width": 1440,
+    "height": 1250,
+    "sha256": "a3c59e7a5e0a5f716faae6e1a547644c56579e27e96e53e3c4f3ea77ef7b9e0f"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-admin-organizations.png",
+    "width": 1440,
+    "height": 1542,
+    "sha256": "84971d1cc19216eb95a96a0810442b7c524cda671305707f65a0820d7b64e577"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-admin-plans.png",
+    "width": 1440,
+    "height": 1309,
+    "sha256": "e357566d598e2831e3012e3349ebb26ec4ebab13c726badae6cce2c0b81f19e5"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-admin-reports.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "8ade255e8c23da03193d4db389d30aba7f4fd359cc8d3b0828abf7736d0fe6d0"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-admin-taxonomies.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "fff634b1fb056a6e4c9457e585967ee797a9cdec39e387d96cf721e03e139208"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-admin-users.png",
+    "width": 1440,
+    "height": 2275,
+    "sha256": "5d72525a86496a10c3690dc64be16eb5737f25194dc5842ce45d0fe2b01bcb30"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-admin.png",
+    "width": 1440,
+    "height": 1460,
+    "sha256": "24b9b7e6337cc536981f6582b39ae0beea7dad82b90057e4b08be99e365ab96d"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-ads-attribution.png",
+    "width": 1440,
+    "height": 1818,
+    "sha256": "4b1f7e666142749b675ed8c1b99b01f1ace5b8c530b70528731cec8f0fc1fa05"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-ads-catalogue.png",
+    "width": 1440,
+    "height": 2309,
+    "sha256": "5fa7745abb0d831e2200d654b874c85f346aafb66dca42ad89d31ad141edc4c0"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-ads-placements.png",
+    "width": 1440,
+    "height": 1035,
+    "sha256": "6f04f64b28c9870f3bbb5f3b94547682be8d8c4dd74b04431de8e9260f456bd1"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-analytics.png",
+    "width": 1440,
+    "height": 2451,
+    "sha256": "ada1534737aaf1b613e6fe6d7fa4a9188567e2a8aaa542a89746bb479fe0ecbf"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-billing-dunning.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "a43925d132118425839489a57f54d58837a79be96d52884047cb97997b907584"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-billing-invoices-INV-2026-0419.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "a4fb088e2f52c616ad8646acec1d0e18fa08c5825c9b4cd87b15a1608f7aa4ea"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-billing-invoices.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "10c9920c5ccdedf829ec1632e146add3dc1d22f3e21003cb1b88e9708f27a776"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-billing.png",
+    "width": 1440,
+    "height": 1395,
+    "sha256": "93e52266d984aff664958ce7e38d3e66c197b40514f21c4e6dbd1dc7b34cc740"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-campaigns-AQ-10233.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "1018a9fff0a1bbb415acc98c62d8a5fd2263e2007bc74438a37c22958abb4b8e"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-campaigns-new.png",
+    "width": 1440,
+    "height": 1448,
+    "sha256": "58212b8ded6c7b0bef9ea8f36a2eeced7ed4e5703483f03f51307012be9d6235"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-campaigns.png",
+    "width": 1440,
+    "height": 1076,
+    "sha256": "763224135ae6b6a943e056dc3e9c2177c6cae36f418947abd97c77a6b3d90437"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-hub-connectors-property-finder.png",
+    "width": 1440,
+    "height": 3705,
+    "sha256": "ff391685a74b917076022cca84e5b0a9979929137000ca26b7713c0a12e4131f"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-hub-connectors.png",
+    "width": 1440,
+    "height": 1498,
+    "sha256": "f94eabf006374d51cd1ed4aa4316e0d33c16d6c245bffd4bad9d056e94797e22"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-hub-feeds.png",
+    "width": 1440,
+    "height": 3249,
+    "sha256": "4851bc0c983e0d1eb5df373debbdc551aec8c3d2d998dc2b484a854f577f46b6"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-hub-jobs.png",
+    "width": 1440,
+    "height": 1059,
+    "sha256": "b73d4927e314b9bcc08d9f95c8773c9fabd75879da15cbfe1be21bbb635d7b51"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-hub-mappings.png",
+    "width": 1440,
+    "height": 3331,
+    "sha256": "52da0bf319d7a6a0991571439ef2b2f03a0cece24b2ef806dd58612127447345"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-hub-marketplace.png",
+    "width": 1440,
+    "height": 1417,
+    "sha256": "9161ccc68437048cefab8c526d8744b63af8fb7a2b5fd207ba97fb494319c4f2"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-hub.png",
+    "width": 1440,
+    "height": 1296,
+    "sha256": "3fd6eb63a708d363a5d0e3a0aad4c22a3674c8bc14818ff5af7c2c687c970f10"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-inbox.png",
+    "width": 1440,
+    "height": 1182,
+    "sha256": "2e3aea5f2fa2106fff28e98fb587f4dadb5182b928a5e55d55c908dbb07fc117"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-integrations-ga4.png",
+    "width": 1440,
+    "height": 1433,
+    "sha256": "bcaa73c704ed4335f7396bbff3ceeca5a9b33344840788291c3252d4d25dfaaf"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-integrations-google-ads.png",
+    "width": 1440,
+    "height": 2461,
+    "sha256": "412db26ed566bb46652bb2014edc9c5f46aaa359fc236427fa5824fee486c51c"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-integrations-meta-catalog.png",
+    "width": 1440,
+    "height": 2227,
+    "sha256": "45ec14913865c76675c9ffd2b697bb11cd0156ebb61d7a15d4b75c960c9772de"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-integrations-whatsapp.png",
+    "width": 1440,
+    "height": 1393,
+    "sha256": "3a5c7d3021833c1ecc99858725e9dbeb9e067fccde84301be6f17815a73a8120"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-inventory-AQ-10233-edit.png",
+    "width": 1440,
+    "height": 2743,
+    "sha256": "6bd2d697748e74aaec528db5c048dd20313d9c31795d0f619fd41f5c5d406eda"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-inventory-AQ-10233-enquiries.png",
+    "width": 1440,
+    "height": 1327,
+    "sha256": "09eee96ca34516336b7dba15888f6a860d49ea1a66d54cc881a9affc63126dc0"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-inventory-AQ-10233-media.png",
+    "width": 1440,
+    "height": 1632,
+    "sha256": "971a130eba0777bf3a653cc8380a00ac0f3501aaedc3f3b7c76a50b9c2ecbe6e"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-inventory-AQ-10233-publishing.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "4a5488f2a7d5e7513afbd65dff0d42bc2790b1b163b22b31340651e603abb3ab"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-inventory-AQ-10233.png",
+    "width": 1440,
+    "height": 1877,
+    "sha256": "95f83f6c0c2c2a5d1efc7c41d775cbde2594f7750713bd4ddc2e47b889fa14ae"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-inventory-import.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "3489296d11f90b4d4714848405f94f3a99ef7a66e41722788fb6644b54291381"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-inventory-new.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "e95d7b2e1f860a08258865c187bf5cd9a5e1966b6b619fa109542f8165b8fd49"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-inventory.png",
+    "width": 1440,
+    "height": 1377,
+    "sha256": "237f46c129e99b1067ca82d3d9979c8bdd0226a6ba20262ea309c2b546de5554"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-leads-LE-2101.png",
+    "width": 1440,
+    "height": 1979,
+    "sha256": "616776bbfee4d864bc5fd4e8de2d8f31f263ca96d3dab042817a83fabbed1f2b"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-leads-assignment.png",
+    "width": 1440,
+    "height": 1788,
+    "sha256": "d5f2ef6f832673f377e26c830c3949a499464a76573e28cfb84015e7786fb997"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-leads-viewings.png",
+    "width": 1440,
+    "height": 1341,
+    "sha256": "9235a6faecab4c3e012738475eaed65974146f0b9dc2208d18993bc2013a3310"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-leads.png",
+    "width": 1440,
+    "height": 1437,
+    "sha256": "e5c66730047631c69456b166eb4bf1bd7a1c29e65023d43010735c5d158d02f5"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-notifications.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "8021aab69e1953a991891c93f47a5b1097e7a744c36b3dc112edc3706ea2c5c2"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-organization-new.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "530cc5f3e3f2f42ca5fa590c34cbe641ff38700bb8c1ae58495ad328276092ea"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-organization.png",
+    "width": 1440,
+    "height": 1056,
+    "sha256": "915e424ab2103dd9ac013ee4d9789b68251bf643d2e696fa1114d7fd6501766f"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-publish.png",
+    "width": 1440,
+    "height": 1431,
+    "sha256": "fc35bb898b25422c954672cfe7c76009621ff0d0aa0c8fa5087e133c369cd595"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-settings-domains-preview.png",
+    "width": 1440,
+    "height": 1385,
+    "sha256": "19ada249c9a477efbeaafe9dbc3ee679636135786a334571b1853e9d18ec2441"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-settings-domains.png",
+    "width": 1440,
+    "height": 1183,
+    "sha256": "9e50ef9581250a9496a3739e3a666359bcd9ae52ff47eb370070aceb2c2bfbd5"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-settings-privacy.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "35519856d12ac6280335aae3b0238afa8dc8776468bae952f259775d07429700"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-settings.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "bf79ece51201f07eb0b7ed55a97230169dad06363a6050aa04d3d2f00eba1a23"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-studio.png",
+    "width": 1440,
+    "height": 1237,
+    "sha256": "f29627de96348caa78edebbe74beee18f56e55c68db58798ed3b4a3f611bd6d4"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-support-assistant.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "f34dfa20ff3e0fa4d0a469a5a03f45b928691b266fbe6eca39fd85057b6f03bd"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-support-evaluations.png",
+    "width": 1440,
+    "height": 1059,
+    "sha256": "f52f7d6dbcae8add23afd7765a154fad6cc61232066eda11dff3767bed336a8e"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-support-knowledge.png",
+    "width": 1440,
+    "height": 1015,
+    "sha256": "d5b684f13ef8066ce8b398957a2233efb549ae78d3240d7effc7929d5cf37c26"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-team.png",
+    "width": 1440,
+    "height": 2275,
+    "sha256": "e28cc30058282a39d4f51377b131fa99fbb703d5e01b624432efd116bf33ea5e"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-verification.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "21b0f930b414cf89375388cc1a6684d912fa69c1c7ae6f68bfefc9a77669f24d"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-whatsapp-packs.png",
+    "width": 1440,
+    "height": 1254,
+    "sha256": "1a2b584f74331ec0749ff13608ecd2a5a1f830480a6022ebb2fb575be991cd9e"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-whatsapp-sla.png",
+    "width": 1440,
+    "height": 1264,
+    "sha256": "2d1003590a3422cf9986f680f330c9d606ba8b872bc7ba6cda4564f78af4e39e"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace-whatsapp-templates.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "cfea0aa69572b8d55f2c3c0f55be4f936592396b00652573bea6972960865723"
+  },
+  {
+    "path": "artifacts/frontend/after/1440-en-workspace.png",
+    "width": 1440,
+    "height": 2063,
+    "sha256": "4d91580a83386bf757851f0ff74bfa64dc13f2cca98cc784da922eb16bd1139c"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-about.png",
+    "width": 375,
+    "height": 1398,
+    "sha256": "9d9961fbee81db03e573fe78a8e19cb510a8628b8594e2fe57c258f637e280af"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-agencies-pearl-gate-realty.png",
+    "width": 375,
+    "height": 1724,
+    "sha256": "af644fc8188aaec7a2a66ae664801138cdcdffa59b22958757f152c6299d3162"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-agencies.png",
+    "width": 375,
+    "height": 1035,
+    "sha256": "a42c388529f20e2e627d971aa0b41afebf6b52514847f0fb42031a9616eb8f06"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-compare.png",
+    "width": 375,
+    "height": 3235,
+    "sha256": "cc062449119315fcd025ccd8e81c836652c0f8ec249c57e4b7d9c85f5281afcb"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-contact.png",
+    "width": 375,
+    "height": 1599,
+    "sha256": "4d34d764b4cea4f9b6cdab49b678760544f9d50ed3aaad2889f1a9bc923466c8"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-faq.png",
+    "width": 375,
+    "height": 1283,
+    "sha256": "29ed2c2d88631505ed0cacc51c6d892a7e076beac09955815652ec8c9f3b5052"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-favorites.png",
+    "width": 375,
+    "height": 2851,
+    "sha256": "9230d1b3c1bca5b4897adada774558afa3d4c510d69759eff84e77e8e78dd018"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-home.png",
+    "width": 375,
+    "height": 4578,
+    "sha256": "8ecab15aeb92a19c04b9325990ed44cbc1925215a33b9ed4232b633cf6be0a61"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-map.png",
+    "width": 375,
+    "height": 1649,
+    "sha256": "7331691c471bfa7d825e765dca67e36f0884453b71d72f00ccaf6d455b3566c7"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-pricing.png",
+    "width": 375,
+    "height": 3174,
+    "sha256": "106b0c876ef932dac3279cba94414cb8665e50791f1ed61f24c310af5698418b"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-privacy.png",
+    "width": 375,
+    "height": 1126,
+    "sha256": "444f1460faad8241402c85021714cf09120eb87b62ad87b6f06b1f0118cb1a2c"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-properties-AQ-10233.png",
+    "width": 375,
+    "height": 4494,
+    "sha256": "fbf3159df49f2c4025345033262cc36897d79b7fd6d66f2fb48e9023078ac44b"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-properties.png",
+    "width": 375,
+    "height": 4391,
+    "sha256": "4f67629292fdd50aea3cd30a129e5d0244cbd3191ab39e48fe2f1c494cb91650"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-register.png",
+    "width": 375,
+    "height": 1707,
+    "sha256": "328474053eb033da8aa7f4ff2fec8216d5208e04c4206cad272aa5e9eae97de1"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-resources.png",
+    "width": 375,
+    "height": 1350,
+    "sha256": "d1289b7592d101dd3b3f974a1d2247095910a195dcef94980cb0a9a2ed8f1af5"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-saved-searches.png",
+    "width": 375,
+    "height": 1360,
+    "sha256": "cf5384971d6fddc69fa8f3f7f2bfbadb7226e77329520dcf9f3090c9f3dd242a"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-sign-in.png",
+    "width": 375,
+    "height": 1441,
+    "sha256": "e293460db107188df1c8e9a71964f1ef9f8a61dab9eeeab6c9b1082874489665"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-solutions.png",
+    "width": 375,
+    "height": 3494,
+    "sha256": "c3a42d153956355d1fa0e77fec9cc8b69804e6ce2bfda04962f1bd79c8835368"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-terms.png",
+    "width": 375,
+    "height": 1126,
+    "sha256": "7f13097095a6c5dd3ed3104ac517d2baefaa6806111056216da008d06f4682e1"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-admin-audit.png",
+    "width": 375,
+    "height": 1138,
+    "sha256": "b1b6366630390f392dbf2df68a2cc6a245314b38c9588162ac0f5ebb06b3c965"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-admin-cms.png",
+    "width": 375,
+    "height": 1067,
+    "sha256": "0968a4689c54a60d400218bba77266ecb9b5697dc8ead60274229f34b10884c5"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-admin-connector-health.png",
+    "width": 375,
+    "height": 2225,
+    "sha256": "577e3d2a946b9dbd8e5c2651963511fd7b4897db2d78e524bfabf17bfdf32c5d"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-admin-integrations.png",
+    "width": 375,
+    "height": 2317,
+    "sha256": "b29516269fd091d7b55f01f842ffc1e32c38f3312222dc315c10379e6115bf56"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-admin-moderation.png",
+    "width": 375,
+    "height": 2284,
+    "sha256": "3189df91feeaed217de267c8858c3f83552246be533d0a86acd8ed6c6b0051d6"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-admin-organizations.png",
+    "width": 375,
+    "height": 2203,
+    "sha256": "6304380cd3ff602029edda4f93baad1fd2cc5108feac8c9b95eec9aca4727617"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-admin-plans.png",
+    "width": 375,
+    "height": 1739,
+    "sha256": "66c0b65c75e7e43930e28d3249c8901b51373d3a5f84e58558d27b983671db68"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-admin-reports.png",
+    "width": 375,
+    "height": 1237,
+    "sha256": "fc8054152b96510caebf8ece2419e12bf8550ecdd49ba143a9d725597d7fcd5d"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-admin-taxonomies.png",
+    "width": 375,
+    "height": 967,
+    "sha256": "caeb1c9e16e90a014c073cb896aa156dced25f220db9414becdecd3cc751ee46"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-admin-users.png",
+    "width": 375,
+    "height": 2622,
+    "sha256": "9ba26f7a66f3b160e740bee2d0d2ba208402fea30ef1271ff7ae27145f65cd9e"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-admin.png",
+    "width": 375,
+    "height": 2103,
+    "sha256": "8329bbf0cdca6359f2ac2e7c527dd641b5f853523a7c6a40b3e5310ebedf4b00"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-ads-attribution.png",
+    "width": 375,
+    "height": 2792,
+    "sha256": "c62452a2f89e194c16fbb2e1e13df018b98397bb3d0e828b44b6e32d2d816690"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-ads-catalogue.png",
+    "width": 375,
+    "height": 3112,
+    "sha256": "0523e8a8c595b5abcc6b1c7c98f552320f01e5ff78086c2b4d4715bb04cd107f"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-ads-placements.png",
+    "width": 375,
+    "height": 1220,
+    "sha256": "d508434a449b0770d5fab0b5a979cb9bd7e508dd0639d1bea9dfe462fbbb8f90"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-analytics.png",
+    "width": 375,
+    "height": 3245,
+    "sha256": "f0fa6d384632a5471962f32962635761d076573d4e6a722ade6bcb46ea2ab454"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-billing-dunning.png",
+    "width": 375,
+    "height": 937,
+    "sha256": "1560591f640859ff60e22021eefcac7f5b0d3d115f5516813f659a92ae82c047"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-billing-invoices-INV-2026-0419.png",
+    "width": 375,
+    "height": 884,
+    "sha256": "6484e56f6fc4fc627ff62b859ad432f413279581cace454b780155d7bf932d45"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-billing-invoices.png",
+    "width": 375,
+    "height": 937,
+    "sha256": "1560591f640859ff60e22021eefcac7f5b0d3d115f5516813f659a92ae82c047"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-billing.png",
+    "width": 375,
+    "height": 1945,
+    "sha256": "c7e4aa06eecad446cfa6ef8d7d49484e411aff111c5b75edc633f6136335e237"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-campaigns-AQ-10233.png",
+    "width": 375,
+    "height": 812,
+    "sha256": "0c8de178ca4c0cf8de13334c5a47127543b2b048d58818d312eff9fd08107068"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-campaigns-new.png",
+    "width": 375,
+    "height": 2623,
+    "sha256": "038528b4a05441e2c83892b9c7ff4c7a04139461a981dd49e5ad83131ea98727"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-campaigns.png",
+    "width": 375,
+    "height": 1697,
+    "sha256": "07dc8fc3fdf341e8eaf88fee3b9b587a1bd634494d998accab6ec711e44be8f6"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-hub-connectors-property-finder.png",
+    "width": 375,
+    "height": 4772,
+    "sha256": "64f72f8047741f074b22db4994e7d2bc476def7073d3aadd381380b020103b0a"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-hub-connectors.png",
+    "width": 375,
+    "height": 2542,
+    "sha256": "48c952be156c658ef8b3e1c6bad53a1d117e83b46463c73bd11af41bbb60aefb"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-hub-feeds.png",
+    "width": 375,
+    "height": 5707,
+    "sha256": "479e6a79d613acf54740f2a168b2d75b091d87d893f49fa928e374f0255f4c4f"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-hub-jobs.png",
+    "width": 375,
+    "height": 1400,
+    "sha256": "3861bf8fb8a12973eec9364b65ed90f017e1764b2efdda4a5f982581b0c23289"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-hub-mappings.png",
+    "width": 375,
+    "height": 5806,
+    "sha256": "7fe0fe1d3f54a2a82600dc604fa02599f0beb5232176c7e3f3445e17a039dc8c"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-hub-marketplace.png",
+    "width": 375,
+    "height": 2443,
+    "sha256": "241ee1d0da08b2dbe396f8f60014ef204f51177eb79a7365690650d1f6e6ce7d"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-hub.png",
+    "width": 375,
+    "height": 2115,
+    "sha256": "499992f69c69922c200aab2c43f4d621ac0c341f44138c91b0bab5db2da62d92"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-inbox.png",
+    "width": 375,
+    "height": 1581,
+    "sha256": "e003633a722bd1bf56efa5dea94b0edf6839f11ff94a839fb7eaa05dad4b694f"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-integrations-ga4.png",
+    "width": 375,
+    "height": 2370,
+    "sha256": "125f48a70265e91cd9a9645c60a1a3dfbfb3a0b72468a0afa523d066c682dfb7"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-integrations-google-ads.png",
+    "width": 375,
+    "height": 3273,
+    "sha256": "fd1876ecabf84a9f1ce6a09dc3d27d74f931d39a07501e0ab134415e6b047c5d"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-integrations-meta-catalog.png",
+    "width": 375,
+    "height": 3013,
+    "sha256": "a3f8381e6dc17110b9038be0b7c190394fecb014c358c7c6b4f0aa213266d1c5"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-integrations-whatsapp.png",
+    "width": 375,
+    "height": 2315,
+    "sha256": "630d7d2b878abb115ac0aec706d6be447ac9869b2affcd847259979a0f2af114"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-inventory-AQ-10233-edit.png",
+    "width": 375,
+    "height": 3953,
+    "sha256": "b2f4e84d4a32e454f3dba8a25c7f74be4e02084c1c9b4551e44a93f4569b6d1b"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-inventory-AQ-10233-enquiries.png",
+    "width": 375,
+    "height": 1844,
+    "sha256": "f859607d2b895990f9c7d1d6c9021311b8abdf0771ba0eaabe4d01fac7bfa429"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-inventory-AQ-10233-media.png",
+    "width": 375,
+    "height": 2824,
+    "sha256": "e3f1dc8433cbac6d314aab906b00bed29f0eaf7509b5ae8b2c4ab987eec9197a"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-inventory-AQ-10233-publishing.png",
+    "width": 375,
+    "height": 1077,
+    "sha256": "9cf85051991f5be9b17a7adbd9243b86fccf79d2fdab7d5f9ed924c62078a899"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-inventory-AQ-10233.png",
+    "width": 375,
+    "height": 2613,
+    "sha256": "779a3eb38bc6aae9e2fac5d9f98406ebae068b612d2a8216c7e111de2a8b7ee0"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-inventory-import.png",
+    "width": 375,
+    "height": 1254,
+    "sha256": "548220163595f6379ee07a6ae4329ee4852c7c197e654415b531b018b4cb02f3"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-inventory-new.png",
+    "width": 375,
+    "height": 812,
+    "sha256": "cfaee58a2e51e0b3955539d4e4de2af2e36201a570b1c7ad7ffea1cc6ea85a81"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-inventory.png",
+    "width": 375,
+    "height": 1546,
+    "sha256": "4b10243a37c8b0a27d919acbeaea73f5ed81d5b05f96aa7a55a3fe5ea79cf1d0"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-leads-LE-2101.png",
+    "width": 375,
+    "height": 2884,
+    "sha256": "128b93fbaf2d39917588a9a806d879108ca0c1498b1b3528fd269394a57893e7"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-leads-assignment.png",
+    "width": 375,
+    "height": 2399,
+    "sha256": "f023668a8403bfa9d1ff024ce4480b672df89b918606d367e5aabd06e5f36076"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-leads-viewings.png",
+    "width": 375,
+    "height": 1834,
+    "sha256": "3025161b8cdb799b4cb504ef277e7346bcfa348db6f3e42385c3b85a29c2c875"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-leads.png",
+    "width": 375,
+    "height": 1784,
+    "sha256": "3c670d3f414c807a305202192bad9e1760ad1fb96be42aceb0451d53808774ed"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-notifications.png",
+    "width": 375,
+    "height": 981,
+    "sha256": "5f3e3e9cc23554f01d587ef68626883bd7a84a897279547decf1ea9957e99a86"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-organization-new.png",
+    "width": 375,
+    "height": 1333,
+    "sha256": "acac3682a8b00b93cadfb84b05cadc6ed322b06836c0307d1f4965b769f2c99b"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-organization.png",
+    "width": 375,
+    "height": 1500,
+    "sha256": "8737e7b9391ac5c2d36bc874595ab5d8fc9d06a58c117147b057f130efde4412"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-publish.png",
+    "width": 375,
+    "height": 2190,
+    "sha256": "4ab7053c496c73a20585a0c404c124ae908779602a1339f58e56f3a556517f6b"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-settings-domains-preview.png",
+    "width": 375,
+    "height": 2702,
+    "sha256": "b40545874562005da3018db8943527b570687caa06811de8b49e57bdeedb69ed"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-settings-domains.png",
+    "width": 375,
+    "height": 1579,
+    "sha256": "61bb0601bf8508e3b62f19f6170c4999c82086e5efdde78e25596c8e90dd9794"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-settings-privacy.png",
+    "width": 375,
+    "height": 1185,
+    "sha256": "27510d87b48aaa3df5266eb40f92dcc16f38da2c7bfa01b9bf9d789a3e8ac013"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-settings.png",
+    "width": 375,
+    "height": 1178,
+    "sha256": "6e828712d04b8437f1304c2ee22ae16ea1632a9e5ef6a2f740a6e19fde460519"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-studio.png",
+    "width": 375,
+    "height": 2040,
+    "sha256": "1a4d00ce7e59f6adc87becac433e8d73960def1d2878d0b22f12560eaa92dcf4"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-support-assistant.png",
+    "width": 375,
+    "height": 1240,
+    "sha256": "833dbcff05f2cb341c51ef47a0a05b2d86526155d2bcc8a2a6e5fcc90d062455"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-support-evaluations.png",
+    "width": 375,
+    "height": 1276,
+    "sha256": "5ef318934526c037f137b627808d77e2e76455503362e0db3790b466a5a537c6"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-support-knowledge.png",
+    "width": 375,
+    "height": 1153,
+    "sha256": "09c69b2ad5ab80122a47403e142e82497289d7ffd20d9827c6fb45514277d6c4"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-team.png",
+    "width": 375,
+    "height": 2544,
+    "sha256": "73fa24b09600461d2b8d719b9a21353613a13da51ebbf0e27fef88c72a9bef52"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-verification.png",
+    "width": 375,
+    "height": 1460,
+    "sha256": "63d84a84ab4fbd56d25173c46ecbd05060448b61429779b93501ee659828cf46"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-whatsapp-packs.png",
+    "width": 375,
+    "height": 1490,
+    "sha256": "9dddb33757f7b564d6b08fcfed0eca577893142fc29527dfce0171b084aab41b"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-whatsapp-sla.png",
+    "width": 375,
+    "height": 1680,
+    "sha256": "336900ca894308739fe7b81aa8f39b73a155fd9670ed5cc725ae058522c537a6"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace-whatsapp-templates.png",
+    "width": 375,
+    "height": 1079,
+    "sha256": "d011a872781554b8625fe1447f1486024863bfc1a8f067be62e2a62b478ba345"
+  },
+  {
+    "path": "artifacts/frontend/after/375-ar-workspace.png",
+    "width": 375,
+    "height": 3394,
+    "sha256": "e33b60df4ab3bbb1cefcee48deae683d8de6ff24e277d2825bb0abfc2859210c"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-about.png",
+    "width": 375,
+    "height": 1428,
+    "sha256": "a2fc2167f50b1746635f859d31fc4ab91f18f4c48001c7682f5cfed4f0fa6fa6"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-agencies-pearl-gate-realty.png",
+    "width": 375,
+    "height": 1788,
+    "sha256": "3891344f030e63e5a6c4325f44f9feea842fbab5b0323c4577b882246b5f1b99"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-agencies.png",
+    "width": 375,
+    "height": 1091,
+    "sha256": "97a6f3eadcc96c13c1ed85784adad004431d6ffcffb7f83c19829b2d0a357eca"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-compare.png",
+    "width": 375,
+    "height": 3269,
+    "sha256": "9c985effbabde706e1d74e7a7ff69cad3df15d90ca0003ea846706b7c41a93c1"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-contact.png",
+    "width": 375,
+    "height": 1639,
+    "sha256": "695ad1b899911a43afb12a676b13c2b5796d8c9ac9f6154d03231c58a80119e7"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-faq.png",
+    "width": 375,
+    "height": 1312,
+    "sha256": "fc2edfbddc74ad657fee0da854649faa06938a8ed27d2577937d5643821a9e6e"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-favorites.png",
+    "width": 375,
+    "height": 2885,
+    "sha256": "1df13cf8a6970148875261b852c9ecb020a193cef55b0595e0a3e157baf9b49d"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-home.png",
+    "width": 375,
+    "height": 4737,
+    "sha256": "44c5407bf4eab79891690d79fb5611197b757590d8db17c1a32d27f88b55997f"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-map.png",
+    "width": 375,
+    "height": 1639,
+    "sha256": "dc35c2d40c8f237c101ee1c413c2d5eb33f01b97dc90d7e9c68341f68d4fa967"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-pricing.png",
+    "width": 375,
+    "height": 3291,
+    "sha256": "4ac76e0aabfa9729a1662310bdff9b6e01b7424335a7367cf6a295469fbe1298"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-privacy.png",
+    "width": 375,
+    "height": 1134,
+    "sha256": "504525985e365043005b2c7b80f180aadee061f8763beca164b28e28efe8323f"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-properties-AQ-10233.png",
+    "width": 375,
+    "height": 4678,
+    "sha256": "9497237584d36812554d331895e68f39c5555e4ba4530a83867f117a3cfef1f1"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-properties.png",
+    "width": 375,
+    "height": 4347,
+    "sha256": "697dea2e75fa7c2e696f1a18964923008c9ea816bed51ca2901857659f900a89"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-register.png",
+    "width": 375,
+    "height": 1723,
+    "sha256": "3f53b0a05538b3f150379403120a9b0e8771e566484bf8c36b5f805c0a8017f5"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-resources.png",
+    "width": 375,
+    "height": 1423,
+    "sha256": "d6146a7960b540d7836badd40d57327eff85a29215e14afd8b8af587128d1b6d"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-saved-searches.png",
+    "width": 375,
+    "height": 1413,
+    "sha256": "6822a853aa2b4a7de68e3ec3f3047cf7a2f54f8d73042b9c6f8988ce2e9378a4"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-sign-in.png",
+    "width": 375,
+    "height": 1434,
+    "sha256": "ea253e1ec7404331eea130b2a03a97f7e4fcd3276ef47c2b5239d7f0efd102e9"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-solutions.png",
+    "width": 375,
+    "height": 3604,
+    "sha256": "5bab67663792d4ab70bb1818a14771a4ba41b416481254b5bc026262b432d03c"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-terms.png",
+    "width": 375,
+    "height": 1134,
+    "sha256": "0c22d44880af22e8c13f3ff2880e54eaf35bcc94ede7dd431162f8a0d8db652b"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-admin-audit.png",
+    "width": 375,
+    "height": 1152,
+    "sha256": "4f7cd6bbb1323d4b6aa865b148960e4e75f148e1d2adf9671294711e9412a302"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-admin-cms.png",
+    "width": 375,
+    "height": 1078,
+    "sha256": "6c5925b94243be6590a65d33e5923cc5482e1989c981a7672525b3913949ed46"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-admin-connector-health.png",
+    "width": 375,
+    "height": 2274,
+    "sha256": "f586292bc9e4006d1a3be63fdcbb50ec00cbcb5cbcbfef26b3f9e92aadac0257"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-admin-integrations.png",
+    "width": 375,
+    "height": 2385,
+    "sha256": "6c96ab2edd13f69076cf97832e2f3beb59f4fc34b94986f8e1c7e9974672014d"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-admin-moderation.png",
+    "width": 375,
+    "height": 2298,
+    "sha256": "87998d4382c5036a74426876eea2791324085e005235e991d5b0d581b564884f"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-admin-organizations.png",
+    "width": 375,
+    "height": 2237,
+    "sha256": "8ff8cdbf77bf25c6f66154d91eae404ef4cc48527af38d7c92bad2f3e74281b3"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-admin-plans.png",
+    "width": 375,
+    "height": 1745,
+    "sha256": "2bc0bf347c20d2e18cac1024ab7d900eb7c917da79016cbe329f8780db293481"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-admin-reports.png",
+    "width": 375,
+    "height": 1271,
+    "sha256": "8ac9813d0cb9c7ee3451c1de72930749b0e5f1b9599b8a05c62aaaa06ee12d41"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-admin-taxonomies.png",
+    "width": 375,
+    "height": 959,
+    "sha256": "3bb9520d1c402e1ff9e97faad3336ae904e0ee14bc792836e477da91ad170487"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-admin-users.png",
+    "width": 375,
+    "height": 2633,
+    "sha256": "f9cc982fee2433cc1517382a37a5e8730b51ac986cd2b7d1e3c299440d199f4d"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-admin.png",
+    "width": 375,
+    "height": 2118,
+    "sha256": "a4447c7cd18899b00f786434b502e07533d00844d46930c026422784cde5a468"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-ads-attribution.png",
+    "width": 375,
+    "height": 2916,
+    "sha256": "88a213c2bc92c13e46b9c250acba15a90c02fa8f244d77f5c461334003107fc3"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-ads-catalogue.png",
+    "width": 375,
+    "height": 3259,
+    "sha256": "f47780635f81abc7d3a5c8056de7382ad7346dfda0da677f5821a8e03bdf459d"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-ads-placements.png",
+    "width": 375,
+    "height": 1253,
+    "sha256": "878728588c28f0ed430ece8ae380dfed9369876a0279258d68a3e57baaad3cfc"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-analytics.png",
+    "width": 375,
+    "height": 3328,
+    "sha256": "4247d7985c1e9d20fe08be479942b63d7946ff80708a518aa7f6694d5a086aa8"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-billing-dunning.png",
+    "width": 375,
+    "height": 951,
+    "sha256": "b06c2d11eed9b2d8256b08d4ef76641431c626815a2c3705a61107d51eca368f"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-billing-invoices-INV-2026-0419.png",
+    "width": 375,
+    "height": 898,
+    "sha256": "6d7f51f45b4076b8e175231bd40a6e3462e6fe34da2a7d18055666324d5db247"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-billing-invoices.png",
+    "width": 375,
+    "height": 951,
+    "sha256": "b06c2d11eed9b2d8256b08d4ef76641431c626815a2c3705a61107d51eca368f"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-billing.png",
+    "width": 375,
+    "height": 1942,
+    "sha256": "c3c0069abd7b5c5adb88069903fdf823a041a70afb8b3a6c61e15daf807d94f3"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-campaigns-AQ-10233.png",
+    "width": 375,
+    "height": 812,
+    "sha256": "a029336c593dffa6f0395d8664b4f8599f0e487699c80d77ffb886e5b5e1adc4"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-campaigns-new.png",
+    "width": 375,
+    "height": 2666,
+    "sha256": "f10420b9b68ede12a6bc366918bff9732fc809694588d3d299afedcfe34f940c"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-campaigns.png",
+    "width": 375,
+    "height": 1723,
+    "sha256": "af1ef0756d4d6174174a94d547c3ed916fd754aedd5619b45113d31a07ab4958"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-hub-connectors-property-finder.png",
+    "width": 375,
+    "height": 4867,
+    "sha256": "fef8623ac44dfce1361269c5f5caba1d849f1c7376bb1f7e77e1d3db3a81a555"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-hub-connectors.png",
+    "width": 375,
+    "height": 2808,
+    "sha256": "a01c63f583c43f16c11a0755d365015b47bb020e620f81c35a5020d3dd35a499"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-hub-feeds.png",
+    "width": 375,
+    "height": 5760,
+    "sha256": "0cd81d1f67f19cd23245ea5332a3400d66acbba2972d85ba8806343eb49ee28f"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-hub-jobs.png",
+    "width": 375,
+    "height": 1474,
+    "sha256": "16d0c98b2574095510529d647332e78297f7081b0b8d8b1a12b1e653c896970e"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-hub-mappings.png",
+    "width": 375,
+    "height": 5880,
+    "sha256": "4ff1b5e727d04eb109e596f7ddd5044eb79e5ac0a8318bb29256dba24aee967d"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-hub-marketplace.png",
+    "width": 375,
+    "height": 2689,
+    "sha256": "9c0237d73889e5ffa2538e152d31f4e4783ab3c48fd42daa0667149554d0bf04"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-hub.png",
+    "width": 375,
+    "height": 2448,
+    "sha256": "830a1c99f20a4e40e08d6cfeea5caa1d6a3070f8b8e4c67d49d65bb98fcd2b28"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-inbox.png",
+    "width": 375,
+    "height": 1549,
+    "sha256": "9555e8e598cd8117efd9f3eac748e4cbf29b95cecb1d02419d10eb35508cea57"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-integrations-ga4.png",
+    "width": 375,
+    "height": 2503,
+    "sha256": "cad1dcebffa708d4bd0d4114dc2ba951cfdbb937e30893b6d71242dedbb4cf84"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-integrations-google-ads.png",
+    "width": 375,
+    "height": 3459,
+    "sha256": "56f8ecf85f23fdb341ef48015ec634e0ea9e5caae17894820a4cafdd0fc1da11"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-integrations-meta-catalog.png",
+    "width": 375,
+    "height": 3140,
+    "sha256": "78e6a9aebd4b2794316de82e383b8fed77ee8abe3be491441a4a3f1ff8e6377f"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-integrations-whatsapp.png",
+    "width": 375,
+    "height": 2484,
+    "sha256": "f8128a1643a99cc76b6f246a96d345b504e49cc6402ae75a22a31e28cf77e8af"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-inventory-AQ-10233-edit.png",
+    "width": 375,
+    "height": 4105,
+    "sha256": "e74aa5cb570ee22e24346b3c48d4208eef66843473e4782789bb071fb55876d5"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-inventory-AQ-10233-enquiries.png",
+    "width": 375,
+    "height": 1828,
+    "sha256": "4f1a4c09a3c2c9e9a5e72d6a03164436fdfff2a8147e50b75721bb8aee3cbd83"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-inventory-AQ-10233-media.png",
+    "width": 375,
+    "height": 2936,
+    "sha256": "2f8009b868dc6916e3bdd75b14990a83b27341e891723c2dd0b08e45ca5429fe"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-inventory-AQ-10233-publishing.png",
+    "width": 375,
+    "height": 1095,
+    "sha256": "b28901993089d416e4a016419f1b298404bf35286f5c35a61002748113f8c20e"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-inventory-AQ-10233.png",
+    "width": 375,
+    "height": 2577,
+    "sha256": "5dc1c2a5d82af997e2925f1466543dbdcc054983b14c4eb10e0b3673ca904859"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-inventory-import.png",
+    "width": 375,
+    "height": 1304,
+    "sha256": "2b7950dfe8f351e184b8723fc01011198b201f294d1b156e25dc495d3120dd0f"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-inventory-new.png",
+    "width": 375,
+    "height": 812,
+    "sha256": "689a39e0fd7449920a986c3a80cc5cee52a5cb8d369d1af1d9867b448b5ae000"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-inventory.png",
+    "width": 375,
+    "height": 1603,
+    "sha256": "0bf1ca8ed4d606c3df20def4fab6d78bfb3c03c62a23956fa10dc61e396a0561"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-leads-LE-2101.png",
+    "width": 375,
+    "height": 2869,
+    "sha256": "08dd5be2b1367d760e04c33bfce21be131cc17444af8d16cb7e4e00476f36b95"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-leads-assignment.png",
+    "width": 375,
+    "height": 2714,
+    "sha256": "212c76dfa55664453c7487dc27dc4ec0cc32691152e96aef2b77696ff101ea45"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-leads-viewings.png",
+    "width": 375,
+    "height": 1977,
+    "sha256": "4ab27060c4a50cde2fabfc3ceaf677a14b17eb721fea367c929424ba9992cb45"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-leads.png",
+    "width": 375,
+    "height": 1856,
+    "sha256": "bbd432e3f2414155f170099aaaf6b400260db4cd7833215d1dd8441989c30b21"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-notifications.png",
+    "width": 375,
+    "height": 1014,
+    "sha256": "e58d11779ecc197536cff89470af2fc860033e2579d99f47d18b027beb5d28a5"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-organization-new.png",
+    "width": 375,
+    "height": 1345,
+    "sha256": "5b4d816deeb6cdc77cfd515c3a545d67aec87642b74c7099f5d2d82cd7a5356d"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-organization.png",
+    "width": 375,
+    "height": 1512,
+    "sha256": "81a641a81003a7cc4fda9fd70ab92d936d99c44dfa1b83905dd06627c65f0a85"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-publish.png",
+    "width": 375,
+    "height": 2296,
+    "sha256": "5b36f4dfdd5519d03ab94fe41dc723854bc96de4925edbef58378646c047bfab"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-settings-domains-preview.png",
+    "width": 375,
+    "height": 2694,
+    "sha256": "87e7999086da18dd977a2ff12a22059cc09d8c4d710c035649f206cc4eb5678c"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-settings-domains.png",
+    "width": 375,
+    "height": 1591,
+    "sha256": "a462413c16db983e268524d4a4acdcdd159aecc91de2290e8606229effd4194e"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-settings-privacy.png",
+    "width": 375,
+    "height": 1207,
+    "sha256": "0f38134f32b02d3ab860f038d1352db5e5b745b8497cfac9cbfdc9c77570fe30"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-settings.png",
+    "width": 375,
+    "height": 1210,
+    "sha256": "97cfcaf651156f8720d44d265db6ad22841f709019e6489b98f8390f7fe28db1"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-studio.png",
+    "width": 375,
+    "height": 2132,
+    "sha256": "9cc3b954ec72cbbd68fa98ee45189d4d28d8daeb20209d986eba6a908a858b82"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-support-assistant.png",
+    "width": 375,
+    "height": 1251,
+    "sha256": "8e221ea8dc63aba494d231bd169d50ecd3faa4b7d23da00c774d1bc2496a574b"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-support-evaluations.png",
+    "width": 375,
+    "height": 1286,
+    "sha256": "03e7747865d680c698d5331f0f8017eabdd85b955df73fd7a8dafd838bd5d4ac"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-support-knowledge.png",
+    "width": 375,
+    "height": 1150,
+    "sha256": "5db26859251481c50a8e8aabee053d24320b760c0ed2537e5132a8b0afd58733"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-team.png",
+    "width": 375,
+    "height": 2555,
+    "sha256": "fd536d1cb64a521db949d9993adf1a861889e67dda17ba5d8ec4867034bc4c75"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-verification.png",
+    "width": 375,
+    "height": 1464,
+    "sha256": "b9969939d79909246eba3c9caded16febcda4d108644d051ce18b520d581f332"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-whatsapp-packs.png",
+    "width": 375,
+    "height": 1610,
+    "sha256": "9c4658fe6dd4d56cdd18c538344d101c76d7125337ba9111e32eb26b03b8d4ce"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-whatsapp-sla.png",
+    "width": 375,
+    "height": 1668,
+    "sha256": "01744fc89d9b009e3c206b225c57e175d60e37497c3d33af09da45f6cea9a92c"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace-whatsapp-templates.png",
+    "width": 375,
+    "height": 1092,
+    "sha256": "695d3c11c72bc22bb7de4b38a0d2871c1a92d102fe0ec8a29cde3067deb15260"
+  },
+  {
+    "path": "artifacts/frontend/after/375-en-workspace.png",
+    "width": 375,
+    "height": 3596,
+    "sha256": "a6226ab56c3dd3efea738477525c347d414cde0275ff8f63180573b7e54c6889"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-about.png",
+    "width": 768,
+    "height": 1280,
+    "sha256": "a131135fcc1a02668aa298f001d6fb5664132162f8432abbd7bc7697623c7b32"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-agencies-pearl-gate-realty.png",
+    "width": 768,
+    "height": 1668,
+    "sha256": "e58a8ad6528107dcacb0376881d968db7fcea9c671665da54eb2935182b5b341"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-agencies.png",
+    "width": 768,
+    "height": 1000,
+    "sha256": "3d7ea2524f28dcef6b54c2f7ebf0cb3631f382e906b0cb27fccfb51eed69eb81"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-compare.png",
+    "width": 768,
+    "height": 2470,
+    "sha256": "47ec4e9abbbe43f147658e94bfbd357710afc8aa33b6d211f18b7229933cfcb6"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-contact.png",
+    "width": 768,
+    "height": 1614,
+    "sha256": "b7f300bb5e24a6ca9df38e1c4282ab5807ab248fa925ec2a5c230ec2023b101c"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-faq.png",
+    "width": 768,
+    "height": 1242,
+    "sha256": "8a34435d3410a8570bbe149511cc4f420279e111f4fe2a4dcebb4f3b8023436b"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-favorites.png",
+    "width": 768,
+    "height": 2076,
+    "sha256": "82e7837fb13a558b17ef2fbf2b74ab8ada8fd71a264dcf5c9f8a0b15a2c9a1e0"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-home.png",
+    "width": 768,
+    "height": 3911,
+    "sha256": "8b16b46e7eacecb2e13944361243d1ef591c29c11e2576af3d1d9de5fc360f92"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-map.png",
+    "width": 768,
+    "height": 1433,
+    "sha256": "fab6ddffec5a0d484d84e4152bfaf6db08982f98cbddab8267d8987797906bcd"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-pricing.png",
+    "width": 768,
+    "height": 2247,
+    "sha256": "73b95144972fcb357748b5d7474041c65c1b5bb82fe018453533c2786b4f560b"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-privacy.png",
+    "width": 768,
+    "height": 1075,
+    "sha256": "b4484c77a566b579b3617304347beddc609132b1ef1a829ec7595cc98c46864c"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-properties-AQ-10233.png",
+    "width": 768,
+    "height": 3257,
+    "sha256": "62e0c3fd7c2c5a0b4e238fb4624df7f765ab217be9fdc11258639ac577e09a32"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-properties.png",
+    "width": 768,
+    "height": 2683,
+    "sha256": "41f862c6afaada0112636b0110ec420a0f713a1733884bbd6ea1c36fa9fadc60"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-register.png",
+    "width": 768,
+    "height": 1372,
+    "sha256": "8c55a27a77449bfd90b7d5da6c2724c4ca2f3d9e5714a147996d65b2f833a620"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-resources.png",
+    "width": 768,
+    "height": 1280,
+    "sha256": "e87208e09c2f3e08771ffc8a9dbd1f9c6484388ecc46058492f9d3a8f5af9772"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-saved-searches.png",
+    "width": 768,
+    "height": 1191,
+    "sha256": "05355c71d6bbef3cf0a9fe0b40f075d546bb86e08ca3195e3b04b454545efcd7"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-sign-in.png",
+    "width": 768,
+    "height": 1457,
+    "sha256": "9b1d910fec8ddbd1cf194e66ac40bb2077f59505a17bce18395aad2af593db03"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-solutions.png",
+    "width": 768,
+    "height": 3028,
+    "sha256": "f1bf625640fd050464873e422d9c7a377370d92829ef7b746663694b87142379"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-terms.png",
+    "width": 768,
+    "height": 1075,
+    "sha256": "9fe68e942fb4b38891a144c7bd0e0e7e51cc172adcbcb2038202e46a31e57fd8"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-admin-audit.png",
+    "width": 768,
+    "height": 1000,
+    "sha256": "ec3614c0f30e1a5b7d11fce221e6f812d0a670c6dbd4103937ad2109fc01fff4"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-admin-cms.png",
+    "width": 768,
+    "height": 1000,
+    "sha256": "0baf8cc525aba5cc7b9be9bb3056675ffc671198c4a8ca98c02cb06a7ccad12f"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-admin-connector-health.png",
+    "width": 768,
+    "height": 1854,
+    "sha256": "b0094553e7232dacdfcc2a7cd61fc8f162e79e633e234c0a741a13db4822c423"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-admin-integrations.png",
+    "width": 768,
+    "height": 1928,
+    "sha256": "96c3bd141f834d981506b72a25a35cc3ae25e185d0b61313576af86fdcf88022"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-admin-moderation.png",
+    "width": 768,
+    "height": 2020,
+    "sha256": "52c98015d8535f9e3556f0eb92df7b3caff7d97a9d3dc696a916b3546f234530"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-admin-organizations.png",
+    "width": 768,
+    "height": 1658,
+    "sha256": "cd8079c62279c442628e5378b0fa8d7f0e0b05888bc437d4a4939a20db6e99ab"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-admin-plans.png",
+    "width": 768,
+    "height": 1401,
+    "sha256": "0684e746a0b05dad87a5208576e0f4f0676149375f9d1a59b0f405949baeb794"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-admin-reports.png",
+    "width": 768,
+    "height": 1022,
+    "sha256": "57ec272d550467359911feac67ea69a3a6873b33cfd5ed95adca1a37ed23c420"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-admin-taxonomies.png",
+    "width": 768,
+    "height": 1000,
+    "sha256": "8305a9e493f8889dfb0efc853c93e0f6db48056f2058eb93c0cf164da22c1c75"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-admin-users.png",
+    "width": 768,
+    "height": 2391,
+    "sha256": "c71a5d4bec2afb7084768f2f3d2e934ffb4ac04535924d1ef1a0d4d3f2be3da7"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-admin.png",
+    "width": 768,
+    "height": 1577,
+    "sha256": "4174e8b98d86c389e188b8a6ed92442c1237044bb48ff5b4497a61012d29971f"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-ads-attribution.png",
+    "width": 768,
+    "height": 2232,
+    "sha256": "97528bdd9c3b16721f86c64a1b92e0af9ffab9169d1bed6cb8398b04c92f5335"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-ads-catalogue.png",
+    "width": 768,
+    "height": 2710,
+    "sha256": "d5e96f9a657577848ca41346eebd86a38fe9d443f8f4ecb8cd878793daf8fe7a"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-ads-placements.png",
+    "width": 768,
+    "height": 1049,
+    "sha256": "a1d304e675450abcd20a03da9c417f7e02aa155425b3b78965458d8ca6cd41cd"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-analytics.png",
+    "width": 768,
+    "height": 2904,
+    "sha256": "b96698797ea3310ca2279622ae9e5e79a43c8af1e38c15ebbd9f36aa4476a4e0"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-billing-dunning.png",
+    "width": 768,
+    "height": 1000,
+    "sha256": "4910f2ad0703f7b75fc6afcb992808d7b89ef79920734f2b8b63a8394bbf1b2c"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-billing-invoices-INV-2026-0419.png",
+    "width": 768,
+    "height": 1000,
+    "sha256": "704fa5da2b89bec9bbd9a9021633f4225ba882f1b7366d2ca07631059efcad5c"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-billing-invoices.png",
+    "width": 768,
+    "height": 1000,
+    "sha256": "4910f2ad0703f7b75fc6afcb992808d7b89ef79920734f2b8b63a8394bbf1b2c"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-billing.png",
+    "width": 768,
+    "height": 1438,
+    "sha256": "94b2d081a0151582f6348098112162f8cf619063601f1eeb9b9c7ac711d96d20"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-campaigns-AQ-10233.png",
+    "width": 768,
+    "height": 1000,
+    "sha256": "1d6e23aa0e1f36bc676d95a34bae2e9cbfb935f6ab29634755ac76ba56ecf03b"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-campaigns-new.png",
+    "width": 768,
+    "height": 1837,
+    "sha256": "9c1c78ae74f6c4a02111c3138a1c49790d3cd5c7d4351636f2216d89b7fcd502"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-campaigns.png",
+    "width": 768,
+    "height": 1249,
+    "sha256": "f91f5d0d4ba2d051179cc6ddf576a85e5b4203dad16df6f4307056dcb341afac"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-hub-connectors-property-finder.png",
+    "width": 768,
+    "height": 4245,
+    "sha256": "602c2572957b1d2e3c10a5bc45a233b0e8357abc5f0a75b8b7a9f600e4241d82"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-hub-connectors.png",
+    "width": 768,
+    "height": 1975,
+    "sha256": "a9702afa6954bc09f9e43bed314d519a165e66d82024cf718f0a146eed15559a"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-hub-feeds.png",
+    "width": 768,
+    "height": 4019,
+    "sha256": "1e0ddf3852e3a86e51a7beeda78aa5a4622e972ea2212bc3f26092f17061ad33"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-hub-jobs.png",
+    "width": 768,
+    "height": 1085,
+    "sha256": "0d9c0fca7896fb25070f903fae4bddd030c6aa48e7bca52fdd70205de6356172"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-hub-mappings.png",
+    "width": 768,
+    "height": 4101,
+    "sha256": "286e899a3963fd4b978ec7d6e818625f2dcd0c77093c28e998d5754ecebebf0d"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-hub-marketplace.png",
+    "width": 768,
+    "height": 1893,
+    "sha256": "e855905c9dac7e5c845cd08a1d0a3895326fc30f9b93f0b0e79859dda71e37d7"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-hub.png",
+    "width": 768,
+    "height": 1710,
+    "sha256": "4f45d555c0cc4c1f852c6293b515fbc4ab680deebff5c715df025a6cb72a5745"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-inbox.png",
+    "width": 768,
+    "height": 1633,
+    "sha256": "20113039b331fd3b7c261f237d49402612c71d5f5eac36d65c80bf58470a34ef"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-integrations-ga4.png",
+    "width": 768,
+    "height": 2029,
+    "sha256": "b267ba6bb746727327a33422944007a68caefa5ebea32d3604651dd0804ac456"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-integrations-google-ads.png",
+    "width": 768,
+    "height": 2842,
+    "sha256": "078e8fb516e0841a0dfa05b428e7884117b968f5b3c5e6ea5471a8a27a68101a"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-integrations-meta-catalog.png",
+    "width": 768,
+    "height": 2629,
+    "sha256": "bde6306fe8f8f4ab60e236eef36a805372211648f47947adba52272fb7c98bd4"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-integrations-whatsapp.png",
+    "width": 768,
+    "height": 1988,
+    "sha256": "fbf1efd44838edf72a527f7b192ab79f5b5d7ce2936cb20d2859aa91e26356db"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-inventory-AQ-10233-edit.png",
+    "width": 768,
+    "height": 3270,
+    "sha256": "8e4ba22d45f0c56d8b4224b87acd2391961863f654e2b58f3d6bae1192b2b166"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-inventory-AQ-10233-enquiries.png",
+    "width": 768,
+    "height": 1413,
+    "sha256": "b139fa0bb873e13ab8b94949b7855ba2a15cd7b927ac4e4da1681f955d76c709"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-inventory-AQ-10233-media.png",
+    "width": 768,
+    "height": 1689,
+    "sha256": "b099a622378489c4d554d9608649ed56a15cdfed2ac98c53bd20e399435156dc"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-inventory-AQ-10233-publishing.png",
+    "width": 768,
+    "height": 1000,
+    "sha256": "28a61f7d2e46e6a97c782bb014f129ba070b6e3e2cc2ecaccbe12922a81333c5"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-inventory-AQ-10233.png",
+    "width": 768,
+    "height": 2225,
+    "sha256": "50c18679479cd8e40ef1b45e7195a31d8c85aa4dadd97918c7878c48e130a906"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-inventory-import.png",
+    "width": 768,
+    "height": 1182,
+    "sha256": "8c4bc14d0d58650fef90005773c98394ee8d682fb7f9297349d4ce30972bc04c"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-inventory-new.png",
+    "width": 768,
+    "height": 1000,
+    "sha256": "b7ac454850379961db8d94c73596711e3ae7949cf340f338980ca197ea8614b6"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-inventory.png",
+    "width": 768,
+    "height": 1434,
+    "sha256": "7bc467cfdaa12994b8cc1555e7c286831fcecee98856884db06ffeb38411a8f4"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-leads-LE-2101.png",
+    "width": 768,
+    "height": 2771,
+    "sha256": "558a7ef178839ae390491fa9abe8da09cda839d6d6d2554ab7ac459eb3d886cb"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-leads-assignment.png",
+    "width": 768,
+    "height": 2255,
+    "sha256": "feab75baeea78ed080beabcb75ae70e691a462e9f92769bbd7c17681a7623fd0"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-leads-viewings.png",
+    "width": 768,
+    "height": 1541,
+    "sha256": "3a93619f97929cacd6c473b5857d6a58abb410ba1033a2be2d9b0e6bce944620"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-leads.png",
+    "width": 768,
+    "height": 1693,
+    "sha256": "98e5eeda9b24035809f62b7210984d76986a260ab0017cd3e97142acc09fe60c"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-notifications.png",
+    "width": 768,
+    "height": 1000,
+    "sha256": "2879f18c656bc00db107bdc94d8ce7991fd2eada7e43d88af209417b43607b89"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-organization-new.png",
+    "width": 768,
+    "height": 1023,
+    "sha256": "bce497714a439d452725613ef1c9efacd0f76f100e396fc4688e9499c93a826c"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-organization.png",
+    "width": 768,
+    "height": 1116,
+    "sha256": "1cbf31e7244d8d1ce57f49ccd09cccef26fee0b89c072739a679815b3d8f39bc"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-publish.png",
+    "width": 768,
+    "height": 1961,
+    "sha256": "59d08a06a91dbb6027aa441d0807b2a14f5dd5220222618dd10e3c643ad90fb3"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-settings-domains-preview.png",
+    "width": 768,
+    "height": 1759,
+    "sha256": "10dc8c100d4dc78581ee815f8034efd359ad15cd8d0df89759768bcec95e0dad"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-settings-domains.png",
+    "width": 768,
+    "height": 1463,
+    "sha256": "6a6a054c71baf663667b83caea35d46d2863f70b321bef2153685156284c9aa9"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-settings-privacy.png",
+    "width": 768,
+    "height": 1131,
+    "sha256": "661aebec33d8724943551988434178037c761a22053fb10aee8419c76f99f04e"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-settings.png",
+    "width": 768,
+    "height": 1032,
+    "sha256": "dcacd1b54e79a708b9591449c035c0b6f69577396230d593474a6d530aa3fdd0"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-studio.png",
+    "width": 768,
+    "height": 1665,
+    "sha256": "a041c22a1cff98675fd2b2ec217646f3872dd6de0827392a9468727db21f2178"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-support-assistant.png",
+    "width": 768,
+    "height": 1118,
+    "sha256": "8bbdc8592d8b3d0a1f2d3a49b18e8346d0eddcf42f8e48a63c5fb0f1d785fc4a"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-support-evaluations.png",
+    "width": 768,
+    "height": 1090,
+    "sha256": "acc1ad4d5afa9fa6007bedf2b27491c77fb773721280b70ce9cf2d973ab36204"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-support-knowledge.png",
+    "width": 768,
+    "height": 1029,
+    "sha256": "9a40d9f9a9d88a34d53bfb1b18c27980aec6e905016c9d2f2e8baf8263fb3cfb"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-team.png",
+    "width": 768,
+    "height": 2313,
+    "sha256": "6c5502dfc692f399574536cdd13ee4e8847f5742fa10b5d71d44432b6610d664"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-verification.png",
+    "width": 768,
+    "height": 1045,
+    "sha256": "de9585712435655eec6c703eb1003265d777faf297c85fbfab1ece8b84ed78f0"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-whatsapp-packs.png",
+    "width": 768,
+    "height": 1293,
+    "sha256": "43d0d7577db1cd45b8525634799f576a083a142db476257c06412fbc8db616fe"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-whatsapp-sla.png",
+    "width": 768,
+    "height": 1714,
+    "sha256": "621fbbc610d43fa28db34288d7dea4734488cef2f7f7363083afba6e03b037e7"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace-whatsapp-templates.png",
+    "width": 768,
+    "height": 1000,
+    "sha256": "53b48956830e1f307186052e6f03ce6be576d9009d7db4932072ac31e87f94fd"
+  },
+  {
+    "path": "artifacts/frontend/after/768-ar-workspace.png",
+    "width": 768,
+    "height": 3094,
+    "sha256": "05a040de36b8ff5cb843b3682e606c3fd93c79abb6fe02e700a58dc1b1ffe5c5"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-about.png",
+    "width": 768,
+    "height": 1291,
+    "sha256": "07774ff71cc41f1bbc4385ffdbe3c40c57dee8ac08840179f1d193f0f76a5ee7"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-agencies-pearl-gate-realty.png",
+    "width": 768,
+    "height": 1644,
+    "sha256": "1bf5ed19fb550522fe70d769269cd84a564581fee6a270a141bde67d00fce8c8"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-agencies.png",
+    "width": 768,
+    "height": 1000,
+    "sha256": "d30b53dc0f3d0eac151d141eddbdc4a5e9bb31f418c6f9a09c3a16e9f61ec4fb"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-compare.png",
+    "width": 768,
+    "height": 2470,
+    "sha256": "ceb1f6e59f325a735d67f2bd2f6316a7e76439d1d84718a1992803f56acae832"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-contact.png",
+    "width": 768,
+    "height": 1585,
+    "sha256": "eaa6340533dee49c94b3b104c664ba816899e6ba027d73403f48307883d7c132"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-faq.png",
+    "width": 768,
+    "height": 1205,
+    "sha256": "9140c4d88a88da65bd7f8e979492375af219b8a2cede79b3965165d17e554d4a"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-favorites.png",
+    "width": 768,
+    "height": 2076,
+    "sha256": "35fde82794391621ac62a8652639e68e13c5996845e8476c7bd4529ed97d0a51"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-home.png",
+    "width": 768,
+    "height": 4112,
+    "sha256": "a7bfd1e17e8b6a16956e4b2075769a5e5285a9f1d1e7039147ec1b7655188d98"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-map.png",
+    "width": 768,
+    "height": 1433,
+    "sha256": "c9c6f35b3affa1569539cb108db4e9e35eb81e81e08bd5d9d3d6aec7035b34aa"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-pricing.png",
+    "width": 768,
+    "height": 2283,
+    "sha256": "a3a3a58c20bbd4f4aec1c969a6af972e336dc0be6efa52d8491b6fb5809be679"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-privacy.png",
+    "width": 768,
+    "height": 1064,
+    "sha256": "aaf9db557e1b135d4b596f34eda88743329a55f27b4165e406574a8bf2f948bd"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-properties-AQ-10233.png",
+    "width": 768,
+    "height": 3246,
+    "sha256": "144021f60561a430eaf2824e697924fa1570fff4f6df9ff564abdb63add99a2a"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-properties.png",
+    "width": 768,
+    "height": 2620,
+    "sha256": "5697d05ca340137f955ff3a067fa8e3390db68b35d3bcdd1f19435158c8c1362"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-register.png",
+    "width": 768,
+    "height": 1327,
+    "sha256": "70cc58efd123f5e026402fc2a3647ce44ce708d5150688af6901e40af8df37fb"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-resources.png",
+    "width": 768,
+    "height": 1243,
+    "sha256": "4037be80386bc566116791075eaa7d5ddb56d08df20d44e31b19ab2dd819dde2"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-saved-searches.png",
+    "width": 768,
+    "height": 1191,
+    "sha256": "1e941a1a8694b0724f7401aa4c58236b9bc278094b272e7cf2f6d86c57f3da3b"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-sign-in.png",
+    "width": 768,
+    "height": 1428,
+    "sha256": "b94dd500e8454e21d6f48e3e8ea8243ab8dc09a45fd12786c85173d7a3471229"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-solutions.png",
+    "width": 768,
+    "height": 3054,
+    "sha256": "6b9881a88a442a727e3e63f8a43a8ce04f51eee00344ab41dd57e9759b7513e0"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-terms.png",
+    "width": 768,
+    "height": 1064,
+    "sha256": "79e4c07eb8ecf2c7fcdc4a5f830845c4f474d3012dd10e7a0c3c48ee748a9588"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-admin-audit.png",
+    "width": 768,
+    "height": 1000,
+    "sha256": "ddf2af37efb0acab0b82a53cad411028164875d443c1129ed276c0056d51393d"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-admin-cms.png",
+    "width": 768,
+    "height": 1000,
+    "sha256": "1b723ff46b5e62b82081c740131797e09358f76c61c0157996986d5a0ada944f"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-admin-connector-health.png",
+    "width": 768,
+    "height": 1900,
+    "sha256": "1cade2cab38f85c96a29d6fc26cfbd6e79ff1de5ac2aeef4458af41376b52941"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-admin-integrations.png",
+    "width": 768,
+    "height": 1995,
+    "sha256": "06af17291bbb5670d4a97580465c1c57b61f8cffc7b11bfcbf3554e2c075bbc2"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-admin-moderation.png",
+    "width": 768,
+    "height": 2051,
+    "sha256": "a6ed3d77abcf7f0d172c0ad2f5044e788cb406c2792c935fe28451b223e5aedb"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-admin-organizations.png",
+    "width": 768,
+    "height": 1710,
+    "sha256": "fec87e7e98d0c07ae0fc1a519a10e4e9cac0e265b578e171e371d2d4809f2ff1"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-admin-plans.png",
+    "width": 768,
+    "height": 1432,
+    "sha256": "21e43d10e2a074a6b3bbefc13b88142b22b277fcbea99f954fdd49b6b3bfecea"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-admin-reports.png",
+    "width": 768,
+    "height": 1074,
+    "sha256": "818d9a686d11a1cc13797238074515f34e84c7a4e75c1bb603a669f1bd0b7685"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-admin-taxonomies.png",
+    "width": 768,
+    "height": 1000,
+    "sha256": "a3e8abd6ec339976e5b3f59b86a91d678b73b694d42b46d7db421269f57eea69"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-admin-users.png",
+    "width": 768,
+    "height": 2398,
+    "sha256": "7a44d19d78f6146dce5a5c84bee22928a919c3693749023ff838ec15df9f35eb"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-admin.png",
+    "width": 768,
+    "height": 1607,
+    "sha256": "d7763938898cce16b93d94921086d52a1f263c0178424737b2c8e9a39d1a6a5b"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-ads-attribution.png",
+    "width": 768,
+    "height": 2355,
+    "sha256": "b1e4bd044ae203a4349b1fd162cccbcf5e7631d653b49e149fd24efc69c0a902"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-ads-catalogue.png",
+    "width": 768,
+    "height": 2798,
+    "sha256": "9c42f1abb199b275525fe5fae34fd512e96765aea8ec996bfe9d7dc11487eea8"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-ads-placements.png",
+    "width": 768,
+    "height": 1080,
+    "sha256": "0d8223c34b667e8c9105da057f7c07ac41c591a03d14b2c1d263f732a97bc086"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-analytics.png",
+    "width": 768,
+    "height": 2952,
+    "sha256": "289c42ab3189b1260204edc5abe92ee79dc340340f1bd7777198686104ad8d68"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-billing-dunning.png",
+    "width": 768,
+    "height": 1000,
+    "sha256": "34a80048ca51fc21765c2e2c32b48bebd58f89a4b98086b0c02a1ec75dcf7acb"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-billing-invoices-INV-2026-0419.png",
+    "width": 768,
+    "height": 1000,
+    "sha256": "53ade147b85869dd966cba06cd405b379483097c92d966ecc608b21fbd040429"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-billing-invoices.png",
+    "width": 768,
+    "height": 1000,
+    "sha256": "34a80048ca51fc21765c2e2c32b48bebd58f89a4b98086b0c02a1ec75dcf7acb"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-billing.png",
+    "width": 768,
+    "height": 1440,
+    "sha256": "ed0a7a2fc91e0d4b34b3a6eb7bd324f810f37a35ff4490c05e30d82e1e5557f8"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-campaigns-AQ-10233.png",
+    "width": 768,
+    "height": 1000,
+    "sha256": "efcae80bd3f71ec8d154575761eab784614ef88ec95ff1f2bda8ba57cb4c82d9"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-campaigns-new.png",
+    "width": 768,
+    "height": 1888,
+    "sha256": "b8560efc723bc76d9674ec4092ac1b2de5f12e8e7eef8ff28d9094504a9ba5e8"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-campaigns.png",
+    "width": 768,
+    "height": 1276,
+    "sha256": "6d5bf2e2723e9ede84ca093fb512a712148dbee7ed94f2636c0278fcb3ed2baf"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-hub-connectors-property-finder.png",
+    "width": 768,
+    "height": 4316,
+    "sha256": "e2ec845fb187b15cd53415a948915e778277170e28ff2698d2a8983ecc977442"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-hub-connectors.png",
+    "width": 768,
+    "height": 2043,
+    "sha256": "cdd7d013c51ccdc4d78ff10fb550cf6de4686f0030124f3a6cf4a642471c3998"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-hub-feeds.png",
+    "width": 768,
+    "height": 4112,
+    "sha256": "7ba271a74e9fc6ccab8207bbea3044fff6b3029f87c1bf6aa9bb2a0c9115d961"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-hub-jobs.png",
+    "width": 768,
+    "height": 1132,
+    "sha256": "bddaa1b35549c56fbefbca208e1d2be33e39f08402cbc20f9da8327aad84b684"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-hub-mappings.png",
+    "width": 768,
+    "height": 4215,
+    "sha256": "1df071f2289a6e938cefa5879c9c9010aaae7250e13d86f88de47ae417141eb7"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-hub-marketplace.png",
+    "width": 768,
+    "height": 1940,
+    "sha256": "f3707408954bc142c91dccc080e9ae99a27e3c343b4f26c1507d869b99e71eed"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-hub.png",
+    "width": 768,
+    "height": 1762,
+    "sha256": "4d9ca600b7ff653edba5dce3189b3cf054b1c87230d0ee41c85a3a14067faf1a"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-inbox.png",
+    "width": 768,
+    "height": 1639,
+    "sha256": "3493c5a33247a06483b60fba2ac156717b5814b030e8bf5dfd5704b57c8a83f6"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-integrations-ga4.png",
+    "width": 768,
+    "height": 2035,
+    "sha256": "736f33e5e0d4ce8f8d48813abf7f1a610e3da58c908626123583921c0db71891"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-integrations-google-ads.png",
+    "width": 768,
+    "height": 2963,
+    "sha256": "2141bca85d87adf787bd098fe4f7c547381340280d7c041e2a8822875d244180"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-integrations-meta-catalog.png",
+    "width": 768,
+    "height": 2694,
+    "sha256": "77885d5c4b955d2fd9f59d850de89b15174d14c2f68d22a0069d390ff9ae486f"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-integrations-whatsapp.png",
+    "width": 768,
+    "height": 1995,
+    "sha256": "29abd166738e8b5e21a5ff0015a1fc99d44e65735cdd56296e3eb4e309a7a878"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-inventory-AQ-10233-edit.png",
+    "width": 768,
+    "height": 3322,
+    "sha256": "76dcecd0cd5102c1c340b52ad9b314108c64302bff876694fc89be76017a6b13"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-inventory-AQ-10233-enquiries.png",
+    "width": 768,
+    "height": 1420,
+    "sha256": "b09d9f8f98487e27b99314649ac86510ffdbd2e55ebf0191dbf42fcb0ddd91c4"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-inventory-AQ-10233-media.png",
+    "width": 768,
+    "height": 1739,
+    "sha256": "27ee6869f662cda2a963d972f27e98a59c3d9910b9729dad1b6c677f4f92acd8"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-inventory-AQ-10233-publishing.png",
+    "width": 768,
+    "height": 1000,
+    "sha256": "f498e07b54e2d954a8158a81461dc6800db26c0e1f17dc9437d283e61960b01a"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-inventory-AQ-10233.png",
+    "width": 768,
+    "height": 2232,
+    "sha256": "ad2b7073503d0fe4cef352407c180f72e5455754bbb4a2e6f3fbfb063bffe0c4"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-inventory-import.png",
+    "width": 768,
+    "height": 1243,
+    "sha256": "95a15428853df113f25433ad6cc38e43244faf98b73cf83fd2b28eb6e4b87354"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-inventory-new.png",
+    "width": 768,
+    "height": 1000,
+    "sha256": "8ea22a0f02192fd9d8113efc130744686a2e52acbf758634775677cfdea4ab55"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-inventory.png",
+    "width": 768,
+    "height": 1501,
+    "sha256": "7636654163100867f8bab068fc1103622ad0124301339453ac3c0a0af577e0d1"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-leads-LE-2101.png",
+    "width": 768,
+    "height": 2778,
+    "sha256": "580d1260f2755ce653ec39bb0ceb1e5a64f717c4d6451b24f7c118ae6362091c"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-leads-assignment.png",
+    "width": 768,
+    "height": 2285,
+    "sha256": "651046d881eb1702d760e35845dbc9b4352ac4cb7e11c2b5ec2a229d1d3faf6e"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-leads-viewings.png",
+    "width": 768,
+    "height": 1612,
+    "sha256": "9678eac26fe96509abf081646c3ae37ba1bc8600ab8c5c0443ebe839480156c4"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-leads.png",
+    "width": 768,
+    "height": 1721,
+    "sha256": "f00c545d5fa21fdb91d2be6f6df7190a03a5ba7d2ad694507f49bb8fb3c2578f"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-notifications.png",
+    "width": 768,
+    "height": 1000,
+    "sha256": "21106cf47019763bf87a74a4f7a52b5b7f23f636c8c9a2450a5ac3e10cd2e254"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-organization-new.png",
+    "width": 768,
+    "height": 1030,
+    "sha256": "dc77b15c636901eff61d245c1424e00bb40deab67b372e496e2bb1cd232ca45d"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-organization.png",
+    "width": 768,
+    "height": 1123,
+    "sha256": "f8191850bffa504f4c5fc84b373b1bd62b5bbc17231aab95306fef27a50bb52e"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-publish.png",
+    "width": 768,
+    "height": 2014,
+    "sha256": "36c27fed0e31dc88d3f53daae6fa609f44f30bc4786cfd374345d8e08c29fc05"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-settings-domains-preview.png",
+    "width": 768,
+    "height": 1787,
+    "sha256": "657a6a006734fb91452b186efc94d4e247617b8960ac8f54e83562fb0030e0d5"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-settings-domains.png",
+    "width": 768,
+    "height": 1470,
+    "sha256": "39d95e849b7668c57f1ed19957de91edf4b57f5088a9069e7f1baa7dfdd4d1ad"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-settings-privacy.png",
+    "width": 768,
+    "height": 1138,
+    "sha256": "723fbe050714a18fb074ef744cd144ad5ec0ed2f840edc1e7d46652f71b19d8e"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-settings.png",
+    "width": 768,
+    "height": 1038,
+    "sha256": "3827e85573b05ee2ff26c676bd61c063fda9fd892fc73513e013f32bd96064d3"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-studio.png",
+    "width": 768,
+    "height": 1715,
+    "sha256": "833c423d5cbb3512d54a22e1f4c3893f10859a6c9057f83192958b51dee5522c"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-support-assistant.png",
+    "width": 768,
+    "height": 1168,
+    "sha256": "dd68bbbecabcd022086d4650a98ec4a8fa2c7c3c76ac7eb275bbeffd84579b6d"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-support-evaluations.png",
+    "width": 768,
+    "height": 1121,
+    "sha256": "15ef002bd659f98d813937ae8ea0b08fc57bc6ed19d6fd720ac091411401b4d3"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-support-knowledge.png",
+    "width": 768,
+    "height": 1060,
+    "sha256": "1424c8f297c71c292ab106d2191087cb718373e96c479477169a6af50a95a445"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-team.png",
+    "width": 768,
+    "height": 2320,
+    "sha256": "199ba67465b836df38195bfab4a836ff1700a098477c86145ef70153946f65ff"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-verification.png",
+    "width": 768,
+    "height": 1115,
+    "sha256": "3b0f3b12aac2ac24f3ca2dcb643e7e4770d9c55c18f387727f3524c79db26b3f"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-whatsapp-packs.png",
+    "width": 768,
+    "height": 1300,
+    "sha256": "5e867a2e4ed9e4b1dfb56afe0b6fa2d65ad9814e885bfbc8af4c94e89136fe1e"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-whatsapp-sla.png",
+    "width": 768,
+    "height": 1743,
+    "sha256": "33b2f37d2c3627339d010bcc2b50f6840c41fe17ea0872ed3a16260c8892681c"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace-whatsapp-templates.png",
+    "width": 768,
+    "height": 1000,
+    "sha256": "fb2fbb32979762bace40a850819f70096cd088e7f6198ef20bcd80b111d0228f"
+  },
+  {
+    "path": "artifacts/frontend/after/768-en-workspace.png",
+    "width": 768,
+    "height": 3146,
+    "sha256": "ffab9471edb1d1a3a47cc24da48ddae1db81e7cf1f788a32982d2ed9fc2d357a"
+  }
+]

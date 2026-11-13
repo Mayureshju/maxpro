@@ -1,0 +1,42 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test frontend-polish.spec.ts
+
+
+Running 28 tests using 2 workers
+
+(node:40003) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:40002) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/e2e/frontend-polish.spec.ts:7:2 › frontend en: inventory filters combine, validate, reset and preserve both views (896ms)
+  ✓   2 [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:7:2 › frontend en: inventory filters combine, validate, reset and preserve both views (1.1s)
+  ✓   3 [chromium] › tests/e2e/frontend-polish.spec.ts:27:2 › frontend en: unsaved edits survive stay and failed save; successful save releases navigation (1.3s)
+  ✓   5 [chromium] › tests/e2e/frontend-polish.spec.ts:46:2 › frontend en: dashboard links to canonical creation and scoped activity (435ms)
+  ✓   6 [chromium] › tests/e2e/frontend-polish.spec.ts:54:2 › frontend en: navigation search and mobile focus remain usable (316ms)
+  ✓   7 [chromium] › tests/e2e/frontend-polish.spec.ts:62:2 › frontend en: bulk import, FAQ and agency preview have truthful behavior (494ms)
+  ✓   4 [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:27:2 › frontend en: unsaved edits survive stay and failed save; successful save releases navigation (2.9s)
+  ✓   8 [chromium] › tests/e2e/frontend-polish.spec.ts:7:2 › frontend ar: inventory filters combine, validate, reset and preserve both views (566ms)
+  ✓   9 [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:46:2 › frontend en: dashboard links to canonical creation and scoped activity (488ms)
+  ✓  11 [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:54:2 › frontend en: navigation search and mobile focus remain usable (390ms)
+  ✓  12 [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:62:2 › frontend en: bulk import, FAQ and agency preview have truthful behavior (589ms)
+  ✓  10 [chromium] › tests/e2e/frontend-polish.spec.ts:27:2 › frontend ar: unsaved edits survive stay and failed save; successful save releases navigation (1.5s)
+  ✓  14 [chromium] › tests/e2e/frontend-polish.spec.ts:46:2 › frontend ar: dashboard links to canonical creation and scoped activity (411ms)
+  ✓  13 [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:7:2 › frontend ar: inventory filters combine, validate, reset and preserve both views (666ms)
+  ✓  15 [chromium] › tests/e2e/frontend-polish.spec.ts:54:2 › frontend ar: navigation search and mobile focus remain usable (375ms)
+  ✓  17 [chromium] › tests/e2e/frontend-polish.spec.ts:62:2 › frontend ar: bulk import, FAQ and agency preview have truthful behavior (576ms)
+  ✓  18 [chromium] › tests/e2e/frontend-polish.spec.ts:70:33 › frontend en: public tablet layouts keep footer and editorial content inside viewport (799ms)
+  ✓  19 [chromium] › tests/e2e/frontend-polish.spec.ts:70:33 › frontend ar: public tablet layouts keep footer and editorial content inside viewport (606ms)
+  ✓  20 [chromium] › tests/e2e/frontend-polish.spec.ts:77:33 › frontend en: newly saved campaign keeps the next stage after navigation (426ms)
+  ✓  16 [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:27:2 › frontend ar: unsaved edits survive stay and failed save; successful save releases navigation (2.8s)
+  ✓  21 [chromium] › tests/e2e/frontend-polish.spec.ts:77:33 › frontend ar: newly saved campaign keeps the next stage after navigation (446ms)
+  ✓  22 [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:46:2 › frontend ar: dashboard links to canonical creation and scoped activity (465ms)
+  ✓  23 [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:54:2 › frontend ar: navigation search and mobile focus remain usable (369ms)
+  ✓  24 [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:62:2 › frontend ar: bulk import, FAQ and agency preview have truthful behavior (488ms)
+  -  25 [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:70:33 › frontend en: public tablet layouts keep footer and editorial content inside viewport
+  -  26 [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:70:33 › frontend ar: public tablet layouts keep footer and editorial content inside viewport
+  ✓  27 [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:77:33 › frontend en: newly saved campaign keeps the next stage after navigation (427ms)
+  ✓  28 [mobile-chromium] › tests/e2e/frontend-polish.spec.ts:77:33 › frontend ar: newly saved campaign keeps the next stage after navigation (401ms)
+
+  2 skipped
+  26 passed (12.5s)

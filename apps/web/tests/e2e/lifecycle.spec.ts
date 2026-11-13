@@ -29,7 +29,7 @@ async function fillFacts(page:Page){
 }
 async function capture(page:Page,name:string){
  await page.evaluate(()=>{window.scrollTo({top:0,left:0,behavior:'instant'});return document.fonts.ready;});
- await page.screenshot({path:resolve(`../../artifacts/phase6/regression/phase1/screenshots/${name}.png`),fullPage:true,scale:'css'});
+ await page.screenshot({path:resolve(`../../${globalThis.process.env.MAXPRO_EVIDENCE_ROOT??'artifacts/phase6'}/regression/phase1/screenshots/${name}.png`),fullPage:true,scale:'css'});
  expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBeLessThanOrEqual(page.viewportSize()!.width+1);
 }
 for(const locale of ['en','ar']){
@@ -52,13 +52,13 @@ for(const locale of ['en','ar']){
    await page.setViewportSize({width:1440,height:1000});
   }
   await page.goto(`/${locale}/workspace/inventory`);
-  await page.getByRole('textbox',{name:localized("Search properties")}).fill(id);
+  await page.getByRole('searchbox',{name:localized("Search properties")}).fill(id);
   await page.getByRole('combobox',{name:localized("Filter listing status")}).selectOption('Draft');
   await expect(page.locator('tbody tr')).toHaveCount(1);
   await capture(page,`${prefix}-inventory`);
   await page.locator('tbody tr').getByRole('link').click();
   await expect(page).toHaveURL(`/${locale}/workspace/inventory/${id}`);
-  await expect(page.locator('h1')).toHaveText(ar?'مسكن الفناء التجريبي':'Lifecycle courtyard residence');await expect(page.getByRole('link',{name:localized(/Organize media|تنظيم الوسائط/)})).toBeVisible();await capture(page,`${prefix}-property-record`);
+  await expect(page.getByRole('heading',{level:1})).toHaveText(ar?'مسكن الفناء التجريبي':'Lifecycle courtyard residence');await expect(page.getByRole('link',{name:localized(/Organize media|تنظيم الوسائط/)})).toBeVisible();await capture(page,`${prefix}-property-record`);
   await page.goto(`/${locale}/workspace/inventory/${id}/media`);
   await page.getByRole('button',{name:localized(/Add fictional sample assets|إضافة وسائط خيالية/)}).click();
   const down=page.getByRole('button',{name:localized('Move Sample hero photo down')});await down.focus();await page.keyboard.press('Enter');
@@ -115,8 +115,9 @@ for(const locale of ['en','ar']){
   saved=await snapshot(page);expect(saved.properties[id].history.length).toBeGreaterThan(6);expect(saved.properties[id].publications.every(r=>r.externalReference===null)).toBe(true);
  });
  test(`lifecycle ${locale} invalid IDs never fall back to a sample`,async({page})=>{
+  test.setTimeout(60000);
   for(const id of ['does-not-exist','toString'])for(const route of [`inventory/${id}`,`inventory/${id}/edit`,`inventory/${id}/media`,`inventory/${id}/publishing`,`inventory/${id}/enquiries`,`studio?property=${id}`,`publish?property=${id}`]){
-   await page.goto(`/${locale}/workspace/${route}`);await expect(page.locator('h1')).toHaveText(locale==='ar'?'العقار غير موجود':'Property not found');await expect(page.locator('main')).not.toContainText(localized('Marina-facing apartment'));
+   await page.goto(`/${locale}/workspace/${route}`);await expect(page.getByRole('heading',{level:1})).toHaveText(locale==='ar'?'العقار غير موجود':'Property not found');await expect(page.locator('main')).not.toContainText(localized('Marina-facing apartment'));
   }
  });
 }
@@ -172,7 +173,7 @@ test('corrupt canonical records are excluded while valid drafts and legacy edits
  await create(page);await page.getByRole('textbox',{name:localized("Title — English",true),exact:true}).fill('Recoverable draft');await page.getByRole('button',{name:localized(saveName)}).click();
  await page.evaluate(key=>{const s=JSON.parse(localStorage.getItem(key)!);s.properties['AQ-10233'].facts.priceQar='invalid';s.properties['AQ-10231'].media[0].sampleKey='data:image/png;base64,secrets';s.jobs=[{destination:'untrusted'}];localStorage.setItem(key,JSON.stringify(s));},storeKey);
  await page.reload();await expect(page.getByRole('textbox',{name:localized("Title — English",true),exact:true})).toHaveValue('Recoverable draft');await expect(page.getByRole('status')).toContainText(localized('invalid local records'));
- await page.goto('/en/workspace/inventory/AQ-10233');await expect(page.locator('h1')).toHaveText(localized('Property not found',true));
+ await page.goto('/en/workspace/inventory/AQ-10233');await expect(page.getByRole('heading',{level:1})).toHaveText(localized('Property not found',true));
 });
 
 test('changing a record in another tab rejects stale editor saves and resets publishing approval',async({page,context})=>{

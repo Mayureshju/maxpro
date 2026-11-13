@@ -52,3 +52,10 @@ Phase 4 implementation and evidence: `docs/20-phase4-marketing-campaigns.md`, Op
 Phase 5 implementation: `docs/21-phase5-organization-admin.md`, OpenSpec `0009-organization-admin`. Primary GEM-01/17/18/19/20. Organization schema v1 extends the existing envelope; local permissions, moderation and entitlements integrate with property/connector/CRM/campaign commands. Phase 6 supersedes the directory-only limit: new organizations start with independent empty browser-local operations, while Pearl Gate preserves its canonical identities. These UX guards provide no production authentication, tenant isolation or RBAC. The approved future backend is a custom Frappe application (see `docs/22-frappe-backend-blueprint.md`); no backend is implemented and every production row remains NOT IMPLEMENTED.
 
 Phase 6 implementation and freeze evidence: `docs/23-final-prototype-audit.md`, `docs/24-prototype-acceptance-matrix.md`, `docs/25-frappe-integration-readiness.md`, OpenSpec `0010-final-prototype-acceptance`. Organization selection is UX simulation, never secure tenant isolation. Canonical WhatsApp property packs and branding previews follow the selected organization. The complete acceptance matrix separates verified local behavior from unresolved review/production dependencies.
+
+
+## Final frontend presentation pass — OpenSpec 0011
+
+GEM-01/02/03/17/18/19/20/21/22: compact organization context and navigation search; scoped control-tower work/CRM/viewing/campaign/capacity readouts; combined inventory filters and recovery; canonical draft protection; task-specific public platform/agency pages; truthful import and local activity; route feedback; explicit residual Arabic presentation labels; image-ready four-width responsive evidence. Existing GEM-04–16 and GEM-24 operational journeys are preserved and regression-tested. No production status or GEM-23 architecture change is implied.
+
+See [final frontend review](27-final-frontend-ui-review.md) for the 83-screen audit, implementation detail, test evidence, screenshots and remaining independent/native-Arabic/stakeholder gates. Commercial terms remain illustrative pending approval.

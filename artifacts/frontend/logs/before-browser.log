@@ -1,0 +1,32 @@
+before: en 1440px: 83 routes inspected
+before: en 375px: 83 routes inspected
+before: ar 1440px: 83 routes inspected
+before: ar 375px: 83 routes inspected
+browserContext.close: Target page, context or browser has been closed
+Browser logs:
+
+<launching> /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,HttpsUpgrades,HttpsFirstBalancedModeAutoEnable,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,AvoidCorsURLLoaderRestartOnRedirect,TcpPortRandomizationWin,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,PreconnectToSearch,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface,SkipListAccountsWithoutGaiaCookies --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --enable-unsafe-swiftshader --edge-skip-compat-layer-relaunch --disable-stack-profiler --disable-infobars --disable-sync --do-not-de-elevate --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/var/folders/_t/w2bsc67x24g1qv_2kqlhq3t80000gp/T/playwright_chromiumdev_profile-gLmtuu --remote-debugging-pipe --no-startup-window
+<launched> pid=7736
+[pid=7736][err] Trying to load the allocator multiple times. This is *not* supported.
+[pid=7736][err] [7752:55234068:1113/140929.078224:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+[pid=7736][err] [7752:55234139:1113/140929.078974:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+[pid=7736][err] [7752:55234068:1113/140929.081019:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+[pid=7736][err] [7752:55234139:1113/140929.081070:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+[pid=7736][err] [7752:55234068:1113/140929.081182:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+[pid=7736][err] [7752:55234139:1113/140929.081209:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+[pid=7736][err] Trying to load the allocator multiple times. This is *not* supported.
+[pid=7736][err] WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+[pid=7736][err] I0000 00:00:1794559349.065014 55247584 environment.cc:526] Selected adapter: Apple M3 Pro, arch=metal-3, vendor=apple, backend=Metal, adapterType=Integrated GPU
+[pid=7736][err] I0000 00:00:1794559349.123054 55247658 environment.cc:526] Selected adapter: Apple M3 Pro, arch=metal-3, vendor=apple, backend=Metal, adapterType=Integrated GPU
+[pid=7736][err] [7752:55234068:1113/141611.699874:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+[pid=7736][err] [7752:55234139:1113/141611.700320:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+[pid=7736][err] [7752:55234068:1113/141611.700447:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+[pid=7736][err] [7752:55234139:1113/141611.700487:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+[pid=7736][err] [7752:55234068:1113/141611.700567:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+[pid=7736][err] [7752:55234139:1113/141611.700608:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+[pid=7736][err] [7752:55234068:1113/141614.059195:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+[pid=7736][err] [7752:55234139:1113/141614.059242:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+[pid=7736] <gracefully close start>
+    at async /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/scripts/frontend-review.cjs:30:3 {
+  log: []
+}

@@ -1,0 +1,7 @@
+Recorded summary of tool execution (not raw terminal capture).
+
+CI=true pnpm install --frozen-lockfile
+Exit 0. All 2 workspace projects. Lockfile up to date. 382 packages reused; 382 added; no lockfile or dependency manifest changes.
+Network-enabled execution was needed after the restricted attempt could not resolve registry.npmjs.org and an offline attempt lacked the @next/env tarball.
+pnpm warned that build scripts for @parcel/watcher and @swc/core were ignored; the Webpack production build subsequently passed.
+Playwright's expected bundled Chromium revision is absent; browser verification uses /Applications/Google Chrome.app/Contents/MacOS/Google Chrome.

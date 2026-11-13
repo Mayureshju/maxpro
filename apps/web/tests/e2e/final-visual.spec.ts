@@ -1,7 +1,7 @@
 import {test,expect} from './fixtures';
 import {mkdirSync,readdirSync,writeFileSync} from 'node:fs';
 import {resolve} from 'node:path';
-const output=resolve('../../artifacts/phase6');
+const output=resolve(`../../${globalThis.process.env.MAXPRO_EVIDENCE_ROOT??'artifacts/phase6'}`);
 const workflows=[['dashboard',''],['onboarding','organization/new'],['organization','organization'],['inventory','inventory'],['create','inventory/new'],['property','inventory/AQ-10233'],['editor','inventory/AQ-10233/edit'],['media','inventory/AQ-10233/media'],['studio','studio'],['compliance','admin/moderation'],['marketplace','hub/marketplace'],['connector','hub/connectors/property-finder'],['publishing','publish'],['jobs','hub/jobs'],['feeds','hub/feeds'],['crm','leads'],['lead','leads/LE-2101'],['inbox','inbox'],['viewings','leads/viewings'],['routing','leads/assignment'],['campaigns','campaigns'],['campaign-create','campaigns/new'],['meta','integrations/meta-catalog'],['google','integrations/google-ads'],['ga4','integrations/ga4'],['whatsapp','whatsapp/packs'],['analytics','analytics'],['billing','billing'],['invoices','billing/invoices'],['team','team'],['verification','verification'],['branding','settings/domains'],['brand-preview','settings/domains/preview'],['admin','admin'],['plans','admin/plans'],['audit','admin/audit']] as const;
 const routes=readdirSync(resolve('src/app/[locale]'),{recursive:true}).map(String).filter(f=>f.endsWith('page.tsx')).map(f=>'/'+f.replace(/\/?page\.tsx$/,'')).map(r=>r.replace('[id]',r.startsWith('/workspace/leads/')?'LE-2101':r.startsWith('/workspace/billing/')?'INV-2026-0419':r.startsWith('/workspace/hub/connectors/')?'property-finder':r.startsWith('/agencies/')?'pearl-gate-realty':'AQ-10233'));
 for(const locale of ['en','ar']){

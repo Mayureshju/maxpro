@@ -1,0 +1,95 @@
+{
+  "date": "2026-11-13",
+  "baseline": {
+    "branch": "main",
+    "sha": "9cbb6daf8b4ce1e1469e70a4be11a545247f729f",
+    "remoteMainVerified": true
+  },
+  "scope": "Frontend browser-local prototype only; no commit, push or deployment",
+  "install": {
+    "command": "CI=true pnpm install --frozen-lockfile",
+    "exit": 0,
+    "lockedPackages": 382
+  },
+  "typecheck": {
+    "command": "pnpm typecheck",
+    "exit": 0
+  },
+  "lint": {
+    "command": "pnpm lint",
+    "exit": 0,
+    "warnings": 0
+  },
+  "defaultBuild": {
+    "command": "pnpm build",
+    "exit": 1,
+    "reason": "Turbopack sandbox process/port binding EPERM",
+    "log": "logs/build-default.log"
+  },
+  "webpackBuild": {
+    "command": "pnpm --dir apps/web exec next build --webpack",
+    "exit": 0
+  },
+  "fullSuite": {
+    "command": "pnpm --dir apps/web test:e2e --reporter=list,json,html",
+    "stats": {
+      "startTime": "2026-11-13T09:23:20.938Z",
+      "duration": 338729.86,
+      "expected": 811,
+      "skipped": 33,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "note": "Full regression run before final presentation-only Arabic catalogue/requirement-label corrections"
+  },
+  "copyFollowup": {
+    "command": "pnpm --dir apps/web test:e2e frontend-polish.spec.ts connector-hub.spec.ts final-copy.spec.ts final-visual.spec.ts --reporter=list,json,html",
+    "stats": {
+      "startTime": "2026-11-13T09:31:55.263Z",
+      "duration": 98834.142,
+      "expected": 72,
+      "skipped": 4,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "note": "Final localized build; source/exports, controls, all-route copy/accessibility and major visual/responsive checks"
+  },
+  "browser": {
+    "engine": "Installed Google Chrome via Playwright",
+    "environment": "Chromium desktop/mobile emulation",
+    "templates": 83,
+    "locales": [
+      "en",
+      "ar"
+    ],
+    "widths": [
+      1440,
+      1024,
+      768,
+      375
+    ],
+    "combinations": 664,
+    "routeErrors": 0,
+    "consoleErrors": 0,
+    "imageLoadErrors": 0,
+    "pageOverflows": 0
+  },
+  "accessibility": {
+    "reports": 20,
+    "recordedStates": 472,
+    "violations": 0,
+    "certification": false
+  },
+  "screenshots": {
+    "baseline": 250,
+    "final": 664,
+    "manifest": "screenshot-manifest.json",
+    "gallery": "index.html"
+  },
+  "remainingGates": [
+    "Native-speaker Arabic approval",
+    "Independent review: installed Claude Code returned Not logged in",
+    "Stakeholder brand, imagery, commercial/legal and visual acceptance",
+    "Physical-device, Safari and Firefox UAT"
+  ]
+}

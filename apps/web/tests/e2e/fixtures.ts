@@ -2,7 +2,7 @@ import {mkdirSync} from 'node:fs';
 import {resolve} from 'node:path';
 import {test as base,expect} from '@playwright/test';
 
-for(let phase=0;phase<=5;phase++)mkdirSync(resolve(`../../artifacts/phase6/regression/phase${phase}/logs`),{recursive:true});
+for(let phase=0;phase<=5;phase++)mkdirSync(resolve(`../../${globalThis.process.env.MAXPRO_EVIDENCE_ROOT??'artifacts/phase6'}/regression/phase${phase}/logs`),{recursive:true});
 
 // Every test fails on application exceptions, hydration errors or console errors.
 export const test=base.extend<{browserErrors:void}>({

@@ -26,7 +26,7 @@ export default async function LocaleLayout({children, params}: {
   setRequestLocale(locale);
 
   return (
-    <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'}>
+    <html data-scroll-behavior="smooth" lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'}>
       <body>
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
       </body>

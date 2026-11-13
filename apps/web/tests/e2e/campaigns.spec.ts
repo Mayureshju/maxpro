@@ -720,7 +720,7 @@ for (const locale of ["en", "ar"]) {
     page,
   }) => {
     await page.goto(`/${locale}/workspace/campaigns/DEMO-NOT-FOUND`);
-    await expect(page.locator("h1")).toContainText(
+    await expect(page.getByRole("heading",{level:1})).toContainText(
       /Campaign unavailable|الحملة غير متاحة/,
     );
     const s = host();
@@ -770,9 +770,7 @@ for (const locale of ["en", "ar"]) {
       }),
     ).toBeDisabled();
     await page
-      .getByLabel(
-        /Fictional consent for this event|موافقة خيالية لمعاينة الحدث/,
-      )
+      .getByRole("checkbox",{name:/Fictional consent for this event|موافقة خيالية لمعاينة الحدث/})
       .check();
     await page
       .getByRole("button", {
@@ -781,9 +779,7 @@ for (const locale of ["en", "ar"]) {
       .click();
     await expect(page.locator(".gm-code")).toContainText(localized("remote_sent"));
     await page
-      .getByLabel(
-        /Fictional consent for this event|موافقة خيالية لمعاينة الحدث/,
-      )
+      .getByRole("checkbox",{name:/Fictional consent for this event|موافقة خيالية لمعاينة الحدث/})
       .uncheck();
     await expect(page.locator(".gm-code")).toHaveCount(0);
     await page.goto(`/${locale}/workspace/integrations/google-ads`);
@@ -805,7 +801,7 @@ for (const locale of ["en", "ar"]) {
       test.setTimeout(90000);
       await page.setViewportSize({ width, height: 1000 });
       const c = await prepareReady(page, locale);
-      const path = resolve("../../artifacts/phase6/regression/phase4/screenshots");
+      const path = resolve(`../../${globalThis.process.env.MAXPRO_EVIDENCE_ROOT??'artifacts/phase6'}/regression/phase4/screenshots`);
       mkdirSync(path, { recursive: true });
       for (const [name, n] of [
         ["builder", 0],
@@ -862,7 +858,7 @@ for (const locale of ["en", "ar"]) {
         ["google", "integrations/google-ads"],
       ]) {
         await page.goto(`/${locale}/workspace/${route}`);
-        await expect(page.locator("h1")).toBeVisible();
+        await expect(page.getByRole("heading",{level:1})).toBeVisible();
         await page.evaluate(() => document.fonts.ready);
         await noOverflow(page);
         await page.screenshot({
@@ -928,13 +924,13 @@ for (const locale of ["en", "ar"]) {
       `ads/attribution?campaign=${c.id}`,
     ]) {
       await page.goto(`/${locale}/workspace/${route}`);
-      await expect(page.locator("h1")).toBeVisible();
+      await expect(page.getByRole("heading",{level:1})).toBeVisible();
       await check(route);
     }
-    mkdirSync(resolve("../../artifacts/phase6/regression/phase4/logs"), { recursive: true });
+    mkdirSync(resolve(`../../${globalThis.process.env.MAXPRO_EVIDENCE_ROOT??'artifacts/phase6'}/regression/phase4/logs`), { recursive: true });
     writeFileSync(
       resolve(
-        `../../artifacts/phase6/regression/phase4/logs/axe-${info.project.name}-${locale}.json`,
+        `../../${globalThis.process.env.MAXPRO_EVIDENCE_ROOT??'artifacts/phase6'}/regression/phase4/logs/axe-${info.project.name}-${locale}.json`,
       ),
       JSON.stringify(reports, null, 2),
     );

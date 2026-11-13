@@ -543,7 +543,7 @@ test('CRM browser: corrupt saved CRM excludes invalid leads but preserves proper
   expect(after.jobs).toEqual(before.jobs);
   expect(after.crm.cursor).toBe(1);
   await page.goto('/en/workspace/leads/unknown');
-  await expect(page.locator('h1')).toHaveText(localized("Lead not found",true));
+  await expect(page.getByRole('heading',{level:1})).toHaveText(localized("Lead not found",true));
   await page.goto('/en/workspace/inbox?lead=unknown');
   await expect(page.getByText(localized("No conversation found"))).toBeVisible();
 });
@@ -608,7 +608,7 @@ for (const locale of ['en', 'ar'])
         ['control-tower', ''],
       ]) {
         await page.goto(`/${locale}/workspace/${path}`);
-        await expect(page.locator('h1')).toBeVisible();
+        await expect(page.getByRole('heading',{level:1})).toBeVisible();
         if (name === 'pipeline')
           await page
             .getByRole('button', {name: localized(/^Pipeline$|^مسار$/), exact: true})
@@ -621,7 +621,7 @@ for (const locale of ['en', 'ar'])
         await noOverflow(page);
         await page.screenshot({
           path: resolve(
-            `../../artifacts/phase6/regression/phase3/screenshots/${locale}-${width}-${name}.png`,
+            `../../${globalThis.process.env.MAXPRO_EVIDENCE_ROOT??'artifacts/phase6'}/regression/phase3/screenshots/${locale}-${width}-${name}.png`,
           ),
           fullPage: true,
           scale: 'css',
@@ -722,7 +722,7 @@ for (const locale of ['en', 'ar'])
       'analytics',
     ]) {
       await page.goto(`/${locale}/workspace/${route}`);
-      await expect(page.locator('h1')).toBeVisible();
+      await expect(page.getByRole('heading',{level:1})).toBeVisible();
       await expect(page.locator('.crm-nav')).toBeVisible();
       await page.addScriptTag({path: axePath});
       const results = await page.evaluate<{
@@ -745,10 +745,10 @@ for (const locale of ['en', 'ar'])
         reports.push({route: 'leads-pipeline', ...pipeline});
       }
     }
-    mkdirSync(resolve('../../artifacts/phase6/regression/phase3/logs'), {recursive: true});
+    mkdirSync(resolve(`../../${globalThis.process.env.MAXPRO_EVIDENCE_ROOT??'artifacts/phase6'}/regression/phase3/logs`), {recursive: true});
     writeFileSync(
       resolve(
-        `../../artifacts/phase6/regression/phase3/logs/axe-${info.project.name}-${locale}.json`,
+        `../../${globalThis.process.env.MAXPRO_EVIDENCE_ROOT??'artifacts/phase6'}/regression/phase3/logs/axe-${info.project.name}-${locale}.json`,
       ),
       JSON.stringify(reports, null, 2),
     );

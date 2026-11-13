@@ -1,0 +1,27 @@
+{
+  "files": 20,
+  "scans": 472,
+  "violations": 0,
+  "reports": [
+    "artifacts/frontend/regression/copy-check/axe-mobile-chromium-en.json",
+    "artifacts/frontend/regression/copy-check/axe-chromium-en.json",
+    "artifacts/frontend/regression/copy-check/axe-mobile-chromium-ar.json",
+    "artifacts/frontend/regression/copy-check/axe-chromium-ar.json",
+    "artifacts/frontend/regression/logs/axe-mobile-chromium-en.json",
+    "artifacts/frontend/regression/logs/axe-chromium-en.json",
+    "artifacts/frontend/regression/logs/axe-mobile-chromium-ar.json",
+    "artifacts/frontend/regression/logs/axe-chromium-ar.json",
+    "artifacts/frontend/regression/regression/phase4/logs/axe-mobile-chromium-en.json",
+    "artifacts/frontend/regression/regression/phase4/logs/axe-chromium-en.json",
+    "artifacts/frontend/regression/regression/phase4/logs/axe-mobile-chromium-ar.json",
+    "artifacts/frontend/regression/regression/phase4/logs/axe-chromium-ar.json",
+    "artifacts/frontend/regression/regression/phase3/logs/axe-mobile-chromium-en.json",
+    "artifacts/frontend/regression/regression/phase3/logs/axe-chromium-en.json",
+    "artifacts/frontend/regression/regression/phase3/logs/axe-mobile-chromium-ar.json",
+    "artifacts/frontend/regression/regression/phase3/logs/axe-chromium-ar.json",
+    "artifacts/frontend/regression/regression/phase5/logs/axe-mobile-chromium-en.json",
+    "artifacts/frontend/regression/regression/phase5/logs/axe-chromium-en.json",
+    "artifacts/frontend/regression/regression/phase5/logs/axe-mobile-chromium-ar.json",
+    "artifacts/frontend/regression/regression/phase5/logs/axe-chromium-ar.json"
+  ]
+}

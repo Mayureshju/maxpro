@@ -1,0 +1,12 @@
+after: en 768px: 83 routes inspected
+after: en 1440px: 83 routes inspected
+after: en 1024px: 83 routes inspected
+after: ar 1440px: 83 routes inspected
+after: ar 1024px: 83 routes inspected
+after: en 375px: 83 routes inspected
+after: ar 768px: 83 routes inspected
+after: ar 375px: 83 routes inspected
+{
+  "screens": 664,
+  "failures": []
+}

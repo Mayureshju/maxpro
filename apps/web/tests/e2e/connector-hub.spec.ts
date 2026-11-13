@@ -32,7 +32,7 @@ async function publish(page:Page,locale='en',id='AQ-10233'){
  await page.getByRole('button',{name:localized(next,true),exact:true}).click();await page.getByRole('button',{name:localized(next,true),exact:true}).click();await page.getByRole('checkbox').check();await page.getByRole('button',{name:localized(next,true),exact:true}).click();await page.getByRole('button',{name:localized(locale==='ar'?'محاكاة النشر':'Simulate publishing',true),exact:true}).click();
 }
 async function capture(page:Page,name:string){
- await page.evaluate(()=>document.fonts.ready);await page.screenshot({path:resolve(`../../artifacts/phase6/regression/phase2/screenshots/${name}.png`),fullPage:true,scale:'css'});
+ await page.evaluate(()=>document.fonts.ready);await page.screenshot({path:resolve(`../../${globalThis.process.env.MAXPRO_EVIDENCE_ROOT??'artifacts/phase6'}/regression/phase2/screenshots/${name}.png`),fullPage:true,scale:'css'});
  expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBeLessThanOrEqual(page.viewportSize()!.width+1);
 }
 
@@ -98,14 +98,14 @@ for(const locale of ['en','ar']){
  test(`connector ${locale}: responsive sections and keyboard controls at required widths`,async({page},info)=>{
   test.setTimeout(90000);
   const widths=info.project.name==='chromium'?[1440,1024,768]:[375];
-  for(const width of widths){await page.setViewportSize({width,height:1000});for(const [name,path] of [['directory','hub/marketplace'],['provider','hub/connectors/property-finder'],['feed','hub/feeds'],['history','hub/jobs'],['workbench','publish']] as const){await page.goto(`/${locale}/workspace/${path}`);await expect(page.locator('h1')).toBeVisible();await capture(page,`${locale}-${width}-${name}`);}}
+  for(const width of widths){await page.setViewportSize({width,height:1000});for(const [name,path] of [['directory','hub/marketplace'],['provider','hub/connectors/property-finder'],['feed','hub/feeds'],['history','hub/jobs'],['workbench','publish']] as const){await page.goto(`/${locale}/workspace/${path}`);await expect(page.getByRole('heading',{level:1})).toBeVisible();await capture(page,`${locale}-${width}-${name}`);}}
   await page.goto(`/${locale}/workspace/hub/feeds`);const format=page.getByRole('combobox',{name:localized("Preview format")});await format.focus();await page.keyboard.press('j');await page.keyboard.press('Enter');await expect(format).toBeFocused();await page.getByRole('button',{name:localized("Copy sample")}).focus();await expect(page.getByRole('button',{name:localized("Copy sample")})).toBeFocused();
  });
 }
 
 test('corrupt connector state recovers valid properties and excludes malformed job attempts',async({page})=>{
  await prepare(page,'en');await publish(page);await page.evaluate(key=>{const s=JSON.parse(localStorage.getItem(key)!);s.jobs[0].attempts=[{status:'accepted'}];localStorage.setItem(key,JSON.stringify(s));},key);await page.reload();await expect(page.getByRole('status')).toContainText(localized('invalid local records'));const s=await snapshot(page);expect(Object.keys(s.properties)).toHaveLength(6);await page.goto('/en/workspace/hub/jobs');await expect(page.locator('tbody tr')).toHaveCount(1);
- await page.evaluate(key=>localStorage.setItem(key,'{broken'),key);await page.reload();await expect(page.getByRole('status')).toContainText(localized('damaged'));await expect(page.locator('h1')).toHaveText(localized('Publishing activity',true));
+ await page.evaluate(key=>localStorage.setItem(key,'{broken'),key);await page.reload();await expect(page.getByRole('status')).toContainText(localized('damaged'));await expect(page.getByRole('heading',{level:1})).toHaveText(localized('Publishing activity',true));
 });
 
 for(const locale of ['en','ar'])test(`connector ${locale}: correcting canonical data lets a blocked job retry at the current revision`,async({page})=>{

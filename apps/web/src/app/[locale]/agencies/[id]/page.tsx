@@ -1,2 +1,2 @@
-import {PublicInformational} from '@/components/prototype/public-pages';
-export default function Page(){return <PublicInformational kind='agencies'/>;}
+import {PublicAgency} from '@/components/prototype/public-platform';
+export default async function Page({params}:{params:Promise<{id:string}>}){const {id}=await params;return <PublicAgency detail id={id}/>;}

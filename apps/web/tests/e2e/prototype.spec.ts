@@ -11,14 +11,14 @@ const routes=[
  '/en/workspace/whatsapp/packs','/en/workspace/support/assistant','/en/workspace/ads/placements',
  '/en/workspace/admin','/en/workspace/admin/connector-health','/en/workspace/admin/moderation','/en/workspace/admin/users','/en/workspace/admin/audit'
 ];
-for(const route of routes){test(`${route} renders a page heading`,async({page})=>{await page.goto(route);await expect(page.locator('h1').first()).toBeVisible();await expect(page.locator('body')).not.toContainText(localized('Internal Server Error'));});}
+for(const route of routes){test(`${route} renders a page heading`,async({page})=>{await page.goto(route);await expect(page.getByRole('heading',{level:1}).first()).toBeVisible();await expect(page.locator('body')).not.toContainText(localized('Internal Server Error'));});}
 
 test('inventory filtering and property navigation works locally',async({page})=>{
  await page.goto('/en/workspace/inventory');
- await page.getByRole('textbox',{name:localized("Search properties")}).fill('Viva');
+ await page.getByRole('searchbox',{name:localized("Search properties")}).fill('Viva');
  await expect(page.locator('.px-listing-row')).toHaveCount(1);
  await page.locator('.px-listing-row').first().getByRole('link').click();
- await expect(page.locator('h1')).toContainText(localized('Viva Bahriya'));
+ await expect(page.getByRole('heading',{level:1})).toContainText(localized('Viva Bahriya'));
 });
 
 test('studio can walk through local demo with explicit approval',async({page})=>{
@@ -38,7 +38,7 @@ test('studio can walk through local demo with explicit approval',async({page})=>
 test('Arabic routes preserve RTL',async({page})=>{
  await page.goto('/ar/workspace/inventory');
  await expect(page.locator('html')).toHaveAttribute('dir','rtl');
- await expect(page.locator('h1')).toBeVisible();
+ await expect(page.getByRole('heading',{level:1})).toBeVisible();
 });
 
 test('mobile workspace does not overflow and sidebar opens',async({page})=>{
