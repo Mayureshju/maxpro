@@ -10,9 +10,9 @@ const routes=readdirSync(localeRoot,{recursive:true}).map(String).filter(file=>f
  return route.replace('[id]',id).replace(/\/$/,'');
 });
 const workflows=[
- ['dashboard','/workspace'],['studio','/workspace/studio'],['editor','/workspace/inventory/AQ-10233/edit'],['media','/workspace/inventory/AQ-10233/media'],
+ ['dashboard','/workspace'],['studio','/workspace/studio'],['editor','/workspace/inventory/AQ-10233/edit?advanced=1'],['media','/workspace/inventory/AQ-10233/media'],
  ['marketplace','/workspace/hub/marketplace'],['provider','/workspace/hub/connectors/property-finder'],
- ['publishing','/workspace/publish'],['history','/workspace/hub/jobs'],['leads','/workspace/leads'],
+ ['publishing','/workspace/publish?advanced=1'],['history','/workspace/hub/jobs'],['leads','/workspace/leads'],
  ['routing','/workspace/leads/assignment'],['billing','/workspace/billing'],['analytics','/workspace/analytics'],['admin','/workspace/admin/connector-health'],
 ];
 for(const locale of ['en','ar']){
@@ -36,18 +36,17 @@ for(const locale of ['en','ar']){
    expect(size.content).toBeLessThanOrEqual(size.viewport+1);
   });
  }
- test(`navigation ${locale} follows links and preserves most-specific selection`,async({page},testInfo)=>{
+ test(`navigation ${locale} follows agency settings to contextual integrations`,async({page},testInfo)=>{
   await page.goto(`/${locale}/workspace`);
-  if(testInfo.project.name==='mobile-chromium')await page.getByRole('button',{name:localized("Open navigation")}).click();
-  await page.locator(`.prototype-nav a[href="/${locale}/workspace/hub/marketplace"]`).click();
-  await expect(page).toHaveURL(`/${locale}/workspace/hub/marketplace`);
+  if(testInfo.project.name==='mobile-chromium')await page.getByRole('button',{name:localized('Open navigation')}).click();
+  await page.locator(`.prototype-nav a[href="/${locale}/workspace/settings"]`).click();
+  await expect(page).toHaveURL(`/${locale}/workspace/settings`);
   await expect(page.locator('.prototype-nav-item.is-current')).toHaveCount(1);
-  await expect(page.locator('.prototype-nav-item.is-current')).toHaveAttribute('href',`/${locale}/workspace/hub/marketplace`);
   if(testInfo.project.name==='mobile-chromium')await expect(page.locator('.prototype-sidebar')).not.toHaveClass(/is-open/);
-  await page.getByRole('textbox',{name:localized("Search connectors")}).fill('WhatsApp');
-  await expect(page.locator('.gm-market-row')).toHaveCount(1);
-  await page.locator('.gm-market-row').click();
-  await expect(page.getByRole('heading',{level:1})).toHaveText(localized('WhatsApp Business',true));await expect(page.locator('.prototype-nav-item.is-current')).toHaveAttribute('href',`/${locale}/workspace/hub/marketplace`);
+  await page.goto(`/${locale}/workspace/hub/marketplace`);
+  await page.getByRole('textbox',{name:localized('Search connectors')}).fill('WhatsApp');
+  await expect(page.locator('.gm-market-row')).toHaveCount(1);await page.locator('.gm-market-row').click();
+  await expect(page.getByRole('heading',{level:1})).toHaveText(localized('WhatsApp Business',true));await expect(page.locator('.prototype-nav-item.is-current')).toHaveAttribute('href',`/${locale}/workspace/settings`);
  });
  test(`workflow ${locale} canonical edits, blocked and queued local dispatch`,async({page},testInfo)=>{
   test.setTimeout(60000);
@@ -58,12 +57,12 @@ for(const locale of ['en','ar']){
    await page.getByRole('checkbox').check();
    await page.getByRole('button',{name:localized(/Prepare demo connector/)}).click();
   }
-  await page.goto(`/${locale}/workspace/inventory/AQ-10233/edit`);
+  await page.goto(`/${locale}/workspace/inventory/AQ-10233/edit?advanced=1`);
   await page.getByRole('textbox',{name:localized("Permit / license")}).fill('');
   await page.getByRole('button',{name:localized(/Save browser-local draft|حفظ المسودة محلياً/)}).click();
   await page.reload();
   await expect(page.getByRole('textbox',{name:localized("Permit / license")})).toHaveValue('');
-  await page.goto(`/${locale}/workspace/publish`);
+  await page.goto(`/${locale}/workspace/publish?advanced=1`);
   await page.getByRole('button',{name:localized(next,true),exact:true}).click();
   await page.getByRole('button',{name:localized(next,true),exact:true}).click();
   await expect(page.getByText(localized('Verified permit and advertiser approval')).first()).toBeVisible();
@@ -72,11 +71,11 @@ for(const locale of ['en','ar']){
   await page.getByRole('button',{name:localized(publish,true),exact:true}).click();
   await page.goto(`/${locale}/workspace/hub/jobs`);
   await expect(page.getByText(localized("Blocked locally",true),{exact:true})).toHaveCount(2);
-  await page.goto(`/${locale}/workspace/inventory/AQ-10233/edit`);
+  await page.goto(`/${locale}/workspace/inventory/AQ-10233/edit?advanced=1`);
   await page.getByRole('textbox',{name:localized("Permit / license")}).fill('DEMO-REVIEWED');
   await page.getByRole('checkbox',{name:localized(/I reviewed the property facts|راجعت حقائق العقار/)}).check();
   await page.getByRole('button',{name:localized(/Save browser-local draft|حفظ المسودة محلياً/)}).click();
-  await page.goto(`/${locale}/workspace/publish`);
+  await page.goto(`/${locale}/workspace/publish?advanced=1`);
   await page.getByRole('button',{name:localized(next,true),exact:true}).click();
   await page.getByRole('button',{name:localized(next,true),exact:true}).click();
   await page.getByRole('checkbox').check();
@@ -119,7 +118,7 @@ for(const locale of ['en','ar']){
 
 test('invalid persisted demo data recovers without crashing or accepting unknown providers',async({page})=>{
  await page.addInitScript(()=>localStorage.setItem('maxpro-gemini-v3-demo-state',JSON.stringify({plan:'obsolete',preparedConnectors:['unknown',null,'property-finder'],jobs:[{},null,{destination:'obsolete'}],activeAgents:[null],propertyEdits:{'AQ-10233':{permit:42}}})));
- for(const route of ['/workspace','/workspace/billing','/workspace/publish','/workspace/hub/jobs','/workspace/hub/marketplace','/workspace/inventory/AQ-10233/edit']){
+ for(const route of ['/workspace','/workspace/billing','/workspace/publish?advanced=1','/workspace/hub/jobs','/workspace/hub/marketplace','/workspace/inventory/AQ-10233/edit?advanced=1']){
   await page.goto(`/en${route}`);
   await expect(page.getByRole('heading',{level:1})).toBeVisible();
  }
@@ -130,7 +129,7 @@ test('unavailable browser storage still allows local demo interactions',async({p
  await page.addInitScript(()=>Object.defineProperty(window,'localStorage',{get(){throw new DOMException('Storage disabled','SecurityError');}}));
  await page.goto('/en/workspace/billing');
  await page.getByRole('button',{name:localized(/Starter/)}).click();
- await page.goto('/en/workspace/publish');
+ await page.goto('/en/workspace/publish?advanced=1');
  // Full navigations reset in-memory state when storage is disabled; the app still renders safely.
  await expect(page.getByRole('heading',{level:1})).toBeVisible();
 });
@@ -204,6 +203,7 @@ test('keyboard can filter the connector directory and enter provider setup',asyn
 
 for(const locale of ['en','ar']){
  test(`commercial ${locale} admin examples match Gemini and provider names remain explicit`,async({page})=>{
+  await page.goto(`/${locale}/workspace/settings/demo`);await page.getByRole('combobox',{name:localized('Simulated persona',true),exact:true}).selectOption('super-admin');
   await page.goto(`/${locale}/workspace/admin/plans`);
   await expect(page.locator('tbody tr')).toHaveCount(3);
   await expect(page.getByText(localized('QAR 179',true),{exact:true})).toBeVisible();

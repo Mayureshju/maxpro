@@ -1,0 +1,11 @@
+- [x] Audit routes, commands, baseline and actual before screenshots.
+- [x] Define IA and bounded redesign specification.
+- [x] Implement agency registration and returning demo sign-in.
+- [x] Simplify shell, isolate platform tools and add Settings entry points.
+- [x] Implement guided property editing and embedded reviewed suggestions.
+- [x] Implement property detail and dashboard next actions.
+- [x] Implement grouped destinations and separate portal/ad/direct workflows.
+- [x] Integrate lead assistance and evidence-based performance explanation.
+- [x] Add/update browser coverage and four-width EN/AR screenshot evidence.
+- [x] Run typecheck, lint, build and full Playwright; inspect screenshots.
+- [x] Complete separate review and docs/29-agency-first-ux.md with results/gaps.

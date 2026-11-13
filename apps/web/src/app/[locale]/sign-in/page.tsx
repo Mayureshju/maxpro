@@ -1,2 +1,3 @@
-import {PublicInformational} from '@/components/prototype/public-pages';
-export default function Page(){return <PublicInformational kind='sign-in'/>}
+import {GeminiDemoProvider} from '@/components/gemini/demo-provider';
+import {DemoEntry} from '@/components/agency/demo-entry';
+export default function Page(){return <GeminiDemoProvider><DemoEntry/></GeminiDemoProvider>;}

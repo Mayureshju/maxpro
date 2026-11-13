@@ -1,2 +1,2 @@
-import {OrganizationWorkspace} from '@/components/gemini/organization-workspace';
-export default function Page(){return <OrganizationWorkspace mode="settings"/>;}
+import {AgencySettings} from '@/components/agency/workspace-pages';
+export default function Page(){return <AgencySettings/>;}

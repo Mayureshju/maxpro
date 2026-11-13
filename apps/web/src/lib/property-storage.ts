@@ -21,6 +21,14 @@ export function readProperty(v:unknown,organizationId:string=demoOrganizationId)
  if(!facts||!isRecord(s)||!['manual','text','document','voice','sample'].includes(String(s.kind))||!textValue(s.notes)||typeof s.factsReviewed!=='boolean'||typeof s.copyReviewed!=='boolean'||!(s.reviewedAt===null||date(s.reviewedAt))||!isRecord(proposal)||!textValue(proposal.descriptionEn)||!textValue(proposal.descriptionAr)||typeof v.watermark!=='boolean')return null;
  if((v.status==='reviewed'&&(!s.factsReviewed||!s.copyReviewed))||(s.factsReviewed&&s.copyReviewed&&!date(s.reviewedAt)))return null;
  if(!Array.isArray(v.media)||v.media.length>60||!Array.isArray(v.history)||v.history.length>200||!Array.isArray(v.publications)||v.publications.length>500)return null;
+ let sharing:CanonicalProperty['sharing'];
+ if(v.sharing!==undefined){
+  const value=v.sharing;
+  if(!isRecord(value)||!integer(value.revision)||!textValue(value.messageEn,4000)||!textValue(value.messageAr,4000)||!Array.isArray(value.history)||value.history.length>100)return null;
+  const history:NonNullable<CanonicalProperty['sharing']>['history']=[];
+  for(const e of value.history){if(!isRecord(e)||!date(e.at)||!['link','message'].includes(String(e.kind))||!integer(e.propertyRevision)||e.propertyRevision>v.revision)return null;history.push({at:e.at,kind:e.kind as 'link'|'message',propertyRevision:e.propertyRevision});}
+  sharing={revision:value.revision,messageEn:value.messageEn,messageAr:value.messageAr,history};
+ }
  const media:CanonicalProperty['media']=[];
  for(const a of v.media){
   if(!isRecord(a)||!textValue(a.id,100)||!textValue(a.name,200)||!roomCategories.includes(a.room as typeof roomCategories[number])||!['image','floor-plan'].includes(String(a.kind))||!['sample','metadata-only','unavailable'].includes(String(a.availability))||!Number.isSafeInteger(a.order)||Number(a.order)<0||!(a.sampleKey===null||sampleMedia.some(m=>m.key===a.sampleKey)))return null;
@@ -33,7 +41,7 @@ export function readProperty(v:unknown,organizationId:string=demoOrganizationId)
  if(new Set(history.map(e=>e.revision)).size!==history.length)return null;
  const publications:CanonicalProperty['publications']=[];
  for(const r of v.publications){if(!isRecord(r)||!textValue(r.jobId,100)||!isConnector(r.destination)||!integer(r.propertyRevision)||r.propertyRevision>v.revision||r.externalReference!==null)return null;publications.push({jobId:r.jobId,destination:r.destination,propertyRevision:r.propertyRevision,externalReference:null});}
- return {id:v.id,organizationId,revision:v.revision,status:v.status as CanonicalProperty['status'],createdAt:v.createdAt,updatedAt:v.updatedAt,facts,source:{kind:s.kind as CanonicalProperty['source']['kind'],notes:s.notes,factsReviewed:s.factsReviewed,copyReviewed:s.copyReviewed,reviewedAt:s.reviewedAt as string|null},proposal:{descriptionEn:proposal.descriptionEn,descriptionAr:proposal.descriptionAr},media:media.sort((a,b)=>a.order-b.order).map((a,i)=>({...a,order:i})),watermark:v.watermark,studioStage:Number(v.studioStage),history,publications};
+ return {sharing,id:v.id,organizationId,revision:v.revision,status:v.status as CanonicalProperty['status'],createdAt:v.createdAt,updatedAt:v.updatedAt,facts,source:{kind:s.kind as CanonicalProperty['source']['kind'],notes:s.notes,factsReviewed:s.factsReviewed,copyReviewed:s.copyReviewed,reviewedAt:s.reviewedAt as string|null},proposal:{descriptionEn:proposal.descriptionEn,descriptionAr:proposal.descriptionAr},media:media.sort((a,b)=>a.order-b.order).map((a,i)=>({...a,order:i})),watermark:v.watermark,studioStage:Number(v.studioStage),history,publications};
 }
 export function readJob(v:unknown,properties:Record<string,CanonicalProperty>,legacy=false,extended=false,organizationId:string=demoOrganizationId):DemoJob|null{
  if(!isRecord(v)||!textValue(v.id,100)||!validId(v.listingId)||!Object.hasOwn(properties,v.listingId)||!isConnector(v.destination)||!['queued-demo','blocked-demo','cancelled-demo'].includes(String(v.status))||!strings(v.missing)||!date(v.at))return null;

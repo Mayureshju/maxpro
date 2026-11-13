@@ -1,2 +1,2 @@
-import {AgencyControlTower} from '@/components/gemini/agency-operations';
-export default function Page(){return <AgencyControlTower/>;}
+import {AgencyDashboard} from '@/components/agency/workspace-pages';
+export default function Page(){return <AgencyDashboard/>;}

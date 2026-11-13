@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-14",
+  "baseline": "d7a91222a97a7213d04da105066b842d703e4166",
+  "scope": "Frontend-only agency-first UX; OpenSpec 0012",
+  "install": {
+    "command": "pnpm install --frozen-lockfile",
+    "status": "passed",
+    "detail": "Locked dependencies already up to date; pnpm 10.15.0."
+  },
+  "typecheck": {
+    "command": "pnpm typecheck",
+    "status": "passed"
+  },
+  "lint": {
+    "command": "pnpm lint",
+    "status": "passed"
+  },
+  "defaultBuild": {
+    "command": "pnpm build",
+    "status": "host-restricted",
+    "detail": "Turbopack CSS worker could not bind a local port; escalated retry had the same error."
+  },
+  "productionBuild": {
+    "command": "pnpm build --webpack",
+    "status": "passed"
+  },
+  "playwright": {
+    "status": "passed",
+    "passed": 843,
+    "skipped": 35,
+    "failed": 0,
+    "projects": [
+      "chromium",
+      "mobile-chromium"
+    ],
+    "locales": [
+      "en",
+      "ar"
+    ],
+    "widths": [
+      1440,
+      1024,
+      768,
+      375
+    ],
+    "log": "artifacts/agency-first/playwright-acceptance.log"
+  },
+  "primaryScreenshots": {
+    "before": 5,
+    "after": 73,
+    "manifest": "artifacts/agency-first/screenshots.json"
+  },
+  "independentReview": "All reported findings corrected; isolated Chrome re-verification and final narrow re-review completed.",
+  "remainingGaps": [
+    "Professional Arabic completion, including English-only source fact labels.",
+    "Physical devices and Safari/Firefox UAT.",
+    "Deterministic AI only; no inference, real file uploads, authentication or external integrations."
+  ],
+  "deployment": false,
+  "commit": false,
+  "push": false,
+  "preservedUserChange": "apps/web/next-env.d.ts matches its original dev-types import diff."
+}

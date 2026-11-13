@@ -25,7 +25,7 @@ for(const locale of ['en','ar']){
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);
  });
  test(`frontend ${locale}: unsaved edits survive stay and failed save; successful save releases navigation`,async({page},info)=>{
-  await page.goto(`/${locale}/workspace/inventory/AQ-10233/edit`);
+  await page.goto(`/${locale}/workspace/inventory/AQ-10233/edit?advanced=1`);
   const title=page.getByRole('textbox',{name:localized('Title — English',true),exact:true});await title.fill('Fictional review draft');
   await page.getByRole('link',{name:t('Media workbench','إدارة الوسائط'),exact:true}).click();
   await expect(page.getByRole('dialog')).toBeVisible();
@@ -37,27 +37,26 @@ for(const locale of ['en','ar']){
   await keep.click();await price.fill('2850000');await page.getByRole('button',{name:t('Save browser-local draft','حفظ المسودة محلياً'),exact:true}).click();
   await expect(page.locator('main').getByRole('status')).toContainText(localized('Draft saved for local pre-flight checks.'));
   await page.getByRole('link',{name:t('Media workbench','إدارة الوسائط'),exact:true}).click();await expect(page).toHaveURL(/\/media$/);await expect(page.getByRole('dialog')).toHaveCount(0);
-  await page.goto(`/${locale}/workspace/inventory/AQ-10233/edit`);await expect(title).toHaveValue('Fictional review draft');await title.fill('Discard this fictional edit');
+  await page.goto(`/${locale}/workspace/inventory/AQ-10233/edit?advanced=1`);await expect(title).toHaveValue('Fictional review draft');await title.fill('Discard this fictional edit');
   await page.getByRole('link',{name:t('Media workbench','إدارة الوسائط'),exact:true}).click();
-  const path=resolve('../../artifacts/frontend/interactions');mkdirSync(path,{recursive:true});await page.screenshot({path:`${path}/${info.project.name}-${locale}-unsaved-dialog.png`});
+  const path=resolve(`../../${globalThis.process.env.MAXPRO_EVIDENCE_ROOT??'artifacts/frontend'}/interactions`);mkdirSync(path,{recursive:true});await page.screenshot({path:`${path}/${info.project.name}-${locale}-unsaved-dialog.png`});
   await page.getByRole('button',{name:t('Discard changes','تجاهل التعديلات'),exact:true}).click();await expect(page).toHaveURL(/\/media$/);
-  await page.goto(`/${locale}/workspace/inventory/AQ-10233/edit`);await expect(title).toHaveValue('Fictional review draft');
+  await page.goto(`/${locale}/workspace/inventory/AQ-10233/edit?advanced=1`);await expect(title).toHaveValue('Fictional review draft');
  });
  test(`frontend ${locale}: dashboard links to canonical creation and scoped activity`,async({page})=>{
-  await page.goto(`/${locale}/workspace`);await expect(page.locator('.fx-overview-strip dd').first()).toHaveText('6');
+  await page.goto(`/${locale}/workspace`);await expect(page.locator('.ag-workspace-totals b').first()).toHaveText('6');
   await expect(page.getByRole('link',{name:t('Add property','إضافة عقار'),exact:true})).toHaveAttribute('href',`/${locale}/workspace/inventory/new`);
   await expect(page.getByRole('heading',{name:t('Upcoming viewings','الزيارات القادمة'),exact:true})).toBeVisible();
-  await expect(page.getByRole('heading',{name:t('Campaign activity','نشاط الحملات'),exact:true})).toBeVisible();
-  await expect(page.locator('.fx-usage-grid')).toContainText(t('Queued properties','عقارات في الانتظار'));
+  await expect(page.getByRole('heading',{name:t('Channel & campaign status','حالة القنوات والحملات'),exact:true})).toBeVisible();
+  await expect(page.locator('.ag-status-summary')).toContainText(t('Listing simulations','محاكاة الإعلانات العقارية'));
   await page.getByRole('link',{name:t('Add property','إضافة عقار'),exact:true}).click();await expect(page).toHaveURL(/\/inventory\/new$/);
  });
- test(`frontend ${locale}: navigation search and mobile focus remain usable`,async({page},info)=>{
+ test(`frontend ${locale}: simplified navigation and mobile focus remain usable`,async({page},info)=>{
   await page.goto(`/${locale}/workspace`);const mobile=info.project.name==='mobile-chromium';
   const opener=page.getByRole('button',{name:localized('Open navigation',true)});if(mobile)await opener.click();
-  const search=page.getByRole('searchbox',{name:t('Search navigation','البحث في التنقل'),exact:true});await search.fill(t('Plans','الباقات'));
-  const nav=page.getByRole('navigation',{name:t('Workspace navigation','التنقل في مساحة العمل')});await expect(nav.getByRole('link',{name:t('Plans & entitlements','الباقات والحدود')})).toBeVisible();
-  await search.fill('nonexistent-destination');await expect(page.locator('.fx-nav-empty')).toBeVisible();
-  await search.fill('');if(mobile){await page.keyboard.press('Escape');await expect(opener).toBeFocused();await expect(search).not.toBeVisible();}
+  const nav=page.getByRole('navigation',{name:t('Workspace navigation','التنقل في مساحة العمل')});await expect(nav.getByRole('link')).toHaveCount(6);
+  await expect(nav.getByRole('link',{name:t('Settings','الإعدادات'),exact:true})).toBeVisible();await expect(nav).not.toContainText(/Super Admin|الإدارة العامة/);
+  if(mobile){await page.keyboard.press('Escape');await expect(opener).toBeFocused();await expect(nav).not.toBeVisible();}
  });
  test(`frontend ${locale}: bulk import, FAQ and agency preview have truthful behavior`,async({page})=>{
   await page.goto(`/${locale}/workspace/inventory/import`);await page.locator('main input[type=file]:visible').setInputFiles({name:'fictional.csv',mimeType:'text/csv',buffer:Buffer.from('title,price\nDemo,12000')});

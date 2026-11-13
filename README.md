@@ -3,7 +3,7 @@
 **Primary product:** B2B SaaS / Connector Hub for Qatar and GCC property owners, brokers and agencies, aligned with the user-supplied Gemini PRD. This is **source code for an interactive local prototype**, not a real publishing or payment service.
 
 ## What changed from v2
-- Primary workspace now opens the **Agency Control Tower**, not the public-marketplace-centric overview.
+- Primary workspace opens an **Agency Dashboard** with six sections: Dashboard, Properties, Publish & Promote, Leads & Inbox, Performance and Settings.
 - Replaced fake Portal A/B/C navigation with **named provider concepts** (Property Finder, Qatar Living, Bayut/Dubizzle, Meta catalogue, Google Ads/PMax, GA4, WhatsApp, AI); all explicitly unconnected.
 - Added canonical structured property editor with bilingual copy and commercial/licensing fields. Browser-local edits affect example pre-flight results.
 - Added **guided publishing workbench** with per-destination validation, setup checks, acknowledgement and local attempt history (no remote delivery).
@@ -23,7 +23,7 @@ corepack prepare pnpm@10.15.0 --activate
 pnpm install
 pnpm dev
 ```
-Open `http://localhost:3000/en/workspace`. Next run:
+Open `http://localhost:3000/en/sign-in` for fictional demo sign-in, or `/en/register` to create an empty agency workspace. Next run:
 ```bash
 pnpm typecheck
 pnpm lint
@@ -33,18 +33,22 @@ pnpm --dir apps/web test:e2e
 ```
 
 ### Core user journey to review
-1. `/en/workspace` — Agency Control Tower.
-2. `/en/workspace/inventory/AQ-10233/edit` — save a browser-local master property edit.
-3. `/en/workspace/hub/marketplace` — browse integration prerequisites.
-4. `/en/workspace/hub/connectors/property-finder` and `/qatar-living` — explicitly prepare **demo** readiness (not live credentials).
-5. `/en/workspace/publish` — select `AQ-10233`, choose destinations, validate and simulate a local dispatch.
-6. `/en/workspace/hub/jobs` — inspect independently blocked/queued local results; `/workspace/inventory/AQ-10233/publishing` shows listing-scoped history.
-7. `/en/workspace/leads/assignment`, `/en/workspace/leads/viewings` and `/en/workspace/analytics` — routing, booking and channel ROI prototypes.
-8. `/en/workspace/billing` — switch illustrative plans and see quota rules; `/en/workspace/admin/connector-health` — demo integration operations.
+1. `/en/register` or `/en/sign-in` — create/select a fictional agency without credentials.
+2. `/en/workspace` — agency dashboard and next actions.
+3. `/en/workspace/inventory/new` — create a stable browser-local property draft.
+4. `/en/workspace/inventory/[id]/edit` — guided facts, photos, optional reviewed assistance, and save.
+5. `/en/workspace/publish?property=[id]` — choose portals, paid ads or direct sharing; prepare, validate and review each channel.
+6. `/en/workspace/inventory/[id]` — property actions and independently queued/blocked/simulated/prepared local results.
+7. `/en/workspace/leads` and `/en/workspace/inbox` — linked enquiries, assignment, local replies and viewings.
+8. `/en/workspace/analytics` — recorded channel/campaign observations.
+9. `/en/workspace/settings` — agency profile, members, illustrative billing and integrations. Technical configuration is contextual under Advanced Settings; platform controls are isolated in demo/testing utilities.
+
+See [agency-first UX and route map](docs/29-agency-first-ux.md) and [verification](artifacts/agency-first/verification.md) for the redesign, actual screenshots, requirement coverage and remaining gaps.
 
 Property inventory, Studio, campaigns, CRM/inbox, organization management and administration now share canonical browser-local records. Public discovery remains a secondary showcase. Compatibility routes link to their primary workflows, and remaining planning concepts are labelled explicitly. Production gaps are listed in `docs/11-gemini-requirements.md`.
 
 ## Documents to read
+- `docs/29-agency-first-ux.md` — current agency journey, six-section route map, screenshots and UX gaps.
 - `docs/reference/GEMINI_USER_PRD.txt` — exact user-supplied Gemini content.
 - `docs/00-source-of-truth.md` — source precedence and unresolved business decisions.
 - `docs/11-gemini-requirements.md` — 24-group requirement/route map and truthful statuses.
@@ -62,6 +66,6 @@ Next.js remains the frontend. A future custom Frappe application owns database, 
 
 ## Phase 6 prototype acceptance candidate
 
-Use the **Demo organization** selector in any workspace to switch independent fictional properties, connector setup, jobs, CRM, campaigns and assignment settings. New organizations start empty; Pearl Gate retains its original canonical IDs. Simulated roles and editable local storage provide no authentication or secure tenant isolation. Never enter personal data or credentials.
+Use **Demo sign-in** to select an agency and its independent fictional properties, connector setup, jobs, CRM, campaigns and assignment settings. The organization/persona testing selectors are now isolated under Settings → Advanced settings → Demo/testing utilities (see the agency-first redesign). New organizations start empty; Pearl Gate retains its original canonical IDs. Simulated roles and editable local storage provide no authentication or secure tenant isolation. Never enter personal data or credentials.
 
 See [final audit](docs/23-final-prototype-audit.md), [acceptance matrix](docs/24-prototype-acceptance-matrix.md), [Frappe handoff](docs/25-frappe-integration-readiness.md) and [OpenSpec 0010](openspec/changes/0010-final-prototype-acceptance/proposal.md). Exact commands, limitations and screenshot evidence live in `artifacts/phase6/`. Final independent review and Arabic native-speaker signoff remain explicit prerequisites; no production or independent quality approval is implied.

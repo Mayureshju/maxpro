@@ -589,7 +589,9 @@ for (const locale of ["en", "ar"]) {
     page,
   }) => {
     await page.goto(`/${locale}/workspace/inventory/AQ-10233`);
-    await page.getByRole("link", { name: localized(/Plan campaign|تخطيط حملة/) }).click();
+    await page.locator("main").getByRole("link", { name: /Publish & Promote|النشر والترويج/,exact:true }).click();
+    await expect(page).toHaveURL(new RegExp(`/${locale}/workspace/publish\\?property=AQ-10233$`));
+    await page.goto(`/${locale}/workspace/campaigns/new?property=AQ-10233`);
     await expect(
       page.getByLabel(/Canonical property|العقار الأساسي/),
     ).toHaveValue("AQ-10233");
@@ -705,7 +707,7 @@ for (const locale of ["en", "ar"]) {
     await page.getByRole("button", { name: localized(/Duplicate|نسخ/) }).click();
     await expect(page).not.toHaveURL(new RegExp(c.id));
     expect((await saved(page)).campaigns).toHaveLength(2);
-    await page.goto(`/${locale}/workspace/inventory/AQ-10233/edit`);
+    await page.goto(`/${locale}/workspace/inventory/AQ-10233/edit?advanced=1`);
     await page.getByLabel(localized("Title — English")).fill("Revised canonical title");
     await page
       .getByRole("button", {

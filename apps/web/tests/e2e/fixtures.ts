@@ -24,3 +24,10 @@ export function localized(text:string|RegExp,exact=false):RegExp{
  if(text instanceof RegExp){const translations=Object.entries(arabicCopy).filter(([key])=>text.test(key)).map(([,ar])=>escape(ar));return translations.length?new RegExp(`(?:${text.source}|${translations.join('|')})`,text.flags):text;}
  const alternatives=exact?[]:Object.entries(arabicCopy).filter(([key])=>key.includes(text)).map(([,ar])=>escape(ar));const pattern=`(?:${[escape(text),escape(translateCopy(text,'ar')),...alternatives].join('|')})`;return new RegExp(exact?`^${pattern}$`:pattern);
 }
+
+export async function selectDemoOrganization(page:import('@playwright/test').Page,id:string){
+ const locale=page.url().includes('/ar/')?'ar':'en';await page.goto(`/${locale}/workspace/settings/demo`);await page.getByRole('combobox',{name:localized('Demo organization',true),exact:true}).selectOption(id);
+}
+export async function selectDemoPersona(page:import('@playwright/test').Page,role:string){
+ const previous=page.url(),locale=previous.includes('/ar/')?'ar':'en';await page.goto(`/${locale}/workspace/settings/demo`);await page.getByRole('combobox',{name:localized('Simulated persona',true),exact:true}).selectOption(role);await page.goto(previous);
+}

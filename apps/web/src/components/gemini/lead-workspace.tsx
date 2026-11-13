@@ -1,4 +1,5 @@
 'use client';
+import {LeadAssistance} from '@/components/agency/lead-assistance';
 import {usePrototypeCopy} from '@/components/prototype/use-prototype-copy';
 import {can} from '@/lib/organization-engine';
 import {useState, type ReactNode} from 'react';
@@ -41,11 +42,11 @@ export function CrmNavigation() {const copyText=usePrototypeCopy();
       aria-label={copyText(t('CRM navigation', 'تنقل إدارة العملاء'))}
     >
       {[
-        ['/workspace/leads', 'Leads', 'العملاء'],
+        ['/workspace/leads', 'Enquiries', 'الاستفسارات'],
         ['/workspace/inbox', 'Inbox', 'المحادثات'],
         ['/workspace/leads/assignment', 'Assignment', 'التوزيع'],
         ['/workspace/leads/viewings', 'Viewings', 'المعاينات'],
-        ['/workspace/analytics', 'Attribution', 'الإسناد'],
+        ['/workspace/analytics', 'Performance', 'الأداء'],
       ].map(([href, en, ar]) => (
         <Link
           key={href}
@@ -694,7 +695,7 @@ function LeadDossier({lead: l}: {lead: CanonicalLead}) {const copyText=useProtot
           </Link>
         }
       />
-      <CrmNavigation />
+      <CrmNavigation /><LeadAssistance leadId={l.id}/>
       <Feedback {...result} />
       <div className="crm-dossier">
         <div>
@@ -1080,6 +1081,7 @@ export function InboxPage({initialLead}: {initialLead?: string}) {const copyText
                   </div>
                 ))}
               </div>
+              <LeadAssistance key={l.id} leadId={l.id} onDraft={setDraft}/>
               <form
                 className="px-chat-compose"
                 onSubmit={(e) => {

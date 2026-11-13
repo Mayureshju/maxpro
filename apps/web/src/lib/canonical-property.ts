@@ -12,6 +12,7 @@ export type CanonicalProperty={
  facts:CanonicalDraft;
  source:{kind:'manual'|'text'|'document'|'voice'|'sample';notes:string;factsReviewed:boolean;copyReviewed:boolean;reviewedAt:string|null};
  proposal:{descriptionEn:string;descriptionAr:string};
+ sharing?:{revision:number;messageEn:string;messageAr:string;history:{at:string;kind:'link'|'message';propertyRevision:number}[]};
  media:MediaAsset[];watermark:boolean;studioStage:number;history:PropertyEvent[];publications:PublicationReference[];
 };
 export type JobAttempt={at:string;action:'simulate'|'retry'|'cancel';propertyRevision:number;mappingVersion:string;status:'queued-demo'|'blocked-demo'|'cancelled-demo';missing:string[]};
@@ -79,3 +80,6 @@ export function propertyListing(p:CanonicalProperty,ar=false):Listing{
 }
 
 export function findProperty(properties:Record<string,CanonicalProperty>,id:string){return Object.hasOwn(properties,id)?properties[id]:undefined;}
+
+/** Sharing has its own revision; preparing a message never revises the listing. */
+export function sharingApprovalContext(p:CanonicalProperty,kind:'link'|'message',text:string,locale:'en'|'ar',prepared:boolean){return JSON.stringify([p.organizationId,p.id,p.revision,p.sharing?.revision??0,kind,text,locale,prepared]);}

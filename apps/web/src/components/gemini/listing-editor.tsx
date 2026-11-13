@@ -1,6 +1,8 @@
 'use client';
 import {usePrototypeCopy} from '@/components/prototype/use-prototype-copy';
 import {useMemo,useState} from 'react';
+import {useSearchParams} from 'next/navigation';
+import {PropertyWizard} from '@/components/agency/property-wizard';
 import {ArrowLeft,ArrowRight,Check,ShieldCheck} from 'lucide-react';
 import {Link} from '@/i18n/navigation';
 import {type CanonicalDraft} from '@/lib/gemini-product';
@@ -12,9 +14,9 @@ import {UnsavedChanges} from '@/components/prototype/unsaved-changes';
 import {Intro,Notice,Pill,Section} from '@/components/prototype/primitives';
 const amenities=['Parking','Pool','Gym','Security','Central AC','Balcony','Elevator','Maid room','Pets allowed'];
 export function CanonicalPropertyEditor({id}:{id:string}){
- const {state,hydrated}=useGeminiDemo();const record=findProperty(state.properties,id);
+ const {state,hydrated}=useGeminiDemo();const record=findProperty(state.properties,id);const search=useSearchParams();
  if(!hydrated||!record)return <PropertyUnavailable id={id}/>;
- return <CanonicalPropertyForm key={id} record={record}/>;
+ return search.get('advanced')==='1'?<CanonicalPropertyForm key={id} record={record}/>:<PropertyWizard key={id} record={record}/>;
 }
 function CanonicalPropertyForm({record}:{record:CanonicalProperty}){const copyText=usePrototypeCopy();
  const {saveProperty}=useGeminiDemo();const ar=useLocale()==='ar';const id=record.id;const [draft,setDraft]=useState<CanonicalDraft>(record.facts);const [baseRevision,setBaseRevision]=useState(record.revision);const [reviewed,setReviewed]=useState(record.source.factsReviewed&&record.source.copyReviewed);const [saved,setSaved]=useState(false);const [conflict,setConflict]=useState(false);const [baseline,setBaseline]=useState(JSON.stringify({draft:record.facts,reviewed:record.source.factsReviewed&&record.source.copyReviewed}));const dirty=JSON.stringify({draft,reviewed})!==baseline;

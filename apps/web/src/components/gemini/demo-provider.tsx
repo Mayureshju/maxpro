@@ -2,7 +2,7 @@
 import {usePrototypeCopy} from '@/components/prototype/use-prototype-copy';
 import {createContext,useContext,useMemo,useState,useSyncExternalStore} from 'react';
 import {geminiPlans,getConnector,type ConnectorId,type PlanId} from '@/lib/gemini-product';
-import {findProperty,demoOrganizationId,newProperty,reviseProperty,seedProperties,type CanonicalProperty,type DemoJob} from '@/lib/canonical-property';
+import {findProperty,sharingApprovalContext,demoOrganizationId,newProperty,reviseProperty,seedProperties,type CanonicalProperty,type DemoJob} from '@/lib/canonical-property';
 import {isConnector,isRecord,readFacts,readJob,readProperty,strings} from '@/lib/property-storage';
 import {applyCrmCommand,seedCrm,crmAgentNames,type CrmRepository,type CrmCommand} from '@/lib/lead-crm';
 import {restoreCrm} from '@/lib/lead-storage';
@@ -25,6 +25,7 @@ type DemoContext={
  campaignCommand:(command:CampaignCommand)=>Pick<CampaignResult,'error'|'id'|'leadId'>&{campaign?:Campaign};
  crmCommand:(command:CrmCommand)=>{error:string|null;leadId?:string};
  state:DemoState;update:(fn:(prev:DemoState)=>DemoState)=>void;reset:()=>void;hydrated:boolean;storageWarning:string;
+ prepareSharing:(id:string,revision:number,kind:'link'|'message',text:string,locale:'en'|'ar',approvedContext:string)=>string|null;
  createProperty:()=>string;saveProperty:(id:string,revision:number,changes:PropertyChanges,action:string,approved?:boolean)=>boolean;
  simulatePublishing:(id:string,revision:number,selected:ConnectorId[],approved:boolean,context:string)=>string|null;
  prepareConnector:(id:ConnectorId,prepared:boolean,acknowledged:boolean)=>string|null;
@@ -123,6 +124,17 @@ export function createDemoStore(){
    const next=reviseProperty(p,changes,action,approved);if(!readProperty(next,activeOrganizationId(snapshot.state.organization)))return false;
    update(s=>({...s,properties:{...s.properties,[id]:next},campaigns:s.campaigns.map(c=>c.input.propertyId===id?invalidateCampaign(c,next):c),organization:audit(invalidateReviews(s.organization,next),'property-revised',id,next.revision,action)}));return true;
   },
+  prepareSharing:(id:string,revision:number,kind:'link'|'message',text:string,locale:'en'|'ar',approvedContext:string):string|null=>{
+   const denied=guard('property.edit');if(denied)return denied;const s=snapshot.state,p=findProperty(s.properties,id);
+   if(!p||p.organizationId!==activeOrganizationId(s.organization)||p.revision!==revision)return 'Property changed. Review the current version again.';
+   const prepared=s.preparedConnectors.includes('whatsapp');
+   if(!['link','message'].includes(kind)||!['en','ar'].includes(locale)||!text.trim()||text.length>4000||/(?:data:|blob:)/i.test(text)||approvedContext!==sharingApprovalContext(p,kind,text,locale,prepared))return 'Review and approve the current sharing content again.';
+   if(!p.source.factsReviewed||!p.source.copyReviewed||!p.facts.titleEn.trim()||!p.facts.titleAr.trim()||p.status!=='reviewed')return 'Review the property facts and both languages before sharing.';
+   if(kind==='message'&&!prepared)return 'Prepare the local WhatsApp setup first.';
+   const previous=p.sharing??{revision:0,messageEn:'',messageAr:'',history:[]};
+   const sharing={...previous,revision:previous.revision+1,...(kind==='message'?{[locale==='ar'?'messageAr':'messageEn']:text}:{}),history:[...previous.history,{at:new Date().toISOString(),kind,propertyRevision:p.revision}].slice(-100)};
+   update(prev=>({...prev,properties:{...prev.properties,[id]:{...p,sharing}},organization:audit(prev.organization,`sharing:${kind}`,id,p.revision,'Prepared locally; nothing delivered.')}));return null;
+  },
   prepareConnector:(id:ConnectorId,prepared:boolean,acknowledged:boolean):string|null=>{
    const denied=guard('publish');if(denied)return denied;const s=snapshot.state;if(!getConnector(id)||!acknowledged)return 'Acknowledge the local demo setup before changing configuration.';
    const errors=prepared?setupErrors(s,id):[];if(errors.length)return errors.join(' ');
@@ -160,7 +172,7 @@ export function createDemoStore(){
 export function GeminiDemoProvider({children}:{children:React.ReactNode}){
  const copyText=usePrototypeCopy();
  const [store]=useState(createDemoStore);const snapshot=useSyncExternalStore(store.subscribe,store.getSnapshot,getServerSnapshot);
- const value=useMemo(()=>({...snapshot,repository:store.repository,organizationCommand:store.organizationCommand,campaignCommand:store.campaignCommand,crmCommand:store.crmCommand,update:store.update,reset:store.reset,createProperty:store.createProperty,saveProperty:store.saveProperty,simulatePublishing:store.simulatePublishing,prepareConnector:store.prepareConnector,retryJob:store.retryJob,cancelJob:store.cancelJob}),[snapshot,store]);
+ const value=useMemo(()=>({...snapshot,repository:store.repository,organizationCommand:store.organizationCommand,campaignCommand:store.campaignCommand,crmCommand:store.crmCommand,update:store.update,reset:store.reset,createProperty:store.createProperty,saveProperty:store.saveProperty,prepareSharing:store.prepareSharing,simulatePublishing:store.simulatePublishing,prepareConnector:store.prepareConnector,retryJob:store.retryJob,cancelJob:store.cancelJob}),[snapshot,store]);
  return <Context.Provider value={value}>{snapshot.storageWarning&&<p role="status" className="gm-storage-warning">{copyText(snapshot.storageWarning)}</p>}{children}</Context.Provider>;
 }
 export function useGeminiDemo(){const ctx=useContext(Context);if(!ctx)throw new Error('GeminiDemoProvider is required');return ctx;}

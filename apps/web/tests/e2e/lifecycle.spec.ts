@@ -12,7 +12,7 @@ async function create(page:Page,locale='en'){
  await page.getByRole('button',{name:localized(/Create empty draft|إنشاء مسودة فارغة/)}).focus();
  await page.keyboard.press('Enter');
  await expect(page).toHaveURL(/\/inventory\/DEMO-[a-f0-9-]+\/edit$/);
- return page.url().split('/').at(-2)!;
+ const id=page.url().split('/').at(-2)!;await page.goto(`${page.url()}?advanced=1`);return id;
 }
 async function prepare(page:Page,locale='en'){
  for(const destination of ['property-finder','qatar-living']){
@@ -93,7 +93,7 @@ for(const locale of ['en','ar']){
   const reviewed=(await snapshot(page)).properties[id];expect(reviewed.status).toBe('reviewed');expect(reviewed.facts.descriptionEn).toContain('Fictional two bedroom');expect(reviewed.source.factsReviewed).toBe(true);
   await expect(page.getByRole('link',{name:localized(/Go to publishing workbench|الذهاب إلى مساحة النشر/)})).toHaveAttribute('href',`/${locale}/workspace/publish?property=${id}`);
   await prepare(page,locale);
-  await page.goto(`/${locale}/workspace/publish?property=${id}`);
+  await page.goto(`/${locale}/workspace/publish?advanced=1&property=${id}`);
   await expect(page.locator('.gm-property-picker .chosen')).toContainText(id);
   await page.getByRole('button',{name:localized(next,true),exact:true}).click();await capture(page,`${prefix}-destinations`);await page.getByRole('button',{name:localized(next,true),exact:true}).click();
   await expect(page.getByText(localized('Floor plan (example destination rule)',true),{exact:true})).toBeVisible();
@@ -137,16 +137,16 @@ test('file metadata persists without binary or blob URLs and changes actual medi
  const saved=await snapshot(page);const serialized=JSON.stringify(saved);expect(serialized).not.toContain('blob:');expect(serialized).not.toContain('data:image');expect(saved.properties[id].media[0].availability).toBe('metadata-only');
  await page.reload();await expect(page.getByRole('combobox',{name:localized('Room category for fictional.png')})).toHaveValue('Kitchen');await expect(page.getByRole('checkbox',{name:localized('Available for local simulation: fictional.png',true),exact:true})).toBeDisabled();
  await expect(page.getByText(localized('File not retained · select again to preview'))).toBeVisible();
- await page.goto(`/en/workspace/publish?property=${id}`);await page.getByRole('button',{name:localized('Continue',true),exact:true}).click();await page.getByRole('button',{name:localized('Continue',true),exact:true}).click();await expect(page.getByText(localized('At least three categorized media assets (demo policy)',true),{exact:true})).toHaveCount(2);
+ await page.goto(`/en/workspace/publish?advanced=1&property=${id}`);await page.getByRole('button',{name:localized('Continue',true),exact:true}).click();await page.getByRole('button',{name:localized('Continue',true),exact:true}).click();await expect(page.getByText(localized('At least three categorized media assets (demo policy)',true),{exact:true})).toHaveCount(2);
 });
 
 test('fact edits invalidate review while media changes alter preflight and preserve revisions',async({page})=>{
- await page.goto('/en/workspace/inventory/AQ-10233/edit');await page.getByRole('spinbutton',{name:localized("Price (QAR)",true),exact:true}).fill('2900000');await expect(page.getByRole('checkbox',{name:localized(/I reviewed the property facts/)})).not.toBeChecked();await page.getByRole('button',{name:localized(saveName)}).click();
+ await page.goto('/en/workspace/inventory/AQ-10233/edit?advanced=1');await page.getByRole('spinbutton',{name:localized("Price (QAR)",true),exact:true}).fill('2900000');await expect(page.getByRole('checkbox',{name:localized(/I reviewed the property facts/)})).not.toBeChecked();await page.getByRole('button',{name:localized(saveName)}).click();
  let state=await snapshot(page);expect(state.properties['AQ-10233'].revision).toBe(2);expect(state.properties['AQ-10233'].source.factsReviewed).toBe(false);
  await page.getByRole('checkbox',{name:localized(/I reviewed the property facts/)}).check();await page.getByRole('button',{name:localized(saveName)}).click();
  await page.goto('/en/workspace/inventory/AQ-10233/media');await page.getByRole('combobox',{name:localized('Room category for Sample hero photo')}).selectOption('Other');await page.reload();
  await expect(page.getByRole('combobox',{name:localized('Room category for Sample hero photo')})).toHaveValue('Other');state=await snapshot(page);expect(state.properties['AQ-10233'].revision).toBe(4);expect(state.properties['AQ-10233'].source.factsReviewed).toBe(true);
- await page.goto('/en/workspace/publish');await page.getByRole('button',{name:localized('Continue',true),exact:true}).click();await page.getByRole('button',{name:localized('Continue',true),exact:true}).click();await expect(page.getByText(localized('At least three categorized media assets (demo policy)',true),{exact:true})).toHaveCount(2);
+ await page.goto('/en/workspace/publish?advanced=1');await page.getByRole('button',{name:localized('Continue',true),exact:true}).click();await page.getByRole('button',{name:localized('Continue',true),exact:true}).click();await expect(page.getByText(localized('At least three categorized media assets (demo policy)',true),{exact:true})).toHaveCount(2);
 });
 
 for(const [plan,limit] of [['starter',3],['pro',25]] as const){
@@ -157,16 +157,16 @@ for(const [plan,limit] of [['starter',3],['pro',25]] as const){
    for(let i=0;i<limit;i++){const id=`DEMO-${crypto.randomUUID()}`;state.properties[id]={...template,id};state.jobs.push({id:`FIXTURE-${i}`,listingId:id,organizationId:template.organizationId,propertyRevision:template.revision,destination:'property-finder',status:'queued-demo',missing:[],at:new Date().toISOString()});}
    localStorage.setItem(key,JSON.stringify(state));
   },{key:storeKey,limit});
-  await page.goto(`/en/workspace/publish?property=${id}`);await page.getByRole('button',{name:localized('Continue',true),exact:true}).click();await page.locator('.gm-destinations label').filter({hasText:'Qatar Living'}).getByRole('checkbox').uncheck();
+  await page.goto(`/en/workspace/publish?advanced=1&property=${id}`);await page.getByRole('button',{name:localized('Continue',true),exact:true}).click();await page.locator('.gm-destinations label').filter({hasText:'Qatar Living'}).getByRole('checkbox').uncheck();
   await expect(page.locator('main').getByRole('alert')).toContainText(`includes ${limit} queued properties`);await expect(page.getByRole('button',{name:localized('Continue',true),exact:true})).toBeDisabled();
-  await page.goto(`/en/workspace/inventory/${id}/edit`);await page.getByRole('textbox',{name:localized("Title — English",true),exact:true}).fill('Draft beyond queue quota');await page.getByRole('button',{name:localized(saveName)}).click();await page.reload();await expect(page.getByRole('textbox',{name:localized("Title — English",true),exact:true})).toHaveValue('Draft beyond queue quota');
+  await page.goto(`/en/workspace/inventory/${id}/edit?advanced=1`);await page.getByRole('textbox',{name:localized("Title — English",true),exact:true}).fill('Draft beyond queue quota');await page.getByRole('button',{name:localized(saveName)}).click();await page.reload();await expect(page.getByRole('textbox',{name:localized("Title — English",true),exact:true})).toHaveValue('Draft beyond queue quota');
   const state=await snapshot(page);expect(state.jobs).toHaveLength(limit);expect(Object.keys(state.properties).length).toBe(limit+7);
  });
 }
 
 test('Pro portal quota and Starter Meta entitlement are separate from draft saving',async({page})=>{
- await page.goto('/en/workspace/billing');await page.getByRole('button',{name:localized(/^Pro/)}).click();await page.goto('/en/workspace/publish');await page.getByRole('button',{name:localized('Continue',true),exact:true}).click();await page.locator('.gm-destinations label').filter({hasText:'Bayut / Dubizzle'}).getByRole('checkbox').check();await expect(page.locator('main').getByRole('alert')).toContainText(localized('includes 2 destination(s)'));await expect(page.getByRole('button',{name:localized('Continue',true),exact:true})).toBeDisabled();
- await page.goto('/en/workspace/billing');await page.getByRole('button',{name:localized(/Starter/)}).click();await page.goto('/en/workspace/publish');await page.getByRole('button',{name:localized('Continue',true),exact:true}).click();for(const name of ['Property Finder','Qatar Living'])await page.locator('.gm-destinations label').filter({hasText:name}).getByRole('checkbox').uncheck();await page.locator('.gm-destinations label').filter({hasText:'Meta property catalogue'}).getByRole('checkbox').check();await expect(page.locator('main').getByRole('alert')).toContainText(localized('Starter does not include'));
+ await page.goto('/en/workspace/billing');await page.getByRole('button',{name:localized(/^Pro/)}).click();await page.goto('/en/workspace/publish?advanced=1');await page.getByRole('button',{name:localized('Continue',true),exact:true}).click();await page.locator('.gm-destinations label').filter({hasText:'Bayut / Dubizzle'}).getByRole('checkbox').check();await expect(page.locator('main').getByRole('alert')).toContainText(localized('includes 2 destination(s)'));await expect(page.getByRole('button',{name:localized('Continue',true),exact:true})).toBeDisabled();
+ await page.goto('/en/workspace/billing');await page.getByRole('button',{name:localized(/Starter/)}).click();await page.goto('/en/workspace/publish?advanced=1');await page.getByRole('button',{name:localized('Continue',true),exact:true}).click();for(const name of ['Property Finder','Qatar Living'])await page.locator('.gm-destinations label').filter({hasText:name}).getByRole('checkbox').uncheck();await page.locator('.gm-destinations label').filter({hasText:'Meta property catalogue'}).getByRole('checkbox').check();await expect(page.locator('main').getByRole('alert')).toContainText(localized('Starter does not include'));
 });
 
 test('corrupt canonical records are excluded while valid drafts and legacy edits recover',async({page})=>{
@@ -177,10 +177,10 @@ test('corrupt canonical records are excluded while valid drafts and legacy edits
 });
 
 test('changing a record in another tab rejects stale editor saves and resets publishing approval',async({page,context})=>{
- await page.goto('/en/workspace/inventory/AQ-10233/edit');const other=await context.newPage();await other.goto('/en/workspace/inventory/AQ-10233/edit');
+ await page.goto('/en/workspace/inventory/AQ-10233/edit?advanced=1');const other=await context.newPage();await other.goto('/en/workspace/inventory/AQ-10233/edit?advanced=1');
  await page.getByRole('textbox',{name:localized("Title — English",true),exact:true}).fill('First operator change');await page.getByRole('button',{name:localized(saveName)}).click();
  await other.getByRole('textbox',{name:localized("Title — English",true),exact:true}).fill('Stale operator change');await other.getByRole('button',{name:localized(saveName)}).click();await expect(other.locator('main').getByRole('alert')).toContainText(localized('record changed'));await other.close();
- await page.goto('/en/workspace/publish');for(let i=0;i<2;i++)await page.getByRole('button',{name:localized('Continue',true),exact:true}).click();await page.getByRole('checkbox').check();await page.getByRole('button',{name:localized('Continue',true),exact:true}).click();
+ await page.goto('/en/workspace/publish?advanced=1');for(let i=0;i<2;i++)await page.getByRole('button',{name:localized('Continue',true),exact:true}).click();await page.getByRole('checkbox').check();await page.getByRole('button',{name:localized('Continue',true),exact:true}).click();
  const billing=await context.newPage();await billing.goto('/en/workspace/billing');await billing.getByRole('button',{name:localized(/Starter/)}).click();await expect(page.getByRole('button',{name:localized('Simulate publishing',true),exact:true})).toBeDisabled();expect((await snapshot(page)).jobs).toHaveLength(0);await billing.close();
 });
 
@@ -189,16 +189,16 @@ test('Studio creates a stable route and resumes saved source and proposed copy a
 });
 
 test('valid Phase 0 edits migrate into canonical revisions without losing source identity',async({page})=>{
- await page.goto('/en/workspace/inventory/AQ-10233/edit');await page.getByRole('button',{name:localized(saveName)}).click();const current=await snapshot(page);const facts=current.properties['AQ-10233'].facts;facts.titleEn='Migrated Phase 0 property';
+ await page.goto('/en/workspace/inventory/AQ-10233/edit?advanced=1');await page.getByRole('button',{name:localized(saveName)}).click();const current=await snapshot(page);const facts=current.properties['AQ-10233'].facts;facts.titleEn='Migrated Phase 0 property';
  await page.evaluate(({key,facts})=>localStorage.setItem(key,JSON.stringify({plan:'pro',propertyEdits:{'AQ-10233':facts},jobs:[],preparedConnectors:['qatar-living']})),{key:storeKey,facts});
  await page.reload();await expect(page.getByRole('textbox',{name:localized("Title — English",true),exact:true})).toHaveValue('Migrated Phase 0 property');await page.getByRole('button',{name:localized(saveName)}).click();const migrated=await snapshot(page);expect(migrated.schemaVersion).toBe(1);expect(migrated.properties['AQ-10233'].history.some(e=>e.action==='Phase 0 draft migrated')).toBe(true);expect(migrated.properties['AQ-10233'].source.factsReviewed).toBe(false);expect(migrated.plan).toBe('pro');
 });
 
 test('Studio refuses to overwrite facts changed by another tab',async({page,context})=>{
- await page.goto('/en/workspace/studio?property=AQ-10233');const editor=await context.newPage();await editor.goto('/en/workspace/inventory/AQ-10233/edit');await editor.getByRole('textbox',{name:localized("Title — English",true),exact:true}).fill('New canonical source title');await editor.getByRole('button',{name:localized(saveName)}).click();await page.getByRole('button',{name:localized('Save progress',true),exact:true}).click();await expect(page.getByRole('status')).toContainText(localized('content changed in another view'));expect((await snapshot(page)).properties['AQ-10233'].facts.titleEn).toBe('New canonical source title');await editor.close();
+ await page.goto('/en/workspace/studio?property=AQ-10233');const editor=await context.newPage();await editor.goto('/en/workspace/inventory/AQ-10233/edit?advanced=1');await editor.getByRole('textbox',{name:localized("Title — English",true),exact:true}).fill('New canonical source title');await editor.getByRole('button',{name:localized(saveName)}).click();await page.getByRole('button',{name:localized('Save progress',true),exact:true}).click();await expect(page.getByRole('status')).toContainText(localized('content changed in another view'));expect((await snapshot(page)).properties['AQ-10233'].facts.titleEn).toBe('New canonical source title');await editor.close();
 });
 
 test('portal quota includes destinations already reserved on other properties',async({page})=>{
  await page.goto('/en/workspace/billing');await page.getByRole('button',{name:localized(/Starter/)}).click();await page.evaluate(key=>{const s=JSON.parse(localStorage.getItem(key)!);s.jobs=[{id:'EXISTING-QL-RESERVATION',listingId:'AQ-10231',organizationId:s.properties['AQ-10231'].organizationId,propertyRevision:1,destination:'qatar-living',status:'queued-demo',missing:[],at:new Date().toISOString()}];localStorage.setItem(key,JSON.stringify(s));},storeKey);
- await page.goto('/en/workspace/publish');await page.getByRole('button',{name:localized('Continue',true),exact:true}).click();await page.locator('.gm-destinations label').filter({hasText:'Qatar Living'}).getByRole('checkbox').uncheck();await expect(page.locator('main').getByRole('alert')).toContainText(localized('includes 1 destination(s)'));await expect(page.getByRole('button',{name:localized('Continue',true),exact:true})).toBeDisabled();
+ await page.goto('/en/workspace/publish?advanced=1');await page.getByRole('button',{name:localized('Continue',true),exact:true}).click();await page.locator('.gm-destinations label').filter({hasText:'Qatar Living'}).getByRole('checkbox').uncheck();await expect(page.locator('main').getByRole('alert')).toContainText(localized('includes 1 destination(s)'));await expect(page.getByRole('button',{name:localized('Continue',true),exact:true})).toBeDisabled();
 });

@@ -1,0 +1,238 @@
+[WebServer] (node:5693) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:5707) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 48 tests using 4 workers
+
+(node:5713) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:5715) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:5714) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:5716) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   4 [chromium] › tests/e2e/agency-first.spec.ts:18:1 › agency assistance: only explicitly labelled source facts become proposals (564ms)
+  ✓   5 [chromium] › tests/e2e/agency-first.spec.ts:24:1 › agency sharing: independent revisions preserve listing queues, campaigns and reviewed copy (299ms)
+  ✘   3 [chromium] › tests/e2e/campaigns.spec.ts:588:3 › campaign en: create from canonical property, persist, edit and grounded proposal review (1.1s)
+(node:5771) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   6 [chromium] › tests/e2e/agency-first.spec.ts:32:1 › agency editing: stale wizard media cannot overwrite another operator and testing roles stay usable (1.3s)
+(node:5784) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   2 [chromium] › tests/e2e/connector-hub.spec.ts:66:2 › connector smoke en: directory filtering, setup, removal and eligibility (3.0s)
+  ✘   7 [chromium] › tests/e2e/campaigns.spec.ts:588:3 › campaign ar: create from canonical property, persist, edit and grounded proposal review (805ms)
+(node:5806) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   8 [chromium] › tests/e2e/connector-hub.spec.ts:74:2 › connector smoke en: newly created property drives escaped XML JSON CSV and downloads (2.8s)
+  ✓  10 [chromium] › tests/e2e/stability.spec.ts:39:2 › navigation en follows agency settings to contextual integrations (1.5s)
+  ✓  12 [chromium] › tests/e2e/stability.spec.ts:39:2 › navigation ar follows agency settings to contextual integrations (1.0s)
+  ✓  11 [chromium] › tests/e2e/connector-hub.spec.ts:66:2 › connector smoke ar: directory filtering, setup, removal and eligibility (2.0s)
+  ✓  13 [chromium] › tests/e2e/stability.spec.ts:175:1 › language switch preserves the current workflow and search parameters (668ms)
+  ✓   9 [chromium] › tests/e2e/agency-first.spec.ts:40:2 › agency en: registration → guided property → reviewed suggestions → portal outcome (4.8s)
+(node:5844) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  15 [chromium] › tests/e2e/agency-first.spec.ts:62:2 › agency en: returning sign-in and clean mobile navigation (1.1s)
+  ✓  16 [mobile-chromium] › tests/e2e/agency-first.spec.ts:18:1 › agency assistance: only explicitly labelled source facts become proposals (587ms)
+  ✓  14 [chromium] › tests/e2e/connector-hub.spec.ts:74:2 › connector smoke ar: newly created property drives escaped XML JSON CSV and downloads (2.4s)
+  ✓  18 [mobile-chromium] › tests/e2e/agency-first.spec.ts:24:1 › agency sharing: independent revisions preserve listing queues, campaigns and reviewed copy (245ms)
+(node:5879) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  19 [mobile-chromium] › tests/e2e/agency-first.spec.ts:32:1 › agency editing: stale wizard media cannot overwrite another operator and testing roles stay usable (1.1s)
+(node:5897) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  17 [chromium] › tests/e2e/agency-first.spec.ts:66:2 › agency en: separate portal, paid ad and WhatsApp message outcomes (2.9s)
+  ✓  22 [chromium] › tests/e2e/agency-first.spec.ts:77:2 › agency en: linked enquiry assistance requires draft review before a local reply (1.1s)
+  ✓  20 [mobile-chromium] › tests/e2e/campaigns.spec.ts:588:3 › campaign en: create from canonical property, persist, edit and grounded proposal review (2.5s)
+  ✓  24 [mobile-chromium] › tests/e2e/campaigns.spec.ts:588:3 › campaign ar: create from canonical property, persist, edit and grounded proposal review (2.7s)
+  ✓  21 [mobile-chromium] › tests/e2e/agency-first.spec.ts:40:2 › agency en: registration → guided property → reviewed suggestions → portal outcome (5.4s)
+  ✓  25 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:66:2 › connector smoke en: directory filtering, setup, removal and eligibility (2.1s)
+  ✓  26 [mobile-chromium] › tests/e2e/agency-first.spec.ts:62:2 › agency en: returning sign-in and clean mobile navigation (1.1s)
+  ✓  23 [chromium] › tests/e2e/agency-first.spec.ts:80:2 › agency en: four-width actual screenshots and accessibility (5.8s)
+  ✓  27 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:74:2 › connector smoke en: newly created property drives escaped XML JSON CSV and downloads (1.9s)
+  ✓  28 [mobile-chromium] › tests/e2e/agency-first.spec.ts:66:2 › agency en: separate portal, paid ad and WhatsApp message outcomes (2.1s)
+  ✓  31 [mobile-chromium] › tests/e2e/agency-first.spec.ts:77:2 › agency en: linked enquiry assistance requires draft review before a local reply (773ms)
+  -  32 [mobile-chromium] › tests/e2e/agency-first.spec.ts:80:2 › agency en: four-width actual screenshots and accessibility
+  ✓  30 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:66:2 › connector smoke ar: directory filtering, setup, removal and eligibility (2.0s)
+  ✓  29 [chromium] › tests/e2e/agency-first.spec.ts:40:2 › agency ar: registration → guided property → reviewed suggestions → portal outcome (3.3s)
+  ✓  35 [chromium] › tests/e2e/agency-first.spec.ts:62:2 › agency ar: returning sign-in and clean mobile navigation (920ms)
+  ✓  34 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:74:2 › connector smoke ar: newly created property drives escaped XML JSON CSV and downloads (1.7s)
+  ✓  36 [chromium] › tests/e2e/agency-first.spec.ts:66:2 › agency ar: separate portal, paid ad and WhatsApp message outcomes (2.4s)
+  ✓  33 [mobile-chromium] › tests/e2e/agency-first.spec.ts:40:2 › agency ar: registration → guided property → reviewed suggestions → portal outcome (4.7s)
+  ✓  38 [chromium] › tests/e2e/agency-first.spec.ts:77:2 › agency ar: linked enquiry assistance requires draft review before a local reply (1.2s)
+  ✓  39 [mobile-chromium] › tests/e2e/agency-first.spec.ts:62:2 › agency ar: returning sign-in and clean mobile navigation (1.0s)
+  ✓   1 [chromium] › tests/e2e/final-visual.spec.ts:12:2 › final accessibility en: every active page and translation inventory (28.8s)
+  ✓  41 [mobile-chromium] › tests/e2e/agency-first.spec.ts:66:2 › agency ar: separate portal, paid ad and WhatsApp message outcomes (3.1s)
+  ✓  43 [mobile-chromium] › tests/e2e/agency-first.spec.ts:77:2 › agency ar: linked enquiry assistance requires draft review before a local reply (820ms)
+  -  44 [mobile-chromium] › tests/e2e/agency-first.spec.ts:80:2 › agency ar: four-width actual screenshots and accessibility
+  ✓  40 [chromium] › tests/e2e/agency-first.spec.ts:80:2 › agency ar: four-width actual screenshots and accessibility (5.2s)
+  ✓  45 [mobile-chromium] › tests/e2e/stability.spec.ts:39:2 › navigation en follows agency settings to contextual integrations (918ms)
+  ✓  46 [mobile-chromium] › tests/e2e/stability.spec.ts:39:2 › navigation ar follows agency settings to contextual integrations (909ms)
+  ✓  47 [mobile-chromium] › tests/e2e/stability.spec.ts:175:1 › language switch preserves the current workflow and search parameters (554ms)
+  ✓  37 [mobile-chromium] › tests/e2e/final-visual.spec.ts:12:2 › final accessibility en: every active page and translation inventory (19.7s)
+  ✓  42 [chromium] › tests/e2e/final-visual.spec.ts:12:2 › final accessibility ar: every active page and translation inventory (18.1s)
+  ✓  48 [mobile-chromium] › tests/e2e/final-visual.spec.ts:12:2 › final accessibility ar: every active page and translation inventory (15.5s)
+
+
+  1) [chromium] › tests/e2e/agency-first.spec.ts:32:1 › agency editing: stale wizard media cannot overwrite another operator and testing roles stay usable 
+
+    Error: locator.check: Clicking the checkbox did not change its state
+    Call log:
+      - waiting for getByRole('checkbox', { name: /^(?:Show sample agency watermark|عرض علامة الوكالة المائية التجريبية)$/ })
+        - locator resolved to <input type="checkbox"/>
+      - attempting click action
+        - waiting for element to be visible, enabled and stable
+        - element is visible, enabled and stable
+        - scrolling into view if needed
+        - done scrolling
+        - performing click action
+        - click action done
+        - waiting for scheduled navigations to finish
+        - navigations have finished
+
+
+      32 | test('agency editing: stale wizard media cannot overwrite another operator and testing roles stay usable',async({page,context})=>{
+      33 |  await page.goto('/en/workspace/inventory/AQ-10233/edit');await page.locator('.ag-steps button').nth(1).click();const other=await context.newPage();await other.goto('/en/workspace/inventory/AQ-10233/edit?advanced=1');await other.getByRole('textbox',{name:'Title — English',exact:true}).fill('Other operator latest title');await other.getByRole('button',{name:'Save browser-local draft',exact:true}).click();
+    > 34 |  await page.getByRole('checkbox',{name:localized('Show sample agency watermark',true)}).check();await page.getByRole('button',{name:'Save draft',exact:true}).click();await expect(page.locator('main').getByRole('alert')).toContainText('changed');expect((await snapshot(page)).properties['AQ-10233'].facts.titleEn).toBe('Other operator latest title');await other.close();
+         |                                                                                         ^
+      35 |  await page.goto('/en/workspace/settings/demo');const persona=page.getByRole('combobox',{name:'Simulated persona',exact:true});await persona.selectOption('agent');await expect(persona).toBeEnabled();await persona.selectOption('owner');await expect(persona).toHaveValue('owner');
+      36 | });
+      37 |
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/agency-first.spec.ts:34:89
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/agency-first-agency-editin-ce3a0-d-testing-roles-stay-usable-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/agency-first-agency-editin-ce3a0-d-testing-roles-stay-usable-chromium/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/agency-first-agency-editin-ce3a0-d-testing-roles-stay-usable-chromium/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/agency-first-agency-editin-ce3a0-d-testing-roles-stay-usable-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/agency-first-agency-editin-ce3a0-d-testing-roles-stay-usable-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/e2e/campaigns.spec.ts:588:3 › campaign en: create from canonical property, persist, edit and grounded proposal review 
+
+    Error: locator.click: Error: strict mode violation: getByRole('link', { name: /Publish & Promote|النشر والترويج/ }) resolved to 2 elements:
+        1) <a class="prototype-nav-item " href="/en/workspace/publish">…</a> aka getByRole('navigation', { name: 'Workspace navigation' }).getByRole('link', { name: 'Publish & Promote' })
+        2) <a class="px-button px-button-dark" href="/en/workspace/publish?property=AQ-10233">…</a> aka locator('#main-content').getByRole('link', { name: 'Publish & Promote' })
+
+    Call log:
+      - waiting for getByRole('link', { name: /Publish & Promote|النشر والترويج/ })
+
+
+      590 |   }) => {
+      591 |     await page.goto(`/${locale}/workspace/inventory/AQ-10233`);
+    > 592 |     await page.getByRole("link", { name: /Publish & Promote|النشر والترويج/,exact:true }).click();
+          |                                                                                           ^
+      593 |     await expect(page).toHaveURL(new RegExp(`/${locale}/workspace/publish\\?property=AQ-10233$`));
+      594 |     await page.goto(`/${locale}/workspace/campaigns/new?property=AQ-10233`);
+      595 |     await expect(
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/campaigns.spec.ts:592:91
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/campaigns-campaign-en-crea-c6012-nd-grounded-proposal-review-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/campaigns-campaign-en-crea-c6012-nd-grounded-proposal-review-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/campaigns-campaign-en-crea-c6012-nd-grounded-proposal-review-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/campaigns-campaign-en-crea-c6012-nd-grounded-proposal-review-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [chromium] › tests/e2e/campaigns.spec.ts:588:3 › campaign ar: create from canonical property, persist, edit and grounded proposal review 
+
+    Error: locator.click: Error: strict mode violation: getByRole('link', { name: /Publish & Promote|النشر والترويج/ }) resolved to 2 elements:
+        1) <a class="prototype-nav-item " href="/ar/workspace/publish">…</a> aka getByRole('navigation', { name: 'التنقل في مساحة العمل' }).getByRole('link', { name: 'النشر والترويج' })
+        2) <a class="px-button px-button-dark" href="/ar/workspace/publish?property=AQ-10233">…</a> aka locator('#main-content').getByRole('link', { name: 'النشر والترويج' })
+
+    Call log:
+      - waiting for getByRole('link', { name: /Publish & Promote|النشر والترويج/ })
+
+
+      590 |   }) => {
+      591 |     await page.goto(`/${locale}/workspace/inventory/AQ-10233`);
+    > 592 |     await page.getByRole("link", { name: /Publish & Promote|النشر والترويج/,exact:true }).click();
+          |                                                                                           ^
+      593 |     await expect(page).toHaveURL(new RegExp(`/${locale}/workspace/publish\\?property=AQ-10233$`));
+      594 |     await page.goto(`/${locale}/workspace/campaigns/new?property=AQ-10233`);
+      595 |     await expect(
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/campaigns.spec.ts:592:91
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/campaigns-campaign-ar-crea-1b89f-nd-grounded-proposal-review-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/campaigns-campaign-ar-crea-1b89f-nd-grounded-proposal-review-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/campaigns-campaign-ar-crea-1b89f-nd-grounded-proposal-review-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/campaigns-campaign-ar-crea-1b89f-nd-grounded-proposal-review-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [mobile-chromium] › tests/e2e/agency-first.spec.ts:32:1 › agency editing: stale wizard media cannot overwrite another operator and testing roles stay usable 
+
+    Error: locator.check: Clicking the checkbox did not change its state
+    Call log:
+      - waiting for getByRole('checkbox', { name: /^(?:Show sample agency watermark|عرض علامة الوكالة المائية التجريبية)$/ })
+        - locator resolved to <input type="checkbox"/>
+      - attempting click action
+        - waiting for element to be visible, enabled and stable
+        - element is visible, enabled and stable
+        - scrolling into view if needed
+        - done scrolling
+        - performing click action
+        - click action done
+        - waiting for scheduled navigations to finish
+        - navigations have finished
+
+
+      32 | test('agency editing: stale wizard media cannot overwrite another operator and testing roles stay usable',async({page,context})=>{
+      33 |  await page.goto('/en/workspace/inventory/AQ-10233/edit');await page.locator('.ag-steps button').nth(1).click();const other=await context.newPage();await other.goto('/en/workspace/inventory/AQ-10233/edit?advanced=1');await other.getByRole('textbox',{name:'Title — English',exact:true}).fill('Other operator latest title');await other.getByRole('button',{name:'Save browser-local draft',exact:true}).click();
+    > 34 |  await page.getByRole('checkbox',{name:localized('Show sample agency watermark',true)}).check();await page.getByRole('button',{name:'Save draft',exact:true}).click();await expect(page.locator('main').getByRole('alert')).toContainText('changed');expect((await snapshot(page)).properties['AQ-10233'].facts.titleEn).toBe('Other operator latest title');await other.close();
+         |                                                                                         ^
+      35 |  await page.goto('/en/workspace/settings/demo');const persona=page.getByRole('combobox',{name:'Simulated persona',exact:true});await persona.selectOption('agent');await expect(persona).toBeEnabled();await persona.selectOption('owner');await expect(persona).toHaveValue('owner');
+      36 | });
+      37 |
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/agency-first.spec.ts:34:89
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/agency-first-agency-editin-ce3a0-d-testing-roles-stay-usable-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/agency-first-agency-editin-ce3a0-d-testing-roles-stay-usable-mobile-chromium/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/agency-first-agency-editin-ce3a0-d-testing-roles-stay-usable-mobile-chromium/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/agency-first-agency-editin-ce3a0-d-testing-roles-stay-usable-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/agency-first-agency-editin-ce3a0-d-testing-roles-stay-usable-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4 failed
+    [chromium] › tests/e2e/agency-first.spec.ts:32:1 › agency editing: stale wizard media cannot overwrite another operator and testing roles stay usable 
+    [chromium] › tests/e2e/campaigns.spec.ts:588:3 › campaign en: create from canonical property, persist, edit and grounded proposal review 
+    [chromium] › tests/e2e/campaigns.spec.ts:588:3 › campaign ar: create from canonical property, persist, edit and grounded proposal review 
+    [mobile-chromium] › tests/e2e/agency-first.spec.ts:32:1 › agency editing: stale wizard media cannot overwrite another operator and testing roles stay usable 
+  2 skipped
+  42 passed (1.0m)

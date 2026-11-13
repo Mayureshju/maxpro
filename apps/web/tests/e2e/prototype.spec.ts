@@ -3,7 +3,7 @@ import {expect,test} from './fixtures';
 
 const routes=[
  '/en','/en/properties','/en/properties/AQ-10231','/en/pricing','/en/solutions','/en/favorites','/en/compare','/en/map',
- '/en/workspace','/en/workspace/publish','/en/workspace/inventory','/en/workspace/inventory/AQ-10231','/en/workspace/inventory/AQ-10231/edit',
+ '/en/workspace','/en/workspace/publish?advanced=1','/en/workspace/inventory','/en/workspace/inventory/AQ-10231','/en/workspace/inventory/AQ-10231/edit?advanced=1',
  '/en/workspace/studio','/en/workspace/hub','/en/workspace/hub/jobs','/en/workspace/hub/connectors','/en/workspace/hub/marketplace','/en/workspace/hub/connectors/property-finder','/en/workspace/hub/feeds','/en/workspace/hub/mappings',
  '/en/workspace/leads','/en/workspace/leads/assignment','/en/workspace/leads/viewings','/en/workspace/leads/LE-2101','/en/workspace/inbox','/en/workspace/campaigns',
  '/en/workspace/campaigns/new','/en/workspace/integrations/ga4','/en/workspace/integrations/google-ads','/en/workspace/integrations/meta-catalog','/en/workspace/integrations/whatsapp','/en/workspace/analytics','/en/workspace/team','/en/workspace/billing',
@@ -52,10 +52,10 @@ test('mobile workspace does not overflow and sidebar opens',async({page})=>{
 
 
 test('Gemini master property edit is used in preflight',async({page})=>{
- await page.goto('/en/workspace/inventory/AQ-10233/edit');
+ await page.goto('/en/workspace/inventory/AQ-10233/edit?advanced=1');
  await page.getByRole('textbox',{name:localized("Permit / license")}).fill('');
  await page.getByRole('button',{name:localized(/Save browser-local draft/)}).click();
- await page.goto('/en/workspace/publish');
+ await page.goto('/en/workspace/publish?advanced=1');
  await page.getByRole('button',{name:localized('Continue')}).click();
  await page.getByRole('button',{name:localized('Continue')}).click();
  await expect(page.getByText(localized('Verified permit and advertiser approval')).first()).toBeVisible();
@@ -68,7 +68,7 @@ test('Gemini connector setup and publishing are browser-local only',async({page}
   await page.getByRole('button',{name:localized(/Prepare demo connector/)}).click();
   await expect(page.getByText(localized('Local demo setup recorded'))).toBeVisible();
  }
- await page.goto('/en/workspace/publish');
+ await page.goto('/en/workspace/publish?advanced=1');
  await page.getByRole('button',{name:localized('Continue')}).click();
  await page.getByRole('button',{name:localized('Continue')}).click();
  await page.getByRole('checkbox').check();
@@ -83,7 +83,7 @@ test('Gemini connector setup and publishing are browser-local only',async({page}
 test('Gemini Starter plan blocks two destination selection',async({page})=>{
  await page.goto('/en/workspace/billing');
  await page.getByRole('button',{name:localized(/Starter/)}).click();
- await page.goto('/en/workspace/publish');
+ await page.goto('/en/workspace/publish?advanced=1');
  await page.getByRole('button',{name:localized('Continue')}).click();
  await expect(page.getByText(/includes 1 destination/)).toBeVisible();
  await expect(page.getByRole('button',{name:localized('Continue')})).toBeDisabled();

@@ -32,7 +32,7 @@ export function seedOrganization(plan:PlanId='agency'):OrganizationRepository{
  {id:'MEM-MANAGER',organizationId:demoOrganizationId,alias:'Demo Manager',role:'manager',status:'active-demo',available:false,revision:1},
  {id:'MEM-LANDLORD',organizationId:demoOrganizationId,alias:'Demo Landlord',role:'landlord',status:'suspended-demo',available:false,revision:1},
  {id:'MEM-BROKER',organizationId:demoOrganizationId,alias:'Demo Broker',role:'broker',status:'suspended-demo',available:false,revision:1},
- ],actor:'super-admin',reviews:[],audit:[],planOverrides:{},operational:{maintenance:false,reviewNoteRequired:true}};
+ ],actor:'owner',reviews:[],audit:[],planOverrides:{},operational:{maintenance:false,reviewNoteRequired:true}};
 }
 export const activeOrganizationId=(r?:OrganizationRepository)=>r?.activeOrganizationId??demoOrganizationId;
 export const workspaceOrganization=(r:OrganizationRepository)=>r.organizations.find(o=>o.id===activeOrganizationId(r))!;
@@ -53,7 +53,7 @@ export function invalidateReviews(r:OrganizationRepository,p:CanonicalProperty){
 export type OrganizationCommand=
  |{type:'select';organizationId:string}
  |{type:'persona';role:OrganizationRole}
- |{type:'create';name:string;nameAr:string;organizationType:OrganizationProfile['type'];country:OrganizationProfile['country']}
+ |{type:'create';alias?:string;name:string;nameAr:string;organizationType:OrganizationProfile['type'];country:OrganizationProfile['country']}
  |{type:'profile';id:string;revision:number;name:string;nameAr:string;organizationType:OrganizationProfile['type'];country:OrganizationProfile['country'];businessName:string;license:string}
  |{type:'invite';organizationId:string;alias:string;role:Membership['role']}
  |{type:'member';id:string;revision:number;role:Membership['role'];status:Membership['status'];available:boolean}
@@ -79,10 +79,11 @@ export function applyOrganizationCommand(s:OrganizationHost,c:OrganizationComman
  if(r.actor!=='super-admin'&&targetOrg&&targetOrg!==activeOrganizationId(r))return fail('Local permission denied: this directory organization requires a super administrator.');
  if(r.actor!=='super-admin'&&workspaceOrganization(r).status==='suspended-demo')return fail('Organization is suspended in this local demo.');
  if(c.type==='create'){
+  if(c.alias!==undefined&&(!/^Demo [\p{L}\p{N} _-]+$/u.test(c.alias)||c.alias.length>80))return fail('Use a fictional identity beginning with Demo.');
   if(!short(c.name)||c.nameAr.length>160||!organizationTypes.includes(c.organizationType)||!['QA','AE','SA'].includes(c.country))return fail('Enter a name, valid organization type and country.');
   if(r.organizations.length>=50||r.members.length>=500)return fail('Local organization capacity reached.');
   const id=`ORG-DEMO-${uid()}`;const base=workspaceOrganization(seedOrganization());
-  r={...r,organizations:[...r.organizations,{...base,id,revision:1,name:c.name.trim(),nameAr:c.nameAr.trim(),brand:c.name.trim(),businessName:'Fictional business',license:'',domain:'',domainPreview:false,type:c.organizationType,country:c.country,plan:'starter',status:'onboarding',verification:'verification-pending'}],members:[...r.members,{id:`MEM-${uid()}`,organizationId:id,alias:'Demo Organization Owner',role:c.organizationType==='agency'?'owner':c.organizationType,status:'active-demo',available:c.organizationType!=='agency',revision:1}]};return done('organization-created',id,1,'Independent empty browser-local workspace created.',id);
+  r={...r,organizations:[...r.organizations,{...base,id,revision:1,name:c.name.trim(),nameAr:c.nameAr.trim(),brand:c.name.trim(),businessName:'Fictional business',license:'',domain:'',domainPreview:false,type:c.organizationType,country:c.country,plan:'starter',status:'onboarding',verification:'verification-pending'}],members:[...r.members,{id:`MEM-${uid()}`,organizationId:id,alias:c.alias?.trim()||'Demo Organization Owner',role:c.organizationType==='agency'?'owner':c.organizationType,status:'active-demo',available:c.organizationType!=='agency',revision:1}]};return done('organization-created',id,1,'Independent empty browser-local workspace created.',id);
  }
  if(c.type==='invite'){
   const org=r.organizations.find(o=>o.id===c.organizationId);if(!org)return fail('Organization not found.');

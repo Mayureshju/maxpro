@@ -1,0 +1,649 @@
+[
+  {
+    "route": "/",
+    "english": []
+  },
+  {
+    "route": "/about",
+    "english": []
+  },
+  {
+    "route": "/agencies",
+    "english": []
+  },
+  {
+    "route": "/compare",
+    "english": []
+  },
+  {
+    "route": "/contact",
+    "english": []
+  },
+  {
+    "route": "/faq",
+    "english": []
+  },
+  {
+    "route": "/favorites",
+    "english": []
+  },
+  {
+    "route": "/map",
+    "english": []
+  },
+  {
+    "route": "/pricing",
+    "english": []
+  },
+  {
+    "route": "/privacy",
+    "english": []
+  },
+  {
+    "route": "/properties",
+    "english": []
+  },
+  {
+    "route": "/register",
+    "english": [
+      "MAXPRO /",
+      "استخدم اسماً خيالياً يبدأ بكلمة Demo."
+    ]
+  },
+  {
+    "route": "/resources",
+    "english": []
+  },
+  {
+    "route": "/saved-searches",
+    "english": []
+  },
+  {
+    "route": "/sign-in",
+    "english": [
+      "MAXPRO /"
+    ]
+  },
+  {
+    "route": "/solutions",
+    "english": [
+      "Property Finder",
+      "Qatar Living",
+      "Bayut / Dubizzle",
+      "Meta",
+      "Google Ads",
+      "WhatsApp"
+    ]
+  },
+  {
+    "route": "/terms",
+    "english": []
+  },
+  {
+    "route": "/workspace",
+    "english": [
+      "West Bay",
+      "Al Waab",
+      "Msheireb",
+      "Demo visitor 1",
+      "Website",
+      "Fatima Noor",
+      "Demo visitor 2",
+      "Property Finder"
+    ]
+  },
+  {
+    "route": "/agencies/pearl-gate-realty",
+    "english": [
+      "The Pearl",
+      "QAR 12,500",
+      "Viva Bahriya",
+      "QAR 2,850,000",
+      "Lusail Marina",
+      "QAR 17,500"
+    ]
+  },
+  {
+    "route": "/properties/AQ-10233",
+    "english": [
+      "Pearl Gate Realty (demo)",
+      "Pearl Gate Realty"
+    ]
+  },
+  {
+    "route": "/workspace/admin",
+    "english": []
+  },
+  {
+    "route": "/workspace/analytics",
+    "english": [
+      "Property Finder",
+      "Qatar Living",
+      "WhatsApp",
+      "10.0 min"
+    ]
+  },
+  {
+    "route": "/workspace/billing",
+    "english": []
+  },
+  {
+    "route": "/workspace/campaigns",
+    "english": []
+  },
+  {
+    "route": "/workspace/hub",
+    "english": [
+      "Property Finder",
+      "Qatar Living",
+      "Bayut / Dubizzle"
+    ]
+  },
+  {
+    "route": "/workspace/inbox",
+    "english": [
+      "Fictional enquiry: please share viewing options for this property.",
+      "Property Finder",
+      "Qatar Living",
+      "Fictional reply saved locally.",
+      "WhatsApp",
+      "inbound",
+      "received-local",
+      "DEMO-SEED-1",
+      "Yousef Al-Marri",
+      "Fatima Noor",
+      "Karim Said",
+      "Mariam Ahmed"
+    ]
+  },
+  {
+    "route": "/workspace/inventory",
+    "english": []
+  },
+  {
+    "route": "/workspace/leads",
+    "english": [
+      "Property Finder",
+      "Qatar Living",
+      "WhatsApp",
+      "Yousef Al-Marri",
+      "Fatima Noor",
+      "Karim Said",
+      "Mariam Ahmed",
+      "DEMO-SEED-1",
+      "DEMO-SEED-2",
+      "DEMO-SEED-3",
+      "DEMO-SEED-4",
+      "DEMO-SEED-5"
+    ]
+  },
+  {
+    "route": "/workspace/notifications",
+    "english": [
+      "Demo visitor 1",
+      "Website · AQ-10231 · استفسار جديد",
+      "Demo visitor 2",
+      "Property Finder · AQ-10233 · يلزم تعيين مسؤول",
+      "Demo visitor 4",
+      "Meta Lead Ads · AQ-10244 · يلزم تعيين مسؤول"
+    ]
+  },
+  {
+    "route": "/workspace/organization",
+    "english": [
+      "ORG-DEMO-PEARL · المراجعة 1"
+    ]
+  },
+  {
+    "route": "/workspace/publish",
+    "english": [
+      "Property Finder",
+      "Qatar Living",
+      "Bayut / Dubizzle"
+    ]
+  },
+  {
+    "route": "/workspace/settings",
+    "english": []
+  },
+  {
+    "route": "/workspace/studio",
+    "english": []
+  },
+  {
+    "route": "/workspace/team",
+    "english": [
+      "Pearl Gate Realty · دعوات وأدوار تجريبية. لا يتم إرسال رسائل دعوة.",
+      "Yousef Al-Marri",
+      "Fatima Noor",
+      "Karim Said",
+      "Mariam Ahmed",
+      "استخدم Demo ثم اسماً خيالياً. الدعوات تحجز مقعداً تجريبياً."
+    ]
+  },
+  {
+    "route": "/workspace/verification",
+    "english": [
+      "Pearl Gate Realty",
+      "Pearl Gate — fictional business",
+      "DEMO-QA-001"
+    ]
+  },
+  {
+    "route": "/workspace/admin/audit",
+    "english": []
+  },
+  {
+    "route": "/workspace/admin/cms",
+    "english": []
+  },
+  {
+    "route": "/workspace/admin/connector-health",
+    "english": []
+  },
+  {
+    "route": "/workspace/admin/integrations",
+    "english": []
+  },
+  {
+    "route": "/workspace/admin/moderation",
+    "english": []
+  },
+  {
+    "route": "/workspace/admin/organizations",
+    "english": []
+  },
+  {
+    "route": "/workspace/admin/plans",
+    "english": []
+  },
+  {
+    "route": "/workspace/admin/reports",
+    "english": []
+  },
+  {
+    "route": "/workspace/admin/taxonomies",
+    "english": []
+  },
+  {
+    "route": "/workspace/admin/users",
+    "english": []
+  },
+  {
+    "route": "/workspace/ads/attribution",
+    "english": []
+  },
+  {
+    "route": "/workspace/ads/catalogue",
+    "english": [
+      "Marina-facing apartment",
+      "rent",
+      "QAR 12,500",
+      "The Pearl, Doha",
+      "AQ-10231-media-0, AQ-10231-media-1, AQ-10231-media-2",
+      "/ar/properties/AQ-10231",
+      "تصميم حدث محلي فقط. لا إرسال بكسل أو علامة GA4 أو حزمة CAPI أو حدث خادم."
+    ]
+  },
+  {
+    "route": "/workspace/ads/placements",
+    "english": [
+      "FEATURE-01",
+      "08–22 Nov 2026",
+      "BANNER-02",
+      "15–30 Nov 2026",
+      "SPONSORED-05",
+      "11–18 Nov 2026"
+    ]
+  },
+  {
+    "route": "/workspace/billing/dunning",
+    "english": [
+      "INV-2026-0419",
+      "INV-DEMO-STARTER"
+    ]
+  },
+  {
+    "route": "/workspace/billing/invoices",
+    "english": [
+      "INV-2026-0419",
+      "INV-DEMO-STARTER"
+    ]
+  },
+  {
+    "route": "/workspace/campaigns/AQ-10233",
+    "english": []
+  },
+  {
+    "route": "/workspace/campaigns/new",
+    "english": [
+      "إعلانات جوجل / PMax (",
+      "أهلية الحساب والدولة وفئة الإسكان ونوع الحملة تحتاج مراجعة المنصة والقانون. لا نفترض توفر تغذية عقارات عامة أو حملة PMax للعقارات."
+    ]
+  },
+  {
+    "route": "/workspace/hub/connectors",
+    "english": [
+      "Property Finder",
+      "Qatar Living",
+      "Bayut / Dubizzle",
+      "Google Ads / PMax",
+      "Google Analytics 4",
+      "WhatsApp Business"
+    ]
+  },
+  {
+    "route": "/workspace/hub/feeds",
+    "english": [
+      "Property Finder",
+      "Qatar Living",
+      "Bayut / Dubizzle",
+      "XML",
+      "JSON",
+      "CSV",
+      "property_id",
+      "title_en",
+      "title_ar",
+      "description_en",
+      "Sample description for Marina-facing apartment. Human verification required.",
+      "description_ar",
+      "property_type",
+      "currency",
+      "rental_frequency",
+      "month",
+      "deposit_qar",
+      "cheques",
+      "amenities",
+      "Parking | Security",
+      "price_qar",
+      "area_sqm",
+      "district",
+      "media_count",
+      "floor_plan",
+      "true",
+      "internal-property-finder-2.0",
+      "يمكن تصدير المسودات غير الصالحة للفحص؛ التنزيل لا يمنح موافقة النشر. تُعالج محارف XML غير المسموحة وتُحيد صيغ الجداول في CSV."
+    ]
+  },
+  {
+    "route": "/workspace/hub/jobs",
+    "english": [
+      "Property Finder",
+      "Qatar Living",
+      "Bayut / Dubizzle"
+    ]
+  },
+  {
+    "route": "/workspace/hub/mappings",
+    "english": [
+      "Property Finder",
+      "Qatar Living",
+      "Bayut / Dubizzle",
+      "XML",
+      "JSON",
+      "CSV",
+      "property_id",
+      "title_en",
+      "title_ar",
+      "description_en",
+      "Sample description for Marina-facing apartment. Human verification required.",
+      "description_ar",
+      "property_type",
+      "currency",
+      "rental_frequency",
+      "month",
+      "deposit_qar",
+      "cheques",
+      "amenities",
+      "Parking | Security",
+      "price_qar",
+      "area_sqm",
+      "district",
+      "media_count",
+      "floor_plan",
+      "true",
+      "internal-property-finder-2.0",
+      "يمكن تصدير المسودات غير الصالحة للفحص؛ التنزيل لا يمنح موافقة النشر. تُعالج محارف XML غير المسموحة وتُحيد صيغ الجداول في CSV."
+    ]
+  },
+  {
+    "route": "/workspace/hub/marketplace",
+    "english": [
+      "Property Finder",
+      "Qatar Living",
+      "Bayut / Dubizzle",
+      "Google Ads / PMax",
+      "Google Analytics 4",
+      "WhatsApp Business"
+    ]
+  },
+  {
+    "route": "/workspace/integrations/ga4",
+    "english": [
+      "Google Analytics 4"
+    ]
+  },
+  {
+    "route": "/workspace/integrations/google-ads",
+    "english": [
+      "Marina-facing apartment",
+      "rent",
+      "QAR 12,500",
+      "The Pearl, Doha",
+      "AQ-10231-media-0, AQ-10231-media-1, AQ-10231-media-2",
+      "/ar/properties/AQ-10231",
+      "جهّز خطة استفسارات أو تعريف أو محادثات في استوديو الحملات. اختر وسائط متاحة وهدف تحويل وميزانية وسائط ورسوم خدمة منفصلة. دعم PMax والحساب والتغذية غير متحقق.",
+      "لا تفترض دعم تغذية عقارية عامة لـ PMax في كل حساب.",
+      "تصميم حدث محلي فقط. لا إرسال بكسل أو علامة GA4 أو حزمة CAPI أو حدث خادم."
+    ]
+  },
+  {
+    "route": "/workspace/integrations/meta-catalog",
+    "english": [
+      "Marina-facing apartment",
+      "rent",
+      "QAR 12,500",
+      "The Pearl, Doha",
+      "AQ-10231-media-0, AQ-10231-media-1, AQ-10231-media-2",
+      "/ar/properties/AQ-10231",
+      "تصميم حدث محلي فقط. لا إرسال بكسل أو علامة GA4 أو حزمة CAPI أو حدث خادم."
+    ]
+  },
+  {
+    "route": "/workspace/integrations/whatsapp",
+    "english": [
+      "WhatsApp Business"
+    ]
+  },
+  {
+    "route": "/workspace/inventory/AQ-10233",
+    "english": []
+  },
+  {
+    "route": "/workspace/inventory/import",
+    "english": [
+      "اختر ملف CSV أو Excel"
+    ]
+  },
+  {
+    "route": "/workspace/inventory/new",
+    "english": []
+  },
+  {
+    "route": "/workspace/leads/LE-2101",
+    "english": [
+      "CRM / LE-2101",
+      "Yousef Al-Marri",
+      "Fatima Noor",
+      "Karim Said",
+      "Mariam Ahmed",
+      "DEMO-SEED-1",
+      "visitor@example.test"
+    ]
+  },
+  {
+    "route": "/workspace/leads/assignment",
+    "english": [
+      "Yousef Al-Marri",
+      "Fatima Noor",
+      "Karim Said",
+      "Mariam Ahmed",
+      "توزيع دوري · active and available"
+    ]
+  },
+  {
+    "route": "/workspace/leads/viewings",
+    "english": [
+      "Fatima Noor",
+      "Karim Said",
+      "Mariam Ahmed",
+      "Yousef Al-Marri"
+    ]
+  },
+  {
+    "route": "/workspace/organization/new",
+    "english": []
+  },
+  {
+    "route": "/workspace/settings/demo",
+    "english": []
+  },
+  {
+    "route": "/workspace/settings/domains",
+    "english": [
+      "استخدم نطاقاً تجريبياً ينتهي بـ .example. التحقق من DNS وTLS والتوجيه معلق.",
+      "إعداد DNS توضيحي",
+      "CNAME",
+      "معاينة التحقق من DNS",
+      "Pearl Gate Realty",
+      "homes.pearlgate.example",
+      "DNS غير متحقق"
+    ]
+  },
+  {
+    "route": "/workspace/settings/integrations",
+    "english": [
+      "Property Finder",
+      "Qatar Living",
+      "Bayut / Dubizzle",
+      "Facebook & Instagram",
+      "Google Ads",
+      "WhatsApp Business"
+    ]
+  },
+  {
+    "route": "/workspace/settings/privacy",
+    "english": []
+  },
+  {
+    "route": "/workspace/support/assistant",
+    "english": []
+  },
+  {
+    "route": "/workspace/support/evaluations",
+    "english": []
+  },
+  {
+    "route": "/workspace/support/knowledge",
+    "english": []
+  },
+  {
+    "route": "/workspace/whatsapp/packs",
+    "english": [
+      "Pearl Gate Realty",
+      "QAR"
+    ]
+  },
+  {
+    "route": "/workspace/whatsapp/sla",
+    "english": [
+      "Fictional enquiry: please share viewing options for this property.",
+      "Property Finder",
+      "Qatar Living",
+      "Fictional reply saved locally.",
+      "WhatsApp",
+      "inbound",
+      "received-local",
+      "DEMO-SEED-1",
+      "Yousef Al-Marri",
+      "Fatima Noor",
+      "Karim Said",
+      "Mariam Ahmed"
+    ]
+  },
+  {
+    "route": "/workspace/whatsapp/templates",
+    "english": [
+      "property_pack_ready",
+      "price_drop_alert",
+      "listing_renewal_notice",
+      "agent_handover"
+    ]
+  },
+  {
+    "route": "/workspace/billing/invoices/INV-2026-0419",
+    "english": [
+      "INV-2026-0419"
+    ]
+  },
+  {
+    "route": "/workspace/hub/connectors/property-finder",
+    "english": [
+      "Property Finder",
+      "XML / JSON / CSV",
+      "portal-quota",
+      "internal-property-finder-2.0 · عقد داخلي توضيحي وليس مخططاً رسمياً للشريك.",
+      "property_id",
+      "title_en",
+      "title_ar",
+      "description_en",
+      "description_ar",
+      "property_type",
+      "currency",
+      "rental_frequency",
+      "deposit_qar",
+      "cheques",
+      "amenities",
+      "price_qar",
+      "area_sqm",
+      "district",
+      "media_count",
+      "floor_plan",
+      "internal-property-finder-2.0"
+    ]
+  },
+  {
+    "route": "/workspace/inventory/AQ-10233/edit",
+    "english": []
+  },
+  {
+    "route": "/workspace/inventory/AQ-10233/enquiries",
+    "english": [
+      "Property Finder",
+      "DEMO-SEED-2"
+    ]
+  },
+  {
+    "route": "/workspace/inventory/AQ-10233/media",
+    "english": []
+  },
+  {
+    "route": "/workspace/inventory/AQ-10233/publishing",
+    "english": []
+  },
+  {
+    "route": "/workspace/settings/domains/preview",
+    "english": [
+      "Pearl Gate Realty",
+      "homes.pearlgate.example",
+      "معاينة خيالية لمؤسستك المختارة. النطاق وDNS وTLS غير متصلة. السجلات غير متحقق منها قانونياً وليست إعلانات منشورة.",
+      "The Pearl",
+      "· QAR",
+      "Viva Bahriya",
+      "Lusail Marina",
+      "West Bay",
+      "Al Waab",
+      "Msheireb"
+    ]
+  }
+]
