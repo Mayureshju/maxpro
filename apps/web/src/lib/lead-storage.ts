@@ -14,7 +14,7 @@ const text = (v: unknown, max = 2000): v is string => textValue(v, max);
 const id = (v: unknown): v is string => text(v, 150) && v.length > 0;
 const at = (v: unknown): v is string =>
   text(v, 50) && /^\d{4}-\d\d-\d\dT/.test(v) && Number.isFinite(Date.parse(v));
-const agent = (v: unknown) => v === null || crmAgents.some((a) => a === v);
+const agent = (v: unknown,names:readonly string[]=crmAgents) => v === null || names.some((a) => a === v);
 const source = (v: unknown) => leadSources.some((s) => s === v);
 const oneOf = (v: unknown, values: readonly string[]) =>
   typeof v === 'string' && values.includes(v);
@@ -25,12 +25,12 @@ const list = (v: unknown, p: (x: unknown) => boolean, max = 500) =>
   new Set(v.map((x) => (isRecord(x) ? x.id : x))).size === v.length;
 const activity = (v: unknown) =>
   isRecord(v) && id(v.id) && at(v.at) && text(v.text);
-const assignment = (v: unknown) =>
+const assignment = (v: unknown,names:readonly string[]=crmAgents) =>
   isRecord(v) &&
   id(v.id) &&
   at(v.at) &&
-  agent(v.from) &&
-  agent(v.to) &&
+  agent(v.from,names) &&
+  agent(v.to,names) &&
   text(v.reason, 200);
 const message = (v: unknown) =>
   isRecord(v) &&
@@ -39,7 +39,7 @@ const message = (v: unknown) =>
   text(v.text) &&
   ((v.direction === 'inbound' && v.status === 'received-local') ||
     (v.direction === 'outbound' && v.status === 'saved-local'));
-const viewing = (v: unknown) =>
+const viewing = (v: unknown,names:readonly string[]=crmAgents) =>
   isRecord(v) &&
   id(v.id) &&
   at(v.at) &&
@@ -50,11 +50,12 @@ const viewing = (v: unknown) =>
   text(v.time, 5) &&
   /^([01]\d|2[0-3]):[0-5]\d$/.test(v.time) &&
   v.agent !== null &&
-  agent(v.agent) &&
+  agent(v.agent,names) &&
   oneOf(v.status, ['Requested', 'Confirmed', 'Completed', 'Cancelled']);
 function readLead(
   v: unknown,
   properties: Record<string, CanonicalProperty>,
+  names: readonly string[]=crmAgents,
 ): CanonicalLead | null {
   if (
     !isRecord(v) ||
@@ -101,14 +102,14 @@ function readLead(
     !oneOf(v.priority, ['Normal', 'High']) ||
     !oneOf(v.qualification, ['Unreviewed', 'Qualified', 'Not qualified']) ||
     !text(v.qualificationNote) ||
-    !agent(v.assignee) ||
-    !list(v.assignments, assignment) ||
+    !agent(v.assignee,names) ||
+    !list(v.assignments, (x)=>assignment(x,names)) ||
     !(v.assignments as unknown[]).length ||
     !isRecord(v.conversation) ||
     v.conversation.id !== `CV-${v.id}` ||
     !list(v.conversation.messages, message) ||
     !list(v.notes, activity) ||
-    !list(v.viewings, viewing) ||
+    !list(v.viewings, (x)=>viewing(x,names)) ||
     !list(v.activity, activity)
   )
     return null;
@@ -207,6 +208,7 @@ export function restoreCrm(
   value: unknown,
   version: unknown,
   properties: Record<string, CanonicalProperty>,
+  names: readonly string[]=crmAgents,
 ): {crm: CrmRepository; corrupt: boolean} {
   if (version === undefined && value === undefined)
     return {crm: seedCrm(properties), corrupt: false};
@@ -226,7 +228,7 @@ export function restoreCrm(
   const ids = new Set<string>();
   if (Array.isArray(value.leads) && value.leads.length <= 500) {
     for (const v of value.leads) {
-      const l = readLead(v, properties);
+      const l = readLead(v, properties,names);
       const key = l
         ? JSON.stringify([l.organizationId, l.source, l.sourceEventId])
         : '';
@@ -246,8 +248,8 @@ export function restoreCrm(
   else corrupt = true;
   if (
     Array.isArray(value.unavailableAgents) &&
-    value.unavailableAgents.length <= 4 &&
-    value.unavailableAgents.every((a) => crmAgents.some((x) => x === a))
+    value.unavailableAgents.length <= 500 &&
+    value.unavailableAgents.every((a) => names.some((x) => x === a))
   )
     crm.unavailableAgents = [...new Set(value.unavailableAgents)] as string[];
   else corrupt = true;

@@ -7,9 +7,9 @@ This is the order for a **full design prototype first, then production**, not a 
 | M0 — baseline | GEM-01, 02, 03, 19 | Brand/source-of-truth, main navigation, plan examples, overview and editor consistent | Product owner signs priorities / brand |
 | M1 — core transaction prototype | GEM-02, 04, 05, 06, 07, 08, 09 | Edit master listing → validate → select connectors → local dispatch ledger; errors shown | Official partner schema/rights for real integration |
 | M2 — pipeline and marketing prototype | GEM-10–16, 24 | Lead source, routing, inbox, bookings, Meta/Google/GA4 mock setup and channel ROI | Webhook contracts, consent, provider verification |
-| M3 — organization/admin prototype | GEM-17–20 | Agency branding/domains, plans and quotas, connector health, user/admin navigation | OIDC, tenancy, payment and DNS choices |
+| M3 — organization/admin prototype | GEM-17–20 | Agency branding/domains, plans and quotas, connector health, user/admin navigation | Frappe authentication/roles, organization isolation, payment and DNS choices |
 | M4 — full UI quality | GEM-03, 22, accessibility | Real screenshots, responsive behavior, full RTL, keyboard and empty/error/loading flows, sign-off | Translations, licensed content, design reviewer |
-| M5 — production base | GEM-01–09, 17–20, 23 | OIDC, API, multi-tenant Postgres, object storage, outbox, jobs, plan enforcement, audit | Hosting/security reviews |
+| M5 — production base | GEM-01–09, 17–20, 23 | Frappe authentication/permissions/API/database, organization isolation, secure media, transactional outbox, Frappe jobs, plan enforcement, audit | Hosting/security reviews |
 | M6 — authorized integrations | GEM-07–16, 21, 24 | Pilot publisher and inbound lead end-to-end with real partner acknowledgments, AI quality evaluated | Partner approval, legal/privacy, provider credentials, budgets |
 | M7 — production launch | All signed Must scope | Acceptance UAT, penetration test, performance, backups/restore, monitoring, admin guides | Owner approval; rollback strategy |
 

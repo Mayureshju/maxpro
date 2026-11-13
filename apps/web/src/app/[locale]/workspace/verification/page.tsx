@@ -1,2 +1,2 @@
-import {VerificationPage} from '@/components/prototype/operations';
-export default function Page(){return <VerificationPage />}
+import {OrganizationWorkspace} from '@/components/gemini/organization-workspace';
+export default function Page(){return <OrganizationWorkspace mode="verification"/>;}

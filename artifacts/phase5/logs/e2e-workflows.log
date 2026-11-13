@@ -1,0 +1,316 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test organization-admin.spec.ts --grep-invert 'domain|commands|storage|evidence|accessibility'
+
+[WebServer] (node:67035) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:67059) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 16 tests using 2 workers
+
+(node:67066) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:67065) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/e2e/organization-admin.spec.ts:59:2 › organization en: onboarding, directory, profile and shared persistence (1.5s)
+  ✓   2 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:59:2 › organization en: onboarding, directory, profile and shared persistence (2.6s)
+  ✘   3 [chromium] › tests/e2e/organization-admin.spec.ts:65:2 › organization en: roles, team updates, subscriptions and guarded controls (20.2s)
+(node:67534) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   4 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:65:2 › organization en: roles, team updates, subscriptions and guarded controls (20.2s)
+(node:67566) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   5 [chromium] › tests/e2e/organization-admin.spec.ts:69:2 › organization en: canonical moderation and approval invalidation (20.2s)
+(node:67914) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   6 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:69:2 › organization en: canonical moderation and approval invalidation (20.3s)
+  ✓   7 [chromium] › tests/e2e/organization-admin.spec.ts:72:2 › organization en: branding, verification and damaged state recovery (712ms)
+(node:67939) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   9 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:72:2 › organization en: branding, verification and damaged state recovery (699ms)
+  ✓   8 [chromium] › tests/e2e/organization-admin.spec.ts:59:2 › organization ar: onboarding, directory, profile and shared persistence (1.3s)
+  ✓  10 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:59:2 › organization ar: onboarding, directory, profile and shared persistence (1.9s)
+  ✘  11 [chromium] › tests/e2e/organization-admin.spec.ts:65:2 › organization ar: roles, team updates, subscriptions and guarded controls (20.4s)
+(node:68306) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  12 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:65:2 › organization ar: roles, team updates, subscriptions and guarded controls (20.3s)
+(node:68341) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  13 [chromium] › tests/e2e/organization-admin.spec.ts:69:2 › organization ar: canonical moderation and approval invalidation (20.2s)
+(node:68591) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  15 [chromium] › tests/e2e/organization-admin.spec.ts:72:2 › organization ar: branding, verification and damaged state recovery (643ms)
+  ✘  14 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:69:2 › organization ar: canonical moderation and approval invalidation (20.2s)
+(node:68613) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  16 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:72:2 › organization ar: branding, verification and damaged state recovery (607ms)
+
+
+  1) [chromium] › tests/e2e/organization-admin.spec.ts:65:2 › organization en: roles, team updates, subscriptions and guarded controls 
+
+    Test timeout of 20000ms exceeded.
+
+    Error: locator.fill: Test timeout of 20000ms exceeded.
+    Call log:
+      - waiting for getByRole('textbox', { name: 'Search audit history' })
+
+
+      65 |  test(`organization ${locale}: roles, team updates, subscriptions and guarded controls`,async({page})=>{
+      66 |   await page.goto(`/${locale}/workspace/team`);await page.getByRole('combobox',{name:'Role for Karim Said'}).selectOption('manager');await page.getByRole('checkbox',{name:'Available Karim Said',exact:true}).uncheck();await page.getByRole('button',{name:'Save Karim Said',exact:true}).click();let s=await saved(page);expect(s.organization.members.find(m=>m.alias==='Karim Said')?.role).toBe('manager');expect(s.activeAgents).not.toContain('Karim Said');await page.reload();await expect(page.getByRole('combobox',{name:'Role for Karim Said'})).toHaveValue('manager');
+    > 67 |   await persona(page,'agent');await expect(page.getByRole('button',{name:/Simulate invitation|محاكاة الدعوة/})).toBeDisabled();await page.goto(`/${locale}/workspace/billing`);await expect(page.getByRole('button',{name:/Starter/})).toBeDisabled();await persona(page,'owner');await page.getByRole('combobox',{name:'Preview plan'}).selectOption('starter');s=await saved(page);expect(s.plan).toBe('agency');await page.getByRole('button',{name:/Starter/}).click();expect((await saved(page)).plan).toBe('starter');await page.goto(`/${locale}/workspace/team`);await page.getByRole('button',{name:/Simulate invitation|محاكاة الدعوة/}).click();await expect(page.locator('main [role=alert]')).toContainText('seat quota');await persona(page,'super-admin');await page.goto(`/${locale}/workspace/admin/audit`);await page.getByRole('textbox',{name:'Search audit history'}).fill('membership-updated');await expect(page.locator('tbody')).toContainText('membership-updated');await overflow(page);
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ^
+      68 |  });
+      69 |  test(`organization ${locale}: canonical moderation and approval invalidation`,async({page})=>{
+      70 |   await page.goto(`/${locale}/workspace/admin/moderation`);await page.getByRole('button',{name:'Review AQ-10233',exact:true}).click();await page.getByRole('textbox',{name:'Review notes'}).fill('Fictional actor reviewed current property revision.');await page.getByRole('button',{name:/Record local decision|تسجيل القرار محلياً/}).click();expect((await saved(page)).organization.reviews[0].status).toBe('approved-demo');await page.goto(`/${locale}/workspace/inventory/AQ-10233/edit`);await page.getByRole('spinbutton',{name:'Price (QAR)',exact:true}).fill('123456');await page.getByRole('button',{name:/Save canonical draft|حفظ المسودة الأساسية/}).click();await page.goto(`/${locale}/workspace/admin/moderation`);await expect(page.locator('.oa-review-receipt')).toContainText(/Verification pending|بانتظار التحقق/);const s=await saved(page);expect(s.organization.reviews[0].propertyRevision).toBe(s.properties['AQ-10233'].revision);await page.getByRole('combobox',{name:'Moderation decision'}).selectOption('changes-requested');await page.getByRole('textbox',{name:'Review notes'}).fill('Fictional permit evidence requires another review.');await page.getByRole('button',{name:/Record local decision|تسجيل القرار محلياً/}).click();await page.reload();expect((await saved(page)).organization.reviews[0].status).toBe('changes-requested');await overflow(page);
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/organization-admin.spec.ts:67:860
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/organization-admin-organiz-9a256-ptions-and-guarded-controls-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/organization-admin-organiz-9a256-ptions-and-guarded-controls-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/organization-admin-organiz-9a256-ptions-and-guarded-controls-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/organization-admin-organiz-9a256-ptions-and-guarded-controls-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/e2e/organization-admin.spec.ts:69:2 › organization en: canonical moderation and approval invalidation 
+
+    Test timeout of 20000ms exceeded.
+
+    Error: locator.click: Test timeout of 20000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: /Save canonical draft|حفظ المسودة الأساسية/ })
+
+
+      68 |  });
+      69 |  test(`organization ${locale}: canonical moderation and approval invalidation`,async({page})=>{
+    > 70 |   await page.goto(`/${locale}/workspace/admin/moderation`);await page.getByRole('button',{name:'Review AQ-10233',exact:true}).click();await page.getByRole('textbox',{name:'Review notes'}).fill('Fictional actor reviewed current property revision.');await page.getByRole('button',{name:/Record local decision|تسجيل القرار محلياً/}).click();expect((await saved(page)).organization.reviews[0].status).toBe('approved-demo');await page.goto(`/${locale}/workspace/inventory/AQ-10233/edit`);await page.getByRole('spinbutton',{name:'Price (QAR)',exact:true}).fill('123456');await page.getByRole('button',{name:/Save canonical draft|حفظ المسودة الأساسية/}).click();await page.goto(`/${locale}/workspace/admin/moderation`);await expect(page.locator('.oa-review-receipt')).toContainText(/Verification pending|بانتظار التحقق/);const s=await saved(page);expect(s.organization.reviews[0].propertyRevision).toBe(s.properties['AQ-10233'].revision);await page.getByRole('combobox',{name:'Moderation decision'}).selectOption('changes-requested');await page.getByRole('textbox',{name:'Review notes'}).fill('Fictional permit evidence requires another review.');await page.getByRole('button',{name:/Record local decision|تسجيل القرار محلياً/}).click();await page.reload();expect((await saved(page)).organization.reviews[0].status).toBe('changes-requested');await overflow(page);
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ^
+      71 |  });
+      72 |  test(`organization ${locale}: branding, verification and damaged state recovery`,async({page})=>{
+      73 |   await page.goto(`/${locale}/workspace/settings/domains`);await page.getByRole('textbox',{name:'Public agency name'}).fill('Demo Pearl Brand');await page.getByRole('textbox',{name:'Requested custom domain'}).fill('homes.demoagency.example');await page.getByRole('button',{name:/Save brand and domain|حفظ العلامة والنطاق/}).click();await page.getByRole('button',{name:/Preview DNS verification|معاينة التحقق من DNS/}).click();await page.reload();expect(workspaceOrganization((await saved(page)).organization).domainPreview).toBe(true);await page.goto(`/${locale}/workspace/verification`);await page.getByRole('button',{name:/Submit local review request|تقديم طلب مراجعة محلي/}).click();expect(workspaceOrganization((await saved(page)).organization).verification).toBe('submitted-demo');
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/organization-admin.spec.ts:70:648
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/organization-admin-organiz-c6910-n-and-approval-invalidation-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/organization-admin-organiz-c6910-n-and-approval-invalidation-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/organization-admin-organiz-c6910-n-and-approval-invalidation-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/organization-admin-organiz-c6910-n-and-approval-invalidation-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [chromium] › tests/e2e/organization-admin.spec.ts:65:2 › organization ar: roles, team updates, subscriptions and guarded controls 
+
+    Test timeout of 20000ms exceeded.
+
+    Error: locator.fill: Test timeout of 20000ms exceeded.
+    Call log:
+      - waiting for getByRole('textbox', { name: 'Search audit history' })
+
+
+      65 |  test(`organization ${locale}: roles, team updates, subscriptions and guarded controls`,async({page})=>{
+      66 |   await page.goto(`/${locale}/workspace/team`);await page.getByRole('combobox',{name:'Role for Karim Said'}).selectOption('manager');await page.getByRole('checkbox',{name:'Available Karim Said',exact:true}).uncheck();await page.getByRole('button',{name:'Save Karim Said',exact:true}).click();let s=await saved(page);expect(s.organization.members.find(m=>m.alias==='Karim Said')?.role).toBe('manager');expect(s.activeAgents).not.toContain('Karim Said');await page.reload();await expect(page.getByRole('combobox',{name:'Role for Karim Said'})).toHaveValue('manager');
+    > 67 |   await persona(page,'agent');await expect(page.getByRole('button',{name:/Simulate invitation|محاكاة الدعوة/})).toBeDisabled();await page.goto(`/${locale}/workspace/billing`);await expect(page.getByRole('button',{name:/Starter/})).toBeDisabled();await persona(page,'owner');await page.getByRole('combobox',{name:'Preview plan'}).selectOption('starter');s=await saved(page);expect(s.plan).toBe('agency');await page.getByRole('button',{name:/Starter/}).click();expect((await saved(page)).plan).toBe('starter');await page.goto(`/${locale}/workspace/team`);await page.getByRole('button',{name:/Simulate invitation|محاكاة الدعوة/}).click();await expect(page.locator('main [role=alert]')).toContainText('seat quota');await persona(page,'super-admin');await page.goto(`/${locale}/workspace/admin/audit`);await page.getByRole('searchbox',{name:'Search audit history'}).fill('membership-updated');await expect(page.locator('tbody')).toContainText('membership-updated');await overflow(page);
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ^
+      68 |  });
+      69 |  test(`organization ${locale}: canonical moderation and approval invalidation`,async({page})=>{
+      70 |   await page.goto(`/${locale}/workspace/admin/moderation`);await page.getByRole('button',{name:'Review AQ-10233',exact:true}).click();await page.getByRole('textbox',{name:'Review notes'}).fill('Fictional actor reviewed current property revision.');await page.getByRole('button',{name:/Record local decision|تسجيل القرار محلياً/}).click();expect((await saved(page)).organization.reviews[0].status).toBe('approved-demo');await page.goto(`/${locale}/workspace/inventory/AQ-10233/edit`);await page.getByRole('spinbutton',{name:'Price (QAR)',exact:true}).fill('123456');await page.getByRole('button',{name:/Save canonical draft|حفظ المسودة الأساسية/}).click();await page.goto(`/${locale}/workspace/admin/moderation`);await expect(page.locator('.oa-review-receipt')).toContainText(/Verification pending|بانتظار التحقق/);const s=await saved(page);expect(s.organization.reviews[0].propertyRevision).toBe(s.properties['AQ-10233'].revision);await page.getByRole('combobox',{name:'Moderation decision'}).selectOption('changes-requested');await page.getByRole('textbox',{name:'Review notes'}).fill('Fictional permit evidence requires another review.');await page.getByRole('button',{name:/Record local decision|تسجيل القرار محلياً/}).click();await page.reload();expect((await saved(page)).organization.reviews[0].status).toBe('changes-requested');await overflow(page);
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/organization-admin.spec.ts:67:860
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/organization-admin-organiz-94658-ptions-and-guarded-controls-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/organization-admin-organiz-94658-ptions-and-guarded-controls-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/organization-admin-organiz-94658-ptions-and-guarded-controls-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/organization-admin-organiz-94658-ptions-and-guarded-controls-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [chromium] › tests/e2e/organization-admin.spec.ts:69:2 › organization ar: canonical moderation and approval invalidation 
+
+    Test timeout of 20000ms exceeded.
+
+    Error: locator.click: Test timeout of 20000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: /Save canonical draft|حفظ المسودة الأساسية/ })
+
+
+      68 |  });
+      69 |  test(`organization ${locale}: canonical moderation and approval invalidation`,async({page})=>{
+    > 70 |   await page.goto(`/${locale}/workspace/admin/moderation`);await page.getByRole('button',{name:'Review AQ-10233',exact:true}).click();await page.getByRole('textbox',{name:'Review notes'}).fill('Fictional actor reviewed current property revision.');await page.getByRole('button',{name:/Record local decision|تسجيل القرار محلياً/}).click();expect((await saved(page)).organization.reviews[0].status).toBe('approved-demo');await page.goto(`/${locale}/workspace/inventory/AQ-10233/edit`);await page.getByRole('spinbutton',{name:'Price (QAR)',exact:true}).fill('123456');await page.getByRole('button',{name:/Save canonical draft|حفظ المسودة الأساسية/}).click();await page.goto(`/${locale}/workspace/admin/moderation`);await expect(page.locator('.oa-review-receipt')).toContainText(/Verification pending|بانتظار التحقق/);const s=await saved(page);expect(s.organization.reviews[0].propertyRevision).toBe(s.properties['AQ-10233'].revision);await page.getByRole('combobox',{name:'Moderation decision'}).selectOption('changes-requested');await page.getByRole('textbox',{name:'Review notes'}).fill('Fictional permit evidence requires another review.');await page.getByRole('button',{name:/Record local decision|تسجيل القرار محلياً/}).click();await page.reload();expect((await saved(page)).organization.reviews[0].status).toBe('changes-requested');await overflow(page);
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ^
+      71 |  });
+      72 |  test(`organization ${locale}: branding, verification and damaged state recovery`,async({page})=>{
+      73 |   await page.goto(`/${locale}/workspace/settings/domains`);await page.getByRole('textbox',{name:'Public agency name'}).fill('Demo Pearl Brand');await page.getByRole('textbox',{name:'Requested custom domain'}).fill('homes.demoagency.example');await page.getByRole('button',{name:/Save brand and domain|حفظ العلامة والنطاق/}).click();await page.getByRole('button',{name:/Preview DNS verification|معاينة التحقق من DNS/}).click();await page.reload();expect(workspaceOrganization((await saved(page)).organization).domainPreview).toBe(true);await page.goto(`/${locale}/workspace/verification`);await page.getByRole('button',{name:/Submit local review request|تقديم طلب مراجعة محلي/}).click();expect(workspaceOrganization((await saved(page)).organization).verification).toBe('submitted-demo');
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/organization-admin.spec.ts:70:648
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/organization-admin-organiz-31ca2-n-and-approval-invalidation-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/organization-admin-organiz-31ca2-n-and-approval-invalidation-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/organization-admin-organiz-31ca2-n-and-approval-invalidation-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/organization-admin-organiz-31ca2-n-and-approval-invalidation-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [mobile-chromium] › tests/e2e/organization-admin.spec.ts:65:2 › organization en: roles, team updates, subscriptions and guarded controls 
+
+    Test timeout of 20000ms exceeded.
+
+    Error: locator.fill: Test timeout of 20000ms exceeded.
+    Call log:
+      - waiting for getByRole('textbox', { name: 'Search audit history' })
+
+
+      65 |  test(`organization ${locale}: roles, team updates, subscriptions and guarded controls`,async({page})=>{
+      66 |   await page.goto(`/${locale}/workspace/team`);await page.getByRole('combobox',{name:'Role for Karim Said'}).selectOption('manager');await page.getByRole('checkbox',{name:'Available Karim Said',exact:true}).uncheck();await page.getByRole('button',{name:'Save Karim Said',exact:true}).click();let s=await saved(page);expect(s.organization.members.find(m=>m.alias==='Karim Said')?.role).toBe('manager');expect(s.activeAgents).not.toContain('Karim Said');await page.reload();await expect(page.getByRole('combobox',{name:'Role for Karim Said'})).toHaveValue('manager');
+    > 67 |   await persona(page,'agent');await expect(page.getByRole('button',{name:/Simulate invitation|محاكاة الدعوة/})).toBeDisabled();await page.goto(`/${locale}/workspace/billing`);await expect(page.getByRole('button',{name:/Starter/})).toBeDisabled();await persona(page,'owner');await page.getByRole('combobox',{name:'Preview plan'}).selectOption('starter');s=await saved(page);expect(s.plan).toBe('agency');await page.getByRole('button',{name:/Starter/}).click();expect((await saved(page)).plan).toBe('starter');await page.goto(`/${locale}/workspace/team`);await page.getByRole('button',{name:/Simulate invitation|محاكاة الدعوة/}).click();await expect(page.locator('main [role=alert]')).toContainText('seat quota');await persona(page,'super-admin');await page.goto(`/${locale}/workspace/admin/audit`);await page.getByRole('textbox',{name:'Search audit history'}).fill('membership-updated');await expect(page.locator('tbody')).toContainText('membership-updated');await overflow(page);
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ^
+      68 |  });
+      69 |  test(`organization ${locale}: canonical moderation and approval invalidation`,async({page})=>{
+      70 |   await page.goto(`/${locale}/workspace/admin/moderation`);await page.getByRole('button',{name:'Review AQ-10233',exact:true}).click();await page.getByRole('textbox',{name:'Review notes'}).fill('Fictional actor reviewed current property revision.');await page.getByRole('button',{name:/Record local decision|تسجيل القرار محلياً/}).click();expect((await saved(page)).organization.reviews[0].status).toBe('approved-demo');await page.goto(`/${locale}/workspace/inventory/AQ-10233/edit`);await page.getByRole('spinbutton',{name:'Price (QAR)',exact:true}).fill('123456');await page.getByRole('button',{name:/Save canonical draft|حفظ المسودة الأساسية/}).click();await page.goto(`/${locale}/workspace/admin/moderation`);await expect(page.locator('.oa-review-receipt')).toContainText(/Verification pending|بانتظار التحقق/);const s=await saved(page);expect(s.organization.reviews[0].propertyRevision).toBe(s.properties['AQ-10233'].revision);await page.getByRole('combobox',{name:'Moderation decision'}).selectOption('changes-requested');await page.getByRole('textbox',{name:'Review notes'}).fill('Fictional permit evidence requires another review.');await page.getByRole('button',{name:/Record local decision|تسجيل القرار محلياً/}).click();await page.reload();expect((await saved(page)).organization.reviews[0].status).toBe('changes-requested');await overflow(page);
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/organization-admin.spec.ts:67:860
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/organization-admin-organiz-9a256-ptions-and-guarded-controls-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/organization-admin-organiz-9a256-ptions-and-guarded-controls-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/organization-admin-organiz-9a256-ptions-and-guarded-controls-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/organization-admin-organiz-9a256-ptions-and-guarded-controls-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [mobile-chromium] › tests/e2e/organization-admin.spec.ts:69:2 › organization en: canonical moderation and approval invalidation 
+
+    Test timeout of 20000ms exceeded.
+
+    Error: locator.click: Test timeout of 20000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: /Save canonical draft|حفظ المسودة الأساسية/ })
+
+
+      68 |  });
+      69 |  test(`organization ${locale}: canonical moderation and approval invalidation`,async({page})=>{
+    > 70 |   await page.goto(`/${locale}/workspace/admin/moderation`);await page.getByRole('button',{name:'Review AQ-10233',exact:true}).click();await page.getByRole('textbox',{name:'Review notes'}).fill('Fictional actor reviewed current property revision.');await page.getByRole('button',{name:/Record local decision|تسجيل القرار محلياً/}).click();expect((await saved(page)).organization.reviews[0].status).toBe('approved-demo');await page.goto(`/${locale}/workspace/inventory/AQ-10233/edit`);await page.getByRole('spinbutton',{name:'Price (QAR)',exact:true}).fill('123456');await page.getByRole('button',{name:/Save canonical draft|حفظ المسودة الأساسية/}).click();await page.goto(`/${locale}/workspace/admin/moderation`);await expect(page.locator('.oa-review-receipt')).toContainText(/Verification pending|بانتظار التحقق/);const s=await saved(page);expect(s.organization.reviews[0].propertyRevision).toBe(s.properties['AQ-10233'].revision);await page.getByRole('combobox',{name:'Moderation decision'}).selectOption('changes-requested');await page.getByRole('textbox',{name:'Review notes'}).fill('Fictional permit evidence requires another review.');await page.getByRole('button',{name:/Record local decision|تسجيل القرار محلياً/}).click();await page.reload();expect((await saved(page)).organization.reviews[0].status).toBe('changes-requested');await overflow(page);
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ^
+      71 |  });
+      72 |  test(`organization ${locale}: branding, verification and damaged state recovery`,async({page})=>{
+      73 |   await page.goto(`/${locale}/workspace/settings/domains`);await page.getByRole('textbox',{name:'Public agency name'}).fill('Demo Pearl Brand');await page.getByRole('textbox',{name:'Requested custom domain'}).fill('homes.demoagency.example');await page.getByRole('button',{name:/Save brand and domain|حفظ العلامة والنطاق/}).click();await page.getByRole('button',{name:/Preview DNS verification|معاينة التحقق من DNS/}).click();await page.reload();expect(workspaceOrganization((await saved(page)).organization).domainPreview).toBe(true);await page.goto(`/${locale}/workspace/verification`);await page.getByRole('button',{name:/Submit local review request|تقديم طلب مراجعة محلي/}).click();expect(workspaceOrganization((await saved(page)).organization).verification).toBe('submitted-demo');
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/organization-admin.spec.ts:70:648
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/organization-admin-organiz-c6910-n-and-approval-invalidation-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/organization-admin-organiz-c6910-n-and-approval-invalidation-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/organization-admin-organiz-c6910-n-and-approval-invalidation-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/organization-admin-organiz-c6910-n-and-approval-invalidation-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  7) [mobile-chromium] › tests/e2e/organization-admin.spec.ts:65:2 › organization ar: roles, team updates, subscriptions and guarded controls 
+
+    Test timeout of 20000ms exceeded.
+
+    Error: locator.fill: Test timeout of 20000ms exceeded.
+    Call log:
+      - waiting for getByRole('textbox', { name: 'Search audit history' })
+
+
+      65 |  test(`organization ${locale}: roles, team updates, subscriptions and guarded controls`,async({page})=>{
+      66 |   await page.goto(`/${locale}/workspace/team`);await page.getByRole('combobox',{name:'Role for Karim Said'}).selectOption('manager');await page.getByRole('checkbox',{name:'Available Karim Said',exact:true}).uncheck();await page.getByRole('button',{name:'Save Karim Said',exact:true}).click();let s=await saved(page);expect(s.organization.members.find(m=>m.alias==='Karim Said')?.role).toBe('manager');expect(s.activeAgents).not.toContain('Karim Said');await page.reload();await expect(page.getByRole('combobox',{name:'Role for Karim Said'})).toHaveValue('manager');
+    > 67 |   await persona(page,'agent');await expect(page.getByRole('button',{name:/Simulate invitation|محاكاة الدعوة/})).toBeDisabled();await page.goto(`/${locale}/workspace/billing`);await expect(page.getByRole('button',{name:/Starter/})).toBeDisabled();await persona(page,'owner');await page.getByRole('combobox',{name:'Preview plan'}).selectOption('starter');s=await saved(page);expect(s.plan).toBe('agency');await page.getByRole('button',{name:/Starter/}).click();expect((await saved(page)).plan).toBe('starter');await page.goto(`/${locale}/workspace/team`);await page.getByRole('button',{name:/Simulate invitation|محاكاة الدعوة/}).click();await expect(page.locator('main [role=alert]')).toContainText('seat quota');await persona(page,'super-admin');await page.goto(`/${locale}/workspace/admin/audit`);await page.getByRole('searchbox',{name:'Search audit history'}).fill('membership-updated');await expect(page.locator('tbody')).toContainText('membership-updated');await overflow(page);
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ^
+      68 |  });
+      69 |  test(`organization ${locale}: canonical moderation and approval invalidation`,async({page})=>{
+      70 |   await page.goto(`/${locale}/workspace/admin/moderation`);await page.getByRole('button',{name:'Review AQ-10233',exact:true}).click();await page.getByRole('textbox',{name:'Review notes'}).fill('Fictional actor reviewed current property revision.');await page.getByRole('button',{name:/Record local decision|تسجيل القرار محلياً/}).click();expect((await saved(page)).organization.reviews[0].status).toBe('approved-demo');await page.goto(`/${locale}/workspace/inventory/AQ-10233/edit`);await page.getByRole('spinbutton',{name:'Price (QAR)',exact:true}).fill('123456');await page.getByRole('button',{name:/Save canonical draft|حفظ المسودة الأساسية/}).click();await page.goto(`/${locale}/workspace/admin/moderation`);await expect(page.locator('.oa-review-receipt')).toContainText(/Verification pending|بانتظار التحقق/);const s=await saved(page);expect(s.organization.reviews[0].propertyRevision).toBe(s.properties['AQ-10233'].revision);await page.getByRole('combobox',{name:'Moderation decision'}).selectOption('changes-requested');await page.getByRole('textbox',{name:'Review notes'}).fill('Fictional permit evidence requires another review.');await page.getByRole('button',{name:/Record local decision|تسجيل القرار محلياً/}).click();await page.reload();expect((await saved(page)).organization.reviews[0].status).toBe('changes-requested');await overflow(page);
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/organization-admin.spec.ts:67:860
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/organization-admin-organiz-94658-ptions-and-guarded-controls-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/organization-admin-organiz-94658-ptions-and-guarded-controls-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/organization-admin-organiz-94658-ptions-and-guarded-controls-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/organization-admin-organiz-94658-ptions-and-guarded-controls-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8) [mobile-chromium] › tests/e2e/organization-admin.spec.ts:69:2 › organization ar: canonical moderation and approval invalidation 
+
+    Test timeout of 20000ms exceeded.
+
+    Error: locator.click: Test timeout of 20000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: /Save canonical draft|حفظ المسودة الأساسية/ })
+
+
+      68 |  });
+      69 |  test(`organization ${locale}: canonical moderation and approval invalidation`,async({page})=>{
+    > 70 |   await page.goto(`/${locale}/workspace/admin/moderation`);await page.getByRole('button',{name:'Review AQ-10233',exact:true}).click();await page.getByRole('textbox',{name:'Review notes'}).fill('Fictional actor reviewed current property revision.');await page.getByRole('button',{name:/Record local decision|تسجيل القرار محلياً/}).click();expect((await saved(page)).organization.reviews[0].status).toBe('approved-demo');await page.goto(`/${locale}/workspace/inventory/AQ-10233/edit`);await page.getByRole('spinbutton',{name:'Price (QAR)',exact:true}).fill('123456');await page.getByRole('button',{name:/Save canonical draft|حفظ المسودة الأساسية/}).click();await page.goto(`/${locale}/workspace/admin/moderation`);await expect(page.locator('.oa-review-receipt')).toContainText(/Verification pending|بانتظار التحقق/);const s=await saved(page);expect(s.organization.reviews[0].propertyRevision).toBe(s.properties['AQ-10233'].revision);await page.getByRole('combobox',{name:'Moderation decision'}).selectOption('changes-requested');await page.getByRole('textbox',{name:'Review notes'}).fill('Fictional permit evidence requires another review.');await page.getByRole('button',{name:/Record local decision|تسجيل القرار محلياً/}).click();await page.reload();expect((await saved(page)).organization.reviews[0].status).toBe('changes-requested');await overflow(page);
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ^
+      71 |  });
+      72 |  test(`organization ${locale}: branding, verification and damaged state recovery`,async({page})=>{
+      73 |   await page.goto(`/${locale}/workspace/settings/domains`);await page.getByRole('textbox',{name:'Public agency name'}).fill('Demo Pearl Brand');await page.getByRole('textbox',{name:'Requested custom domain'}).fill('homes.demoagency.example');await page.getByRole('button',{name:/Save brand and domain|حفظ العلامة والنطاق/}).click();await page.getByRole('button',{name:/Preview DNS verification|معاينة التحقق من DNS/}).click();await page.reload();expect(workspaceOrganization((await saved(page)).organization).domainPreview).toBe(true);await page.goto(`/${locale}/workspace/verification`);await page.getByRole('button',{name:/Submit local review request|تقديم طلب مراجعة محلي/}).click();expect(workspaceOrganization((await saved(page)).organization).verification).toBe('submitted-demo');
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/organization-admin.spec.ts:70:648
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/organization-admin-organiz-31ca2-n-and-approval-invalidation-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/organization-admin-organiz-31ca2-n-and-approval-invalidation-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/organization-admin-organiz-31ca2-n-and-approval-invalidation-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/organization-admin-organiz-31ca2-n-and-approval-invalidation-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8 failed
+    [chromium] › tests/e2e/organization-admin.spec.ts:65:2 › organization en: roles, team updates, subscriptions and guarded controls 
+    [chromium] › tests/e2e/organization-admin.spec.ts:69:2 › organization en: canonical moderation and approval invalidation 
+    [chromium] › tests/e2e/organization-admin.spec.ts:65:2 › organization ar: roles, team updates, subscriptions and guarded controls 
+    [chromium] › tests/e2e/organization-admin.spec.ts:69:2 › organization ar: canonical moderation and approval invalidation 
+    [mobile-chromium] › tests/e2e/organization-admin.spec.ts:65:2 › organization en: roles, team updates, subscriptions and guarded controls 
+    [mobile-chromium] › tests/e2e/organization-admin.spec.ts:69:2 › organization en: canonical moderation and approval invalidation 
+    [mobile-chromium] › tests/e2e/organization-admin.spec.ts:65:2 › organization ar: roles, team updates, subscriptions and guarded controls 
+    [mobile-chromium] › tests/e2e/organization-admin.spec.ts:69:2 › organization ar: canonical moderation and approval invalidation 
+  8 passed (1.5m)
+ ELIFECYCLE  Command failed with exit code 1.

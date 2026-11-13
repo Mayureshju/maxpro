@@ -1,0 +1,1913 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test
+
+[WebServer] (node:74851) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:74867) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 762 tests using 4 workers
+
+(node:74874) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:74875) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:74876) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:74873) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓    3 [chromium] › tests/e2e/lead-crm.spec.ts:79:1 › CRM domain: five internal payloads preserve source, event, property, timestamps and same-name identities (1.2s)
+  ✓    4 [chromium] › tests/e2e/campaigns.spec.ts:110:1 › campaign domain: ordered approvals, stale revisions, roles, tenant and setup guards (1.1s)
+  ✓    2 [chromium] › tests/e2e/connector-hub.spec.ts:38:1 › internal export contracts handle invalid values, Unicode, XML controls and CSV formulas (1.1s)
+  ✓    5 [chromium] › tests/e2e/lead-crm.spec.ts:98:1 › CRM domain: replay is idempotent and does not rotate; different source same event is distinct (334ms)
+  ✓    6 [chromium] › tests/e2e/campaigns.spec.ts:151:1 › campaign domain: policy blockers include licensing, review, media, targeted exclusions, numeric facts and caps (353ms)
+  ✓    7 [chromium] › tests/e2e/connector-hub.spec.ts:48:1 › command guards reject stale approval, unsupported destinations, missing approval and quota bypass (375ms)
+  ✓    9 [chromium] › tests/e2e/campaigns.spec.ts:172:1 › campaign domain: deterministic bilingual suggestions cite only current canonical facts; accept/reject is audited (274ms)
+  ✓   10 [chromium] › tests/e2e/connector-hub.spec.ts:57:1 › job migration retains old local history and rejects forged or corrupt attempt metadata (283ms)
+  ✓    8 [chromium] › tests/e2e/lead-crm.spec.ts:111:1 › CRM domain: malformed, foreign-org, missing-property, future and personal data inputs reject without mutations (337ms)
+  ✓   11 [chromium] › tests/e2e/campaigns.spec.ts:241:1 › campaign domain: property changes invalidate approvals and stale creative references on recovery (287ms)
+  ✓   13 [chromium] › tests/e2e/lead-crm.spec.ts:153:1 › CRM domain: round-robin survives hydration and skips unavailable/inactive agents (281ms)
+  ✓   14 [chromium] › tests/e2e/campaigns.spec.ts:261:1 › campaign domain: optional admin, cancel/resume/duplicate and rejection retain independent histories (275ms)
+  ✓   15 [chromium] › tests/e2e/lead-crm.spec.ts:175:1 › CRM domain: fallback, backlog, manual and invalid assignment have explicit outcomes (266ms)
+  ✓   16 [chromium] › tests/e2e/campaigns.spec.ts:294:1 › campaign domain: Meta and Google attributed lead intake deduplicates and reports actual fictional CRM observations (305ms)
+  ✓   17 [chromium] › tests/e2e/lead-crm.spec.ts:202:1 › CRM domain: arbitrary new canonical properties receive leads; unknown IDs do not substitute (293ms)
+  ✓   18 [chromium] › tests/e2e/campaigns.spec.ts:370:1 › campaign domain: migration and corrupted state preserve valid records and strip unknown fields (228ms)
+  ✓   19 [chromium] › tests/e2e/lead-crm.spec.ts:215:1 › CRM domain: stage, qualification, notes, opt-out and replies share one lead and response cohort (266ms)
+  ✓   21 [chromium] › tests/e2e/lead-crm.spec.ts:245:1 › CRM domain: viewing conflicts, cancellation and valid transitions persist (280ms)
+  ✓   22 [chromium] › tests/e2e/lead-crm.spec.ts:291:1 › CRM domain: date filters use inclusive Qatar received dates and explicit costs only (263ms)
+  ✓   23 [chromium] › tests/e2e/lead-crm.spec.ts:315:1 › CRM storage: migration, invalid references, schema, identity and nested metadata recover safely (376ms)
+  ✓   12 [chromium] › tests/e2e/connector-hub.spec.ts:65:2 › connector smoke en: directory filtering, setup, removal and eligibility (2.3s)
+  ✓   24 [chromium] › tests/e2e/lead-crm.spec.ts:353:3 › CRM en: intake replay, invalid event, filters and keyboard pipeline work (1.2s)
+  ✓   20 [chromium] › tests/e2e/campaigns.spec.ts:518:3 › campaign full journey en: canonical selection to grounded creative, approvals and enquiry without seeded campaigns (3.0s)
+  ✓   25 [chromium] › tests/e2e/connector-hub.spec.ts:73:2 › connector smoke en: newly created property drives escaped XML JSON CSV and downloads (2.4s)
+  ✓   26 [chromium] › tests/e2e/lead-crm.spec.ts:395:3 › CRM en: stage, conversation, handover, viewing cancellation and analytics persist (3.1s)
+  ✓    1 [chromium] › tests/e2e/lifecycle.spec.ts:35:2 › lifecycle en create, resume, review, media and per-destination history (8.4s)
+  ✓   27 [chromium] › tests/e2e/campaigns.spec.ts:518:3 › campaign full journey ar: canonical selection to grounded creative, approvals and enquiry without seeded campaigns (2.4s)
+  ✓   28 [chromium] › tests/e2e/connector-hub.spec.ts:84:2 › connector smoke en: blocked retry revalidates, correction queues, cancellation and filters persist (2.5s)
+  ✓   29 [chromium] › tests/e2e/lead-crm.spec.ts:353:3 › CRM ar: intake replay, invalid event, filters and keyboard pipeline work (1.1s)
+  ✓   31 [chromium] › tests/e2e/campaigns.spec.ts:587:3 › campaign en: create from canonical property, persist, edit and grounded proposal review (1.4s)
+  ✓   30 [chromium] › tests/e2e/lifecycle.spec.ts:116:2 › lifecycle en invalid IDs never fall back to a sample (2.5s)
+  ✓   32 [chromium] › tests/e2e/connector-hub.spec.ts:92:2 › connector en: property revision invalidates workbench and retry approval across tabs (2.8s)
+  ✓   33 [chromium] › tests/e2e/lead-crm.spec.ts:395:3 › CRM ar: stage, conversation, handover, viewing cancellation and analytics persist (2.8s)
+  ✓   34 [chromium] › tests/e2e/campaigns.spec.ts:638:3 › campaign en: policy blockers, ordered approval, simulation, attributed lead replay and analytics (2.9s)
+  ✓   37 [chromium] › tests/e2e/lead-crm.spec.ts:467:1 › CRM browser: routing cursor persists, unavailable agents are excluded, manual intake enters backlog (870ms)
+  ✓   38 [chromium] › tests/e2e/campaigns.spec.ts:685:3 › campaign en: approval invalidation, cancel/resume/duplicate and property integrity (1.8s)
+  ✓   39 [chromium] › tests/e2e/lead-crm.spec.ts:489:1 › CRM browser: a newly created canonical property can receive a simulated lead (1.9s)
+  ✓   36 [chromium] › tests/e2e/connector-hub.spec.ts:97:2 › connector en: responsive sections and keyboard controls at required widths (3.9s)
+  ✓   40 [chromium] › tests/e2e/campaigns.spec.ts:718:3 › campaign en: invalid IDs, corrupt records, old-envelope migration and missing prerequisites (1.3s)
+  ✓   41 [chromium] › tests/e2e/lead-crm.spec.ts:520:1 › CRM browser: corrupt saved CRM excludes invalid leads but preserves properties and jobs; unknown ID is explicit (1.5s)
+  ✓   43 [chromium] › tests/e2e/campaigns.spec.ts:756:3 › campaign en: provider catalogue, Google plan and consent-aware event preview (956ms)
+  ✓   35 [chromium] › tests/e2e/lifecycle.spec.ts:35:2 › lifecycle ar create, resume, review, media and per-destination history (6.5s)
+  ✓   42 [chromium] › tests/e2e/connector-hub.spec.ts:65:2 › connector smoke ar: directory filtering, setup, removal and eligibility (2.0s)
+  ✓   44 [chromium] › tests/e2e/lead-crm.spec.ts:549:1 › CRM browser: fictional spend and date/property filters have explicit provenance (1.8s)
+  ✓   46 [chromium] › tests/e2e/lifecycle.spec.ts:116:2 › lifecycle ar invalid IDs never fall back to a sample (2.1s)
+  ✓   47 [chromium] › tests/e2e/connector-hub.spec.ts:73:2 › connector smoke ar: newly created property drives escaped XML JSON CSV and downloads (2.0s)
+  ✓   49 [chromium] › tests/e2e/lifecycle.spec.ts:123:1 › arbitrary Studio input and document selection never fabricate extracted property facts (880ms)
+  ✓   45 [chromium] › tests/e2e/campaigns.spec.ts:800:5 › campaign evidence en 1440: screenshots and responsive workflow (3.7s)
+  ✓   48 [chromium] › tests/e2e/lead-crm.spec.ts:576:5 › CRM visual en 1440: eight connected operational workspaces (2.9s)
+  ✓   51 [chromium] › tests/e2e/lifecycle.spec.ts:131:1 › file metadata persists without binary or blob URLs and changes actual media checks (1.3s)
+  ✓   50 [chromium] › tests/e2e/connector-hub.spec.ts:84:2 › connector smoke ar: blocked retry revalidates, correction queues, cancellation and filters persist (2.2s)
+  ✓   54 [chromium] › tests/e2e/lifecycle.spec.ts:141:1 › fact edits invalidate review while media changes alter preflight and preserve revisions (1.3s)
+  ✓   53 [chromium] › tests/e2e/lead-crm.spec.ts:576:5 › CRM visual en 1024: eight connected operational workspaces (2.5s)
+  ✓   52 [chromium] › tests/e2e/campaigns.spec.ts:800:5 › campaign evidence en 1024: screenshots and responsive workflow (3.1s)
+  ✓   56 [chromium] › tests/e2e/lifecycle.spec.ts:151:2 › starter enforces 3 listing reservations and preserves drafts over quota (1.4s)
+  ✓   55 [chromium] › tests/e2e/connector-hub.spec.ts:92:2 › connector ar: property revision invalidates workbench and retry approval across tabs (2.4s)
+  ✓   59 [chromium] › tests/e2e/lifecycle.spec.ts:151:2 › pro enforces 25 listing reservations and preserves drafts over quota (1.3s)
+  ✓   57 [chromium] › tests/e2e/lead-crm.spec.ts:576:5 › CRM visual en 768: eight connected operational workspaces (2.4s)
+  ✓   58 [chromium] › tests/e2e/campaigns.spec.ts:800:5 › campaign evidence en 768: screenshots and responsive workflow (3.1s)
+  ✓   61 [chromium] › tests/e2e/lifecycle.spec.ts:165:1 › Pro portal quota and Starter Meta entitlement are separate from draft saving (1.3s)
+  ✓   64 [chromium] › tests/e2e/lifecycle.spec.ts:170:1 › corrupt canonical records are excluded while valid drafts and legacy edits recover (894ms)
+  ✓   60 [chromium] › tests/e2e/connector-hub.spec.ts:97:2 › connector ar: responsive sections and keyboard controls at required widths (3.8s)
+  ✓   62 [chromium] › tests/e2e/lead-crm.spec.ts:576:5 › CRM visual en 375: eight connected operational workspaces (2.7s)
+  ✓   65 [chromium] › tests/e2e/lifecycle.spec.ts:177:1 › changing a record in another tab rejects stale editor saves and resets publishing approval (1.4s)
+  ✓   66 [chromium] › tests/e2e/connector-hub.spec.ts:105:1 › corrupt connector state recovers valid properties and excludes malformed job attempts (1.5s)
+  ✓   63 [chromium] › tests/e2e/campaigns.spec.ts:800:5 › campaign evidence en 375: screenshots and responsive workflow (3.2s)
+  ✓   68 [chromium] › tests/e2e/lifecycle.spec.ts:185:1 › Studio creates a stable route and resumes saved source and proposed copy after reload (756ms)
+  ✓   71 [chromium] › tests/e2e/lifecycle.spec.ts:189:1 › valid Phase 0 edits migrate into canonical revisions without losing source identity (731ms)
+  ✓   72 [chromium] › tests/e2e/lifecycle.spec.ts:195:1 › Studio refuses to overwrite facts changed by another tab (711ms)
+  ✓   67 [chromium] › tests/e2e/lead-crm.spec.ts:576:5 › CRM visual ar 1440: eight connected operational workspaces (2.8s)
+  ✓   73 [chromium] › tests/e2e/lifecycle.spec.ts:199:1 › portal quota includes destinations already reserved on other properties (860ms)
+  ✓   75 [chromium] › tests/e2e/organization-admin.spec.ts:20:1 › organization domain: six personas, denied commands, foreign directory and stale revisions (181ms)
+  ✓   76 [chromium] › tests/e2e/organization-admin.spec.ts:27:1 › organization domain: seat reservation, last owner, membership routing and CRM persistence (237ms)
+  ✓   77 [chromium] › tests/e2e/organization-admin.spec.ts:35:1 › organization domain: configurable terms drive connector and AI consumption guards (329ms)
+  ✓   69 [chromium] › tests/e2e/connector-hub.spec.ts:110:33 › connector en: correcting canonical data lets a blocked job retry at the current revision (3.6s)
+  ✓   78 [chromium] › tests/e2e/organization-admin.spec.ts:40:1 › organization commands: property, publishing, lead assignment, campaign and billing guards agree (243ms)
+  ✓   80 [chromium] › tests/e2e/organization-admin.spec.ts:46:1 › organization commands: moderation receipt, property change, campaign approval and stale dispatch (386ms)
+  ✓   81 [chromium] › tests/e2e/organization-admin.spec.ts:52:1 › organization storage: additive migration, corruption projection and stale approval recovery (247ms)
+  ✓   74 [chromium] › tests/e2e/lead-crm.spec.ts:576:5 › CRM visual ar 1024: eight connected operational workspaces (2.6s)
+  ✓   70 [chromium] › tests/e2e/campaigns.spec.ts:874:3 › campaign accessibility en: axe across editor stages, approvals, portfolio, catalogue and analytics (4.1s)
+  ✓   82 [chromium] › tests/e2e/organization-admin.spec.ts:59:2 › organization en: onboarding, directory, profile and shared persistence (1.4s)
+  ✓   84 [chromium] › tests/e2e/campaigns.spec.ts:587:3 › campaign ar: create from canonical property, persist, edit and grounded proposal review (1.7s)
+  ✓   83 [chromium] › tests/e2e/lead-crm.spec.ts:576:5 › CRM visual ar 768: eight connected operational workspaces (2.4s)
+  ✓   85 [chromium] › tests/e2e/organization-admin.spec.ts:65:2 › organization en: roles, team updates, subscriptions and guarded controls (1.1s)
+  ✓   79 [chromium] › tests/e2e/connector-hub.spec.ts:110:33 › connector ar: correcting canonical data lets a blocked job retry at the current revision (3.5s)
+  ✓   89 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en renders a page heading (563ms)
+  ✓   88 [chromium] › tests/e2e/organization-admin.spec.ts:69:2 › organization en: canonical moderation and approval invalidation (1.4s)
+  ✓   90 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/properties renders a page heading (553ms)
+  ✓   86 [chromium] › tests/e2e/campaigns.spec.ts:638:3 › campaign ar: policy blockers, ordered approval, simulation, attributed lead replay and analytics (2.7s)
+  ✓   92 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/properties/AQ-10231 renders a page heading (565ms)
+  ✓   87 [chromium] › tests/e2e/lead-crm.spec.ts:576:5 › CRM visual ar 375: eight connected operational workspaces (2.1s)
+  ✓   91 [chromium] › tests/e2e/organization-admin.spec.ts:72:2 › organization en: branding, verification and damaged state recovery (788ms)
+  ✓   95 [chromium] › tests/e2e/lead-crm.spec.ts:632:1 › CRM domain: rejected receipts preserve safe event IDs and inconsistent restored references are excluded (300ms)
+  ✓   94 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/pricing renders a page heading (428ms)
+  ✓   98 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/solutions renders a page heading (401ms)
+  ✓   97 [chromium] › tests/e2e/lead-crm.spec.ts:654:1 › CRM browser: advanced filters, qualification, reply preference and empty states use the same lead (1.0s)
+  ✓   99 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/favorites renders a page heading (634ms)
+  ✓   93 [chromium] › tests/e2e/campaigns.spec.ts:685:3 › campaign ar: approval invalidation, cancel/resume/duplicate and property integrity (1.8s)
+  ✓  101 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/compare renders a page heading (612ms)
+  ✓  103 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/map renders a page heading (519ms)
+  ✓  104 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace renders a page heading (401ms)
+  ✓  102 [chromium] › tests/e2e/campaigns.spec.ts:718:3 › campaign ar: invalid IDs, corrupt records, old-envelope migration and missing prerequisites (1.4s)
+  ✓  105 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/publish renders a page heading (483ms)
+  ✓  100 [chromium] › tests/e2e/lead-crm.spec.ts:698:3 › CRM accessibility en: WCAG A/AA axe checks on touched main content (2.4s)
+  ✓  106 [chromium] › tests/e2e/campaigns.spec.ts:756:3 › campaign ar: provider catalogue, Google plan and consent-aware event preview (825ms)
+  ✓   96 [chromium] › tests/e2e/organization-admin.spec.ts:76:41 › organization evidence en 1440: responsive screenshots (3.8s)
+  ✓  107 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/inventory renders a page heading (483ms)
+  ✓  111 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/inventory/AQ-10231 renders a page heading (625ms)
+  ✓  112 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/inventory/AQ-10231/edit renders a page heading (407ms)
+  ✓  113 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/studio renders a page heading (369ms)
+  ✓  114 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/hub renders a page heading (512ms)
+  ✓  108 [chromium] › tests/e2e/lead-crm.spec.ts:698:3 › CRM accessibility ar: WCAG A/AA axe checks on touched main content (2.3s)
+  ✓  115 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/hub/jobs renders a page heading (343ms)
+  ✓  116 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/ responds and renders (463ms)
+  ✓  117 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/hub/connectors renders a page heading (482ms)
+  ✓  118 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/about responds and renders (424ms)
+  ✓  119 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/hub/marketplace renders a page heading (440ms)
+  ✓  109 [chromium] › tests/e2e/campaigns.spec.ts:800:5 › campaign evidence ar 1440: screenshots and responsive workflow (3.4s)
+  ✓  120 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/agencies responds and renders (402ms)
+  ✓  121 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/hub/connectors/property-finder renders a page heading (430ms)
+  ✓  123 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/compare responds and renders (713ms)
+  ✓  124 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/hub/feeds renders a page heading (449ms)
+  ✓  110 [chromium] › tests/e2e/organization-admin.spec.ts:76:41 › organization evidence en 1024: responsive screenshots (4.6s)
+  ✓  125 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/contact responds and renders (385ms)
+  ✓  126 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/hub/mappings renders a page heading (443ms)
+  ✓  128 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/faq responds and renders (320ms)
+  ✓  129 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/leads renders a page heading (411ms)
+  ✓  130 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/favorites responds and renders (563ms)
+  ✓  131 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/leads/assignment renders a page heading (422ms)
+  ✓  133 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/leads/viewings renders a page heading (367ms)
+  ✓  132 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/map responds and renders (444ms)
+  ✓  134 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/leads/LE-2101 renders a page heading (557ms)
+  ✓  135 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/pricing responds and renders (548ms)
+  ✓  122 [chromium] › tests/e2e/campaigns.spec.ts:800:5 › campaign evidence ar 1024: screenshots and responsive workflow (3.5s)
+  ✓  136 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/inbox renders a page heading (426ms)
+  ✓  137 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/privacy responds and renders (483ms)
+  ✓  139 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/campaigns renders a page heading (426ms)
+  ✓  140 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/properties responds and renders (572ms)
+  ✓  141 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/campaigns/new renders a page heading (325ms)
+  ✓  142 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/register responds and renders (336ms)
+  ✓  143 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/integrations/ga4 renders a page heading (387ms)
+  ✓  144 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/resources responds and renders (379ms)
+  ✓  145 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/integrations/google-ads renders a page heading (464ms)
+  ✓  146 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/saved-searches responds and renders (438ms)
+  ✓  127 [chromium] › tests/e2e/organization-admin.spec.ts:76:41 › organization evidence en 768: responsive screenshots (4.5s)
+  ✓  147 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/integrations/meta-catalog renders a page heading (475ms)
+  ✓  148 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/sign-in responds and renders (437ms)
+  ✓  150 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/integrations/whatsapp renders a page heading (386ms)
+  ✓  151 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/solutions responds and renders (434ms)
+  ✓  152 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/analytics renders a page heading (502ms)
+  ✓  153 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/terms responds and renders (496ms)
+  ✓  138 [chromium] › tests/e2e/campaigns.spec.ts:800:5 › campaign evidence ar 768: screenshots and responsive workflow (3.3s)
+  ✓  154 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/team renders a page heading (432ms)
+  ✓  155 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace responds and renders (512ms)
+  ✓  157 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/billing renders a page heading (464ms)
+  ✓  158 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/agencies/pearl-gate-realty responds and renders (426ms)
+  ✓  159 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/billing/invoices renders a page heading (370ms)
+  ✓  161 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/verification renders a page heading (370ms)
+  ✓  160 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/properties/AQ-10231 responds and renders (503ms)
+  ✓  162 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/settings renders a page heading (269ms)
+  ✓  163 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin responds and renders (326ms)
+  ✓  164 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/settings/domains renders a page heading (355ms)
+  ✓  165 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/analytics responds and renders (370ms)
+  ✓  166 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/whatsapp/packs renders a page heading (483ms)
+  ✓  167 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/billing responds and renders (463ms)
+  ✓  156 [chromium] › tests/e2e/campaigns.spec.ts:800:5 › campaign evidence ar 375: screenshots and responsive workflow (2.7s)
+  ✓  149 [chromium] › tests/e2e/organization-admin.spec.ts:76:41 › organization evidence en 375: responsive screenshots (4.2s)
+  ✓  168 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/support/assistant renders a page heading (509ms)
+  ✓  169 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/campaigns responds and renders (435ms)
+  ✓  173 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/hub responds and renders (566ms)
+  ✓  172 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/ads/placements renders a page heading (603ms)
+  ✘  171 [chromium] › tests/e2e/organization-admin.spec.ts:79:2 › organization accessibility en: axe main content (773ms)
+  ✓  174 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/inbox responds and renders (414ms)
+  ✓  175 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/admin renders a page heading (436ms)
+  ✓  176 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/inventory responds and renders (402ms)
+  ✓  177 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/admin/connector-health renders a page heading (403ms)
+(node:76276) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  178 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/leads responds and renders (567ms)
+  ✓  179 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/admin/moderation renders a page heading (604ms)
+  ✓  181 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/notifications responds and renders (594ms)
+  ✓  182 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/admin/users renders a page heading (621ms)
+  ✓  183 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/organization responds and renders (511ms)
+  ✓  184 [chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/admin/audit renders a page heading (468ms)
+  ✓  185 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/publish responds and renders (775ms)
+  ✓  186 [chromium] › tests/e2e/prototype.spec.ts:15:1 › inventory filtering and property navigation works locally (1.1s)
+  ✓  170 [chromium] › tests/e2e/campaigns.spec.ts:874:3 › campaign accessibility ar: axe across editor stages, approvals, portfolio, catalogue and analytics (4.9s)
+  ✓  187 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/settings responds and renders (664ms)
+  ✓  180 [chromium] › tests/e2e/organization-admin.spec.ts:59:2 › organization ar: onboarding, directory, profile and shared persistence (2.2s)
+  ✓  189 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/studio responds and renders (715ms)
+(node:76375) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  188 [chromium] › tests/e2e/prototype.spec.ts:23:1 › studio can walk through local demo with explicit approval (1.3s)
+  ✓  191 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/team responds and renders (679ms)
+  ✓  193 [chromium] › tests/e2e/prototype.spec.ts:37:1 › Arabic routes preserve RTL (805ms)
+  ✓  190 [chromium] › tests/e2e/organization-admin.spec.ts:65:2 › organization ar: roles, team updates, subscriptions and guarded controls (2.0s)
+  ✓  194 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/verification responds and renders (656ms)
+  ✓  192 [mobile-chromium] › tests/e2e/campaigns.spec.ts:110:1 › campaign domain: ordered approvals, stale revisions, roles, tenant and setup guards (629ms)
+  ✓  198 [mobile-chromium] › tests/e2e/campaigns.spec.ts:151:1 › campaign domain: policy blockers include licensing, review, media, targeted exclusions, numeric facts and caps (300ms)
+  ✓  197 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin/audit responds and renders (519ms)
+  ✓  195 [chromium] › tests/e2e/prototype.spec.ts:43:1 › mobile workspace does not overflow and sidebar opens (907ms)
+  ✓  199 [mobile-chromium] › tests/e2e/campaigns.spec.ts:172:1 › campaign domain: deterministic bilingual suggestions cite only current canonical facts; accept/reject is audited (233ms)
+  ✓  202 [mobile-chromium] › tests/e2e/campaigns.spec.ts:241:1 › campaign domain: property changes invalidate approvals and stale creative references on recovery (284ms)
+  ✓  200 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin/cms responds and renders (409ms)
+  ✓  203 [mobile-chromium] › tests/e2e/campaigns.spec.ts:261:1 › campaign domain: optional admin, cancel/resume/duplicate and rejection retain independent histories (244ms)
+  ✓  196 [chromium] › tests/e2e/organization-admin.spec.ts:69:2 › organization ar: canonical moderation and approval invalidation (1.6s)
+  ✓  204 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin/connector-health responds and renders (495ms)
+  ✓  205 [mobile-chromium] › tests/e2e/campaigns.spec.ts:294:1 › campaign domain: Meta and Google attributed lead intake deduplicates and reports actual fictional CRM observations (321ms)
+  ✓  208 [mobile-chromium] › tests/e2e/campaigns.spec.ts:370:1 › campaign domain: migration and corrupted state preserve valid records and strip unknown fields (312ms)
+  ✓  207 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin/integrations responds and renders (524ms)
+  ✓  201 [chromium] › tests/e2e/prototype.spec.ts:53:1 › Gemini master property edit is used in preflight (1.7s)
+  ✓  210 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin/moderation responds and renders (586ms)
+  ✓  206 [chromium] › tests/e2e/organization-admin.spec.ts:72:2 › organization ar: branding, verification and damaged state recovery (1.1s)
+  ✓  212 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin/organizations responds and renders (747ms)
+  ✓  211 [chromium] › tests/e2e/prototype.spec.ts:63:1 › Gemini connector setup and publishing are browser-local only (1.5s)
+  ✓  214 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin/plans responds and renders (427ms)
+  ✓  216 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin/reports responds and renders (424ms)
+  ✓  215 [chromium] › tests/e2e/prototype.spec.ts:82:1 › Gemini Starter plan blocks two destination selection (958ms)
+  ✓  217 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin/taxonomies responds and renders (526ms)
+  ✓  218 [chromium] › tests/e2e/prototype.spec.ts:91:1 › Gemini sample data and pricing do not advertise former v2 tiers (509ms)
+  ✓  219 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin/users responds and renders (474ms)
+  ✓  209 [mobile-chromium] › tests/e2e/campaigns.spec.ts:518:3 › campaign full journey en: canonical selection to grounded creative, approvals and enquiry without seeded campaigns (3.6s)
+  ✓  220 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/ads/attribution responds and renders (398ms)
+(node:76581) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  222 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/ads/catalogue responds and renders (435ms)
+  ✓  224 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/ads/placements responds and renders (491ms)
+  ✓  213 [chromium] › tests/e2e/organization-admin.spec.ts:76:41 › organization evidence ar 1440: responsive screenshots (4.2s)
+  ✓  223 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:38:1 › internal export contracts handle invalid values, Unicode, XML controls and CSV formulas (354ms)
+  ✓  225 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/billing/dunning responds and renders (446ms)
+  ✓  227 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:48:1 › command guards reject stale approval, unsupported destinations, missing approval and quota bypass (250ms)
+  ✓  229 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:57:1 › job migration retains old local history and rejects forged or corrupt attempt metadata (253ms)
+  ✓  228 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/billing/invoices responds and renders (351ms)
+  ✓  231 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/campaigns/AQ-10231 responds and renders (490ms)
+  ✓  232 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/campaigns/new responds and renders (336ms)
+  ✓  233 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/hub/connectors responds and renders (433ms)
+  ✓  221 [mobile-chromium] › tests/e2e/campaigns.spec.ts:518:3 › campaign full journey ar: canonical selection to grounded creative, approvals and enquiry without seeded campaigns (3.3s)
+  ✓  234 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/hub/feeds responds and renders (402ms)
+  ✓  230 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:65:2 › connector smoke en: directory filtering, setup, removal and eligibility (1.8s)
+  ✓  236 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/hub/jobs responds and renders (395ms)
+  ✓  238 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/hub/mappings responds and renders (300ms)
+  ✓  239 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/hub/marketplace responds and renders (248ms)
+  ✓  240 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/integrations/ga4 responds and renders (288ms)
+  ✓  241 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/integrations/google-ads responds and renders (383ms)
+  ✓  226 [chromium] › tests/e2e/organization-admin.spec.ts:76:41 › organization evidence ar 1024: responsive screenshots (4.2s)
+  ✓  242 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/integrations/meta-catalog responds and renders (375ms)
+  ✓  244 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/integrations/whatsapp responds and renders (334ms)
+  ✓  235 [mobile-chromium] › tests/e2e/campaigns.spec.ts:587:3 › campaign en: create from canonical property, persist, edit and grounded proposal review (2.8s)
+  ✓  245 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/inventory/AQ-10231 responds and renders (431ms)
+  ✓  237 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:73:2 › connector smoke en: newly created property drives escaped XML JSON CSV and downloads (3.0s)
+  ✓  247 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/inventory/import responds and renders (489ms)
+  ✓  249 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/inventory/new responds and renders (463ms)
+  ✓  250 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/leads/LE-2101 responds and renders (523ms)
+  ✓  251 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/leads/assignment responds and renders (399ms)
+  ✓  252 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/leads/viewings responds and renders (332ms)
+  ✓  248 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:84:2 › connector smoke en: blocked retry revalidates, correction queues, cancellation and filters persist (2.1s)
+  ✓  246 [mobile-chromium] › tests/e2e/campaigns.spec.ts:638:3 › campaign en: policy blockers, ordered approval, simulation, attributed lead replay and analytics (2.8s)
+  ✓  253 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/organization/new responds and renders (451ms)
+  ✓  256 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/settings/domains responds and renders (576ms)
+  ✓  243 [chromium] › tests/e2e/organization-admin.spec.ts:76:41 › organization evidence ar 768: responsive screenshots (4.5s)
+  ✓  257 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/settings/privacy responds and renders (566ms)
+  ✓  259 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/support/assistant responds and renders (378ms)
+  ✓  255 [mobile-chromium] › tests/e2e/campaigns.spec.ts:685:3 › campaign en: approval invalidation, cancel/resume/duplicate and property integrity (1.9s)
+  ✓  260 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/support/evaluations responds and renders (379ms)
+  ✓  262 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/support/knowledge responds and renders (770ms)
+  ✓  261 [mobile-chromium] › tests/e2e/campaigns.spec.ts:718:3 › campaign en: invalid IDs, corrupt records, old-envelope migration and missing prerequisites (1.3s)
+  ✓  263 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/whatsapp/packs responds and renders (351ms)
+  ✓  265 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/whatsapp/sla responds and renders (333ms)
+  ✓  254 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:92:2 › connector en: property revision invalidates workbench and retry approval across tabs (3.8s)
+  ✓  264 [mobile-chromium] › tests/e2e/campaigns.spec.ts:756:3 › campaign en: provider catalogue, Google plan and consent-aware event preview (712ms)
+  ✓  266 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/whatsapp/templates responds and renders (333ms)
+  -  268 [mobile-chromium] › tests/e2e/campaigns.spec.ts:800:5 › campaign evidence en 1440: screenshots and responsive workflow
+  ✓  269 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/billing/invoices/INV-2026-0419 responds and renders (434ms)
+  -  270 [mobile-chromium] › tests/e2e/campaigns.spec.ts:800:5 › campaign evidence en 1024: screenshots and responsive workflow
+  -  272 [mobile-chromium] › tests/e2e/campaigns.spec.ts:800:5 › campaign evidence en 768: screenshots and responsive workflow
+  ✓  271 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/hub/connectors/property-finder responds and renders (506ms)
+  ✓  258 [chromium] › tests/e2e/organization-admin.spec.ts:76:41 › organization evidence ar 375: responsive screenshots (3.9s)
+  -  273 [mobile-chromium] › tests/e2e/campaigns.spec.ts:800:5 › campaign evidence en 375: screenshots and responsive workflow
+  ✓  267 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:97:2 › connector en: responsive sections and keyboard controls at required widths (1.6s)
+  ✓  274 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/inventory/AQ-10231/edit responds and renders (471ms)
+  ✓  278 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/inventory/AQ-10231/enquiries responds and renders (495ms)
+  ✘  275 [chromium] › tests/e2e/organization-admin.spec.ts:79:2 › organization accessibility ar: axe main content (782ms)
+  ✓  279 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/inventory/AQ-10231/media responds and renders (408ms)
+(node:76970) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  280 [chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/inventory/AQ-10231/publishing responds and renders (379ms)
+  ✓  277 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:65:2 › connector smoke ar: directory filtering, setup, removal and eligibility (1.7s)
+  ✓  281 [chromium] › tests/e2e/organization-admin.spec.ts:86:1 › organization repository boundary: async local commands and revision conflict mapping (388ms)
+  ✓  282 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual en dashboard fits the viewport (597ms)
+  ✓  285 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual en studio fits the viewport (560ms)
+  ✓  286 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual en editor fits the viewport (532ms)
+  ✓  284 [chromium] › tests/e2e/organization-admin.spec.ts:90:1 › organization persistence: cross-tab persona update, quota config and unavailable storage (1.4s)
+  ✓  287 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual en media fits the viewport (545ms)
+(node:77039) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  276 [mobile-chromium] › tests/e2e/campaigns.spec.ts:874:3 › campaign accessibility en: axe across editor stages, approvals, portfolio, catalogue and analytics (4.2s)
+  ✓  288 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual en marketplace fits the viewport (452ms)
+  ✓  289 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:79:1 › CRM domain: five internal payloads preserve source, event, property, timestamps and same-name identities (383ms)
+  ✓  283 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:73:2 › connector smoke ar: newly created property drives escaped XML JSON CSV and downloads (3.0s)
+  ✓  292 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:98:1 › CRM domain: replay is idempotent and does not rotate; different source same event is distinct (262ms)
+  ✓  291 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual en provider fits the viewport (576ms)
+  ✓  294 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:111:1 › CRM domain: malformed, foreign-org, missing-property, future and personal data inputs reject without mutations (232ms)
+  ✓  296 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:153:1 › CRM domain: round-robin survives hydration and skips unavailable/inactive agents (252ms)
+  ✓  295 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual en publishing fits the viewport (525ms)
+  ✓  297 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:175:1 › CRM domain: fallback, backlog, manual and invalid assignment have explicit outcomes (193ms)
+  ✓  299 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:202:1 › CRM domain: arbitrary new canonical properties receive leads; unknown IDs do not substitute (213ms)
+  ✓  298 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual en history fits the viewport (427ms)
+  ✓  300 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:215:1 › CRM domain: stage, qualification, notes, opt-out and replies share one lead and response cohort (247ms)
+  ✓  302 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:245:1 › CRM domain: viewing conflicts, cancellation and valid transitions persist (196ms)
+  ✓  301 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual en leads fits the viewport (487ms)
+  ✓  303 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:291:1 › CRM domain: date filters use inclusive Qatar received dates and explicit costs only (229ms)
+  ✓  290 [mobile-chromium] › tests/e2e/campaigns.spec.ts:587:3 › campaign ar: create from canonical property, persist, edit and grounded proposal review (2.4s)
+  ✓  305 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:315:1 › CRM storage: migration, invalid references, schema, identity and nested metadata recover safely (211ms)
+  ✓  304 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual en routing fits the viewport (450ms)
+  ✓  293 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:84:2 › connector smoke ar: blocked retry revalidates, correction queues, cancellation and filters persist (2.1s)
+  ✓  308 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual en billing fits the viewport (519ms)
+  ✓  307 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:353:3 › CRM en: intake replay, invalid event, filters and keyboard pipeline work (1.2s)
+  ✓  310 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual en analytics fits the viewport (573ms)
+  ✓  312 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual en admin fits the viewport (485ms)
+  ✓  313 [chromium] › tests/e2e/stability.spec.ts:38:2 › navigation en follows links and preserves most-specific selection (483ms)
+  ✓  306 [mobile-chromium] › tests/e2e/campaigns.spec.ts:638:3 › campaign ar: policy blockers, ordered approval, simulation, attributed lead replay and analytics (2.8s)
+  ✓  309 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:92:2 › connector ar: property revision invalidates workbench and retry approval across tabs (3.4s)
+  ✓  315 [mobile-chromium] › tests/e2e/campaigns.spec.ts:685:3 › campaign ar: approval invalidation, cancel/resume/duplicate and property integrity (1.3s)
+  ✓  311 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:395:3 › CRM en: stage, conversation, handover, viewing cancellation and analytics persist (3.2s)
+  ✓  317 [mobile-chromium] › tests/e2e/campaigns.spec.ts:718:3 › campaign ar: invalid IDs, corrupt records, old-envelope migration and missing prerequisites (1.3s)
+  ✓  318 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:353:3 › CRM ar: intake replay, invalid event, filters and keyboard pipeline work (926ms)
+  ✓  316 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:97:2 › connector ar: responsive sections and keyboard controls at required widths (1.7s)
+  ✓  314 [chromium] › tests/e2e/stability.spec.ts:51:2 › workflow en canonical edits, blocked and queued local dispatch (3.8s)
+  ✓  319 [mobile-chromium] › tests/e2e/campaigns.spec.ts:756:3 › campaign ar: provider catalogue, Google plan and consent-aware event preview (807ms)
+  -  323 [mobile-chromium] › tests/e2e/campaigns.spec.ts:800:5 › campaign evidence ar 1440: screenshots and responsive workflow
+  -  324 [mobile-chromium] › tests/e2e/campaigns.spec.ts:800:5 › campaign evidence ar 1024: screenshots and responsive workflow
+  ✓  321 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:105:1 › corrupt connector state recovers valid properties and excludes malformed job attempts (1.4s)
+  -  325 [mobile-chromium] › tests/e2e/campaigns.spec.ts:800:5 › campaign evidence ar 768: screenshots and responsive workflow
+  -  327 [mobile-chromium] › tests/e2e/campaigns.spec.ts:800:5 › campaign evidence ar 375: screenshots and responsive workflow
+  ✓  322 [chromium] › tests/e2e/stability.spec.ts:90:2 › links en key workflow targets are valid (2.2s)
+  ✓  320 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:395:3 › CRM ar: stage, conversation, handover, viewing cancellation and analytics persist (3.1s)
+  ✓  330 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:467:1 › CRM browser: routing cursor persists, unavailable agents are excluded, manual intake enters backlog (1.0s)
+  ✓  326 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:110:33 › connector en: correcting canonical data lets a blocked job retry at the current revision (3.7s)
+  ✓  331 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:489:1 › CRM browser: a newly created canonical property can receive a simulated lead (1.2s)
+  ✓  329 [chromium] › tests/e2e/stability.spec.ts:105:2 › responsive en tablet and narrow desktop (2.6s)
+  ✓  328 [mobile-chromium] › tests/e2e/campaigns.spec.ts:874:3 › campaign accessibility ar: axe across editor stages, approvals, portfolio, catalogue and analytics (4.2s)
+  ✓  334 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/ responds and renders (574ms)
+  ✓  336 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/about responds and renders (315ms)
+  ✓  333 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:520:1 › CRM browser: corrupt saved CRM excludes invalid leads but preserves properties and jobs; unknown ID is explicit (1.1s)
+  ✓  337 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/agencies responds and renders (387ms)
+  ✓  338 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:549:1 › CRM browser: fictional spend and date/property filters have explicit provenance (547ms)
+  -  340 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:576:5 › CRM visual en 1440: eight connected operational workspaces
+  ✓  339 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/compare responds and renders (488ms)
+  -  341 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:576:5 › CRM visual en 1024: eight connected operational workspaces
+  ✓  342 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/contact responds and renders (241ms)
+  -  343 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:576:5 › CRM visual en 768: eight connected operational workspaces
+  -  345 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:576:5 › CRM visual en 375: eight connected operational workspaces
+  ✓  344 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/faq responds and renders (299ms)
+  -  346 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:576:5 › CRM visual ar 1440: eight connected operational workspaces
+  -  348 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:576:5 › CRM visual ar 1024: eight connected operational workspaces
+  ✓  347 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/favorites responds and renders (542ms)
+  -  349 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:576:5 › CRM visual ar 768: eight connected operational workspaces
+  ✓  332 [mobile-chromium] › tests/e2e/connector-hub.spec.ts:110:33 › connector ar: correcting canonical data lets a blocked job retry at the current revision (3.5s)
+  -  351 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:576:5 › CRM visual ar 375: eight connected operational workspaces
+  ✓  352 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:20:1 › organization domain: six personas, denied commands, foreign directory and stale revisions (238ms)
+  ✓  350 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/map responds and renders (471ms)
+  ✓  353 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:632:1 › CRM domain: rejected receipts preserve safe event IDs and inconsistent restored references are excluded (192ms)
+  ✓  354 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:27:1 › organization domain: seat reservation, last owner, membership routing and CRM persistence (218ms)
+  ✓  355 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/pricing responds and renders (416ms)
+  ✓  357 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:35:1 › organization domain: configurable terms drive connector and AI consumption guards (230ms)
+  ✓  359 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:40:1 › organization commands: property, publishing, lead assignment, campaign and billing guards agree (250ms)
+  ✓  358 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/privacy responds and renders (389ms)
+  ✓  360 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:46:1 › organization commands: moderation receipt, property change, campaign approval and stale dispatch (200ms)
+  ✓  362 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:52:1 › organization storage: additive migration, corruption projection and stale approval recovery (198ms)
+  ✓  361 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/properties responds and renders (478ms)
+  ✓  364 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/register responds and renders (380ms)
+  ✓  356 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:654:1 › CRM browser: advanced filters, qualification, reply preference and empty states use the same lead (1.9s)
+  ✓  365 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/resources responds and renders (376ms)
+  ✓  335 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:35:2 › lifecycle en create, resume, review, media and per-destination history (5.5s)
+  ✓  367 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/saved-searches responds and renders (497ms)
+  ✓  369 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/sign-in responds and renders (326ms)
+  ✓  370 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/solutions responds and renders (582ms)
+  ✓  363 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:59:2 › organization en: onboarding, directory, profile and shared persistence (2.4s)
+  ✓  371 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/terms responds and renders (439ms)
+  ✓  373 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace responds and renders (536ms)
+  ✓  366 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:698:3 › CRM accessibility en: WCAG A/AA axe checks on touched main content (2.6s)
+  ✓  372 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:65:2 › organization en: roles, team updates, subscriptions and guarded controls (1.2s)
+  ✓  368 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:116:2 › lifecycle en invalid IDs never fall back to a sample (2.3s)
+  ✓  374 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/agencies/pearl-gate-realty responds and renders (444ms)
+  ✓  378 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/properties/AQ-10231 responds and renders (653ms)
+  ✓  379 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin responds and renders (317ms)
+  ✓  380 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/analytics responds and renders (366ms)
+  ✓  375 [mobile-chromium] › tests/e2e/lead-crm.spec.ts:698:3 › CRM accessibility ar: WCAG A/AA axe checks on touched main content (2.1s)
+  ✓  381 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/billing responds and renders (353ms)
+  ✓  383 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/campaigns responds and renders (355ms)
+  ✓  382 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en renders a page heading (485ms)
+  ✓  384 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/hub responds and renders (339ms)
+  ✓  376 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:69:2 › organization en: canonical moderation and approval invalidation (2.8s)
+  ✓  385 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/properties renders a page heading (484ms)
+  ✓  386 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/inbox responds and renders (459ms)
+  ✓  389 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/inventory responds and renders (419ms)
+  ✓  388 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/properties/AQ-10231 renders a page heading (752ms)
+  ✓  387 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:72:2 › organization en: branding, verification and damaged state recovery (941ms)
+  ✓  390 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/leads responds and renders (399ms)
+  -  392 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:76:41 › organization evidence en 1440: responsive screenshots
+  ✓  391 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/pricing renders a page heading (376ms)
+  -  394 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:76:41 › organization evidence en 1024: responsive screenshots
+  ✓  393 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/notifications responds and renders (362ms)
+  ✓  395 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/solutions renders a page heading (390ms)
+  -  396 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:76:41 › organization evidence en 768: responsive screenshots
+  ✓  397 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/organization responds and renders (322ms)
+  -  399 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:76:41 › organization evidence en 375: responsive screenshots
+  ✓  398 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/favorites renders a page heading (690ms)
+  ✓  400 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/publish responds and renders (497ms)
+  ✓  403 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/settings responds and renders (365ms)
+  ✘  401 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:79:2 › organization accessibility en: axe main content (797ms)
+  ✓  402 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/compare renders a page heading (679ms)
+  ✓  404 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/studio responds and renders (458ms)
+  ✓  377 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:35:2 › lifecycle ar create, resume, review, media and per-destination history (6.0s)
+(node:77763) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  405 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/map renders a page heading (606ms)
+  ✓  406 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/team responds and renders (624ms)
+  ✓  409 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace renders a page heading (639ms)
+  ✓  410 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/verification responds and renders (672ms)
+  ✓  411 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/publish renders a page heading (527ms)
+  ✓  412 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin/audit responds and renders (524ms)
+  ✓  413 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/inventory renders a page heading (456ms)
+  ✓  414 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin/cms responds and renders (404ms)
+  ✓  407 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:116:2 › lifecycle ar invalid IDs never fall back to a sample (2.2s)
+  ✓  416 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin/connector-health responds and renders (357ms)
+  ✓  415 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/inventory/AQ-10231 renders a page heading (591ms)
+  ✓  418 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin/integrations responds and renders (338ms)
+  ✓  419 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/inventory/AQ-10231/edit renders a page heading (433ms)
+  ✓  417 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:123:1 › arbitrary Studio input and document selection never fabricate extracted property facts (1.1s)
+  ✓  420 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin/moderation responds and renders (477ms)
+  ✓  421 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/studio renders a page heading (553ms)
+  ✓  408 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:59:2 › organization ar: onboarding, directory, profile and shared persistence (2.8s)
+  ✓  423 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin/organizations responds and renders (467ms)
+  ✓  424 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/hub renders a page heading (506ms)
+  ✓  426 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin/plans responds and renders (480ms)
+  ✓  422 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:131:1 › file metadata persists without binary or blob URLs and changes actual media checks (1.1s)
+  ✓  427 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/hub/jobs renders a page heading (527ms)
+  ✓  428 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin/reports responds and renders (480ms)
+  ✓  425 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:65:2 › organization ar: roles, team updates, subscriptions and guarded controls (1.4s)
+  ✓  430 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/hub/connectors renders a page heading (774ms)
+  ✓  431 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin/taxonomies responds and renders (760ms)
+  ✓  434 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin/users responds and renders (719ms)
+  ✓  433 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/hub/marketplace renders a page heading (827ms)
+  ✓  429 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:141:1 › fact edits invalidate review while media changes alter preflight and preserve revisions (2.4s)
+  ✓  436 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/hub/connectors/property-finder renders a page heading (558ms)
+  ✓  435 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/ads/attribution responds and renders (603ms)
+  ✓  438 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/hub/feeds renders a page heading (444ms)
+  ✓  439 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/ads/catalogue responds and renders (453ms)
+  ✓  440 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/hub/mappings renders a page heading (414ms)
+  ✓  441 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/ads/placements responds and renders (398ms)
+  ✓  443 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/billing/dunning responds and renders (389ms)
+  ✓  437 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:151:2 › starter enforces 3 listing reservations and preserves drafts over quota (1.4s)
+  ✓  442 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/leads renders a page heading (447ms)
+  ✓  446 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/leads/assignment renders a page heading (390ms)
+  ✓  444 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/billing/invoices responds and renders (419ms)
+  ✓  432 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:69:2 › organization ar: canonical moderation and approval invalidation (3.7s)
+  ✓  448 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/campaigns/AQ-10231 responds and renders (400ms)
+  ✓  447 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/leads/viewings renders a page heading (475ms)
+  ✓  450 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/campaigns/new responds and renders (403ms)
+  ✓  451 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/leads/LE-2101 renders a page heading (540ms)
+  ✓  445 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:151:2 › pro enforces 25 listing reservations and preserves drafts over quota (1.6s)
+  ✓  449 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:72:2 › organization ar: branding, verification and damaged state recovery (1.0s)
+  ✓  452 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/hub/connectors responds and renders (508ms)
+  ✓  453 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/inbox renders a page heading (482ms)
+  -  455 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:76:41 › organization evidence ar 1440: responsive screenshots
+  -  458 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:76:41 › organization evidence ar 1024: responsive screenshots
+  ✓  456 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/hub/feeds responds and renders (508ms)
+  ✓  457 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/campaigns renders a page heading (576ms)
+  -  459 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:76:41 › organization evidence ar 768: responsive screenshots
+  ✓  460 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/hub/jobs responds and renders (449ms)
+  -  462 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:76:41 › organization evidence ar 375: responsive screenshots
+  ✓  461 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/campaigns/new renders a page heading (467ms)
+  ✓  454 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:165:1 › Pro portal quota and Starter Meta entitlement are separate from draft saving (1.4s)
+  ✓  463 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/hub/mappings responds and renders (431ms)
+  ✓  465 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/integrations/ga4 renders a page heading (460ms)
+  ✓  467 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/hub/marketplace responds and renders (546ms)
+  ✘  464 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:79:2 › organization accessibility ar: axe main content (748ms)
+  ✓  466 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:170:1 › corrupt canonical records are excluded while valid drafts and legacy edits recover (889ms)
+  ✓  468 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/integrations/google-ads renders a page heading (454ms)
+  ✓  469 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/integrations/ga4 responds and renders (408ms)
+(node:78139) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  471 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/integrations/meta-catalog renders a page heading (424ms)
+  ✓  472 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/integrations/google-ads responds and renders (424ms)
+  ✓  473 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/integrations/whatsapp renders a page heading (507ms)
+  ✓  475 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/integrations/meta-catalog responds and renders (604ms)
+  ✓  474 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:86:1 › organization repository boundary: async local commands and revision conflict mapping (488ms)
+  ✓  470 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:177:1 › changing a record in another tab rejects stale editor saves and resets publishing approval (1.5s)
+  ✓  476 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/analytics renders a page heading (628ms)
+  ✓  477 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/integrations/whatsapp responds and renders (487ms)
+  ✓  480 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/team renders a page heading (543ms)
+  ✓  481 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/inventory/AQ-10231 responds and renders (636ms)
+  ✓  479 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:185:1 › Studio creates a stable route and resumes saved source and proposed copy after reload (978ms)
+  ✓  482 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/billing renders a page heading (434ms)
+  ✓  483 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/inventory/import responds and renders (497ms)
+  ✓  485 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/billing/invoices renders a page heading (817ms)
+  ✓  484 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:189:1 › valid Phase 0 edits migrate into canonical revisions without losing source identity (1.1s)
+  ✓  486 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/inventory/new responds and renders (722ms)
+  ✓  487 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/verification renders a page heading (644ms)
+  ✓  489 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/leads/LE-2101 responds and renders (946ms)
+  ✓  488 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:195:1 › Studio refuses to overwrite facts changed by another tab (1.2s)
+  ✓  490 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/settings renders a page heading (773ms)
+  ✓  491 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/leads/assignment responds and renders (525ms)
+  ✓  478 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:90:1 › organization persistence: cross-tab persona update, quota config and unavailable storage (3.9s)
+  ✓  493 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/settings/domains renders a page heading (525ms)
+  ✓  494 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/leads/viewings responds and renders (544ms)
+  ✓  492 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:199:1 › portal quota includes destinations already reserved on other properties (1.1s)
+  ✓  495 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/ responds and renders (585ms)
+  ✓  496 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/whatsapp/packs renders a page heading (579ms)
+  ✓  497 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/organization/new responds and renders (486ms)
+  ✓  498 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/about responds and renders (565ms)
+  ✓  499 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/support/assistant renders a page heading (642ms)
+  ✓  500 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/settings/domains responds and renders (536ms)
+  ✓  502 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/ads/placements renders a page heading (359ms)
+  ✓  501 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/agencies responds and renders (484ms)
+  ✓  503 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/settings/privacy responds and renders (368ms)
+  ✓  504 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/admin renders a page heading (433ms)
+  ✓  506 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/support/assistant responds and renders (373ms)
+  ✓  505 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/compare responds and renders (583ms)
+  ✓  507 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/admin/connector-health renders a page heading (365ms)
+  ✓  508 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/support/evaluations responds and renders (320ms)
+  ✓  509 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/contact responds and renders (391ms)
+  ✓  510 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/admin/moderation renders a page heading (368ms)
+  ✓  511 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/support/knowledge responds and renders (339ms)
+  ✓  512 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/faq responds and renders (367ms)
+  ✓  513 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/admin/users renders a page heading (350ms)
+  ✓  514 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/whatsapp/packs responds and renders (350ms)
+  ✓  516 [mobile-chromium] › tests/e2e/prototype.spec.ts:13:28 › /en/workspace/admin/audit renders a page heading (422ms)
+  ✓  515 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/favorites responds and renders (590ms)
+  ✓  517 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/whatsapp/sla responds and renders (399ms)
+  ✓  520 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/whatsapp/templates responds and renders (398ms)
+  ✓  519 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/map responds and renders (465ms)
+  ✓  518 [mobile-chromium] › tests/e2e/prototype.spec.ts:15:1 › inventory filtering and property navigation works locally (775ms)
+  ✓  521 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/billing/invoices/INV-2026-0419 responds and renders (382ms)
+  ✓  522 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/pricing responds and renders (340ms)
+  ✓  524 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/hub/connectors/property-finder responds and renders (379ms)
+  ✓  525 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/privacy responds and renders (402ms)
+  ✓  523 [mobile-chromium] › tests/e2e/prototype.spec.ts:23:1 › studio can walk through local demo with explicit approval (767ms)
+  ✓  526 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/inventory/AQ-10231/edit responds and renders (366ms)
+  ✓  527 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/properties responds and renders (476ms)
+  ✓  528 [mobile-chromium] › tests/e2e/prototype.spec.ts:37:1 › Arabic routes preserve RTL (368ms)
+  ✓  529 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/inventory/AQ-10231/enquiries responds and renders (473ms)
+  ✓  530 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/register responds and renders (395ms)
+  ✓  531 [mobile-chromium] › tests/e2e/prototype.spec.ts:43:1 › mobile workspace does not overflow and sidebar opens (485ms)
+  ✓  532 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/inventory/AQ-10231/media responds and renders (425ms)
+  ✓  533 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/resources responds and renders (399ms)
+  ✓  535 [chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/inventory/AQ-10231/publishing responds and renders (345ms)
+  ✓  536 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/saved-searches responds and renders (352ms)
+  ✓  538 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/sign-in responds and renders (273ms)
+  ✓  537 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar dashboard fits the viewport (355ms)
+  ✓  539 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/solutions responds and renders (277ms)
+  ✓  540 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar studio fits the viewport (352ms)
+  ✓  541 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/terms responds and renders (282ms)
+  ✓  534 [mobile-chromium] › tests/e2e/prototype.spec.ts:53:1 › Gemini master property edit is used in preflight (1.5s)
+  ✓  542 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar editor fits the viewport (407ms)
+  ✓  543 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace responds and renders (377ms)
+  ✓  546 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/agencies/pearl-gate-realty responds and renders (344ms)
+  ✓  545 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar media fits the viewport (528ms)
+  ✓  544 [mobile-chromium] › tests/e2e/prototype.spec.ts:63:1 › Gemini connector setup and publishing are browser-local only (1.0s)
+  ✓  548 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar marketplace fits the viewport (438ms)
+  ✓  547 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/properties/AQ-10231 responds and renders (670ms)
+  ✓  550 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar provider fits the viewport (450ms)
+  ✓  549 [mobile-chromium] › tests/e2e/prototype.spec.ts:82:1 › Gemini Starter plan blocks two destination selection (548ms)
+  ✓  551 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin responds and renders (363ms)
+  ✓  552 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar publishing fits the viewport (420ms)
+  ✓  554 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/analytics responds and renders (358ms)
+  ✓  553 [mobile-chromium] › tests/e2e/prototype.spec.ts:91:1 › Gemini sample data and pricing do not advertise former v2 tiers (426ms)
+  ✓  555 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar history fits the viewport (468ms)
+  ✓  556 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/billing responds and renders (491ms)
+  ✓  557 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar leads fits the viewport (402ms)
+  ✓  558 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/campaigns responds and renders (357ms)
+  ✓  559 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar routing fits the viewport (329ms)
+  ✓  560 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/hub responds and renders (317ms)
+  ✓  562 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/inbox responds and renders (301ms)
+  ✓  561 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar billing fits the viewport (350ms)
+  ✓  563 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/inventory responds and renders (293ms)
+  ✓  564 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar analytics fits the viewport (351ms)
+  ✓  565 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/leads responds and renders (293ms)
+  ✓  566 [chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar admin fits the viewport (354ms)
+  ✓  567 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/notifications responds and renders (292ms)
+  ✓  569 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/organization responds and renders (286ms)
+  ✓  568 [chromium] › tests/e2e/stability.spec.ts:38:2 › navigation ar follows links and preserves most-specific selection (479ms)
+  ✓  570 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/publish responds and renders (309ms)
+  ✓  572 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/settings responds and renders (300ms)
+  ✓  573 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/studio responds and renders (269ms)
+  ✓  574 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/team responds and renders (252ms)
+  ✓  575 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/verification responds and renders (259ms)
+  ✓  576 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin/audit responds and renders (285ms)
+  ✓  577 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin/cms responds and renders (289ms)
+  ✓  578 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin/connector-health responds and renders (246ms)
+  ✓  579 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin/integrations responds and renders (250ms)
+  ✓  580 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin/moderation responds and renders (246ms)
+  ✓  581 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin/organizations responds and renders (277ms)
+  ✓  571 [chromium] › tests/e2e/stability.spec.ts:51:2 › workflow ar canonical edits, blocked and queued local dispatch (3.2s)
+  ✓  582 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin/plans responds and renders (286ms)
+  ✓  584 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin/reports responds and renders (299ms)
+  ✓  585 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin/taxonomies responds and renders (335ms)
+  ✓  586 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/admin/users responds and renders (294ms)
+  ✓  587 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/ads/attribution responds and renders (284ms)
+  ✓  583 [chromium] › tests/e2e/stability.spec.ts:90:2 › links ar key workflow targets are valid (1.4s)
+  ✓  588 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/ads/catalogue responds and renders (282ms)
+  ✓  590 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/ads/placements responds and renders (293ms)
+  ✓  591 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/billing/dunning responds and renders (307ms)
+  ✓  592 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/billing/invoices responds and renders (307ms)
+  ✓  593 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/campaigns/AQ-10231 responds and renders (305ms)
+  ✓  589 [chromium] › tests/e2e/stability.spec.ts:105:2 › responsive ar tablet and narrow desktop (1.6s)
+  ✓  594 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/campaigns/new responds and renders (326ms)
+  ✓  596 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/hub/connectors responds and renders (294ms)
+  ✓  597 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/hub/feeds responds and renders (274ms)
+  ✓  595 [chromium] › tests/e2e/stability.spec.ts:118:1 › invalid persisted demo data recovers without crashing or accepting unknown providers (899ms)
+  ✓  598 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/hub/jobs responds and renders (310ms)
+  ✓  599 [chromium] › tests/e2e/stability.spec.ts:127:1 › unavailable browser storage still allows local demo interactions (400ms)
+  ✓  600 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/hub/mappings responds and renders (314ms)
+  ✓  602 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/hub/marketplace responds and renders (302ms)
+  ✓  601 [chromium] › tests/e2e/stability.spec.ts:136:1 › media ordering, classification and watermark remain local (432ms)
+  ✓  603 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/integrations/ga4 responds and renders (266ms)
+  ✓  605 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/integrations/google-ads responds and renders (366ms)
+  ✓  604 [chromium] › tests/e2e/stability.spec.ts:145:1 › lead routing, viewing requests and analytics controls work locally (612ms)
+  ✓  606 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/integrations/meta-catalog responds and renders (321ms)
+  ✓  607 [chromium] › tests/e2e/stability.spec.ts:167:1 › feed copy handles denied clipboard access without a runtime exception (332ms)
+  ✓  608 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/integrations/whatsapp responds and renders (307ms)
+  ✓  609 [chromium] › tests/e2e/stability.spec.ts:174:1 › language switch preserves the current workflow and search parameters (438ms)
+  ✓  610 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/inventory/AQ-10231 responds and renders (450ms)
+  ✓  611 [chromium] › tests/e2e/stability.spec.ts:183:1 › keyboard can filter the connector directory and enter provider setup (385ms)
+  ✓  612 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/inventory/import responds and renders (284ms)
+  ✓  613 [chromium] › tests/e2e/stability.spec.ts:204:2 › commercial en admin examples match Gemini and provider names remain explicit (514ms)
+  ✓  614 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/inventory/new responds and renders (370ms)
+  ✓  616 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/leads/LE-2101 responds and renders (354ms)
+  ✓  615 [chromium] › tests/e2e/stability.spec.ts:204:2 › commercial ar admin examples match Gemini and provider names remain explicit (437ms)
+  -  618 [chromium] › tests/e2e/stability.spec.ts:218:2 › mobile menu en manages keyboard focus and Escape
+  ✓  617 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/leads/assignment responds and renders (337ms)
+  -  619 [chromium] › tests/e2e/stability.spec.ts:218:2 › mobile menu ar manages keyboard focus and Escape
+  ✓  620 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/leads/viewings responds and renders (280ms)
+  ✓  621 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/organization/new responds and renders (323ms)
+  ✓  622 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/settings/domains responds and renders (270ms)
+  ✓  623 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/settings/privacy responds and renders (262ms)
+  ✓  624 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/support/assistant responds and renders (282ms)
+  ✓  625 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/support/evaluations responds and renders (265ms)
+  ✓  626 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/support/knowledge responds and renders (291ms)
+  ✓  627 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/whatsapp/packs responds and renders (266ms)
+  ✓  628 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/whatsapp/sla responds and renders (262ms)
+  ✓  629 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/whatsapp/templates responds and renders (279ms)
+  ✓  630 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/billing/invoices/INV-2026-0419 responds and renders (258ms)
+  ✓  631 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/hub/connectors/property-finder responds and renders (301ms)
+  ✓  632 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/inventory/AQ-10231/edit responds and renders (272ms)
+  ✓  633 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/inventory/AQ-10231/enquiries responds and renders (382ms)
+  ✓  634 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/inventory/AQ-10231/media responds and renders (307ms)
+  ✓  635 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route en/workspace/inventory/AQ-10231/publishing responds and renders (241ms)
+  ✓  636 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual en dashboard fits the viewport (312ms)
+  ✓  637 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual en studio fits the viewport (303ms)
+  ✓  638 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual en editor fits the viewport (326ms)
+  ✓  639 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual en media fits the viewport (385ms)
+  ✓  640 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual en marketplace fits the viewport (299ms)
+  ✓  641 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual en provider fits the viewport (330ms)
+  ✓  642 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual en publishing fits the viewport (358ms)
+  ✓  643 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual en history fits the viewport (319ms)
+  ✓  644 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual en leads fits the viewport (296ms)
+  ✓  645 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual en routing fits the viewport (317ms)
+  ✓  646 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual en billing fits the viewport (369ms)
+  ✓  647 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual en analytics fits the viewport (350ms)
+  ✓  648 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual en admin fits the viewport (310ms)
+  ✓  649 [mobile-chromium] › tests/e2e/stability.spec.ts:38:2 › navigation en follows links and preserves most-specific selection (634ms)
+  ✓  650 [mobile-chromium] › tests/e2e/stability.spec.ts:51:2 › workflow en canonical edits, blocked and queued local dispatch (3.1s)
+  ✓  651 [mobile-chromium] › tests/e2e/stability.spec.ts:90:2 › links en key workflow targets are valid (1.4s)
+  -  652 [mobile-chromium] › tests/e2e/stability.spec.ts:105:2 › responsive en tablet and narrow desktop
+  ✓  653 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/ responds and renders (404ms)
+  ✓  654 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/about responds and renders (212ms)
+  ✓  655 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/agencies responds and renders (247ms)
+  ✓  656 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/compare responds and renders (467ms)
+  ✓  657 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/contact responds and renders (250ms)
+  ✓  658 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/faq responds and renders (226ms)
+  ✓  659 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/favorites responds and renders (440ms)
+  ✓  660 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/map responds and renders (350ms)
+  ✓  661 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/pricing responds and renders (224ms)
+  ✓  662 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/privacy responds and renders (244ms)
+  ✓  663 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/properties responds and renders (342ms)
+  ✓  664 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/register responds and renders (240ms)
+  ✓  665 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/resources responds and renders (216ms)
+  ✓  666 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/saved-searches responds and renders (238ms)
+  ✓  667 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/sign-in responds and renders (234ms)
+  ✓  668 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/solutions responds and renders (254ms)
+  ✓  669 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/terms responds and renders (264ms)
+  ✓  670 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace responds and renders (306ms)
+  ✓  671 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/agencies/pearl-gate-realty responds and renders (267ms)
+  ✓  672 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/properties/AQ-10231 responds and renders (472ms)
+  ✓  673 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin responds and renders (264ms)
+  ✓  674 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/analytics responds and renders (253ms)
+  ✓  675 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/billing responds and renders (256ms)
+  ✓  676 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/campaigns responds and renders (249ms)
+  ✓  677 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/hub responds and renders (238ms)
+  ✓  678 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/inbox responds and renders (239ms)
+  ✓  679 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/inventory responds and renders (263ms)
+  ✓  680 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/leads responds and renders (329ms)
+  ✓  681 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/notifications responds and renders (237ms)
+  ✓  682 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/organization responds and renders (259ms)
+  ✓  683 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/publish responds and renders (305ms)
+  ✓  684 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/settings responds and renders (279ms)
+  ✓  685 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/studio responds and renders (279ms)
+  ✓  686 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/team responds and renders (259ms)
+  ✓  687 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/verification responds and renders (296ms)
+  ✓  688 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin/audit responds and renders (313ms)
+  ✓  689 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin/cms responds and renders (311ms)
+  ✓  690 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin/connector-health responds and renders (258ms)
+  ✓  691 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin/integrations responds and renders (275ms)
+  ✓  692 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin/moderation responds and renders (289ms)
+  ✓  693 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin/organizations responds and renders (288ms)
+  ✓  694 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin/plans responds and renders (261ms)
+  ✓  695 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin/reports responds and renders (274ms)
+  ✓  696 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin/taxonomies responds and renders (268ms)
+  ✓  697 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/admin/users responds and renders (258ms)
+  ✓  698 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/ads/attribution responds and renders (263ms)
+  ✓  699 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/ads/catalogue responds and renders (251ms)
+  ✓  700 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/ads/placements responds and renders (231ms)
+  ✓  701 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/billing/dunning responds and renders (234ms)
+  ✓  702 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/billing/invoices responds and renders (236ms)
+  ✓  703 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/campaigns/AQ-10231 responds and renders (226ms)
+  ✓  704 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/campaigns/new responds and renders (260ms)
+  ✓  705 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/hub/connectors responds and renders (229ms)
+  ✓  706 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/hub/feeds responds and renders (262ms)
+  ✓  707 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/hub/jobs responds and renders (222ms)
+  ✓  708 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/hub/mappings responds and renders (248ms)
+  ✓  709 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/hub/marketplace responds and renders (224ms)
+  ✓  710 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/integrations/ga4 responds and renders (240ms)
+  ✓  711 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/integrations/google-ads responds and renders (261ms)
+  ✓  712 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/integrations/meta-catalog responds and renders (245ms)
+  ✓  713 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/integrations/whatsapp responds and renders (275ms)
+  ✓  714 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/inventory/AQ-10231 responds and renders (385ms)
+  ✓  715 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/inventory/import responds and renders (228ms)
+  ✓  716 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/inventory/new responds and renders (253ms)
+  ✓  717 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/leads/LE-2101 responds and renders (264ms)
+  ✓  718 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/leads/assignment responds and renders (255ms)
+  ✓  719 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/leads/viewings responds and renders (245ms)
+  ✓  720 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/organization/new responds and renders (248ms)
+  ✓  721 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/settings/domains responds and renders (232ms)
+  ✓  722 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/settings/privacy responds and renders (254ms)
+  ✓  723 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/support/assistant responds and renders (242ms)
+  ✓  724 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/support/evaluations responds and renders (257ms)
+  ✓  725 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/support/knowledge responds and renders (232ms)
+  ✓  726 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/whatsapp/packs responds and renders (279ms)
+  ✓  727 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/whatsapp/sla responds and renders (230ms)
+  ✓  728 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/whatsapp/templates responds and renders (217ms)
+  ✓  729 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/billing/invoices/INV-2026-0419 responds and renders (244ms)
+  ✓  730 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/hub/connectors/property-finder responds and renders (280ms)
+  ✓  731 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/inventory/AQ-10231/edit responds and renders (237ms)
+  ✓  732 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/inventory/AQ-10231/enquiries responds and renders (392ms)
+  ✓  733 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/inventory/AQ-10231/media responds and renders (302ms)
+  ✓  734 [mobile-chromium] › tests/e2e/stability.spec.ts:19:3 › route ar/workspace/inventory/AQ-10231/publishing responds and renders (289ms)
+  ✓  735 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar dashboard fits the viewport (335ms)
+  ✓  736 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar studio fits the viewport (304ms)
+  ✓  737 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar editor fits the viewport (313ms)
+  ✓  738 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar media fits the viewport (397ms)
+  ✓  739 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar marketplace fits the viewport (321ms)
+  ✓  740 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar provider fits the viewport (328ms)
+  ✓  741 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar publishing fits the viewport (301ms)
+  ✓  742 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar history fits the viewport (277ms)
+  ✓  743 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar leads fits the viewport (279ms)
+  ✓  744 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar routing fits the viewport (296ms)
+  ✓  745 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar billing fits the viewport (296ms)
+  ✓  746 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar analytics fits the viewport (322ms)
+  ✓  747 [mobile-chromium] › tests/e2e/stability.spec.ts:28:3 › visual ar admin fits the viewport (295ms)
+  ✓  748 [mobile-chromium] › tests/e2e/stability.spec.ts:38:2 › navigation ar follows links and preserves most-specific selection (738ms)
+  ✓  749 [mobile-chromium] › tests/e2e/stability.spec.ts:51:2 › workflow ar canonical edits, blocked and queued local dispatch (3.1s)
+  ✓  750 [mobile-chromium] › tests/e2e/stability.spec.ts:90:2 › links ar key workflow targets are valid (1.2s)
+  -  751 [mobile-chromium] › tests/e2e/stability.spec.ts:105:2 › responsive ar tablet and narrow desktop
+  ✓  752 [mobile-chromium] › tests/e2e/stability.spec.ts:118:1 › invalid persisted demo data recovers without crashing or accepting unknown providers (562ms)
+  ✓  753 [mobile-chromium] › tests/e2e/stability.spec.ts:127:1 › unavailable browser storage still allows local demo interactions (354ms)
+  ✓  754 [mobile-chromium] › tests/e2e/stability.spec.ts:136:1 › media ordering, classification and watermark remain local (452ms)
+  ✓  755 [mobile-chromium] › tests/e2e/stability.spec.ts:145:1 › lead routing, viewing requests and analytics controls work locally (520ms)
+  ✓  756 [mobile-chromium] › tests/e2e/stability.spec.ts:167:1 › feed copy handles denied clipboard access without a runtime exception (309ms)
+  ✓  757 [mobile-chromium] › tests/e2e/stability.spec.ts:174:1 › language switch preserves the current workflow and search parameters (416ms)
+  ✓  758 [mobile-chromium] › tests/e2e/stability.spec.ts:183:1 › keyboard can filter the connector directory and enter provider setup (349ms)
+  ✓  759 [mobile-chromium] › tests/e2e/stability.spec.ts:204:2 › commercial en admin examples match Gemini and provider names remain explicit (362ms)
+  ✓  760 [mobile-chromium] › tests/e2e/stability.spec.ts:204:2 › commercial ar admin examples match Gemini and provider names remain explicit (343ms)
+  ✓  761 [mobile-chromium] › tests/e2e/stability.spec.ts:218:2 › mobile menu en manages keyboard focus and Escape (308ms)
+  ✓  762 [mobile-chromium] › tests/e2e/stability.spec.ts:218:2 › mobile menu ar manages keyboard focus and Escape (295ms)
+
+
+  1) [chromium] › tests/e2e/organization-admin.spec.ts:79:2 › organization accessibility en: axe main content 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  -   1
+    + Received  + 356
+
+    - Array []
+    + Array [
+    +   Object {
+    +     "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    +     "help": "Elements must meet minimum color contrast ratio thresholds",
+    +     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+    +     "id": "color-contrast",
+    +     "impact": "serious",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f6f6f2",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 3.9,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#987454",
+    +               "fontSize": "7.5pt (10px)",
+    +               "fontWeight": "bold",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 3.9 (foreground color: #987454, background color: #f6f6f2, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell\">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 3.9 (foreground color: #987454, background color: #f6f6f2, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +         "html": "<div class=\"px-overline\">ORGANIZATION / LOCAL WORKSPACE</div>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".px-overline",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f6f6f2",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.28,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#687873",
+    +               "fontSize": "9.8pt (13px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.28 (foreground color: #687873, background color: #f6f6f2, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell\">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.28 (foreground color: #687873, background color: #f6f6f2, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<p>Fictional profiles and workflows persist in this browser. Do not enter personal information or credentials.</p>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".px-intro-main > p",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f6f6f2",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 3.07,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#849083",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell\">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a href=\"/en/workspace/organization\">Organization</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".px-subnav > a[href$=\"organization\"]",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f6f6f2",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 3.07,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#849083",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell\">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a href=\"/en/workspace/team\">Team &amp; roles</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".px-subnav > a[href$=\"team\"]",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f6f6f2",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 3.07,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#849083",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell\">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a href=\"/en/workspace/billing\">Subscription</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".px-subnav > a[href$=\"billing\"]",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f6f6f2",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 3.07,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#849083",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell\">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a href=\"/en/workspace/verification\">Verification</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".px-subnav > a[href$=\"verification\"]",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f6f6f2",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 3.07,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#849083",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell\">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a href=\"/en/workspace/settings/domains\">Brand &amp; domain</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".px-subnav > a[href$=\"domains\"]",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f6f6f2",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 3.07,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#849083",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell\">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a href=\"/en/workspace/settings\">Settings</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".px-subnav > a[href$=\"settings\"]",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#ffffff",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 3.11,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#89958c",
+    +               "fontSize": "8.3pt (11px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 3.11 (foreground color: #89958c, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<section class=\"px-section \">",
+    +                 "target": Array [
+    +                   "section",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 3.11 (foreground color: #89958c, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<p>Create a directory profile and a fictional owner. No account or legal entity is created.</p>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".px-section-head > div > p",
+    +         ],
+    +       },
+    +     ],
+    +     "tags": Array [
+    +       "cat.color",
+    +       "wcag2aa",
+    +       "wcag143",
+    +       "TTv5",
+    +       "TT13.c",
+    +       "EN-301-549",
+    +       "EN-9.1.4.3",
+    +       "ACT",
+    +       "RGAAv4",
+    +       "RGAA-3.2.1",
+    +     ],
+    +   },
+    + ]
+
+      79 |  test(`organization accessibility ${locale}: axe main content`,async({page},info)=>{
+      80 |   test.setTimeout(120000);const pkg=readdirSync(resolve('../../node_modules/.pnpm')).find(n=>n.startsWith('axe-core@'))!;const path=resolve('../../node_modules/.pnpm',pkg,'node_modules/axe-core/axe.min.js');const reports=[];
+    > 81 |   for(const route of ['organization/new','organization','team','billing','settings/domains','verification','admin','admin/moderation','admin/plans','admin/audit','settings','billing/invoices','admin/taxonomies']){await page.goto(`/${locale}/workspace/${route}`);await expect(page.locator('main h1')).toBeVisible();await page.addScriptTag({path});const r=await page.evaluate('window.axe.run(document.querySelector("main"),{runOnly:{type:"tag",values:["wcag2a","wcag2aa","wcag21aa"]}})') as {violations:unknown[]};reports.push({route,violations:r.violations});expect(r.violations).toEqual([]);}
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ^
+      82 |   writeFileSync(resolve(`../../artifacts/phase5/logs/axe-${info.project.name}-${locale}.json`),JSON.stringify(reports,null,2));
+      83 |  });
+      84 | }
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/organization-admin.spec.ts:81:580
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/organization-admin-organiz-13967-ibility-en-axe-main-content-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/organization-admin-organiz-13967-ibility-en-axe-main-content-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/organization-admin-organiz-13967-ibility-en-axe-main-content-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/organization-admin-organiz-13967-ibility-en-axe-main-content-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/e2e/organization-admin.spec.ts:79:2 › organization accessibility ar: axe main content 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  -   1
+    + Received  + 134
+
+    - Array []
+    + Array [
+    +   Object {
+    +     "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    +     "help": "Elements must meet minimum color contrast ratio thresholds",
+    +     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+    +     "id": "color-contrast",
+    +     "impact": "serious",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f6f6f2",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 3.9,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#987454",
+    +               "fontSize": "7.5pt (10px)",
+    +               "fontWeight": "bold",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 3.9 (foreground color: #987454, background color: #f6f6f2, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell\">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 3.9 (foreground color: #987454, background color: #f6f6f2, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +         "html": "<div class=\"px-overline\">المؤسسة / مساحة عمل محلية</div>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".px-overline",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f6f6f2",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 3.07,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#849083",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell\">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a href=\"/ar/workspace/organization\">المؤسسة</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".px-subnav > a[href$=\"organization\"]",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f6f6f2",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 3.07,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#849083",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell\">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a href=\"/ar/workspace/settings\">الإعدادات</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".px-subnav > a[href$=\"settings\"]",
+    +         ],
+    +       },
+    +     ],
+    +     "tags": Array [
+    +       "cat.color",
+    +       "wcag2aa",
+    +       "wcag143",
+    +       "TTv5",
+    +       "TT13.c",
+    +       "EN-301-549",
+    +       "EN-9.1.4.3",
+    +       "ACT",
+    +       "RGAAv4",
+    +       "RGAA-3.2.1",
+    +     ],
+    +   },
+    + ]
+
+      79 |  test(`organization accessibility ${locale}: axe main content`,async({page},info)=>{
+      80 |   test.setTimeout(120000);const pkg=readdirSync(resolve('../../node_modules/.pnpm')).find(n=>n.startsWith('axe-core@'))!;const path=resolve('../../node_modules/.pnpm',pkg,'node_modules/axe-core/axe.min.js');const reports=[];
+    > 81 |   for(const route of ['organization/new','organization','team','billing','settings/domains','verification','admin','admin/moderation','admin/plans','admin/audit','settings','billing/invoices','admin/taxonomies']){await page.goto(`/${locale}/workspace/${route}`);await expect(page.locator('main h1')).toBeVisible();await page.addScriptTag({path});const r=await page.evaluate('window.axe.run(document.querySelector("main"),{runOnly:{type:"tag",values:["wcag2a","wcag2aa","wcag21aa"]}})') as {violations:unknown[]};reports.push({route,violations:r.violations});expect(r.violations).toEqual([]);}
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ^
+      82 |   writeFileSync(resolve(`../../artifacts/phase5/logs/axe-${info.project.name}-${locale}.json`),JSON.stringify(reports,null,2));
+      83 |  });
+      84 | }
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/organization-admin.spec.ts:81:580
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/organization-admin-organiz-fdc85-ibility-ar-axe-main-content-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/organization-admin-organiz-fdc85-ibility-ar-axe-main-content-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/organization-admin-organiz-fdc85-ibility-ar-axe-main-content-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/organization-admin-organiz-fdc85-ibility-ar-axe-main-content-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [mobile-chromium] › tests/e2e/organization-admin.spec.ts:79:2 › organization accessibility en: axe main content 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  -   1
+    + Received  + 356
+
+    - Array []
+    + Array [
+    +   Object {
+    +     "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    +     "help": "Elements must meet minimum color contrast ratio thresholds",
+    +     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+    +     "id": "color-contrast",
+    +     "impact": "serious",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f6f6f2",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 3.9,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#987454",
+    +               "fontSize": "7.5pt (10px)",
+    +               "fontWeight": "bold",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 3.9 (foreground color: #987454, background color: #f6f6f2, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell\">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 3.9 (foreground color: #987454, background color: #f6f6f2, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +         "html": "<div class=\"px-overline\">ORGANIZATION / LOCAL WORKSPACE</div>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".px-overline",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f6f6f2",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.28,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#687873",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.28 (foreground color: #687873, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell\">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.28 (foreground color: #687873, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<p>Fictional profiles and workflows persist in this browser. Do not enter personal information or credentials.</p>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".px-intro-main > p",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f6f6f2",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 3.07,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#849083",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell\">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a href=\"/en/workspace/organization\">Organization</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".px-subnav > a[href$=\"organization\"]",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f6f6f2",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 3.07,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#849083",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell\">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a href=\"/en/workspace/team\">Team &amp; roles</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".px-subnav > a[href$=\"team\"]",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f6f6f2",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 3.07,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#849083",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell\">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a href=\"/en/workspace/billing\">Subscription</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".px-subnav > a[href$=\"billing\"]",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f6f6f2",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 3.07,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#849083",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell\">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a href=\"/en/workspace/verification\">Verification</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".px-subnav > a[href$=\"verification\"]",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f6f6f2",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 3.07,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#849083",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell\">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a href=\"/en/workspace/settings/domains\">Brand &amp; domain</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".px-subnav > a[href$=\"domains\"]",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f6f6f2",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 3.07,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#849083",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell\">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a href=\"/en/workspace/settings\">Settings</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".px-subnav > a[href$=\"settings\"]",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#ffffff",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 3.11,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#89958c",
+    +               "fontSize": "8.3pt (11px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 3.11 (foreground color: #89958c, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<section class=\"px-section \">",
+    +                 "target": Array [
+    +                   "section",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 3.11 (foreground color: #89958c, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<p>Create a directory profile and a fictional owner. No account or legal entity is created.</p>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".px-section-head > div > p",
+    +         ],
+    +       },
+    +     ],
+    +     "tags": Array [
+    +       "cat.color",
+    +       "wcag2aa",
+    +       "wcag143",
+    +       "TTv5",
+    +       "TT13.c",
+    +       "EN-301-549",
+    +       "EN-9.1.4.3",
+    +       "ACT",
+    +       "RGAAv4",
+    +       "RGAA-3.2.1",
+    +     ],
+    +   },
+    + ]
+
+      79 |  test(`organization accessibility ${locale}: axe main content`,async({page},info)=>{
+      80 |   test.setTimeout(120000);const pkg=readdirSync(resolve('../../node_modules/.pnpm')).find(n=>n.startsWith('axe-core@'))!;const path=resolve('../../node_modules/.pnpm',pkg,'node_modules/axe-core/axe.min.js');const reports=[];
+    > 81 |   for(const route of ['organization/new','organization','team','billing','settings/domains','verification','admin','admin/moderation','admin/plans','admin/audit','settings','billing/invoices','admin/taxonomies']){await page.goto(`/${locale}/workspace/${route}`);await expect(page.locator('main h1')).toBeVisible();await page.addScriptTag({path});const r=await page.evaluate('window.axe.run(document.querySelector("main"),{runOnly:{type:"tag",values:["wcag2a","wcag2aa","wcag21aa"]}})') as {violations:unknown[]};reports.push({route,violations:r.violations});expect(r.violations).toEqual([]);}
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ^
+      82 |   writeFileSync(resolve(`../../artifacts/phase5/logs/axe-${info.project.name}-${locale}.json`),JSON.stringify(reports,null,2));
+      83 |  });
+      84 | }
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/organization-admin.spec.ts:81:580
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/organization-admin-organiz-13967-ibility-en-axe-main-content-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/organization-admin-organiz-13967-ibility-en-axe-main-content-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/organization-admin-organiz-13967-ibility-en-axe-main-content-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/organization-admin-organiz-13967-ibility-en-axe-main-content-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [mobile-chromium] › tests/e2e/organization-admin.spec.ts:79:2 › organization accessibility ar: axe main content 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  -   1
+    + Received  + 134
+
+    - Array []
+    + Array [
+    +   Object {
+    +     "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    +     "help": "Elements must meet minimum color contrast ratio thresholds",
+    +     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+    +     "id": "color-contrast",
+    +     "impact": "serious",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f6f6f2",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 3.9,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#987454",
+    +               "fontSize": "7.5pt (10px)",
+    +               "fontWeight": "bold",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 3.9 (foreground color: #987454, background color: #f6f6f2, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell\">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 3.9 (foreground color: #987454, background color: #f6f6f2, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +         "html": "<div class=\"px-overline\">المؤسسة / مساحة عمل محلية</div>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".px-overline",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f6f6f2",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 3.07,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#849083",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell\">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a href=\"/ar/workspace/organization\">المؤسسة</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".px-subnav > a[href$=\"organization\"]",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f6f6f2",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 3.07,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#849083",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell\">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 3.07 (foreground color: #849083, background color: #f6f6f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a href=\"/ar/workspace/settings\">الإعدادات</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".px-subnav > a[href$=\"settings\"]",
+    +         ],
+    +       },
+    +     ],
+    +     "tags": Array [
+    +       "cat.color",
+    +       "wcag2aa",
+    +       "wcag143",
+    +       "TTv5",
+    +       "TT13.c",
+    +       "EN-301-549",
+    +       "EN-9.1.4.3",
+    +       "ACT",
+    +       "RGAAv4",
+    +       "RGAA-3.2.1",
+    +     ],
+    +   },
+    + ]
+
+      79 |  test(`organization accessibility ${locale}: axe main content`,async({page},info)=>{
+      80 |   test.setTimeout(120000);const pkg=readdirSync(resolve('../../node_modules/.pnpm')).find(n=>n.startsWith('axe-core@'))!;const path=resolve('../../node_modules/.pnpm',pkg,'node_modules/axe-core/axe.min.js');const reports=[];
+    > 81 |   for(const route of ['organization/new','organization','team','billing','settings/domains','verification','admin','admin/moderation','admin/plans','admin/audit','settings','billing/invoices','admin/taxonomies']){await page.goto(`/${locale}/workspace/${route}`);await expect(page.locator('main h1')).toBeVisible();await page.addScriptTag({path});const r=await page.evaluate('window.axe.run(document.querySelector("main"),{runOnly:{type:"tag",values:["wcag2a","wcag2aa","wcag21aa"]}})') as {violations:unknown[]};reports.push({route,violations:r.violations});expect(r.violations).toEqual([]);}
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ^
+      82 |   writeFileSync(resolve(`../../artifacts/phase5/logs/axe-${info.project.name}-${locale}.json`),JSON.stringify(reports,null,2));
+      83 |  });
+      84 | }
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/organization-admin.spec.ts:81:580
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/organization-admin-organiz-fdc85-ibility-ar-axe-main-content-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/organization-admin-organiz-fdc85-ibility-ar-axe-main-content-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/organization-admin-organiz-fdc85-ibility-ar-axe-main-content-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/organization-admin-organiz-fdc85-ibility-ar-axe-main-content-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4 failed
+    [chromium] › tests/e2e/organization-admin.spec.ts:79:2 › organization accessibility en: axe main content 
+    [chromium] › tests/e2e/organization-admin.spec.ts:79:2 › organization accessibility ar: axe main content 
+    [mobile-chromium] › tests/e2e/organization-admin.spec.ts:79:2 › organization accessibility en: axe main content 
+    [mobile-chromium] › tests/e2e/organization-admin.spec.ts:79:2 › organization accessibility ar: axe main content 
+  28 skipped
+  730 passed (3.5m)
+ ELIFECYCLE  Command failed with exit code 1.

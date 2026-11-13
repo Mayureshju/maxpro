@@ -1,0 +1,25 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test organization-admin.spec.ts --grep 'accessibility|keyboard'
+
+[WebServer] (node:83429) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:83454) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 8 tests using 2 workers
+
+(node:83472) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:83471) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 [chromium] › tests/e2e/organization-admin.spec.ts:79:2 › organization accessibility en: axe main content (4.0s)
+  ✓  2 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:79:2 › organization accessibility en: axe main content (4.0s)
+  ✓  3 [chromium] › tests/e2e/organization-admin.spec.ts:79:2 › organization accessibility ar: axe main content (3.2s)
+  ✓  4 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:79:2 › organization accessibility ar: axe main content (3.2s)
+  ✓  5 [chromium] › tests/e2e/organization-admin.spec.ts:103:33 › organization keyboard en: permission matrix scrolls at mobile width (381ms)
+  ✓  6 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:103:33 › organization keyboard en: permission matrix scrolls at mobile width (403ms)
+  ✓  7 [chromium] › tests/e2e/organization-admin.spec.ts:103:33 › organization keyboard ar: permission matrix scrolls at mobile width (285ms)
+  ✓  8 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:103:33 › organization keyboard ar: permission matrix scrolls at mobile width (410ms)
+
+  8 passed (10.0s)

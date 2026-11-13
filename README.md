@@ -55,3 +55,7 @@ The older v2 public property discovery, sample campaigns, AI Studio, WhatsApp in
 - `docs/15-codex-kickoff.md` — direct Codex continuation task.
 
 **Repository policy:** `AGENTS.md` is canonical across Codex / Claude Code / Cursor. This package is not deployed and no Git remote was modified.
+
+## Phase 5 backend direction
+
+Next.js remains the frontend. A future custom Frappe application owns database, authentication/role permissions, Python business methods and background jobs. Earlier NestJS proposals are superseded. This repository remains a browser-local prototype: no Frappe/backend/live integrations are implemented. See [Frappe blueprint](docs/22-frappe-backend-blueprint.md) and [Phase 5 report](docs/21-phase5-organization-admin.md).

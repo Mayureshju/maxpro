@@ -1,0 +1,29 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test organization-admin.spec.ts --grep 'domain|commands|storage'
+
+[WebServer] (node:66372) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:66387) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 12 tests using 2 workers
+
+(node:66409) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:66408) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/e2e/organization-admin.spec.ts:20:1 › organization domain: six personas, denied commands, foreign directory and stale revisions (466ms)
+  ✓   2 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:20:1 › organization domain: six personas, denied commands, foreign directory and stale revisions (469ms)
+  ✓   3 [chromium] › tests/e2e/organization-admin.spec.ts:27:1 › organization domain: seat reservation, last owner, membership routing and CRM persistence (160ms)
+  ✓   4 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:27:1 › organization domain: seat reservation, last owner, membership routing and CRM persistence (181ms)
+  ✓   5 [chromium] › tests/e2e/organization-admin.spec.ts:35:1 › organization domain: configurable terms drive connector and AI consumption guards (131ms)
+  ✓   6 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:35:1 › organization domain: configurable terms drive connector and AI consumption guards (219ms)
+  ✓   7 [chromium] › tests/e2e/organization-admin.spec.ts:40:1 › organization commands: property, publishing, lead assignment, campaign and billing guards agree (189ms)
+  ✓   8 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:40:1 › organization commands: property, publishing, lead assignment, campaign and billing guards agree (174ms)
+  ✓   9 [chromium] › tests/e2e/organization-admin.spec.ts:46:1 › organization commands: moderation receipt, property change, campaign approval and stale dispatch (134ms)
+  ✓  10 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:46:1 › organization commands: moderation receipt, property change, campaign approval and stale dispatch (169ms)
+  ✓  11 [chromium] › tests/e2e/organization-admin.spec.ts:52:1 › organization storage: additive migration, corruption projection and stale approval recovery (142ms)
+  ✓  12 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:52:1 › organization storage: additive migration, corruption projection and stale approval recovery (208ms)
+
+  12 passed (4.1s)

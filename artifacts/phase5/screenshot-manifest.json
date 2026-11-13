@@ -1,0 +1,626 @@
+[
+  {
+    "path": "screenshots/ar-1024-audit.png",
+    "width": 1024,
+    "height": 1000,
+    "sha256": "acf3dd71d665bbce5ba64e2537c84ea0824743a81917564497f09ec52c3e6b49"
+  },
+  {
+    "path": "screenshots/ar-1024-billing.png",
+    "width": 1024,
+    "height": 1400,
+    "sha256": "348e532e92e22a7d12c94b5d05a83559a48fe19853a6553f2de4e7a48a0a1d50"
+  },
+  {
+    "path": "screenshots/ar-1024-brand.png",
+    "width": 1024,
+    "height": 1414,
+    "sha256": "46e51c6fd72bc44bb631ce7cad744b2c72be071e0a27a5b425d7e0ef27e6d7d0"
+  },
+  {
+    "path": "screenshots/ar-1024-directory.png",
+    "width": 1024,
+    "height": 1613,
+    "sha256": "e2db8a22c3e5fcd7619c058ac95967e7812d2bc677fed260a1c6e0af0fddc4be"
+  },
+  {
+    "path": "screenshots/ar-1024-invoices.png",
+    "width": 1024,
+    "height": 1000,
+    "sha256": "8c5416b1b23cd4730088318255bba94daa1167f7e5bd370a61d62e86d1404490"
+  },
+  {
+    "path": "screenshots/ar-1024-moderation.png",
+    "width": 1024,
+    "height": 2178,
+    "sha256": "143afb6cc24a5d95ff2e297e3582ddefeb58f848d8c196bdfc6750dbe429783c"
+  },
+  {
+    "path": "screenshots/ar-1024-onboarding.png",
+    "width": 1024,
+    "height": 1000,
+    "sha256": "fb9bc0c181b2421f366bc9eea2406441b5fd280de03ac02e76a5ca33b37182c6"
+  },
+  {
+    "path": "screenshots/ar-1024-plans.png",
+    "width": 1024,
+    "height": 1367,
+    "sha256": "237c112ee1a1d6bff9fb73bac1cb00d9df840dde7ca92a6db8d78c8de34f0a5c"
+  },
+  {
+    "path": "screenshots/ar-1024-preferences.png",
+    "width": 1024,
+    "height": 1000,
+    "sha256": "354e1281c7a2b2645bd3924649496cf09478f1615365a03a552413e94503afd0"
+  },
+  {
+    "path": "screenshots/ar-1024-profile.png",
+    "width": 1024,
+    "height": 1066,
+    "sha256": "954876c49f6a2f7aedb6509c0aafdb3439e00b3d08b7991f4d9414b54101943a"
+  },
+  {
+    "path": "screenshots/ar-1024-settings.png",
+    "width": 1024,
+    "height": 1000,
+    "sha256": "989bbf879a2aeb377db3030a2d5ac70b815e1d7e93bba8591e2a8f4757a259fb"
+  },
+  {
+    "path": "screenshots/ar-1024-team.png",
+    "width": 1024,
+    "height": 2260,
+    "sha256": "23efbbb6c749262d7c2774aef4944ca21487ff1915e34c36b441019e643513ce"
+  },
+  {
+    "path": "screenshots/ar-1024-verification.png",
+    "width": 1024,
+    "height": 1005,
+    "sha256": "634595c5ceb86e30c8809b2c037fc0c8681a529e74679139cdb4ddda77483cd7"
+  },
+  {
+    "path": "screenshots/ar-1440-audit.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "685d830f4b0126e9104777d567d71b04f947f5dc10cd50d88d867452fa052789"
+  },
+  {
+    "path": "screenshots/ar-1440-billing.png",
+    "width": 1440,
+    "height": 1411,
+    "sha256": "f4cb7e5d649ab81cbd6cb430f0005bf26ba606152d579529aa20d70839ed347b"
+  },
+  {
+    "path": "screenshots/ar-1440-brand.png",
+    "width": 1440,
+    "height": 1206,
+    "sha256": "566f2ca2468f2bf04826a44b320bba0e3e5a665ed7c9f8fec414eccad5a76c49"
+  },
+  {
+    "path": "screenshots/ar-1440-directory.png",
+    "width": 1440,
+    "height": 1547,
+    "sha256": "bdbb790fb6666ea99bca8a7600be58d82433b807ba9ebc1a24df65b985b80887"
+  },
+  {
+    "path": "screenshots/ar-1440-invoices.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "c10122621cec676638bbea92ac7d029cbde9c3c835c3ca9e93240a9af0e1f2c6"
+  },
+  {
+    "path": "screenshots/ar-1440-moderation.png",
+    "width": 1440,
+    "height": 1389,
+    "sha256": "41892afb50baeaab14edb4b3f9c919bf7bafbc55bc8fe54fd1be662cd717936d"
+  },
+  {
+    "path": "screenshots/ar-1440-onboarding.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "df877664b2e255bb5ebadf47182a0c186218f216885e4793f03c1878d84fa29d"
+  },
+  {
+    "path": "screenshots/ar-1440-plans.png",
+    "width": 1440,
+    "height": 1301,
+    "sha256": "9acac1426486bdf98e3774860bf56be75e8844f6ff523c8cd8a1d9b032157749"
+  },
+  {
+    "path": "screenshots/ar-1440-preferences.png",
+    "width": 1440,
+    "height": 1001,
+    "sha256": "e1934af26d088cb574c583b5ae01cd4bbac44f6770e2c7b5cbb6878909770f08"
+  },
+  {
+    "path": "screenshots/ar-1440-profile.png",
+    "width": 1440,
+    "height": 1078,
+    "sha256": "8d34cd64c3b79fc58141f08591566cb66713771228cc06317809764854431c01"
+  },
+  {
+    "path": "screenshots/ar-1440-settings.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "13ec4eca7b5884de43c468834672526c7199bc4f7eed83c61bb9ccd34114aae8"
+  },
+  {
+    "path": "screenshots/ar-1440-team.png",
+    "width": 1440,
+    "height": 2271,
+    "sha256": "5665c783a994ab770100c6b2598bb0a0c4fc65ecb1667d2196ecc8370a9a267b"
+  },
+  {
+    "path": "screenshots/ar-1440-verification.png",
+    "width": 1440,
+    "height": 1017,
+    "sha256": "377d42fb14a1cc8f932392801417c892d5ab76516866d0a19552a16279628d98"
+  },
+  {
+    "path": "screenshots/ar-375-audit.png",
+    "width": 375,
+    "height": 1207,
+    "sha256": "0edc72f66e6f6dc64ea601c03e5440618be73863d44fad4c5c8fdbc439c53dab"
+  },
+  {
+    "path": "screenshots/ar-375-billing.png",
+    "width": 375,
+    "height": 1946,
+    "sha256": "972c8a359cc87c4b64cc43997a7fa40a570b80c77f89c32b3a7a98fb26208eba"
+  },
+  {
+    "path": "screenshots/ar-375-brand.png",
+    "width": 375,
+    "height": 1565,
+    "sha256": "6c86c0991921ca607f17be1cfde306cb7afc9b78318e24d935452321143dd52d"
+  },
+  {
+    "path": "screenshots/ar-375-directory.png",
+    "width": 375,
+    "height": 2163,
+    "sha256": "f91990ecc033541217973ec4a0136cc6471d13188ed9cab36d2ad14d821035fd"
+  },
+  {
+    "path": "screenshots/ar-375-invoices.png",
+    "width": 375,
+    "height": 1000,
+    "sha256": "ed04245b47108053dd96c18d854f85ec68d8f43dd8f657170d37f2600e6370d5"
+  },
+  {
+    "path": "screenshots/ar-375-moderation.png",
+    "width": 375,
+    "height": 2505,
+    "sha256": "2ba7aff3b8a809d2ceb1470c506a7081aaed2ed08c972ba6c51bfeb036a084d3"
+  },
+  {
+    "path": "screenshots/ar-375-onboarding.png",
+    "width": 375,
+    "height": 1315,
+    "sha256": "8371cf8f76c299445f33cdbad2e3191214edfb54fdaa3aca67fd1831ccc678da"
+  },
+  {
+    "path": "screenshots/ar-375-plans.png",
+    "width": 375,
+    "height": 1729,
+    "sha256": "cf7a7833c258b3e1d1d1438cc953c7d8361abf93a13399944874e900c07ebc50"
+  },
+  {
+    "path": "screenshots/ar-375-preferences.png",
+    "width": 375,
+    "height": 1171,
+    "sha256": "e2077dc0768127480d469141a4a05f5bf47e8a17d01b72ee0cd37041b4ee6a4f"
+  },
+  {
+    "path": "screenshots/ar-375-profile.png",
+    "width": 375,
+    "height": 1477,
+    "sha256": "deea6727661049f5c7dc6129873dfde8194f04f19e4e9b756c869a51c8a99936"
+  },
+  {
+    "path": "screenshots/ar-375-settings.png",
+    "width": 375,
+    "height": 1000,
+    "sha256": "5a4df4bf6b4d97860104817ab9bbb9d3f9f15cc8109ecaa54cd59e8d20b38748"
+  },
+  {
+    "path": "screenshots/ar-375-team.png",
+    "width": 375,
+    "height": 2522,
+    "sha256": "87c689b6eb2e1eb28561e4cd8fbed9051239c0bebfa27b0d10d38ec3397aa286"
+  },
+  {
+    "path": "screenshots/ar-375-verification.png",
+    "width": 375,
+    "height": 1425,
+    "sha256": "4673ff8fe6d30652ffc9b3485c5749f8372638191db49998a10597fc3967412d"
+  },
+  {
+    "path": "screenshots/ar-768-audit.png",
+    "width": 768,
+    "height": 1000,
+    "sha256": "4a66dffdf616e6b39999738959b47525e955860ee4e4338e1361a25565ee3fdf"
+  },
+  {
+    "path": "screenshots/ar-768-billing.png",
+    "width": 768,
+    "height": 1380,
+    "sha256": "fd71f10e673fb9084297e74452075304639608991e4aa5f39ef346ed98626077"
+  },
+  {
+    "path": "screenshots/ar-768-brand.png",
+    "width": 768,
+    "height": 1394,
+    "sha256": "e59f4bd74d3855a3265cd78fd873a4b446f3456dc552cdfa58e3dfefbe6d3891"
+  },
+  {
+    "path": "screenshots/ar-768-directory.png",
+    "width": 768,
+    "height": 1593,
+    "sha256": "97f02238493c83772f7a1d664a3c40aa91e0fbfebbd6ff8eb406d9f2dd888cb2"
+  },
+  {
+    "path": "screenshots/ar-768-invoices.png",
+    "width": 768,
+    "height": 1000,
+    "sha256": "76a5aaa40657ddc3cedf31fb7c1de7ced6244937d357939e3fca6a0840b48057"
+  },
+  {
+    "path": "screenshots/ar-768-moderation.png",
+    "width": 768,
+    "height": 2158,
+    "sha256": "b12791a0a6e72414405103bb9df1c7ffc454d7561bf822cfd960e1673cfbcb03"
+  },
+  {
+    "path": "screenshots/ar-768-onboarding.png",
+    "width": 768,
+    "height": 1000,
+    "sha256": "d4f9995fd5980d925a8b07b46c31aabb70a8bf7e4d8d0068a7b02222b994c0e8"
+  },
+  {
+    "path": "screenshots/ar-768-plans.png",
+    "width": 768,
+    "height": 1347,
+    "sha256": "5aa3e9a1729b5bb749b368d32ccce6564b0743d1b4758b4591ab98b228a6a086"
+  },
+  {
+    "path": "screenshots/ar-768-preferences.png",
+    "width": 768,
+    "height": 1000,
+    "sha256": "a980346236879f832b730f1692df6f9f3ba6ac5d753091f788734ae36ace4e33"
+  },
+  {
+    "path": "screenshots/ar-768-profile.png",
+    "width": 768,
+    "height": 1046,
+    "sha256": "af2f7349ff63b7502878482313695570173adc4362e166d366cb30a10283eb38"
+  },
+  {
+    "path": "screenshots/ar-768-settings.png",
+    "width": 768,
+    "height": 1000,
+    "sha256": "da7acadd3d060977da98390f23336f0a09f2a85e02994841626abb96f4f96775"
+  },
+  {
+    "path": "screenshots/ar-768-team.png",
+    "width": 768,
+    "height": 2240,
+    "sha256": "cb9cd9be8da5e28ef18a619e55506172a2b35226c5555f2c6a3bbbd782d08b9c"
+  },
+  {
+    "path": "screenshots/ar-768-verification.png",
+    "width": 768,
+    "height": 1000,
+    "sha256": "0b98819b9bc9d01589c5867d13a2f0c765b4c40eb306bbd2ace6a5c760d6933c"
+  },
+  {
+    "path": "screenshots/en-1024-audit.png",
+    "width": 1024,
+    "height": 1032,
+    "sha256": "97ec1912c7f09fda4f982f5bfad82e5bd9b811de8ab1ee56b79983bc9f1dd8eb"
+  },
+  {
+    "path": "screenshots/en-1024-billing.png",
+    "width": 1024,
+    "height": 1415,
+    "sha256": "dc7ff26f7ec757d57dec6d1b2001207781d42e3520bc02215dbdbfc805843f45"
+  },
+  {
+    "path": "screenshots/en-1024-brand.png",
+    "width": 1024,
+    "height": 1447,
+    "sha256": "ffce7c16b111e2ee5f892d9a3d63ce38d79d37db36816c32d93d1e503aaa8483"
+  },
+  {
+    "path": "screenshots/en-1024-directory.png",
+    "width": 1024,
+    "height": 1650,
+    "sha256": "76ccb9a70d9edd789daa29f97ac3dfe4d87c7e072537ca8d06b2932fb52b40ec"
+  },
+  {
+    "path": "screenshots/en-1024-invoices.png",
+    "width": 1024,
+    "height": 1000,
+    "sha256": "9e73cb65484dd1270a4be7bd5f3085f865b6924b8e2e99653329f94cca64b729"
+  },
+  {
+    "path": "screenshots/en-1024-moderation.png",
+    "width": 1024,
+    "height": 2215,
+    "sha256": "8147f6464735f6a7543f3da03457133a92b0b965c730e2455642c107ec4fd291"
+  },
+  {
+    "path": "screenshots/en-1024-onboarding.png",
+    "width": 1024,
+    "height": 1010,
+    "sha256": "87f314c2bef204580f04dfe21d38f6ec59ff498fbe236adf57010b34db499c0e"
+  },
+  {
+    "path": "screenshots/en-1024-plans.png",
+    "width": 1024,
+    "height": 1405,
+    "sha256": "d4291aba8e9e5dcd0eaa53309b5fa3533860155d506f483e42f014a64fb1ae3f"
+  },
+  {
+    "path": "screenshots/en-1024-preferences.png",
+    "width": 1024,
+    "height": 1022,
+    "sha256": "9c4d7db7300612a578db1d444c830664fa90a4386e30bb77a1e805efaec37568"
+  },
+  {
+    "path": "screenshots/en-1024-profile.png",
+    "width": 1024,
+    "height": 1099,
+    "sha256": "3416f2b4260d93a054216a9ad69345c9db96e036d39bde41ab77283db5026ec4"
+  },
+  {
+    "path": "screenshots/en-1024-settings.png",
+    "width": 1024,
+    "height": 1000,
+    "sha256": "82f2bbd1c501d1adc4923bfdedbc247df970e11458408489471005e7000a0198"
+  },
+  {
+    "path": "screenshots/en-1024-team.png",
+    "width": 1024,
+    "height": 2275,
+    "sha256": "8487eae4ac38e5b2d805267d7c9c3b974e31d0ef0804c375c8716f30a92e827b"
+  },
+  {
+    "path": "screenshots/en-1024-verification.png",
+    "width": 1024,
+    "height": 1038,
+    "sha256": "b9bba9e79028c4f797a8572abc1d17709acfc3232341f6fdf501c0b0bed30297"
+  },
+  {
+    "path": "screenshots/en-1440-audit.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "52285a598ab354dc3b08071d179a193be80e3be41d15c7b9c75e12b477795eba"
+  },
+  {
+    "path": "screenshots/en-1440-billing.png",
+    "width": 1440,
+    "height": 1411,
+    "sha256": "8133e3246d2fdc13c3f940b2f1cca1132cc61703aec8426b7162bb8cfb31b2c6"
+  },
+  {
+    "path": "screenshots/en-1440-brand.png",
+    "width": 1440,
+    "height": 1206,
+    "sha256": "1f57399fbc850b24ea237346a9cf2e5200c637a588756dd4e04446176bc2b014"
+  },
+  {
+    "path": "screenshots/en-1440-directory.png",
+    "width": 1440,
+    "height": 1547,
+    "sha256": "e34bf0837948a8908d2e8e2c7d972476820df28179897138b6e686760a668c29"
+  },
+  {
+    "path": "screenshots/en-1440-invoices.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "73db704696a165fb2850b41f02bbb67018d117131cab1316b6447215984430f5"
+  },
+  {
+    "path": "screenshots/en-1440-moderation.png",
+    "width": 1440,
+    "height": 1432,
+    "sha256": "cdb164c1ac1d87ea89754b22d36e1108c552be3214549b053066e4c15d7bc891"
+  },
+  {
+    "path": "screenshots/en-1440-onboarding.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "a873127d7fb10a02bf8d85b9e8a9c1225b6476ca1ef996c8781336141bec8691"
+  },
+  {
+    "path": "screenshots/en-1440-plans.png",
+    "width": 1440,
+    "height": 1323,
+    "sha256": "056951d2b2cac483e8b8fd999166c7fb11e295069c07e37d52c707d121039647"
+  },
+  {
+    "path": "screenshots/en-1440-preferences.png",
+    "width": 1440,
+    "height": 1001,
+    "sha256": "f1a5923d84c92386f452ee0d9e1c63241390d3604f5d61916c8e64d2de53d434"
+  },
+  {
+    "path": "screenshots/en-1440-profile.png",
+    "width": 1440,
+    "height": 1078,
+    "sha256": "75c012909083e1e8d9e69a02c664ab08718549e9c40234895f883d58c079b35e"
+  },
+  {
+    "path": "screenshots/en-1440-settings.png",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "46bd692d53c7fe3279ecf21835553114253b0db42f5fd9216b36e29ebcb0db2b"
+  },
+  {
+    "path": "screenshots/en-1440-team.png",
+    "width": 1440,
+    "height": 2271,
+    "sha256": "ac272984f45e2a1973a7fd69ede05d0eeb3e5acae5f2d7764af7d3295d43a2bf"
+  },
+  {
+    "path": "screenshots/en-1440-verification.png",
+    "width": 1440,
+    "height": 1017,
+    "sha256": "ff417b3bea6cb1644c0d9a5c0089eaef09d0daff4bb115af6a15ebfa6fd5e11f"
+  },
+  {
+    "path": "screenshots/en-375-audit.png",
+    "width": 375,
+    "height": 1247,
+    "sha256": "8c21075e82225d446681889bfeea0d51f01c6fba06ac0f8793ff70b2ef8cf523"
+  },
+  {
+    "path": "screenshots/en-375-billing.png",
+    "width": 375,
+    "height": 1982,
+    "sha256": "29dd77ebf5c0b61bef3bc15e261ef877856534ae33587353a862384c33d2100e"
+  },
+  {
+    "path": "screenshots/en-375-brand.png",
+    "width": 375,
+    "height": 1620,
+    "sha256": "4a38251bc24178be2f6e8752d50b35d6ff70cc5001174cf10317121345f6d9f0"
+  },
+  {
+    "path": "screenshots/en-375-directory.png",
+    "width": 375,
+    "height": 2226,
+    "sha256": "2403c9de6602296e3f37aeccc04ae7e30cdf6c634d075fff82c2d7ae5342411d"
+  },
+  {
+    "path": "screenshots/en-375-invoices.png",
+    "width": 375,
+    "height": 1000,
+    "sha256": "c2bdd2d7bd9f5aee2de093b06b24992ac4aefea1ebc7159d220a7d1b1346381c"
+  },
+  {
+    "path": "screenshots/en-375-moderation.png",
+    "width": 375,
+    "height": 2524,
+    "sha256": "4f99cfb9f9e33573d621e8f31935078d185dd1c67a3d6d7236045ed6daaf5220"
+  },
+  {
+    "path": "screenshots/en-375-onboarding.png",
+    "width": 375,
+    "height": 1371,
+    "sha256": "163d00bf4eacba51c83e483d2fe95044b823a5b69c5406e7d8a008a0a42e1505"
+  },
+  {
+    "path": "screenshots/en-375-plans.png",
+    "width": 375,
+    "height": 1769,
+    "sha256": "c0af8f82242a4f661d29b6991fdb869c3ad6713e6efd0d2ea173b359f53e9a6c"
+  },
+  {
+    "path": "screenshots/en-375-preferences.png",
+    "width": 375,
+    "height": 1246,
+    "sha256": "177bc5273e23f12effe3fed97fcc5177c06b056ae34b87a8035741b16e538c2b"
+  },
+  {
+    "path": "screenshots/en-375-profile.png",
+    "width": 375,
+    "height": 1533,
+    "sha256": "f0c803f4c72c9c6369e7e2f8d224d3d244d8f1c83131e8f74f363fcd1f9bde2f"
+  },
+  {
+    "path": "screenshots/en-375-settings.png",
+    "width": 375,
+    "height": 1013,
+    "sha256": "6d7ed0102ceb514ac17fa822449af9200ea36dc56d8060e3f0196cd2717b9d49"
+  },
+  {
+    "path": "screenshots/en-375-team.png",
+    "width": 375,
+    "height": 2578,
+    "sha256": "84c122efdab01b7f54e1fa6806ef9f3d47f0c99fb83d591c95652c95732a9bb2"
+  },
+  {
+    "path": "screenshots/en-375-verification.png",
+    "width": 375,
+    "height": 1498,
+    "sha256": "81a5050aa8d71908cb17b9d5ffc8396e13f4bd9af9f9fcaa9be02a9c1a2f8ba3"
+  },
+  {
+    "path": "screenshots/en-768-audit.png",
+    "width": 768,
+    "height": 1012,
+    "sha256": "7a7868e28d65b643e7a462ccecb87239fb1ef9496e4be421472833e6ae2eb76e"
+  },
+  {
+    "path": "screenshots/en-768-billing.png",
+    "width": 768,
+    "height": 1395,
+    "sha256": "9242018301686fa9076edc8c2ad482c5e29c520697255346a2b0175ce6ccd186"
+  },
+  {
+    "path": "screenshots/en-768-brand.png",
+    "width": 768,
+    "height": 1427,
+    "sha256": "c33d7c9ceb8f61e6d33b814dcde2e797b2aafd859f14b527aba300843af3dde5"
+  },
+  {
+    "path": "screenshots/en-768-directory.png",
+    "width": 768,
+    "height": 1630,
+    "sha256": "63cd72a0b687bec1b2f8ea35200352faa223f1a3482301939720749bf722a42a"
+  },
+  {
+    "path": "screenshots/en-768-invoices.png",
+    "width": 768,
+    "height": 1000,
+    "sha256": "2e9e754f03eba99044b7ac3bc5b0796e59365f79930e4b47620e0355a1889e1b"
+  },
+  {
+    "path": "screenshots/en-768-moderation.png",
+    "width": 768,
+    "height": 2195,
+    "sha256": "a5630d05fe1333aca41a6ae882d88a23c7fb41b88a1135c642ea974c27232ec8"
+  },
+  {
+    "path": "screenshots/en-768-onboarding.png",
+    "width": 768,
+    "height": 1000,
+    "sha256": "4c7a34f84c51b98b7449e95f1ecb48f89261f745c265987d34efdfe4a769abd7"
+  },
+  {
+    "path": "screenshots/en-768-plans.png",
+    "width": 768,
+    "height": 1385,
+    "sha256": "5d060098cda6983bb4765fd7a38b34f9f1c48fdda43c865cea881bdcf4ea8821"
+  },
+  {
+    "path": "screenshots/en-768-preferences.png",
+    "width": 768,
+    "height": 1002,
+    "sha256": "87de1905395dbaa4db3a92093f6b8c4f46cba1f9e07339dd2217727f8cf07e87"
+  },
+  {
+    "path": "screenshots/en-768-profile.png",
+    "width": 768,
+    "height": 1079,
+    "sha256": "c0581fc88919a8ec37d6f0b360d386cda8954fa2406e3e909d2ada3fe514a5be"
+  },
+  {
+    "path": "screenshots/en-768-settings.png",
+    "width": 768,
+    "height": 1000,
+    "sha256": "78c86fa6c4ec0a43e56f5fa0ee670201ccffa70d61498f8af61f6434af215a4a"
+  },
+  {
+    "path": "screenshots/en-768-team.png",
+    "width": 768,
+    "height": 2255,
+    "sha256": "abf92c5ba2f43277353fa9eace38d9125afae091973e7f06aa0c199ae016322b"
+  },
+  {
+    "path": "screenshots/en-768-verification.png",
+    "width": 768,
+    "height": 1080,
+    "sha256": "f933fb90cf9d9ccd5c770ba122941cdd6877ecc6cbcb4f8d99e61af07f492f19"
+  }
+]

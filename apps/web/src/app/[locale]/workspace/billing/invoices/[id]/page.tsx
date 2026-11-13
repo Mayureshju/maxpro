@@ -1,2 +1,2 @@
-import {FinanceOps} from '@/components/prototype/extended';
-export default async function Page({params}:{params:Promise<{id:string}>}){const {id}=await params;return <FinanceOps part='invoice' id={id}/>;}
+import {InvoiceWorkspace} from '@/components/gemini/organization-workspace';
+export default async function Page({params}:{params:Promise<{id:string}>}){const {id}=await params;return <InvoiceWorkspace id={id}/>;}

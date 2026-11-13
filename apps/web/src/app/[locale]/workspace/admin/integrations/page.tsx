@@ -1,2 +1,3 @@
-import {AdminPage} from '@/components/prototype/operations';
-export default function Page(){return <AdminPage part='integrations'/>}
+import {ConnectorHealth} from '@/components/gemini/measurement';
+import {AdminNavigation} from '@/components/gemini/organization-workspace';
+export default function Page(){return <><AdminNavigation/><ConnectorHealth/></>;}

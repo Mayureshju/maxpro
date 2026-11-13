@@ -1,2 +1,2 @@
-import {WhiteLabelSettings} from '@/components/gemini/agency-operations';
-export default function Page(){return <WhiteLabelSettings/>;}
+import {OrganizationWorkspace} from '@/components/gemini/organization-workspace';
+export default function Page(){return <OrganizationWorkspace mode="branding"/>;}

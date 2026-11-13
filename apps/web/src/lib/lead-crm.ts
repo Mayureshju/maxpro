@@ -1,3 +1,4 @@
+import type {OrganizationRepository} from './organization-engine';
 /** Internal fictional contracts only. No provider webhook/API or production authorization. */
 import {demoOrganizationId, type CanonicalProperty} from './canonical-property';
 import {isRecord, textValue} from './property-storage';
@@ -100,6 +101,7 @@ export type CrmRepository = {
   spend: Spend[];
 };
 export type CrmHost = {
+  organization?: OrganizationRepository;
   crm: CrmRepository;
   properties: Record<string, CanonicalProperty>;
   assignMethod: 'round-robin' | 'manual';
@@ -135,8 +137,6 @@ const validTime = (s: unknown): s is string =>
   Number.isFinite(Date.parse(s));
 const short = (s: unknown, max = 200): s is string =>
   textValue(s, max) && s.trim().length > 0;
-const agentValid = (s: unknown): s is string =>
-  typeof s === 'string' && crmAgents.some((a) => a === s);
 const eventKey = (
   l: Pick<CanonicalLead, 'organizationId' | 'source' | 'sourceEventId'>,
 ) => JSON.stringify([l.organizationId, l.source, l.sourceEventId]);
@@ -255,6 +255,13 @@ function normalize(
     campaign: (v.campaign_reference as string | undefined) ?? null,
   };
 }
+export function crmAgentNames(host: Pick<CrmHost,'organization'>): string[]{
+ return host.organization ? host.organization.members.filter(m=>m.organizationId===demoOrganizationId).map(m=>m.alias) : [...crmAgents];
+}
+export function availableMember(host: CrmHost,alias:string):boolean{
+ const m=host.organization?.members.find(m=>m.organizationId===demoOrganizationId&&m.alias===alias);
+ return !host.organization || !!m&&m.status==='active-demo'&&m.available;
+}
 export function nextAssignment(host: CrmHost): {
   agent: string | null;
   reason: string;
@@ -266,9 +273,9 @@ export function nextAssignment(host: CrmHost): {
       reason: 'Manual policy · awaiting human assignment',
       rotate: false,
     };
-  const eligible = crmAgents.filter(
+  const eligible = crmAgentNames(host).filter(
     (a) =>
-      host.activeAgents.includes(a) && !host.crm.unavailableAgents.includes(a),
+      host.activeAgents.includes(a) && availableMember(host,a) && !host.crm.unavailableAgents.includes(a),
   );
   if (eligible.length)
     return {
@@ -277,7 +284,7 @@ export function nextAssignment(host: CrmHost): {
       rotate: true,
     };
   const fallback =
-    agentValid(host.fallbackAgent) &&
+    crmAgentNames(host).includes(host.fallbackAgent) && availableMember(host,host.fallbackAgent) &&
     !host.crm.unavailableAgents.includes(host.fallbackAgent)
       ? host.fallbackAgent
       : null;
@@ -416,6 +423,7 @@ export function applyCrmCommand(
   cmd: CrmCommand,
   at = new Date().toISOString(),
 ): {crm: CrmRepository; error: string | null; leadId?: string} {
+  const agentValid=(v:unknown):v is string=>typeof v==='string'&&crmAgentNames(host).includes(v)&&availableMember(host,v);
   const original = host.crm;
   const crm = structuredClone(original);
   const fail = (error: string) => ({crm: original, error});
@@ -498,7 +506,7 @@ export function applyCrmCommand(
     }
   }
   if (cmd.type === 'availability') {
-    if (!agentValid(cmd.agent)) return fail('Unknown organization agent.');
+    if (!crmAgentNames(host).includes(cmd.agent)) return fail('Unknown organization agent.');
     crm.unavailableAgents = cmd.available
       ? crm.unavailableAgents.filter((a) => a !== cmd.agent)
       : [...new Set([...crm.unavailableAgents, cmd.agent])];

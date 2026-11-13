@@ -3,8 +3,9 @@ import {useState} from 'react';
 import {ArrowRight,ArrowLeft,Check,CheckCircle2,AlertTriangle,ExternalLink,LockKeyhole,ShieldCheck,Send,Workflow} from 'lucide-react';
 import {useLocale} from 'next-intl';
 import {Link} from '@/i18n/navigation';
+import {effectivePlan,can} from '@/lib/organization-engine';
 import {q} from '@/lib/prototype-data';
-import {geminiPlans,getConnector,portalDestinationIds,type ConnectorId} from '@/lib/gemini-product';
+import {getConnector,portalDestinationIds,type ConnectorId} from '@/lib/gemini-product';
 import {publishingQuotaErrors,useGeminiDemo} from './demo-provider';
 import {findProperty,propertyListing} from '@/lib/canonical-property';
 import {useSearchParams} from 'next/navigation';
@@ -24,12 +25,12 @@ export function SyndicationPage(){
 function SyndicationSession({initialId}:{initialId:string}){
  const ar=useLocale()==='ar';const t=copy[ar?'ar':'en'];const {state,simulatePublishing}=useGeminiDemo();
  const [step,setStep]=useState(0);const [propertyId,setPropertyId]=useState(initialId);const [selected,setSelected]=useState<ConnectorId[]>(['property-finder','qatar-living']);const [approvedKey,setApprovedKey]=useState('');const [submittedKey,setSubmittedKey]=useState('');const [dispatchError,setDispatchError]=useState('');
- const record=findProperty(state.properties,propertyId);const property=record?propertyListing(record,ar):undefined;const plan=geminiPlans.find(p=>p.id===state.plan)!;
+ const record=findProperty(state.properties,propertyId);const property=record?propertyListing(record,ar):undefined;const plan=effectivePlan(state);
  const contextKey=record?approvalContext(state,record,selected):'';const approved=approvedKey===contextKey;const submitted=submittedKey===contextKey;
  const setApproved=(value:boolean)=>setApprovedKey(value?contextKey:'');const setSubmitted=(value:boolean)=>setSubmittedKey(value?contextKey:'');
  const analyses=(record?selected:[]).map(id=>({id,...destinationReadiness(state,record!,id)}));
  const quotaErrors=publishingQuotaErrors(state,propertyId,selected);const beyondQuota=quotaErrors.length>0;
- const canDispatch=approved&&selected.length>0&&!beyondQuota&&!!record;
+ const canDispatch=can(state.organization,'publish')&&!state.organization.operational.maintenance&&approved&&selected.length>0&&!beyondQuota&&!!record;
  const canContinue=step===0?!!record:(step===1&&selected.length>0&&!beyondQuota)||((step===2||step===3)&&canDispatch);
  function sendDemo(){if(!canDispatch||submitted||!record)return;const error=simulatePublishing(propertyId,record.revision,selected,approved,approvedKey);setDispatchError(error??'');if(!error)setSubmitted(true);}
  if(!record||!property)return <PropertyUnavailable id={propertyId}/>;

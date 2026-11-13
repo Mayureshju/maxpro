@@ -1,2 +1,2 @@
-import {AdminPage} from '@/components/prototype/operations';
-export default function Page(){return <AdminPage part='moderation'/>}
+import {ModerationWorkspace} from '@/components/gemini/organization-workspace';
+export default function Page(){return <ModerationWorkspace/>;}

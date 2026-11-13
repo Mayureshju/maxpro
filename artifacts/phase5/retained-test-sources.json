@@ -1,0 +1,37 @@
+[
+  {
+    "path": "apps/web/tests/e2e/campaigns.spec.ts",
+    "unchanged": true,
+    "sha256": "5f4a53df90f8d28460d17841aeeb04c07520c7be535006ba3b56947351c24c8c"
+  },
+  {
+    "path": "apps/web/tests/e2e/connector-hub.spec.ts",
+    "unchanged": true,
+    "sha256": "a540f90e51d3c7b537fd1c72c30cea504b12212cd5bfb39512df130cad45a6ae"
+  },
+  {
+    "path": "apps/web/tests/e2e/fixtures.ts",
+    "unchanged": true,
+    "sha256": "20dd6c20e235b08c224c4013ddac15bbb637724174212e4b9999104617f75eb4"
+  },
+  {
+    "path": "apps/web/tests/e2e/lead-crm.spec.ts",
+    "unchanged": true,
+    "sha256": "c73244f3a71a446128b6da9bdcf6ceb7f446ec808f15f8904e0bc678c25ed9f5"
+  },
+  {
+    "path": "apps/web/tests/e2e/lifecycle.spec.ts",
+    "unchanged": true,
+    "sha256": "ff4058da5745ffd5d87b48f9d9fdf7035ca83a1d7f7501fe2e63f551507ef185"
+  },
+  {
+    "path": "apps/web/tests/e2e/prototype.spec.ts",
+    "unchanged": true,
+    "sha256": "25c75a70cbce4df84e68acfb8eb006de91e4133d092cb13f43a9484b105346b0"
+  },
+  {
+    "path": "apps/web/tests/e2e/stability.spec.ts",
+    "unchanged": true,
+    "sha256": "4b4807f1f6ccb5df94bba4300497ea632ecc3b2b9e624ff8f5cd4f6110908f48"
+  }
+]

@@ -1,2 +1,2 @@
-import {FinanceOps} from '@/components/prototype/extended';
-export default function Page(){return <FinanceOps part='dunning'/>}
+import {InvoiceWorkspace} from '@/components/gemini/organization-workspace';
+export default function Page(){return <InvoiceWorkspace/>;}

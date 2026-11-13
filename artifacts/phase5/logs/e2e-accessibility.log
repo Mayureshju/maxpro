@@ -1,0 +1,202 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test organization-admin.spec.ts --grep 'accessibility|quotas:|moderation: all'
+
+[WebServer] (node:81230) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:81254) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 8 tests using 2 workers
+
+(node:81263) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:81262) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  2 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:79:2 › organization accessibility en: axe main content (1.5s)
+(node:81319) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 [chromium] › tests/e2e/organization-admin.spec.ts:79:2 › organization accessibility en: axe main content (3.5s)
+  ✘  3 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:79:2 › organization accessibility ar: axe main content (1.4s)
+(node:81368) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  5 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:95:1 › organization quotas: invitations reserve seats, suspension releases them, owner escalation is denied (249ms)
+  ✓  6 [mobile-chromium] › tests/e2e/organization-admin.spec.ts:99:1 › organization moderation: all local decisions retain revision actor note and history; dispatch pause is enforced (174ms)
+  ✓  4 [chromium] › tests/e2e/organization-admin.spec.ts:79:2 › organization accessibility ar: axe main content (2.6s)
+  ✓  7 [chromium] › tests/e2e/organization-admin.spec.ts:95:1 › organization quotas: invitations reserve seats, suspension releases them, owner escalation is denied (101ms)
+  ✓  8 [chromium] › tests/e2e/organization-admin.spec.ts:99:1 › organization moderation: all local decisions retain revision actor note and history; dispatch pause is enforced (110ms)
+
+
+  1) [mobile-chromium] › tests/e2e/organization-admin.spec.ts:79:2 › organization accessibility en: axe main content 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  -  1
+    + Received  + 52
+
+    - Array []
+    + Array [
+    +   Object {
+    +     "description": "Ensure elements that have scrollable content are accessible by keyboard in Safari",
+    +     "help": "Scrollable region must have keyboard access",
+    +     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/scrollable-region-focusable?application=axeAPI",
+    +     "id": "scrollable-region-focusable",
+    +     "impact": "serious",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": null,
+    +             "id": "focusable-content",
+    +             "impact": "serious",
+    +             "message": "Element should have focusable content",
+    +             "relatedNodes": Array [],
+    +           },
+    +           Object {
+    +             "data": null,
+    +             "id": "focusable-element",
+    +             "impact": "serious",
+    +             "message": "Element should be focusable",
+    +             "relatedNodes": Array [],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element should have focusable content
+    +   Element should be focusable",
+    +         "html": "<div class=\"px-table-scroll\">",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           "section:nth-child(5) > .px-table-scroll",
+    +         ],
+    +       },
+    +     ],
+    +     "tags": Array [
+    +       "cat.keyboard",
+    +       "wcag2a",
+    +       "wcag211",
+    +       "wcag213",
+    +       "TTv5",
+    +       "TT4.a",
+    +       "EN-301-549",
+    +       "EN-9.2.1.1",
+    +       "EN-9.2.1.3",
+    +       "RGAAv4",
+    +       "RGAA-7.3.2",
+    +     ],
+    +   },
+    + ]
+
+      79 |  test(`organization accessibility ${locale}: axe main content`,async({page},info)=>{
+      80 |   test.setTimeout(120000);const pkg=readdirSync(resolve('../../node_modules/.pnpm')).find(n=>n.startsWith('axe-core@'))!;const path=resolve('../../node_modules/.pnpm',pkg,'node_modules/axe-core/axe.min.js');const reports=[];
+    > 81 |   for(const route of ['organization/new','organization','team','billing','settings/domains','verification','admin','admin/moderation','admin/plans','admin/audit','settings','billing/invoices','admin/taxonomies']){await page.goto(`/${locale}/workspace/${route}`);await expect(page.locator('main h1')).toBeVisible();await page.addScriptTag({path});const r=await page.evaluate('window.axe.run(document.querySelector("main"),{runOnly:{type:"tag",values:["wcag2a","wcag2aa","wcag21aa"]}})') as {violations:unknown[]};reports.push({route,violations:r.violations});expect(r.violations).toEqual([]);}
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ^
+      82 |   writeFileSync(resolve(`../../artifacts/phase5/logs/axe-${info.project.name}-${locale}.json`),JSON.stringify(reports,null,2));
+      83 |  });
+      84 | }
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/organization-admin.spec.ts:81:580
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/organization-admin-organiz-13967-ibility-en-axe-main-content-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/organization-admin-organiz-13967-ibility-en-axe-main-content-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/organization-admin-organiz-13967-ibility-en-axe-main-content-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/organization-admin-organiz-13967-ibility-en-axe-main-content-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [mobile-chromium] › tests/e2e/organization-admin.spec.ts:79:2 › organization accessibility ar: axe main content 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  -  1
+    + Received  + 52
+
+    - Array []
+    + Array [
+    +   Object {
+    +     "description": "Ensure elements that have scrollable content are accessible by keyboard in Safari",
+    +     "help": "Scrollable region must have keyboard access",
+    +     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/scrollable-region-focusable?application=axeAPI",
+    +     "id": "scrollable-region-focusable",
+    +     "impact": "serious",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": null,
+    +             "id": "focusable-content",
+    +             "impact": "serious",
+    +             "message": "Element should have focusable content",
+    +             "relatedNodes": Array [],
+    +           },
+    +           Object {
+    +             "data": null,
+    +             "id": "focusable-element",
+    +             "impact": "serious",
+    +             "message": "Element should be focusable",
+    +             "relatedNodes": Array [],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element should have focusable content
+    +   Element should be focusable",
+    +         "html": "<div class=\"px-table-scroll\">",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           "section:nth-child(5) > .px-table-scroll",
+    +         ],
+    +       },
+    +     ],
+    +     "tags": Array [
+    +       "cat.keyboard",
+    +       "wcag2a",
+    +       "wcag211",
+    +       "wcag213",
+    +       "TTv5",
+    +       "TT4.a",
+    +       "EN-301-549",
+    +       "EN-9.2.1.1",
+    +       "EN-9.2.1.3",
+    +       "RGAAv4",
+    +       "RGAA-7.3.2",
+    +     ],
+    +   },
+    + ]
+
+      79 |  test(`organization accessibility ${locale}: axe main content`,async({page},info)=>{
+      80 |   test.setTimeout(120000);const pkg=readdirSync(resolve('../../node_modules/.pnpm')).find(n=>n.startsWith('axe-core@'))!;const path=resolve('../../node_modules/.pnpm',pkg,'node_modules/axe-core/axe.min.js');const reports=[];
+    > 81 |   for(const route of ['organization/new','organization','team','billing','settings/domains','verification','admin','admin/moderation','admin/plans','admin/audit','settings','billing/invoices','admin/taxonomies']){await page.goto(`/${locale}/workspace/${route}`);await expect(page.locator('main h1')).toBeVisible();await page.addScriptTag({path});const r=await page.evaluate('window.axe.run(document.querySelector("main"),{runOnly:{type:"tag",values:["wcag2a","wcag2aa","wcag21aa"]}})') as {violations:unknown[]};reports.push({route,violations:r.violations});expect(r.violations).toEqual([]);}
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ^
+      82 |   writeFileSync(resolve(`../../artifacts/phase5/logs/axe-${info.project.name}-${locale}.json`),JSON.stringify(reports,null,2));
+      83 |  });
+      84 | }
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/organization-admin.spec.ts:81:580
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/organization-admin-organiz-fdc85-ibility-ar-axe-main-content-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/organization-admin-organiz-fdc85-ibility-ar-axe-main-content-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/organization-admin-organiz-fdc85-ibility-ar-axe-main-content-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/organization-admin-organiz-fdc85-ibility-ar-axe-main-content-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    [mobile-chromium] › tests/e2e/organization-admin.spec.ts:79:2 › organization accessibility en: axe main content 
+    [mobile-chromium] › tests/e2e/organization-admin.spec.ts:79:2 › organization accessibility ar: axe main content 
+  6 passed (8.0s)
+ ELIFECYCLE  Command failed with exit code 1.

@@ -1,10 +1,12 @@
 'use client';
+import {can} from '@/lib/organization-engine';
 import {useState, type ReactNode} from 'react';
 import {useLocale} from 'next-intl';
 import {Link, usePathname} from '@/i18n/navigation';
 import {Intro, Notice, Pill, Section} from '@/components/prototype/primitives';
 import {
-  crmAgents,
+  crmAgentNames,
+  availableMember,
   exampleLeadPayload,
   leadMetrics,
   leadSources,
@@ -429,7 +431,7 @@ export function LeadsPage({
               label: t('Assignee', 'المسؤول'),
               value: owner,
               set: setOwner,
-              options: ['Unassigned', ...crmAgents],
+              options: ['Unassigned', ...crmAgentNames(state)],
             },
             {
               label: t('Stage', 'المرحلة'),
@@ -934,10 +936,10 @@ export function AgentSelect({
   return (
     <label className="px-field">
       {label ?? t('Assigned agent', 'المسؤول')}
-      <select value={value} onChange={(e) => onChange(e.target.value)}>
+      <select value={value} disabled={!can(state.organization,"lead.assign")} onChange={(e) => onChange(e.target.value)}>
         <option value="">{t('Unassigned', 'غير موزع')}</option>
-        {crmAgents.map((a) => (
-          <option key={a} disabled={state.crm.unavailableAgents.includes(a)}>
+        {crmAgentNames(state).map((a) => (
+          <option key={a} disabled={state.crm.unavailableAgents.includes(a)||!availableMember(state,a)}>
             {a}
           </option>
         ))}
@@ -1234,7 +1236,7 @@ export function LeadRouting() {
               {t('Agent eligibility & availability', 'أهلية المسؤولين وتوفرهم')}
             </h3>
             <div className="crm-agent-list">
-              {crmAgents.map((agent) => (
+              {crmAgentNames(state).map((agent) => (
                 <div key={agent}>
                   <strong>{agent}</strong>
                   <label>
@@ -1257,7 +1259,7 @@ export function LeadRouting() {
                     <input
                       type="checkbox"
                       aria-label={t(`Available ${agent}`, `متاح ${agent}`)}
-                      checked={!state.crm.unavailableAgents.includes(agent)}
+                      checked={availableMember(state,agent)&&!state.crm.unavailableAgents.includes(agent)}
                       onChange={(e) =>
                         crmCommand({
                           type: 'availability',
@@ -1279,7 +1281,7 @@ export function LeadRouting() {
                   update((s) => ({...s, fallbackAgent: e.target.value}))
                 }
               >
-                {crmAgents.map((a) => (
+                {crmAgentNames(state).map((a) => (
                   <option key={a}>{a}</option>
                 ))}
               </select>

@@ -1254,3 +1254,23 @@ main:has(.cm-nav) .px-pill-warning { color: #795026; }
 .cm-proposal > details > summary { display: list-item; }
 .cm-proposal > details > summary > small { display: block; margin-block: 8px; color: #526057; }
 .cm-proposal > details > summary > .px-pill { margin-inline: 4px; }
+
+/* Phase 5 organization workspaces: logical spacing, operational density. */
+.oa-persona{display:flex;align-items:center;gap:22px;border-block-end:1px solid var(--px-line,#ddd);padding-block-end:18px;margin-block-end:28px}.oa-persona .px-field{margin:0;min-width:240px}.oa-persona p{font-size:12px;line-height:1.6;max-width:650px;color:#555}.oa-permission-surface{border:0;padding:0;margin:0;min-inline-size:0}.oa-permission-surface:disabled{opacity:.82}.oa-denied{padding:14px 18px;background:#fff4da;color:#60440a;border-inline-start:3px solid #b17a15;font-size:13px;line-height:1.65;margin-block:12px 22px}.oa-nav{flex-wrap:wrap;margin-block-end:25px}.oa-muted{display:block;font-size:12px;color:#5b5b56;line-height:1.7;overflow-wrap:anywhere}.oa-invite{display:flex;align-items:end;gap:16px;flex-wrap:wrap}.oa-invite .px-field{flex:1;min-width:180px}.oa-invite button{margin-block-end:18px}.oa-details{margin-block:12px 24px}.oa-details>div{display:flex;justify-content:space-between;gap:20px;padding-block:12px;border-block-end:1px solid #e5e5df}.oa-details dd{margin:0;text-align:end;overflow-wrap:anywhere}.oa-details dt{color:#575750}.oa-inspector-toolbar{display:flex;align-items:center;gap:20px;flex-wrap:wrap;margin-block-end:24px}.oa-inspector-toolbar .px-field{min-width:180px}.oa-review-layout{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:24px}.oa-review-layout>*,.oa-review-layout .px-section,.oa-review-layout form{min-width:0}.oa-review-layout textarea{min-height:110px;resize:vertical}.oa-review-receipt{padding:16px;background:#f2f2eb;margin-block:20px;font-size:13px;overflow-wrap:anywhere}.oa-review-receipt p{line-height:1.6}.oa-review-receipt small{color:#555}.oa-change-preview{padding:18px;border:1px solid #ddd;margin-block-start:12px}.oa-permission-surface .px-table th,.oa-permission-surface .px-table td{max-width:420px}.oa-permission-surface .px-table select{font:inherit;padding:9px;border:1px solid #c4c4bb;background:#fff;max-inline-size:230px}.oa-permission-surface .px-table th small{font-weight:400}.oa-permission-surface .px-field input,.oa-permission-surface .px-field select,.oa-permission-surface .px-field textarea{max-inline-size:100%}.oa-permission-surface form>.px-button{margin-block-start:15px}.oa-permission-surface .gm-plan-selector>button>span{font-size:12px;color:#555}.oa-public-onboarding{max-width:1050px;margin:45px auto;padding:24px}
+@media(max-width:1100px){.oa-review-layout{grid-template-columns:minmax(0,1fr)}.oa-persona{align-items:flex-start;gap:14px}.oa-persona .px-field{min-width:210px}}
+@media(max-width:600px){.oa-persona{display:block}.oa-persona .px-field{min-width:0}.oa-persona p{margin-block-end:0}.oa-invite{display:block}.oa-invite button{inline-size:100%}.oa-details>div{display:block}.oa-details dd{text-align:start;margin-block-start:5px}.oa-inspector-toolbar{display:block}.oa-nav a{white-space:normal}.oa-review-layout{gap:16px}}
+/* Contrast and form spacing verified on the Phase 5 operational surfaces. */
+main:has(.oa-nav) .px-overline{color:#825d3f}
+main:has(.oa-nav) :is(.px-intro p,.px-section-head p,.px-table th,.px-table small,.px-subnav a,.gm-plan-selector small,.gm-plan-selector b em,.gm-dns span,.gm-context p,.gm-context dt,.gm-check-line){color:#536359}
+main:has(.oa-nav) .px-pill-info{color:#23586b}
+main:has(.oa-nav) .px-pill-neutral{color:#526457}
+main:has(.oa-nav) .px-pill-warning{color:#75572e}
+main:has(.oa-nav) .px-section>form{padding:22px 24px}
+main:has(.oa-nav) .px-section>form>.px-field-grid{padding:0}
+main:has(.oa-nav) .px-section>:is(.oa-details,.oa-inspector-toolbar,.oa-change-preview){margin-inline:24px}
+main:has(.oa-nav) .px-section>.px-field{margin-inline:24px;margin-block:18px}
+.oa-review-layout .px-section>form{border-block-start:1px solid #e5e5df}
+.oa-review-layout .px-section>a{display:inline-block;margin:0 24px 16px}
+.oa-permission-surface:disabled{opacity:1}
+@media(max-width:600px){main:has(.oa-nav) .px-section>form{padding:18px 16px}main:has(.oa-nav) .px-section>:is(.oa-details,.oa-inspector-toolbar,.oa-change-preview,.px-field){margin-inline:16px}.oa-review-layout .px-section>a{margin-inline:16px}}
+main:has(.oa-nav) .px-table-scroll:focus-visible{outline:2px solid #315d50;outline-offset:3px}

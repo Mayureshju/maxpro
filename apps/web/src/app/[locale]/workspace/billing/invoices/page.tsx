@@ -1,2 +1,2 @@
-import {BillingPage} from '@/components/prototype/operations';
-export default function Page(){return <BillingPage part='invoices'/>}
+import {InvoiceWorkspace} from '@/components/gemini/organization-workspace';
+export default function Page(){return <InvoiceWorkspace/>;}

@@ -1,14 +1,14 @@
 # Technical blueprint — canonical real estate operating system
 
-This is a **production design**, NOT implemented code. It derives from the user-supplied Gemini PRD with pragmatic corrections to prevent unauthorized integrations.
+**2026-11-13 Phase 5:** custom Frappe application supersedes the earlier NestJS proposal; see `22-frappe-backend-blueprint.md`. This is a **production design**, NOT implemented code. It derives from the user-supplied Gemini PRD with pragmatic corrections to prevent unauthorized integrations.
 
 ```mermaid
 flowchart TD
-  U[Next.js bilingual browser/PWA] --> G[API gateway and OIDC]
-  G --> M[NestJS modular monolith]
-  M --> DB[(PostgreSQL + PostGIS)]
+  U[Next.js bilingual browser/PWA] --> G[Frappe session and role permissions]
+  G --> M[Custom Frappe application / Python services]
+  M --> DB[(Frappe-managed database)]
   M --> O[Transactional outbox]
-  O --> Q[Redis / BullMQ workers]
+  O --> Q[Frappe background jobs / workers]
   Q --> A[Authorized portal adapters]
   Q --> F[Versioned tenant feed generator]
   Q --> W[WhatsApp / analytics / marketing adapters]
@@ -23,7 +23,7 @@ flowchart TD
 
 | Module | Authoritative responsibility | Core commands/queries |
 |---|---|---|
-| Identity / Organization | OIDC membership, RBAC, verification, org IDs and data isolation | createOrganization, inviteMember, verifyAdvertiser |
+| Identity / Organization | Frappe identity and membership, RBAC, verification, org IDs and data isolation | createOrganization, inviteMember, verifyAdvertiser |
 | Inventory | Canonical property facts, versions, media, Arabic/English, moderation | createDraft, reviseProperty, validate, approve, archive |
 | Connector Registry | Provider capabilities, contract status, auth method, secrets refs | listCapabilities, prepareAuthorization, disableConnector |
 | Syndication | Destination-aware status machine, payload transformer, retries and reconciliation | preflightDestination, publish, update, withdraw, listJobs |
@@ -39,7 +39,7 @@ flowchart TD
 ## Core record boundaries
 
 - `organization(id, country, license, status)`; `user(id, ...)`; `membership(id, org_id, role, ...)` separate from user for multi-org membership.
-- `property(id, org_id, purpose, type, price_minor, currency, rental_frequency, permit, owner_verified, version, source, ...)`; `property_translation(property_id, locale, title, description)`; `property_media(property_id, room_category, object_key, order, status, ...)`; `property_revision(property_id, version, ...)`. Coordinates stored as PostGIS `geography` with explicit precision and consent policy.
+- `property(id, org_id, purpose, type, price_minor, currency, rental_frequency, permit, owner_verified, version, source, ...)`; `property_translation(property_id, locale, title, description)`; `property_media(property_id, room_category, object_key, order, status, ...)`; `property_revision(property_id, version, ...)`. Coordinates stored using the approved Frappe/database geospatial representation with explicit precision and consent policy; no PostGIS assumption.
 - `connector_definition(id, region, capability_schema_version, auth_type)`; `org_connector(id, org_id, provider_id, credential_ref, agreement_status, mode, lifecycle)`; never store raw keys in client or unencrypted JSON.
 - `publication(id, org_id, property_id, property_revision, provider_id, external_reference, status)` and `publication_attempt(id, event_id, payload_digest, idempotency_key, retries, error_code, ack_at)`; one destination failing must not incorrectly set the master listing to "unpublished".
 - `feed(id, org_id, provider_id, version, access_ref, format, next_schedule, last_fetch_at)`; securely authorized feeds only.
@@ -107,4 +107,8 @@ The current `localMarketingAI` implements the provider-agnostic proposal contrac
 
 Campaign enquiry commands use existing CRM intake and its organization/source/event deduplication key. Meta uses the existing Meta Lead Ads internal contract; Google uses Website first-touch plus a Google campaign reference, pending an authorized Google intake contract. Unknown historical campaign examples remain raw references without inventing a canonical campaign. No replay changes first-touch identity or routing. Reports use shared `selectLeads`/`leadMetrics` and explicit dated fictional campaign costs; a budget or queue click never creates actual spend or provider performance. Recording a campaign cost also adds exactly one source-level CRM cost row. No reach/click/ROAS calculation is implemented.
 
-Production marketing must move these commands behind OIDC/RBAC, tenant-scoped transactions and append-only audit/outbox/idempotency; obtain current approved housing/policy/account/region/feed contracts; store credentials in Vault/KMS; obtain application-enforced approvals and consent; and reconcile real costs/status only from authorized partner acknowledgements. Nothing here authorizes commercial publishing or spend.
+Production marketing must move these commands behind authenticated Frappe permissions, tenant-scoped transactions and append-only audit/outbox/idempotency; obtain current approved housing/policy/account/region/feed contracts; store credentials in Vault/KMS; obtain application-enforced approvals and consent; and reconcile real costs/status only from authorized partner acknowledgements. Nothing here authorizes commercial publishing or spend.
+
+## Phase 5 organization boundary (GEM-01 / 17 / 18 / 19 / 20)
+
+`organization-engine.ts` and `organization-storage.ts` add shared typed browser-local profiles, membership, selected fictional personas, central permissions, effective illustrative plan configuration, canonical revision-bound moderation and audit. Local command guards apply across property/publishing/CRM/campaign/billing/admin. `prototype-repository.ts` defines the data boundary with a local adapter; no Frappe API is called. Directory profiles do not select another operational dataset. See `21-phase5-organization-admin.md` for evidence and prototype limitations. Production must enforce every invariant in Frappe authenticated document permissions/controllers/whitelisted methods, with transactional quotas, outbox, revisions, isolation and durable audit as specified in the blueprint.

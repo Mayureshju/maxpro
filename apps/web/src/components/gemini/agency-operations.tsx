@@ -1,11 +1,8 @@
 'use client';
-import Image from 'next/image';
-import {useState} from 'react';
 import {ArrowRight,Plus} from 'lucide-react';
 import {useLocale} from 'next-intl';
 import {Link} from '@/i18n/navigation';
-import {listings} from '@/lib/prototype-data';
-import {connectorCatalog,geminiPlans,portalDestinationIds} from '@/lib/gemini-product';
+import {connectorCatalog,portalDestinationIds} from '@/lib/gemini-product';
 import {leadMetrics} from '@/lib/lead-crm';
 import {useGeminiDemo} from './demo-provider';
 import {Intro,Notice,Pill,Section} from '@/components/prototype/primitives';
@@ -18,11 +15,4 @@ export function AgencyControlTower(){
  <Notice>The dashboard is an operating-system prototype, not a public listing marketplace. No metrics, accounts or publishing outcomes are connected to external services.</Notice></>;
 }
 export {LeadRouting} from './lead-workspace';
-export function WhiteLabelSettings(){
- const [domain,setDomain]=useState('homes.pearlgate.example');const [verified,setVerified]=useState(false);const [brand,setBrand]=useState('Pearl Gate Realty');const [preview,setPreview]=useState(false);
- return <><Intro eyebrow="ORGANIZATION / WHITE-LABEL" title="Your agency, its own storefront." description="Preview agency-branded listing URLs, custom domain setup and verification steps. DNS is not checked from this app."/><div className="gm-split"><div className="gm-main"><Section title="Hosted agency listing pages" subtitle="Every canonical listing can have a public, branded landing page independent of portal publication."><label className="px-field">Public agency name<input value={brand} onChange={e=>setBrand(e.target.value)}/></label><label className="px-field">Requested custom domain<input value={domain} onChange={e=>{setDomain(e.target.value);setVerified(false)}}/></label><div className="gm-dns"><strong>Illustrative DNS configuration</strong><div><span>Type</span><code>CNAME</code></div><div><span>Host</span><code>{domain.split('.')[0]||'homes'}</code></div><div><span>Target</span><code>tenant-host.example.invalid</code></div></div><div className="gm-step-actions"><button type="button" onClick={()=>setVerified(true)} className="px-button px-button-outline">Preview DNS verification</button><button type="button" onClick={()=>setPreview(!preview)} className="px-button px-button-dark">{preview?'Hide':'Show'} brand preview</button></div>{verified&&<Notice>This is only a verification preview. No DNS lookup, TLS issuance or domain binding occurred.</Notice>}</Section></div><aside className="gm-aside"><div className="gm-context"><span className="px-overline">BRAND PREVIEW</span><h3>{brand}</h3><p>{domain}</p>{preview?<><Image unoptimized width={640} height={320} className="gm-brand-preview" alt="Example property interior" src={listings[0].image}/><strong>{listings[0].title}</strong><p>QAR {listings[0].price.toLocaleString()} / month</p></>:<p>Use “Show brand preview” to see a local example.</p>}<Pill tone="warning">DNS unverified</Pill></div></aside></div></>;
-}
-export function Entitlements(){
- const {state,update}=useGeminiDemo();const plan=geminiPlans.find(p=>p.id===state.plan)!;
- return <><Intro eyebrow="SUBSCRIPTIONS / ENTITLEMENT ENGINE" title="Usage and plan rules" description="Gemini PRD's indicative pricing and usage model. Numbers remain provisional until signed commercial approval."/><div className="gm-plan-selector">{geminiPlans.map(p=><button type="button" key={p.id} className={state.plan===p.id?'chosen':''} onClick={()=>update(s=>({...s,plan:p.id}))}><strong>{p.label}</strong><small>{p.audience}</small><b>QAR {p.monthlyQar===null?'Custom':`${p.monthlyQar.toLocaleString('en-US')}${p.id==='agency'?'+':''}`}<em> / mo</em></b>{state.plan===p.id&&<Pill tone="info">Prototype selection</Pill>}</button>)}</div><div className="gm-limit-table"><div><span>Active listings</span><strong>{plan.listingLimit??'Negotiated demo limit'}</strong><small>{new Set(state.jobs.filter(j=>j.status==='queued-demo').map(j=>j.listingId)).size} reserved · {Object.keys(state.properties).length} local records</small></div><div><span>Portal connectors</span><strong>{plan.connectorLimit??'All authorized'}</strong><small>{new Set(state.jobs.filter(j=>j.status==='queued-demo'&&j.destination!=='meta-catalog').map(j=>j.destination)).size} reserved · {state.preparedConnectors.filter(i=>portalDestinationIds.includes(i)&&i!=='meta-catalog').length} prepared locally</small></div><div><span>AI generations / month</span><strong>{plan.aiCredits??'Negotiated'}</strong><small>No real AI requests made</small></div><div><span>Team seats</span><strong>{plan.seats??'Multi-agent'}</strong><small>Billing not connected</small></div></div><Notice>Drafts do not consume publishing capacity. Local queued properties and portal destinations reserve capacity; local cancellation releases that reservation. Plan changes affect prototype gates only; they do not create a purchase or modify a subscription. Pricing is illustrative in the source PRD, not an approved customer offer.</Notice></>;
-}
+export {OrganizationWorkspace as WhiteLabelSettings, SubscriptionWorkspace as Entitlements} from './organization-workspace';

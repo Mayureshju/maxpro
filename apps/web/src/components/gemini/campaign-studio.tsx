@@ -18,6 +18,7 @@ import {
   Pill,
   Empty,
 } from "@/components/prototype/primitives";
+import {can} from '@/lib/organization-engine';
 import { useGeminiDemo } from "./demo-provider";
 import {
   demoOrganizationId,
@@ -500,7 +501,7 @@ function CampaignEditor({
     t("Budget & schedule", "الميزانية والجدول"),
     t("Approvals & simulation", "الموافقات والمحاكاة"),
   ];
-  const disabled = dirty || stale || !c;
+  const disabled = dirty || stale || !c || !can(state.organization, role === "editor" ? "campaign.edit" : "campaign.approve");
   return (
     <>
       <Intro
@@ -616,7 +617,7 @@ function CampaignEditor({
           </div>
           <fieldset
             className="cm-editor-fields"
-            disabled={!active || role !== "editor"}
+            disabled={!active || role !== "editor" || !can(state.organization,"campaign.edit")}
           >
             {step === 0 && (
               <>
@@ -1358,7 +1359,7 @@ function CampaignEditor({
             <button
               type="button"
               className="px-button px-button-outline"
-              disabled={!active || role !== "editor" || stale}
+              disabled={!active || role !== "editor" || stale || !can(state.organization,"campaign.edit")}
               onClick={() => save()}
             >
               {c
@@ -1369,7 +1370,7 @@ function CampaignEditor({
               <button
                 type="button"
                 className="px-button px-button-dark"
-                disabled={!active || role !== "editor" || stale}
+                disabled={!active || role !== "editor" || stale || !can(state.organization,"campaign.edit")}
                 onClick={() => save(step + 1)}
               >
                 {t("Save & continue", "حفظ ومتابعة")} <ArrowRight size={16} />

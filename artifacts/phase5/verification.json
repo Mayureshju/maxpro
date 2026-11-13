@@ -1,0 +1,61 @@
+{
+  "baseline": "4cfdf2babb74d5121a6de0fc7c2d476d8ce4dc99",
+  "ciRun": 43360733724,
+  "commands": [
+    {
+      "command": "CI=true pnpm install --frozen-lockfile",
+      "exitCode": 0
+    },
+    {
+      "command": "pnpm typecheck",
+      "exitCode": 0
+    },
+    {
+      "command": "pnpm lint",
+      "exitCode": 0
+    },
+    {
+      "command": "pnpm build",
+      "exitCode": 1,
+      "reason": "Existing Turbopack CSS/PostCSS sandbox port-binding restriction"
+    },
+    {
+      "command": "pnpm --dir apps/web exec next build --webpack",
+      "exitCode": 0
+    },
+    {
+      "command": "PLAYWRIGHT_PORT=3155 PLAYWRIGHT_PRODUCTION=1 PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH='/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' pnpm --dir apps/web test:e2e",
+      "exitCode": 0
+    }
+  ],
+  "playwright": {
+    "passed": 742,
+    "skipped": 28,
+    "failed": 0,
+    "newOrganizationCasesPassed": 52,
+    "newOrganizationCasesSkipped": 8,
+    "addedRouteCasesPassed": 12
+  },
+  "axe": {
+    "states": 52,
+    "violations": 0
+  },
+  "screenshots": {
+    "count": 104,
+    "locales": [
+      "en",
+      "ar"
+    ],
+    "widths": [
+      1440,
+      1024,
+      768,
+      375
+    ],
+    "contactSheetsInspected": 8
+  },
+  "retainedTestSourcesUnchanged": 7,
+  "historicalArtifactsRestored": 326,
+  "independentReview": "pending: Claude Code not authenticated",
+  "productionServicesImplemented": false
+}
