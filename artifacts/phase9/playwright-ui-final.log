@@ -1,0 +1,30 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test productivity.spec.ts --grep 'sidebar preference|sticky context|four-width'
+
+[WebServer] (node:30232) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:30247) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 12 tests using 2 workers
+
+(node:30254) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:30253) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [mobile-chromium] › tests/e2e/productivity.spec.ts:18:2 › productivity en: sidebar preference, active navigation and modal drawer focus (1.0s)
+  ✓   2 [chromium] › tests/e2e/productivity.spec.ts:18:2 › productivity en: sidebar preference, active navigation and modal drawer focus (1.7s)
+  ✓   3 [mobile-chromium] › tests/e2e/productivity.spec.ts:30:2 › productivity en: sticky context, draft persistence, missing field navigation and safe dock (1.3s)
+  -   5 [mobile-chromium] › tests/e2e/productivity.spec.ts:62:2 › productivity en: four-width ten-screen visual consistency
+  ✓   4 [chromium] › tests/e2e/productivity.spec.ts:30:2 › productivity en: sticky context, draft persistence, missing field navigation and safe dock (914ms)
+  ✓   6 [mobile-chromium] › tests/e2e/productivity.spec.ts:18:2 › productivity ar: sidebar preference, active navigation and modal drawer focus (705ms)
+  ✓   8 [mobile-chromium] › tests/e2e/productivity.spec.ts:30:2 › productivity ar: sticky context, draft persistence, missing field navigation and safe dock (1.2s)
+  -   9 [mobile-chromium] › tests/e2e/productivity.spec.ts:62:2 › productivity ar: four-width ten-screen visual consistency
+  ✓   7 [chromium] › tests/e2e/productivity.spec.ts:62:2 › productivity en: four-width ten-screen visual consistency (5.6s)
+  ✓  10 [chromium] › tests/e2e/productivity.spec.ts:18:2 › productivity ar: sidebar preference, active navigation and modal drawer focus (1.7s)
+  ✓  11 [chromium] › tests/e2e/productivity.spec.ts:30:2 › productivity ar: sticky context, draft persistence, missing field navigation and safe dock (800ms)
+  ✓  12 [chromium] › tests/e2e/productivity.spec.ts:62:2 › productivity ar: four-width ten-screen visual consistency (5.1s)
+
+  2 skipped
+  10 passed (17.1s)
