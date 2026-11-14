@@ -1,0 +1,346 @@
+[
+  {
+    "route": "/",
+    "violations": []
+  },
+  {
+    "route": "/about",
+    "violations": []
+  },
+  {
+    "route": "/agencies",
+    "violations": []
+  },
+  {
+    "route": "/compare",
+    "violations": []
+  },
+  {
+    "route": "/contact",
+    "violations": []
+  },
+  {
+    "route": "/faq",
+    "violations": []
+  },
+  {
+    "route": "/favorites",
+    "violations": []
+  },
+  {
+    "route": "/map",
+    "violations": []
+  },
+  {
+    "route": "/pricing",
+    "violations": []
+  },
+  {
+    "route": "/privacy",
+    "violations": []
+  },
+  {
+    "route": "/properties",
+    "violations": []
+  },
+  {
+    "route": "/register",
+    "violations": []
+  },
+  {
+    "route": "/resources",
+    "violations": []
+  },
+  {
+    "route": "/saved-searches",
+    "violations": []
+  },
+  {
+    "route": "/sign-in",
+    "violations": []
+  },
+  {
+    "route": "/solutions",
+    "violations": []
+  },
+  {
+    "route": "/terms",
+    "violations": []
+  },
+  {
+    "route": "/workspace",
+    "violations": []
+  },
+  {
+    "route": "/agencies/pearl-gate-realty",
+    "violations": []
+  },
+  {
+    "route": "/properties/AQ-10233",
+    "violations": []
+  },
+  {
+    "route": "/workspace/admin",
+    "violations": []
+  },
+  {
+    "route": "/workspace/analytics",
+    "violations": []
+  },
+  {
+    "route": "/workspace/billing",
+    "violations": []
+  },
+  {
+    "route": "/workspace/campaigns",
+    "violations": []
+  },
+  {
+    "route": "/workspace/hub",
+    "violations": []
+  },
+  {
+    "route": "/workspace/inbox",
+    "violations": []
+  },
+  {
+    "route": "/workspace/inventory",
+    "violations": []
+  },
+  {
+    "route": "/workspace/leads",
+    "violations": []
+  },
+  {
+    "route": "/workspace/notifications",
+    "violations": []
+  },
+  {
+    "route": "/workspace/organization",
+    "violations": []
+  },
+  {
+    "route": "/workspace/publish",
+    "violations": []
+  },
+  {
+    "route": "/workspace/settings",
+    "violations": []
+  },
+  {
+    "route": "/workspace/studio",
+    "violations": []
+  },
+  {
+    "route": "/workspace/team",
+    "violations": []
+  },
+  {
+    "route": "/workspace/verification",
+    "violations": []
+  },
+  {
+    "route": "/workspace/admin/audit",
+    "violations": []
+  },
+  {
+    "route": "/workspace/admin/cms",
+    "violations": []
+  },
+  {
+    "route": "/workspace/admin/connector-health",
+    "violations": []
+  },
+  {
+    "route": "/workspace/admin/integrations",
+    "violations": []
+  },
+  {
+    "route": "/workspace/admin/moderation",
+    "violations": []
+  },
+  {
+    "route": "/workspace/admin/organizations",
+    "violations": []
+  },
+  {
+    "route": "/workspace/admin/plans",
+    "violations": []
+  },
+  {
+    "route": "/workspace/admin/reports",
+    "violations": []
+  },
+  {
+    "route": "/workspace/admin/taxonomies",
+    "violations": []
+  },
+  {
+    "route": "/workspace/admin/users",
+    "violations": []
+  },
+  {
+    "route": "/workspace/ads/attribution",
+    "violations": []
+  },
+  {
+    "route": "/workspace/ads/catalogue",
+    "violations": []
+  },
+  {
+    "route": "/workspace/ads/placements",
+    "violations": []
+  },
+  {
+    "route": "/workspace/billing/dunning",
+    "violations": []
+  },
+  {
+    "route": "/workspace/billing/invoices",
+    "violations": []
+  },
+  {
+    "route": "/workspace/campaigns/AQ-10233",
+    "violations": []
+  },
+  {
+    "route": "/workspace/campaigns/new",
+    "violations": []
+  },
+  {
+    "route": "/workspace/hub/connectors",
+    "violations": []
+  },
+  {
+    "route": "/workspace/hub/feeds",
+    "violations": []
+  },
+  {
+    "route": "/workspace/hub/jobs",
+    "violations": []
+  },
+  {
+    "route": "/workspace/hub/mappings",
+    "violations": []
+  },
+  {
+    "route": "/workspace/hub/marketplace",
+    "violations": []
+  },
+  {
+    "route": "/workspace/integrations/ga4",
+    "violations": []
+  },
+  {
+    "route": "/workspace/integrations/google-ads",
+    "violations": []
+  },
+  {
+    "route": "/workspace/integrations/meta-catalog",
+    "violations": []
+  },
+  {
+    "route": "/workspace/integrations/whatsapp",
+    "violations": []
+  },
+  {
+    "route": "/workspace/inventory/AQ-10233",
+    "violations": []
+  },
+  {
+    "route": "/workspace/inventory/import",
+    "violations": []
+  },
+  {
+    "route": "/workspace/inventory/new",
+    "violations": []
+  },
+  {
+    "route": "/workspace/leads/LE-2101",
+    "violations": []
+  },
+  {
+    "route": "/workspace/leads/assignment",
+    "violations": []
+  },
+  {
+    "route": "/workspace/leads/viewings",
+    "violations": []
+  },
+  {
+    "route": "/workspace/organization/new",
+    "violations": []
+  },
+  {
+    "route": "/workspace/settings/demo",
+    "violations": []
+  },
+  {
+    "route": "/workspace/settings/domains",
+    "violations": []
+  },
+  {
+    "route": "/workspace/settings/integrations",
+    "violations": []
+  },
+  {
+    "route": "/workspace/settings/privacy",
+    "violations": []
+  },
+  {
+    "route": "/workspace/support/assistant",
+    "violations": []
+  },
+  {
+    "route": "/workspace/support/evaluations",
+    "violations": []
+  },
+  {
+    "route": "/workspace/support/knowledge",
+    "violations": []
+  },
+  {
+    "route": "/workspace/whatsapp/packs",
+    "violations": []
+  },
+  {
+    "route": "/workspace/whatsapp/sla",
+    "violations": []
+  },
+  {
+    "route": "/workspace/whatsapp/templates",
+    "violations": []
+  },
+  {
+    "route": "/workspace/billing/invoices/INV-2026-0419",
+    "violations": []
+  },
+  {
+    "route": "/workspace/hub/connectors/property-finder",
+    "violations": []
+  },
+  {
+    "route": "/workspace/inventory/AQ-10233/edit",
+    "violations": []
+  },
+  {
+    "route": "/workspace/inventory/AQ-10233/enquiries",
+    "violations": []
+  },
+  {
+    "route": "/workspace/inventory/AQ-10233/media",
+    "violations": []
+  },
+  {
+    "route": "/workspace/inventory/AQ-10233/publishing",
+    "violations": []
+  },
+  {
+    "route": "/workspace/settings/domains/preview",
+    "violations": []
+  },
+  {
+    "route": "/workspace#whole-document",
+    "violations": []
+  }
+]

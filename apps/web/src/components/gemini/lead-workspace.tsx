@@ -341,7 +341,7 @@ export function LeadsPage({
       (stage === 'All' || l.stage === stage) &&
       (priority === 'All' || l.priority === priority) &&
       (qualification === 'All' || l.qualification === qualification) &&
-      `${l.identity.alias} ${l.id} ${l.propertyId} ${state.properties[l.propertyId]?.facts.titleEn} ${l.sourceEventId}`
+      `${l.identity.alias} ${l.id} ${l.propertyId} ${state.properties[l.propertyId]?.facts.titleEn} ${state.properties[l.propertyId]?.facts.titleAr} ${l.sourceEventId}`
         .toLowerCase()
         .includes(search.toLowerCase()),
   );
@@ -406,7 +406,7 @@ export function LeadsPage({
           </div>
         }
       >
-        <div className="crm-filters">
+        <div className="crm-quick-filters" aria-label={t('Quick lead filters','فلاتر سريعة للاستفسارات')}><button type="button" aria-pressed={owner==='Unassigned'} onClick={()=>setOwner(owner==='Unassigned'?'All':'Unassigned')}>{t('Needs assignment','بحاجة إلى تعيين')} · {state.crm.leads.filter(l=>!l.assignee).length}</button><button type="button" aria-pressed={stage==='New'} onClick={()=>setStage(stage==='New'?'All':'New')}>{t('New enquiries','الاستفسارات الجديدة')} · {metrics.new}</button></div><div className="crm-filters">
           <label className="px-field">
             {copyText(t('Search leads', 'بحث العملاء'))}
             <input
@@ -540,7 +540,7 @@ export function LeadsPage({
                       <Link href={`/workspace/leads/${l.id}`}>
                         <b>{copyText(l.identity.alias)}</b>
                         <small>{copyText(l.id)}</small>
-                      </Link>
+                      </Link><Link className="crm-row-action" href={`/workspace/inbox?lead=${l.id}`}>{t('Reply in Inbox','الرد في الوارد')}</Link>
                     </td>
                     <td>
                       {copyText(l.source)}
@@ -1081,7 +1081,8 @@ export function InboxPage({initialLead}: {initialLead?: string}) {const copyText
                   </div>
                 ))}
               </div>
-              <LeadAssistance key={l.id} leadId={l.id} onDraft={setDraft}/>
+              <Link className="crm-conversation-property" href={`/workspace/inventory/${l.propertyId}`}>{t('View property','عرض العقار')} · <PropertyLabel id={l.propertyId}/></Link>
+              <LeadAssistance key={l.id} leadId={l.id} onDraft={setDraft} draft={draft}/>
               <form
                 className="px-chat-compose"
                 onSubmit={(e) => {

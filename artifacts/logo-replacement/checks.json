@@ -1,0 +1,194 @@
+[
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "public",
+    "logos": 2
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "sign-in",
+    "logos": 1
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "register",
+    "logos": 1
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "workspace",
+    "logos": 1
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "route": "public",
+    "logos": 2
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "route": "sign-in",
+    "logos": 1
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "route": "register",
+    "logos": 1
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "route": "workspace",
+    "logos": 1
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "route": "public",
+    "logos": 2
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "route": "sign-in",
+    "logos": 1
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "route": "register",
+    "logos": 1
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "route": "workspace",
+    "logos": 1
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "public",
+    "logos": 2
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "sign-in",
+    "logos": 1
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "register",
+    "logos": 1
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "workspace",
+    "logos": 1
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "public",
+    "logos": 2
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "sign-in",
+    "logos": 1
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "register",
+    "logos": 1
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "workspace",
+    "logos": 1
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "route": "public",
+    "logos": 2
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "route": "sign-in",
+    "logos": 1
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "route": "register",
+    "logos": 1
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "route": "workspace",
+    "logos": 1
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "route": "public",
+    "logos": 2
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "route": "sign-in",
+    "logos": 1
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "route": "register",
+    "logos": 1
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "route": "workspace",
+    "logos": 1
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "public",
+    "logos": 2
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "sign-in",
+    "logos": 1
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "register",
+    "logos": 1
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "workspace",
+    "logos": 1
+  }
+]

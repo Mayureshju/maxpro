@@ -58,7 +58,7 @@ for(const locale of ['en','ar']){
   await capture(page,`${prefix}-inventory`);
   await page.locator('tbody tr').getByRole('link').click();
   await expect(page).toHaveURL(`/${locale}/workspace/inventory/${id}`);
-  await expect(page.getByRole('heading',{level:1})).toHaveText(ar?'مسكن الفناء التجريبي':'Lifecycle courtyard residence');await expect(page.getByRole('link',{name:localized(/Organize media|تنظيم الوسائط/)})).toBeVisible();await capture(page,`${prefix}-property-record`);
+  await expect(page.getByRole('heading',{level:1})).toHaveText(ar?'مسكن الفناء التجريبي':'Lifecycle courtyard residence');await page.getByRole('tab',{name:locale==='ar'?'تفاصيل الإعلان':'Listing details',exact:true}).click();await expect(page.getByRole('link',{name:localized(/Organize media|تنظيم الوسائط/)})).toBeVisible();await capture(page,`${prefix}-property-record`);
   await page.goto(`/${locale}/workspace/inventory/${id}/media`);
   await page.getByRole('button',{name:localized(/Add fictional sample assets|إضافة وسائط خيالية/)}).click();
   const down=page.getByRole('button',{name:localized('Move Sample hero photo down')});await down.focus();await page.keyboard.press('Enter');

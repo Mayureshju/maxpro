@@ -222,7 +222,7 @@ export function MarketingProvider({
                   </thead>
                   <tbody>
                     {mapping.map(([label, path, value, ok]) => (
-                      <tr key={String(path)}>
+                      <tr key={`${String(path)}-${String(label)}`}>
                         <td>{label}</td>
                         <td>
                           <code>{path}</code>

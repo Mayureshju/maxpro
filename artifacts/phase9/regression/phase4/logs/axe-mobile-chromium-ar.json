@@ -1,0 +1,50 @@
+[
+  {
+    "name": "stage-0",
+    "violations": []
+  },
+  {
+    "name": "stage-1",
+    "violations": []
+  },
+  {
+    "name": "stage-2",
+    "violations": []
+  },
+  {
+    "name": "stage-3",
+    "violations": []
+  },
+  {
+    "name": "stage-4",
+    "violations": []
+  },
+  {
+    "name": "stage-5",
+    "violations": []
+  },
+  {
+    "name": "editable-suggestion",
+    "violations": []
+  },
+  {
+    "name": "simulation",
+    "violations": []
+  },
+  {
+    "name": "campaigns",
+    "violations": []
+  },
+  {
+    "name": "integrations/meta-catalog",
+    "violations": []
+  },
+  {
+    "name": "integrations/google-ads",
+    "violations": []
+  },
+  {
+    "name": "ads/attribution?campaign=DEMO-CAMPAIGN-339e54c9-5688-4cc9-b880-4c9f3cb0dfc8",
+    "violations": []
+  }
+]
