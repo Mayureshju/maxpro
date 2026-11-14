@@ -1,0 +1,294 @@
+/* components/buttons — semantic style owner. */
+.px-button {
+  min-height: 42px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  white-space: nowrap;
+  font-weight: 770;
+  letter-spacing: .005em;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  line-height: 1.3;
+  transition: background .15s,color .15s;
+}
+
+.px-button-dark {
+  background: #243a37;
+  color: white;
+}
+
+.px-button-dark:hover {
+  background: #365f54;
+}
+
+.px-button-outline {
+  background: #fff;
+  border-color: #cbd2ca;
+  color: #223a36;
+}
+
+.px-button-outline:hover {
+  background: #eef2eb;
+}
+
+.px-button-light {
+  background: #f6f6f2;
+  color: #1e3d36;
+}
+
+.px-button:disabled {
+  opacity: .4;
+}
+
+.px-button:focus-visible,.px-mini-action:focus-visible,.px-text-button:focus-visible {
+  outline-offset: 4px;
+}
+
+.px-text-button {
+  background: none;
+  border: 0;
+  padding: 6px 0;
+  color: #285d53;
+  font-weight: 760;
+  font-size: 12px;
+}
+
+.px-mini-action {
+  background: white;
+  border: 1px solid #dce0d7;
+  color: #2d5951;
+  border-radius: 3px;
+  padding: 8px 11px;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.px-text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #285d53;
+  font-size: 12px;
+  font-weight: 760;
+  white-space: nowrap;
+}
+
+.px-text-link:hover,.px-inline-cta:hover {
+  text-decoration: underline;
+}
+
+.px-section-head>.px-text-link {
+  margin-top: 4px;
+}
+
+.px-section>.px-button {
+  margin: 0 24px 20px;
+}
+
+.px-section>.px-text-link {
+  margin: 0 24px 20px;
+}
+
+.px-site-hero-actions .px-button {
+  min-height: 52px;
+  padding: 15px 20px;
+}
+
+.px-public-enquiry .px-button {
+  width: 100%;
+}
+
+.px-info-form .px-button {
+  width: 100%;
+}
+
+@media (prefers-reduced-motion:reduce) {
+  .px-public-property,.prototype-sidebar,.prototype-nav-item,.px-button {
+    transition: none !important;
+  }
+}
+
+.px-pricing-plan .px-button {
+  width: 100%;
+  margin-top: 22px;
+}
+
+.px-studio-actions .px-button {
+  white-space: normal;
+}
+
+.oa-permission-surface form>.px-button {
+  margin-block-start: 15px;
+}
+
+.px-button {
+  min-block-size: var(--fx-control);
+  font-size: 13px;
+  padding: 11px 16px;
+}
+
+.px-mini-action {
+  min-block-size: var(--ws-control-height);
+  font-size: 12px;
+}
+
+.px-text-link,.px-text-button {
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.px-text-button {
+  min-block-size: var(--ws-control-height);
+}
+
+.fx-empty>.px-text-link {
+  white-space: normal;
+  justify-content: center;
+}
+
+@media (max-width:650px) {
+  .px-intro-action .px-button {
+    flex: 1;
+  }
+  .fx-dialog-actions .px-button {
+    flex: 1;
+  }
+  .fx-agency-profile>.px-button {
+    inline-size: 100%;
+  }
+}
+
+@media (max-width:800px) {
+  .px-public-results-head .px-text-button {
+    min-block-size: 36px;
+  }
+}
+
+.ag-entry-form form>.px-button {
+  inline-size: 100%;
+  margin-block-start: 12px;
+  justify-content: space-between;
+}
+
+.ag-empty-welcome .px-text-link {
+  font-size: 13px;
+}
+
+.ag-status-summary+.px-text-link {
+  margin: 0 24px 24px;
+}
+
+.ag-channel-status+.px-text-link {
+  margin: 20px;
+}
+
+.ag-proposal .px-button {
+  margin-block: 8px;
+  margin-inline-end: 8px;
+}
+
+.ag-channel-workflow .px-button {
+  margin-block: 10px;
+  margin-inline-end: 8px;
+}
+
+@media (max-width:650px) {
+  .ag-channel-workflow .px-button {
+    font-size: 12px;
+  }
+  .ag-action-row>.px-button {
+    inline-size: 100%;
+    justify-content: center;
+  }
+}
+
+.ag-lead-assistance>.px-button {
+  font-size: 12px;
+}
+
+.prototype-shell .px-button {
+  font-size: 13px;
+  min-block-size: var(--ws-control-height);
+  padding: 10px 16px;
+  border-radius: var(--ws-radius);
+  font-weight: 650;
+  line-height: 1.5;
+}
+
+.prototype-shell .px-button:disabled {
+  opacity: .55;
+  cursor: not-allowed;
+}
+
+.prototype-shell .px-text-link {
+  font-size: 13px;
+  white-space: normal;
+  line-height: 1.5;
+}
+
+.ag-icon-button {
+  display: grid;
+  place-items: center;
+  inline-size: 44px;
+  block-size: 44px;
+  flex-shrink: 0;
+  border: 1px solid var(--ws-border);
+  border-radius: var(--ws-radius);
+}
+
+.ag-icon-button:hover {
+  background: var(--ws-quiet);
+}
+
+.ag-assistant footer>.px-button:last-child {
+  margin-inline-start: auto;
+}
+
+@media (max-width:650px) {
+  .ag-assistant footer>.px-button {
+    font-size: 13px;
+    flex: 1;
+    padding-inline: 10px;
+    white-space: normal;
+  }
+  .ag-assistant footer>.px-button:last-child {
+    flex-basis: 100%;
+    margin: 0;
+  }
+  .ag-property-next .px-button {
+    inline-size: 100%;
+  }
+}
+
+.ag-promotion-page .ag-channel-workflow .px-text-button {
+  font-size: 13px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  text-align: start;
+}
+
+.ag-promotion-page .ag-channel-workflow .ag-assistant footer .px-button {
+  margin: 0;
+}
+
+.prototype-shell .ag-lead-assistance>.px-button {
+  font-size: 13px;
+}
+
+@media (max-width:768px) {
+  .ag-next-task>.px-button {
+    white-space: normal;
+  }
+}
+
+@media (max-width:650px) {
+  .ag-next-task>.px-button {
+    inline-size: 100%;
+  }
+}

@@ -1,4 +1,5 @@
 'use client';
+import {NativeSelect} from '@/components/ui/field';
 import {usePrototypeCopy} from '@/components/prototype/use-prototype-copy';
 import {useState} from 'react';
 import {Link} from '@/i18n/navigation';
@@ -76,7 +77,7 @@ export function ChannelAnalytics() {const copyText=usePrototypeCopy();
       <div className="crm-filters">
         <label className="px-field">
           {copyText(t('Period', 'الفترة'))}
-          <select
+          <NativeSelect
             value={period}
             onChange={(e) => {
               setPeriod(e.target.value);
@@ -104,20 +105,20 @@ export function ChannelAnalytics() {const copyText=usePrototypeCopy();
             <option value="7">{copyText(t('Last 7 days', 'آخر ٧ أيام'))}</option>
             <option value="30">{copyText(t('Last 30 days', 'آخر ٣٠ يوماً'))}</option>
             <option value="90">{copyText(t('Last 90 days', 'آخر ٩٠ يوماً'))}</option>
-          </select>
+          </NativeSelect>
         </label>
         <label className="px-field">
           {copyText(t('Source', 'المصدر'))}
-          <select value={scope} onChange={(e) => setScope(e.target.value)}>
+          <NativeSelect value={scope} onChange={(e) => setScope(e.target.value)}>
             <option value="All">{copyText(t('All channels', 'كل القنوات'))}</option>
             {leadSources.map((s) => (
               <option key={s} value={s}>{copyText(s)}</option>
             ))}
-          </select>
+          </NativeSelect>
         </label>
         <label className="px-field">
           {copyText(t('Property', 'العقار'))}
-          <select
+          <NativeSelect
             value={property}
             onChange={(e) => setProperty(e.target.value)}
           >
@@ -125,7 +126,7 @@ export function ChannelAnalytics() {const copyText=usePrototypeCopy();
             {Object.keys(state.properties).map((id) => (
               <option key={id} value={id}>{copyText(id)}</option>
             ))}
-          </select>
+          </NativeSelect>
         </label>
         <label className="px-field">
           {copyText(t('From date', 'من تاريخ'))}
@@ -367,14 +368,14 @@ export function ChannelAnalytics() {const copyText=usePrototypeCopy();
         >
           <label className="px-field">
             {copyText(t('Spend source', 'مصدر الإنفاق'))}
-            <select
+            <NativeSelect
               value={spendSource}
               onChange={(e) => setSpendSource(e.target.value as LeadSource)}
             >
               {leadSources.map((s) => (
                 <option key={s} value={s}>{copyText(s)}</option>
               ))}
-            </select>
+            </NativeSelect>
           </label>
           <label className="px-field">
             {copyText(t('Spend date', 'تاريخ الإنفاق'))}
@@ -507,7 +508,7 @@ export function ViewingsPage({initialLead}: {initialLead?: string}) {const copyT
               <div className="px-field-grid">
                 <label className="px-field">
                   {copyText(t('Lead', 'العميل'))}
-                  <select
+                  <NativeSelect
                     value={lead?.id ?? ''}
                     onChange={(e) => {
                       setSelected(e.target.value);
@@ -524,7 +525,7 @@ export function ViewingsPage({initialLead}: {initialLead?: string}) {const copyT
                         {copyText(l.identity.alias)} · {copyText(l.id)}
                       </option>
                     ))}
-                  </select>
+                  </NativeSelect>
                 </label>
                 <label className="px-field">
                   {copyText(t('Linked canonical property', 'العقار الأساسي المرتبط'))}
@@ -555,7 +556,7 @@ export function ViewingsPage({initialLead}: {initialLead?: string}) {const copyT
                 </label>
                 <label className="px-field">
                   {copyText(t('Viewing agent', 'مسؤول المعاينة'))}
-                  <select
+                  <NativeSelect
                     value={agent}
                     onChange={(e) => setAgent(e.target.value)}
                   >
@@ -567,7 +568,7 @@ export function ViewingsPage({initialLead}: {initialLead?: string}) {const copyT
                         {copyText(a)}
                       </option>
                     ))}
-                  </select>
+                  </NativeSelect>
                 </label>
               </div>
               <button className="px-button px-button-dark" disabled={!lead}>

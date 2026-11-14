@@ -1,0 +1,620 @@
+/* workflows/promotion — semantic style owner. */
+.ag-channel-status {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 17px 22px;
+  border-block-end: 1px solid #e7eadd;
+}
+
+.ag-channel-status strong {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.ag-channel-status .px-pill {
+  white-space: normal;
+  text-align: end;
+}
+
+.ag-promotion-property {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background: white;
+  border: 1px solid #dce3d4;
+  padding: 18px 22px;
+  margin-block-end: 35px;
+}
+
+.ag-promotion-property>span {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.ag-promotion-property>a {
+  font-size: 12px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.ag-channel-choice {
+  padding: 15px 10px;
+  display: flex;
+  align-items: start;
+  gap: 11px;
+  border: 1px solid #e1e6d9;
+  margin-block: 9px;
+  cursor: pointer;
+}
+
+.ag-channel-choice input {
+  accent-color: #4d6d43;
+  inline-size: 17px;
+  block-size: 17px;
+  margin-block-start: 2px;
+  flex-shrink: 0;
+}
+
+.ag-channel-choice.chosen {
+  border-color: #839c78;
+  background: #edf2e6;
+}
+
+.ag-channel-choice strong {
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.ag-channel-choice small {
+  display: block;
+  color: #65735a;
+  font-size: 10px;
+  line-height: 1.7;
+  margin-block-start: 5px;
+}
+
+.ag-selection-hint {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.ag-channel-tabs {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  max-inline-size: 100%;
+  margin-block: 28px 20px;
+  padding-block: 8px;
+}
+
+.ag-channel-tabs button {
+  padding: 12px 16px;
+  white-space: nowrap;
+  border: 1px solid #d3ddca;
+  font-size: 12px;
+  background: white;
+}
+
+.ag-channel-tabs button.active {
+  background: #35553e;
+  color: #fff;
+  border-color: #35553e;
+}
+
+.ag-channel-tabs~div[hidden] {
+  display: none;
+}
+
+.ag-channel-tabs~div>.px-section {
+  padding: 25px;
+}
+
+.ag-channel-tabs~div>.px-section>.px-section-head {
+  padding: 0 0 22px;
+}
+
+.ag-channel-setup {
+  border-block: 1px solid #dce3d3;
+  padding-block: 23px;
+  margin-block-end: 28px;
+  font-size: 13px;
+}
+
+.ag-channel-setup strong {
+  font-weight: 500;
+}
+
+.ag-channel-setup p {
+  font-size: 12px;
+  line-height: 1.8;
+  color: #63735c;
+  margin-block: 10px;
+}
+
+.ag-channel-setup .ag-advanced {
+  border: 0;
+  padding-block-end: 0;
+  margin-block-end: 0;
+}
+
+.ag-channel-workflow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-block: 25px 35px;
+}
+
+.ag-channel-workflow>div {
+  min-inline-size: 0;
+}
+
+.ag-channel-workflow h3,.ag-channel-tabs~div>.px-section>h3 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-block: 10px 22px;
+}
+
+.ag-channel-workflow>.px-property-image,.ag-channel-workflow>div>.px-property-image {
+  block-size: 210px;
+  aspect-ratio: auto;
+  margin-block-end: 22px;
+}
+
+.ag-channel-workflow>div>p {
+  font-size: 12px;
+  line-height: 1.8;
+  margin-block: 15px;
+}
+
+.ag-channel-workflow .px-pill {
+  margin: 12px;
+}
+
+.ag-result-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  border-block-start: 1px solid #dce3d3;
+  padding-block: 20px;
+  font-size: 11px;
+  line-height: 1.8;
+}
+
+.ag-result-row details {
+  flex-basis: 100%;
+  color: #627457;
+}
+
+.ag-result-row summary {
+  cursor: pointer;
+}
+
+.ag-promotion-return {
+  padding-block: 20px;
+}
+
+:lang(ar) :is(.ag-entry-story h2,.ag-entry-form h1,.ag-empty-welcome h2,.ag-destination-heading) {
+  letter-spacing: 0;
+  line-height: 1.5;
+}
+
+.ag-entry input,.ag-entry select,.ag-entry textarea,.ag-editor-layout input,.ag-editor-layout select,.ag-editor-layout textarea,.ag-channel-workflow input,.ag-channel-workflow textarea {
+  min-inline-size: 0;
+  max-inline-size: 100%;
+}
+
+.ag-steps button:focus-visible,.ag-channel-tabs button:focus-visible,.ag-channel-choice:has(input:focus-visible) {
+  outline: 2px solid #43653d;
+  outline-offset: 3px;
+}
+
+@media (max-width:1150px) {
+  .ag-channel-workflow {
+    gap: 20px;
+  }
+  .ag-channel-workflow .ag-form-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width:950px) {
+  .ag-channel-workflow {
+    grid-template-columns: 1fr;
+  }
+  .ag-channel-workflow .ag-form-grid {
+    grid-template-columns: repeat(2,minmax(0,1fr));
+  }
+}
+
+@media (max-width:650px) {
+  .ag-promotion-property {
+    flex-wrap: wrap;
+    gap: 14px;
+    padding: 17px;
+  }
+  .ag-promotion-property>span {
+    font-size: 12px;
+  }
+  .ag-promotion-property>a {
+    margin-inline-start: auto;
+    font-size: 11px;
+  }
+  .ag-channel-choice {
+    min-block-size: 65px;
+  }
+  .ag-channel-choice strong {
+    font-size: 13px;
+  }
+  .ag-channel-choice small {
+    font-size: 11px;
+  }
+  .ag-channel-tabs~div>.px-section {
+    padding: 20px 17px;
+  }
+  .ag-channel-workflow .ag-form-grid {
+    grid-template-columns: 1fr;
+  }
+  .ag-result-row {
+    gap: 10px;
+  }
+}
+
+@media (max-width:950px) {
+  .ag-promotion-return {
+    padding-block-end: 85px;
+  }
+}
+
+.ag-promotion-steps {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  padding: 0;
+  margin-block: 0 24px;
+}
+
+.ag-promotion-steps li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--ws-muted);
+  flex: 1;
+}
+
+.ag-promotion-steps li>span {
+  display: grid;
+  place-items: center;
+  inline-size: 26px;
+  block-size: 26px;
+  flex-shrink: 0;
+  border: 1px solid #b7c6b9;
+  border-radius: 50%;
+  font-size: 12px;
+}
+
+.ag-promotion-steps li[aria-current] {
+  color: var(--ws-primary);
+  font-weight: 650;
+}
+
+.ag-promotion-steps li[aria-current]>span,.ag-promotion-steps li.complete>span {
+  background: var(--ws-primary);
+  border-color: var(--ws-primary);
+  color: white;
+}
+
+.ag-promotion-page .ag-promotion-property {
+  margin-block-end: 24px;
+  gap: 16px;
+  padding: 16px 20px;
+}
+
+.ag-promotion-property>span {
+  margin-inline-start: auto;
+}
+
+.ag-goal-picker {
+  border: 0;
+  padding: 0;
+  min-inline-size: 0;
+}
+
+.ag-goal-picker legend {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-block-end: 16px;
+}
+
+.ag-goal-picker>div {
+  display: grid;
+  grid-template-columns: repeat(3,minmax(0,1fr));
+  gap: 16px;
+}
+
+.ag-goal-picker label {
+  display: flex;
+  align-items: start;
+  gap: 12px;
+  padding: 20px 16px;
+  background: var(--ws-surface);
+  border: 1px solid var(--ws-border);
+  border-radius: var(--ws-radius);
+  cursor: pointer;
+  position: relative;
+}
+
+.ag-goal-picker label>svg {
+  flex-shrink: 0;
+  color: var(--ws-muted);
+  margin-block-start: 2px;
+}
+
+.ag-goal-picker input {
+  inline-size: 16px;
+  block-size: 16px;
+  flex-shrink: 0;
+  accent-color: var(--ws-primary);
+  margin-block-start: 4px;
+}
+
+.ag-goal-picker strong {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.ag-goal-picker small {
+  display: block;
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--ws-muted);
+  margin-block-start: 8px;
+}
+
+.ag-goal-picker label.chosen {
+  border-color: var(--ws-primary);
+  background: #edf3e9;
+  box-shadow: inset 0 0 0 1px var(--ws-primary);
+}
+
+.ag-goal-picker label:has(input:focus-visible) {
+  outline: 2px solid var(--ws-focus);
+  outline-offset: 3px;
+}
+
+.ag-focused-channels {
+  padding: 24px 0 0;
+}
+
+.ag-focused-channels h2 {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0 0 8px;
+}
+
+.ag-focused-channels>small {
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--ws-muted);
+}
+
+.ag-focused-channels>div {
+  display: grid;
+  grid-template-columns: repeat(3,minmax(0,1fr));
+  gap: 12px;
+  margin-block-start: 12px;
+}
+
+.ag-focused-channels .ag-channel-choice {
+  margin: 0;
+  padding: 16px;
+  background: var(--ws-surface);
+}
+
+.ag-focused-channels .ag-channel-choice.chosen {
+  background: #edf3e9;
+  border-color: var(--ws-primary);
+}
+
+.ag-focused-channels .ag-channel-choice strong {
+  font-size: 14px;
+}
+
+.ag-focused-channels .ag-channel-choice small {
+  font-size: 12px;
+}
+
+.ag-selected-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-block: 24px 8px;
+}
+
+.ag-promotion-page .ag-channel-tabs {
+  margin-block: 12px 20px;
+  gap: 8px;
+  scroll-margin-block-start: 84px;
+}
+
+.ag-promotion-page [hidden] {
+  display: none;
+}
+
+.ag-promotion-page .ag-channel-tabs button {
+  font-size: 13px;
+  min-block-size: 44px;
+}
+
+.ag-promotion-page .ag-channel-tabs~div>.px-section {
+  padding: 24px;
+}
+
+.ag-promotion-page .ag-channel-tabs~div>.px-section>.px-section-head {
+  padding: 0 0 20px;
+}
+
+.ag-promotion-page .ag-channel-setup {
+  margin-block-end: 20px;
+  padding-block: 16px;
+  display: flex;
+  gap: 12px 24px;
+  flex-wrap: wrap;
+  align-items: start;
+}
+
+.ag-channel-setup>div {
+  flex: 1;
+  min-inline-size: 200px;
+}
+
+.ag-channel-setup>.ag-advanced {
+  flex-basis: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.ag-channel-setup .gm-ack {
+  max-inline-size: 360px;
+}
+
+.ag-promotion-page .ag-channel-setup p {
+  font-size: 13px;
+}
+
+.ag-channel-workflow {
+  gap: 24px;
+}
+
+.ag-promotion-page .ag-channel-workflow h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-block: 0 16px;
+}
+
+.ag-promotion-page .ag-channel-workflow>div:last-child {
+  padding: 20px;
+  background: #f6f8f2;
+  border: 1px solid var(--ws-border);
+  align-self: start;
+  border-radius: var(--ws-radius);
+}
+
+.ag-promotion-page .ag-channel-workflow>div>p {
+  font-size: 14px;
+}
+
+.ag-promotion-page .ag-channel-workflow .px-pill {
+  margin: 0 0 12px;
+}
+
+.ag-promotion-page .ag-listing-preview>.px-property-image {
+  margin: 0 0 16px;
+}
+
+.ag-promotion-page .ag-listing-preview {
+  margin-block: 0 16px;
+}
+
+.ag-promotion-page .ag-listing-preview>p {
+  font-size: 14px;
+}
+
+.ag-promotion-page .ag-promotion-return {
+  padding-block: 24px 0;
+  margin-block-start: 24px;
+  border-block-start: 1px solid var(--ws-border);
+}
+
+.ag-promotion-page .ag-result-row {
+  font-size: 13px;
+}
+
+@media (max-width:1050px) {
+  .ag-goal-picker>div {
+    gap: 12px;
+  }
+  .ag-goal-picker label {
+    padding: 16px 12px;
+    gap: 8px;
+  }
+  .ag-goal-picker label>svg {
+    display: none;
+  }
+}
+
+@media (max-width:768px) {
+  .ag-promotion-steps {
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .ag-promotion-steps li {
+    flex-basis: 28%;
+    font-size: 12px;
+  }
+  .ag-focused-channels>div {
+    grid-template-columns: 1fr;
+  }
+  .ag-promotion-page .ag-channel-workflow {
+    grid-template-columns: 1fr;
+  }
+  .ag-goal-picker>div {
+    grid-template-columns: 1fr;
+  }
+  .ag-goal-picker label {
+    padding: 16px;
+    align-items: center;
+  }
+  .ag-goal-picker label>svg {
+    display: block;
+  }
+  .ag-goal-picker small {
+    margin-block-start: 4px;
+  }
+}
+
+@media (max-width:650px) {
+  .ag-promotion-page .ag-promotion-property {
+    padding: 16px;
+  }
+  .ag-promotion-steps li {
+    flex-basis: 40%;
+  }
+  .ag-promotion-steps li:first-child {
+    display: none;
+  }
+  .ag-goal-picker legend {
+    font-size: 19px;
+  }
+  .ag-promotion-page .ag-channel-tabs~div>.px-section {
+    padding: 20px 16px;
+  }
+  .ag-promotion-page .ag-channel-workflow>div:last-child {
+    padding: 16px;
+  }
+  .ag-promotion-page .ag-promotion-return {
+    padding-block-end: 16px;
+  }
+  .ag-channel-setup .gm-ack {
+    max-inline-size: 100%;
+  }
+  .ag-focused-channels .ag-channel-choice {
+    min-block-size: 72px;
+  }
+}
+
+@media (max-width:768px) {
+  .ag-promotion-page:has(.ag-channel-tabs button) .ag-goal-picker small {
+    display: none;
+  }
+}

@@ -55,7 +55,7 @@ Real browser QA found and corrected a clipped inherited reply button width, flus
 - `lead-workspace.tsx`: intake, table/pipeline, detail, conversation, assignment and reusable CRM controls.
 - `lead-analytics.tsx`: linked viewing workflow and source/property/date reporting with explicit cost inputs.
 - `agency-operations.tsx`: control-tower lead counts and qualification/assignment/conversion summaries derive from shared records.
-- Existing CRM route entry points and `prototype/relationships.tsx` now resolve the integrated components; `prototype/inventory.tsx` connects the property Enquiries tab and contextual intake; browser-created lead IDs resolve after hydration.
+- Existing CRM route entry points resolve the integrated components (`prototype/relationships.tsx` was an unused historical wrapper, removed in Phase 10; active routes import the canonical workspaces directly); `prototype/inventory.tsx` connects the property Enquiries tab and contextual intake; browser-created lead IDs resolve after hydration.
 - `apps/web/tests/e2e/lead-crm.spec.ts`: domain and real browser acceptance, screenshots and axe audits.
 - `openspec/changes/0007-unified-lead-crm/`: proposal, design, acceptance and completed-task evidence; `docs/11-gemini-requirements.md`: updated traceability.
 

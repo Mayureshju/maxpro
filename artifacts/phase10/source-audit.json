@@ -1,0 +1,22 @@
+{
+  "routeRoots": 91,
+  "sourceFiles": 156,
+  "reachableFiles": 153,
+  "findings": [
+    {
+      "file": "lib/api-contracts.ts",
+      "classification": "DOCUMENTED",
+      "reason": "Future Frappe type contracts referenced by docs/12 and docs/25; no implementation."
+    },
+    {
+      "file": "lib/demo-data.ts",
+      "classification": "DOCUMENTED",
+      "reason": "Original design fixture referenced by OpenSpec 0001; preserve historical source."
+    },
+    {
+      "file": "lib/utils.ts",
+      "classification": "DOCUMENTED",
+      "reason": "components.json generator alias; retain compatibility for UI tooling."
+    }
+  ]
+}

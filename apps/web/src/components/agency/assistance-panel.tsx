@@ -1,6 +1,7 @@
 'use client';
 
 import {useEffect,useId,useRef,useState} from 'react';
+import {Button} from '@/components/ui/button';
 import {useLocale} from 'next-intl';
 import {Pencil,Sparkles,X} from 'lucide-react';
 
@@ -28,7 +29,7 @@ export function AssistancePanel({title,sourceKey,sources,fields,acceptLabel,onAc
     {stale&&<p className="gm-error" role="alert">{t('Source changed. This suggestion is out of date. Dismiss it and request a fresh suggestion.','تغيّر المصدر. الاقتراح قديم؛ تجاهله واطلب اقتراحاً جديداً.')}</p>}
     {!snapshot.fields.length?<p className="ag-empty-copy">{emptyMessage||t('No suggestion is available from this source. Add the missing property information or media and try again.','لا يوجد اقتراح متاح من هذا المصدر. أضف معلومات العقار أو الوسائط الناقصة ثم حاول مجدداً.')}</p>:<div className="ag-proposal ag-comparison">{snapshot.fields.map(f=><section key={f.key}><h3>{f.label}</h3><div><span>{t('Before','قبل')}</span><p dir={f.dir||'auto'}>{f.before||t('Empty','فارغ')}</p></div><div><span>{t('Suggested','المقترح')}</span>{editing&&f.editable!==false?<label className="px-field"><span className="sr-only">{t('Edit suggestion','تعديل الاقتراح')} · {f.label}</span><textarea dir={f.dir||'auto'} maxLength={4000} rows={4} value={values[f.key]} onChange={e=>setValues(v=>({...v,[f.key]:e.target.value}))}/></label>:<p dir={f.dir||'auto'}>{values[f.key]}</p>}</div></section>)}</div>}
     {error&&<p className="gm-error" role="alert">{error}</p>}
-   </div><footer><button className="px-button px-button-outline" type="button" onClick={onClose}>{t('Dismiss suggestion','تجاهل الاقتراح')}</button>{snapshot.fields.some(f=>f.editable!==false)&&<button type="button" className="px-button px-button-outline" aria-pressed={editing} onClick={()=>setEditing(!editing)}><Pencil size={15}/>{t('Edit suggestion','تعديل الاقتراح')}</button>}<button type="button" className="px-button px-button-dark" disabled={stale||!snapshot.fields.length} onClick={()=>{if(stale)return;const ok=onAccept(values);if(ok===false)setError(t('Could not accept. Check the values or reload the changed record.','تعذر القبول. تحقق من القيم أو أعد تحميل السجل.'));else onClose();}}>{acceptLabel}</button></footer>
+   </div><footer><Button onClick={onClose}>{t('Dismiss suggestion','تجاهل الاقتراح')}</Button>{snapshot.fields.some(f=>f.editable!==false)&&<Button aria-pressed={editing} onClick={()=>setEditing(!editing)}><Pencil size={15}/>{t('Edit suggestion','تعديل الاقتراح')}</Button>}<Button variant="primary" disabled={stale||!snapshot.fields.length} onClick={()=>{if(stale)return;const ok=onAccept(values);if(ok===false)setError(t('Could not accept. Check the values or reload the changed record.','تعذر القبول. تحقق من القيم أو أعد تحميل السجل.'));else onClose();}}>{acceptLabel}</Button></footer>
   </div>
  </dialog>;
 }

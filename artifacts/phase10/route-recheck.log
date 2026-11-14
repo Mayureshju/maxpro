@@ -1,0 +1,27 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test --grep 'route en/workspace/admin/integrations responds' --repeat-each=3 --timeout=60000 --trace=off
+
+
+Running 6 tests using 4 workers
+
+(node:46684) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:46687) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:46685) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:46686) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 [chromium] › tests/e2e/stability.spec.ts:20:3 › route en/workspace/admin/integrations responds and renders (456ms)
+  ✓  2 [chromium] › tests/e2e/stability.spec.ts:20:3 › route en/workspace/admin/integrations responds and renders (457ms)
+  ✓  4 [chromium] › tests/e2e/stability.spec.ts:20:3 › route en/workspace/admin/integrations responds and renders (456ms)
+  ✓  3 [mobile-chromium] › tests/e2e/stability.spec.ts:20:3 › route en/workspace/admin/integrations responds and renders (473ms)
+(node:46713) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:46712) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  6 [mobile-chromium] › tests/e2e/stability.spec.ts:20:3 › route en/workspace/admin/integrations responds and renders (189ms)
+  ✓  5 [mobile-chromium] › tests/e2e/stability.spec.ts:20:3 › route en/workspace/admin/integrations responds and renders (189ms)
+
+  6 passed (1.9s)

@@ -1,3 +1,4 @@
+import {selectChoice} from './fixtures';
 import {localized} from './fixtures';
 import {resolve} from 'node:path';
 import {readdirSync, mkdirSync, writeFileSync} from 'node:fs';
@@ -418,9 +419,7 @@ for (const locale of ['en', 'ar']) {
     await page
       .getByRole('button', {name: localized(/Save local reply|حفظ الرد المحلي/)})
       .click();
-    await page
-      .getByLabel(/Handover agent|مسؤول التحويل/)
-      .selectOption('Karim Said');
+    await selectChoice(page,page.getByLabel(/Handover agent|مسؤول التحويل/),'Karim Said');
     await page.reload();
     await expect(page.getByRole('log')).toContainText(
       localized('Fictional viewing options'),

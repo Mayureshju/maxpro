@@ -1,0 +1,462 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test
+
+[WebServer] (node:35953) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:35974) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 928 tests using 4 workers
+
+(node:36028) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:36027) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:36029) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:36031) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓    1 [chromium] › tests/e2e/connector-hub.spec.ts:39:1 › internal export contracts handle invalid values, Unicode, XML controls and CSV formulas (11.1s)
+  ✓    2 [chromium] › tests/e2e/campaigns.spec.ts:111:1 › campaign domain: ordered approvals, stale revisions, roles, tenant and setup guards (10.4s)
+  ✓    3 [chromium] › tests/e2e/agency-first.spec.ts:19:1 › agency assistance: only explicitly labelled source facts become proposals (11.1s)
+  ✓    6 [chromium] › tests/e2e/campaigns.spec.ts:152:1 › campaign domain: policy blockers include licensing, review, media, targeted exclusions, numeric facts and caps (8.4s)
+  ✓    5 [chromium] › tests/e2e/connector-hub.spec.ts:49:1 › command guards reject stale approval, unsupported destinations, missing approval and quota bypass (8.5s)
+  ✓    7 [chromium] › tests/e2e/agency-first.spec.ts:25:1 › agency sharing: independent revisions preserve listing queues, campaigns and reviewed copy (9.6s)
+  ✓    9 [chromium] › tests/e2e/connector-hub.spec.ts:58:1 › job migration retains old local history and rejects forged or corrupt attempt metadata (7.8s)
+  ✓    8 [chromium] › tests/e2e/campaigns.spec.ts:173:1 › campaign domain: deterministic bilingual suggestions cite only current canonical facts; accept/reject is audited (7.5s)
+  ✓   12 [chromium] › tests/e2e/campaigns.spec.ts:242:1 › campaign domain: property changes invalidate approvals and stale creative references on recovery (8.2s)
+  ✓   13 [chromium] › tests/e2e/campaigns.spec.ts:262:1 › campaign domain: optional admin, cancel/resume/duplicate and rejection retain independent histories (10.0s)
+  ✓   14 [chromium] › tests/e2e/campaigns.spec.ts:295:1 › campaign domain: Meta and Google attributed lead intake deduplicates and reports actual fictional CRM observations (7.4s)
+  ✓   15 [chromium] › tests/e2e/campaigns.spec.ts:371:1 › campaign domain: migration and corrupted state preserve valid records and strip unknown fields (5.0s)
+  ✘    4 [chromium] › tests/e2e/enterprise-ux.spec.ts:8:2 › enterprise en: property search, no results, clear, Escape and manual keyboard commitment (29.3s)
+(node:36281) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   11 [chromium] › tests/e2e/connector-hub.spec.ts:66:2 › connector smoke en: directory filtering, setup, removal and eligibility (53.2s)
+[WebServer] Error [InvariantError]: Invariant: The client reference manifest for route "/[locale]/workspace/admin/organizations" does not exist. This is a bug in Next.js.
+[WebServer]     at Object.get (.next/server/chunks/7307.js:19:1100)
+[WebServer]     at async p (.next/server/chunks/8419.js:61:44715)
+[WebServer]     at async q (.next/server/chunks/8419.js:62:4601)
+[WebServer] ⨯ Error [InvariantError]: Invariant: The client reference manifest for route "/[locale]/workspace/admin/organizations" does not exist. This is a bug in Next.js.
+[WebServer]     at Object.get (.next/server/chunks/7307.js:19:1100)
+[WebServer]     at async p (.next/server/chunks/8419.js:61:44715)
+[WebServer]     at async q (.next/server/chunks/8419.js:62:4601)
+[WebServer] ⨯ Error [InvariantError]: Invariant: The client reference manifest for route "/[locale]/workspace/admin/organizations" does not exist. This is a bug in Next.js.
+[WebServer]     at Object.get (.next/server/chunks/7307.js:19:1100)
+[WebServer]     at async p (.next/server/chunks/8419.js:61:44715)
+[WebServer]     at async q (.next/server/chunks/8419.js:62:4601)
+  ✘   10 [chromium] › tests/e2e/agency-first.spec.ts:33:1 › agency editing: stale wizard media cannot overwrite another operator and testing roles stay usable (37.9s)
+(node:36322) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] Error [InvariantError]: Invariant: The client reference manifest for route "/[locale]/register" does not exist. This is a bug in Next.js.
+[WebServer]     at Object.get (.next/server/chunks/7307.js:19:1100)
+[WebServer]     at async p (.next/server/chunks/8419.js:61:44715)
+[WebServer]     at async q (.next/server/chunks/8419.js:62:4601)
+[WebServer] ⨯ Error [InvariantError]: Invariant: The client reference manifest for route "/[locale]/register" does not exist. This is a bug in Next.js.
+[WebServer]     at Object.get (.next/server/chunks/7307.js:19:1100)
+[WebServer]     at async p (.next/server/chunks/8419.js:61:44715)
+[WebServer]     at async q (.next/server/chunks/8419.js:62:4601)
+[WebServer] ⨯ Error [InvariantError]: Invariant: The client reference manifest for route "/[locale]/register" does not exist. This is a bug in Next.js.
+[WebServer]     at Object.get (.next/server/chunks/7307.js:19:1100)
+[WebServer]     at async p (.next/server/chunks/8419.js:61:44715)
+[WebServer]     at async q (.next/server/chunks/8419.js:62:4601)
+[WebServer] ⨯ Error: Failed to load static file for page: /500 ENOENT: no such file or directory, open '/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/.next/server/pages/500.html'
+[WebServer]     at ignore-listed frames
+  ✘   16 [chromium] › tests/e2e/campaigns.spec.ts:520:3 › campaign full journey en: canonical selection to grounded creative, approvals and enquiry without seeded campaigns (32.6s)
+(node:36367) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   19 [chromium] › tests/e2e/agency-first.spec.ts:41:2 › agency en: registration → guided property → reviewed suggestions → portal outcome (15.3s)
+  ✘   18 [chromium] › tests/e2e/connector-hub.spec.ts:74:2 › connector smoke en: newly created property drives escaped XML JSON CSV and downloads (43.3s)
+  ✘   17 [chromium] › tests/e2e/enterprise-ux.spec.ts:17:2 › enterprise en: long portfolios scroll, keep RTL alignment and escape mobile overflow (15.6s)
+  ✘   20 [chromium] › tests/e2e/campaigns.spec.ts:520:3 › campaign full journey ar: canonical selection to grounded creative, approvals and enquiry without seeded campaigns (12.3s)
+
+
+  1) [chromium] › tests/e2e/agency-first.spec.ts:33:1 › agency editing: stale wizard media cannot overwrite another operator and testing roles stay usable 
+
+    Test timeout of 20000ms exceeded.
+
+    Error: locator.selectOption: Test timeout of 20000ms exceeded.
+    Call log:
+      - waiting for getByRole('combobox', { name: 'Simulated persona', exact: true })
+
+
+      34 |  await page.goto('/en/workspace/inventory/AQ-10233/edit');await page.locator('.ag-steps button').nth(1).click();const other=await context.newPage();await other.goto('/en/workspace/inventory/AQ-10233/edit?advanced=1');await other.getByRole('textbox',{name:'Title — English',exact:true}).fill('Other operator latest title');await other.getByRole('button',{name:'Save browser-local draft',exact:true}).click();
+      35 |  await page.getByText('Advanced media options',{exact:true}).click();await page.getByRole('checkbox',{name:localized('Show sample agency watermark',true)}).click();await expect(page.getByRole('checkbox',{name:localized('Show sample agency watermark',true)})).not.toBeChecked();await page.getByRole('button',{name:'Save draft',exact:true}).click();await expect(page.locator('main').getByRole('alert')).toContainText('changed');expect((await snapshot(page)).properties['AQ-10233'].facts.titleEn).toBe('Other operator latest title');await other.close();
+    > 36 |  await page.goto('/en/workspace/settings/demo');const persona=page.getByRole('combobox',{name:'Simulated persona',exact:true});await persona.selectOption('agent');await expect(persona).toBeEnabled();await persona.selectOption('owner');await expect(persona).toHaveValue('owner');
+         |                                                                                                                                                                                                                      ^
+      37 | });
+      38 |
+      39 | for(const locale of ['en','ar']){
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/agency-first.spec.ts:36:214
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/agency-first-agency-editin-ce3a0-d-testing-roles-stay-usable-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/agency-first-agency-editin-ce3a0-d-testing-roles-stay-usable-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/agency-first-agency-editin-ce3a0-d-testing-roles-stay-usable-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/agency-first-agency-editin-ce3a0-d-testing-roles-stay-usable-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/e2e/agency-first.spec.ts:41:2 › agency en: registration → guided property → reviewed suggestions → portal outcome 
+
+    TimeoutError: locator.fill: Timeout 12000ms exceeded.
+    Call log:
+      - waiting for getByRole('textbox', { name: 'Agency name', exact: true })
+
+
+      41 |  test(`agency ${locale}: registration → guided property → reviewed suggestions → portal outcome`,async({page},info)=>{
+      42 |   test.setTimeout(90000);const requests:string[]=[];page.on('request',r=>{if(!['GET','HEAD'].includes(r.method())&&!r.url().includes('_next'))requests.push(r.url());});
+    > 43 |   await page.goto(`/${locale}/register`);await page.getByRole('textbox',{name:t('Agency name','اسم الوكالة'),exact:true}).fill('Demo Courtyard Agency');
+         |                                                                                                                           ^
+      44 |   await page.getByRole('textbox',{name:t('Demo account identity','هوية الحساب التجريبي'),exact:true}).fill('Demo Courtyard Owner');await page.getByRole('button',{name:t('Create demo agency','إنشاء وكالة تجريبية'),exact:true}).click();
+      45 |   await expect(page).toHaveURL(new RegExp(`/${locale}/workspace$`));await expect(page.locator('.agency-identity')).toContainText('Demo Courtyard Agency');let state=await snapshot(page);const org=state.organization.activeOrganizationId!;expect(state.properties).toEqual({});expect(state.organization.actor).toBe('owner');expect(state.organization.members.find(m=>m.organizationId===org)?.alias).toBe('Demo Courtyard Owner');
+      46 |   await page.reload();await expect(page.locator('.agency-identity')).toContainText('Demo Courtyard Agency');
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/agency-first.spec.ts:43:123
+
+    Error: Unexpected browser errors
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 4
+
+    - Array []
+    + Array [
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    + ]
+
+       at fixtures.ts:14
+
+      12 |   page.on('console',message=>{if(message.type()==='error')errors.push(message.text());});
+      13 |   await use();
+    > 14 |   expect(errors,'Unexpected browser errors').toEqual([]);
+         |                                              ^
+      15 |  },{auto:true}],
+      16 | });
+      17 | export {expect};
+        at Object.exports.test._test.test.extend.browserErrors.auto (/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/fixtures.ts:14:46)
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/agency-first-agency-en-reg-284c8-uggestions-→-portal-outcome-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/agency-first-agency-en-reg-284c8-uggestions-→-portal-outcome-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/agency-first-agency-en-reg-284c8-uggestions-→-portal-outcome-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/agency-first-agency-en-reg-284c8-uggestions-→-portal-outcome-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [chromium] › tests/e2e/campaigns.spec.ts:520:3 › campaign full journey en: canonical selection to grounded creative, approvals and enquiry without seeded campaigns 
+
+    Test timeout of 20000ms exceeded.
+
+    Error: locator.check: Test timeout of 20000ms exceeded.
+    Call log:
+      - waiting for getByRole('checkbox')
+
+
+      566 |     expect(c.input.copyEn).toContain("247");
+      567 |     await page.goto(`/${locale}/workspace/hub/connectors/meta-catalog`);
+    > 568 |     await page.getByRole("checkbox").check();
+          |                                      ^
+      569 |     await page.getByRole("button", { name: localized("Prepare demo connector") }).click();
+      570 |     await page.goto(`/${locale}/workspace/campaigns/${c.id}`);
+      571 |     await approveUI(page);
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/campaigns.spec.ts:568:38
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/campaigns-campaign-full-jo-e933a-ry-without-seeded-campaigns-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/campaigns-campaign-full-jo-e933a-ry-without-seeded-campaigns-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/campaigns-campaign-full-jo-e933a-ry-without-seeded-campaigns-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/campaigns-campaign-full-jo-e933a-ry-without-seeded-campaigns-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [chromium] › tests/e2e/enterprise-ux.spec.ts:8:2 › enterprise en: property search, no results, clear, Escape and manual keyboard commitment 
+
+    Test timeout of 20000ms exceeded.
+
+    Error: ENOENT: no such file or directory, open '/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/test-results/.playwright-artifacts-3/a8fdbf7d9b021adefb637c48c246f24e.zip'
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/enterprise-ux-enterprise-e-09178--manual-keyboard-commitment-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/enterprise-ux-enterprise-e-09178--manual-keyboard-commitment-chromium/error-context.md
+
+  5) [chromium] › tests/e2e/enterprise-ux.spec.ts:17:2 › enterprise en: long portfolios scroll, keep RTL alignment and escape mobile overflow 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByRole('combobox', { name: 'Selected property', exact: true })
+    Expected: visible
+    Timeout: 8000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByRole('combobox', { name: 'Selected property', exact: true }) with timeout 8000ms
+      - waiting for getByRole('combobox', { name: 'Selected property', exact: true })
+
+
+      18 |   test.setTimeout(40000);
+      19 |   await page.goto(`/${locale}/workspace/publish?property=AQ-10233`);
+    > 20 |   await expect(page.getByRole('combobox',{name:t('Selected property','العقار المختار'),exact:true})).toBeVisible();await page.evaluate((state)=>{const key='maxpro-gemini-v3-demo-state';for(let i=0;i<40;i++){const id=`AQ-${90000+i}`,p=structuredClone(state.properties['AQ-10233']);p.id=id;p.facts.titleEn=`Portfolio ${i} · ${'Long property name '.repeat(6)}`;p.facts.titleAr=`عقار ${i} · ${'عنوان عقار طويل '.repeat(6)}`;state.properties[id]=p;}localStorage.setItem(key,JSON.stringify(state));},createDemoStore().getSnapshot().state);await page.reload();
+         |                                                                                                      ^
+      21 |   for(const width of [1280,1024,768,375,320]){
+      22 |    await page.setViewportSize({width,height:812});const input=page.getByRole('combobox',{name:t('Selected property','العقار المختار'),exact:true});await input.focus();await input.click();await expect(page.getByRole('option')).toHaveCount(46);await expect.poll(async()=>{const b=await page.locator('.ui-combobox-popup').boundingBox();return b!.x>=0&&b!.x+b!.width<=width+1&&b!.y>=0&&b!.y+b!.height<=813;}).toBe(true);
+      23 |    const box=await page.locator('.ui-combobox-popup').boundingBox(),field=await page.locator('.ui-combobox').boundingBox();expect(box!.x).toBeGreaterThanOrEqual(0);expect(box!.x+box!.width).toBeLessThanOrEqual(width);expect(box!.y).toBeGreaterThanOrEqual(0);expect(box!.y+box!.height).toBeLessThanOrEqual(813);expect(Math.abs(box!.x-field!.x)).toBeLessThanOrEqual(1);
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/enterprise-ux.spec.ts:20:102
+
+    Error: Unexpected browser errors
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  -  1
+    + Received  + 19
+
+    - Array []
+    + Array [
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    + ]
+
+       at fixtures.ts:14
+
+      12 |   page.on('console',message=>{if(message.type()==='error')errors.push(message.text());});
+      13 |   await use();
+    > 14 |   expect(errors,'Unexpected browser errors').toEqual([]);
+         |                                              ^
+      15 |  },{auto:true}],
+      16 | });
+      17 | export {expect};
+        at Object.exports.test._test.test.extend.browserErrors.auto (/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/fixtures.ts:14:46)
+
+    Error: apiRequestContext._wrapApiCall: ENOENT: no such file or directory, copyfile '/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/test-results/.playwright-artifacts-4/traces/03b74b49637f21c65f11-3569f7fb77de83873f0c-recording1.network' -> '/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/test-results/.playwright-artifacts-4/traces/03b74b49637f21c65f11-3569f7fb77de83873f0c-recording1-pwnetcopy-1.network'
+
+    Error: browserContext._wrapApiCall: ENOENT: no such file or directory, open '/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/test-results/.playwright-artifacts-4/traces/03b74b49637f21c65f11-3569f7fb77de83873f0c.trace'
+
+    Error: ENOENT: no such file or directory, open '/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/test-results/.playwright-artifacts-4/4198c8ededdefbe293c6eca8c41531c5.zip'
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/enterprise-ux-enterprise-e-9f681--and-escape-mobile-overflow-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [chromium] › tests/e2e/campaigns.spec.ts:520:3 › campaign full journey ar: canonical selection to grounded creative, approvals and enquiry without seeded campaigns 
+
+    Test was interrupted.
+
+    Error: Unexpected browser errors
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  -  1
+    + Received  + 20
+
+    - Array []
+    + Array [
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    + ]
+
+       at fixtures.ts:14
+
+      12 |   page.on('console',message=>{if(message.type()==='error')errors.push(message.text());});
+      13 |   await use();
+    > 14 |   expect(errors,'Unexpected browser errors').toEqual([]);
+         |                                              ^
+      15 |  },{auto:true}],
+      16 | });
+      17 | export {expect};
+        at Object.exports.test._test.test.extend.browserErrors.auto (/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/fixtures.ts:14:46)
+
+    Error: locator.click: Test ended.
+    Call log:
+      - waiting for getByRole('button', { name: /(?:Save & continue|حفظ ومتابعة|حفظ ومتابعة)/ })
+
+
+      532 |     await page
+      533 |       .getByRole("button", { name: localized(/Save & continue|حفظ ومتابعة/) })
+    > 534 |       .click();
+          |        ^
+      535 |     await expect(page).toHaveURL(/DEMO-CAMPAIGN-/);
+      536 |     for (const kind of ["headline", "copy"]) {
+      537 |       await page.getByLabel(/Suggestion type|نوع المقترح/).selectOption(kind);
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/campaigns.spec.ts:534:8
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/campaigns-campaign-full-jo-b4e02-ry-without-seeded-campaigns-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/campaigns-campaign-full-jo-b4e02-ry-without-seeded-campaigns-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/campaigns-campaign-full-jo-b4e02-ry-without-seeded-campaigns-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/campaigns-campaign-full-jo-b4e02-ry-without-seeded-campaigns-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  7) [chromium] › tests/e2e/connector-hub.spec.ts:74:2 › connector smoke en: newly created property drives escaped XML JSON CSV and downloads 
+
+    Test was interrupted.
+
+    Error: Unexpected browser errors
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  -  1
+    + Received  + 51
+
+    - Array []
+    + Array [
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "ChunkLoadError: Loading chunk 3038 failed.
+    + (error: http://localhost:3210/_next/static/chunks/3038-36a23e7a1f9b15d4.js)
+    +     at s.f.j (http://localhost:3210/_next/static/chunks/webpack-db216dcaeed73e2e.js:1:2748)
+    +     at http://localhost:3210/_next/static/chunks/webpack-db216dcaeed73e2e.js:1:1197
+    +     at Array.reduce (<anonymous>)
+    +     at s.e (http://localhost:3210/_next/static/chunks/webpack-db216dcaeed73e2e.js:1:1176)
+    +     at c (http://localhost:3210/_next/static/chunks/8598-f89f6cd0c2ce68d7.js:1:12922)
+    +     at http://localhost:3210/_next/static/chunks/8598-f89f6cd0c2ce68d7.js:1:28974
+    +     at http://localhost:3210/_next/static/chunks/8598-f89f6cd0c2ce68d7.js:1:29186
+    +     at t (http://localhost:3210/_next/static/chunks/8598-f89f6cd0c2ce68d7.js:1:30237)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "ChunkLoadError: Loading chunk 1618 failed.
+    + (error: http://localhost:3210/_next/static/chunks/1618-3fddd06b28c4906a.js)
+    +     at s.f.j (http://localhost:3210/_next/static/chunks/webpack-db216dcaeed73e2e.js:1:2748)
+    +     at http://localhost:3210/_next/static/chunks/webpack-db216dcaeed73e2e.js:1:1197
+    +     at Array.reduce (<anonymous>)
+    +     at s.e (http://localhost:3210/_next/static/chunks/webpack-db216dcaeed73e2e.js:1:1176)
+    +     at c (http://localhost:3210/_next/static/chunks/8598-f89f6cd0c2ce68d7.js:1:12922)
+    +     at http://localhost:3210/_next/static/chunks/8598-f89f6cd0c2ce68d7.js:1:28974
+    +     at http://localhost:3210/_next/static/chunks/8598-f89f6cd0c2ce68d7.js:1:29186
+    +     at t (http://localhost:3210/_next/static/chunks/8598-f89f6cd0c2ce68d7.js:1:30237)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    +   "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    + ]
+
+       at fixtures.ts:14
+
+      12 |   page.on('console',message=>{if(message.type()==='error')errors.push(message.text());});
+      13 |   await use();
+    > 14 |   expect(errors,'Unexpected browser errors').toEqual([]);
+         |                                              ^
+      15 |  },{auto:true}],
+      16 | });
+      17 | export {expect};
+        at Object.exports.test._test.test.extend.browserErrors.auto (/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/fixtures.ts:14:46)
+
+    Error: locator.fill: Test ended.
+    Call log:
+      - waiting for getByRole('textbox', { name: /^(?:Title — English|العنوان — الإنجليزية)$/ })
+
+
+      75 |   test.setTimeout(60000);
+      76 |   await page.goto(`/${locale}/workspace/inventory/new`);await page.getByRole('button',{name:localized(/Create empty draft|إنشاء مسودة فارغة/)}).click();await expect(page).toHaveURL(/DEMO-.*\/edit$/);await page.goto(`${page.url()}?advanced=1`);const id=page.url().split('/').at(-2)!;
+    > 77 |   const title='=SUM(1,2) "Courtyard" <&>';await page.getByRole('textbox',{name:localized("Title — English",true),exact:true}).fill(title);await page.getByRole('textbox',{name:localized('العنوان بالعربية',true),exact:true}).fill('عقار الفناء 🏡');await page.getByRole('spinbutton',{name:localized("Price (QAR)",true),exact:true}).fill('9750');await page.getByRole('button',{name:localized(save)}).click();
+         |                                                                                                                               ^
+      78 |   await page.goto(`/${locale}/workspace/hub/feeds?property=${id}`);await expect(page.getByRole('combobox',{name:localized("Canonical property",true),exact:true})).toHaveValue(id);const payload=page.getByLabel(localized("Generated example payload"));await expect(payload).toContainText(localized('&lt;&amp;&gt;'));await expect(payload).toContainText(localized('عقار الفناء 🏡'));await expect(page.getByRole('region',{name:localized("Mapped property fields")})).toContainText(localized('Required example value missing or invalid'));
+      79 |   const xml=await payload.innerText();expect(await page.evaluate(xml=>new DOMParser().parseFromString(xml,'application/xml').querySelector('parsererror')?.textContent??null,xml)).toBeNull();
+      80 |   await page.getByRole('combobox',{name:localized("Preview format")}).selectOption('json');const data=JSON.parse(await payload.innerText());expect(data.property.property_finder_example_title_en).toBe(title);expect(data.property.property_finder_example_price_qar).toBe(9750);expect(data.property_revision).toBe(2);expect(data.remote_sent).toBe(false);
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/connector-hub.spec.ts:77:127
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/connector-hub-connector-sm-0099a--XML-JSON-CSV-and-downloads-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/connector-hub-connector-sm-0099a--XML-JSON-CSV-and-downloads-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/connector-hub-connector-sm-0099a--XML-JSON-CSV-and-downloads-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/connector-hub-connector-sm-0099a--XML-JSON-CSV-and-downloads-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5 failed
+    [chromium] › tests/e2e/agency-first.spec.ts:33:1 › agency editing: stale wizard media cannot overwrite another operator and testing roles stay usable 
+    [chromium] › tests/e2e/agency-first.spec.ts:41:2 › agency en: registration → guided property → reviewed suggestions → portal outcome 
+    [chromium] › tests/e2e/campaigns.spec.ts:520:3 › campaign full journey en: canonical selection to grounded creative, approvals and enquiry without seeded campaigns 
+    [chromium] › tests/e2e/enterprise-ux.spec.ts:8:2 › enterprise en: property search, no results, clear, Escape and manual keyboard commitment 
+    [chromium] › tests/e2e/enterprise-ux.spec.ts:17:2 › enterprise en: long portfolios scroll, keep RTL alignment and escape mobile overflow 
+  2 interrupted
+    [chromium] › tests/e2e/campaigns.spec.ts:520:3 › campaign full journey ar: canonical selection to grounded creative, approvals and enquiry without seeded campaigns 
+    [chromium] › tests/e2e/connector-hub.spec.ts:74:2 › connector smoke en: newly created property drives escaped XML JSON CSV and downloads 
+  908 did not run
+  13 passed (3.0m)
+ ELIFECYCLE  Command failed with exit code 130.

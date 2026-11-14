@@ -1,0 +1,2602 @@
+[
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/workspace",
+    "overflow": false,
+    "heading": "Your agency, at a glance.",
+    "selects": [],
+    "controls": []
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/workspace/inventory/AQ-10233/edit",
+    "overflow": false,
+    "heading": "Build a better property record.",
+    "selects": [
+      {
+        "name": "Property type",
+        "options": [
+          {
+            "value": "Apartment",
+            "label": "Apartment"
+          },
+          {
+            "value": "Villa",
+            "label": "Villa"
+          },
+          {
+            "value": "Compound",
+            "label": "Compound"
+          },
+          {
+            "value": "Commercial office",
+            "label": "Commercial office"
+          },
+          {
+            "value": "Penthouse",
+            "label": "Penthouse"
+          },
+          {
+            "value": "Land",
+            "label": "Land"
+          },
+          {
+            "value": "Studio",
+            "label": "Studio"
+          },
+          {
+            "value": "Townhouse",
+            "label": "Townhouse"
+          }
+        ],
+        "value": "Apartment",
+        "height": 44
+      }
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 59,
+        "name": "1Basic information"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 59,
+        "name": "2Photos & details"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 59,
+        "name": "3AI assistanceOptional"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 59,
+        "name": "4Review & save"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "height": 16,
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "height": 16,
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "height": 44,
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "height": 44,
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "number",
+        "height": 44,
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "number",
+        "height": 44,
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "number",
+        "height": 44,
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "number",
+        "height": 44,
+        "name": ""
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "height": 112,
+        "name": "Fictional built-in property example. No owner or documents verified."
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 44,
+        "name": "Propose facts from notes"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 36,
+        "name": "Review facts & languages"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 36,
+        "name": "Explain blockers"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 44,
+        "name": "Save draft"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 44,
+        "name": "Continue"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/workspace/publish?property=AQ-10233",
+    "overflow": false,
+    "heading": "Publish & Promote",
+    "selects": [],
+    "controls": [
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "height": 42,
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "height": 16,
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "height": 16,
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "height": 16,
+        "name": ""
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/workspace/campaigns/new",
+    "overflow": false,
+    "heading": "Start with the canonical property.",
+    "selects": [
+      {
+        "name": "Local demo role",
+        "options": [
+          {
+            "value": "editor",
+            "label": "Editor"
+          },
+          {
+            "value": "policy-reviewer",
+            "label": "Policy reviewer"
+          },
+          {
+            "value": "advertiser",
+            "label": "Advertiser"
+          },
+          {
+            "value": "admin",
+            "label": "MaxPro administrator"
+          }
+        ],
+        "value": "editor",
+        "height": 44
+      },
+      {
+        "name": "Campaign objective",
+        "options": [
+          {
+            "value": "enquiries",
+            "label": "Property enquiries"
+          },
+          {
+            "value": "awareness",
+            "label": "Property awareness"
+          },
+          {
+            "value": "conversations",
+            "label": "Conversations"
+          }
+        ],
+        "value": "enquiries",
+        "height": 44
+      },
+      {
+        "name": "Proposed platform",
+        "options": [
+          {
+            "value": "meta-catalog",
+            "label": "Meta"
+          },
+          {
+            "value": "google-ads",
+            "label": "Google Ads / PMax (planning only)"
+          }
+        ],
+        "value": "meta-catalog",
+        "height": 44
+      },
+      {
+        "name": "Conversion goal",
+        "options": [
+          {
+            "value": "enquiry",
+            "label": "Enquiry"
+          },
+          {
+            "value": "qualified-lead",
+            "label": "Qualified lead"
+          },
+          {
+            "value": "viewing-request",
+            "label": "Viewing request"
+          }
+        ],
+        "value": "enquiry",
+        "height": 44
+      },
+      {
+        "name": "Proposed targeting",
+        "options": [
+          {
+            "value": "broad-housing",
+            "label": "Broad housing review"
+          },
+          {
+            "value": "age-exclusion",
+            "label": "Age exclusion — unsupported"
+          },
+          {
+            "value": "sensitive-interests",
+            "label": "Sensitive interests — unsupported"
+          }
+        ],
+        "value": "broad-housing",
+        "height": 44
+      },
+      {
+        "name": "Suggestion type",
+        "options": [
+          {
+            "value": "copy",
+            "label": "Bilingual copy"
+          },
+          {
+            "value": "headline",
+            "label": "Headline alternative"
+          },
+          {
+            "value": "features",
+            "label": "Feature highlighting"
+          },
+          {
+            "value": "objective",
+            "label": "Objective recommendation"
+          },
+          {
+            "value": "creative",
+            "label": "Creative selection"
+          },
+          {
+            "value": "budget",
+            "label": "Budget scenarios"
+          },
+          {
+            "value": "summary",
+            "label": "Weekly local summary"
+          }
+        ],
+        "value": "copy",
+        "height": 44
+      }
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 47.5,
+        "name": "01Property & objective"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 47.5,
+        "name": "02Bilingual copy"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 47.5,
+        "name": "03Creative review"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 47.5,
+        "name": "04Policy review"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 47.5,
+        "name": "05Budget & schedule"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 47.5,
+        "name": "06Approvals & simulation"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "height": 42,
+        "name": ""
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 44,
+        "name": "Create campaign draft"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 44,
+        "name": "Save & continue"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 44,
+        "name": "Prepare simulated suggestion"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/workspace/settings",
+    "overflow": false,
+    "heading": "Agency settings",
+    "selects": [],
+    "controls": []
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/workspace/leads",
+    "overflow": false,
+    "heading": "Lead manager",
+    "selects": [
+      {
+        "name": "Source",
+        "options": [
+          {
+            "value": "All",
+            "label": "All"
+          },
+          {
+            "value": "Website",
+            "label": "Website"
+          },
+          {
+            "value": "Property Finder",
+            "label": "Property Finder"
+          },
+          {
+            "value": "Qatar Living",
+            "label": "Qatar Living"
+          },
+          {
+            "value": "Meta Lead Ads",
+            "label": "Meta Lead Ads"
+          },
+          {
+            "value": "WhatsApp",
+            "label": "WhatsApp"
+          }
+        ],
+        "value": "All",
+        "height": 44
+      },
+      {
+        "name": "Property",
+        "options": [
+          {
+            "value": "All",
+            "label": "All"
+          },
+          {
+            "value": "AQ-10231",
+            "label": "AQ-10231 · Marina-facing apartment"
+          },
+          {
+            "value": "AQ-10233",
+            "label": "AQ-10233 · Freehold residence, Viva Bahriya"
+          },
+          {
+            "value": "AQ-10241",
+            "label": "AQ-10241 · Courtyard townhouse"
+          },
+          {
+            "value": "AQ-10244",
+            "label": "AQ-10244 · Penthouse with skyline terrace"
+          },
+          {
+            "value": "AQ-10251",
+            "label": "AQ-10251 · Family villa with private garden"
+          },
+          {
+            "value": "AQ-10256",
+            "label": "AQ-10256 · Bright city studio"
+          }
+        ],
+        "value": "All",
+        "height": 44
+      },
+      {
+        "name": "Assignee",
+        "options": [
+          {
+            "value": "All",
+            "label": "All"
+          },
+          {
+            "value": "Unassigned",
+            "label": "Unassigned"
+          },
+          {
+            "value": "Yousef Al-Marri",
+            "label": "Yousef Al-Marri"
+          },
+          {
+            "value": "Fatima Noor",
+            "label": "Fatima Noor"
+          },
+          {
+            "value": "Karim Said",
+            "label": "Karim Said"
+          },
+          {
+            "value": "Mariam Ahmed",
+            "label": "Mariam Ahmed"
+          },
+          {
+            "value": "Demo Manager",
+            "label": "Demo Manager"
+          },
+          {
+            "value": "Demo Landlord",
+            "label": "Demo Landlord"
+          },
+          {
+            "value": "Demo Broker",
+            "label": "Demo Broker"
+          }
+        ],
+        "value": "All",
+        "height": 44
+      },
+      {
+        "name": "Stage",
+        "options": [
+          {
+            "value": "All",
+            "label": "All"
+          },
+          {
+            "value": "New",
+            "label": "New"
+          },
+          {
+            "value": "Contacted",
+            "label": "Contacted"
+          },
+          {
+            "value": "Qualified",
+            "label": "Qualified"
+          },
+          {
+            "value": "Viewing",
+            "label": "Viewing"
+          },
+          {
+            "value": "Won",
+            "label": "Won"
+          },
+          {
+            "value": "Lost",
+            "label": "Lost"
+          }
+        ],
+        "value": "All",
+        "height": 44
+      },
+      {
+        "name": "Priority",
+        "options": [
+          {
+            "value": "All",
+            "label": "All"
+          },
+          {
+            "value": "Normal",
+            "label": "Normal"
+          },
+          {
+            "value": "High",
+            "label": "High"
+          }
+        ],
+        "value": "All",
+        "height": 44
+      },
+      {
+        "name": "Qualification",
+        "options": [
+          {
+            "value": "All",
+            "label": "All"
+          },
+          {
+            "value": "Unreviewed",
+            "label": "Unreviewed"
+          },
+          {
+            "value": "Qualified",
+            "label": "Qualified"
+          },
+          {
+            "value": "Not qualified",
+            "label": "Not qualified"
+          }
+        ],
+        "value": "All",
+        "height": 44
+      }
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "height": 44,
+        "name": "Lead intake simulator"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "height": 44,
+        "name": "Table"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "height": 44,
+        "name": "Pipeline"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 37.5,
+        "name": "Needs assignment · 2"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 37.5,
+        "name": "New enquiries · 2"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "height": 44,
+        "name": ""
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "height": 44,
+        "name": "Reset filters"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/workspace",
+    "overflow": false,
+    "heading": "Your agency, at a glance.",
+    "selects": [],
+    "controls": []
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/workspace/inventory/AQ-10233/edit",
+    "overflow": false,
+    "heading": "Build a better property record.",
+    "selects": [
+      {
+        "name": "Property type",
+        "options": [
+          {
+            "value": "Apartment",
+            "label": "Apartment"
+          },
+          {
+            "value": "Villa",
+            "label": "Villa"
+          },
+          {
+            "value": "Compound",
+            "label": "Compound"
+          },
+          {
+            "value": "Commercial office",
+            "label": "Commercial office"
+          },
+          {
+            "value": "Penthouse",
+            "label": "Penthouse"
+          },
+          {
+            "value": "Land",
+            "label": "Land"
+          },
+          {
+            "value": "Studio",
+            "label": "Studio"
+          },
+          {
+            "value": "Townhouse",
+            "label": "Townhouse"
+          }
+        ],
+        "value": "Apartment",
+        "height": 46
+      }
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 64,
+        "name": "1Basic information"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 64,
+        "name": "2Photos & details"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 71.5,
+        "name": "3AI assistanceOptional"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 71.5,
+        "name": "4Review & save"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "height": 16,
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "height": 16,
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "height": 46,
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "height": 46,
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "number",
+        "height": 46,
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "number",
+        "height": 46,
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "number",
+        "height": 46,
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "number",
+        "height": 46,
+        "name": ""
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "height": 118,
+        "name": "Fictional built-in property example. No owner or documents verified."
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 44,
+        "name": "Propose facts from notes"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 52.28125,
+        "name": "Review facts & languages"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 36,
+        "name": "Explain blockers"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 44,
+        "name": "Save draft"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 44,
+        "name": "Continue"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/workspace/publish?property=AQ-10233",
+    "overflow": false,
+    "heading": "Publish & Promote",
+    "selects": [],
+    "controls": [
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "height": 42,
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "height": 16,
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "height": 16,
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "height": 16,
+        "name": ""
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/workspace/campaigns/new",
+    "overflow": false,
+    "heading": "Start with the canonical property.",
+    "selects": [
+      {
+        "name": "Local demo role",
+        "options": [
+          {
+            "value": "editor",
+            "label": "Editor"
+          },
+          {
+            "value": "policy-reviewer",
+            "label": "Policy reviewer"
+          },
+          {
+            "value": "advertiser",
+            "label": "Advertiser"
+          },
+          {
+            "value": "admin",
+            "label": "MaxPro administrator"
+          }
+        ],
+        "value": "editor",
+        "height": 46
+      },
+      {
+        "name": "Campaign objective",
+        "options": [
+          {
+            "value": "enquiries",
+            "label": "Property enquiries"
+          },
+          {
+            "value": "awareness",
+            "label": "Property awareness"
+          },
+          {
+            "value": "conversations",
+            "label": "Conversations"
+          }
+        ],
+        "value": "enquiries",
+        "height": 46
+      },
+      {
+        "name": "Proposed platform",
+        "options": [
+          {
+            "value": "meta-catalog",
+            "label": "Meta"
+          },
+          {
+            "value": "google-ads",
+            "label": "Google Ads / PMax (planning only)"
+          }
+        ],
+        "value": "meta-catalog",
+        "height": 46
+      },
+      {
+        "name": "Conversion goal",
+        "options": [
+          {
+            "value": "enquiry",
+            "label": "Enquiry"
+          },
+          {
+            "value": "qualified-lead",
+            "label": "Qualified lead"
+          },
+          {
+            "value": "viewing-request",
+            "label": "Viewing request"
+          }
+        ],
+        "value": "enquiry",
+        "height": 46
+      },
+      {
+        "name": "Proposed targeting",
+        "options": [
+          {
+            "value": "broad-housing",
+            "label": "Broad housing review"
+          },
+          {
+            "value": "age-exclusion",
+            "label": "Age exclusion — unsupported"
+          },
+          {
+            "value": "sensitive-interests",
+            "label": "Sensitive interests — unsupported"
+          }
+        ],
+        "value": "broad-housing",
+        "height": 46
+      },
+      {
+        "name": "Suggestion type",
+        "options": [
+          {
+            "value": "copy",
+            "label": "Bilingual copy"
+          },
+          {
+            "value": "headline",
+            "label": "Headline alternative"
+          },
+          {
+            "value": "features",
+            "label": "Feature highlighting"
+          },
+          {
+            "value": "objective",
+            "label": "Objective recommendation"
+          },
+          {
+            "value": "creative",
+            "label": "Creative selection"
+          },
+          {
+            "value": "budget",
+            "label": "Budget scenarios"
+          },
+          {
+            "value": "summary",
+            "label": "Weekly local summary"
+          }
+        ],
+        "value": "copy",
+        "height": 46
+      }
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 47.5,
+        "name": "01Property & objective"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 47.5,
+        "name": "02Bilingual copy"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 47.5,
+        "name": "03Creative review"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 47.5,
+        "name": "04Policy review"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 47.5,
+        "name": "05Budget & schedule"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 47.5,
+        "name": "06Approvals & simulation"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "height": 42,
+        "name": ""
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 44,
+        "name": "Create campaign draft"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 44,
+        "name": "Save & continue"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 44,
+        "name": "Prepare simulated suggestion"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/workspace/settings",
+    "overflow": false,
+    "heading": "Agency settings",
+    "selects": [],
+    "controls": []
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/workspace/leads",
+    "overflow": false,
+    "heading": "Lead manager",
+    "selects": [
+      {
+        "name": "Source",
+        "options": [
+          {
+            "value": "All",
+            "label": "All"
+          },
+          {
+            "value": "Website",
+            "label": "Website"
+          },
+          {
+            "value": "Property Finder",
+            "label": "Property Finder"
+          },
+          {
+            "value": "Qatar Living",
+            "label": "Qatar Living"
+          },
+          {
+            "value": "Meta Lead Ads",
+            "label": "Meta Lead Ads"
+          },
+          {
+            "value": "WhatsApp",
+            "label": "WhatsApp"
+          }
+        ],
+        "value": "All",
+        "height": 46
+      },
+      {
+        "name": "Property",
+        "options": [
+          {
+            "value": "All",
+            "label": "All"
+          },
+          {
+            "value": "AQ-10231",
+            "label": "AQ-10231 · Marina-facing apartment"
+          },
+          {
+            "value": "AQ-10233",
+            "label": "AQ-10233 · Freehold residence, Viva Bahriya"
+          },
+          {
+            "value": "AQ-10241",
+            "label": "AQ-10241 · Courtyard townhouse"
+          },
+          {
+            "value": "AQ-10244",
+            "label": "AQ-10244 · Penthouse with skyline terrace"
+          },
+          {
+            "value": "AQ-10251",
+            "label": "AQ-10251 · Family villa with private garden"
+          },
+          {
+            "value": "AQ-10256",
+            "label": "AQ-10256 · Bright city studio"
+          }
+        ],
+        "value": "All",
+        "height": 46
+      },
+      {
+        "name": "Assignee",
+        "options": [
+          {
+            "value": "All",
+            "label": "All"
+          },
+          {
+            "value": "Unassigned",
+            "label": "Unassigned"
+          },
+          {
+            "value": "Yousef Al-Marri",
+            "label": "Yousef Al-Marri"
+          },
+          {
+            "value": "Fatima Noor",
+            "label": "Fatima Noor"
+          },
+          {
+            "value": "Karim Said",
+            "label": "Karim Said"
+          },
+          {
+            "value": "Mariam Ahmed",
+            "label": "Mariam Ahmed"
+          },
+          {
+            "value": "Demo Manager",
+            "label": "Demo Manager"
+          },
+          {
+            "value": "Demo Landlord",
+            "label": "Demo Landlord"
+          },
+          {
+            "value": "Demo Broker",
+            "label": "Demo Broker"
+          }
+        ],
+        "value": "All",
+        "height": 46
+      },
+      {
+        "name": "Stage",
+        "options": [
+          {
+            "value": "All",
+            "label": "All"
+          },
+          {
+            "value": "New",
+            "label": "New"
+          },
+          {
+            "value": "Contacted",
+            "label": "Contacted"
+          },
+          {
+            "value": "Qualified",
+            "label": "Qualified"
+          },
+          {
+            "value": "Viewing",
+            "label": "Viewing"
+          },
+          {
+            "value": "Won",
+            "label": "Won"
+          },
+          {
+            "value": "Lost",
+            "label": "Lost"
+          }
+        ],
+        "value": "All",
+        "height": 46
+      },
+      {
+        "name": "Priority",
+        "options": [
+          {
+            "value": "All",
+            "label": "All"
+          },
+          {
+            "value": "Normal",
+            "label": "Normal"
+          },
+          {
+            "value": "High",
+            "label": "High"
+          }
+        ],
+        "value": "All",
+        "height": 46
+      },
+      {
+        "name": "Qualification",
+        "options": [
+          {
+            "value": "All",
+            "label": "All"
+          },
+          {
+            "value": "Unreviewed",
+            "label": "Unreviewed"
+          },
+          {
+            "value": "Qualified",
+            "label": "Qualified"
+          },
+          {
+            "value": "Not qualified",
+            "label": "Not qualified"
+          }
+        ],
+        "value": "All",
+        "height": 46
+      }
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "height": 44,
+        "name": "Lead intake simulator"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "height": 44,
+        "name": "Table"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "height": 44,
+        "name": "Pipeline"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 37.5,
+        "name": "Needs assignment · 2"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 37.5,
+        "name": "New enquiries · 2"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "height": 46,
+        "name": ""
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "height": 44,
+        "name": "Reset filters"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/workspace",
+    "overflow": false,
+    "heading": "وكالتك في لمحة.",
+    "selects": [],
+    "controls": []
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/workspace/inventory/AQ-10233/edit",
+    "overflow": false,
+    "heading": "جهّز سجل عقارك.",
+    "selects": [
+      {
+        "name": "نوع العقار",
+        "options": [
+          {
+            "value": "Apartment",
+            "label": "شقة"
+          },
+          {
+            "value": "Villa",
+            "label": "فيلا"
+          },
+          {
+            "value": "Compound",
+            "label": "مجمع"
+          },
+          {
+            "value": "Commercial office",
+            "label": "مكتب تجاري"
+          },
+          {
+            "value": "Penthouse",
+            "label": "بنتهاوس"
+          },
+          {
+            "value": "Land",
+            "label": "أرض"
+          },
+          {
+            "value": "Studio",
+            "label": "استوديو"
+          },
+          {
+            "value": "Townhouse",
+            "label": "تاون هاوس"
+          }
+        ],
+        "value": "Apartment",
+        "height": 44
+      }
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 59,
+        "name": "1المعلومات الأساسية"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 59,
+        "name": "2الصور والتفاصيل"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 59,
+        "name": "3المساعدة الذكيةاختياري"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 59,
+        "name": "4المراجعة والحفظ"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "height": 16,
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "height": 16,
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "height": 44,
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "height": 44,
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "number",
+        "height": 44,
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "number",
+        "height": 44,
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "number",
+        "height": 44,
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "number",
+        "height": 44,
+        "name": ""
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "height": 112,
+        "name": "Fictional built-in property example. No owner or documents verified."
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 44,
+        "name": "اقتراح حقائق من الملاحظات"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 36,
+        "name": "مراجعة الحقائق واللغتين"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 36,
+        "name": "شرح العوائق"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 44,
+        "name": "حفظ المسودة"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 44,
+        "name": "متابعة"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/workspace/publish?property=AQ-10233",
+    "overflow": false,
+    "heading": "النشر والترويج",
+    "selects": [],
+    "controls": [
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "height": 42,
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "height": 16,
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "height": 16,
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "height": 16,
+        "name": ""
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/workspace/campaigns/new",
+    "overflow": false,
+    "heading": "ابدأ من سجل العقار الأساسي.",
+    "selects": [
+      {
+        "name": "دور تجريبي محلي",
+        "options": [
+          {
+            "value": "editor",
+            "label": "محرر"
+          },
+          {
+            "value": "policy-reviewer",
+            "label": "مراجع السياسة"
+          },
+          {
+            "value": "advertiser",
+            "label": "المعلن"
+          },
+          {
+            "value": "admin",
+            "label": "مسؤول ماكس برو"
+          }
+        ],
+        "value": "editor",
+        "height": 44
+      },
+      {
+        "name": "هدف الحملة",
+        "options": [
+          {
+            "value": "enquiries",
+            "label": "استفسارات العقار"
+          },
+          {
+            "value": "awareness",
+            "label": "التعريف بالعقار"
+          },
+          {
+            "value": "conversations",
+            "label": "محادثات"
+          }
+        ],
+        "value": "enquiries",
+        "height": 44
+      },
+      {
+        "name": "المنصة المقترحة",
+        "options": [
+          {
+            "value": "meta-catalog",
+            "label": "ميتا"
+          },
+          {
+            "value": "google-ads",
+            "label": "إعلانات جوجل / PMax (تخطيط فقط)"
+          }
+        ],
+        "value": "meta-catalog",
+        "height": 44
+      },
+      {
+        "name": "هدف التحويل",
+        "options": [
+          {
+            "value": "enquiry",
+            "label": "استفسار"
+          },
+          {
+            "value": "qualified-lead",
+            "label": "عميل مؤهل"
+          },
+          {
+            "value": "viewing-request",
+            "label": "طلب معاينة"
+          }
+        ],
+        "value": "enquiry",
+        "height": 44
+      },
+      {
+        "name": "الاستهداف المقترح",
+        "options": [
+          {
+            "value": "broad-housing",
+            "label": "مراجعة إسكان عامة"
+          },
+          {
+            "value": "age-exclusion",
+            "label": "استبعاد عمري — غير مدعوم"
+          },
+          {
+            "value": "sensitive-interests",
+            "label": "اهتمامات حساسة — غير مدعومة"
+          }
+        ],
+        "value": "broad-housing",
+        "height": 44
+      },
+      {
+        "name": "نوع المقترح",
+        "options": [
+          {
+            "value": "copy",
+            "label": "نص باللغتين"
+          },
+          {
+            "value": "headline",
+            "label": "عنوان بديل"
+          },
+          {
+            "value": "features",
+            "label": "إبراز الخصائص"
+          },
+          {
+            "value": "objective",
+            "label": "توصية الهدف"
+          },
+          {
+            "value": "creative",
+            "label": "اختيار الوسائط"
+          },
+          {
+            "value": "budget",
+            "label": "سيناريوهات الميزانية"
+          },
+          {
+            "value": "summary",
+            "label": "ملخص محلي أسبوعي"
+          }
+        ],
+        "value": "copy",
+        "height": 44
+      }
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 47.5,
+        "name": "01العقار والهدف"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 47.5,
+        "name": "02النص باللغتين"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 47.5,
+        "name": "03مراجعة الوسائط"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 47.5,
+        "name": "04مراجعة السياسة"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 47.5,
+        "name": "05الميزانية والجدول"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 47.5,
+        "name": "06الموافقات والمحاكاة"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "height": 42,
+        "name": ""
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 44,
+        "name": "إنشاء مسودة حملة"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 44,
+        "name": "حفظ ومتابعة"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 44,
+        "name": "إعداد مقترح محاكى"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/workspace/settings",
+    "overflow": false,
+    "heading": "إعدادات الوكالة",
+    "selects": [],
+    "controls": []
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/workspace/leads",
+    "overflow": false,
+    "heading": "إدارة العملاء",
+    "selects": [
+      {
+        "name": "المصدر",
+        "options": [
+          {
+            "value": "All",
+            "label": "الكل"
+          },
+          {
+            "value": "Website",
+            "label": "الموقع الإلكتروني"
+          },
+          {
+            "value": "Property Finder",
+            "label": "Property Finder"
+          },
+          {
+            "value": "Qatar Living",
+            "label": "Qatar Living"
+          },
+          {
+            "value": "Meta Lead Ads",
+            "label": "إعلانات عملاء ميتا"
+          },
+          {
+            "value": "WhatsApp",
+            "label": "WhatsApp"
+          }
+        ],
+        "value": "All",
+        "height": 44
+      },
+      {
+        "name": "العقار",
+        "options": [
+          {
+            "value": "All",
+            "label": "الكل"
+          },
+          {
+            "value": "AQ-10231",
+            "label": "AQ-10231 · شقة بإطلالة على المارينا"
+          },
+          {
+            "value": "AQ-10233",
+            "label": "AQ-10233 · مسكن للتملك الحر في فيفا بحرية"
+          },
+          {
+            "value": "AQ-10241",
+            "label": "AQ-10241 · تاون هاوس بفناء داخلي"
+          },
+          {
+            "value": "AQ-10244",
+            "label": "AQ-10244 · بنتهاوس مع شرفة وإطلالة"
+          },
+          {
+            "value": "AQ-10251",
+            "label": "AQ-10251 · فيلا عائلية بحديقة خاصة"
+          },
+          {
+            "value": "AQ-10256",
+            "label": "AQ-10256 · استوديو مشرق في المدينة"
+          }
+        ],
+        "value": "All",
+        "height": 44
+      },
+      {
+        "name": "المسؤول",
+        "options": [
+          {
+            "value": "All",
+            "label": "الكل"
+          },
+          {
+            "value": "Unassigned",
+            "label": "غير معيّن"
+          },
+          {
+            "value": "Yousef Al-Marri",
+            "label": "Yousef Al-Marri"
+          },
+          {
+            "value": "Fatima Noor",
+            "label": "Fatima Noor"
+          },
+          {
+            "value": "Karim Said",
+            "label": "Karim Said"
+          },
+          {
+            "value": "Mariam Ahmed",
+            "label": "Mariam Ahmed"
+          },
+          {
+            "value": "Demo Manager",
+            "label": "مدير تجريبي"
+          },
+          {
+            "value": "Demo Landlord",
+            "label": "مالك تجريبي"
+          },
+          {
+            "value": "Demo Broker",
+            "label": "وسيط تجريبي"
+          }
+        ],
+        "value": "All",
+        "height": 44
+      },
+      {
+        "name": "المرحلة",
+        "options": [
+          {
+            "value": "All",
+            "label": "الكل"
+          },
+          {
+            "value": "New",
+            "label": "جديد"
+          },
+          {
+            "value": "Contacted",
+            "label": "تم التواصل"
+          },
+          {
+            "value": "Qualified",
+            "label": "مؤهل"
+          },
+          {
+            "value": "Viewing",
+            "label": "معاينة"
+          },
+          {
+            "value": "Won",
+            "label": "ناجح"
+          },
+          {
+            "value": "Lost",
+            "label": "مفقود"
+          }
+        ],
+        "value": "All",
+        "height": 44
+      },
+      {
+        "name": "الأولوية",
+        "options": [
+          {
+            "value": "All",
+            "label": "الكل"
+          },
+          {
+            "value": "Normal",
+            "label": "عادية"
+          },
+          {
+            "value": "High",
+            "label": "عالية"
+          }
+        ],
+        "value": "All",
+        "height": 44
+      },
+      {
+        "name": "التأهيل",
+        "options": [
+          {
+            "value": "All",
+            "label": "الكل"
+          },
+          {
+            "value": "Unreviewed",
+            "label": "لم تتم المراجعة"
+          },
+          {
+            "value": "Qualified",
+            "label": "مؤهل"
+          },
+          {
+            "value": "Not qualified",
+            "label": "غير مؤهل"
+          }
+        ],
+        "value": "All",
+        "height": 44
+      }
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "height": 44,
+        "name": "محاكي استقبال العملاء"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "height": 44,
+        "name": "جدول"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "height": 44,
+        "name": "مسار"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 37.5,
+        "name": "بحاجة إلى تعيين · 2"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 37.5,
+        "name": "الاستفسارات الجديدة · 2"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "height": 44,
+        "name": ""
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "height": 44,
+        "name": "إعادة ضبط"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/workspace",
+    "overflow": false,
+    "heading": "وكالتك في لمحة.",
+    "selects": [],
+    "controls": []
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/workspace/inventory/AQ-10233/edit",
+    "overflow": false,
+    "heading": "جهّز سجل عقارك.",
+    "selects": [
+      {
+        "name": "نوع العقار",
+        "options": [
+          {
+            "value": "Apartment",
+            "label": "شقة"
+          },
+          {
+            "value": "Villa",
+            "label": "فيلا"
+          },
+          {
+            "value": "Compound",
+            "label": "مجمع"
+          },
+          {
+            "value": "Commercial office",
+            "label": "مكتب تجاري"
+          },
+          {
+            "value": "Penthouse",
+            "label": "بنتهاوس"
+          },
+          {
+            "value": "Land",
+            "label": "أرض"
+          },
+          {
+            "value": "Studio",
+            "label": "استوديو"
+          },
+          {
+            "value": "Townhouse",
+            "label": "تاون هاوس"
+          }
+        ],
+        "value": "Apartment",
+        "height": 46
+      }
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 64,
+        "name": "1المعلومات الأساسية"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 64,
+        "name": "2الصور والتفاصيل"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 71.5,
+        "name": "3المساعدة الذكيةاختياري"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 71.5,
+        "name": "4المراجعة والحفظ"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "height": 16,
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "height": 16,
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "height": 46,
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "height": 46,
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "number",
+        "height": 46,
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "number",
+        "height": 46,
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "number",
+        "height": 46,
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "number",
+        "height": 46,
+        "name": ""
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "height": 118,
+        "name": "Fictional built-in property example. No owner or documents verified."
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 44,
+        "name": "اقتراح حقائق من الملاحظات"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 36,
+        "name": "مراجعة الحقائق واللغتين"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 36,
+        "name": "شرح العوائق"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 44,
+        "name": "حفظ المسودة"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 44,
+        "name": "متابعة"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/workspace/publish?property=AQ-10233",
+    "overflow": false,
+    "heading": "النشر والترويج",
+    "selects": [],
+    "controls": [
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "height": 42,
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "height": 16,
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "height": 16,
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "height": 16,
+        "name": ""
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/workspace/campaigns/new",
+    "overflow": false,
+    "heading": "ابدأ من سجل العقار الأساسي.",
+    "selects": [
+      {
+        "name": "دور تجريبي محلي",
+        "options": [
+          {
+            "value": "editor",
+            "label": "محرر"
+          },
+          {
+            "value": "policy-reviewer",
+            "label": "مراجع السياسة"
+          },
+          {
+            "value": "advertiser",
+            "label": "المعلن"
+          },
+          {
+            "value": "admin",
+            "label": "مسؤول ماكس برو"
+          }
+        ],
+        "value": "editor",
+        "height": 46
+      },
+      {
+        "name": "هدف الحملة",
+        "options": [
+          {
+            "value": "enquiries",
+            "label": "استفسارات العقار"
+          },
+          {
+            "value": "awareness",
+            "label": "التعريف بالعقار"
+          },
+          {
+            "value": "conversations",
+            "label": "محادثات"
+          }
+        ],
+        "value": "enquiries",
+        "height": 46
+      },
+      {
+        "name": "المنصة المقترحة",
+        "options": [
+          {
+            "value": "meta-catalog",
+            "label": "ميتا"
+          },
+          {
+            "value": "google-ads",
+            "label": "إعلانات جوجل / PMax (تخطيط فقط)"
+          }
+        ],
+        "value": "meta-catalog",
+        "height": 46
+      },
+      {
+        "name": "هدف التحويل",
+        "options": [
+          {
+            "value": "enquiry",
+            "label": "استفسار"
+          },
+          {
+            "value": "qualified-lead",
+            "label": "عميل مؤهل"
+          },
+          {
+            "value": "viewing-request",
+            "label": "طلب معاينة"
+          }
+        ],
+        "value": "enquiry",
+        "height": 46
+      },
+      {
+        "name": "الاستهداف المقترح",
+        "options": [
+          {
+            "value": "broad-housing",
+            "label": "مراجعة إسكان عامة"
+          },
+          {
+            "value": "age-exclusion",
+            "label": "استبعاد عمري — غير مدعوم"
+          },
+          {
+            "value": "sensitive-interests",
+            "label": "اهتمامات حساسة — غير مدعومة"
+          }
+        ],
+        "value": "broad-housing",
+        "height": 46
+      },
+      {
+        "name": "نوع المقترح",
+        "options": [
+          {
+            "value": "copy",
+            "label": "نص باللغتين"
+          },
+          {
+            "value": "headline",
+            "label": "عنوان بديل"
+          },
+          {
+            "value": "features",
+            "label": "إبراز الخصائص"
+          },
+          {
+            "value": "objective",
+            "label": "توصية الهدف"
+          },
+          {
+            "value": "creative",
+            "label": "اختيار الوسائط"
+          },
+          {
+            "value": "budget",
+            "label": "سيناريوهات الميزانية"
+          },
+          {
+            "value": "summary",
+            "label": "ملخص محلي أسبوعي"
+          }
+        ],
+        "value": "copy",
+        "height": 46
+      }
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 47.5,
+        "name": "01العقار والهدف"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 47.5,
+        "name": "02النص باللغتين"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 47.5,
+        "name": "03مراجعة الوسائط"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 47.5,
+        "name": "04مراجعة السياسة"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 47.5,
+        "name": "05الميزانية والجدول"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 47.5,
+        "name": "06الموافقات والمحاكاة"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "height": 42,
+        "name": ""
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 44,
+        "name": "إنشاء مسودة حملة"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 44,
+        "name": "حفظ ومتابعة"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 44,
+        "name": "إعداد مقترح محاكى"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/workspace/settings",
+    "overflow": false,
+    "heading": "إعدادات الوكالة",
+    "selects": [],
+    "controls": []
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/workspace/leads",
+    "overflow": false,
+    "heading": "إدارة العملاء",
+    "selects": [
+      {
+        "name": "المصدر",
+        "options": [
+          {
+            "value": "All",
+            "label": "الكل"
+          },
+          {
+            "value": "Website",
+            "label": "الموقع الإلكتروني"
+          },
+          {
+            "value": "Property Finder",
+            "label": "Property Finder"
+          },
+          {
+            "value": "Qatar Living",
+            "label": "Qatar Living"
+          },
+          {
+            "value": "Meta Lead Ads",
+            "label": "إعلانات عملاء ميتا"
+          },
+          {
+            "value": "WhatsApp",
+            "label": "WhatsApp"
+          }
+        ],
+        "value": "All",
+        "height": 46
+      },
+      {
+        "name": "العقار",
+        "options": [
+          {
+            "value": "All",
+            "label": "الكل"
+          },
+          {
+            "value": "AQ-10231",
+            "label": "AQ-10231 · شقة بإطلالة على المارينا"
+          },
+          {
+            "value": "AQ-10233",
+            "label": "AQ-10233 · مسكن للتملك الحر في فيفا بحرية"
+          },
+          {
+            "value": "AQ-10241",
+            "label": "AQ-10241 · تاون هاوس بفناء داخلي"
+          },
+          {
+            "value": "AQ-10244",
+            "label": "AQ-10244 · بنتهاوس مع شرفة وإطلالة"
+          },
+          {
+            "value": "AQ-10251",
+            "label": "AQ-10251 · فيلا عائلية بحديقة خاصة"
+          },
+          {
+            "value": "AQ-10256",
+            "label": "AQ-10256 · استوديو مشرق في المدينة"
+          }
+        ],
+        "value": "All",
+        "height": 46
+      },
+      {
+        "name": "المسؤول",
+        "options": [
+          {
+            "value": "All",
+            "label": "الكل"
+          },
+          {
+            "value": "Unassigned",
+            "label": "غير معيّن"
+          },
+          {
+            "value": "Yousef Al-Marri",
+            "label": "Yousef Al-Marri"
+          },
+          {
+            "value": "Fatima Noor",
+            "label": "Fatima Noor"
+          },
+          {
+            "value": "Karim Said",
+            "label": "Karim Said"
+          },
+          {
+            "value": "Mariam Ahmed",
+            "label": "Mariam Ahmed"
+          },
+          {
+            "value": "Demo Manager",
+            "label": "مدير تجريبي"
+          },
+          {
+            "value": "Demo Landlord",
+            "label": "مالك تجريبي"
+          },
+          {
+            "value": "Demo Broker",
+            "label": "وسيط تجريبي"
+          }
+        ],
+        "value": "All",
+        "height": 46
+      },
+      {
+        "name": "المرحلة",
+        "options": [
+          {
+            "value": "All",
+            "label": "الكل"
+          },
+          {
+            "value": "New",
+            "label": "جديد"
+          },
+          {
+            "value": "Contacted",
+            "label": "تم التواصل"
+          },
+          {
+            "value": "Qualified",
+            "label": "مؤهل"
+          },
+          {
+            "value": "Viewing",
+            "label": "معاينة"
+          },
+          {
+            "value": "Won",
+            "label": "ناجح"
+          },
+          {
+            "value": "Lost",
+            "label": "مفقود"
+          }
+        ],
+        "value": "All",
+        "height": 46
+      },
+      {
+        "name": "الأولوية",
+        "options": [
+          {
+            "value": "All",
+            "label": "الكل"
+          },
+          {
+            "value": "Normal",
+            "label": "عادية"
+          },
+          {
+            "value": "High",
+            "label": "عالية"
+          }
+        ],
+        "value": "All",
+        "height": 46
+      },
+      {
+        "name": "التأهيل",
+        "options": [
+          {
+            "value": "All",
+            "label": "الكل"
+          },
+          {
+            "value": "Unreviewed",
+            "label": "لم تتم المراجعة"
+          },
+          {
+            "value": "Qualified",
+            "label": "مؤهل"
+          },
+          {
+            "value": "Not qualified",
+            "label": "غير مؤهل"
+          }
+        ],
+        "value": "All",
+        "height": 46
+      }
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "height": 44,
+        "name": "محاكي استقبال العملاء"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "height": 44,
+        "name": "جدول"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "height": 44,
+        "name": "مسار"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 37.5,
+        "name": "بحاجة إلى تعيين · 2"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "height": 37.5,
+        "name": "الاستفسارات الجديدة · 2"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "height": 46,
+        "name": ""
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "height": 44,
+        "name": "إعادة ضبط"
+      }
+    ]
+  }
+]

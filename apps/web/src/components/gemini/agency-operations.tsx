@@ -1,4 +1,5 @@
 'use client';
+import {campaignStatusLabel} from '@/lib/campaign-presentation';
 import {ArrowRight,CalendarDays,Check,House,Plus} from 'lucide-react';
 import {useLocale} from 'next-intl';
 import {Link} from '@/i18n/navigation';
@@ -8,7 +9,6 @@ import {effectivePlan,usage,workspaceOrganization} from '@/lib/organization-engi
 import {useGeminiDemo} from './demo-provider';
 import {Intro,Notice,Pill,Section} from '@/components/prototype/primitives';
 import {WorkspaceLoading} from '@/components/prototype/loading-state';
-import {campaignStatusLabel} from './campaign-studio';
 export function AgencyControlTower(){
  const ar=useLocale()==='ar';const t=(en:string,arabic:string)=>ar?arabic:en;const {state,hydrated}=useGeminiDemo();
  if(!hydrated)return <WorkspaceLoading/>;

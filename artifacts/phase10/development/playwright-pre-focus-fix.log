@@ -1,0 +1,246 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test --timeout=60000
+
+
+Running 928 tests using 4 workers
+
+(node:37587) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:37588) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:37589) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:37586) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓    3 [chromium] › tests/e2e/agency-first.spec.ts:19:1 › agency assistance: only explicitly labelled source facts become proposals (1.3s)
+  ✓    2 [chromium] › tests/e2e/connector-hub.spec.ts:39:1 › internal export contracts handle invalid values, Unicode, XML controls and CSV formulas (1.3s)
+  ✓    1 [chromium] › tests/e2e/campaigns.spec.ts:111:1 › campaign domain: ordered approvals, stale revisions, roles, tenant and setup guards (1.4s)
+  ✓    6 [chromium] › tests/e2e/connector-hub.spec.ts:49:1 › command guards reject stale approval, unsupported destinations, missing approval and quota bypass (823ms)
+  ✓    5 [chromium] › tests/e2e/agency-first.spec.ts:25:1 › agency sharing: independent revisions preserve listing queues, campaigns and reviewed copy (1.1s)
+  ✓    7 [chromium] › tests/e2e/campaigns.spec.ts:152:1 › campaign domain: policy blockers include licensing, review, media, targeted exclusions, numeric facts and caps (1.1s)
+  ✓    8 [chromium] › tests/e2e/connector-hub.spec.ts:58:1 › job migration retains old local history and rejects forged or corrupt attempt metadata (738ms)
+  ✓   10 [chromium] › tests/e2e/campaigns.spec.ts:173:1 › campaign domain: deterministic bilingual suggestions cite only current canonical facts; accept/reject is audited (1.3s)
+  ✓   12 [chromium] › tests/e2e/campaigns.spec.ts:242:1 › campaign domain: property changes invalidate approvals and stale creative references on recovery (978ms)
+  ✓    4 [chromium] › tests/e2e/enterprise-ux.spec.ts:8:2 › enterprise en: property search, no results, clear, Escape and manual keyboard commitment (9.6s)
+  ✓   13 [chromium] › tests/e2e/campaigns.spec.ts:262:1 › campaign domain: optional admin, cancel/resume/duplicate and rejection retain independent histories (5.4s)
+  ✓   15 [chromium] › tests/e2e/campaigns.spec.ts:295:1 › campaign domain: Meta and Google attributed lead intake deduplicates and reports actual fictional CRM observations (1.8s)
+  ✓   16 [chromium] › tests/e2e/campaigns.spec.ts:371:1 › campaign domain: migration and corrupted state preserve valid records and strip unknown fields (3.3s)
+  ✓    9 [chromium] › tests/e2e/agency-first.spec.ts:33:1 › agency editing: stale wizard media cannot overwrite another operator and testing roles stay usable (26.1s)
+  ✓   11 [chromium] › tests/e2e/connector-hub.spec.ts:66:2 › connector smoke en: directory filtering, setup, removal and eligibility (41.6s)
+  ✓   18 [chromium] › tests/e2e/agency-first.spec.ts:41:2 › agency en: registration → guided property → reviewed suggestions → portal outcome (35.0s)
+  ✓   20 [chromium] › tests/e2e/agency-first.spec.ts:63:2 › agency en: returning sign-in and clean mobile navigation (9.7s)
+  ✓   19 [chromium] › tests/e2e/connector-hub.spec.ts:74:2 › connector smoke en: newly created property drives escaped XML JSON CSV and downloads (37.0s)
+  ✓   14 [chromium] › tests/e2e/enterprise-ux.spec.ts:17:2 › enterprise en: long portfolios scroll, keep RTL alignment and escape mobile overflow (1.5m)
+  ✓   21 [chromium] › tests/e2e/agency-first.spec.ts:67:2 › agency en: separate portal, paid ad and WhatsApp message outcomes (28.7s)
+  ✓   23 [chromium] › tests/e2e/enterprise-ux.spec.ts:31:2 › enterprise en: purpose radios, inline validation and incomplete drafts persist (19.4s)
+  ✓   24 [chromium] › tests/e2e/agency-first.spec.ts:78:2 › agency en: linked enquiry assistance requires draft review before a local reply (19.0s)
+  ✘   17 [chromium] › tests/e2e/campaigns.spec.ts:520:3 › campaign full journey en: canonical selection to grounded creative, approvals and enquiry without seeded campaigns (1.4m)
+  ✓   22 [chromium] › tests/e2e/connector-hub.spec.ts:85:2 › connector smoke en: blocked retry revalidates, correction queues, cancellation and filters persist (43.8s)
+  ✓   25 [chromium] › tests/e2e/enterprise-ux.spec.ts:36:2 › enterprise en: agent search, disabled choices, clearing and saved context (19.2s)
+(node:37759) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   28 [chromium] › tests/e2e/enterprise-ux.spec.ts:41:2 › enterprise en: combobox open accessibility and no accidental Tab commit (16.1s)
+  ✓   27 [chromium] › tests/e2e/connector-hub.spec.ts:93:2 › connector en: property revision invalidates workbench and retry approval across tabs (38.2s)
+  ✘   31 [chromium] › tests/e2e/connector-hub.spec.ts:98:2 › connector en: responsive sections and keyboard controls at required widths (15.2s)
+  ✘   29 [chromium] › tests/e2e/campaigns.spec.ts:520:3 › campaign full journey ar: canonical selection to grounded creative, approvals and enquiry without seeded campaigns (31.5s)
+  ✘   30 [chromium] › tests/e2e/enterprise-ux.spec.ts:45:2 › enterprise en: campaign search, consistent controls and contextual role disclosure (23.4s)
+  ✘   26 [chromium] › tests/e2e/agency-first.spec.ts:81:2 › agency en: four-width actual screenshots and accessibility (1.0m)
+
+
+  1) [chromium] › tests/e2e/campaigns.spec.ts:520:3 › campaign full journey en: canonical selection to grounded creative, approvals and enquiry without seeded campaigns 
+
+    Test timeout of 60000ms exceeded.
+
+    Error: locator.selectOption: Test timeout of 60000ms exceeded.
+    Call log:
+      - waiting for getByLabel(/Local demo role|دور تجريبي محلي/)
+        - locator resolved to <select id="_r_7_" class="ui-native-select ">…</select>
+      - attempting select option action
+        2 × waiting for element to be visible and enabled
+          - element is not visible
+        - retrying select option action
+        - waiting 20ms
+        2 × waiting for element to be visible and enabled
+          - element is not visible
+        - retrying select option action
+          - waiting 100ms
+        45 × waiting for element to be visible and enabled
+           - element is not visible
+         - retrying select option action
+           - waiting 500ms
+        - waiting for element to be visible and enabled
+
+
+      511 |   ] as const) {
+      512 |     if(!await page.locator('.cm-demo-tools').getAttribute('open'))await page.locator('.cm-demo-tools summary').click();
+    > 513 |     await page.getByLabel(/Local demo role|دور تجريبي محلي/).selectOption(role);
+          |                                                              ^
+      514 |     await page.getByRole("button", { name }).click();
+      515 |     await expect(page.locator("main [role=alert]")).toHaveCount(0);
+      516 |   }
+        at approveUI (/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/campaigns.spec.ts:513:62)
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/campaigns.spec.ts:571:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/campaigns-campaign-full-jo-e933a-ry-without-seeded-campaigns-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/campaigns-campaign-full-jo-e933a-ry-without-seeded-campaigns-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/campaigns-campaign-full-jo-e933a-ry-without-seeded-campaigns-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/campaigns-campaign-full-jo-e933a-ry-without-seeded-campaigns-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/e2e/agency-first.spec.ts:81:2 › agency en: four-width actual screenshots and accessibility 
+
+    Test was interrupted.
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: locator('main h1')
+    Expected: visible
+    Error: Test ended.
+
+    Call log:
+      - Expect "toBeVisible" locator('main h1') with timeout 8000ms
+      - waiting for locator('main h1')
+      - Test ended.
+
+
+      81 |  test(`agency ${locale}: four-width actual screenshots and accessibility`,async({page},info)=>{
+      82 |   test.skip(info.project.name==='mobile-chromium','Desktop project captures every required width.');test.setTimeout(180000);const dir=resolve(root,'after');mkdirSync(dir,{recursive:true});
+    > 83 |   for(const width of [1440,1024,768,375]){await page.setViewportSize({width,height:width===375?812:1000});for(const [name,path] of [['registration','register'],['sign-in','sign-in'],['dashboard','workspace'],['editor','workspace/inventory/AQ-10233/edit'],['property','workspace/inventory/AQ-10233'],['publishing','workspace/publish?property=AQ-10233'],['settings','workspace/settings']]){await page.goto(`/${locale}/${path}`);await expect(page.locator('main h1')).toBeVisible();await page.evaluate(()=>document.fonts.ready);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),`${locale}/${path}@${width}`).toBe(true);await page.screenshot({path:`${dir}/${locale}-${width}-${name}.png`,fullPage:true});}}
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ^
+      84 |  });
+      85 | }
+      86 |
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/agency-first.spec.ts:83:465
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/agency-first-agency-en-fou-328ec-reenshots-and-accessibility-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/agency-first-agency-en-fou-328ec-reenshots-and-accessibility-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/agency-first-agency-en-fou-328ec-reenshots-and-accessibility-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/agency-first-agency-en-fou-328ec-reenshots-and-accessibility-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [chromium] › tests/e2e/campaigns.spec.ts:520:3 › campaign full journey ar: canonical selection to grounded creative, approvals and enquiry without seeded campaigns 
+
+    Test was interrupted.
+
+    Error: locator.click: Test ended.
+    Call log:
+      - waiting for getByRole('button', { name: /(?:^Save draft$|^حفظ المسودة$|حفظ المسودة)/ })
+        - locator resolved to <button type="button" class="px-button px-button-outline">حفظ المسودة</button>
+      - attempting click action
+        - waiting for element to be visible, enabled and stable
+        - element is visible, enabled and stable
+        - scrolling into view if needed
+        - done scrolling
+
+
+      480 |   await page
+      481 |     .getByRole("button", { name: localized(/^Save draft$|^حفظ المسودة$/) })
+    > 482 |     .click();
+          |      ^
+      483 | }
+      484 | async function noOverflow(page: Page) {
+      485 |   expect(
+        at saveDraft (/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/campaigns.spec.ts:482:6)
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/campaigns.spec.ts:558:11
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/campaigns-campaign-full-jo-b4e02-ry-without-seeded-campaigns-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/campaigns-campaign-full-jo-b4e02-ry-without-seeded-campaigns-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/campaigns-campaign-full-jo-b4e02-ry-without-seeded-campaigns-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/campaigns-campaign-full-jo-b4e02-ry-without-seeded-campaigns-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [chromium] › tests/e2e/connector-hub.spec.ts:98:2 › connector en: responsive sections and keyboard controls at required widths 
+
+    Test was interrupted.
+
+    Error: page.goto: Test ended.
+    Call log:
+      - navigating to "http://localhost:3210/en/workspace/hub/marketplace", waiting until "load"
+
+
+       99 |   test.setTimeout(90000);
+      100 |   const widths=info.project.name==='chromium'?[1440,1024,768]:[375];
+    > 101 |   for(const width of widths){await page.setViewportSize({width,height:1000});for(const [name,path] of [['directory','hub/marketplace'],['provider','hub/connectors/property-finder'],['feed','hub/feeds'],['history','hub/jobs'],['workbench','publish']] as const){await page.goto(`/${locale}/workspace/${path}`);await expect(page.getByRole('heading',{level:1})).toBeVisible();await capture(page,`${locale}-${width}-${name}`);}}
+          |                                                                                                                                                                                                                                                                                ^
+      102 |   await page.goto(`/${locale}/workspace/hub/feeds`);const format=page.getByRole('combobox',{name:localized("Preview format")});await format.focus();await page.keyboard.press('j');await page.keyboard.press('Enter');await expect(format).toBeFocused();await page.getByRole('button',{name:localized("Copy sample")}).focus();await expect(page.getByRole('button',{name:localized("Copy sample")})).toBeFocused();
+      103 |  });
+      104 | }
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/connector-hub.spec.ts:101:272
+
+    Error Context: test-results/connector-hub-connector-en-c40d9-controls-at-required-widths-chromium/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/connector-hub-connector-en-c40d9-controls-at-required-widths-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/connector-hub-connector-en-c40d9-controls-at-required-widths-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [chromium] › tests/e2e/enterprise-ux.spec.ts:45:2 › enterprise en: campaign search, consistent controls and contextual role disclosure 
+
+    Test was interrupted.
+
+    Error: locator.click: Test ended.
+    Call log:
+      - waiting for locator('.cm-steps button').first()
+
+
+      44 |  });
+      45 |  test(`enterprise ${locale}: campaign search, consistent controls and contextual role disclosure`,async({page})=>{
+    > 46 |   await page.goto(`/${locale}/workspace/campaigns/new`);await expect(page.locator('.cm-demo-tools')).not.toHaveAttribute('open','');await selectChoice(page,page.getByRole('combobox',{name:t('Canonical property','العقار الأساسي'),exact:true}),'AQ-10233');await page.getByRole('button',{name:localized('Create campaign draft',true),exact:true}).click();await expect(page).toHaveURL(/DEMO-CAMPAIGN-/);await page.locator('.cm-steps button').first().click();await expect(page.getByRole('combobox',{name:t('Canonical property','العقار الأساسي'),exact:true})).toBeDisabled();
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                              ^
+      47 |   for(const select of await page.locator('main select:visible').all())expect((await select.boundingBox())!.height).toBeGreaterThanOrEqual(44);
+      48 |  });
+      49 | }
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/enterprise-ux.spec.ts:46:446
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/enterprise-ux-enterprise-e-e7322--contextual-role-disclosure-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/enterprise-ux-enterprise-e-e7322--contextual-role-disclosure-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/enterprise-ux-enterprise-e-e7322--contextual-role-disclosure-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/enterprise-ux-enterprise-e-e7322--contextual-role-disclosure-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [chromium] › tests/e2e/campaigns.spec.ts:520:3 › campaign full journey en: canonical selection to grounded creative, approvals and enquiry without seeded campaigns 
+  4 interrupted
+    [chromium] › tests/e2e/agency-first.spec.ts:81:2 › agency en: four-width actual screenshots and accessibility 
+    [chromium] › tests/e2e/campaigns.spec.ts:520:3 › campaign full journey ar: canonical selection to grounded creative, approvals and enquiry without seeded campaigns 
+    [chromium] › tests/e2e/connector-hub.spec.ts:98:2 › connector en: responsive sections and keyboard controls at required widths 
+    [chromium] › tests/e2e/enterprise-ux.spec.ts:45:2 › enterprise en: campaign search, consistent controls and contextual role disclosure 
+  897 did not run
+  26 passed (3.2m)
+ ELIFECYCLE  Command failed with exit code 130.

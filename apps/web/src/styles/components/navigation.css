@@ -1,0 +1,74 @@
+/* components/navigation — semantic style owner. */
+/* Lucide emits these classes at runtime; they are not literal JSX classNames. */
+html[dir="rtl"] .prototype-main .lucide-arrow-right,
+html[dir="rtl"] .prototype-main .lucide-arrow-left { transform:scaleX(-1); }
+.ag-settings-card>.lucide-arrow-right { position:static; flex-shrink:0; }
+.px-toggle-group {
+  display: flex;
+  border: 1px solid #dce1d9;
+  height: 41px;
+}
+
+.px-toggle-group button {
+  padding: 0 12px;
+  background: white;
+  color: #87968d;
+  border: 0;
+}
+
+.px-toggle-group button.active {
+  background: #e6eee7;
+  color: #235c52;
+}
+
+.px-back {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 11px;
+  color: #636c63;
+  margin-bottom: 19px;
+}
+
+.px-back a {
+  color: #3b6654;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-weight: 700;
+}
+
+.px-subnav {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  overflow-x: auto;
+  border-bottom: 1px solid #dce1d8;
+  margin: 8px 0 25px;
+  white-space: nowrap;
+}
+
+.px-subnav a {
+  font-size: 12px;
+  color: #616b60;
+  padding: 15px 1px 13px;
+  font-weight: 680;
+  border-bottom: 2px solid transparent;
+}
+
+@media (max-width:650px) {
+  .px-subnav {
+    flex-wrap: wrap;
+  }
+}
+
+.fx-results-bar .px-toggle-group button {
+  min-inline-size: 40px;
+  min-block-size: 40px;
+}
+
+@media (max-width:650px) {
+  .fx-results-bar .px-toggle-group {
+    margin-inline-start: auto;
+  }
+}

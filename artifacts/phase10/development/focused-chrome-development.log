@@ -1,0 +1,119 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test enterprise-ux.spec.ts --workers=2
+
+
+Running 24 tests using 2 workers
+
+(node:36990) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:36991) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/e2e/enterprise-ux.spec.ts:8:2 › enterprise en: property search, no results, clear, Escape and manual keyboard commitment (19.3s)
+  ✓   2 [mobile-chromium] › tests/e2e/enterprise-ux.spec.ts:8:2 › enterprise en: property search, no results, clear, Escape and manual keyboard commitment (19.3s)
+  ✓   3 [chromium] › tests/e2e/enterprise-ux.spec.ts:17:2 › enterprise en: long portfolios scroll, keep RTL alignment and escape mobile overflow (30.7s)
+  ✓   4 [mobile-chromium] › tests/e2e/enterprise-ux.spec.ts:17:2 › enterprise en: long portfolios scroll, keep RTL alignment and escape mobile overflow (31.6s)
+  ✓   5 [chromium] › tests/e2e/enterprise-ux.spec.ts:31:2 › enterprise en: purpose radios, inline validation and incomplete drafts persist (8.2s)
+  ✓   6 [mobile-chromium] › tests/e2e/enterprise-ux.spec.ts:31:2 › enterprise en: purpose radios, inline validation and incomplete drafts persist (9.3s)
+  ✘   7 [chromium] › tests/e2e/enterprise-ux.spec.ts:36:2 › enterprise en: agent search, disabled choices, clearing and saved context (15.4s)
+  ✘   8 [mobile-chromium] › tests/e2e/enterprise-ux.spec.ts:36:2 › enterprise en: agent search, disabled choices, clearing and saved context (17.1s)
+(node:37250) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:37254) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   9 [chromium] › tests/e2e/enterprise-ux.spec.ts:41:2 › enterprise en: combobox open accessibility and no accidental Tab commit (7.4s)
+  ✓  10 [mobile-chromium] › tests/e2e/enterprise-ux.spec.ts:41:2 › enterprise en: combobox open accessibility and no accidental Tab commit (8.7s)
+  ✓  11 [chromium] › tests/e2e/enterprise-ux.spec.ts:45:2 › enterprise en: campaign search, consistent controls and contextual role disclosure (7.7s)
+  ✓  12 [mobile-chromium] › tests/e2e/enterprise-ux.spec.ts:45:2 › enterprise en: campaign search, consistent controls and contextual role disclosure (9.8s)
+  ✓  13 [chromium] › tests/e2e/enterprise-ux.spec.ts:8:2 › enterprise ar: property search, no results, clear, Escape and manual keyboard commitment (18.6s)
+  ✓  14 [mobile-chromium] › tests/e2e/enterprise-ux.spec.ts:8:2 › enterprise ar: property search, no results, clear, Escape and manual keyboard commitment (22.2s)
+  ✘  15 [chromium] › tests/e2e/enterprise-ux.spec.ts:17:2 › enterprise ar: long portfolios scroll, keep RTL alignment and escape mobile overflow (42.1s)
+(node:37447) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  17 [chromium] › tests/e2e/enterprise-ux.spec.ts:31:2 › enterprise ar: purpose radios, inline validation and incomplete drafts persist (4.4s)
+  ✘  16 [mobile-chromium] › tests/e2e/enterprise-ux.spec.ts:17:2 › enterprise ar: long portfolios scroll, keep RTL alignment and escape mobile overflow (57.5s)
+  ✓  18 [chromium] › tests/e2e/enterprise-ux.spec.ts:36:2 › enterprise ar: agent search, disabled choices, clearing and saved context (4.8s)
+  ✘  19 [chromium] › tests/e2e/enterprise-ux.spec.ts:41:2 › enterprise ar: combobox open accessibility and no accidental Tab commit (625ms)
+
+
+  1) [chromium] › tests/e2e/enterprise-ux.spec.ts:36:2 › enterprise en: agent search, disabled choices, clearing and saved context 
+
+    Error: browserContext.close: ENOENT: no such file or directory, open '/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/test-results/.playwright-artifacts-0/traces/03b74b49637f21c65f11-8051d8d8db1af5cd2956-recording6.network'
+
+    Error: ENOENT: no such file or directory, open '/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/test-results/.playwright-artifacts-0/a37f2385c42c8ae8300b5fac345a3e0a.zip'
+
+    Error Context: test-results/enterprise-ux-enterprise-e-f9604--clearing-and-saved-context-chromium/error-context.md
+
+  2) [chromium] › tests/e2e/enterprise-ux.spec.ts:17:2 › enterprise ar: long portfolios scroll, keep RTL alignment and escape mobile overflow 
+
+    Error: Test timeout of 40000ms exceeded
+
+      20 |   await expect(page.getByRole('combobox',{name:t('Selected property','العقار المختار'),exact:true})).toBeVisible();await page.evaluate((state)=>{const key='maxpro-gemini-v3-demo-state';for(let i=0;i<40;i++){const id=`AQ-${90000+i}`,p=structuredClone(state.properties['AQ-10233']);p.id=id;p.facts.titleEn=`Portfolio ${i} · ${'Long property name '.repeat(6)}`;p.facts.titleAr=`عقار ${i} · ${'عنوان عقار طويل '.repeat(6)}`;state.properties[id]=p;}localStorage.setItem(key,JSON.stringify(state));},createDemoStore().getSnapshot().state);await page.reload();
+      21 |   for(const width of [1280,1024,768,375,320]){
+    > 22 |    await page.setViewportSize({width,height:812});const input=page.getByRole('combobox',{name:t('Selected property','العقار المختار'),exact:true});await input.focus();await input.click();await expect(page.getByRole('option')).toHaveCount(46);await expect.poll(async()=>{const b=await page.locator('.ui-combobox-popup').boundingBox();return b!.x>=0&&b!.x+b!.width<=width+1&&b!.y>=0&&b!.y+b!.height<=813;}).toBe(true);
+         |                                                                                                                                                                                                                                                                                                                                                                                                                      ^
+      23 |    const box=await page.locator('.ui-combobox-popup').boundingBox(),field=await page.locator('.ui-combobox').boundingBox();expect(box!.x).toBeGreaterThanOrEqual(0);expect(box!.x+box!.width).toBeLessThanOrEqual(width);expect(box!.y).toBeGreaterThanOrEqual(0);expect(box!.y+box!.height).toBeLessThanOrEqual(813);expect(Math.abs(box!.x-field!.x)).toBeLessThanOrEqual(1);
+      24 |    expect(await page.getByRole('listbox').evaluate(el=>el.scrollHeight>el.clientHeight)).toBe(true);
+      25 |    for(let i=0;i<43;i++)await input.press('ArrowDown');const active=await input.getAttribute('aria-activedescendant');const option=page.locator(`[id="${active}"]`),bounds=await option.boundingBox();expect(bounds!.y).toBeGreaterThanOrEqual(box!.y);expect(bounds!.y+bounds!.height).toBeLessThanOrEqual(box!.y+box!.height+1);
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/enterprise-ux.spec.ts:22:406
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/enterprise-ux-enterprise-a-6dcb2--and-escape-mobile-overflow-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/enterprise-ux-enterprise-a-6dcb2--and-escape-mobile-overflow-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/enterprise-ux-enterprise-a-6dcb2--and-escape-mobile-overflow-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/enterprise-ux-enterprise-a-6dcb2--and-escape-mobile-overflow-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [mobile-chromium] › tests/e2e/enterprise-ux.spec.ts:36:2 › enterprise en: agent search, disabled choices, clearing and saved context 
+
+    Error: browserContext.close: ENOENT: no such file or directory, open '/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/test-results/.playwright-artifacts-1/traces/03b74b49637f21c65f11-756d1d984eebed822060-recording6.network'
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/enterprise-ux-enterprise-e-f9604--clearing-and-saved-context-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/enterprise-ux-enterprise-e-f9604--clearing-and-saved-context-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/enterprise-ux-enterprise-e-f9604--clearing-and-saved-context-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/enterprise-ux-enterprise-e-f9604--clearing-and-saved-context-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [mobile-chromium] › tests/e2e/enterprise-ux.spec.ts:17:2 › enterprise ar: long portfolios scroll, keep RTL alignment and escape mobile overflow 
+
+    Test timeout of 40000ms exceeded.
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/enterprise-ux-enterprise-a-6dcb2--and-escape-mobile-overflow-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/enterprise-ux-enterprise-a-6dcb2--and-escape-mobile-overflow-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/enterprise-ux-enterprise-a-6dcb2--and-escape-mobile-overflow-mobile-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/enterprise-ux-enterprise-a-6dcb2--and-escape-mobile-overflow-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4 failed
+    [chromium] › tests/e2e/enterprise-ux.spec.ts:36:2 › enterprise en: agent search, disabled choices, clearing and saved context 
+    [chromium] › tests/e2e/enterprise-ux.spec.ts:17:2 › enterprise ar: long portfolios scroll, keep RTL alignment and escape mobile overflow 
+    [mobile-chromium] › tests/e2e/enterprise-ux.spec.ts:36:2 › enterprise en: agent search, disabled choices, clearing and saved context 
+    [mobile-chromium] › tests/e2e/enterprise-ux.spec.ts:17:2 › enterprise ar: long portfolios scroll, keep RTL alignment and escape mobile overflow 
+  1 interrupted
+    [chromium] › tests/e2e/enterprise-ux.spec.ts:41:2 › enterprise ar: combobox open accessibility and no accidental Tab commit 
+  5 did not run
+  14 passed (3.5m)
+ ELIFECYCLE  Command failed with exit code 130.

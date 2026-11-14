@@ -1,4 +1,7 @@
 "use client";
+import {campaignStatusLabel} from '@/lib/campaign-presentation';
+import {SearchCombobox} from '@/components/ui/search-combobox';
+import {NativeSelect} from '@/components/ui/field';
 import {usePrototypeCopy} from '@/components/prototype/use-prototype-copy';
 import {activeOrganizationId} from '@/lib/organization-engine';
 import { useState } from "react";
@@ -48,26 +51,6 @@ const useCopy = () => {
   const ar = useLocale() === "ar";
   return (en: string, arabic: string) => (ar ? arabic : en);
 };
-export function campaignStatusLabel(s: CampaignStatus, ar = false) {
-  const labels: Record<CampaignStatus, [string, string]> = {
-    draft: ["Draft", "مسودة"],
-    "pending-policy": ["Pending policy review", "بانتظار مراجعة السياسة"],
-    "policy-reviewed": ["Policy reviewed locally", "تمت مراجعة السياسة محلياً"],
-    "pending-advertiser": [
-      "Pending advertiser approval",
-      "بانتظار موافقة المعلن",
-    ],
-    "pending-admin": ["Pending MaxPro approval", "بانتظار موافقة ماكس برو"],
-    "approved-local": [
-      "Approved for local simulation",
-      "معتمد للمحاكاة المحلية",
-    ],
-    simulated: ["Simulated locally", "تمت المحاكاة محلياً"],
-    cancelled: ["Cancelled locally", "ملغى محلياً"],
-    rejected: ["Rejected locally", "مرفوض محلياً"],
-  };
-  return labels[s][ar ? 1 : 0];
-}
 export function CampaignDisclosure() {const copyText=usePrototypeCopy();
   const t = useCopy();
   return (
@@ -175,18 +158,18 @@ export function CampaignPortfolio() {const copyText=usePrototypeCopy();
           </label>
           <label className="px-field">
             {copyText(t("Campaign status", "حالة الحملة"))}
-            <select value={status} onChange={(e) => setStatus(e.target.value)}>
+            <NativeSelect value={status} onChange={(e) => setStatus(e.target.value)}>
               <option value="all">{copyText(t("All statuses", "كل الحالات"))}</option>
               {campaignStates.map((s) => (
                 <option key={s} value={s}>
                   {copyText(campaignStatusLabel(s, ar))}
                 </option>
               ))}
-            </select>
+            </NativeSelect>
           </label>
           <label className="px-field">
             {copyText(t("Property filter", "تصفية العقار"))}
-            <select
+            <NativeSelect
               value={property}
               onChange={(e) => setProperty(e.target.value)}
             >
@@ -194,18 +177,18 @@ export function CampaignPortfolio() {const copyText=usePrototypeCopy();
               {Object.keys(state.properties).map((id) => (
                 <option key={id} value={id}>{copyText(id)}</option>
               ))}
-            </select>
+            </NativeSelect>
           </label>
           <label className="px-field">
             {copyText(t("Proposed platform", "المنصة المقترحة"))}
-            <select
+            <NativeSelect
               value={channel}
               onChange={(e) => setChannel(e.target.value)}
             >
               <option value="all">{copyText(t("All platforms", "كل المنصات"))}</option>
               <option value="meta-catalog">{copyText("Meta")}</option>
               <option value="google-ads">{copyText("Google Ads")}</option>
-            </select>
+            </NativeSelect>
           </label>
         </div>
         {!hydrated ? (
@@ -555,9 +538,9 @@ function CampaignEditor({
                 ))}
           </span>
         </div>
-        <label className="px-field">
+        <details className="cm-demo-tools"><summary>{t('Demo review role','دور المراجعة التجريبي')}</summary>        <label className="px-field">
           {copyText(t("Local demo role", "دور تجريبي محلي"))}
-          <select
+          <NativeSelect
             value={role}
             onChange={(e) => setRole(e.target.value as CampaignRole)}
           >
@@ -573,15 +556,15 @@ function CampaignEditor({
                 }
               </option>
             ))}
-          </select>
-        </label>
-      </div>
-      <p className="cm-role-note">
+          </NativeSelect>
+        </label>      <p className="cm-role-note">
         {copyText(t(
           "Role selection demonstrates command guards; there is no real account authentication.",
           "اختيار الدور يوضح ضوابط الأوامر؛ لا مصادقة لحساب حقيقي.",
         ))}
       </p>
+</details>
+      </div>
       {stale && (
         <div role="alert" className="cm-alert">
           {copyText(t(
@@ -626,40 +609,11 @@ function CampaignEditor({
           >
             {step === 0 && (
               <>
-                <label className="px-field">
-                  {copyText(t("Canonical property", "العقار الأساسي"))}
-                  <select
-                    disabled={!!c}
-                    value={input.propertyId}
-                    onChange={(e) =>
-                      setInput({
-                        ...input,
-                        propertyId: e.target.value,
-                        assetIds: [],
-                        headlineEn: "",
-                        headlineAr: "",
-                        copyEn: "",
-                        copyAr: "",
-                        checklist: blankCampaignInput().checklist,
-                      })
-                    }
-                  >
-                    <option value="">
-                      {copyText(t("Choose an existing property", "اختر عقاراً موجوداً"))}
-                    </option>
-                    {Object.values(state.properties).map((p) => (
-                      <option key={p.id} value={p.id}>
-                        {copyText(p.id)} ·{copyText(" ")}
-                        {copyText(p.facts[ar ? "titleAr" : "titleEn"] ||
-                          t("Untitled draft", "مسودة بلا عنوان"))}
-                      </option>
-                    ))}
-                  </select>
-                </label>
+                <SearchCombobox label={copyText(t('Canonical property','العقار الأساسي'))} disabled={!!c} value={input.propertyId} placeholder={copyText(t('Choose an existing property','اختر عقاراً موجوداً'))} options={Object.values(state.properties).map(p=>({value:p.id,label:copyText(p.facts[ar?'titleAr':'titleEn']||t('Untitled draft','مسودة بلا عنوان')),description:`${p.id} · ${p.facts.district} · ${p.facts.city}`}))} onValueChange={propertyId=>setInput({...input,propertyId,assetIds:[],headlineEn:'',headlineAr:'',copyEn:'',copyAr:'',checklist:blankCampaignInput().checklist})}/>
                 <div className="px-field-grid">
                   <label className="px-field">
                     {copyText(t("Campaign objective", "هدف الحملة"))}
-                    <select
+                    <NativeSelect
                       value={input.objective}
                       onChange={(e) =>
                         field(
@@ -673,11 +627,11 @@ function CampaignEditor({
                           {copyText(objectiveLabel(v, ar))}
                         </option>
                       ))}
-                    </select>
+                    </NativeSelect>
                   </label>
                   <label className="px-field">
                     {copyText(t("Proposed platform", "المنصة المقترحة"))}
-                    <select
+                    <NativeSelect
                       value={input.channel}
                       onChange={(e) =>
                         field(
@@ -690,11 +644,11 @@ function CampaignEditor({
                       <option value="google-ads">
                         {copyText(" Google Ads / PMax (")}{copyText(t("planning only", "تخطيط فقط"))})
                       </option>
-                    </select>
+                    </NativeSelect>
                   </label>
                   <label className="px-field">
                     {copyText(t("Conversion goal", "هدف التحويل"))}
-                    <select
+                    <NativeSelect
                       value={input.conversionGoal}
                       onChange={(e) =>
                         field(
@@ -720,11 +674,11 @@ function CampaignEditor({
                           }
                         </option>
                       ))}
-                    </select>
+                    </NativeSelect>
                   </label>
                   <label className="px-field">
                     {copyText(t("Proposed targeting", "الاستهداف المقترح"))}
-                    <select
+                    <NativeSelect
                       value={input.targeting}
                       onChange={(e) =>
                         field(
@@ -748,7 +702,7 @@ function CampaignEditor({
                           "اهتمامات حساسة — غير مدعومة",
                         ))}
                       </option>
-                    </select>
+                    </NativeSelect>
                   </label>
                 </div>
                 <Notice kind="warning">
@@ -1502,7 +1456,7 @@ function CampaignEditor({
             </p>
             <label className="px-field">
               {copyText(t("Suggestion type", "نوع المقترح"))}
-              <select
+              <NativeSelect
                 value={kind}
                 onChange={(e) => setKind(e.target.value as SuggestionKind)}
               >
@@ -1531,7 +1485,7 @@ function CampaignEditor({
                     }
                   </option>
                 ))}
-              </select>
+              </NativeSelect>
             </label>
             <button
               type="button"

@@ -1,0 +1,203 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test enterprise-ux.spec.ts --workers=2
+
+
+Running 24 tests using 2 workers
+
+(node:35482) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:35481) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/e2e/enterprise-ux.spec.ts:8:2 › enterprise en: property search, no results, clear, Escape and manual keyboard commitment (1.9s)
+  ✓   2 [mobile-chromium] › tests/e2e/enterprise-ux.spec.ts:8:2 › enterprise en: property search, no results, clear, Escape and manual keyboard commitment (2.0s)
+  ✓   4 [mobile-chromium] › tests/e2e/enterprise-ux.spec.ts:17:2 › enterprise en: long portfolios scroll, keep RTL alignment and escape mobile overflow (3.9s)
+  ✓   5 [mobile-chromium] › tests/e2e/enterprise-ux.spec.ts:30:2 › enterprise en: purpose radios, inline validation and incomplete drafts persist (1.4s)
+  ✓   6 [mobile-chromium] › tests/e2e/enterprise-ux.spec.ts:35:2 › enterprise en: agent search, disabled choices, clearing and saved context (1.4s)
+  ✓   7 [mobile-chromium] › tests/e2e/enterprise-ux.spec.ts:40:2 › enterprise en: combobox open accessibility and no accidental Tab commit (855ms)
+  ✓   8 [mobile-chromium] › tests/e2e/enterprise-ux.spec.ts:44:2 › enterprise en: campaign search, consistent controls and contextual role disclosure (1.9s)
+  ✓   9 [mobile-chromium] › tests/e2e/enterprise-ux.spec.ts:8:2 › enterprise ar: property search, no results, clear, Escape and manual keyboard commitment (1.1s)
+  ✓  10 [mobile-chromium] › tests/e2e/enterprise-ux.spec.ts:17:2 › enterprise ar: long portfolios scroll, keep RTL alignment and escape mobile overflow (3.3s)
+  ✓  11 [mobile-chromium] › tests/e2e/enterprise-ux.spec.ts:30:2 › enterprise ar: purpose radios, inline validation and incomplete drafts persist (1.1s)
+  ✓  12 [mobile-chromium] › tests/e2e/enterprise-ux.spec.ts:35:2 › enterprise ar: agent search, disabled choices, clearing and saved context (1.2s)
+  ✓  13 [mobile-chromium] › tests/e2e/enterprise-ux.spec.ts:40:2 › enterprise ar: combobox open accessibility and no accidental Tab commit (810ms)
+  ✓  14 [mobile-chromium] › tests/e2e/enterprise-ux.spec.ts:44:2 › enterprise ar: campaign search, consistent controls and contextual role disclosure (1.6s)
+  ✘   3 [chromium] › tests/e2e/enterprise-ux.spec.ts:17:2 › enterprise en: long portfolios scroll, keep RTL alignment and escape mobile overflow (20.3s)
+(node:35735) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  15 [chromium] › tests/e2e/enterprise-ux.spec.ts:30:2 › enterprise en: purpose radios, inline validation and incomplete drafts persist (8.6s)
+  ✓  16 [chromium] › tests/e2e/enterprise-ux.spec.ts:35:2 › enterprise en: agent search, disabled choices, clearing and saved context (12.0s)
+  ✓  17 [chromium] › tests/e2e/enterprise-ux.spec.ts:40:2 › enterprise en: combobox open accessibility and no accidental Tab commit (7.2s)
+  ✓  18 [chromium] › tests/e2e/enterprise-ux.spec.ts:44:2 › enterprise en: campaign search, consistent controls and contextual role disclosure (6.2s)
+  ✓  19 [chromium] › tests/e2e/enterprise-ux.spec.ts:8:2 › enterprise ar: property search, no results, clear, Escape and manual keyboard commitment (8.1s)
+  ✘  20 [chromium] › tests/e2e/enterprise-ux.spec.ts:17:2 › enterprise ar: long portfolios scroll, keep RTL alignment and escape mobile overflow (21.2s)
+(node:35997) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  21 [chromium] › tests/e2e/enterprise-ux.spec.ts:30:2 › enterprise ar: purpose radios, inline validation and incomplete drafts persist (28.4s)
+(node:36205) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  22 [chromium] › tests/e2e/enterprise-ux.spec.ts:35:2 › enterprise ar: agent search, disabled choices, clearing and saved context (28.2s)
+(node:36364) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  23 [chromium] › tests/e2e/enterprise-ux.spec.ts:40:2 › enterprise ar: combobox open accessibility and no accidental Tab commit (19.1s)
+
+
+  1) [chromium] › tests/e2e/enterprise-ux.spec.ts:17:2 › enterprise en: long portfolios scroll, keep RTL alignment and escape mobile overflow 
+
+    Test timeout of 20000ms exceeded.
+
+    Error: locator.boundingBox: Test timeout of 20000ms exceeded.
+    Call log:
+      - waiting for locator('.ui-combobox-popup')
+
+
+      25 |    await page.screenshot({path:`${output}/${locale}-${width}-combobox-scrolled.png`});await input.press('Escape');expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);
+      26 |   }
+    > 27 |   if(info.project.name==='chromium'){await page.setViewportSize({width:1440,height:1000});await page.emulateMedia({reducedMotion:'reduce'});await page.evaluate(()=>{document.documentElement.style.zoom='2';});await page.getByRole('combobox',{name:t('Selected property','العقار المختار'),exact:true}).focus();const bounds=await page.locator('.ui-combobox-popup').boundingBox();expect(bounds!.x).toBeGreaterThanOrEqual(0);expect(bounds!.x+bounds!.width).toBeLessThanOrEqual(1441);await page.evaluate(()=>{document.documentElement.style.zoom='1';});}
+         |                                                                                                                                                                                                                                                                                                                                                                          ^
+      28 |   await page.setViewportSize({width:320,height:812});const combo=page.getByRole('combobox',{name:t('Selected property','العقار المختار'),exact:true});await combo.focus();await combo.click();await page.setViewportSize({width:320,height:300});await expect.poll(async()=>{const b=await page.locator('.ui-combobox-popup').boundingBox();return b!.y>=0&&b!.y+b!.height<=301;}).toBe(true);
+      29 |  });
+      30 |  test(`enterprise ${locale}: purpose radios, inline validation and incomplete drafts persist`,async({page})=>{
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/enterprise-ux.spec.ts:27:362
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/enterprise-ux-enterprise-e-9f681--and-escape-mobile-overflow-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/enterprise-ux-enterprise-e-9f681--and-escape-mobile-overflow-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/enterprise-ux-enterprise-e-9f681--and-escape-mobile-overflow-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/enterprise-ux-enterprise-e-9f681--and-escape-mobile-overflow-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/e2e/enterprise-ux.spec.ts:17:2 › enterprise ar: long portfolios scroll, keep RTL alignment and escape mobile overflow 
+
+    Test timeout of 20000ms exceeded.
+
+    Error: browserContext._wrapApiCall: ENOENT: no such file or directory, open '/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/test-results/.playwright-artifacts-2/traces/screencast/page@a2395b08473a539790e201559d05acd1-1794630182211.jpeg'
+
+    Error: locator.press: Test ended.
+    Call log:
+      - waiting for getByRole('combobox', { name: 'العقار المختار', exact: true })
+
+
+      22 |    await page.setViewportSize({width,height:812});const input=page.getByRole('combobox',{name:t('Selected property','العقار المختار'),exact:true});await input.focus();await input.click();await expect(page.getByRole('option')).toHaveCount(46);await expect.poll(async()=>{const b=await page.locator('.ui-combobox-popup').boundingBox();return b!.x>=0&&b!.x+b!.width<=width+1&&b!.y>=0&&b!.y+b!.height<=813;}).toBe(true);
+      23 |    const box=await page.locator('.ui-combobox-popup').boundingBox(),field=await page.locator('.ui-combobox').boundingBox();expect(box!.x).toBeGreaterThanOrEqual(0);expect(box!.x+box!.width).toBeLessThanOrEqual(width);expect(box!.y).toBeGreaterThanOrEqual(0);expect(box!.y+box!.height).toBeLessThanOrEqual(813);expect(Math.abs(box!.x-field!.x)).toBeLessThanOrEqual(1);
+    > 24 |    expect(await page.getByRole('listbox').evaluate(el=>el.scrollHeight>el.clientHeight)).toBe(true);
+         |                                     ^
+      25 |    for(let i=0;i<43;i++)await input.press('ArrowDown');const active=await input.getAttribute('aria-activedescendant');const option=page.locator(`[id="${active}"]`),bounds=await option.boundingBox();expect(bounds!.y).toBeGreaterThanOrEqual(box!.y);expect(bounds!.y+bounds!.height).toBeLessThanOrEqual(box!.y+box!.height+1);
+      26 |    await page.screenshot({path:`${output}/${locale}-${width}-combobox-scrolled.png`});await input.press('Escape');expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);
+      27 |   }
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/enterprise-ux.spec.ts:24:37
+
+    Error: ENOENT: no such file or directory, open '/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/test-results/.playwright-artifacts-2/4620467c78f4a96233b6e2a20b59df1c.zip'
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/enterprise-ux-enterprise-a-6dcb2--and-escape-mobile-overflow-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/enterprise-ux-enterprise-a-6dcb2--and-escape-mobile-overflow-chromium/error-context.md
+
+  3) [chromium] › tests/e2e/enterprise-ux.spec.ts:30:2 › enterprise ar: purpose radios, inline validation and incomplete drafts persist 
+
+    Test timeout of 20000ms exceeded.
+
+    Error: expect(locator).toBeChecked() failed
+
+    Locator: getByRole('group', { name: 'الغرض', exact: true }).getByRole('radio', { name: 'بيع', exact: true })
+    Expected: checked
+    Error: Test timeout of 20000ms exceeded.
+
+    Call log:
+      - Expect "toBeChecked" getByRole('group', { name: 'الغرض', exact: true }).getByRole('radio', { name: 'بيع', exact: true }) with timeout 8000ms
+      - waiting for getByRole('group', { name: 'الغرض', exact: true }).getByRole('radio', { name: 'بيع', exact: true })
+      - Test timeout of 20000ms exceeded.
+
+
+      30 |  });
+      31 |  test(`enterprise ${locale}: purpose radios, inline validation and incomplete drafts persist`,async({page})=>{
+    > 32 |   await page.goto(`/${locale}/workspace/inventory/AQ-10233/edit`);const group=page.getByRole('group',{name:t('Purpose','الغرض'),exact:true});await group.getByRole('radio',{name:t('Rent','إيجار'),exact:true}).check();await group.getByRole('radio',{name:t('Rent','إيجار'),exact:true}).press('ArrowRight');await expect(group.getByRole('radio',{name:t('Sale','بيع'),exact:true})).toBeChecked();
+         |                                                                                                                                                                                                                                                                                                                                                                                                       ^
+      33 |   const price=page.getByRole('spinbutton',{name:t('Price (QAR)','السعر (ر.ق)'),exact:true});await price.fill('-1');await expect(price).toHaveAttribute('aria-invalid','true');await expect(page.locator('.ui-field-error')).toContainText(t('positive value','قيمة موجبة'));await price.fill('0');await page.getByRole('button',{name:t('Save draft','حفظ المسودة'),exact:true}).click();await page.reload();await expect(price).toHaveValue('0');await expect(group.getByRole('radio',{name:t('Sale','بيع'),exact:true})).toBeChecked();
+      34 |   const native=page.getByRole('combobox',{name:t('Property type','نوع العقار'),exact:true});await native.selectOption('Villa');await page.getByRole('button',{name:t('Save draft','حفظ المسودة'),exact:true}).click();await page.reload();await expect(native).toHaveValue('Villa');expect((await native.boundingBox())!.height).toBeGreaterThanOrEqual(44);
+      35 |  });
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/enterprise-ux.spec.ts:32:508
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/enterprise-ux-enterprise-a-dc733-d-incomplete-drafts-persist-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/enterprise-ux-enterprise-a-dc733-d-incomplete-drafts-persist-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/enterprise-ux-enterprise-a-dc733-d-incomplete-drafts-persist-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/enterprise-ux-enterprise-a-dc733-d-incomplete-drafts-persist-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [chromium] › tests/e2e/enterprise-ux.spec.ts:35:2 › enterprise ar: agent search, disabled choices, clearing and saved context 
+
+    Test timeout of 20000ms exceeded.
+
+    Error: locator.focus: Test timeout of 20000ms exceeded.
+    Call log:
+      - waiting for getByRole('combobox', { name: /^(?:Assigned agent|المسؤول)$/ })
+        - locator resolved to <input id="_r_5_" type="text" role="combobox" autocomplete="off" title="Fatima Noor" value="Fatima Noor" aria-invalid="false" aria-expanded="false" placeholder="غير موزع" data-value="Fatima Noor" aria-autocomplete="list"/>
+
+
+      36 |  test(`enterprise ${locale}: agent search, disabled choices, clearing and saved context`,async({page})=>{
+      37 |   await page.goto(`/${locale}/workspace/leads/LE-2101`);await expect(page.getByRole('combobox',{name:localized('Assigned agent',true),exact:true})).toBeVisible();await page.evaluate((s)=>{const key='maxpro-gemini-v3-demo-state';s.crm.unavailableAgents=['Karim Said'];localStorage.setItem(key,JSON.stringify(s));},createDemoStore().getSnapshot().state);await page.reload();
+    > 38 |   const agent=page.getByRole('combobox',{name:localized('Assigned agent',true),exact:true});await agent.focus();const unavailable=page.locator('[role=option][data-value="Karim Said"]');await expect(unavailable).toHaveAttribute('aria-disabled','true');await unavailable.dispatchEvent('click');await expect(agent).toHaveAttribute('data-value','Fatima Noor');await agent.press('Escape');
+         |                                                                                                         ^
+      39 |   await selectChoice(page,agent,'Mariam Ahmed');await page.reload();await expect(agent).toHaveValue('Mariam Ahmed');await agent.focus();await page.getByRole('button',{name:t('Clear selection','مسح الاختيار'),exact:true}).click();await agent.press('Escape');await page.reload();await expect(agent).toHaveAttribute('data-value','');
+      40 |  });
+      41 |  test(`enterprise ${locale}: combobox open accessibility and no accidental Tab commit`,async({page},info)=>{
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/enterprise-ux.spec.ts:38:105
+
+    Error Context: test-results/enterprise-ux-enterprise-a-4ca7b--clearing-and-saved-context-chromium/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/enterprise-ux-enterprise-a-4ca7b--clearing-and-saved-context-chromium/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/enterprise-ux-enterprise-a-4ca7b--clearing-and-saved-context-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [chromium] › tests/e2e/enterprise-ux.spec.ts:40:2 › enterprise ar: combobox open accessibility and no accidental Tab commit 
+
+    Test was interrupted.
+
+    Error: page.screenshot: Target page, context or browser has been closed
+
+      41 |  test(`enterprise ${locale}: combobox open accessibility and no accidental Tab commit`,async({page},info)=>{
+      42 |   await page.goto(`/${locale}/workspace/publish?property=AQ-10233`);const input=page.getByRole('combobox',{name:t('Selected property','العقار المختار'),exact:true});await input.fill('AQ-10231');await input.press('ArrowDown');await input.press('Tab');await expect(page.getByRole('listbox')).toHaveCount(0);await expect(page).toHaveURL(/property=AQ-10233/);await input.focus();
+    > 43 |   const pkg=readdirSync(resolve('../../node_modules/.pnpm')).find(n=>n.startsWith('axe-core@'))!;await page.addScriptTag({path:resolve('../../node_modules/.pnpm',pkg,'node_modules/axe-core/axe.min.js')});const report=await page.evaluate('window.axe.run(document,{runOnly:{type:"tag",values:["wcag2a","wcag2aa","wcag21aa","wcag22aa"]}})') as {violations:{id:string}[]};expect(report.violations).toEqual([]);await page.screenshot({path:`${output}/${info.project.name}-${locale}-combobox-open.png`});
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                  ^
+      44 |  });
+      45 |  test(`enterprise ${locale}: campaign search, consistent controls and contextual role disclosure`,async({page})=>{
+      46 |   await page.goto(`/${locale}/workspace/campaigns/new`);await expect(page.locator('.cm-demo-tools')).not.toHaveAttribute('open','');await selectChoice(page,page.getByRole('combobox',{name:t('Canonical property','العقار الأساسي'),exact:true}),'AQ-10233');await page.getByRole('button',{name:localized('Create campaign draft',true),exact:true}).click();await expect(page).toHaveURL(/DEMO-CAMPAIGN-/);await page.locator('.cm-steps button').first().click();await expect(page.getByRole('combobox',{name:t('Canonical property','العقار الأساسي'),exact:true})).toBeDisabled();
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/enterprise-ux.spec.ts:43:418
+
+    Error: ENOENT: no such file or directory, open '/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/test-results/.playwright-artifacts-5/019107b00e671e3314bf8d7174be2464.zip'
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/enterprise-ux-enterprise-a-96359-nd-no-accidental-Tab-commit-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4 failed
+    [chromium] › tests/e2e/enterprise-ux.spec.ts:17:2 › enterprise en: long portfolios scroll, keep RTL alignment and escape mobile overflow 
+    [chromium] › tests/e2e/enterprise-ux.spec.ts:17:2 › enterprise ar: long portfolios scroll, keep RTL alignment and escape mobile overflow 
+    [chromium] › tests/e2e/enterprise-ux.spec.ts:30:2 › enterprise ar: purpose radios, inline validation and incomplete drafts persist 
+    [chromium] › tests/e2e/enterprise-ux.spec.ts:35:2 › enterprise ar: agent search, disabled choices, clearing and saved context 
+  1 interrupted
+    [chromium] › tests/e2e/enterprise-ux.spec.ts:40:2 › enterprise ar: combobox open accessibility and no accidental Tab commit 
+  1 did not run
+  18 passed (4.5m)
+ ELIFECYCLE  Command failed with exit code 130.

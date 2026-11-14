@@ -16,6 +16,13 @@ export const test=base.extend<{browserErrors:void}>({
 });
 export {expect};
 
+/** Exercise semantic native or searchable controls without bypassing their UI. */
+export async function selectChoice(page:import('@playwright/test').Page,control:import('@playwright/test').Locator,value:string){
+ if(await control.evaluate(el=>el.tagName==='SELECT')){await control.selectOption(value);return;}
+ await control.fill(value);
+ await page.locator(`[role="option"][data-value="${value}"]`).click();
+}
+
 import arabicCopy from '../../messages/prototype-ar.json';
 import {translateCopy} from '../../src/lib/ui-copy';
 /** Keep exact EN/AR control assertions meaningful as the legacy UI gains translations. */

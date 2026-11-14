@@ -1,0 +1,106 @@
+{
+  "removedFiles": [
+    {
+      "file": "apps/web/src/components/prototype/overview.tsx",
+      "classification": "DEAD",
+      "reason": "No route/import/test/tool references. Canonical agency dashboard is AgencyDashboard; older static dashboard is unreachable."
+    },
+    {
+      "file": "apps/web/src/components/prototype/relationships.tsx",
+      "classification": "DEAD",
+      "reason": "No route/import/test/tool references. Hub, CRM and analytics import canonical gemini workspaces. Historical docs/19 reference annotated."
+    },
+    {
+      "file": "apps/web/src/lib/brand.ts",
+      "classification": "DEAD",
+      "reason": "Unused stale MaxPro naming constant; active approved AqarPro image and pending naming decision are preserved."
+    }
+  ],
+  "removedExports": [
+    {
+      "file": "apps/web/src/components/prototype/primitives.tsx",
+      "exports": [
+        "Metric",
+        "ListingRow",
+        "MiniBars",
+        "buttonClass"
+      ],
+      "reason": "Only unreachable overview used three components; buttonClass had no consumer."
+    },
+    {
+      "file": "apps/web/src/components/prototype/extended.tsx",
+      "exports": [
+        "FinanceOps"
+      ],
+      "reason": "No imports. Billing and dunning compatibility routes already use InvoiceWorkspace; obsolete disconnected mock had no supported caller."
+    },
+    {
+      "file": "apps/web/src/components/prototype/inventory.tsx",
+      "exports": [
+        "InventoryEditor"
+      ],
+      "reason": "Unused alias. Active edit route imports CanonicalPropertyEditor directly."
+    }
+  ],
+  "consolidated": [
+    {
+      "file": "apps/web/src/app/globals.css",
+      "into": "apps/web/src/styles/**",
+      "reason": "Parsed by semantic ownership; source-unreferenced rules and exact shadowed declarations removed; shared control appearance consolidated."
+    },
+    {
+      "file": "agency/gemini/prototype selection markup",
+      "into": "components/ui/field.tsx",
+      "reason": "Every retained select now uses a semantic NativeSelect. Long primary portfolio, entry and assignment choices use SearchCombobox."
+    },
+    {
+      "file": "components/gemini/campaign-studio.tsx: campaignStatusLabel",
+      "into": "lib/campaign-presentation.ts",
+      "reason": "Shared existing presentation labels without importing a full editor from property/promotion screens; state-machine values unchanged."
+    }
+  ],
+  "retained": [
+    {
+      "item": "Canonical property/syndication/campaign/CRM/organization engines and demo provider",
+      "classification": "ACTIVE",
+      "reason": "Working domain behavior and persistence preserved."
+    },
+    {
+      "item": "Public showcase, advanced editor/publish, legacy ads/billing/support routes",
+      "classification": "COMPATIBILITY",
+      "reason": "Existing bookmarks and secondary workflows remain."
+    },
+    {
+      "item": "All existing tests and fixtures",
+      "classification": "TEST SUPPORT",
+      "reason": "Preserved; UI interactions adjusted only where controls changed."
+    },
+    {
+      "item": "api-contracts.ts, demo-data.ts, utils.ts",
+      "classification": "DOCUMENTED",
+      "reason": "See source-audit.json for documentation/tooling references."
+    },
+    {
+      "item": "Historical artifacts/ screenshot/log trees",
+      "classification": "DOCUMENTED",
+      "reason": "Retained acceptance references. No generated history deleted."
+    },
+    {
+      "item": "Translation keys without static source references",
+      "classification": "UNCERTAIN",
+      "reason": "Runtime translation, source-generated text and historical fixture/test reuse require a separate key-level audit; no deletion."
+    },
+    {
+      "item": "All dependencies and bundled assets",
+      "classification": "ACTIVE",
+      "reason": "Build/runtime imports or active brand/media fixtures. No dependency or asset removal is justified."
+    }
+  ],
+  "checks": [
+    "Route-root TypeScript import graph with alias/re-export/dynamic-import traversal",
+    "rg reference checks over src/tests/scripts/docs/openspec",
+    "Typecheck/lint and all retained route/workflow tests",
+    "Running-app route/viewport, axe and screenshot review; generated Lucide selector exception verified"
+  ],
+  "historicalEvidence": "Hard-coded productivity capture path now honors MAXPRO_EVIDENCE_ROOT. 94 overwritten historical captures restored from initial HEAD; historical artifact trees are unchanged in final diff."
+}

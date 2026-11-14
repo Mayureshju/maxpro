@@ -509,6 +509,7 @@ async function approveUI(page: Page) {
     ["admin", /Record MaxPro approval|تسجيل موافقة ماكس برو/],
     ["editor", /Simulate campaign locally|محاكاة الحملة محلياً/],
   ] as const) {
+    if(await page.locator('.cm-demo-tools').getAttribute('open')===null)await page.locator('.cm-demo-tools summary').click();
     await page.getByLabel(/Local demo role|دور تجريبي محلي/).selectOption(role);
     await page.getByRole("button", { name }).click();
     await expect(page.locator("main [role=alert]")).toHaveCount(0);
@@ -594,7 +595,7 @@ for (const locale of ["en", "ar"]) {
     await page.goto(`/${locale}/workspace/campaigns/new?property=AQ-10233`);
     await expect(
       page.getByLabel(/Canonical property|العقار الأساسي/),
-    ).toHaveValue("AQ-10233");
+    ).toHaveAttribute("data-value","AQ-10233");
     await page
       .getByRole("button", { name: localized(/Create campaign draft|إنشاء مسودة حملة/) })
       .click();

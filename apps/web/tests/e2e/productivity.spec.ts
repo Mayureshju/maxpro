@@ -1,4 +1,4 @@
-import {test,expect} from './fixtures';
+import {test,expect,selectChoice} from './fixtures';
 import {mkdirSync} from 'node:fs';
 import {resolve} from 'node:path';
 import {propertyContentChecks} from '../../src/lib/property-completeness';
@@ -6,7 +6,7 @@ import {seedProperties} from '../../src/lib/canonical-property';
 import {destinationReadiness} from '../../src/lib/syndication-engine';
 import {createDemoStore} from '../../src/components/gemini/demo-provider';
 
-const evidence=resolve('../../artifacts/phase9/after');mkdirSync(evidence,{recursive:true});
+const evidence=resolve(`../../${process.env.MAXPRO_EVIDENCE_ROOT??'artifacts/phase9'}/after`);mkdirSync(evidence,{recursive:true});
 test('content completeness is independent of human review and portal configuration',()=>{
  const p=seedProperties()['AQ-10233'];p.source.factsReviewed=false;p.source.copyReviewed=false;p.media=p.media.filter(m=>m.kind==='image');
  expect(propertyContentChecks(p).every(c=>c.complete)).toBe(true);const state=createDemoStore().getSnapshot().state;
@@ -57,7 +57,7 @@ for(const locale of ['en','ar']){
   await page.goto(`/${locale}/workspace/publish?property=AQ-10233`);await page.locator('input[name="promotion-goal"][value="advertising"]').check();await page.locator('.ag-channel-choice').filter({hasText:t('Facebook & Instagram','فيسبوك وإنستغرام')}).getByRole('checkbox').check();
   const budget=page.getByRole('spinbutton',{name:t('Media budget (QAR)','ميزانية الإعلان (ر.ق)'),exact:true});await budget.fill('375');await page.locator('input[name="promotion-goal"][value="direct"]').check();await expect(budget).not.toBeVisible();await page.locator('.ag-channel-choice').filter({hasText:t('WhatsApp Business message','رسالة واتساب للأعمال')}).getByRole('checkbox').check();await expect(page.locator('.ag-channel-tabs~div:visible').first()).toContainText(t('Preparation only','تجهيز فقط'));await expect(page.locator('.ag-channel-tabs~div:visible').first().getByRole('spinbutton')).toHaveCount(0);
   await page.locator('input[name="promotion-goal"][value="advertising"]').check();await expect(budget).toHaveValue('375');const ad=page.locator('.ag-channel-choice').filter({hasText:t('Facebook & Instagram','فيسبوك وإنستغرام')}).getByRole('checkbox');await ad.uncheck();await ad.check();await expect(budget).toHaveValue('375');
-  await page.locator('.ag-promotion-property select').selectOption('AQ-10231');const warning=page.getByRole('dialog',{name:t('Leave unsaved changes?','هل تريد مغادرة التعديلات غير المحفوظة؟'),exact:true});await expect(warning).toBeVisible();await warning.getByRole('button',{name:t('Keep editing','متابعة التحرير'),exact:true}).click();await expect(page).toHaveURL(/property=AQ-10233/);await expect(budget).toHaveValue('375');
+  await selectChoice(page,page.locator('.ag-promotion-property').getByRole('combobox'),'AQ-10231');const warning=page.getByRole('dialog',{name:t('Leave unsaved changes?','هل تريد مغادرة التعديلات غير المحفوظة؟'),exact:true});await expect(warning).toBeVisible();await warning.getByRole('button',{name:t('Keep editing','متابعة التحرير'),exact:true}).click();await expect(page).toHaveURL(/property=AQ-10233/);await expect(budget).toHaveValue('375');
  });
  test(`productivity ${locale}: four-width ten-screen visual consistency`,async({page},info)=>{
   test.skip(info.project.name==='mobile-chromium','The desktop project captures all four widths, including mobile.');test.setTimeout(180000);

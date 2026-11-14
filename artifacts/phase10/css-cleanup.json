@@ -1,0 +1,3324 @@
+{
+  "originalBytes": 225465,
+  "shadowedDeclarationsRemoved": 157,
+  "removedSelectors": [
+    {
+      "selectors": [
+        ".brand-symbol"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".brand-word"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".brand-word > span:first-child"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".brand-dot"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".button-large"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".hero-section"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".eyebrow-dot"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".hero-description"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".hero-buttons"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".hero-proof"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".hero-proof span"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".hero-proof svg"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".trust-row"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".trust-row > span"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".trust-row svg"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".trust-row > i"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-stage"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-stage::before"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-stage::after"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".dashboard-preview"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-side"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-side-logo"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-side-logo span"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-side-item"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-side-item.selected"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-main"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-top"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-muted"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-avatar"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-eyebrow"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-main h3"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-kpis"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-kpis > div"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-kpis small",
+        ".preview-kpis strong",
+        ".preview-kpis span"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-kpis small"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-kpis strong"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-kpis .preview-trend"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-table-title"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-table-title span:last-child"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-table"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-table-row"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-table-row:last-child"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-property-img"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-property-img.p2"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-property-img.p3"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-property"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-property strong",
+        ".preview-property small"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-property strong"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-property small"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".pill-success",
+        ".pill-warning"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".pill-warning"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-floating"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-floating strong",
+        ".preview-floating small"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-floating strong"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-floating small"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-floating-a"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-floating-b"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-floating-b > svg"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".mini-icon"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".floating-portal-icons"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".floating-portal-icons span"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".floating-portal-icons span + span"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".section-steps"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".section-features"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".section-header"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".section-header h1",
+        ".section-header h2"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".section-header p"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".steps-grid"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".step-heading"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".step-icon"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".step-number"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".feature-grid"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".feature-card"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".feature-card:hover"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".feature-top"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".feature-icon"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".feature-marker"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".feature-card h3"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".feature-card p"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".feature-link"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".cta-container"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".cta-panel"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".cta-orbit"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".cta-orbit-b"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".cta-content"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".kicker-light"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".cta-content h2"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".cta-content p"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".pricing-page"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".pricing-grid"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".pricing-card"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".pricing-card.pricing-featured"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".pricing-card h2"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".pricing-sub"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".price .price-custom"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".pricing-button"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".popular-label"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".pricing-features"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".pricing-features li"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".pricing-features svg"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".pricing-disclaimer"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".workspace-brand .brand-word"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".org-switcher"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".org-avatar"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".org-switcher > span:nth-child(2)"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".org-switcher strong",
+        ".org-switcher small"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".org-switcher strong"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".org-switcher small"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".org-switcher > svg"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".sidebar-group-label"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".workspace-nav-link"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".workspace-nav-link:hover"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".workspace-nav-link.active"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".workspace-sidebar-end"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".sidebar-demo-chip"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".user-profile"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".user-avatar",
+        ".topbar-avatar"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".user-profile > span:nth-child(2)"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".user-profile strong",
+        ".user-profile small"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".user-profile small"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".user-profile > svg"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".workspace-content"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".workspace-topbar"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".workspace-topbar-left",
+        ".workspace-topbar-actions"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".workspace-topbar-left > strong"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".topbar-divider"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".topbar-slash"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".workspace-topbar-actions"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".topbar-icon"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".topbar-icon i"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".workspace-page-heading"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".workspace-page-heading h1"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".workspace-page-heading p"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".workspace-page-heading .kicker"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".workspace-footer-note"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".workspace-footer-note a"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".metrics-grid"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".metric-card"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".metric-top"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".metric-top svg"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".metric-value"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".metric-foot"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".workspace-grid"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".workspace-panel"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".panel-header"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".panel-header h2"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".panel-header p"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".small-link"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".small-muted"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".table-wrap"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".data-table"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".data-table th"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".data-table td"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".data-table tr:last-child td"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".data-table td strong"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".data-table td small"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".data-table th:first-child",
+        ".data-table td:first-child"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".table-badge"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".badge-dot"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".badge-live"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".badge-review"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".badge-draft"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".side-panels"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".compact-panel .panel-header"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".connector-brand",
+        ".connector-large"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".connector-brand.second",
+        ".connector-large.second"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".text-success",
+        ".text-warning"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".text-warning"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".review-item"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".review-icon"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".review-icon.mint"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".review-item > span:nth-child(2)"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".review-item strong"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".review-item small"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".review-item > svg"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".studio-progress"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".studio-progress-step"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".studio-progress-step > span"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".studio-progress-step.current"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".studio-progress-step.current > span"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".studio-grid"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".studio-panel .panel-header"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".mock-input"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".upload-box"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".upload-box strong"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".upload-box > span"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".file-type-icons"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".file-type-icons > span"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".studio-bottom"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".studio-bottom > div"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".assist-panel"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".assist-icon"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".assist-panel h2"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".assist-panel p"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".assist-panel ul"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".assist-panel li"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".assist-panel li svg"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".assist-foot"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".assist-foot svg"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".hub-connection-grid"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".hub-connection"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".hub-connection-top"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".connector-large"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".hub-connection h2"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".hub-connection p"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".capability-tags"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".capability-tags span"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".capability-tags .tag-muted"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".connection-footer"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".connection-footer span"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".jobs-panel"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".info-line"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".info-line svg"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".list-toolbar"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".list-toolbar > div",
+        ".list-toolbar > button"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".list-toolbar > div"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".list-toolbar > button"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".lead-source"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        "html[dir=\"rtl\"] .preview-stage"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        "html[dir=\"rtl\"] .preview-floating"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        "html[dir=\"rtl\"] .brand-word",
+        "html[dir=\"rtl\"] .metric-value"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        "html[dir=\"rtl\"] .data-table"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        "html[dir=\"rtl\"] .data-table th"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        "html[dir=\"rtl\"] .cta-orbit"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        "html[dir=\"rtl\"] .cta-orbit-b"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-floating-a"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-floating-b"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".workspace-grid"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".side-panels"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".pricing-grid"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".hero-section"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-stage"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".trust-row"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".trust-row > i"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".steps-grid"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".workspace-brand .brand-word",
+        ".org-switcher",
+        ".sidebar-group-label",
+        ".workspace-nav-link span",
+        ".sidebar-demo-chip",
+        ".workspace-sidebar-end .user-profile"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".workspace-nav-link"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".workspace-topbar"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".workspace-footer-note"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".metrics-grid"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".studio-grid"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".brand-symbol"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".brand-word"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".hero-description"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".hero-buttons .button"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-stage"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-stage::before"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".dashboard-preview"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-side"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-main"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-top"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-kpis small"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-kpis strong"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-kpis .preview-trend"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-property strong"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-floating-a"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-floating-b"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-floating"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-floating strong"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-floating small"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".trust-row"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".trust-row > span"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".section-header"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".section-header p"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".steps-grid",
+        ".feature-grid"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".step-heading"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".feature-card"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".cta-container"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".cta-panel"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".pricing-page"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".pricing-grid"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".workspace-sidebar .brand-symbol"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".workspace-topbar"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".workspace-topbar-actions"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".workspace-topbar-left"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".workspace-topbar-left > svg",
+        ".topbar-divider",
+        ".topbar-slash",
+        ".topbar-icon"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".workspace-footer-note"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".workspace-page-heading"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".metrics-grid"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".metric-card"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".metric-top"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".metric-value"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".side-panels"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".studio-progress"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".hub-connection-grid"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".studio-bottom"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".brand-symbol"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".brand-word"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".workspace-sidebar-header .brand-word"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".workspace-sidebar-header .brand-symbol"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".topbar-divider-char"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-chip"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".preview-chip span"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-event-list"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-event-list>div"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-event-list>div:last-child"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-event-dot"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-event-list b",
+        ".px-event-list small"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-event-list b"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-event-list small"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-media-grid"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-media-card>div"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-media-card strong",
+        ".px-media-card span"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-media-card span"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-data-grid"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-data-grid>div"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-data-grid>div strong"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-data-grid>div small"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-credit-counter"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-credit-counter b"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-credit-counter span"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-aside-numeral"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-aside-numeral span"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-room-collection"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-room-item"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-room-placeholder"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-room-placeholder small"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-room-item strong"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-room-item input"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-room-item>span"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-destination-list"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-destination-list label"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-destination-list label:last-child"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-destination-list label>span:nth-of-type(1)"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-destination-list label b",
+        ".px-destination-list label small"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-destination-list label b"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-destination-list label small"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-destination-list input"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-completion-note"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-completion-note strong"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-completion-note p"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-completion-note a"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-pipeline"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-pipeline button"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-pipeline button.active"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-pipeline button strong"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-source-chart"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-source-chart>div"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-source-chart>div>div"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-source-chart i"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-source-chart b"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-conversation-right"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-conversation-right small"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-conversation-right b"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-chat-day"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-campaign-row"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-campaign-row:last-child"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-campaign-row>div"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-campaign-row strong",
+        ".px-campaign-row small"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-campaign-row strong"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-campaign-row small"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-campaign-icon"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-weekly-advice"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-weekly-advice>svg"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-weekly-advice h3"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-weekly-advice p"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-weekly-advice .px-rule-list"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-budget-total"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-team-list>div"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-team-list>div:last-child"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-member-avatar"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-team-list>div>span:nth-child(2)"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-team-list strong",
+        ".px-team-list small"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-team-list strong"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-team-list small"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-team-list>div>span:nth-child(n+4)"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-billing-hero"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-billing-hero h2"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-billing-hero p"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-billing-price"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-billing-price span"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-billing-stamp"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-billing-stamp>span"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-billing-stamp strong"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-billing-stamp b"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-billing-stamp small"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-plan-usage"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-plan-usage strong"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-plan-usage strong span"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-plan-usage>div"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-plan-usage i"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-plan-usage small"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-payment-demo"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-payment-demo strong",
+        ".px-payment-demo span"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-payment-demo strong"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-payment-demo span"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-verification-status"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-verification-status>div"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-verification-status strong"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-verification-status p"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-setting-toggle"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-setting-toggle b",
+        ".px-setting-toggle small"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-setting-toggle b"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-setting-toggle small"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-setting-toggle input"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-admin-tabs"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-admin-tabs>a"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-admin-tabs>a.active"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-review-list>div"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-review-list>div>div"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-review-list strong",
+        ".px-review-list small"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-review-list strong"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-review-list small"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-review-list a",
+        ".px-review-list button"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-review-list button:disabled"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-taxonomy-list"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-taxonomy-list span"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".topbar-crumb",
+        ".topbar-divider-char",
+        ".preview-chip"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-data-grid",
+        ".px-media-grid"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-room-collection"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-pipeline"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-pipeline button"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-conversation-right"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-billing-hero"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-billing-stamp"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-billing-stamp strong"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-review-list>div"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-billing-cycle"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-billing-cycle button"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-billing-cycle button.current"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-control-layout"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-control-primary"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-control-primary:after"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-control-primary .px-overline"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-control-head"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-control-head strong"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-control-head em"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-control-head p"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-control-insignia"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-control-actions"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-control-actions a"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-control-right"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-action-queue"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-action-queue a"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-action-queue a>span"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-action-queue b",
+        ".gm-action-queue small"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-action-queue b"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-action-queue small"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-action-queue svg"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-brand-large"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-provider-head"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-provider-head strong"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-provider-head p"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-feed-key"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-feed-key>div"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-feed-key strong",
+        ".gm-feed-key small"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-feed-key strong"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-feed-key small"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-feed-key code"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-feed-key button"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-process-row"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-process-row span"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-process-row svg"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-limit-table"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-limit-table>div"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-limit-table>div:last-child"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-limit-table span",
+        ".gm-limit-table strong",
+        ".gm-limit-table small"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-limit-table span"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-limit-table strong"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-limit-table small"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-brand-preview"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-integrated"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-limit-table"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-limit-table>div:nth-child(2)"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-limit-table>div:nth-child(-n+2)"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-control-layout"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-control-right"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-control-primary"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-control-head strong"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-control-insignia"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-provider-head"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-report-toolbar"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-report-toolbar label"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-report-toolbar select"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-room-item"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".px-room-item input"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        "html[dir=\"rtl\"] .prototype-main .lucide-arrow-right",
+        "html[dir=\"rtl\"] .prototype-main .lucide-arrow-left"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".oa-public-onboarding"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-control-head strong:lang(ar)"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-control-primary:after"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-control-insignia"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".gm-control-insignia"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".fx-nav-search"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".fx-nav-search input"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".fx-nav-search:focus-within"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".fx-nav-empty"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".ag-reference"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".ag-property-actions"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".ag-settings-card>.lucide-arrow-right"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".ag-destination-heading"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".ag-channel-groups"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".ag-channel-groups>section"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".ag-group-heading"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".ag-group-heading h3"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".ag-channel-groups>section>p"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".ag-channel-groups"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".ag-channel-groups>section"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".ag-group-heading h3"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".ag-channel-groups"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".ag-channel-groups>section>p"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".ag-channel-groups>section"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".ag-property-actions .px-button"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".ag-destination-heading"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".ag-channel-groups>section"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".ag-channel-groups"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".ag-channel-jump"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".ag-channel-jump"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".ag-channel-jump .px-button"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".ws-header-action"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    },
+    {
+      "selectors": [
+        ".ag-settings-card>.lucide-arrow-right"
+      ],
+      "reason": "Class absent from all source strings and retained dynamic families"
+    }
+  ],
+  "owners": [
+    {
+      "name": "tokens",
+      "rules": 6
+    },
+    {
+      "name": "foundations",
+      "rules": 634
+    },
+    {
+      "name": "public",
+      "rules": 97
+    },
+    {
+      "name": "workflows/properties",
+      "rules": 197
+    },
+    {
+      "name": "workflows/promotion",
+      "rules": 89
+    },
+    {
+      "name": "workflows/crm",
+      "rules": 94
+    },
+    {
+      "name": "workflows/campaigns",
+      "rules": 102
+    },
+    {
+      "name": "workflows/organization",
+      "rules": 42
+    },
+    {
+      "name": "workflows/integrations",
+      "rules": 256
+    },
+    {
+      "name": "layout",
+      "rules": 133
+    },
+    {
+      "name": "components/buttons",
+      "rules": 49
+    },
+    {
+      "name": "components/fields",
+      "rules": 73
+    },
+    {
+      "name": "components/selection",
+      "rules": 0
+    },
+    {
+      "name": "components/tables",
+      "rules": 24
+    },
+    {
+      "name": "components/overlays",
+      "rules": 31
+    },
+    {
+      "name": "components/navigation",
+      "rules": 11
+    }
+  ],
+  "afterDeadModuleRemoval": [
+    ".px-small-rule",
+    ".px-three-column",
+    ".px-bottom-grid",
+    ".px-listing-list",
+    ".px-listing-name strong",
+    ".px-listing-name small",
+    ".px-listing-name strong",
+    ".px-listing-name small",
+    ".px-listing-price",
+    ".px-listing-price small",
+    ".px-listing-connectors",
+    ".px-listing-go",
+    ".px-overview-top",
+    ".px-overview-lead",
+    ".px-hero-small",
+    ".px-overview-lead>strong",
+    ".px-overview-lead-bottom",
+    ".px-overview-lead-bottom b",
+    ".px-overview-lead-bottom span",
+    ".px-overview-lead-bottom b",
+    ".px-overview-lead-bottom span",
+    ".px-overview-lead-bottom .px-positive",
+    ".px-overview-lead .px-small-rule",
+    ".px-portfolio-breakdown",
+    ".px-portfolio-breakdown b",
+    ".px-overview-metric-col",
+    ".px-flat-metric",
+    ".px-flat-metric+div",
+    ".px-flat-metric>div:first-child span",
+    ".px-flat-metric>div:first-child strong",
+    ".px-flat-metric>div:first-child small",
+    ".px-flat-metric>div:first-child span",
+    ".px-flat-metric>div:first-child strong",
+    ".px-flat-metric>div:first-child small",
+    ".px-mini-bars",
+    ".px-mini-bars span",
+    ".px-progress-circle",
+    ".px-progress-circle span",
+    ".px-action-list>a",
+    ".px-action-list>a:hover",
+    ".px-action-list>a:last-child",
+    ".px-action-icon",
+    ".px-action-icon.caution",
+    ".px-action-list>a>span:nth-child(2)",
+    ".px-action-list strong",
+    ".px-action-list small",
+    ".px-action-list strong",
+    ".px-action-list small",
+    ".px-action-list b",
+    ".px-distribution-metrics",
+    ".px-distribution-metrics>div+div",
+    ".px-distribution-metrics span",
+    ".px-distribution-metrics strong",
+    ".px-distribution-metrics small",
+    ".px-distribution-metrics span",
+    ".px-distribution-metrics strong",
+    ".px-distribution-metrics small",
+    ".px-distro-strip",
+    ".px-distro-strip span",
+    ".px-distro-strip i",
+    ".px-lower-line",
+    ".px-lower-line span",
+    ".px-legend-a",
+    ".px-legend-b",
+    ".px-legend-b",
+    ".px-lead-compact>a",
+    ".px-lead-compact>a:last-child",
+    ".px-lead-compact>a>span:nth-child(2)",
+    ".px-lead-compact strong",
+    ".px-lead-compact small",
+    ".px-lead-compact strong",
+    ".px-lead-compact small",
+    ".px-related-links",
+    ".px-related-links>span",
+    ".px-related-links a",
+    ".px-connector-grid",
+    ".px-connector-card",
+    ".px-connector-top",
+    ".px-connector-letter",
+    ".px-connector-card h3",
+    ".px-connector-card p",
+    ".px-connector-chips",
+    ".px-connector-chips span",
+    ".px-connector-foot",
+    ".px-pair-big",
+    ".px-pair-big strong",
+    ".px-pair-big strong small",
+    ".px-pair-big span",
+    ".px-section .px-mini-bars",
+    ".px-analytics-lead",
+    ".px-analytics-lead>span",
+    ".px-analytics-lead>strong",
+    ".px-analytics-lead>div:nth-child(3)",
+    ".px-analytics-bars",
+    ".px-analytics-bars span",
+    ".px-chart-bottom",
+    ".px-small-bar",
+    ".px-small-bar i",
+    ".px-connector-grid",
+    ".px-listing-connectors",
+    ".px-bottom-grid",
+    ".px-three-column",
+    ".px-overview-top",
+    ".px-overview-metric-col",
+    ".px-flat-metric+div",
+    ".px-overview-lead",
+    ".px-overview-lead>strong",
+    ".px-overview-metric-col",
+    ".px-flat-metric+div",
+    ".px-portfolio-breakdown",
+    ".px-listing-row .px-listing-go",
+    ".px-listing-price",
+    ".px-listing-name strong",
+    ".px-three-column",
+    ".px-connector-grid",
+    "html[dir=\"rtl\"] .px-mini-bars",
+    ".px-invoice-sheet",
+    ".px-invoice-header",
+    ".px-invoice-header strong",
+    ".px-invoice-header strong span",
+    ".px-invoice-header>span",
+    ".px-invoice-parties",
+    ".px-invoice-parties>div",
+    ".px-invoice-parties span",
+    ".px-invoice-parties strong",
+    ".px-invoice-parties small",
+    ".px-invoice-total",
+    ".px-invoice-total strong",
+    ".px-invoice-sheet",
+    ".px-invoice-header",
+    ".px-invoice-parties",
+    ".px-invoice-total",
+    ".px-period-select"
+  ],
+  "finalBytes": 213727,
+  "restoredGeneratedSelectors": [
+    "html[dir=\"rtl\"] .prototype-main .lucide-arrow-right",
+    "html[dir=\"rtl\"] .prototype-main .lucide-arrow-left",
+    ".ag-settings-card>.lucide-arrow-right"
+  ],
+  "reviewNote": "Lucide emits classes at runtime; these were restored after source-reference scanning and visual RTL review. Static absence alone is not proof for generated classes.",
+  "syntaxBefore": {
+    "rules": 2814,
+    "declarations": 8034
+  },
+  "syntaxAfter": {
+    "rules": 2235,
+    "declarations": 6067
+  }
+}

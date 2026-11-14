@@ -1,4 +1,6 @@
 'use client';
+import {SearchCombobox} from '@/components/ui/search-combobox';
+import {NativeSelect} from '@/components/ui/field';
 import {LeadAssistance} from '@/components/agency/lead-assistance';
 import {usePrototypeCopy} from '@/components/prototype/use-prototype-copy';
 import {can} from '@/lib/organization-engine';
@@ -177,7 +179,7 @@ export function LeadIntake({initialProperty}: {initialProperty?: string}) {const
         <div className="px-field-grid">
           <label className="px-field">
             {copyText(t('Intake source', 'مصدر الاستقبال'))}
-            <select
+            <NativeSelect
               value={source}
               onChange={(e) => {
                 const s = e.target.value as LeadSource;
@@ -188,11 +190,11 @@ export function LeadIntake({initialProperty}: {initialProperty?: string}) {const
               {leadSources.map((s) => (
                 <option key={s} value={s}>{copyText(s)}</option>
               ))}
-            </select>
+            </NativeSelect>
           </label>
           <label className="px-field">
             {copyText(t('Canonical property', 'العقار الأساسي'))}
-            <select
+            <NativeSelect
               value={property}
               onChange={(e) => {
                 setProperty(e.target.value);
@@ -213,7 +215,7 @@ export function LeadIntake({initialProperty}: {initialProperty?: string}) {const
                   ))}
                 </option>
               ))}
-            </select>
+            </NativeSelect>
           </label>
         </div>
         <label className="px-field">
@@ -319,7 +321,7 @@ export function LeadsPage({
 }: {
   initialProperty?: string;
   initialIntake?: boolean;
-}) {const copyText=usePrototypeCopy();
+}) {const copyText=usePrototypeCopy();const ar=useLocale()==='ar';
   const {state, hydrated} = useGeminiDemo();
   const t = useCrmCopy();
   const [search, setSearch] = useState('');
@@ -406,7 +408,20 @@ export function LeadsPage({
           </div>
         }
       >
-        <div className="crm-quick-filters" aria-label={t('Quick lead filters','فلاتر سريعة للاستفسارات')}><button type="button" aria-pressed={owner==='Unassigned'} onClick={()=>setOwner(owner==='Unassigned'?'All':'Unassigned')}>{t('Needs assignment','بحاجة إلى تعيين')} · {state.crm.leads.filter(l=>!l.assignee).length}</button><button type="button" aria-pressed={stage==='New'} onClick={()=>setStage(stage==='New'?'All':'New')}>{t('New enquiries','الاستفسارات الجديدة')} · {metrics.new}</button></div><div className="crm-filters">
+        <div className="crm-quick-filters" aria-label={t('Quick lead filters','فلاتر سريعة للاستفسارات')}><button type="button" aria-pressed={owner==='Unassigned'} onClick={()=>setOwner(owner==='Unassigned'?'All':'Unassigned')}>{t('Needs assignment','بحاجة إلى تعيين')} · {state.crm.leads.filter(l=>!l.assignee).length}</button><button type="button" aria-pressed={stage==='New'} onClick={()=>setStage(stage==='New'?'All':'New')}>{t('New enquiries','الاستفسارات الجديدة')} · {metrics.new}</button>          <button
+            className="px-mini-action"
+            onClick={() => {
+              setSearch('');
+              setSource('All');
+              setProperty('All');
+              setOwner('All');
+              setStage('All');
+              setPriority('All');
+              setQualification('All');
+            }}
+          >
+            {copyText(t('Reset filters', 'إعادة ضبط'))}
+          </button></div><div className="crm-filters">
           <label className="px-field">
             {copyText(t('Search leads', 'بحث العملاء'))}
             <input
@@ -458,32 +473,19 @@ export function LeadsPage({
           ].map((f) => (
             <label className="px-field" key={f.label}>
               {copyText(f.label)}
-              <select value={f.value} onChange={(e) => f.set(e.target.value)}>
+              <NativeSelect value={f.value} onChange={(e) => f.set(e.target.value)}>
                 <option value="All">{copyText(t('All', 'الكل'))}</option>
                 {f.options.map((o) => (
                   <option key={o} value={o}>
-                    {copyText(leadStages.includes(o as LeadStage)
+                    {copyText(state.properties[o] ? `${o} · ${state.properties[o].facts[ar?'titleAr':'titleEn']}` : leadStages.includes(o as LeadStage)
                       ? t(o, stageAr[o as LeadStage])
                       : o)}
                   </option>
                 ))}
-              </select>
+              </NativeSelect>
             </label>
           ))}
-          <button
-            className="px-mini-action"
-            onClick={() => {
-              setSearch('');
-              setSource('All');
-              setProperty('All');
-              setOwner('All');
-              setStage('All');
-              setPriority('All');
-              setQualification('All');
-            }}
-          >
-            {copyText(t('Reset filters', 'إعادة ضبط'))}
-          </button>
+
         </div>
         {!filtered.length ? (
           <div className="crm-empty">
@@ -709,7 +711,7 @@ function LeadDossier({lead: l}: {lead: CanonicalLead}) {const copyText=useProtot
             <div className="px-field-grid">
               <label className="px-field">
                 {copyText(t('Lead stage', 'مرحلة العميل'))}
-                <select
+                <NativeSelect
                   value={l.stage}
                   onChange={(e) =>
                     run({
@@ -724,7 +726,7 @@ function LeadDossier({lead: l}: {lead: CanonicalLead}) {const copyText=useProtot
                       {copyText(t(s, stageAr[s]))}
                     </option>
                   ))}
-                </select>
+                </NativeSelect>
               </label>
               <AgentSelect
                 value={l.assignee ?? ''}
@@ -807,7 +809,7 @@ function LeadDossier({lead: l}: {lead: CanonicalLead}) {const copyText=useProtot
               <div className="px-field-grid">
                 <label className="px-field">
                   {copyText(t('Qualification status', 'حالة التأهيل'))}
-                  <select
+                  <NativeSelect
                     value={qualification}
                     onChange={(e) =>
                       setQualification(e.target.value as typeof qualification)
@@ -827,11 +829,11 @@ function LeadDossier({lead: l}: {lead: CanonicalLead}) {const copyText=useProtot
                         ))}
                       </option>
                     ))}
-                  </select>
+                  </NativeSelect>
                 </label>
                 <label className="px-field">
                   {copyText(t('Priority', 'الأولوية'))}
-                  <select
+                  <NativeSelect
                     value={priority}
                     onChange={(e) =>
                       setPriority(e.target.value as typeof priority)
@@ -839,7 +841,7 @@ function LeadDossier({lead: l}: {lead: CanonicalLead}) {const copyText=useProtot
                   >
                     <option value="Normal">{copyText(t('Normal', 'عادية'))}</option>
                     <option value="High">{copyText(t('High', 'عالية'))}</option>
-                  </select>
+                  </NativeSelect>
                 </label>
               </div>
               <label className="px-field">
@@ -936,19 +938,7 @@ export function AgentSelect({
 }) {const copyText=usePrototypeCopy();
   const {state} = useGeminiDemo();
   const t = useCrmCopy();
-  return (
-    <label className="px-field">
-      {copyText(label ?? t('Assigned agent', 'المسؤول'))}
-      <select value={value} disabled={!can(state.organization,"lead.assign")} onChange={(e) => onChange(e.target.value)}>
-        <option value="">{copyText(t('Unassigned', 'غير موزع'))}</option>
-        {crmAgentNames(state).map((a) => (
-          <option key={a} disabled={state.crm.unavailableAgents.includes(a)||!availableMember(state,a)}>
-            {copyText(a)}
-          </option>
-        ))}
-      </select>
-    </label>
-  );
+  return <SearchCombobox label={copyText(label ?? t('Assigned agent', 'المسؤول'))} value={value} disabled={!can(state.organization,'lead.assign')} clearable placeholder={copyText(t('Unassigned', 'غير موزع'))} onValueChange={onChange} options={crmAgentNames(state).map(a=>({value:a,label:copyText(a),disabled:state.crm.unavailableAgents.includes(a)||!availableMember(state,a)}))}/>;
 }
 export function AssignmentHistory({leads}: {leads: CanonicalLead[]}) {const copyText=usePrototypeCopy();
   const t = useCrmCopy();
@@ -1280,7 +1270,7 @@ export function LeadRouting() {const copyText=usePrototypeCopy();
             </div>
             <label className="px-field">
               {copyText(t('Fallback assignee', 'المسؤول الاحتياطي'))}
-              <select
+              <NativeSelect
                 value={state.fallbackAgent}
                 onChange={(e) =>
                   update((s) => ({...s, fallbackAgent: e.target.value}))
@@ -1289,7 +1279,7 @@ export function LeadRouting() {const copyText=usePrototypeCopy();
                 {crmAgentNames(state).map((a) => (
                   <option key={a} value={a}>{copyText(a)}</option>
                 ))}
-              </select>
+              </NativeSelect>
             </label>
             <p>
               {copyText(t(

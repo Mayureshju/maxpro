@@ -1,4 +1,6 @@
 "use client";
+import {campaignStatusLabel} from '@/lib/campaign-presentation';
+import {NativeSelect} from '@/components/ui/field';
 import {usePrototypeCopy} from '@/components/prototype/use-prototype-copy';
 import { useState } from "react";
 import { useLocale } from "next-intl";
@@ -25,7 +27,6 @@ import {
 import {
   CampaignNavigation,
   CampaignDisclosure,
-  campaignStatusLabel,
 } from "./campaign-studio";
 const useCopy = () => {
   const ar = useLocale() === "ar";
@@ -183,7 +184,7 @@ export function MarketingProvider({
         >
           <label className="px-field">
             {copyText(t("Preview canonical property", "معاينة العقار الأساسي"))}
-            <select
+            <NativeSelect
               value={p?.id ?? ""}
               onChange={(e) => {
                 setSelected(e.target.value);
@@ -195,7 +196,7 @@ export function MarketingProvider({
                   {copyText(p.id)} · {copyText(p.facts[ar ? "titleAr" : "titleEn"])}
                 </option>
               ))}
-            </select>
+            </NativeSelect>
           </label>
           {p ? (
             <>
@@ -467,7 +468,7 @@ export function CampaignAnalytics() {const copyText=usePrototypeCopy();
       <div className="cm-filters">
         <label className="px-field">
           {copyText(t("Campaign filter", "تصفية الحملة"))}
-          <select
+          <NativeSelect
             value={selected}
             onChange={(e) => setSelected(e.target.value)}
           >
@@ -477,11 +478,11 @@ export function CampaignAnalytics() {const copyText=usePrototypeCopy();
                 {copyText(c.input.propertyId)} · {copyText(c.id.slice(-8))}
               </option>
             ))}
-          </select>
+          </NativeSelect>
         </label>
         <label className="px-field">
           {copyText(t("Property filter", "تصفية العقار"))}
-          <select
+          <NativeSelect
             value={property}
             onChange={(e) => setProperty(e.target.value)}
           >
@@ -489,15 +490,15 @@ export function CampaignAnalytics() {const copyText=usePrototypeCopy();
             {Object.keys(state.properties).map((id) => (
               <option key={id} value={id}>{copyText(id)}</option>
             ))}
-          </select>
+          </NativeSelect>
         </label>
         <label className="px-field">
           {copyText(t("First-touch source", "المصدر الأول"))}
-          <select value={source} onChange={(e) => setSource(e.target.value)}>
+          <NativeSelect value={source} onChange={(e) => setSource(e.target.value)}>
             <option value="all">{copyText(t("All sources", "كل المصادر"))}</option>
             <option value="Meta Lead Ads">{copyText("Meta Lead Ads")}</option>
             <option value="Website">{copyText("Website")}</option>
-          </select>
+          </NativeSelect>
         </label>
         <label className="px-field">
           {copyText(t("From date", "من تاريخ"))}
