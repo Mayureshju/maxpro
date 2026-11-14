@@ -61,7 +61,7 @@ for(const locale of ['en','ar']){
  test(`frontend ${locale}: bulk import, FAQ and agency preview have truthful behavior`,async({page})=>{
   await page.goto(`/${locale}/workspace/inventory/import`);await page.locator('main input[type=file]:visible').setInputFiles({name:'fictional.csv',mimeType:'text/csv',buffer:Buffer.from('title,price\nDemo,12000')});
   await expect(page.getByRole('button',{name:localized('Preview mapping · requires backend',true)})).toBeDisabled();await expect(page.getByRole('link',{name:t('Create a property draft','إنشاء مسودة عقار'),exact:true})).toBeVisible();
-  await page.goto(`/${locale}/faq`);await expect(page.locator('.px-public-heading .px-overline')).toHaveText(t('SUPPORT / QUESTIONS','الدعم / الأسئلة'));const question=page.locator('.fx-faq').first();await question.locator('summary').click();await expect(question).toHaveAttribute('open','');
+  await page.goto(`/${locale}/faq`);await expect(page.locator('.mk-page-hero .mk-label')).toHaveText(t('QUESTIONS & ANSWERS','أسئلة وأجوبة'));const question=page.locator('.mk-faq details').first();await question.locator('summary').click();await expect(question).toHaveAttribute('open','');
   await page.goto(`/${locale}/agencies`);await page.getByRole('link',{name:t('View agency profile','عرض ملف الوكالة'),exact:true}).click();await expect(page).toHaveURL(/\/agencies\/pearl-gate-realty$/);await expect(page.locator('.fx-agency-properties a')).toHaveCount(3);
  });
 }

@@ -1,0 +1,9 @@
+'use client';
+import {useId,useState} from 'react';
+import {ArrowLeft,ArrowRight} from 'lucide-react';
+import {journey,pick,type MarketingLocale} from '@/lib/marketing-content';
+import {ProductShot,TextLink} from './marketing-layout';
+export function WorkflowTour({locale,full=false}:{locale:MarketingLocale;full?:boolean}){
+ const steps=full?journey:[journey[1],journey[2],journey[4],journey[5],journey[6]],id=useId(),[active,setActive]=useState(0),item=steps[active];
+ return <div className={`mk-tour ${full?'mk-tour-full':''}`} data-testid="workflow-tour"><ol className="mk-tour-steps" aria-label={pick(locale,['Workflow steps','خطوات العمل'])}>{steps.map((s,i)=><li key={s.screen+i}><button type="button" aria-current={active===i?'step':undefined} aria-controls={`${id}-content`} onClick={()=>setActive(i)}><span>0{i+1}</span><strong>{pick(locale,full?s.title:s.short)}</strong></button></li>)}</ol><div id={`${id}-content`} className="mk-tour-content"><div className="mk-tour-copy"><span className="mk-label" aria-live="polite">{pick(locale,[`STEP ${active+1} OF ${steps.length}`,`الخطوة ${active+1} من ${steps.length}`])}</span><h3>{pick(locale,item.title)}</h3><p>{pick(locale,item.body)}</p><TextLink href={item.href}>{pick(locale,['Open this demo workflow','افتح مسار التجربة'])}</TextLink><div className="mk-tour-controls"><button className="mk-button mk-outline" type="button" disabled={active===0} onClick={()=>setActive(active-1)}><ArrowLeft size={16}/>{pick(locale,['Back','السابق'])}</button><button className="mk-button mk-outline" type="button" disabled={active===steps.length-1} onClick={()=>setActive(active+1)}>{pick(locale,['Next','التالي'])}<ArrowRight size={16}/></button></div></div><div className="mk-tour-image" key={active}><ProductShot locale={locale} screen={item.screen} alt={pick(locale,item.title)}/></div></div></div>;
+}

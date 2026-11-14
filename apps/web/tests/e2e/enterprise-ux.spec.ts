@@ -2,7 +2,7 @@ import {createDemoStore} from '../../src/components/gemini/demo-provider';
 import {test,expect,selectChoice,localized} from './fixtures';
 import {mkdirSync,readdirSync} from 'node:fs';
 import {resolve} from 'node:path';
-const output=resolve('../../artifacts/phase10/interactions');mkdirSync(output,{recursive:true});
+const output=resolve(`../../${globalThis.process.env.MAXPRO_EVIDENCE_ROOT??'artifacts/phase10'}/interactions`);mkdirSync(output,{recursive:true});
 for(const locale of ['en','ar']){
  const ar=locale==='ar',t=(en:string,arabic:string)=>ar?arabic:en;
  test(`enterprise ${locale}: property search, no results, clear, Escape and manual keyboard commitment`,async({page},info)=>{

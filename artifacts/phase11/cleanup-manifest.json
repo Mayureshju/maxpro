@@ -1,0 +1,18 @@
+{
+  "removedExports": [
+    "PublicHome",
+    "PublicPlatform",
+    "PublicRouter"
+  ],
+  "narrowed": "PublicInformational retains privacy, terms and agencies only",
+  "confirmedUnusedPublicClasses": [
+    "fx-platform-hero",
+    "fx-capabilities",
+    "fx-platform-connectors",
+    "fx-personas",
+    "fx-access-layout",
+    "fx-faq"
+  ],
+  "removedRules": 47,
+  "preserved": "All public routes, showcase assets, canonical engines and tests"
+}

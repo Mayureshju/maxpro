@@ -1,0 +1,2586 @@
+{
+  "browser": "145.0.7632.6",
+  "method": "Chromium production localhost; cache disabled; desktop unthrottled; mobile 4x CPU, 150ms RTT, 1.6Mbps down. 3 runs each. LCP/CLS from PerformanceObserver; event durations are lab interaction samples, not field INP.",
+  "results": [
+    {
+      "locale": "en",
+      "mobile": false,
+      "trial": 1,
+      "initial": {
+        "lcp": 68,
+        "cls": 0,
+        "events": [],
+        "longTasks": [],
+        "resources": [
+          {
+            "url": "http://127.0.0.1:3211/_next/static/css/c7d6ae0d538a7a43.css",
+            "transferSize": 41469,
+            "kind": "link"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/webpack-db216dcaeed73e2e.js",
+            "transferSize": 1973,
+            "kind": "link"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/main-app-cd116f931a8be1f6.js",
+            "transferSize": 815,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/14ce1dcc-69de798abf5786f5.js",
+            "transferSize": 64359,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/8598-f89f6cd0c2ce68d7.js",
+            "transferSize": 67698,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/685-ad443ee59ee8c4d5.js",
+            "transferSize": 5860,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/6894-056a105766d1ede6.js",
+            "transferSize": 7409,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/6891-9a4121f57bb9f720.js",
+            "transferSize": 5958,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/image?url=%2Fproduct%2Fen-dashboard.webp&w=1920&q=75",
+            "transferSize": 45404,
+            "kind": "img"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/4154-9ce1e576c07911ab.js",
+            "transferSize": 3237,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/app/%5Blocale%5D/page-eee17eafcb8dddb4.js",
+            "transferSize": 2528,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/image?url=%2Fdemo-media%2Faqarpro-logo.webp&w=256&q=75",
+            "transferSize": 4708,
+            "kind": "img"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/image?url=%2Fproduct%2Fen-editor.webp&w=1920&q=75",
+            "transferSize": 42192,
+            "kind": "img"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/solutions?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 553,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/integrations?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 556,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/solutions/agencies?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 566,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/pricing?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 552,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/sign-in?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 561,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/how-it-works?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 557,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/solutions?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1483,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/solutions/agencies?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1469,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/integrations?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1486,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/pricing?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1486,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/sign-in?_rsc=FUh3Gxqryw1dTRX2",
+            "transferSize": 3412,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/sign-in?_rsc=xq5yKsklNTJFM-Fw",
+            "transferSize": 1692,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1532,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/how-it-works?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1465,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/7603-1107fa39b294843e.js",
+            "transferSize": 32223,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/4506-7ea958947861ad2c.js",
+            "transferSize": 53158,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/9299-eec0b6ccfa33214e.js",
+            "transferSize": 5902,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/app/%5Blocale%5D/sign-in/page-79ef48f8653dc9fc.js",
+            "transferSize": 453,
+            "kind": "script"
+          }
+        ],
+        "navigation": {
+          "name": "http://127.0.0.1:3211/en",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 69,
+          "initiatorType": "navigation",
+          "deliveryType": "",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "contentEncoding": "gzip",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 0.09999990463256836,
+          "domainLookupStart": 0.7000000476837158,
+          "domainLookupEnd": 0.7000000476837158,
+          "connectStart": 0.7000000476837158,
+          "secureConnectionStart": 0,
+          "connectEnd": 0.7999999523162842,
+          "requestStart": 0.8999998569488525,
+          "responseStart": 6.099999904632568,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 6.099999904632568,
+          "responseEnd": 7.299999952316284,
+          "transferSize": 18538,
+          "encodedBodySize": 18238,
+          "decodedBodySize": 101627,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 0,
+          "unloadEventEnd": 0,
+          "domInteractive": 16.09999990463257,
+          "domContentLoadedEventStart": 16.09999990463257,
+          "domContentLoadedEventEnd": 16.09999990463257,
+          "domComplete": 69,
+          "loadEventStart": 69,
+          "loadEventEnd": 69,
+          "type": "navigate",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null,
+          "confidence": {
+            "randomizedTriggerRate": 0.4994798,
+            "value": "high"
+          }
+        }
+      },
+      "interactions": [
+        {
+          "name": "pointerdown",
+          "duration": 32,
+          "interactionId": 9282
+        },
+        {
+          "name": "pointerup",
+          "duration": 32,
+          "interactionId": 9282
+        },
+        {
+          "name": "click",
+          "duration": 32,
+          "interactionId": 9282
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "mobile": false,
+      "trial": 2,
+      "initial": {
+        "lcp": 80,
+        "cls": 0,
+        "events": [],
+        "longTasks": [],
+        "resources": [
+          {
+            "url": "http://127.0.0.1:3211/_next/static/css/c7d6ae0d538a7a43.css",
+            "transferSize": 41469,
+            "kind": "link"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/webpack-db216dcaeed73e2e.js",
+            "transferSize": 1973,
+            "kind": "link"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/main-app-cd116f931a8be1f6.js",
+            "transferSize": 815,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/6894-056a105766d1ede6.js",
+            "transferSize": 7409,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/685-ad443ee59ee8c4d5.js",
+            "transferSize": 5860,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/6891-9a4121f57bb9f720.js",
+            "transferSize": 5958,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/8598-f89f6cd0c2ce68d7.js",
+            "transferSize": 67698,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/14ce1dcc-69de798abf5786f5.js",
+            "transferSize": 64359,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/4154-9ce1e576c07911ab.js",
+            "transferSize": 3237,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/image?url=%2Fproduct%2Fen-dashboard.webp&w=1920&q=75",
+            "transferSize": 45404,
+            "kind": "img"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/app/%5Blocale%5D/page-eee17eafcb8dddb4.js",
+            "transferSize": 2528,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/image?url=%2Fdemo-media%2Faqarpro-logo.webp&w=256&q=75",
+            "transferSize": 4708,
+            "kind": "img"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/image?url=%2Fproduct%2Fen-editor.webp&w=1920&q=75",
+            "transferSize": 42192,
+            "kind": "img"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/solutions?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 553,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/solutions/agencies?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 566,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/integrations?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 556,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/pricing?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 552,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/sign-in?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 561,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/how-it-works?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 557,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/solutions?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1481,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/solutions/agencies?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1471,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/integrations?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1484,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/pricing?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1488,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/sign-in?_rsc=FUh3Gxqryw1dTRX2",
+            "transferSize": 3412,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/sign-in?_rsc=xq5yKsklNTJFM-Fw",
+            "transferSize": 1692,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1532,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/how-it-works?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1465,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/4506-7ea958947861ad2c.js",
+            "transferSize": 53158,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/9299-eec0b6ccfa33214e.js",
+            "transferSize": 5902,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/7603-1107fa39b294843e.js",
+            "transferSize": 32223,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/app/%5Blocale%5D/sign-in/page-79ef48f8653dc9fc.js",
+            "transferSize": 453,
+            "kind": "script"
+          }
+        ],
+        "navigation": {
+          "name": "http://127.0.0.1:3211/en",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 78,
+          "initiatorType": "navigation",
+          "deliveryType": "",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "contentEncoding": "gzip",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 0,
+          "domainLookupStart": 0.40000009536743164,
+          "domainLookupEnd": 0.40000009536743164,
+          "connectStart": 0.40000009536743164,
+          "secureConnectionStart": 0,
+          "connectEnd": 0.6000001430511475,
+          "requestStart": 0.6000001430511475,
+          "responseStart": 7.400000095367432,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 7.400000095367432,
+          "responseEnd": 8.400000095367432,
+          "transferSize": 18538,
+          "encodedBodySize": 18238,
+          "decodedBodySize": 101627,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 0,
+          "unloadEventEnd": 0,
+          "domInteractive": 19.300000190734863,
+          "domContentLoadedEventStart": 19.300000190734863,
+          "domContentLoadedEventEnd": 19.300000190734863,
+          "domComplete": 77.90000009536743,
+          "loadEventStart": 78,
+          "loadEventEnd": 78,
+          "type": "navigate",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null,
+          "confidence": {
+            "randomizedTriggerRate": 0.4994798,
+            "value": "high"
+          }
+        }
+      },
+      "interactions": [
+        {
+          "name": "pointerdown",
+          "duration": 32,
+          "interactionId": 1486
+        },
+        {
+          "name": "pointerup",
+          "duration": 32,
+          "interactionId": 1486
+        },
+        {
+          "name": "click",
+          "duration": 32,
+          "interactionId": 1486
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "mobile": false,
+      "trial": 3,
+      "initial": {
+        "lcp": 56,
+        "cls": 0,
+        "events": [],
+        "longTasks": [],
+        "resources": [
+          {
+            "url": "http://127.0.0.1:3211/_next/static/css/c7d6ae0d538a7a43.css",
+            "transferSize": 41469,
+            "kind": "link"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/webpack-db216dcaeed73e2e.js",
+            "transferSize": 1973,
+            "kind": "link"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/14ce1dcc-69de798abf5786f5.js",
+            "transferSize": 64359,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/8598-f89f6cd0c2ce68d7.js",
+            "transferSize": 67698,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/main-app-cd116f931a8be1f6.js",
+            "transferSize": 815,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/6894-056a105766d1ede6.js",
+            "transferSize": 7409,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/685-ad443ee59ee8c4d5.js",
+            "transferSize": 5860,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/6891-9a4121f57bb9f720.js",
+            "transferSize": 5958,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/app/%5Blocale%5D/page-eee17eafcb8dddb4.js",
+            "transferSize": 2528,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/4154-9ce1e576c07911ab.js",
+            "transferSize": 3237,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/image?url=%2Fproduct%2Fen-dashboard.webp&w=1920&q=75",
+            "transferSize": 45404,
+            "kind": "img"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/image?url=%2Fdemo-media%2Faqarpro-logo.webp&w=256&q=75",
+            "transferSize": 4708,
+            "kind": "img"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/image?url=%2Fproduct%2Fen-editor.webp&w=1920&q=75",
+            "transferSize": 42192,
+            "kind": "img"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/solutions?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 553,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/solutions/agencies?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 566,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/integrations?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 556,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/pricing?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 552,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/sign-in?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 561,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/how-it-works?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 557,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/solutions?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1480,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/solutions/agencies?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1470,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/integrations?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1486,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/pricing?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1488,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/sign-in?_rsc=FUh3Gxqryw1dTRX2",
+            "transferSize": 3412,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/sign-in?_rsc=xq5yKsklNTJFM-Fw",
+            "transferSize": 1692,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/4506-7ea958947861ad2c.js",
+            "transferSize": 53158,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/9299-eec0b6ccfa33214e.js",
+            "transferSize": 5902,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/7603-1107fa39b294843e.js",
+            "transferSize": 32223,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/app/%5Blocale%5D/sign-in/page-79ef48f8653dc9fc.js",
+            "transferSize": 453,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1531,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/how-it-works?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1468,
+            "kind": "fetch"
+          }
+        ],
+        "navigation": {
+          "name": "http://127.0.0.1:3211/en",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 71.20000004768372,
+          "initiatorType": "navigation",
+          "deliveryType": "",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "contentEncoding": "gzip",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 0,
+          "domainLookupStart": 0.2999999523162842,
+          "domainLookupEnd": 0.2999999523162842,
+          "connectStart": 0.2999999523162842,
+          "secureConnectionStart": 0,
+          "connectEnd": 0.5,
+          "requestStart": 0.5,
+          "responseStart": 6.799999952316284,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 6.799999952316284,
+          "responseEnd": 7.700000047683716,
+          "transferSize": 18538,
+          "encodedBodySize": 18238,
+          "decodedBodySize": 101627,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 0,
+          "unloadEventEnd": 0,
+          "domInteractive": 17,
+          "domContentLoadedEventStart": 17,
+          "domContentLoadedEventEnd": 17,
+          "domComplete": 71.09999990463257,
+          "loadEventStart": 71.20000004768372,
+          "loadEventEnd": 71.20000004768372,
+          "type": "navigate",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null,
+          "confidence": {
+            "randomizedTriggerRate": 0.4994798,
+            "value": "high"
+          }
+        }
+      },
+      "interactions": [
+        {
+          "name": "pointerdown",
+          "duration": 40,
+          "interactionId": 6148
+        },
+        {
+          "name": "pointerup",
+          "duration": 40,
+          "interactionId": 6148
+        },
+        {
+          "name": "click",
+          "duration": 40,
+          "interactionId": 6148
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "mobile": true,
+      "trial": 1,
+      "initial": {
+        "lcp": 1324,
+        "cls": 0,
+        "events": [],
+        "longTasks": [
+          88,
+          78
+        ],
+        "resources": [
+          {
+            "url": "http://127.0.0.1:3211/_next/static/css/c7d6ae0d538a7a43.css",
+            "transferSize": 41469,
+            "kind": "link"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/webpack-db216dcaeed73e2e.js",
+            "transferSize": 1973,
+            "kind": "link"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/14ce1dcc-69de798abf5786f5.js",
+            "transferSize": 64359,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/main-app-cd116f931a8be1f6.js",
+            "transferSize": 815,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/8598-f89f6cd0c2ce68d7.js",
+            "transferSize": 67698,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/6894-056a105766d1ede6.js",
+            "transferSize": 7409,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/685-ad443ee59ee8c4d5.js",
+            "transferSize": 5860,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/6891-9a4121f57bb9f720.js",
+            "transferSize": 5958,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/4154-9ce1e576c07911ab.js",
+            "transferSize": 3237,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/app/%5Blocale%5D/page-eee17eafcb8dddb4.js",
+            "transferSize": 2528,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/product/en-dashboard-mobile.webp",
+            "transferSize": 21122,
+            "kind": "img"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/image?url=%2Fdemo-media%2Faqarpro-logo.webp&w=256&q=75",
+            "transferSize": 4708,
+            "kind": "img"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/sign-in?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 561,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/how-it-works?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 557,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1532,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/sign-in?_rsc=FUh3Gxqryw1dTRX2",
+            "transferSize": 3412,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/sign-in?_rsc=xq5yKsklNTJFM-Fw",
+            "transferSize": 1692,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/how-it-works?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1465,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/7603-1107fa39b294843e.js",
+            "transferSize": 32223,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/4506-7ea958947861ad2c.js",
+            "transferSize": 53158,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/9299-eec0b6ccfa33214e.js",
+            "transferSize": 5902,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/app/%5Blocale%5D/sign-in/page-79ef48f8653dc9fc.js",
+            "transferSize": 453,
+            "kind": "script"
+          }
+        ],
+        "navigation": {
+          "name": "http://127.0.0.1:3211/en",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 1587.3999998569489,
+          "initiatorType": "navigation",
+          "deliveryType": "",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "contentEncoding": "gzip",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 0,
+          "domainLookupStart": 0.5,
+          "domainLookupEnd": 0.5,
+          "connectStart": 0.5,
+          "secureConnectionStart": 0,
+          "connectEnd": 0.8999998569488525,
+          "requestStart": 0.8999998569488525,
+          "responseStart": 6.8999998569488525,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 6.8999998569488525,
+          "responseEnd": 254.89999985694885,
+          "transferSize": 18538,
+          "encodedBodySize": 18238,
+          "decodedBodySize": 101627,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 0,
+          "unloadEventEnd": 0,
+          "domInteractive": 1318.8999998569489,
+          "domContentLoadedEventStart": 1318.8999998569489,
+          "domContentLoadedEventEnd": 1319.5999999046326,
+          "domComplete": 1587.2999999523163,
+          "loadEventStart": 1587.3999998569489,
+          "loadEventEnd": 1587.3999998569489,
+          "type": "navigate",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null,
+          "confidence": {
+            "randomizedTriggerRate": 0.4994798,
+            "value": "high"
+          }
+        }
+      },
+      "interactions": [
+        {
+          "name": "pointerdown",
+          "duration": 40,
+          "interactionId": 4524
+        },
+        {
+          "name": "pointerup",
+          "duration": 40,
+          "interactionId": 4524
+        },
+        {
+          "name": "click",
+          "duration": 40,
+          "interactionId": 4524
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "mobile": true,
+      "trial": 2,
+      "initial": {
+        "lcp": 1320,
+        "cls": 0,
+        "events": [],
+        "longTasks": [
+          87,
+          76
+        ],
+        "resources": [
+          {
+            "url": "http://127.0.0.1:3211/_next/static/css/c7d6ae0d538a7a43.css",
+            "transferSize": 41469,
+            "kind": "link"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/webpack-db216dcaeed73e2e.js",
+            "transferSize": 1973,
+            "kind": "link"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/14ce1dcc-69de798abf5786f5.js",
+            "transferSize": 64359,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/main-app-cd116f931a8be1f6.js",
+            "transferSize": 815,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/8598-f89f6cd0c2ce68d7.js",
+            "transferSize": 67698,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/685-ad443ee59ee8c4d5.js",
+            "transferSize": 5860,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/6894-056a105766d1ede6.js",
+            "transferSize": 7409,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/4154-9ce1e576c07911ab.js",
+            "transferSize": 3237,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/6891-9a4121f57bb9f720.js",
+            "transferSize": 5958,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/app/%5Blocale%5D/page-eee17eafcb8dddb4.js",
+            "transferSize": 2528,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/product/en-dashboard-mobile.webp",
+            "transferSize": 21122,
+            "kind": "img"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/image?url=%2Fdemo-media%2Faqarpro-logo.webp&w=256&q=75",
+            "transferSize": 4708,
+            "kind": "img"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/sign-in?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 561,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/how-it-works?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 557,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1531,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/sign-in?_rsc=xq5yKsklNTJFM-Fw",
+            "transferSize": 1692,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/sign-in?_rsc=FUh3Gxqryw1dTRX2",
+            "transferSize": 3412,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/how-it-works?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1465,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/4506-7ea958947861ad2c.js",
+            "transferSize": 53158,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/7603-1107fa39b294843e.js",
+            "transferSize": 32223,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/9299-eec0b6ccfa33214e.js",
+            "transferSize": 5902,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/app/%5Blocale%5D/sign-in/page-79ef48f8653dc9fc.js",
+            "transferSize": 453,
+            "kind": "script"
+          }
+        ],
+        "navigation": {
+          "name": "http://127.0.0.1:3211/en",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 1585.3999998569489,
+          "initiatorType": "navigation",
+          "deliveryType": "",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "contentEncoding": "gzip",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 0.09999990463256836,
+          "domainLookupStart": 0.39999985694885254,
+          "domainLookupEnd": 0.39999985694885254,
+          "connectStart": 0.39999985694885254,
+          "secureConnectionStart": 0,
+          "connectEnd": 0.5999999046325684,
+          "requestStart": 0.5999999046325684,
+          "responseStart": 5.3999998569488525,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 5.3999998569488525,
+          "responseEnd": 252.59999990463257,
+          "transferSize": 18538,
+          "encodedBodySize": 18238,
+          "decodedBodySize": 101627,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 0,
+          "unloadEventEnd": 0,
+          "domInteractive": 1317.2999999523163,
+          "domContentLoadedEventStart": 1317.2999999523163,
+          "domContentLoadedEventEnd": 1317.2999999523163,
+          "domComplete": 1585.3999998569489,
+          "loadEventStart": 1585.3999998569489,
+          "loadEventEnd": 1585.3999998569489,
+          "type": "navigate",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null,
+          "confidence": {
+            "randomizedTriggerRate": 0.4994798,
+            "value": "low"
+          }
+        }
+      },
+      "interactions": [
+        {
+          "name": "pointerdown",
+          "duration": 48,
+          "interactionId": 6342
+        },
+        {
+          "name": "pointerup",
+          "duration": 48,
+          "interactionId": 6342
+        },
+        {
+          "name": "click",
+          "duration": 48,
+          "interactionId": 6342
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "mobile": true,
+      "trial": 3,
+      "initial": {
+        "lcp": 1320,
+        "cls": 0,
+        "events": [],
+        "longTasks": [
+          86,
+          75
+        ],
+        "resources": [
+          {
+            "url": "http://127.0.0.1:3211/_next/static/css/c7d6ae0d538a7a43.css",
+            "transferSize": 41469,
+            "kind": "link"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/webpack-db216dcaeed73e2e.js",
+            "transferSize": 1973,
+            "kind": "link"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/main-app-cd116f931a8be1f6.js",
+            "transferSize": 815,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/14ce1dcc-69de798abf5786f5.js",
+            "transferSize": 64359,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/8598-f89f6cd0c2ce68d7.js",
+            "transferSize": 67698,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/685-ad443ee59ee8c4d5.js",
+            "transferSize": 5860,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/6894-056a105766d1ede6.js",
+            "transferSize": 7409,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/4154-9ce1e576c07911ab.js",
+            "transferSize": 3237,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/6891-9a4121f57bb9f720.js",
+            "transferSize": 5958,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/app/%5Blocale%5D/page-eee17eafcb8dddb4.js",
+            "transferSize": 2528,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/product/en-dashboard-mobile.webp",
+            "transferSize": 21122,
+            "kind": "img"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/image?url=%2Fdemo-media%2Faqarpro-logo.webp&w=256&q=75",
+            "transferSize": 4708,
+            "kind": "img"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/sign-in?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 561,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/how-it-works?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 557,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1533,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/sign-in?_rsc=FUh3Gxqryw1dTRX2",
+            "transferSize": 3412,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/sign-in?_rsc=xq5yKsklNTJFM-Fw",
+            "transferSize": 1692,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en/how-it-works?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1468,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/4506-7ea958947861ad2c.js",
+            "transferSize": 53158,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/7603-1107fa39b294843e.js",
+            "transferSize": 32223,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/9299-eec0b6ccfa33214e.js",
+            "transferSize": 5902,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/app/%5Blocale%5D/sign-in/page-79ef48f8653dc9fc.js",
+            "transferSize": 453,
+            "kind": "script"
+          }
+        ],
+        "navigation": {
+          "name": "http://127.0.0.1:3211/en",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 1584.4000000953674,
+          "initiatorType": "navigation",
+          "deliveryType": "",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "contentEncoding": "gzip",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 0,
+          "domainLookupStart": 0.2999999523162842,
+          "domainLookupEnd": 0.2999999523162842,
+          "connectStart": 0.2999999523162842,
+          "secureConnectionStart": 0,
+          "connectEnd": 0.5999999046325684,
+          "requestStart": 0.5999999046325684,
+          "responseStart": 5.700000047683716,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 5.700000047683716,
+          "responseEnd": 254.09999990463257,
+          "transferSize": 18538,
+          "encodedBodySize": 18238,
+          "decodedBodySize": 101627,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 0,
+          "unloadEventEnd": 0,
+          "domInteractive": 1316.4000000953674,
+          "domContentLoadedEventStart": 1316.4000000953674,
+          "domContentLoadedEventEnd": 1316.5,
+          "domComplete": 1584,
+          "loadEventStart": 1584.4000000953674,
+          "loadEventEnd": 1584.4000000953674,
+          "type": "navigate",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null,
+          "confidence": {
+            "randomizedTriggerRate": 0.4994798,
+            "value": "high"
+          }
+        }
+      },
+      "interactions": [
+        {
+          "name": "pointerdown",
+          "duration": 40,
+          "interactionId": 9060
+        },
+        {
+          "name": "pointerup",
+          "duration": 40,
+          "interactionId": 9060
+        },
+        {
+          "name": "click",
+          "duration": 40,
+          "interactionId": 9060
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "mobile": false,
+      "trial": 1,
+      "initial": {
+        "lcp": 64,
+        "cls": 0,
+        "events": [],
+        "longTasks": [],
+        "resources": [
+          {
+            "url": "http://127.0.0.1:3211/_next/static/css/c7d6ae0d538a7a43.css",
+            "transferSize": 41469,
+            "kind": "link"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/webpack-db216dcaeed73e2e.js",
+            "transferSize": 1973,
+            "kind": "link"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/8598-f89f6cd0c2ce68d7.js",
+            "transferSize": 67698,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/14ce1dcc-69de798abf5786f5.js",
+            "transferSize": 64359,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/main-app-cd116f931a8be1f6.js",
+            "transferSize": 815,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/6894-056a105766d1ede6.js",
+            "transferSize": 7409,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/685-ad443ee59ee8c4d5.js",
+            "transferSize": 5860,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/6891-9a4121f57bb9f720.js",
+            "transferSize": 5958,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/image?url=%2Fproduct%2Far-dashboard.webp&w=1920&q=75",
+            "transferSize": 39794,
+            "kind": "img"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/app/%5Blocale%5D/page-eee17eafcb8dddb4.js",
+            "transferSize": 2528,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/4154-9ce1e576c07911ab.js",
+            "transferSize": 3237,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/image?url=%2Fdemo-media%2Faqarpro-logo.webp&w=256&q=75",
+            "transferSize": 4708,
+            "kind": "img"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/image?url=%2Fproduct%2Far-editor.webp&w=1920&q=75",
+            "transferSize": 33854,
+            "kind": "img"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/solutions?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 554,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/solutions/agencies?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 566,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/integrations?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 556,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/pricing?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 553,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/sign-in?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 561,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/how-it-works?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 557,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/solutions?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1562,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/solutions/agencies?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1533,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/integrations?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1559,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/pricing?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1571,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/sign-in?_rsc=C3vWxWDl48yMklKY",
+            "transferSize": 3813,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/sign-in?_rsc=5kfgSyo2YJ0OW6Bh",
+            "transferSize": 1778,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1432,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/7603-1107fa39b294843e.js",
+            "transferSize": 32223,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/4506-7ea958947861ad2c.js",
+            "transferSize": 53158,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/app/%5Blocale%5D/sign-in/page-79ef48f8653dc9fc.js",
+            "transferSize": 453,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/9299-eec0b6ccfa33214e.js",
+            "transferSize": 5902,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/how-it-works?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1555,
+            "kind": "fetch"
+          }
+        ],
+        "navigation": {
+          "name": "http://127.0.0.1:3211/ar",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 71.5,
+          "initiatorType": "navigation",
+          "deliveryType": "",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "contentEncoding": "gzip",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 0.10000014305114746,
+          "domainLookupStart": 0.3000001907348633,
+          "domainLookupEnd": 0.3000001907348633,
+          "connectStart": 0.3000001907348633,
+          "secureConnectionStart": 0,
+          "connectEnd": 0.6000001430511475,
+          "requestStart": 0.6000001430511475,
+          "responseStart": 5.6000001430511475,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 5.6000001430511475,
+          "responseEnd": 6.800000190734863,
+          "transferSize": 19890,
+          "encodedBodySize": 19590,
+          "decodedBodySize": 111822,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 0,
+          "unloadEventEnd": 0,
+          "domInteractive": 15,
+          "domContentLoadedEventStart": 15,
+          "domContentLoadedEventEnd": 15,
+          "domComplete": 71.5,
+          "loadEventStart": 71.5,
+          "loadEventEnd": 71.5,
+          "type": "navigate",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null,
+          "confidence": {
+            "randomizedTriggerRate": 0.4994798,
+            "value": "high"
+          }
+        }
+      },
+      "interactions": [
+        {
+          "name": "pointerdown",
+          "duration": 40,
+          "interactionId": 2938
+        },
+        {
+          "name": "pointerup",
+          "duration": 40,
+          "interactionId": 2938
+        },
+        {
+          "name": "click",
+          "duration": 40,
+          "interactionId": 2938
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "mobile": false,
+      "trial": 2,
+      "initial": {
+        "lcp": 60,
+        "cls": 0,
+        "events": [],
+        "longTasks": [],
+        "resources": [
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/webpack-db216dcaeed73e2e.js",
+            "transferSize": 1973,
+            "kind": "link"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/css/c7d6ae0d538a7a43.css",
+            "transferSize": 41469,
+            "kind": "link"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/main-app-cd116f931a8be1f6.js",
+            "transferSize": 815,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/6894-056a105766d1ede6.js",
+            "transferSize": 7409,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/8598-f89f6cd0c2ce68d7.js",
+            "transferSize": 67698,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/14ce1dcc-69de798abf5786f5.js",
+            "transferSize": 64359,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/685-ad443ee59ee8c4d5.js",
+            "transferSize": 5860,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/image?url=%2Fproduct%2Far-dashboard.webp&w=1920&q=75",
+            "transferSize": 39794,
+            "kind": "img"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/6891-9a4121f57bb9f720.js",
+            "transferSize": 5958,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/app/%5Blocale%5D/page-eee17eafcb8dddb4.js",
+            "transferSize": 2528,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/4154-9ce1e576c07911ab.js",
+            "transferSize": 3237,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/image?url=%2Fdemo-media%2Faqarpro-logo.webp&w=256&q=75",
+            "transferSize": 4708,
+            "kind": "img"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/image?url=%2Fproduct%2Far-editor.webp&w=1920&q=75",
+            "transferSize": 33854,
+            "kind": "img"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/solutions?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 554,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/solutions/agencies?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 566,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/integrations?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 556,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/pricing?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 553,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/sign-in?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 561,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/how-it-works?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 557,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/solutions?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1565,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/solutions/agencies?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1532,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/integrations?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1560,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/pricing?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1570,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/sign-in?_rsc=C3vWxWDl48yMklKY",
+            "transferSize": 3813,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/sign-in?_rsc=5kfgSyo2YJ0OW6Bh",
+            "transferSize": 1778,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1431,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/how-it-works?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1555,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/4506-7ea958947861ad2c.js",
+            "transferSize": 53158,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/7603-1107fa39b294843e.js",
+            "transferSize": 32223,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/9299-eec0b6ccfa33214e.js",
+            "transferSize": 5902,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/app/%5Blocale%5D/sign-in/page-79ef48f8653dc9fc.js",
+            "transferSize": 453,
+            "kind": "script"
+          }
+        ],
+        "navigation": {
+          "name": "http://127.0.0.1:3211/ar",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 79.70000004768372,
+          "initiatorType": "navigation",
+          "deliveryType": "",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "contentEncoding": "gzip",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 0,
+          "domainLookupStart": 0.5,
+          "domainLookupEnd": 0.5,
+          "connectStart": 0.5,
+          "secureConnectionStart": 0,
+          "connectEnd": 0.9000000953674316,
+          "requestStart": 0.9000000953674316,
+          "responseStart": 10.900000095367432,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 10.900000095367432,
+          "responseEnd": 12.299999952316284,
+          "transferSize": 19890,
+          "encodedBodySize": 19590,
+          "decodedBodySize": 111822,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 0,
+          "unloadEventEnd": 0,
+          "domInteractive": 53,
+          "domContentLoadedEventStart": 53,
+          "domContentLoadedEventEnd": 53,
+          "domComplete": 79.70000004768372,
+          "loadEventStart": 79.70000004768372,
+          "loadEventEnd": 79.70000004768372,
+          "type": "navigate",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null,
+          "confidence": {
+            "randomizedTriggerRate": 0.4994798,
+            "value": "high"
+          }
+        }
+      },
+      "interactions": [
+        {
+          "name": "pointerdown",
+          "duration": 40,
+          "interactionId": 5321
+        },
+        {
+          "name": "pointerup",
+          "duration": 40,
+          "interactionId": 5321
+        },
+        {
+          "name": "click",
+          "duration": 40,
+          "interactionId": 5321
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "mobile": false,
+      "trial": 3,
+      "initial": {
+        "lcp": 52,
+        "cls": 0,
+        "events": [],
+        "longTasks": [],
+        "resources": [
+          {
+            "url": "http://127.0.0.1:3211/_next/static/css/c7d6ae0d538a7a43.css",
+            "transferSize": 41469,
+            "kind": "link"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/webpack-db216dcaeed73e2e.js",
+            "transferSize": 1973,
+            "kind": "link"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/14ce1dcc-69de798abf5786f5.js",
+            "transferSize": 64359,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/main-app-cd116f931a8be1f6.js",
+            "transferSize": 815,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/6894-056a105766d1ede6.js",
+            "transferSize": 7409,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/685-ad443ee59ee8c4d5.js",
+            "transferSize": 5860,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/8598-f89f6cd0c2ce68d7.js",
+            "transferSize": 67698,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/image?url=%2Fproduct%2Far-dashboard.webp&w=1920&q=75",
+            "transferSize": 39794,
+            "kind": "img"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/6891-9a4121f57bb9f720.js",
+            "transferSize": 5958,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/4154-9ce1e576c07911ab.js",
+            "transferSize": 3237,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/app/%5Blocale%5D/page-eee17eafcb8dddb4.js",
+            "transferSize": 2528,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/image?url=%2Fdemo-media%2Faqarpro-logo.webp&w=256&q=75",
+            "transferSize": 4708,
+            "kind": "img"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/image?url=%2Fproduct%2Far-editor.webp&w=1920&q=75",
+            "transferSize": 33854,
+            "kind": "img"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/solutions?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 554,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/pricing?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 553,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/solutions/agencies?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 566,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/integrations?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 556,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/sign-in?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 561,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/how-it-works?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 557,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/solutions?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1560,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/solutions/agencies?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1535,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/integrations?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1561,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/pricing?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1571,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/sign-in?_rsc=C3vWxWDl48yMklKY",
+            "transferSize": 3813,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/sign-in?_rsc=5kfgSyo2YJ0OW6Bh",
+            "transferSize": 1778,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1431,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/4506-7ea958947861ad2c.js",
+            "transferSize": 53158,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/7603-1107fa39b294843e.js",
+            "transferSize": 32223,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/9299-eec0b6ccfa33214e.js",
+            "transferSize": 5902,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/app/%5Blocale%5D/sign-in/page-79ef48f8653dc9fc.js",
+            "transferSize": 453,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/how-it-works?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1555,
+            "kind": "fetch"
+          }
+        ],
+        "navigation": {
+          "name": "http://127.0.0.1:3211/ar",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 74.10000014305115,
+          "initiatorType": "navigation",
+          "deliveryType": "",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "contentEncoding": "gzip",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 0.10000014305114746,
+          "domainLookupStart": 0.40000009536743164,
+          "domainLookupEnd": 0.40000009536743164,
+          "connectStart": 0.40000009536743164,
+          "secureConnectionStart": 0,
+          "connectEnd": 0.7000000476837158,
+          "requestStart": 0.7000000476837158,
+          "responseStart": 7.299999952316284,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 7.299999952316284,
+          "responseEnd": 9.799999952316284,
+          "transferSize": 19890,
+          "encodedBodySize": 19590,
+          "decodedBodySize": 111822,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 0,
+          "unloadEventEnd": 0,
+          "domInteractive": 48.10000014305115,
+          "domContentLoadedEventStart": 48.10000014305115,
+          "domContentLoadedEventEnd": 48.10000014305115,
+          "domComplete": 74.10000014305115,
+          "loadEventStart": 74.10000014305115,
+          "loadEventEnd": 74.10000014305115,
+          "type": "navigate",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null,
+          "confidence": {
+            "randomizedTriggerRate": 0.4994798,
+            "value": "high"
+          }
+        }
+      },
+      "interactions": [
+        {
+          "name": "pointerdown",
+          "duration": 40,
+          "interactionId": 1289
+        },
+        {
+          "name": "pointerup",
+          "duration": 40,
+          "interactionId": 1289
+        },
+        {
+          "name": "click",
+          "duration": 40,
+          "interactionId": 1289
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "mobile": true,
+      "trial": 1,
+      "initial": {
+        "lcp": 1312,
+        "cls": 0,
+        "events": [],
+        "longTasks": [
+          105,
+          85
+        ],
+        "resources": [
+          {
+            "url": "http://127.0.0.1:3211/_next/static/css/c7d6ae0d538a7a43.css",
+            "transferSize": 41469,
+            "kind": "link"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/webpack-db216dcaeed73e2e.js",
+            "transferSize": 1973,
+            "kind": "link"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/14ce1dcc-69de798abf5786f5.js",
+            "transferSize": 64359,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/8598-f89f6cd0c2ce68d7.js",
+            "transferSize": 67698,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/main-app-cd116f931a8be1f6.js",
+            "transferSize": 815,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/685-ad443ee59ee8c4d5.js",
+            "transferSize": 5860,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/6894-056a105766d1ede6.js",
+            "transferSize": 7409,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/4154-9ce1e576c07911ab.js",
+            "transferSize": 3237,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/6891-9a4121f57bb9f720.js",
+            "transferSize": 5958,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/app/%5Blocale%5D/page-eee17eafcb8dddb4.js",
+            "transferSize": 2528,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/product/ar-dashboard-mobile.webp",
+            "transferSize": 17740,
+            "kind": "img"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/image?url=%2Fdemo-media%2Faqarpro-logo.webp&w=256&q=75",
+            "transferSize": 4708,
+            "kind": "img"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/sign-in?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 561,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/how-it-works?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 557,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1432,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/sign-in?_rsc=C3vWxWDl48yMklKY",
+            "transferSize": 3813,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/sign-in?_rsc=5kfgSyo2YJ0OW6Bh",
+            "transferSize": 1778,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/how-it-works?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1553,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/4506-7ea958947861ad2c.js",
+            "transferSize": 53158,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/7603-1107fa39b294843e.js",
+            "transferSize": 32223,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/9299-eec0b6ccfa33214e.js",
+            "transferSize": 5902,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/app/%5Blocale%5D/sign-in/page-79ef48f8653dc9fc.js",
+            "transferSize": 453,
+            "kind": "script"
+          }
+        ],
+        "navigation": {
+          "name": "http://127.0.0.1:3211/ar",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 1557,
+          "initiatorType": "navigation",
+          "deliveryType": "",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "contentEncoding": "gzip",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 0,
+          "domainLookupStart": 0.40000009536743164,
+          "domainLookupEnd": 0.40000009536743164,
+          "connectStart": 0.40000009536743164,
+          "secureConnectionStart": 0,
+          "connectEnd": 0.6000001430511475,
+          "requestStart": 0.7000000476837158,
+          "responseStart": 7.1000001430511475,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 7.1000001430511475,
+          "responseEnd": 259.40000009536743,
+          "transferSize": 19890,
+          "encodedBodySize": 19590,
+          "decodedBodySize": 111822,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 0,
+          "unloadEventEnd": 0,
+          "domInteractive": 1310.2999999523163,
+          "domContentLoadedEventStart": 1310.2999999523163,
+          "domContentLoadedEventEnd": 1310.2999999523163,
+          "domComplete": 1557,
+          "loadEventStart": 1557,
+          "loadEventEnd": 1557,
+          "type": "navigate",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null,
+          "confidence": {
+            "randomizedTriggerRate": 0.4994798,
+            "value": "high"
+          }
+        }
+      },
+      "interactions": [
+        {
+          "name": "pointerdown",
+          "duration": 40,
+          "interactionId": 6218
+        },
+        {
+          "name": "pointerup",
+          "duration": 40,
+          "interactionId": 6218
+        },
+        {
+          "name": "click",
+          "duration": 40,
+          "interactionId": 6218
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "mobile": true,
+      "trial": 2,
+      "initial": {
+        "lcp": 1300,
+        "cls": 0,
+        "events": [],
+        "longTasks": [
+          83,
+          78
+        ],
+        "resources": [
+          {
+            "url": "http://127.0.0.1:3211/_next/static/css/c7d6ae0d538a7a43.css",
+            "transferSize": 41469,
+            "kind": "link"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/webpack-db216dcaeed73e2e.js",
+            "transferSize": 1973,
+            "kind": "link"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/14ce1dcc-69de798abf5786f5.js",
+            "transferSize": 64359,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/main-app-cd116f931a8be1f6.js",
+            "transferSize": 815,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/685-ad443ee59ee8c4d5.js",
+            "transferSize": 5860,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/6894-056a105766d1ede6.js",
+            "transferSize": 7409,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/6891-9a4121f57bb9f720.js",
+            "transferSize": 5958,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/8598-f89f6cd0c2ce68d7.js",
+            "transferSize": 67698,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/4154-9ce1e576c07911ab.js",
+            "transferSize": 3237,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/app/%5Blocale%5D/page-eee17eafcb8dddb4.js",
+            "transferSize": 2528,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/product/ar-dashboard-mobile.webp",
+            "transferSize": 17740,
+            "kind": "img"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/image?url=%2Fdemo-media%2Faqarpro-logo.webp&w=256&q=75",
+            "transferSize": 4708,
+            "kind": "img"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/sign-in?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 561,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/how-it-works?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 557,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1433,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/sign-in?_rsc=5kfgSyo2YJ0OW6Bh",
+            "transferSize": 1778,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/sign-in?_rsc=C3vWxWDl48yMklKY",
+            "transferSize": 3813,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/how-it-works?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1555,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/4506-7ea958947861ad2c.js",
+            "transferSize": 53158,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/7603-1107fa39b294843e.js",
+            "transferSize": 32223,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/app/%5Blocale%5D/sign-in/page-79ef48f8653dc9fc.js",
+            "transferSize": 453,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/9299-eec0b6ccfa33214e.js",
+            "transferSize": 5902,
+            "kind": "script"
+          }
+        ],
+        "navigation": {
+          "name": "http://127.0.0.1:3211/ar",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 1557.7000000476837,
+          "initiatorType": "navigation",
+          "deliveryType": "",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "contentEncoding": "gzip",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 0.09999990463256836,
+          "domainLookupStart": 0.39999985694885254,
+          "domainLookupEnd": 0.39999985694885254,
+          "connectStart": 0.39999985694885254,
+          "secureConnectionStart": 0,
+          "connectEnd": 0.5999999046325684,
+          "requestStart": 0.5999999046325684,
+          "responseStart": 6.5,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 6.5,
+          "responseEnd": 259.2999999523163,
+          "transferSize": 19890,
+          "encodedBodySize": 19590,
+          "decodedBodySize": 111822,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 0,
+          "unloadEventEnd": 0,
+          "domInteractive": 1202.7999999523163,
+          "domContentLoadedEventStart": 1202.7999999523163,
+          "domContentLoadedEventEnd": 1202.7999999523163,
+          "domComplete": 1557.7000000476837,
+          "loadEventStart": 1557.7000000476837,
+          "loadEventEnd": 1557.7000000476837,
+          "type": "navigate",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null,
+          "confidence": {
+            "randomizedTriggerRate": 0.4994798,
+            "value": "high"
+          }
+        }
+      },
+      "interactions": [
+        {
+          "name": "pointerdown",
+          "duration": 40,
+          "interactionId": 8093
+        },
+        {
+          "name": "pointerup",
+          "duration": 40,
+          "interactionId": 8093
+        },
+        {
+          "name": "click",
+          "duration": 40,
+          "interactionId": 8093
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "mobile": true,
+      "trial": 3,
+      "initial": {
+        "lcp": 1308,
+        "cls": 0,
+        "events": [],
+        "longTasks": [
+          100,
+          76
+        ],
+        "resources": [
+          {
+            "url": "http://127.0.0.1:3211/_next/static/css/c7d6ae0d538a7a43.css",
+            "transferSize": 41469,
+            "kind": "link"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/webpack-db216dcaeed73e2e.js",
+            "transferSize": 1973,
+            "kind": "link"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/14ce1dcc-69de798abf5786f5.js",
+            "transferSize": 64359,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/8598-f89f6cd0c2ce68d7.js",
+            "transferSize": 67698,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/main-app-cd116f931a8be1f6.js",
+            "transferSize": 815,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/685-ad443ee59ee8c4d5.js",
+            "transferSize": 5860,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/6894-056a105766d1ede6.js",
+            "transferSize": 7409,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/4154-9ce1e576c07911ab.js",
+            "transferSize": 3237,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/6891-9a4121f57bb9f720.js",
+            "transferSize": 5958,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/app/%5Blocale%5D/page-eee17eafcb8dddb4.js",
+            "transferSize": 2528,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/product/ar-dashboard-mobile.webp",
+            "transferSize": 17740,
+            "kind": "img"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/image?url=%2Fdemo-media%2Faqarpro-logo.webp&w=256&q=75",
+            "transferSize": 4708,
+            "kind": "img"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/sign-in?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 561,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/how-it-works?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 557,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/en?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1432,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/sign-in?_rsc=C3vWxWDl48yMklKY",
+            "transferSize": 3813,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/sign-in?_rsc=5kfgSyo2YJ0OW6Bh",
+            "transferSize": 1778,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/ar/how-it-works?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1555,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/4506-7ea958947861ad2c.js",
+            "transferSize": 53158,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/7603-1107fa39b294843e.js",
+            "transferSize": 32223,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/9299-eec0b6ccfa33214e.js",
+            "transferSize": 5902,
+            "kind": "script"
+          },
+          {
+            "url": "http://127.0.0.1:3211/_next/static/chunks/app/%5Blocale%5D/sign-in/page-79ef48f8653dc9fc.js",
+            "transferSize": 453,
+            "kind": "script"
+          }
+        ],
+        "navigation": {
+          "name": "http://127.0.0.1:3211/ar",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 1548.7000000476837,
+          "initiatorType": "navigation",
+          "deliveryType": "",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "contentEncoding": "gzip",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 0,
+          "domainLookupStart": 0.2999999523162842,
+          "domainLookupEnd": 0.2999999523162842,
+          "connectStart": 0.2999999523162842,
+          "secureConnectionStart": 0,
+          "connectEnd": 0.5,
+          "requestStart": 0.5,
+          "responseStart": 5.900000095367432,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 5.900000095367432,
+          "responseEnd": 261.7999999523163,
+          "transferSize": 19890,
+          "encodedBodySize": 19590,
+          "decodedBodySize": 111822,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 0,
+          "unloadEventEnd": 0,
+          "domInteractive": 1309.2999999523163,
+          "domContentLoadedEventStart": 1309.2999999523163,
+          "domContentLoadedEventEnd": 1309.2999999523163,
+          "domComplete": 1548.7000000476837,
+          "loadEventStart": 1548.7000000476837,
+          "loadEventEnd": 1548.7000000476837,
+          "type": "navigate",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null,
+          "confidence": {
+            "randomizedTriggerRate": 0.4994798,
+            "value": "high"
+          }
+        }
+      },
+      "interactions": [
+        {
+          "name": "pointerdown",
+          "duration": 40,
+          "interactionId": 9796
+        },
+        {
+          "name": "pointerup",
+          "duration": 40,
+          "interactionId": 9796
+        },
+        {
+          "name": "click",
+          "duration": 40,
+          "interactionId": 9796
+        }
+      ]
+    }
+  ]
+}

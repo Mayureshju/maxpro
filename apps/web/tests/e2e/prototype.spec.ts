@@ -93,7 +93,7 @@ test('Gemini sample data and pricing do not advertise former v2 tiers',async({pa
  await page.goto('/en/workspace/billing');
  await expect(page.locator('.gm-plan-selector b')).toHaveText(['QAR 179 / mo','QAR 725 / mo','QAR 1,800+ / mo']);
  await page.goto('/en/pricing');
- await expect(page.getByText(localized('QAR 179'))).toBeVisible();
- await expect(page.getByText(localized('QAR 725'))).toBeVisible();
- await expect(page.getByText(localized("QAR 1,800+"))).toBeVisible();
+ await expect(page.locator('.mk-plan-price').getByText('QAR 179',{exact:true})).toBeVisible();
+ await expect(page.locator('.mk-plan-price').getByText('QAR 725',{exact:true})).toBeVisible();
+ await expect(page.locator('.mk-plan-price').getByText('QAR 1,800+',{exact:true})).toBeVisible();
 });

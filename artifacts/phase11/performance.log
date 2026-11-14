@@ -1,0 +1,128 @@
+[
+  {
+    locale: 'en',
+    mobile: false,
+    trial: 1,
+    lcpMs: 68,
+    cls: 0,
+    maxInteractionMs: 32,
+    imageRequests: [
+      'http://127.0.0.1:3211/_next/image?url=%2Fproduct%2Fen-dashboard.webp&w=1920&q=75',
+      'http://127.0.0.1:3211/_next/image?url=%2Fproduct%2Fen-editor.webp&w=1920&q=75'
+    ]
+  },
+  {
+    locale: 'en',
+    mobile: false,
+    trial: 2,
+    lcpMs: 80,
+    cls: 0,
+    maxInteractionMs: 32,
+    imageRequests: [
+      'http://127.0.0.1:3211/_next/image?url=%2Fproduct%2Fen-dashboard.webp&w=1920&q=75',
+      'http://127.0.0.1:3211/_next/image?url=%2Fproduct%2Fen-editor.webp&w=1920&q=75'
+    ]
+  },
+  {
+    locale: 'en',
+    mobile: false,
+    trial: 3,
+    lcpMs: 56,
+    cls: 0,
+    maxInteractionMs: 40,
+    imageRequests: [
+      'http://127.0.0.1:3211/_next/image?url=%2Fproduct%2Fen-dashboard.webp&w=1920&q=75',
+      'http://127.0.0.1:3211/_next/image?url=%2Fproduct%2Fen-editor.webp&w=1920&q=75'
+    ]
+  },
+  {
+    locale: 'en',
+    mobile: true,
+    trial: 1,
+    lcpMs: 1324,
+    cls: 0,
+    maxInteractionMs: 40,
+    imageRequests: [ 'http://127.0.0.1:3211/product/en-dashboard-mobile.webp' ]
+  },
+  {
+    locale: 'en',
+    mobile: true,
+    trial: 2,
+    lcpMs: 1320,
+    cls: 0,
+    maxInteractionMs: 48,
+    imageRequests: [ 'http://127.0.0.1:3211/product/en-dashboard-mobile.webp' ]
+  },
+  {
+    locale: 'en',
+    mobile: true,
+    trial: 3,
+    lcpMs: 1320,
+    cls: 0,
+    maxInteractionMs: 40,
+    imageRequests: [ 'http://127.0.0.1:3211/product/en-dashboard-mobile.webp' ]
+  },
+  {
+    locale: 'ar',
+    mobile: false,
+    trial: 1,
+    lcpMs: 64,
+    cls: 0,
+    maxInteractionMs: 40,
+    imageRequests: [
+      'http://127.0.0.1:3211/_next/image?url=%2Fproduct%2Far-dashboard.webp&w=1920&q=75',
+      'http://127.0.0.1:3211/_next/image?url=%2Fproduct%2Far-editor.webp&w=1920&q=75'
+    ]
+  },
+  {
+    locale: 'ar',
+    mobile: false,
+    trial: 2,
+    lcpMs: 60,
+    cls: 0,
+    maxInteractionMs: 40,
+    imageRequests: [
+      'http://127.0.0.1:3211/_next/image?url=%2Fproduct%2Far-dashboard.webp&w=1920&q=75',
+      'http://127.0.0.1:3211/_next/image?url=%2Fproduct%2Far-editor.webp&w=1920&q=75'
+    ]
+  },
+  {
+    locale: 'ar',
+    mobile: false,
+    trial: 3,
+    lcpMs: 52,
+    cls: 0,
+    maxInteractionMs: 40,
+    imageRequests: [
+      'http://127.0.0.1:3211/_next/image?url=%2Fproduct%2Far-dashboard.webp&w=1920&q=75',
+      'http://127.0.0.1:3211/_next/image?url=%2Fproduct%2Far-editor.webp&w=1920&q=75'
+    ]
+  },
+  {
+    locale: 'ar',
+    mobile: true,
+    trial: 1,
+    lcpMs: 1312,
+    cls: 0,
+    maxInteractionMs: 40,
+    imageRequests: [ 'http://127.0.0.1:3211/product/ar-dashboard-mobile.webp' ]
+  },
+  {
+    locale: 'ar',
+    mobile: true,
+    trial: 2,
+    lcpMs: 1300,
+    cls: 0,
+    maxInteractionMs: 40,
+    imageRequests: [ 'http://127.0.0.1:3211/product/ar-dashboard-mobile.webp' ]
+  },
+  {
+    locale: 'ar',
+    mobile: true,
+    trial: 3,
+    lcpMs: 1308,
+    cls: 0,
+    maxInteractionMs: 40,
+    imageRequests: [ 'http://127.0.0.1:3211/product/ar-dashboard-mobile.webp' ]
+  }
+]

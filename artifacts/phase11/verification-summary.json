@@ -1,0 +1,41 @@
+{
+  "baseline": "a22d192a5417bea79a532bb2f1caf4f4d75c5ad4",
+  "dependencyInstall": "passed; approved registry access; lock unchanged",
+  "typecheck": "passed",
+  "lint": "passed, no warnings",
+  "defaultBuild": "sandbox Turbopack worker port binding failed",
+  "webpackBuild": "passed",
+  "fullSuite": {
+    "passed": 961,
+    "skipped": 37,
+    "failed": 0,
+    "total": 998
+  },
+  "accessibility": {
+    "fullRouteChecks": 372,
+    "marketingChecks": 60,
+    "violations": 0
+  },
+  "responsive": {
+    "captures": 312,
+    "overflow": 0,
+    "widths": [
+      1440,
+      1280,
+      1024,
+      768,
+      375,
+      320
+    ],
+    "locales": [
+      "en",
+      "ar"
+    ]
+  },
+  "labSamples": 12,
+  "productionINP": "not measured",
+  "nativeArabicApproval": "pending",
+  "deployment": "not performed",
+  "commit": "not performed",
+  "push": "not performed"
+}

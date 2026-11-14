@@ -1,0 +1,3122 @@
+[
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/",
+    "file": "en-1440-home.png",
+    "overflow": false,
+    "title": "One property. Every channel. All in hand. | MaxPro / AqarPro",
+    "heading": "One property.Every channel.All in hand.",
+    "canonical": "http://localhost:3000/en"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/solutions",
+    "file": "en-1440-solutions.png",
+    "overflow": false,
+    "title": "The connected real-estate platform | MaxPro / AqarPro",
+    "heading": "The work is connected.\nYour tools should be too.",
+    "canonical": "http://localhost:3000/en/solutions"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/pricing",
+    "file": "en-1440-pricing.png",
+    "overflow": false,
+    "title": "Illustrative plans and transparent limits | MaxPro / AqarPro",
+    "heading": "Sized for your portfolio.\nClear about the limits.",
+    "canonical": "http://localhost:3000/en/pricing"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/about",
+    "file": "en-1440-about.png",
+    "overflow": false,
+    "title": "About the product and its direction | MaxPro / AqarPro",
+    "heading": "For the work\nbehind every property.",
+    "canonical": "http://localhost:3000/en/about"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/contact",
+    "file": "en-1440-contact.png",
+    "overflow": false,
+    "title": "A fictional enquiry preview | MaxPro / AqarPro",
+    "heading": "Start with\na better question.",
+    "canonical": "http://localhost:3000/en/contact"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/faq",
+    "file": "en-1440-faq.png",
+    "overflow": false,
+    "title": "Your platform questions, answered | MaxPro / AqarPro",
+    "heading": "The details,\nwithout the guesswork.",
+    "canonical": "http://localhost:3000/en/faq"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/resources",
+    "file": "en-1440-resources.png",
+    "overflow": false,
+    "title": "Field notes on property work | MaxPro / AqarPro",
+    "heading": "A little structure.\nA lot more clarity.",
+    "canonical": "http://localhost:3000/en/resources"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/properties",
+    "file": "en-1440-properties.png",
+    "overflow": false,
+    "title": "Sample property showcase | MaxPro / AqarPro",
+    "heading": "Find somewhere that feels right.",
+    "canonical": "http://localhost:3000/en/properties"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/properties/AQ-10231",
+    "file": "en-1440-properties-AQ-10231.png",
+    "overflow": false,
+    "title": "Sample property detail | MaxPro / AqarPro",
+    "heading": "Marina-facing apartment",
+    "canonical": "http://localhost:3000/en/properties/AQ-10231"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/agencies",
+    "file": "en-1440-agencies.png",
+    "overflow": false,
+    "title": "Fictional agency directory | MaxPro / AqarPro",
+    "heading": "The teams behind the properties.",
+    "canonical": "http://localhost:3000/en/agencies"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/agencies/pearl-gate-realty",
+    "file": "en-1440-agencies-pearl-gate-realty.png",
+    "overflow": false,
+    "title": "Fictional agency profile | MaxPro / AqarPro",
+    "heading": "Pearl Gate Realty",
+    "canonical": "http://localhost:3000/en/agencies/pearl-gate-realty"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/privacy",
+    "file": "en-1440-privacy.png",
+    "overflow": false,
+    "title": "Draft privacy notice | MaxPro / AqarPro",
+    "heading": "Privacy notice",
+    "canonical": "http://localhost:3000/en/privacy"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/terms",
+    "file": "en-1440-terms.png",
+    "overflow": false,
+    "title": "Draft terms of use | MaxPro / AqarPro",
+    "heading": "Terms of use",
+    "canonical": "http://localhost:3000/en/terms"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/favorites",
+    "file": "en-1440-favorites.png",
+    "overflow": false,
+    "title": "Saved fictional properties | MaxPro / AqarPro",
+    "heading": "Your favourites",
+    "canonical": "http://localhost:3000/en/favorites"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/compare",
+    "file": "en-1440-compare.png",
+    "overflow": false,
+    "title": "Compare sample properties | MaxPro / AqarPro",
+    "heading": "Compare properties",
+    "canonical": "http://localhost:3000/en/compare"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/saved-searches",
+    "file": "en-1440-saved-searches.png",
+    "overflow": false,
+    "title": "Local saved search preview | MaxPro / AqarPro",
+    "heading": "Saved searches",
+    "canonical": "http://localhost:3000/en/saved-searches"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/map",
+    "file": "en-1440-map.png",
+    "overflow": false,
+    "title": "Sample property map | MaxPro / AqarPro",
+    "heading": "Explore on a map",
+    "canonical": "http://localhost:3000/en/map"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/register",
+    "file": "en-1440-register.png",
+    "overflow": false,
+    "title": "Create a fictional demo agency | MaxPro / AqarPro",
+    "heading": "Meet your new workspace.",
+    "canonical": "http://localhost:3000/en/register"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/sign-in",
+    "file": "en-1440-sign-in.png",
+    "overflow": false,
+    "title": "Enter a fictional agency | MaxPro / AqarPro",
+    "heading": "Welcome back.",
+    "canonical": "http://localhost:3000/en/sign-in"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/how-it-works",
+    "file": "en-1440-how-it-works.png",
+    "overflow": false,
+    "title": "How the agency workflow works | MaxPro / AqarPro",
+    "heading": "Take one property\nthrough the whole day.",
+    "canonical": "http://localhost:3000/en/how-it-works"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/features/property-management",
+    "file": "en-1440-features-property-management.png",
+    "overflow": false,
+    "title": "Property management | MaxPro / AqarPro",
+    "heading": "One reliable property record",
+    "canonical": "http://localhost:3000/en/features/property-management"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/features/publish-and-promote",
+    "file": "en-1440-features-publish-and-promote.png",
+    "overflow": false,
+    "title": "Publish & Promote | MaxPro / AqarPro",
+    "heading": "The right preparation for each channel",
+    "canonical": "http://localhost:3000/en/features/publish-and-promote"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/features/ai-assistance",
+    "file": "en-1440-features-ai-assistance.png",
+    "overflow": false,
+    "title": "AI assistance | MaxPro / AqarPro",
+    "heading": "A helping hand. You keep the final say.",
+    "canonical": "http://localhost:3000/en/features/ai-assistance"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/features/leads-and-inbox",
+    "file": "en-1440-features-leads-and-inbox.png",
+    "overflow": false,
+    "title": "Leads & Inbox | MaxPro / AqarPro",
+    "heading": "Every enquiry, with its context",
+    "canonical": "http://localhost:3000/en/features/leads-and-inbox"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/integrations",
+    "file": "en-1440-integrations.png",
+    "overflow": false,
+    "title": "Planned integrations, explained | MaxPro / AqarPro",
+    "heading": "Every channel\nhas a purpose.",
+    "canonical": "http://localhost:3000/en/integrations"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/solutions/agencies",
+    "file": "en-1440-solutions-agencies.png",
+    "overflow": false,
+    "title": "A connected day for your agency | MaxPro / AqarPro",
+    "heading": "A better handoff.\nA clearer agency day.",
+    "canonical": "http://localhost:3000/en/solutions/agencies"
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "route": "/",
+    "file": "en-1280-home.png",
+    "overflow": false,
+    "title": "One property. Every channel. All in hand. | MaxPro / AqarPro",
+    "heading": "One property.Every channel.All in hand.",
+    "canonical": "http://localhost:3000/en"
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "route": "/solutions",
+    "file": "en-1280-solutions.png",
+    "overflow": false,
+    "title": "The connected real-estate platform | MaxPro / AqarPro",
+    "heading": "The work is connected.\nYour tools should be too.",
+    "canonical": "http://localhost:3000/en/solutions"
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "route": "/pricing",
+    "file": "en-1280-pricing.png",
+    "overflow": false,
+    "title": "Illustrative plans and transparent limits | MaxPro / AqarPro",
+    "heading": "Sized for your portfolio.\nClear about the limits.",
+    "canonical": "http://localhost:3000/en/pricing"
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "route": "/about",
+    "file": "en-1280-about.png",
+    "overflow": false,
+    "title": "About the product and its direction | MaxPro / AqarPro",
+    "heading": "For the work\nbehind every property.",
+    "canonical": "http://localhost:3000/en/about"
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "route": "/contact",
+    "file": "en-1280-contact.png",
+    "overflow": false,
+    "title": "A fictional enquiry preview | MaxPro / AqarPro",
+    "heading": "Start with\na better question.",
+    "canonical": "http://localhost:3000/en/contact"
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "route": "/faq",
+    "file": "en-1280-faq.png",
+    "overflow": false,
+    "title": "Your platform questions, answered | MaxPro / AqarPro",
+    "heading": "The details,\nwithout the guesswork.",
+    "canonical": "http://localhost:3000/en/faq"
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "route": "/resources",
+    "file": "en-1280-resources.png",
+    "overflow": false,
+    "title": "Field notes on property work | MaxPro / AqarPro",
+    "heading": "A little structure.\nA lot more clarity.",
+    "canonical": "http://localhost:3000/en/resources"
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "route": "/properties",
+    "file": "en-1280-properties.png",
+    "overflow": false,
+    "title": "Sample property showcase | MaxPro / AqarPro",
+    "heading": "Find somewhere that feels right.",
+    "canonical": "http://localhost:3000/en/properties"
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "route": "/properties/AQ-10231",
+    "file": "en-1280-properties-AQ-10231.png",
+    "overflow": false,
+    "title": "Sample property detail | MaxPro / AqarPro",
+    "heading": "Marina-facing apartment",
+    "canonical": "http://localhost:3000/en/properties/AQ-10231"
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "route": "/agencies",
+    "file": "en-1280-agencies.png",
+    "overflow": false,
+    "title": "Fictional agency directory | MaxPro / AqarPro",
+    "heading": "The teams behind the properties.",
+    "canonical": "http://localhost:3000/en/agencies"
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "route": "/agencies/pearl-gate-realty",
+    "file": "en-1280-agencies-pearl-gate-realty.png",
+    "overflow": false,
+    "title": "Fictional agency profile | MaxPro / AqarPro",
+    "heading": "Pearl Gate Realty",
+    "canonical": "http://localhost:3000/en/agencies/pearl-gate-realty"
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "route": "/privacy",
+    "file": "en-1280-privacy.png",
+    "overflow": false,
+    "title": "Draft privacy notice | MaxPro / AqarPro",
+    "heading": "Privacy notice",
+    "canonical": "http://localhost:3000/en/privacy"
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "route": "/terms",
+    "file": "en-1280-terms.png",
+    "overflow": false,
+    "title": "Draft terms of use | MaxPro / AqarPro",
+    "heading": "Terms of use",
+    "canonical": "http://localhost:3000/en/terms"
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "route": "/favorites",
+    "file": "en-1280-favorites.png",
+    "overflow": false,
+    "title": "Saved fictional properties | MaxPro / AqarPro",
+    "heading": "Your favourites",
+    "canonical": "http://localhost:3000/en/favorites"
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "route": "/compare",
+    "file": "en-1280-compare.png",
+    "overflow": false,
+    "title": "Compare sample properties | MaxPro / AqarPro",
+    "heading": "Compare properties",
+    "canonical": "http://localhost:3000/en/compare"
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "route": "/saved-searches",
+    "file": "en-1280-saved-searches.png",
+    "overflow": false,
+    "title": "Local saved search preview | MaxPro / AqarPro",
+    "heading": "Saved searches",
+    "canonical": "http://localhost:3000/en/saved-searches"
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "route": "/map",
+    "file": "en-1280-map.png",
+    "overflow": false,
+    "title": "Sample property map | MaxPro / AqarPro",
+    "heading": "Explore on a map",
+    "canonical": "http://localhost:3000/en/map"
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "route": "/register",
+    "file": "en-1280-register.png",
+    "overflow": false,
+    "title": "Create a fictional demo agency | MaxPro / AqarPro",
+    "heading": "Meet your new workspace.",
+    "canonical": "http://localhost:3000/en/register"
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "route": "/sign-in",
+    "file": "en-1280-sign-in.png",
+    "overflow": false,
+    "title": "Enter a fictional agency | MaxPro / AqarPro",
+    "heading": "Welcome back.",
+    "canonical": "http://localhost:3000/en/sign-in"
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "route": "/how-it-works",
+    "file": "en-1280-how-it-works.png",
+    "overflow": false,
+    "title": "How the agency workflow works | MaxPro / AqarPro",
+    "heading": "Take one property\nthrough the whole day.",
+    "canonical": "http://localhost:3000/en/how-it-works"
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "route": "/features/property-management",
+    "file": "en-1280-features-property-management.png",
+    "overflow": false,
+    "title": "Property management | MaxPro / AqarPro",
+    "heading": "One reliable property record",
+    "canonical": "http://localhost:3000/en/features/property-management"
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "route": "/features/publish-and-promote",
+    "file": "en-1280-features-publish-and-promote.png",
+    "overflow": false,
+    "title": "Publish & Promote | MaxPro / AqarPro",
+    "heading": "The right preparation for each channel",
+    "canonical": "http://localhost:3000/en/features/publish-and-promote"
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "route": "/features/ai-assistance",
+    "file": "en-1280-features-ai-assistance.png",
+    "overflow": false,
+    "title": "AI assistance | MaxPro / AqarPro",
+    "heading": "A helping hand. You keep the final say.",
+    "canonical": "http://localhost:3000/en/features/ai-assistance"
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "route": "/features/leads-and-inbox",
+    "file": "en-1280-features-leads-and-inbox.png",
+    "overflow": false,
+    "title": "Leads & Inbox | MaxPro / AqarPro",
+    "heading": "Every enquiry, with its context",
+    "canonical": "http://localhost:3000/en/features/leads-and-inbox"
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "route": "/integrations",
+    "file": "en-1280-integrations.png",
+    "overflow": false,
+    "title": "Planned integrations, explained | MaxPro / AqarPro",
+    "heading": "Every channel\nhas a purpose.",
+    "canonical": "http://localhost:3000/en/integrations"
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "route": "/solutions/agencies",
+    "file": "en-1280-solutions-agencies.png",
+    "overflow": false,
+    "title": "A connected day for your agency | MaxPro / AqarPro",
+    "heading": "A better handoff.\nA clearer agency day.",
+    "canonical": "http://localhost:3000/en/solutions/agencies"
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "route": "/",
+    "file": "en-1024-home.png",
+    "overflow": false,
+    "title": "One property. Every channel. All in hand. | MaxPro / AqarPro",
+    "heading": "One property.Every channel.All in hand.",
+    "canonical": "http://localhost:3000/en"
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "route": "/solutions",
+    "file": "en-1024-solutions.png",
+    "overflow": false,
+    "title": "The connected real-estate platform | MaxPro / AqarPro",
+    "heading": "The work is connected.\nYour tools should be too.",
+    "canonical": "http://localhost:3000/en/solutions"
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "route": "/pricing",
+    "file": "en-1024-pricing.png",
+    "overflow": false,
+    "title": "Illustrative plans and transparent limits | MaxPro / AqarPro",
+    "heading": "Sized for your portfolio.\nClear about the limits.",
+    "canonical": "http://localhost:3000/en/pricing"
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "route": "/about",
+    "file": "en-1024-about.png",
+    "overflow": false,
+    "title": "About the product and its direction | MaxPro / AqarPro",
+    "heading": "For the work\nbehind every property.",
+    "canonical": "http://localhost:3000/en/about"
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "route": "/contact",
+    "file": "en-1024-contact.png",
+    "overflow": false,
+    "title": "A fictional enquiry preview | MaxPro / AqarPro",
+    "heading": "Start with\na better question.",
+    "canonical": "http://localhost:3000/en/contact"
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "route": "/faq",
+    "file": "en-1024-faq.png",
+    "overflow": false,
+    "title": "Your platform questions, answered | MaxPro / AqarPro",
+    "heading": "The details,\nwithout the guesswork.",
+    "canonical": "http://localhost:3000/en/faq"
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "route": "/resources",
+    "file": "en-1024-resources.png",
+    "overflow": false,
+    "title": "Field notes on property work | MaxPro / AqarPro",
+    "heading": "A little structure.\nA lot more clarity.",
+    "canonical": "http://localhost:3000/en/resources"
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "route": "/properties",
+    "file": "en-1024-properties.png",
+    "overflow": false,
+    "title": "Sample property showcase | MaxPro / AqarPro",
+    "heading": "Find somewhere that feels right.",
+    "canonical": "http://localhost:3000/en/properties"
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "route": "/properties/AQ-10231",
+    "file": "en-1024-properties-AQ-10231.png",
+    "overflow": false,
+    "title": "Sample property detail | MaxPro / AqarPro",
+    "heading": "Marina-facing apartment",
+    "canonical": "http://localhost:3000/en/properties/AQ-10231"
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "route": "/agencies",
+    "file": "en-1024-agencies.png",
+    "overflow": false,
+    "title": "Fictional agency directory | MaxPro / AqarPro",
+    "heading": "The teams behind the properties.",
+    "canonical": "http://localhost:3000/en/agencies"
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "route": "/agencies/pearl-gate-realty",
+    "file": "en-1024-agencies-pearl-gate-realty.png",
+    "overflow": false,
+    "title": "Fictional agency profile | MaxPro / AqarPro",
+    "heading": "Pearl Gate Realty",
+    "canonical": "http://localhost:3000/en/agencies/pearl-gate-realty"
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "route": "/privacy",
+    "file": "en-1024-privacy.png",
+    "overflow": false,
+    "title": "Draft privacy notice | MaxPro / AqarPro",
+    "heading": "Privacy notice",
+    "canonical": "http://localhost:3000/en/privacy"
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "route": "/terms",
+    "file": "en-1024-terms.png",
+    "overflow": false,
+    "title": "Draft terms of use | MaxPro / AqarPro",
+    "heading": "Terms of use",
+    "canonical": "http://localhost:3000/en/terms"
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "route": "/favorites",
+    "file": "en-1024-favorites.png",
+    "overflow": false,
+    "title": "Saved fictional properties | MaxPro / AqarPro",
+    "heading": "Your favourites",
+    "canonical": "http://localhost:3000/en/favorites"
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "route": "/compare",
+    "file": "en-1024-compare.png",
+    "overflow": false,
+    "title": "Compare sample properties | MaxPro / AqarPro",
+    "heading": "Compare properties",
+    "canonical": "http://localhost:3000/en/compare"
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "route": "/saved-searches",
+    "file": "en-1024-saved-searches.png",
+    "overflow": false,
+    "title": "Local saved search preview | MaxPro / AqarPro",
+    "heading": "Saved searches",
+    "canonical": "http://localhost:3000/en/saved-searches"
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "route": "/map",
+    "file": "en-1024-map.png",
+    "overflow": false,
+    "title": "Sample property map | MaxPro / AqarPro",
+    "heading": "Explore on a map",
+    "canonical": "http://localhost:3000/en/map"
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "route": "/register",
+    "file": "en-1024-register.png",
+    "overflow": false,
+    "title": "Create a fictional demo agency | MaxPro / AqarPro",
+    "heading": "Meet your new workspace.",
+    "canonical": "http://localhost:3000/en/register"
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "route": "/sign-in",
+    "file": "en-1024-sign-in.png",
+    "overflow": false,
+    "title": "Enter a fictional agency | MaxPro / AqarPro",
+    "heading": "Welcome back.",
+    "canonical": "http://localhost:3000/en/sign-in"
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "route": "/how-it-works",
+    "file": "en-1024-how-it-works.png",
+    "overflow": false,
+    "title": "How the agency workflow works | MaxPro / AqarPro",
+    "heading": "Take one property\nthrough the whole day.",
+    "canonical": "http://localhost:3000/en/how-it-works"
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "route": "/features/property-management",
+    "file": "en-1024-features-property-management.png",
+    "overflow": false,
+    "title": "Property management | MaxPro / AqarPro",
+    "heading": "One reliable property record",
+    "canonical": "http://localhost:3000/en/features/property-management"
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "route": "/features/publish-and-promote",
+    "file": "en-1024-features-publish-and-promote.png",
+    "overflow": false,
+    "title": "Publish & Promote | MaxPro / AqarPro",
+    "heading": "The right preparation for each channel",
+    "canonical": "http://localhost:3000/en/features/publish-and-promote"
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "route": "/features/ai-assistance",
+    "file": "en-1024-features-ai-assistance.png",
+    "overflow": false,
+    "title": "AI assistance | MaxPro / AqarPro",
+    "heading": "A helping hand. You keep the final say.",
+    "canonical": "http://localhost:3000/en/features/ai-assistance"
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "route": "/features/leads-and-inbox",
+    "file": "en-1024-features-leads-and-inbox.png",
+    "overflow": false,
+    "title": "Leads & Inbox | MaxPro / AqarPro",
+    "heading": "Every enquiry, with its context",
+    "canonical": "http://localhost:3000/en/features/leads-and-inbox"
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "route": "/integrations",
+    "file": "en-1024-integrations.png",
+    "overflow": false,
+    "title": "Planned integrations, explained | MaxPro / AqarPro",
+    "heading": "Every channel\nhas a purpose.",
+    "canonical": "http://localhost:3000/en/integrations"
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "route": "/solutions/agencies",
+    "file": "en-1024-solutions-agencies.png",
+    "overflow": false,
+    "title": "A connected day for your agency | MaxPro / AqarPro",
+    "heading": "A better handoff.\nA clearer agency day.",
+    "canonical": "http://localhost:3000/en/solutions/agencies"
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "route": "/",
+    "file": "en-768-home.png",
+    "overflow": false,
+    "title": "One property. Every channel. All in hand. | MaxPro / AqarPro",
+    "heading": "One property.Every channel.All in hand.",
+    "canonical": "http://localhost:3000/en"
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "route": "/solutions",
+    "file": "en-768-solutions.png",
+    "overflow": false,
+    "title": "The connected real-estate platform | MaxPro / AqarPro",
+    "heading": "The work is connected.\nYour tools should be too.",
+    "canonical": "http://localhost:3000/en/solutions"
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "route": "/pricing",
+    "file": "en-768-pricing.png",
+    "overflow": false,
+    "title": "Illustrative plans and transparent limits | MaxPro / AqarPro",
+    "heading": "Sized for your portfolio.\nClear about the limits.",
+    "canonical": "http://localhost:3000/en/pricing"
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "route": "/about",
+    "file": "en-768-about.png",
+    "overflow": false,
+    "title": "About the product and its direction | MaxPro / AqarPro",
+    "heading": "For the work\nbehind every property.",
+    "canonical": "http://localhost:3000/en/about"
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "route": "/contact",
+    "file": "en-768-contact.png",
+    "overflow": false,
+    "title": "A fictional enquiry preview | MaxPro / AqarPro",
+    "heading": "Start with\na better question.",
+    "canonical": "http://localhost:3000/en/contact"
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "route": "/faq",
+    "file": "en-768-faq.png",
+    "overflow": false,
+    "title": "Your platform questions, answered | MaxPro / AqarPro",
+    "heading": "The details,\nwithout the guesswork.",
+    "canonical": "http://localhost:3000/en/faq"
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "route": "/resources",
+    "file": "en-768-resources.png",
+    "overflow": false,
+    "title": "Field notes on property work | MaxPro / AqarPro",
+    "heading": "A little structure.\nA lot more clarity.",
+    "canonical": "http://localhost:3000/en/resources"
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "route": "/properties",
+    "file": "en-768-properties.png",
+    "overflow": false,
+    "title": "Sample property showcase | MaxPro / AqarPro",
+    "heading": "Find somewhere that feels right.",
+    "canonical": "http://localhost:3000/en/properties"
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "route": "/properties/AQ-10231",
+    "file": "en-768-properties-AQ-10231.png",
+    "overflow": false,
+    "title": "Sample property detail | MaxPro / AqarPro",
+    "heading": "Marina-facing apartment",
+    "canonical": "http://localhost:3000/en/properties/AQ-10231"
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "route": "/agencies",
+    "file": "en-768-agencies.png",
+    "overflow": false,
+    "title": "Fictional agency directory | MaxPro / AqarPro",
+    "heading": "The teams behind the properties.",
+    "canonical": "http://localhost:3000/en/agencies"
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "route": "/agencies/pearl-gate-realty",
+    "file": "en-768-agencies-pearl-gate-realty.png",
+    "overflow": false,
+    "title": "Fictional agency profile | MaxPro / AqarPro",
+    "heading": "Pearl Gate Realty",
+    "canonical": "http://localhost:3000/en/agencies/pearl-gate-realty"
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "route": "/privacy",
+    "file": "en-768-privacy.png",
+    "overflow": false,
+    "title": "Draft privacy notice | MaxPro / AqarPro",
+    "heading": "Privacy notice",
+    "canonical": "http://localhost:3000/en/privacy"
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "route": "/terms",
+    "file": "en-768-terms.png",
+    "overflow": false,
+    "title": "Draft terms of use | MaxPro / AqarPro",
+    "heading": "Terms of use",
+    "canonical": "http://localhost:3000/en/terms"
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "route": "/favorites",
+    "file": "en-768-favorites.png",
+    "overflow": false,
+    "title": "Saved fictional properties | MaxPro / AqarPro",
+    "heading": "Your favourites",
+    "canonical": "http://localhost:3000/en/favorites"
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "route": "/compare",
+    "file": "en-768-compare.png",
+    "overflow": false,
+    "title": "Compare sample properties | MaxPro / AqarPro",
+    "heading": "Compare properties",
+    "canonical": "http://localhost:3000/en/compare"
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "route": "/saved-searches",
+    "file": "en-768-saved-searches.png",
+    "overflow": false,
+    "title": "Local saved search preview | MaxPro / AqarPro",
+    "heading": "Saved searches",
+    "canonical": "http://localhost:3000/en/saved-searches"
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "route": "/map",
+    "file": "en-768-map.png",
+    "overflow": false,
+    "title": "Sample property map | MaxPro / AqarPro",
+    "heading": "Explore on a map",
+    "canonical": "http://localhost:3000/en/map"
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "route": "/register",
+    "file": "en-768-register.png",
+    "overflow": false,
+    "title": "Create a fictional demo agency | MaxPro / AqarPro",
+    "heading": "Meet your new workspace.",
+    "canonical": "http://localhost:3000/en/register"
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "route": "/sign-in",
+    "file": "en-768-sign-in.png",
+    "overflow": false,
+    "title": "Enter a fictional agency | MaxPro / AqarPro",
+    "heading": "Welcome back.",
+    "canonical": "http://localhost:3000/en/sign-in"
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "route": "/how-it-works",
+    "file": "en-768-how-it-works.png",
+    "overflow": false,
+    "title": "How the agency workflow works | MaxPro / AqarPro",
+    "heading": "Take one property\nthrough the whole day.",
+    "canonical": "http://localhost:3000/en/how-it-works"
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "route": "/features/property-management",
+    "file": "en-768-features-property-management.png",
+    "overflow": false,
+    "title": "Property management | MaxPro / AqarPro",
+    "heading": "One reliable property record",
+    "canonical": "http://localhost:3000/en/features/property-management"
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "route": "/features/publish-and-promote",
+    "file": "en-768-features-publish-and-promote.png",
+    "overflow": false,
+    "title": "Publish & Promote | MaxPro / AqarPro",
+    "heading": "The right preparation for each channel",
+    "canonical": "http://localhost:3000/en/features/publish-and-promote"
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "route": "/features/ai-assistance",
+    "file": "en-768-features-ai-assistance.png",
+    "overflow": false,
+    "title": "AI assistance | MaxPro / AqarPro",
+    "heading": "A helping hand. You keep the final say.",
+    "canonical": "http://localhost:3000/en/features/ai-assistance"
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "route": "/features/leads-and-inbox",
+    "file": "en-768-features-leads-and-inbox.png",
+    "overflow": false,
+    "title": "Leads & Inbox | MaxPro / AqarPro",
+    "heading": "Every enquiry, with its context",
+    "canonical": "http://localhost:3000/en/features/leads-and-inbox"
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "route": "/integrations",
+    "file": "en-768-integrations.png",
+    "overflow": false,
+    "title": "Planned integrations, explained | MaxPro / AqarPro",
+    "heading": "Every channel\nhas a purpose.",
+    "canonical": "http://localhost:3000/en/integrations"
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "route": "/solutions/agencies",
+    "file": "en-768-solutions-agencies.png",
+    "overflow": false,
+    "title": "A connected day for your agency | MaxPro / AqarPro",
+    "heading": "A better handoff.\nA clearer agency day.",
+    "canonical": "http://localhost:3000/en/solutions/agencies"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/",
+    "file": "en-375-home.png",
+    "overflow": false,
+    "title": "One property. Every channel. All in hand. | MaxPro / AqarPro",
+    "heading": "One property.Every channel.All in hand.",
+    "canonical": "http://localhost:3000/en"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/solutions",
+    "file": "en-375-solutions.png",
+    "overflow": false,
+    "title": "The connected real-estate platform | MaxPro / AqarPro",
+    "heading": "The work is connected.\nYour tools should be too.",
+    "canonical": "http://localhost:3000/en/solutions"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/pricing",
+    "file": "en-375-pricing.png",
+    "overflow": false,
+    "title": "Illustrative plans and transparent limits | MaxPro / AqarPro",
+    "heading": "Sized for your portfolio.\nClear about the limits.",
+    "canonical": "http://localhost:3000/en/pricing"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/about",
+    "file": "en-375-about.png",
+    "overflow": false,
+    "title": "About the product and its direction | MaxPro / AqarPro",
+    "heading": "For the work\nbehind every property.",
+    "canonical": "http://localhost:3000/en/about"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/contact",
+    "file": "en-375-contact.png",
+    "overflow": false,
+    "title": "A fictional enquiry preview | MaxPro / AqarPro",
+    "heading": "Start with\na better question.",
+    "canonical": "http://localhost:3000/en/contact"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/faq",
+    "file": "en-375-faq.png",
+    "overflow": false,
+    "title": "Your platform questions, answered | MaxPro / AqarPro",
+    "heading": "The details,\nwithout the guesswork.",
+    "canonical": "http://localhost:3000/en/faq"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/resources",
+    "file": "en-375-resources.png",
+    "overflow": false,
+    "title": "Field notes on property work | MaxPro / AqarPro",
+    "heading": "A little structure.\nA lot more clarity.",
+    "canonical": "http://localhost:3000/en/resources"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/properties",
+    "file": "en-375-properties.png",
+    "overflow": false,
+    "title": "Sample property showcase | MaxPro / AqarPro",
+    "heading": "Find somewhere that feels right.",
+    "canonical": "http://localhost:3000/en/properties"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/properties/AQ-10231",
+    "file": "en-375-properties-AQ-10231.png",
+    "overflow": false,
+    "title": "Sample property detail | MaxPro / AqarPro",
+    "heading": "Marina-facing apartment",
+    "canonical": "http://localhost:3000/en/properties/AQ-10231"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/agencies",
+    "file": "en-375-agencies.png",
+    "overflow": false,
+    "title": "Fictional agency directory | MaxPro / AqarPro",
+    "heading": "The teams behind the properties.",
+    "canonical": "http://localhost:3000/en/agencies"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/agencies/pearl-gate-realty",
+    "file": "en-375-agencies-pearl-gate-realty.png",
+    "overflow": false,
+    "title": "Fictional agency profile | MaxPro / AqarPro",
+    "heading": "Pearl Gate Realty",
+    "canonical": "http://localhost:3000/en/agencies/pearl-gate-realty"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/privacy",
+    "file": "en-375-privacy.png",
+    "overflow": false,
+    "title": "Draft privacy notice | MaxPro / AqarPro",
+    "heading": "Privacy notice",
+    "canonical": "http://localhost:3000/en/privacy"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/terms",
+    "file": "en-375-terms.png",
+    "overflow": false,
+    "title": "Draft terms of use | MaxPro / AqarPro",
+    "heading": "Terms of use",
+    "canonical": "http://localhost:3000/en/terms"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/favorites",
+    "file": "en-375-favorites.png",
+    "overflow": false,
+    "title": "Saved fictional properties | MaxPro / AqarPro",
+    "heading": "Your favourites",
+    "canonical": "http://localhost:3000/en/favorites"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/compare",
+    "file": "en-375-compare.png",
+    "overflow": false,
+    "title": "Compare sample properties | MaxPro / AqarPro",
+    "heading": "Compare properties",
+    "canonical": "http://localhost:3000/en/compare"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/saved-searches",
+    "file": "en-375-saved-searches.png",
+    "overflow": false,
+    "title": "Local saved search preview | MaxPro / AqarPro",
+    "heading": "Saved searches",
+    "canonical": "http://localhost:3000/en/saved-searches"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/map",
+    "file": "en-375-map.png",
+    "overflow": false,
+    "title": "Sample property map | MaxPro / AqarPro",
+    "heading": "Explore on a map",
+    "canonical": "http://localhost:3000/en/map"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/register",
+    "file": "en-375-register.png",
+    "overflow": false,
+    "title": "Create a fictional demo agency | MaxPro / AqarPro",
+    "heading": "Meet your new workspace.",
+    "canonical": "http://localhost:3000/en/register"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/sign-in",
+    "file": "en-375-sign-in.png",
+    "overflow": false,
+    "title": "Enter a fictional agency | MaxPro / AqarPro",
+    "heading": "Welcome back.",
+    "canonical": "http://localhost:3000/en/sign-in"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/how-it-works",
+    "file": "en-375-how-it-works.png",
+    "overflow": false,
+    "title": "How the agency workflow works | MaxPro / AqarPro",
+    "heading": "Take one property\nthrough the whole day.",
+    "canonical": "http://localhost:3000/en/how-it-works"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/features/property-management",
+    "file": "en-375-features-property-management.png",
+    "overflow": false,
+    "title": "Property management | MaxPro / AqarPro",
+    "heading": "One reliable property record",
+    "canonical": "http://localhost:3000/en/features/property-management"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/features/publish-and-promote",
+    "file": "en-375-features-publish-and-promote.png",
+    "overflow": false,
+    "title": "Publish & Promote | MaxPro / AqarPro",
+    "heading": "The right preparation for each channel",
+    "canonical": "http://localhost:3000/en/features/publish-and-promote"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/features/ai-assistance",
+    "file": "en-375-features-ai-assistance.png",
+    "overflow": false,
+    "title": "AI assistance | MaxPro / AqarPro",
+    "heading": "A helping hand. You keep the final say.",
+    "canonical": "http://localhost:3000/en/features/ai-assistance"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/features/leads-and-inbox",
+    "file": "en-375-features-leads-and-inbox.png",
+    "overflow": false,
+    "title": "Leads & Inbox | MaxPro / AqarPro",
+    "heading": "Every enquiry, with its context",
+    "canonical": "http://localhost:3000/en/features/leads-and-inbox"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/integrations",
+    "file": "en-375-integrations.png",
+    "overflow": false,
+    "title": "Planned integrations, explained | MaxPro / AqarPro",
+    "heading": "Every channel\nhas a purpose.",
+    "canonical": "http://localhost:3000/en/integrations"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/solutions/agencies",
+    "file": "en-375-solutions-agencies.png",
+    "overflow": false,
+    "title": "A connected day for your agency | MaxPro / AqarPro",
+    "heading": "A better handoff.\nA clearer agency day.",
+    "canonical": "http://localhost:3000/en/solutions/agencies"
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "route": "/",
+    "file": "en-320-home.png",
+    "overflow": false,
+    "title": "One property. Every channel. All in hand. | MaxPro / AqarPro",
+    "heading": "One property.Every channel.All in hand.",
+    "canonical": "http://localhost:3000/en"
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "route": "/solutions",
+    "file": "en-320-solutions.png",
+    "overflow": false,
+    "title": "The connected real-estate platform | MaxPro / AqarPro",
+    "heading": "The work is connected.\nYour tools should be too.",
+    "canonical": "http://localhost:3000/en/solutions"
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "route": "/pricing",
+    "file": "en-320-pricing.png",
+    "overflow": false,
+    "title": "Illustrative plans and transparent limits | MaxPro / AqarPro",
+    "heading": "Sized for your portfolio.\nClear about the limits.",
+    "canonical": "http://localhost:3000/en/pricing"
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "route": "/about",
+    "file": "en-320-about.png",
+    "overflow": false,
+    "title": "About the product and its direction | MaxPro / AqarPro",
+    "heading": "For the work\nbehind every property.",
+    "canonical": "http://localhost:3000/en/about"
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "route": "/contact",
+    "file": "en-320-contact.png",
+    "overflow": false,
+    "title": "A fictional enquiry preview | MaxPro / AqarPro",
+    "heading": "Start with\na better question.",
+    "canonical": "http://localhost:3000/en/contact"
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "route": "/faq",
+    "file": "en-320-faq.png",
+    "overflow": false,
+    "title": "Your platform questions, answered | MaxPro / AqarPro",
+    "heading": "The details,\nwithout the guesswork.",
+    "canonical": "http://localhost:3000/en/faq"
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "route": "/resources",
+    "file": "en-320-resources.png",
+    "overflow": false,
+    "title": "Field notes on property work | MaxPro / AqarPro",
+    "heading": "A little structure.\nA lot more clarity.",
+    "canonical": "http://localhost:3000/en/resources"
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "route": "/properties",
+    "file": "en-320-properties.png",
+    "overflow": false,
+    "title": "Sample property showcase | MaxPro / AqarPro",
+    "heading": "Find somewhere that feels right.",
+    "canonical": "http://localhost:3000/en/properties"
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "route": "/properties/AQ-10231",
+    "file": "en-320-properties-AQ-10231.png",
+    "overflow": false,
+    "title": "Sample property detail | MaxPro / AqarPro",
+    "heading": "Marina-facing apartment",
+    "canonical": "http://localhost:3000/en/properties/AQ-10231"
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "route": "/agencies",
+    "file": "en-320-agencies.png",
+    "overflow": false,
+    "title": "Fictional agency directory | MaxPro / AqarPro",
+    "heading": "The teams behind the properties.",
+    "canonical": "http://localhost:3000/en/agencies"
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "route": "/agencies/pearl-gate-realty",
+    "file": "en-320-agencies-pearl-gate-realty.png",
+    "overflow": false,
+    "title": "Fictional agency profile | MaxPro / AqarPro",
+    "heading": "Pearl Gate Realty",
+    "canonical": "http://localhost:3000/en/agencies/pearl-gate-realty"
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "route": "/privacy",
+    "file": "en-320-privacy.png",
+    "overflow": false,
+    "title": "Draft privacy notice | MaxPro / AqarPro",
+    "heading": "Privacy notice",
+    "canonical": "http://localhost:3000/en/privacy"
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "route": "/terms",
+    "file": "en-320-terms.png",
+    "overflow": false,
+    "title": "Draft terms of use | MaxPro / AqarPro",
+    "heading": "Terms of use",
+    "canonical": "http://localhost:3000/en/terms"
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "route": "/favorites",
+    "file": "en-320-favorites.png",
+    "overflow": false,
+    "title": "Saved fictional properties | MaxPro / AqarPro",
+    "heading": "Your favourites",
+    "canonical": "http://localhost:3000/en/favorites"
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "route": "/compare",
+    "file": "en-320-compare.png",
+    "overflow": false,
+    "title": "Compare sample properties | MaxPro / AqarPro",
+    "heading": "Compare properties",
+    "canonical": "http://localhost:3000/en/compare"
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "route": "/saved-searches",
+    "file": "en-320-saved-searches.png",
+    "overflow": false,
+    "title": "Local saved search preview | MaxPro / AqarPro",
+    "heading": "Saved searches",
+    "canonical": "http://localhost:3000/en/saved-searches"
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "route": "/map",
+    "file": "en-320-map.png",
+    "overflow": false,
+    "title": "Sample property map | MaxPro / AqarPro",
+    "heading": "Explore on a map",
+    "canonical": "http://localhost:3000/en/map"
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "route": "/register",
+    "file": "en-320-register.png",
+    "overflow": false,
+    "title": "Create a fictional demo agency | MaxPro / AqarPro",
+    "heading": "Meet your new workspace.",
+    "canonical": "http://localhost:3000/en/register"
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "route": "/sign-in",
+    "file": "en-320-sign-in.png",
+    "overflow": false,
+    "title": "Enter a fictional agency | MaxPro / AqarPro",
+    "heading": "Welcome back.",
+    "canonical": "http://localhost:3000/en/sign-in"
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "route": "/how-it-works",
+    "file": "en-320-how-it-works.png",
+    "overflow": false,
+    "title": "How the agency workflow works | MaxPro / AqarPro",
+    "heading": "Take one property\nthrough the whole day.",
+    "canonical": "http://localhost:3000/en/how-it-works"
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "route": "/features/property-management",
+    "file": "en-320-features-property-management.png",
+    "overflow": false,
+    "title": "Property management | MaxPro / AqarPro",
+    "heading": "One reliable property record",
+    "canonical": "http://localhost:3000/en/features/property-management"
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "route": "/features/publish-and-promote",
+    "file": "en-320-features-publish-and-promote.png",
+    "overflow": false,
+    "title": "Publish & Promote | MaxPro / AqarPro",
+    "heading": "The right preparation for each channel",
+    "canonical": "http://localhost:3000/en/features/publish-and-promote"
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "route": "/features/ai-assistance",
+    "file": "en-320-features-ai-assistance.png",
+    "overflow": false,
+    "title": "AI assistance | MaxPro / AqarPro",
+    "heading": "A helping hand. You keep the final say.",
+    "canonical": "http://localhost:3000/en/features/ai-assistance"
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "route": "/features/leads-and-inbox",
+    "file": "en-320-features-leads-and-inbox.png",
+    "overflow": false,
+    "title": "Leads & Inbox | MaxPro / AqarPro",
+    "heading": "Every enquiry, with its context",
+    "canonical": "http://localhost:3000/en/features/leads-and-inbox"
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "route": "/integrations",
+    "file": "en-320-integrations.png",
+    "overflow": false,
+    "title": "Planned integrations, explained | MaxPro / AqarPro",
+    "heading": "Every channel\nhas a purpose.",
+    "canonical": "http://localhost:3000/en/integrations"
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "route": "/solutions/agencies",
+    "file": "en-320-solutions-agencies.png",
+    "overflow": false,
+    "title": "A connected day for your agency | MaxPro / AqarPro",
+    "heading": "A better handoff.\nA clearer agency day.",
+    "canonical": "http://localhost:3000/en/solutions/agencies"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/",
+    "file": "ar-1440-home.png",
+    "overflow": false,
+    "title": "عقار واحد. كل القنوات. والإدارة بين يديك. | MaxPro / AqarPro",
+    "heading": "عقار واحد.كل القنوات.والإدارة بين يديك.",
+    "canonical": "http://localhost:3000/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/solutions",
+    "file": "ar-1440-solutions.png",
+    "overflow": false,
+    "title": "المنصة العقارية المترابطة | MaxPro / AqarPro",
+    "heading": "العمل مترابط.\nوأدواتك كذلك.",
+    "canonical": "http://localhost:3000/ar/solutions"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/pricing",
+    "file": "ar-1440-pricing.png",
+    "overflow": false,
+    "title": "باقات توضيحية وحدود واضحة | MaxPro / AqarPro",
+    "heading": "تناسب محفظتك.\nوتوضح الحدود.",
+    "canonical": "http://localhost:3000/ar/pricing"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/about",
+    "file": "ar-1440-about.png",
+    "overflow": false,
+    "title": "عن المنتج وتوجهه | MaxPro / AqarPro",
+    "heading": "لكل ما وراء العقار\nمن عمل.",
+    "canonical": "http://localhost:3000/ar/about"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/contact",
+    "file": "ar-1440-contact.png",
+    "overflow": false,
+    "title": "معاينة استفسار خيالي | MaxPro / AqarPro",
+    "heading": "ابدأ\nبسؤال أوضح.",
+    "canonical": "http://localhost:3000/ar/contact"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/faq",
+    "file": "ar-1440-faq.png",
+    "overflow": false,
+    "title": "إجابات عن أسئلة المنصة | MaxPro / AqarPro",
+    "heading": "التفاصيل،\nبلا تخمين.",
+    "canonical": "http://localhost:3000/ar/faq"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/resources",
+    "file": "ar-1440-resources.png",
+    "overflow": false,
+    "title": "ملاحظات عن العمل العقاري | MaxPro / AqarPro",
+    "heading": "قليل من التنظيم.\nوكثير من الوضوح.",
+    "canonical": "http://localhost:3000/ar/resources"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/properties",
+    "file": "ar-1440-properties.png",
+    "overflow": false,
+    "title": "عرض عقارات نموذجية | MaxPro / AqarPro",
+    "heading": "اعثر على المكان المناسب لك.",
+    "canonical": "http://localhost:3000/ar/properties"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/properties/AQ-10231",
+    "file": "ar-1440-properties-AQ-10231.png",
+    "overflow": false,
+    "title": "تفاصيل عقار نموذجي | MaxPro / AqarPro",
+    "heading": "شقة بإطلالة على المارينا",
+    "canonical": "http://localhost:3000/ar/properties/AQ-10231"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/agencies",
+    "file": "ar-1440-agencies.png",
+    "overflow": false,
+    "title": "دليل وكالات خيالية | MaxPro / AqarPro",
+    "heading": "الفرق وراء العقارات.",
+    "canonical": "http://localhost:3000/ar/agencies"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/agencies/pearl-gate-realty",
+    "file": "ar-1440-agencies-pearl-gate-realty.png",
+    "overflow": false,
+    "title": "ملف وكالة خيالية | MaxPro / AqarPro",
+    "heading": "بيرل غيت العقارية",
+    "canonical": "http://localhost:3000/ar/agencies/pearl-gate-realty"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/privacy",
+    "file": "ar-1440-privacy.png",
+    "overflow": false,
+    "title": "مسودة إشعار الخصوصية | MaxPro / AqarPro",
+    "heading": "إشعار الخصوصية",
+    "canonical": "http://localhost:3000/ar/privacy"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/terms",
+    "file": "ar-1440-terms.png",
+    "overflow": false,
+    "title": "مسودة شروط الاستخدام | MaxPro / AqarPro",
+    "heading": "شروط الاستخدام",
+    "canonical": "http://localhost:3000/ar/terms"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/favorites",
+    "file": "ar-1440-favorites.png",
+    "overflow": false,
+    "title": "العقارات الخيالية المحفوظة | MaxPro / AqarPro",
+    "heading": "المفضلة",
+    "canonical": "http://localhost:3000/ar/favorites"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/compare",
+    "file": "ar-1440-compare.png",
+    "overflow": false,
+    "title": "قارن العقارات النموذجية | MaxPro / AqarPro",
+    "heading": "مقارنة العقارات",
+    "canonical": "http://localhost:3000/ar/compare"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/saved-searches",
+    "file": "ar-1440-saved-searches.png",
+    "overflow": false,
+    "title": "معاينة بحث محفوظ محلي | MaxPro / AqarPro",
+    "heading": "عمليات البحث المحفوظة",
+    "canonical": "http://localhost:3000/ar/saved-searches"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/map",
+    "file": "ar-1440-map.png",
+    "overflow": false,
+    "title": "خريطة العقارات النموذجية | MaxPro / AqarPro",
+    "heading": "الاستكشاف على الخريطة",
+    "canonical": "http://localhost:3000/ar/map"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/register",
+    "file": "ar-1440-register.png",
+    "overflow": false,
+    "title": "أنشئ وكالة تجريبية خيالية | MaxPro / AqarPro",
+    "heading": "تعرّف على مساحة عملك.",
+    "canonical": "http://localhost:3000/ar/register"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/sign-in",
+    "file": "ar-1440-sign-in.png",
+    "overflow": false,
+    "title": "ادخل وكالة خيالية | MaxPro / AqarPro",
+    "heading": "مرحباً بعودتك.",
+    "canonical": "http://localhost:3000/ar/sign-in"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/how-it-works",
+    "file": "ar-1440-how-it-works.png",
+    "overflow": false,
+    "title": "كيف يعمل مسار الوكالة | MaxPro / AqarPro",
+    "heading": "رافق عقاراً واحداً\nطوال يوم العمل.",
+    "canonical": "http://localhost:3000/ar/how-it-works"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/features/property-management",
+    "file": "ar-1440-features-property-management.png",
+    "overflow": false,
+    "title": "إدارة العقارات | MaxPro / AqarPro",
+    "heading": "سجل عقاري موثوق",
+    "canonical": "http://localhost:3000/ar/features/property-management"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/features/publish-and-promote",
+    "file": "ar-1440-features-publish-and-promote.png",
+    "overflow": false,
+    "title": "النشر والترويج | MaxPro / AqarPro",
+    "heading": "تجهيز مناسب لكل قناة",
+    "canonical": "http://localhost:3000/ar/features/publish-and-promote"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/features/ai-assistance",
+    "file": "ar-1440-features-ai-assistance.png",
+    "overflow": false,
+    "title": "المساعدة الذكية | MaxPro / AqarPro",
+    "heading": "مساعدة في الإعداد. والقرار لك.",
+    "canonical": "http://localhost:3000/ar/features/ai-assistance"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/features/leads-and-inbox",
+    "file": "ar-1440-features-leads-and-inbox.png",
+    "overflow": false,
+    "title": "العملاء وصندوق الوارد | MaxPro / AqarPro",
+    "heading": "كل استفسار في سياقه",
+    "canonical": "http://localhost:3000/ar/features/leads-and-inbox"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/integrations",
+    "file": "ar-1440-integrations.png",
+    "overflow": false,
+    "title": "شرح التكاملات المخططة | MaxPro / AqarPro",
+    "heading": "لكل قناة\nدور واضح.",
+    "canonical": "http://localhost:3000/ar/integrations"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/solutions/agencies",
+    "file": "ar-1440-solutions-agencies.png",
+    "overflow": false,
+    "title": "يوم مترابط لوكالتك | MaxPro / AqarPro",
+    "heading": "تنسيق أفضل.\nويوم عمل أوضح.",
+    "canonical": "http://localhost:3000/ar/solutions/agencies"
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "route": "/",
+    "file": "ar-1280-home.png",
+    "overflow": false,
+    "title": "عقار واحد. كل القنوات. والإدارة بين يديك. | MaxPro / AqarPro",
+    "heading": "عقار واحد.كل القنوات.والإدارة بين يديك.",
+    "canonical": "http://localhost:3000/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "route": "/solutions",
+    "file": "ar-1280-solutions.png",
+    "overflow": false,
+    "title": "المنصة العقارية المترابطة | MaxPro / AqarPro",
+    "heading": "العمل مترابط.\nوأدواتك كذلك.",
+    "canonical": "http://localhost:3000/ar/solutions"
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "route": "/pricing",
+    "file": "ar-1280-pricing.png",
+    "overflow": false,
+    "title": "باقات توضيحية وحدود واضحة | MaxPro / AqarPro",
+    "heading": "تناسب محفظتك.\nوتوضح الحدود.",
+    "canonical": "http://localhost:3000/ar/pricing"
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "route": "/about",
+    "file": "ar-1280-about.png",
+    "overflow": false,
+    "title": "عن المنتج وتوجهه | MaxPro / AqarPro",
+    "heading": "لكل ما وراء العقار\nمن عمل.",
+    "canonical": "http://localhost:3000/ar/about"
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "route": "/contact",
+    "file": "ar-1280-contact.png",
+    "overflow": false,
+    "title": "معاينة استفسار خيالي | MaxPro / AqarPro",
+    "heading": "ابدأ\nبسؤال أوضح.",
+    "canonical": "http://localhost:3000/ar/contact"
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "route": "/faq",
+    "file": "ar-1280-faq.png",
+    "overflow": false,
+    "title": "إجابات عن أسئلة المنصة | MaxPro / AqarPro",
+    "heading": "التفاصيل،\nبلا تخمين.",
+    "canonical": "http://localhost:3000/ar/faq"
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "route": "/resources",
+    "file": "ar-1280-resources.png",
+    "overflow": false,
+    "title": "ملاحظات عن العمل العقاري | MaxPro / AqarPro",
+    "heading": "قليل من التنظيم.\nوكثير من الوضوح.",
+    "canonical": "http://localhost:3000/ar/resources"
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "route": "/properties",
+    "file": "ar-1280-properties.png",
+    "overflow": false,
+    "title": "عرض عقارات نموذجية | MaxPro / AqarPro",
+    "heading": "اعثر على المكان المناسب لك.",
+    "canonical": "http://localhost:3000/ar/properties"
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "route": "/properties/AQ-10231",
+    "file": "ar-1280-properties-AQ-10231.png",
+    "overflow": false,
+    "title": "تفاصيل عقار نموذجي | MaxPro / AqarPro",
+    "heading": "شقة بإطلالة على المارينا",
+    "canonical": "http://localhost:3000/ar/properties/AQ-10231"
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "route": "/agencies",
+    "file": "ar-1280-agencies.png",
+    "overflow": false,
+    "title": "دليل وكالات خيالية | MaxPro / AqarPro",
+    "heading": "الفرق وراء العقارات.",
+    "canonical": "http://localhost:3000/ar/agencies"
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "route": "/agencies/pearl-gate-realty",
+    "file": "ar-1280-agencies-pearl-gate-realty.png",
+    "overflow": false,
+    "title": "ملف وكالة خيالية | MaxPro / AqarPro",
+    "heading": "بيرل غيت العقارية",
+    "canonical": "http://localhost:3000/ar/agencies/pearl-gate-realty"
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "route": "/privacy",
+    "file": "ar-1280-privacy.png",
+    "overflow": false,
+    "title": "مسودة إشعار الخصوصية | MaxPro / AqarPro",
+    "heading": "إشعار الخصوصية",
+    "canonical": "http://localhost:3000/ar/privacy"
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "route": "/terms",
+    "file": "ar-1280-terms.png",
+    "overflow": false,
+    "title": "مسودة شروط الاستخدام | MaxPro / AqarPro",
+    "heading": "شروط الاستخدام",
+    "canonical": "http://localhost:3000/ar/terms"
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "route": "/favorites",
+    "file": "ar-1280-favorites.png",
+    "overflow": false,
+    "title": "العقارات الخيالية المحفوظة | MaxPro / AqarPro",
+    "heading": "المفضلة",
+    "canonical": "http://localhost:3000/ar/favorites"
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "route": "/compare",
+    "file": "ar-1280-compare.png",
+    "overflow": false,
+    "title": "قارن العقارات النموذجية | MaxPro / AqarPro",
+    "heading": "مقارنة العقارات",
+    "canonical": "http://localhost:3000/ar/compare"
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "route": "/saved-searches",
+    "file": "ar-1280-saved-searches.png",
+    "overflow": false,
+    "title": "معاينة بحث محفوظ محلي | MaxPro / AqarPro",
+    "heading": "عمليات البحث المحفوظة",
+    "canonical": "http://localhost:3000/ar/saved-searches"
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "route": "/map",
+    "file": "ar-1280-map.png",
+    "overflow": false,
+    "title": "خريطة العقارات النموذجية | MaxPro / AqarPro",
+    "heading": "الاستكشاف على الخريطة",
+    "canonical": "http://localhost:3000/ar/map"
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "route": "/register",
+    "file": "ar-1280-register.png",
+    "overflow": false,
+    "title": "أنشئ وكالة تجريبية خيالية | MaxPro / AqarPro",
+    "heading": "تعرّف على مساحة عملك.",
+    "canonical": "http://localhost:3000/ar/register"
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "route": "/sign-in",
+    "file": "ar-1280-sign-in.png",
+    "overflow": false,
+    "title": "ادخل وكالة خيالية | MaxPro / AqarPro",
+    "heading": "مرحباً بعودتك.",
+    "canonical": "http://localhost:3000/ar/sign-in"
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "route": "/how-it-works",
+    "file": "ar-1280-how-it-works.png",
+    "overflow": false,
+    "title": "كيف يعمل مسار الوكالة | MaxPro / AqarPro",
+    "heading": "رافق عقاراً واحداً\nطوال يوم العمل.",
+    "canonical": "http://localhost:3000/ar/how-it-works"
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "route": "/features/property-management",
+    "file": "ar-1280-features-property-management.png",
+    "overflow": false,
+    "title": "إدارة العقارات | MaxPro / AqarPro",
+    "heading": "سجل عقاري موثوق",
+    "canonical": "http://localhost:3000/ar/features/property-management"
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "route": "/features/publish-and-promote",
+    "file": "ar-1280-features-publish-and-promote.png",
+    "overflow": false,
+    "title": "النشر والترويج | MaxPro / AqarPro",
+    "heading": "تجهيز مناسب لكل قناة",
+    "canonical": "http://localhost:3000/ar/features/publish-and-promote"
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "route": "/features/ai-assistance",
+    "file": "ar-1280-features-ai-assistance.png",
+    "overflow": false,
+    "title": "المساعدة الذكية | MaxPro / AqarPro",
+    "heading": "مساعدة في الإعداد. والقرار لك.",
+    "canonical": "http://localhost:3000/ar/features/ai-assistance"
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "route": "/features/leads-and-inbox",
+    "file": "ar-1280-features-leads-and-inbox.png",
+    "overflow": false,
+    "title": "العملاء وصندوق الوارد | MaxPro / AqarPro",
+    "heading": "كل استفسار في سياقه",
+    "canonical": "http://localhost:3000/ar/features/leads-and-inbox"
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "route": "/integrations",
+    "file": "ar-1280-integrations.png",
+    "overflow": false,
+    "title": "شرح التكاملات المخططة | MaxPro / AqarPro",
+    "heading": "لكل قناة\nدور واضح.",
+    "canonical": "http://localhost:3000/ar/integrations"
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "route": "/solutions/agencies",
+    "file": "ar-1280-solutions-agencies.png",
+    "overflow": false,
+    "title": "يوم مترابط لوكالتك | MaxPro / AqarPro",
+    "heading": "تنسيق أفضل.\nويوم عمل أوضح.",
+    "canonical": "http://localhost:3000/ar/solutions/agencies"
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "route": "/",
+    "file": "ar-1024-home.png",
+    "overflow": false,
+    "title": "عقار واحد. كل القنوات. والإدارة بين يديك. | MaxPro / AqarPro",
+    "heading": "عقار واحد.كل القنوات.والإدارة بين يديك.",
+    "canonical": "http://localhost:3000/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "route": "/solutions",
+    "file": "ar-1024-solutions.png",
+    "overflow": false,
+    "title": "المنصة العقارية المترابطة | MaxPro / AqarPro",
+    "heading": "العمل مترابط.\nوأدواتك كذلك.",
+    "canonical": "http://localhost:3000/ar/solutions"
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "route": "/pricing",
+    "file": "ar-1024-pricing.png",
+    "overflow": false,
+    "title": "باقات توضيحية وحدود واضحة | MaxPro / AqarPro",
+    "heading": "تناسب محفظتك.\nوتوضح الحدود.",
+    "canonical": "http://localhost:3000/ar/pricing"
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "route": "/about",
+    "file": "ar-1024-about.png",
+    "overflow": false,
+    "title": "عن المنتج وتوجهه | MaxPro / AqarPro",
+    "heading": "لكل ما وراء العقار\nمن عمل.",
+    "canonical": "http://localhost:3000/ar/about"
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "route": "/contact",
+    "file": "ar-1024-contact.png",
+    "overflow": false,
+    "title": "معاينة استفسار خيالي | MaxPro / AqarPro",
+    "heading": "ابدأ\nبسؤال أوضح.",
+    "canonical": "http://localhost:3000/ar/contact"
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "route": "/faq",
+    "file": "ar-1024-faq.png",
+    "overflow": false,
+    "title": "إجابات عن أسئلة المنصة | MaxPro / AqarPro",
+    "heading": "التفاصيل،\nبلا تخمين.",
+    "canonical": "http://localhost:3000/ar/faq"
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "route": "/resources",
+    "file": "ar-1024-resources.png",
+    "overflow": false,
+    "title": "ملاحظات عن العمل العقاري | MaxPro / AqarPro",
+    "heading": "قليل من التنظيم.\nوكثير من الوضوح.",
+    "canonical": "http://localhost:3000/ar/resources"
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "route": "/properties",
+    "file": "ar-1024-properties.png",
+    "overflow": false,
+    "title": "عرض عقارات نموذجية | MaxPro / AqarPro",
+    "heading": "اعثر على المكان المناسب لك.",
+    "canonical": "http://localhost:3000/ar/properties"
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "route": "/properties/AQ-10231",
+    "file": "ar-1024-properties-AQ-10231.png",
+    "overflow": false,
+    "title": "تفاصيل عقار نموذجي | MaxPro / AqarPro",
+    "heading": "شقة بإطلالة على المارينا",
+    "canonical": "http://localhost:3000/ar/properties/AQ-10231"
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "route": "/agencies",
+    "file": "ar-1024-agencies.png",
+    "overflow": false,
+    "title": "دليل وكالات خيالية | MaxPro / AqarPro",
+    "heading": "الفرق وراء العقارات.",
+    "canonical": "http://localhost:3000/ar/agencies"
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "route": "/agencies/pearl-gate-realty",
+    "file": "ar-1024-agencies-pearl-gate-realty.png",
+    "overflow": false,
+    "title": "ملف وكالة خيالية | MaxPro / AqarPro",
+    "heading": "بيرل غيت العقارية",
+    "canonical": "http://localhost:3000/ar/agencies/pearl-gate-realty"
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "route": "/privacy",
+    "file": "ar-1024-privacy.png",
+    "overflow": false,
+    "title": "مسودة إشعار الخصوصية | MaxPro / AqarPro",
+    "heading": "إشعار الخصوصية",
+    "canonical": "http://localhost:3000/ar/privacy"
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "route": "/terms",
+    "file": "ar-1024-terms.png",
+    "overflow": false,
+    "title": "مسودة شروط الاستخدام | MaxPro / AqarPro",
+    "heading": "شروط الاستخدام",
+    "canonical": "http://localhost:3000/ar/terms"
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "route": "/favorites",
+    "file": "ar-1024-favorites.png",
+    "overflow": false,
+    "title": "العقارات الخيالية المحفوظة | MaxPro / AqarPro",
+    "heading": "المفضلة",
+    "canonical": "http://localhost:3000/ar/favorites"
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "route": "/compare",
+    "file": "ar-1024-compare.png",
+    "overflow": false,
+    "title": "قارن العقارات النموذجية | MaxPro / AqarPro",
+    "heading": "مقارنة العقارات",
+    "canonical": "http://localhost:3000/ar/compare"
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "route": "/saved-searches",
+    "file": "ar-1024-saved-searches.png",
+    "overflow": false,
+    "title": "معاينة بحث محفوظ محلي | MaxPro / AqarPro",
+    "heading": "عمليات البحث المحفوظة",
+    "canonical": "http://localhost:3000/ar/saved-searches"
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "route": "/map",
+    "file": "ar-1024-map.png",
+    "overflow": false,
+    "title": "خريطة العقارات النموذجية | MaxPro / AqarPro",
+    "heading": "الاستكشاف على الخريطة",
+    "canonical": "http://localhost:3000/ar/map"
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "route": "/register",
+    "file": "ar-1024-register.png",
+    "overflow": false,
+    "title": "أنشئ وكالة تجريبية خيالية | MaxPro / AqarPro",
+    "heading": "تعرّف على مساحة عملك.",
+    "canonical": "http://localhost:3000/ar/register"
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "route": "/sign-in",
+    "file": "ar-1024-sign-in.png",
+    "overflow": false,
+    "title": "ادخل وكالة خيالية | MaxPro / AqarPro",
+    "heading": "مرحباً بعودتك.",
+    "canonical": "http://localhost:3000/ar/sign-in"
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "route": "/how-it-works",
+    "file": "ar-1024-how-it-works.png",
+    "overflow": false,
+    "title": "كيف يعمل مسار الوكالة | MaxPro / AqarPro",
+    "heading": "رافق عقاراً واحداً\nطوال يوم العمل.",
+    "canonical": "http://localhost:3000/ar/how-it-works"
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "route": "/features/property-management",
+    "file": "ar-1024-features-property-management.png",
+    "overflow": false,
+    "title": "إدارة العقارات | MaxPro / AqarPro",
+    "heading": "سجل عقاري موثوق",
+    "canonical": "http://localhost:3000/ar/features/property-management"
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "route": "/features/publish-and-promote",
+    "file": "ar-1024-features-publish-and-promote.png",
+    "overflow": false,
+    "title": "النشر والترويج | MaxPro / AqarPro",
+    "heading": "تجهيز مناسب لكل قناة",
+    "canonical": "http://localhost:3000/ar/features/publish-and-promote"
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "route": "/features/ai-assistance",
+    "file": "ar-1024-features-ai-assistance.png",
+    "overflow": false,
+    "title": "المساعدة الذكية | MaxPro / AqarPro",
+    "heading": "مساعدة في الإعداد. والقرار لك.",
+    "canonical": "http://localhost:3000/ar/features/ai-assistance"
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "route": "/features/leads-and-inbox",
+    "file": "ar-1024-features-leads-and-inbox.png",
+    "overflow": false,
+    "title": "العملاء وصندوق الوارد | MaxPro / AqarPro",
+    "heading": "كل استفسار في سياقه",
+    "canonical": "http://localhost:3000/ar/features/leads-and-inbox"
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "route": "/integrations",
+    "file": "ar-1024-integrations.png",
+    "overflow": false,
+    "title": "شرح التكاملات المخططة | MaxPro / AqarPro",
+    "heading": "لكل قناة\nدور واضح.",
+    "canonical": "http://localhost:3000/ar/integrations"
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "route": "/solutions/agencies",
+    "file": "ar-1024-solutions-agencies.png",
+    "overflow": false,
+    "title": "يوم مترابط لوكالتك | MaxPro / AqarPro",
+    "heading": "تنسيق أفضل.\nويوم عمل أوضح.",
+    "canonical": "http://localhost:3000/ar/solutions/agencies"
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "route": "/",
+    "file": "ar-768-home.png",
+    "overflow": false,
+    "title": "عقار واحد. كل القنوات. والإدارة بين يديك. | MaxPro / AqarPro",
+    "heading": "عقار واحد.كل القنوات.والإدارة بين يديك.",
+    "canonical": "http://localhost:3000/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "route": "/solutions",
+    "file": "ar-768-solutions.png",
+    "overflow": false,
+    "title": "المنصة العقارية المترابطة | MaxPro / AqarPro",
+    "heading": "العمل مترابط.\nوأدواتك كذلك.",
+    "canonical": "http://localhost:3000/ar/solutions"
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "route": "/pricing",
+    "file": "ar-768-pricing.png",
+    "overflow": false,
+    "title": "باقات توضيحية وحدود واضحة | MaxPro / AqarPro",
+    "heading": "تناسب محفظتك.\nوتوضح الحدود.",
+    "canonical": "http://localhost:3000/ar/pricing"
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "route": "/about",
+    "file": "ar-768-about.png",
+    "overflow": false,
+    "title": "عن المنتج وتوجهه | MaxPro / AqarPro",
+    "heading": "لكل ما وراء العقار\nمن عمل.",
+    "canonical": "http://localhost:3000/ar/about"
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "route": "/contact",
+    "file": "ar-768-contact.png",
+    "overflow": false,
+    "title": "معاينة استفسار خيالي | MaxPro / AqarPro",
+    "heading": "ابدأ\nبسؤال أوضح.",
+    "canonical": "http://localhost:3000/ar/contact"
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "route": "/faq",
+    "file": "ar-768-faq.png",
+    "overflow": false,
+    "title": "إجابات عن أسئلة المنصة | MaxPro / AqarPro",
+    "heading": "التفاصيل،\nبلا تخمين.",
+    "canonical": "http://localhost:3000/ar/faq"
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "route": "/resources",
+    "file": "ar-768-resources.png",
+    "overflow": false,
+    "title": "ملاحظات عن العمل العقاري | MaxPro / AqarPro",
+    "heading": "قليل من التنظيم.\nوكثير من الوضوح.",
+    "canonical": "http://localhost:3000/ar/resources"
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "route": "/properties",
+    "file": "ar-768-properties.png",
+    "overflow": false,
+    "title": "عرض عقارات نموذجية | MaxPro / AqarPro",
+    "heading": "اعثر على المكان المناسب لك.",
+    "canonical": "http://localhost:3000/ar/properties"
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "route": "/properties/AQ-10231",
+    "file": "ar-768-properties-AQ-10231.png",
+    "overflow": false,
+    "title": "تفاصيل عقار نموذجي | MaxPro / AqarPro",
+    "heading": "شقة بإطلالة على المارينا",
+    "canonical": "http://localhost:3000/ar/properties/AQ-10231"
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "route": "/agencies",
+    "file": "ar-768-agencies.png",
+    "overflow": false,
+    "title": "دليل وكالات خيالية | MaxPro / AqarPro",
+    "heading": "الفرق وراء العقارات.",
+    "canonical": "http://localhost:3000/ar/agencies"
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "route": "/agencies/pearl-gate-realty",
+    "file": "ar-768-agencies-pearl-gate-realty.png",
+    "overflow": false,
+    "title": "ملف وكالة خيالية | MaxPro / AqarPro",
+    "heading": "بيرل غيت العقارية",
+    "canonical": "http://localhost:3000/ar/agencies/pearl-gate-realty"
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "route": "/privacy",
+    "file": "ar-768-privacy.png",
+    "overflow": false,
+    "title": "مسودة إشعار الخصوصية | MaxPro / AqarPro",
+    "heading": "إشعار الخصوصية",
+    "canonical": "http://localhost:3000/ar/privacy"
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "route": "/terms",
+    "file": "ar-768-terms.png",
+    "overflow": false,
+    "title": "مسودة شروط الاستخدام | MaxPro / AqarPro",
+    "heading": "شروط الاستخدام",
+    "canonical": "http://localhost:3000/ar/terms"
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "route": "/favorites",
+    "file": "ar-768-favorites.png",
+    "overflow": false,
+    "title": "العقارات الخيالية المحفوظة | MaxPro / AqarPro",
+    "heading": "المفضلة",
+    "canonical": "http://localhost:3000/ar/favorites"
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "route": "/compare",
+    "file": "ar-768-compare.png",
+    "overflow": false,
+    "title": "قارن العقارات النموذجية | MaxPro / AqarPro",
+    "heading": "مقارنة العقارات",
+    "canonical": "http://localhost:3000/ar/compare"
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "route": "/saved-searches",
+    "file": "ar-768-saved-searches.png",
+    "overflow": false,
+    "title": "معاينة بحث محفوظ محلي | MaxPro / AqarPro",
+    "heading": "عمليات البحث المحفوظة",
+    "canonical": "http://localhost:3000/ar/saved-searches"
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "route": "/map",
+    "file": "ar-768-map.png",
+    "overflow": false,
+    "title": "خريطة العقارات النموذجية | MaxPro / AqarPro",
+    "heading": "الاستكشاف على الخريطة",
+    "canonical": "http://localhost:3000/ar/map"
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "route": "/register",
+    "file": "ar-768-register.png",
+    "overflow": false,
+    "title": "أنشئ وكالة تجريبية خيالية | MaxPro / AqarPro",
+    "heading": "تعرّف على مساحة عملك.",
+    "canonical": "http://localhost:3000/ar/register"
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "route": "/sign-in",
+    "file": "ar-768-sign-in.png",
+    "overflow": false,
+    "title": "ادخل وكالة خيالية | MaxPro / AqarPro",
+    "heading": "مرحباً بعودتك.",
+    "canonical": "http://localhost:3000/ar/sign-in"
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "route": "/how-it-works",
+    "file": "ar-768-how-it-works.png",
+    "overflow": false,
+    "title": "كيف يعمل مسار الوكالة | MaxPro / AqarPro",
+    "heading": "رافق عقاراً واحداً\nطوال يوم العمل.",
+    "canonical": "http://localhost:3000/ar/how-it-works"
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "route": "/features/property-management",
+    "file": "ar-768-features-property-management.png",
+    "overflow": false,
+    "title": "إدارة العقارات | MaxPro / AqarPro",
+    "heading": "سجل عقاري موثوق",
+    "canonical": "http://localhost:3000/ar/features/property-management"
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "route": "/features/publish-and-promote",
+    "file": "ar-768-features-publish-and-promote.png",
+    "overflow": false,
+    "title": "النشر والترويج | MaxPro / AqarPro",
+    "heading": "تجهيز مناسب لكل قناة",
+    "canonical": "http://localhost:3000/ar/features/publish-and-promote"
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "route": "/features/ai-assistance",
+    "file": "ar-768-features-ai-assistance.png",
+    "overflow": false,
+    "title": "المساعدة الذكية | MaxPro / AqarPro",
+    "heading": "مساعدة في الإعداد. والقرار لك.",
+    "canonical": "http://localhost:3000/ar/features/ai-assistance"
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "route": "/features/leads-and-inbox",
+    "file": "ar-768-features-leads-and-inbox.png",
+    "overflow": false,
+    "title": "العملاء وصندوق الوارد | MaxPro / AqarPro",
+    "heading": "كل استفسار في سياقه",
+    "canonical": "http://localhost:3000/ar/features/leads-and-inbox"
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "route": "/integrations",
+    "file": "ar-768-integrations.png",
+    "overflow": false,
+    "title": "شرح التكاملات المخططة | MaxPro / AqarPro",
+    "heading": "لكل قناة\nدور واضح.",
+    "canonical": "http://localhost:3000/ar/integrations"
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "route": "/solutions/agencies",
+    "file": "ar-768-solutions-agencies.png",
+    "overflow": false,
+    "title": "يوم مترابط لوكالتك | MaxPro / AqarPro",
+    "heading": "تنسيق أفضل.\nويوم عمل أوضح.",
+    "canonical": "http://localhost:3000/ar/solutions/agencies"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/",
+    "file": "ar-375-home.png",
+    "overflow": false,
+    "title": "عقار واحد. كل القنوات. والإدارة بين يديك. | MaxPro / AqarPro",
+    "heading": "عقار واحد.كل القنوات.والإدارة بين يديك.",
+    "canonical": "http://localhost:3000/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/solutions",
+    "file": "ar-375-solutions.png",
+    "overflow": false,
+    "title": "المنصة العقارية المترابطة | MaxPro / AqarPro",
+    "heading": "العمل مترابط.\nوأدواتك كذلك.",
+    "canonical": "http://localhost:3000/ar/solutions"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/pricing",
+    "file": "ar-375-pricing.png",
+    "overflow": false,
+    "title": "باقات توضيحية وحدود واضحة | MaxPro / AqarPro",
+    "heading": "تناسب محفظتك.\nوتوضح الحدود.",
+    "canonical": "http://localhost:3000/ar/pricing"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/about",
+    "file": "ar-375-about.png",
+    "overflow": false,
+    "title": "عن المنتج وتوجهه | MaxPro / AqarPro",
+    "heading": "لكل ما وراء العقار\nمن عمل.",
+    "canonical": "http://localhost:3000/ar/about"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/contact",
+    "file": "ar-375-contact.png",
+    "overflow": false,
+    "title": "معاينة استفسار خيالي | MaxPro / AqarPro",
+    "heading": "ابدأ\nبسؤال أوضح.",
+    "canonical": "http://localhost:3000/ar/contact"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/faq",
+    "file": "ar-375-faq.png",
+    "overflow": false,
+    "title": "إجابات عن أسئلة المنصة | MaxPro / AqarPro",
+    "heading": "التفاصيل،\nبلا تخمين.",
+    "canonical": "http://localhost:3000/ar/faq"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/resources",
+    "file": "ar-375-resources.png",
+    "overflow": false,
+    "title": "ملاحظات عن العمل العقاري | MaxPro / AqarPro",
+    "heading": "قليل من التنظيم.\nوكثير من الوضوح.",
+    "canonical": "http://localhost:3000/ar/resources"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/properties",
+    "file": "ar-375-properties.png",
+    "overflow": false,
+    "title": "عرض عقارات نموذجية | MaxPro / AqarPro",
+    "heading": "اعثر على المكان المناسب لك.",
+    "canonical": "http://localhost:3000/ar/properties"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/properties/AQ-10231",
+    "file": "ar-375-properties-AQ-10231.png",
+    "overflow": false,
+    "title": "تفاصيل عقار نموذجي | MaxPro / AqarPro",
+    "heading": "شقة بإطلالة على المارينا",
+    "canonical": "http://localhost:3000/ar/properties/AQ-10231"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/agencies",
+    "file": "ar-375-agencies.png",
+    "overflow": false,
+    "title": "دليل وكالات خيالية | MaxPro / AqarPro",
+    "heading": "الفرق وراء العقارات.",
+    "canonical": "http://localhost:3000/ar/agencies"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/agencies/pearl-gate-realty",
+    "file": "ar-375-agencies-pearl-gate-realty.png",
+    "overflow": false,
+    "title": "ملف وكالة خيالية | MaxPro / AqarPro",
+    "heading": "بيرل غيت العقارية",
+    "canonical": "http://localhost:3000/ar/agencies/pearl-gate-realty"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/privacy",
+    "file": "ar-375-privacy.png",
+    "overflow": false,
+    "title": "مسودة إشعار الخصوصية | MaxPro / AqarPro",
+    "heading": "إشعار الخصوصية",
+    "canonical": "http://localhost:3000/ar/privacy"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/terms",
+    "file": "ar-375-terms.png",
+    "overflow": false,
+    "title": "مسودة شروط الاستخدام | MaxPro / AqarPro",
+    "heading": "شروط الاستخدام",
+    "canonical": "http://localhost:3000/ar/terms"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/favorites",
+    "file": "ar-375-favorites.png",
+    "overflow": false,
+    "title": "العقارات الخيالية المحفوظة | MaxPro / AqarPro",
+    "heading": "المفضلة",
+    "canonical": "http://localhost:3000/ar/favorites"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/compare",
+    "file": "ar-375-compare.png",
+    "overflow": false,
+    "title": "قارن العقارات النموذجية | MaxPro / AqarPro",
+    "heading": "مقارنة العقارات",
+    "canonical": "http://localhost:3000/ar/compare"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/saved-searches",
+    "file": "ar-375-saved-searches.png",
+    "overflow": false,
+    "title": "معاينة بحث محفوظ محلي | MaxPro / AqarPro",
+    "heading": "عمليات البحث المحفوظة",
+    "canonical": "http://localhost:3000/ar/saved-searches"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/map",
+    "file": "ar-375-map.png",
+    "overflow": false,
+    "title": "خريطة العقارات النموذجية | MaxPro / AqarPro",
+    "heading": "الاستكشاف على الخريطة",
+    "canonical": "http://localhost:3000/ar/map"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/register",
+    "file": "ar-375-register.png",
+    "overflow": false,
+    "title": "أنشئ وكالة تجريبية خيالية | MaxPro / AqarPro",
+    "heading": "تعرّف على مساحة عملك.",
+    "canonical": "http://localhost:3000/ar/register"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/sign-in",
+    "file": "ar-375-sign-in.png",
+    "overflow": false,
+    "title": "ادخل وكالة خيالية | MaxPro / AqarPro",
+    "heading": "مرحباً بعودتك.",
+    "canonical": "http://localhost:3000/ar/sign-in"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/how-it-works",
+    "file": "ar-375-how-it-works.png",
+    "overflow": false,
+    "title": "كيف يعمل مسار الوكالة | MaxPro / AqarPro",
+    "heading": "رافق عقاراً واحداً\nطوال يوم العمل.",
+    "canonical": "http://localhost:3000/ar/how-it-works"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/features/property-management",
+    "file": "ar-375-features-property-management.png",
+    "overflow": false,
+    "title": "إدارة العقارات | MaxPro / AqarPro",
+    "heading": "سجل عقاري موثوق",
+    "canonical": "http://localhost:3000/ar/features/property-management"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/features/publish-and-promote",
+    "file": "ar-375-features-publish-and-promote.png",
+    "overflow": false,
+    "title": "النشر والترويج | MaxPro / AqarPro",
+    "heading": "تجهيز مناسب لكل قناة",
+    "canonical": "http://localhost:3000/ar/features/publish-and-promote"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/features/ai-assistance",
+    "file": "ar-375-features-ai-assistance.png",
+    "overflow": false,
+    "title": "المساعدة الذكية | MaxPro / AqarPro",
+    "heading": "مساعدة في الإعداد. والقرار لك.",
+    "canonical": "http://localhost:3000/ar/features/ai-assistance"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/features/leads-and-inbox",
+    "file": "ar-375-features-leads-and-inbox.png",
+    "overflow": false,
+    "title": "العملاء وصندوق الوارد | MaxPro / AqarPro",
+    "heading": "كل استفسار في سياقه",
+    "canonical": "http://localhost:3000/ar/features/leads-and-inbox"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/integrations",
+    "file": "ar-375-integrations.png",
+    "overflow": false,
+    "title": "شرح التكاملات المخططة | MaxPro / AqarPro",
+    "heading": "لكل قناة\nدور واضح.",
+    "canonical": "http://localhost:3000/ar/integrations"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/solutions/agencies",
+    "file": "ar-375-solutions-agencies.png",
+    "overflow": false,
+    "title": "يوم مترابط لوكالتك | MaxPro / AqarPro",
+    "heading": "تنسيق أفضل.\nويوم عمل أوضح.",
+    "canonical": "http://localhost:3000/ar/solutions/agencies"
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "route": "/",
+    "file": "ar-320-home.png",
+    "overflow": false,
+    "title": "عقار واحد. كل القنوات. والإدارة بين يديك. | MaxPro / AqarPro",
+    "heading": "عقار واحد.كل القنوات.والإدارة بين يديك.",
+    "canonical": "http://localhost:3000/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "route": "/solutions",
+    "file": "ar-320-solutions.png",
+    "overflow": false,
+    "title": "المنصة العقارية المترابطة | MaxPro / AqarPro",
+    "heading": "العمل مترابط.\nوأدواتك كذلك.",
+    "canonical": "http://localhost:3000/ar/solutions"
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "route": "/pricing",
+    "file": "ar-320-pricing.png",
+    "overflow": false,
+    "title": "باقات توضيحية وحدود واضحة | MaxPro / AqarPro",
+    "heading": "تناسب محفظتك.\nوتوضح الحدود.",
+    "canonical": "http://localhost:3000/ar/pricing"
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "route": "/about",
+    "file": "ar-320-about.png",
+    "overflow": false,
+    "title": "عن المنتج وتوجهه | MaxPro / AqarPro",
+    "heading": "لكل ما وراء العقار\nمن عمل.",
+    "canonical": "http://localhost:3000/ar/about"
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "route": "/contact",
+    "file": "ar-320-contact.png",
+    "overflow": false,
+    "title": "معاينة استفسار خيالي | MaxPro / AqarPro",
+    "heading": "ابدأ\nبسؤال أوضح.",
+    "canonical": "http://localhost:3000/ar/contact"
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "route": "/faq",
+    "file": "ar-320-faq.png",
+    "overflow": false,
+    "title": "إجابات عن أسئلة المنصة | MaxPro / AqarPro",
+    "heading": "التفاصيل،\nبلا تخمين.",
+    "canonical": "http://localhost:3000/ar/faq"
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "route": "/resources",
+    "file": "ar-320-resources.png",
+    "overflow": false,
+    "title": "ملاحظات عن العمل العقاري | MaxPro / AqarPro",
+    "heading": "قليل من التنظيم.\nوكثير من الوضوح.",
+    "canonical": "http://localhost:3000/ar/resources"
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "route": "/properties",
+    "file": "ar-320-properties.png",
+    "overflow": false,
+    "title": "عرض عقارات نموذجية | MaxPro / AqarPro",
+    "heading": "اعثر على المكان المناسب لك.",
+    "canonical": "http://localhost:3000/ar/properties"
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "route": "/properties/AQ-10231",
+    "file": "ar-320-properties-AQ-10231.png",
+    "overflow": false,
+    "title": "تفاصيل عقار نموذجي | MaxPro / AqarPro",
+    "heading": "شقة بإطلالة على المارينا",
+    "canonical": "http://localhost:3000/ar/properties/AQ-10231"
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "route": "/agencies",
+    "file": "ar-320-agencies.png",
+    "overflow": false,
+    "title": "دليل وكالات خيالية | MaxPro / AqarPro",
+    "heading": "الفرق وراء العقارات.",
+    "canonical": "http://localhost:3000/ar/agencies"
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "route": "/agencies/pearl-gate-realty",
+    "file": "ar-320-agencies-pearl-gate-realty.png",
+    "overflow": false,
+    "title": "ملف وكالة خيالية | MaxPro / AqarPro",
+    "heading": "بيرل غيت العقارية",
+    "canonical": "http://localhost:3000/ar/agencies/pearl-gate-realty"
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "route": "/privacy",
+    "file": "ar-320-privacy.png",
+    "overflow": false,
+    "title": "مسودة إشعار الخصوصية | MaxPro / AqarPro",
+    "heading": "إشعار الخصوصية",
+    "canonical": "http://localhost:3000/ar/privacy"
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "route": "/terms",
+    "file": "ar-320-terms.png",
+    "overflow": false,
+    "title": "مسودة شروط الاستخدام | MaxPro / AqarPro",
+    "heading": "شروط الاستخدام",
+    "canonical": "http://localhost:3000/ar/terms"
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "route": "/favorites",
+    "file": "ar-320-favorites.png",
+    "overflow": false,
+    "title": "العقارات الخيالية المحفوظة | MaxPro / AqarPro",
+    "heading": "المفضلة",
+    "canonical": "http://localhost:3000/ar/favorites"
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "route": "/compare",
+    "file": "ar-320-compare.png",
+    "overflow": false,
+    "title": "قارن العقارات النموذجية | MaxPro / AqarPro",
+    "heading": "مقارنة العقارات",
+    "canonical": "http://localhost:3000/ar/compare"
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "route": "/saved-searches",
+    "file": "ar-320-saved-searches.png",
+    "overflow": false,
+    "title": "معاينة بحث محفوظ محلي | MaxPro / AqarPro",
+    "heading": "عمليات البحث المحفوظة",
+    "canonical": "http://localhost:3000/ar/saved-searches"
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "route": "/map",
+    "file": "ar-320-map.png",
+    "overflow": false,
+    "title": "خريطة العقارات النموذجية | MaxPro / AqarPro",
+    "heading": "الاستكشاف على الخريطة",
+    "canonical": "http://localhost:3000/ar/map"
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "route": "/register",
+    "file": "ar-320-register.png",
+    "overflow": false,
+    "title": "أنشئ وكالة تجريبية خيالية | MaxPro / AqarPro",
+    "heading": "تعرّف على مساحة عملك.",
+    "canonical": "http://localhost:3000/ar/register"
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "route": "/sign-in",
+    "file": "ar-320-sign-in.png",
+    "overflow": false,
+    "title": "ادخل وكالة خيالية | MaxPro / AqarPro",
+    "heading": "مرحباً بعودتك.",
+    "canonical": "http://localhost:3000/ar/sign-in"
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "route": "/how-it-works",
+    "file": "ar-320-how-it-works.png",
+    "overflow": false,
+    "title": "كيف يعمل مسار الوكالة | MaxPro / AqarPro",
+    "heading": "رافق عقاراً واحداً\nطوال يوم العمل.",
+    "canonical": "http://localhost:3000/ar/how-it-works"
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "route": "/features/property-management",
+    "file": "ar-320-features-property-management.png",
+    "overflow": false,
+    "title": "إدارة العقارات | MaxPro / AqarPro",
+    "heading": "سجل عقاري موثوق",
+    "canonical": "http://localhost:3000/ar/features/property-management"
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "route": "/features/publish-and-promote",
+    "file": "ar-320-features-publish-and-promote.png",
+    "overflow": false,
+    "title": "النشر والترويج | MaxPro / AqarPro",
+    "heading": "تجهيز مناسب لكل قناة",
+    "canonical": "http://localhost:3000/ar/features/publish-and-promote"
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "route": "/features/ai-assistance",
+    "file": "ar-320-features-ai-assistance.png",
+    "overflow": false,
+    "title": "المساعدة الذكية | MaxPro / AqarPro",
+    "heading": "مساعدة في الإعداد. والقرار لك.",
+    "canonical": "http://localhost:3000/ar/features/ai-assistance"
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "route": "/features/leads-and-inbox",
+    "file": "ar-320-features-leads-and-inbox.png",
+    "overflow": false,
+    "title": "العملاء وصندوق الوارد | MaxPro / AqarPro",
+    "heading": "كل استفسار في سياقه",
+    "canonical": "http://localhost:3000/ar/features/leads-and-inbox"
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "route": "/integrations",
+    "file": "ar-320-integrations.png",
+    "overflow": false,
+    "title": "شرح التكاملات المخططة | MaxPro / AqarPro",
+    "heading": "لكل قناة\nدور واضح.",
+    "canonical": "http://localhost:3000/ar/integrations"
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "route": "/solutions/agencies",
+    "file": "ar-320-solutions-agencies.png",
+    "overflow": false,
+    "title": "يوم مترابط لوكالتك | MaxPro / AqarPro",
+    "heading": "تنسيق أفضل.\nويوم عمل أوضح.",
+    "canonical": "http://localhost:3000/ar/solutions/agencies"
+  }
+]

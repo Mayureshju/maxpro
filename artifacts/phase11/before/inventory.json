@@ -1,0 +1,762 @@
+[
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/",
+    "file": "en-1440-home.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "One listing. Every channel.",
+    "canonical": "/en"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/solutions",
+    "file": "en-1440-solutions.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "Built around the work. Connected by one record.",
+    "canonical": "/en"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/pricing",
+    "file": "en-1440-pricing.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "One operating system, sized for your business.",
+    "canonical": "/en"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/about",
+    "file": "en-1440-about.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "Technology that respects the craft of property.",
+    "canonical": "/en"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/contact",
+    "file": "en-1440-contact.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "A conversation starts here.",
+    "canonical": "/en"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/faq",
+    "file": "en-1440-faq.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "The details, explained.",
+    "canonical": "/en"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/resources",
+    "file": "en-1440-resources.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "Notes on a more connected market.",
+    "canonical": "/en"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/properties",
+    "file": "en-1440-properties.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "Find somewhere that feels right.",
+    "canonical": "/en"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/properties/AQ-10231",
+    "file": "en-1440-properties-AQ-10231.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "Marina-facing apartment",
+    "canonical": "/en"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/agencies",
+    "file": "en-1440-agencies.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "The teams behind the properties.",
+    "canonical": "/en"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/agencies/pearl-gate-realty",
+    "file": "en-1440-agencies-pearl-gate-realty.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "Pearl Gate Realty",
+    "canonical": "/en"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/privacy",
+    "file": "en-1440-privacy.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "Privacy notice",
+    "canonical": "/en"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/terms",
+    "file": "en-1440-terms.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "Terms of use",
+    "canonical": "/en"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/favorites",
+    "file": "en-1440-favorites.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "Your favourites",
+    "canonical": "/en"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/compare",
+    "file": "en-1440-compare.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "Compare properties",
+    "canonical": "/en"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/saved-searches",
+    "file": "en-1440-saved-searches.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "Saved searches",
+    "canonical": "/en"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/map",
+    "file": "en-1440-map.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "Explore on a map",
+    "canonical": "/en"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/register",
+    "file": "en-1440-register.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "Meet your new workspace.",
+    "canonical": "/en"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/sign-in",
+    "file": "en-1440-sign-in.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "Welcome back.",
+    "canonical": "/en"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/",
+    "file": "en-375-home.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "One listing. Every channel.",
+    "canonical": "/en"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/solutions",
+    "file": "en-375-solutions.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "Built around the work. Connected by one record.",
+    "canonical": "/en"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/pricing",
+    "file": "en-375-pricing.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "One operating system, sized for your business.",
+    "canonical": "/en"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/about",
+    "file": "en-375-about.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "Technology that respects the craft of property.",
+    "canonical": "/en"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/contact",
+    "file": "en-375-contact.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "A conversation starts here.",
+    "canonical": "/en"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/faq",
+    "file": "en-375-faq.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "The details, explained.",
+    "canonical": "/en"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/resources",
+    "file": "en-375-resources.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "Notes on a more connected market.",
+    "canonical": "/en"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/properties",
+    "file": "en-375-properties.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "Find somewhere that feels right.",
+    "canonical": "/en"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/properties/AQ-10231",
+    "file": "en-375-properties-AQ-10231.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "Marina-facing apartment",
+    "canonical": "/en"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/agencies",
+    "file": "en-375-agencies.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "The teams behind the properties.",
+    "canonical": "/en"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/agencies/pearl-gate-realty",
+    "file": "en-375-agencies-pearl-gate-realty.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "Pearl Gate Realty",
+    "canonical": "/en"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/privacy",
+    "file": "en-375-privacy.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "Privacy notice",
+    "canonical": "/en"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/terms",
+    "file": "en-375-terms.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "Terms of use",
+    "canonical": "/en"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/favorites",
+    "file": "en-375-favorites.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "Your favourites",
+    "canonical": "/en"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/compare",
+    "file": "en-375-compare.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "Compare properties",
+    "canonical": "/en"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/saved-searches",
+    "file": "en-375-saved-searches.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "Saved searches",
+    "canonical": "/en"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/map",
+    "file": "en-375-map.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "Explore on a map",
+    "canonical": "/en"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/register",
+    "file": "en-375-register.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "Meet your new workspace.",
+    "canonical": "/en"
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/sign-in",
+    "file": "en-375-sign-in.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "Welcome back.",
+    "canonical": "/en"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/",
+    "file": "ar-1440-home.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "العقار أبسط، عندما تتصل كل الخطوات.",
+    "canonical": "/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/solutions",
+    "file": "ar-1440-solutions.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "مصممة للعمل. يربطها سجل واحد.",
+    "canonical": "/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/pricing",
+    "file": "ar-1440-pricing.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "باقات حسب حجم نشاطك العقاري",
+    "canonical": "/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/about",
+    "file": "ar-1440-about.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "تقنية تحترم مهنة العقارات.",
+    "canonical": "/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/contact",
+    "file": "ar-1440-contact.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "تبدأ المحادثة هنا.",
+    "canonical": "/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/faq",
+    "file": "ar-1440-faq.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "تفاصيل واضحة.",
+    "canonical": "/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/resources",
+    "file": "ar-1440-resources.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "رؤى لسوق أكثر ترابطاً.",
+    "canonical": "/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/properties",
+    "file": "ar-1440-properties.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "اعثر على المكان المناسب لك.",
+    "canonical": "/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/properties/AQ-10231",
+    "file": "ar-1440-properties-AQ-10231.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "شقة بإطلالة على المارينا",
+    "canonical": "/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/agencies",
+    "file": "ar-1440-agencies.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "الفرق وراء العقارات.",
+    "canonical": "/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/agencies/pearl-gate-realty",
+    "file": "ar-1440-agencies-pearl-gate-realty.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "بيرل غيت العقارية",
+    "canonical": "/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/privacy",
+    "file": "ar-1440-privacy.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "إشعار الخصوصية",
+    "canonical": "/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/terms",
+    "file": "ar-1440-terms.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "شروط الاستخدام",
+    "canonical": "/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/favorites",
+    "file": "ar-1440-favorites.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "المفضلة",
+    "canonical": "/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/compare",
+    "file": "ar-1440-compare.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "مقارنة العقارات",
+    "canonical": "/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/saved-searches",
+    "file": "ar-1440-saved-searches.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "عمليات البحث المحفوظة",
+    "canonical": "/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/map",
+    "file": "ar-1440-map.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "الاستكشاف على الخريطة",
+    "canonical": "/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/register",
+    "file": "ar-1440-register.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "تعرّف على مساحة عملك.",
+    "canonical": "/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/sign-in",
+    "file": "ar-1440-sign-in.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "مرحباً بعودتك.",
+    "canonical": "/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/",
+    "file": "ar-375-home.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "العقار أبسط، عندما تتصل كل الخطوات.",
+    "canonical": "/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/solutions",
+    "file": "ar-375-solutions.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "مصممة للعمل. يربطها سجل واحد.",
+    "canonical": "/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/pricing",
+    "file": "ar-375-pricing.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "باقات حسب حجم نشاطك العقاري",
+    "canonical": "/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/about",
+    "file": "ar-375-about.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "تقنية تحترم مهنة العقارات.",
+    "canonical": "/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/contact",
+    "file": "ar-375-contact.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "تبدأ المحادثة هنا.",
+    "canonical": "/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/faq",
+    "file": "ar-375-faq.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "تفاصيل واضحة.",
+    "canonical": "/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/resources",
+    "file": "ar-375-resources.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "رؤى لسوق أكثر ترابطاً.",
+    "canonical": "/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/properties",
+    "file": "ar-375-properties.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "اعثر على المكان المناسب لك.",
+    "canonical": "/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/properties/AQ-10231",
+    "file": "ar-375-properties-AQ-10231.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "شقة بإطلالة على المارينا",
+    "canonical": "/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/agencies",
+    "file": "ar-375-agencies.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "الفرق وراء العقارات.",
+    "canonical": "/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/agencies/pearl-gate-realty",
+    "file": "ar-375-agencies-pearl-gate-realty.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "بيرل غيت العقارية",
+    "canonical": "/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/privacy",
+    "file": "ar-375-privacy.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "إشعار الخصوصية",
+    "canonical": "/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/terms",
+    "file": "ar-375-terms.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "شروط الاستخدام",
+    "canonical": "/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/favorites",
+    "file": "ar-375-favorites.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "المفضلة",
+    "canonical": "/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/compare",
+    "file": "ar-375-compare.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "مقارنة العقارات",
+    "canonical": "/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/saved-searches",
+    "file": "ar-375-saved-searches.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "عمليات البحث المحفوظة",
+    "canonical": "/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/map",
+    "file": "ar-375-map.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "الاستكشاف على الخريطة",
+    "canonical": "/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/register",
+    "file": "ar-375-register.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "تعرّف على مساحة عملك.",
+    "canonical": "/ar"
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/sign-in",
+    "file": "ar-375-sign-in.png",
+    "overflow": false,
+    "title": "MaxPro — One property record. Every portal.",
+    "heading": "مرحباً بعودتك.",
+    "canonical": "/ar"
+  }
+]

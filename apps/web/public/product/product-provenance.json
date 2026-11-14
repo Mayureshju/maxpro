@@ -1,0 +1,206 @@
+{
+  "source": "Actual running Next.js production workspace; fictional default demo records",
+  "baseline": "a22d192a5417bea79a532bb2f1caf4f4d75c5ad4",
+  "screens": [
+    {
+      "locale": "en",
+      "name": "dashboard",
+      "route": "/workspace",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "en-dashboard.webp"
+    },
+    {
+      "locale": "en",
+      "name": "inventory",
+      "route": "/workspace/inventory",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "en-inventory.webp"
+    },
+    {
+      "locale": "en",
+      "name": "editor",
+      "route": "/workspace/inventory/AQ-10233/edit",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "en-editor.webp"
+    },
+    {
+      "locale": "en",
+      "name": "media",
+      "route": "/workspace/inventory/AQ-10233/media",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "en-media.webp"
+    },
+    {
+      "locale": "en",
+      "name": "publish",
+      "route": "/workspace/publish?property=AQ-10233",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "en-publish.webp"
+    },
+    {
+      "locale": "en",
+      "name": "leads",
+      "route": "/workspace/leads",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "en-leads.webp"
+    },
+    {
+      "locale": "en",
+      "name": "inbox",
+      "route": "/workspace/inbox",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "en-inbox.webp"
+    },
+    {
+      "locale": "en",
+      "name": "campaign",
+      "route": "/workspace/publish?property=AQ-10233&goal=advertising",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "en-campaign.webp"
+    },
+    {
+      "locale": "en",
+      "name": "review",
+      "route": "/workspace/publish?property=AQ-10233&goal=portals",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "en-review.webp"
+    },
+    {
+      "locale": "en",
+      "name": "assistance",
+      "route": "/workspace/inventory/AQ-10233/edit?assist=1",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "en-assistance.webp"
+    },
+    {
+      "locale": "ar",
+      "name": "dashboard",
+      "route": "/workspace",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "ar-dashboard.webp"
+    },
+    {
+      "locale": "ar",
+      "name": "inventory",
+      "route": "/workspace/inventory",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "ar-inventory.webp"
+    },
+    {
+      "locale": "ar",
+      "name": "editor",
+      "route": "/workspace/inventory/AQ-10233/edit",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "ar-editor.webp"
+    },
+    {
+      "locale": "ar",
+      "name": "media",
+      "route": "/workspace/inventory/AQ-10233/media",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "ar-media.webp"
+    },
+    {
+      "locale": "ar",
+      "name": "publish",
+      "route": "/workspace/publish?property=AQ-10233",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "ar-publish.webp"
+    },
+    {
+      "locale": "ar",
+      "name": "leads",
+      "route": "/workspace/leads",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "ar-leads.webp"
+    },
+    {
+      "locale": "ar",
+      "name": "inbox",
+      "route": "/workspace/inbox",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "ar-inbox.webp"
+    },
+    {
+      "locale": "ar",
+      "name": "campaign",
+      "route": "/workspace/publish?property=AQ-10233&goal=advertising",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "ar-campaign.webp"
+    },
+    {
+      "locale": "ar",
+      "name": "review",
+      "route": "/workspace/publish?property=AQ-10233&goal=portals",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "ar-review.webp"
+    },
+    {
+      "locale": "ar",
+      "name": "assistance",
+      "route": "/workspace/inventory/AQ-10233/edit?assist=1",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "ar-assistance.webp"
+    }
+  ]
+}
