@@ -1,0 +1,278 @@
+{
+  "removed": [
+    {
+      "selector": ".mk-hero-product",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-hero-product-aside",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-hero-product-aside h2",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-hero-product-aside p",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-hero-product-aside ol",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-hero-product-aside li",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-hero-product-aside li span",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-hero-product-aside>.mk-fine",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-hero-product .mk-shot",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-value-strip",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-value-strip>.container",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-value-strip span:first-child",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-property-story",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-property-story h2",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-property-story h2 em",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-property-story-intro p",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-property-story-evidence>img",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-fact-ledger",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-fact-ledger>div",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-fact-ledger span",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-fact-ledger strong",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-assistance-section",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-channel-columns",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-channel-columns article",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-channel-columns h3",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-channel-columns p",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-channel-names",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-channel-columns small",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-context-chain",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-context-chain>span",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-context-chain b",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-context-chain svg",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ":lang(ar) .mk-hero-product-aside h2",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-hero-product",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-hero-product",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-hero-product-aside",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-hero-product-aside h2",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-hero-product-aside ol",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-hero-product-aside li",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-hero-product-aside p",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-property-story,.mk-agency-home,.mk-about-editorial,.mk-contact-layout",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-hero-product",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-hero-product-aside",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-value-strip>.container",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-property-story",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-property-story h2",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-property-story-intro p",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-fact-ledger>div",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-fact-ledger strong",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-channel-columns",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-channel-columns h3",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-value-strip>.container",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-value-strip span:first-child",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-property-story",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-property-story h2",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-property-story-intro p",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-fact-ledger>div",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-fact-ledger strong",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-channel-columns",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-channel-columns article",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-channel-columns h3",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-channel-names",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-context-chain",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-context-chain>span",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-context-chain svg",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-context-chain>span:nth-child(2)>svg",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-hero-product-aside :is(.mk-label,p,.mk-fine),.mk-hero-product-aside li span,.mk-tabs button span,.mk-plan-price small",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    },
+    {
+      "selector": ".mk-hero-top,.mk-hero-product",
+      "reason": "No remaining marketing component consumer; homepage detail moved to dedicated features"
+    }
+  ],
+  "shadowedDeclarations": 38,
+  "scope": "Public marketing stylesheet only; no operational CSS or domain code"
+}

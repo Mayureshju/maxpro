@@ -1,0 +1,277 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test tests/e2e/website-polish.spec.ts tests/e2e/marketing.spec.ts --timeout=60000 --trace=off
+
+
+Running 64 tests using 4 workers
+
+(node:64823) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:64821) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:64824) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:64822) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/e2e/website-polish.spec.ts:8:2 › polish en: responsive screenshot modes, enlargement and keyboard (2.3s)
+  ✓   5 [chromium] › tests/e2e/website-polish.spec.ts:24:2 › polish en: buyer navigation, current section and fictional entry (3.7s)
+  ✓   3 [mobile-chromium] › tests/e2e/marketing.spec.ts:8:2 › marketing en: unique routes, localized metadata and public navigation (6.0s)
+  ✓   4 [chromium] › tests/e2e/marketing.spec.ts:8:2 › marketing en: unique routes, localized metadata and public navigation (6.1s)
+  ✓   8 [chromium] › tests/e2e/marketing.spec.ts:14:2 › marketing en: product tabs, keyboard navigation and authentic mobile images (1.2s)
+  ✓   7 [mobile-chromium] › tests/e2e/marketing.spec.ts:14:2 › marketing en: product tabs, keyboard navigation and authentic mobile images (1.4s)
+  ✓   6 [chromium] › tests/e2e/website-polish.spec.ts:36:2 › polish en: task navigation and truthful integration disclosure (2.0s)
+  ✓  10 [mobile-chromium] › tests/e2e/marketing.spec.ts:18:2 › marketing en: guided tour back, next, step selection and demo destination (1.1s)
+  ✓  11 [chromium] › tests/e2e/website-polish.spec.ts:48:2 › polish en: readable mobile comparison and honest conversion (621ms)
+  ✓   9 [chromium] › tests/e2e/marketing.spec.ts:18:2 › marketing en: guided tour back, next, step selection and demo destination (1.5s)
+  ✓  12 [mobile-chromium] › tests/e2e/marketing.spec.ts:21:2 › marketing en: mobile menu contains focus, closes on Escape and returns scroll (888ms)
+  ✓  14 [chromium] › tests/e2e/marketing.spec.ts:21:2 › marketing en: mobile menu contains focus, closes on Escape and returns scroll (925ms)
+  ✘   2 [mobile-chromium] › tests/e2e/website-polish.spec.ts:8:2 › polish en: responsive screenshot modes, enlargement and keyboard (10.3s)
+  ✓  15 [mobile-chromium] › tests/e2e/marketing.spec.ts:24:2 › marketing en: pricing limits, explanations and keyboard FAQ (1.1s)
+(node:64928) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  13 [chromium] › tests/e2e/website-polish.spec.ts:58:2 › polish en: six widths, zoom, short viewport and throttled motion (2.1s)
+  ✓  16 [chromium] › tests/e2e/marketing.spec.ts:24:2 › marketing en: pricing limits, explanations and keyboard FAQ (1.1s)
+(node:64932) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  17 [mobile-chromium] › tests/e2e/marketing.spec.ts:27:2 › marketing en: fictional contact preview and reviewed assistance stay local (960ms)
+  ✓  19 [chromium] › tests/e2e/marketing.spec.ts:27:2 › marketing en: fictional contact preview and reviewed assistance stay local (940ms)
+  ✓  20 [chromium] › tests/e2e/website-polish.spec.ts:8:2 › polish ar: responsive screenshot modes, enlargement and keyboard (1.5s)
+  ✓  22 [chromium] › tests/e2e/marketing.spec.ts:30:2 › marketing en: primary CTA enters existing demo onboarding (970ms)
+  ✓  21 [mobile-chromium] › tests/e2e/marketing.spec.ts:30:2 › marketing en: primary CTA enters existing demo onboarding (1.8s)
+  ✓  24 [chromium] › tests/e2e/marketing.spec.ts:33:2 › marketing en: locale switching keeps feature route, query and hash (631ms)
+  ✓  18 [mobile-chromium] › tests/e2e/website-polish.spec.ts:24:2 › polish en: buyer navigation, current section and fictional entry (3.0s)
+  ✓  25 [mobile-chromium] › tests/e2e/marketing.spec.ts:33:2 › marketing en: locale switching keeps feature route, query and hash (841ms)
+  ✓  23 [chromium] › tests/e2e/website-polish.spec.ts:24:2 › polish ar: buyer navigation, current section and fictional entry (1.9s)
+  ✓  26 [chromium] › tests/e2e/marketing.spec.ts:36:2 › marketing en: reduced motion and narrow/short layouts (2.5s)
+  ✓  28 [mobile-chromium] › tests/e2e/marketing.spec.ts:36:2 › marketing en: reduced motion and narrow/short layouts (2.8s)
+  ✓  27 [mobile-chromium] › tests/e2e/website-polish.spec.ts:36:2 › polish en: task navigation and truthful integration disclosure (3.3s)
+  ✓  29 [chromium] › tests/e2e/website-polish.spec.ts:36:2 › polish ar: task navigation and truthful integration disclosure (2.7s)
+  ✓  32 [mobile-chromium] › tests/e2e/website-polish.spec.ts:48:2 › polish en: readable mobile comparison and honest conversion (1.3s)
+  ✓  33 [chromium] › tests/e2e/website-polish.spec.ts:48:2 › polish ar: readable mobile comparison and honest conversion (1.1s)
+  ✘  35 [chromium] › tests/e2e/website-polish.spec.ts:58:2 › polish ar: six widths, zoom, short viewport and throttled motion (4.7s)
+  ✘  34 [mobile-chromium] › tests/e2e/website-polish.spec.ts:58:2 › polish en: six widths, zoom, short viewport and throttled motion (4.8s)
+(node:65051) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:65052) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  36 [chromium] › tests/e2e/website-polish.spec.ts:76:1 › polish: crop provenance matches untouched source assets (109ms)
+  ✓  30 [chromium] › tests/e2e/marketing.spec.ts:39:2 › marketing en: full-document accessibility including expanded controls (9.1s)
+  ✓  31 [mobile-chromium] › tests/e2e/marketing.spec.ts:39:2 › marketing en: full-document accessibility including expanded controls (9.2s)
+  ✓  38 [chromium] › tests/e2e/marketing.spec.ts:8:2 › marketing ar: unique routes, localized metadata and public navigation (3.9s)
+  ✓  39 [mobile-chromium] › tests/e2e/marketing.spec.ts:8:2 › marketing ar: unique routes, localized metadata and public navigation (3.5s)
+  ✓  40 [chromium] › tests/e2e/marketing.spec.ts:14:2 › marketing ar: product tabs, keyboard navigation and authentic mobile images (873ms)
+  ✓  42 [chromium] › tests/e2e/marketing.spec.ts:18:2 › marketing ar: guided tour back, next, step selection and demo destination (608ms)
+  ✘  41 [mobile-chromium] › tests/e2e/marketing.spec.ts:14:2 › marketing ar: product tabs, keyboard navigation and authentic mobile images (963ms)
+(node:65140) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  43 [chromium] › tests/e2e/marketing.spec.ts:21:2 › marketing ar: mobile menu contains focus, closes on Escape and returns scroll (584ms)
+  ✓  45 [chromium] › tests/e2e/marketing.spec.ts:24:2 › marketing ar: pricing limits, explanations and keyboard FAQ (603ms)
+  ✓  44 [mobile-chromium] › tests/e2e/marketing.spec.ts:18:2 › marketing ar: guided tour back, next, step selection and demo destination (852ms)
+  ✓  46 [chromium] › tests/e2e/marketing.spec.ts:27:2 › marketing ar: fictional contact preview and reviewed assistance stay local (562ms)
+  ✓  47 [mobile-chromium] › tests/e2e/marketing.spec.ts:21:2 › marketing ar: mobile menu contains focus, closes on Escape and returns scroll (750ms)
+  ✓  49 [mobile-chromium] › tests/e2e/marketing.spec.ts:24:2 › marketing ar: pricing limits, explanations and keyboard FAQ (715ms)
+  ✘  37 [mobile-chromium] › tests/e2e/website-polish.spec.ts:8:2 › polish ar: responsive screenshot modes, enlargement and keyboard (9.6s)
+  ✓  48 [chromium] › tests/e2e/marketing.spec.ts:30:2 › marketing ar: primary CTA enters existing demo onboarding (1.4s)
+(node:65175) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  50 [mobile-chromium] › tests/e2e/marketing.spec.ts:27:2 › marketing ar: fictional contact preview and reviewed assistance stay local (658ms)
+  ✓  51 [chromium] › tests/e2e/marketing.spec.ts:33:2 › marketing ar: locale switching keeps feature route, query and hash (793ms)
+  ✓  53 [mobile-chromium] › tests/e2e/marketing.spec.ts:30:2 › marketing ar: primary CTA enters existing demo onboarding (1.2s)
+  ✓  55 [mobile-chromium] › tests/e2e/marketing.spec.ts:33:2 › marketing ar: locale switching keeps feature route, query and hash (599ms)
+  ✓  54 [chromium] › tests/e2e/marketing.spec.ts:36:2 › marketing ar: reduced motion and narrow/short layouts (1.4s)
+  ✓  52 [mobile-chromium] › tests/e2e/website-polish.spec.ts:24:2 › polish ar: buyer navigation, current section and fictional entry (2.2s)
+  ✓  56 [mobile-chromium] › tests/e2e/marketing.spec.ts:36:2 › marketing ar: reduced motion and narrow/short layouts (2.2s)
+  ✓  58 [mobile-chromium] › tests/e2e/website-polish.spec.ts:36:2 › polish ar: task navigation and truthful integration disclosure (2.5s)
+  ✓  60 [mobile-chromium] › tests/e2e/website-polish.spec.ts:48:2 › polish ar: readable mobile comparison and honest conversion (799ms)
+  ✓  57 [chromium] › tests/e2e/marketing.spec.ts:39:2 › marketing ar: full-document accessibility including expanded controls (6.0s)
+  ✘  61 [mobile-chromium] › tests/e2e/website-polish.spec.ts:58:2 › polish ar: six widths, zoom, short viewport and throttled motion (2.4s)
+(node:65287) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  62 [chromium] › tests/e2e/marketing.spec.ts:45:1 › marketing sitemap and robots never index internal fictional workspaces (324ms)
+  ✓  63 [mobile-chromium] › tests/e2e/website-polish.spec.ts:76:1 › polish: crop provenance matches untouched source assets (116ms)
+  ✓  59 [mobile-chromium] › tests/e2e/marketing.spec.ts:39:2 › marketing ar: full-document accessibility including expanded controls (5.4s)
+  ✓  64 [mobile-chromium] › tests/e2e/marketing.spec.ts:45:1 › marketing sitemap and robots never index internal fictional workspaces (101ms)
+
+
+  1) [chromium] › tests/e2e/website-polish.spec.ts:58:2 › polish en: six widths, zoom, short viewport and throttled motion 
+
+    Error: expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 1025
+    Received:    2122
+
+      64 |   }
+      65 |   await page.setViewportSize({width:1024,height:600});await page.goto(`/${locale}`);await page.evaluate(()=>{document.documentElement.style.zoom='2';});
+    > 66 |   expect(await page.evaluate(()=>document.documentElement.scrollWidth*2)).toBeLessThanOrEqual(1025);
+         |                                                                           ^
+      67 |   await page.evaluate(()=>{document.documentElement.style.zoom='';});
+      68 |   const cdp=await page.context().newCDPSession(page);await cdp.send('Emulation.setCPUThrottlingRate',{rate:4});
+      69 |   await page.setViewportSize({width:320,height:500});await page.getByRole('tab').nth(1).click();await expect(page.getByRole('tabpanel')).toContainText(ar?'التفاصيل في مكان واحد':'The details live in one place');
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/website-polish.spec.ts:66:75
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/website-polish-polish-en-s-44be9-ewport-and-throttled-motion-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/website-polish-polish-en-s-44be9-ewport-and-throttled-motion-chromium/error-context.md
+
+  2) [chromium] › tests/e2e/website-polish.spec.ts:58:2 › polish ar: six widths, zoom, short viewport and throttled motion 
+
+    Error: expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 1025
+    Received:    2124
+
+      64 |   }
+      65 |   await page.setViewportSize({width:1024,height:600});await page.goto(`/${locale}`);await page.evaluate(()=>{document.documentElement.style.zoom='2';});
+    > 66 |   expect(await page.evaluate(()=>document.documentElement.scrollWidth*2)).toBeLessThanOrEqual(1025);
+         |                                                                           ^
+      67 |   await page.evaluate(()=>{document.documentElement.style.zoom='';});
+      68 |   const cdp=await page.context().newCDPSession(page);await cdp.send('Emulation.setCPUThrottlingRate',{rate:4});
+      69 |   await page.setViewportSize({width:320,height:500});await page.getByRole('tab').nth(1).click();await expect(page.getByRole('tabpanel')).toContainText(ar?'التفاصيل في مكان واحد':'The details live in one place');
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/website-polish.spec.ts:66:75
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/website-polish-polish-ar-s-c165b-ewport-and-throttled-motion-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/website-polish-polish-ar-s-c165b-ewport-and-throttled-motion-chromium/error-context.md
+
+  3) [mobile-chromium] › tests/e2e/marketing.spec.ts:14:2 › marketing ar: product tabs, keyboard navigation and authentic mobile images 
+
+    Error: expect(received).toContain(expected) // indexOf
+
+    Expected substring: "-mobile.webp"
+    Received string:    ""
+
+      14 |  test(`marketing ${locale}: product tabs, keyboard navigation and authentic mobile images`,async({page},info)=>{
+      15 |   await page.goto(`/${locale}`);const tabs=page.getByRole('tab'),first=tabs.first();await first.focus();await page.keyboard.press(ar?'ArrowLeft':'ArrowRight');await expect(tabs.nth(1)).toBeFocused();await expect(tabs.nth(1)).toHaveAttribute('aria-selected','true');await expect(page.getByRole('tabpanel')).toContainText(ar?'التفاصيل في مكان واحد':'The details live in one place');await expect(page.getByRole('tabpanel').locator('img')).toHaveAttribute('src',/en-editor|ar-editor/);
+    > 16 |   await page.keyboard.press('End');await expect(tabs.last()).toBeFocused();await expect(tabs.last()).toHaveAttribute('aria-selected','true');await page.keyboard.press('Home');await expect(first).toBeFocused();await tabs.nth(2).click();await page.getByRole('tabpanel').scrollIntoViewIfNeeded();await page.screenshot({path:`${evidence}/${info.project.name}-${locale}-product-tab.png`,fullPage:false});const image=page.getByRole('tabpanel').locator('img');await expect(image).toBeVisible();if(info.project.name==='mobile-chromium'){await page.getByRole('tabpanel').getByRole('button',{name:ar?'مساحة العمل كاملة':'Full workspace',exact:true}).click();expect(await image.evaluate((el:HTMLImageElement)=>el.currentSrc)).toContain('-mobile.webp');}
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ^
+      17 |  });
+      18 |  test(`marketing ${locale}: guided tour back, next, step selection and demo destination`,async({page},info)=>{
+      19 |   await page.goto(`/${locale}/how-it-works`);const tour=page.getByTestId('workflow-tour'),back=tour.getByRole('button',{name:ar?'السابق':'Back',exact:true}),next=tour.getByRole('button',{name:ar?'التالي':'Next',exact:true});await expect(back).toBeDisabled();await next.click();await expect(tour.locator('[aria-current=step]')).toContainText(ar?'أضف عقاراً':'Add a property');await back.click();await tour.locator('ol button').last().click();await expect(next).toBeDisabled();await expect(tour.locator('.mk-tour-copy a')).toHaveAttribute('href',`/${locale}/workspace/leads/LE-2101`);await tour.scrollIntoViewIfNeeded();await page.screenshot({path:`${evidence}/${info.project.name}-${locale}-workflow-step.png`,fullPage:false});await tour.locator('.mk-tour-copy a').click();await expect(page.locator('main h1')).toBeVisible();await expect(page).toHaveURL(new RegExp(`/${locale}/workspace/leads/LE-2101`));
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/marketing.spec.ts:16:716
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/marketing-marketing-ar-pro-8a062-and-authentic-mobile-images-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/marketing-marketing-ar-pro-8a062-and-authentic-mobile-images-mobile-chromium/error-context.md
+
+  4) [mobile-chromium] › tests/e2e/website-polish.spec.ts:8:2 › polish en: responsive screenshot modes, enlargement and keyboard 
+
+    Error: expect(locator).toHaveAttribute(expected) failed
+
+    Locator:  getByTestId('product-preview').locator('.mk-shot').locator('a[target=_blank]')
+    Expected: "/product/en-dashboard-mobile.webp"
+    Received: "http://localhost:3000/product/en-dashboard-mobile.webp"
+    Timeout:  8000ms
+
+    Call log:
+      - Expect "toHaveAttribute" getByTestId('product-preview').locator('.mk-shot').locator('a[target=_blank]') with timeout 8000ms
+      - waiting for getByTestId('product-preview').locator('.mk-shot').locator('a[target=_blank]')
+        20 × locator resolved to <a target="_blank" rel="noreferrer" aria-label="Enlarge screenshot: Agency dashboard (new tab)" href="http://localhost:3000/product/en-dashboard-mobile.webp">…</a>
+           - unexpected value "http://localhost:3000/product/en-dashboard-mobile.webp"
+
+
+      19 |   const [full]=await Promise.all([page.waitForEvent('popup'),link.click()]);await expect(full).toHaveURL(current);await full.close();
+      20 |   if(info.project.name==='mobile-chromium')expect(current).toContain('-mobile.webp');else expect(current).not.toContain('-mobile.webp');
+    > 21 |   await page.setViewportSize({width:320,height:500});await expect(link).toHaveAttribute('href',`/product/${locale}-dashboard-mobile.webp`);
+         |                                                                         ^
+      22 |   await page.screenshot({path:`${evidence}/${info.project.name}-${locale}-screenshot-controls.png`,animations:'disabled'});
+      23 |  });
+      24 |  test(`polish ${locale}: buyer navigation, current section and fictional entry`,async({page})=>{
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/website-polish.spec.ts:21:73
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/website-polish-polish-en-r-b8919-es-enlargement-and-keyboard-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/website-polish-polish-en-r-b8919-es-enlargement-and-keyboard-mobile-chromium/error-context.md
+
+  5) [mobile-chromium] › tests/e2e/website-polish.spec.ts:58:2 › polish en: six widths, zoom, short viewport and throttled motion 
+
+    Error: expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 1025
+    Received:    2122
+
+      64 |   }
+      65 |   await page.setViewportSize({width:1024,height:600});await page.goto(`/${locale}`);await page.evaluate(()=>{document.documentElement.style.zoom='2';});
+    > 66 |   expect(await page.evaluate(()=>document.documentElement.scrollWidth*2)).toBeLessThanOrEqual(1025);
+         |                                                                           ^
+      67 |   await page.evaluate(()=>{document.documentElement.style.zoom='';});
+      68 |   const cdp=await page.context().newCDPSession(page);await cdp.send('Emulation.setCPUThrottlingRate',{rate:4});
+      69 |   await page.setViewportSize({width:320,height:500});await page.getByRole('tab').nth(1).click();await expect(page.getByRole('tabpanel')).toContainText(ar?'التفاصيل في مكان واحد':'The details live in one place');
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/website-polish.spec.ts:66:75
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/website-polish-polish-en-s-44be9-ewport-and-throttled-motion-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/website-polish-polish-en-s-44be9-ewport-and-throttled-motion-mobile-chromium/error-context.md
+
+  6) [mobile-chromium] › tests/e2e/website-polish.spec.ts:8:2 › polish ar: responsive screenshot modes, enlargement and keyboard 
+
+    Error: expect(locator).toHaveAttribute(expected) failed
+
+    Locator:  getByTestId('product-preview').locator('.mk-shot').locator('a[target=_blank]')
+    Expected: "/product/ar-dashboard-mobile.webp"
+    Received: "http://localhost:3000/product/ar-dashboard-mobile.webp"
+    Timeout:  8000ms
+
+    Call log:
+      - Expect "toHaveAttribute" getByTestId('product-preview').locator('.mk-shot').locator('a[target=_blank]') with timeout 8000ms
+      - waiting for getByTestId('product-preview').locator('.mk-shot').locator('a[target=_blank]')
+        20 × locator resolved to <a target="_blank" rel="noreferrer" href="http://localhost:3000/product/ar-dashboard-mobile.webp" aria-label="تكبير لقطة الشاشة: لوحة الوكالة (علامة تبويب جديدة)">…</a>
+           - unexpected value "http://localhost:3000/product/ar-dashboard-mobile.webp"
+
+
+      19 |   const [full]=await Promise.all([page.waitForEvent('popup'),link.click()]);await expect(full).toHaveURL(current);await full.close();
+      20 |   if(info.project.name==='mobile-chromium')expect(current).toContain('-mobile.webp');else expect(current).not.toContain('-mobile.webp');
+    > 21 |   await page.setViewportSize({width:320,height:500});await expect(link).toHaveAttribute('href',`/product/${locale}-dashboard-mobile.webp`);
+         |                                                                         ^
+      22 |   await page.screenshot({path:`${evidence}/${info.project.name}-${locale}-screenshot-controls.png`,animations:'disabled'});
+      23 |  });
+      24 |  test(`polish ${locale}: buyer navigation, current section and fictional entry`,async({page})=>{
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/website-polish.spec.ts:21:73
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/website-polish-polish-ar-r-cfb7d-es-enlargement-and-keyboard-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/website-polish-polish-ar-r-cfb7d-es-enlargement-and-keyboard-mobile-chromium/error-context.md
+
+  7) [mobile-chromium] › tests/e2e/website-polish.spec.ts:58:2 › polish ar: six widths, zoom, short viewport and throttled motion 
+
+    Error: expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 1025
+    Received:    2124
+
+      64 |   }
+      65 |   await page.setViewportSize({width:1024,height:600});await page.goto(`/${locale}`);await page.evaluate(()=>{document.documentElement.style.zoom='2';});
+    > 66 |   expect(await page.evaluate(()=>document.documentElement.scrollWidth*2)).toBeLessThanOrEqual(1025);
+         |                                                                           ^
+      67 |   await page.evaluate(()=>{document.documentElement.style.zoom='';});
+      68 |   const cdp=await page.context().newCDPSession(page);await cdp.send('Emulation.setCPUThrottlingRate',{rate:4});
+      69 |   await page.setViewportSize({width:320,height:500});await page.getByRole('tab').nth(1).click();await expect(page.getByRole('tabpanel')).toContainText(ar?'التفاصيل في مكان واحد':'The details live in one place');
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/website-polish.spec.ts:66:75
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/website-polish-polish-ar-s-c165b-ewport-and-throttled-motion-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/website-polish-polish-ar-s-c165b-ewport-and-throttled-motion-mobile-chromium/error-context.md
+
+  7 failed
+    [chromium] › tests/e2e/website-polish.spec.ts:58:2 › polish en: six widths, zoom, short viewport and throttled motion 
+    [chromium] › tests/e2e/website-polish.spec.ts:58:2 › polish ar: six widths, zoom, short viewport and throttled motion 
+    [mobile-chromium] › tests/e2e/marketing.spec.ts:14:2 › marketing ar: product tabs, keyboard navigation and authentic mobile images 
+    [mobile-chromium] › tests/e2e/website-polish.spec.ts:8:2 › polish en: responsive screenshot modes, enlargement and keyboard 
+    [mobile-chromium] › tests/e2e/website-polish.spec.ts:58:2 › polish en: six widths, zoom, short viewport and throttled motion 
+    [mobile-chromium] › tests/e2e/website-polish.spec.ts:8:2 › polish ar: responsive screenshot modes, enlargement and keyboard 
+    [mobile-chromium] › tests/e2e/website-polish.spec.ts:58:2 › polish ar: six widths, zoom, short viewport and throttled motion 
+  57 passed (45.5s)
+ ELIFECYCLE  Command failed with exit code 1.

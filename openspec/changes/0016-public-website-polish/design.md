@@ -1,0 +1,9 @@
+# Design and implementation contract
+
+Retain warm stone/eucalyptus, editorial display type and existing marketing primitives. Home: short hero + interactive product evidence, compact connected journey, three task benefits, agency value, pricing invitation, four FAQs and final action. Detailed parser, provider catalogue and quota comparison remain on dedicated pages.
+
+ProductShot owns genuine overview/detail selection and responsive new-tab enlargement. Derive bounded crops from untouched Phase 11 assets using Sharp already provided by Next; record source hash, exact rectangle and output dimensions. A detail is labelled as a screenshot crop; overview remains available. AI shows the entire review inspector; editor shows fields; publishing shows selected channels and checks; inbox shows property/agent/conversation. Mobile uses a legible focused crop where original first-viewport captures omit the task. No invented UI.
+
+Native details retain integration requirements. Group navigation and concise purpose/preparation copy replace repeated explanatory paragraphs. Explicit per-provider unconnected labels remain. Mobile comparison stacks the three named plan values beside each feature; desktop keeps the semantic table. Canonical plan data remains the only numerical authority. Plan actions describe exploring that plan's details, without promising purchase or persisting a selection.
+
+Header: guided tour and fictional entry distinguish learning from returning; primary demo action remains existing sign-in flow. Mobile dialog retains modal keyboard/scroll behavior and exposes return/new agency routes. CSS only, opacity/transform transitions, no hidden scroll reveals, no new motion dependency. Arabic uses logical layout and mixed-script isolation; professional approval remains pending.

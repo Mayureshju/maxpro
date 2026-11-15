@@ -1,0 +1,26 @@
+[
+  {
+    "file": "en-1440-product-preview-region.png",
+    "source": "en-1440-home.png",
+    "sourceSha256": "e0305d51034df3e30cc41a9bf40dde1653fda688035d8f2abd577eda48f2ed42",
+    "rectangle": {
+      "left": 0,
+      "top": 1500,
+      "width": 1440,
+      "height": 1000
+    },
+    "note": "Exact region from the actual baseline full-page browser capture; source unchanged"
+  },
+  {
+    "file": "en-375-product-preview-region.png",
+    "source": "en-375-home.png",
+    "sourceSha256": "d8c2e982f793a55cca2dd1e88f35943e32ddca2f617b3724cc8100353dcd4798",
+    "rectangle": {
+      "left": 0,
+      "top": 1750,
+      "width": 375,
+      "height": 1100
+    },
+    "note": "Exact region from the actual baseline full-page browser capture; source unchanged"
+  }
+]

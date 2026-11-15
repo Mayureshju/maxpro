@@ -1,0 +1,35 @@
+{
+  "baselineCaptures": 52,
+  "finalCaptures": 156,
+  "finalDocumentOverflows": 0,
+  "home": [
+    {
+      "locale": "en",
+      "width": 1440,
+      "beforeHeight": 11330,
+      "afterHeight": 4856,
+      "reductionPercent": 57.1
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "beforeHeight": 14352,
+      "afterHeight": 6975,
+      "reductionPercent": 51.4
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "beforeHeight": 11240,
+      "afterHeight": 4779,
+      "reductionPercent": 57.5
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "beforeHeight": 13783,
+      "afterHeight": 6687,
+      "reductionPercent": 51.5
+    }
+  ]
+}

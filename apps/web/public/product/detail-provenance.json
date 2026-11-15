@@ -1,0 +1,369 @@
+{
+  "baseline": "a2d34f0634568cdd8a9dfc044161c5cf94d670f4",
+  "originalProvenance": [
+    "product-provenance.json",
+    "product-mobile-provenance.json"
+  ],
+  "records": [
+    {
+      "file": "en-dashboard-detail.webp",
+      "source": "en-dashboard.webp",
+      "sourceSha256": "636079e3f70d67bd7bea4e748fba16d9b419ab6a4a5d1503689d165ca8670517",
+      "rectangle": {
+        "left": 280,
+        "top": 150,
+        "width": 1128,
+        "height": 660
+      },
+      "transformation": "Exact crop and WebP encoding only; no synthesized interface"
+    },
+    {
+      "file": "ar-dashboard-detail.webp",
+      "source": "ar-dashboard.webp",
+      "sourceSha256": "ca4b7290408b0eedb2d6a6a2e3c07108eb6125f7bed76479291f812482eae45c",
+      "rectangle": {
+        "left": 32,
+        "top": 150,
+        "width": 1128,
+        "height": 660
+      },
+      "transformation": "Exact crop and WebP encoding only; no synthesized interface"
+    },
+    {
+      "file": "en-editor-detail.webp",
+      "source": "en-editor.webp",
+      "sourceSha256": "3b49b39f4c16bc38117b4d9adffb280b522ce87f94ff93627d0f2308172d9fb8",
+      "rectangle": {
+        "left": 288,
+        "top": 344,
+        "width": 856,
+        "height": 540
+      },
+      "transformation": "Exact crop and WebP encoding only; no synthesized interface"
+    },
+    {
+      "file": "ar-editor-detail.webp",
+      "source": "ar-editor.webp",
+      "sourceSha256": "86c41c14fa3377c6c6e5c0bbc6af1f37925170c726173a07bfb1ec08af9c8650",
+      "rectangle": {
+        "left": 296,
+        "top": 353,
+        "width": 856,
+        "height": 531
+      },
+      "transformation": "Exact crop and WebP encoding only; no synthesized interface"
+    },
+    {
+      "file": "en-assistance-detail.webp",
+      "source": "en-assistance.webp",
+      "sourceSha256": "9f268ad5ceb95047f9436c5d049e31b2bb8d670e17e2ed7996fb800bbfc730c7",
+      "rectangle": {
+        "left": 880,
+        "top": 0,
+        "width": 560,
+        "height": 1000
+      },
+      "transformation": "Exact crop and WebP encoding only; no synthesized interface"
+    },
+    {
+      "file": "ar-assistance-detail.webp",
+      "source": "ar-assistance.webp",
+      "sourceSha256": "cee5fae2396ab1ffd9390ed212c5845ec7487d90decf40f392c9860cf9e05874",
+      "rectangle": {
+        "left": 0,
+        "top": 0,
+        "width": 560,
+        "height": 1000
+      },
+      "transformation": "Exact crop and WebP encoding only; no synthesized interface"
+    },
+    {
+      "file": "en-publish-detail.webp",
+      "source": "en-review.webp",
+      "sourceSha256": "757f771d4b9b409f273e527cc858fac1cd5d26effc7e17e17ee78f2b353955b0",
+      "rectangle": {
+        "left": 280,
+        "top": 260,
+        "width": 1128,
+        "height": 740
+      },
+      "transformation": "Exact crop and WebP encoding only; no synthesized interface"
+    },
+    {
+      "file": "ar-publish-detail.webp",
+      "source": "ar-review.webp",
+      "sourceSha256": "4dda42a27ac7d9f0f14b0bb93860d6ce87fd3085b9eb8eff0ab40a76a6e3c58a",
+      "rectangle": {
+        "left": 32,
+        "top": 260,
+        "width": 1128,
+        "height": 740
+      },
+      "transformation": "Exact crop and WebP encoding only; no synthesized interface"
+    },
+    {
+      "file": "en-review-detail.webp",
+      "source": "en-review.webp",
+      "sourceSha256": "757f771d4b9b409f273e527cc858fac1cd5d26effc7e17e17ee78f2b353955b0",
+      "rectangle": {
+        "left": 280,
+        "top": 550,
+        "width": 1128,
+        "height": 450
+      },
+      "transformation": "Exact crop and WebP encoding only; no synthesized interface"
+    },
+    {
+      "file": "ar-review-detail.webp",
+      "source": "ar-review.webp",
+      "sourceSha256": "4dda42a27ac7d9f0f14b0bb93860d6ce87fd3085b9eb8eff0ab40a76a6e3c58a",
+      "rectangle": {
+        "left": 32,
+        "top": 550,
+        "width": 1128,
+        "height": 450
+      },
+      "transformation": "Exact crop and WebP encoding only; no synthesized interface"
+    },
+    {
+      "file": "en-campaign-detail.webp",
+      "source": "en-campaign.webp",
+      "sourceSha256": "d97e9d99cc2e006f0faffb6e80a4c734c00d2a15d0973a0271319351e905abfb",
+      "rectangle": {
+        "left": 280,
+        "top": 550,
+        "width": 1128,
+        "height": 450
+      },
+      "transformation": "Exact crop and WebP encoding only; no synthesized interface"
+    },
+    {
+      "file": "ar-campaign-detail.webp",
+      "source": "ar-campaign.webp",
+      "sourceSha256": "8225998751fbb7cc9581db0384efe1ba433b38b9459c51a92ab341c09f673653",
+      "rectangle": {
+        "left": 32,
+        "top": 550,
+        "width": 1128,
+        "height": 450
+      },
+      "transformation": "Exact crop and WebP encoding only; no synthesized interface"
+    },
+    {
+      "file": "en-inbox-detail.webp",
+      "source": "en-inbox.webp",
+      "sourceSha256": "e2fb667b01cfd5218e9ef67dc128f4441ef5753bbb3df5f15e4bebfaa3f5008a",
+      "rectangle": {
+        "left": 552,
+        "top": 310,
+        "width": 856,
+        "height": 625
+      },
+      "transformation": "Exact crop and WebP encoding only; no synthesized interface"
+    },
+    {
+      "file": "ar-inbox-detail.webp",
+      "source": "ar-inbox.webp",
+      "sourceSha256": "caa4a6fef10dfdba3675318784413360ca612917fdbae34b93893eb4dbfc1957",
+      "rectangle": {
+        "left": 32,
+        "top": 310,
+        "width": 856,
+        "height": 625
+      },
+      "transformation": "Exact crop and WebP encoding only; no synthesized interface"
+    },
+    {
+      "file": "en-leads-detail.webp",
+      "source": "en-inbox.webp",
+      "sourceSha256": "e2fb667b01cfd5218e9ef67dc128f4441ef5753bbb3df5f15e4bebfaa3f5008a",
+      "rectangle": {
+        "left": 552,
+        "top": 310,
+        "width": 856,
+        "height": 625
+      },
+      "transformation": "Exact crop and WebP encoding only; no synthesized interface"
+    },
+    {
+      "file": "ar-leads-detail.webp",
+      "source": "ar-inbox.webp",
+      "sourceSha256": "caa4a6fef10dfdba3675318784413360ca612917fdbae34b93893eb4dbfc1957",
+      "rectangle": {
+        "left": 32,
+        "top": 310,
+        "width": 856,
+        "height": 625
+      },
+      "transformation": "Exact crop and WebP encoding only; no synthesized interface"
+    },
+    {
+      "file": "en-dashboard-detail-mobile.webp",
+      "source": "en-dashboard-mobile.webp",
+      "sourceSha256": "e6011c2003a617be20f367ff780f6eabbe971c6471f93f3ae989d82ba9d2dd3f",
+      "rectangle": {
+        "left": 0,
+        "top": 300,
+        "width": 375,
+        "height": 512
+      },
+      "transformation": "Exact native-mobile screenshot crop and WebP encoding only"
+    },
+    {
+      "file": "ar-dashboard-detail-mobile.webp",
+      "source": "ar-dashboard-mobile.webp",
+      "sourceSha256": "283dd92d0554c492050be23e5e323ec14b73060bd5cf8b63ebd05167bc150160",
+      "rectangle": {
+        "left": 0,
+        "top": 300,
+        "width": 375,
+        "height": 512
+      },
+      "transformation": "Exact native-mobile screenshot crop and WebP encoding only"
+    },
+    {
+      "file": "en-editor-detail-mobile.webp",
+      "source": "en-editor-mobile.webp",
+      "sourceSha256": "4aa790f76dbb0632027ff4ffabae9437ad86fe0524f4302efa44ce204681eb23",
+      "rectangle": {
+        "left": 16,
+        "top": 318,
+        "width": 343,
+        "height": 426
+      },
+      "transformation": "Exact native-mobile screenshot crop and WebP encoding only"
+    },
+    {
+      "file": "ar-editor-detail-mobile.webp",
+      "source": "ar-editor-mobile.webp",
+      "sourceSha256": "5bd7eaa40cb7a840d49d5818a19cf180479f3d0735b44364ab37ac258e9b3a46",
+      "rectangle": {
+        "left": 16,
+        "top": 318,
+        "width": 343,
+        "height": 426
+      },
+      "transformation": "Exact native-mobile screenshot crop and WebP encoding only"
+    },
+    {
+      "file": "en-publish-detail-mobile.webp",
+      "source": "en-review-mobile.webp",
+      "sourceSha256": "820fe09e87dd09525b654477b1780a9e27eee8a3068a5e0aad4455a7cc935326",
+      "rectangle": {
+        "left": 0,
+        "top": 64,
+        "width": 375,
+        "height": 748
+      },
+      "transformation": "Exact native-mobile screenshot crop and WebP encoding only"
+    },
+    {
+      "file": "ar-publish-detail-mobile.webp",
+      "source": "ar-review-mobile.webp",
+      "sourceSha256": "d2c9ba0edd5e9800e3fed5555e79ceb95bce6b1becdbdd6f6e93cb15bc61cdce",
+      "rectangle": {
+        "left": 0,
+        "top": 64,
+        "width": 375,
+        "height": 748
+      },
+      "transformation": "Exact native-mobile screenshot crop and WebP encoding only"
+    },
+    {
+      "file": "en-review-detail-mobile.webp",
+      "source": "en-review-mobile.webp",
+      "sourceSha256": "820fe09e87dd09525b654477b1780a9e27eee8a3068a5e0aad4455a7cc935326",
+      "rectangle": {
+        "left": 0,
+        "top": 458,
+        "width": 375,
+        "height": 354
+      },
+      "transformation": "Exact native-mobile screenshot crop and WebP encoding only"
+    },
+    {
+      "file": "ar-review-detail-mobile.webp",
+      "source": "ar-review-mobile.webp",
+      "sourceSha256": "d2c9ba0edd5e9800e3fed5555e79ceb95bce6b1becdbdd6f6e93cb15bc61cdce",
+      "rectangle": {
+        "left": 0,
+        "top": 458,
+        "width": 375,
+        "height": 354
+      },
+      "transformation": "Exact native-mobile screenshot crop and WebP encoding only"
+    },
+    {
+      "file": "en-campaign-detail-mobile.webp",
+      "source": "en-campaign-task-mobile.webp",
+      "sourceSha256": "a045ab87a3e2e009acd5d4ba219dc27d0191cf5b46b0e2b8d2f981369c774b29",
+      "rectangle": {
+        "left": 0,
+        "top": 64,
+        "width": 375,
+        "height": 748
+      },
+      "transformation": "Exact native-mobile screenshot crop and WebP encoding only"
+    },
+    {
+      "file": "ar-campaign-detail-mobile.webp",
+      "source": "ar-campaign-task-mobile.webp",
+      "sourceSha256": "442036b1677ee3934946f38beb0a2a7a9a70b906c7e8ae7ce07694588283e719",
+      "rectangle": {
+        "left": 0,
+        "top": 64,
+        "width": 375,
+        "height": 748
+      },
+      "transformation": "Exact native-mobile screenshot crop and WebP encoding only"
+    },
+    {
+      "file": "en-inbox-detail-mobile.webp",
+      "source": "en-inbox-task-mobile.webp",
+      "sourceSha256": "39f350a73dc37fe1713e03ec63776085f573dc4ccabbc2e7c00035f25b52c880",
+      "rectangle": {
+        "left": 0,
+        "top": 80,
+        "width": 375,
+        "height": 732
+      },
+      "transformation": "Exact native-mobile screenshot crop and WebP encoding only"
+    },
+    {
+      "file": "ar-inbox-detail-mobile.webp",
+      "source": "ar-inbox-task-mobile.webp",
+      "sourceSha256": "c725b12acb94a0151f7b03ff6e4658ed3643e07169bbfa5514aeae0c14c34245",
+      "rectangle": {
+        "left": 0,
+        "top": 80,
+        "width": 375,
+        "height": 732
+      },
+      "transformation": "Exact native-mobile screenshot crop and WebP encoding only"
+    },
+    {
+      "file": "en-leads-detail-mobile.webp",
+      "source": "en-inbox-task-mobile.webp",
+      "sourceSha256": "39f350a73dc37fe1713e03ec63776085f573dc4ccabbc2e7c00035f25b52c880",
+      "rectangle": {
+        "left": 0,
+        "top": 80,
+        "width": 375,
+        "height": 732
+      },
+      "transformation": "Exact native-mobile screenshot crop and WebP encoding only"
+    },
+    {
+      "file": "ar-leads-detail-mobile.webp",
+      "source": "ar-inbox-task-mobile.webp",
+      "sourceSha256": "c725b12acb94a0151f7b03ff6e4658ed3643e07169bbfa5514aeae0c14c34245",
+      "rectangle": {
+        "left": 0,
+        "top": 80,
+        "width": 375,
+        "height": 732
+      },
+      "transformation": "Exact native-mobile screenshot crop and WebP encoding only"
+    }
+  ]
+}

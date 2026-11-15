@@ -1,0 +1,77 @@
+[
+  {
+    "locale": "en",
+    "zoom": {
+      "innerWidth": 1024,
+      "clientWidth": 1024,
+      "scrollWidth": 1061,
+      "bodyWidth": 1024,
+      "overflow": [
+        {
+          "tag": "BDI",
+          "cls": "",
+          "rect": {
+            "x": 854.328125,
+            "y": 7452.109375,
+            "width": 206.578125,
+            "height": 45,
+            "top": 7452.109375,
+            "right": 1060.90625,
+            "bottom": 7497.109375,
+            "left": 854.328125
+          }
+        }
+      ]
+    }
+  },
+  {
+    "file": "en-campaign-task-mobile.webp",
+    "locale": "en",
+    "route": "/workspace/publish?property=AQ-10233&goal=advertising",
+    "viewport": {
+      "width": 375,
+      "height": 812
+    },
+    "source": "Actual running app screenshot; fictional records; no alterations except WebP encoding"
+  },
+  {
+    "file": "en-inbox-task-mobile.webp",
+    "locale": "en",
+    "route": "/workspace/inbox",
+    "viewport": {
+      "width": 375,
+      "height": 812
+    },
+    "source": "Actual running app screenshot; fictional records; no alterations except WebP encoding"
+  },
+  {
+    "locale": "ar",
+    "zoom": {
+      "innerWidth": 1024,
+      "clientWidth": 1024,
+      "scrollWidth": 1062,
+      "bodyWidth": 1024,
+      "overflow": []
+    }
+  },
+  {
+    "file": "ar-campaign-task-mobile.webp",
+    "locale": "ar",
+    "route": "/workspace/publish?property=AQ-10233&goal=advertising",
+    "viewport": {
+      "width": 375,
+      "height": 812
+    },
+    "source": "Actual running app screenshot; fictional records; no alterations except WebP encoding"
+  },
+  {
+    "file": "ar-inbox-task-mobile.webp",
+    "locale": "ar",
+    "route": "/workspace/inbox",
+    "viewport": {
+      "width": 375,
+      "height": 812
+    },
+    "source": "Actual running app screenshot; fictional records; no alterations except WebP encoding"
+  }
+]

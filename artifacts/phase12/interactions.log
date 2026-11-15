@@ -1,0 +1,37 @@
+[
+  {
+    "locale": "en",
+    "zoom": {
+      "innerWidth": 1024,
+      "clientWidth": 1024,
+      "scrollWidth": 1061,
+      "bodyWidth": 1024,
+      "overflow": [
+        {
+          "tag": "BDI",
+          "cls": "",
+          "rect": {
+            "x": 854.328125,
+            "y": 7452.109375,
+            "width": 206.578125,
+            "height": 45,
+            "top": 7452.109375,
+            "right": 1060.90625,
+            "bottom": 7497.109375,
+            "left": 854.328125
+          }
+        }
+      ]
+    }
+  },
+  {
+    "locale": "ar",
+    "zoom": {
+      "innerWidth": 1024,
+      "clientWidth": 1024,
+      "scrollWidth": 1062,
+      "bodyWidth": 1024,
+      "overflow": []
+    }
+  }
+]
