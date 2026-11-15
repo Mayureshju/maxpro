@@ -1,10 +1,11 @@
 'use client';
+import {QuickAdd} from '@/components/agency/quick-add';
 import {NativeSelect} from '@/components/ui/field';
 import {usePrototypeCopy} from '@/components/prototype/use-prototype-copy';
 import {useState} from 'react';
 import {ArrowLeft,ArrowRight,FileSpreadsheet,Grid2X2,LayoutList,MapPin,Plus,Search,SlidersHorizontal,UploadCloud} from 'lucide-react';
 import {useLocale} from 'next-intl';
-import {Link,useRouter} from '@/i18n/navigation';
+import {Link} from '@/i18n/navigation';
 import {q} from '@/lib/prototype-data';
 import {findProperty,propertyListing} from '@/lib/canonical-property';
 import {useGeminiDemo} from '@/components/gemini/demo-provider';
@@ -12,9 +13,8 @@ import {PropertyLeadEnquiries} from '@/components/gemini/lead-workspace';
 import {PropertyUnavailable} from '@/components/gemini/property-state';
 import {WorkspaceLoading} from './loading-state';
 import {HeaderLink,Intro,Notice,Pill,PropertyImage,Section} from './primitives';
-export function NewPropertyPage(){const copyText=usePrototypeCopy();
- const ar=useLocale()==='ar';const {createProperty}=useGeminiDemo();const router=useRouter();const [creating,setCreating]=useState(false);
- return <><Intro eyebrow={copyText("INVENTORY / CREATE")} title={ar?'إنشاء عقار':'Create a property'} description={ar?'ابدأ بمسودة فارغة. احفظ الحقائق غير المكتملة وأكمل المراجعة لاحقاً.':'Start with an empty canonical draft. Save incomplete facts and return to review them later.'}/><Section title={ar?'سجل واحد من البداية':'One record from the start'} subtitle={ar?'للتجربة الخيالية فقط. لا تدخل معلومات شخصية.':'Fictional demo only. Do not enter personal or sensitive information.'}><div className="gm-edit-fields"><p>{copyText("Facts → media → bilingual review → destination checks → local job history.")}</p><button type="button" className="px-button px-button-dark" disabled={creating} onClick={()=>{const id=createProperty();if(id){setCreating(true);router.push(`/workspace/inventory/${id}/edit`)}}}><Plus size={16}/>{copyText(ar?'إنشاء مسودة فارغة':'Create empty draft')}</button></div></Section></>;
+export function NewPropertyPage(){
+ const ar=useLocale()==='ar';return <><Intro eyebrow={ar?'العقارات / إنشاء':'INVENTORY / CREATE'} title={ar?'إنشاء عقار':'Create a property'} description={ar?'احفظ الأساسيات سريعاً ثم تابع في المحرر الكامل عندما تكون مستعداً.':'Quick Add saves a few essentials. Continue in the full editor whenever you are ready.'}/><Section title={ar?'إضافة سريعة':'Quick Add'} subtitle={ar?'للتجربة الخيالية فقط. لا تدخل معلومات شخصية.':'Fictional demo only. Do not enter personal or sensitive information.'}><QuickAdd/></Section></>;
 }
 export function InventoryPage(){
  const copyText=usePrototypeCopy();const ar=useLocale()==='ar';const t=(en:string,arabic:string)=>ar?arabic:en;const {state,hydrated}=useGeminiDemo();

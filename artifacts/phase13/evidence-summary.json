@@ -1,0 +1,223 @@
+{
+  "before": {
+    "count": 7,
+    "files": [
+      {
+        "path": "artifacts/phase13/before/ar-mobile-editor.png",
+        "sha256": "fc9538d5ae3f16949864283b209a1d169137ec4dcaa91b4a83743c8436403149"
+      },
+      {
+        "path": "artifacts/phase13/before/dashboard.png",
+        "sha256": "0ce3b2715531ec462a28b4bc4ae2a584dec3a175f606c1cf3ba46463e37e4fa0"
+      },
+      {
+        "path": "artifacts/phase13/before/editor.png",
+        "sha256": "6cc30337ef7e24ff337232b3fd1b9bcb9260627db0e1111f838610f9025f5eed"
+      },
+      {
+        "path": "artifacts/phase13/before/enquiries.png",
+        "sha256": "743710cf743ba45217b6a9b086b9c385f3adbe58cc7be69487186f54eebecf5e"
+      },
+      {
+        "path": "artifacts/phase13/before/new-property.png",
+        "sha256": "423f04dcb96f822692868b105547fd64bda3d22af40e320c46bae916823b5862"
+      },
+      {
+        "path": "artifacts/phase13/before/outcome.png",
+        "sha256": "0e3931962169adaf03d72ddae8cf1f95930cc9992a20d3d6d34874882ae100ee"
+      },
+      {
+        "path": "artifacts/phase13/before/publishing.png",
+        "sha256": "06b2bfd90bc05251408ba65e5bc01c9cfd5c9c4567bcaf5ccad58bd61cb92e96"
+      }
+    ]
+  },
+  "after": {
+    "count": 41,
+    "files": [
+      {
+        "path": "artifacts/phase13/after/ar-1440-dashboard.png",
+        "sha256": "ec0cf5fcb8d2eba48cfb199b2461431ff740dd5ad29c70bc89f0e1645f4385b3"
+      },
+      {
+        "path": "artifacts/phase13/after/ar-1440-editor.png",
+        "sha256": "72bde23bfae4fd9e22dcd0d451936b097e6882095abc87d9576fade5a6413432"
+      },
+      {
+        "path": "artifacts/phase13/after/ar-1440-property.png",
+        "sha256": "6e06b976f928a037ef8807ec4cf5d89033ecbf0c2d1c0da91725794dd3af55cd"
+      },
+      {
+        "path": "artifacts/phase13/after/ar-1440-publishing.png",
+        "sha256": "679a292412b4563d901e193fa40824613300451afb76b85eab413d44e714dd9f"
+      },
+      {
+        "path": "artifacts/phase13/after/ar-1440-quick-add.png",
+        "sha256": "dec745a110305b7ef4ee7f1da6d190eb58fed75b90f042ccf626e11edb0f00bc"
+      },
+      {
+        "path": "artifacts/phase13/after/ar-375-dashboard.png",
+        "sha256": "410d6fb9db159ef9454cd0b3499e1382b1b102dab892edd2173041975806bb12"
+      },
+      {
+        "path": "artifacts/phase13/after/ar-375-editor.png",
+        "sha256": "c32849ed4f52dc87dca60a51cd419122336f930b6c86f1ed61e196d4ba2e5f3f"
+      },
+      {
+        "path": "artifacts/phase13/after/ar-375-property.png",
+        "sha256": "2b7562fcff381ec34bfdf58bbd396b8a74d16bee8edec20be3efe6f7dc1b80d1"
+      },
+      {
+        "path": "artifacts/phase13/after/ar-375-publishing.png",
+        "sha256": "d92cda4628eea762ecc464a15872a4f2b1afc79d36fbacb8abbe8b6c150c6e1e"
+      },
+      {
+        "path": "artifacts/phase13/after/ar-375-quick-add.png",
+        "sha256": "991b440d6becaa4f5018bbbce0d32f06901e507b35a0512d854f18882597885d"
+      },
+      {
+        "path": "artifacts/phase13/after/assistance.png",
+        "sha256": "1eacb29373b36efbb37cb52c64576c0add570af3fb3a34c8cd55df7381ea982a"
+      },
+      {
+        "path": "artifacts/phase13/after/chromium-ar-enquiry.png",
+        "sha256": "cbfd71db3ef3f1cf2525b0bc4b5f12854558a950f568222412d2841a7c4aa753"
+      },
+      {
+        "path": "artifacts/phase13/after/chromium-ar-queue-and-enquiry.png",
+        "sha256": "d42658fd9fc85e18f0d8a2372d8190d0539de240109982141ef731fb9e90bd22"
+      },
+      {
+        "path": "artifacts/phase13/after/chromium-ar-welcome.png",
+        "sha256": "4252bdb737daa071f7c12d1943edfb4ead7b996242a75ea937692b2c3fd337b1"
+      },
+      {
+        "path": "artifacts/phase13/after/chromium-en-enquiry.png",
+        "sha256": "d0459b76659d3d4d4c7cccb6ead41881bfbf27c14ac4271c9c8226ef22f13c49"
+      },
+      {
+        "path": "artifacts/phase13/after/chromium-en-queue-and-enquiry.png",
+        "sha256": "be5782605b0a650937070aec3c5dfb0c0b18ddb54a945b5d75e7e4770048aa2b"
+      },
+      {
+        "path": "artifacts/phase13/after/chromium-en-welcome.png",
+        "sha256": "c0544bc4a5b65b0d5b8e2207bfdc028182758f510d4986603309bcf10ff32e70"
+      },
+      {
+        "path": "artifacts/phase13/after/conversation.png",
+        "sha256": "253a72f45660db2e60a2f3b008d6e84bbb855527fce5ec65ffbdf80875a99663"
+      },
+      {
+        "path": "artifacts/phase13/after/dashboard.png",
+        "sha256": "aa126c080edec6254b8aea8b94ab0638c254cfb302b506d8a63b747bc02ec98c"
+      },
+      {
+        "path": "artifacts/phase13/after/editor.png",
+        "sha256": "43831869bc4a1b96e835019a441742ee1afea53ab6263dcf7ff9653a619c2d93"
+      },
+      {
+        "path": "artifacts/phase13/after/en-1440-dashboard.png",
+        "sha256": "03172ebd282c69d10bf68a9b002b29b1a4c166ff010f9208e5acd6a20889d6e4"
+      },
+      {
+        "path": "artifacts/phase13/after/en-1440-editor.png",
+        "sha256": "03e650caabf5320b4440395e7f23e40072bc3467f67e78fc1bb8493c3f17a3f8"
+      },
+      {
+        "path": "artifacts/phase13/after/en-1440-property.png",
+        "sha256": "bcda784cbedb7d9debac493f018b6cb9478b3eb7ae59595aae1b93c1a96ccd7f"
+      },
+      {
+        "path": "artifacts/phase13/after/en-1440-publishing.png",
+        "sha256": "eff76d8d30175745784210d7482b9d576dcc9a6dfbb8ed5968aa115f851d389c"
+      },
+      {
+        "path": "artifacts/phase13/after/en-1440-quick-add.png",
+        "sha256": "e44fed2544afa51622e92614e46c9b1961da7c6ee684fca0f6572c8f0a2c7e83"
+      },
+      {
+        "path": "artifacts/phase13/after/en-375-dashboard.png",
+        "sha256": "74f596cbbf54f82fd73f1b92d0f29d7bdd84e251eb27c3a03f074d15827d749a"
+      },
+      {
+        "path": "artifacts/phase13/after/en-375-editor.png",
+        "sha256": "24a7dc28f9b219d26d2b3b94019f5a3ce1c52f388637b22fdac856d02c9a2760"
+      },
+      {
+        "path": "artifacts/phase13/after/en-375-property.png",
+        "sha256": "a100d98b98756a41ad62c58c0c7958bb1f08ab0a7f68f17af7ea50ea0b667590"
+      },
+      {
+        "path": "artifacts/phase13/after/en-375-publishing.png",
+        "sha256": "10865ed55e40b54c1fa508b70005fef2532b6bbe4eb2c5214e0d80c29038fa09"
+      },
+      {
+        "path": "artifacts/phase13/after/en-375-quick-add.png",
+        "sha256": "038a451efa047610ca14a8a267cb110b56c53ed57f478612b0e8b22d0a37ca57"
+      },
+      {
+        "path": "artifacts/phase13/after/enquiry.png",
+        "sha256": "864226bff6264a5e17a8daf7c1a86cfc19212b0da268299d0eb1138a451650e2"
+      },
+      {
+        "path": "artifacts/phase13/after/mobile-chromium-ar-enquiry.png",
+        "sha256": "6573027ca782c97186c258f17058c7c532fb3817449df55e0261f53927d1ed65"
+      },
+      {
+        "path": "artifacts/phase13/after/mobile-chromium-ar-queue-and-enquiry.png",
+        "sha256": "b193ddc60290c209b8961763a42c472b4cf5746a1f863451014b987a138b5452"
+      },
+      {
+        "path": "artifacts/phase13/after/mobile-chromium-ar-welcome.png",
+        "sha256": "ea0a1e493c0d3788da4f39b99e86e73a8b23e3a4aba9d15289637e26ffad488f"
+      },
+      {
+        "path": "artifacts/phase13/after/mobile-chromium-en-enquiry.png",
+        "sha256": "3d6904ed1becb467d6f8ce3d6cb0cd3b6540fb59df9c8f832d731ecf29675e35"
+      },
+      {
+        "path": "artifacts/phase13/after/mobile-chromium-en-queue-and-enquiry.png",
+        "sha256": "6e194d175cd5734abe0e6aeb11327b5bfb0efa8d1e4e3bf4486771c039f7edf9"
+      },
+      {
+        "path": "artifacts/phase13/after/mobile-chromium-en-welcome.png",
+        "sha256": "f01c4871f8871eb1434c497b95e6af3707756322ca760a8488975fbf369bd6ba"
+      },
+      {
+        "path": "artifacts/phase13/after/new-property.png",
+        "sha256": "12ec5e34b30e2d2b1333b84ee35611c189957bde13660d3ba24b97766835ab3f"
+      },
+      {
+        "path": "artifacts/phase13/after/outcome.png",
+        "sha256": "d3ae0fc49f5eab77b44fd2e061cfe7cc7a4d7159f6fbc7e397557a97706ba955"
+      },
+      {
+        "path": "artifacts/phase13/after/publishing.png",
+        "sha256": "e56d90b08774624da7b224f3205ab88f239277fe2c47ae107b47b1679fcd7366"
+      },
+      {
+        "path": "artifacts/phase13/after/review.png",
+        "sha256": "d72de8f5e817745728077c5b107bc2efd2e0014f36c0468f7481cd75a2785aa9"
+      }
+    ]
+  },
+  "verification": {
+    "playwright": {
+      "passed": 997,
+      "expectedSkips": 37,
+      "failed": 0,
+      "newFirstUseCases": 14
+    },
+    "accessibility": {
+      "checks": 440,
+      "violations": 0
+    },
+    "build": "Webpack production passed; default Turbopack blocked by sandbox worker-port restriction",
+    "source": "Actual Next.js browser captures; baseline development, final production",
+    "actionCounts": {
+      "queueBefore": 19,
+      "queueAfter": 18,
+      "completeNewJourneyAfter": 22
+    }
+  }
+}

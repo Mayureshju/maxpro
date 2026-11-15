@@ -2781,3 +2781,30 @@ html:has(.ag-property-editor) {
  .prototype-shell .fx-results-bar .px-toggle-group { grid-column:2; inline-size:72px; block-size:44px; }
  .prototype-shell .fx-results-bar .px-toggle-group button { flex:1; min-inline-size:0; padding-inline:8px; }
 }
+
+/* First-use guidance shares the existing operational surfaces. */
+.ag-getting-started { border:1px solid var(--line); border-inline-start:3px solid var(--primary); background:var(--surface); padding:24px; margin-block:0 24px; }
+.ag-getting-started header { display:flex; align-items:flex-start; justify-content:space-between; gap:16px; }
+.ag-getting-started h2 { font-size:22px; margin-block:8px; }
+.ag-getting-started p { color:var(--muted); max-inline-size:70ch; }
+.ag-getting-started ol { list-style:none; padding:0; margin-block:20px; display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:16px; }
+.ag-getting-started li { display:flex; align-items:flex-start; gap:8px; min-inline-size:0; }
+.ag-getting-started li>span { display:grid; place-items:center; inline-size:26px; block-size:26px; flex-shrink:0; border:1px solid var(--line-strong); border-radius:50%; color:var(--muted); }
+.ag-getting-started li.complete>span { color:var(--primary); background:var(--primary-soft); }
+.ag-getting-started li a { min-block-size:44px; font-weight:600; font-size:14px; }
+.ag-getting-started small { display:block; font-weight:400; color:var(--muted); margin-block-start:4px; }
+.ag-guide-help { margin-block:0 20px; }
+.ag-quick-add { max-inline-size:800px; }
+.ag-quick-add>.px-button { margin-block-start:20px; }
+.ag-assistance-warnings { padding:12px; background:var(--surface-soft); margin-block:16px; }
+.ag-first-enquiry { border:1px solid var(--line); padding:20px; margin-block:20px; background:var(--surface-soft); }
+.ag-first-enquiry h3 { margin-block:0 8px; }
+.ag-first-enquiry p { max-inline-size:65ch; margin-block:8px 16px; }
+@media(max-width:900px) { .ag-getting-started ol { grid-template-columns:1fr 1fr; } }
+@media(max-width:650px) {
+ .ag-getting-started { padding:16px; }
+ .ag-getting-started ol { grid-template-columns:1fr; gap:12px; }
+ .ag-getting-started h2 { font-size:20px; }
+ .ag-getting-started>.px-button { inline-size:100%; }
+ .ag-property-editor .ag-editor-footer>div { flex-wrap:wrap; }
+}

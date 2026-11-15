@@ -669,6 +669,7 @@ function LeadDossier({lead: l}: {lead: CanonicalLead}) {const copyText=useProtot
     error: string | null;
     message?: string;
   }>({error: null});
+  const exampleOwner=state.organization.members.find(m=>m.organizationId===l.organizationId&&m.role==='owner'&&m.status==='active-demo');
   function run(cmd: CrmCommand) {
     const r = crmCommand(cmd);
     setResult({
@@ -697,7 +698,7 @@ function LeadDossier({lead: l}: {lead: CanonicalLead}) {const copyText=useProtot
           </Link>
         }
       />
-      <CrmNavigation /><LeadAssistance leadId={l.id}/>
+      {l.sourceEventId.startsWith('DEMO-FIRST-')&&<div className="ag-first-enquiry"><strong>{t('Your fictional property enquiry','استفسار عقارك الخيالي')}</strong><p>{t('This example connects the property, source channel and agent follow-up. Review ownership below, then open the conversation to save a local reply.','يربط هذا المثال العقار وقناة المصدر ومتابعة الوكيل. راجع المسؤولية أدناه ثم افتح المحادثة لحفظ رد محلي.')}</p>{!l.assignee&&exampleOwner&&can(state.organization,'lead.assign')&&<><p>{t('No agent is assigned yet. For this example, make the demo owner available and assign this enquiry to them.','لم يُعيّن وكيل بعد. لهذا المثال، اجعل المالك التجريبي متاحاً وأسند إليه الاستفسار.')} <bdi>{exampleOwner.alias}</bdi></p><button type="button" className="px-button px-button-outline" onClick={()=>{if(run({type:'availability',agent:exampleOwner.alias,available:true}))run({type:'assign',leadId:l.id,agent:exampleOwner.alias});}}>{t('Make owner available & assign','إتاحة المالك وتعيينه')}</button></>}<div className="ag-action-row"><Link className="px-text-link" href={`/workspace/inventory/${l.propertyId}`}>{t('Back to property','العودة إلى العقار')}</Link><Link className="px-text-link" href="/workspace">{t('Back to dashboard','العودة إلى لوحة الوكالة')}</Link></div></div>}<CrmNavigation /><LeadAssistance leadId={l.id}/>
       <Feedback {...result} />
       <div className="crm-dossier">
         <div>

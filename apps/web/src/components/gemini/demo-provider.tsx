@@ -1,8 +1,8 @@
 'use client';
 import {usePrototypeCopy} from '@/components/prototype/use-prototype-copy';
 import {createContext,useContext,useMemo,useState,useSyncExternalStore} from 'react';
-import {geminiPlans,getConnector,type ConnectorId,type PlanId} from '@/lib/gemini-product';
-import {findProperty,sharingApprovalContext,demoOrganizationId,newProperty,reviseProperty,seedProperties,type CanonicalProperty,type DemoJob} from '@/lib/canonical-property';
+import {geminiPlans,getConnector,type ConnectorId,type PlanId,type CanonicalDraft} from '@/lib/gemini-product';
+import {findProperty,sharingApprovalContext,demoOrganizationId,newProperty,blankFacts,reviseProperty,seedProperties,type CanonicalProperty,type DemoJob} from '@/lib/canonical-property';
 import {isConnector,isRecord,readFacts,readJob,readProperty,strings} from '@/lib/property-storage';
 import {applyCrmCommand,seedCrm,crmAgentNames,type CrmRepository,type CrmCommand} from '@/lib/lead-crm';
 import {restoreCrm} from '@/lib/lead-storage';
@@ -26,7 +26,7 @@ type DemoContext={
  crmCommand:(command:CrmCommand)=>{error:string|null;leadId?:string};
  state:DemoState;update:(fn:(prev:DemoState)=>DemoState)=>void;reset:()=>void;hydrated:boolean;storageWarning:string;
  prepareSharing:(id:string,revision:number,kind:'link'|'message',text:string,locale:'en'|'ar',approvedContext:string)=>string|null;
- createProperty:()=>string;saveProperty:(id:string,revision:number,changes:PropertyChanges,action:string,approved?:boolean)=>boolean;
+ createProperty:(facts?:Partial<CanonicalDraft>)=>string;saveProperty:(id:string,revision:number,changes:PropertyChanges,action:string,approved?:boolean)=>boolean;
  simulatePublishing:(id:string,revision:number,selected:ConnectorId[],approved:boolean,context:string)=>string|null;
  prepareConnector:(id:ConnectorId,prepared:boolean,acknowledged:boolean)=>string|null;
  retryJob:(id:string,revision:number,approved:boolean,context:string)=>string|null;cancelJob:(id:string)=>string|null;
@@ -118,7 +118,7 @@ export function createDemoStore(){
   update:(fn:(s:DemoState)=>DemoState)=>{const s=snapshot.state;const next=fn(s);if(next.plan!==s.plan){if(guard('billing'))return;organizationCommand({type:'plan',organizationId:activeOrganizationId(s.organization),plan:next.plan});return;}if(next.assignMethod!==s.assignMethod||next.fallbackAgent!==s.fallbackAgent||next.activeAgents!==s.activeAgents){if(guard('lead.assign'))return;update(()=>next);record('assignment-settings-updated','workspace');return;}},reset:()=>{if(guard('admin'))return;update(()=>({...initialState,properties:seedProperties(),crm:seedCrm(seedProperties())}));},
   campaignCommand:(command:CampaignCommand)=>{const approving=command.type==='transition'&&['review-policy','approve-advertiser','approve-admin','simulate','reject'].includes(command.action);const denied=guard(approving?'campaign.approve':'campaign.edit');if(denied)return {error:denied};if(command.type==='suggest'){const limit=effectivePlan(snapshot.state).aiCredits;if(limit!==null&&usage(snapshot.state).credits>=limit)return {error:'Illustrative AI-credit quota reached. No model request was made.'};}const adjusted=command.type==='create'?{...command,input:{...command.input,adminRequired:command.input.adminRequired||workspaceOrganization(snapshot.state.organization).settings.approvalRequired}}:command;const result=applyCampaignCommand(snapshot.state,adjusted,localMarketingAI);if(!result.error)update(s=>({...s,campaigns:result.campaigns,crm:result.crm,organization:audit(s.organization,`campaign:${command.type}`,result.id??'campaign')}));return {error:result.error,id:result.id,leadId:result.leadId,campaign:result.campaigns.find(c=>c.id===result.id)};},
   crmCommand:(command:CrmCommand)=>{if(command.type==='availability'){const member=snapshot.state.organization.members.find(m=>m.organizationId===activeOrganizationId(snapshot.state.organization)&&m.alias===command.agent);if(member){const denied=guard('lead.assign');if(denied)return {error:denied};const result=organizationCommand({type:'member',id:member.id,revision:member.revision,role:member.role,status:member.status,available:command.available},false);if(result.error)return result;}}const denied=guard(command.type==='assign'||command.type==='availability'?'lead.assign':command.type==='spend'?'billing':'lead.work');if(denied)return {error:denied};const result=applyCrmCommand(snapshot.state,command);if(result.crm!==snapshot.state.crm)update(s=>({...s,crm:result.crm,organization:audit(s.organization,`crm:${command.type}`,'leadId' in command?command.leadId:'workspace')}));return {error:result.error,leadId:result.leadId};},
-  createProperty:()=>{if(guard('property.edit'))return '';const id=`DEMO-${crypto.randomUUID()}`;update(p=>({...p,properties:{...p.properties,[id]:newProperty(id,undefined,activeOrganizationId(p.organization))},organization:audit(p.organization,'property-created',id,1)}));return id;},
+  createProperty:(initial?:Partial<CanonicalDraft>)=>{if(guard('property.edit'))return '';const facts=readFacts({...blankFacts,...initial,amenities:initial?.amenities??[]});if(!facts)return '';const id=`DEMO-${crypto.randomUUID()}`;update(p=>({...p,properties:{...p.properties,[id]:{...newProperty(id,undefined,activeOrganizationId(p.organization)),facts}},organization:audit(p.organization,'property-created',id,1)}));return id;},
   saveProperty:(id:string,revision:number,changes:PropertyChanges,action:string,approved=false)=>{
    if(guard('property.edit'))return false;const p=findProperty(snapshot.state.properties,id);if(!p||p.revision!==revision)return false;
    const next=reviseProperty(p,changes,action,approved);if(!readProperty(next,activeOrganizationId(snapshot.state.organization)))return false;

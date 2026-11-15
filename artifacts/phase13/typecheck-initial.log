@@ -1,0 +1,11 @@
+
+> maxpro-platform@0.1.0 typecheck /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3
+> pnpm --dir apps/web typecheck
+
+
+> @maxpro/web@0.1.0 typecheck /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> tsc --noEmit
+
+src/components/agency/property-wizard.tsx(43,1178): error TS2304: Cannot find name 'value'.
+ ELIFECYCLE  Command failed with exit code 2.
+ ELIFECYCLE  Command failed with exit code 2.

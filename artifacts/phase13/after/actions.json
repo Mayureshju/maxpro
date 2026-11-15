@@ -1,0 +1,30 @@
+{
+  "id": "DEMO-fbcca5f4-fa2e-421e-af2a-47ec3f26d0c0",
+  "queueActivations": 18,
+  "actions": [
+    "Create demo agency",
+    "Add property",
+    "Save Quick Add and complete listing",
+    "Continue to details",
+    "Add fictional sample assets",
+    "Open channel-required details",
+    "Review owner authorization",
+    "Suggest bilingual copy",
+    "Accept copy",
+    "Go directly to review",
+    "Review facts/languages",
+    "Save and enter Publish & Promote",
+    "Select portals goal",
+    "Select Qatar Living",
+    "Acknowledge fictional setup",
+    "Prepare local setup",
+    "Approve listing",
+    "Simulate listing",
+    "Create fictional enquiry",
+    "Make demo owner available and assign enquiry",
+    "Open conversation",
+    "Save local agent reply"
+  ],
+  "decisionActivations": 22,
+  "method": "Button/link, radio and checkbox activations count once. Text entry, scrolling and screenshot capture excluded. Scripted evaluator walkthrough; no user participants."
+}

@@ -15,3 +15,8 @@ export function listingCopy(f:CanonicalDraft){
   ar:[f.titleAr,location,f.areaSqm>0?`${f.areaSqm} م²`:'',f.beds>0?`${f.beds} غرف نوم`:'',f.priceQar>0?`${f.priceQar} ر.ق${f.purpose==='rent'?(f.rentalFrequency==='year'?' / سنة':' / شهر'):''}`:'',f.amenities.join('، ')].filter(Boolean).join('. '),
  };
 }
+
+/** Warnings describe absent canonical sources; they never fill or infer a fact. */
+export function copySourceWarnings(f:CanonicalDraft,ar=false){
+ return ([['titleEn','English title','العنوان بالإنجليزية'],['titleAr','Arabic title','العنوان بالعربية'],['city','City','المدينة'],['district','District / zone','المنطقة'],['priceQar','Positive price (QAR)','سعر موجب (ر.ق)'],['areaSqm','Positive area (m²)','مساحة موجبة (م²)']] as const).filter(([key])=>typeof f[key]==='number'?Number(f[key])<=0:!String(f[key]).trim()).map(([,en,arabic])=>(ar?'المصدر الناقص: ':'Missing source: ')+(ar?arabic:en));
+}

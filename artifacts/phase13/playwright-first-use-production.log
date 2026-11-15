@@ -1,0 +1,14 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test first-use.spec.ts --timeout=60000 --trace=off --workers=2
+
+
+Running 14 tests using 2 workers
+
+(node:72982) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:72981) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   2 [chromium] › tests/e2e/first-use.spec.ts:13:1 › first-use progress derives one saved property journey and ignores navigation/preparation alone (276ms)
+  ✓   1 [mobile-chromium] › tests/e2e/first-use.spec.ts:13:1 › first-use progress derives one saved property journey and ignores navigation/preparation alone (290ms)
+ ELIFECYCLE  Command failed.

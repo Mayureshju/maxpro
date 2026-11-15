@@ -1,0 +1,118 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test first-use.spec.ts --timeout=60000 --trace=off --workers=2
+
+
+Running 14 tests using 2 workers
+
+(node:73407) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:73408) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   2 [chromium] › tests/e2e/first-use.spec.ts:13:1 › first-use progress derives one saved property journey and ignores navigation/preparation alone (105ms)
+  ✓   1 [mobile-chromium] › tests/e2e/first-use.spec.ts:13:1 › first-use progress derives one saved property journey and ignores navigation/preparation alone (130ms)
+  ✓   3 [chromium] › tests/e2e/first-use.spec.ts:23:2 › first use en: empty agency → quick add → resume → review → local queue → fictional enquiry → follow-up (3.4s)
+  ✘   5 [chromium] › tests/e2e/first-use.spec.ts:48:2 › first use en: full editor carries quick facts and repeated submit creates one draft (162ms)
+(node:73438) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   4 [mobile-chromium] › tests/e2e/first-use.spec.ts:23:2 › first use en: empty agency → quick add → resume → review → local queue → fictional enquiry → follow-up (4.1s)
+  ✘   7 [mobile-chromium] › tests/e2e/first-use.spec.ts:48:2 › first use en: full editor carries quick facts and repeated submit creates one draft (203ms)
+(node:73447) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   6 [chromium] › tests/e2e/first-use.spec.ts:54:2 › first use en: missing source warnings never invent facts or silently save (582ms)
+  ✓   9 [mobile-chromium] › tests/e2e/first-use.spec.ts:54:2 › first use en: missing source warnings never invent facts or silently save (430ms)
+  ✓   8 [chromium] › tests/e2e/first-use.spec.ts:23:2 › first use ar: empty agency → quick add → resume → review → local queue → fictional enquiry → follow-up (2.6s)
+  ✘  11 [chromium] › tests/e2e/first-use.spec.ts:48:2 › first use ar: full editor carries quick facts and repeated submit creates one draft (171ms)
+(node:73461) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  12 [chromium] › tests/e2e/first-use.spec.ts:54:2 › first use ar: missing source warnings never invent facts or silently save (542ms)
+  ✓  10 [mobile-chromium] › tests/e2e/first-use.spec.ts:23:2 › first use ar: empty agency → quick add → resume → review → local queue → fictional enquiry → follow-up (3.3s)
+  ✘  13 [mobile-chromium] › tests/e2e/first-use.spec.ts:48:2 › first use ar: full editor carries quick facts and repeated submit creates one draft (179ms)
+(node:73473) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  14 [mobile-chromium] › tests/e2e/first-use.spec.ts:54:2 › first use ar: missing source warnings never invent facts or silently save (586ms)
+
+
+  1) [chromium] › tests/e2e/first-use.spec.ts:48:2 › first use en: full editor carries quick facts and repeated submit creates one draft 
+
+    TypeError: Cannot read properties of null (reading 'properties')
+
+      47 |  });
+      48 |  test(`first use ${locale}: full editor carries quick facts and repeated submit creates one draft`,async({page})=>{
+    > 49 |   await page.goto(`/${locale}/workspace/inventory/new`);const before=Object.keys((await snapshot(page)).properties).length;
+         |                                                                                                         ^
+      50 |   await page.getByRole('textbox',{name:t('Property title','عنوان العقار'),exact:true}).fill('Demo carried title');await page.getByRole('textbox',{name:t('City','المدينة'),exact:true}).fill('Doha');await page.getByRole('button',{name:t('Continue in full editor','متابعة في المحرر الكامل'),exact:true}).click();await expect(page).toHaveURL(/\/edit$/);let s=await snapshot(page);expect(Object.keys(s.properties)).toHaveLength(before+1);const carried=s.properties[page.url().split('/').at(-2)!];expect(carried.facts.city).toBe('Doha');expect(ar?carried.facts.titleAr:carried.facts.titleEn).toBe('Demo carried title');
+      51 |   await page.goto(`/${locale}/workspace/inventory/new`);await page.getByRole('textbox',{name:t('Property title','عنوان العقار'),exact:true}).fill('Demo one submission');await page.getByRole('textbox',{name:t('City','المدينة'),exact:true}).fill('Doha');await page.getByRole('spinbutton',{name:t('Asking price (QAR)','السعر المطلوب (ر.ق)'),exact:true}).fill('8500');await page.locator('form.ag-quick-add').evaluate(form=>{(form as HTMLFormElement).requestSubmit();(form as HTMLFormElement).requestSubmit();});await expect(page).toHaveURL(/\/edit$/);s=await snapshot(page);expect(Object.keys(s.properties)).toHaveLength(before+2);
+      52 |   await page.goto(`${page.url()}?step=1.5`);await expect(page.locator('.ag-steps button[aria-current="step"]')).toContainText(t('Photos & details','الصور والتفاصيل'));await expect(page.getByRole('textbox',{name:t('Title — English','العنوان بالإنجليزية'),exact:true})).toBeVisible();
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/first-use.spec.ts:49:105
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/first-use-first-use-en-ful-2078b-ed-submit-creates-one-draft-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/first-use-first-use-en-ful-2078b-ed-submit-creates-one-draft-chromium/error-context.md
+
+  2) [chromium] › tests/e2e/first-use.spec.ts:48:2 › first use ar: full editor carries quick facts and repeated submit creates one draft 
+
+    TypeError: Cannot read properties of null (reading 'properties')
+
+      47 |  });
+      48 |  test(`first use ${locale}: full editor carries quick facts and repeated submit creates one draft`,async({page})=>{
+    > 49 |   await page.goto(`/${locale}/workspace/inventory/new`);const before=Object.keys((await snapshot(page)).properties).length;
+         |                                                                                                         ^
+      50 |   await page.getByRole('textbox',{name:t('Property title','عنوان العقار'),exact:true}).fill('Demo carried title');await page.getByRole('textbox',{name:t('City','المدينة'),exact:true}).fill('Doha');await page.getByRole('button',{name:t('Continue in full editor','متابعة في المحرر الكامل'),exact:true}).click();await expect(page).toHaveURL(/\/edit$/);let s=await snapshot(page);expect(Object.keys(s.properties)).toHaveLength(before+1);const carried=s.properties[page.url().split('/').at(-2)!];expect(carried.facts.city).toBe('Doha');expect(ar?carried.facts.titleAr:carried.facts.titleEn).toBe('Demo carried title');
+      51 |   await page.goto(`/${locale}/workspace/inventory/new`);await page.getByRole('textbox',{name:t('Property title','عنوان العقار'),exact:true}).fill('Demo one submission');await page.getByRole('textbox',{name:t('City','المدينة'),exact:true}).fill('Doha');await page.getByRole('spinbutton',{name:t('Asking price (QAR)','السعر المطلوب (ر.ق)'),exact:true}).fill('8500');await page.locator('form.ag-quick-add').evaluate(form=>{(form as HTMLFormElement).requestSubmit();(form as HTMLFormElement).requestSubmit();});await expect(page).toHaveURL(/\/edit$/);s=await snapshot(page);expect(Object.keys(s.properties)).toHaveLength(before+2);
+      52 |   await page.goto(`${page.url()}?step=1.5`);await expect(page.locator('.ag-steps button[aria-current="step"]')).toContainText(t('Photos & details','الصور والتفاصيل'));await expect(page.getByRole('textbox',{name:t('Title — English','العنوان بالإنجليزية'),exact:true})).toBeVisible();
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/first-use.spec.ts:49:105
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/first-use-first-use-ar-ful-d0109-ed-submit-creates-one-draft-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/first-use-first-use-ar-ful-d0109-ed-submit-creates-one-draft-chromium/error-context.md
+
+  3) [mobile-chromium] › tests/e2e/first-use.spec.ts:48:2 › first use en: full editor carries quick facts and repeated submit creates one draft 
+
+    TypeError: Cannot read properties of null (reading 'properties')
+
+      47 |  });
+      48 |  test(`first use ${locale}: full editor carries quick facts and repeated submit creates one draft`,async({page})=>{
+    > 49 |   await page.goto(`/${locale}/workspace/inventory/new`);const before=Object.keys((await snapshot(page)).properties).length;
+         |                                                                                                         ^
+      50 |   await page.getByRole('textbox',{name:t('Property title','عنوان العقار'),exact:true}).fill('Demo carried title');await page.getByRole('textbox',{name:t('City','المدينة'),exact:true}).fill('Doha');await page.getByRole('button',{name:t('Continue in full editor','متابعة في المحرر الكامل'),exact:true}).click();await expect(page).toHaveURL(/\/edit$/);let s=await snapshot(page);expect(Object.keys(s.properties)).toHaveLength(before+1);const carried=s.properties[page.url().split('/').at(-2)!];expect(carried.facts.city).toBe('Doha');expect(ar?carried.facts.titleAr:carried.facts.titleEn).toBe('Demo carried title');
+      51 |   await page.goto(`/${locale}/workspace/inventory/new`);await page.getByRole('textbox',{name:t('Property title','عنوان العقار'),exact:true}).fill('Demo one submission');await page.getByRole('textbox',{name:t('City','المدينة'),exact:true}).fill('Doha');await page.getByRole('spinbutton',{name:t('Asking price (QAR)','السعر المطلوب (ر.ق)'),exact:true}).fill('8500');await page.locator('form.ag-quick-add').evaluate(form=>{(form as HTMLFormElement).requestSubmit();(form as HTMLFormElement).requestSubmit();});await expect(page).toHaveURL(/\/edit$/);s=await snapshot(page);expect(Object.keys(s.properties)).toHaveLength(before+2);
+      52 |   await page.goto(`${page.url()}?step=1.5`);await expect(page.locator('.ag-steps button[aria-current="step"]')).toContainText(t('Photos & details','الصور والتفاصيل'));await expect(page.getByRole('textbox',{name:t('Title — English','العنوان بالإنجليزية'),exact:true})).toBeVisible();
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/first-use.spec.ts:49:105
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/first-use-first-use-en-ful-2078b-ed-submit-creates-one-draft-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/first-use-first-use-en-ful-2078b-ed-submit-creates-one-draft-mobile-chromium/error-context.md
+
+  4) [mobile-chromium] › tests/e2e/first-use.spec.ts:48:2 › first use ar: full editor carries quick facts and repeated submit creates one draft 
+
+    TypeError: Cannot read properties of null (reading 'properties')
+
+      47 |  });
+      48 |  test(`first use ${locale}: full editor carries quick facts and repeated submit creates one draft`,async({page})=>{
+    > 49 |   await page.goto(`/${locale}/workspace/inventory/new`);const before=Object.keys((await snapshot(page)).properties).length;
+         |                                                                                                         ^
+      50 |   await page.getByRole('textbox',{name:t('Property title','عنوان العقار'),exact:true}).fill('Demo carried title');await page.getByRole('textbox',{name:t('City','المدينة'),exact:true}).fill('Doha');await page.getByRole('button',{name:t('Continue in full editor','متابعة في المحرر الكامل'),exact:true}).click();await expect(page).toHaveURL(/\/edit$/);let s=await snapshot(page);expect(Object.keys(s.properties)).toHaveLength(before+1);const carried=s.properties[page.url().split('/').at(-2)!];expect(carried.facts.city).toBe('Doha');expect(ar?carried.facts.titleAr:carried.facts.titleEn).toBe('Demo carried title');
+      51 |   await page.goto(`/${locale}/workspace/inventory/new`);await page.getByRole('textbox',{name:t('Property title','عنوان العقار'),exact:true}).fill('Demo one submission');await page.getByRole('textbox',{name:t('City','المدينة'),exact:true}).fill('Doha');await page.getByRole('spinbutton',{name:t('Asking price (QAR)','السعر المطلوب (ر.ق)'),exact:true}).fill('8500');await page.locator('form.ag-quick-add').evaluate(form=>{(form as HTMLFormElement).requestSubmit();(form as HTMLFormElement).requestSubmit();});await expect(page).toHaveURL(/\/edit$/);s=await snapshot(page);expect(Object.keys(s.properties)).toHaveLength(before+2);
+      52 |   await page.goto(`${page.url()}?step=1.5`);await expect(page.locator('.ag-steps button[aria-current="step"]')).toContainText(t('Photos & details','الصور والتفاصيل'));await expect(page.getByRole('textbox',{name:t('Title — English','العنوان بالإنجليزية'),exact:true})).toBeVisible();
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/first-use.spec.ts:49:105
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/first-use-first-use-ar-ful-d0109-ed-submit-creates-one-draft-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/first-use-first-use-ar-ful-d0109-ed-submit-creates-one-draft-mobile-chromium/error-context.md
+
+  4 failed
+    [chromium] › tests/e2e/first-use.spec.ts:48:2 › first use en: full editor carries quick facts and repeated submit creates one draft 
+    [chromium] › tests/e2e/first-use.spec.ts:48:2 › first use ar: full editor carries quick facts and repeated submit creates one draft 
+    [mobile-chromium] › tests/e2e/first-use.spec.ts:48:2 › first use en: full editor carries quick facts and repeated submit creates one draft 
+    [mobile-chromium] › tests/e2e/first-use.spec.ts:48:2 › first use ar: full editor carries quick facts and repeated submit creates one draft 
+  10 passed (10.3s)
+ ELIFECYCLE  Command failed with exit code 1.

@@ -1,0 +1,50 @@
+[
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "workspace",
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "workspace/inventory/new",
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "workspace",
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "workspace/inventory/new",
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "workspace",
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "workspace/inventory/new",
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "workspace",
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "workspace/inventory/new",
+    "violations": []
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "id": "DEMO-7afe8e90-3119-4569-a36c-33a8b47b76cb",
+  "actions": [
+    "Create demo agency",
+    "Add property",
+    "Create empty draft",
+    "Continue to details",
+    "Add fictional sample assets",
+    "Open channel-required details",
+    "Review owner authorization",
+    "Continue to optional assistance",
+    "Suggest bilingual copy",
+    "Accept copy",
+    "Continue to review",
+    "Review facts/languages",
+    "Save and enter Publish & Promote",
+    "Select portals goal",
+    "Select Qatar Living",
+    "Acknowledge fictional setup",
+    "Prepare local setup",
+    "Approve listing",
+    "Simulate listing",
+    "Return to property",
+    "View property enquiries"
+  ],
+  "decisionActivations": 21,
+  "observation": "No direct fictional enquiry action after publishing. Property enquiries route exposes the full technical intake simulator."
+}

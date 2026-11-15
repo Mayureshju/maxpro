@@ -1,0 +1,136 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test first-use.spec.ts --timeout=60000 --trace=off --workers=2
+
+
+Running 10 tests using 2 workers
+
+(node:72358) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:72357) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [mobile-chromium] › tests/e2e/first-use.spec.ts:13:1 › first-use progress derives one saved property journey and ignores navigation/preparation alone (304ms)
+  ✓   2 [chromium] › tests/e2e/first-use.spec.ts:13:1 › first-use progress derives one saved property journey and ignores navigation/preparation alone (303ms)
+  ✘   4 [chromium] › tests/e2e/first-use.spec.ts:23:2 › first use en: empty agency → quick add → resume → review → local queue → fictional enquiry → follow-up (2.0m)
+  ✘   3 [mobile-chromium] › tests/e2e/first-use.spec.ts:23:2 › first use en: empty agency → quick add → resume → review → local queue → fictional enquiry → follow-up (2.0m)
+(node:72852) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:72853) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   5 [chromium] › tests/e2e/first-use.spec.ts:48:2 › first use en: missing source warnings never invent facts or silently save (1.3s)
+  ✓   6 [mobile-chromium] › tests/e2e/first-use.spec.ts:48:2 › first use en: missing source warnings never invent facts or silently save (1.4s)
+  ✘   7 [chromium] › tests/e2e/first-use.spec.ts:23:2 › first use ar: empty agency → quick add → resume → review → local queue → fictional enquiry → follow-up (2.0m)
+  ✘   8 [mobile-chromium] › tests/e2e/first-use.spec.ts:23:2 › first use ar: empty agency → quick add → resume → review → local queue → fictional enquiry → follow-up (2.0m)
+(node:73255) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:73256) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   9 [chromium] › tests/e2e/first-use.spec.ts:48:2 › first use ar: missing source warnings never invent facts or silently save (2.0s)
+  ✓  10 [mobile-chromium] › tests/e2e/first-use.spec.ts:48:2 › first use ar: missing source warnings never invent facts or silently save (2.1s)
+
+
+  1) [chromium] › tests/e2e/first-use.spec.ts:23:2 › first use en: empty agency → quick add → resume → review → local queue → fictional enquiry → follow-up 
+
+    Test timeout of 120000ms exceeded.
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/first-use-first-use-en-emp-b31a2-ctional-enquiry-→-follow-up-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/first-use-first-use-en-emp-b31a2-ctional-enquiry-→-follow-up-chromium/error-context.md
+
+  2) [chromium] › tests/e2e/first-use.spec.ts:23:2 › first use ar: empty agency → quick add → resume → review → local queue → fictional enquiry → follow-up 
+
+    Test timeout of 120000ms exceeded.
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/first-use-first-use-ar-emp-9e008-ctional-enquiry-→-follow-up-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/first-use-first-use-ar-emp-9e008-ctional-enquiry-→-follow-up-chromium/error-context.md
+
+  3) [mobile-chromium] › tests/e2e/first-use.spec.ts:23:2 › first use en: empty agency → quick add → resume → review → local queue → fictional enquiry → follow-up 
+
+    Test timeout of 120000ms exceeded.
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/first-use-first-use-en-emp-b31a2-ctional-enquiry-→-follow-up-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/first-use-first-use-en-emp-b31a2-ctional-enquiry-→-follow-up-mobile-chromium/error-context.md
+
+  4) [mobile-chromium] › tests/e2e/first-use.spec.ts:23:2 › first use ar: empty agency → quick add → resume → review → local queue → fictional enquiry → follow-up 
+
+    Test timeout of 120000ms exceeded.
+
+    Error: locator.click: Test timeout of 120000ms exceeded.
+    Browser logs:
+
+    <launching> /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,HttpsUpgrades,HttpsFirstBalancedModeAutoEnable,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,AvoidCorsURLLoaderRestartOnRedirect,TcpPortRandomizationWin,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,PreconnectToSearch,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface,SkipListAccountsWithoutGaiaCookies --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --enable-unsafe-swiftshader --edge-skip-compat-layer-relaunch --disable-stack-profiler --disable-infobars --disable-sync --do-not-de-elevate --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/var/folders/_t/w2bsc67x24g1qv_2kqlhq3t80000gp/T/playwright_chromiumdev_profile-p5TIm5 --remote-debugging-pipe --no-startup-window
+    <launched> pid=72859
+    [pid=72859][err] Trying to load the allocator multiple times. This is *not* supported.
+    [pid=72859][err] [72866:57860412:1115/121354.593535:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+    [pid=72859][err] [72866:57860546:1115/121354.595342:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+    [pid=72859][err] [72866:57860412:1115/121354.596245:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+    [pid=72859][err] [72866:57860546:1115/121354.596273:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+    [pid=72859][err] [72866:57860412:1115/121354.596380:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+    [pid=72859][err] [72866:57860546:1115/121354.596414:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+    [pid=72859][err] [72866:57860412:1115/121355.900752:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+    [pid=72859][err] [72866:57860546:1115/121355.900817:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+    [pid=72859][err] [72866:57860412:1115/121355.901384:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+    [pid=72859][err] [72866:57860546:1115/121355.901433:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+    [pid=72859][err] [72866:57860412:1115/121355.901536:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+    [pid=72859][err] [72866:57860546:1115/121355.901580:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+    [pid=72859][err] [72866:57860412:1115/121356.124174:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+    [pid=72859][err] [72866:57860546:1115/121356.124231:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+    [pid=72859][err] [72866:57860412:1115/121356.678404:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+    [pid=72859][err] [72866:57860546:1115/121356.678464:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+    [pid=72859][err] [72866:57860412:1115/121356.829831:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+    [pid=72859][err] [72866:57860546:1115/121356.829909:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+    [pid=72859][err] [72866:57860412:1115/121357.619634:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+    [pid=72859][err] [72866:57860546:1115/121357.619689:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+    [pid=72859] <gracefully close start>
+    Call log:
+      - waiting for locator('[role="option"][data-value="Demo Agency Owner"]')
+        - locator resolved to <li class="" role="option" id="_r_v_-option-0" aria-disabled="true" data-choice-index="0" aria-selected="false" title="Demo Agency Owner" data-value="Demo Agency Owner">…</li>
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is not enabled
+        - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is not enabled
+        - retrying click action
+          - waiting 100ms
+        223 × waiting for element to be visible, enabled and stable
+            - element is not enabled
+          - retrying click action
+            - waiting 500ms
+        - waiting for element to be visible, enabled and stable
+
+
+       at fixtures.ts:23
+
+      21 |  if(await control.evaluate(el=>el.tagName==='SELECT')){await control.selectOption(value);return;}
+      22 |  await control.fill(value);
+    > 23 |  await page.locator(`[role="option"][data-value="${value}"]`).click();
+         |                                                               ^
+      24 | }
+      25 |
+      26 | import arabicCopy from '../../messages/prototype-ar.json';
+        at selectChoice (/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/fixtures.ts:23:63)
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/first-use.spec.ts:41:507
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/first-use-first-use-ar-emp-9e008-ctional-enquiry-→-follow-up-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/first-use-first-use-ar-emp-9e008-ctional-enquiry-→-follow-up-mobile-chromium/error-context.md
+
+  4 failed
+    [chromium] › tests/e2e/first-use.spec.ts:23:2 › first use en: empty agency → quick add → resume → review → local queue → fictional enquiry → follow-up 
+    [chromium] › tests/e2e/first-use.spec.ts:23:2 › first use ar: empty agency → quick add → resume → review → local queue → fictional enquiry → follow-up 
+    [mobile-chromium] › tests/e2e/first-use.spec.ts:23:2 › first use en: empty agency → quick add → resume → review → local queue → fictional enquiry → follow-up 
+    [mobile-chromium] › tests/e2e/first-use.spec.ts:23:2 › first use ar: empty agency → quick add → resume → review → local queue → fictional enquiry → follow-up 
+  6 passed (4.1m)
+ ELIFECYCLE  Command failed with exit code 1.
