@@ -1,0 +1,629 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test daily-productivity lifecycle final-acceptance prototype --timeout=60000 --trace=off
+
+
+Running 200 tests using 4 workers
+
+(node:86192) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:86193) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:86194) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:86191) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓    4 [chromium] › tests/e2e/daily-productivity.spec.ts:18:1 › daily progress selects a coherent completed journey over an older draft; source changes regress it (319ms)
+  ✓    3 [chromium] › tests/e2e/final-acceptance.spec.ts:14:1 › final acceptance: independent organization command slices, guards and linked records (319ms)
+  ✓    5 [chromium] › tests/e2e/daily-productivity.spec.ts:23:1 › daily activity preserves actual command context, safely presents unknown/missing/denied events and restores snapshots (95ms)
+  ✓    1 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en renders a page heading (518ms)
+  ✓    7 [chromium] › tests/e2e/daily-productivity.spec.ts:36:1 › daily event intake distinguishes saved accepted and duplicate receipts; suspended agency cannot create (96ms)
+  ✓    9 [chromium] › tests/e2e/daily-productivity.spec.ts:42:1 › daily latest channel status follows updated attempts rather than array position (91ms)
+  ✓    8 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/properties renders a page heading (420ms)
+  ✓   11 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/properties/AQ-10231 renders a page heading (397ms)
+  ✓   12 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/pricing renders a page heading (184ms)
+  ✓   10 [chromium] › tests/e2e/daily-productivity.spec.ts:49:2 › daily en: complete setup stays compact, readable activity and scoped boundaries (1.2s)
+  ✓   13 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/solutions renders a page heading (372ms)
+  ✓   15 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/favorites renders a page heading (272ms)
+  ✓   16 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/compare renders a page heading (319ms)
+  ✓   14 [chromium] › tests/e2e/daily-productivity.spec.ts:58:2 › daily en: Quick Add validates, protects edits, saves a partial draft and prevents duplicate continuation (820ms)
+  ✓    6 [chromium] › tests/e2e/final-acceptance.spec.ts:28:33 › final acceptance en: organization switching, reload and unknown-record recovery (2.4s)
+  ✓   17 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/map renders a page heading (223ms)
+  ✓   20 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace renders a page heading (223ms)
+  ✓   21 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/publish?advanced=1 renders a page heading (323ms)
+  ✓   22 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/inventory renders a page heading (309ms)
+  ✓   18 [chromium] › tests/e2e/daily-productivity.spec.ts:66:2 › daily en: large inventory filters and useful property/channel recovery survive reload (1.1s)
+  ✓   23 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/inventory/AQ-10231 renders a page heading (332ms)
+  ✓   24 [chromium] › tests/e2e/daily-productivity.spec.ts:74:2 › daily en: archived property offers guarded resume and retains revision safety (375ms)
+  ✓   25 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/inventory/AQ-10231/edit?advanced=1 renders a page heading (323ms)
+  ✓   19 [chromium] › tests/e2e/final-acceptance.spec.ts:28:33 › final acceptance ar: organization switching, reload and unknown-record recovery (1.6s)
+  ✓   28 [chromium] › tests/e2e/final-acceptance.spec.ts:35:1 › final acceptance: scoped repository rejects stale organization and revision envelopes (87ms)
+  ✓   27 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/studio renders a page heading (238ms)
+  ✓    2 [chromium] › tests/e2e/lifecycle.spec.ts:36:2 › lifecycle en create, resume, review, media and per-destination history (4.8s)
+  ✓   30 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/hub renders a page heading (351ms)
+  ✓   32 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/hub/jobs renders a page heading (213ms)
+  ✓   33 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/hub/connectors renders a page heading (203ms)
+  ✓   34 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/hub/marketplace renders a page heading (179ms)
+  ✓   35 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/hub/connectors/property-finder renders a page heading (218ms)
+  ✘   26 [chromium] › tests/e2e/daily-productivity.spec.ts:77:2 › daily en: daily controls and completed guide pass whole-document accessibility checks (1.7s)
+  ✓   36 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/hub/feeds renders a page heading (204ms)
+  ✓   37 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/hub/mappings renders a page heading (209ms)
+(node:86272) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   31 [chromium] › tests/e2e/lifecycle.spec.ts:117:2 › lifecycle en invalid IDs never fall back to a sample (1.5s)
+  ✓   38 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/leads renders a page heading (191ms)
+  ✓   41 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/leads/assignment renders a page heading (204ms)
+  ✓   42 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/leads/viewings renders a page heading (223ms)
+  ✓   43 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/leads/LE-2101 renders a page heading (175ms)
+  ✓   44 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/inbox renders a page heading (195ms)
+  ✓   45 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/campaigns renders a page heading (179ms)
+  ✓   40 [chromium] › tests/e2e/daily-productivity.spec.ts:85:2 › daily en: enquiry triage links properties and protects an unsaved Inbox reply (1.1s)
+  ✓   46 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/campaigns/new renders a page heading (217ms)
+  ✓   48 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/integrations/ga4 renders a page heading (202ms)
+  ✓   49 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/integrations/google-ads renders a page heading (312ms)
+  ✓   47 [chromium] › tests/e2e/daily-productivity.spec.ts:49:2 › daily ar: complete setup stays compact, readable activity and scoped boundaries (896ms)
+  ✓   50 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/integrations/meta-catalog renders a page heading (291ms)
+  ✓   52 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/integrations/whatsapp renders a page heading (266ms)
+  ✓   53 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/analytics renders a page heading (243ms)
+  ✓   51 [chromium] › tests/e2e/daily-productivity.spec.ts:58:2 › daily ar: Quick Add validates, protects edits, saves a partial draft and prevents duplicate continuation (652ms)
+  ✓   54 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/team renders a page heading (217ms)
+  ✓   56 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/billing renders a page heading (186ms)
+  ✓   39 [chromium] › tests/e2e/lifecycle.spec.ts:36:2 › lifecycle ar create, resume, review, media and per-destination history (3.4s)
+  ✓   57 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/billing/invoices renders a page heading (289ms)
+  ✓   55 [chromium] › tests/e2e/daily-productivity.spec.ts:66:2 › daily ar: large inventory filters and useful property/channel recovery survive reload (682ms)
+  ✓   59 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/verification renders a page heading (203ms)
+  ✓   61 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/settings renders a page heading (180ms)
+  ✓   60 [chromium] › tests/e2e/daily-productivity.spec.ts:74:2 › daily ar: archived property offers guarded resume and retains revision safety (370ms)
+  ✓   62 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/settings/domains renders a page heading (187ms)
+  ✓   64 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/whatsapp/packs renders a page heading (199ms)
+  ✓   65 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/support/assistant renders a page heading (179ms)
+  ✓   66 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/ads/placements renders a page heading (279ms)
+  ✓   67 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/admin renders a page heading (162ms)
+  ✓   68 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/admin/connector-health renders a page heading (292ms)
+  ✓   58 [chromium] › tests/e2e/lifecycle.spec.ts:117:2 › lifecycle ar invalid IDs never fall back to a sample (1.7s)
+  ✓   69 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/admin/moderation renders a page heading (160ms)
+  ✓   71 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/admin/users renders a page heading (180ms)
+  ✓   70 [chromium] › tests/e2e/lifecycle.spec.ts:125:1 › arbitrary Studio input and document selection never fabricate extracted property facts (354ms)
+  ✓   72 [chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/admin/audit renders a page heading (161ms)
+  ✓   74 [chromium] › tests/e2e/prototype.spec.ts:16:1 › inventory filtering and property navigation works locally (331ms)
+  ✘   63 [chromium] › tests/e2e/daily-productivity.spec.ts:77:2 › daily ar: daily controls and completed guide pass whole-document accessibility checks (2.4s)
+  ✓   73 [chromium] › tests/e2e/lifecycle.spec.ts:133:1 › file metadata persists without binary or blob URLs and changes actual media checks (791ms)
+  ✓   75 [chromium] › tests/e2e/prototype.spec.ts:24:1 › studio can walk through local demo with explicit approval (372ms)
+  ✓   77 [chromium] › tests/e2e/prototype.spec.ts:38:1 › Arabic routes preserve RTL (219ms)
+(node:86331) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   78 [chromium] › tests/e2e/prototype.spec.ts:44:1 › mobile workspace does not overflow and sidebar opens (208ms)
+  ✓   76 [chromium] › tests/e2e/lifecycle.spec.ts:143:1 › fact edits invalidate review while media changes alter preflight and preserve revisions (723ms)
+  ✓   80 [chromium] › tests/e2e/prototype.spec.ts:54:1 › Gemini master property edit is used in preflight (700ms)
+  ✓   81 [chromium] › tests/e2e/lifecycle.spec.ts:153:2 › starter enforces 3 listing reservations and preserves drafts over quota (611ms)
+  ✓   83 [chromium] › tests/e2e/lifecycle.spec.ts:153:2 › pro enforces 25 listing reservations and preserves drafts over quota (634ms)
+  ✓   79 [chromium] › tests/e2e/daily-productivity.spec.ts:85:2 › daily ar: enquiry triage links properties and protects an unsaved Inbox reply (1.5s)
+  ✓   82 [chromium] › tests/e2e/prototype.spec.ts:64:1 › Gemini connector setup and publishing are browser-local only (829ms)
+(node:86346) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   85 [chromium] › tests/e2e/prototype.spec.ts:83:1 › Gemini Starter plan blocks two destination selection (317ms)
+  ✓   84 [chromium] › tests/e2e/lifecycle.spec.ts:167:1 › Pro portal quota and Starter Meta entitlement are separate from draft saving (504ms)
+  ✓   86 [chromium] › tests/e2e/prototype.spec.ts:92:1 › Gemini sample data and pricing do not advertise former v2 tiers (266ms)
+  ✓   87 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:18:1 › daily progress selects a coherent completed journey over an older draft; source changes regress it (149ms)
+  ✓   89 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:23:1 › daily activity preserves actual command context, safely presents unknown/missing/denied events and restores snapshots (93ms)
+  ✓   90 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:36:1 › daily event intake distinguishes saved accepted and duplicate receipts; suspended agency cannot create (99ms)
+  ✓   88 [chromium] › tests/e2e/lifecycle.spec.ts:172:1 › corrupt canonical records are excluded while valid drafts and legacy edits recover (446ms)
+(node:86356) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   91 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:42:1 › daily latest channel status follows updated attempts rather than array position (92ms)
+  ✓   93 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:14:1 › final acceptance: independent organization command slices, guards and linked records (218ms)
+  ✓   92 [chromium] › tests/e2e/lifecycle.spec.ts:179:1 › changing a record in another tab rejects stale editor saves and resets publishing approval (876ms)
+  ✓   94 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:49:2 › daily en: complete setup stays compact, readable activity and scoped boundaries (901ms)
+  ✓   96 [chromium] › tests/e2e/lifecycle.spec.ts:187:1 › Studio creates a stable route and resumes saved source and proposed copy after reload (369ms)
+  ✓   95 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:28:33 › final acceptance en: organization switching, reload and unknown-record recovery (1.1s)
+  ✓   98 [chromium] › tests/e2e/lifecycle.spec.ts:191:1 › valid Phase 0 edits migrate into canonical revisions without losing source identity (348ms)
+  ✓   97 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:58:2 › daily en: Quick Add validates, protects edits, saves a partial draft and prevents duplicate continuation (954ms)
+  ✓  100 [chromium] › tests/e2e/lifecycle.spec.ts:197:1 › Studio refuses to overwrite facts changed by another tab (418ms)
+  ✓  101 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:66:2 › daily en: large inventory filters and useful property/channel recovery survive reload (666ms)
+  ✓  102 [chromium] › tests/e2e/lifecycle.spec.ts:201:1 › portal quota includes destinations already reserved on other properties (597ms)
+(node:86417) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  103 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:74:2 › daily en: archived property offers guarded resume and retains revision safety (396ms)
+  ✓   99 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:28:33 › final acceptance ar: organization switching, reload and unknown-record recovery (2.1s)
+  ✓  106 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:35:1 › final acceptance: scoped repository rejects stale organization and revision envelopes (104ms)
+  ✘  105 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:77:2 › daily en: daily controls and completed guide pass whole-document accessibility checks (1.7s)
+(node:86429) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  108 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:85:2 › daily en: enquiry triage links properties and protects an unsaved Inbox reply (1.3s)
+  ✓  109 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:49:2 › daily ar: complete setup stays compact, readable activity and scoped boundaries (627ms)
+  ✓  104 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:36:2 › lifecycle en create, resume, review, media and per-destination history (4.5s)
+  ✓  110 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:58:2 › daily ar: Quick Add validates, protects edits, saves a partial draft and prevents duplicate continuation (501ms)
+  ✓  112 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:66:2 › daily ar: large inventory filters and useful property/channel recovery survive reload (611ms)
+  ✓  113 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:74:2 › daily ar: archived property offers guarded resume and retains revision safety (410ms)
+  ✓  111 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:117:2 › lifecycle en invalid IDs never fall back to a sample (1.1s)
+  ✘  114 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:77:2 › daily ar: daily controls and completed guide pass whole-document accessibility checks (2.0s)
+(node:86467) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  115 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:36:2 › lifecycle ar create, resume, review, media and per-destination history (3.6s)
+  ✓  116 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:85:2 › daily ar: enquiry triage links properties and protects an unsaved Inbox reply (1.3s)
+  ✓  118 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en renders a page heading (233ms)
+  ✓  119 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/properties renders a page heading (184ms)
+  ✓  120 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/properties/AQ-10231 renders a page heading (299ms)
+  ✓  117 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:117:2 › lifecycle ar invalid IDs never fall back to a sample (970ms)
+  ✓  121 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/pricing renders a page heading (204ms)
+  ✓  123 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/solutions renders a page heading (205ms)
+  ✓  124 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/favorites renders a page heading (263ms)
+  ✓  122 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:125:1 › arbitrary Studio input and document selection never fabricate extracted property facts (645ms)
+  ✓  125 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/compare renders a page heading (267ms)
+  ✓  127 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/map renders a page heading (187ms)
+  ✓  126 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:133:1 › file metadata persists without binary or blob URLs and changes actual media checks (495ms)
+  ✓  128 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace renders a page heading (222ms)
+  ✓  130 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/publish?advanced=1 renders a page heading (238ms)
+  ✓  131 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/inventory renders a page heading (206ms)
+  ✓  132 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/inventory/AQ-10231 renders a page heading (293ms)
+  ✓  133 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/inventory/AQ-10231/edit?advanced=1 renders a page heading (203ms)
+  ✓  134 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/studio renders a page heading (210ms)
+  ✓  135 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/hub renders a page heading (199ms)
+  ✓  136 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/hub/jobs renders a page heading (198ms)
+  ✓  129 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:143:1 › fact edits invalidate review while media changes alter preflight and preserve revisions (1.9s)
+  ✓  137 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/hub/connectors renders a page heading (223ms)
+  ✓  139 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/hub/marketplace renders a page heading (186ms)
+  ✓  140 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/hub/connectors/property-finder renders a page heading (207ms)
+  ✓  138 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:153:2 › starter enforces 3 listing reservations and preserves drafts over quota (627ms)
+  ✓  141 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/hub/feeds renders a page heading (218ms)
+  ✓  143 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/hub/mappings renders a page heading (207ms)
+  ✓  144 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/leads renders a page heading (209ms)
+  ✓  142 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:153:2 › pro enforces 25 listing reservations and preserves drafts over quota (614ms)
+  ✓  145 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/leads/assignment renders a page heading (210ms)
+  ✓  147 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/leads/viewings renders a page heading (207ms)
+  ✓  148 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/leads/LE-2101 renders a page heading (204ms)
+  ✓  146 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:167:1 › Pro portal quota and Starter Meta entitlement are separate from draft saving (480ms)
+  ✓  149 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/inbox renders a page heading (194ms)
+  ✓  151 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/campaigns renders a page heading (200ms)
+  ✓  150 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:172:1 › corrupt canonical records are excluded while valid drafts and legacy edits recover (435ms)
+  ✓  152 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/campaigns/new renders a page heading (212ms)
+  ✓  154 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/integrations/ga4 renders a page heading (209ms)
+  ✓  155 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/integrations/google-ads renders a page heading (219ms)
+  ✓  153 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:179:1 › changing a record in another tab rejects stale editor saves and resets publishing approval (676ms)
+  ✓  156 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/integrations/meta-catalog renders a page heading (214ms)
+  ✓  158 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/integrations/whatsapp renders a page heading (198ms)
+  ✓  159 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/analytics renders a page heading (204ms)
+  ✓  157 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:187:1 › Studio creates a stable route and resumes saved source and proposed copy after reload (579ms)
+  ✓  160 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/team renders a page heading (212ms)
+  ✓  161 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:191:1 › valid Phase 0 edits migrate into canonical revisions without losing source identity (338ms)
+  ✓  162 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/billing renders a page heading (208ms)
+  ✓  164 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/billing/invoices renders a page heading (202ms)
+  ✓  163 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:197:1 › Studio refuses to overwrite facts changed by another tab (387ms)
+  ✓  165 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/verification renders a page heading (211ms)
+  ✓  167 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/settings renders a page heading (195ms)
+  ✓  166 [mobile-chromium] › tests/e2e/lifecycle.spec.ts:201:1 › portal quota includes destinations already reserved on other properties (332ms)
+  ✓  168 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/settings/domains renders a page heading (197ms)
+  ✓  169 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/whatsapp/packs renders a page heading (184ms)
+  ✓  170 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/support/assistant renders a page heading (173ms)
+  ✓  171 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/ads/placements renders a page heading (179ms)
+  ✓  172 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/admin renders a page heading (170ms)
+  ✓  173 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/admin/connector-health renders a page heading (171ms)
+  ✓  174 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/admin/moderation renders a page heading (165ms)
+  ✓  175 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/admin/users renders a page heading (166ms)
+  ✓  176 [mobile-chromium] › tests/e2e/prototype.spec.ts:14:28 › /en/workspace/admin/audit renders a page heading (166ms)
+  ✓  177 [mobile-chromium] › tests/e2e/prototype.spec.ts:16:1 › inventory filtering and property navigation works locally (398ms)
+  ✓  178 [mobile-chromium] › tests/e2e/prototype.spec.ts:24:1 › studio can walk through local demo with explicit approval (458ms)
+  ✓  179 [mobile-chromium] › tests/e2e/prototype.spec.ts:38:1 › Arabic routes preserve RTL (198ms)
+  ✓  180 [mobile-chromium] › tests/e2e/prototype.spec.ts:44:1 › mobile workspace does not overflow and sidebar opens (247ms)
+  ✓  181 [mobile-chromium] › tests/e2e/prototype.spec.ts:54:1 › Gemini master property edit is used in preflight (328ms)
+  ✓  182 [mobile-chromium] › tests/e2e/prototype.spec.ts:64:1 › Gemini connector setup and publishing are browser-local only (514ms)
+  ✓  183 [mobile-chromium] › tests/e2e/prototype.spec.ts:83:1 › Gemini Starter plan blocks two destination selection (302ms)
+  ✓  184 [mobile-chromium] › tests/e2e/prototype.spec.ts:92:1 › Gemini sample data and pricing do not advertise former v2 tiers (242ms)
+  ✘   29 [chromium] › tests/e2e/final-acceptance.spec.ts:41:1 › final acceptance: Arabic controls and validation are translated while source inputs stay original (1.0m)
+(node:86622) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  185 [chromium] › tests/e2e/final-acceptance.spec.ts:45:33 › final acceptance en: property pack and branded preview use selected canonical records (1.1s)
+  ✓  186 [chromium] › tests/e2e/final-acceptance.spec.ts:45:33 › final acceptance ar: property pack and branded preview use selected canonical records (991ms)
+  ✓  187 [chromium] › tests/e2e/final-acceptance.spec.ts:53:1 › final acceptance: native media drag reorder persists with keyboard alternatives (313ms)
+  ✓  188 [chromium] › tests/e2e/final-acceptance.spec.ts:57:1 › final acceptance: administrator membership edits update the correct inactive routing pool (63ms)
+  ✓  189 [chromium] › tests/e2e/final-acceptance.spec.ts:62:1 › final acceptance: domain guards reject foreign records even in a malformed host slice (59ms)
+  ✓  190 [chromium] › tests/e2e/final-acceptance.spec.ts:67:50 › final acceptance: new landlord receives enquiries directly without team management (63ms)
+  ✓  191 [chromium] › tests/e2e/final-acceptance.spec.ts:67:50 › final acceptance: new broker receives enquiries directly without team management (61ms)
+  ✓  192 [chromium] › tests/e2e/final-acceptance.spec.ts:71:1 › final acceptance: source-message wording is not mistaken for a fictional actor label (71ms)
+  ✘  107 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:41:1 › final acceptance: Arabic controls and validation are translated while source inputs stay original (1.0m)
+(node:86683) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  193 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:45:33 › final acceptance en: property pack and branded preview use selected canonical records (704ms)
+  ✓  194 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:45:33 › final acceptance ar: property pack and branded preview use selected canonical records (665ms)
+  -  195 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:53:1 › final acceptance: native media drag reorder persists with keyboard alternatives
+  ✓  196 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:57:1 › final acceptance: administrator membership edits update the correct inactive routing pool (78ms)
+  ✓  197 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:62:1 › final acceptance: domain guards reject foreign records even in a malformed host slice (79ms)
+  ✓  198 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:67:50 › final acceptance: new landlord receives enquiries directly without team management (75ms)
+  ✓  199 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:67:50 › final acceptance: new broker receives enquiries directly without team management (71ms)
+  ✓  200 [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:71:1 › final acceptance: source-message wording is not mistaken for a fictional actor label (78ms)
+
+
+  1) [chromium] › tests/e2e/daily-productivity.spec.ts:77:2 › daily en: daily controls and completed guide pass whole-document accessibility checks 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  -  1
+    + Received  + 60
+
+    - Array []
+    + Array [
+    +   Object {
+    +     "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    +     "help": "Elements must meet minimum color contrast ratio thresholds",
+    +     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+    +     "id": "color-contrast",
+    +     "impact": "serious",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#edf3e9",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.47,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#65735a",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.47 (foreground color: #65735a, background color: #edf3e9, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<label class=\"ag-channel-choice chosen\"><input type=\"checkbox\" checked=\"\"><span><strong>Property Finder</strong><small>Local demo workflow</small></span></label>",
+    +                 "target": Array [
+    +                   ".chosen.ag-channel-choice",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.47 (foreground color: #65735a, background color: #edf3e9, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<small>Local demo workflow</small>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".chosen.ag-channel-choice > span > small",
+    +         ],
+    +       },
+    +     ],
+    +     "tags": Array [
+    +       "cat.color",
+    +       "wcag2aa",
+    +       "wcag143",
+    +       "TTv5",
+    +       "TT13.c",
+    +       "EN-301-549",
+    +       "EN-9.1.4.3",
+    +       "ACT",
+    +       "RGAAv4",
+    +       "RGAA-3.2.1",
+    +     ],
+    +   },
+    + ]
+
+      79 |   for(const route of ['','/inventory/new','/inventory','/inventory/AQ-50002','/publish?property=AQ-50003&goal=portals&channels=property-finder&channel=property-finder','/leads','/inbox?lead=LE-2100']){
+      80 |    await page.goto(`/${locale}/workspace${route}`);await expect(page.locator('main h1')).toBeVisible();if(!route)await page.getByRole('button',{name:t('Getting-started help','مساعدة البداية'),exact:true}).click();if(route==='/inventory/new')await page.getByRole('button',{name:t('Save & continue','حفظ ومتابعة'),exact:true}).click();
+    > 81 |    await page.addScriptTag({path:axe});const result=await page.evaluate('window.axe.run(document,{runOnly:{type:"tag",values:["wcag2a","wcag2aa","wcag21aa","wcag22aa"]}})') as {violations:unknown[]};reports.push({route,violations:result.violations});expect(result.violations).toEqual([]);
+         |                                                                                                                                                                                                                                                                                     ^
+      82 |   }
+      83 |   const root=resolve('../../artifacts/phase14/accessibility');mkdirSync(root,{recursive:true});writeFileSync(resolve(root,`${info.project.name}-${locale}.json`),JSON.stringify(reports,null,2));
+      84 |  });
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/daily-productivity.spec.ts:81:277
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/daily-productivity-daily-e-0b7e4-cument-accessibility-checks-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/daily-productivity-daily-e-0b7e4-cument-accessibility-checks-chromium/error-context.md
+
+  2) [chromium] › tests/e2e/daily-productivity.spec.ts:77:2 › daily ar: daily controls and completed guide pass whole-document accessibility checks 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  -  1
+    + Received  + 60
+
+    - Array []
+    + Array [
+    +   Object {
+    +     "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    +     "help": "Elements must meet minimum color contrast ratio thresholds",
+    +     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+    +     "id": "color-contrast",
+    +     "impact": "serious",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#edf3e9",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.47,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#65735a",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.47 (foreground color: #65735a, background color: #edf3e9, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<label class=\"ag-channel-choice chosen\"><input type=\"checkbox\" checked=\"\"><span><strong>Property Finder</strong><small>إجراء تجريبي محلي</small></span></label>",
+    +                 "target": Array [
+    +                   ".chosen.ag-channel-choice",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.47 (foreground color: #65735a, background color: #edf3e9, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<small>إجراء تجريبي محلي</small>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".chosen.ag-channel-choice > span > small",
+    +         ],
+    +       },
+    +     ],
+    +     "tags": Array [
+    +       "cat.color",
+    +       "wcag2aa",
+    +       "wcag143",
+    +       "TTv5",
+    +       "TT13.c",
+    +       "EN-301-549",
+    +       "EN-9.1.4.3",
+    +       "ACT",
+    +       "RGAAv4",
+    +       "RGAA-3.2.1",
+    +     ],
+    +   },
+    + ]
+
+      79 |   for(const route of ['','/inventory/new','/inventory','/inventory/AQ-50002','/publish?property=AQ-50003&goal=portals&channels=property-finder&channel=property-finder','/leads','/inbox?lead=LE-2100']){
+      80 |    await page.goto(`/${locale}/workspace${route}`);await expect(page.locator('main h1')).toBeVisible();if(!route)await page.getByRole('button',{name:t('Getting-started help','مساعدة البداية'),exact:true}).click();if(route==='/inventory/new')await page.getByRole('button',{name:t('Save & continue','حفظ ومتابعة'),exact:true}).click();
+    > 81 |    await page.addScriptTag({path:axe});const result=await page.evaluate('window.axe.run(document,{runOnly:{type:"tag",values:["wcag2a","wcag2aa","wcag21aa","wcag22aa"]}})') as {violations:unknown[]};reports.push({route,violations:result.violations});expect(result.violations).toEqual([]);
+         |                                                                                                                                                                                                                                                                                     ^
+      82 |   }
+      83 |   const root=resolve('../../artifacts/phase14/accessibility');mkdirSync(root,{recursive:true});writeFileSync(resolve(root,`${info.project.name}-${locale}.json`),JSON.stringify(reports,null,2));
+      84 |  });
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/daily-productivity.spec.ts:81:277
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/daily-productivity-daily-a-b5408-cument-accessibility-checks-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/daily-productivity-daily-a-b5408-cument-accessibility-checks-chromium/error-context.md
+
+  3) [chromium] › tests/e2e/final-acceptance.spec.ts:41:1 › final acceptance: Arabic controls and validation are translated while source inputs stay original 
+
+    Test timeout of 60000ms exceeded.
+
+    Error: locator.click: Test timeout of 60000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: 'إنشاء مسودة فارغة', exact: true })
+
+
+      40 |
+      41 | test('final acceptance: Arabic controls and validation are translated while source inputs stay original',async({page})=>{
+    > 42 |  await page.goto('/ar/workspace/inventory/new');await page.getByRole('button',{name:'إنشاء مسودة فارغة',exact:true}).click();await expect(page).toHaveURL(/\/edit$/);await page.goto(`${page.url()}?advanced=1`);await expect(page.getByRole('textbox',{name:'العنوان — الإنجليزية',exact:true})).toBeVisible();await page.getByRole('textbox',{name:'العنوان — الإنجليزية',exact:true}).fill('Original English source');await page.getByRole('button',{name:'حفظ المسودة محلياً',exact:true}).click();await expect(page.getByRole('textbox',{name:'العنوان — الإنجليزية',exact:true})).toHaveValue('Original English source');await expect(page.locator('.gm-editor-errors')).toContainText('سعر طلب صالح');await expect(page.getByRole('combobox',{name:'المؤسسة التجريبية',exact:true})).toHaveCount(0);await page.goto('/ar/workspace/hub/marketplace');await page.getByRole('textbox',{name:'البحث عن تكاملات',exact:true}).fill('WhatsApp');await expect(page.locator('.gm-market-row')).toHaveCount(1);await page.getByRole('textbox',{name:'البحث عن تكاملات',exact:true}).fill('التحليلات');await expect(page.locator('.gm-market-row')).toHaveCount(1);await expect(page.locator('.gm-market-row')).toContainText('Google Analytics 4');await expect(page.locator('html')).toHaveAttribute('dir','rtl');
+         |                                                                                                                      ^
+      43 | });
+      44 |
+      45 | for(const locale of ['en','ar'])test(`final acceptance ${locale}: property pack and branded preview use selected canonical records`,async({page})=>{
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/final-acceptance.spec.ts:42:118
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/final-acceptance-final-acc-adae9-source-inputs-stay-original-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/final-acceptance-final-acc-adae9-source-inputs-stay-original-chromium/error-context.md
+
+  4) [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:77:2 › daily en: daily controls and completed guide pass whole-document accessibility checks 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  -  1
+    + Received  + 60
+
+    - Array []
+    + Array [
+    +   Object {
+    +     "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    +     "help": "Elements must meet minimum color contrast ratio thresholds",
+    +     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+    +     "id": "color-contrast",
+    +     "impact": "serious",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#edf3e9",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.47,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#65735a",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.47 (foreground color: #65735a, background color: #edf3e9, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<label class=\"ag-channel-choice chosen\"><input type=\"checkbox\" checked=\"\"><span><strong>Property Finder</strong><small>Local demo workflow</small></span></label>",
+    +                 "target": Array [
+    +                   ".chosen.ag-channel-choice",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.47 (foreground color: #65735a, background color: #edf3e9, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<small>Local demo workflow</small>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".chosen.ag-channel-choice > span > small",
+    +         ],
+    +       },
+    +     ],
+    +     "tags": Array [
+    +       "cat.color",
+    +       "wcag2aa",
+    +       "wcag143",
+    +       "TTv5",
+    +       "TT13.c",
+    +       "EN-301-549",
+    +       "EN-9.1.4.3",
+    +       "ACT",
+    +       "RGAAv4",
+    +       "RGAA-3.2.1",
+    +     ],
+    +   },
+    + ]
+
+      79 |   for(const route of ['','/inventory/new','/inventory','/inventory/AQ-50002','/publish?property=AQ-50003&goal=portals&channels=property-finder&channel=property-finder','/leads','/inbox?lead=LE-2100']){
+      80 |    await page.goto(`/${locale}/workspace${route}`);await expect(page.locator('main h1')).toBeVisible();if(!route)await page.getByRole('button',{name:t('Getting-started help','مساعدة البداية'),exact:true}).click();if(route==='/inventory/new')await page.getByRole('button',{name:t('Save & continue','حفظ ومتابعة'),exact:true}).click();
+    > 81 |    await page.addScriptTag({path:axe});const result=await page.evaluate('window.axe.run(document,{runOnly:{type:"tag",values:["wcag2a","wcag2aa","wcag21aa","wcag22aa"]}})') as {violations:unknown[]};reports.push({route,violations:result.violations});expect(result.violations).toEqual([]);
+         |                                                                                                                                                                                                                                                                                     ^
+      82 |   }
+      83 |   const root=resolve('../../artifacts/phase14/accessibility');mkdirSync(root,{recursive:true});writeFileSync(resolve(root,`${info.project.name}-${locale}.json`),JSON.stringify(reports,null,2));
+      84 |  });
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/daily-productivity.spec.ts:81:277
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/daily-productivity-daily-e-0b7e4-cument-accessibility-checks-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/daily-productivity-daily-e-0b7e4-cument-accessibility-checks-mobile-chromium/error-context.md
+
+  5) [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:77:2 › daily ar: daily controls and completed guide pass whole-document accessibility checks 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  -  1
+    + Received  + 60
+
+    - Array []
+    + Array [
+    +   Object {
+    +     "description": "Ensure touch targets have sufficient size and space",
+    +     "help": "All touch targets must be 24px large, or leave sufficient space",
+    +     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/target-size?application=axeAPI",
+    +     "id": "target-size",
+    +     "impact": "serious",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "height": 16.5,
+    +               "minSize": 24,
+    +               "width": 305,
+    +             },
+    +             "id": "target-size",
+    +             "impact": "serious",
+    +             "message": "Target has insufficient size (305px by 16.5px, should be at least 24px by 24px)",
+    +             "relatedNodes": Array [],
+    +           },
+    +           Object {
+    +             "data": Object {
+    +               "closestOffset": 18.6,
+    +               "minOffset": 24,
+    +             },
+    +             "id": "target-offset",
+    +             "impact": "serious",
+    +             "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18.6px instead of at least 24px.",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<input id=\"_r_0_\" role=\"combobox\" data-value=\"\" autocomplete=\"off\" aria-autocomplete=\"list\" aria-expanded=\"false\" aria-invalid=\"false\" placeholder=\"غير موزع\" type=\"text\" value=\"\">",
+    +                 "target": Array [
+    +                   "#_r_0_",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Target has insufficient size (305px by 16.5px, should be at least 24px by 24px)
+    +   Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18.6px instead of at least 24px.",
+    +         "html": "<a href=\"/ar/workspace/leads/viewings?lead=LE-2100\">طلب معاينة</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".px-chat-context > a:nth-child(6)",
+    +         ],
+    +       },
+    +     ],
+    +     "tags": Array [
+    +       "cat.sensory-and-visual-cues",
+    +       "wcag22aa",
+    +       "wcag258",
+    +       "EN-301-549v4",
+    +       "EN-9.2.5.8",
+    +     ],
+    +   },
+    + ]
+
+      79 |   for(const route of ['','/inventory/new','/inventory','/inventory/AQ-50002','/publish?property=AQ-50003&goal=portals&channels=property-finder&channel=property-finder','/leads','/inbox?lead=LE-2100']){
+      80 |    await page.goto(`/${locale}/workspace${route}`);await expect(page.locator('main h1')).toBeVisible();if(!route)await page.getByRole('button',{name:t('Getting-started help','مساعدة البداية'),exact:true}).click();if(route==='/inventory/new')await page.getByRole('button',{name:t('Save & continue','حفظ ومتابعة'),exact:true}).click();
+    > 81 |    await page.addScriptTag({path:axe});const result=await page.evaluate('window.axe.run(document,{runOnly:{type:"tag",values:["wcag2a","wcag2aa","wcag21aa","wcag22aa"]}})') as {violations:unknown[]};reports.push({route,violations:result.violations});expect(result.violations).toEqual([]);
+         |                                                                                                                                                                                                                                                                                     ^
+      82 |   }
+      83 |   const root=resolve('../../artifacts/phase14/accessibility');mkdirSync(root,{recursive:true});writeFileSync(resolve(root,`${info.project.name}-${locale}.json`),JSON.stringify(reports,null,2));
+      84 |  });
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/daily-productivity.spec.ts:81:277
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/daily-productivity-daily-a-b5408-cument-accessibility-checks-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/daily-productivity-daily-a-b5408-cument-accessibility-checks-mobile-chromium/error-context.md
+
+  6) [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:41:1 › final acceptance: Arabic controls and validation are translated while source inputs stay original 
+
+    Test timeout of 60000ms exceeded.
+
+    Error: locator.click: Test timeout of 60000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: 'إنشاء مسودة فارغة', exact: true })
+
+
+      40 |
+      41 | test('final acceptance: Arabic controls and validation are translated while source inputs stay original',async({page})=>{
+    > 42 |  await page.goto('/ar/workspace/inventory/new');await page.getByRole('button',{name:'البدء بالمحرر الكامل',exact:true}).click();await expect(page).toHaveURL(/\/edit$/);await page.goto(`${page.url()}?advanced=1`);await expect(page.getByRole('textbox',{name:'العنوان — الإنجليزية',exact:true})).toBeVisible();await page.getByRole('textbox',{name:'العنوان — الإنجليزية',exact:true}).fill('Original English source');await page.getByRole('button',{name:'حفظ المسودة محلياً',exact:true}).click();await expect(page.getByRole('textbox',{name:'العنوان — الإنجليزية',exact:true})).toHaveValue('Original English source');await expect(page.locator('.gm-editor-errors')).toContainText('سعر طلب صالح');await expect(page.getByRole('combobox',{name:'المؤسسة التجريبية',exact:true})).toHaveCount(0);await page.goto('/ar/workspace/hub/marketplace');await page.getByRole('textbox',{name:'البحث عن تكاملات',exact:true}).fill('WhatsApp');await expect(page.locator('.gm-market-row')).toHaveCount(1);await page.getByRole('textbox',{name:'البحث عن تكاملات',exact:true}).fill('التحليلات');await expect(page.locator('.gm-market-row')).toHaveCount(1);await expect(page.locator('.gm-market-row')).toContainText('Google Analytics 4');await expect(page.locator('html')).toHaveAttribute('dir','rtl');
+         |                                                                                                                      ^
+      43 | });
+      44 |
+      45 | for(const locale of ['en','ar'])test(`final acceptance ${locale}: property pack and branded preview use selected canonical records`,async({page})=>{
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/final-acceptance.spec.ts:42:118
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/final-acceptance-final-acc-adae9-source-inputs-stay-original-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/final-acceptance-final-acc-adae9-source-inputs-stay-original-mobile-chromium/error-context.md
+
+  6 failed
+    [chromium] › tests/e2e/daily-productivity.spec.ts:77:2 › daily en: daily controls and completed guide pass whole-document accessibility checks 
+    [chromium] › tests/e2e/daily-productivity.spec.ts:77:2 › daily ar: daily controls and completed guide pass whole-document accessibility checks 
+    [chromium] › tests/e2e/final-acceptance.spec.ts:41:1 › final acceptance: Arabic controls and validation are translated while source inputs stay original 
+    [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:77:2 › daily en: daily controls and completed guide pass whole-document accessibility checks 
+    [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:77:2 › daily ar: daily controls and completed guide pass whole-document accessibility checks 
+    [mobile-chromium] › tests/e2e/final-acceptance.spec.ts:41:1 › final acceptance: Arabic controls and validation are translated while source inputs stay original 
+  1 skipped
+  193 passed (1.4m)
+ ELIFECYCLE  Command failed with exit code 1.

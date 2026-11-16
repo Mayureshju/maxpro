@@ -1,0 +1,117 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test daily-productivity first-use daily-audit --timeout=60000 --trace=off
+
+
+Running 44 tests using 4 workers
+
+(node:80926) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:80927) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:80928) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:80929) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   3 [chromium] › tests/e2e/daily-productivity.spec.ts:16:1 › daily progress selects a coherent completed journey over an older draft; source changes regress it (358ms)
+  ✓   4 [chromium] › tests/e2e/first-use.spec.ts:13:1 › first-use progress derives one saved property journey and ignores navigation/preparation alone (357ms)
+  -   2 [mobile-chromium] › tests/e2e/daily-audit.spec.ts:7:1 › daily workspace browser audit and responsive evidence
+  ✓   5 [chromium] › tests/e2e/daily-productivity.spec.ts:21:1 › daily activity preserves actual command context, safely presents unknown/missing/denied events and restores snapshots (79ms)
+  ✓   7 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:16:1 › daily progress selects a coherent completed journey over an older draft; source changes regress it (132ms)
+  ✓   8 [chromium] › tests/e2e/daily-productivity.spec.ts:34:1 › daily event intake distinguishes saved accepted and duplicate receipts; suspended agency cannot create (129ms)
+  ✓   9 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:21:1 › daily activity preserves actual command context, safely presents unknown/missing/denied events and restores snapshots (134ms)
+  ✓  10 [chromium] › tests/e2e/daily-productivity.spec.ts:40:1 › daily latest channel status follows updated attempts rather than array position (87ms)
+  ✓  11 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:34:1 › daily event intake distinguishes saved accepted and duplicate receipts; suspended agency cannot create (121ms)
+  ✓  13 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:40:1 › daily latest channel status follows updated attempts rather than array position (162ms)
+  ✓  12 [chromium] › tests/e2e/daily-productivity.spec.ts:47:2 › daily en: complete setup stays compact, readable activity and scoped boundaries (1.4s)
+  ✓  14 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:47:2 › daily en: complete setup stays compact, readable activity and scoped boundaries (1.4s)
+  ✓  15 [chromium] › tests/e2e/daily-productivity.spec.ts:56:2 › daily en: Quick Add validates, protects edits, saves a partial draft and prevents duplicate continuation (733ms)
+  ✓  16 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:56:2 › daily en: Quick Add validates, protects edits, saves a partial draft and prevents duplicate continuation (708ms)
+  ✓  17 [chromium] › tests/e2e/daily-productivity.spec.ts:64:2 › daily en: large inventory filters and useful property/channel recovery survive reload (672ms)
+  ✓  19 [chromium] › tests/e2e/daily-productivity.spec.ts:72:2 › daily en: archived property offers guarded resume and retains revision safety (338ms)
+  ✓  18 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:64:2 › daily en: large inventory filters and useful property/channel recovery survive reload (1.0s)
+  ✓  21 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:72:2 › daily en: archived property offers guarded resume and retains revision safety (516ms)
+  ✓  20 [chromium] › tests/e2e/daily-productivity.spec.ts:75:2 › daily en: enquiry triage links properties and protects an unsaved Inbox reply (1.4s)
+  ✓  22 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:75:2 › daily en: enquiry triage links properties and protects an unsaved Inbox reply (1.3s)
+  ✓   6 [chromium] › tests/e2e/first-use.spec.ts:23:2 › first use en: empty agency → quick add → resume → review → local queue → fictional enquiry → follow-up (5.9s)
+  ✓  23 [chromium] › tests/e2e/daily-productivity.spec.ts:47:2 › daily ar: complete setup stays compact, readable activity and scoped boundaries (1.2s)
+  ✓  25 [chromium] › tests/e2e/first-use.spec.ts:48:2 › first use en: full editor carries quick facts and repeated submit creates one draft (765ms)
+  ✓  26 [chromium] › tests/e2e/daily-productivity.spec.ts:56:2 › daily ar: Quick Add validates, protects edits, saves a partial draft and prevents duplicate continuation (880ms)
+  ✓  24 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:47:2 › daily ar: complete setup stays compact, readable activity and scoped boundaries (1.4s)
+  ✓  27 [chromium] › tests/e2e/first-use.spec.ts:54:2 › first use en: missing source warnings never invent facts or silently save (869ms)
+  ✓  29 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:56:2 › daily ar: Quick Add validates, protects edits, saves a partial draft and prevents duplicate continuation (809ms)
+  ✓  28 [chromium] › tests/e2e/daily-productivity.spec.ts:64:2 › daily ar: large inventory filters and useful property/channel recovery survive reload (1.0s)
+  ✓  32 [chromium] › tests/e2e/daily-productivity.spec.ts:72:2 › daily ar: archived property offers guarded resume and retains revision safety (460ms)
+  ✓  31 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:64:2 › daily ar: large inventory filters and useful property/channel recovery survive reload (1.2s)
+  ✓  34 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:72:2 › daily ar: archived property offers guarded resume and retains revision safety (633ms)
+  ✓  30 [chromium] › tests/e2e/first-use.spec.ts:23:2 › first use ar: empty agency → quick add → resume → review → local queue → fictional enquiry → follow-up (4.2s)
+  ✓  36 [chromium] › tests/e2e/first-use.spec.ts:48:2 › first use ar: full editor carries quick facts and repeated submit creates one draft (488ms)
+  ✓  37 [chromium] › tests/e2e/first-use.spec.ts:54:2 › first use ar: missing source warnings never invent facts or silently save (625ms)
+(node:81110) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  38 [mobile-chromium] › tests/e2e/first-use.spec.ts:13:1 › first-use progress derives one saved property journey and ignores navigation/preparation alone (130ms)
+  ✓   1 [chromium] › tests/e2e/daily-audit.spec.ts:7:1 › daily workspace browser audit and responsive evidence (14.2s)
+  ✓  39 [mobile-chromium] › tests/e2e/first-use.spec.ts:23:2 › first use en: empty agency → quick add → resume → review → local queue → fictional enquiry → follow-up (3.7s)
+  ✓  40 [mobile-chromium] › tests/e2e/first-use.spec.ts:48:2 › first use en: full editor carries quick facts and repeated submit creates one draft (407ms)
+  ✓  41 [mobile-chromium] › tests/e2e/first-use.spec.ts:54:2 › first use en: missing source warnings never invent facts or silently save (413ms)
+  ✓  42 [mobile-chromium] › tests/e2e/first-use.spec.ts:23:2 › first use ar: empty agency → quick add → resume → review → local queue → fictional enquiry → follow-up (3.7s)
+  ✓  43 [mobile-chromium] › tests/e2e/first-use.spec.ts:48:2 › first use ar: full editor carries quick facts and repeated submit creates one draft (397ms)
+  ✓  44 [mobile-chromium] › tests/e2e/first-use.spec.ts:54:2 › first use ar: missing source warnings never invent facts or silently save (439ms)
+  ✘  33 [chromium] › tests/e2e/daily-productivity.spec.ts:75:2 › daily ar: enquiry triage links properties and protects an unsaved Inbox reply (1.0m)
+  ✘  35 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:75:2 › daily ar: enquiry triage links properties and protects an unsaved Inbox reply (1.0m)
+
+
+  1) [chromium] › tests/e2e/daily-productivity.spec.ts:75:2 › daily ar: enquiry triage links properties and protects an unsaved Inbox reply 
+
+    Test timeout of 60000ms exceeded.
+
+    Error: locator.click: Test timeout of 60000ms exceeded.
+    Call log:
+      - waiting for locator('.px-conversation-tile').filter({ has: getByText('Demo visitor 2', { exact: true }) })
+
+
+      75 |   await seed(page,'established',s=>{s.properties['AQ-50002'].status='archived';});await page.goto(`/${locale}/workspace/inventory/AQ-50002`);await expect(page.locator('.ag-property-next a[href*="/publish?"]')).toHaveCount(0);await page.getByRole('button',{name:t('Resume property','استئناف العقار'),exact:true}).click();const state=await saved(page);expect(state.properties['AQ-50002'].status).toBe('reviewed');expect(state.properties['AQ-50002'].revision).toBe(2);await expect(page.getByRole('link',{name:t('Resume channel preparation','متابعة تجهيز القناة'),exact:true})).toBeVisible();
+      76 |  });
+    > 77 |  test(`daily ${locale}: daily controls and completed guide pass whole-document accessibility checks`,async({page},info)=>{
+         |                                                                                                                           ^
+      78 |   test.setTimeout(90000);await seed(page);const reports=[];const pkg=readdirSync(resolve('../../node_modules/.pnpm')).find(n=>n.startsWith('axe-core@'))!;const axe=resolve('../../node_modules/.pnpm',pkg,'node_modules/axe-core/axe.min.js');
+      79 |   for(const route of ['','/inventory/new','/inventory','/inventory/AQ-50002','/publish?property=AQ-50003&goal=portals&channels=property-finder&channel=property-finder','/leads','/inbox?lead=LE-2100']){
+      80 |    await page.goto(`/${locale}/workspace${route}`);await expect(page.locator('main h1')).toBeVisible();if(!route)await page.getByRole('button',{name:t('Getting-started help','مساعدة البداية'),exact:true}).click();if(route==='/inventory/new')await page.getByRole('button',{name:t('Save & continue','حفظ ومتابعة'),exact:true}).click();
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/daily-productivity.spec.ts:77:226
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/daily-productivity-daily-a-bed3d-ects-an-unsaved-Inbox-reply-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/daily-productivity-daily-a-bed3d-ects-an-unsaved-Inbox-reply-chromium/error-context.md
+
+  2) [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:75:2 › daily ar: enquiry triage links properties and protects an unsaved Inbox reply 
+
+    Test timeout of 60000ms exceeded.
+
+    Error: locator.click: Test timeout of 60000ms exceeded.
+    Call log:
+      - waiting for locator('.px-conversation-tile').filter({ has: getByText('Demo visitor 2', { exact: true }) })
+
+
+      75 |   await seed(page,'established',s=>{s.properties['AQ-50002'].status='archived';});await page.goto(`/${locale}/workspace/inventory/AQ-50002`);await expect(page.locator('.ag-property-next a[href*="/publish?"]')).toHaveCount(0);await page.getByRole('button',{name:t('Resume property','استئناف العقار'),exact:true}).click();const state=await saved(page);expect(state.properties['AQ-50002'].status).toBe('reviewed');expect(state.properties['AQ-50002'].revision).toBe(2);await expect(page.getByRole('link',{name:t('Resume channel preparation','متابعة تجهيز القناة'),exact:true})).toBeVisible();
+      76 |  });
+    > 77 |  test(`daily ${locale}: daily controls and completed guide pass whole-document accessibility checks`,async({page},info)=>{
+         |                                                                                                                           ^
+      78 |   test.setTimeout(90000);await seed(page);const reports=[];const pkg=readdirSync(resolve('../../node_modules/.pnpm')).find(n=>n.startsWith('axe-core@'))!;const axe=resolve('../../node_modules/.pnpm',pkg,'node_modules/axe-core/axe.min.js');
+      79 |   for(const route of ['','/inventory/new','/inventory','/inventory/AQ-50002','/publish?property=AQ-50003&goal=portals&channels=property-finder&channel=property-finder','/leads','/inbox?lead=LE-2100']){
+      80 |    await page.goto(`/${locale}/workspace${route}`);await expect(page.locator('main h1')).toBeVisible();if(!route)await page.getByRole('button',{name:t('Getting-started help','مساعدة البداية'),exact:true}).click();if(route==='/inventory/new')await page.getByRole('button',{name:t('Save & continue','حفظ ومتابعة'),exact:true}).click();
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/daily-productivity.spec.ts:77:226
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/daily-productivity-daily-a-bed3d-ects-an-unsaved-Inbox-reply-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/daily-productivity-daily-a-bed3d-ects-an-unsaved-Inbox-reply-mobile-chromium/error-context.md
+
+  2 failed
+    [chromium] › tests/e2e/daily-productivity.spec.ts:75:2 › daily ar: enquiry triage links properties and protects an unsaved Inbox reply 
+    [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:75:2 › daily ar: enquiry triage links properties and protects an unsaved Inbox reply 
+  1 skipped
+  41 passed (1.2m)
+ ELIFECYCLE  Command failed with exit code 1.

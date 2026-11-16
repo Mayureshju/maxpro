@@ -19,7 +19,7 @@ export type Membership={id:string;organizationId:string;alias:string;role:Exclud
 export const reviewStatuses=['pending-review','approved-demo','changes-requested','rejected','verification-pending'] as const;
 export type ReviewStatus=typeof reviewStatuses[number];
 export type ModerationReview={propertyId:string;propertyRevision:number;status:ReviewStatus;note:string;actor:string;at:string};
-export type AuditEvent={id:string;organizationId:string;actor:string;role:OrganizationRole;action:string;target:string;revision:number|null;at:string;outcome:'applied-demo'|'denied-demo';note:string};
+export type AuditEvent={id:string;organizationId:string;actor:string;role:OrganizationRole;action:string;target:string;revision:number|null;at:string;outcome:'applied-demo'|'denied-demo';note:string;details?:{alias?:string;source?:string;assignee?:string}};
 export type PlanTerms=Pick<PlanDefinition,'monthlyQar'|'listingLimit'|'connectorLimit'|'aiCredits'|'seats'>;
 export type OrganizationRepository={version:1;activeOrganizationId?:string;organizations:OrganizationProfile[];members:Membership[];actor:OrganizationRole;reviews:ModerationReview[];audit:AuditEvent[];planOverrides:Partial<Record<PlanId,PlanTerms>>;operational:{maintenance:boolean;reviewNoteRequired:boolean}};
 export type OrganizationHost={organization:OrganizationRepository;plan:PlanId;properties:Record<string,CanonicalProperty>;preparedConnectors:ConnectorId[];jobs:DemoJob[];campaigns:Campaign[];workspaces?:Record<string,{jobs:DemoJob[];preparedConnectors:ConnectorId[];campaigns:Campaign[]}>};
@@ -37,8 +37,8 @@ export function seedOrganization(plan:PlanId='agency'):OrganizationRepository{
 export const activeOrganizationId=(r?:OrganizationRepository)=>r?.activeOrganizationId??demoOrganizationId;
 export const workspaceOrganization=(r:OrganizationRepository)=>r.organizations.find(o=>o.id===activeOrganizationId(r))!;
 export function can(r:OrganizationRepository,p:Permission){return permissionMatrix[r.actor]?.includes(p)??false;}
-export function audit(r:OrganizationRepository,action:string,target:string,revision:number|null=null,note='',outcome:AuditEvent['outcome']='applied-demo',organizationId=activeOrganizationId(r)):OrganizationRepository{
- return {...r,audit:[{id:uid(),organizationId,actor:`Fictional ${r.actor}`,role:r.actor,action,target,revision,at:now(),outcome,note},...r.audit].slice(0,1000)};
+export function audit(r:OrganizationRepository,action:string,target:string,revision:number|null=null,note='',outcome:AuditEvent['outcome']='applied-demo',organizationId=activeOrganizationId(r),details?:AuditEvent['details']):OrganizationRepository{
+ return {...r,audit:[{id:uid(),organizationId,actor:`Fictional ${r.actor}`,role:r.actor,action,target,revision,at:now(),outcome,note,...(details?{details}:{})},...r.audit].slice(0,1000)};
 }
 export function effectivePlan(s:{plan:PlanId;organization?:OrganizationRepository}):PlanDefinition{
  const base=geminiPlans.find(p=>p.id===s.plan)!;return {...base,...s.organization?.planOverrides[s.plan]};

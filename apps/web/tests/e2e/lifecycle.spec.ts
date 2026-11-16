@@ -9,7 +9,7 @@ const saveName=/Save browser-local draft|حفظ المسودة محلياً/;
 async function snapshot(page:Page):Promise<DemoState>{return page.evaluate(key=>JSON.parse(localStorage.getItem(key)!),storeKey);}
 async function create(page:Page,locale='en'){
  await page.goto(`/${locale}/workspace/inventory/new`);
- await page.getByRole('button',{name:localized(/Create empty draft|إنشاء مسودة فارغة/)}).focus();
+ await page.getByRole('button',{name:localized(/Start with full editor|البدء بالمحرر الكامل/)}).focus();
  await page.keyboard.press('Enter');
  await expect(page).toHaveURL(/\/inventory\/DEMO-[a-f0-9-]+\/edit$/);
  const id=page.url().split('/').at(-2)!;await page.goto(`${page.url()}?advanced=1`);return id;
@@ -56,7 +56,7 @@ for(const locale of ['en','ar']){
   await page.getByRole('combobox',{name:localized("Filter listing status")}).selectOption('Draft');
   await expect(page.locator('tbody tr')).toHaveCount(1);
   await capture(page,`${prefix}-inventory`);
-  await page.locator('tbody tr').getByRole('link').click();
+  await page.locator('tbody tr .fx-inventory-record').click();
   await expect(page).toHaveURL(`/${locale}/workspace/inventory/${id}`);
   await expect(page.getByRole('heading',{level:1})).toHaveText(ar?'مسكن الفناء التجريبي':'Lifecycle courtyard residence');await page.getByRole('tab',{name:locale==='ar'?'تفاصيل الإعلان':'Listing details',exact:true}).click();await expect(page.getByRole('link',{name:localized(/Organize media|تنظيم الوسائط/)})).toBeVisible();await capture(page,`${prefix}-property-record`);
   await page.goto(`/${locale}/workspace/inventory/${id}/media`);

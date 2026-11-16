@@ -1,0 +1,30 @@
+[
+  {
+    "route": "",
+    "violations": []
+  },
+  {
+    "route": "/inventory/new",
+    "violations": []
+  },
+  {
+    "route": "/inventory",
+    "violations": []
+  },
+  {
+    "route": "/inventory/AQ-50002",
+    "violations": []
+  },
+  {
+    "route": "/publish?property=AQ-50003&goal=portals&channels=property-finder&channel=property-finder",
+    "violations": []
+  },
+  {
+    "route": "/leads",
+    "violations": []
+  },
+  {
+    "route": "/inbox?lead=LE-2100",
+    "violations": []
+  }
+]

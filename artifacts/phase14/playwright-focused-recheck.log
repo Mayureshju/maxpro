@@ -1,0 +1,159 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test daily-productivity first-use --timeout=60000 --trace=off
+
+
+Running 34 tests using 4 workers
+
+(node:80232) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:80235) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:80234) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:80233) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/e2e/first-use.spec.ts:13:1 › first-use progress derives one saved property journey and ignores navigation/preparation alone (310ms)
+  ✓   3 [chromium] › tests/e2e/daily-productivity.spec.ts:15:1 › daily progress selects a coherent completed journey over an older draft; source changes regress it (309ms)
+  ✓   2 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:15:1 › daily progress selects a coherent completed journey over an older draft; source changes regress it (339ms)
+  ✓   4 [mobile-chromium] › tests/e2e/first-use.spec.ts:13:1 › first-use progress derives one saved property journey and ignores navigation/preparation alone (340ms)
+  ✓   6 [chromium] › tests/e2e/daily-productivity.spec.ts:20:1 › daily activity preserves actual command context, safely presents unknown/missing/denied events and restores snapshots (67ms)
+  ✓   7 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:20:1 › daily activity preserves actual command context, safely presents unknown/missing/denied events and restores snapshots (114ms)
+  ✓   9 [chromium] › tests/e2e/daily-productivity.spec.ts:35:2 › daily en: complete setup stays compact, readable activity and scoped boundaries (1.5s)
+  ✓  10 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:35:2 › daily en: complete setup stays compact, readable activity and scoped boundaries (1.4s)
+  ✓  11 [chromium] › tests/e2e/daily-productivity.spec.ts:44:2 › daily en: Quick Add validates, protects edits, saves a partial draft and prevents duplicate continuation (587ms)
+  ✓  13 [chromium] › tests/e2e/daily-productivity.spec.ts:52:2 › daily en: large inventory filters and useful property/channel recovery survive reload (609ms)
+  ✘  14 [chromium] › tests/e2e/daily-productivity.spec.ts:60:2 › daily en: enquiry triage links properties and protects an unsaved Inbox reply (584ms)
+(node:80275) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   8 [mobile-chromium] › tests/e2e/first-use.spec.ts:23:2 › first use en: empty agency → quick add → resume → review → local queue → fictional enquiry → follow-up (4.7s)
+  ✓  15 [chromium] › tests/e2e/daily-productivity.spec.ts:35:2 › daily ar: complete setup stays compact, readable activity and scoped boundaries (1.5s)
+  ✓  16 [mobile-chromium] › tests/e2e/first-use.spec.ts:48:2 › first use en: full editor carries quick facts and repeated submit creates one draft (597ms)
+  ✓   5 [chromium] › tests/e2e/first-use.spec.ts:23:2 › first use en: empty agency → quick add → resume → review → local queue → fictional enquiry → follow-up (5.4s)
+  ✓  17 [chromium] › tests/e2e/daily-productivity.spec.ts:44:2 › daily ar: Quick Add validates, protects edits, saves a partial draft and prevents duplicate continuation (547ms)
+  ✓  18 [mobile-chromium] › tests/e2e/first-use.spec.ts:54:2 › first use en: missing source warnings never invent facts or silently save (499ms)
+  ✓  19 [chromium] › tests/e2e/first-use.spec.ts:48:2 › first use en: full editor carries quick facts and repeated submit creates one draft (552ms)
+  ✓  20 [chromium] › tests/e2e/daily-productivity.spec.ts:52:2 › daily ar: large inventory filters and useful property/channel recovery survive reload (659ms)
+  ✓  22 [chromium] › tests/e2e/first-use.spec.ts:54:2 › first use en: missing source warnings never invent facts or silently save (626ms)
+  ✓  24 [chromium] › tests/e2e/first-use.spec.ts:23:2 › first use ar: empty agency → quick add → resume → review → local queue → fictional enquiry → follow-up (2.6s)
+  ✓  25 [chromium] › tests/e2e/first-use.spec.ts:48:2 › first use ar: full editor carries quick facts and repeated submit creates one draft (397ms)
+  ✓  26 [chromium] › tests/e2e/first-use.spec.ts:54:2 › first use ar: missing source warnings never invent facts or silently save (540ms)
+  ✓  21 [mobile-chromium] › tests/e2e/first-use.spec.ts:23:2 › first use ar: empty agency → quick add → resume → review → local queue → fictional enquiry → follow-up (4.3s)
+  ✓  27 [mobile-chromium] › tests/e2e/first-use.spec.ts:48:2 › first use ar: full editor carries quick facts and repeated submit creates one draft (392ms)
+  ✓  28 [mobile-chromium] › tests/e2e/first-use.spec.ts:54:2 › first use ar: missing source warnings never invent facts or silently save (562ms)
+  ✘  12 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:44:2 › daily en: Quick Add validates, protects edits, saves a partial draft and prevents duplicate continuation (1.0m)
+(node:80430) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  29 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:52:2 › daily en: large inventory filters and useful property/channel recovery survive reload (738ms)
+  ✘  30 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:60:2 › daily en: enquiry triage links properties and protects an unsaved Inbox reply (1.3s)
+(node:80455) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  31 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:35:2 › daily ar: complete setup stays compact, readable activity and scoped boundaries (639ms)
+  ✘  23 [chromium] › tests/e2e/daily-productivity.spec.ts:60:2 › daily ar: enquiry triage links properties and protects an unsaved Inbox reply (1.0m)
+  ✘  32 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:44:2 › daily ar: Quick Add validates, protects edits, saves a partial draft and prevents duplicate continuation (58.7s)
+
+
+  1) [chromium] › tests/e2e/daily-productivity.spec.ts:60:2 › daily en: enquiry triage links properties and protects an unsaved Inbox reply 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: locator('.crm-inbox a[href$="/inventory/AQ-50002"]')
+    Expected: visible
+    Error: strict mode violation: locator('.crm-inbox a[href$="/inventory/AQ-50002"]') resolved to 2 elements:
+        1) <a class="crm-conversation-property" href="/en/workspace/inventory/AQ-50002">…</a> aka getByRole('link', { name: 'View property · AQ-50002 ·' })
+        2) <a href="/en/workspace/inventory/AQ-50002">AQ-50002 · Demo daily home 2</a> aka getByRole('link', { name: 'AQ-50002 · Demo daily home 2', exact: true })
+
+    Call log:
+      - Expect "toBeVisible" locator('.crm-inbox a[href$="/inventory/AQ-50002"]') with timeout 8000ms
+      - waiting for locator('.crm-inbox a[href$="/inventory/AQ-50002"]')
+
+
+      61 |   const state=await seed(page);await page.goto(`/${locale}/workspace/leads`);await page.getByRole('button',{name:new RegExp(t('Unanswered recorded messages','رسائل مسجلة دون رد'))}).click();await expect(page.locator('.ag-daily-leads tbody tr')).toHaveCount(state.crm.leads.filter(l=>unansweredEnquiry(l)&&!['Won','Lost'].includes(l.stage)).length);
+      62 |   await page.goto(`/${locale}/workspace/inbox?lead=LE-2100`);await page.locator('#crm-reply').fill('Demo unsaved reply');await page.locator('.px-conversation-tile').filter({has:page.getByText('Demo visitor 2',{exact:true})}).click();const dialog=page.getByRole('dialog',{name:t('Leave this reply draft?','مغادرة مسودة الرد؟')});await expect(dialog).toBeVisible();await dialog.getByRole('button',{name:t('Keep editing','متابعة التحرير')}).click();await expect(page.locator('#crm-reply')).toHaveValue('Demo unsaved reply');
+    > 63 |   await page.locator('.px-conversation-tile').filter({has:page.getByText('Demo visitor 2',{exact:true})}).click();await page.getByRole('button',{name:t('Discard reply draft','تجاهل مسودة الرد')}).click();await expect(page.locator('#crm-reply')).toHaveValue('');await expect(page).toHaveURL(/lead=LE-2101/);await expect(page.locator('.crm-inbox a[href$="/inventory/AQ-50002"]')).toBeVisible();
+         |                                                                                                                                                                                                                                                                                                                                                                                           ^
+      64 |  });
+      65 | }
+      66 |
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/daily-productivity.spec.ts:63:379
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/daily-productivity-daily-e-3448d-ects-an-unsaved-Inbox-reply-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/daily-productivity-daily-e-3448d-ects-an-unsaved-Inbox-reply-chromium/error-context.md
+
+  2) [chromium] › tests/e2e/daily-productivity.spec.ts:60:2 › daily ar: enquiry triage links properties and protects an unsaved Inbox reply 
+
+    Test timeout of 60000ms exceeded.
+
+    Error: locator.click: Test timeout of 60000ms exceeded.
+    Call log:
+      - waiting for locator('.px-conversation-tile').filter({ has: getByText('Demo visitor 2', { exact: true }) })
+
+
+      60 |  test(`daily ${locale}: enquiry triage links properties and protects an unsaved Inbox reply`,async({page})=>{
+      61 |   const state=await seed(page);await page.goto(`/${locale}/workspace/leads`);await page.getByRole('button',{name:new RegExp(t('Unanswered recorded messages','رسائل مسجلة دون رد'))}).click();await expect(page.locator('.ag-daily-leads tbody tr')).toHaveCount(state.crm.leads.filter(l=>unansweredEnquiry(l)&&!['Won','Lost'].includes(l.stage)).length);
+    > 62 |   await page.goto(`/${locale}/workspace/inbox?lead=LE-2100`);await page.locator('#crm-reply').fill('Demo unsaved reply');await page.locator('.px-conversation-tile').filter({has:page.getByText('Demo visitor 2',{exact:true})}).click();const dialog=page.getByRole('dialog',{name:t('Leave this reply draft?','مغادرة مسودة الرد؟')});await expect(dialog).toBeVisible();await dialog.getByRole('button',{name:t('Keep editing','متابعة التحرير')}).click();await expect(page.locator('#crm-reply')).toHaveValue('Demo unsaved reply');
+         |                                                                                                                                                                                                                                  ^
+      63 |   await page.locator('.px-conversation-tile').filter({has:page.getByText('Demo visitor 2',{exact:true})}).click();await page.getByRole('button',{name:t('Discard reply draft','تجاهل مسودة الرد')}).click();await expect(page.locator('#crm-reply')).toHaveValue('');await expect(page).toHaveURL(/lead=LE-2101/);await expect(page.locator('.crm-conversation-property[href$="/inventory/AQ-50002"]')).toBeVisible();
+      64 |  });
+      65 | }
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/daily-productivity.spec.ts:62:226
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/daily-productivity-daily-a-bed3d-ects-an-unsaved-Inbox-reply-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/daily-productivity-daily-a-bed3d-ects-an-unsaved-Inbox-reply-chromium/error-context.md
+
+  3) [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:44:2 › daily en: Quick Add validates, protects edits, saves a partial draft and prevents duplicate continuation 
+
+    Test timeout of 60000ms exceeded.
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/daily-productivity-daily-e-b2184-ents-duplicate-continuation-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/daily-productivity-daily-e-b2184-ents-duplicate-continuation-mobile-chromium/error-context.md
+
+  4) [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:60:2 › daily en: enquiry triage links properties and protects an unsaved Inbox reply 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: locator('.crm-inbox a[href$="/inventory/AQ-50002"]')
+    Expected: visible
+    Error: strict mode violation: locator('.crm-inbox a[href$="/inventory/AQ-50002"]') resolved to 2 elements:
+        1) <a class="crm-conversation-property" href="/en/workspace/inventory/AQ-50002">…</a> aka getByRole('link', { name: 'View property · AQ-50002 ·' })
+        2) <a href="/en/workspace/inventory/AQ-50002">AQ-50002 · Demo daily home 2</a> aka getByRole('link', { name: 'AQ-50002 · Demo daily home 2', exact: true })
+
+    Call log:
+      - Expect "toBeVisible" locator('.crm-inbox a[href$="/inventory/AQ-50002"]') with timeout 8000ms
+      - waiting for locator('.crm-inbox a[href$="/inventory/AQ-50002"]')
+
+
+      61 |   const state=await seed(page);await page.goto(`/${locale}/workspace/leads`);await page.getByRole('button',{name:new RegExp(t('Unanswered recorded messages','رسائل مسجلة دون رد'))}).click();await expect(page.locator('.ag-daily-leads tbody tr')).toHaveCount(state.crm.leads.filter(l=>unansweredEnquiry(l)&&!['Won','Lost'].includes(l.stage)).length);
+      62 |   await page.goto(`/${locale}/workspace/inbox?lead=LE-2100`);await page.locator('#crm-reply').fill('Demo unsaved reply');await page.locator('.px-conversation-tile').filter({has:page.getByText('Demo visitor 2',{exact:true})}).click();const dialog=page.getByRole('dialog',{name:t('Leave this reply draft?','مغادرة مسودة الرد؟')});await expect(dialog).toBeVisible();await dialog.getByRole('button',{name:t('Keep editing','متابعة التحرير')}).click();await expect(page.locator('#crm-reply')).toHaveValue('Demo unsaved reply');
+    > 63 |   await page.locator('.px-conversation-tile').filter({has:page.getByText('Demo visitor 2',{exact:true})}).click();await page.getByRole('button',{name:t('Discard reply draft','تجاهل مسودة الرد')}).click();await expect(page.locator('#crm-reply')).toHaveValue('');await expect(page).toHaveURL(/lead=LE-2101/);await expect(page.locator('.crm-conversation-property[href$="/inventory/AQ-50002"]')).toBeVisible();
+         |                                                                                                                                                                                                                                                                                                                                                                                           ^
+      64 |  });
+      65 | }
+      66 |
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/daily-productivity.spec.ts:63:379
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/daily-productivity-daily-e-3448d-ects-an-unsaved-Inbox-reply-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/daily-productivity-daily-e-3448d-ects-an-unsaved-Inbox-reply-mobile-chromium/error-context.md
+
+  4 failed
+    [chromium] › tests/e2e/daily-productivity.spec.ts:60:2 › daily en: enquiry triage links properties and protects an unsaved Inbox reply 
+    [chromium] › tests/e2e/daily-productivity.spec.ts:60:2 › daily ar: enquiry triage links properties and protects an unsaved Inbox reply 
+    [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:44:2 › daily en: Quick Add validates, protects edits, saves a partial draft and prevents duplicate continuation 
+    [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:60:2 › daily en: enquiry triage links properties and protects an unsaved Inbox reply 
+  1 interrupted
+    [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:44:2 › daily ar: Quick Add validates, protects edits, saves a partial draft and prevents duplicate continuation 
+  2 did not run
+  27 passed (2.1m)
+ ELIFECYCLE  Command failed with exit code 130.

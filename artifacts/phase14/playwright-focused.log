@@ -1,0 +1,323 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test daily-productivity first-use --timeout=60000 --trace=off
+
+
+Running 34 tests using 4 workers
+
+(node:79491) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:79492) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:79494) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:79493) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   4 [chromium] › tests/e2e/first-use.spec.ts:13:1 › first-use progress derives one saved property journey and ignores navigation/preparation alone (318ms)
+  ✓   3 [chromium] › tests/e2e/daily-productivity.spec.ts:15:1 › daily progress selects a coherent completed journey over an older draft; source changes regress it (318ms)
+  ✓   1 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:15:1 › daily progress selects a coherent completed journey over an older draft; source changes regress it (328ms)
+  ✓   2 [mobile-chromium] › tests/e2e/first-use.spec.ts:13:1 › first-use progress derives one saved property journey and ignores navigation/preparation alone (332ms)
+  ✓   6 [chromium] › tests/e2e/daily-productivity.spec.ts:20:1 › daily activity preserves actual command context, safely presents unknown/missing/denied events and restores snapshots (75ms)
+  ✓   7 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:20:1 › daily activity preserves actual command context, safely presents unknown/missing/denied events and restores snapshots (99ms)
+  ✓  10 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:35:2 › daily en: complete setup stays compact, readable activity and scoped boundaries (1.0s)
+  ✓   9 [chromium] › tests/e2e/daily-productivity.spec.ts:35:2 › daily en: complete setup stays compact, readable activity and scoped boundaries (1.8s)
+  ✓  12 [chromium] › tests/e2e/daily-productivity.spec.ts:44:2 › daily en: Quick Add validates, protects edits, saves a partial draft and prevents duplicate continuation (584ms)
+  ✓  13 [chromium] › tests/e2e/daily-productivity.spec.ts:52:2 › daily en: large inventory filters and useful property/channel recovery survive reload (614ms)
+  ✘   8 [mobile-chromium] › tests/e2e/first-use.spec.ts:23:2 › first use en: empty agency → quick add → resume → review → local queue → fictional enquiry → follow-up (11.2s)
+(node:79557) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  14 [chromium] › tests/e2e/daily-productivity.spec.ts:60:2 › daily en: enquiry triage links properties and protects an unsaved Inbox reply (8.6s)
+  ✘   5 [chromium] › tests/e2e/first-use.spec.ts:23:2 › first use en: empty agency → quick add → resume → review → local queue → fictional enquiry → follow-up (11.7s)
+(node:79563) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:79564) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  15 [mobile-chromium] › tests/e2e/first-use.spec.ts:48:2 › first use en: full editor carries quick facts and repeated submit creates one draft (497ms)
+  ✓  18 [mobile-chromium] › tests/e2e/first-use.spec.ts:54:2 › first use en: missing source warnings never invent facts or silently save (478ms)
+  ✓  17 [chromium] › tests/e2e/first-use.spec.ts:48:2 › first use en: full editor carries quick facts and repeated submit creates one draft (607ms)
+  ✓  20 [chromium] › tests/e2e/first-use.spec.ts:54:2 › first use en: missing source warnings never invent facts or silently save (595ms)
+  ✓  16 [chromium] › tests/e2e/daily-productivity.spec.ts:35:2 › daily ar: complete setup stays compact, readable activity and scoped boundaries (1.5s)
+  ✓  22 [chromium] › tests/e2e/daily-productivity.spec.ts:44:2 › daily ar: Quick Add validates, protects edits, saves a partial draft and prevents duplicate continuation (466ms)
+  ✓  23 [chromium] › tests/e2e/daily-productivity.spec.ts:52:2 › daily ar: large inventory filters and useful property/channel recovery survive reload (590ms)
+  ✘  19 [mobile-chromium] › tests/e2e/first-use.spec.ts:23:2 › first use ar: empty agency → quick add → resume → review → local queue → fictional enquiry → follow-up (10.5s)
+(node:79641) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  25 [mobile-chromium] › tests/e2e/first-use.spec.ts:48:2 › first use ar: full editor carries quick facts and repeated submit creates one draft (449ms)
+  ✘  21 [chromium] › tests/e2e/first-use.spec.ts:23:2 › first use ar: empty agency → quick add → resume → review → local queue → fictional enquiry → follow-up (10.6s)
+(node:79648) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  26 [mobile-chromium] › tests/e2e/first-use.spec.ts:54:2 › first use ar: missing source warnings never invent facts or silently save (445ms)
+  ✓  27 [chromium] › tests/e2e/first-use.spec.ts:48:2 › first use ar: full editor carries quick facts and repeated submit creates one draft (437ms)
+  ✓  28 [chromium] › tests/e2e/first-use.spec.ts:54:2 › first use ar: missing source warnings never invent facts or silently save (549ms)
+  ✘  11 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:44:2 › daily en: Quick Add validates, protects edits, saves a partial draft and prevents duplicate continuation (1.0m)
+(node:79723) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  29 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:52:2 › daily en: large inventory filters and useful property/channel recovery survive reload (683ms)
+  ✘  30 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:60:2 › daily en: enquiry triage links properties and protects an unsaved Inbox reply (9.2s)
+(node:79814) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  31 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:35:2 › daily ar: complete setup stays compact, readable activity and scoped boundaries (553ms)
+  ✘  24 [chromium] › tests/e2e/daily-productivity.spec.ts:60:2 › daily ar: enquiry triage links properties and protects an unsaved Inbox reply (1.0m)
+  ✘  32 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:44:2 › daily ar: Quick Add validates, protects edits, saves a partial draft and prevents duplicate continuation (46.9s)
+
+
+  1) [chromium] › tests/e2e/daily-productivity.spec.ts:60:2 › daily en: enquiry triage links properties and protects an unsaved Inbox reply 
+
+    Error: expect(page).toHaveURL(expected) failed
+
+    Expected pattern: /lead=LE-2101/
+    Received string:  "http://localhost:3214/en/workspace/inbox?lead=LE-2120"
+    Timeout: 8000ms
+
+    Call log:
+      - Expect "toHaveURL" with timeout 8000ms
+        20 × locator resolved to <html lang="en" dir="ltr" data-scroll-behavior="smooth">…</html>
+           - unexpected value "http://localhost:3214/en/workspace/inbox?lead=LE-2120"
+
+
+      61 |   const state=await seed(page);await page.goto(`/${locale}/workspace/leads`);await page.getByRole('button',{name:new RegExp(t('Unanswered recorded messages','رسائل مسجلة دون رد'))}).click();await expect(page.locator('.ag-daily-leads tbody tr')).toHaveCount(state.crm.leads.filter(l=>unansweredEnquiry(l)&&!['Won','Lost'].includes(l.stage)).length);
+      62 |   await page.goto(`/${locale}/workspace/inbox?lead=LE-2100`);await page.locator('#crm-reply').fill('Demo unsaved reply');await page.locator('.px-conversation-tile').filter({hasText:'Demo visitor 2'}).first().click();const dialog=page.getByRole('dialog',{name:t('Leave this reply draft?','مغادرة مسودة الرد？').replace('？','?')});await expect(dialog).toBeVisible();await dialog.getByRole('button',{name:t('Keep editing','متابعة التحرير')}).click();await expect(page.locator('#crm-reply')).toHaveValue('Demo unsaved reply');
+    > 63 |   await page.locator('.px-conversation-tile').filter({hasText:'Demo visitor 2'}).first().click();await page.getByRole('button',{name:t('Discard reply draft','تجاهل مسودة الرد')}).click();await expect(page.locator('#crm-reply')).toHaveValue('');await expect(page).toHaveURL(/lead=LE-2101/);await expect(page.locator('.crm-inbox a[href$="/inventory/AQ-50002"]')).toBeVisible();
+         |                                                                                                                                                                                                                                                                        ^
+      64 |  });
+      65 | }
+      66 |
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/daily-productivity.spec.ts:63:264
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/daily-productivity-daily-e-3448d-ects-an-unsaved-Inbox-reply-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/daily-productivity-daily-e-3448d-ects-an-unsaved-Inbox-reply-chromium/error-context.md
+
+  2) [chromium] › tests/e2e/daily-productivity.spec.ts:60:2 › daily ar: enquiry triage links properties and protects an unsaved Inbox reply 
+
+    Test timeout of 60000ms exceeded.
+
+    Error: locator.click: Test timeout of 60000ms exceeded.
+    Call log:
+      - waiting for locator('.px-conversation-tile').filter({ hasText: 'Demo visitor 2' }).first()
+
+
+      60 |  test(`daily ${locale}: enquiry triage links properties and protects an unsaved Inbox reply`,async({page})=>{
+      61 |   const state=await seed(page);await page.goto(`/${locale}/workspace/leads`);await page.getByRole('button',{name:new RegExp(t('Unanswered recorded messages','رسائل مسجلة دون رد'))}).click();await expect(page.locator('.ag-daily-leads tbody tr')).toHaveCount(state.crm.leads.filter(l=>unansweredEnquiry(l)&&!['Won','Lost'].includes(l.stage)).length);
+    > 62 |   await page.goto(`/${locale}/workspace/inbox?lead=LE-2100`);await page.locator('#crm-reply').fill('Demo unsaved reply');await page.locator('.px-conversation-tile').filter({has:page.getByText('Demo visitor 2',{exact:true})}).click();const dialog=page.getByRole('dialog',{name:t('Leave this reply draft?','مغادرة مسودة الرد؟')});await expect(dialog).toBeVisible();await dialog.getByRole('button',{name:t('Keep editing','متابعة التحرير')}).click();await expect(page.locator('#crm-reply')).toHaveValue('Demo unsaved reply');
+         |                                                                                                                                                                                                                 ^
+      63 |   await page.locator('.px-conversation-tile').filter({has:page.getByText('Demo visitor 2',{exact:true})}).click();await page.getByRole('button',{name:t('Discard reply draft','تجاهل مسودة الرد')}).click();await expect(page.locator('#crm-reply')).toHaveValue('');await expect(page).toHaveURL(/lead=LE-2101/);await expect(page.locator('.crm-inbox a[href$="/inventory/AQ-50002"]')).toBeVisible();
+      64 |  });
+      65 | }
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/daily-productivity.spec.ts:62:209
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/daily-productivity-daily-a-bed3d-ects-an-unsaved-Inbox-reply-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/daily-productivity-daily-a-bed3d-ects-an-unsaved-Inbox-reply-chromium/error-context.md
+
+  3) [chromium] › tests/e2e/first-use.spec.ts:23:2 › first use en: empty agency → quick add → resume → review → local queue → fictional enquiry → follow-up 
+
+    Error: expect(page).toHaveURL(expected) failed
+
+    Expected pattern: /\/leads\/LE-/
+    Received string:  "http://localhost:3214/en/workspace/publish?property=DEMO-78aba1de-1514-486d-b97f-86bd832f5a68&goal=portals&channels=qatar-living&channel=qatar-living"
+    Timeout: 8000ms
+
+    Call log:
+      - Expect "toHaveURL" with timeout 8000ms
+        20 × locator resolved to <html lang="en" dir="ltr" data-scroll-behavior="smooth">…</html>
+           - unexpected value "http://localhost:3214/en/workspace/publish?property=DEMO-78aba1de-1514-486d-b97f-86bd832f5a68&goal=portals&channels=qatar-living&channel=qatar-living"
+
+
+      39 |   await page.locator('input[name="promotion-goal"][value="portals"]').check();await page.locator('.ag-channel-choice').filter({hasText:'Qatar Living'}).getByRole('checkbox').check();let panel=page.locator('.ag-channel-tabs~div:not(.ag-promotion-return):visible');await expect(panel.getByRole('link',{name:t('Complete missing listing information','إكمال معلومات الإعلان الناقصة'),exact:true})).toBeVisible();await panel.getByRole('checkbox',{name:t('I understand this prepares a fictional local setup only.','أفهم أن هذا يجهّز إعداداً محلياً خيالياً فقط.'),exact:true}).check();await panel.getByRole('button',{name:t('Prepare local setup','تجهيز الإعداد المحلي'),exact:true}).click();await panel.getByRole('checkbox',{name:t('I reviewed this listing and the checks for this portal.','راجعت هذا الإعلان وفحوصات هذه البوابة.'),exact:true}).check();await panel.getByRole('button',{name:t('Simulate listing','محاكاة الإعلان العقاري'),exact:true}).click();await expect(panel).toContainText(t('Blocked locally','محظور محلياً'));await expect(page.getByRole('button',{name:t('Create fictional enquiry','إنشاء استفسار خيالي'),exact:true})).toHaveCount(0);
+      40 |   await panel.getByRole('link',{name:t('Complete missing listing information','إكمال معلومات الإعلان الناقصة'),exact:true}).click();await page.getByText(t('Location, payment & source information','الموقع والدفع ومعلومات المصدر'),{exact:true}).click();await page.getByRole('textbox',{name:t('Latitude','خط العرض'),exact:true}).fill('25.3');await page.getByRole('textbox',{name:t('Longitude','خط الطول'),exact:true}).fill('51.5');await page.getByRole('textbox',{name:t('Permit / license','التصريح / الترخيص'),exact:true}).fill('DEMO-ONLY');await page.getByRole('checkbox',{name:t('I reviewed fictional owner / advertiser authorization.','راجعت تفويض المالك / المعلن الخيالي.'),exact:true}).check();await page.getByRole('button',{name:t('Skip assistance & review','تجاوز المساعدة والمراجعة'),exact:true}).click();await page.getByRole('checkbox',{name:t('I reviewed the supplied facts and both language versions (demo).','راجعت الحقائق المدخلة والنص باللغتين (تجريبي).'),exact:true}).check();await page.locator('.ag-editor-footer').getByRole('button',{name:t('Publish & Promote','النشر والترويج'),exact:true}).click();await page.locator('input[name="promotion-goal"][value="portals"]').check();await page.locator('.ag-channel-choice').filter({hasText:'Qatar Living'}).getByRole('checkbox').check();panel=page.locator('.ag-channel-tabs~div:not(.ag-promotion-return):visible');await panel.getByRole('checkbox',{name:t('I reviewed this listing and the checks for this portal.','راجعت هذا الإعلان وفحوصات هذه البوابة.'),exact:true}).check();await panel.getByRole('button',{name:t('Simulate listing','محاكاة الإعلان العقاري'),exact:true}).click();await expect(panel).toContainText(t('Queued locally','في الانتظار محلياً'));await page.screenshot({path:resolve(root,`${info.project.name}-${locale}-queue-and-enquiry.png`),fullPage:true});
+    > 41 |   await page.getByRole('button',{name:t('Create fictional enquiry','إنشاء استفسار خيالي'),exact:true}).click();await expect(page).toHaveURL(/\/leads\/LE-/);const leadId=page.url().split('/').at(-1)!;state=await snapshot(page);expect(state.crm.leads).toHaveLength(1);expect(state.crm.leads[0]).toMatchObject({propertyId:id,source:'Qatar Living',organizationId:org});expect(state.crm.leads[0].assignee).toBeNull();await expect(page.getByRole('link',{name:localized('Open conversation',true)})).toBeVisible();await page.getByRole('button',{name:t('Make owner available & assign','إتاحة المالك وتعيينه'),exact:true}).click();expect((await snapshot(page)).crm.leads[0].assignee).toBe('Demo Agency Owner');await page.screenshot({path:resolve(root,`${info.project.name}-${locale}-enquiry.png`),fullPage:true});
+         |                                                                                                                                   ^
+      42 |   await page.getByRole('link',{name:localized('Open conversation',true)}).click();await expect(page).toHaveURL(new RegExp(`lead=${leadId}`));await page.locator('#crm-reply').fill('Fictional agent reply about this property.');await page.locator('.px-chat-compose').getByRole('button').click();expect((await snapshot(page)).crm.leads[0].conversation.messages.at(-1)?.status).toBe('saved-local');
+      43 |   await page.goto(`/${locale}/workspace/inventory/${id}`);await page.getByRole('button',{name:t('Open fictional enquiry','فتح الاستفسار الخيالي'),exact:true}).click();await expect(page).toHaveURL(new RegExp(`/leads/${leadId}$`));await page.reload();await page.getByRole('link',{name:t('Back to dashboard','العودة إلى لوحة الوكالة'),exact:true}).click();await expect(guide).toHaveCount(0);await page.getByRole('button',{name:t('Getting-started help','مساعدة البداية'),exact:true}).click();await expect(guide.locator('li.complete')).toHaveCount(5);expect((await snapshot(page)).crm.leads).toHaveLength(1);
+      44 |   // Normal public demo chooser switches organizations without developer utilities.
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/first-use.spec.ts:41:131
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/first-use-first-use-en-emp-b31a2-ctional-enquiry-→-follow-up-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/first-use-first-use-en-emp-b31a2-ctional-enquiry-→-follow-up-chromium/error-context.md
+
+  4) [chromium] › tests/e2e/first-use.spec.ts:23:2 › first use ar: empty agency → quick add → resume → review → local queue → fictional enquiry → follow-up 
+
+    Error: expect(page).toHaveURL(expected) failed
+
+    Expected pattern: /\/leads\/LE-/
+    Received string:  "http://localhost:3214/ar/workspace/publish?property=DEMO-4ff00902-fe64-4f95-8fdb-0b48135e10ff&goal=portals&channels=qatar-living&channel=qatar-living"
+    Timeout: 8000ms
+
+    Call log:
+      - Expect "toHaveURL" with timeout 8000ms
+        20 × locator resolved to <html lang="ar" dir="rtl" data-scroll-behavior="smooth">…</html>
+           - unexpected value "http://localhost:3214/ar/workspace/publish?property=DEMO-4ff00902-fe64-4f95-8fdb-0b48135e10ff&goal=portals&channels=qatar-living&channel=qatar-living"
+
+
+      39 |   await page.locator('input[name="promotion-goal"][value="portals"]').check();await page.locator('.ag-channel-choice').filter({hasText:'Qatar Living'}).getByRole('checkbox').check();let panel=page.locator('.ag-channel-tabs~div:not(.ag-promotion-return):visible');await expect(panel.getByRole('link',{name:t('Complete missing listing information','إكمال معلومات الإعلان الناقصة'),exact:true})).toBeVisible();await panel.getByRole('checkbox',{name:t('I understand this prepares a fictional local setup only.','أفهم أن هذا يجهّز إعداداً محلياً خيالياً فقط.'),exact:true}).check();await panel.getByRole('button',{name:t('Prepare local setup','تجهيز الإعداد المحلي'),exact:true}).click();await panel.getByRole('checkbox',{name:t('I reviewed this listing and the checks for this portal.','راجعت هذا الإعلان وفحوصات هذه البوابة.'),exact:true}).check();await panel.getByRole('button',{name:t('Simulate listing','محاكاة الإعلان العقاري'),exact:true}).click();await expect(panel).toContainText(t('Blocked locally','محظور محلياً'));await expect(page.getByRole('button',{name:t('Create fictional enquiry','إنشاء استفسار خيالي'),exact:true})).toHaveCount(0);
+      40 |   await panel.getByRole('link',{name:t('Complete missing listing information','إكمال معلومات الإعلان الناقصة'),exact:true}).click();await page.getByText(t('Location, payment & source information','الموقع والدفع ومعلومات المصدر'),{exact:true}).click();await page.getByRole('textbox',{name:t('Latitude','خط العرض'),exact:true}).fill('25.3');await page.getByRole('textbox',{name:t('Longitude','خط الطول'),exact:true}).fill('51.5');await page.getByRole('textbox',{name:t('Permit / license','التصريح / الترخيص'),exact:true}).fill('DEMO-ONLY');await page.getByRole('checkbox',{name:t('I reviewed fictional owner / advertiser authorization.','راجعت تفويض المالك / المعلن الخيالي.'),exact:true}).check();await page.getByRole('button',{name:t('Skip assistance & review','تجاوز المساعدة والمراجعة'),exact:true}).click();await page.getByRole('checkbox',{name:t('I reviewed the supplied facts and both language versions (demo).','راجعت الحقائق المدخلة والنص باللغتين (تجريبي).'),exact:true}).check();await page.locator('.ag-editor-footer').getByRole('button',{name:t('Publish & Promote','النشر والترويج'),exact:true}).click();await page.locator('input[name="promotion-goal"][value="portals"]').check();await page.locator('.ag-channel-choice').filter({hasText:'Qatar Living'}).getByRole('checkbox').check();panel=page.locator('.ag-channel-tabs~div:not(.ag-promotion-return):visible');await panel.getByRole('checkbox',{name:t('I reviewed this listing and the checks for this portal.','راجعت هذا الإعلان وفحوصات هذه البوابة.'),exact:true}).check();await panel.getByRole('button',{name:t('Simulate listing','محاكاة الإعلان العقاري'),exact:true}).click();await expect(panel).toContainText(t('Queued locally','في الانتظار محلياً'));await page.screenshot({path:resolve(root,`${info.project.name}-${locale}-queue-and-enquiry.png`),fullPage:true});
+    > 41 |   await page.getByRole('button',{name:t('Create fictional enquiry','إنشاء استفسار خيالي'),exact:true}).click();await expect(page).toHaveURL(/\/leads\/LE-/);const leadId=page.url().split('/').at(-1)!;state=await snapshot(page);expect(state.crm.leads).toHaveLength(1);expect(state.crm.leads[0]).toMatchObject({propertyId:id,source:'Qatar Living',organizationId:org});expect(state.crm.leads[0].assignee).toBeNull();await expect(page.getByRole('link',{name:localized('Open conversation',true)})).toBeVisible();await page.getByRole('button',{name:t('Make owner available & assign','إتاحة المالك وتعيينه'),exact:true}).click();expect((await snapshot(page)).crm.leads[0].assignee).toBe('Demo Agency Owner');await page.screenshot({path:resolve(root,`${info.project.name}-${locale}-enquiry.png`),fullPage:true});
+         |                                                                                                                                   ^
+      42 |   await page.getByRole('link',{name:localized('Open conversation',true)}).click();await expect(page).toHaveURL(new RegExp(`lead=${leadId}`));await page.locator('#crm-reply').fill('Fictional agent reply about this property.');await page.locator('.px-chat-compose').getByRole('button').click();expect((await snapshot(page)).crm.leads[0].conversation.messages.at(-1)?.status).toBe('saved-local');
+      43 |   await page.goto(`/${locale}/workspace/inventory/${id}`);await page.getByRole('button',{name:t('Open fictional enquiry','فتح الاستفسار الخيالي'),exact:true}).click();await expect(page).toHaveURL(new RegExp(`/leads/${leadId}$`));await page.reload();await page.getByRole('link',{name:t('Back to dashboard','العودة إلى لوحة الوكالة'),exact:true}).click();await expect(guide).toHaveCount(0);await page.getByRole('button',{name:t('Getting-started help','مساعدة البداية'),exact:true}).click();await expect(guide.locator('li.complete')).toHaveCount(5);expect((await snapshot(page)).crm.leads).toHaveLength(1);
+      44 |   // Normal public demo chooser switches organizations without developer utilities.
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/first-use.spec.ts:41:131
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/first-use-first-use-ar-emp-9e008-ctional-enquiry-→-follow-up-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/first-use-first-use-ar-emp-9e008-ctional-enquiry-→-follow-up-chromium/error-context.md
+
+  5) [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:44:2 › daily en: Quick Add validates, protects edits, saves a partial draft and prevents duplicate continuation 
+
+    Test timeout of 60000ms exceeded.
+
+    Error: locator.evaluate: Test timeout of 60000ms exceeded.
+    Call log:
+      - waiting for locator('.prototype-nav').getByRole('link', { name: 'Dashboard', exact: true })
+
+
+      46 |   await submit.click();await expect(page.locator('[aria-invalid="true"]')).toHaveCount(3);expect(Object.keys((await saved(page)).properties)).toHaveLength(0);
+      47 |   await page.getByRole('textbox',{name:t('Property title','عنوان العقار'),exact:true}).fill('   ');await page.getByRole('textbox',{name:t('City','المدينة'),exact:true}).fill(' ');await page.getByRole('spinbutton').fill('-1');await submit.click();expect(Object.keys((await saved(page)).properties)).toHaveLength(0);
+    > 48 |   await page.getByRole('textbox',{name:t('Property title','عنوان العقار'),exact:true}).fill('Demo partial home');await page.getByRole('spinbutton').fill('');await page.locator('.ws-breadcrumbs a').first().click();await expect(page.getByRole('dialog',{name:t('Leave unsaved changes?','هل تريد مغادرة التعديلات غير المحفوظة؟')})).toBeVisible();await page.getByRole('button',{name:t('Keep editing','متابعة التحرير'),exact:true}).click();
+         |                                                                                                                                                                                                                                                                     ^
+      49 |   await page.getByRole('button',{name:t('Save as draft','حفظ كمسودة'),exact:true}).click();await expect(page).toHaveURL(/\/inventory\/DEMO-[^/]+$/);expect(Object.values((await saved(page)).properties)[0].facts.priceQar).toBe(0);
+      50 |   await page.goto(`/${locale}/workspace/inventory/new`);await page.getByRole('textbox',{name:t('Property title','عنوان العقار'),exact:true}).fill('Demo complete basics');await page.getByRole('textbox',{name:t('City','المدينة'),exact:true}).fill('Doha');await page.getByRole('spinbutton').fill('8500');await page.locator('form.ag-quick-add').evaluate(f=>{(f as HTMLFormElement).requestSubmit();(f as HTMLFormElement).requestSubmit();});await expect(page).toHaveURL(/\/edit$/);expect(Object.keys((await saved(page)).properties)).toHaveLength(2);
+      51 |  });
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/daily-productivity.spec.ts:48:261
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/daily-productivity-daily-e-b2184-ents-duplicate-continuation-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/daily-productivity-daily-e-b2184-ents-duplicate-continuation-mobile-chromium/error-context.md
+
+  6) [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:60:2 › daily en: enquiry triage links properties and protects an unsaved Inbox reply 
+
+    Error: expect(page).toHaveURL(expected) failed
+
+    Expected pattern: /lead=LE-2101/
+    Received string:  "http://localhost:3214/en/workspace/inbox?lead=LE-2120"
+    Timeout: 8000ms
+
+    Call log:
+      - Expect "toHaveURL" with timeout 8000ms
+        19 × locator resolved to <html lang="en" dir="ltr" data-scroll-behavior="smooth">…</html>
+           - unexpected value "http://localhost:3214/en/workspace/inbox?lead=LE-2120"
+
+
+      61 |   const state=await seed(page);await page.goto(`/${locale}/workspace/leads`);await page.getByRole('button',{name:new RegExp(t('Unanswered recorded messages','رسائل مسجلة دون رد'))}).click();await expect(page.locator('.ag-daily-leads tbody tr')).toHaveCount(state.crm.leads.filter(l=>unansweredEnquiry(l)&&!['Won','Lost'].includes(l.stage)).length);
+      62 |   await page.goto(`/${locale}/workspace/inbox?lead=LE-2100`);await page.locator('#crm-reply').fill('Demo unsaved reply');await page.locator('.px-conversation-tile').filter({has:page.getByText('Demo visitor 2',{exact:true})}).click();const dialog=page.getByRole('dialog',{name:t('Leave this reply draft?','مغادرة مسودة الرد؟')});await expect(dialog).toBeVisible();await dialog.getByRole('button',{name:t('Keep editing','متابعة التحرير')}).click();await expect(page.locator('#crm-reply')).toHaveValue('Demo unsaved reply');
+    > 63 |   await page.locator('.px-conversation-tile').filter({has:page.getByText('Demo visitor 2',{exact:true})}).click();await page.getByRole('button',{name:t('Discard reply draft','تجاهل مسودة الرد')}).click();await expect(page.locator('#crm-reply')).toHaveValue('');await expect(page).toHaveURL(/lead=LE-2101/);await expect(page.locator('.crm-inbox a[href$="/inventory/AQ-50002"]')).toBeVisible();
+         |                                                                                                                                                                                                                                                                        ^
+      64 |  });
+      65 | }
+      66 |
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/daily-productivity.spec.ts:63:264
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/daily-productivity-daily-e-3448d-ects-an-unsaved-Inbox-reply-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/daily-productivity-daily-e-3448d-ects-an-unsaved-Inbox-reply-mobile-chromium/error-context.md
+
+  7) [mobile-chromium] › tests/e2e/first-use.spec.ts:23:2 › first use en: empty agency → quick add → resume → review → local queue → fictional enquiry → follow-up 
+
+    Error: expect(page).toHaveURL(expected) failed
+
+    Expected pattern: /\/leads\/LE-/
+    Received string:  "http://localhost:3214/en/workspace/publish?property=DEMO-1d84c46e-f960-4095-b09a-a0c71c54a76c&goal=portals&channels=qatar-living&channel=qatar-living"
+    Timeout: 8000ms
+
+    Call log:
+      - Expect "toHaveURL" with timeout 8000ms
+        20 × locator resolved to <html lang="en" dir="ltr" data-scroll-behavior="smooth">…</html>
+           - unexpected value "http://localhost:3214/en/workspace/publish?property=DEMO-1d84c46e-f960-4095-b09a-a0c71c54a76c&goal=portals&channels=qatar-living&channel=qatar-living"
+
+
+      39 |   await page.locator('input[name="promotion-goal"][value="portals"]').check();await page.locator('.ag-channel-choice').filter({hasText:'Qatar Living'}).getByRole('checkbox').check();let panel=page.locator('.ag-channel-tabs~div:not(.ag-promotion-return):visible');await expect(panel.getByRole('link',{name:t('Complete missing listing information','إكمال معلومات الإعلان الناقصة'),exact:true})).toBeVisible();await panel.getByRole('checkbox',{name:t('I understand this prepares a fictional local setup only.','أفهم أن هذا يجهّز إعداداً محلياً خيالياً فقط.'),exact:true}).check();await panel.getByRole('button',{name:t('Prepare local setup','تجهيز الإعداد المحلي'),exact:true}).click();await panel.getByRole('checkbox',{name:t('I reviewed this listing and the checks for this portal.','راجعت هذا الإعلان وفحوصات هذه البوابة.'),exact:true}).check();await panel.getByRole('button',{name:t('Simulate listing','محاكاة الإعلان العقاري'),exact:true}).click();await expect(panel).toContainText(t('Blocked locally','محظور محلياً'));await expect(page.getByRole('button',{name:t('Create fictional enquiry','إنشاء استفسار خيالي'),exact:true})).toHaveCount(0);
+      40 |   await panel.getByRole('link',{name:t('Complete missing listing information','إكمال معلومات الإعلان الناقصة'),exact:true}).click();await page.getByText(t('Location, payment & source information','الموقع والدفع ومعلومات المصدر'),{exact:true}).click();await page.getByRole('textbox',{name:t('Latitude','خط العرض'),exact:true}).fill('25.3');await page.getByRole('textbox',{name:t('Longitude','خط الطول'),exact:true}).fill('51.5');await page.getByRole('textbox',{name:t('Permit / license','التصريح / الترخيص'),exact:true}).fill('DEMO-ONLY');await page.getByRole('checkbox',{name:t('I reviewed fictional owner / advertiser authorization.','راجعت تفويض المالك / المعلن الخيالي.'),exact:true}).check();await page.getByRole('button',{name:t('Skip assistance & review','تجاوز المساعدة والمراجعة'),exact:true}).click();await page.getByRole('checkbox',{name:t('I reviewed the supplied facts and both language versions (demo).','راجعت الحقائق المدخلة والنص باللغتين (تجريبي).'),exact:true}).check();await page.locator('.ag-editor-footer').getByRole('button',{name:t('Publish & Promote','النشر والترويج'),exact:true}).click();await page.locator('input[name="promotion-goal"][value="portals"]').check();await page.locator('.ag-channel-choice').filter({hasText:'Qatar Living'}).getByRole('checkbox').check();panel=page.locator('.ag-channel-tabs~div:not(.ag-promotion-return):visible');await panel.getByRole('checkbox',{name:t('I reviewed this listing and the checks for this portal.','راجعت هذا الإعلان وفحوصات هذه البوابة.'),exact:true}).check();await panel.getByRole('button',{name:t('Simulate listing','محاكاة الإعلان العقاري'),exact:true}).click();await expect(panel).toContainText(t('Queued locally','في الانتظار محلياً'));await page.screenshot({path:resolve(root,`${info.project.name}-${locale}-queue-and-enquiry.png`),fullPage:true});
+    > 41 |   await page.getByRole('button',{name:t('Create fictional enquiry','إنشاء استفسار خيالي'),exact:true}).click();await expect(page).toHaveURL(/\/leads\/LE-/);const leadId=page.url().split('/').at(-1)!;state=await snapshot(page);expect(state.crm.leads).toHaveLength(1);expect(state.crm.leads[0]).toMatchObject({propertyId:id,source:'Qatar Living',organizationId:org});expect(state.crm.leads[0].assignee).toBeNull();await expect(page.getByRole('link',{name:localized('Open conversation',true)})).toBeVisible();await page.getByRole('button',{name:t('Make owner available & assign','إتاحة المالك وتعيينه'),exact:true}).click();expect((await snapshot(page)).crm.leads[0].assignee).toBe('Demo Agency Owner');await page.screenshot({path:resolve(root,`${info.project.name}-${locale}-enquiry.png`),fullPage:true});
+         |                                                                                                                                   ^
+      42 |   await page.getByRole('link',{name:localized('Open conversation',true)}).click();await expect(page).toHaveURL(new RegExp(`lead=${leadId}`));await page.locator('#crm-reply').fill('Fictional agent reply about this property.');await page.locator('.px-chat-compose').getByRole('button').click();expect((await snapshot(page)).crm.leads[0].conversation.messages.at(-1)?.status).toBe('saved-local');
+      43 |   await page.goto(`/${locale}/workspace/inventory/${id}`);await page.getByRole('button',{name:t('Open fictional enquiry','فتح الاستفسار الخيالي'),exact:true}).click();await expect(page).toHaveURL(new RegExp(`/leads/${leadId}$`));await page.reload();await page.getByRole('link',{name:t('Back to dashboard','العودة إلى لوحة الوكالة'),exact:true}).click();await expect(guide).toHaveCount(0);await page.getByRole('button',{name:t('Getting-started help','مساعدة البداية'),exact:true}).click();await expect(guide.locator('li.complete')).toHaveCount(5);expect((await snapshot(page)).crm.leads).toHaveLength(1);
+      44 |   // Normal public demo chooser switches organizations without developer utilities.
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/first-use.spec.ts:41:131
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/first-use-first-use-en-emp-b31a2-ctional-enquiry-→-follow-up-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/first-use-first-use-en-emp-b31a2-ctional-enquiry-→-follow-up-mobile-chromium/error-context.md
+
+  8) [mobile-chromium] › tests/e2e/first-use.spec.ts:23:2 › first use ar: empty agency → quick add → resume → review → local queue → fictional enquiry → follow-up 
+
+    Error: expect(page).toHaveURL(expected) failed
+
+    Expected pattern: /\/leads\/LE-/
+    Received string:  "http://localhost:3214/ar/workspace/publish?property=DEMO-580e6c60-db9f-423e-99cd-f5eb2e79f96b&goal=portals&channels=qatar-living&channel=qatar-living"
+    Timeout: 8000ms
+
+    Call log:
+      - Expect "toHaveURL" with timeout 8000ms
+        20 × locator resolved to <html lang="ar" dir="rtl" data-scroll-behavior="smooth">…</html>
+           - unexpected value "http://localhost:3214/ar/workspace/publish?property=DEMO-580e6c60-db9f-423e-99cd-f5eb2e79f96b&goal=portals&channels=qatar-living&channel=qatar-living"
+
+
+      39 |   await page.locator('input[name="promotion-goal"][value="portals"]').check();await page.locator('.ag-channel-choice').filter({hasText:'Qatar Living'}).getByRole('checkbox').check();let panel=page.locator('.ag-channel-tabs~div:not(.ag-promotion-return):visible');await expect(panel.getByRole('link',{name:t('Complete missing listing information','إكمال معلومات الإعلان الناقصة'),exact:true})).toBeVisible();await panel.getByRole('checkbox',{name:t('I understand this prepares a fictional local setup only.','أفهم أن هذا يجهّز إعداداً محلياً خيالياً فقط.'),exact:true}).check();await panel.getByRole('button',{name:t('Prepare local setup','تجهيز الإعداد المحلي'),exact:true}).click();await panel.getByRole('checkbox',{name:t('I reviewed this listing and the checks for this portal.','راجعت هذا الإعلان وفحوصات هذه البوابة.'),exact:true}).check();await panel.getByRole('button',{name:t('Simulate listing','محاكاة الإعلان العقاري'),exact:true}).click();await expect(panel).toContainText(t('Blocked locally','محظور محلياً'));await expect(page.getByRole('button',{name:t('Create fictional enquiry','إنشاء استفسار خيالي'),exact:true})).toHaveCount(0);
+      40 |   await panel.getByRole('link',{name:t('Complete missing listing information','إكمال معلومات الإعلان الناقصة'),exact:true}).click();await page.getByText(t('Location, payment & source information','الموقع والدفع ومعلومات المصدر'),{exact:true}).click();await page.getByRole('textbox',{name:t('Latitude','خط العرض'),exact:true}).fill('25.3');await page.getByRole('textbox',{name:t('Longitude','خط الطول'),exact:true}).fill('51.5');await page.getByRole('textbox',{name:t('Permit / license','التصريح / الترخيص'),exact:true}).fill('DEMO-ONLY');await page.getByRole('checkbox',{name:t('I reviewed fictional owner / advertiser authorization.','راجعت تفويض المالك / المعلن الخيالي.'),exact:true}).check();await page.getByRole('button',{name:t('Skip assistance & review','تجاوز المساعدة والمراجعة'),exact:true}).click();await page.getByRole('checkbox',{name:t('I reviewed the supplied facts and both language versions (demo).','راجعت الحقائق المدخلة والنص باللغتين (تجريبي).'),exact:true}).check();await page.locator('.ag-editor-footer').getByRole('button',{name:t('Publish & Promote','النشر والترويج'),exact:true}).click();await page.locator('input[name="promotion-goal"][value="portals"]').check();await page.locator('.ag-channel-choice').filter({hasText:'Qatar Living'}).getByRole('checkbox').check();panel=page.locator('.ag-channel-tabs~div:not(.ag-promotion-return):visible');await panel.getByRole('checkbox',{name:t('I reviewed this listing and the checks for this portal.','راجعت هذا الإعلان وفحوصات هذه البوابة.'),exact:true}).check();await panel.getByRole('button',{name:t('Simulate listing','محاكاة الإعلان العقاري'),exact:true}).click();await expect(panel).toContainText(t('Queued locally','في الانتظار محلياً'));await page.screenshot({path:resolve(root,`${info.project.name}-${locale}-queue-and-enquiry.png`),fullPage:true});
+    > 41 |   await page.getByRole('button',{name:t('Create fictional enquiry','إنشاء استفسار خيالي'),exact:true}).click();await expect(page).toHaveURL(/\/leads\/LE-/);const leadId=page.url().split('/').at(-1)!;state=await snapshot(page);expect(state.crm.leads).toHaveLength(1);expect(state.crm.leads[0]).toMatchObject({propertyId:id,source:'Qatar Living',organizationId:org});expect(state.crm.leads[0].assignee).toBeNull();await expect(page.getByRole('link',{name:localized('Open conversation',true)})).toBeVisible();await page.getByRole('button',{name:t('Make owner available & assign','إتاحة المالك وتعيينه'),exact:true}).click();expect((await snapshot(page)).crm.leads[0].assignee).toBe('Demo Agency Owner');await page.screenshot({path:resolve(root,`${info.project.name}-${locale}-enquiry.png`),fullPage:true});
+         |                                                                                                                                   ^
+      42 |   await page.getByRole('link',{name:localized('Open conversation',true)}).click();await expect(page).toHaveURL(new RegExp(`lead=${leadId}`));await page.locator('#crm-reply').fill('Fictional agent reply about this property.');await page.locator('.px-chat-compose').getByRole('button').click();expect((await snapshot(page)).crm.leads[0].conversation.messages.at(-1)?.status).toBe('saved-local');
+      43 |   await page.goto(`/${locale}/workspace/inventory/${id}`);await page.getByRole('button',{name:t('Open fictional enquiry','فتح الاستفسار الخيالي'),exact:true}).click();await expect(page).toHaveURL(new RegExp(`/leads/${leadId}$`));await page.reload();await page.getByRole('link',{name:t('Back to dashboard','العودة إلى لوحة الوكالة'),exact:true}).click();await expect(guide).toHaveCount(0);await page.getByRole('button',{name:t('Getting-started help','مساعدة البداية'),exact:true}).click();await expect(guide.locator('li.complete')).toHaveCount(5);expect((await snapshot(page)).crm.leads).toHaveLength(1);
+      44 |   // Normal public demo chooser switches organizations without developer utilities.
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/first-use.spec.ts:41:131
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/first-use-first-use-ar-emp-9e008-ctional-enquiry-→-follow-up-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/first-use-first-use-ar-emp-9e008-ctional-enquiry-→-follow-up-mobile-chromium/error-context.md
+
+  9) [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:44:2 › daily ar: Quick Add validates, protects edits, saves a partial draft and prevents duplicate continuation 
+
+    Test was interrupted.
+
+    Error: locator.evaluate: Test ended.
+    Call log:
+      - waiting for locator('.prototype-nav').getByRole('link', { name: 'لوحة الوكالة', exact: true })
+
+
+      46 |   await submit.click();await expect(page.locator('[aria-invalid="true"]')).toHaveCount(3);expect(Object.keys((await saved(page)).properties)).toHaveLength(0);
+      47 |   await page.getByRole('textbox',{name:t('Property title','عنوان العقار'),exact:true}).fill('   ');await page.getByRole('textbox',{name:t('City','المدينة'),exact:true}).fill(' ');await page.getByRole('spinbutton').fill('-1');await submit.click();expect(Object.keys((await saved(page)).properties)).toHaveLength(0);
+    > 48 |   await page.getByRole('textbox',{name:t('Property title','عنوان العقار'),exact:true}).fill('Demo partial home');await page.getByRole('spinbutton').fill('');await page.locator('.ws-breadcrumbs a').first().click();await expect(page.getByRole('dialog',{name:t('Leave unsaved changes?','هل تريد مغادرة التعديلات غير المحفوظة؟')})).toBeVisible();await page.getByRole('button',{name:t('Keep editing','متابعة التحرير'),exact:true}).click();
+         |                                                                                                                                                                                                                                                                     ^
+      49 |   await page.getByRole('button',{name:t('Save as draft','حفظ كمسودة'),exact:true}).click();await expect(page).toHaveURL(/\/inventory\/DEMO-[^/]+$/);expect(Object.values((await saved(page)).properties)[0].facts.priceQar).toBe(0);
+      50 |   await page.goto(`/${locale}/workspace/inventory/new`);await page.getByRole('textbox',{name:t('Property title','عنوان العقار'),exact:true}).fill('Demo complete basics');await page.getByRole('textbox',{name:t('City','المدينة'),exact:true}).fill('Doha');await page.getByRole('spinbutton').fill('8500');await page.locator('form.ag-quick-add').evaluate(f=>{(f as HTMLFormElement).requestSubmit();(f as HTMLFormElement).requestSubmit();});await expect(page).toHaveURL(/\/edit$/);expect(Object.keys((await saved(page)).properties)).toHaveLength(2);
+      51 |  });
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/daily-productivity.spec.ts:48:261
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/daily-productivity-daily-a-4bd2b-ents-duplicate-continuation-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/daily-productivity-daily-a-4bd2b-ents-duplicate-continuation-mobile-chromium/error-context.md
+
+  8 failed
+    [chromium] › tests/e2e/daily-productivity.spec.ts:60:2 › daily en: enquiry triage links properties and protects an unsaved Inbox reply 
+    [chromium] › tests/e2e/daily-productivity.spec.ts:60:2 › daily ar: enquiry triage links properties and protects an unsaved Inbox reply 
+    [chromium] › tests/e2e/first-use.spec.ts:23:2 › first use en: empty agency → quick add → resume → review → local queue → fictional enquiry → follow-up 
+    [chromium] › tests/e2e/first-use.spec.ts:23:2 › first use ar: empty agency → quick add → resume → review → local queue → fictional enquiry → follow-up 
+    [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:44:2 › daily en: Quick Add validates, protects edits, saves a partial draft and prevents duplicate continuation 
+    [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:60:2 › daily en: enquiry triage links properties and protects an unsaved Inbox reply 
+    [mobile-chromium] › tests/e2e/first-use.spec.ts:23:2 › first use en: empty agency → quick add → resume → review → local queue → fictional enquiry → follow-up 
+    [mobile-chromium] › tests/e2e/first-use.spec.ts:23:2 › first use ar: empty agency → quick add → resume → review → local queue → fictional enquiry → follow-up 
+  1 interrupted
+    [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:44:2 › daily ar: Quick Add validates, protects edits, saves a partial draft and prevents duplicate continuation 
+  2 did not run
+  23 passed (2.0m)
+ ELIFECYCLE  Command failed with exit code 130.

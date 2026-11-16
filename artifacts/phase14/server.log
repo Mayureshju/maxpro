@@ -1,0 +1,10 @@
+
+> @maxpro/web@0.1.0 start /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> next start --port 3214
+
+▲ Next.js 16.4.6
+- Local:         http://localhost:3214
+- Network:       http://192.168.7.6:3214
+✓ Ready in 97ms
+✓ Running next.config.ts took 100ms
+ ELIFECYCLE  Command failed with exit code 143.

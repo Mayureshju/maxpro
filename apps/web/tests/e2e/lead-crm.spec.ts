@@ -490,7 +490,7 @@ test('CRM browser: a newly created canonical property can receive a simulated le
   page,
 }) => {
   await page.goto('/en/workspace/inventory/new');
-  await page.getByRole('button', {name: localized('Create empty draft')}).click();
+  await page.getByRole('button', {name: localized(/Start with full editor|البدء بالمحرر الكامل/)}).click();
   await expect(page).toHaveURL(/\/inventory\/DEMO-[a-f0-9-]+\/edit$/);
   const propertyId = page.url().split('/').at(-2)!;
   await page.goto(`/en/workspace/inventory/${propertyId}/enquiries`);

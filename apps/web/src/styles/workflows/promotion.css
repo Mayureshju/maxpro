@@ -71,7 +71,7 @@
 
 .ag-channel-choice small {
   display: block;
-  color: #65735a;
+  color: var(--fx-muted);
   font-size: 10px;
   line-height: 1.7;
   margin-block-start: 5px;

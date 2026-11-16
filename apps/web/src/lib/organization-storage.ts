@@ -32,7 +32,8 @@ export function restoreOrganization(value:unknown,version:unknown,properties:Rec
  const events:AuditEvent[]=[];
  for(const e of list(v.audit,1000)){
   if(!isRecord(e)||!text(e.id,100)||!text(e.organizationId,100)||!organizations.some(o=>o.id===e.organizationId)||!text(e.actor,100)||!one(e.role,roles)||!text(e.action,200)||!text(e.target,160)||!(e.revision===null||revision(e.revision))||!date(e.at)||!one(e.outcome,['applied-demo','denied-demo'])||!text(e.note,1200)||events.some(x=>x.id===e.id)){corrupt=true;continue;}
-  events.push({id:e.id,organizationId:e.organizationId,actor:e.actor,role:e.role as AuditEvent['role'],action:e.action,target:e.target,revision:e.revision,at:e.at,outcome:e.outcome as AuditEvent['outcome'],note:e.note});
+  const details=isRecord(e.details)?Object.fromEntries(Object.entries(e.details).filter(([key,value])=>['alias','source','assignee'].includes(key)&&text(value,100))):undefined;
+  events.push({...(details?{details}:{}),id:e.id,organizationId:e.organizationId,actor:e.actor,role:e.role as AuditEvent['role'],action:e.action,target:e.target,revision:e.revision,at:e.at,outcome:e.outcome as AuditEvent['outcome'],note:e.note});
  }
  const overrides:OrganizationRepository['planOverrides']={};
  if(isRecord(v.planOverrides))for(const [id,t] of Object.entries(v.planOverrides)){

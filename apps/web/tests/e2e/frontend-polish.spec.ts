@@ -48,7 +48,7 @@ for(const locale of ['en','ar']){
   await expect(page.getByRole('link',{name:t('Add property','إضافة عقار'),exact:true})).toHaveAttribute('href',`/${locale}/workspace/inventory/new`);
   await expect(page.getByRole('heading',{name:t('Upcoming viewings','الزيارات القادمة'),exact:true})).toBeVisible();
   await expect(page.getByRole('heading',{name:t('Channel & campaign status','حالة القنوات والحملات'),exact:true})).toBeVisible();
-  await expect(page.locator('.ag-status-summary')).toContainText(t('Listing simulations','محاكاة الإعلانات العقارية'));
+  await expect(page.locator('.ag-dashboard-page')).toContainText(t('No recorded channel blockers or campaigns awaiting action.','لا توجد عوائق قنوات مسجلة أو حملات تنتظر إجراءً.'));
   await page.getByRole('link',{name:t('Add property','إضافة عقار'),exact:true}).click();await expect(page).toHaveURL(/\/inventory\/new$/);
  });
  test(`frontend ${locale}: simplified navigation and mobile focus remain usable`,async({page},info)=>{

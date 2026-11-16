@@ -1,0 +1,49 @@
+{
+  "completionDate": "2026-11-16",
+  "baseline": "f5b0c39f6c3aebf7c2449609b9bf1fd075b0ec86",
+  "scope": "Fictional browser-local frontend only",
+  "install": "passed; approved npm access after sandbox DNS failure",
+  "typecheck": "passed",
+  "lint": "passed",
+  "defaultBuild": "blocked by sandbox Turbopack/PostCSS worker-port restriction",
+  "webpackBuild": {
+    "status": "passed",
+    "generatedPages": 167
+  },
+  "productionPlaywright": {
+    "passed": 1030,
+    "skipped": 38,
+    "failed": 0,
+    "total": 1068,
+    "duration": "4.1m",
+    "port": 3214,
+    "browser": "installed Chromium headless shell 145"
+  },
+  "newWholeDocumentAxe": {
+    "checks": 28,
+    "violations": 0
+  },
+  "responsiveMatrix": {
+    "checks": 84,
+    "overflowFindings": 0,
+    "locales": [
+      "en",
+      "ar"
+    ],
+    "widths": [
+      1440,
+      1280,
+      1024,
+      768,
+      375,
+      320
+    ]
+  },
+  "screenshotManifest": {
+    "before": 87,
+    "after": 88,
+    "contactSheets": 12
+  },
+  "separateSourceReview": "four findings repaired and rechecked",
+  "commitPushDeployment": "none"
+}

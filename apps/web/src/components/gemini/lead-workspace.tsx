@@ -1,10 +1,12 @@
 'use client';
+import {activeEnquiry,lastLeadActivity,unansweredEnquiry} from '@/lib/daily-workspace';
+import {UnsavedChanges} from '@/components/prototype/unsaved-changes';
 import {SearchCombobox} from '@/components/ui/search-combobox';
 import {NativeSelect} from '@/components/ui/field';
 import {LeadAssistance} from '@/components/agency/lead-assistance';
 import {usePrototypeCopy} from '@/components/prototype/use-prototype-copy';
 import {can} from '@/lib/organization-engine';
-import {useState, type ReactNode} from 'react';
+import {useEffect,useRef,useState, type ReactNode} from 'react';
 import {useLocale} from 'next-intl';
 import {Link, usePathname} from '@/i18n/navigation';
 import {Intro, Notice, Pill, Section} from '@/components/prototype/primitives';
@@ -333,9 +335,11 @@ export function LeadsPage({
   const [qualification, setQualification] = useState('All');
   const [view, setView] = useState('table');
   const [intake, setIntake] = useState(initialIntake);
+  const [work,setWork]=useState('all');
   if (!hydrated) return <CrmLoading />;
   const filtered = state.crm.leads.filter(
     (l) =>
+      (work==='all'||work==='unanswered'&&activeEnquiry(l)&&unansweredEnquiry(l)||work==='qualified'&&l.qualification==='Qualified'||work==='viewing'&&l.stage==='Viewing') &&
       (source === 'All' || l.source === source) &&
       (property === 'All' || l.propertyId === property) &&
       (owner === 'All' ||
@@ -345,8 +349,8 @@ export function LeadsPage({
       (qualification === 'All' || l.qualification === qualification) &&
       `${l.identity.alias} ${l.id} ${l.propertyId} ${state.properties[l.propertyId]?.facts.titleEn} ${state.properties[l.propertyId]?.facts.titleAr} ${l.sourceEventId}`
         .toLowerCase()
-        .includes(search.toLowerCase()),
-  );
+        .includes(search.trim().toLowerCase()),
+  ).sort((a,b)=>lastLeadActivity(b).localeCompare(lastLeadActivity(a))||a.id.localeCompare(b.id));
   const metrics = leadMetrics(state.crm.leads);
   return (
     <>
@@ -408,10 +412,10 @@ export function LeadsPage({
           </div>
         }
       >
-        <div className="crm-quick-filters" aria-label={t('Quick lead filters','فلاتر سريعة للاستفسارات')}><button type="button" aria-pressed={owner==='Unassigned'} onClick={()=>setOwner(owner==='Unassigned'?'All':'Unassigned')}>{t('Needs assignment','بحاجة إلى تعيين')} · {state.crm.leads.filter(l=>!l.assignee).length}</button><button type="button" aria-pressed={stage==='New'} onClick={()=>setStage(stage==='New'?'All':'New')}>{t('New enquiries','الاستفسارات الجديدة')} · {metrics.new}</button>          <button
+        <div className="crm-quick-filters" aria-label={t('Quick lead filters','فلاتر سريعة للاستفسارات')}><button type="button" aria-pressed={work==='unanswered'} onClick={()=>setWork(work==='unanswered'?'all':'unanswered')}>{t('Unanswered recorded messages','رسائل مسجلة دون رد')} · {state.crm.leads.filter(l=>activeEnquiry(l)&&unansweredEnquiry(l)).length}</button><button type="button" aria-pressed={work==='qualified'} onClick={()=>setWork(work==='qualified'?'all':'qualified')}>{t('Qualified','مؤهل')}</button><button type="button" aria-pressed={work==='viewing'} onClick={()=>setWork(work==='viewing'?'all':'viewing')}>{t('Viewing follow-up','متابعة المعاينات')}</button><button type="button" aria-pressed={owner==='Unassigned'} onClick={()=>setOwner(owner==='Unassigned'?'All':'Unassigned')}>{t('Needs assignment','بحاجة إلى تعيين')} · {state.crm.leads.filter(l=>!l.assignee).length}</button><button type="button" aria-pressed={stage==='New'} onClick={()=>setStage(stage==='New'?'All':'New')}>{t('New enquiries','الاستفسارات الجديدة')} · {metrics.new}</button>          <button
             className="px-mini-action"
             onClick={() => {
-              setSearch('');
+              setSearch('');setWork('all');
               setSource('All');
               setProperty('All');
               setOwner('All');
@@ -504,30 +508,30 @@ export function LeadsPage({
             role="region"
             aria-label={copyText(t('Lead records table', 'جدول العملاء'))}
           >
-            <table className="px-table crm-table">
+            <table className="px-table crm-table ag-daily-leads">
               <thead>
                 <tr>
                   {[
                     'Lead',
-                    'Source / original event',
+                    'Source',
                     'Canonical property',
                     'Stage',
                     'Qualification',
                     'Owner',
-                    'Received',
+                    'Last recorded activity',
                   ].map((s) => (
-                    <th key={s}>
+                    <th scope="col" key={s}>
                       {copyText(t(
                         s,
                         (
                           {
                             Lead: 'العميل',
-                            'Source / original event': 'المصدر / الحدث الأصلي',
+                            'Source': 'المصدر',
                             'Canonical property': 'العقار الأساسي',
                             Stage: 'المرحلة',
                             Qualification: 'التأهيل',
                             Owner: 'المسؤول',
-                            Received: 'الاستقبال',
+                            'Last recorded activity': 'آخر نشاط مسجل',
                           } as Record<string, string>
                         )[s],
                       ))}
@@ -542,11 +546,11 @@ export function LeadsPage({
                       <Link href={`/workspace/leads/${l.id}`}>
                         <b>{copyText(l.identity.alias)}</b>
                         <small>{copyText(l.id)}</small>
-                      </Link><Link className="crm-row-action" href={`/workspace/inbox?lead=${l.id}`}>{t('Reply in Inbox','الرد في الوارد')}</Link>
+                      </Link><Link className="crm-row-action" href={!l.assignee?`/workspace/leads/${l.id}`:`/workspace/inbox?lead=${l.id}`}>{!l.assignee?t('Assign enquiry','تعيين الاستفسار'):unansweredEnquiry(l)?t('Reply in Inbox','الرد في الوارد'):t('Open conversation','فتح المحادثة')}</Link>
                     </td>
                     <td>
                       {copyText(l.source)}
-                      <small>{copyText(l.sourceEventId)}</small>
+                      <small>{unansweredEnquiry(l)?t('Latest message: inbound','آخر رسالة: واردة'):t('Local conversation','محادثة محلية')}</small>
                     </td>
                     <td>
                       <Link href={`/workspace/inventory/${l.propertyId}`}>
@@ -586,8 +590,8 @@ export function LeadsPage({
                     </td>
                     <td>{copyText(l.assignee ?? t('Unassigned', 'غير موزع'))}</td>
                     <td>
-                      <time dateTime={l.receivedAt}>
-                        {copyText(l.receivedAt.slice(0, 16).replace('T', ' '))} {copyText(" UTC ")}</time>
+                      <time dateTime={lastLeadActivity(l)}>
+                        {copyText(lastLeadActivity(l).slice(0, 16).replace('T', ' '))} {copyText(" UTC ")}</time>
                     </td>
                   </tr>
                 ))}
@@ -986,16 +990,21 @@ export function AssignmentHistory({leads}: {leads: CanonicalLead[]}) {const copy
     </Section>
   );
 }
-export function InboxPage({initialLead}: {initialLead?: string}) {const copyText=usePrototypeCopy();
+export function InboxPage({initialLead}: {initialLead?: string}) {const copyText=usePrototypeCopy();const ar=useLocale()==='ar';
   const {state, hydrated, crmCommand} = useGeminiDemo();
   const t = useCrmCopy();
   const [selected, setSelected] = useState(initialLead ?? '');
+  const [query,setQuery]=useState(''),[onlyUnanswered,setOnlyUnanswered]=useState(false),[pendingLead,setPendingLead]=useState<string|null>(null);const discardDialog=useRef<HTMLDialogElement>(null);const conversationTrigger=useRef<HTMLButtonElement|null>(null);
+  useEffect(()=>{if(pendingLead)discardDialog.current?.showModal();},[pendingLead]);
+  function cancelSwitch(){discardDialog.current?.close();setPendingLead(null);conversationTrigger.current?.focus();}
+  function selectConversation(id:string){setSelected(id);setDraft('');setFeedback({error:null});const url=new URL(window.location.href);url.searchParams.set('lead',id);window.history.replaceState(null,'',url);}
   const [draft, setDraft] = useState('');
   const [feedback, setFeedback] = useState<{
     error: string | null;
     message?: string;
   }>({error: null});
   if (!hydrated) return <CrmLoading />;
+  const conversations=state.crm.leads.filter(lead=>(!onlyUnanswered||activeEnquiry(lead)&&unansweredEnquiry(lead))&&`${lead.identity.alias} ${lead.source} ${state.properties[lead.propertyId]?.facts.titleEn} ${state.properties[lead.propertyId]?.facts.titleAr} ${lead.propertyId}`.toLowerCase().includes(query.trim().toLowerCase())).sort((a,b)=>lastLeadActivity(b).localeCompare(lastLeadActivity(a)));
   const l = selected
     ? state.crm.leads.find((l) => l.id === selected)
     : state.crm.leads[0];
@@ -1011,29 +1020,28 @@ export function InboxPage({initialLead}: {initialLead?: string}) {const copyText
       />
       <CrmNavigation />
       <Feedback {...feedback} />
+      <UnsavedChanges dirty={!!draft.trim()}/><dialog ref={discardDialog} className="fx-dialog" aria-labelledby="discard-reply-title" onCancel={e=>{e.preventDefault();cancelSwitch();}}><div className="fx-dialog-body"><h2 id="discard-reply-title">{t('Leave this reply draft?','مغادرة مسودة الرد؟')}</h2><p>{t('This reply has not been saved. Keep editing or discard it to open another conversation.','لم يُحفظ الرد. تابع التحرير أو تجاهله لفتح محادثة أخرى.')}</p><div className="fx-dialog-actions"><button type="button" autoFocus className="px-button px-button-dark" onClick={cancelSwitch}>{t('Keep editing','متابعة التحرير')}</button><button type="button" className="px-button px-button-outline" onClick={()=>{const id=pendingLead;cancelSwitch();if(id)selectConversation(id);}}>{t('Discard reply draft','تجاهل مسودة الرد')}</button></div></div></dialog>
       <div className="px-inbox crm-inbox">
         <div className="px-inbox-list">
           <div className="px-inbox-list-header">
             <h2>{copyText(t('Conversations', 'المحادثات'))}</h2>
             <span>{state.crm.leads.length}</span>
           </div>
-          {state.crm.leads.map((lead) => (
+          <div className="ag-inbox-filters"><label className="px-field">{t('Search conversations','البحث في المحادثات')}<input type="search" value={query} onChange={e=>setQuery(e.target.value)}/></label><label className="gm-ack"><input type="checkbox" checked={onlyUnanswered} onChange={e=>setOnlyUnanswered(e.target.checked)}/>{t('Unanswered recorded messages','رسائل مسجلة دون رد')}</label></div>
+          {!conversations.length&&<p className="ag-empty-copy">{t('No conversations match. Clear the search or unanswered filter.','لا توجد محادثات مطابقة. امسح البحث أو فلتر الرسائل دون رد.')}</p>}
+          {conversations.map((lead) => (
             <button
               className={`px-conversation-tile ${lead.id === l?.id ? 'active' : ''}`}
               key={lead.id}
               aria-pressed={lead.id === l?.id}
-              onClick={() => {
-                setSelected(lead.id);
-                setDraft('');
-                setFeedback({error: null});
-              }}
+              onClick={e => {if(lead.id===l?.id)return;if(draft.trim()){conversationTrigger.current=e.currentTarget;setPendingLead(lead.id);}else selectConversation(lead.id);}}
             >
               <span>
                 <strong>{copyText(lead.identity.alias)}</strong>
                 <small>
-                  {copyText(lead.source)} · {copyText(lead.propertyId)}
+                  {copyText(lead.source)} · {t(state.properties[lead.propertyId]?.facts.titleEn||lead.propertyId,state.properties[lead.propertyId]?.facts.titleAr||lead.propertyId)}
                 </small>
-                <em>{lead.conversation.messages.at(-1)?.text}</em>
+                <small>{t(lead.stage,stageAr[lead.stage])} · {lead.assignee||t('Unassigned','غير معيّن')}</small><em>{lead.conversation.messages.at(-1)?.text}</em><small><time dateTime={lastLeadActivity(lead)}>{lastLeadActivity(lead).slice(0,16).replace('T',' ')} UTC</time></small>
               </span>
             </button>
           ))}
@@ -1067,7 +1075,7 @@ export function InboxPage({initialLead}: {initialLead?: string}) {const copyText
                   >
                     <p dir="auto">{m.text}</p>
                     <span>
-                      {copyText(m.direction)} · {copyText(m.status)} · {copyText(m.at)}
+                      {m.direction==='outbound'?t('Reply saved locally','تم حفظ الرد محلياً'):t('Received locally','تم الاستقبال محلياً')} · <time dateTime={m.at}>{new Date(m.at).toLocaleString(ar?'ar-QA':'en-GB',{dateStyle:'medium',timeStyle:'short',timeZone:'Asia/Qatar'})}</time>
                     </span>
                   </div>
                 ))}
@@ -1414,7 +1422,7 @@ export function PropertyLeadEnquiries({propertyId}: {propertyId: string}) {const
                   </td>
                   <td>
                     {copyText(l.source)}
-                    <small>{copyText(l.sourceEventId)}</small>
+                    <small>{unansweredEnquiry(l)?t('Latest message: inbound','آخر رسالة: واردة'):t('Local conversation','محادثة محلية')}</small>
                   </td>
                   <td>{copyText(t(l.stage, stageAr[l.stage]))}</td>
                   <td>{copyText(l.assignee ?? t('Unassigned', 'غير موزع'))}</td>

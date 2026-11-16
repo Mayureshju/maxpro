@@ -69,8 +69,8 @@
 }
 
 .px-inbox-list-header span {
-  font-size: 10px;
-  color: #879488;
+  font-size: 12px;
+  color: var(--fx-muted);
 }
 
 .px-conversation-tile {
@@ -947,3 +947,18 @@ main:has(.crm-nav) :is(input,textarea)::placeholder {
 
 .prototype-shell .crm-filters { padding-block:16px; gap:16px; }
 .crm-quick-filters .px-mini-action { margin-inline-start:auto; }
+
+/* Conversation triage uses the same field system as the lead list. */
+.ag-inbox-filters { padding:16px; display:grid; gap:12px; border-block-end:1px solid var(--line); }
+.ag-inbox-filters .gm-ack { margin:0; }
+.crm-inbox .px-conversation-tile small { white-space:normal; overflow-wrap:anywhere; }
+@media(min-width:769px) {
+ .crm-inbox .px-inbox-list { max-block-size:850px; overflow-y:auto; }
+}
+
+@media(max-width:768px) {
+ .crm-inbox .px-inbox-list { display:block; max-block-size:360px; overflow:auto; }
+ .crm-inbox .ag-inbox-filters { position:sticky; inset-block-start:0; background:var(--surface); z-index:1; }
+}
+
+.crm-inbox .px-chat-context>a { display:flex; align-items:center; min-block-size:44px; }

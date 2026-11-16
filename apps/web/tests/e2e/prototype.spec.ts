@@ -17,7 +17,7 @@ test('inventory filtering and property navigation works locally',async({page})=>
  await page.goto('/en/workspace/inventory');
  await page.getByRole('searchbox',{name:localized("Search properties")}).fill('Viva');
  await expect(page.locator('.px-listing-row')).toHaveCount(1);
- await page.locator('.px-listing-row').first().getByRole('link').click();
+ await page.locator('.px-listing-row .fx-inventory-record').first().click();
  await expect(page.getByRole('heading',{level:1})).toContainText(localized('Viva Bahriya'));
 });
 

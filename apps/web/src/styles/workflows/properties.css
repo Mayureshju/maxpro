@@ -2794,12 +2794,13 @@ html:has(.ag-property-editor) {
 .ag-getting-started li a { min-block-size:44px; font-weight:600; font-size:14px; }
 .ag-getting-started small { display:block; font-weight:400; color:var(--muted); margin-block-start:4px; }
 .ag-guide-help { margin-block:0 20px; }
-.ag-quick-add { max-inline-size:800px; }
-.ag-quick-add>.px-button { margin-block-start:20px; }
+.ag-quick-add { max-inline-size:680px; inline-size:100%; padding:24px; }
+.ag-quick-actions { display:flex; flex-wrap:wrap; gap:12px; margin-block:24px 12px; }
 .ag-assistance-warnings { padding:12px; background:var(--surface-soft); margin-block:16px; }
 .ag-first-enquiry { border:1px solid var(--line); padding:20px; margin-block:20px; background:var(--surface-soft); }
 .ag-first-enquiry h3 { margin-block:0 8px; }
 .ag-first-enquiry p { max-inline-size:65ch; margin-block:8px 16px; }
+.ag-first-enquiry .ag-help a { color:var(--primary); text-decoration:underline; text-underline-offset:3px; }
 @media(max-width:900px) { .ag-getting-started ol { grid-template-columns:1fr 1fr; } }
 @media(max-width:650px) {
  .ag-getting-started { padding:16px; }
@@ -2807,4 +2808,22 @@ html:has(.ag-property-editor) {
  .ag-getting-started h2 { font-size:20px; }
  .ag-getting-started>.px-button { inline-size:100%; }
  .ag-property-editor .ag-editor-footer>div { flex-wrap:wrap; }
+}
+
+/* Phase 14: compact completion and saved preparation recovery. */
+.ag-guide-complete { padding:20px; }
+.ag-guide-complete h2 { font-size:18px; }
+.ag-guide-complete details { margin-block-start:16px; }
+.ag-guide-complete summary,.ag-resume-preparation summary { min-block-size:44px; align-content:center; cursor:pointer; font-weight:600; }
+.ag-guide-help { display:inline-flex; align-items:center; gap:8px; }
+.ag-small-heading { font-size:14px; margin:20px 24px 0; }
+.ag-resume-preparation { background:var(--surface); border:1px solid var(--line); padding:12px 20px; margin-block:16px; }
+.ag-resume-preparation button.ag-simple-row { inline-size:100%; text-align:start; background:transparent; border:0; border-block-end:1px solid var(--line); font:inherit; cursor:pointer; }
+.ag-property-facts h2 small { font-size:14px; font-weight:400; color:var(--muted); }
+.ag-activity a { display:inline-block; min-block-size:44px; align-content:center; }
+@media(max-width:650px) {
+ .ag-quick-add { padding:16px; }
+ .ag-quick-actions { flex-direction:column; }
+ .ag-quick-actions .px-button { inline-size:100%; }
+ .ag-small-heading { margin-inline:16px; }
 }
