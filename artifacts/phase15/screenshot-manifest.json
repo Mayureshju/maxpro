@@ -1,0 +1,2252 @@
+[
+  {
+    "path": "artifacts/phase15/before/ar-1024-dashboard.png",
+    "stage": "before",
+    "sha256": "2ac35d1f6db11cb91bf083ee093e99146001e4c29202dbcd8ddc803fd15e2d9c"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-1024-home.png",
+    "stage": "before",
+    "sha256": "0f6508036c12e78330b1bb0b8340e1ca0ab74327c22b4a56c8eef00e286cda3e"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-1024-quick-add.png",
+    "stage": "before",
+    "sha256": "d222eb93f40df012916ebbbcb2ea3ceaf501c64696e23c99fd04a24a6283959d"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-1280-dashboard.png",
+    "stage": "before",
+    "sha256": "30ea817216b5a1cece8b42a0fa784231a57947b888ed53e0852f4613618d03cb"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-1280-home.png",
+    "stage": "before",
+    "sha256": "d45c84c14166db7c238a507acbc7b410cfbc2cf4062d42de3590f47976599311"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-1280-quick-add.png",
+    "stage": "before",
+    "sha256": "42920d9493aa7822cfe3f1292512d933a3e42196e08cb4559fca6a3f3248d536"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-1440-analytics.png",
+    "stage": "before",
+    "sha256": "4c2ab81b6dc7711e562df8a6955e3f6ca6fccffdbc053de9b2257121e66a09e5"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-1440-billing.png",
+    "stage": "before",
+    "sha256": "0fa227001204fb2d9b1d011f0f064b6e11ad047939ee490c2ee11843d09d1140"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-1440-campaign-new.png",
+    "stage": "before",
+    "sha256": "6f99cac0aa098d1e2fc0358d97e46d40202c2fffa90bf627b2a62ba0d907d3da"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-1440-campaigns.png",
+    "stage": "before",
+    "sha256": "a69ab68da6297947ad3dd64c4e11505c8e8bd20e1983b019fbf11f0b76b05bde"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-1440-dashboard.png",
+    "stage": "before",
+    "sha256": "c9747774733a198f3231f25cd5f901f27fc0234b29e96d39c8761f95419d58f2"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-1440-editor.png",
+    "stage": "before",
+    "sha256": "98601befc206801cfc16f83a34fd10cc3f3e3ca8b1ea0dac5601d89ba1183d06"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-1440-home.png",
+    "stage": "before",
+    "sha256": "bee30bff2bbbba10c331baa8df4fbf74b2d91dadaafb294d4e337a68689f152a"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-1440-inbox.png",
+    "stage": "before",
+    "sha256": "965ff9a03a0ae2866582569e320efffb867713f09a592806021d67873be86e2d"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-1440-integrations.png",
+    "stage": "before",
+    "sha256": "1df0d82880d1bc6bb444c7e2ce13471b38bbda12170897313ecb5db8005e8ed0"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-1440-inventory.png",
+    "stage": "before",
+    "sha256": "bd1673d4eae95b4e21c78a1d8cb9e1246ed845cbb7b93cee8d4364aa52e1a1c6"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-1440-leads.png",
+    "stage": "before",
+    "sha256": "f3939353d6e4139abb69c5c84a5eb884fcea9d39246ad65e48caf76d358f8c2b"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-1440-media.png",
+    "stage": "before",
+    "sha256": "9b8160fb7c4ff5e5fd8d86fb45ea7e20f1b23464b1b9e33ec73f8d08fb5c5350"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-1440-pricing.png",
+    "stage": "before",
+    "sha256": "fab4f755c9b54c5f3073f1905a7f54b5af711d46fc044b81db979307f5e1f450"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-1440-properties.png",
+    "stage": "before",
+    "sha256": "f54876b44dc079b5a28af07b69887520969fe15106ab2e4755a0411c6255dc17"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-1440-property.png",
+    "stage": "before",
+    "sha256": "d2716ae2e42b517ce9b4b5559e15c12e8119a96328554cb481aa7c0ea63d98ec"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-1440-public-detail.png",
+    "stage": "before",
+    "sha256": "760ab2982e07078c88cfc0903b002cc55f7a222101f6228a1c5306e0f885c67c"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-1440-publish.png",
+    "stage": "before",
+    "sha256": "e204f5714f1d7684a526c9e5857b880b8aed47f3dd3297b26c3b268bf3afc46c"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-1440-quick-add.png",
+    "stage": "before",
+    "sha256": "e6dc105fc2184ff0eeba29233110b5cad01ef6fd8a758512ff82d200ec9439ba"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-1440-register.png",
+    "stage": "before",
+    "sha256": "03019d59de0436c617d9ef37a599275aee7b497f2e33475dcc7a1237b11f5e23"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-1440-settings.png",
+    "stage": "before",
+    "sha256": "4a73cc54f83ffe3f64e68dd9cae3557907348e3f8c94f3fcbe388ca781295610"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-1440-sign-in.png",
+    "stage": "before",
+    "sha256": "6cb16b1994486f20e30aeb7dd5b6780b21e01ce70f159d5e1c61e1dc30fbbb5a"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-320-dashboard.png",
+    "stage": "before",
+    "sha256": "1d6db36f18eee4c3113d36a507f59688030dd612a7e87ff6bd4d2b1ca3348e27"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-320-home.png",
+    "stage": "before",
+    "sha256": "b366c3708c0bf1b76f07c7372a91d9599a251e77f37c2ae7353ac68539c33a57"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-320-quick-add.png",
+    "stage": "before",
+    "sha256": "57736afee17293d17b2824404c7c3f48735d7d388c06bceda1551169eac18216"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-375-analytics.png",
+    "stage": "before",
+    "sha256": "c9c6cd12a94ad0b937e7545d9607045647f565505e1d3c4672702475ab58a7fa"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-375-billing.png",
+    "stage": "before",
+    "sha256": "01e85a10715ac70e93f854481c0b46b342b8194f6469519df74a62660caa309d"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-375-campaign-new.png",
+    "stage": "before",
+    "sha256": "57cf7109cdac0c5a33c06886c205a4c15bb39a673dae54bfadd1e1f2f7474283"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-375-campaigns.png",
+    "stage": "before",
+    "sha256": "f3a80240a4cbe4fbfe483dac6d885a8f6f757e2ab505b63d1ead2ab165dd1029"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-375-dashboard.png",
+    "stage": "before",
+    "sha256": "ab9919d560c7fb9833b316adc81ef6243a270581994ea849e6ae4c4280d85da2"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-375-editor.png",
+    "stage": "before",
+    "sha256": "1139294521d133ad424ba23224ce732b243083665e14aedda155b9a971c1c7fc"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-375-home.png",
+    "stage": "before",
+    "sha256": "4461a6657a22de0fdb469ae76a59612251a986243eadca9614659e6ed9380fa9"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-375-inbox.png",
+    "stage": "before",
+    "sha256": "149c7a86e9243b6fcb69a1cbcf9901fe0c843a3b1b2ff63cc95578595e99ddea"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-375-integrations.png",
+    "stage": "before",
+    "sha256": "025e252e36dec95db1493222350deaacf63870463880cfda46c8d5731c7f72dc"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-375-inventory.png",
+    "stage": "before",
+    "sha256": "7c7c84805335d05557b8a2336730256a1abf84661c21ba46c46c9c47fe20e2d6"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-375-leads.png",
+    "stage": "before",
+    "sha256": "d64d30d9b185cb801afe92179d70bb317258e004da5289c726ca0cbe65b8c9d2"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-375-media.png",
+    "stage": "before",
+    "sha256": "4642a348371e4fb67589671295eb365070250f4748d2da4857104ee01afc279e"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-375-pricing.png",
+    "stage": "before",
+    "sha256": "b146542809dc28fc4f481df350f59ef6121433cc518031d47d6a88f41fca975a"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-375-properties.png",
+    "stage": "before",
+    "sha256": "eeb01c6871a82dffd5386dc27bda73c33f6eacab4f0b0d2703d48a3c69718f83"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-375-property.png",
+    "stage": "before",
+    "sha256": "6b4ac65bc9c8cca7837f501113838b2d3863c0a01f2383d2c82ed684bd04b590"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-375-public-detail.png",
+    "stage": "before",
+    "sha256": "803de36902b8cf1e6da69b8549c565c991165e4ce2786da6bda9298e69523b97"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-375-publish.png",
+    "stage": "before",
+    "sha256": "5aff2c4dbf85a6292167cc87cc517a424903f7e3f8d0ec6d94984c1392fa6ba5"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-375-quick-add.png",
+    "stage": "before",
+    "sha256": "2cb30aec28585e2b5f26795078173e6e0c59f79bf45d6204f04e73f7723da1c6"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-375-register.png",
+    "stage": "before",
+    "sha256": "4d037949c11d770457635d031d606863cc9017b36a9e602dc527a0a35940960f"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-375-settings.png",
+    "stage": "before",
+    "sha256": "2f9a1f5d9f707f7d04c3a7f139d81f5fe9a1e3b8408994ba07ad0dbe371fd1d9"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-375-sign-in.png",
+    "stage": "before",
+    "sha256": "a1182b0670f2c1d3b0ddebfb01306715bc570859834c68fbb14ac9221450e400"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-768-dashboard.png",
+    "stage": "before",
+    "sha256": "8e4a8494fc0974c62e2b71be1e856c546b9c91432c6f4ef70a65b88aec5d28c2"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-768-home.png",
+    "stage": "before",
+    "sha256": "4d6749a35fac3fe8b821890fe3f99f7bebdac1990fd4a7ce18ea56ca8b81e606"
+  },
+  {
+    "path": "artifacts/phase15/before/ar-768-quick-add.png",
+    "stage": "before",
+    "sha256": "ada4220fe1f1f3badc9a506ca520623414b12b24d64ec168000b865d70e0dc9f"
+  },
+  {
+    "path": "artifacts/phase15/before/en-1024-dashboard.png",
+    "stage": "before",
+    "sha256": "040a3136cfe7288cad409012a807e340f870e4f62bf93b4302573754cf2bc945"
+  },
+  {
+    "path": "artifacts/phase15/before/en-1024-home.png",
+    "stage": "before",
+    "sha256": "b34e899a4f620f5a85d457bcfa143e560089a3734710715cbb924edf2a1a1091"
+  },
+  {
+    "path": "artifacts/phase15/before/en-1024-quick-add.png",
+    "stage": "before",
+    "sha256": "d31d043eb093809105a95129658e0a9bd55485c8eb2b36f43214217a6be02ae8"
+  },
+  {
+    "path": "artifacts/phase15/before/en-1280-dashboard.png",
+    "stage": "before",
+    "sha256": "cf0a8f0b5f837226e676a7677366ecadd60a82eb56dcff5900c53c79682a3d89"
+  },
+  {
+    "path": "artifacts/phase15/before/en-1280-home.png",
+    "stage": "before",
+    "sha256": "b1697ddaafdc4322d3204822baafba432417dbe685d2370383c89178be267677"
+  },
+  {
+    "path": "artifacts/phase15/before/en-1280-quick-add.png",
+    "stage": "before",
+    "sha256": "b02088cfb9c57b23c45c5f5ee12df2e2e7e8509fd4f67de829105a2f16db2e92"
+  },
+  {
+    "path": "artifacts/phase15/before/en-1440-analytics.png",
+    "stage": "before",
+    "sha256": "3feda0f4cb105568f4a978bd84a6bc8ddb0e1ee39d34465a099e19acf0fef017"
+  },
+  {
+    "path": "artifacts/phase15/before/en-1440-billing.png",
+    "stage": "before",
+    "sha256": "f0e74bc3cc2079d6be268ec9a033910a31dace6c269066258e6a615a9ee0d9c6"
+  },
+  {
+    "path": "artifacts/phase15/before/en-1440-campaign-new.png",
+    "stage": "before",
+    "sha256": "5212d43b013dc7eab2ed3493f5681b51280c4b7b2fde0879a72f5c6fac2ba45f"
+  },
+  {
+    "path": "artifacts/phase15/before/en-1440-campaigns.png",
+    "stage": "before",
+    "sha256": "cb6495b8f9126118fd4d0948d1644265698bd2d47cb7f28cf078d8f53c52d823"
+  },
+  {
+    "path": "artifacts/phase15/before/en-1440-dashboard.png",
+    "stage": "before",
+    "sha256": "6c17f76efe528712ac5081d74b686194f1bd391689b33410d7080c715ba3640a"
+  },
+  {
+    "path": "artifacts/phase15/before/en-1440-editor.png",
+    "stage": "before",
+    "sha256": "90675ba151e1773b3da84522e5e24457f19be9814d3d910300bf4da55e8df478"
+  },
+  {
+    "path": "artifacts/phase15/before/en-1440-home.png",
+    "stage": "before",
+    "sha256": "c5a942e27631229979cb6abd0feff58a9b16e41f65aa1aa2d9daa5189dac23d8"
+  },
+  {
+    "path": "artifacts/phase15/before/en-1440-inbox.png",
+    "stage": "before",
+    "sha256": "34982ab8d3691e520a9a69b09490aca59f706a8bb5bc1aebf71ea9b2f9703c12"
+  },
+  {
+    "path": "artifacts/phase15/before/en-1440-integrations.png",
+    "stage": "before",
+    "sha256": "95cbd4a4d58f42f18ee35084571e58d3e20b103143d8bf7c0c6082636ef71e76"
+  },
+  {
+    "path": "artifacts/phase15/before/en-1440-inventory.png",
+    "stage": "before",
+    "sha256": "396c886df4c026ef4e1c60da8ddf0283a37ce1a108fe715ea2d57a1601a76956"
+  },
+  {
+    "path": "artifacts/phase15/before/en-1440-leads.png",
+    "stage": "before",
+    "sha256": "adaca303d291f96f9f0eb17d204d1d6ac5c1031ecc82ccd1d8a073b31c41973f"
+  },
+  {
+    "path": "artifacts/phase15/before/en-1440-media.png",
+    "stage": "before",
+    "sha256": "d35241b9344c43d702b83526d93ebaae839f30d30f1733014d43b91b6ce49188"
+  },
+  {
+    "path": "artifacts/phase15/before/en-1440-pricing.png",
+    "stage": "before",
+    "sha256": "791f4b5f4eb5d8ae2a5938f6d91e1ab3127c1d52559c5257f36a92e2e9e816c6"
+  },
+  {
+    "path": "artifacts/phase15/before/en-1440-properties.png",
+    "stage": "before",
+    "sha256": "9b96811d669b8faa61b46136d2af7c5d7c1ea91858d715dfeb231dec13213f9a"
+  },
+  {
+    "path": "artifacts/phase15/before/en-1440-property.png",
+    "stage": "before",
+    "sha256": "e98488302fa8330f25769431d1925bd1ac331d25c001fcf773ea347dfb660b90"
+  },
+  {
+    "path": "artifacts/phase15/before/en-1440-public-detail.png",
+    "stage": "before",
+    "sha256": "f96c02a73029804ecc011870999be722155ef5f07fed5187e2927ed7de75096e"
+  },
+  {
+    "path": "artifacts/phase15/before/en-1440-publish.png",
+    "stage": "before",
+    "sha256": "4c8f83ab90f88e71e532c7f75024d1a09f9e567a30a0068a6afdfaf2fafb0e0b"
+  },
+  {
+    "path": "artifacts/phase15/before/en-1440-quick-add.png",
+    "stage": "before",
+    "sha256": "681e650e75fdc06a145ead16d11bb1e72c8681fe99953f5cdb75c41eee1ee6de"
+  },
+  {
+    "path": "artifacts/phase15/before/en-1440-register.png",
+    "stage": "before",
+    "sha256": "e8b42d490cd322200c228ec715ae1f56b752732dd39edf45198a1fb141e041bf"
+  },
+  {
+    "path": "artifacts/phase15/before/en-1440-settings.png",
+    "stage": "before",
+    "sha256": "d2fe8552c44a8a15e95e56c32b526a98f91d425a849df561a3af64a3780af4ac"
+  },
+  {
+    "path": "artifacts/phase15/before/en-1440-sign-in.png",
+    "stage": "before",
+    "sha256": "90a634ab1cb40c446c52bc83ef8b6821b4881866732eb09292c26a98a3acd43f"
+  },
+  {
+    "path": "artifacts/phase15/before/en-320-dashboard.png",
+    "stage": "before",
+    "sha256": "2cdb420a261f45e253ec133dfb7cb4fa0be1e170d650cd6997f9945ca4221f39"
+  },
+  {
+    "path": "artifacts/phase15/before/en-320-home.png",
+    "stage": "before",
+    "sha256": "677fb8c52bf94230aa50a070f2020f9853955b9b6d2866a00d851aad7553f034"
+  },
+  {
+    "path": "artifacts/phase15/before/en-320-quick-add.png",
+    "stage": "before",
+    "sha256": "b07cc65bb30bc2acee907a1ee312833568bbc838895d870d2a858555c2ed6b7d"
+  },
+  {
+    "path": "artifacts/phase15/before/en-375-analytics.png",
+    "stage": "before",
+    "sha256": "65e5c46f201d0a0ac8a6a021505265df03940f639593db561aa5c7fda7ca4c54"
+  },
+  {
+    "path": "artifacts/phase15/before/en-375-billing.png",
+    "stage": "before",
+    "sha256": "0ff7009d834af17800ad8340b52e4a8f756ec6092f66038281f591e3d81bdf2a"
+  },
+  {
+    "path": "artifacts/phase15/before/en-375-campaign-new.png",
+    "stage": "before",
+    "sha256": "7b6cee2546ce9fd0282d4bbe0214584a5047d8bfd7e2a6f6099366eb0f7e5d46"
+  },
+  {
+    "path": "artifacts/phase15/before/en-375-campaigns.png",
+    "stage": "before",
+    "sha256": "074f0cebf035f5a9911b48ec4118ef66f605f615404904a2c99794d535aeebe6"
+  },
+  {
+    "path": "artifacts/phase15/before/en-375-dashboard.png",
+    "stage": "before",
+    "sha256": "0d84a097c007dbe6eeb0a73a5a95f55dac06a2c4509960d452aebb9b6dc3291d"
+  },
+  {
+    "path": "artifacts/phase15/before/en-375-editor.png",
+    "stage": "before",
+    "sha256": "517288cb2ba6e9c4d78734708cac596d9ea40d75edf611741a2c53bfbe267e62"
+  },
+  {
+    "path": "artifacts/phase15/before/en-375-home.png",
+    "stage": "before",
+    "sha256": "4bc580c0d6caa95357c6c64a8e6e0a8997b50a57e029949cefc46efa9afb4728"
+  },
+  {
+    "path": "artifacts/phase15/before/en-375-inbox.png",
+    "stage": "before",
+    "sha256": "f2845f11e60a68d117cb36a2633b05837563e6658d11188b5c413fe3a3961128"
+  },
+  {
+    "path": "artifacts/phase15/before/en-375-integrations.png",
+    "stage": "before",
+    "sha256": "9a084b51631a1d7f70a7183f0c279a29c2823f236f14d56ababdce0bd0af3a8e"
+  },
+  {
+    "path": "artifacts/phase15/before/en-375-inventory.png",
+    "stage": "before",
+    "sha256": "74ed5fc674194d2a1b6ae5f9846c60743e84fc384f43dcb5202b7f7aa2528269"
+  },
+  {
+    "path": "artifacts/phase15/before/en-375-leads.png",
+    "stage": "before",
+    "sha256": "52f4aecc636f5d8b21796633eca8c2ef14f97c5ce195cfb3c444a48db2fa843a"
+  },
+  {
+    "path": "artifacts/phase15/before/en-375-media.png",
+    "stage": "before",
+    "sha256": "c0197f8d6e9cfcf386ff45627dfd187e8375c1a8dab152238dac16dc99af834f"
+  },
+  {
+    "path": "artifacts/phase15/before/en-375-pricing.png",
+    "stage": "before",
+    "sha256": "0124bc374bf31f0730fca16e512a2b3dd3531dc19390edb671c607a6d4b5abc7"
+  },
+  {
+    "path": "artifacts/phase15/before/en-375-properties.png",
+    "stage": "before",
+    "sha256": "5ca1ea86b2e3c6103cbfcf1b4e982669815445dff98ffc2deb85cd78fe64c6c2"
+  },
+  {
+    "path": "artifacts/phase15/before/en-375-property.png",
+    "stage": "before",
+    "sha256": "be68c07e9f0018e01f582955e6992a4c4f49095ea928de5e891f8226db4f0c77"
+  },
+  {
+    "path": "artifacts/phase15/before/en-375-public-detail.png",
+    "stage": "before",
+    "sha256": "795bf60b5e10237dff9d3f5c513187ed41a6050ceb1a3532f948cff303f96990"
+  },
+  {
+    "path": "artifacts/phase15/before/en-375-publish.png",
+    "stage": "before",
+    "sha256": "137014f3e969c4eb6a5f727e697d798c80952346bac4a4009eb44bfc738364f3"
+  },
+  {
+    "path": "artifacts/phase15/before/en-375-quick-add.png",
+    "stage": "before",
+    "sha256": "66d366a4cf463b337b81c527d9b92d904a498ff335217c86268251a4a49a36f0"
+  },
+  {
+    "path": "artifacts/phase15/before/en-375-register.png",
+    "stage": "before",
+    "sha256": "340e987f3cd62b529d0c9a3b79e9698d4b731b206afe417d1e6601002e691364"
+  },
+  {
+    "path": "artifacts/phase15/before/en-375-settings.png",
+    "stage": "before",
+    "sha256": "09989cf6207892d2729305df6a2ba78b4f8404738d4f2a4e98d8094ff8dda023"
+  },
+  {
+    "path": "artifacts/phase15/before/en-375-sign-in.png",
+    "stage": "before",
+    "sha256": "7437355a987be9e4620394ad7abc16e38923eab8d84530e8a5388d79b44daecb"
+  },
+  {
+    "path": "artifacts/phase15/before/en-768-dashboard.png",
+    "stage": "before",
+    "sha256": "bce422fe999be059dde83015d9b3c80bddef6a9fa8ddf398068e0e5680184752"
+  },
+  {
+    "path": "artifacts/phase15/before/en-768-home.png",
+    "stage": "before",
+    "sha256": "525f9d58d18257bf517ea3f6be2415667b9afef480b39c2cfa5b04c9f394426e"
+  },
+  {
+    "path": "artifacts/phase15/before/en-768-quick-add.png",
+    "stage": "before",
+    "sha256": "40226960a9e29d302e0f986c8d8e4f8f0595ec3a5b2452c70e54cfb32f6522fa"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1024-analytics.png",
+    "stage": "after",
+    "sha256": "7435233c35fc11db614a2016b1646140573a7630441eb3fddaa8ea1897641aca"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1024-billing.png",
+    "stage": "after",
+    "sha256": "5a8a274ed990d3d172c9dfb3a40b4620757d0681255aaaf01f7ae2c758a40cc8"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1024-campaign-new.png",
+    "stage": "after",
+    "sha256": "be8c10f6010d6984db6246a7aa7d219068ff36544f7fe3c6734611d4a7adfe07"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1024-campaigns.png",
+    "stage": "after",
+    "sha256": "aa46ddf6e8b71503b3419e0cab07096397680b954c274bc059c926cc70f18e2b"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1024-dashboard.png",
+    "stage": "after",
+    "sha256": "652c48b4de48aa667da2c1f641cbb8e75e1533e050ee1b0ec5016678af58a8a0"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1024-editor.png",
+    "stage": "after",
+    "sha256": "69b9e849bd32877a679bacc79696c879b1f5fac74309c3d4628af07e425f8df5"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1024-home.png",
+    "stage": "after",
+    "sha256": "9ff100855b1bb56ae367e2a3fd802c640ab2373fbf962cec60216fa3d96a0c35"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1024-inbox.png",
+    "stage": "after",
+    "sha256": "a991e452b19c23234c5ed21928b33ec084b1900a0204d5b1a379bfa0c9411135"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1024-integrations.png",
+    "stage": "after",
+    "sha256": "866965ae14a0100401c9c918e6c6779cf4c29211b1e782100960463f92cf2a4d"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1024-inventory.png",
+    "stage": "after",
+    "sha256": "5b6cdb9eda16debe39683385303e447fadb70dc7487435940d1f79aa52f9a09c"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1024-leads.png",
+    "stage": "after",
+    "sha256": "fb2fec56c117f3d250878b86f7f0f1cb045fc4e2feb2a6654cd7891eaf8e078a"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1024-media.png",
+    "stage": "after",
+    "sha256": "fdf393888cc191e7fb7c42775497f723adb13fb8653582bd715f32a48c7b8098"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1024-pricing.png",
+    "stage": "after",
+    "sha256": "ec4e2f8f018ef1499e4713a1fc3a671444bc97b88b1f361557aaa31fa243e9a9"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1024-properties.png",
+    "stage": "after",
+    "sha256": "9d9c47bb55beb8201da92082b5c7681d2e4f67d7da8f0a05f3b7b5a260c797e4"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1024-property.png",
+    "stage": "after",
+    "sha256": "b515ebe8bff947be542c5d863ffc1afb61914b5d5fbcad1ee37adb30baa33c67"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1024-public-detail.png",
+    "stage": "after",
+    "sha256": "2e869f8d016a9c974451d40f6755772a0f75f8c73912305e59f07e3035e0f1f9"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1024-publish.png",
+    "stage": "after",
+    "sha256": "98b25c7be630f9673668ef4eae28f709ed8f81ab7894719958054be523d4b213"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1024-quick-add.png",
+    "stage": "after",
+    "sha256": "41a4286452985b6aea123d665564792a9926d7a792d3534bb36a2cdbe6f17ec6"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1024-register.png",
+    "stage": "after",
+    "sha256": "2a8e3c7b99a5d3a2a11758384b31aeceb724c9c227daa1b9c1002811c1f2c888"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1024-settings.png",
+    "stage": "after",
+    "sha256": "242349e5c1cf504255fc720047068a54de2592cbce5487bbfc0aaf4bd4a4b2a5"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1024-sign-in.png",
+    "stage": "after",
+    "sha256": "6e80dfb58f5a6832ddfaeb19cdca83c92afb28867ca541fef401908239bb282c"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1280-analytics.png",
+    "stage": "after",
+    "sha256": "8410ef8f1ed757305aa9e221523cdf88458cb683748c704966410beabed6d62c"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1280-billing.png",
+    "stage": "after",
+    "sha256": "d2810980110fba6f11f753c36123aee196ca885f665d2fb5c716e9a61903cdf8"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1280-campaign-new.png",
+    "stage": "after",
+    "sha256": "6a3414e56331a04281ee0d7c0e2783266b1ca624636aa1c45d4d1034051f5e17"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1280-campaigns.png",
+    "stage": "after",
+    "sha256": "5afd13a118500541db59f4d0bc19b2c6e1551f7469e20a141d2df48369cc626c"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1280-dashboard.png",
+    "stage": "after",
+    "sha256": "0de88069e247dd0838be00a61738ac7c063830bc97ba087c8ab6fd7743ef5bab"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1280-editor.png",
+    "stage": "after",
+    "sha256": "563a618b1e33d10f75610fc15c34c3e5a14d73fc93a605dedc2165ea931c1143"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1280-home.png",
+    "stage": "after",
+    "sha256": "f3bd25bbf13027c78ec8e94cc9e51cb71990b27e1c52b796799d5bf16dc7b817"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1280-inbox.png",
+    "stage": "after",
+    "sha256": "d5dac7bb761b3486008ae19506703f270aa3b3fbeb07954878a30aa65314ca4c"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1280-integrations.png",
+    "stage": "after",
+    "sha256": "9e3f246376af95ced9e149f4bab93bb43abff6ea0f759fd8fa158ced25722438"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1280-inventory.png",
+    "stage": "after",
+    "sha256": "5748c57b8b99f4ec51c82ff4c34d149b7101297c1b97b2ca5e55f2497a1bacf4"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1280-leads.png",
+    "stage": "after",
+    "sha256": "c004ae9011125c7b63a353f61a8afb66a34d506296d9b7d2c6ea10533aa7cee2"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1280-media.png",
+    "stage": "after",
+    "sha256": "28db0cda8c1ea4b17e4bc090033cdd0f3eb62b6a4ffe4d51ebb3dadae3fd1319"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1280-pricing.png",
+    "stage": "after",
+    "sha256": "3d79aa0bb39dfc5d050fcce17eeffe5a1b95b14ac557548cff88ffbfb000a3a5"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1280-properties.png",
+    "stage": "after",
+    "sha256": "f6a9e8869f3cae94c8812108d0a6ac177f373bd81673b3ee144a98697fe5b554"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1280-property.png",
+    "stage": "after",
+    "sha256": "93a5fe9a8653818343df1ec3ea20c1e76eefc24b3be12e11ec58c6e45de216e4"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1280-public-detail.png",
+    "stage": "after",
+    "sha256": "378b8956596480d8acd503b98ede6d2fba6c720ea46a4a077e6e406fff505061"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1280-publish.png",
+    "stage": "after",
+    "sha256": "fdb657cdde51a14a08bf52402b720f04f2d450284bb938cf2295822d0bc7d0c8"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1280-quick-add.png",
+    "stage": "after",
+    "sha256": "b489f5238e7dbac2b8b22bdeaccb2b35549608a059edc68054187c2f1f372612"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1280-register.png",
+    "stage": "after",
+    "sha256": "f18592c4a50c011144ffc525792adad660c641d8cd6cb69029e33eb3a39cb7ef"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1280-settings.png",
+    "stage": "after",
+    "sha256": "a1caf525ebc5401fb68dd7a53d17c7089b46b964ed1cca9a7c82e175bf44f44f"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1280-sign-in.png",
+    "stage": "after",
+    "sha256": "e53c6cf7a8bd6f2dc0e67bb9a110a961be2edb84b11bf1ed73ef0aeff31c4910"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1440-analytics.png",
+    "stage": "after",
+    "sha256": "0dbfca64ce65e55b5191db72a3b3ccce051ccb70414332ffde1c5a140e09ce43"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1440-billing.png",
+    "stage": "after",
+    "sha256": "9bb930d2b8e1af78aefa32e2a8054ab37bd0715995b7f271f4bdf2052b1cca92"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1440-campaign-new.png",
+    "stage": "after",
+    "sha256": "ca3902337222e57230b24b294ad6b51713561984ccee35021c6a5f827b11f269"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1440-campaigns.png",
+    "stage": "after",
+    "sha256": "79812091ae0cb0f5adfe6ae5a60ada80eb7320dc0f5ff626141cf2d0c0168b3f"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1440-dashboard.png",
+    "stage": "after",
+    "sha256": "b465cc54c6c1a1a9e5ae2fadac9d9a4e750a1f4291f2cc7b3c843f9dfaf5e6be"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1440-editor.png",
+    "stage": "after",
+    "sha256": "e50fcd7a758efb5d626dc7e766e38fc3140eba49a96520fd881f28721bf976bd"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1440-home.png",
+    "stage": "after",
+    "sha256": "9a9bb03aee4351ede61d59c984ecef6315c901722a3e56d696989e56b8cb9195"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1440-inbox.png",
+    "stage": "after",
+    "sha256": "4c46fe6aff764e6c1a8e8d52ce1260fdb1faa0cce8443163067d251f591a3c84"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1440-integrations.png",
+    "stage": "after",
+    "sha256": "f99e9dca6d6948c67e26f0b782926812e4435203d175af2b8ff36039fd1e4bf6"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1440-inventory.png",
+    "stage": "after",
+    "sha256": "6a5c505c43f855e2b46f70fee2c8f37b89ecf5e81426e93e5905da463b2b81fc"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1440-leads.png",
+    "stage": "after",
+    "sha256": "61195330147e0aaf23042e76fab57e960e387c620331a5f84c51bfb775bc4f45"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1440-media.png",
+    "stage": "after",
+    "sha256": "c3c1fd7d7a51ad24afc90c41fe32da306a00b82cba6594f50d7752b59d1e5619"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1440-pricing.png",
+    "stage": "after",
+    "sha256": "ed9d837776c9bb17079a60377f4dc8cbaf9f4752db0a17c6835bfceb1cdce570"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1440-properties.png",
+    "stage": "after",
+    "sha256": "c515874b553a2eb5887f054457927c7da1da33f1376334edbf3f2208fb2df26e"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1440-property.png",
+    "stage": "after",
+    "sha256": "8503b3b3c3b8f42634e338cc837d50dbf3cb37dd4b4dc9597062b10528c79782"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1440-public-detail.png",
+    "stage": "after",
+    "sha256": "1ed6daf4129a846167bf136e1db3dd86b0246bcf049e69dada3fb94d6957ef07"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1440-publish.png",
+    "stage": "after",
+    "sha256": "90b563050c08a574b67e0d6f8d79dde811abdd5d1319cec26059082d445318f6"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1440-quick-add.png",
+    "stage": "after",
+    "sha256": "3a8adc45ac40cb58997be97a230acf82bcfe89ef826659ef6ec42df0fa450643"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1440-register.png",
+    "stage": "after",
+    "sha256": "9dc1ccef62bbbf08396e26b332b5fb21cc3e10391c49cc6bc8e4d076ec93fb61"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1440-settings.png",
+    "stage": "after",
+    "sha256": "f5e6b7ab0fdd6ff8aa5e1a1a88c720a9e7e1ef4b0f5c74bb2fe81af34220e292"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-1440-sign-in.png",
+    "stage": "after",
+    "sha256": "7e86fccad201b3678cbbbffcc16c5bc4ec22061fd19de7003cef297cc01c2b89"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-320-analytics.png",
+    "stage": "after",
+    "sha256": "d17b15e9aeb8e03afe70afc88f7c7d1c103314390d7ad05fead22361df395182"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-320-billing.png",
+    "stage": "after",
+    "sha256": "454e73984b9b0b9975a55f5f8e9be43aabf4cbdd936eb03fae3765f2e86b62bc"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-320-campaign-new.png",
+    "stage": "after",
+    "sha256": "537b1beb4323e2ea5682dfa197fc7c8dd24a715ad3c23f5e212f581f84db9c14"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-320-campaigns.png",
+    "stage": "after",
+    "sha256": "610007acf0bd621252b3b8f39005cbf5e42b2ffbf5e50033f2803f18f3544f29"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-320-dashboard.png",
+    "stage": "after",
+    "sha256": "5297905a05343535eb137250650bc0686782847267c0f01b0c72a04b35a7c9d4"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-320-editor.png",
+    "stage": "after",
+    "sha256": "f6b9bee1112362ef0e153ae756a2a8a145baada7e19575a398dff4496e194896"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-320-home.png",
+    "stage": "after",
+    "sha256": "8490580b873b5f24b860467d3c7d23a76749c88c357c7c40312ed94774ade860"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-320-inbox.png",
+    "stage": "after",
+    "sha256": "e6907b06720e5883719f1e2105fa2a559fc11c94c8e34553801882d4df458e97"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-320-integrations.png",
+    "stage": "after",
+    "sha256": "04d19eefdff1d20525c85cb66f3851c5b1d1533f4b161acc0b61e5bf347a4e1b"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-320-inventory.png",
+    "stage": "after",
+    "sha256": "236811857a1352a494d487595d771ba7125a3cf5d67e021a728cb11fef8a18d9"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-320-leads.png",
+    "stage": "after",
+    "sha256": "815aa7b53674f95650b539528c02e089a632511005281ae5d6ad7a50c64e6789"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-320-media.png",
+    "stage": "after",
+    "sha256": "bb9fd3e661429a10796bbaa5abba1b61b50cf183ac80f5080db2ef3d66d24a00"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-320-pricing.png",
+    "stage": "after",
+    "sha256": "73a229db28b6116211fa198010242ef367acdd4200d88d93d09b25c055141e1c"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-320-properties.png",
+    "stage": "after",
+    "sha256": "4f84df42711730a9572b1c463bf33ab9864abe9a6587e70c7a3b7a5f3f27717c"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-320-property.png",
+    "stage": "after",
+    "sha256": "08ce6f0862908380626780c4025584746756d92770b7cc24419e4eb95eab88f3"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-320-public-detail.png",
+    "stage": "after",
+    "sha256": "5458599804abffd739cb782af755844f5623d9b86301bfdd7625fc661b0f1152"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-320-publish.png",
+    "stage": "after",
+    "sha256": "69095b0284b4a4b31483e231de8cd93fcdbce826ff214d94e2261b15dadcea56"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-320-quick-add.png",
+    "stage": "after",
+    "sha256": "ba6ed1591b3d7f400471fba1f6b045594163ebd95c54bdacbb0b91f87f47be11"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-320-register.png",
+    "stage": "after",
+    "sha256": "d9ada208ecf91b41fb1ce9a0c9f654d68051f1b70df81e02e02d533d383e40c8"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-320-settings.png",
+    "stage": "after",
+    "sha256": "6e182ce84c89c3b03ebfe4c32b55e282864c9f22a56e45c545bc12a11165a47e"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-320-sign-in.png",
+    "stage": "after",
+    "sha256": "3f6b750d2a3a35c42a63c607ebd9b8a45afb379e2dcea5462688c3249d48c8d8"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-375-analytics.png",
+    "stage": "after",
+    "sha256": "e3ca589916dd1cce3f9926c8b93d8901a8597ec64a1c76d6943d6f636fecf324"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-375-billing.png",
+    "stage": "after",
+    "sha256": "c5adb3d5bfa094c3db9eedc633b2dafabf99b81ef87142e23b200d199f975211"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-375-campaign-new.png",
+    "stage": "after",
+    "sha256": "ece6def992ded0945a58c59ad02855580fce1f4f4d3d5ea121f95378ca64dc45"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-375-campaigns.png",
+    "stage": "after",
+    "sha256": "5fad737dc723cefba4e97e9bcbc5f05d38493c705b2ebaa03d1b96c53342d549"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-375-dashboard.png",
+    "stage": "after",
+    "sha256": "7cf205cd74dc0cc4205cc51994011fbb722d7820dd178e46793297b85d77d00a"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-375-editor.png",
+    "stage": "after",
+    "sha256": "5e536e6344222cb7e422fa2b4046c33c0a2e6d4d116e635b88c2d0c4d4ab6de4"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-375-home.png",
+    "stage": "after",
+    "sha256": "8883b6f22f317b6011192b2ae0450959e090b62f395f5c895737df1cd4959a5c"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-375-inbox.png",
+    "stage": "after",
+    "sha256": "aaf433c708779b760009eabfb7bfd1cafefa5c27fbb53574139ce10c6485bdf7"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-375-integrations.png",
+    "stage": "after",
+    "sha256": "97a7a1fa75c08df2ba0d7e0b99c40117241869835e21ccc90f790bcb22848bc7"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-375-inventory.png",
+    "stage": "after",
+    "sha256": "3b30c2e5b142500176700a60eecade87b43c7b1e7ab63a68e1cc76f7d86d8945"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-375-leads.png",
+    "stage": "after",
+    "sha256": "7661c1c5bf45bc0152f1d66f8933b7bb00dc4ffb3812121c57a8d354489e0bc4"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-375-media.png",
+    "stage": "after",
+    "sha256": "2ebfafbc5eabe01a332d1a5af13504cfccc71fd17babfa72e91ae71a46da12e4"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-375-pricing.png",
+    "stage": "after",
+    "sha256": "4533fe24c7e179dc670a1b2686479f499157c72c7317e985e558d95e3c196260"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-375-properties.png",
+    "stage": "after",
+    "sha256": "98d07e048f08c54d0ddc621f6893c7a4ed51c7aca2841a8fccf0a101b4cd9276"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-375-property.png",
+    "stage": "after",
+    "sha256": "e715efe39a0308b60027dd38bc15a44818ec516e6a836d1545ddc720c80c7066"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-375-public-detail.png",
+    "stage": "after",
+    "sha256": "b085c0858170140049b16dcbbb134f8d66c89c66076b10d66b3226bf5a09e075"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-375-publish.png",
+    "stage": "after",
+    "sha256": "a100da3583bbbde986a9d5d6b0d6f19c19198a9b66d97718b3c8572bb416ea9b"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-375-quick-add.png",
+    "stage": "after",
+    "sha256": "7100289d5f07357277d47e12a68ff429cfa09b5812464f14f9a0617df89c0b15"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-375-register.png",
+    "stage": "after",
+    "sha256": "7d74907b884e3afd36b44681356a087ef5e57efd3d05f15f9856dd6bf38557de"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-375-settings.png",
+    "stage": "after",
+    "sha256": "4cde6dc169b220fa5ebef5c6266e5b61973f436c58e7d038fcf4b6cce0c51b45"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-375-sign-in.png",
+    "stage": "after",
+    "sha256": "e674428ab293e2d3b12ba09252eaf2255eae58b5e1af7358f8ac8bfa74d08fd6"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-768-analytics.png",
+    "stage": "after",
+    "sha256": "acb8c1bcfc828e2b893a81dae66f3704094c433818f91b838622e2f15dae5c8b"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-768-billing.png",
+    "stage": "after",
+    "sha256": "3f79b026d5e33bc0c4c135b61c79732583dfd645f2ee119582324ae7432212fc"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-768-campaign-new.png",
+    "stage": "after",
+    "sha256": "07f612368053a2d9e844916177f28bb02420ac9b42de2c6661c3dee29cf35b3f"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-768-campaigns.png",
+    "stage": "after",
+    "sha256": "61e73dcb1b45d68ff5f4a5b8e7acc808db30eb0b8adda4feaffb581cb3e0dd15"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-768-dashboard.png",
+    "stage": "after",
+    "sha256": "efc0c6277482e8a184388c04c5dabbd6c517e4bd6f90993327ebe37ea8226207"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-768-editor.png",
+    "stage": "after",
+    "sha256": "c36edbf9b544de3706951fbda0f94b5fe600c141d614072ec8e1ea04ee59a261"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-768-home.png",
+    "stage": "after",
+    "sha256": "74828337c5080f8216c459382da7ec2af3689679a9bddbe1da46c80538cc84e9"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-768-inbox.png",
+    "stage": "after",
+    "sha256": "17a093a32ce36a86d6018d521424416b1cd6088d2d4cc85c6358b95e25133b60"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-768-integrations.png",
+    "stage": "after",
+    "sha256": "380d0a68ecc47e30c39ab6ae23e6f73216e67cae2613814a1c4c58196d2541e5"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-768-inventory.png",
+    "stage": "after",
+    "sha256": "875aa87c89e503f8edf3d1903af2415ad7ad4fa3e06f8cd5340f11a2fd531fb5"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-768-leads.png",
+    "stage": "after",
+    "sha256": "58e2bd0a09042b9fc5467a4ef8d8fdd443acd12eb7cd50a03ee76c910deda1f9"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-768-media.png",
+    "stage": "after",
+    "sha256": "65ef4a38c4117da879f51449ccbc60e23561c4186abe1c50061bc6735659e9da"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-768-pricing.png",
+    "stage": "after",
+    "sha256": "664005335bf03ccf918356e0bf9b224a0185bb9af17d24bc7c1c5c28c305b1e1"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-768-properties.png",
+    "stage": "after",
+    "sha256": "bc9eda1f6e2ab1c7f853495e6303db8555553f51fa4dd3418947e87c00334ac3"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-768-property.png",
+    "stage": "after",
+    "sha256": "fca19f5a4e25c8e6957c111404656accd235e8cae23a2516d9dc29975a3f1628"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-768-public-detail.png",
+    "stage": "after",
+    "sha256": "7953612acac29d749775736749e441c7d52c9dbb3512b8ba6486e0a45fb413e4"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-768-publish.png",
+    "stage": "after",
+    "sha256": "762e954da47ab36c3d4f718ab2a029d82d5835b9fe58d08a1bf8017a0162dc64"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-768-quick-add.png",
+    "stage": "after",
+    "sha256": "cb2cc7c973fd70eac8488cbed7c9b95f1adf80fc1395e892911262a2a362699c"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-768-register.png",
+    "stage": "after",
+    "sha256": "1b74dabfd0bf93c93a0d39e946d7d2def57b9d643478ee5b55a9ddeb34ac7282"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-768-settings.png",
+    "stage": "after",
+    "sha256": "d0b6e35402a5b248839c7cde6918e1fd87e74de6d6a2e235216f10d70474e01d"
+  },
+  {
+    "path": "artifacts/phase15/after/ar-768-sign-in.png",
+    "stage": "after",
+    "sha256": "fc94431622213f9b55f58154b5d2c188310e1195f419a90f999cc2fded1a5c75"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1024-analytics.png",
+    "stage": "after",
+    "sha256": "187cb4451ab4e50afb689bfd9dda567014bfb88e08bb67d8d306c22363bce655"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1024-billing.png",
+    "stage": "after",
+    "sha256": "9c034117bde7bb96a0c2bc6d19f88fb0f0b8dd81679f4abf73e22425c84d78a7"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1024-campaign-new.png",
+    "stage": "after",
+    "sha256": "a6f7a5dbf5708b2d72392bd009ad1e768878f82c47659869c1a5e3ff8b424fe5"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1024-campaigns.png",
+    "stage": "after",
+    "sha256": "65322998cb3659c4aa136e038dbbe28c97176205cf5c7b43fd4ec58c8b713d41"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1024-dashboard.png",
+    "stage": "after",
+    "sha256": "19d7bc91f61f7c1bfc6cc4617aa3e7a5cdeddaf435b24cc6bbf38dc82bb80bfd"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1024-editor.png",
+    "stage": "after",
+    "sha256": "d319c6d7e532e2758d8997abee568baea3fb35aabc4e4077354e7db00273fc59"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1024-home.png",
+    "stage": "after",
+    "sha256": "4fcd0cc575469e6bb31e38148d61dc5311482442bafd9d31216547e1e4f669bd"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1024-inbox.png",
+    "stage": "after",
+    "sha256": "e7dd2ddea09950068517eb99f40cb34ef5d30e5657a1f73adaf352d09e6684a5"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1024-integrations.png",
+    "stage": "after",
+    "sha256": "342de0cceb9e686ffe9b354946d1090cdb363c085629dfc10f5b779d71acd037"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1024-inventory.png",
+    "stage": "after",
+    "sha256": "b0dc4f4c6ffc14fcd7335200d0af33c23d76cf4bf08c756fc231d8c5aa18a45f"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1024-leads.png",
+    "stage": "after",
+    "sha256": "e7f234ea7026d0fe6e526a1c15ce353014d850ef4c6dbf57a1425bdb916b6df7"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1024-media.png",
+    "stage": "after",
+    "sha256": "c6893b8193712fac439e20c78c550fc31cbbbec6d27e75f3942e502fc0649c87"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1024-pricing.png",
+    "stage": "after",
+    "sha256": "a4f0c89040de9f17a0043727694719e04c0c3522706d66df1a0f38e8e7a14af4"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1024-properties.png",
+    "stage": "after",
+    "sha256": "75de939e87b51392101bc6778f7189b394338001548084e3ac24206b8f7bb73d"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1024-property.png",
+    "stage": "after",
+    "sha256": "cafb839afc7d5a4ba948f3287bd8058643b4795773a1ae5c7d6e5a60d052a59d"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1024-public-detail.png",
+    "stage": "after",
+    "sha256": "6c60b1dbfbdcd2887f664411e9876fe81bb1103e60e08f29fa994a692e38cb86"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1024-publish.png",
+    "stage": "after",
+    "sha256": "057ac8df330cbca65b02d86bacdb2b6952648bc45cd2c918e0ac3f440267cea4"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1024-quick-add.png",
+    "stage": "after",
+    "sha256": "aa6a6fc6a9b085bd2470a66e706e3e8335df959d2fadd2e378d7abf3d8e466b5"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1024-register.png",
+    "stage": "after",
+    "sha256": "451d96a360a3d9265a43d76c858529d6dd7308195d38e8554ed895e37668637b"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1024-settings.png",
+    "stage": "after",
+    "sha256": "c95b8f32d2d9df7d84c72e933f251906ed411b963ab22394a8d303944f808cab"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1024-sign-in.png",
+    "stage": "after",
+    "sha256": "37ffc84b5c3e3eb84101c0c5b594b805021990e9043526ab29f9857922a8aa56"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1280-analytics.png",
+    "stage": "after",
+    "sha256": "c4e80a6c014e42e8c7b12a72f0300424d405b9ca3d281b47289655ed45703959"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1280-billing.png",
+    "stage": "after",
+    "sha256": "5d5c186d31f81528880014ae0d0e5719355cbfcbc3f12c5b25e4fc58853bcbf4"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1280-campaign-new.png",
+    "stage": "after",
+    "sha256": "47862d6084870c022ed7f29ecc691424c755d3f7336b04cf07c16667f8b2f2d2"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1280-campaigns.png",
+    "stage": "after",
+    "sha256": "39e56f6da2711870073e6ef27d135b7a994a57fcbfa55ece4f7804c1192cca73"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1280-dashboard.png",
+    "stage": "after",
+    "sha256": "9f23c9993a27dd1a5db01642f5eb3919632910482836530858760ecf4fcd07cf"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1280-editor.png",
+    "stage": "after",
+    "sha256": "07d5de33eedd247f095dda7be5ba3242a7a689755cf7a5792d913a315dee030b"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1280-home.png",
+    "stage": "after",
+    "sha256": "24d67a1fdf979d22fad69d90677fb34ac3e2c65a4a1354c0908007802195e269"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1280-inbox.png",
+    "stage": "after",
+    "sha256": "99926f4196ff7d6825965adc71d24b790dded43ab3894c2ef35d82433319b43b"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1280-integrations.png",
+    "stage": "after",
+    "sha256": "44ed26ef60426268a70d10affbc3248402d8e9a656a14ae20593333882bc2300"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1280-inventory.png",
+    "stage": "after",
+    "sha256": "7594f90b486a09338139a5c954dc6215824f0ad803c5afa16a1ee9cf5e6aa955"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1280-leads.png",
+    "stage": "after",
+    "sha256": "28a122702f5874ade5ce640080ce3e554eb8236cce58b5456385bb7c5ca24244"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1280-media.png",
+    "stage": "after",
+    "sha256": "464129717908257c9c41539d7557699df68889a6b66e8cadd1ad1458bf656f6c"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1280-pricing.png",
+    "stage": "after",
+    "sha256": "8c0331996e93ee6a45d7d97c9923cb6c178b37577fd90b0cbd6447a38e46364b"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1280-properties.png",
+    "stage": "after",
+    "sha256": "1c59eae86800b64cd4c2c87baec470157e627b9fe3317b12a72b0e63a42a7c56"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1280-property.png",
+    "stage": "after",
+    "sha256": "239a7cf4553408275915e524662260ba05514a6f6f46d3c6d1884a439b0bf354"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1280-public-detail.png",
+    "stage": "after",
+    "sha256": "fd4fd30fd1abe919172e89628b1b3bebc5b620a1a958d930a9ec86fbd5556b87"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1280-publish.png",
+    "stage": "after",
+    "sha256": "8420b171de3dc4fa58fe679e63bac7576b2e563ac9afb4043d6c90c79c741062"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1280-quick-add.png",
+    "stage": "after",
+    "sha256": "a0191a757fe46290c77ddda1d0edacaa03cb4ded2490503d5eb760f864d543f0"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1280-register.png",
+    "stage": "after",
+    "sha256": "44a3c7b1e822294ec37f0c122b08b8884afe68fdc55e7fb07f99895c0bdb7b32"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1280-settings.png",
+    "stage": "after",
+    "sha256": "71af0ebb1a7753cdb5cc991869d1389419f7e67807868dbaafec623c6df8ff40"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1280-sign-in.png",
+    "stage": "after",
+    "sha256": "7fdb637080cdea1b110bb731c7ce618c756039d2fa8d836e20b9314fdbee676d"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1440-analytics.png",
+    "stage": "after",
+    "sha256": "230c32c5dd4cd336dcba66b9e1d3e9aba1e1a9f5d4945e4069bf26b732213e73"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1440-billing.png",
+    "stage": "after",
+    "sha256": "b96a2a5d6418b8599da3c2774f626dc29bcbe81804dd032850a7333345a57abe"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1440-campaign-new.png",
+    "stage": "after",
+    "sha256": "302533e56a19ae3e34e75c5e5a865fd3c7be93643502c900dcb2e40dabe38298"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1440-campaigns.png",
+    "stage": "after",
+    "sha256": "829801a84c5d0ee66ef3a5ba527cbe0af59179f04bd9b11ce491880bbfb43956"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1440-dashboard.png",
+    "stage": "after",
+    "sha256": "a10b4dd1eb1d643d0fc03f236b9680d9ae61ef1496c57804e487c2a3fb5346c6"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1440-editor.png",
+    "stage": "after",
+    "sha256": "8e1de9ef109c3ce72bd8ddf1e416041f58407c9c240de2c1a3569572ac6abe8e"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1440-home.png",
+    "stage": "after",
+    "sha256": "31622b1f31ff54e492725111f8ac3e5066cf8ed389f5aa17b7bd8ea173b9270d"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1440-inbox.png",
+    "stage": "after",
+    "sha256": "41b48f1d16d491e820008cfa2b8950e5e6c7cbf6112cd3a352c29a8ba34782ff"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1440-integrations.png",
+    "stage": "after",
+    "sha256": "64086c3a2311dd7b1a10c02638271da91981e39b159aa8fa9aad4ab23b2ffdbd"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1440-inventory.png",
+    "stage": "after",
+    "sha256": "46e6fa33fc01b1c3bdeab761858ecf89d1c10b38b69f7809b6ca5333893e5792"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1440-leads.png",
+    "stage": "after",
+    "sha256": "e99476a24320f0fc57eaf73ad0d5553ea4b455a58b69a169446d57c011149731"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1440-media.png",
+    "stage": "after",
+    "sha256": "f62f9490ec550506ae67a08012157e66862be27a5bb7635377cca3fb39645ce9"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1440-pricing.png",
+    "stage": "after",
+    "sha256": "4f04113fc8654803cf945ea1f7667a09fdf664338affbc86feb56121a820fd86"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1440-properties.png",
+    "stage": "after",
+    "sha256": "fc467da77ad80b54bda62e5ffd52a4bea85edbfbf09a897a3ee966f006739ee2"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1440-property.png",
+    "stage": "after",
+    "sha256": "3023e3e97ee06f9eb60c8e24e25128cb9d0b748ef70a44d3c5c843718af6cd37"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1440-public-detail.png",
+    "stage": "after",
+    "sha256": "1f9a8c514deca4828c6109dff13334990d9b5a465d49f9e751bbe63c3309b143"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1440-publish.png",
+    "stage": "after",
+    "sha256": "3e3512e7b32f7c73f4c686acb7cf170e72667f8c15cb6d7f0ffb743127e2505b"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1440-quick-add.png",
+    "stage": "after",
+    "sha256": "7ea4152b4c7b78e4e0cc04f06e4a35e582950a93c2a59d78c63369d8409c3593"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1440-register.png",
+    "stage": "after",
+    "sha256": "bb16d7713b5100d7df421bb0520dfc1ff1e8d7db357bbb7b9e07445461821553"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1440-settings.png",
+    "stage": "after",
+    "sha256": "a8ffccecdf652955d180944ece42a74073c8db084905d983b8ac0602531c0492"
+  },
+  {
+    "path": "artifacts/phase15/after/en-1440-sign-in.png",
+    "stage": "after",
+    "sha256": "e0ab19e225373e2bc6e108bfbc4cf74901a883a075ee856e63d22bb4ce4b2708"
+  },
+  {
+    "path": "artifacts/phase15/after/en-320-analytics.png",
+    "stage": "after",
+    "sha256": "52d83b8997321894b33901495fc6110bc13acc36fd79962f9a9403b699ecc1d0"
+  },
+  {
+    "path": "artifacts/phase15/after/en-320-billing.png",
+    "stage": "after",
+    "sha256": "ad65d781e0019f4c027928ec6ffc745d6ff5302cb1e415f354744a120c5a5385"
+  },
+  {
+    "path": "artifacts/phase15/after/en-320-campaign-new.png",
+    "stage": "after",
+    "sha256": "629a0d4963bde6c9d65595747e61d8ebd6b0c9ea783c612ba1c9e66b8d616ac4"
+  },
+  {
+    "path": "artifacts/phase15/after/en-320-campaigns.png",
+    "stage": "after",
+    "sha256": "4e5218a475f5342df975d591ac6eb9b01198bf8d8c84608c7f3c0c365c23c1cc"
+  },
+  {
+    "path": "artifacts/phase15/after/en-320-dashboard.png",
+    "stage": "after",
+    "sha256": "7eac44b3609730c4136080a56ad14ca99797496c65daab3fc577e3f056b7195b"
+  },
+  {
+    "path": "artifacts/phase15/after/en-320-editor.png",
+    "stage": "after",
+    "sha256": "58a38900b017de91d8b2c2473106c03bfab51eadc7276c086542a8aa05a0a53e"
+  },
+  {
+    "path": "artifacts/phase15/after/en-320-home.png",
+    "stage": "after",
+    "sha256": "b56c4a702716c6a5e85051eabfd4b3f451d6bfa5fbb336b54492221126644b7a"
+  },
+  {
+    "path": "artifacts/phase15/after/en-320-inbox.png",
+    "stage": "after",
+    "sha256": "f312a9f1094b16b474994afcfe12e8af4a12a596158635f180b9f2ad146847df"
+  },
+  {
+    "path": "artifacts/phase15/after/en-320-integrations.png",
+    "stage": "after",
+    "sha256": "160329a4154c104030fff24c34798295fe1497b43280eae827ad43753ed50284"
+  },
+  {
+    "path": "artifacts/phase15/after/en-320-inventory.png",
+    "stage": "after",
+    "sha256": "942c56b6880e357122a35a873164985e2a85800cc4d580300f742b4a2e99f638"
+  },
+  {
+    "path": "artifacts/phase15/after/en-320-leads.png",
+    "stage": "after",
+    "sha256": "f7ddfe5206d17e2a80835d20ecfc2743aaa81dc4efc791f94fc5308d2f753a90"
+  },
+  {
+    "path": "artifacts/phase15/after/en-320-media.png",
+    "stage": "after",
+    "sha256": "d5d592f2ba3c9061ac43a9cb56a13c56572b4d4e9e51b4634b2f5d02eba52bdf"
+  },
+  {
+    "path": "artifacts/phase15/after/en-320-pricing.png",
+    "stage": "after",
+    "sha256": "3cbd248b31063beddfc1cc15595f1016022b972e57916a29cafa53ea358ca97d"
+  },
+  {
+    "path": "artifacts/phase15/after/en-320-properties.png",
+    "stage": "after",
+    "sha256": "6f8dae70a5acc79ee0e49d1109ac59fedd17e0b55de0d465f05956894595f6f9"
+  },
+  {
+    "path": "artifacts/phase15/after/en-320-property.png",
+    "stage": "after",
+    "sha256": "9a417ce8d8af207902085bbbc9f8c259d740f893b61cd596713c8ba557f5274d"
+  },
+  {
+    "path": "artifacts/phase15/after/en-320-public-detail.png",
+    "stage": "after",
+    "sha256": "9d3882107a56a0b795b078676e2745701bbd8342ba9ad3ea082bf90a1e850335"
+  },
+  {
+    "path": "artifacts/phase15/after/en-320-publish.png",
+    "stage": "after",
+    "sha256": "315ca4bf4a9c4dbf9462b7d960290fb049218190e8cb9eeabadb0e5f755da9f4"
+  },
+  {
+    "path": "artifacts/phase15/after/en-320-quick-add.png",
+    "stage": "after",
+    "sha256": "e38c721b42bcf14ba4ca8ae3c0325695dcdd56b6887d4159dc68a22a9661c29a"
+  },
+  {
+    "path": "artifacts/phase15/after/en-320-register.png",
+    "stage": "after",
+    "sha256": "57ae76461e871348d741c9db5c51d82ab524bfed84f7e96344d7d0d5f9cae71a"
+  },
+  {
+    "path": "artifacts/phase15/after/en-320-settings.png",
+    "stage": "after",
+    "sha256": "6e13b3fdb520b14047b6f218842c0c43a39ef7c50d78ec654650fcb5f13f8df6"
+  },
+  {
+    "path": "artifacts/phase15/after/en-320-sign-in.png",
+    "stage": "after",
+    "sha256": "3314e7a276cd50371306b623fddeee3ec0c3b4e7cbcf2da85d8083dd6936c5f5"
+  },
+  {
+    "path": "artifacts/phase15/after/en-375-analytics.png",
+    "stage": "after",
+    "sha256": "e6ea4dcc7eb35d730d8d4356b14e5a78638ab77e31242ddaeb8ecfb0e0f16cbf"
+  },
+  {
+    "path": "artifacts/phase15/after/en-375-billing.png",
+    "stage": "after",
+    "sha256": "03d5d54b728ef0300c30cd4b5f0566d3341c99c042491b7a5175e209ec866eb5"
+  },
+  {
+    "path": "artifacts/phase15/after/en-375-campaign-new.png",
+    "stage": "after",
+    "sha256": "a9962f2c8c74966db2326820fbd18b46384bb2acbd42057a32fef029a96ba947"
+  },
+  {
+    "path": "artifacts/phase15/after/en-375-campaigns.png",
+    "stage": "after",
+    "sha256": "62bc50580c84f3163d127238f6ef859a419d22b35cd331fa8a6cfbe1c84f6552"
+  },
+  {
+    "path": "artifacts/phase15/after/en-375-dashboard.png",
+    "stage": "after",
+    "sha256": "491c099c91c634f13b5e574ff64ed1338ddc8b473ffc314034bf08f265f4f0bc"
+  },
+  {
+    "path": "artifacts/phase15/after/en-375-editor.png",
+    "stage": "after",
+    "sha256": "832ba8f322e5f9d13e3baaaaa1055dc1f61c1b7b9cb7a7f887672e2d65fe9585"
+  },
+  {
+    "path": "artifacts/phase15/after/en-375-home.png",
+    "stage": "after",
+    "sha256": "26924caab532dfcc854e5ea6b99d6f98ad9ac86c5c7d3fa48f4d1966d833eb02"
+  },
+  {
+    "path": "artifacts/phase15/after/en-375-inbox.png",
+    "stage": "after",
+    "sha256": "a788b3d654367aedf700af2c300108111d8287142de3f6e5e420aefed3d1d643"
+  },
+  {
+    "path": "artifacts/phase15/after/en-375-integrations.png",
+    "stage": "after",
+    "sha256": "d02200316f3e4b43cfc57801871629a4abc1ee6185b571bbedaa889045e69f16"
+  },
+  {
+    "path": "artifacts/phase15/after/en-375-inventory.png",
+    "stage": "after",
+    "sha256": "f868d4ab747628753006d9a279914b27be6982d12a06a439acc134c57d658002"
+  },
+  {
+    "path": "artifacts/phase15/after/en-375-leads.png",
+    "stage": "after",
+    "sha256": "b1ee34ef7ccd92ba166f998c3a1a26766af4812d138bb8b9527a56046ed5289a"
+  },
+  {
+    "path": "artifacts/phase15/after/en-375-media.png",
+    "stage": "after",
+    "sha256": "abafaf761ecf0598cb2726ace516966ae5b9c486ef742205e9b13d01ef3c0dba"
+  },
+  {
+    "path": "artifacts/phase15/after/en-375-pricing.png",
+    "stage": "after",
+    "sha256": "6284b4567e1d49f1b71c9fb74d03309135013e482c546e6df81fad6d134f70a2"
+  },
+  {
+    "path": "artifacts/phase15/after/en-375-properties.png",
+    "stage": "after",
+    "sha256": "890d6eab99634c47f072a564fdf578c7390d3a422837c2f411c50f770064e41b"
+  },
+  {
+    "path": "artifacts/phase15/after/en-375-property.png",
+    "stage": "after",
+    "sha256": "638cc42819adf82b8b530cba9e6ac7cdbd46c7ff69de920929151710b30c2436"
+  },
+  {
+    "path": "artifacts/phase15/after/en-375-public-detail.png",
+    "stage": "after",
+    "sha256": "8c5623d50091f693c69df53ca34a9e590075c759ef438cd4f5f6df3686afbe08"
+  },
+  {
+    "path": "artifacts/phase15/after/en-375-publish.png",
+    "stage": "after",
+    "sha256": "4fb99e8aab7278184676a0777e2de29c3642d22755da43558cc963ee6fcdc26c"
+  },
+  {
+    "path": "artifacts/phase15/after/en-375-quick-add.png",
+    "stage": "after",
+    "sha256": "1916d8e5e5ed8fcb320ba966e1d87bab0580f41988bef39a9c54178cc477efcc"
+  },
+  {
+    "path": "artifacts/phase15/after/en-375-register.png",
+    "stage": "after",
+    "sha256": "860f6435e52bbf5b5e172de4ff855eb24fc9b434a80dd03bc19e1f1fa480eb4a"
+  },
+  {
+    "path": "artifacts/phase15/after/en-375-settings.png",
+    "stage": "after",
+    "sha256": "2c8efc1d2051034dfa19539b4c79e9a87288f9d9ce2f566317a1f4095229d3eb"
+  },
+  {
+    "path": "artifacts/phase15/after/en-375-sign-in.png",
+    "stage": "after",
+    "sha256": "580288f7453c6215bc02bad2fbad68fa3032671abbce1c9d6f4f78ad2dc309be"
+  },
+  {
+    "path": "artifacts/phase15/after/en-768-analytics.png",
+    "stage": "after",
+    "sha256": "2dc3785e3310ff25e4bfb22d7a6be074d50743feb964d5ed13510178ffadb403"
+  },
+  {
+    "path": "artifacts/phase15/after/en-768-billing.png",
+    "stage": "after",
+    "sha256": "9c28341d43a74f07b8456768e113b17ff315db3b341f44a28768e2ff2c088f57"
+  },
+  {
+    "path": "artifacts/phase15/after/en-768-campaign-new.png",
+    "stage": "after",
+    "sha256": "bc29f1d403d2aedaebf7cb6db0af45f2593c76041dc6097311ec42c2c16897ce"
+  },
+  {
+    "path": "artifacts/phase15/after/en-768-campaigns.png",
+    "stage": "after",
+    "sha256": "b9bbc6add7366c53625778218e8687b613c75cca230d27c6248e57df18a93e81"
+  },
+  {
+    "path": "artifacts/phase15/after/en-768-dashboard.png",
+    "stage": "after",
+    "sha256": "708c3aa18074c5f34461e3087b8bd4d1b4e1cea03139812ecca0ef11d8342f90"
+  },
+  {
+    "path": "artifacts/phase15/after/en-768-editor.png",
+    "stage": "after",
+    "sha256": "3a33898d52f5eefa849c91d83350085a43fc29a05c18f2682952290c5b862b67"
+  },
+  {
+    "path": "artifacts/phase15/after/en-768-home.png",
+    "stage": "after",
+    "sha256": "8d117e8508a38e7ecab8187ff78cf039ef3654e0ccc82b47c401c12f7014e150"
+  },
+  {
+    "path": "artifacts/phase15/after/en-768-inbox.png",
+    "stage": "after",
+    "sha256": "05a6d3ba874e016cff563ead640a77460fdfdabc8c28df4985af526bca80b693"
+  },
+  {
+    "path": "artifacts/phase15/after/en-768-integrations.png",
+    "stage": "after",
+    "sha256": "6294d3ce33c8ed7ee3fc74e767d736afbe2022d8c28bf05674a45d7682b4d2f5"
+  },
+  {
+    "path": "artifacts/phase15/after/en-768-inventory.png",
+    "stage": "after",
+    "sha256": "f396cca6000b6cab03f833412623efea76326274d61638c87c74fc6c8b51039b"
+  },
+  {
+    "path": "artifacts/phase15/after/en-768-leads.png",
+    "stage": "after",
+    "sha256": "f863d9704259c1d68ff5cc190ba492447240137bb9fe569c55bdc68206b02551"
+  },
+  {
+    "path": "artifacts/phase15/after/en-768-media.png",
+    "stage": "after",
+    "sha256": "1e514861fab7cc5f19bcd0b4f7254b52ece24d62b172a8a9de35877f763224d4"
+  },
+  {
+    "path": "artifacts/phase15/after/en-768-pricing.png",
+    "stage": "after",
+    "sha256": "533da6a77490201b832176c88303dfebdb3dd815709d0bd4a526ad3577377bec"
+  },
+  {
+    "path": "artifacts/phase15/after/en-768-properties.png",
+    "stage": "after",
+    "sha256": "c067246cd8155f01e86248fef7689a98ae8b1aaac8556acb9716e6756861b22d"
+  },
+  {
+    "path": "artifacts/phase15/after/en-768-property.png",
+    "stage": "after",
+    "sha256": "268758f935b13f28d51621033594cc00b3c1b877121888515c318adf85ff5ac6"
+  },
+  {
+    "path": "artifacts/phase15/after/en-768-public-detail.png",
+    "stage": "after",
+    "sha256": "428bfd21a4d47ab9833bf101697b79e13cebb9bf1234edd8315d53b659071f23"
+  },
+  {
+    "path": "artifacts/phase15/after/en-768-publish.png",
+    "stage": "after",
+    "sha256": "4f20c5e02214d71ec2b56f0ca9cd095c464dae5c7cc5cff91865c29f5e21161c"
+  },
+  {
+    "path": "artifacts/phase15/after/en-768-quick-add.png",
+    "stage": "after",
+    "sha256": "a5b1dd3b90c8831d1b73b8d7dcedf9153bc7ce4056271fbbe3eaec0e6083f05a"
+  },
+  {
+    "path": "artifacts/phase15/after/en-768-register.png",
+    "stage": "after",
+    "sha256": "051145ae4428fa6316bad2eaa77c30edd7c51cfd292822e919965586c73b7ac0"
+  },
+  {
+    "path": "artifacts/phase15/after/en-768-settings.png",
+    "stage": "after",
+    "sha256": "73d51888ae48bf44935c93dc3445273c2a22d69af6a8979cc386ecb1c8fc1a91"
+  },
+  {
+    "path": "artifacts/phase15/after/en-768-sign-in.png",
+    "stage": "after",
+    "sha256": "aaa36645fe3cbd5176e914eb68ba90e529d052adfeb0b0912dbb5c1b20cee719"
+  },
+  {
+    "path": "artifacts/phase15/reference/ar-1440-advertiser-new.png",
+    "stage": "reference",
+    "sha256": "08073abe284748c9352b8bfff5cfaf009d7c06b89fbae660147c72e1992695a4"
+  },
+  {
+    "path": "artifacts/phase15/reference/ar-1440-advertiser-promote-AQ-10233.png",
+    "stage": "reference",
+    "sha256": "edbd81b5d716b44c1fe1eacb47ba85331ac3737ee7cc593704f4bd043f064b4f"
+  },
+  {
+    "path": "artifacts/phase15/reference/ar-1440-advertiser-studio.png",
+    "stage": "reference",
+    "sha256": "47dabf2f7489e3368d652c3ce4d78b3bd8380babaaea1e7eeaedb3c07aad43cd"
+  },
+  {
+    "path": "artifacts/phase15/reference/ar-1440-advertiser.png",
+    "stage": "reference",
+    "sha256": "49e9f82a32fa374f23572c1c42e30f8a881cb61821565452cb9e23edf7bf4971"
+  },
+  {
+    "path": "artifacts/phase15/reference/ar-1440-home.png",
+    "stage": "reference",
+    "sha256": "d12cd21b5e462c916eaeb0629f0229fcd88d864bc3196229cd2163f4b5576c72"
+  },
+  {
+    "path": "artifacts/phase15/reference/ar-1440-hub.png",
+    "stage": "reference",
+    "sha256": "436baaad648b18dadeac2a9f6cadcc1ebe2deb31e0db058651e26472247f2609"
+  },
+  {
+    "path": "artifacts/phase15/reference/ar-1440-properties-AQ-10233.png",
+    "stage": "reference",
+    "sha256": "cac775cb262b4c045a1df2d94c1b410bcb4ad58d1deff9d5e5da2bea35b569c5"
+  },
+  {
+    "path": "artifacts/phase15/reference/ar-1440-properties.png",
+    "stage": "reference",
+    "sha256": "cac775cb262b4c045a1df2d94c1b410bcb4ad58d1deff9d5e5da2bea35b569c5"
+  },
+  {
+    "path": "artifacts/phase15/reference/ar-1440-register.png",
+    "stage": "reference",
+    "sha256": "408dc66332b15a491be7470432d9ee9a41dfe3fc7671900b63e94698ec53784c"
+  },
+  {
+    "path": "artifacts/phase15/reference/ar-1440-whatsapp.png",
+    "stage": "reference",
+    "sha256": "0e57edca21046fae56a0f21f91f8995521ee7b0acf94c906cbc7ad7c9127eccf"
+  },
+  {
+    "path": "artifacts/phase15/reference/ar-375-advertiser-new.png",
+    "stage": "reference",
+    "sha256": "3732cb12c114a02b7f964313d91f3f98a5cad3bf6eac8c753e90c06ddb16ec31"
+  },
+  {
+    "path": "artifacts/phase15/reference/ar-375-advertiser-promote-AQ-10233.png",
+    "stage": "reference",
+    "sha256": "d843a65539b10e0d45b3b8254f2e711e0ceae11b2f3ec71e6ca4a6427f813fcc"
+  },
+  {
+    "path": "artifacts/phase15/reference/ar-375-advertiser-studio.png",
+    "stage": "reference",
+    "sha256": "5e8c3a4743774aa9ef1dc60b4464b7f27f3c9d7c581b7d33eff4bc302b70e68a"
+  },
+  {
+    "path": "artifacts/phase15/reference/ar-375-advertiser.png",
+    "stage": "reference",
+    "sha256": "03bb7811fc7513a8c67b8388419e0417355f8db2a6ec02baab3cd1911c214d3c"
+  },
+  {
+    "path": "artifacts/phase15/reference/ar-375-home.png",
+    "stage": "reference",
+    "sha256": "d055380f15def8bb4d558c41927251eb5b563f41872235d48e1985abff96f7d2"
+  },
+  {
+    "path": "artifacts/phase15/reference/ar-375-hub.png",
+    "stage": "reference",
+    "sha256": "0099283aaa73567be15408330ad1b6dd13686bfaa3973ab865438b9b34386b6a"
+  },
+  {
+    "path": "artifacts/phase15/reference/ar-375-properties-AQ-10233.png",
+    "stage": "reference",
+    "sha256": "4392260530c6e20bf77e1e269a31f2fe59a77501bf8cc55962c7c10ff93321d7"
+  },
+  {
+    "path": "artifacts/phase15/reference/ar-375-properties.png",
+    "stage": "reference",
+    "sha256": "4392260530c6e20bf77e1e269a31f2fe59a77501bf8cc55962c7c10ff93321d7"
+  },
+  {
+    "path": "artifacts/phase15/reference/ar-375-register.png",
+    "stage": "reference",
+    "sha256": "f5e7aac0792fcdc282984116dd6577865fbb3619a081035f7d6c04a874165389"
+  },
+  {
+    "path": "artifacts/phase15/reference/ar-375-whatsapp.png",
+    "stage": "reference",
+    "sha256": "be679c512c9afd3810846eb813f69e86dcb291eb2de0ca58a1e7047b4afc527c"
+  },
+  {
+    "path": "artifacts/phase15/reference/dashboard-billing.png",
+    "stage": "reference",
+    "sha256": "84ccbcb4d0821352b966bcc89c002ac7c72b6f7b1348d3cca46e087f745360a2"
+  },
+  {
+    "path": "artifacts/phase15/reference/dashboard-leads.png",
+    "stage": "reference",
+    "sha256": "6c3a04e1f23983e8ce493211c273a1b75f902ef9102563b07d5d1af6b4807cba"
+  },
+  {
+    "path": "artifacts/phase15/reference/dashboard-listings.png",
+    "stage": "reference",
+    "sha256": "3d20c86a26d8408ef6c37dee2f83100fb517237f2eaf1db17476c0ee30366664"
+  },
+  {
+    "path": "artifacts/phase15/reference/dashboard-team.png",
+    "stage": "reference",
+    "sha256": "86ab476e5447ac2d2a674bd0473d6da9585dad7380da479ff3c9c883801cebb9"
+  },
+  {
+    "path": "artifacts/phase15/reference/dashboard-verification.png",
+    "stage": "reference",
+    "sha256": "7db87dd508aa84f105d9678784670ac3e4b70b65242137404e7ea7f05552f582"
+  },
+  {
+    "path": "artifacts/phase15/reference/dashboard.png",
+    "stage": "reference",
+    "sha256": "3ddf70eeace9b365c071336a4bb211b55d186247a0eb78bdd1f035830e2fb945"
+  },
+  {
+    "path": "artifacts/phase15/reference/en-1440-advertiser-new.png",
+    "stage": "reference",
+    "sha256": "93ae4547e7975bfcb8a1687d656461d6394f7a4f34845726464c3f57c3fbbed2"
+  },
+  {
+    "path": "artifacts/phase15/reference/en-1440-advertiser-promote-AQ-10233.png",
+    "stage": "reference",
+    "sha256": "f42513fdd472cc84480dcf67f7606e07fbf99c64a5f52209d3ee4f4cef768b34"
+  },
+  {
+    "path": "artifacts/phase15/reference/en-1440-advertiser-studio.png",
+    "stage": "reference",
+    "sha256": "a6c0d4dd3b249bc2fbcb2b4c504f0d9d6c5d83edc278dd8d1890b2235cfb0ee3"
+  },
+  {
+    "path": "artifacts/phase15/reference/en-1440-advertiser.png",
+    "stage": "reference",
+    "sha256": "3ddf70eeace9b365c071336a4bb211b55d186247a0eb78bdd1f035830e2fb945"
+  },
+  {
+    "path": "artifacts/phase15/reference/en-1440-home.png",
+    "stage": "reference",
+    "sha256": "99e040b386f32019b238d8bf72630154a8b4d8ac85ba0e60afa86d33e4c7659b"
+  },
+  {
+    "path": "artifacts/phase15/reference/en-1440-hub.png",
+    "stage": "reference",
+    "sha256": "b89d2c1d4ccda3805f6b6864ec1212f2601146391e33388cc75519e8da62d202"
+  },
+  {
+    "path": "artifacts/phase15/reference/en-1440-properties-AQ-10233.png",
+    "stage": "reference",
+    "sha256": "cac775cb262b4c045a1df2d94c1b410bcb4ad58d1deff9d5e5da2bea35b569c5"
+  },
+  {
+    "path": "artifacts/phase15/reference/en-1440-properties.png",
+    "stage": "reference",
+    "sha256": "cac775cb262b4c045a1df2d94c1b410bcb4ad58d1deff9d5e5da2bea35b569c5"
+  },
+  {
+    "path": "artifacts/phase15/reference/en-1440-register.png",
+    "stage": "reference",
+    "sha256": "e84e922cfef33479b4fee1ffa4bf4342578c892d275322a0bef8ab2a7de5f6d4"
+  },
+  {
+    "path": "artifacts/phase15/reference/en-1440-whatsapp.png",
+    "stage": "reference",
+    "sha256": "cf7650358f6a0efd9255bad3a51147a32958c2ea866e4bb9f202c5861bbf0bc6"
+  },
+  {
+    "path": "artifacts/phase15/reference/en-375-advertiser-new.png",
+    "stage": "reference",
+    "sha256": "5959b15f470710d3b07c9d200975569b27f3d5c5c9633cb31f916540a27df9eb"
+  },
+  {
+    "path": "artifacts/phase15/reference/en-375-advertiser-promote-AQ-10233.png",
+    "stage": "reference",
+    "sha256": "0b850bbdbda2ed8f8f34f33584482d3b5a5bbf00d243890d699bf46cc7993b6f"
+  },
+  {
+    "path": "artifacts/phase15/reference/en-375-advertiser-studio.png",
+    "stage": "reference",
+    "sha256": "e95bbe6cfbe477e21904ecde9f6c27aa52c2fb97068b88ffb8309361c67a2077"
+  },
+  {
+    "path": "artifacts/phase15/reference/en-375-advertiser.png",
+    "stage": "reference",
+    "sha256": "6ed2eed8e88b989567b6a94c633eee04ad4376a03ef7d824abf9b963a434407b"
+  },
+  {
+    "path": "artifacts/phase15/reference/en-375-home.png",
+    "stage": "reference",
+    "sha256": "7c4876bc65291dbcf93a5ed3e0af0b740a9ab42c6414303f48eeb5d05ec07092"
+  },
+  {
+    "path": "artifacts/phase15/reference/en-375-hub.png",
+    "stage": "reference",
+    "sha256": "a405085e38ecd35eea5318f6a6a4d4047cf691ae8b325343f08a7f9a305efcf1"
+  },
+  {
+    "path": "artifacts/phase15/reference/en-375-properties-AQ-10233.png",
+    "stage": "reference",
+    "sha256": "4392260530c6e20bf77e1e269a31f2fe59a77501bf8cc55962c7c10ff93321d7"
+  },
+  {
+    "path": "artifacts/phase15/reference/en-375-properties.png",
+    "stage": "reference",
+    "sha256": "4392260530c6e20bf77e1e269a31f2fe59a77501bf8cc55962c7c10ff93321d7"
+  },
+  {
+    "path": "artifacts/phase15/reference/en-375-register.png",
+    "stage": "reference",
+    "sha256": "dfb205896d27ded44488f0975d79e56c974702f60581a25a4771ad82a5804ab1"
+  },
+  {
+    "path": "artifacts/phase15/reference/en-375-whatsapp.png",
+    "stage": "reference",
+    "sha256": "a7e84e1b7cf2de49d65a18b2313ec1a06d942604d3395deacdb260d6529cce59"
+  },
+  {
+    "path": "artifacts/phase15/reference/home.png",
+    "stage": "reference",
+    "sha256": "99e040b386f32019b238d8bf72630154a8b4d8ac85ba0e60afa86d33e4c7659b"
+  },
+  {
+    "path": "artifacts/phase15/representative/dashboard.png",
+    "stage": "representative",
+    "sha256": "8d6eb6c4f72646f804fc1ffc4e7eadf31dd067edfc77b4f87479004bac33c3ad"
+  },
+  {
+    "path": "artifacts/phase15/representative/home.png",
+    "stage": "representative",
+    "sha256": "c489bb58d62f814fc43f3d5e78fefcc82a61b8da3555b00d41936efd3438d33a"
+  },
+  {
+    "path": "artifacts/phase15/representative/quick-add.png",
+    "stage": "representative",
+    "sha256": "975732a663eb82551e131a7b5a5a3f9014e73c1021c0f63222fabf8bbc40bc9f"
+  },
+  {
+    "path": "artifacts/phase15/interactions/ar-1440-agency-search.png",
+    "stage": "interactions",
+    "sha256": "4155fb12b20ba02484f9beb2aefc833fe51e7dfeba1872941c99b3f3ef69ac42"
+  },
+  {
+    "path": "artifacts/phase15/interactions/ar-1440-assistance.png",
+    "stage": "interactions",
+    "sha256": "8e216bc49d93bd9f45c4b5df22c2bfb7afbcc1e70f8a76cac7599f74e41f520b"
+  },
+  {
+    "path": "artifacts/phase15/interactions/ar-1440-canonical-preview.png",
+    "stage": "interactions",
+    "sha256": "39330cc509f0995b81fde37dcecf9fba7622b540fe9a22eb8a4f736ff1ae3432"
+  },
+  {
+    "path": "artifacts/phase15/interactions/ar-1440-invalid-quick-add.png",
+    "stage": "interactions",
+    "sha256": "e51618effa653a51b56859815121133c685e2b9dec9ff9eb1f8deb799a6301fe"
+  },
+  {
+    "path": "artifacts/phase15/interactions/ar-1440-platform-menu.png",
+    "stage": "interactions",
+    "sha256": "e9c69c294262139b16e3bae1b2c08803214a243d69cbbf2bd7f6140742667ea2"
+  },
+  {
+    "path": "artifacts/phase15/interactions/ar-1440-unsaved-dialog.png",
+    "stage": "interactions",
+    "sha256": "9c3f3a4e6bcf3e33999522f8c28ea69ffbad6afb98aea3c42ffd7934d0bf5840"
+  },
+  {
+    "path": "artifacts/phase15/interactions/ar-320-agency-navigation.png",
+    "stage": "interactions",
+    "sha256": "c3aaac65a7fcdf5fb34c36eadb94e1d347fa1827f4bbc8b055df05365f1bd9f1"
+  },
+  {
+    "path": "artifacts/phase15/interactions/ar-320-agency-search.png",
+    "stage": "interactions",
+    "sha256": "e442c23a193504132a78832b510cde094e8ac8e96514547b5b3df6cc471b1584"
+  },
+  {
+    "path": "artifacts/phase15/interactions/ar-320-assistance.png",
+    "stage": "interactions",
+    "sha256": "606bd7f3f05b89b86c26545a4f8e1cb65f67585a40d42aafe8b5e2c75431ffdb"
+  },
+  {
+    "path": "artifacts/phase15/interactions/ar-320-canonical-preview.png",
+    "stage": "interactions",
+    "sha256": "41e864a29ec4c118c011c32693e3c60aa74ee6dc67694cf7c4bdd9475fe8fb2f"
+  },
+  {
+    "path": "artifacts/phase15/interactions/ar-320-invalid-quick-add.png",
+    "stage": "interactions",
+    "sha256": "2b4b2f7217e1c237520dcefcc1684377277c16fd04cf656f567eba7712006150"
+  },
+  {
+    "path": "artifacts/phase15/interactions/ar-320-public-navigation.png",
+    "stage": "interactions",
+    "sha256": "bdd2d747e6ee8dd94e993d32be40691dc7db04dd370f2ad5681af897e0d7d41b"
+  },
+  {
+    "path": "artifacts/phase15/interactions/ar-320-unsaved-dialog.png",
+    "stage": "interactions",
+    "sha256": "101975fe6f9a25d873434468931261c3a40e4f68291c12383623c0dae1d646c1"
+  },
+  {
+    "path": "artifacts/phase15/interactions/ar-375-agency-navigation.png",
+    "stage": "interactions",
+    "sha256": "e5686ddc005c06094ef3b6453d2600586b8b7f0f5545b3edc4f1c0f1b402dc7f"
+  },
+  {
+    "path": "artifacts/phase15/interactions/ar-375-agency-search.png",
+    "stage": "interactions",
+    "sha256": "a3c3d3eb5362674432a34a664ea91c0a0ed43af1ade25cfd93d3f9350d0989d1"
+  },
+  {
+    "path": "artifacts/phase15/interactions/ar-375-assistance.png",
+    "stage": "interactions",
+    "sha256": "7051c3c48986d4a3b8590f4d0116befc2a6878e0f301aa39964068f785c32062"
+  },
+  {
+    "path": "artifacts/phase15/interactions/ar-375-canonical-preview.png",
+    "stage": "interactions",
+    "sha256": "f166dd5bee7c56b80eac38d6ff771cf8df6821894cce89b3e077970a3e518542"
+  },
+  {
+    "path": "artifacts/phase15/interactions/ar-375-invalid-quick-add.png",
+    "stage": "interactions",
+    "sha256": "77a30234ab73b0b7f36b01f290afeba33e5dc5cf3bc0df4f477aab8b5f40dfb6"
+  },
+  {
+    "path": "artifacts/phase15/interactions/ar-375-public-navigation.png",
+    "stage": "interactions",
+    "sha256": "e1233eb98b058feaf2fbd54162f73d853a65f6bbe6292f03c3bb7737b7fc90f5"
+  },
+  {
+    "path": "artifacts/phase15/interactions/ar-375-unsaved-dialog.png",
+    "stage": "interactions",
+    "sha256": "00c36a4abf41705676fdbfaa4c74145bd54d123f44b3feded4e7b331315f79cb"
+  },
+  {
+    "path": "artifacts/phase15/interactions/en-1440-agency-search.png",
+    "stage": "interactions",
+    "sha256": "c9cc877eefa5290334792d61c12ce392874f49861108c70946b8ed9738afd63b"
+  },
+  {
+    "path": "artifacts/phase15/interactions/en-1440-assistance.png",
+    "stage": "interactions",
+    "sha256": "e0226f929912042961945755de4d9f8a9ce713218f5f08a6ffd4987290f76d1c"
+  },
+  {
+    "path": "artifacts/phase15/interactions/en-1440-canonical-preview.png",
+    "stage": "interactions",
+    "sha256": "66fb849229622aa0081e7a81443d219773e97b8d82e0dd920c2bce1e478df559"
+  },
+  {
+    "path": "artifacts/phase15/interactions/en-1440-invalid-quick-add.png",
+    "stage": "interactions",
+    "sha256": "f56033c439dc9013027c37a2a975b592df4cf1351884c0dfec9d1ead5dfd8419"
+  },
+  {
+    "path": "artifacts/phase15/interactions/en-1440-platform-menu.png",
+    "stage": "interactions",
+    "sha256": "04ceb38bdd534dab7cebbe6a3518a0713b8dae4d71bd1440b4bb083e87752995"
+  },
+  {
+    "path": "artifacts/phase15/interactions/en-1440-unsaved-dialog.png",
+    "stage": "interactions",
+    "sha256": "ab0bce78e6248d59c6c02db33f08c246104f75c6b37d233abfb23b876c866293"
+  },
+  {
+    "path": "artifacts/phase15/interactions/en-320-agency-navigation.png",
+    "stage": "interactions",
+    "sha256": "cfef317f8ffc5f8dc39d46c9ca98b4ba461e5a511bcc55a65074cf28aa66ace0"
+  },
+  {
+    "path": "artifacts/phase15/interactions/en-320-agency-search.png",
+    "stage": "interactions",
+    "sha256": "6e3b42e0e485c4ba2087237b05cdb8378b5cbbe11263283beceb904937d6fef3"
+  },
+  {
+    "path": "artifacts/phase15/interactions/en-320-assistance.png",
+    "stage": "interactions",
+    "sha256": "f35ae90066de7f2686c184887b4c08680b56fddf9df2d95c9a9cd01b1265a485"
+  },
+  {
+    "path": "artifacts/phase15/interactions/en-320-canonical-preview.png",
+    "stage": "interactions",
+    "sha256": "861c821bd3ba91ed19cb8114168e4ab7100cb0868ee40172c0929bae14aad5fc"
+  },
+  {
+    "path": "artifacts/phase15/interactions/en-320-invalid-quick-add.png",
+    "stage": "interactions",
+    "sha256": "3b4da44eaea80d49fa58d76f929da3131a3eeb6ac9bd864223f8ea32c4607b1b"
+  },
+  {
+    "path": "artifacts/phase15/interactions/en-320-public-navigation.png",
+    "stage": "interactions",
+    "sha256": "877a74743a02ee9f47dda0e646e2730ec255ed97f375cb236f0b027a4ffa04d1"
+  },
+  {
+    "path": "artifacts/phase15/interactions/en-320-unsaved-dialog.png",
+    "stage": "interactions",
+    "sha256": "b8456af4d8e67cb4c500d1d55ae56887b4dd568b0de9eabb00d974fc51e9955c"
+  },
+  {
+    "path": "artifacts/phase15/interactions/en-375-agency-navigation.png",
+    "stage": "interactions",
+    "sha256": "aad55aadd988459cb0442d60a2ddf1f0237d5395ec7988c7b443c9fe2aa0fb10"
+  },
+  {
+    "path": "artifacts/phase15/interactions/en-375-agency-search.png",
+    "stage": "interactions",
+    "sha256": "aa538a200b01a9e0a8743df1da4a86b15d1d4ad9f004f3db27e876f9eef6e2a4"
+  },
+  {
+    "path": "artifacts/phase15/interactions/en-375-assistance.png",
+    "stage": "interactions",
+    "sha256": "38e97ff14623aedc102be33e46f8e0f13d639aeb46542356ec20ca546ebb79a8"
+  },
+  {
+    "path": "artifacts/phase15/interactions/en-375-canonical-preview.png",
+    "stage": "interactions",
+    "sha256": "e1144fd7a5d4e120573faf61e422e916251070765d01a793ea8803b0143326ba"
+  },
+  {
+    "path": "artifacts/phase15/interactions/en-375-invalid-quick-add.png",
+    "stage": "interactions",
+    "sha256": "31bce4d3cd5d666a2b24a39fdaee4c55260b174c345cdfc8e4d4f9c66381dc93"
+  },
+  {
+    "path": "artifacts/phase15/interactions/en-375-public-navigation.png",
+    "stage": "interactions",
+    "sha256": "2c9a65e07559d08e3eaec846e5138b898e4d700978ac0a6f938b1596b80003b3"
+  },
+  {
+    "path": "artifacts/phase15/interactions/en-375-unsaved-dialog.png",
+    "stage": "interactions",
+    "sha256": "bb539719fe6df6b69b5f73c32237c93fb97822079a59daa24d61766642866aee"
+  }
+]

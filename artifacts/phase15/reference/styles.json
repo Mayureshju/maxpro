@@ -1,0 +1,285 @@
+{
+  "variables": [],
+  "samples": [
+    {
+      "tag": "A",
+      "text": "",
+      "color": "rgb(16, 24, 22)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "Manrope, \"Manrope Fallback\", \"IBM Plex Sans Arabic\", \"IBM Plex Sans Arabic Fallback\", ui-sans-serif, system-ui, sans-serif",
+      "size": "16px"
+    },
+    {
+      "tag": "A",
+      "text": "Services",
+      "color": "rgb(51, 61, 58)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "Manrope, \"Manrope Fallback\", \"IBM Plex Sans Arabic\", \"IBM Plex Sans Arabic Fallback\", ui-sans-serif, system-ui, sans-serif",
+      "size": "14px"
+    },
+    {
+      "tag": "A",
+      "text": "How it works",
+      "color": "rgb(51, 61, 58)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "Manrope, \"Manrope Fallback\", \"IBM Plex Sans Arabic\", \"IBM Plex Sans Arabic Fallback\", ui-sans-serif, system-ui, sans-serif",
+      "size": "14px"
+    },
+    {
+      "tag": "A",
+      "text": "Portals",
+      "color": "rgb(51, 61, 58)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "Manrope, \"Manrope Fallback\", \"IBM Plex Sans Arabic\", \"IBM Plex Sans Arabic Fallback\", ui-sans-serif, system-ui, sans-serif",
+      "size": "14px"
+    },
+    {
+      "tag": "A",
+      "text": "Pricing",
+      "color": "rgb(51, 61, 58)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "Manrope, \"Manrope Fallback\", \"IBM Plex Sans Arabic\", \"IBM Plex Sans Arabic Fallback\", ui-sans-serif, system-ui, sans-serif",
+      "size": "14px"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "S1",
+      "color": "rgb(100, 113, 108)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "Manrope, \"Manrope Fallback\", \"IBM Plex Sans Arabic\", \"IBM Plex Sans Arabic Fallback\", ui-sans-serif, system-ui, sans-serif",
+      "size": "12px"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "S1 + S2",
+      "color": "lab(35.2783 67.9912 -88.793)",
+      "bg": "rgb(255, 255, 255)",
+      "font": "Manrope, \"Manrope Fallback\", \"IBM Plex Sans Arabic\", \"IBM Plex Sans Arabic Fallback\", ui-sans-serif, system-ui, sans-serif",
+      "size": "12px"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Demo portals",
+      "color": "rgb(51, 61, 58)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "Manrope, \"Manrope Fallback\", \"IBM Plex Sans Arabic\", \"IBM Plex Sans Arabic Fallback\", ui-sans-serif, system-ui, sans-serif",
+      "size": "14px"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "العربيةع",
+      "color": "rgb(51, 61, 58)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "Manrope, \"Manrope Fallback\", \"IBM Plex Sans Arabic\", \"IBM Plex Sans Arabic Fallback\", ui-sans-serif, system-ui, sans-serif",
+      "size": "14px"
+    },
+    {
+      "tag": "A",
+      "text": "Sign in",
+      "color": "rgb(51, 61, 58)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "Manrope, \"Manrope Fallback\", \"IBM Plex Sans Arabic\", \"IBM Plex Sans Arabic Fallback\", ui-sans-serif, system-ui, sans-serif",
+      "size": "14px"
+    },
+    {
+      "tag": "A",
+      "text": "Get started",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgb(19, 135, 63)",
+      "font": "Manrope, \"Manrope Fallback\", \"IBM Plex Sans Arabic\", \"IBM Plex Sans Arabic Fallback\", ui-sans-serif, system-ui, sans-serif",
+      "size": "14px"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "color": "rgb(51, 61, 58)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "Manrope, \"Manrope Fallback\", \"IBM Plex Sans Arabic\", \"IBM Plex Sans Arabic Fallback\", ui-sans-serif, system-ui, sans-serif",
+      "size": "14px"
+    },
+    {
+      "tag": "SECTION",
+      "text": "For builders, agencies and brokers in QatarOne property reco",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgb(3, 20, 15)",
+      "font": "Manrope, \"Manrope Fallback\", \"IBM Plex Sans Arabic\", \"IBM Plex Sans Arabic Fallback\", ui-sans-serif, system-ui, sans-serif",
+      "size": "16px"
+    },
+    {
+      "tag": "H1",
+      "text": "One property record.Every portal.",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "Manrope, \"Manrope Fallback\", \"IBM Plex Sans Arabic\", \"IBM Plex Sans Arabic Fallback\", ui-sans-serif, system-ui, sans-serif",
+      "size": "48px"
+    },
+    {
+      "tag": "A",
+      "text": "Get started",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgb(19, 135, 63)",
+      "font": "Manrope, \"Manrope Fallback\", \"IBM Plex Sans Arabic\", \"IBM Plex Sans Arabic Fallback\", ui-sans-serif, system-ui, sans-serif",
+      "size": "14px"
+    },
+    {
+      "tag": "A",
+      "text": "Open the agency workspace",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "Manrope, \"Manrope Fallback\", \"IBM Plex Sans Arabic\", \"IBM Plex Sans Arabic Fallback\", ui-sans-serif, system-ui, sans-serif",
+      "size": "16px"
+    },
+    {
+      "tag": "SECTION",
+      "text": "What your plan includesChoose a plan, and we run these servi",
+      "color": "rgb(16, 24, 22)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "Manrope, \"Manrope Fallback\", \"IBM Plex Sans Arabic\", \"IBM Plex Sans Arabic Fallback\", ui-sans-serif, system-ui, sans-serif",
+      "size": "16px"
+    },
+    {
+      "tag": "A",
+      "text": "See it in the workspace",
+      "color": "rgb(19, 135, 63)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "Manrope, \"Manrope Fallback\", \"IBM Plex Sans Arabic\", \"IBM Plex Sans Arabic Fallback\", ui-sans-serif, system-ui, sans-serif",
+      "size": "14px"
+    },
+    {
+      "tag": "A",
+      "text": "See it in the workspace",
+      "color": "rgb(19, 135, 63)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "Manrope, \"Manrope Fallback\", \"IBM Plex Sans Arabic\", \"IBM Plex Sans Arabic Fallback\", ui-sans-serif, system-ui, sans-serif",
+      "size": "14px"
+    },
+    {
+      "tag": "A",
+      "text": "See it in the workspace",
+      "color": "rgb(19, 135, 63)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "Manrope, \"Manrope Fallback\", \"IBM Plex Sans Arabic\", \"IBM Plex Sans Arabic Fallback\", ui-sans-serif, system-ui, sans-serif",
+      "size": "14px"
+    },
+    {
+      "tag": "A",
+      "text": "See it in the workspace",
+      "color": "rgb(19, 135, 63)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "Manrope, \"Manrope Fallback\", \"IBM Plex Sans Arabic\", \"IBM Plex Sans Arabic Fallback\", ui-sans-serif, system-ui, sans-serif",
+      "size": "14px"
+    },
+    {
+      "tag": "SECTION",
+      "text": "How it works1Send the propertyText, listing sheet, voice not",
+      "color": "rgb(16, 24, 22)",
+      "bg": "rgb(255, 255, 255)",
+      "font": "Manrope, \"Manrope Fallback\", \"IBM Plex Sans Arabic\", \"IBM Plex Sans Arabic Fallback\", ui-sans-serif, system-ui, sans-serif",
+      "size": "16px"
+    },
+    {
+      "tag": "SECTION",
+      "text": "Connected portalsWe publish only through official APIs, appr",
+      "color": "rgb(16, 24, 22)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "Manrope, \"Manrope Fallback\", \"IBM Plex Sans Arabic\", \"IBM Plex Sans Arabic Fallback\", ui-sans-serif, system-ui, sans-serif",
+      "size": "16px"
+    },
+    {
+      "tag": "A",
+      "text": "Open the Portal Hub",
+      "color": "rgb(31, 40, 38)",
+      "bg": "rgb(255, 255, 255)",
+      "font": "Manrope, \"Manrope Fallback\", \"IBM Plex Sans Arabic\", \"IBM Plex Sans Arabic Fallback\", ui-sans-serif, system-ui, sans-serif",
+      "size": "14px"
+    },
+    {
+      "tag": "SECTION",
+      "text": "Builders & developersLaunch a whole project on every portal ",
+      "color": "rgb(16, 24, 22)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "Manrope, \"Manrope Fallback\", \"IBM Plex Sans Arabic\", \"IBM Plex Sans Arabic Fallback\", ui-sans-serif, system-ui, sans-serif",
+      "size": "16px"
+    },
+    {
+      "tag": "A",
+      "text": "See plans",
+      "color": "rgb(6, 32, 29)",
+      "bg": "rgb(255, 255, 255)",
+      "font": "Manrope, \"Manrope Fallback\", \"IBM Plex Sans Arabic\", \"IBM Plex Sans Arabic Fallback\", ui-sans-serif, system-ui, sans-serif",
+      "size": "14px"
+    },
+    {
+      "tag": "A",
+      "text": "Get started",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "Manrope, \"Manrope Fallback\", \"IBM Plex Sans Arabic\", \"IBM Plex Sans Arabic Fallback\", ui-sans-serif, system-ui, sans-serif",
+      "size": "14px"
+    },
+    {
+      "tag": "A",
+      "text": "AI Listing Studio",
+      "color": "rgb(100, 113, 108)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "Manrope, \"Manrope Fallback\", \"IBM Plex Sans Arabic\", \"IBM Plex Sans Arabic Fallback\", ui-sans-serif, system-ui, sans-serif",
+      "size": "14px"
+    },
+    {
+      "tag": "A",
+      "text": "Portal connectors",
+      "color": "rgb(100, 113, 108)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "Manrope, \"Manrope Fallback\", \"IBM Plex Sans Arabic\", \"IBM Plex Sans Arabic Fallback\", ui-sans-serif, system-ui, sans-serif",
+      "size": "14px"
+    },
+    {
+      "tag": "A",
+      "text": "Help desk AI",
+      "color": "rgb(100, 113, 108)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "Manrope, \"Manrope Fallback\", \"IBM Plex Sans Arabic\", \"IBM Plex Sans Arabic Fallback\", ui-sans-serif, system-ui, sans-serif",
+      "size": "14px"
+    },
+    {
+      "tag": "A",
+      "text": "Marketing AI",
+      "color": "rgb(100, 113, 108)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "Manrope, \"Manrope Fallback\", \"IBM Plex Sans Arabic\", \"IBM Plex Sans Arabic Fallback\", ui-sans-serif, system-ui, sans-serif",
+      "size": "14px"
+    },
+    {
+      "tag": "A",
+      "text": "Plans & pricing",
+      "color": "rgb(100, 113, 108)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "Manrope, \"Manrope Fallback\", \"IBM Plex Sans Arabic\", \"IBM Plex Sans Arabic Fallback\", ui-sans-serif, system-ui, sans-serif",
+      "size": "14px"
+    },
+    {
+      "tag": "A",
+      "text": "Get started",
+      "color": "rgb(100, 113, 108)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "Manrope, \"Manrope Fallback\", \"IBM Plex Sans Arabic\", \"IBM Plex Sans Arabic Fallback\", ui-sans-serif, system-ui, sans-serif",
+      "size": "14px"
+    },
+    {
+      "tag": "A",
+      "text": "Agency dashboard",
+      "color": "rgb(100, 113, 108)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "Manrope, \"Manrope Fallback\", \"IBM Plex Sans Arabic\", \"IBM Plex Sans Arabic Fallback\", ui-sans-serif, system-ui, sans-serif",
+      "size": "14px"
+    },
+    {
+      "tag": "A",
+      "text": "About",
+      "color": "rgb(100, 113, 108)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "Manrope, \"Manrope Fallback\", \"IBM Plex Sans Arabic\", \"IBM Plex Sans Arabic Fallback\", ui-sans-serif, system-ui, sans-serif",
+      "size": "14px"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# Design
+
+One canonical authority: DemoProvider commands. AI Property Launch is `publish?mode=launch&property=…`, rendering content/readiness guidance above the existing channel workflow. Its stages describe current saved state; clicks never complete business steps. Property switching retains launch mode. Listing copy uses `listingCopy`, `copySourceWarnings` and the shared AssistancePanel. Acceptance calls saveProperty with the inspected revision, invalidating review and dependent approvals. Document/photo extraction and Google Business Profile are labelled future integrations.
+
+Global MaxPro AI uses a native modal side drawer with labelled prompt input, bounded EN/AR intent resolution, context selector, source references and actual record links. Intents: attention, readiness, bilingual copy, campaign preparation, unanswered enquiries, follow-up preparation, channel requirements and recorded performance. No arbitrary tools, code execution, remote calls, automatic approvals or spending. Unsupported prompts get an explicit fallback. Read responses derive from current scoped state; proposals snapshot organization/property/revision. Organization switches remount the drawer. Actual links preserve UnsavedChanges interception. Nested proposal dialog closes before navigation.
+
+Preserve six primary nav links and existing control names. Refine existing semantic tokens to 24px desktop gutters and 28px page headings. Dashboard totals remain five linked values in their original order, rendered as a quiet summary line. Inventory moves counts into one collection heading, demotes import, and retains search/filter/sort/grid controls and mobile cards. Empty dashboards show their saved-state guide without repetitive empty panels.
+
+Future AI gateway contracts describe Frappe ownership, authenticated membership, tools/outputs, source revisions, reviewed proposals, audit/usage and cost/time limits. No executable API endpoint is introduced.

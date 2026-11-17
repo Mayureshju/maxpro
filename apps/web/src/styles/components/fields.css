@@ -20,7 +20,7 @@
 }
 
 .px-form-actions span,.px-form-actions p {
-  font-size: 11px;
+  font-size: 13px;
   color: #5b7b60;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .px-form-feedback {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.7;
   color: #477553;
   background: #eaf2e9;
@@ -111,14 +111,14 @@ select.ui-native-select {
   align-items: center;
   gap: 11px;
   flex-wrap: wrap;
-  border-bottom: 1px solid #e6eae3;
+  border-bottom: 1px solid var(--line);
 }
 
 .px-search {
   display: flex;
   align-items: center;
   gap: 10px;
-  border: 1px solid #dce1d9;
+  border: 1px solid var(--line);
   background: #fff;
   padding: 0 12px;
   min-height: 41px;
@@ -201,10 +201,10 @@ select.ui-native-select {
 
 .gm-market-controls input,.px-toolbar>input {
   background: #fff;
-  border: 1px solid #dce4db;
+  border: 1px solid var(--line);
   padding: 12px 14px;
   color: #32473c;
-  font-size: 12px;
+  font-size: 13px;
   min-width: 200px;
   flex: 1;
 }
@@ -267,7 +267,7 @@ select.ui-native-select {
 
 .cm-proposal .px-field {
   margin-block: 12px;
-  font-size: 11px;
+  font-size: 13px;
 }
 
 @media (max-width: 600px) {
@@ -335,8 +335,8 @@ main:has(.oa-nav) .px-section>.px-field {
 }
 
 .oa-persona .px-field {
-  font-size: 10px;
-  color: #596b60;
+  font-size: 13px;
+  color: var(--muted);
   font-weight: 650;
   gap: 5px;
 }
@@ -361,7 +361,7 @@ main:has(.oa-nav) .px-section>.px-field {
     flex-basis: 100%;
   }
   .fx-advanced-filters>.px-field {
-    font-size: 11px;
+    font-size: 13px;
   }
 }
 
@@ -385,7 +385,7 @@ main:has(.oa-nav) .px-section>.px-field {
 
 @media (max-width:650px) {
   .ag-channel-workflow .px-field {
-    font-size: 12px;
+    font-size: 13px;
   }
 }
 

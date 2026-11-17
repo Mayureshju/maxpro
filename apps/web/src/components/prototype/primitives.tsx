@@ -2,8 +2,8 @@
 import {usePrototypeCopy} from '@/components/prototype/use-prototype-copy';
 import type {ReactNode} from 'react';
 import {ArrowUpRight, CircleAlert, House, Info} from 'lucide-react';import {Link} from '@/i18n/navigation';import type {Listing} from '@/lib/prototype-data';
-export function Intro({eyebrow,title,description,action,aside}:{eyebrow?:string;title:string;description?:string;action?:ReactNode;aside?:ReactNode}){const copyText=usePrototypeCopy();
-  return <header className="px-intro"><div className="px-intro-main">{eyebrow&&<div className="px-overline">{copyText(eyebrow)}</div>}<h1>{copyText(title)}</h1>{description&&<p>{copyText(description)}</p>}</div>{(action||aside)&&<div className="px-intro-action">{aside}{action}</div>}</header>;
+export function Intro({title,description,action,aside}:{eyebrow?:string;title:string;description?:string;action?:ReactNode;aside?:ReactNode}){const copyText=usePrototypeCopy();
+  return <header className="px-intro"><div className="px-intro-main"><h1>{copyText(title)}</h1>{description&&<p>{copyText(description)}</p>}</div>{(action||aside)&&<div className="px-intro-action">{aside}{action}</div>}</header>;
 }
 export function Section({title,subtitle,actions,children,className=''}:{title:string;subtitle?:string;actions?:ReactNode;children:ReactNode;className?:string}){const copyText=usePrototypeCopy();
   return <section className={`px-section ${className}`}><div className="px-section-head"><div><h2>{copyText(title)}</h2>{subtitle&&<p>{copyText(subtitle)}</p>}</div>{actions}</div>{children}</section>;

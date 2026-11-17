@@ -9,7 +9,7 @@
 }
 
 .ag-channel-status strong {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 500;
 }
 
@@ -34,19 +34,9 @@
 }
 
 .ag-promotion-property>a {
-  font-size: 12px;
+  font-size: 13px;
   text-decoration: underline;
   text-underline-offset: 3px;
-}
-
-.ag-channel-choice {
-  padding: 15px 10px;
-  display: flex;
-  align-items: start;
-  gap: 11px;
-  border: 1px solid #e1e6d9;
-  margin-block: 9px;
-  cursor: pointer;
 }
 
 .ag-channel-choice input {
@@ -64,7 +54,7 @@
 
 .ag-channel-choice strong {
   display: block;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 500;
   line-height: 1.6;
 }
@@ -72,7 +62,7 @@
 .ag-channel-choice small {
   display: block;
   color: var(--fx-muted);
-  font-size: 10px;
+  font-size: 13px;
   line-height: 1.7;
   margin-block-start: 5px;
 }
@@ -96,14 +86,14 @@
   padding: 12px 16px;
   white-space: nowrap;
   border: 1px solid #d3ddca;
-  font-size: 12px;
+  font-size: 13px;
   background: white;
 }
 
 .ag-channel-tabs button.active {
-  background: #35553e;
+  background: var(--ink);
   color: #fff;
-  border-color: #35553e;
+  border-color: var(--ink);
 }
 
 .ag-channel-tabs~div[hidden] {
@@ -118,19 +108,12 @@
   padding: 0 0 22px;
 }
 
-.ag-channel-setup {
-  border-block: 1px solid #dce3d3;
-  padding-block: 23px;
-  margin-block-end: 28px;
-  font-size: 13px;
-}
-
 .ag-channel-setup strong {
   font-weight: 500;
 }
 
 .ag-channel-setup p {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.8;
   color: #63735c;
   margin-block: 10px;
@@ -165,7 +148,7 @@
 }
 
 .ag-channel-workflow>div>p {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.8;
   margin-block: 15px;
 }
@@ -179,9 +162,9 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 16px;
-  border-block-start: 1px solid #dce3d3;
+  border-block-start: 1px solid var(--line);
   padding-block: 20px;
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.8;
 }
 
@@ -238,11 +221,11 @@
     padding: 17px;
   }
   .ag-promotion-property>span {
-    font-size: 12px;
+    font-size: 13px;
   }
   .ag-promotion-property>a {
     margin-inline-start: auto;
-    font-size: 11px;
+    font-size: 13px;
   }
   .ag-channel-choice {
     min-block-size: 65px;
@@ -251,7 +234,7 @@
     font-size: 13px;
   }
   .ag-channel-choice small {
-    font-size: 11px;
+    font-size: 13px;
   }
   .ag-channel-tabs~div>.px-section {
     padding: 20px 17px;
@@ -296,7 +279,7 @@
   flex-shrink: 0;
   border: 1px solid #b7c6b9;
   border-radius: 50%;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .ag-promotion-steps li[aria-current] {
@@ -308,12 +291,6 @@
   background: var(--ws-primary);
   border-color: var(--ws-primary);
   color: white;
-}
-
-.ag-promotion-page .ag-promotion-property {
-  margin-block-end: 24px;
-  gap: 16px;
-  padding: 16px 20px;
 }
 
 .ag-promotion-property>span {
@@ -337,24 +314,6 @@
   display: grid;
   grid-template-columns: repeat(3,minmax(0,1fr));
   gap: 16px;
-}
-
-.ag-goal-picker label {
-  display: flex;
-  align-items: start;
-  gap: 12px;
-  padding: 20px 16px;
-  background: var(--ws-surface);
-  border: 1px solid var(--ws-border);
-  border-radius: var(--ws-radius);
-  cursor: pointer;
-  position: relative;
-}
-
-.ag-goal-picker label>svg {
-  flex-shrink: 0;
-  color: var(--ws-muted);
-  margin-block-start: 2px;
 }
 
 .ag-goal-picker input {
@@ -382,7 +341,7 @@
 
 .ag-goal-picker label.chosen {
   border-color: var(--ws-primary);
-  background: #edf3e9;
+  background: var(--surface-soft);
   box-shadow: inset 0 0 0 1px var(--ws-primary);
 }
 
@@ -421,7 +380,7 @@
 }
 
 .ag-focused-channels .ag-channel-choice.chosen {
-  background: #edf3e9;
+  background: var(--surface-soft);
   border-color: var(--ws-primary);
 }
 
@@ -430,7 +389,7 @@
 }
 
 .ag-focused-channels .ag-channel-choice small {
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .ag-selected-heading {
@@ -454,10 +413,6 @@
 .ag-promotion-page .ag-channel-tabs button {
   font-size: 13px;
   min-block-size: 44px;
-}
-
-.ag-promotion-page .ag-channel-tabs~div>.px-section {
-  padding: 24px;
 }
 
 .ag-promotion-page .ag-channel-tabs~div>.px-section>.px-section-head {
@@ -500,14 +455,6 @@
   font-size: 16px;
   font-weight: 600;
   margin-block: 0 16px;
-}
-
-.ag-promotion-page .ag-channel-workflow>div:last-child {
-  padding: 20px;
-  background: #f6f8f2;
-  border: 1px solid var(--ws-border);
-  align-self: start;
-  border-radius: var(--ws-radius);
 }
 
 .ag-promotion-page .ag-channel-workflow>div>p {
@@ -560,7 +507,7 @@
   }
   .ag-promotion-steps li {
     flex-basis: 28%;
-    font-size: 12px;
+    font-size: 13px;
   }
   .ag-focused-channels>div {
     grid-template-columns: 1fr;
@@ -618,3 +565,38 @@
     display: none;
   }
 }
+
+.ag-goal-picker label {
+  position: relative;
+  cursor: pointer;
+  gap: 12px;
+  align-items: start;
+  display: flex;border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:20px;transition:border-color .16s,background .16s;}
+
+.ag-goal-picker label:has(input:checked) {border-color:var(--primary);background:var(--primary-soft);box-shadow:inset 0 0 0 1px var(--primary);}
+
+.ag-goal-picker label>svg {color:var(--primary);}
+
+.ag-channel-choice {
+  cursor: pointer;
+  margin-block: 9px;
+  gap: 11px;
+  align-items: start;
+  display: flex;border:1px solid var(--line);border-radius:10px;background:var(--surface);padding:16px;}
+
+.ag-channel-choice:has(input:checked) {background:var(--primary-soft);border-color:var(--primary);}
+
+.ag-promotion-page .ag-promotion-property {
+  gap: 16px;
+  margin-block-end: 24px;padding:20px;background:var(--surface);border:1px solid var(--line);border-radius:12px;}
+
+.ag-channel-setup {
+  margin-block-end: 28px;
+  padding-block: 23px;
+  border-block: 1px solid #dce3d3;border-radius:10px;background:var(--surface-soft);border-color:var(--line);}
+
+.ag-promotion-page .ag-channel-tabs~div>.px-section {padding:24px;border-radius:14px;}
+
+.ag-promotion-page .ag-channel-workflow>div:last-child {background:var(--canvas);padding:24px;border:1px solid var(--line);border-radius:12px;}
+
+@media (max-width:650px) {.ag-promotion-page .ag-channel-tabs~div>.px-section,.ag-promotion-page .ag-channel-workflow>div:last-child,.ag-promotion-page .ag-promotion-property {padding:16px;}}

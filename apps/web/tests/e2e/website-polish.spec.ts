@@ -15,7 +15,7 @@ for(const locale of ['en','ar']){
   await link.focus();const [popup]=await Promise.all([page.waitForEvent('popup'),page.keyboard.press('Enter')]);
   await expect(popup).toHaveURL(new RegExp(`${locale}-dashboard-detail${info.project.name==='mobile-chromium'?'-mobile':''}.webp$`));await popup.close();
   await shot.getByRole('button',{name:ar?'مساحة العمل كاملة':'Full workspace',exact:true}).click();
-  const current=await image.evaluate((el:HTMLImageElement)=>el.currentSrc);await expect(link).toHaveAttribute('href',current.replace(new URL(current).origin,''));
+  await expect.poll(()=>image.evaluate((el:HTMLImageElement)=>el.currentSrc)).toMatch(/\.webp$/);const current=await image.evaluate((el:HTMLImageElement)=>el.currentSrc);await expect(link).toHaveAttribute('href',current.replace(new URL(current).origin,''));
   const [full]=await Promise.all([page.waitForEvent('popup'),link.click()]);await expect(full).toHaveURL(current);await full.close();
   if(info.project.name==='mobile-chromium')expect(current).toContain('-mobile.webp');else expect(current).not.toContain('-mobile.webp');
   await page.setViewportSize({width:320,height:500});await expect(link).toHaveAttribute('href',`/product/${locale}-dashboard-mobile.webp`);
@@ -69,7 +69,7 @@ for(const locale of ['en','ar']){
   await page.setViewportSize({width:320,height:500});await page.getByRole('tab').nth(1).click();await expect(page.getByRole('tabpanel')).toContainText(ar?'التفاصيل في مكان واحد':'The details live in one place');
   await page.emulateMedia({reducedMotion:'reduce'});await page.getByRole('tab').nth(2).click();
   expect(await page.getByRole('tabpanel').evaluate(el=>getComputedStyle(el).animationName)).toBe('none');
-  expect(await page.locator('.mk-shot picture').evaluate(el=>getComputedStyle(el).animationName)).toBe('none');
+  expect(await page.getByTestId('product-preview').locator('.mk-shot picture').evaluate(el=>getComputedStyle(el).animationName)).toBe('none');
   await page.screenshot({path:`${evidence}/${info.project.name}-${locale}-throttled-reduced-motion.png`,animations:'disabled'});await cdp.detach();
  });
 }

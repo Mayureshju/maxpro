@@ -1,0 +1,44 @@
+[
+  {
+    "name": "dashboard",
+    "heading": "34px",
+    "overflow": false
+  },
+  {
+    "name": "inventory-populated",
+    "heading": "34px",
+    "firstRow": 564.828125,
+    "overflow": false
+  },
+  {
+    "name": "property",
+    "heading": "34px",
+    "overflow": false
+  },
+  {
+    "name": "publish",
+    "heading": "34px",
+    "overflow": false
+  },
+  {
+    "name": "campaign-review",
+    "heading": "34px",
+    "overflow": false
+  },
+  {
+    "name": "leads",
+    "heading": "34px",
+    "firstRow": 836.328125,
+    "overflow": false
+  },
+  {
+    "name": "inbox",
+    "heading": "34px",
+    "overflow": false
+  },
+  {
+    "name": "assistance",
+    "heading": "34px",
+    "overflow": false
+  }
+]

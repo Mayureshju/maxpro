@@ -1,50 +1,45 @@
 {
-  "baseline": "a2d34f0634568cdd8a9dfc044161c5cf94d670f4",
-  "captureBuild": "Phase 12 Webpack production preview; workspace source unchanged from baseline",
+  "captureBuild": "Phase 15 Webpack production preview",
   "records": [
     {
-      "file": "en-campaign-task-mobile.webp",
       "locale": "en",
-      "route": "/workspace/publish?property=AQ-10233&goal=advertising",
+      "route": "/workspace/inbox?lead=LE-2101",
       "viewport": {
         "width": 375,
         "height": 812
       },
-      "source": "Actual running app screenshot; fictional records; no alterations except WebP encoding",
-      "sha256": "a045ab87a3e2e009acd5d4ba219dc27d0191cf5b46b0e2b8d2f981369c774b29"
-    },
-    {
       "file": "en-inbox-task-mobile.webp",
+      "sha256": "d6657996da3d7b1456f7f53ec4b65859da6e311c0321af146c007a79c5b66cc4"
+    },
+    {
       "locale": "en",
-      "route": "/workspace/inbox",
+      "route": "/workspace/publish?property=AQ-10233&goal=advertising",
       "viewport": {
         "width": 375,
         "height": 812
       },
-      "source": "Actual running app screenshot; fictional records; no alterations except WebP encoding",
-      "sha256": "39f350a73dc37fe1713e03ec63776085f573dc4ccabbc2e7c00035f25b52c880"
+      "file": "en-campaign-task-mobile.webp",
+      "sha256": "b5df2f2181a68b22f9e9279234fd88ee4b68ac9965f0685f2d583647fb839dab"
     },
     {
-      "file": "ar-campaign-task-mobile.webp",
+      "locale": "ar",
+      "route": "/workspace/inbox?lead=LE-2101",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "file": "ar-inbox-task-mobile.webp",
+      "sha256": "30a5704e01292e14e2ba361c0040de6c0c7da31815f1b55bf55bbbdd1dada519"
+    },
+    {
       "locale": "ar",
       "route": "/workspace/publish?property=AQ-10233&goal=advertising",
       "viewport": {
         "width": 375,
         "height": 812
       },
-      "source": "Actual running app screenshot; fictional records; no alterations except WebP encoding",
-      "sha256": "442036b1677ee3934946f38beb0a2a7a9a70b906c7e8ae7ce07694588283e719"
-    },
-    {
-      "file": "ar-inbox-task-mobile.webp",
-      "locale": "ar",
-      "route": "/workspace/inbox",
-      "viewport": {
-        "width": 375,
-        "height": 812
-      },
-      "source": "Actual running app screenshot; fictional records; no alterations except WebP encoding",
-      "sha256": "c725b12acb94a0151f7b03ff6e4658ed3643e07169bbfa5514aeae0c14c34245"
+      "file": "ar-campaign-task-mobile.webp",
+      "sha256": "0aa15f250cc68d2ff33408142a80b84a33a5dd1d5900bce6604202d1070a30db"
     }
   ]
 }

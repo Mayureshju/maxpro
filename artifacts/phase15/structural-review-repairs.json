@@ -1,0 +1,158 @@
+[
+  {
+    "file": "components/overlays.css",
+    "selector": ".ag-assistant",
+    "restored": [
+      "position",
+      "inset-block",
+      "inset-inline-start",
+      "inset-inline-end",
+      "margin",
+      "inline-size",
+      "max-inline-size",
+      "block-size",
+      "max-block-size",
+      "padding",
+      "border-inline-start"
+    ]
+  },
+  {
+    "file": "components/overlays.css",
+    "selector": ".ag-assistant header",
+    "restored": [
+      "padding",
+      "display",
+      "align-items",
+      "justify-content",
+      "gap",
+      "border-block-end",
+      "flex-shrink"
+    ]
+  },
+  {
+    "file": "workflows/crm.css",
+    "selector": ".px-chat-bubble",
+    "restored": [
+      "max-width",
+      "padding",
+      "align-self"
+    ]
+  },
+  {
+    "file": "workflows/crm.css",
+    "selector": ".px-chat-compose",
+    "restored": [
+      "display",
+      "gap",
+      "align-items",
+      "border-top",
+      "padding"
+    ]
+  },
+  {
+    "file": "workflows/properties.css",
+    "selector": ".ag-property-editor .ag-editor-footer",
+    "restored": [
+      "inset-block-end",
+      "display",
+      "justify-content",
+      "gap",
+      "padding",
+      "margin",
+      "z-index",
+      "position",
+      "flex-shrink",
+      "inset",
+      "margin-block-start",
+      "min-block-size"
+    ]
+  },
+  {
+    "file": "workflows/properties.css",
+    "selector": ".ag-settings-card",
+    "restored": [
+      "position",
+      "display",
+      "align-items",
+      "gap",
+      "padding",
+      "min-inline-size"
+    ]
+  },
+  {
+    "file": "workflows/properties.css",
+    "selector": ".ag-editor-aside>section",
+    "restored": [
+      "padding-block",
+      "margin-block-end",
+      "border-block-end"
+    ]
+  },
+  {
+    "file": "workflows/promotion.css",
+    "selector": ".ag-goal-picker label",
+    "restored": [
+      "display",
+      "align-items",
+      "gap",
+      "cursor",
+      "position"
+    ]
+  },
+  {
+    "file": "workflows/promotion.css",
+    "selector": ".ag-channel-choice",
+    "restored": [
+      "display",
+      "align-items",
+      "gap",
+      "margin-block",
+      "cursor"
+    ]
+  },
+  {
+    "file": "workflows/promotion.css",
+    "selector": ".ag-channel-setup",
+    "restored": [
+      "border-block",
+      "padding-block",
+      "margin-block-end"
+    ]
+  },
+  {
+    "file": "workflows/promotion.css",
+    "selector": ".ag-promotion-page .ag-promotion-property",
+    "restored": [
+      "margin-block-end",
+      "gap"
+    ]
+  },
+  {
+    "file": "public.css",
+    "selector": ".px-public-heading",
+    "restored": [
+      "padding",
+      "border-bottom"
+    ]
+  },
+  {
+    "file": "public.css",
+    "selector": ".px-public-property",
+    "restored": [
+      "min-width",
+      "display",
+      "flex-direction",
+      "transition"
+    ]
+  },
+  {
+    "file": "public.css",
+    "selector": ".px-public-enquiry",
+    "restored": [
+      "padding",
+      "height",
+      "position",
+      "top"
+    ]
+  }
+]

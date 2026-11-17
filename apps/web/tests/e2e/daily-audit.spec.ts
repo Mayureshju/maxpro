@@ -2,7 +2,7 @@ import {mkdirSync,writeFileSync} from 'node:fs';
 import {resolve} from 'node:path';
 import {test,expect} from './fixtures';
 import {dailyFixture} from './daily-fixtures';
-const stage=process.env.DAILY_AUDIT_STAGE??'after',root=resolve(`../../artifacts/phase14/${stage}`);
+const stage=process.env.DAILY_AUDIT_STAGE??'after',root=resolve(`../../${process.env.MAXPRO_EVIDENCE_ROOT??'artifacts/phase14'}/${stage}`);
 
 test('daily workspace browser audit and responsive evidence',async({page},info)=>{
  test.skip(info.project.name!=='chromium','One controlled six-width capture matrix');test.setTimeout(180000);mkdirSync(root,{recursive:true});const report=[];

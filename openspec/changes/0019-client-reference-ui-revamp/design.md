@@ -1,0 +1,9 @@
+# Design and safety contract
+
+Use Manrope (400–800 variable) and IBM Plex Sans Arabic (400/600), self-hosted with OFL licenses. Main action emerald #107a38 adapts the sampled reference #13873f so white action text and green selected-state text pass contrast checks (5.44:1 and 4.95:1 respectively); forest surfaces use #062b22, with #03140f observed in its hero. Neutral canvas is a clean cool green-white. Shared 4/8/12/16/24/32/48 spacing; 44–48px controls, 15px body, 13–14px labels, 28–36px workspace headings, 8–16px radii. White surfaces and subtle borders/shadows replace stone/brown styling. CSS ownership stays in existing semantic files; no second component system.
+
+Representative standard: a forest public hero with truthful product evidence; compact agency overview with record-derived summary and recent property work; a bounded two-column Quick Add form with a small next-steps companion. Inspect rendered screenshots before extending the standard. Public navigation has Platform (feature disclosure), How it works, Integrations and Pricing.
+
+Retain native short-list selects, searchable portfolio/agency/agent comboboxes, native purpose radios, focus-trapped dialogs, source-grounded optional assistance, clear selected states and per-destination setup/review/outcome. Sidebar collapse persists; mobile drawer/RTL behavior remains. Reduced motion disables entrance/transition effects. Logical properties govern new layout.
+
+Non-UI boundary: do not alter canonical property, publishing, CRM, campaign, organization or storage engines to obtain a visual result. No generated property matches, silent AI acceptance, payment collection, provider acknowledgement or authorization claims. Use real existing screens for marketing screenshots, with provenance refreshed after redesign. Preserve legacy routes and business-rule regression assertions.

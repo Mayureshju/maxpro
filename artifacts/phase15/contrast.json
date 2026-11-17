@@ -1,0 +1,44 @@
+[
+  {
+    "role": "Action text",
+    "foreground": "#ffffff",
+    "background": "#107a38",
+    "ratio": 5.44
+  },
+  {
+    "role": "Link/selection",
+    "foreground": "#107a38",
+    "background": "#e9f8ee",
+    "ratio": 4.95
+  },
+  {
+    "role": "Link on canvas",
+    "foreground": "#107a38",
+    "background": "#f5f9f7",
+    "ratio": 5.12
+  },
+  {
+    "role": "Main text",
+    "foreground": "#14231c",
+    "background": "#ffffff",
+    "ratio": 16.32
+  },
+  {
+    "role": "Muted text",
+    "foreground": "#52675c",
+    "background": "#f5f9f7",
+    "ratio": 5.73
+  },
+  {
+    "role": "Hero accent",
+    "foreground": "#4be28b",
+    "background": "#062b22",
+    "ratio": 9.12
+  },
+  {
+    "role": "Sampled reference green on selected pale background",
+    "foreground": "#13873f",
+    "background": "#e9f8ee",
+    "ratio": 4.19
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "file": "marketing.css",
+    "replacedRules": 77
+  },
+  {
+    "file": "layout.css",
+    "replacedRules": 21
+  },
+  {
+    "file": "foundations.css",
+    "replacedRules": 30
+  },
+  {
+    "file": "workflows/properties.css",
+    "replacedRules": 20
+  },
+  {
+    "file": "workflows/promotion.css",
+    "replacedRules": 7
+  },
+  {
+    "file": "components/tables.css",
+    "replacedRules": 0
+  },
+  {
+    "file": "workflows/crm.css",
+    "replacedRules": 2
+  },
+  {
+    "file": "components/overlays.css",
+    "replacedRules": 2
+  },
+  {
+    "file": "public.css",
+    "replacedRules": 5
+  }
+]

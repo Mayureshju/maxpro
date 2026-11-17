@@ -4,7 +4,7 @@ import {QuickAdd} from '@/components/agency/quick-add';
 import {NativeSelect} from '@/components/ui/field';
 import {usePrototypeCopy} from '@/components/prototype/use-prototype-copy';
 import {useState} from 'react';
-import {ArrowLeft,ArrowRight,FileSpreadsheet,Grid2X2,LayoutList,MapPin,Plus,Search,SlidersHorizontal,UploadCloud} from 'lucide-react';
+import {ArrowLeft,ArrowRight,FileSpreadsheet,Grid2X2,House,LayoutList,MapPin,Plus,Search,SlidersHorizontal,UploadCloud} from 'lucide-react';
 import {useLocale} from 'next-intl';
 import {Link} from '@/i18n/navigation';
 import {q} from '@/lib/prototype-data';
@@ -15,7 +15,7 @@ import {PropertyUnavailable} from '@/components/gemini/property-state';
 import {WorkspaceLoading} from './loading-state';
 import {HeaderLink,Intro,Notice,Pill,PropertyImage,Section} from './primitives';
 export function NewPropertyPage(){
- const ar=useLocale()==='ar';return <><Intro eyebrow={ar?'العقارات / إنشاء':'INVENTORY / CREATE'} title={ar?'إنشاء عقار':'Create a property'} description={ar?'احفظ الأساسيات سريعاً ثم تابع في المحرر الكامل عندما تكون مستعداً.':'Quick Add saves a few essentials. Continue in the full editor whenever you are ready.'}/><Section title={ar?'إضافة سريعة':'Quick Add'} subtitle={ar?'للتجربة الخيالية فقط. لا تدخل معلومات شخصية.':'Fictional demo only. Do not enter personal or sensitive information.'}><QuickAdd/></Section></>;
+ const ar=useLocale()==='ar',t=(en:string,arabic:string)=>ar?arabic:en;return <div className="ag-create-page"><Intro title={t('Create a property','إنشاء عقار')} description={t('A few essentials now. Photos, descriptions and review come next.','الأساسيات أولاً. ثم الصور والأوصاف والمراجعة.')}/><div className="ag-create-layout"><Section title={t('Quick Add','إضافة سريعة')} subtitle={t('Fictional demo only. Do not enter personal or sensitive information.','للتجربة الخيالية فقط. لا تدخل معلومات شخصية.')}><QuickAdd/></Section><aside className="ag-create-guide"><span className="ag-guide-icon"><House size={23}/></span><h2>{t('One property. Every next step.','عقار واحد. وكل خطوة تالية.')}</h2><p>{t('Save your starting details once, then build on the same record.','احفظ التفاصيل الأساسية مرة واحدة، ثم أكمل السجل نفسه.')}</p><ol>{[[t('Add the essentials','أضف الأساسيات'),t('Title, location and asking price.','العنوان والموقع والسعر المطلوب.')],[t('Make it yours','أكمل إعلانك'),t('Photos, features and optional AI suggestions.','الصور والمزايا واقتراحات ذكية اختيارية.')],[t('Review & choose channels','راجع واختر القنوات'),t('You approve every local preparation.','أنت توافق على كل تجهيز محلي.')]].map(([title,body],i)=><li key={title}><span>{i+1}</span><div><strong>{title}</strong><p>{body}</p></div></li>)}</ol><small>{t('Saved only in this browser. Nothing is published when you create a draft.','الحفظ في هذا المتصفح فقط. لا يُنشر شيء عند إنشاء المسودة.')}</small></aside></div></div>;
 }
 export function InventoryPage(){
  const copyText=usePrototypeCopy();const ar=useLocale()==='ar';const t=(en:string,arabic:string)=>ar?arabic:en;const {state,hydrated}=useGeminiDemo();

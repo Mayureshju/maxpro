@@ -1,0 +1,732 @@
+[
+  {
+    "file": "apps/web/src/app/[locale]/about/page.tsx",
+    "route": "/{en|ar}/about",
+    "componentImports": [
+      "import {getLocale} from 'next-intl/server';",
+      "import {AboutPage} from '@/components/marketing/marketing-pages';",
+      "import {publicMetadata} from '@/lib/marketing-metadata';",
+      "import type {MarketingLocale} from '@/lib/marketing-content';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/agencies/[id]/page.tsx",
+    "route": "/{en|ar}/agencies/[id]",
+    "componentImports": [
+      "import {publicMetadata} from '@/lib/marketing-metadata';",
+      "import {PublicAgency} from '@/components/prototype/public-platform';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/agencies/page.tsx",
+    "route": "/{en|ar}/agencies",
+    "componentImports": [
+      "import {publicMetadata} from '@/lib/marketing-metadata';",
+      "import {PublicInformational} from '@/components/prototype/public-pages';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/compare/page.tsx",
+    "route": "/{en|ar}/compare",
+    "componentImports": [
+      "import {publicMetadata} from '@/lib/marketing-metadata';",
+      "import {SavedExperiences} from '@/components/prototype/extended';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/contact/page.tsx",
+    "route": "/{en|ar}/contact",
+    "componentImports": [
+      "import {getLocale} from 'next-intl/server';",
+      "import {ContactPage} from '@/components/marketing/marketing-pages';",
+      "import {publicMetadata} from '@/lib/marketing-metadata';",
+      "import type {MarketingLocale} from '@/lib/marketing-content';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/faq/page.tsx",
+    "route": "/{en|ar}/faq",
+    "componentImports": [
+      "import {getLocale} from 'next-intl/server';",
+      "import {FAQPage} from '@/components/marketing/marketing-pages';",
+      "import {publicMetadata} from '@/lib/marketing-metadata';",
+      "import type {MarketingLocale} from '@/lib/marketing-content';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/favorites/page.tsx",
+    "route": "/{en|ar}/favorites",
+    "componentImports": [
+      "import {publicMetadata} from '@/lib/marketing-metadata';",
+      "import {SavedExperiences} from '@/components/prototype/extended';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/features/ai-assistance/page.tsx",
+    "route": "/{en|ar}/features/ai-assistance",
+    "componentImports": [
+      "import {getLocale} from 'next-intl/server';",
+      "import {FeaturePage} from '@/components/marketing/feature-page';",
+      "import {featureLinks,type MarketingLocale} from '@/lib/marketing-content';",
+      "import {publicMetadata} from '@/lib/marketing-metadata';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/features/leads-and-inbox/page.tsx",
+    "route": "/{en|ar}/features/leads-and-inbox",
+    "componentImports": [
+      "import {getLocale} from 'next-intl/server';",
+      "import {FeaturePage} from '@/components/marketing/feature-page';",
+      "import {featureLinks,type MarketingLocale} from '@/lib/marketing-content';",
+      "import {publicMetadata} from '@/lib/marketing-metadata';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/features/property-management/page.tsx",
+    "route": "/{en|ar}/features/property-management",
+    "componentImports": [
+      "import {getLocale} from 'next-intl/server';",
+      "import {FeaturePage} from '@/components/marketing/feature-page';",
+      "import {featureLinks,type MarketingLocale} from '@/lib/marketing-content';",
+      "import {publicMetadata} from '@/lib/marketing-metadata';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/features/publish-and-promote/page.tsx",
+    "route": "/{en|ar}/features/publish-and-promote",
+    "componentImports": [
+      "import {getLocale} from 'next-intl/server';",
+      "import {FeaturePage} from '@/components/marketing/feature-page';",
+      "import {featureLinks,type MarketingLocale} from '@/lib/marketing-content';",
+      "import {publicMetadata} from '@/lib/marketing-metadata';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/how-it-works/page.tsx",
+    "route": "/{en|ar}/how-it-works",
+    "componentImports": [
+      "import {getLocale} from 'next-intl/server';",
+      "import {HowItWorksPage} from '@/components/marketing/marketing-pages';",
+      "import {publicMetadata} from '@/lib/marketing-metadata';",
+      "import type {MarketingLocale} from '@/lib/marketing-content';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/integrations/page.tsx",
+    "route": "/{en|ar}/integrations",
+    "componentImports": [
+      "import {getLocale} from 'next-intl/server';",
+      "import {IntegrationsPage} from '@/components/marketing/marketing-pages';",
+      "import {publicMetadata} from '@/lib/marketing-metadata';",
+      "import type {MarketingLocale} from '@/lib/marketing-content';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/map/page.tsx",
+    "route": "/{en|ar}/map",
+    "componentImports": [
+      "import {publicMetadata} from '@/lib/marketing-metadata';",
+      "import {SavedExperiences} from '@/components/prototype/extended';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/page.tsx",
+    "route": "/{en|ar}",
+    "componentImports": [
+      "import {getLocale} from 'next-intl/server';",
+      "import {MarketingHome} from '@/components/marketing/home-page';",
+      "import {publicMetadata} from '@/lib/marketing-metadata';",
+      "import type {MarketingLocale} from '@/lib/marketing-content';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/pricing/page.tsx",
+    "route": "/{en|ar}/pricing",
+    "componentImports": [
+      "import {getLocale} from 'next-intl/server';",
+      "import {PricingPage} from '@/components/marketing/marketing-pages';",
+      "import {publicMetadata} from '@/lib/marketing-metadata';",
+      "import type {MarketingLocale} from '@/lib/marketing-content';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/privacy/page.tsx",
+    "route": "/{en|ar}/privacy",
+    "componentImports": [
+      "import {publicMetadata} from '@/lib/marketing-metadata';",
+      "import {PublicInformational} from '@/components/prototype/public-pages';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/properties/[id]/page.tsx",
+    "route": "/{en|ar}/properties/[id]",
+    "componentImports": [
+      "import {publicMetadata} from '@/lib/marketing-metadata';",
+      "import {notFound} from 'next/navigation';",
+      "import {listings} from '@/lib/prototype-data';",
+      "import {PublicProperty} from '@/components/prototype/public-pages';",
+      "import {LocalPropertyPreview} from '@/components/agency/local-property-preview';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/properties/page.tsx",
+    "route": "/{en|ar}/properties",
+    "componentImports": [
+      "import {publicMetadata} from '@/lib/marketing-metadata';",
+      "import {PublicProperties} from '@/components/prototype/public-pages';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/register/page.tsx",
+    "route": "/{en|ar}/register",
+    "componentImports": [
+      "import {publicMetadata} from '@/lib/marketing-metadata';",
+      "import {GeminiDemoProvider} from '@/components/gemini/demo-provider';",
+      "import {DemoEntry} from '@/components/agency/demo-entry';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/resources/page.tsx",
+    "route": "/{en|ar}/resources",
+    "componentImports": [
+      "import {getLocale} from 'next-intl/server';",
+      "import {ResourcesPage} from '@/components/marketing/marketing-pages';",
+      "import {publicMetadata} from '@/lib/marketing-metadata';",
+      "import type {MarketingLocale} from '@/lib/marketing-content';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/saved-searches/page.tsx",
+    "route": "/{en|ar}/saved-searches",
+    "componentImports": [
+      "import {publicMetadata} from '@/lib/marketing-metadata';",
+      "import {SavedExperiences} from '@/components/prototype/extended';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/sign-in/page.tsx",
+    "route": "/{en|ar}/sign-in",
+    "componentImports": [
+      "import {publicMetadata} from '@/lib/marketing-metadata';",
+      "import {GeminiDemoProvider} from '@/components/gemini/demo-provider';",
+      "import {DemoEntry} from '@/components/agency/demo-entry';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/solutions/agencies/page.tsx",
+    "route": "/{en|ar}/solutions/agencies",
+    "componentImports": [
+      "import {getLocale} from 'next-intl/server';",
+      "import {AgencySolutionPage} from '@/components/marketing/marketing-pages';",
+      "import {publicMetadata} from '@/lib/marketing-metadata';",
+      "import type {MarketingLocale} from '@/lib/marketing-content';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/solutions/page.tsx",
+    "route": "/{en|ar}/solutions",
+    "componentImports": [
+      "import {getLocale} from 'next-intl/server';",
+      "import {PlatformPage} from '@/components/marketing/marketing-pages';",
+      "import {publicMetadata} from '@/lib/marketing-metadata';",
+      "import type {MarketingLocale} from '@/lib/marketing-content';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/terms/page.tsx",
+    "route": "/{en|ar}/terms",
+    "componentImports": [
+      "import {publicMetadata} from '@/lib/marketing-metadata';",
+      "import {PublicInformational} from '@/components/prototype/public-pages';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/admin/audit/page.tsx",
+    "route": "/{en|ar}/workspace/admin/audit",
+    "componentImports": [
+      "import {AuditWorkspace} from '@/components/gemini/organization-workspace';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/admin/cms/page.tsx",
+    "route": "/{en|ar}/workspace/admin/cms",
+    "componentImports": [
+      "import {LegacyRouteNotice} from '@/components/gemini/legacy-route-notice';",
+      "import {OperationalSettings} from '@/components/gemini/organization-workspace';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/admin/connector-health/page.tsx",
+    "route": "/{en|ar}/workspace/admin/connector-health",
+    "componentImports": [
+      "import {ConnectorHealth} from '@/components/gemini/measurement';",
+      "import {AdminNavigation} from '@/components/gemini/organization-workspace';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/admin/integrations/page.tsx",
+    "route": "/{en|ar}/workspace/admin/integrations",
+    "componentImports": [
+      "import {LegacyRouteNotice} from '@/components/gemini/legacy-route-notice';",
+      "import {ConnectorHealth} from '@/components/gemini/measurement';",
+      "import {AdminNavigation} from '@/components/gemini/organization-workspace';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/admin/moderation/page.tsx",
+    "route": "/{en|ar}/workspace/admin/moderation",
+    "componentImports": [
+      "import {ModerationWorkspace} from '@/components/gemini/organization-workspace';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/admin/organizations/page.tsx",
+    "route": "/{en|ar}/workspace/admin/organizations",
+    "componentImports": [
+      "import {LegacyRouteNotice} from '@/components/gemini/legacy-route-notice';",
+      "import {Suspense} from 'react';",
+      "import {OrganizationDirectory} from '@/components/gemini/organization-workspace';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/admin/page.tsx",
+    "route": "/{en|ar}/workspace/admin",
+    "componentImports": [
+      "import {Suspense} from 'react';",
+      "import {OrganizationDirectory} from '@/components/gemini/organization-workspace';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/admin/plans/page.tsx",
+    "route": "/{en|ar}/workspace/admin/plans",
+    "componentImports": [
+      "import {PlanAdministration} from '@/components/gemini/organization-workspace';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/admin/reports/page.tsx",
+    "route": "/{en|ar}/workspace/admin/reports",
+    "componentImports": [
+      "import {LegacyRouteNotice} from '@/components/gemini/legacy-route-notice';",
+      "import {AuditWorkspace} from '@/components/gemini/organization-workspace';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/admin/taxonomies/page.tsx",
+    "route": "/{en|ar}/workspace/admin/taxonomies",
+    "componentImports": [
+      "import {OperationalSettings} from '@/components/gemini/organization-workspace';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/admin/users/page.tsx",
+    "route": "/{en|ar}/workspace/admin/users",
+    "componentImports": [
+      "import {Suspense} from 'react';",
+      "import {TeamWorkspace} from '@/components/gemini/organization-workspace';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/ads/attribution/page.tsx",
+    "route": "/{en|ar}/workspace/ads/attribution",
+    "componentImports": [
+      "import {LegacyRouteNotice} from '@/components/gemini/legacy-route-notice';",
+      "import {Suspense} from 'react';",
+      "import {CampaignAnalytics} from '@/components/gemini/campaign-marketing';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/ads/catalogue/page.tsx",
+    "route": "/{en|ar}/workspace/ads/catalogue",
+    "componentImports": [
+      "import {LegacyRouteNotice} from '@/components/gemini/legacy-route-notice';",
+      "import {MarketingProvider} from '@/components/gemini/campaign-marketing';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/ads/placements/page.tsx",
+    "route": "/{en|ar}/workspace/ads/placements",
+    "componentImports": [
+      "import {AdvertisingOps} from '@/components/prototype/extended';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/analytics/page.tsx",
+    "route": "/{en|ar}/workspace/analytics",
+    "componentImports": [
+      "import {ChannelAnalytics} from '@/components/gemini/lead-analytics';",
+      "import {PerformanceExplanation} from '@/components/agency/workspace-pages';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/billing/dunning/page.tsx",
+    "route": "/{en|ar}/workspace/billing/dunning",
+    "componentImports": [
+      "import {InvoiceWorkspace} from '@/components/gemini/organization-workspace';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/billing/invoices/[id]/page.tsx",
+    "route": "/{en|ar}/workspace/billing/invoices/[id]",
+    "componentImports": [
+      "import {InvoiceWorkspace} from '@/components/gemini/organization-workspace';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/billing/invoices/page.tsx",
+    "route": "/{en|ar}/workspace/billing/invoices",
+    "componentImports": [
+      "import {InvoiceWorkspace} from '@/components/gemini/organization-workspace';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/billing/page.tsx",
+    "route": "/{en|ar}/workspace/billing",
+    "componentImports": [
+      "import {SubscriptionWorkspace} from '@/components/gemini/organization-workspace';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/campaigns/[id]/page.tsx",
+    "route": "/{en|ar}/workspace/campaigns/[id]",
+    "componentImports": [
+      "import {Suspense} from 'react';",
+      "import {CampaignBuilder} from '@/components/gemini/campaign-studio';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/campaigns/new/page.tsx",
+    "route": "/{en|ar}/workspace/campaigns/new",
+    "componentImports": [
+      "import {Suspense} from 'react';",
+      "import {CampaignBuilder} from '@/components/gemini/campaign-studio';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/campaigns/page.tsx",
+    "route": "/{en|ar}/workspace/campaigns",
+    "componentImports": [
+      "import {CampaignPortfolio} from '@/components/gemini/campaign-studio';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/hub/connectors/[id]/page.tsx",
+    "route": "/{en|ar}/workspace/hub/connectors/[id]",
+    "componentImports": [
+      "import {notFound} from 'next/navigation';",
+      "import {connectorCatalog} from '@/lib/gemini-product';",
+      "import {ConnectorDetail} from '@/components/gemini/connectors';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/hub/connectors/page.tsx",
+    "route": "/{en|ar}/workspace/hub/connectors",
+    "componentImports": [
+      "import {LegacyRouteNotice} from '@/components/gemini/legacy-route-notice';",
+      "import {ConnectorMarketplace} from '@/components/gemini/connectors';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/hub/feeds/page.tsx",
+    "route": "/{en|ar}/workspace/hub/feeds",
+    "componentImports": [
+      "import {FeedManager} from '@/components/gemini/connectors';",
+      "import {Suspense} from 'react';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/hub/jobs/page.tsx",
+    "route": "/{en|ar}/workspace/hub/jobs",
+    "componentImports": [
+      "import {PublishingActivity} from '@/components/gemini/distribution';",
+      "import {Suspense} from 'react';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/hub/mappings/page.tsx",
+    "route": "/{en|ar}/workspace/hub/mappings",
+    "componentImports": [
+      "import {LegacyRouteNotice} from '@/components/gemini/legacy-route-notice';",
+      "import {MappingLibrary} from '@/components/gemini/distribution';",
+      "import {Suspense} from 'react';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/hub/marketplace/page.tsx",
+    "route": "/{en|ar}/workspace/hub/marketplace",
+    "componentImports": [
+      "import {ConnectorMarketplace} from '@/components/gemini/connectors';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/hub/page.tsx",
+    "route": "/{en|ar}/workspace/hub",
+    "componentImports": [
+      "import {DistributionOverview} from '@/components/gemini/distribution';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/inbox/page.tsx",
+    "route": "/{en|ar}/workspace/inbox",
+    "componentImports": [
+      "import {InboxPage} from '@/components/gemini/lead-workspace';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/integrations/ga4/page.tsx",
+    "route": "/{en|ar}/workspace/integrations/ga4",
+    "componentImports": [
+      "import {IntegrationWorkstation} from '@/components/gemini/measurement';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/integrations/google-ads/page.tsx",
+    "route": "/{en|ar}/workspace/integrations/google-ads",
+    "componentImports": [
+      "import {MarketingProvider} from '@/components/gemini/campaign-marketing';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/integrations/meta-catalog/page.tsx",
+    "route": "/{en|ar}/workspace/integrations/meta-catalog",
+    "componentImports": [
+      "import {MarketingProvider} from '@/components/gemini/campaign-marketing';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/integrations/whatsapp/page.tsx",
+    "route": "/{en|ar}/workspace/integrations/whatsapp",
+    "componentImports": [
+      "import {IntegrationWorkstation} from '@/components/gemini/measurement';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/inventory/[id]/edit/page.tsx",
+    "route": "/{en|ar}/workspace/inventory/[id]/edit",
+    "componentImports": [
+      "import {CanonicalPropertyEditor} from '@/components/gemini/listing-editor';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/inventory/[id]/enquiries/page.tsx",
+    "route": "/{en|ar}/workspace/inventory/[id]/enquiries",
+    "componentImports": [
+      "import {InventoryDetail} from '@/components/prototype/inventory';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/inventory/[id]/media/page.tsx",
+    "route": "/{en|ar}/workspace/inventory/[id]/media",
+    "componentImports": [
+      "import {MediaWorkbench} from '@/components/gemini/media';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/inventory/[id]/page.tsx",
+    "route": "/{en|ar}/workspace/inventory/[id]",
+    "componentImports": [
+      "import {AgencyProperty} from '@/components/agency/workspace-pages';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/inventory/[id]/publishing/page.tsx",
+    "route": "/{en|ar}/workspace/inventory/[id]/publishing",
+    "componentImports": [
+      "import {PropertyPublication} from '@/components/gemini/distribution';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/inventory/import/page.tsx",
+    "route": "/{en|ar}/workspace/inventory/import",
+    "componentImports": [
+      "import {InventoryImport} from '@/components/prototype/inventory';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/inventory/new/page.tsx",
+    "route": "/{en|ar}/workspace/inventory/new",
+    "componentImports": [
+      "import {NewPropertyPage} from '@/components/prototype/inventory';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/inventory/page.tsx",
+    "route": "/{en|ar}/workspace/inventory",
+    "componentImports": [
+      "import {InventoryPage} from '@/components/prototype/inventory';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/leads/[id]/page.tsx",
+    "route": "/{en|ar}/workspace/leads/[id]",
+    "componentImports": [
+      "import {LeadDetail} from '@/components/gemini/lead-workspace';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/leads/assignment/page.tsx",
+    "route": "/{en|ar}/workspace/leads/assignment",
+    "componentImports": [
+      "import {LeadRouting} from '@/components/gemini/agency-operations';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/leads/page.tsx",
+    "route": "/{en|ar}/workspace/leads",
+    "componentImports": [
+      "import {LeadsPage} from '@/components/gemini/lead-workspace';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/leads/viewings/page.tsx",
+    "route": "/{en|ar}/workspace/leads/viewings",
+    "componentImports": [
+      "import {ViewingsPage} from '@/components/gemini/lead-analytics';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/notifications/page.tsx",
+    "route": "/{en|ar}/workspace/notifications",
+    "componentImports": [
+      "import {NotificationsPage} from '@/components/prototype/operations';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/organization/new/page.tsx",
+    "route": "/{en|ar}/workspace/organization/new",
+    "componentImports": [
+      "import {OrganizationWorkspace} from '@/components/gemini/organization-workspace';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/organization/page.tsx",
+    "route": "/{en|ar}/workspace/organization",
+    "componentImports": [
+      "import {OrganizationWorkspace} from '@/components/gemini/organization-workspace';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/page.tsx",
+    "route": "/{en|ar}/workspace",
+    "componentImports": [
+      "import {AgencyDashboard} from '@/components/agency/workspace-pages';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/publish/page.tsx",
+    "route": "/{en|ar}/workspace/publish",
+    "componentImports": [
+      "import {useSearchParams} from 'next/navigation';",
+      "import {SyndicationPage} from '@/components/gemini/syndication';",
+      "import {PublishPromote} from '@/components/agency/publish-promote';",
+      "import {Suspense} from 'react';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/settings/demo/page.tsx",
+    "route": "/{en|ar}/workspace/settings/demo",
+    "componentImports": [
+      "import {DemoUtilities} from '@/components/agency/workspace-pages';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/settings/domains/page.tsx",
+    "route": "/{en|ar}/workspace/settings/domains",
+    "componentImports": [
+      "import {OrganizationWorkspace} from '@/components/gemini/organization-workspace';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/settings/domains/preview/page.tsx",
+    "route": "/{en|ar}/workspace/settings/domains/preview",
+    "componentImports": [
+      "import {AgencyPreview} from '@/components/gemini/agency-preview';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/settings/integrations/page.tsx",
+    "route": "/{en|ar}/workspace/settings/integrations",
+    "componentImports": [
+      "import {AgencyIntegrations} from '@/components/agency/workspace-pages';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/settings/page.tsx",
+    "route": "/{en|ar}/workspace/settings",
+    "componentImports": [
+      "import {AgencySettings} from '@/components/agency/workspace-pages';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/settings/privacy/page.tsx",
+    "route": "/{en|ar}/workspace/settings/privacy",
+    "componentImports": [
+      "import {PrivacyTools} from '@/components/prototype/extended';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/studio/page.tsx",
+    "route": "/{en|ar}/workspace/studio",
+    "componentImports": [
+      "import {StudioPrototype} from '@/components/prototype/studio';import {Suspense} from 'react';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/support/assistant/page.tsx",
+    "route": "/{en|ar}/workspace/support/assistant",
+    "componentImports": [
+      "import {AgentGovernance} from '@/components/prototype/extended';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/support/evaluations/page.tsx",
+    "route": "/{en|ar}/workspace/support/evaluations",
+    "componentImports": [
+      "import {AgentGovernance} from '@/components/prototype/extended';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/support/knowledge/page.tsx",
+    "route": "/{en|ar}/workspace/support/knowledge",
+    "componentImports": [
+      "import {AgentGovernance} from '@/components/prototype/extended';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/team/page.tsx",
+    "route": "/{en|ar}/workspace/team",
+    "componentImports": [
+      "import {Suspense} from 'react';",
+      "import {TeamWorkspace} from '@/components/gemini/organization-workspace';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/verification/page.tsx",
+    "route": "/{en|ar}/workspace/verification",
+    "componentImports": [
+      "import {OrganizationWorkspace} from '@/components/gemini/organization-workspace';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/whatsapp/packs/page.tsx",
+    "route": "/{en|ar}/workspace/whatsapp/packs",
+    "componentImports": [
+      "import {WhatsAppPropertyPack} from '@/components/gemini/agency-preview';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/whatsapp/sla/page.tsx",
+    "route": "/{en|ar}/workspace/whatsapp/sla",
+    "componentImports": [
+      "import {LegacyRouteNotice} from '@/components/gemini/legacy-route-notice';",
+      "import {InboxPage} from '@/components/gemini/lead-workspace';"
+    ]
+  },
+  {
+    "file": "apps/web/src/app/[locale]/workspace/whatsapp/templates/page.tsx",
+    "route": "/{en|ar}/workspace/whatsapp/templates",
+    "componentImports": [
+      "import {WhatsAppTools} from '@/components/prototype/extended';"
+    ]
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "file": "apps/web/src/styles/public.css",
+    "bytesBefore": 23935,
+    "bytesAfter": 24083
+  },
+  {
+    "file": "apps/web/src/styles/foundations.css",
+    "bytesBefore": 19375,
+    "bytesAfter": 19531
+  },
+  {
+    "file": "apps/web/src/styles/layout.css",
+    "bytesBefore": 18269,
+    "bytesAfter": 18376
+  },
+  {
+    "file": "apps/web/src/styles/marketing.css",
+    "bytesBefore": 50923,
+    "bytesAfter": 51604
+  },
+  {
+    "file": "apps/web/src/styles/workflows/properties.css",
+    "bytesBefore": 51437,
+    "bytesAfter": 51703
+  },
+  {
+    "file": "apps/web/src/styles/workflows/promotion.css",
+    "bytesBefore": 11242,
+    "bytesAfter": 11280
+  },
+  {
+    "file": "apps/web/src/styles/workflows/campaigns.css",
+    "bytesBefore": 12102,
+    "bytesAfter": 12184
+  },
+  {
+    "file": "apps/web/src/styles/workflows/crm.css",
+    "bytesBefore": 15880,
+    "bytesAfter": 16021
+  },
+  {
+    "file": "apps/web/src/styles/workflows/integrations.css",
+    "bytesBefore": 28204,
+    "bytesAfter": 28488
+  },
+  {
+    "file": "apps/web/src/styles/workflows/organization.css",
+    "bytesBefore": 3999,
+    "bytesAfter": 4017
+  },
+  {
+    "file": "apps/web/src/styles/components/fields.css",
+    "bytesBefore": 9328,
+    "bytesAfter": 9345
+  },
+  {
+    "file": "apps/web/src/styles/components/selection.css",
+    "bytesBefore": 3909,
+    "bytesAfter": 3911
+  },
+  {
+    "file": "apps/web/src/styles/components/overlays.css",
+    "bytesBefore": 4398,
+    "bytesAfter": 4398
+  },
+  {
+    "file": "apps/web/src/styles/components/navigation.css",
+    "bytesBefore": 1408,
+    "bytesAfter": 1440
+  },
+  {
+    "file": "apps/web/src/styles/components/buttons.css",
+    "bytesBefore": 4975,
+    "bytesAfter": 5068
+  },
+  {
+    "file": "apps/web/src/styles/components/tables.css",
+    "bytesBefore": 3968,
+    "bytesAfter": 4002
+  }
+]

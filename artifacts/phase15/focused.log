@@ -1,0 +1,2606 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test --grep 'enterprise|polish|first use|daily' --timeout=60000 --trace=off
+
+
+Running 120 tests using 4 workers
+
+(node:93980) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:93977) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:93979) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:93978) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓    3 [chromium] › tests/e2e/daily-productivity.spec.ts:18:1 › daily progress selects a coherent completed journey over an older draft; source changes regress it (544ms)
+  ✓    5 [chromium] › tests/e2e/daily-productivity.spec.ts:23:1 › daily activity preserves actual command context, safely presents unknown/missing/denied events and restores snapshots (66ms)
+  ✓    6 [chromium] › tests/e2e/daily-productivity.spec.ts:36:1 › daily event intake distinguishes saved accepted and duplicate receipts; suspended agency cannot create (87ms)
+  ✓    7 [chromium] › tests/e2e/daily-productivity.spec.ts:42:1 › daily latest channel status follows updated attempts rather than array position (66ms)
+  ✓    1 [chromium] › tests/e2e/enterprise-ux.spec.ts:8:2 › enterprise en: property search, no results, clear, Escape and manual keyboard commitment (2.2s)
+  ✓    8 [chromium] › tests/e2e/daily-productivity.spec.ts:49:2 › daily en: complete setup stays compact, readable activity and scoped boundaries (4.2s)
+  ✘   10 [chromium] › tests/e2e/daily-productivity.spec.ts:58:2 › daily en: Quick Add validates, protects edits, saves a partial draft and prevents duplicate continuation (1.5s)
+(node:94092) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   11 [chromium] › tests/e2e/daily-productivity.spec.ts:66:2 › daily en: large inventory filters and useful property/channel recovery survive reload (3.9s)
+  ✓    2 [chromium] › tests/e2e/first-use.spec.ts:23:2 › first use en: empty agency → quick add → resume → review → local queue → fictional enquiry → follow-up (11.5s)
+  ✓   12 [chromium] › tests/e2e/daily-productivity.spec.ts:74:2 › daily en: archived property offers guarded resume and retains revision safety (747ms)
+  ✘   13 [chromium] › tests/e2e/first-use.spec.ts:48:2 › first use en: full editor carries quick facts and repeated submit creates one draft (1.2s)
+(node:94156) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   15 [chromium] › tests/e2e/first-use.spec.ts:54:2 › first use en: missing source warnings never invent facts or silently save (1.4s)
+  ✘   14 [chromium] › tests/e2e/daily-productivity.spec.ts:77:2 › daily en: daily controls and completed guide pass whole-document accessibility checks (3.9s)
+(node:94196) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   17 [chromium] › tests/e2e/daily-productivity.spec.ts:85:2 › daily en: enquiry triage links properties and protects an unsaved Inbox reply (1.3s)
+  ✓   18 [chromium] › tests/e2e/daily-productivity.spec.ts:49:2 › daily ar: complete setup stays compact, readable activity and scoped boundaries (2.6s)
+  ✓   19 [chromium] › tests/e2e/daily-productivity.spec.ts:58:2 › daily ar: Quick Add validates, protects edits, saves a partial draft and prevents duplicate continuation (1.4s)
+  ✓   16 [chromium] › tests/e2e/first-use.spec.ts:23:2 › first use ar: empty agency → quick add → resume → review → local queue → fictional enquiry → follow-up (7.5s)
+  ✓   21 [chromium] › tests/e2e/first-use.spec.ts:48:2 › first use ar: full editor carries quick facts and repeated submit creates one draft (1.8s)
+  ✓   20 [chromium] › tests/e2e/daily-productivity.spec.ts:66:2 › daily ar: large inventory filters and useful property/channel recovery survive reload (2.9s)
+  ✓   23 [chromium] › tests/e2e/daily-productivity.spec.ts:74:2 › daily ar: archived property offers guarded resume and retains revision safety (750ms)
+  ✓   22 [chromium] › tests/e2e/first-use.spec.ts:54:2 › first use ar: missing source warnings never invent facts or silently save (1.5s)
+  ✓   25 [chromium] › tests/e2e/frontend-polish.spec.ts:7:2 › frontend en: inventory filters combine, validate, reset and preserve both views (946ms)
+  ✓   26 [chromium] › tests/e2e/frontend-polish.spec.ts:27:2 › frontend en: unsaved edits survive stay and failed save; successful save releases navigation (5.1s)
+  ✘   24 [chromium] › tests/e2e/daily-productivity.spec.ts:77:2 › daily ar: daily controls and completed guide pass whole-document accessibility checks (6.6s)
+(node:94439) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   27 [chromium] › tests/e2e/frontend-polish.spec.ts:46:2 › frontend en: dashboard links to canonical creation and scoped activity (641ms)
+  ✓   29 [chromium] › tests/e2e/frontend-polish.spec.ts:54:2 › frontend en: simplified navigation and mobile focus remain usable (760ms)
+  ✓   28 [chromium] › tests/e2e/daily-productivity.spec.ts:85:2 › daily ar: enquiry triage links properties and protects an unsaved Inbox reply (2.2s)
+  ✘   31 [chromium] › tests/e2e/website-polish.spec.ts:8:2 › polish en: responsive screenshot modes, enlargement and keyboard (1.4s)
+(node:94505) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓    4 [chromium] › tests/e2e/daily-audit.spec.ts:7:1 › daily workspace browser audit and responsive evidence (36.9s)
+(node:94514) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  -   33 [mobile-chromium] › tests/e2e/daily-audit.spec.ts:7:1 › daily workspace browser audit and responsive evidence
+  ✓   34 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:18:1 › daily progress selects a coherent completed journey over an older draft; source changes regress it (164ms)
+  ✓   35 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:23:1 › daily activity preserves actual command context, safely presents unknown/missing/denied events and restores snapshots (113ms)
+  ✓   36 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:36:1 › daily event intake distinguishes saved accepted and duplicate receipts; suspended agency cannot create (110ms)
+  ✓   37 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:42:1 › daily latest channel status follows updated attempts rather than array position (119ms)
+  ✓   30 [chromium] › tests/e2e/frontend-polish.spec.ts:61:2 › frontend en: bulk import, FAQ and agency preview have truthful behavior (5.8s)
+  ✓   39 [chromium] › tests/e2e/frontend-polish.spec.ts:7:2 › frontend ar: inventory filters combine, validate, reset and preserve both views (684ms)
+  ✓   38 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:49:2 › daily en: complete setup stays compact, readable activity and scoped boundaries (2.1s)
+  ✓   32 [chromium] › tests/e2e/website-polish.spec.ts:24:2 › polish en: buyer navigation, current section and fictional entry (3.4s)
+  ✓   41 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:58:2 › daily en: Quick Add validates, protects edits, saves a partial draft and prevents duplicate continuation (2.1s)
+  ✓   40 [chromium] › tests/e2e/frontend-polish.spec.ts:27:2 › frontend ar: unsaved edits survive stay and failed save; successful save releases navigation (3.6s)
+  ✓   42 [chromium] › tests/e2e/website-polish.spec.ts:36:2 › polish en: task navigation and truthful integration disclosure (3.7s)
+  ✓   44 [chromium] › tests/e2e/frontend-polish.spec.ts:46:2 › frontend ar: dashboard links to canonical creation and scoped activity (820ms)
+  ✓   46 [chromium] › tests/e2e/frontend-polish.spec.ts:54:2 › frontend ar: simplified navigation and mobile focus remain usable (1.3s)
+  ✓   43 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:66:2 › daily en: large inventory filters and useful property/channel recovery survive reload (3.6s)
+  ✓   45 [chromium] › tests/e2e/website-polish.spec.ts:48:2 › polish en: readable mobile comparison and honest conversion (3.5s)
+  ✓   48 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:74:2 › daily en: archived property offers guarded resume and retains revision safety (1.8s)
+  ✓   47 [chromium] › tests/e2e/frontend-polish.spec.ts:61:2 › frontend ar: bulk import, FAQ and agency preview have truthful behavior (2.4s)
+  ✘   49 [chromium] › tests/e2e/website-polish.spec.ts:58:2 › polish en: six widths, zoom, short viewport and throttled motion (5.0s)
+(node:94681) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   51 [chromium] › tests/e2e/frontend-polish.spec.ts:69:33 › frontend en: public responsive layouts keep research actions, footer and editorial content inside viewport (7.1s)
+  ✘   50 [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:77:2 › daily en: daily controls and completed guide pass whole-document accessibility checks (7.6s)
+  ✘   53 [chromium] › tests/e2e/frontend-polish.spec.ts:69:33 › frontend ar: public responsive layouts keep research actions, footer and editorial content inside viewport (505ms)
+  ✘   52 [chromium] › tests/e2e/website-polish.spec.ts:8:2 › polish ar: responsive screenshot modes, enlargement and keyboard (2.2s)
+  ✘    9 [chromium] › tests/e2e/enterprise-ux.spec.ts:17:2 › enterprise en: long portfolios scroll, keep RTL alignment and escape mobile overflow (53.4s)
+
+
+  1) [chromium] › tests/e2e/daily-productivity.spec.ts:58:2 › daily en: Quick Add validates, protects edits, saves a partial draft and prevents duplicate continuation 
+
+    Error: locator.evaluate: Error: strict mode violation: locator('form.ag-quick-add') resolved to 2 elements:
+        1) <form novalidate="" class="ag-quick-add">…</form> aka locator('#main-content form')
+        2) <form novalidate="" class="ag-quick-add">…</form> aka locator('form').nth(1)
+
+    Call log:
+      - waiting for locator('form.ag-quick-add')
+
+
+      62 |   await page.getByRole('textbox',{name:t('Property title','عنوان العقار'),exact:true}).fill('Demo partial home');await page.getByRole('spinbutton').fill('');await page.locator('.prototype-topbar .topbar-utility').click();await expect(page.getByRole('dialog',{name:t('Leave unsaved changes?','هل تريد مغادرة التعديلات غير المحفوظة؟')})).toBeVisible();await page.getByRole('button',{name:t('Keep editing','متابعة التحرير'),exact:true}).click();
+      63 |   await page.getByRole('button',{name:t('Save as draft','حفظ كمسودة'),exact:true}).click();await expect(page).toHaveURL(/\/inventory\/DEMO-[^/]+$/);expect(Object.values((await saved(page)).properties)[0].facts.priceQar).toBe(0);
+    > 64 |   await page.goto(`/${locale}/workspace/inventory/new`);await page.getByRole('textbox',{name:t('Property title','عنوان العقار'),exact:true}).fill('Demo complete basics');await page.getByRole('textbox',{name:t('City','المدينة'),exact:true}).fill('Doha');await page.getByRole('spinbutton').fill('8500');await page.locator('form.ag-quick-add').evaluate(f=>{(f as HTMLFormElement).requestSubmit();(f as HTMLFormElement).requestSubmit();});await expect(page).toHaveURL(/\/edit$/);expect(Object.keys((await saved(page)).properties)).toHaveLength(2);
+         |                                                                                                                                                                                                                                                                                                                                                      ^
+      65 |  });
+      66 |  test(`daily ${locale}: large inventory filters and useful property/channel recovery survive reload`,async({page})=>{
+      67 |   await seed(page);await page.goto(`/${locale}/workspace/inventory`);await expect(page.locator('.ag-daily-inventory tbody tr')).toHaveCount(25);
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/daily-productivity.spec.ts:64:342
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/daily-productivity-daily-e-b2184-ents-duplicate-continuation-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/daily-productivity-daily-e-b2184-ents-duplicate-continuation-chromium/error-context.md
+
+  2) [chromium] › tests/e2e/daily-productivity.spec.ts:77:2 › daily en: daily controls and completed guide pass whole-document accessibility checks 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  -    1
+    + Received  + 1037
+
+    - Array []
+    + Array [
+    +   Object {
+    +     "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    +     "help": "Elements must meet minimum color contrast ratio thresholds",
+    +     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+    +     "id": "color-contrast",
+    +     "impact": "serious",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#e9f8ee",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.18,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "10.5pt (14px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<a aria-label=\"Dashboard\" aria-current=\"page\" class=\"prototype-nav-item is-current\" href=\"/en/workspace\">",
+    +                 "target": Array [
+    +                   ".is-current",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<span class=\"ws-nav-label\">Dashboard</span>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".is-current > .ws-nav-label",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#e9f8ee",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.18,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<a class=\"topbar-user\" aria-label=\"Profile &amp; settings\" title=\"Yousef Al-Marri\" href=\"/en/workspace/settings\">YA</a>",
+    +                 "target": Array [
+    +                   ".topbar-user",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a class=\"topbar-user\" aria-label=\"Profile &amp; settings\" title=\"Yousef Al-Marri\" href=\"/en/workspace/settings\">YA</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".topbar-user",
+    +         ],
+    +       },
+    +     ],
+    +     "tags": Array [
+    +       "cat.color",
+    +       "wcag2aa",
+    +       "wcag143",
+    +       "TTv5",
+    +       "TT13.c",
+    +       "EN-301-549",
+    +       "EN-9.1.4.3",
+    +       "ACT",
+    +       "RGAAv4",
+    +       "RGAA-3.2.1",
+    +     ],
+    +   },
+    +   Object {
+    +     "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    +     "help": "Elements must meet minimum color contrast ratio thresholds",
+    +     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+    +     "id": "color-contrast",
+    +     "impact": "serious",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#e9f8ee",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.18,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "10.5pt (14px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<a aria-label=\"Properties\" aria-current=\"page\" class=\"prototype-nav-item is-current\" href=\"/en/workspace/inventory\">",
+    +                 "target": Array [
+    +                   ".is-current",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<span class=\"ws-nav-label\">Properties</span>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".is-current > .ws-nav-label",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#e9f8ee",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.18,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<a class=\"topbar-user\" aria-label=\"Profile &amp; settings\" title=\"Yousef Al-Marri\" href=\"/en/workspace/settings\">YA</a>",
+    +                 "target": Array [
+    +                   ".topbar-user",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a class=\"topbar-user\" aria-label=\"Profile &amp; settings\" title=\"Yousef Al-Marri\" href=\"/en/workspace/settings\">YA</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".topbar-user",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#e9f8ee",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.18,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "10.5pt (14px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<label class=\"is-selected\"><input type=\"radio\" value=\"rent\" checked=\"\" name=\"_r_1_\"><span>Rent</span></label>",
+    +                 "target": Array [
+    +                   ".oa-permission-surface > .ag-create-page > .ag-create-layout > section > form > .ag-form-grid > .ui-segmented > div > .is-selected",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<span>Rent</span>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".oa-permission-surface > .ag-create-page > .ag-create-layout > section > form > .ag-form-grid > .ui-segmented > div > .is-selected > span",
+    +         ],
+    +       },
+    +     ],
+    +     "tags": Array [
+    +       "cat.color",
+    +       "wcag2aa",
+    +       "wcag143",
+    +       "TTv5",
+    +       "TT13.c",
+    +       "EN-301-549",
+    +       "EN-9.1.4.3",
+    +       "ACT",
+    +       "RGAAv4",
+    +       "RGAA-3.2.1",
+    +     ],
+    +   },
+    +   Object {
+    +     "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    +     "help": "Elements must meet minimum color contrast ratio thresholds",
+    +     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+    +     "id": "color-contrast",
+    +     "impact": "serious",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#e9f8ee",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.18,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "10.5pt (14px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<a aria-label=\"Properties\" aria-current=\"page\" class=\"prototype-nav-item is-current\" href=\"/en/workspace/inventory\">",
+    +                 "target": Array [
+    +                   ".is-current",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<span class=\"ws-nav-label\">Properties</span>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".is-current > .ws-nav-label",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#e9f8ee",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.18,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<a class=\"topbar-user\" aria-label=\"Profile &amp; settings\" title=\"Yousef Al-Marri\" href=\"/en/workspace/settings\">YA</a>",
+    +                 "target": Array [
+    +                   ".topbar-user",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a class=\"topbar-user\" aria-label=\"Profile &amp; settings\" title=\"Yousef Al-Marri\" href=\"/en/workspace/settings\">YA</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".topbar-user",
+    +         ],
+    +       },
+    +     ],
+    +     "tags": Array [
+    +       "cat.color",
+    +       "wcag2aa",
+    +       "wcag143",
+    +       "TTv5",
+    +       "TT13.c",
+    +       "EN-301-549",
+    +       "EN-9.1.4.3",
+    +       "ACT",
+    +       "RGAAv4",
+    +       "RGAA-3.2.1",
+    +     ],
+    +   },
+    +   Object {
+    +     "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    +     "help": "Elements must meet minimum color contrast ratio thresholds",
+    +     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+    +     "id": "color-contrast",
+    +     "impact": "serious",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#e9f8ee",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.18,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "10.5pt (14px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<a aria-label=\"Properties\" aria-current=\"page\" class=\"prototype-nav-item is-current\" href=\"/en/workspace/inventory\">",
+    +                 "target": Array [
+    +                   ".is-current",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<span class=\"ws-nav-label\">Properties</span>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".is-current > .ws-nav-label",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#e9f8ee",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.18,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<a class=\"topbar-user\" aria-label=\"Profile &amp; settings\" title=\"Yousef Al-Marri\" href=\"/en/workspace/settings\">YA</a>",
+    +                 "target": Array [
+    +                   ".topbar-user",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a class=\"topbar-user\" aria-label=\"Profile &amp; settings\" title=\"Yousef Al-Marri\" href=\"/en/workspace/settings\">YA</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".topbar-user",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f5f9f7",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.33,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "9.8pt (13px)",
+    +               "fontWeight": "bold",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.33 (foreground color: #13873f, background color: #f5f9f7, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell \">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.33 (foreground color: #13873f, background color: #f5f9f7, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +         "html": "<a href=\"/en/workspace/inventory\">",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".px-back > a[href$=\"inventory\"]",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f5f9f7",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.33,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "10.5pt (14px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.33 (foreground color: #13873f, background color: #f5f9f7, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell \">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.33 (foreground color: #13873f, background color: #f5f9f7, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<button role=\"tab\" type=\"button\" id=\"property-tab-operations\" aria-selected=\"true\" aria-controls=\"property-panel-operations\" tabindex=\"0\">Operations</button>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           "#property-tab-operations",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#eff6f2",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.19,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "9.8pt (13px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.19 (foreground color: #13873f, background color: #eff6f2, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<section class=\"ag-first-enquiry\" aria-label=\"Try the first enquiry\">",
+    +                 "target": Array [
+    +                   ".ag-first-enquiry",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.19 (foreground color: #13873f, background color: #eff6f2, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a href=\"/en/workspace\">Back to dashboard</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".ag-help > a[href$=\"workspace\"]",
+    +         ],
+    +       },
+    +     ],
+    +     "tags": Array [
+    +       "cat.color",
+    +       "wcag2aa",
+    +       "wcag143",
+    +       "TTv5",
+    +       "TT13.c",
+    +       "EN-301-549",
+    +       "EN-9.1.4.3",
+    +       "ACT",
+    +       "RGAAv4",
+    +       "RGAA-3.2.1",
+    +     ],
+    +   },
+    +   Object {
+    +     "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    +     "help": "Elements must meet minimum color contrast ratio thresholds",
+    +     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+    +     "id": "color-contrast",
+    +     "impact": "serious",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#e9f8ee",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.18,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "10.5pt (14px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<a aria-label=\"Publish & Promote\" aria-current=\"page\" class=\"prototype-nav-item is-current\" href=\"/en/workspace/publish\">",
+    +                 "target": Array [
+    +                   ".is-current",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<span class=\"ws-nav-label\">Publish &amp; Promote</span>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".is-current > .ws-nav-label",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#e9f8ee",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.18,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<a class=\"topbar-user\" aria-label=\"Profile &amp; settings\" title=\"Yousef Al-Marri\" href=\"/en/workspace/settings\">YA</a>",
+    +                 "target": Array [
+    +                   ".topbar-user",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a class=\"topbar-user\" aria-label=\"Profile &amp; settings\" title=\"Yousef Al-Marri\" href=\"/en/workspace/settings\">YA</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".topbar-user",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f5f9f7",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.33,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "9.8pt (13px)",
+    +               "fontWeight": "bold",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.33 (foreground color: #13873f, background color: #f5f9f7, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell \">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.33 (foreground color: #13873f, background color: #f5f9f7, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +         "html": "<a href=\"/en/workspace/inventory/AQ-50003\">",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".px-back > a",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f5f9f7",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.33,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "9.8pt (13px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.33 (foreground color: #13873f, background color: #f5f9f7, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell \">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.33 (foreground color: #13873f, background color: #f5f9f7, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<li aria-current=\"step\" class=\"\"><span>5</span>Local outcome</li>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           "li[aria-current=\"step\"]",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f5f9f7",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.33,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "9.8pt (13px)",
+    +               "fontWeight": "bold",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.33 (foreground color: #13873f, background color: #f5f9f7, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell \">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.33 (foreground color: #13873f, background color: #f5f9f7, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +         "html": "<a class=\"px-text-link\" href=\"#selected-channel-workflow\">",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           "a[href=\"#selected-channel-workflow\"]",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f5f9f7",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.33,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "9.8pt (13px)",
+    +               "fontWeight": "bold",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.33 (foreground color: #13873f, background color: #f5f9f7, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div>",
+    +                 "target": Array [
+    +                   ".ag-channel-workflow > div:nth-child(2)",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.33 (foreground color: #13873f, background color: #f5f9f7, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +         "html": "<button type=\"button\" class=\"px-text-button\">",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".px-text-button",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f5f9f7",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.33,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "9.8pt (13px)",
+    +               "fontWeight": "bold",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.33 (foreground color: #13873f, background color: #f5f9f7, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell \">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.33 (foreground color: #13873f, background color: #f5f9f7, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +         "html": "<a class=\"px-text-link\" href=\"/en/workspace/inventory/AQ-50003\">",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".ag-promotion-return > .px-text-link",
+    +         ],
+    +       },
+    +     ],
+    +     "tags": Array [
+    +       "cat.color",
+    +       "wcag2aa",
+    +       "wcag143",
+    +       "TTv5",
+    +       "TT13.c",
+    +       "EN-301-549",
+    +       "EN-9.1.4.3",
+    +       "ACT",
+    +       "RGAAv4",
+    +       "RGAA-3.2.1",
+    +     ],
+    +   },
+    +   Object {
+    +     "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    +     "help": "Elements must meet minimum color contrast ratio thresholds",
+    +     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+    +     "id": "color-contrast",
+    +     "impact": "serious",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#e9f8ee",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.18,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "10.5pt (14px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<a aria-label=\"Leads & Inbox\" aria-current=\"page\" class=\"prototype-nav-item is-current\" href=\"/en/workspace/leads\">",
+    +                 "target": Array [
+    +                   ".is-current",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<span class=\"ws-nav-label\">Leads &amp; Inbox</span>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".is-current > .ws-nav-label",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#e9f8ee",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.18,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<a class=\"topbar-user\" aria-label=\"Profile &amp; settings\" title=\"Yousef Al-Marri\" href=\"/en/workspace/settings\">YA</a>",
+    +                 "target": Array [
+    +                   ".topbar-user",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a class=\"topbar-user\" aria-label=\"Profile &amp; settings\" title=\"Yousef Al-Marri\" href=\"/en/workspace/settings\">YA</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".topbar-user",
+    +         ],
+    +       },
+    +     ],
+    +     "tags": Array [
+    +       "cat.color",
+    +       "wcag2aa",
+    +       "wcag143",
+    +       "TTv5",
+    +       "TT13.c",
+    +       "EN-301-549",
+    +       "EN-9.1.4.3",
+    +       "ACT",
+    +       "RGAAv4",
+    +       "RGAA-3.2.1",
+    +     ],
+    +   },
+    +   Object {
+    +     "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    +     "help": "Elements must meet minimum color contrast ratio thresholds",
+    +     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+    +     "id": "color-contrast",
+    +     "impact": "serious",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#e9f8ee",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.18,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "10.5pt (14px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<a aria-label=\"Leads & Inbox\" aria-current=\"page\" class=\"prototype-nav-item is-current\" href=\"/en/workspace/leads\">",
+    +                 "target": Array [
+    +                   ".is-current",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<span class=\"ws-nav-label\">Leads &amp; Inbox</span>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".is-current > .ws-nav-label",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#e9f8ee",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.18,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<a class=\"topbar-user\" aria-label=\"Profile &amp; settings\" title=\"Yousef Al-Marri\" href=\"/en/workspace/settings\">YA</a>",
+    +                 "target": Array [
+    +                   ".topbar-user",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a class=\"topbar-user\" aria-label=\"Profile &amp; settings\" title=\"Yousef Al-Marri\" href=\"/en/workspace/settings\">YA</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".topbar-user",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#eff6f2",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.19,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "9.8pt (13px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.19 (foreground color: #13873f, background color: #eff6f2, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<a class=\"crm-conversation-property\" href=\"/en/workspace/inventory/AQ-50001\">View property · AQ-50001 · Demo daily home 1</a>",
+    +                 "target": Array [
+    +                   ".crm-conversation-property",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.19 (foreground color: #13873f, background color: #eff6f2, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a class=\"crm-conversation-property\" href=\"/en/workspace/inventory/AQ-50001\">View property · AQ-50001 · Demo daily home 1</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".crm-conversation-property",
+    +         ],
+    +       },
+    +     ],
+    +     "tags": Array [
+    +       "cat.color",
+    +       "wcag2aa",
+    +       "wcag143",
+    +       "TTv5",
+    +       "TT13.c",
+    +       "EN-301-549",
+    +       "EN-9.1.4.3",
+    +       "ACT",
+    +       "RGAAv4",
+    +       "RGAA-3.2.1",
+    +     ],
+    +   },
+    + ]
+
+      81 |    await page.addScriptTag({path:axe});const result=await page.evaluate('window.axe.run(document,{runOnly:{type:"tag",values:["wcag2a","wcag2aa","wcag21aa","wcag22aa"]}})') as {violations:unknown[]};reports.push({route,violations:result.violations});
+      82 |   }
+    > 83 |   const root=resolve('../../artifacts/phase14/accessibility');mkdirSync(root,{recursive:true});writeFileSync(resolve(root,`${info.project.name}-${locale}.json`),JSON.stringify(reports,null,2));expect(reports.flatMap(r=>r.violations)).toEqual([]);
+         |                                                                                                                                                                                                                                           ^
+      84 |  });
+      85 |  test(`daily ${locale}: enquiry triage links properties and protects an unsaved Inbox reply`,async({page})=>{
+      86 |   const state=await seed(page);await page.goto(`/${locale}/workspace/leads`);await page.getByRole('button',{name:new RegExp(t('Unanswered recorded messages','رسائل مسجلة دون رد'))}).click();await expect(page.locator('.ag-daily-leads tbody tr')).toHaveCount(state.crm.leads.filter(l=>unansweredEnquiry(l)&&!['Won','Lost'].includes(l.stage)).length);
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/daily-productivity.spec.ts:83:235
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/daily-productivity-daily-e-0b7e4-cument-accessibility-checks-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/daily-productivity-daily-e-0b7e4-cument-accessibility-checks-chromium/error-context.md
+
+  3) [chromium] › tests/e2e/daily-productivity.spec.ts:77:2 › daily ar: daily controls and completed guide pass whole-document accessibility checks 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  -   1
+    + Received  + 445
+
+    - Array []
+    + Array [
+    +   Object {
+    +     "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    +     "help": "Elements must meet minimum color contrast ratio thresholds",
+    +     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+    +     "id": "color-contrast",
+    +     "impact": "serious",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#e9f8ee",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.18,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<a class=\"topbar-user\" aria-label=\"الملف والإعدادات\" title=\"Yousef Al-Marri\" href=\"/ar/workspace/settings\">YA</a>",
+    +                 "target": Array [
+    +                   ".topbar-user",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a class=\"topbar-user\" aria-label=\"الملف والإعدادات\" title=\"Yousef Al-Marri\" href=\"/ar/workspace/settings\">YA</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".topbar-user",
+    +         ],
+    +       },
+    +     ],
+    +     "tags": Array [
+    +       "cat.color",
+    +       "wcag2aa",
+    +       "wcag143",
+    +       "TTv5",
+    +       "TT13.c",
+    +       "EN-301-549",
+    +       "EN-9.1.4.3",
+    +       "ACT",
+    +       "RGAAv4",
+    +       "RGAA-3.2.1",
+    +     ],
+    +   },
+    +   Object {
+    +     "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    +     "help": "Elements must meet minimum color contrast ratio thresholds",
+    +     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+    +     "id": "color-contrast",
+    +     "impact": "serious",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#e9f8ee",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.18,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<a class=\"topbar-user\" aria-label=\"الملف والإعدادات\" title=\"Yousef Al-Marri\" href=\"/ar/workspace/settings\">YA</a>",
+    +                 "target": Array [
+    +                   ".topbar-user",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a class=\"topbar-user\" aria-label=\"الملف والإعدادات\" title=\"Yousef Al-Marri\" href=\"/ar/workspace/settings\">YA</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".topbar-user",
+    +         ],
+    +       },
+    +     ],
+    +     "tags": Array [
+    +       "cat.color",
+    +       "wcag2aa",
+    +       "wcag143",
+    +       "TTv5",
+    +       "TT13.c",
+    +       "EN-301-549",
+    +       "EN-9.1.4.3",
+    +       "ACT",
+    +       "RGAAv4",
+    +       "RGAA-3.2.1",
+    +     ],
+    +   },
+    +   Object {
+    +     "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    +     "help": "Elements must meet minimum color contrast ratio thresholds",
+    +     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+    +     "id": "color-contrast",
+    +     "impact": "serious",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#e9f8ee",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.18,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<a class=\"topbar-user\" aria-label=\"الملف والإعدادات\" title=\"Yousef Al-Marri\" href=\"/ar/workspace/settings\">YA</a>",
+    +                 "target": Array [
+    +                   ".topbar-user",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a class=\"topbar-user\" aria-label=\"الملف والإعدادات\" title=\"Yousef Al-Marri\" href=\"/ar/workspace/settings\">YA</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".topbar-user",
+    +         ],
+    +       },
+    +     ],
+    +     "tags": Array [
+    +       "cat.color",
+    +       "wcag2aa",
+    +       "wcag143",
+    +       "TTv5",
+    +       "TT13.c",
+    +       "EN-301-549",
+    +       "EN-9.1.4.3",
+    +       "ACT",
+    +       "RGAAv4",
+    +       "RGAA-3.2.1",
+    +     ],
+    +   },
+    +   Object {
+    +     "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    +     "help": "Elements must meet minimum color contrast ratio thresholds",
+    +     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+    +     "id": "color-contrast",
+    +     "impact": "serious",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#e9f8ee",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.18,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<a class=\"topbar-user\" aria-label=\"الملف والإعدادات\" title=\"Yousef Al-Marri\" href=\"/ar/workspace/settings\">YA</a>",
+    +                 "target": Array [
+    +                   ".topbar-user",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a class=\"topbar-user\" aria-label=\"الملف والإعدادات\" title=\"Yousef Al-Marri\" href=\"/ar/workspace/settings\">YA</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".topbar-user",
+    +         ],
+    +       },
+    +     ],
+    +     "tags": Array [
+    +       "cat.color",
+    +       "wcag2aa",
+    +       "wcag143",
+    +       "TTv5",
+    +       "TT13.c",
+    +       "EN-301-549",
+    +       "EN-9.1.4.3",
+    +       "ACT",
+    +       "RGAAv4",
+    +       "RGAA-3.2.1",
+    +     ],
+    +   },
+    +   Object {
+    +     "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    +     "help": "Elements must meet minimum color contrast ratio thresholds",
+    +     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+    +     "id": "color-contrast",
+    +     "impact": "serious",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#e9f8ee",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.18,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<a class=\"topbar-user\" aria-label=\"الملف والإعدادات\" title=\"Yousef Al-Marri\" href=\"/ar/workspace/settings\">YA</a>",
+    +                 "target": Array [
+    +                   ".topbar-user",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a class=\"topbar-user\" aria-label=\"الملف والإعدادات\" title=\"Yousef Al-Marri\" href=\"/ar/workspace/settings\">YA</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".topbar-user",
+    +         ],
+    +       },
+    +     ],
+    +     "tags": Array [
+    +       "cat.color",
+    +       "wcag2aa",
+    +       "wcag143",
+    +       "TTv5",
+    +       "TT13.c",
+    +       "EN-301-549",
+    +       "EN-9.1.4.3",
+    +       "ACT",
+    +       "RGAAv4",
+    +       "RGAA-3.2.1",
+    +     ],
+    +   },
+    +   Object {
+    +     "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    +     "help": "Elements must meet minimum color contrast ratio thresholds",
+    +     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+    +     "id": "color-contrast",
+    +     "impact": "serious",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#e9f8ee",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.18,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<a class=\"topbar-user\" aria-label=\"الملف والإعدادات\" title=\"Yousef Al-Marri\" href=\"/ar/workspace/settings\">YA</a>",
+    +                 "target": Array [
+    +                   ".topbar-user",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a class=\"topbar-user\" aria-label=\"الملف والإعدادات\" title=\"Yousef Al-Marri\" href=\"/ar/workspace/settings\">YA</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".topbar-user",
+    +         ],
+    +       },
+    +     ],
+    +     "tags": Array [
+    +       "cat.color",
+    +       "wcag2aa",
+    +       "wcag143",
+    +       "TTv5",
+    +       "TT13.c",
+    +       "EN-301-549",
+    +       "EN-9.1.4.3",
+    +       "ACT",
+    +       "RGAAv4",
+    +       "RGAA-3.2.1",
+    +     ],
+    +   },
+    +   Object {
+    +     "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    +     "help": "Elements must meet minimum color contrast ratio thresholds",
+    +     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+    +     "id": "color-contrast",
+    +     "impact": "serious",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#e9f8ee",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.18,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<a class=\"topbar-user\" aria-label=\"الملف والإعدادات\" title=\"Yousef Al-Marri\" href=\"/ar/workspace/settings\">YA</a>",
+    +                 "target": Array [
+    +                   ".topbar-user",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a class=\"topbar-user\" aria-label=\"الملف والإعدادات\" title=\"Yousef Al-Marri\" href=\"/ar/workspace/settings\">YA</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".topbar-user",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#eff6f2",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.19,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "9.8pt (13px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.19 (foreground color: #13873f, background color: #eff6f2, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<a class=\"crm-conversation-property\" href=\"/ar/workspace/inventory/AQ-50001\">عرض العقار · AQ-50001 · منزل يومي تجريبي 1</a>",
+    +                 "target": Array [
+    +                   ".crm-conversation-property",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.19 (foreground color: #13873f, background color: #eff6f2, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a class=\"crm-conversation-property\" href=\"/ar/workspace/inventory/AQ-50001\">عرض العقار · AQ-50001 · منزل يومي تجريبي 1</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".crm-conversation-property",
+    +         ],
+    +       },
+    +     ],
+    +     "tags": Array [
+    +       "cat.color",
+    +       "wcag2aa",
+    +       "wcag143",
+    +       "TTv5",
+    +       "TT13.c",
+    +       "EN-301-549",
+    +       "EN-9.1.4.3",
+    +       "ACT",
+    +       "RGAAv4",
+    +       "RGAA-3.2.1",
+    +     ],
+    +   },
+    + ]
+
+      81 |    await page.addScriptTag({path:axe});const result=await page.evaluate('window.axe.run(document,{runOnly:{type:"tag",values:["wcag2a","wcag2aa","wcag21aa","wcag22aa"]}})') as {violations:unknown[]};reports.push({route,violations:result.violations});
+      82 |   }
+    > 83 |   const root=resolve('../../artifacts/phase14/accessibility');mkdirSync(root,{recursive:true});writeFileSync(resolve(root,`${info.project.name}-${locale}.json`),JSON.stringify(reports,null,2));expect(reports.flatMap(r=>r.violations)).toEqual([]);
+         |                                                                                                                                                                                                                                           ^
+      84 |  });
+      85 |  test(`daily ${locale}: enquiry triage links properties and protects an unsaved Inbox reply`,async({page})=>{
+      86 |   const state=await seed(page);await page.goto(`/${locale}/workspace/leads`);await page.getByRole('button',{name:new RegExp(t('Unanswered recorded messages','رسائل مسجلة دون رد'))}).click();await expect(page.locator('.ag-daily-leads tbody tr')).toHaveCount(state.crm.leads.filter(l=>unansweredEnquiry(l)&&!['Won','Lost'].includes(l.stage)).length);
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/daily-productivity.spec.ts:83:235
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/daily-productivity-daily-a-b5408-cument-accessibility-checks-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/daily-productivity-daily-a-b5408-cument-accessibility-checks-chromium/error-context.md
+
+  4) [chromium] › tests/e2e/first-use.spec.ts:48:2 › first use en: full editor carries quick facts and repeated submit creates one draft 
+
+    Error: locator.evaluate: Error: strict mode violation: locator('form.ag-quick-add') resolved to 2 elements:
+        1) <form novalidate="" class="ag-quick-add">…</form> aka locator('#main-content form')
+        2) <form novalidate="" class="ag-quick-add">…</form> aka locator('form').nth(1)
+
+    Call log:
+      - waiting for locator('form.ag-quick-add')
+
+
+      49 |   await page.goto(`/${locale}/workspace/inventory/new`);const before=Object.keys(createDemoStore().getSnapshot().state.properties).length;
+      50 |   await page.getByRole('textbox',{name:t('Property title','عنوان العقار'),exact:true}).fill('Demo carried title');await page.getByRole('textbox',{name:t('City','المدينة'),exact:true}).fill('Doha');await page.getByRole('button',{name:t('Save as draft','حفظ كمسودة'),exact:true}).click();await expect(page).toHaveURL(/\/inventory\/DEMO-[^/]+$/);let s=await snapshot(page);expect(Object.keys(s.properties)).toHaveLength(before+1);const carried=s.properties[page.url().split('/').at(-1)!];expect(carried.facts.city).toBe('Doha');expect(ar?carried.facts.titleAr:carried.facts.titleEn).toBe('Demo carried title');
+    > 51 |   await page.goto(`/${locale}/workspace/inventory/new`);await page.getByRole('textbox',{name:t('Property title','عنوان العقار'),exact:true}).fill('Demo one submission');await page.getByRole('textbox',{name:t('City','المدينة'),exact:true}).fill('Doha');await page.getByRole('spinbutton',{name:t('Asking price (QAR)','السعر المطلوب (ر.ق)'),exact:true}).fill('8500');await page.locator('form.ag-quick-add').evaluate(form=>{(form as HTMLFormElement).requestSubmit();(form as HTMLFormElement).requestSubmit();});await expect(page).toHaveURL(/\/edit$/);s=await snapshot(page);expect(Object.keys(s.properties)).toHaveLength(before+2);
+         |                                                                                                                                                                                                                                                                                                                                                                                                                     ^
+      52 |   await page.goto(`${page.url()}?step=1.5`);await expect(page.locator('.ag-steps button[aria-current="step"]')).toContainText(t('Photos & details','الصور والتفاصيل'));await expect(page.getByRole('textbox',{name:t('Title — English','العنوان بالإنجليزية'),exact:true})).toBeVisible();
+      53 |  });
+      54 |  test(`first use ${locale}: missing source warnings never invent facts or silently save`,async({page})=>{
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/first-use.spec.ts:51:405
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/first-use-first-use-en-ful-2078b-ed-submit-creates-one-draft-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/first-use-first-use-en-ful-2078b-ed-submit-creates-one-draft-chromium/error-context.md
+
+  5) [chromium] › tests/e2e/frontend-polish.spec.ts:69:33 › frontend ar: public responsive layouts keep research actions, footer and editorial content inside viewport 
+
+    Error: page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3215/ar/properties
+    Call log:
+      - navigating to "http://localhost:3215/ar/properties", waiting until "load"
+
+
+      70 |  test.skip(info.project.name==='mobile-chromium','Desktop project checks both tablet widths.');
+      71 |  for(const width of [375,768,1024]){await page.setViewportSize({width,height:1000});for(const route of ['', '/properties','/solutions','/agencies/pearl-gate-realty','/contact']){
+    > 72 |   await page.goto(`/${locale}${route}`);await expect(page.locator('main h1').first()).toBeVisible();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),`${locale}${route} @ ${width}`).toBe(true);
+         |              ^
+      73 |  }}
+      74 | });
+      75 |
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/frontend-polish.spec.ts:72:14
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/frontend-polish-frontend-a-0f267-ial-content-inside-viewport-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/frontend-polish-frontend-a-0f267-ial-content-inside-viewport-chromium/error-context.md
+
+  6) [chromium] › tests/e2e/website-polish.spec.ts:8:2 › polish en: responsive screenshot modes, enlargement and keyboard 
+
+    TypeError: Invalid URL
+
+      16 |   await expect(popup).toHaveURL(new RegExp(`${locale}-dashboard-detail${info.project.name==='mobile-chromium'?'-mobile':''}.webp$`));await popup.close();
+      17 |   await shot.getByRole('button',{name:ar?'مساحة العمل كاملة':'Full workspace',exact:true}).click();
+    > 18 |   const current=await image.evaluate((el:HTMLImageElement)=>el.currentSrc);await expect(link).toHaveAttribute('href',current.replace(new URL(current).origin,''));
+         |                                                                                                                                      ^
+      19 |   const [full]=await Promise.all([page.waitForEvent('popup'),link.click()]);await expect(full).toHaveURL(current);await full.close();
+      20 |   if(info.project.name==='mobile-chromium')expect(current).toContain('-mobile.webp');else expect(current).not.toContain('-mobile.webp');
+      21 |   await page.setViewportSize({width:320,height:500});await expect(link).toHaveAttribute('href',`/product/${locale}-dashboard-mobile.webp`);
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/website-polish.spec.ts:18:134
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/website-polish-polish-en-r-b8919-es-enlargement-and-keyboard-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/website-polish-polish-en-r-b8919-es-enlargement-and-keyboard-chromium/error-context.md
+
+  7) [chromium] › tests/e2e/website-polish.spec.ts:58:2 › polish en: six widths, zoom, short viewport and throttled motion 
+
+    Error: locator.evaluate: Error: strict mode violation: locator('.mk-shot picture') resolved to 2 elements:
+        1) <picture>…</picture> aka getByRole('link', { name: 'Enlarge screenshot: Prepare' })
+        2) <picture>…</picture> aka getByRole('link', { name: 'Enlarge screenshot: Publish' })
+
+    Call log:
+      - waiting for locator('.mk-shot picture')
+
+
+      70 |   await page.emulateMedia({reducedMotion:'reduce'});await page.getByRole('tab').nth(2).click();
+      71 |   expect(await page.getByRole('tabpanel').evaluate(el=>getComputedStyle(el).animationName)).toBe('none');
+    > 72 |   expect(await page.locator('.mk-shot picture').evaluate(el=>getComputedStyle(el).animationName)).toBe('none');
+         |                                                 ^
+      73 |   await page.screenshot({path:`${evidence}/${info.project.name}-${locale}-throttled-reduced-motion.png`,animations:'disabled'});await cdp.detach();
+      74 |  });
+      75 | }
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/website-polish.spec.ts:72:49
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/website-polish-polish-en-s-44be9-ewport-and-throttled-motion-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/website-polish-polish-en-s-44be9-ewport-and-throttled-motion-chromium/error-context.md
+
+  8) [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:77:2 › daily en: daily controls and completed guide pass whole-document accessibility checks 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  -   1
+    + Received  + 778
+
+    - Array []
+    + Array [
+    +   Object {
+    +     "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    +     "help": "Elements must meet minimum color contrast ratio thresholds",
+    +     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+    +     "id": "color-contrast",
+    +     "impact": "serious",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#e9f8ee",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.18,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<a class=\"topbar-user\" aria-label=\"Profile &amp; settings\" title=\"Yousef Al-Marri\" href=\"/en/workspace/settings\">YA</a>",
+    +                 "target": Array [
+    +                   ".topbar-user",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a class=\"topbar-user\" aria-label=\"Profile &amp; settings\" title=\"Yousef Al-Marri\" href=\"/en/workspace/settings\">YA</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".topbar-user",
+    +         ],
+    +       },
+    +     ],
+    +     "tags": Array [
+    +       "cat.color",
+    +       "wcag2aa",
+    +       "wcag143",
+    +       "TTv5",
+    +       "TT13.c",
+    +       "EN-301-549",
+    +       "EN-9.1.4.3",
+    +       "ACT",
+    +       "RGAAv4",
+    +       "RGAA-3.2.1",
+    +     ],
+    +   },
+    +   Object {
+    +     "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    +     "help": "Elements must meet minimum color contrast ratio thresholds",
+    +     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+    +     "id": "color-contrast",
+    +     "impact": "serious",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#e9f8ee",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.18,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<a class=\"topbar-user\" aria-label=\"Profile &amp; settings\" title=\"Yousef Al-Marri\" href=\"/en/workspace/settings\">YA</a>",
+    +                 "target": Array [
+    +                   ".topbar-user",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a class=\"topbar-user\" aria-label=\"Profile &amp; settings\" title=\"Yousef Al-Marri\" href=\"/en/workspace/settings\">YA</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".topbar-user",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#e9f8ee",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.18,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "10.5pt (14px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<label class=\"is-selected\"><input type=\"radio\" value=\"rent\" checked=\"\" name=\"_r_1_\"><span>Rent</span></label>",
+    +                 "target": Array [
+    +                   ".is-selected",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<span>Rent</span>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".is-selected > span",
+    +         ],
+    +       },
+    +     ],
+    +     "tags": Array [
+    +       "cat.color",
+    +       "wcag2aa",
+    +       "wcag143",
+    +       "TTv5",
+    +       "TT13.c",
+    +       "EN-301-549",
+    +       "EN-9.1.4.3",
+    +       "ACT",
+    +       "RGAAv4",
+    +       "RGAA-3.2.1",
+    +     ],
+    +   },
+    +   Object {
+    +     "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    +     "help": "Elements must meet minimum color contrast ratio thresholds",
+    +     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+    +     "id": "color-contrast",
+    +     "impact": "serious",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#e9f8ee",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.18,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<a class=\"topbar-user\" aria-label=\"Profile &amp; settings\" title=\"Yousef Al-Marri\" href=\"/en/workspace/settings\">YA</a>",
+    +                 "target": Array [
+    +                   ".topbar-user",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a class=\"topbar-user\" aria-label=\"Profile &amp; settings\" title=\"Yousef Al-Marri\" href=\"/en/workspace/settings\">YA</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".topbar-user",
+    +         ],
+    +       },
+    +     ],
+    +     "tags": Array [
+    +       "cat.color",
+    +       "wcag2aa",
+    +       "wcag143",
+    +       "TTv5",
+    +       "TT13.c",
+    +       "EN-301-549",
+    +       "EN-9.1.4.3",
+    +       "ACT",
+    +       "RGAAv4",
+    +       "RGAA-3.2.1",
+    +     ],
+    +   },
+    +   Object {
+    +     "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    +     "help": "Elements must meet minimum color contrast ratio thresholds",
+    +     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+    +     "id": "color-contrast",
+    +     "impact": "serious",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#e9f8ee",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.18,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<a class=\"topbar-user\" aria-label=\"Profile &amp; settings\" title=\"Yousef Al-Marri\" href=\"/en/workspace/settings\">YA</a>",
+    +                 "target": Array [
+    +                   ".topbar-user",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a class=\"topbar-user\" aria-label=\"Profile &amp; settings\" title=\"Yousef Al-Marri\" href=\"/en/workspace/settings\">YA</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".topbar-user",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f5f9f7",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.33,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "9.8pt (13px)",
+    +               "fontWeight": "bold",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.33 (foreground color: #13873f, background color: #f5f9f7, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell \">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.33 (foreground color: #13873f, background color: #f5f9f7, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +         "html": "<a href=\"/en/workspace/inventory\">",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".px-back > a[href$=\"inventory\"]",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f5f9f7",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.33,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "9.8pt (13px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.33 (foreground color: #13873f, background color: #f5f9f7, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell \">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.33 (foreground color: #13873f, background color: #f5f9f7, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<button role=\"tab\" type=\"button\" id=\"property-tab-operations\" aria-selected=\"true\" aria-controls=\"property-panel-operations\" tabindex=\"0\">Operations</button>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           "#property-tab-operations",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#eff6f2",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.19,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "9.8pt (13px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.19 (foreground color: #13873f, background color: #eff6f2, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<section class=\"ag-first-enquiry\" aria-label=\"Try the first enquiry\">",
+    +                 "target": Array [
+    +                   ".ag-first-enquiry",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.19 (foreground color: #13873f, background color: #eff6f2, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a href=\"/en/workspace\">Back to dashboard</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".ag-help > a[href$=\"workspace\"]",
+    +         ],
+    +       },
+    +     ],
+    +     "tags": Array [
+    +       "cat.color",
+    +       "wcag2aa",
+    +       "wcag143",
+    +       "TTv5",
+    +       "TT13.c",
+    +       "EN-301-549",
+    +       "EN-9.1.4.3",
+    +       "ACT",
+    +       "RGAAv4",
+    +       "RGAA-3.2.1",
+    +     ],
+    +   },
+    +   Object {
+    +     "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    +     "help": "Elements must meet minimum color contrast ratio thresholds",
+    +     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+    +     "id": "color-contrast",
+    +     "impact": "serious",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#e9f8ee",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.18,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<a class=\"topbar-user\" aria-label=\"Profile &amp; settings\" title=\"Yousef Al-Marri\" href=\"/en/workspace/settings\">YA</a>",
+    +                 "target": Array [
+    +                   ".topbar-user",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a class=\"topbar-user\" aria-label=\"Profile &amp; settings\" title=\"Yousef Al-Marri\" href=\"/en/workspace/settings\">YA</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".topbar-user",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f5f9f7",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.33,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "9.8pt (13px)",
+    +               "fontWeight": "bold",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.33 (foreground color: #13873f, background color: #f5f9f7, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell \">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.33 (foreground color: #13873f, background color: #f5f9f7, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +         "html": "<a href=\"/en/workspace/inventory/AQ-50003\">",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".px-back > a",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f5f9f7",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.33,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "9.8pt (13px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.33 (foreground color: #13873f, background color: #f5f9f7, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell \">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.33 (foreground color: #13873f, background color: #f5f9f7, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<li aria-current=\"step\" class=\"\"><span>5</span>Local outcome</li>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           "li[aria-current=\"step\"]",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f5f9f7",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.33,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "9.8pt (13px)",
+    +               "fontWeight": "bold",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.33 (foreground color: #13873f, background color: #f5f9f7, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell \">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.33 (foreground color: #13873f, background color: #f5f9f7, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +         "html": "<a class=\"px-text-link\" href=\"#selected-channel-workflow\">",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           "a[href=\"#selected-channel-workflow\"]",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f5f9f7",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.33,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "9.8pt (13px)",
+    +               "fontWeight": "bold",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.33 (foreground color: #13873f, background color: #f5f9f7, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div>",
+    +                 "target": Array [
+    +                   ".ag-channel-workflow > div:nth-child(2)",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.33 (foreground color: #13873f, background color: #f5f9f7, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +         "html": "<button type=\"button\" class=\"px-text-button\">",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".px-text-button",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#f5f9f7",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.33,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "9.8pt (13px)",
+    +               "fontWeight": "bold",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.33 (foreground color: #13873f, background color: #f5f9f7, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<div class=\"prototype-shell \">",
+    +                 "target": Array [
+    +                   ".prototype-shell",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.33 (foreground color: #13873f, background color: #f5f9f7, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1",
+    +         "html": "<a class=\"px-text-link\" href=\"/en/workspace/inventory/AQ-50003\">",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".ag-promotion-return > .px-text-link",
+    +         ],
+    +       },
+    +     ],
+    +     "tags": Array [
+    +       "cat.color",
+    +       "wcag2aa",
+    +       "wcag143",
+    +       "TTv5",
+    +       "TT13.c",
+    +       "EN-301-549",
+    +       "EN-9.1.4.3",
+    +       "ACT",
+    +       "RGAAv4",
+    +       "RGAA-3.2.1",
+    +     ],
+    +   },
+    +   Object {
+    +     "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    +     "help": "Elements must meet minimum color contrast ratio thresholds",
+    +     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+    +     "id": "color-contrast",
+    +     "impact": "serious",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#e9f8ee",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.18,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<a class=\"topbar-user\" aria-label=\"Profile &amp; settings\" title=\"Yousef Al-Marri\" href=\"/en/workspace/settings\">YA</a>",
+    +                 "target": Array [
+    +                   ".topbar-user",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a class=\"topbar-user\" aria-label=\"Profile &amp; settings\" title=\"Yousef Al-Marri\" href=\"/en/workspace/settings\">YA</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".topbar-user",
+    +         ],
+    +       },
+    +     ],
+    +     "tags": Array [
+    +       "cat.color",
+    +       "wcag2aa",
+    +       "wcag143",
+    +       "TTv5",
+    +       "TT13.c",
+    +       "EN-301-549",
+    +       "EN-9.1.4.3",
+    +       "ACT",
+    +       "RGAAv4",
+    +       "RGAA-3.2.1",
+    +     ],
+    +   },
+    +   Object {
+    +     "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    +     "help": "Elements must meet minimum color contrast ratio thresholds",
+    +     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+    +     "id": "color-contrast",
+    +     "impact": "serious",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#e9f8ee",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.18,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "9.0pt (12px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<a class=\"topbar-user\" aria-label=\"Profile &amp; settings\" title=\"Yousef Al-Marri\" href=\"/en/workspace/settings\">YA</a>",
+    +                 "target": Array [
+    +                   ".topbar-user",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.18 (foreground color: #13873f, background color: #e9f8ee, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a class=\"topbar-user\" aria-label=\"Profile &amp; settings\" title=\"Yousef Al-Marri\" href=\"/en/workspace/settings\">YA</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".topbar-user",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "bgColor": "#eff6f2",
+    +               "colorParse": undefined,
+    +               "contrastRatio": 4.19,
+    +               "expectedContrastRatio": "4.5:1",
+    +               "fgColor": "#13873f",
+    +               "fontSize": "9.8pt (13px)",
+    +               "fontWeight": "normal",
+    +               "messageKey": null,
+    +               "shadowColor": undefined,
+    +             },
+    +             "id": "color-contrast",
+    +             "impact": "serious",
+    +             "message": "Element has insufficient color contrast of 4.19 (foreground color: #13873f, background color: #eff6f2, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<a class=\"crm-conversation-property\" href=\"/en/workspace/inventory/AQ-50001\">View property · AQ-50001 · Demo daily home 1</a>",
+    +                 "target": Array [
+    +                   ".crm-conversation-property",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Element has insufficient color contrast of 4.19 (foreground color: #13873f, background color: #eff6f2, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1",
+    +         "html": "<a class=\"crm-conversation-property\" href=\"/en/workspace/inventory/AQ-50001\">View property · AQ-50001 · Demo daily home 1</a>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".crm-conversation-property",
+    +         ],
+    +       },
+    +     ],
+    +     "tags": Array [
+    +       "cat.color",
+    +       "wcag2aa",
+    +       "wcag143",
+    +       "TTv5",
+    +       "TT13.c",
+    +       "EN-301-549",
+    +       "EN-9.1.4.3",
+    +       "ACT",
+    +       "RGAAv4",
+    +       "RGAA-3.2.1",
+    +     ],
+    +   },
+    + ]
+
+      81 |    await page.addScriptTag({path:axe});const result=await page.evaluate('window.axe.run(document,{runOnly:{type:"tag",values:["wcag2a","wcag2aa","wcag21aa","wcag22aa"]}})') as {violations:unknown[]};reports.push({route,violations:result.violations});
+      82 |   }
+    > 83 |   const root=resolve('../../artifacts/phase14/accessibility');mkdirSync(root,{recursive:true});writeFileSync(resolve(root,`${info.project.name}-${locale}.json`),JSON.stringify(reports,null,2));expect(reports.flatMap(r=>r.violations)).toEqual([]);
+         |                                                                                                                                                                                                                                           ^
+      84 |  });
+      85 |  test(`daily ${locale}: enquiry triage links properties and protects an unsaved Inbox reply`,async({page})=>{
+      86 |   const state=await seed(page);await page.goto(`/${locale}/workspace/leads`);await page.getByRole('button',{name:new RegExp(t('Unanswered recorded messages','رسائل مسجلة دون رد'))}).click();await expect(page.locator('.ag-daily-leads tbody tr')).toHaveCount(state.crm.leads.filter(l=>unansweredEnquiry(l)&&!['Won','Lost'].includes(l.stage)).length);
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/daily-productivity.spec.ts:83:235
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/daily-productivity-daily-e-0b7e4-cument-accessibility-checks-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/daily-productivity-daily-e-0b7e4-cument-accessibility-checks-mobile-chromium/error-context.md
+
+  9) [chromium] › tests/e2e/website-polish.spec.ts:8:2 › polish ar: responsive screenshot modes, enlargement and keyboard 
+
+    Test was interrupted.
+
+    Error: Unexpected browser errors
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 3
+
+    - Array []
+    + Array [
+    +   "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+    + ]
+
+       at fixtures.ts:14
+
+      12 |   page.on('console',message=>{if(message.type()==='error')errors.push(message.text());});
+      13 |   await use();
+    > 14 |   expect(errors,'Unexpected browser errors').toEqual([]);
+         |                                              ^
+      15 |  },{auto:true}],
+      16 | });
+      17 | export {expect};
+        at Object.exports.test._test.test.extend.browserErrors.auto (/Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/fixtures.ts:14:46)
+
+    Error: expect(page).toHaveURL(expected) failed
+
+    Expected: "http://localhost:3215/product/ar-dashboard.webp"
+    Received: "chrome-error://chromewebdata/"
+
+    Call log:
+      - Expect "toHaveURL" with timeout 8000ms
+        3 × locator resolved to <html>…</html>
+          - unexpected value "chrome-error://chromewebdata/"
+      - Test ended.
+
+
+      17 |   await shot.getByRole('button',{name:ar?'مساحة العمل كاملة':'Full workspace',exact:true}).click();
+      18 |   const current=await image.evaluate((el:HTMLImageElement)=>el.currentSrc);await expect(link).toHaveAttribute('href',current.replace(new URL(current).origin,''));
+    > 19 |   const [full]=await Promise.all([page.waitForEvent('popup'),link.click()]);await expect(full).toHaveURL(current);await full.close();
+         |                                                                                                ^
+      20 |   if(info.project.name==='mobile-chromium')expect(current).toContain('-mobile.webp');else expect(current).not.toContain('-mobile.webp');
+      21 |   await page.setViewportSize({width:320,height:500});await expect(link).toHaveAttribute('href',`/product/${locale}-dashboard-mobile.webp`);
+      22 |   await page.screenshot({path:`${evidence}/${info.project.name}-${locale}-screenshot-controls.png`,animations:'disabled'});
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/website-polish.spec.ts:19:96
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/website-polish-polish-ar-r-cfb7d-es-enlargement-and-keyboard-chromium/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/website-polish-polish-ar-r-cfb7d-es-enlargement-and-keyboard-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/website-polish-polish-ar-r-cfb7d-es-enlargement-and-keyboard-chromium/error-context.md
+
+  8 failed
+    [chromium] › tests/e2e/daily-productivity.spec.ts:58:2 › daily en: Quick Add validates, protects edits, saves a partial draft and prevents duplicate continuation 
+    [chromium] › tests/e2e/daily-productivity.spec.ts:77:2 › daily en: daily controls and completed guide pass whole-document accessibility checks 
+    [chromium] › tests/e2e/daily-productivity.spec.ts:77:2 › daily ar: daily controls and completed guide pass whole-document accessibility checks 
+    [chromium] › tests/e2e/first-use.spec.ts:48:2 › first use en: full editor carries quick facts and repeated submit creates one draft 
+    [chromium] › tests/e2e/frontend-polish.spec.ts:69:33 › frontend ar: public responsive layouts keep research actions, footer and editorial content inside viewport 
+    [chromium] › tests/e2e/website-polish.spec.ts:8:2 › polish en: responsive screenshot modes, enlargement and keyboard 
+    [chromium] › tests/e2e/website-polish.spec.ts:58:2 › polish en: six widths, zoom, short viewport and throttled motion 
+    [mobile-chromium] › tests/e2e/daily-productivity.spec.ts:77:2 › daily en: daily controls and completed guide pass whole-document accessibility checks 
+  2 interrupted
+    [chromium] › tests/e2e/enterprise-ux.spec.ts:17:2 › enterprise en: long portfolios scroll, keep RTL alignment and escape mobile overflow 
+    [chromium] › tests/e2e/website-polish.spec.ts:8:2 › polish ar: responsive screenshot modes, enlargement and keyboard 
+  1 skipped
+  67 did not run
+  42 passed (57.9s)
+ ELIFECYCLE  Command failed with exit code 130.

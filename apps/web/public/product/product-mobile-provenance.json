@@ -1,6 +1,6 @@
 {
-  "source": "Actual running Next.js production workspace; fictional default demo records",
-  "baseline": "a22d192a5417bea79a532bb2f1caf4f4d75c5ad4",
+  "source": "Actual Phase 15 Webpack production workspace; fictional records",
+  "baseline": "342786068bee2b15c6890632768988b14852a5be",
   "screens": [
     {
       "locale": "en",
@@ -10,7 +10,8 @@
         "width": 375,
         "height": 812
       },
-      "file": "en-dashboard-mobile.webp"
+      "file": "en-dashboard-mobile.webp",
+      "sha256": "4fe015a6d4fe8e35626f7be1995f7c78d265c2c55d302147885587c4c8e3e373"
     },
     {
       "locale": "en",
@@ -20,7 +21,8 @@
         "width": 375,
         "height": 812
       },
-      "file": "en-inventory-mobile.webp"
+      "file": "en-inventory-mobile.webp",
+      "sha256": "6208cf56b5c3cf8597c49a20a4c38ebf8ee5d8a6b2f3518a69692c262347eb21"
     },
     {
       "locale": "en",
@@ -30,7 +32,8 @@
         "width": 375,
         "height": 812
       },
-      "file": "en-editor-mobile.webp"
+      "file": "en-editor-mobile.webp",
+      "sha256": "69c38f393edcc4d5921daca0b2b9be840b28f12aa51390e4905f5db40728de8c"
     },
     {
       "locale": "en",
@@ -40,47 +43,19 @@
         "width": 375,
         "height": 812
       },
-      "file": "en-media-mobile.webp"
+      "file": "en-media-mobile.webp",
+      "sha256": "aa35c23226f41ee3fcb512f9566a9246e65329426e1e32d07ae7c401d1e93ae7"
     },
     {
       "locale": "en",
       "name": "publish",
-      "route": "/workspace/publish?property=AQ-10233",
+      "route": "/workspace/publish?property=AQ-10233&goal=portals",
       "viewport": {
         "width": 375,
         "height": 812
       },
-      "file": "en-publish-mobile.webp"
-    },
-    {
-      "locale": "en",
-      "name": "leads",
-      "route": "/workspace/leads",
-      "viewport": {
-        "width": 375,
-        "height": 812
-      },
-      "file": "en-leads-mobile.webp"
-    },
-    {
-      "locale": "en",
-      "name": "inbox",
-      "route": "/workspace/inbox",
-      "viewport": {
-        "width": 375,
-        "height": 812
-      },
-      "file": "en-inbox-mobile.webp"
-    },
-    {
-      "locale": "en",
-      "name": "campaign",
-      "route": "/workspace/publish?property=AQ-10233&goal=advertising",
-      "viewport": {
-        "width": 375,
-        "height": 812
-      },
-      "file": "en-campaign-mobile.webp"
+      "file": "en-publish-mobile.webp",
+      "sha256": "575cc0056610491e0ea61c299f2bc1ef44d198f70e7e63ad39ee10d3cf070b71"
     },
     {
       "locale": "en",
@@ -90,17 +65,52 @@
         "width": 375,
         "height": 812
       },
-      "file": "en-review-mobile.webp"
+      "file": "en-review-mobile.webp",
+      "sha256": "575cc0056610491e0ea61c299f2bc1ef44d198f70e7e63ad39ee10d3cf070b71"
     },
     {
       "locale": "en",
-      "name": "assistance",
-      "route": "/workspace/inventory/AQ-10233/edit?assist=1",
+      "name": "leads",
+      "route": "/workspace/leads",
       "viewport": {
         "width": 375,
         "height": 812
       },
-      "file": "en-assistance-mobile.webp"
+      "file": "en-leads-mobile.webp",
+      "sha256": "e18783bea91a16e8e46e774257f88e9f80d57d64f68ed434134f20ced53be263"
+    },
+    {
+      "locale": "en",
+      "name": "inbox",
+      "route": "/workspace/inbox?lead=LE-2101",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "file": "en-inbox-mobile.webp",
+      "sha256": "d6657996da3d7b1456f7f53ec4b65859da6e311c0321af146c007a79c5b66cc4"
+    },
+    {
+      "locale": "en",
+      "name": "campaign",
+      "route": "/workspace/publish?property=AQ-10233&goal=advertising",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "file": "en-campaign-mobile.webp",
+      "sha256": "b5df2f2181a68b22f9e9279234fd88ee4b68ac9965f0685f2d583647fb839dab"
+    },
+    {
+      "locale": "en",
+      "name": "assistance",
+      "route": "/workspace/inventory/AQ-10233/edit?step=1",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "file": "en-assistance-mobile.webp",
+      "sha256": "7e5644997d329c5abdf7498f8391b8b401d00b52f5a45ad38bf5c1344ea92c06"
     },
     {
       "locale": "ar",
@@ -110,7 +120,8 @@
         "width": 375,
         "height": 812
       },
-      "file": "ar-dashboard-mobile.webp"
+      "file": "ar-dashboard-mobile.webp",
+      "sha256": "f08abb05e1c9de69d5e0088723e3c80b205301fdfba8147e7d00f06d6ccff414"
     },
     {
       "locale": "ar",
@@ -120,7 +131,8 @@
         "width": 375,
         "height": 812
       },
-      "file": "ar-inventory-mobile.webp"
+      "file": "ar-inventory-mobile.webp",
+      "sha256": "986a83f2cd0a1c3a9268ea15c79e4a68d05057904470429d0f50247f1645e1a2"
     },
     {
       "locale": "ar",
@@ -130,7 +142,8 @@
         "width": 375,
         "height": 812
       },
-      "file": "ar-editor-mobile.webp"
+      "file": "ar-editor-mobile.webp",
+      "sha256": "bda45db7c5a4d2f0f98e2b7a725aa31701c304c7fed33a798d1e91c730b5e04f"
     },
     {
       "locale": "ar",
@@ -140,47 +153,19 @@
         "width": 375,
         "height": 812
       },
-      "file": "ar-media-mobile.webp"
+      "file": "ar-media-mobile.webp",
+      "sha256": "adce22ca541ca8f7b836ef3028b38033dff10b21e3a1094770ae0f63227129c4"
     },
     {
       "locale": "ar",
       "name": "publish",
-      "route": "/workspace/publish?property=AQ-10233",
+      "route": "/workspace/publish?property=AQ-10233&goal=portals",
       "viewport": {
         "width": 375,
         "height": 812
       },
-      "file": "ar-publish-mobile.webp"
-    },
-    {
-      "locale": "ar",
-      "name": "leads",
-      "route": "/workspace/leads",
-      "viewport": {
-        "width": 375,
-        "height": 812
-      },
-      "file": "ar-leads-mobile.webp"
-    },
-    {
-      "locale": "ar",
-      "name": "inbox",
-      "route": "/workspace/inbox",
-      "viewport": {
-        "width": 375,
-        "height": 812
-      },
-      "file": "ar-inbox-mobile.webp"
-    },
-    {
-      "locale": "ar",
-      "name": "campaign",
-      "route": "/workspace/publish?property=AQ-10233&goal=advertising",
-      "viewport": {
-        "width": 375,
-        "height": 812
-      },
-      "file": "ar-campaign-mobile.webp"
+      "file": "ar-publish-mobile.webp",
+      "sha256": "beafecc5b972a6bb77298447e1a395f87d3fde3be88dd7e18a9437ea128e5e06"
     },
     {
       "locale": "ar",
@@ -190,17 +175,52 @@
         "width": 375,
         "height": 812
       },
-      "file": "ar-review-mobile.webp"
+      "file": "ar-review-mobile.webp",
+      "sha256": "beafecc5b972a6bb77298447e1a395f87d3fde3be88dd7e18a9437ea128e5e06"
     },
     {
       "locale": "ar",
-      "name": "assistance",
-      "route": "/workspace/inventory/AQ-10233/edit?assist=1",
+      "name": "leads",
+      "route": "/workspace/leads",
       "viewport": {
         "width": 375,
         "height": 812
       },
-      "file": "ar-assistance-mobile.webp"
+      "file": "ar-leads-mobile.webp",
+      "sha256": "538371a0e24fbfa4bf63453ae49151ca05c7b205f4f492fb81e1b39b083e3f5d"
+    },
+    {
+      "locale": "ar",
+      "name": "inbox",
+      "route": "/workspace/inbox?lead=LE-2101",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "file": "ar-inbox-mobile.webp",
+      "sha256": "30a5704e01292e14e2ba361c0040de6c0c7da31815f1b55bf55bbbdd1dada519"
+    },
+    {
+      "locale": "ar",
+      "name": "campaign",
+      "route": "/workspace/publish?property=AQ-10233&goal=advertising",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "file": "ar-campaign-mobile.webp",
+      "sha256": "0aa15f250cc68d2ff33408142a80b84a33a5dd1d5900bce6604202d1070a30db"
+    },
+    {
+      "locale": "ar",
+      "name": "assistance",
+      "route": "/workspace/inventory/AQ-10233/edit?step=1",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "file": "ar-assistance-mobile.webp",
+      "sha256": "c1f36585f7874798691315912e9be7b7dd42e341e4c8202ae59564036dd99905"
     }
   ]
 }

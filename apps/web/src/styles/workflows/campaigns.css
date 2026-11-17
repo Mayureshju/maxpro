@@ -13,7 +13,7 @@
 
 .cm-workflow-strip span {
   padding: 15px 10px;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 600;
   color: #425a50;
   letter-spacing: 0.02em;
@@ -41,7 +41,7 @@
   margin-block-start: 30px;
   padding-block: 18px;
   color: #56655b;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.7;
 }
 
@@ -70,13 +70,13 @@
 }
 
 .cm-record-bar > div > span:last-child {
-  font-size: 11px;
+  font-size: 13px;
   color: #59665e;
   overflow-wrap: anywhere;
 }
 
 .cm-role-note {
-  font-size: 12px;
+  font-size: 13px;
   color: #58675f;
   line-height: 1.6;
   margin-block: 12px 18px;
@@ -85,7 +85,7 @@
 .cm-steps {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  border-block-end: 1px solid #d8ded7;
+  border-block-end: 1px solid var(--line);
   margin-block-end: 26px;
   gap: 5px;
 }
@@ -99,7 +99,7 @@
   gap: 8px;
   padding: 14px 7px;
   color: #53625a;
-  font-size: 11px;
+  font-size: 13px;
   text-align: start;
   cursor: pointer;
   line-height: 1.5;
@@ -110,8 +110,8 @@
 }
 
 .cm-steps button[aria-current] {
-  border-block-end-color: #263f37;
-  color: #263f37;
+  border-block-end-color: var(--ink);
+  color: var(--ink);
   font-weight: 700;
 }
 
@@ -150,7 +150,7 @@
 }
 
 .cm-inspector {
-  border-inline-start: 1px solid #d8ded7;
+  border-inline-start: 1px solid var(--line);
   padding-inline-start: 24px;
   min-width: 0;
 }
@@ -165,13 +165,13 @@
 
 .cm-fact-dossier > p,
 .cm-ai-panel > p {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.7;
-  color: #56665c;
+  color: var(--muted);
 }
 
 .cm-fact-dossier dl {
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .cm-fact-dossier dl > div {
@@ -189,7 +189,7 @@
 }
 
 .cm-fact-dossier a {
-  font-size: 12px;
+  font-size: 13px;
   display: inline-flex;
   gap: 8px;
   align-items: center;
@@ -198,7 +198,7 @@
 
 .cm-ai-panel {
   padding-block-start: 25px;
-  border-block-start: 1px solid #d8ded7;
+  border-block-start: 1px solid var(--line);
 }
 
 .cm-ai-panel .px-button {
@@ -216,21 +216,21 @@
 .cm-proposal > small {
   display: block;
   margin-block: 9px;
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .cm-proposal textarea {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.7;
 }
 
 .cm-proposal code {
   overflow-wrap: anywhere;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .cm-proposal summary {
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .cm-proposal ul {
@@ -262,7 +262,7 @@
 }
 
 .cm-editor-actions > span {
-  font-size: 12px;
+  font-size: 13px;
   color: #56655c;
 }
 
@@ -308,7 +308,7 @@
   place-content: center;
   text-align: center;
   gap: 8px;
-  font-size: 12px;
+  font-size: 13px;
   color: #5b685f;
 }
 
@@ -317,11 +317,11 @@
   align-items: center;
   gap: 9px;
   padding-block: 12px 5px;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .cm-creative input {
-  accent-color: #263f37;
+  accent-color: var(--ink);
   width: 16px;
   height: 16px;
 }
@@ -329,9 +329,9 @@
 .cm-creative > small {
   display: block;
   padding-inline: 4px;
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.7;
-  color: #526057;
+  color: var(--muted);
 }
 
 .cm-checklist {
@@ -352,7 +352,7 @@
 }
 
 .cm-policy-readout {
-  border-block: 1px solid #dadfd5;
+  border-block: 1px solid var(--line);
   padding-block: 18px;
   margin-block: 24px;
 }
@@ -364,7 +364,7 @@
 
 .cm-policy-readout ul {
   padding-inline-start: 21px;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.8;
   color: #7b482a;
 }
@@ -372,7 +372,7 @@
 .cm-check-ok {
   display: flex;
   gap: 8px;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.7;
   color: #285342;
 }
@@ -405,7 +405,7 @@
   align-items: center;
   gap: 14px;
   padding-block: 18px;
-  border-block-end: 1px solid #dadfd5;
+  border-block-end: 1px solid var(--line);
 }
 
 .cm-chain-number {
@@ -415,7 +415,7 @@
   place-content: center;
   border: 1px solid #b8c5b8;
   flex-shrink: 0;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .cm-approval-chain strong {
@@ -426,7 +426,7 @@
 .cm-approval-chain small {
   display: block;
   overflow-wrap: anywhere;
-  font-size: 11px;
+  font-size: 13px;
   margin-block-start: 5px;
   color: #53655a;
 }
@@ -449,9 +449,9 @@
 }
 
 .cm-simulation > p {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.7;
-  color: #536359;
+  color: var(--muted);
 }
 
 .cm-simulation > label {
@@ -497,7 +497,7 @@
 }
 
 .cm-timeline strong {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 500;
   overflow-wrap: anywhere;
 }
@@ -505,9 +505,9 @@
 .cm-timeline small {
   display: block;
   margin-block-start: 7px;
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.6;
-  color: #526057;
+  color: var(--muted);
 }
 
 .cm-mapping {
@@ -533,7 +533,7 @@
   grid-template-columns: 100px 1fr 40px;
   align-items: center;
   gap: 12px;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .cm-report-bars i {
@@ -574,7 +574,7 @@
   }
   .cm-inspector {
     border-inline-start: 0;
-    border-block-start: 1px solid #d8ded7;
+    border-block-start: 1px solid var(--line);
     padding-inline-start: 0;
     padding-block-start: 24px;
     display: grid;
@@ -609,7 +609,7 @@
     grid-template-columns: minmax(0, 1fr);
   }
   .cm-ai-panel {
-    border-block-start: 1px solid #d8ded7;
+    border-block-start: 1px solid var(--line);
     padding-block-start: 22px;
   }
   .cm-creative-gallery {
@@ -630,11 +630,11 @@
     padding: 12px;
   }
   .cm-budget-ledger > div {
-    font-size: 12px;
+    font-size: 13px;
     gap: 12px;
   }
   .cm-workflow-strip span {
-    font-size: 11px;
+    font-size: 13px;
   }
   .cm-stage-heading h2 {
     font-size: 25px;
@@ -643,12 +643,12 @@
     white-space: normal;
   }
   .cm-steps button {
-    font-size: 11px;
+    font-size: 13px;
   }
 }
 
 main:has(.cm-nav) .px-overline {
-  color: #825d3f;
+  color: var(--muted);
 }
 
 main:has(.cm-nav)
@@ -660,7 +660,7 @@ main:has(.cm-nav)
     .px-muted-copy,
     .px-subnav a
   ) {
-  color: #536359;
+  color: var(--muted);
 }
 
 main:has(.cm-nav) .px-pill-info {
@@ -668,7 +668,7 @@ main:has(.cm-nav) .px-pill-info {
 }
 
 main:has(.cm-nav) .px-pill-neutral {
-  color: #526457;
+  color: var(--muted);
 }
 
 main:has(.cm-nav) .px-notice-warning {
@@ -680,7 +680,7 @@ main:has(.cm-nav) .px-notice-warning {
 }
 
 main:has(.cm-nav) :is(input, textarea)::placeholder {
-  color: #657265;
+  color: var(--muted);
   opacity: 1;
 }
 
@@ -701,7 +701,7 @@ main:has(.cm-nav) .px-pill-warning {
 .cm-proposal > details > summary > small {
   display: block;
   margin-block: 8px;
-  color: #526057;
+  color: var(--muted);
 }
 
 .cm-proposal > details > summary > .px-pill {

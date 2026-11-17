@@ -4,7 +4,7 @@
 }
 
 .oa-persona p {
-  font-size: 12px;
+  font-size: 13px;
   max-width: 650px;
   color: #555;
 }
@@ -33,7 +33,7 @@
 
 .oa-muted {
   display: block;
-  font-size: 12px;
+  font-size: 13px;
   color: #5b5b56;
   line-height: 1.7;
   overflow-wrap: anywhere;
@@ -59,7 +59,7 @@
   justify-content: space-between;
   gap: 20px;
   padding-block: 12px;
-  border-block-end: 1px solid #e5e5df;
+  border-block-end: 1px solid var(--line);
 }
 
 .oa-details dd {
@@ -159,7 +159,7 @@
 }
 
 main:has(.oa-nav) .px-overline {
-  color: #825d3f;
+  color: var(--muted);
 }
 
 main:has(.oa-nav) .px-pill-info {
@@ -167,7 +167,7 @@ main:has(.oa-nav) .px-pill-info {
 }
 
 main:has(.oa-nav) .px-pill-neutral {
-  color: #526457;
+  color: var(--muted);
 }
 
 main:has(.oa-nav) .px-pill-warning {
@@ -183,7 +183,7 @@ main:has(.oa-nav) .px-section>:is(.oa-details,.oa-inspector-toolbar,.oa-change-p
 }
 
 .oa-review-layout .px-section>form {
-  border-block-start: 1px solid #e5e5df;
+  border-block-start: 1px solid var(--line);
 }
 
 .oa-review-layout .px-section>a {

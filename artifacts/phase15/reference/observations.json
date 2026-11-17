@@ -1,0 +1,3006 @@
+[
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "",
+    "status": 200,
+    "title": "AqarPro — Property services for builders & agencies",
+    "text": "Services\nHow it works\nPortals\nPricing\nS1\nS1 + S2\nDemo portals\nالعربية\nSign in\nGet started\nFor builders, agencies and brokers in Qatar\nOne property record.\nEvery portal.\n\nAqarPro sits between you and the property portals. AI prepares your listings, our connectors publish them everywhere, and AI handles the enquiries and the marketing.\n\nGet started\nOpen the agency workspace\nBuilder / agency\nAqarPro\nListing services\nPortal connectors\nHelp desk AI · Marketing AI\nA\nPortal A (mock)\nB\nPortal B (mock)\n+ more portals\nWhat your plan includes\n\nChoose a plan, and we run these services for your properties.\n\nS1\nListing services\n\nSend us a note, a document, a voice message or photos — AI prepares a complete Arabic and English listing, and your team approves it.\n\nFacts extracted, never invented\nPhotos tagged by room\nQuality and compliance checks\nSee it in the workspace\nS1\nPortal connectors\n\nOne master record, published to every property portal you choose through official connectors — with status, retries and no duplicates.\n\nPortal-specific versions\nMissing fields flagged before publishing\nLive status dashboard\nSee it in the workspace\nS2\nHelp desk AI\n\nAnswers buyers and tenants on WhatsApp and web chat in Arabic and English, using only your live listings, and hands over to your team at any time.\n\nProperty packs on WhatsApp\nScored leads with consent\nHuman handover with SLA\nSee it in the workspace\nS2\nMarketing AI\n\nDrafts Facebook and Instagram campaigns for a property — audience, budget and bilingual copy — and launches only after you approve.\n\nHousing-ad policy checks\nSpend caps you control\nAd spend and fee billed separately\nSee it in the workspace\nHow it works\n1\nSend the property\n\nText, listing sheet, voice note or photos — from the builder or the agent.\n\n2\nAI prepares it\n\nBilingual descriptions, room-tagged photos and checks; your team confirms every fact.\n\n3\nWe publish everywhere\n\nEach portal gets its own version through its official connector.\n\n4\nEnquiries come back\n\nEvery lead from portals, WhatsApp and ads lands in one lead manager.\n\nConnected portals\n\nWe publish only through official APIs, approved feeds or methods each portal permits — never scraping. Each portal's capabilities are respected: if a portal can't unpublish or return leads, the workspace says so.\n\nOpen the Portal Hub\nA\nPortal A (mock)\n\nFull REST API: create, update, unpublish, status and lead retrieval.\n\ncreate\nupdate\nunpublish\nstatus\nleads\nB\nPortal B (mock)\n\nPublish-only XML feed: no unpublish and no lead retrieval. Requires permit number and floor; titles max 70 characters.\n\ncreate\nupdate\nstatus\nBuilders & developers\nLaunch a whole project on every portal at once.\nAgencies\nTeam roles, shared inventory and one inbox for all leads.\nBrokers & owners\nProfessional listings and replies without the busywork.\nPlans built around services\n\nPick the listing volume, portal connections, team seats and AI credits you need.\n\nSee plans\nGet started\n\nThe bridge between builders, agencies and Qatar's property portals.\n\nServices\nAI Listing Studio\nPortal connectors\nHelp desk AI\nMarketing AI\nBuilders & agencies\nPlans & pricing\nGet started\nAgency dashboard\nAqarPro\nAbout\nTerms\nPrivacy\nContact\nInteractive prototype — demo data only · © 2026 AqarPro\nReset demo data\nAsk AqarPro AI",
+    "links": [
+      {
+        "text": "",
+        "href": "/en"
+      },
+      {
+        "text": "Services",
+        "href": "/en#services"
+      },
+      {
+        "text": "How it works",
+        "href": "/en#how"
+      },
+      {
+        "text": "Portals",
+        "href": "/en#portals"
+      },
+      {
+        "text": "Pricing",
+        "href": "/en/pricing"
+      },
+      {
+        "text": "Sign in",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "Get started",
+        "href": "/en/register"
+      },
+      {
+        "text": "Get started",
+        "href": "/en/register"
+      },
+      {
+        "text": "Open the agency workspace",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "See it in the workspace",
+        "href": "/en/advertiser/studio"
+      },
+      {
+        "text": "See it in the workspace",
+        "href": "/en/hub"
+      },
+      {
+        "text": "See it in the workspace",
+        "href": "/en/whatsapp"
+      },
+      {
+        "text": "See it in the workspace",
+        "href": "/en/advertiser/promote/AQ-10233"
+      },
+      {
+        "text": "Open the Portal Hub",
+        "href": "/en/hub"
+      },
+      {
+        "text": "See plans",
+        "href": "/en/pricing"
+      },
+      {
+        "text": "Get started",
+        "href": "/en/register"
+      },
+      {
+        "text": "AI Listing Studio",
+        "href": "/en/advertiser/studio"
+      },
+      {
+        "text": "Portal connectors",
+        "href": "/en/hub"
+      },
+      {
+        "text": "Help desk AI",
+        "href": "/en/whatsapp"
+      },
+      {
+        "text": "Marketing AI",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "Plans & pricing",
+        "href": "/en/pricing"
+      },
+      {
+        "text": "Get started",
+        "href": "/en/register"
+      },
+      {
+        "text": "Agency dashboard",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "About",
+        "href": "/en"
+      },
+      {
+        "text": "Terms",
+        "href": "/en"
+      },
+      {
+        "text": "Privacy",
+        "href": "/en"
+      },
+      {
+        "text": "Contact",
+        "href": "/en"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/register",
+    "status": 200,
+    "title": "AqarPro — Property services for builders & agencies",
+    "text": "Services\nHow it works\nPortals\nPricing\nS1\nS1 + S2\nDemo portals\nالعربية\nSign in\nGet started\nRegister as an advertiser\nS1\nFR-ACC-01\nFR-ACC-03\n\nUAT scenario C3 — register, upload QID or CR + licence, get verified, then subscribe and post.\n\n1\nAccount\n2\nIdentity & licence\n3\nVerification\nG\nContinue with Google\nContinue with Apple\nor\nEmail + password\nMobile + OTP\nYour full name\nEmail\nPassword (min 8 characters)\n\nBy continuing you accept the Terms and Privacy Policy (Qatar Law No. 13 of 2016). Marketing and WhatsApp consent can be changed any time.\n\nContinue\n\nThe bridge between builders, agencies and Qatar's property portals.\n\nServices\nAI Listing Studio\nPortal connectors\nHelp desk AI\nMarketing AI\nBuilders & agencies\nPlans & pricing\nGet started\nAgency dashboard\nAqarPro\nAbout\nTerms\nPrivacy\nContact\nInteractive prototype — demo data only · © 2026 AqarPro\nReset demo data\nAsk AqarPro AI",
+    "links": [
+      {
+        "text": "",
+        "href": "/en"
+      },
+      {
+        "text": "Services",
+        "href": "/en#services"
+      },
+      {
+        "text": "How it works",
+        "href": "/en#how"
+      },
+      {
+        "text": "Portals",
+        "href": "/en#portals"
+      },
+      {
+        "text": "Pricing",
+        "href": "/en/pricing"
+      },
+      {
+        "text": "Sign in",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "Get started",
+        "href": "/en/register"
+      },
+      {
+        "text": "AI Listing Studio",
+        "href": "/en/advertiser/studio"
+      },
+      {
+        "text": "Portal connectors",
+        "href": "/en/hub"
+      },
+      {
+        "text": "Help desk AI",
+        "href": "/en/whatsapp"
+      },
+      {
+        "text": "Marketing AI",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "Plans & pricing",
+        "href": "/en/pricing"
+      },
+      {
+        "text": "Get started",
+        "href": "/en/register"
+      },
+      {
+        "text": "Agency dashboard",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "About",
+        "href": "/en"
+      },
+      {
+        "text": "Terms",
+        "href": "/en"
+      },
+      {
+        "text": "Privacy",
+        "href": "/en"
+      },
+      {
+        "text": "Contact",
+        "href": "/en"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/advertiser",
+    "status": 200,
+    "title": "AqarPro — Property services for builders & agencies",
+    "text": "Services\nHow it works\nPortals\nPricing\nS1\nS1 + S2\nDemo portals\nالعربية\nSign in\nGet started\nDEMO SIGN-IN\nAccount\nPearl Gate Realty ✓\nLusail Homes ✓\nDoha Prime Properties ✓\nAhmed Al-Kuwari ✓\nSara Mansour (Broker) ✓\nOmar Haddad · unverified\nGulf Key Realty · unverified\nActing as\nRania Haddad — Owner\nYousef Al-Marri — Manager\nFatima Noor — Agent\nKarim Said — Agent\nPriya Menon (Finance) — Read-only\nOwner\nFR-ACC-02\nRegister a new advertiser\nPG\nPearl Gate Realty\n\nAdvertiser portal · Plan: Agency · Agency organisation · Signed in as Owner\nS1\n\nAI Listing Studio\nPost a listing\nOverview\nListings\nLeads2\nBilling\nTeam\nVerification & compliance2\nListing views (30d)\n9,855\n▲ 12% vs last month\nEnquiries\n246\n▲ 8%\nWhatsApp clicks\n444\n▲ 21%\nLeads this month\n46\n2 new, awaiting reply\nViews & WhatsApp clicks — last 14 days\nFR-LST-10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\nViews\nWhatsApp clicks\nLeads by source channel\nWhatsApp\n51%\nWeb enquiry\n28%\nAI assistant\n16%\nMeta ads\n4%\n\nClick-to-WhatsApp ads are attributed on the first message.\n\nPlan usage\nAgency\nActive listings\n5 / 150\nTeam seats\n5 / 10\nAI credits this month\n555 / 2000\nTop performing listings\n3BR townhouse with private beach, Qanat Quartier\nAQ-10241\n2,690\n161\n121\nFurnished 1BR in Medina Centrale, bills included\nAQ-10251\n2,680\n161\n121\nLuxury 4BR penthouse with private terrace, West Bay\nAQ-10244\n2,447\n147\n110\nFreehold 3BR + maid in Viva Bahriya\nAQ-10233\n1,738\n104\n78\n\nThe bridge between builders, agencies and Qatar's property portals.\n\nServices\nAI Listing Studio\nPortal connectors\nHelp desk AI\nMarketing AI\nBuilders & agencies\nPlans & pricing\nGet started\nAgency dashboard\nAqarPro\nAbout\nTerms\nPrivacy\nContact\nInteractive prototype — demo data only · © 2026 AqarPro\nReset demo data\nAsk AqarPro AI",
+    "links": [
+      {
+        "text": "",
+        "href": "/en"
+      },
+      {
+        "text": "Services",
+        "href": "/en#services"
+      },
+      {
+        "text": "How it works",
+        "href": "/en#how"
+      },
+      {
+        "text": "Portals",
+        "href": "/en#portals"
+      },
+      {
+        "text": "Pricing",
+        "href": "/en/pricing"
+      },
+      {
+        "text": "Sign in",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "Get started",
+        "href": "/en/register"
+      },
+      {
+        "text": "Register a new advertiser",
+        "href": "/en/register"
+      },
+      {
+        "text": "AI Listing Studio",
+        "href": "/en/advertiser/studio"
+      },
+      {
+        "text": "Post a listing",
+        "href": "/en/advertiser/new"
+      },
+      {
+        "text": "AI Listing Studio",
+        "href": "/en/advertiser/studio"
+      },
+      {
+        "text": "Portal connectors",
+        "href": "/en/hub"
+      },
+      {
+        "text": "Help desk AI",
+        "href": "/en/whatsapp"
+      },
+      {
+        "text": "Marketing AI",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "Plans & pricing",
+        "href": "/en/pricing"
+      },
+      {
+        "text": "Get started",
+        "href": "/en/register"
+      },
+      {
+        "text": "Agency dashboard",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "About",
+        "href": "/en"
+      },
+      {
+        "text": "Terms",
+        "href": "/en"
+      },
+      {
+        "text": "Privacy",
+        "href": "/en"
+      },
+      {
+        "text": "Contact",
+        "href": "/en"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/advertiser/new",
+    "status": 200,
+    "title": "AqarPro — Property services for builders & agencies",
+    "text": "Services\nHow it works\nPortals\nPricing\nS1\nS1 + S2\nDemo portals\nالعربية\nSign in\nGet started\nDEMO SIGN-IN\nAccount\nPearl Gate Realty ✓\nLusail Homes ✓\nDoha Prime Properties ✓\nAhmed Al-Kuwari ✓\nSara Mansour (Broker) ✓\nOmar Haddad · unverified\nGulf Key Realty · unverified\nActing as\nRania Haddad — Owner\nYousef Al-Marri — Manager\nFatima Noor — Agent\nKarim Said — Agent\nPriya Menon (Finance) — Read-only\nOwner\nFR-ACC-02\nRegister a new advertiser\nPost a listing\n\nPearl Gate Realty · 5/150 listings used · 1445 AI credits left\nS1\nFR-LST-01\n\n1. Basics\n2. Details\n3. Title & description\n4. Photos\n5. Review & submit\nPurpose\nFor rent\nFor sale\nProperty type\nApartment\nVilla\nTownhouse\nPenthouse\nStudio\nOffice\nArea / zone\nThe Pearl\nLusail\nWest Bay\nAl Sadd\nMsheireb\nAl Waab\nAl Wakrah\nAl Gharrafa\nBin Mahmoud\nOld Airport\nAl Duhail\nAin Khaled\nBuilding / compound (optional)\nMap pin set automatically from the zone:\n25.3705, 51.5512\n· advertisers can drag it to the exact building\nBack\nContinue\n\nThe bridge between builders, agencies and Qatar's property portals.\n\nServices\nAI Listing Studio\nPortal connectors\nHelp desk AI\nMarketing AI\nBuilders & agencies\nPlans & pricing\nGet started\nAgency dashboard\nAqarPro\nAbout\nTerms\nPrivacy\nContact\nInteractive prototype — demo data only · © 2026 AqarPro\nReset demo data\nAsk AqarPro AI",
+    "links": [
+      {
+        "text": "",
+        "href": "/en"
+      },
+      {
+        "text": "Services",
+        "href": "/en#services"
+      },
+      {
+        "text": "How it works",
+        "href": "/en#how"
+      },
+      {
+        "text": "Portals",
+        "href": "/en#portals"
+      },
+      {
+        "text": "Pricing",
+        "href": "/en/pricing"
+      },
+      {
+        "text": "Sign in",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "Get started",
+        "href": "/en/register"
+      },
+      {
+        "text": "Register a new advertiser",
+        "href": "/en/register"
+      },
+      {
+        "text": "AI Listing Studio",
+        "href": "/en/advertiser/studio"
+      },
+      {
+        "text": "Portal connectors",
+        "href": "/en/hub"
+      },
+      {
+        "text": "Help desk AI",
+        "href": "/en/whatsapp"
+      },
+      {
+        "text": "Marketing AI",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "Plans & pricing",
+        "href": "/en/pricing"
+      },
+      {
+        "text": "Get started",
+        "href": "/en/register"
+      },
+      {
+        "text": "Agency dashboard",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "About",
+        "href": "/en"
+      },
+      {
+        "text": "Terms",
+        "href": "/en"
+      },
+      {
+        "text": "Privacy",
+        "href": "/en"
+      },
+      {
+        "text": "Contact",
+        "href": "/en"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/advertiser/studio",
+    "status": 200,
+    "title": "AI Listing Studio · AqarPro",
+    "text": "Services\nHow it works\nPortals\nPricing\nS1\nS1 + S2\nDemo portals\nالعربية\nSign in\nGet started\nAI Listing Studio\nS1\n\nPaste a note, upload a document or send a voice note. AI drafts the listing; a person confirms every fact before anything is saved or published.\n\nActing as\nRania Haddad · Owner\nYousef Al-Marri · Manager\nFatima Noor · Agent\nKarim Said · Agent\nPriya Menon (Finance) · Read-only\nAI credits left\n1,445 / 2,000\nNew\n1.Intake\n2.Facts\n3.Photos\n4.AR / EN copy\n5.Checks & approve\n6.Publish to portals\nHow would you like to add the property?\nAIS-01\n2 credits\nPaste text\nA WhatsApp note or an email from the owner\n5 credits\nUpload a document\nListing sheet, PDF or photo of a form — OCR\n4 credits\nVoice note\nSpeak the details in Arabic or English\nUse English sample\nUse Arabic sample\nExtract facts with AI · 2 credits\n\nThe bridge between builders, agencies and Qatar's property portals.\n\nServices\nAI Listing Studio\nPortal connectors\nHelp desk AI\nMarketing AI\nBuilders & agencies\nPlans & pricing\nGet started\nAgency dashboard\nAqarPro\nAbout\nTerms\nPrivacy\nContact\nInteractive prototype — demo data only · © 2026 AqarPro\nReset demo data\nAsk AqarPro AI",
+    "links": [
+      {
+        "text": "",
+        "href": "/en"
+      },
+      {
+        "text": "Services",
+        "href": "/en#services"
+      },
+      {
+        "text": "How it works",
+        "href": "/en#how"
+      },
+      {
+        "text": "Portals",
+        "href": "/en#portals"
+      },
+      {
+        "text": "Pricing",
+        "href": "/en/pricing"
+      },
+      {
+        "text": "Sign in",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "Get started",
+        "href": "/en/register"
+      },
+      {
+        "text": "AI Listing Studio",
+        "href": "/en/advertiser/studio"
+      },
+      {
+        "text": "Portal connectors",
+        "href": "/en/hub"
+      },
+      {
+        "text": "Help desk AI",
+        "href": "/en/whatsapp"
+      },
+      {
+        "text": "Marketing AI",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "Plans & pricing",
+        "href": "/en/pricing"
+      },
+      {
+        "text": "Get started",
+        "href": "/en/register"
+      },
+      {
+        "text": "Agency dashboard",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "About",
+        "href": "/en"
+      },
+      {
+        "text": "Terms",
+        "href": "/en"
+      },
+      {
+        "text": "Privacy",
+        "href": "/en"
+      },
+      {
+        "text": "Contact",
+        "href": "/en"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/hub",
+    "status": 200,
+    "title": "Portal Integration Hub · AqarPro",
+    "text": "Services\nHow it works\nPortals\nPricing\nS1\nS1 + S2\nDemo portals\nالعربية\nSign in\nGet started\nPortal Integration Hub\nS1\n\nOne canonical listing, many portals: mapped versions, validation, a durable job queue, safe retries and full history.\nHUB-01\nFR-LST-12\n\nActing as\nRania Haddad · Owner\nYousef Al-Marri · Manager\nFatima Noor · Agent\nKarim Said · Agent\nPriya Menon (Finance) · Read-only\nNew listing with AI Studio\nDestinations\n4\n3 listings\nPublished\n3\nNeed a fix\n1\nQueue depth\n0\n1 retries\nJob success rate\n100%\n3 finished\nDestinations\n1\nJobs\nConnectors\nHealth\nStatus per listing and portal\nS1\nHUB-07\nHUB-09\nAqarPro listing\t\nA\nPortal A (mock)\t\nB\nPortal B (mock)\n\nAQ-10231\nSea-view 2BR in Porto Arabia, fully furnished\n\t\nPublished\nPA-884120 · v3\nsynced 45 minutes ago\n\t\nPublished\nPB-55211 · v2\nsynced 50 minutes ago\n\n\nAQ-10244\nLuxury 4BR penthouse with private terrace, West Bay\n\t\nPublished\nPA-884377 · v1\nsynced 2 hours ago\n\tnot published\n\nAQ-10241\n3BR townhouse with private beach, Qanat Quartier\n\tnot published\t\nNeeds fix\nno external ID · v1\n→ Fix the flagged field\nPublish or manage a listing\nChoose a listing…\nAQ-10231 · Sea-view 2BR in Porto Arabia, fully furnished (live)\nAQ-10233 · Freehold 3BR + maid in Viva Bahriya (live)\nAQ-10241 · 3BR townhouse with private beach, Qanat Quartier (live)\nAQ-10244 · Luxury 4BR penthouse with private terrace, West Bay (live)\nAQ-10251 · Furnished 1BR in Medina Centrale, bills included (live)\n\nThe bridge between builders, agencies and Qatar's property portals.\n\nServices\nAI Listing Studio\nPortal connectors\nHelp desk AI\nMarketing AI\nBuilders & agencies\nPlans & pricing\nGet started\nAgency dashboard\nAqarPro\nAbout\nTerms\nPrivacy\nContact\nInteractive prototype — demo data only · © 2026 AqarPro\nReset demo data\nAsk AqarPro AI",
+    "links": [
+      {
+        "text": "",
+        "href": "/en"
+      },
+      {
+        "text": "Services",
+        "href": "/en#services"
+      },
+      {
+        "text": "How it works",
+        "href": "/en#how"
+      },
+      {
+        "text": "Portals",
+        "href": "/en#portals"
+      },
+      {
+        "text": "Pricing",
+        "href": "/en/pricing"
+      },
+      {
+        "text": "Sign in",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "Get started",
+        "href": "/en/register"
+      },
+      {
+        "text": "New listing with AI Studio",
+        "href": "/en/advertiser/studio"
+      },
+      {
+        "text": "AI Listing Studio",
+        "href": "/en/advertiser/studio"
+      },
+      {
+        "text": "Portal connectors",
+        "href": "/en/hub"
+      },
+      {
+        "text": "Help desk AI",
+        "href": "/en/whatsapp"
+      },
+      {
+        "text": "Marketing AI",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "Plans & pricing",
+        "href": "/en/pricing"
+      },
+      {
+        "text": "Get started",
+        "href": "/en/register"
+      },
+      {
+        "text": "Agency dashboard",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "About",
+        "href": "/en"
+      },
+      {
+        "text": "Terms",
+        "href": "/en"
+      },
+      {
+        "text": "Privacy",
+        "href": "/en"
+      },
+      {
+        "text": "Contact",
+        "href": "/en"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/advertiser/promote/AQ-10233",
+    "status": 200,
+    "title": "AqarPro — Property services for builders & agencies",
+    "text": "Services\nHow it works\nPortals\nPricing\nS1\nS1 + S2\nDemo portals\nالعربية\nSign in\nGet started\nBack to listings\nPromote on Facebook & Instagram\nS2\n\nAQ-10233\n· Freehold 3BR + maid in Viva Bahriya\nSpecial ad category: HOUSING\n\nFR-ADV-04\nWP-MKT-01\nWP-MKT-02\n1.Agent draft\n2.Targeting & copy\n3.Budget & caps\n4.Approve\nAqarPro Marketing Agent\nReading the listing, estimating reach and drafting creatives…\nAgent tool calls\nWP-MKT-07\n…\nRead-only listing access · scoped Meta wrapper · credentials server-side · every call audited\nCampaigns for this listing\nS2\nCMP-77\nactive\nSpend\nQAR 1,240\nReach\n48,200\nClicks\n1,310\nLeads\n37\nCPL\nQAR 33.5\nFee\nQAR 300\nSimulate 7 days on Meta\nLead manager →\nWeekly summary\nWP-MKT-05\n\nThis week your ad reached 48,200 people and brought 37 leads at QAR 33.5 each — about 18% cheaper than similar listings at The Pearl. Most conversations started on Instagram Stories.\n\nMove 20% of budget from Feed to Stories\nReview\nRefresh the creative — frequency is 3.1\nReview\n\nSuggestions are never applied automatically. Sent weekly by email and WhatsApp.\n\nListing views\n1,738\nWhatsApp clicks\n78\n\nThe bridge between builders, agencies and Qatar's property portals.\n\nServices\nAI Listing Studio\nPortal connectors\nHelp desk AI\nMarketing AI\nBuilders & agencies\nPlans & pricing\nGet started\nAgency dashboard\nAqarPro\nAbout\nTerms\nPrivacy\nContact\nInteractive prototype — demo data only · © 2026 AqarPro\nReset demo data\nAsk AqarPro AI",
+    "links": [
+      {
+        "text": "",
+        "href": "/en"
+      },
+      {
+        "text": "Services",
+        "href": "/en#services"
+      },
+      {
+        "text": "How it works",
+        "href": "/en#how"
+      },
+      {
+        "text": "Portals",
+        "href": "/en#portals"
+      },
+      {
+        "text": "Pricing",
+        "href": "/en/pricing"
+      },
+      {
+        "text": "Sign in",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "Get started",
+        "href": "/en/register"
+      },
+      {
+        "text": "Back to listings",
+        "href": "/en/advertiser?tab=listings"
+      },
+      {
+        "text": "Lead manager →",
+        "href": "/en/advertiser/leads"
+      },
+      {
+        "text": "AI Listing Studio",
+        "href": "/en/advertiser/studio"
+      },
+      {
+        "text": "Portal connectors",
+        "href": "/en/hub"
+      },
+      {
+        "text": "Help desk AI",
+        "href": "/en/whatsapp"
+      },
+      {
+        "text": "Marketing AI",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "Plans & pricing",
+        "href": "/en/pricing"
+      },
+      {
+        "text": "Get started",
+        "href": "/en/register"
+      },
+      {
+        "text": "Agency dashboard",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "About",
+        "href": "/en"
+      },
+      {
+        "text": "Terms",
+        "href": "/en"
+      },
+      {
+        "text": "Privacy",
+        "href": "/en"
+      },
+      {
+        "text": "Contact",
+        "href": "/en"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/whatsapp",
+    "status": 200,
+    "title": "WhatsApp experience · AqarPro",
+    "text": "Services\nHow it works\nPortals\nPricing\nS1\nS1 + S2\nDemo portals\nالعربية\nSign in\nGet started\nWhatsApp experience\nS1\nS2\n\nA live simulation of the customer's WhatsApp. Try: “2 bed in The Pearl under 13k”, the reply buttons, “Property pack”, “Talk to agent”, or STOP. Agent replies from the Support inbox appear here.\n\nLead manager\nOpen support inbox\nRestart chat\nAqarPro\nOfficial business account\nToday\n\nOfficial WhatsApp Business Cloud API — no unofficial tools\n\nConversation context\nS1\nCustomer\n+974 3000 0000\nOpt-in not asked yet 24h service window open\nListing in context\n—\nMessage templates (outside the 24-hour window)\nS2\nnew_match_alert\nMARKETING · en, ar\nAPPROVED\nSend template\nprice_drop_alert\nMARKETING · en, ar\nAPPROVED\nSend template\nlisting_renewal_notice\nUTILITY · en, ar\nPENDING\nweekend_flash_offer\nMARKETING · en, ar · Rejected: promotional wording not allowed (policy)\nREJECTED\nBehind the scenes\nwebhooks · API calls · routing\n17:37:27\nAPI\nPhone number +974 4000 1234 · display name “AqarPro” · quality rating GREEN · Cloud API\n17:37:27\nWEBHOOK\nWebhook verified · subscribed fields: messages, message_template_status_update\nConsent log S1\nNo consent recorded yet for this number.\n\nThe bridge between builders, agencies and Qatar's property portals.\n\nServices\nAI Listing Studio\nPortal connectors\nHelp desk AI\nMarketing AI\nBuilders & agencies\nPlans & pricing\nGet started\nAgency dashboard\nAqarPro\nAbout\nTerms\nPrivacy\nContact\nInteractive prototype — demo data only · © 2026 AqarPro\nReset demo data",
+    "links": [
+      {
+        "text": "",
+        "href": "/en"
+      },
+      {
+        "text": "Services",
+        "href": "/en#services"
+      },
+      {
+        "text": "How it works",
+        "href": "/en#how"
+      },
+      {
+        "text": "Portals",
+        "href": "/en#portals"
+      },
+      {
+        "text": "Pricing",
+        "href": "/en/pricing"
+      },
+      {
+        "text": "Sign in",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "Get started",
+        "href": "/en/register"
+      },
+      {
+        "text": "Lead manager",
+        "href": "/en/advertiser/leads"
+      },
+      {
+        "text": "Open support inbox",
+        "href": "/en/inbox"
+      },
+      {
+        "text": "AI Listing Studio",
+        "href": "/en/advertiser/studio"
+      },
+      {
+        "text": "Portal connectors",
+        "href": "/en/hub"
+      },
+      {
+        "text": "Help desk AI",
+        "href": "/en/whatsapp"
+      },
+      {
+        "text": "Marketing AI",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "Plans & pricing",
+        "href": "/en/pricing"
+      },
+      {
+        "text": "Get started",
+        "href": "/en/register"
+      },
+      {
+        "text": "Agency dashboard",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "About",
+        "href": "/en"
+      },
+      {
+        "text": "Terms",
+        "href": "/en"
+      },
+      {
+        "text": "Privacy",
+        "href": "/en"
+      },
+      {
+        "text": "Contact",
+        "href": "/en"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/properties",
+    "status": 404,
+    "title": "404: This page could not be found.",
+    "text": "404\nThis page could not be found.",
+    "links": []
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "route": "/properties/AQ-10233",
+    "status": 404,
+    "title": "404: This page could not be found.",
+    "text": "404\nThis page could not be found.",
+    "links": []
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "",
+    "status": 200,
+    "title": "AqarPro — Property services for builders & agencies",
+    "text": "ع\nFor builders, agencies and brokers in Qatar\nOne property record.\nEvery portal.\n\nAqarPro sits between you and the property portals. AI prepares your listings, our connectors publish them everywhere, and AI handles the enquiries and the marketing.\n\nGet started\nOpen the agency workspace\nBuilder / agency\nAqarPro\nListing services\nPortal connectors\nHelp desk AI · Marketing AI\nA\nPortal A (mock)\nB\nPortal B (mock)\n+ more portals\nWhat your plan includes\n\nChoose a plan, and we run these services for your properties.\n\nS1\nListing services\n\nSend us a note, a document, a voice message or photos — AI prepares a complete Arabic and English listing, and your team approves it.\n\nFacts extracted, never invented\nPhotos tagged by room\nQuality and compliance checks\nSee it in the workspace\nS1\nPortal connectors\n\nOne master record, published to every property portal you choose through official connectors — with status, retries and no duplicates.\n\nPortal-specific versions\nMissing fields flagged before publishing\nLive status dashboard\nSee it in the workspace\nS2\nHelp desk AI\n\nAnswers buyers and tenants on WhatsApp and web chat in Arabic and English, using only your live listings, and hands over to your team at any time.\n\nProperty packs on WhatsApp\nScored leads with consent\nHuman handover with SLA\nSee it in the workspace\nS2\nMarketing AI\n\nDrafts Facebook and Instagram campaigns for a property — audience, budget and bilingual copy — and launches only after you approve.\n\nHousing-ad policy checks\nSpend caps you control\nAd spend and fee billed separately\nSee it in the workspace\nHow it works\n1\nSend the property\n\nText, listing sheet, voice note or photos — from the builder or the agent.\n\n2\nAI prepares it\n\nBilingual descriptions, room-tagged photos and checks; your team confirms every fact.\n\n3\nWe publish everywhere\n\nEach portal gets its own version through its official connector.\n\n4\nEnquiries come back\n\nEvery lead from portals, WhatsApp and ads lands in one lead manager.\n\nConnected portals\n\nWe publish only through official APIs, approved feeds or methods each portal permits — never scraping. Each portal's capabilities are respected: if a portal can't unpublish or return leads, the workspace says so.\n\nOpen the Portal Hub\nA\nPortal A (mock)\n\nFull REST API: create, update, unpublish, status and lead retrieval.\n\ncreate\nupdate\nunpublish\nstatus\nleads\nB\nPortal B (mock)\n\nPublish-only XML feed: no unpublish and no lead retrieval. Requires permit number and floor; titles max 70 characters.\n\ncreate\nupdate\nstatus\nBuilders & developers\nLaunch a whole project on every portal at once.\nAgencies\nTeam roles, shared inventory and one inbox for all leads.\nBrokers & owners\nProfessional listings and replies without the busywork.\nPlans built around services\n\nPick the listing volume, portal connections, team seats and AI credits you need.\n\nSee plans\nGet started\n\nThe bridge between builders, agencies and Qatar's property portals.\n\nServices\nAI Listing Studio\nPortal connectors\nHelp desk AI\nMarketing AI\nBuilders & agencies\nPlans & pricing\nGet started\nAgency dashboard\nAqarPro\nAbout\nTerms\nPrivacy\nContact\nInteractive prototype — demo data only · © 2026 AqarPro\nReset demo data",
+    "links": [
+      {
+        "text": "",
+        "href": "/en"
+      },
+      {
+        "text": "Services",
+        "href": "/en#services"
+      },
+      {
+        "text": "How it works",
+        "href": "/en#how"
+      },
+      {
+        "text": "Portals",
+        "href": "/en#portals"
+      },
+      {
+        "text": "Pricing",
+        "href": "/en/pricing"
+      },
+      {
+        "text": "Sign in",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "Get started",
+        "href": "/en/register"
+      },
+      {
+        "text": "Get started",
+        "href": "/en/register"
+      },
+      {
+        "text": "Open the agency workspace",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "See it in the workspace",
+        "href": "/en/advertiser/studio"
+      },
+      {
+        "text": "See it in the workspace",
+        "href": "/en/hub"
+      },
+      {
+        "text": "See it in the workspace",
+        "href": "/en/whatsapp"
+      },
+      {
+        "text": "See it in the workspace",
+        "href": "/en/advertiser/promote/AQ-10233"
+      },
+      {
+        "text": "Open the Portal Hub",
+        "href": "/en/hub"
+      },
+      {
+        "text": "See plans",
+        "href": "/en/pricing"
+      },
+      {
+        "text": "Get started",
+        "href": "/en/register"
+      },
+      {
+        "text": "AI Listing Studio",
+        "href": "/en/advertiser/studio"
+      },
+      {
+        "text": "Portal connectors",
+        "href": "/en/hub"
+      },
+      {
+        "text": "Help desk AI",
+        "href": "/en/whatsapp"
+      },
+      {
+        "text": "Marketing AI",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "Plans & pricing",
+        "href": "/en/pricing"
+      },
+      {
+        "text": "Get started",
+        "href": "/en/register"
+      },
+      {
+        "text": "Agency dashboard",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "About",
+        "href": "/en"
+      },
+      {
+        "text": "Terms",
+        "href": "/en"
+      },
+      {
+        "text": "Privacy",
+        "href": "/en"
+      },
+      {
+        "text": "Contact",
+        "href": "/en"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/register",
+    "status": 200,
+    "title": "AqarPro — Property services for builders & agencies",
+    "text": "ع\nRegister as an advertiser\nS1\nFR-ACC-01\nFR-ACC-03\n\nUAT scenario C3 — register, upload QID or CR + licence, get verified, then subscribe and post.\n\n1\nAccount\n2\nIdentity & licence\n3\nVerification\nG\nContinue with Google\nContinue with Apple\nor\nEmail + password\nMobile + OTP\nYour full name\nEmail\nPassword (min 8 characters)\n\nBy continuing you accept the Terms and Privacy Policy (Qatar Law No. 13 of 2016). Marketing and WhatsApp consent can be changed any time.\n\nContinue\n\nThe bridge between builders, agencies and Qatar's property portals.\n\nServices\nAI Listing Studio\nPortal connectors\nHelp desk AI\nMarketing AI\nBuilders & agencies\nPlans & pricing\nGet started\nAgency dashboard\nAqarPro\nAbout\nTerms\nPrivacy\nContact\nInteractive prototype — demo data only · © 2026 AqarPro\nReset demo data",
+    "links": [
+      {
+        "text": "",
+        "href": "/en"
+      },
+      {
+        "text": "Services",
+        "href": "/en#services"
+      },
+      {
+        "text": "How it works",
+        "href": "/en#how"
+      },
+      {
+        "text": "Portals",
+        "href": "/en#portals"
+      },
+      {
+        "text": "Pricing",
+        "href": "/en/pricing"
+      },
+      {
+        "text": "Sign in",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "Get started",
+        "href": "/en/register"
+      },
+      {
+        "text": "AI Listing Studio",
+        "href": "/en/advertiser/studio"
+      },
+      {
+        "text": "Portal connectors",
+        "href": "/en/hub"
+      },
+      {
+        "text": "Help desk AI",
+        "href": "/en/whatsapp"
+      },
+      {
+        "text": "Marketing AI",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "Plans & pricing",
+        "href": "/en/pricing"
+      },
+      {
+        "text": "Get started",
+        "href": "/en/register"
+      },
+      {
+        "text": "Agency dashboard",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "About",
+        "href": "/en"
+      },
+      {
+        "text": "Terms",
+        "href": "/en"
+      },
+      {
+        "text": "Privacy",
+        "href": "/en"
+      },
+      {
+        "text": "Contact",
+        "href": "/en"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/advertiser",
+    "status": 200,
+    "title": "AqarPro — Property services for builders & agencies",
+    "text": "ع\nDEMO SIGN-IN\nAccount\nPearl Gate Realty ✓\nLusail Homes ✓\nDoha Prime Properties ✓\nAhmed Al-Kuwari ✓\nSara Mansour (Broker) ✓\nOmar Haddad · unverified\nGulf Key Realty · unverified\nActing as\nRania Haddad — Owner\nYousef Al-Marri — Manager\nFatima Noor — Agent\nKarim Said — Agent\nPriya Menon (Finance) — Read-only\nOwner\nFR-ACC-02\nRegister a new advertiser\nPG\nPearl Gate Realty\n\nAdvertiser portal · Plan: Agency · Agency organisation · Signed in as Owner\nS1\n\nAI Listing Studio\nPost a listing\nOverview\nListings\nLeads2\nBilling\nTeam\nVerification & compliance2\nListing views (30d)\n9,855\n▲ 12% vs last month\nEnquiries\n246\n▲ 8%\nWhatsApp clicks\n444\n▲ 21%\nLeads this month\n46\n2 new, awaiting reply\nViews & WhatsApp clicks — last 14 days\nFR-LST-10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\nViews\nWhatsApp clicks\nLeads by source channel\nWhatsApp\n51%\nWeb enquiry\n28%\nAI assistant\n16%\nMeta ads\n4%\n\nClick-to-WhatsApp ads are attributed on the first message.\n\nPlan usage\nAgency\nActive listings\n5 / 150\nTeam seats\n5 / 10\nAI credits this month\n555 / 2000\nTop performing listings\n3BR townhouse with private beach, Qanat Quartier\nAQ-10241\nFurnished 1BR in Medina Centrale, bills included\nAQ-10251\nLuxury 4BR penthouse with private terrace, West Bay\nAQ-10244\nFreehold 3BR + maid in Viva Bahriya\nAQ-10233\n\nThe bridge between builders, agencies and Qatar's property portals.\n\nServices\nAI Listing Studio\nPortal connectors\nHelp desk AI\nMarketing AI\nBuilders & agencies\nPlans & pricing\nGet started\nAgency dashboard\nAqarPro\nAbout\nTerms\nPrivacy\nContact\nInteractive prototype — demo data only · © 2026 AqarPro\nReset demo data",
+    "links": [
+      {
+        "text": "",
+        "href": "/en"
+      },
+      {
+        "text": "Services",
+        "href": "/en#services"
+      },
+      {
+        "text": "How it works",
+        "href": "/en#how"
+      },
+      {
+        "text": "Portals",
+        "href": "/en#portals"
+      },
+      {
+        "text": "Pricing",
+        "href": "/en/pricing"
+      },
+      {
+        "text": "Sign in",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "Get started",
+        "href": "/en/register"
+      },
+      {
+        "text": "Register a new advertiser",
+        "href": "/en/register"
+      },
+      {
+        "text": "AI Listing Studio",
+        "href": "/en/advertiser/studio"
+      },
+      {
+        "text": "Post a listing",
+        "href": "/en/advertiser/new"
+      },
+      {
+        "text": "AI Listing Studio",
+        "href": "/en/advertiser/studio"
+      },
+      {
+        "text": "Portal connectors",
+        "href": "/en/hub"
+      },
+      {
+        "text": "Help desk AI",
+        "href": "/en/whatsapp"
+      },
+      {
+        "text": "Marketing AI",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "Plans & pricing",
+        "href": "/en/pricing"
+      },
+      {
+        "text": "Get started",
+        "href": "/en/register"
+      },
+      {
+        "text": "Agency dashboard",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "About",
+        "href": "/en"
+      },
+      {
+        "text": "Terms",
+        "href": "/en"
+      },
+      {
+        "text": "Privacy",
+        "href": "/en"
+      },
+      {
+        "text": "Contact",
+        "href": "/en"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/advertiser/new",
+    "status": 200,
+    "title": "AqarPro — Property services for builders & agencies",
+    "text": "ع\nDEMO SIGN-IN\nAccount\nPearl Gate Realty ✓\nLusail Homes ✓\nDoha Prime Properties ✓\nAhmed Al-Kuwari ✓\nSara Mansour (Broker) ✓\nOmar Haddad · unverified\nGulf Key Realty · unverified\nActing as\nRania Haddad — Owner\nYousef Al-Marri — Manager\nFatima Noor — Agent\nKarim Said — Agent\nPriya Menon (Finance) — Read-only\nOwner\nFR-ACC-02\nRegister a new advertiser\nPost a listing\n\nPearl Gate Realty · 5/150 listings used · 1445 AI credits left\nS1\nFR-LST-01\n\nPurpose\nFor rent\nFor sale\nProperty type\nApartment\nVilla\nTownhouse\nPenthouse\nStudio\nOffice\nArea / zone\nThe Pearl\nLusail\nWest Bay\nAl Sadd\nMsheireb\nAl Waab\nAl Wakrah\nAl Gharrafa\nBin Mahmoud\nOld Airport\nAl Duhail\nAin Khaled\nBuilding / compound (optional)\nMap pin set automatically from the zone:\n25.3705, 51.5512\n· advertisers can drag it to the exact building\nBack\nContinue\n\nThe bridge between builders, agencies and Qatar's property portals.\n\nServices\nAI Listing Studio\nPortal connectors\nHelp desk AI\nMarketing AI\nBuilders & agencies\nPlans & pricing\nGet started\nAgency dashboard\nAqarPro\nAbout\nTerms\nPrivacy\nContact\nInteractive prototype — demo data only · © 2026 AqarPro\nReset demo data",
+    "links": [
+      {
+        "text": "",
+        "href": "/en"
+      },
+      {
+        "text": "Services",
+        "href": "/en#services"
+      },
+      {
+        "text": "How it works",
+        "href": "/en#how"
+      },
+      {
+        "text": "Portals",
+        "href": "/en#portals"
+      },
+      {
+        "text": "Pricing",
+        "href": "/en/pricing"
+      },
+      {
+        "text": "Sign in",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "Get started",
+        "href": "/en/register"
+      },
+      {
+        "text": "Register a new advertiser",
+        "href": "/en/register"
+      },
+      {
+        "text": "AI Listing Studio",
+        "href": "/en/advertiser/studio"
+      },
+      {
+        "text": "Portal connectors",
+        "href": "/en/hub"
+      },
+      {
+        "text": "Help desk AI",
+        "href": "/en/whatsapp"
+      },
+      {
+        "text": "Marketing AI",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "Plans & pricing",
+        "href": "/en/pricing"
+      },
+      {
+        "text": "Get started",
+        "href": "/en/register"
+      },
+      {
+        "text": "Agency dashboard",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "About",
+        "href": "/en"
+      },
+      {
+        "text": "Terms",
+        "href": "/en"
+      },
+      {
+        "text": "Privacy",
+        "href": "/en"
+      },
+      {
+        "text": "Contact",
+        "href": "/en"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/advertiser/studio",
+    "status": 200,
+    "title": "AI Listing Studio · AqarPro",
+    "text": "ع\nAI Listing Studio\nS1\n\nPaste a note, upload a document or send a voice note. AI drafts the listing; a person confirms every fact before anything is saved or published.\n\nActing as\nRania Haddad · Owner\nYousef Al-Marri · Manager\nFatima Noor · Agent\nKarim Said · Agent\nPriya Menon (Finance) · Read-only\nAI credits left\n1,445 / 2,000\nNew\n1.Intake\n2.Facts\n3.Photos\n4.AR / EN copy\n5.Checks & approve\n6.Publish to portals\nHow would you like to add the property?\nAIS-01\n2 credits\nPaste text\nA WhatsApp note or an email from the owner\n5 credits\nUpload a document\nListing sheet, PDF or photo of a form — OCR\n4 credits\nVoice note\nSpeak the details in Arabic or English\nUse English sample\nUse Arabic sample\nExtract facts with AI · 2 credits\n\nThe bridge between builders, agencies and Qatar's property portals.\n\nServices\nAI Listing Studio\nPortal connectors\nHelp desk AI\nMarketing AI\nBuilders & agencies\nPlans & pricing\nGet started\nAgency dashboard\nAqarPro\nAbout\nTerms\nPrivacy\nContact\nInteractive prototype — demo data only · © 2026 AqarPro\nReset demo data",
+    "links": [
+      {
+        "text": "",
+        "href": "/en"
+      },
+      {
+        "text": "Services",
+        "href": "/en#services"
+      },
+      {
+        "text": "How it works",
+        "href": "/en#how"
+      },
+      {
+        "text": "Portals",
+        "href": "/en#portals"
+      },
+      {
+        "text": "Pricing",
+        "href": "/en/pricing"
+      },
+      {
+        "text": "Sign in",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "Get started",
+        "href": "/en/register"
+      },
+      {
+        "text": "AI Listing Studio",
+        "href": "/en/advertiser/studio"
+      },
+      {
+        "text": "Portal connectors",
+        "href": "/en/hub"
+      },
+      {
+        "text": "Help desk AI",
+        "href": "/en/whatsapp"
+      },
+      {
+        "text": "Marketing AI",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "Plans & pricing",
+        "href": "/en/pricing"
+      },
+      {
+        "text": "Get started",
+        "href": "/en/register"
+      },
+      {
+        "text": "Agency dashboard",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "About",
+        "href": "/en"
+      },
+      {
+        "text": "Terms",
+        "href": "/en"
+      },
+      {
+        "text": "Privacy",
+        "href": "/en"
+      },
+      {
+        "text": "Contact",
+        "href": "/en"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/hub",
+    "status": 200,
+    "title": "Portal Integration Hub · AqarPro",
+    "text": "ع\nPortal Integration Hub\nS1\n\nOne canonical listing, many portals: mapped versions, validation, a durable job queue, safe retries and full history.\nHUB-01\nFR-LST-12\n\nActing as\nRania Haddad · Owner\nYousef Al-Marri · Manager\nFatima Noor · Agent\nKarim Said · Agent\nPriya Menon (Finance) · Read-only\nNew listing with AI Studio\nDestinations\n4\n3 listings\nPublished\n3\nNeed a fix\n1\nQueue depth\n0\n1 retries\nJob success rate\n100%\n3 finished\nDestinations\n1\nJobs\nConnectors\nHealth\nStatus per listing and portal\nS1\nHUB-07\nHUB-09\nAqarPro listing\t\nA\nPortal A (mock)\t\nB\nPortal B (mock)\n\nAQ-10231\nSea-view 2BR in Porto Arabia, fully furnished\n\t\nPublished\nPA-884120 · v3\nsynced 45 minutes ago\n\t\nPublished\nPB-55211 · v2\nsynced 50 minutes ago\n\n\nAQ-10244\nLuxury 4BR penthouse with private terrace, West Bay\n\t\nPublished\nPA-884377 · v1\nsynced 2 hours ago\n\tnot published\n\nAQ-10241\n3BR townhouse with private beach, Qanat Quartier\n\tnot published\t\nNeeds fix\nno external ID · v1\n→ Fix the flagged field\nPublish or manage a listing\nChoose a listing…\nAQ-10231 · Sea-view 2BR in Porto Arabia, fully furnished (live)\nAQ-10233 · Freehold 3BR + maid in Viva Bahriya (live)\nAQ-10241 · 3BR townhouse with private beach, Qanat Quartier (live)\nAQ-10244 · Luxury 4BR penthouse with private terrace, West Bay (live)\nAQ-10251 · Furnished 1BR in Medina Centrale, bills included (live)\n\nThe bridge between builders, agencies and Qatar's property portals.\n\nServices\nAI Listing Studio\nPortal connectors\nHelp desk AI\nMarketing AI\nBuilders & agencies\nPlans & pricing\nGet started\nAgency dashboard\nAqarPro\nAbout\nTerms\nPrivacy\nContact\nInteractive prototype — demo data only · © 2026 AqarPro\nReset demo data",
+    "links": [
+      {
+        "text": "",
+        "href": "/en"
+      },
+      {
+        "text": "Services",
+        "href": "/en#services"
+      },
+      {
+        "text": "How it works",
+        "href": "/en#how"
+      },
+      {
+        "text": "Portals",
+        "href": "/en#portals"
+      },
+      {
+        "text": "Pricing",
+        "href": "/en/pricing"
+      },
+      {
+        "text": "Sign in",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "Get started",
+        "href": "/en/register"
+      },
+      {
+        "text": "New listing with AI Studio",
+        "href": "/en/advertiser/studio"
+      },
+      {
+        "text": "AI Listing Studio",
+        "href": "/en/advertiser/studio"
+      },
+      {
+        "text": "Portal connectors",
+        "href": "/en/hub"
+      },
+      {
+        "text": "Help desk AI",
+        "href": "/en/whatsapp"
+      },
+      {
+        "text": "Marketing AI",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "Plans & pricing",
+        "href": "/en/pricing"
+      },
+      {
+        "text": "Get started",
+        "href": "/en/register"
+      },
+      {
+        "text": "Agency dashboard",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "About",
+        "href": "/en"
+      },
+      {
+        "text": "Terms",
+        "href": "/en"
+      },
+      {
+        "text": "Privacy",
+        "href": "/en"
+      },
+      {
+        "text": "Contact",
+        "href": "/en"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/advertiser/promote/AQ-10233",
+    "status": 200,
+    "title": "AqarPro — Property services for builders & agencies",
+    "text": "ع\nBack to listings\nPromote on Facebook & Instagram\nS2\n\nAQ-10233\n· Freehold 3BR + maid in Viva Bahriya\nSpecial ad category: HOUSING\n\nFR-ADV-04\nWP-MKT-01\nWP-MKT-02\n1.Agent draft\n2.Targeting & copy\n3.Budget & caps\n4.Approve\nAqarPro Marketing Agent\nReading the listing, estimating reach and drafting creatives…\nAgent tool calls\nWP-MKT-07\n…\nRead-only listing access · scoped Meta wrapper · credentials server-side · every call audited\nCampaigns for this listing\nS2\nCMP-77\nactive\nSpend\nQAR 1,240\nReach\n48,200\nClicks\n1,310\nLeads\n37\nCPL\nQAR 33.5\nFee\nQAR 300\nSimulate 7 days on Meta\nLead manager →\nWeekly summary\nWP-MKT-05\n\nThis week your ad reached 48,200 people and brought 37 leads at QAR 33.5 each — about 18% cheaper than similar listings at The Pearl. Most conversations started on Instagram Stories.\n\nMove 20% of budget from Feed to Stories\nReview\nRefresh the creative — frequency is 3.1\nReview\n\nSuggestions are never applied automatically. Sent weekly by email and WhatsApp.\n\nListing views\n1,738\nWhatsApp clicks\n78\n\nThe bridge between builders, agencies and Qatar's property portals.\n\nServices\nAI Listing Studio\nPortal connectors\nHelp desk AI\nMarketing AI\nBuilders & agencies\nPlans & pricing\nGet started\nAgency dashboard\nAqarPro\nAbout\nTerms\nPrivacy\nContact\nInteractive prototype — demo data only · © 2026 AqarPro\nReset demo data",
+    "links": [
+      {
+        "text": "",
+        "href": "/en"
+      },
+      {
+        "text": "Services",
+        "href": "/en#services"
+      },
+      {
+        "text": "How it works",
+        "href": "/en#how"
+      },
+      {
+        "text": "Portals",
+        "href": "/en#portals"
+      },
+      {
+        "text": "Pricing",
+        "href": "/en/pricing"
+      },
+      {
+        "text": "Sign in",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "Get started",
+        "href": "/en/register"
+      },
+      {
+        "text": "Back to listings",
+        "href": "/en/advertiser?tab=listings"
+      },
+      {
+        "text": "Lead manager →",
+        "href": "/en/advertiser/leads"
+      },
+      {
+        "text": "AI Listing Studio",
+        "href": "/en/advertiser/studio"
+      },
+      {
+        "text": "Portal connectors",
+        "href": "/en/hub"
+      },
+      {
+        "text": "Help desk AI",
+        "href": "/en/whatsapp"
+      },
+      {
+        "text": "Marketing AI",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "Plans & pricing",
+        "href": "/en/pricing"
+      },
+      {
+        "text": "Get started",
+        "href": "/en/register"
+      },
+      {
+        "text": "Agency dashboard",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "About",
+        "href": "/en"
+      },
+      {
+        "text": "Terms",
+        "href": "/en"
+      },
+      {
+        "text": "Privacy",
+        "href": "/en"
+      },
+      {
+        "text": "Contact",
+        "href": "/en"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/whatsapp",
+    "status": 200,
+    "title": "WhatsApp experience · AqarPro",
+    "text": "ع\nWhatsApp experience\nS1\nS2\n\nA live simulation of the customer's WhatsApp. Try: “2 bed in The Pearl under 13k”, the reply buttons, “Property pack”, “Talk to agent”, or STOP. Agent replies from the Support inbox appear here.\n\nLead manager\nOpen support inbox\nRestart chat\nAqarPro\nOfficial business account\nToday\n\nOfficial WhatsApp Business Cloud API — no unofficial tools\n\nConversation context\nS1\nCustomer\n+974 3000 0000\nOpt-in not asked yet 24h service window open\nListing in context\n—\nMessage templates (outside the 24-hour window)\nS2\nnew_match_alert\nMARKETING · en, ar\nAPPROVED\nSend template\nprice_drop_alert\nMARKETING · en, ar\nAPPROVED\nSend template\nlisting_renewal_notice\nUTILITY · en, ar\nPENDING\nweekend_flash_offer\nMARKETING · en, ar · Rejected: promotional wording not allowed (policy)\nREJECTED\nBehind the scenes\nwebhooks · API calls · routing\n17:37:31\nAPI\nPhone number +974 4000 1234 · display name “AqarPro” · quality rating GREEN · Cloud API\n17:37:31\nWEBHOOK\nWebhook verified · subscribed fields: messages, message_template_status_update\nConsent log S1\nNo consent recorded yet for this number.\n\nThe bridge between builders, agencies and Qatar's property portals.\n\nServices\nAI Listing Studio\nPortal connectors\nHelp desk AI\nMarketing AI\nBuilders & agencies\nPlans & pricing\nGet started\nAgency dashboard\nAqarPro\nAbout\nTerms\nPrivacy\nContact\nInteractive prototype — demo data only · © 2026 AqarPro\nReset demo data",
+    "links": [
+      {
+        "text": "",
+        "href": "/en"
+      },
+      {
+        "text": "Services",
+        "href": "/en#services"
+      },
+      {
+        "text": "How it works",
+        "href": "/en#how"
+      },
+      {
+        "text": "Portals",
+        "href": "/en#portals"
+      },
+      {
+        "text": "Pricing",
+        "href": "/en/pricing"
+      },
+      {
+        "text": "Sign in",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "Get started",
+        "href": "/en/register"
+      },
+      {
+        "text": "Lead manager",
+        "href": "/en/advertiser/leads"
+      },
+      {
+        "text": "Open support inbox",
+        "href": "/en/inbox"
+      },
+      {
+        "text": "AI Listing Studio",
+        "href": "/en/advertiser/studio"
+      },
+      {
+        "text": "Portal connectors",
+        "href": "/en/hub"
+      },
+      {
+        "text": "Help desk AI",
+        "href": "/en/whatsapp"
+      },
+      {
+        "text": "Marketing AI",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "Plans & pricing",
+        "href": "/en/pricing"
+      },
+      {
+        "text": "Get started",
+        "href": "/en/register"
+      },
+      {
+        "text": "Agency dashboard",
+        "href": "/en/advertiser"
+      },
+      {
+        "text": "About",
+        "href": "/en"
+      },
+      {
+        "text": "Terms",
+        "href": "/en"
+      },
+      {
+        "text": "Privacy",
+        "href": "/en"
+      },
+      {
+        "text": "Contact",
+        "href": "/en"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/properties",
+    "status": 404,
+    "title": "404: This page could not be found.",
+    "text": "404\nThis page could not be found.",
+    "links": []
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "route": "/properties/AQ-10233",
+    "status": 404,
+    "title": "404: This page could not be found.",
+    "text": "404\nThis page could not be found.",
+    "links": []
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "",
+    "status": 200,
+    "title": "عقار برو — خدمات العقارات للمطورين والوكالات",
+    "text": "الخدمات\nكيف يعمل\nالبوابات\nالأسعار\nS1\nS1 + S2\nبوابات العرض\nEnglish\nتسجيل الدخول\nابدأ الآن\nللمطورين والوكالات والوسطاء في قطر\nسجل عقاري واحد.\nكل البوابات.\n\nعقار برو حلقة الوصل بينك وبين بوابات العقارات. يجهز الذكاء الاصطناعي إعلاناتك، وتنشرها روابطنا في كل مكان، ويتولى الذكاء الاصطناعي الاستفسارات والتسويق.\n\nابدأ الآن\nافتح مساحة الوكالة\nالمطور / الوكالة\nAqarPro\nخدمات الإعلانات\nربط البوابات\nالدعم الذكي · التسويق الذكي\nA\nالبوابة أ (تجريبية)\nB\nالبوابة ب (تجريبية)\n+ بوابات أخرى\nما تتضمنه باقتك\n\nاختر باقة، ونحن ندير هذه الخدمات لعقاراتك.\n\nS1\nخدمات الإعلانات\n\nأرسل ملاحظة أو مستنداً أو رسالة صوتية أو صوراً — يجهز الذكاء الاصطناعي إعلاناً كاملاً بالعربية والإنجليزية ويعتمده فريقك.\n\nاستخراج المعلومات دون اختلاق\nتصنيف الصور حسب الغرف\nفحوصات الجودة والامتثال\nشاهدها في مساحة العمل\nS1\nربط البوابات\n\nسجل رئيسي واحد يُنشر على كل بوابة عقارية تختارها عبر روابط رسمية — مع متابعة الحالة وإعادة المحاولة دون تكرار.\n\nنسخة مخصصة لكل بوابة\nتنبيه للحقول الناقصة قبل النشر\nلوحة حالة مباشرة\nشاهدها في مساحة العمل\nS2\nمساعد الدعم الذكي\n\nيرد على المشترين والمستأجرين عبر واتساب والمحادثة بالعربية والإنجليزية من إعلاناتك المنشورة فقط، ويحوّل لفريقك في أي وقت.\n\nملفات العقار على واتساب\nعملاء مقيّمون بموافقتهم\nتحويل لموظف مع مهلة خدمة\nشاهدها في مساحة العمل\nS2\nالتسويق الذكي\n\nيجهز حملات فيسبوك وإنستغرام للعقار — الجمهور والميزانية والنص بلغتين — ولا يطلقها إلا بعد موافقتك.\n\nفحص سياسات إعلانات الإسكان\nسقف إنفاق تتحكم به\nفوترة الإعلان والرسوم بشكل منفصل\nشاهدها في مساحة العمل\nكيف يعمل\n1\nأرسل العقار\n\nنص أو ورقة بيانات أو رسالة صوتية أو صور — من المطور أو الوكيل.\n\n2\nالذكاء الاصطناعي يجهزه\n\nأوصاف بلغتين وصور مصنفة وفحوصات؛ يؤكد فريقك كل معلومة.\n\n3\nننشره في كل مكان\n\nكل بوابة تحصل على نسختها عبر رابطها الرسمي.\n\n4\nالاستفسارات تعود إليك\n\nكل العملاء من البوابات وواتساب والإعلانات في مدير عملاء واحد.\n\nالبوابات المرتبطة\n\nننشر فقط عبر الواجهات الرسمية أو التغذيات المعتمدة أو الطرق التي تسمح بها كل بوابة — دون أي استخلاص. ونحترم قدرات كل بوابة: إن لم تدعم إلغاء النشر أو إرجاع العملاء، توضح مساحة العمل ذلك.\n\nافتح مركز البوابات\nA\nالبوابة أ (تجريبية)\n\nواجهة API كاملة: إنشاء وتحديث وإلغاء نشر وحالة واسترجاع العملاء.\n\ncreate\nupdate\nunpublish\nstatus\nleads\nB\nالبوابة ب (تجريبية)\n\nتغذية XML للنشر فقط: لا إلغاء نشر ولا استرجاع عملاء. يتطلب رقم الترخيص والطابق؛ العنوان 70 حرفاً كحد أقصى.\n\ncreate\nupdate\nstatus\nالمطورون العقاريون\nأطلق مشروعاً كاملاً على كل البوابات دفعة واحدة.\nالوكالات\nأدوار للفريق ومخزون مشترك وصندوق واحد لكل العملاء.\nالوسطاء والملاك\nإعلانات احترافية وردود سريعة دون عناء.\nباقات مبنية على الخدمات\n\nاختر عدد الإعلانات وربط البوابات ومقاعد الفريق وأرصدة الذكاء الاصطناعي التي تحتاجها.\n\nعرض الباقات\nابدأ الآن\n\nحلقة الوصل بين المطورين والوكالات وبوابات العقارات في قطر.\n\nالخدمات\nاستوديو الإعلانات الذكي\nربط البوابات\nمساعد الدعم الذكي\nالتسويق الذكي\nالمطورون والوكالات\nالباقات والأسعار\nابدأ الآن\nلوحة الوكالة\nعقار برو\nمن نحن\nالشروط\nالخصوصية\nاتصل بنا\nنموذج تفاعلي — بيانات تجريبية فقط · © 2026 AqarPro\nإعادة ضبط بيانات العرض\nاسأل مساعد عقار برو",
+    "links": [
+      {
+        "text": "",
+        "href": "/ar"
+      },
+      {
+        "text": "الخدمات",
+        "href": "/ar#services"
+      },
+      {
+        "text": "كيف يعمل",
+        "href": "/ar#how"
+      },
+      {
+        "text": "البوابات",
+        "href": "/ar#portals"
+      },
+      {
+        "text": "الأسعار",
+        "href": "/ar/pricing"
+      },
+      {
+        "text": "تسجيل الدخول",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "ابدأ الآن",
+        "href": "/ar/register"
+      },
+      {
+        "text": "ابدأ الآن",
+        "href": "/ar/register"
+      },
+      {
+        "text": "افتح مساحة الوكالة",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "شاهدها في مساحة العمل",
+        "href": "/ar/advertiser/studio"
+      },
+      {
+        "text": "شاهدها في مساحة العمل",
+        "href": "/ar/hub"
+      },
+      {
+        "text": "شاهدها في مساحة العمل",
+        "href": "/ar/whatsapp"
+      },
+      {
+        "text": "شاهدها في مساحة العمل",
+        "href": "/ar/advertiser/promote/AQ-10233"
+      },
+      {
+        "text": "افتح مركز البوابات",
+        "href": "/ar/hub"
+      },
+      {
+        "text": "عرض الباقات",
+        "href": "/ar/pricing"
+      },
+      {
+        "text": "ابدأ الآن",
+        "href": "/ar/register"
+      },
+      {
+        "text": "استوديو الإعلانات الذكي",
+        "href": "/ar/advertiser/studio"
+      },
+      {
+        "text": "ربط البوابات",
+        "href": "/ar/hub"
+      },
+      {
+        "text": "مساعد الدعم الذكي",
+        "href": "/ar/whatsapp"
+      },
+      {
+        "text": "التسويق الذكي",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "الباقات والأسعار",
+        "href": "/ar/pricing"
+      },
+      {
+        "text": "ابدأ الآن",
+        "href": "/ar/register"
+      },
+      {
+        "text": "لوحة الوكالة",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "من نحن",
+        "href": "/ar"
+      },
+      {
+        "text": "الشروط",
+        "href": "/ar"
+      },
+      {
+        "text": "الخصوصية",
+        "href": "/ar"
+      },
+      {
+        "text": "اتصل بنا",
+        "href": "/ar"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/register",
+    "status": 200,
+    "title": "عقار برو — خدمات العقارات للمطورين والوكالات",
+    "text": "الخدمات\nكيف يعمل\nالبوابات\nالأسعار\nS1\nS1 + S2\nبوابات العرض\nEnglish\nتسجيل الدخول\nابدأ الآن\nسجّل كمعلن\nS1\nFR-ACC-01\nFR-ACC-03\n\nسيناريو القبول C3 — سجّل، ارفع البطاقة أو السجل والرخصة، احصل على التوثيق، ثم اشترك وانشر.\n\n1\nالحساب\n2\nالهوية والترخيص\n3\nالتوثيق\nG\nالمتابعة عبر Google\nالمتابعة عبر Apple\nأو\nالبريد وكلمة المرور\nالجوال ورمز التحقق\nالاسم الكامل\nالبريد الإلكتروني\nكلمة المرور (8 أحرف على الأقل)\n\nبالمتابعة توافق على الشروط وسياسة الخصوصية (القانون رقم 13 لسنة 2016). يمكنك تغيير موافقة التسويق وواتساب في أي وقت.\n\nمتابعة\n\nحلقة الوصل بين المطورين والوكالات وبوابات العقارات في قطر.\n\nالخدمات\nاستوديو الإعلانات الذكي\nربط البوابات\nمساعد الدعم الذكي\nالتسويق الذكي\nالمطورون والوكالات\nالباقات والأسعار\nابدأ الآن\nلوحة الوكالة\nعقار برو\nمن نحن\nالشروط\nالخصوصية\nاتصل بنا\nنموذج تفاعلي — بيانات تجريبية فقط · © 2026 AqarPro\nإعادة ضبط بيانات العرض\nاسأل مساعد عقار برو",
+    "links": [
+      {
+        "text": "",
+        "href": "/ar"
+      },
+      {
+        "text": "الخدمات",
+        "href": "/ar#services"
+      },
+      {
+        "text": "كيف يعمل",
+        "href": "/ar#how"
+      },
+      {
+        "text": "البوابات",
+        "href": "/ar#portals"
+      },
+      {
+        "text": "الأسعار",
+        "href": "/ar/pricing"
+      },
+      {
+        "text": "تسجيل الدخول",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "ابدأ الآن",
+        "href": "/ar/register"
+      },
+      {
+        "text": "استوديو الإعلانات الذكي",
+        "href": "/ar/advertiser/studio"
+      },
+      {
+        "text": "ربط البوابات",
+        "href": "/ar/hub"
+      },
+      {
+        "text": "مساعد الدعم الذكي",
+        "href": "/ar/whatsapp"
+      },
+      {
+        "text": "التسويق الذكي",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "الباقات والأسعار",
+        "href": "/ar/pricing"
+      },
+      {
+        "text": "ابدأ الآن",
+        "href": "/ar/register"
+      },
+      {
+        "text": "لوحة الوكالة",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "من نحن",
+        "href": "/ar"
+      },
+      {
+        "text": "الشروط",
+        "href": "/ar"
+      },
+      {
+        "text": "الخصوصية",
+        "href": "/ar"
+      },
+      {
+        "text": "اتصل بنا",
+        "href": "/ar"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/advertiser",
+    "status": 200,
+    "title": "عقار برو — خدمات العقارات للمطورين والوكالات",
+    "text": "الخدمات\nكيف يعمل\nالبوابات\nالأسعار\nS1\nS1 + S2\nبوابات العرض\nEnglish\nتسجيل الدخول\nابدأ الآن\nتسجيل دخول تجريبي\nالحساب\nبيرل جيت العقارية ✓\nلوسيل هومز ✓\nالدوحة برايم للعقارات ✓\nأحمد الكواري ✓\nسارة منصور (وسيط) ✓\nعمر حداد · غير موثق\nجلف كي العقارية · غير موثق\nبصفة\nRania Haddad — المالك\nYousef Al-Marri — مدير\nFatima Noor — وكيل\nKarim Said — وكيل\nPriya Menon (Finance) — قراءة فقط\nالمالك\nFR-ACC-02\nتسجيل معلن جديد\nPG\nبيرل جيت العقارية\n\nبوابة المعلن · الباقة: الوكالة · مؤسسة وكالة · بصفة المالك\nS1\n\nاستوديو الإعلانات الذكي\nأضف إعلان\nنظرة عامة\nالإعلانات\nالعملاء2\nالفوترة\nالفريق\nالتوثيق والامتثال2\nمشاهدات الإعلانات (30 يوم)\n9,855\n▲ 12% عن الشهر الماضي\nالاستفسارات\n246\n▲ 8%\nنقرات واتساب\n444\n▲ 21%\nالعملاء هذا الشهر\n46\n2 جديد بانتظار الرد\nالمشاهدات ونقرات واتساب — آخر 14 يوماً\nFR-LST-10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\nالمشاهدات\nنقرات واتساب\nالعملاء حسب المصدر\nواتساب\n51%\nنموذج الموقع\n28%\nالمساعد الذكي\n16%\nإعلانات ميتا\n4%\n\nتُنسب إعلانات النقر إلى واتساب من أول رسالة.\n\nاستخدام الباقة\nالوكالة\nالإعلانات النشطة\n5 / 150\nمقاعد الفريق\n5 / 10\nأرصدة الذكاء الاصطناعي هذا الشهر\n555 / 2000\nالإعلانات الأفضل أداءً\nتاون هاوس 3 غرف مع شاطئ خاص، قناة كوارتييه\nAQ-10241\n2,690\n161\n121\nشقة غرفة نوم مفروشة في المدينة سنترال شاملة الفواتير\nAQ-10251\n2,680\n161\n121\nبنتهاوس فاخر 4 غرف بتراس خاص، الخليج الغربي\nAQ-10244\n2,447\n147\n110\nشقة تملك حر 3 غرف + غرفة خادمة في فيفا بحرية\nAQ-10233\n1,738\n104\n78\n\nحلقة الوصل بين المطورين والوكالات وبوابات العقارات في قطر.\n\nالخدمات\nاستوديو الإعلانات الذكي\nربط البوابات\nمساعد الدعم الذكي\nالتسويق الذكي\nالمطورون والوكالات\nالباقات والأسعار\nابدأ الآن\nلوحة الوكالة\nعقار برو\nمن نحن\nالشروط\nالخصوصية\nاتصل بنا\nنموذج تفاعلي — بيانات تجريبية فقط · © 2026 AqarPro\nإعادة ضبط بيانات العرض\nاسأل مساعد عقار برو",
+    "links": [
+      {
+        "text": "",
+        "href": "/ar"
+      },
+      {
+        "text": "الخدمات",
+        "href": "/ar#services"
+      },
+      {
+        "text": "كيف يعمل",
+        "href": "/ar#how"
+      },
+      {
+        "text": "البوابات",
+        "href": "/ar#portals"
+      },
+      {
+        "text": "الأسعار",
+        "href": "/ar/pricing"
+      },
+      {
+        "text": "تسجيل الدخول",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "ابدأ الآن",
+        "href": "/ar/register"
+      },
+      {
+        "text": "تسجيل معلن جديد",
+        "href": "/ar/register"
+      },
+      {
+        "text": "استوديو الإعلانات الذكي",
+        "href": "/ar/advertiser/studio"
+      },
+      {
+        "text": "أضف إعلان",
+        "href": "/ar/advertiser/new"
+      },
+      {
+        "text": "استوديو الإعلانات الذكي",
+        "href": "/ar/advertiser/studio"
+      },
+      {
+        "text": "ربط البوابات",
+        "href": "/ar/hub"
+      },
+      {
+        "text": "مساعد الدعم الذكي",
+        "href": "/ar/whatsapp"
+      },
+      {
+        "text": "التسويق الذكي",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "الباقات والأسعار",
+        "href": "/ar/pricing"
+      },
+      {
+        "text": "ابدأ الآن",
+        "href": "/ar/register"
+      },
+      {
+        "text": "لوحة الوكالة",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "من نحن",
+        "href": "/ar"
+      },
+      {
+        "text": "الشروط",
+        "href": "/ar"
+      },
+      {
+        "text": "الخصوصية",
+        "href": "/ar"
+      },
+      {
+        "text": "اتصل بنا",
+        "href": "/ar"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/advertiser/new",
+    "status": 200,
+    "title": "عقار برو — خدمات العقارات للمطورين والوكالات",
+    "text": "الخدمات\nكيف يعمل\nالبوابات\nالأسعار\nS1\nS1 + S2\nبوابات العرض\nEnglish\nتسجيل الدخول\nابدأ الآن\nتسجيل دخول تجريبي\nالحساب\nبيرل جيت العقارية ✓\nلوسيل هومز ✓\nالدوحة برايم للعقارات ✓\nأحمد الكواري ✓\nسارة منصور (وسيط) ✓\nعمر حداد · غير موثق\nجلف كي العقارية · غير موثق\nبصفة\nRania Haddad — المالك\nYousef Al-Marri — مدير\nFatima Noor — وكيل\nKarim Said — وكيل\nPriya Menon (Finance) — قراءة فقط\nالمالك\nFR-ACC-02\nتسجيل معلن جديد\nأضف إعلاناً\n\nبيرل جيت العقارية · 5/150 إعلان مستخدم · 1445 رصيد ذكاء متبقٍ\nS1\nFR-LST-01\n\n1. الأساسيات\n2. التفاصيل\n3. العنوان والوصف\n4. الصور\n5. المراجعة والإرسال\nالغرض\nللإيجار\nللبيع\nنوع العقار\nشقة\nفيلا\nتاون هاوس\nبنتهاوس\nاستوديو\nمكتب\nالمنطقة\nاللؤلؤة\nلوسيل\nالخليج الغربي\nالسد\nمشيرب\nالوعب\nالوكرة\nالغرافة\nبن محمود\nالمطار القديم\nالدحيل\nعين خالد\nالمبنى / الكمباوند (اختياري)\nتم تحديد الموقع تلقائياً من المنطقة:\n25.3705, 51.5512\n· يمكن للمعلن سحبه إلى المبنى بدقة\nرجوع\nمتابعة\n\nحلقة الوصل بين المطورين والوكالات وبوابات العقارات في قطر.\n\nالخدمات\nاستوديو الإعلانات الذكي\nربط البوابات\nمساعد الدعم الذكي\nالتسويق الذكي\nالمطورون والوكالات\nالباقات والأسعار\nابدأ الآن\nلوحة الوكالة\nعقار برو\nمن نحن\nالشروط\nالخصوصية\nاتصل بنا\nنموذج تفاعلي — بيانات تجريبية فقط · © 2026 AqarPro\nإعادة ضبط بيانات العرض\nاسأل مساعد عقار برو",
+    "links": [
+      {
+        "text": "",
+        "href": "/ar"
+      },
+      {
+        "text": "الخدمات",
+        "href": "/ar#services"
+      },
+      {
+        "text": "كيف يعمل",
+        "href": "/ar#how"
+      },
+      {
+        "text": "البوابات",
+        "href": "/ar#portals"
+      },
+      {
+        "text": "الأسعار",
+        "href": "/ar/pricing"
+      },
+      {
+        "text": "تسجيل الدخول",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "ابدأ الآن",
+        "href": "/ar/register"
+      },
+      {
+        "text": "تسجيل معلن جديد",
+        "href": "/ar/register"
+      },
+      {
+        "text": "استوديو الإعلانات الذكي",
+        "href": "/ar/advertiser/studio"
+      },
+      {
+        "text": "ربط البوابات",
+        "href": "/ar/hub"
+      },
+      {
+        "text": "مساعد الدعم الذكي",
+        "href": "/ar/whatsapp"
+      },
+      {
+        "text": "التسويق الذكي",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "الباقات والأسعار",
+        "href": "/ar/pricing"
+      },
+      {
+        "text": "ابدأ الآن",
+        "href": "/ar/register"
+      },
+      {
+        "text": "لوحة الوكالة",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "من نحن",
+        "href": "/ar"
+      },
+      {
+        "text": "الشروط",
+        "href": "/ar"
+      },
+      {
+        "text": "الخصوصية",
+        "href": "/ar"
+      },
+      {
+        "text": "اتصل بنا",
+        "href": "/ar"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/advertiser/studio",
+    "status": 200,
+    "title": "AI Listing Studio · AqarPro",
+    "text": "الخدمات\nكيف يعمل\nالبوابات\nالأسعار\nS1\nS1 + S2\nبوابات العرض\nEnglish\nتسجيل الدخول\nابدأ الآن\nاستوديو الإعلانات الذكي\nS1\n\nالصق ملاحظة أو ارفع مستنداً أو أرسل رسالة صوتية. يصيغ الذكاء الاصطناعي الإعلان ويؤكد شخص كل معلومة قبل الحفظ أو النشر.\n\nتعمل باسم\nRania Haddad · المالك\nYousef Al-Marri · مدير\nFatima Noor · وكيل\nKarim Said · وكيل\nPriya Menon (Finance) · قراءة فقط\nأرصدة الذكاء المتبقية\n1,445 / 2,000\nجديد\n1.الإدخال\n2.المعلومات\n3.الصور\n4.النص عربي / إنجليزي\n5.الفحص والاعتماد\n6.النشر للبوابات\nكيف تريد إضافة العقار؟\nAIS-01\n2 رصيد\nلصق نص\nرسالة واتساب أو بريد من المالك\n5 رصيد\nرفع مستند\nورقة إعلان أو PDF أو صورة نموذج — OCR\n4 رصيد\nرسالة صوتية\nتحدث بالتفاصيل بالعربية أو الإنجليزية\nمثال بالإنجليزية\nمثال بالعربية\nاستخراج المعلومات بالذكاء الاصطناعي · 2 رصيد\n\nحلقة الوصل بين المطورين والوكالات وبوابات العقارات في قطر.\n\nالخدمات\nاستوديو الإعلانات الذكي\nربط البوابات\nمساعد الدعم الذكي\nالتسويق الذكي\nالمطورون والوكالات\nالباقات والأسعار\nابدأ الآن\nلوحة الوكالة\nعقار برو\nمن نحن\nالشروط\nالخصوصية\nاتصل بنا\nنموذج تفاعلي — بيانات تجريبية فقط · © 2026 AqarPro\nإعادة ضبط بيانات العرض\nاسأل مساعد عقار برو",
+    "links": [
+      {
+        "text": "",
+        "href": "/ar"
+      },
+      {
+        "text": "الخدمات",
+        "href": "/ar#services"
+      },
+      {
+        "text": "كيف يعمل",
+        "href": "/ar#how"
+      },
+      {
+        "text": "البوابات",
+        "href": "/ar#portals"
+      },
+      {
+        "text": "الأسعار",
+        "href": "/ar/pricing"
+      },
+      {
+        "text": "تسجيل الدخول",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "ابدأ الآن",
+        "href": "/ar/register"
+      },
+      {
+        "text": "استوديو الإعلانات الذكي",
+        "href": "/ar/advertiser/studio"
+      },
+      {
+        "text": "ربط البوابات",
+        "href": "/ar/hub"
+      },
+      {
+        "text": "مساعد الدعم الذكي",
+        "href": "/ar/whatsapp"
+      },
+      {
+        "text": "التسويق الذكي",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "الباقات والأسعار",
+        "href": "/ar/pricing"
+      },
+      {
+        "text": "ابدأ الآن",
+        "href": "/ar/register"
+      },
+      {
+        "text": "لوحة الوكالة",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "من نحن",
+        "href": "/ar"
+      },
+      {
+        "text": "الشروط",
+        "href": "/ar"
+      },
+      {
+        "text": "الخصوصية",
+        "href": "/ar"
+      },
+      {
+        "text": "اتصل بنا",
+        "href": "/ar"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/hub",
+    "status": 200,
+    "title": "Portal Integration Hub · AqarPro",
+    "text": "الخدمات\nكيف يعمل\nالبوابات\nالأسعار\nS1\nS1 + S2\nبوابات العرض\nEnglish\nتسجيل الدخول\nابدأ الآن\nمركز ربط البوابات\nS1\n\nإعلان أساسي واحد وبوابات متعددة: نسخ محوّلة، تحقق، طابور مهام دائم، إعادة آمنة وسجل كامل.\nHUB-01\nFR-LST-12\n\nتعمل باسم\nRania Haddad · المالك\nYousef Al-Marri · مدير\nFatima Noor · وكيل\nKarim Said · وكيل\nPriya Menon (Finance) · قراءة فقط\nإعلان جديد بالاستوديو الذكي\nالوجهات\n4\n3 إعلانات\nمنشور\n3\nتحتاج تصحيح\n1\nعمق الطابور\n0\n1 إعادات\nنجاح المهام\n100%\n3 منتهية\nالوجهات\n1\nالمهام\nالموصلات\nالصحة\nالحالة لكل إعلان وبوابة\nS1\nHUB-07\nHUB-09\nإعلان عقار برو\t\nA\nالبوابة أ (تجريبية)\t\nB\nالبوابة ب (تجريبية)\n\nAQ-10231\nشقة غرفتين بإطلالة بحرية في بورتو أرابيا، مفروشة بالكامل\n\t\nمنشور\nPA-884120 · v3\nمزامنة قبل 45 دقيقة\n\t\nمنشور\nPB-55211 · v2\nمزامنة قبل 50 دقيقة\n\n\nAQ-10244\nبنتهاوس فاخر 4 غرف بتراس خاص، الخليج الغربي\n\t\nمنشور\nPA-884377 · v1\nمزامنة قبل ساعتين\n\tغير منشور\n\nAQ-10241\nتاون هاوس 3 غرف مع شاطئ خاص، قناة كوارتييه\n\tغير منشور\t\nيحتاج تصحيح\nبدون معرف خارجي · v1\n→ صحّح الحقل المحدد\nنشر أو إدارة إعلان\nاختر إعلاناً…\nAQ-10231 · شقة غرفتين بإطلالة بحرية في بورتو أرابيا، مفروشة بالكامل (live)\nAQ-10233 · شقة تملك حر 3 غرف + غرفة خادمة في فيفا بحرية (live)\nAQ-10241 · تاون هاوس 3 غرف مع شاطئ خاص، قناة كوارتييه (live)\nAQ-10244 · بنتهاوس فاخر 4 غرف بتراس خاص، الخليج الغربي (live)\nAQ-10251 · شقة غرفة نوم مفروشة في المدينة سنترال شاملة الفواتير (live)\n\nحلقة الوصل بين المطورين والوكالات وبوابات العقارات في قطر.\n\nالخدمات\nاستوديو الإعلانات الذكي\nربط البوابات\nمساعد الدعم الذكي\nالتسويق الذكي\nالمطورون والوكالات\nالباقات والأسعار\nابدأ الآن\nلوحة الوكالة\nعقار برو\nمن نحن\nالشروط\nالخصوصية\nاتصل بنا\nنموذج تفاعلي — بيانات تجريبية فقط · © 2026 AqarPro\nإعادة ضبط بيانات العرض\nاسأل مساعد عقار برو",
+    "links": [
+      {
+        "text": "",
+        "href": "/ar"
+      },
+      {
+        "text": "الخدمات",
+        "href": "/ar#services"
+      },
+      {
+        "text": "كيف يعمل",
+        "href": "/ar#how"
+      },
+      {
+        "text": "البوابات",
+        "href": "/ar#portals"
+      },
+      {
+        "text": "الأسعار",
+        "href": "/ar/pricing"
+      },
+      {
+        "text": "تسجيل الدخول",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "ابدأ الآن",
+        "href": "/ar/register"
+      },
+      {
+        "text": "إعلان جديد بالاستوديو الذكي",
+        "href": "/ar/advertiser/studio"
+      },
+      {
+        "text": "استوديو الإعلانات الذكي",
+        "href": "/ar/advertiser/studio"
+      },
+      {
+        "text": "ربط البوابات",
+        "href": "/ar/hub"
+      },
+      {
+        "text": "مساعد الدعم الذكي",
+        "href": "/ar/whatsapp"
+      },
+      {
+        "text": "التسويق الذكي",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "الباقات والأسعار",
+        "href": "/ar/pricing"
+      },
+      {
+        "text": "ابدأ الآن",
+        "href": "/ar/register"
+      },
+      {
+        "text": "لوحة الوكالة",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "من نحن",
+        "href": "/ar"
+      },
+      {
+        "text": "الشروط",
+        "href": "/ar"
+      },
+      {
+        "text": "الخصوصية",
+        "href": "/ar"
+      },
+      {
+        "text": "اتصل بنا",
+        "href": "/ar"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/advertiser/promote/AQ-10233",
+    "status": 200,
+    "title": "عقار برو — خدمات العقارات للمطورين والوكالات",
+    "text": "الخدمات\nكيف يعمل\nالبوابات\nالأسعار\nS1\nS1 + S2\nبوابات العرض\nEnglish\nتسجيل الدخول\nابدأ الآن\nالعودة للإعلانات\nروّج على فيسبوك وإنستغرام\nS2\n\nAQ-10233\n· شقة تملك حر 3 غرف + غرفة خادمة في فيفا بحرية\nSpecial ad category: HOUSING\n\nFR-ADV-04\nWP-MKT-01\nWP-MKT-02\n1.مسودة الوكيل\n2.الاستهداف والنص\n3.الميزانية والحدود\n4.الاعتماد\nوكيل التسويق من عقار برو\nيقرأ الإعلان ويقدّر الوصول ويجهّز التصاميم…\nاستدعاءات أدوات الوكيل\nWP-MKT-07\n…\nقراءة فقط للإعلانات · واجهة ميتا محدودة · المفاتيح على الخادم · كل استدعاء مسجل\nحملات هذا الإعلان\nS2\nCMP-77\nactive\nالإنفاق\n1,240 ر.ق\nالوصول\n48,200\nالنقرات\n1,310\nالعملاء\n37\nCPL\n33.5 ر.ق\nالرسوم\n300 ر.ق\nمحاكاة 7 أيام على ميتا\nإدارة العملاء ←\nالملخص الأسبوعي\nWP-MKT-05\n\nوصل إعلانك هذا الأسبوع إلى 48,200 شخص وجلب 37 عميلاً بتكلفة 33.5 ر.ق لكل عميل — أقل بنحو 18٪ من إعلانات مشابهة في اللؤلؤة. بدأت معظم المحادثات من قصص إنستغرام.\n\nانقل 20٪ من الميزانية من المنشورات إلى القصص\nمراجعة\nحدّث التصميم — معدل التكرار 3.1\nمراجعة\n\nلا تُطبق الاقتراحات تلقائياً أبداً. تُرسل أسبوعياً بالبريد وواتساب.\n\nمشاهدات الإعلان\n1,738\nنقرات واتساب\n78\n\nحلقة الوصل بين المطورين والوكالات وبوابات العقارات في قطر.\n\nالخدمات\nاستوديو الإعلانات الذكي\nربط البوابات\nمساعد الدعم الذكي\nالتسويق الذكي\nالمطورون والوكالات\nالباقات والأسعار\nابدأ الآن\nلوحة الوكالة\nعقار برو\nمن نحن\nالشروط\nالخصوصية\nاتصل بنا\nنموذج تفاعلي — بيانات تجريبية فقط · © 2026 AqarPro\nإعادة ضبط بيانات العرض\nاسأل مساعد عقار برو",
+    "links": [
+      {
+        "text": "",
+        "href": "/ar"
+      },
+      {
+        "text": "الخدمات",
+        "href": "/ar#services"
+      },
+      {
+        "text": "كيف يعمل",
+        "href": "/ar#how"
+      },
+      {
+        "text": "البوابات",
+        "href": "/ar#portals"
+      },
+      {
+        "text": "الأسعار",
+        "href": "/ar/pricing"
+      },
+      {
+        "text": "تسجيل الدخول",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "ابدأ الآن",
+        "href": "/ar/register"
+      },
+      {
+        "text": "العودة للإعلانات",
+        "href": "/ar/advertiser?tab=listings"
+      },
+      {
+        "text": "إدارة العملاء ←",
+        "href": "/ar/advertiser/leads"
+      },
+      {
+        "text": "استوديو الإعلانات الذكي",
+        "href": "/ar/advertiser/studio"
+      },
+      {
+        "text": "ربط البوابات",
+        "href": "/ar/hub"
+      },
+      {
+        "text": "مساعد الدعم الذكي",
+        "href": "/ar/whatsapp"
+      },
+      {
+        "text": "التسويق الذكي",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "الباقات والأسعار",
+        "href": "/ar/pricing"
+      },
+      {
+        "text": "ابدأ الآن",
+        "href": "/ar/register"
+      },
+      {
+        "text": "لوحة الوكالة",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "من نحن",
+        "href": "/ar"
+      },
+      {
+        "text": "الشروط",
+        "href": "/ar"
+      },
+      {
+        "text": "الخصوصية",
+        "href": "/ar"
+      },
+      {
+        "text": "اتصل بنا",
+        "href": "/ar"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/whatsapp",
+    "status": 200,
+    "title": "تجربة واتساب · AqarPro",
+    "text": "الخدمات\nكيف يعمل\nالبوابات\nالأسعار\nS1\nS1 + S2\nبوابات العرض\nEnglish\nتسجيل الدخول\nابدأ الآن\nتجربة واتساب\nS1\nS2\n\nمحاكاة حية لواتساب العميل. جرّب: “شقة غرفتين في اللؤلؤة بأقل من 13 ألف”، أو الأزرار، أو “ملف العقار”، أو “تحدث مع موظف”، أو STOP. ردود الموظفين من صندوق الدعم تظهر هنا.\n\nإدارة العملاء\nفتح صندوق الدعم\nإعادة المحادثة\nAqarPro\nحساب أعمال رسمي\nاليوم\n\nواجهة واتساب للأعمال الرسمية (Cloud API) — بدون أدوات غير رسمية\n\nسياق المحادثة\nS1\nالعميل\n+974 3000 0000\nلم يُطلب الاشتراك بعد نافذة الخدمة 24 ساعة مفتوحة\nالعقار الحالي\n—\nقوالب الرسائل (خارج نافذة 24 ساعة)\nS2\nnew_match_alert\nMARKETING · en, ar\nAPPROVED\nإرسال القالب\nprice_drop_alert\nMARKETING · en, ar\nAPPROVED\nإرسال القالب\nlisting_renewal_notice\nUTILITY · en, ar\nPENDING\nweekend_flash_offer\nMARKETING · en, ar · Rejected: promotional wording not allowed (policy)\nREJECTED\nما يحدث خلف الكواليس\nWebhooks · استدعاءات API · التوجيه\n17:37:39\nAPI\nPhone number +974 4000 1234 · display name “AqarPro” · quality rating GREEN · Cloud API\n17:37:39\nWEBHOOK\nWebhook verified · subscribed fields: messages, message_template_status_update\nسجل الموافقات S1\nلا توجد موافقات مسجلة لهذا الرقم بعد.\n\nحلقة الوصل بين المطورين والوكالات وبوابات العقارات في قطر.\n\nالخدمات\nاستوديو الإعلانات الذكي\nربط البوابات\nمساعد الدعم الذكي\nالتسويق الذكي\nالمطورون والوكالات\nالباقات والأسعار\nابدأ الآن\nلوحة الوكالة\nعقار برو\nمن نحن\nالشروط\nالخصوصية\nاتصل بنا\nنموذج تفاعلي — بيانات تجريبية فقط · © 2026 AqarPro\nإعادة ضبط بيانات العرض",
+    "links": [
+      {
+        "text": "",
+        "href": "/ar"
+      },
+      {
+        "text": "الخدمات",
+        "href": "/ar#services"
+      },
+      {
+        "text": "كيف يعمل",
+        "href": "/ar#how"
+      },
+      {
+        "text": "البوابات",
+        "href": "/ar#portals"
+      },
+      {
+        "text": "الأسعار",
+        "href": "/ar/pricing"
+      },
+      {
+        "text": "تسجيل الدخول",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "ابدأ الآن",
+        "href": "/ar/register"
+      },
+      {
+        "text": "إدارة العملاء",
+        "href": "/ar/advertiser/leads"
+      },
+      {
+        "text": "فتح صندوق الدعم",
+        "href": "/ar/inbox"
+      },
+      {
+        "text": "استوديو الإعلانات الذكي",
+        "href": "/ar/advertiser/studio"
+      },
+      {
+        "text": "ربط البوابات",
+        "href": "/ar/hub"
+      },
+      {
+        "text": "مساعد الدعم الذكي",
+        "href": "/ar/whatsapp"
+      },
+      {
+        "text": "التسويق الذكي",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "الباقات والأسعار",
+        "href": "/ar/pricing"
+      },
+      {
+        "text": "ابدأ الآن",
+        "href": "/ar/register"
+      },
+      {
+        "text": "لوحة الوكالة",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "من نحن",
+        "href": "/ar"
+      },
+      {
+        "text": "الشروط",
+        "href": "/ar"
+      },
+      {
+        "text": "الخصوصية",
+        "href": "/ar"
+      },
+      {
+        "text": "اتصل بنا",
+        "href": "/ar"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/properties",
+    "status": 404,
+    "title": "404: This page could not be found.",
+    "text": "404\nThis page could not be found.",
+    "links": []
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "route": "/properties/AQ-10233",
+    "status": 404,
+    "title": "404: This page could not be found.",
+    "text": "404\nThis page could not be found.",
+    "links": []
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "",
+    "status": 200,
+    "title": "عقار برو — خدمات العقارات للمطورين والوكالات",
+    "text": "EN\nللمطورين والوكالات والوسطاء في قطر\nسجل عقاري واحد.\nكل البوابات.\n\nعقار برو حلقة الوصل بينك وبين بوابات العقارات. يجهز الذكاء الاصطناعي إعلاناتك، وتنشرها روابطنا في كل مكان، ويتولى الذكاء الاصطناعي الاستفسارات والتسويق.\n\nابدأ الآن\nافتح مساحة الوكالة\nالمطور / الوكالة\nAqarPro\nخدمات الإعلانات\nربط البوابات\nالدعم الذكي · التسويق الذكي\nA\nالبوابة أ (تجريبية)\nB\nالبوابة ب (تجريبية)\n+ بوابات أخرى\nما تتضمنه باقتك\n\nاختر باقة، ونحن ندير هذه الخدمات لعقاراتك.\n\nS1\nخدمات الإعلانات\n\nأرسل ملاحظة أو مستنداً أو رسالة صوتية أو صوراً — يجهز الذكاء الاصطناعي إعلاناً كاملاً بالعربية والإنجليزية ويعتمده فريقك.\n\nاستخراج المعلومات دون اختلاق\nتصنيف الصور حسب الغرف\nفحوصات الجودة والامتثال\nشاهدها في مساحة العمل\nS1\nربط البوابات\n\nسجل رئيسي واحد يُنشر على كل بوابة عقارية تختارها عبر روابط رسمية — مع متابعة الحالة وإعادة المحاولة دون تكرار.\n\nنسخة مخصصة لكل بوابة\nتنبيه للحقول الناقصة قبل النشر\nلوحة حالة مباشرة\nشاهدها في مساحة العمل\nS2\nمساعد الدعم الذكي\n\nيرد على المشترين والمستأجرين عبر واتساب والمحادثة بالعربية والإنجليزية من إعلاناتك المنشورة فقط، ويحوّل لفريقك في أي وقت.\n\nملفات العقار على واتساب\nعملاء مقيّمون بموافقتهم\nتحويل لموظف مع مهلة خدمة\nشاهدها في مساحة العمل\nS2\nالتسويق الذكي\n\nيجهز حملات فيسبوك وإنستغرام للعقار — الجمهور والميزانية والنص بلغتين — ولا يطلقها إلا بعد موافقتك.\n\nفحص سياسات إعلانات الإسكان\nسقف إنفاق تتحكم به\nفوترة الإعلان والرسوم بشكل منفصل\nشاهدها في مساحة العمل\nكيف يعمل\n1\nأرسل العقار\n\nنص أو ورقة بيانات أو رسالة صوتية أو صور — من المطور أو الوكيل.\n\n2\nالذكاء الاصطناعي يجهزه\n\nأوصاف بلغتين وصور مصنفة وفحوصات؛ يؤكد فريقك كل معلومة.\n\n3\nننشره في كل مكان\n\nكل بوابة تحصل على نسختها عبر رابطها الرسمي.\n\n4\nالاستفسارات تعود إليك\n\nكل العملاء من البوابات وواتساب والإعلانات في مدير عملاء واحد.\n\nالبوابات المرتبطة\n\nننشر فقط عبر الواجهات الرسمية أو التغذيات المعتمدة أو الطرق التي تسمح بها كل بوابة — دون أي استخلاص. ونحترم قدرات كل بوابة: إن لم تدعم إلغاء النشر أو إرجاع العملاء، توضح مساحة العمل ذلك.\n\nافتح مركز البوابات\nA\nالبوابة أ (تجريبية)\n\nواجهة API كاملة: إنشاء وتحديث وإلغاء نشر وحالة واسترجاع العملاء.\n\ncreate\nupdate\nunpublish\nstatus\nleads\nB\nالبوابة ب (تجريبية)\n\nتغذية XML للنشر فقط: لا إلغاء نشر ولا استرجاع عملاء. يتطلب رقم الترخيص والطابق؛ العنوان 70 حرفاً كحد أقصى.\n\ncreate\nupdate\nstatus\nالمطورون العقاريون\nأطلق مشروعاً كاملاً على كل البوابات دفعة واحدة.\nالوكالات\nأدوار للفريق ومخزون مشترك وصندوق واحد لكل العملاء.\nالوسطاء والملاك\nإعلانات احترافية وردود سريعة دون عناء.\nباقات مبنية على الخدمات\n\nاختر عدد الإعلانات وربط البوابات ومقاعد الفريق وأرصدة الذكاء الاصطناعي التي تحتاجها.\n\nعرض الباقات\nابدأ الآن\n\nحلقة الوصل بين المطورين والوكالات وبوابات العقارات في قطر.\n\nالخدمات\nاستوديو الإعلانات الذكي\nربط البوابات\nمساعد الدعم الذكي\nالتسويق الذكي\nالمطورون والوكالات\nالباقات والأسعار\nابدأ الآن\nلوحة الوكالة\nعقار برو\nمن نحن\nالشروط\nالخصوصية\nاتصل بنا\nنموذج تفاعلي — بيانات تجريبية فقط · © 2026 AqarPro\nإعادة ضبط بيانات العرض",
+    "links": [
+      {
+        "text": "",
+        "href": "/ar"
+      },
+      {
+        "text": "الخدمات",
+        "href": "/ar#services"
+      },
+      {
+        "text": "كيف يعمل",
+        "href": "/ar#how"
+      },
+      {
+        "text": "البوابات",
+        "href": "/ar#portals"
+      },
+      {
+        "text": "الأسعار",
+        "href": "/ar/pricing"
+      },
+      {
+        "text": "تسجيل الدخول",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "ابدأ الآن",
+        "href": "/ar/register"
+      },
+      {
+        "text": "ابدأ الآن",
+        "href": "/ar/register"
+      },
+      {
+        "text": "افتح مساحة الوكالة",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "شاهدها في مساحة العمل",
+        "href": "/ar/advertiser/studio"
+      },
+      {
+        "text": "شاهدها في مساحة العمل",
+        "href": "/ar/hub"
+      },
+      {
+        "text": "شاهدها في مساحة العمل",
+        "href": "/ar/whatsapp"
+      },
+      {
+        "text": "شاهدها في مساحة العمل",
+        "href": "/ar/advertiser/promote/AQ-10233"
+      },
+      {
+        "text": "افتح مركز البوابات",
+        "href": "/ar/hub"
+      },
+      {
+        "text": "عرض الباقات",
+        "href": "/ar/pricing"
+      },
+      {
+        "text": "ابدأ الآن",
+        "href": "/ar/register"
+      },
+      {
+        "text": "استوديو الإعلانات الذكي",
+        "href": "/ar/advertiser/studio"
+      },
+      {
+        "text": "ربط البوابات",
+        "href": "/ar/hub"
+      },
+      {
+        "text": "مساعد الدعم الذكي",
+        "href": "/ar/whatsapp"
+      },
+      {
+        "text": "التسويق الذكي",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "الباقات والأسعار",
+        "href": "/ar/pricing"
+      },
+      {
+        "text": "ابدأ الآن",
+        "href": "/ar/register"
+      },
+      {
+        "text": "لوحة الوكالة",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "من نحن",
+        "href": "/ar"
+      },
+      {
+        "text": "الشروط",
+        "href": "/ar"
+      },
+      {
+        "text": "الخصوصية",
+        "href": "/ar"
+      },
+      {
+        "text": "اتصل بنا",
+        "href": "/ar"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/register",
+    "status": 200,
+    "title": "عقار برو — خدمات العقارات للمطورين والوكالات",
+    "text": "EN\nسجّل كمعلن\nS1\nFR-ACC-01\nFR-ACC-03\n\nسيناريو القبول C3 — سجّل، ارفع البطاقة أو السجل والرخصة، احصل على التوثيق، ثم اشترك وانشر.\n\n1\nالحساب\n2\nالهوية والترخيص\n3\nالتوثيق\nG\nالمتابعة عبر Google\nالمتابعة عبر Apple\nأو\nالبريد وكلمة المرور\nالجوال ورمز التحقق\nالاسم الكامل\nالبريد الإلكتروني\nكلمة المرور (8 أحرف على الأقل)\n\nبالمتابعة توافق على الشروط وسياسة الخصوصية (القانون رقم 13 لسنة 2016). يمكنك تغيير موافقة التسويق وواتساب في أي وقت.\n\nمتابعة\n\nحلقة الوصل بين المطورين والوكالات وبوابات العقارات في قطر.\n\nالخدمات\nاستوديو الإعلانات الذكي\nربط البوابات\nمساعد الدعم الذكي\nالتسويق الذكي\nالمطورون والوكالات\nالباقات والأسعار\nابدأ الآن\nلوحة الوكالة\nعقار برو\nمن نحن\nالشروط\nالخصوصية\nاتصل بنا\nنموذج تفاعلي — بيانات تجريبية فقط · © 2026 AqarPro\nإعادة ضبط بيانات العرض",
+    "links": [
+      {
+        "text": "",
+        "href": "/ar"
+      },
+      {
+        "text": "الخدمات",
+        "href": "/ar#services"
+      },
+      {
+        "text": "كيف يعمل",
+        "href": "/ar#how"
+      },
+      {
+        "text": "البوابات",
+        "href": "/ar#portals"
+      },
+      {
+        "text": "الأسعار",
+        "href": "/ar/pricing"
+      },
+      {
+        "text": "تسجيل الدخول",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "ابدأ الآن",
+        "href": "/ar/register"
+      },
+      {
+        "text": "استوديو الإعلانات الذكي",
+        "href": "/ar/advertiser/studio"
+      },
+      {
+        "text": "ربط البوابات",
+        "href": "/ar/hub"
+      },
+      {
+        "text": "مساعد الدعم الذكي",
+        "href": "/ar/whatsapp"
+      },
+      {
+        "text": "التسويق الذكي",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "الباقات والأسعار",
+        "href": "/ar/pricing"
+      },
+      {
+        "text": "ابدأ الآن",
+        "href": "/ar/register"
+      },
+      {
+        "text": "لوحة الوكالة",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "من نحن",
+        "href": "/ar"
+      },
+      {
+        "text": "الشروط",
+        "href": "/ar"
+      },
+      {
+        "text": "الخصوصية",
+        "href": "/ar"
+      },
+      {
+        "text": "اتصل بنا",
+        "href": "/ar"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/advertiser",
+    "status": 200,
+    "title": "عقار برو — خدمات العقارات للمطورين والوكالات",
+    "text": "EN\nتسجيل دخول تجريبي\nالحساب\nبيرل جيت العقارية ✓\nلوسيل هومز ✓\nالدوحة برايم للعقارات ✓\nأحمد الكواري ✓\nسارة منصور (وسيط) ✓\nعمر حداد · غير موثق\nجلف كي العقارية · غير موثق\nبصفة\nRania Haddad — المالك\nYousef Al-Marri — مدير\nFatima Noor — وكيل\nKarim Said — وكيل\nPriya Menon (Finance) — قراءة فقط\nالمالك\nFR-ACC-02\nتسجيل معلن جديد\nPG\nبيرل جيت العقارية\n\nبوابة المعلن · الباقة: الوكالة · مؤسسة وكالة · بصفة المالك\nS1\n\nاستوديو الإعلانات الذكي\nأضف إعلان\nنظرة عامة\nالإعلانات\nالعملاء2\nالفوترة\nالفريق\nالتوثيق والامتثال2\nمشاهدات الإعلانات (30 يوم)\n9,855\n▲ 12% عن الشهر الماضي\nالاستفسارات\n246\n▲ 8%\nنقرات واتساب\n444\n▲ 21%\nالعملاء هذا الشهر\n46\n2 جديد بانتظار الرد\nالمشاهدات ونقرات واتساب — آخر 14 يوماً\nFR-LST-10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\nالمشاهدات\nنقرات واتساب\nالعملاء حسب المصدر\nواتساب\n51%\nنموذج الموقع\n28%\nالمساعد الذكي\n16%\nإعلانات ميتا\n4%\n\nتُنسب إعلانات النقر إلى واتساب من أول رسالة.\n\nاستخدام الباقة\nالوكالة\nالإعلانات النشطة\n5 / 150\nمقاعد الفريق\n5 / 10\nأرصدة الذكاء الاصطناعي هذا الشهر\n555 / 2000\nالإعلانات الأفضل أداءً\nتاون هاوس 3 غرف مع شاطئ خاص، قناة كوارتييه\nAQ-10241\nشقة غرفة نوم مفروشة في المدينة سنترال شاملة الفواتير\nAQ-10251\nبنتهاوس فاخر 4 غرف بتراس خاص، الخليج الغربي\nAQ-10244\nشقة تملك حر 3 غرف + غرفة خادمة في فيفا بحرية\nAQ-10233\n\nحلقة الوصل بين المطورين والوكالات وبوابات العقارات في قطر.\n\nالخدمات\nاستوديو الإعلانات الذكي\nربط البوابات\nمساعد الدعم الذكي\nالتسويق الذكي\nالمطورون والوكالات\nالباقات والأسعار\nابدأ الآن\nلوحة الوكالة\nعقار برو\nمن نحن\nالشروط\nالخصوصية\nاتصل بنا\nنموذج تفاعلي — بيانات تجريبية فقط · © 2026 AqarPro\nإعادة ضبط بيانات العرض",
+    "links": [
+      {
+        "text": "",
+        "href": "/ar"
+      },
+      {
+        "text": "الخدمات",
+        "href": "/ar#services"
+      },
+      {
+        "text": "كيف يعمل",
+        "href": "/ar#how"
+      },
+      {
+        "text": "البوابات",
+        "href": "/ar#portals"
+      },
+      {
+        "text": "الأسعار",
+        "href": "/ar/pricing"
+      },
+      {
+        "text": "تسجيل الدخول",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "ابدأ الآن",
+        "href": "/ar/register"
+      },
+      {
+        "text": "تسجيل معلن جديد",
+        "href": "/ar/register"
+      },
+      {
+        "text": "استوديو الإعلانات الذكي",
+        "href": "/ar/advertiser/studio"
+      },
+      {
+        "text": "أضف إعلان",
+        "href": "/ar/advertiser/new"
+      },
+      {
+        "text": "استوديو الإعلانات الذكي",
+        "href": "/ar/advertiser/studio"
+      },
+      {
+        "text": "ربط البوابات",
+        "href": "/ar/hub"
+      },
+      {
+        "text": "مساعد الدعم الذكي",
+        "href": "/ar/whatsapp"
+      },
+      {
+        "text": "التسويق الذكي",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "الباقات والأسعار",
+        "href": "/ar/pricing"
+      },
+      {
+        "text": "ابدأ الآن",
+        "href": "/ar/register"
+      },
+      {
+        "text": "لوحة الوكالة",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "من نحن",
+        "href": "/ar"
+      },
+      {
+        "text": "الشروط",
+        "href": "/ar"
+      },
+      {
+        "text": "الخصوصية",
+        "href": "/ar"
+      },
+      {
+        "text": "اتصل بنا",
+        "href": "/ar"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/advertiser/new",
+    "status": 200,
+    "title": "عقار برو — خدمات العقارات للمطورين والوكالات",
+    "text": "EN\nتسجيل دخول تجريبي\nالحساب\nبيرل جيت العقارية ✓\nلوسيل هومز ✓\nالدوحة برايم للعقارات ✓\nأحمد الكواري ✓\nسارة منصور (وسيط) ✓\nعمر حداد · غير موثق\nجلف كي العقارية · غير موثق\nبصفة\nRania Haddad — المالك\nYousef Al-Marri — مدير\nFatima Noor — وكيل\nKarim Said — وكيل\nPriya Menon (Finance) — قراءة فقط\nالمالك\nFR-ACC-02\nتسجيل معلن جديد\nأضف إعلاناً\n\nبيرل جيت العقارية · 5/150 إعلان مستخدم · 1445 رصيد ذكاء متبقٍ\nS1\nFR-LST-01\n\nالغرض\nللإيجار\nللبيع\nنوع العقار\nشقة\nفيلا\nتاون هاوس\nبنتهاوس\nاستوديو\nمكتب\nالمنطقة\nاللؤلؤة\nلوسيل\nالخليج الغربي\nالسد\nمشيرب\nالوعب\nالوكرة\nالغرافة\nبن محمود\nالمطار القديم\nالدحيل\nعين خالد\nالمبنى / الكمباوند (اختياري)\nتم تحديد الموقع تلقائياً من المنطقة:\n25.3705, 51.5512\n· يمكن للمعلن سحبه إلى المبنى بدقة\nرجوع\nمتابعة\n\nحلقة الوصل بين المطورين والوكالات وبوابات العقارات في قطر.\n\nالخدمات\nاستوديو الإعلانات الذكي\nربط البوابات\nمساعد الدعم الذكي\nالتسويق الذكي\nالمطورون والوكالات\nالباقات والأسعار\nابدأ الآن\nلوحة الوكالة\nعقار برو\nمن نحن\nالشروط\nالخصوصية\nاتصل بنا\nنموذج تفاعلي — بيانات تجريبية فقط · © 2026 AqarPro\nإعادة ضبط بيانات العرض",
+    "links": [
+      {
+        "text": "",
+        "href": "/ar"
+      },
+      {
+        "text": "الخدمات",
+        "href": "/ar#services"
+      },
+      {
+        "text": "كيف يعمل",
+        "href": "/ar#how"
+      },
+      {
+        "text": "البوابات",
+        "href": "/ar#portals"
+      },
+      {
+        "text": "الأسعار",
+        "href": "/ar/pricing"
+      },
+      {
+        "text": "تسجيل الدخول",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "ابدأ الآن",
+        "href": "/ar/register"
+      },
+      {
+        "text": "تسجيل معلن جديد",
+        "href": "/ar/register"
+      },
+      {
+        "text": "استوديو الإعلانات الذكي",
+        "href": "/ar/advertiser/studio"
+      },
+      {
+        "text": "ربط البوابات",
+        "href": "/ar/hub"
+      },
+      {
+        "text": "مساعد الدعم الذكي",
+        "href": "/ar/whatsapp"
+      },
+      {
+        "text": "التسويق الذكي",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "الباقات والأسعار",
+        "href": "/ar/pricing"
+      },
+      {
+        "text": "ابدأ الآن",
+        "href": "/ar/register"
+      },
+      {
+        "text": "لوحة الوكالة",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "من نحن",
+        "href": "/ar"
+      },
+      {
+        "text": "الشروط",
+        "href": "/ar"
+      },
+      {
+        "text": "الخصوصية",
+        "href": "/ar"
+      },
+      {
+        "text": "اتصل بنا",
+        "href": "/ar"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/advertiser/studio",
+    "status": 200,
+    "title": "AI Listing Studio · AqarPro",
+    "text": "EN\nاستوديو الإعلانات الذكي\nS1\n\nالصق ملاحظة أو ارفع مستنداً أو أرسل رسالة صوتية. يصيغ الذكاء الاصطناعي الإعلان ويؤكد شخص كل معلومة قبل الحفظ أو النشر.\n\nتعمل باسم\nRania Haddad · المالك\nYousef Al-Marri · مدير\nFatima Noor · وكيل\nKarim Said · وكيل\nPriya Menon (Finance) · قراءة فقط\nأرصدة الذكاء المتبقية\n1,445 / 2,000\nجديد\n1.الإدخال\n2.المعلومات\n3.الصور\n4.النص عربي / إنجليزي\n5.الفحص والاعتماد\n6.النشر للبوابات\nكيف تريد إضافة العقار؟\nAIS-01\n2 رصيد\nلصق نص\nرسالة واتساب أو بريد من المالك\n5 رصيد\nرفع مستند\nورقة إعلان أو PDF أو صورة نموذج — OCR\n4 رصيد\nرسالة صوتية\nتحدث بالتفاصيل بالعربية أو الإنجليزية\nمثال بالإنجليزية\nمثال بالعربية\nاستخراج المعلومات بالذكاء الاصطناعي · 2 رصيد\n\nحلقة الوصل بين المطورين والوكالات وبوابات العقارات في قطر.\n\nالخدمات\nاستوديو الإعلانات الذكي\nربط البوابات\nمساعد الدعم الذكي\nالتسويق الذكي\nالمطورون والوكالات\nالباقات والأسعار\nابدأ الآن\nلوحة الوكالة\nعقار برو\nمن نحن\nالشروط\nالخصوصية\nاتصل بنا\nنموذج تفاعلي — بيانات تجريبية فقط · © 2026 AqarPro\nإعادة ضبط بيانات العرض",
+    "links": [
+      {
+        "text": "",
+        "href": "/ar"
+      },
+      {
+        "text": "الخدمات",
+        "href": "/ar#services"
+      },
+      {
+        "text": "كيف يعمل",
+        "href": "/ar#how"
+      },
+      {
+        "text": "البوابات",
+        "href": "/ar#portals"
+      },
+      {
+        "text": "الأسعار",
+        "href": "/ar/pricing"
+      },
+      {
+        "text": "تسجيل الدخول",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "ابدأ الآن",
+        "href": "/ar/register"
+      },
+      {
+        "text": "استوديو الإعلانات الذكي",
+        "href": "/ar/advertiser/studio"
+      },
+      {
+        "text": "ربط البوابات",
+        "href": "/ar/hub"
+      },
+      {
+        "text": "مساعد الدعم الذكي",
+        "href": "/ar/whatsapp"
+      },
+      {
+        "text": "التسويق الذكي",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "الباقات والأسعار",
+        "href": "/ar/pricing"
+      },
+      {
+        "text": "ابدأ الآن",
+        "href": "/ar/register"
+      },
+      {
+        "text": "لوحة الوكالة",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "من نحن",
+        "href": "/ar"
+      },
+      {
+        "text": "الشروط",
+        "href": "/ar"
+      },
+      {
+        "text": "الخصوصية",
+        "href": "/ar"
+      },
+      {
+        "text": "اتصل بنا",
+        "href": "/ar"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/hub",
+    "status": 200,
+    "title": "Portal Integration Hub · AqarPro",
+    "text": "EN\nمركز ربط البوابات\nS1\n\nإعلان أساسي واحد وبوابات متعددة: نسخ محوّلة، تحقق، طابور مهام دائم، إعادة آمنة وسجل كامل.\nHUB-01\nFR-LST-12\n\nتعمل باسم\nRania Haddad · المالك\nYousef Al-Marri · مدير\nFatima Noor · وكيل\nKarim Said · وكيل\nPriya Menon (Finance) · قراءة فقط\nإعلان جديد بالاستوديو الذكي\nالوجهات\n4\n3 إعلانات\nمنشور\n3\nتحتاج تصحيح\n1\nعمق الطابور\n0\n1 إعادات\nنجاح المهام\n100%\n3 منتهية\nالوجهات\n1\nالمهام\nالموصلات\nالصحة\nالحالة لكل إعلان وبوابة\nS1\nHUB-07\nHUB-09\nإعلان عقار برو\t\nA\nالبوابة أ (تجريبية)\t\nB\nالبوابة ب (تجريبية)\n\nAQ-10231\nشقة غرفتين بإطلالة بحرية في بورتو أرابيا، مفروشة بالكامل\n\t\nمنشور\nPA-884120 · v3\nمزامنة قبل 45 دقيقة\n\t\nمنشور\nPB-55211 · v2\nمزامنة قبل 50 دقيقة\n\n\nAQ-10244\nبنتهاوس فاخر 4 غرف بتراس خاص، الخليج الغربي\n\t\nمنشور\nPA-884377 · v1\nمزامنة قبل ساعتين\n\tغير منشور\n\nAQ-10241\nتاون هاوس 3 غرف مع شاطئ خاص، قناة كوارتييه\n\tغير منشور\t\nيحتاج تصحيح\nبدون معرف خارجي · v1\n→ صحّح الحقل المحدد\nنشر أو إدارة إعلان\nاختر إعلاناً…\nAQ-10231 · شقة غرفتين بإطلالة بحرية في بورتو أرابيا، مفروشة بالكامل (live)\nAQ-10233 · شقة تملك حر 3 غرف + غرفة خادمة في فيفا بحرية (live)\nAQ-10241 · تاون هاوس 3 غرف مع شاطئ خاص، قناة كوارتييه (live)\nAQ-10244 · بنتهاوس فاخر 4 غرف بتراس خاص، الخليج الغربي (live)\nAQ-10251 · شقة غرفة نوم مفروشة في المدينة سنترال شاملة الفواتير (live)\n\nحلقة الوصل بين المطورين والوكالات وبوابات العقارات في قطر.\n\nالخدمات\nاستوديو الإعلانات الذكي\nربط البوابات\nمساعد الدعم الذكي\nالتسويق الذكي\nالمطورون والوكالات\nالباقات والأسعار\nابدأ الآن\nلوحة الوكالة\nعقار برو\nمن نحن\nالشروط\nالخصوصية\nاتصل بنا\nنموذج تفاعلي — بيانات تجريبية فقط · © 2026 AqarPro\nإعادة ضبط بيانات العرض",
+    "links": [
+      {
+        "text": "",
+        "href": "/ar"
+      },
+      {
+        "text": "الخدمات",
+        "href": "/ar#services"
+      },
+      {
+        "text": "كيف يعمل",
+        "href": "/ar#how"
+      },
+      {
+        "text": "البوابات",
+        "href": "/ar#portals"
+      },
+      {
+        "text": "الأسعار",
+        "href": "/ar/pricing"
+      },
+      {
+        "text": "تسجيل الدخول",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "ابدأ الآن",
+        "href": "/ar/register"
+      },
+      {
+        "text": "إعلان جديد بالاستوديو الذكي",
+        "href": "/ar/advertiser/studio"
+      },
+      {
+        "text": "استوديو الإعلانات الذكي",
+        "href": "/ar/advertiser/studio"
+      },
+      {
+        "text": "ربط البوابات",
+        "href": "/ar/hub"
+      },
+      {
+        "text": "مساعد الدعم الذكي",
+        "href": "/ar/whatsapp"
+      },
+      {
+        "text": "التسويق الذكي",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "الباقات والأسعار",
+        "href": "/ar/pricing"
+      },
+      {
+        "text": "ابدأ الآن",
+        "href": "/ar/register"
+      },
+      {
+        "text": "لوحة الوكالة",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "من نحن",
+        "href": "/ar"
+      },
+      {
+        "text": "الشروط",
+        "href": "/ar"
+      },
+      {
+        "text": "الخصوصية",
+        "href": "/ar"
+      },
+      {
+        "text": "اتصل بنا",
+        "href": "/ar"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/advertiser/promote/AQ-10233",
+    "status": 200,
+    "title": "عقار برو — خدمات العقارات للمطورين والوكالات",
+    "text": "EN\nالعودة للإعلانات\nروّج على فيسبوك وإنستغرام\nS2\n\nAQ-10233\n· شقة تملك حر 3 غرف + غرفة خادمة في فيفا بحرية\nSpecial ad category: HOUSING\n\nFR-ADV-04\nWP-MKT-01\nWP-MKT-02\n1.مسودة الوكيل\n2.الاستهداف والنص\n3.الميزانية والحدود\n4.الاعتماد\nوكيل التسويق من عقار برو\nيقرأ الإعلان ويقدّر الوصول ويجهّز التصاميم…\nاستدعاءات أدوات الوكيل\nWP-MKT-07\n…\nقراءة فقط للإعلانات · واجهة ميتا محدودة · المفاتيح على الخادم · كل استدعاء مسجل\nحملات هذا الإعلان\nS2\nCMP-77\nactive\nالإنفاق\n1,240 ر.ق\nالوصول\n48,200\nالنقرات\n1,310\nالعملاء\n37\nCPL\n33.5 ر.ق\nالرسوم\n300 ر.ق\nمحاكاة 7 أيام على ميتا\nإدارة العملاء ←\nالملخص الأسبوعي\nWP-MKT-05\n\nوصل إعلانك هذا الأسبوع إلى 48,200 شخص وجلب 37 عميلاً بتكلفة 33.5 ر.ق لكل عميل — أقل بنحو 18٪ من إعلانات مشابهة في اللؤلؤة. بدأت معظم المحادثات من قصص إنستغرام.\n\nانقل 20٪ من الميزانية من المنشورات إلى القصص\nمراجعة\nحدّث التصميم — معدل التكرار 3.1\nمراجعة\n\nلا تُطبق الاقتراحات تلقائياً أبداً. تُرسل أسبوعياً بالبريد وواتساب.\n\nمشاهدات الإعلان\n1,738\nنقرات واتساب\n78\n\nحلقة الوصل بين المطورين والوكالات وبوابات العقارات في قطر.\n\nالخدمات\nاستوديو الإعلانات الذكي\nربط البوابات\nمساعد الدعم الذكي\nالتسويق الذكي\nالمطورون والوكالات\nالباقات والأسعار\nابدأ الآن\nلوحة الوكالة\nعقار برو\nمن نحن\nالشروط\nالخصوصية\nاتصل بنا\nنموذج تفاعلي — بيانات تجريبية فقط · © 2026 AqarPro\nإعادة ضبط بيانات العرض",
+    "links": [
+      {
+        "text": "",
+        "href": "/ar"
+      },
+      {
+        "text": "الخدمات",
+        "href": "/ar#services"
+      },
+      {
+        "text": "كيف يعمل",
+        "href": "/ar#how"
+      },
+      {
+        "text": "البوابات",
+        "href": "/ar#portals"
+      },
+      {
+        "text": "الأسعار",
+        "href": "/ar/pricing"
+      },
+      {
+        "text": "تسجيل الدخول",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "ابدأ الآن",
+        "href": "/ar/register"
+      },
+      {
+        "text": "العودة للإعلانات",
+        "href": "/ar/advertiser?tab=listings"
+      },
+      {
+        "text": "إدارة العملاء ←",
+        "href": "/ar/advertiser/leads"
+      },
+      {
+        "text": "استوديو الإعلانات الذكي",
+        "href": "/ar/advertiser/studio"
+      },
+      {
+        "text": "ربط البوابات",
+        "href": "/ar/hub"
+      },
+      {
+        "text": "مساعد الدعم الذكي",
+        "href": "/ar/whatsapp"
+      },
+      {
+        "text": "التسويق الذكي",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "الباقات والأسعار",
+        "href": "/ar/pricing"
+      },
+      {
+        "text": "ابدأ الآن",
+        "href": "/ar/register"
+      },
+      {
+        "text": "لوحة الوكالة",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "من نحن",
+        "href": "/ar"
+      },
+      {
+        "text": "الشروط",
+        "href": "/ar"
+      },
+      {
+        "text": "الخصوصية",
+        "href": "/ar"
+      },
+      {
+        "text": "اتصل بنا",
+        "href": "/ar"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/whatsapp",
+    "status": 200,
+    "title": "تجربة واتساب · AqarPro",
+    "text": "EN\nتجربة واتساب\nS1\nS2\n\nمحاكاة حية لواتساب العميل. جرّب: “شقة غرفتين في اللؤلؤة بأقل من 13 ألف”، أو الأزرار، أو “ملف العقار”، أو “تحدث مع موظف”، أو STOP. ردود الموظفين من صندوق الدعم تظهر هنا.\n\nإدارة العملاء\nفتح صندوق الدعم\nإعادة المحادثة\nAqarPro\nحساب أعمال رسمي\nاليوم\n\nواجهة واتساب للأعمال الرسمية (Cloud API) — بدون أدوات غير رسمية\n\nسياق المحادثة\nS1\nالعميل\n+974 3000 0000\nلم يُطلب الاشتراك بعد نافذة الخدمة 24 ساعة مفتوحة\nالعقار الحالي\n—\nقوالب الرسائل (خارج نافذة 24 ساعة)\nS2\nnew_match_alert\nMARKETING · en, ar\nAPPROVED\nإرسال القالب\nprice_drop_alert\nMARKETING · en, ar\nAPPROVED\nإرسال القالب\nlisting_renewal_notice\nUTILITY · en, ar\nPENDING\nweekend_flash_offer\nMARKETING · en, ar · Rejected: promotional wording not allowed (policy)\nREJECTED\nما يحدث خلف الكواليس\nWebhooks · استدعاءات API · التوجيه\n17:37:43\nAPI\nPhone number +974 4000 1234 · display name “AqarPro” · quality rating GREEN · Cloud API\n17:37:43\nWEBHOOK\nWebhook verified · subscribed fields: messages, message_template_status_update\nسجل الموافقات S1\nلا توجد موافقات مسجلة لهذا الرقم بعد.\n\nحلقة الوصل بين المطورين والوكالات وبوابات العقارات في قطر.\n\nالخدمات\nاستوديو الإعلانات الذكي\nربط البوابات\nمساعد الدعم الذكي\nالتسويق الذكي\nالمطورون والوكالات\nالباقات والأسعار\nابدأ الآن\nلوحة الوكالة\nعقار برو\nمن نحن\nالشروط\nالخصوصية\nاتصل بنا\nنموذج تفاعلي — بيانات تجريبية فقط · © 2026 AqarPro\nإعادة ضبط بيانات العرض",
+    "links": [
+      {
+        "text": "",
+        "href": "/ar"
+      },
+      {
+        "text": "الخدمات",
+        "href": "/ar#services"
+      },
+      {
+        "text": "كيف يعمل",
+        "href": "/ar#how"
+      },
+      {
+        "text": "البوابات",
+        "href": "/ar#portals"
+      },
+      {
+        "text": "الأسعار",
+        "href": "/ar/pricing"
+      },
+      {
+        "text": "تسجيل الدخول",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "ابدأ الآن",
+        "href": "/ar/register"
+      },
+      {
+        "text": "إدارة العملاء",
+        "href": "/ar/advertiser/leads"
+      },
+      {
+        "text": "فتح صندوق الدعم",
+        "href": "/ar/inbox"
+      },
+      {
+        "text": "استوديو الإعلانات الذكي",
+        "href": "/ar/advertiser/studio"
+      },
+      {
+        "text": "ربط البوابات",
+        "href": "/ar/hub"
+      },
+      {
+        "text": "مساعد الدعم الذكي",
+        "href": "/ar/whatsapp"
+      },
+      {
+        "text": "التسويق الذكي",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "الباقات والأسعار",
+        "href": "/ar/pricing"
+      },
+      {
+        "text": "ابدأ الآن",
+        "href": "/ar/register"
+      },
+      {
+        "text": "لوحة الوكالة",
+        "href": "/ar/advertiser"
+      },
+      {
+        "text": "من نحن",
+        "href": "/ar"
+      },
+      {
+        "text": "الشروط",
+        "href": "/ar"
+      },
+      {
+        "text": "الخصوصية",
+        "href": "/ar"
+      },
+      {
+        "text": "اتصل بنا",
+        "href": "/ar"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/properties",
+    "status": 404,
+    "title": "404: This page could not be found.",
+    "text": "404\nThis page could not be found.",
+    "links": []
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "route": "/properties/AQ-10233",
+    "status": 404,
+    "title": "404: This page could not be found.",
+    "text": "404\nThis page could not be found.",
+    "links": []
+  },
+  {
+    "tab": "Listings",
+    "text": "Services\nHow it works\nPortals\nPricing\nS1\nS1 + S2\nDemo portals\nالعربية\nSign in\nGet started\nDEMO SIGN-IN\nAccount\nPearl Gate Realty ✓\nLusail Homes ✓\nDoha Prime Properties ✓\nAhmed Al-Kuwari ✓\nSara Mansour (Broker) ✓\nOmar Haddad · unverified\nGulf Key Realty · unverified\nActing as\nRania Haddad — Owner\nYousef Al-Marri — Manager\nFatima Noor — Agent\nKarim Said — Agent\nPriya Menon (Finance) — Read-only\nOwner\nFR-ACC-02\nRegister a new advertiser\nPG\nPearl Gate Realty\n\nAdvertiser portal · Plan: Agency · Agency organisation · Signed in as Owner\nS1\n\nAI Listing Studio\nPost a listing\nOverview\nListings\nLeads2\nBilling\nTeam\nVerification & compliance2\nAll (5)\nLive (5)\nPending review (0)\nPaused (0)\nDraft (0)\nExpired (0)\nRejected (0)\nListing\tStatus\tAgent\tPortals S1\tPerformance\tExpires\tActions\n\nSea-view 2BR in Porto Arabia, fully furnished\nAQ-10231\n· QAR 12,500/mo\nPremium\n\tLive\t\nUnassigned\nRania Haddad\nYousef Al-Marri\nFatima Noor\nKarim Said\n\t\nA ✓\nB ✓\n\t\n300\n18\n8\n14\n\t\n14 Jan 2027\n82 days left\n\t\nPortals\nPromote on Meta\n\n\nFreehold 3BR + maid in Viva Bahriya\nAQ-10233\n· QAR 3,450,000\nFeatured\n\tLive\t\nUnassigned\nRania Haddad\nYousef Al-Marri\nFatima Noor\nKarim Said\n\t\n—\n\t\n1,738\n104\n43\n78\n\t\n10 Jan 2027\n78 days left\n\t\nPortals\nPromote on Meta\n\n\n3BR townhouse with private beach, Qanat Quartier\nAQ-10241\n· QAR 19,000/mo\n\tLive\t\nUnassigned\nRania Haddad\nYousef Al-Marri\nFatima Noor\nKarim Said\n\t\nB !\n\t\n2,690\n161\n67\n121\n\t\n9 Jan 2027\n77 days left\n\t\nPortals\nPromote on Meta\n\n\nLuxury 4BR penthouse with private terrace, West Bay\nAQ-10244\n· QAR 38,000/mo\nPremium\n\tLive\t\nUnassigned\nRania Haddad\nYousef Al-Marri\nFatima Noor\nKarim Said\n\t\nA ✓\n\t\n2,447\n147\n61\n110\n\t\n14 Jan 2027\n82 days left\n\t\nPortals\nPromote on Meta\n\n\nFurnished 1BR in Medina Centrale, bills included\nAQ-10251\n· QAR 8,800/mo\n\tLive\t\nUnassigned\nRania Haddad\nYousef Al-Marri\nFatima Noor\nKarim Said\n\t\n—\n\t\n2,680\n161\n67\n121\n\t\n15 Jan 2027\n83 days left\n\t\nPortals\nPromote on Meta\nExpiry reminders go out 7 and 1 days before expiry by email and WhatsApp; renewal is one click. Every change is kept in the listing's history.\nFR-LST-06\nFR-LST-11\n\nThe bridge between builders, agencies and Qatar's property portals.\n\nServices\nAI Listing Studio\nPortal connectors\nHelp desk AI\nMarketing AI\nBuilders & agencies\nPlans & pricing\nGet started\nAgency dashboard\nAqarPro\nAbout\nTerms\nPrivacy\nContact\nInteractive prototype — demo data only · © 2026 AqarPro\nReset demo data\nAsk AqarPro AI"
+  },
+  {
+    "tab": "Leads",
+    "text": "Services\nHow it works\nPortals\nPricing\nS1\nS1 + S2\nDemo portals\nالعربية\nSign in\nGet started\nDEMO SIGN-IN\nAccount\nPearl Gate Realty ✓\nLusail Homes ✓\nDoha Prime Properties ✓\nAhmed Al-Kuwari ✓\nSara Mansour (Broker) ✓\nOmar Haddad · unverified\nGulf Key Realty · unverified\nActing as\nRania Haddad — Owner\nYousef Al-Marri — Manager\nFatima Noor — Agent\nKarim Said — Agent\nPriya Menon (Finance) — Read-only\nOwner\nFR-ACC-02\nRegister a new advertiser\nPG\nPearl Gate Realty\n\nAdvertiser portal · Plan: Agency · Agency organisation · Signed in as Owner\nS1\n\nAI Listing Studio\nPost a listing\nOverview\nListings\nLeads2\nBilling\nTeam\nVerification & compliance2\nEvery enquiry — web, WhatsApp, portals, AI chat and Meta — lands in one lead list with its source.\nLED-01\nOpen full lead manager →\nLeads\nS1\n5 active · Owner\nLED-01\nAuto-assign 1\nCSV\nShow reports\nAll\n5\nWebsite\n2\nWhatsApp\n1\nAI chat\n1\nMeta\n1\nPortal\n0\nAll statuses\nNew\nContacted\nViewing\nClosed\nEveryone\nUnassigned\nRania Haddad\nYousef Al-Marri\nFatima Noor\nKarim Said\nOverdue tasks (0)\nLead\tSource\tListing\tScore\tStatus\tAssignee\tReceived\n\nJames Carter\nRequested property pack; asked about parking.\n\t\nWhatsApp\nClick-to-WhatsApp ad: Pearl sea-view\n\tAQ-10231\t\n82\n\tNew\tFatima Noor\t35 minutes ago\n\nNoura Al-Mannai\nAI assistant shortlist: penthouse, budget up to 40k, family of 5.\n\t\nAI chat\nAI assistant (web)\n\tAQ-10244\t\n91\n\tNew\tUnassigned\t2 hours ago\n\nDaniel Rossi\nIs the townhouse available from 1 December?\n\t\nWebsite\nOrganic search\n\tAQ-10241\t\n64\n\tContacted\tKarim Said\t5 hours ago\n\nHassan Ibrahim\nLead form: buying in 3 months, mortgage pre-approved.\n\t\nMeta\nMeta Lead Ad: Viva Bahriya\n\tAQ-10233\t\n88\n\tViewing\tFatima Noor\t15 hours ago\n\nAnna Kowalski\nAre pets allowed?\n\t\nWebsite\nOrganic search\n\tAQ-10251\t\n40\n\tClosed\tUnassigned\tyesterday\n\nThe bridge between builders, agencies and Qatar's property portals.\n\nServices\nAI Listing Studio\nPortal connectors\nHelp desk AI\nMarketing AI\nBuilders & agencies\nPlans & pricing\nGet started\nAgency dashboard\nAqarPro\nAbout\nTerms\nPrivacy\nContact\nInteractive prototype — demo data only · © 2026 AqarPro\nReset demo data\nAsk AqarPro AI"
+  },
+  {
+    "tab": "Billing",
+    "text": "Services\nHow it works\nPortals\nPricing\nS1\nS1 + S2\nDemo portals\nالعربية\nSign in\nGet started\nDEMO SIGN-IN\nAccount\nPearl Gate Realty ✓\nLusail Homes ✓\nDoha Prime Properties ✓\nAhmed Al-Kuwari ✓\nSara Mansour (Broker) ✓\nOmar Haddad · unverified\nGulf Key Realty · unverified\nActing as\nRania Haddad — Owner\nYousef Al-Marri — Manager\nFatima Noor — Agent\nKarim Said — Agent\nPriya Menon (Finance) — Read-only\nOwner\nFR-ACC-02\nRegister a new advertiser\nPG\nPearl Gate Realty\n\nAdvertiser portal · Plan: Agency · Agency organisation · Signed in as Owner\nS1\n\nAI Listing Studio\nPost a listing\nOverview\nListings\nLeads2\nBilling\nTeam\nVerification & compliance2\nCURRENT PLAN\nAgency\nactive\nQAR 1,999 / month\nNext renewal\n25 Nov 2026\nAuto-renew\nPayment method\nVISA •••• 1111\nChange plan\nPlan limits (enforced server-side)\nBIL-09\nActive listings\n5 / 150\nTeam seats\n5 / 10\nAI credits this month\n555 / 2000\nPortal connections\n2 / 3\n\nExternal portal listing fees are billed by each portal directly and are never mixed into AqarPro invoices.\n\nIf a payment fails\nFR-BIL-04\nDay 0\nRenewal charge fails → email + WhatsApp notice\nDays 1, 3, 5\nAutomatic retries on the saved card\nDays 0–7\nGrace period — listings stay live\nDay 8\nListings paused (never deleted) until payment\nInvoices\nFR-BIL-03\nInvoice\tDate\tDescription\tAmount\t\nINV-2026-000412\t25 Oct 2026\tAgency plan — October 2026\tQAR 1,999\tView / PDF\nINV-2026-000377\t8 Oct 2026\tAdd-on: 5 featured slots\tQAR 750\tView / PDF\nINV-2026-000351\t25 Sept 2026\tAgency plan — September 2026\tQAR 1,999\tView / PDF\n\nThe bridge between builders, agencies and Qatar's property portals.\n\nServices\nAI Listing Studio\nPortal connectors\nHelp desk AI\nMarketing AI\nBuilders & agencies\nPlans & pricing\nGet started\nAgency dashboard\nAqarPro\nAbout\nTerms\nPrivacy\nContact\nInteractive prototype — demo data only · © 2026 AqarPro\nReset demo data\nAsk AqarPro AI"
+  },
+  {
+    "tab": "Team",
+    "text": "Services\nHow it works\nPortals\nPricing\nS1\nS1 + S2\nDemo portals\nالعربية\nSign in\nGet started\nDEMO SIGN-IN\nAccount\nPearl Gate Realty ✓\nLusail Homes ✓\nDoha Prime Properties ✓\nAhmed Al-Kuwari ✓\nSara Mansour (Broker) ✓\nOmar Haddad · unverified\nGulf Key Realty · unverified\nActing as\nRania Haddad — Owner\nYousef Al-Marri — Manager\nFatima Noor — Agent\nKarim Said — Agent\nPriya Menon (Finance) — Read-only\nOwner\nFR-ACC-02\nRegister a new advertiser\nPG\nPearl Gate Realty\n\nAdvertiser portal · Plan: Agency · Agency organisation · Signed in as Owner\nS1\n\nAI Listing Studio\nPost a listing\nOverview\nListings\nLeads2\nBilling\nTeam\nVerification & compliance2\nTeam members\n\n5 / 10 seats used · organisation org-pearlgate\n\nInvite\nRH\nRania Haddad (you)\nrania@pearlgate.qa\n0 listings\nOwner\nYA\nYousef Al-Marri\nyousef@pearlgate.qa\n0 listings\nManager\nAgent\nRead-only\nFN\nFatima Noor\nfatima@pearlgate.qa\n1 listings\nManager\nAgent\nRead-only\nKS\nKarim Said\nkarim@pearlgate.qa\n4 listings\nManager\nAgent\nRead-only\nPM\nPriya Menon (Finance)\npriya@pearlgate.qa\n0 listings\nManager\nAgent\nRead-only\nRole permissions\nFR-ACC-02\n\tOwner\tManager\tAgent\tRead-only\nCreate & edit listings\t✓\t✓\t✓\t—\nSee all organisation listings & leads\t✓\t✓\t—\t✓\nAssign agents and leads\t✓\t✓\t—\t—\nApprove publishing\t✓\t✓\t—\t—\nBilling & invoices\t✓\t—\t—\t—\nManage team\t✓\t—\t—\t—\nPortal connections\t✓\t—\t—\t—\n\nAgents see only listings and leads assigned to them. Data is scoped to the organisation (tenant isolation).\n\nThe bridge between builders, agencies and Qatar's property portals.\n\nServices\nAI Listing Studio\nPortal connectors\nHelp desk AI\nMarketing AI\nBuilders & agencies\nPlans & pricing\nGet started\nAgency dashboard\nAqarPro\nAbout\nTerms\nPrivacy\nContact\nInteractive prototype — demo data only · © 2026 AqarPro\nReset demo data\nAsk AqarPro AI"
+  },
+  {
+    "tab": "Verification & compliance",
+    "text": "Services\nHow it works\nPortals\nPricing\nS1\nS1 + S2\nDemo portals\nالعربية\nSign in\nGet started\nDEMO SIGN-IN\nAccount\nPearl Gate Realty ✓\nLusail Homes ✓\nDoha Prime Properties ✓\nAhmed Al-Kuwari ✓\nSara Mansour (Broker) ✓\nOmar Haddad · unverified\nGulf Key Realty · unverified\nActing as\nRania Haddad — Owner\nYousef Al-Marri — Manager\nFatima Noor — Agent\nKarim Said — Agent\nPriya Menon (Finance) — Read-only\nOwner\nFR-ACC-02\nRegister a new advertiser\nPG\nPearl Gate Realty\n\nAdvertiser portal · Plan: Agency · Agency organisation · Signed in as Owner\nS1\n\nAI Listing Studio\nPost a listing\nOverview\nListings\nLeads2\nBilling\nTeam\nVerification & compliance2\nCURRENT PLAN\nAgency\nactive\nQAR 1,999 / month\nNext renewal\n25 Nov 2026\nAuto-renew\nPayment method\nVISA •••• 1111\nChange plan\nPlan limits (enforced server-side)\nBIL-09\nActive listings\n5 / 150\nTeam seats\n5 / 10\nAI credits this month\n555 / 2000\nPortal connections\n2 / 3\n\nExternal portal listing fees are billed by each portal directly and are never mixed into AqarPro invoices.\n\nIf a payment fails\nFR-BIL-04\nDay 0\nRenewal charge fails → email + WhatsApp notice\nDays 1, 3, 5\nAutomatic retries on the saved card\nDays 0–7\nGrace period — listings stay live\nDay 8\nListings paused (never deleted) until payment\nInvoices\nFR-BIL-03\nInvoice\tDate\tDescription\tAmount\t\nINV-2026-000412\t25 Oct 2026\tAgency plan — October 2026\tQAR 1,999\tView / PDF\nINV-2026-000377\t8 Oct 2026\tAdd-on: 5 featured slots\tQAR 750\tView / PDF\nINV-2026-000351\t25 Sept 2026\tAgency plan — September 2026\tQAR 1,999\tView / PDF\n\nThe bridge between builders, agencies and Qatar's property portals.\n\nServices\nAI Listing Studio\nPortal connectors\nHelp desk AI\nMarketing AI\nBuilders & agencies\nPlans & pricing\nGet started\nAgency dashboard\nAqarPro\nAbout\nTerms\nPrivacy\nContact\nInteractive prototype — demo data only · © 2026 AqarPro\nReset demo data\nAsk AqarPro AI"
+  }
+]

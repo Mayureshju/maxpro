@@ -6,7 +6,7 @@ import {useLocale} from 'next-intl';
 import {usePathname,useRouter} from 'next/navigation';
 import {useEffect,useRef,useState} from 'react';
 import {Link as LocaleLink} from '@/i18n/navigation';
-import {demoLabel,featureLinks,pick,publicBrand} from '@/lib/marketing-content';
+import {featureLinks,pick,publicBrand} from '@/lib/marketing-content';
 export function BrandMark({compact=false}:{compact?:boolean}){
  return <span className={`brand${compact?' brand-compact':''}`}><Image className="brand-logo" src={publicBrand.logo} alt={publicBrand.logoAlt} width={1356} height={330} sizes="164px"/></span>;
 }
@@ -24,10 +24,10 @@ export function SiteHeader(){
   <a className="mk-skip" href="#main-content">{t('Skip to content','انتقل إلى المحتوى')}</a>
   <div className="container header-inner"><LocaleLink href="/" className="logo-link" aria-label={t('AqarPro home','الرئيسية لعقار برو')}><BrandMark/></LocaleLink>
    <nav className="desktop-nav" aria-label={t('Main navigation','التنقل الرئيسي')}>
-    {link('/solutions',t('Platform','المنصة'))}{link('/solutions/agencies',t('For agencies','للوكالات'))}
-    <details className="mk-nav-disclosure"><summary aria-current={pathname.includes('/features/')?'true':undefined}>{t('Features','المزايا')}<ChevronDown size={14}/></summary><div>{featureLinks.map(f=><span key={f.slug}>{link(`/features/${f.slug}`,pick(locale,f.title))}</span>)}{link('/how-it-works',t('How it works','كيف تعمل المنصة'))}</div></details>
+    <details className="mk-nav-disclosure"><summary aria-current={pathname.includes('/features/')||pathname.includes('/solutions')?'true':undefined}>{t('Platform','المنصة')}<ChevronDown size={14}/></summary><div>{link('/solutions',t('Platform overview','نظرة على المنصة'))}{featureLinks.map(f=><span key={f.slug}>{link(`/features/${f.slug}`,pick(locale,f.title))}</span>)}{link('/solutions/agencies',t('For agencies','للوكالات'))}</div></details>
+    {link('/how-it-works',t('How it works','كيف تعمل المنصة'))}
     {link('/integrations',t('Integrations','التكاملات'))}{link('/pricing',t('Pricing','الأسعار'))}
-   </nav><div className="header-actions"><LocaleLink href="/sign-in" className="header-sign-in">{t('Return to demo','العودة للتجربة')}</LocaleLink><LanguageLink/><LocaleLink href="/sign-in" className="mk-button mk-primary header-cta">{pick(locale,demoLabel)}<ArrowUpRight size={16}/></LocaleLink><button ref={trigger} type="button" className="mobile-menu-toggle" onClick={()=>setExpanded(true)} aria-label={t('Open navigation','فتح القائمة')} aria-haspopup="dialog" aria-expanded={expanded} aria-controls="marketing-mobile-menu"><Menu size={23}/></button></div>
+   </nav><div className="header-actions"><LanguageLink/><LocaleLink href="/sign-in" className="header-sign-in">{t('Sign in','الدخول')}</LocaleLink><LocaleLink href="/register" className="mk-button mk-primary header-cta">{t('Get started','ابدأ الآن')}<ArrowUpRight size={16}/></LocaleLink><button ref={trigger} type="button" className="mobile-menu-toggle" onClick={()=>setExpanded(true)} aria-label={t('Open navigation','فتح القائمة')} aria-haspopup="dialog" aria-expanded={expanded} aria-controls="marketing-mobile-menu"><Menu size={23}/></button></div>
   </div>
   <dialog ref={dialog} id="marketing-mobile-menu" className="mk-mobile-dialog" aria-label={t('Mobile navigation','قائمة التنقل')} onKeyDown={e=>{if(e.key!=='Tab')return;const controls=Array.from(e.currentTarget.querySelectorAll<HTMLElement>('a[href],button:not([disabled])'));const first=controls[0],last=controls[controls.length-1];if(e.shiftKey&&document.activeElement===first){e.preventDefault();last?.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first?.focus()}}} onCancel={e=>{e.preventDefault();setExpanded(false)}} onClick={e=>{if(e.target===e.currentTarget)setExpanded(false)}}>
    <div className="mk-mobile-top"><BrandMark/><button type="button" autoFocus aria-label={t('Close navigation','إغلاق القائمة')} onClick={()=>setExpanded(false)}><X size={24}/></button></div>
