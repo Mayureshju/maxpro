@@ -59,3 +59,7 @@ Phase 6 implementation and freeze evidence: `docs/23-final-prototype-audit.md`, 
 GEM-01/02/03/17/18/19/20/21/22: compact organization context and navigation search; scoped control-tower work/CRM/viewing/campaign/capacity readouts; combined inventory filters and recovery; canonical draft protection; task-specific public platform/agency pages; truthful import and local activity; route feedback; explicit residual Arabic presentation labels; image-ready four-width responsive evidence. Existing GEM-04–16 and GEM-24 operational journeys are preserved and regression-tested. No production status or GEM-23 architecture change is implied.
 
 See [final frontend review](27-final-frontend-ui-review.md) for the 83-screen audit, implementation detail, test evidence, screenshots and remaining independent/native-Arabic/stakeholder gates. Commercial terms remain illustrative pending approval.
+
+## Product experience milestone — OpenSpec 0021
+
+GEM-01/02/03/05/06/08/10/11/13/14/16/18/19/21/22/24 retain their existing demo engines and production gaps. [Phase 17](38-complete-product-experience.md) adds public-only grounded product assistance, a persistent organization/persona-scoped in-memory workspace Copilot session, a logical-corner launcher, five-stage public product preview and compact daily enquiry/property navigation. QAR examples remain illustrative pending approval. No production row changes status. Browser evidence, scope boundaries and command results are linked from that document.

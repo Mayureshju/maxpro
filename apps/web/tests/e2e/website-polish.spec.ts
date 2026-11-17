@@ -10,15 +10,15 @@ for(const locale of ['en','ar']){
   const preview=page.getByTestId('product-preview');
   const shot=preview.locator('.mk-shot'),image=shot.locator('img'),link=shot.locator('a[target=_blank]');
   await shot.getByRole('button',{name:ar?'تفاصيل الميزة':'Feature detail',exact:true}).focus();await page.keyboard.press('Enter');
-  await expect(shot).toHaveAttribute('data-view','detail');await expect(image).toHaveAttribute('src',`/product/${locale}-dashboard-detail.webp`);
+  await expect(shot).toHaveAttribute('data-view','detail');await expect(image).toHaveAttribute('src',`/product/${locale}-editor-detail.webp`);
   await expect(shot.getByRole('button',{name:ar?'تفاصيل الميزة':'Feature detail',exact:true})).toHaveAttribute('aria-pressed','true');
   await link.focus();const [popup]=await Promise.all([page.waitForEvent('popup'),page.keyboard.press('Enter')]);
-  await expect(popup).toHaveURL(new RegExp(`${locale}-dashboard-detail${info.project.name==='mobile-chromium'?'-mobile':''}.webp$`));await popup.close();
+  await expect(popup).toHaveURL(new RegExp(`${locale}-editor-detail${info.project.name==='mobile-chromium'?'-mobile':''}.webp$`));await popup.close();
   await shot.getByRole('button',{name:ar?'مساحة العمل كاملة':'Full workspace',exact:true}).click();
   await expect.poll(()=>image.evaluate((el:HTMLImageElement)=>el.currentSrc)).toMatch(/\.webp$/);const current=await image.evaluate((el:HTMLImageElement)=>el.currentSrc);await expect(link).toHaveAttribute('href',current.replace(new URL(current).origin,''));
   const [full]=await Promise.all([page.waitForEvent('popup'),link.click()]);await expect(full).toHaveURL(current);await full.close();
   if(info.project.name==='mobile-chromium')expect(current).toContain('-mobile.webp');else expect(current).not.toContain('-mobile.webp');
-  await page.setViewportSize({width:320,height:500});await expect(link).toHaveAttribute('href',`/product/${locale}-dashboard-mobile.webp`);
+  await page.setViewportSize({width:320,height:500});await expect(link).toHaveAttribute('href',`/product/${locale}-editor-mobile.webp`);
   await page.screenshot({path:`${evidence}/${info.project.name}-${locale}-screenshot-controls.png`,animations:'disabled'});
  });
  test(`polish ${locale}: buyer navigation, current section and fictional entry`,async({page})=>{
@@ -66,7 +66,7 @@ for(const locale of ['en','ar']){
   expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBeLessThanOrEqual(1025);
   await page.evaluate(()=>{document.documentElement.style.zoom='';});
   const cdp=await page.context().newCDPSession(page);await cdp.send('Emulation.setCPUThrottlingRate',{rate:4});
-  await page.setViewportSize({width:320,height:500});await page.getByRole('tab').nth(1).click();await expect(page.getByRole('tabpanel')).toContainText(ar?'التفاصيل في مكان واحد':'The details live in one place');
+  await page.setViewportSize({width:320,height:500});await page.getByRole('tab').nth(1).click();await expect(page.getByRole('tabpanel')).toContainText(ar?'ابدأ بالحقائق':'Start from facts');
   await page.emulateMedia({reducedMotion:'reduce'});await page.getByRole('tab').nth(2).click();
   expect(await page.getByRole('tabpanel').evaluate(el=>getComputedStyle(el).animationName)).toBe('none');
   expect(await page.getByTestId('product-preview').locator('.mk-shot picture').evaluate(el=>getComputedStyle(el).animationName)).toBe('none');

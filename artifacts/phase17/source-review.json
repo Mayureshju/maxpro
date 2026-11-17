@@ -1,0 +1,11 @@
+{
+  "baseline": "ad1c4306f43e2133b430c50dc1659897441f9516",
+  "domain_engines_changed": [],
+  "dependency_inputs_changed": [],
+  "public_mode_private_imports": {
+    "apps/web/src/components/marketing/public-assistant.tsx": [],
+    "apps/web/src/lib/public-assistance.ts": [],
+    "apps/web/src/components/agency/assistant-frame.tsx": []
+  },
+  "routes_removed": []
+}

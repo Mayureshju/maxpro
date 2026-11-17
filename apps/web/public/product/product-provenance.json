@@ -1,6 +1,6 @@
 {
-  "source": "Actual Phase 15 Webpack production workspace; fictional records",
-  "baseline": "342786068bee2b15c6890632768988b14852a5be",
+  "source": "Actual Phase 17 Webpack production workspace; fictional records",
+  "baseline": "ad1c430",
   "screens": [
     {
       "locale": "en",
@@ -11,7 +11,7 @@
         "height": 1000
       },
       "file": "en-dashboard.webp",
-      "sha256": "8c732c39b94acb8bacbe7e56d9642240c551854ef6d60b0a245cd222d444e65d"
+      "sha256": "0c3f4de128ac1e6ca85802a8729d7907a427f5b038ed89ee04ed804e76c5e319"
     },
     {
       "locale": "en",
@@ -22,7 +22,7 @@
         "height": 1000
       },
       "file": "en-inventory.webp",
-      "sha256": "8dba1e728a90c2f9804616494bba8bc505ebd97709b7d2d66fe1b9bf12f077ff"
+      "sha256": "ddd730a918b4d9b693e7be11683df271c8742fd9bbc45097f5b61a55e066b8b3"
     },
     {
       "locale": "en",
@@ -33,7 +33,7 @@
         "height": 1000
       },
       "file": "en-editor.webp",
-      "sha256": "8dd2b2a3a537ea8d501aea39c57a2418d1ef29c9a96e968ad3963dbcbfaf8e52"
+      "sha256": "dda9aeaef607cbb326378c6f20a8b0281122f9a168df23fab6bd23efb2e70fe9"
     },
     {
       "locale": "en",
@@ -44,7 +44,7 @@
         "height": 1000
       },
       "file": "en-media.webp",
-      "sha256": "715ff91ab769737ec62aee3c367e8e9c2041020bfe0fcb2c9f1f01001cc41662"
+      "sha256": "85a19b691388327783c8896f666aa9216e26ea9d1fb68f47c0c5dc40d81aa85c"
     },
     {
       "locale": "en",
@@ -55,7 +55,7 @@
         "height": 1000
       },
       "file": "en-publish.webp",
-      "sha256": "4225bf9f401f9dd4c8cdb9f310a87147a7f0f957de66861008cffbf5d919091a"
+      "sha256": "47d349485775cad93b8ec5fd618d629da281500cb11e3c9600929b400dcf5490"
     },
     {
       "locale": "en",
@@ -66,7 +66,7 @@
         "height": 1000
       },
       "file": "en-review.webp",
-      "sha256": "4225bf9f401f9dd4c8cdb9f310a87147a7f0f957de66861008cffbf5d919091a"
+      "sha256": "47d349485775cad93b8ec5fd618d629da281500cb11e3c9600929b400dcf5490"
     },
     {
       "locale": "en",
@@ -77,7 +77,7 @@
         "height": 1000
       },
       "file": "en-leads.webp",
-      "sha256": "df2f4ad66b4bf42794bb68b9c43eec66e6dcd8c96301dafd30b82166b8122b72"
+      "sha256": "64fb66e6c84b7a7f10532b1a748ca5c47c70e7ad9c72ca763b3d6e3f23576c80"
     },
     {
       "locale": "en",
@@ -88,7 +88,7 @@
         "height": 1000
       },
       "file": "en-inbox.webp",
-      "sha256": "9787c33cca2b4987b6120a0f1caceb210c6ea90fdd687108172bbd3b3f50707c"
+      "sha256": "ee6f630d7abbbf29c011f07b51101366accef2b24b039e0258828c1a40b858f9"
     },
     {
       "locale": "en",
@@ -99,7 +99,7 @@
         "height": 1000
       },
       "file": "en-campaign.webp",
-      "sha256": "415b2047c654f230a36c9361aa67685bd4494a54ec95b3322b0867d2f4a0d358"
+      "sha256": "a250f351d5da77d755e95e688ac876e9d438ceadffed61694cfa9d601189caad"
     },
     {
       "locale": "en",
@@ -110,7 +110,7 @@
         "height": 1000
       },
       "file": "en-assistance.webp",
-      "sha256": "36653a3a2f1dfeee1584e38218997bb5376b7b400606822ad38fca28ace283aa"
+      "sha256": "0d0029675b84d54333d39d5bdf618595636c4f3db3764314681399390e7e6e03"
     },
     {
       "locale": "ar",
@@ -121,7 +121,7 @@
         "height": 1000
       },
       "file": "ar-dashboard.webp",
-      "sha256": "f0f40168f64bd450dd46046621e9c9627f982ab965ef004a2b1d297ccd727a7a"
+      "sha256": "f422b5d854d10496d85cf72e99ca6c68069cd4cd6d30f1fa6aa3a977d70a234b"
     },
     {
       "locale": "ar",
@@ -132,7 +132,7 @@
         "height": 1000
       },
       "file": "ar-inventory.webp",
-      "sha256": "5bad9ad14e819c36e8c0ee11708a14df43b0f3d70c7dd3379aa6ca31b9b13d28"
+      "sha256": "4ffa5590d8387b2488ada264db35fe64e38a8d47ba5b1b5772eccc88b0d63c8c"
     },
     {
       "locale": "ar",
@@ -143,7 +143,7 @@
         "height": 1000
       },
       "file": "ar-editor.webp",
-      "sha256": "4c238192020826a3b6a4c5046cc81122e5c0344a2cfc26a544a631dc35cee1a6"
+      "sha256": "0770086a4bfb8c5d12839c744126bc0afbcf328fd0c7ecdac5d9c9c2d96e8ada"
     },
     {
       "locale": "ar",
@@ -154,7 +154,7 @@
         "height": 1000
       },
       "file": "ar-media.webp",
-      "sha256": "2f64a68031a3c8ccda91a21b203b21976e3d186cd1a93cf1e28da9395a46152d"
+      "sha256": "0adbe1b63f5af6dad344f5132754edc0d79372c3a5c69787ce579e8a9af5dab2"
     },
     {
       "locale": "ar",
@@ -165,7 +165,7 @@
         "height": 1000
       },
       "file": "ar-publish.webp",
-      "sha256": "0ff0a448ba907daa9f7f32c163ea4fc94e7f36ed4f4390770239cdbf86afcee5"
+      "sha256": "5ae41691576330e6a3ddb6ef76fb98754e8204a1a4c9cd76b89eba7f6d23ed45"
     },
     {
       "locale": "ar",
@@ -176,7 +176,7 @@
         "height": 1000
       },
       "file": "ar-review.webp",
-      "sha256": "0ff0a448ba907daa9f7f32c163ea4fc94e7f36ed4f4390770239cdbf86afcee5"
+      "sha256": "5ae41691576330e6a3ddb6ef76fb98754e8204a1a4c9cd76b89eba7f6d23ed45"
     },
     {
       "locale": "ar",
@@ -187,7 +187,7 @@
         "height": 1000
       },
       "file": "ar-leads.webp",
-      "sha256": "7b8efa6c2011807c80988fdf626972e37775ff9c61129ac89d332110b35900c4"
+      "sha256": "e7aad66f8498dab035d42cae4dfc8a55354500e2014752e470bd8e37657f6658"
     },
     {
       "locale": "ar",
@@ -198,7 +198,7 @@
         "height": 1000
       },
       "file": "ar-inbox.webp",
-      "sha256": "67d3b81dea7505dbca148d545ba8a1ef1cdbb893ecd59b447d3fd768a1654551"
+      "sha256": "31879e983c95b9f3e1b7a4452d79ab8eb739504959a2b6bca768e63140c3b243"
     },
     {
       "locale": "ar",
@@ -209,7 +209,7 @@
         "height": 1000
       },
       "file": "ar-campaign.webp",
-      "sha256": "72f42ba90109edd17634760eb7c97a67fd27652b8e7b068976f36b222d156f6e"
+      "sha256": "a05055fd6b8fdfdefdb88f982713abdc11b09e649d21c41eb33c9fcec28bc973"
     },
     {
       "locale": "ar",
@@ -220,7 +220,7 @@
         "height": 1000
       },
       "file": "ar-assistance.webp",
-      "sha256": "d9024b44a8712ae904676e397bf923a5b69c446ab892a3c5856e9d24f1e234cc"
+      "sha256": "00d3ac563cbf05a6d489aaaee61b977c4e2afe954807c50b98db3dea912f408b"
     }
   ]
 }

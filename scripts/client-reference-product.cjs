@@ -2,7 +2,7 @@
 const {chromium}=require('../apps/web/node_modules/@playwright/test');
 const fs=require('node:fs'),{createHash}=require('node:crypto');
 const sharp=require('node:module').createRequire(require.resolve('../apps/web/node_modules/next/package.json'))('sharp');
-const base=process.env.PHASE15_BASE_URL||'http://localhost:3215',dir='apps/web/public/product';
+const base=process.env.MAXPRO_PRODUCT_BASE_URL||process.env.PHASE15_BASE_URL||'http://localhost:3000',dir='apps/web/public/product';
 const screens={dashboard:'/workspace',inventory:'/workspace/inventory',editor:'/workspace/inventory/AQ-10233/edit',media:'/workspace/inventory/AQ-10233/media',publish:'/workspace/publish?property=AQ-10233&goal=portals',review:'/workspace/publish?property=AQ-10233&goal=portals',leads:'/workspace/leads',inbox:'/workspace/inbox?lead=LE-2101',campaign:'/workspace/publish?property=AQ-10233&goal=advertising',assistance:'/workspace/inventory/AQ-10233/edit?step=1'};
 const hash=b=>createHash('sha256').update(b).digest('hex');
 (async()=>{
@@ -21,6 +21,6 @@ const hash=b=>createHash('sha256').update(b).digest('hex');
    const detailFile=`${locale}-${screen}-detail${mobile?'-mobile':''}.webp`;await sharp(buffer).extract(rectangle).webp({quality:92}).toFile(`${dir}/${detailFile}`);details.push({file:detailFile,source:file,sourceSha256:hash(buffer),rectangle,transformation:'Exact crop and WebP encoding of actual current app; no synthesized interface'});
   }
  }
- for(const mobile of [false,true])fs.writeFileSync(`${dir}/product${mobile?'-mobile':''}-provenance.json`,JSON.stringify({source:'Actual Phase 15 Webpack production workspace; fictional records',baseline:'342786068bee2b15c6890632768988b14852a5be',screens:screensMeta.filter(s=>s.file.includes('-mobile')===mobile)},null,2));
- fs.writeFileSync(`${dir}/detail-provenance.json`,JSON.stringify({baseline:'342786068bee2b15c6890632768988b14852a5be',records:details},null,2));fs.writeFileSync(`${dir}/task-mobile-provenance.json`,JSON.stringify({captureBuild:'Phase 15 Webpack production preview',records:tasks},null,2));await browser.close();console.log(JSON.stringify({screens:screensMeta.length,details:details.length,tasks:tasks.length}));
+ for(const mobile of [false,true])fs.writeFileSync(`${dir}/product${mobile?'-mobile':''}-provenance.json`,JSON.stringify({source:'Actual Phase 17 Webpack production workspace; fictional records',baseline:'ad1c430',screens:screensMeta.filter(s=>s.file.includes('-mobile')===mobile)},null,2));
+ fs.writeFileSync(`${dir}/detail-provenance.json`,JSON.stringify({baseline:'ad1c430',records:details},null,2));fs.writeFileSync(`${dir}/task-mobile-provenance.json`,JSON.stringify({captureBuild:'Phase 17 Webpack production preview',records:tasks},null,2));await browser.close();console.log(JSON.stringify({screens:screensMeta.length,details:details.length,tasks:tasks.length}));
 })().catch(e=>{console.error(e);process.exit(1)});

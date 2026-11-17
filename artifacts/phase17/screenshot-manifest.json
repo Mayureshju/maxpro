@@ -1,0 +1,2345 @@
+{
+  "source": "Actual local Next.js renders; fictional records; no synthetic UI imagery",
+  "files": [
+    {
+      "file": "before/ar-1440-agencies.png",
+      "bytes": 850903,
+      "sha256": "5d98cdb638e63fdac001ed0a9716d9a79977dededb083f42154ad6bded13c990"
+    },
+    {
+      "file": "before/ar-1440-ai.png",
+      "bytes": 465823,
+      "sha256": "d3f709fc5c2a7c46f57f556e53a717d5b42db7d5e2cc8022d43f4ab40715f449"
+    },
+    {
+      "file": "before/ar-1440-analytics.png",
+      "bytes": 252385,
+      "sha256": "6449c4dcd3073b9ab9d42bee8f137010c6ab79f6aa74d9bcf934e77daf6954a5"
+    },
+    {
+      "file": "before/ar-1440-assistant-open.png",
+      "bytes": 409671,
+      "sha256": "2a6806528b61c5234d5f86a76d2c42acceabf44f9637e453e5b0e99978d8e749"
+    },
+    {
+      "file": "before/ar-1440-billing.png",
+      "bytes": 152655,
+      "sha256": "8a6d2882bdb873afc85233ed7942e67fedcd0a4c8443e0ca56410d870a930441"
+    },
+    {
+      "file": "before/ar-1440-campaign-review.png",
+      "bytes": 185481,
+      "sha256": "7f0785278a5d4022486b9194c7487187022ff29c887ada87a040b43cfb12189e"
+    },
+    {
+      "file": "before/ar-1440-campaigns.png",
+      "bytes": 125340,
+      "sha256": "04d4f39e0b799767956390ce52f2340a466aa9b19265d080675bbb33ce2ef2d2"
+    },
+    {
+      "file": "before/ar-1440-contact.png",
+      "bytes": 214526,
+      "sha256": "423d6bff7a606eeb2e0c00f343bb1ad2baa76e3985d3f80f56e36d6b07215cc0"
+    },
+    {
+      "file": "before/ar-1440-create.png",
+      "bytes": 133131,
+      "sha256": "497b59237e187a06bc4ccdcf6688a4a1e9907bc155745382e5066134323d9a29"
+    },
+    {
+      "file": "before/ar-1440-dashboard.png",
+      "bytes": 202248,
+      "sha256": "e25d6ac893edadf27bd8fe7197780db7945a3ea2858d773359a6928aca925b7e"
+    },
+    {
+      "file": "before/ar-1440-editor.png",
+      "bytes": 133856,
+      "sha256": "51b5fa29e826286bb13c9eca9d41b8f8813839a10b6c4f970e6929d57b779df2"
+    },
+    {
+      "file": "before/ar-1440-empty-dashboard.png",
+      "bytes": 103233,
+      "sha256": "378a8bd230f35f31814e571f80aa027c75c4e97ab2eb3dca4c2709e1fd195a65"
+    },
+    {
+      "file": "before/ar-1440-faq.png",
+      "bytes": 220507,
+      "sha256": "301317ab4206dc4e69085745e7376d9fdb40ebc3d5b15c7a87fd2d9f17040da2"
+    },
+    {
+      "file": "before/ar-1440-home.png",
+      "bytes": 781534,
+      "sha256": "35dee06dc92c2952f58ecc2dc3e2057d2e9dee048bc9f9583dff776ec7ac31cd"
+    },
+    {
+      "file": "before/ar-1440-how-it-works.png",
+      "bytes": 334981,
+      "sha256": "c03dc96162798ffbdb1dfaf8fea267af8c8852fed33efa58470668d15f8f2e37"
+    },
+    {
+      "file": "before/ar-1440-inbox.png",
+      "bytes": 175459,
+      "sha256": "cf9bdb3968ecfe0781e8f45694e05ccd3fbf9093da580fd4ad4fbca443bd7ff9"
+    },
+    {
+      "file": "before/ar-1440-integrations.png",
+      "bytes": 362183,
+      "sha256": "3b9d9c6b93bea6b7af678df31f0ca0eeec703ae8455699dc3f714a70849ec868"
+    },
+    {
+      "file": "before/ar-1440-inventory.png",
+      "bytes": 180642,
+      "sha256": "2f7fd2a7a1bd9928f6c46024be577263eb385e86d336bc08a3960a6115bb865c"
+    },
+    {
+      "file": "before/ar-1440-launch.png",
+      "bytes": 168343,
+      "sha256": "a874243bcef23b5ece024f1854e0de063a510c930effde2cf306ddeaf0ca36de"
+    },
+    {
+      "file": "before/ar-1440-leads.png",
+      "bytes": 202893,
+      "sha256": "098cbbb889f4b6c71bc3a2e3e558523053e58aa96dafb4ee3ce2686580bb2e96"
+    },
+    {
+      "file": "before/ar-1440-platform.png",
+      "bytes": 565762,
+      "sha256": "07662cb64f45667f0d693693ac3b06ac7a29f6845e2f97c47aa4a40f71a69258"
+    },
+    {
+      "file": "before/ar-1440-pricing.png",
+      "bytes": 345768,
+      "sha256": "7fc9e91c8126c787d592642ea3944c3ba5b878c7ff9bc2d4e99a01c8ed947ced"
+    },
+    {
+      "file": "before/ar-1440-property.png",
+      "bytes": 456222,
+      "sha256": "a118bc000e500f028c22a137e694eb05719e78dacadc5a6e5984f6cafb5b0ea8"
+    },
+    {
+      "file": "before/ar-1440-publish.png",
+      "bytes": 414883,
+      "sha256": "02f0a675618fce984ce3fcf12d803ae4d0997cd35da1f8f4b99d5eaa4faa24e2"
+    },
+    {
+      "file": "before/ar-1440-settings.png",
+      "bytes": 101175,
+      "sha256": "58079836d316d121529e0d526d82fb97f62136c8a2446fb1fd0481f448e132eb"
+    },
+    {
+      "file": "before/ar-1440-showcase-detail.png",
+      "bytes": 1252070,
+      "sha256": "cfc20df131c763f454413553bfad4aee86cb70253ef74a22799dd7708c9c42bb"
+    },
+    {
+      "file": "before/ar-1440-showcase.png",
+      "bytes": 1374092,
+      "sha256": "5584081c6481609bbfdf9afb76dfd9a9edc08bd0a97ff6b9485e09d9621425a9"
+    },
+    {
+      "file": "before/ar-375-agencies.png",
+      "bytes": 424287,
+      "sha256": "ec09ebb89007d2e7eddac17bec1359dad8283fb0093ce8431a910b119b7df8f5"
+    },
+    {
+      "file": "before/ar-375-ai.png",
+      "bytes": 374725,
+      "sha256": "be1fa71339ebbd982a2bd493247bb809a53826bcb56f7c4df39a0c149cb724e4"
+    },
+    {
+      "file": "before/ar-375-analytics.png",
+      "bytes": 189657,
+      "sha256": "b71760e8f807fe60d3b7e50c075f9ff9133a6bdea4fe448706e5aa08636009c0"
+    },
+    {
+      "file": "before/ar-375-assistant-open.png",
+      "bytes": 47208,
+      "sha256": "bc26ee53236d33243770149c4772a8cc902f7d158bdd839cdb8dc40715b81702"
+    },
+    {
+      "file": "before/ar-375-billing.png",
+      "bytes": 98259,
+      "sha256": "4079a698adc78f1001fa0849ae494ad3f398ce72b54d998c6490c495583d7dea"
+    },
+    {
+      "file": "before/ar-375-campaign-review.png",
+      "bytes": 148504,
+      "sha256": "dc792063474302f2935122277129bd397b41e92d5d2fd89d7b0351a4ec5c2339"
+    },
+    {
+      "file": "before/ar-375-campaigns.png",
+      "bytes": 89156,
+      "sha256": "389123e857d04d17e128f9dc194ba832450f1f303e7ff689b298eceb6612ebe4"
+    },
+    {
+      "file": "before/ar-375-contact.png",
+      "bytes": 178364,
+      "sha256": "6f374a78373ae16a40cd0c99156e38e14f3e8d8eab1ad7b83e552c96861589e7"
+    },
+    {
+      "file": "before/ar-375-create.png",
+      "bytes": 92200,
+      "sha256": "d6291ca62efbaa64ed0cf6a5faba11967350d87d0c04e29884b880a5e7b245aa"
+    },
+    {
+      "file": "before/ar-375-dashboard.png",
+      "bytes": 170280,
+      "sha256": "ac4937e91f514cda74124f45741cb1359985200ee715fc4235a041dfd1c38803"
+    },
+    {
+      "file": "before/ar-375-editor.png",
+      "bytes": 46974,
+      "sha256": "1bcdbb626c70cf6ab71b961d304bde7d7563277b059f1b2c17aed0dd2dbeff46"
+    },
+    {
+      "file": "before/ar-375-empty-dashboard.png",
+      "bytes": 67218,
+      "sha256": "2c3dc439054cf39c44fbc994832188108e00c89287c0eff73545b0bac2957d56"
+    },
+    {
+      "file": "before/ar-375-faq.png",
+      "bytes": 176914,
+      "sha256": "845b39aa8c99448afe86fee4e03c264de9023487da69d2015fecdd45a5aef51a"
+    },
+    {
+      "file": "before/ar-375-home.png",
+      "bytes": 507864,
+      "sha256": "aaf983399dd6f5f1b4484b30074e2e1fabe20d7417e09d526639e6f16f20afd5"
+    },
+    {
+      "file": "before/ar-375-how-it-works.png",
+      "bytes": 252450,
+      "sha256": "eb2640d3ca8316dc2b5eba96978b455837055180fc1caf10952cb93ee7e9e49a"
+    },
+    {
+      "file": "before/ar-375-inbox.png",
+      "bytes": 100821,
+      "sha256": "3611f789379ec0e7d02680a7ffe435fa3f25c4de9469dd3c0a20d844612245ea"
+    },
+    {
+      "file": "before/ar-375-integrations.png",
+      "bytes": 314413,
+      "sha256": "adb8a390be2999d6063e07393c58fce0290722eb2f327a367d241ef08465ab82"
+    },
+    {
+      "file": "before/ar-375-inventory.png",
+      "bytes": 163198,
+      "sha256": "f03c6dd29d3e872e8942023b45c1f6b9b42b95f63217d9ba59b407464ffcd494"
+    },
+    {
+      "file": "before/ar-375-launch.png",
+      "bytes": 127961,
+      "sha256": "ab1a1ab5b2b2d58c682111951bd0f8535b16ab62ee9a4b11417b5d0a7a8fc803"
+    },
+    {
+      "file": "before/ar-375-leads.png",
+      "bytes": 167825,
+      "sha256": "4f2f056eb95054cba48e8086aca95c7d4c899a54267641deb44b938b74861791"
+    },
+    {
+      "file": "before/ar-375-platform.png",
+      "bytes": 352189,
+      "sha256": "d9e5e85773aa83f37419b98f8e96b0e355bb97568c6818e06c769e1f4d0509ab"
+    },
+    {
+      "file": "before/ar-375-pricing.png",
+      "bytes": 350895,
+      "sha256": "952945ab412fc7814ff5da53242a654a909104db8d2dd54b3fab138ddab1388f"
+    },
+    {
+      "file": "before/ar-375-property.png",
+      "bytes": 203463,
+      "sha256": "834dd4a435e3a72dde0dbe55bac451a1ac537a9f417a980aa9f44aa34b752d17"
+    },
+    {
+      "file": "before/ar-375-publish.png",
+      "bytes": 274325,
+      "sha256": "154ad56a47dffe82c2e0e0a5cf876d459862f415c73c245a74bbd6b10c37d9df"
+    },
+    {
+      "file": "before/ar-375-settings.png",
+      "bytes": 58989,
+      "sha256": "c00c4ccfadc4741ec390cab0463fe33797a3473d31ff0f2cf6e2c96ad0973765"
+    },
+    {
+      "file": "before/ar-375-showcase-detail.png",
+      "bytes": 795948,
+      "sha256": "7ae925c4cc21e36f38f20c7c34a3a7fae99ddf0c04f18e932901d29f0dce940e"
+    },
+    {
+      "file": "before/ar-375-showcase.png",
+      "bytes": 1090175,
+      "sha256": "4a9706961e868f2bfe40062817b987e85fbaa3cb9451bd5c3e7572314eb85c01"
+    },
+    {
+      "file": "before/en-1440-agencies.png",
+      "bytes": 942455,
+      "sha256": "ea8ed56cbc14417f5b361fcdee2407705b75706b5076f768915dc1e1e9568e5d"
+    },
+    {
+      "file": "before/en-1440-ai.png",
+      "bytes": 514923,
+      "sha256": "7484f78870aed9d74658f92aaa109f6c81bd29d5f586623f62e229abf4daec48"
+    },
+    {
+      "file": "before/en-1440-analytics.png",
+      "bytes": 279306,
+      "sha256": "ae65d0398ca792ac8e6c75de7ad941cf8ff7a41025a18e5bc5d88707a235158d"
+    },
+    {
+      "file": "before/en-1440-assistant-open.png",
+      "bytes": 446964,
+      "sha256": "40a4f296d50a5a7f3924337ab06dcb4fb1625c23b632d91d8afb695eaea24948"
+    },
+    {
+      "file": "before/en-1440-billing.png",
+      "bytes": 171914,
+      "sha256": "c0886fbf62dac01908f4a8e1c8014416108d2dd46085dadbb2945865a1f7db06"
+    },
+    {
+      "file": "before/en-1440-campaign-review.png",
+      "bytes": 219546,
+      "sha256": "69e5fb4986783c4849a8a7e04e502141dc6e158948bfe1c8cc1200c37ec0cf8f"
+    },
+    {
+      "file": "before/en-1440-campaigns.png",
+      "bytes": 144893,
+      "sha256": "6d82d98c909115c58bc095c292d0fa429473ea3b2510230e91095d19e09bca82"
+    },
+    {
+      "file": "before/en-1440-contact.png",
+      "bytes": 252176,
+      "sha256": "40910082d0e67d44ac9c2c7d523e64a3d4d6db5f16ec69f8b1da5064ed560c52"
+    },
+    {
+      "file": "before/en-1440-create.png",
+      "bytes": 160986,
+      "sha256": "2cefbd04da72cafda8cca5d6b435c6e5b8020ef4140599ac5c6ff32b30d0cabc"
+    },
+    {
+      "file": "before/en-1440-dashboard.png",
+      "bytes": 226858,
+      "sha256": "33edcf54a0142f1177892a71a36cb6b1918d0002811e70693b21873eee45b33d"
+    },
+    {
+      "file": "before/en-1440-editor.png",
+      "bytes": 156477,
+      "sha256": "a9e8759dc600e9591a83e88223510143498ca3288cd3518d6a047b91c1fc67b9"
+    },
+    {
+      "file": "before/en-1440-empty-dashboard.png",
+      "bytes": 118911,
+      "sha256": "cfb6b7ef6d95122c82b4359ccfc0fc9bd61383ab498f57a779dc4f21b4728089"
+    },
+    {
+      "file": "before/en-1440-faq.png",
+      "bytes": 243599,
+      "sha256": "6a31cf9ce8c1763f9147ca9b535c3f6640d32ddca9aa58f2a464c0dd5ad7bbbf"
+    },
+    {
+      "file": "before/en-1440-home.png",
+      "bytes": 882319,
+      "sha256": "fe34c15566668088e1fce73a2490e78893d893a2e189144898aba1beac53b4bd"
+    },
+    {
+      "file": "before/en-1440-how-it-works.png",
+      "bytes": 387696,
+      "sha256": "58d90f460f42adb56f4f4a9fde695b9fbd5dac3c733b04e9f8a0b8384917d0bd"
+    },
+    {
+      "file": "before/en-1440-inbox.png",
+      "bytes": 191035,
+      "sha256": "6db77c361e807b4d659504c02c1411ba9f98874a311d6dc06ca78f2017577bda"
+    },
+    {
+      "file": "before/en-1440-integrations.png",
+      "bytes": 432591,
+      "sha256": "2f36bf182473353aac3c43b5c5c3d1cc941bf0bd62b52ddb4c8513b53ea28342"
+    },
+    {
+      "file": "before/en-1440-inventory.png",
+      "bytes": 202179,
+      "sha256": "3b93b61224a4e5d822332aa35eb2a812bd3ddbe9b514a8f2e2856d1cec7be046"
+    },
+    {
+      "file": "before/en-1440-launch.png",
+      "bytes": 185667,
+      "sha256": "3298f4411c612edd03cff14fa05b147d2e967bc98cab24f043e84126de9c3d16"
+    },
+    {
+      "file": "before/en-1440-leads.png",
+      "bytes": 233006,
+      "sha256": "a73715dab60c545966b844edc4b049a104e45983e2faa2c185daeced47af0750"
+    },
+    {
+      "file": "before/en-1440-platform.png",
+      "bytes": 668266,
+      "sha256": "8c385750d1371628eb5a87754c0fcf9b5fb5edc393b2d714e419752041ece662"
+    },
+    {
+      "file": "before/en-1440-pricing.png",
+      "bytes": 393445,
+      "sha256": "d20ac1edc8e0d6d75dbd6ee7b90022e3c4d0485ff1a3fdc00cdf2b0eda629285"
+    },
+    {
+      "file": "before/en-1440-property.png",
+      "bytes": 487562,
+      "sha256": "62be53063ad15485efb02a0835be994a43ad2953a214d2d9e40e13e999122c7b"
+    },
+    {
+      "file": "before/en-1440-publish.png",
+      "bytes": 449736,
+      "sha256": "a621f170627e171cda9af9740a368e299d99006b7e38d5b16f0d2d4854bebaea"
+    },
+    {
+      "file": "before/en-1440-settings.png",
+      "bytes": 118811,
+      "sha256": "8980d8e417f5d2cde274ada9fb77711a8e8770141b5667e94fa09dd0b93566b1"
+    },
+    {
+      "file": "before/en-1440-showcase-detail.png",
+      "bytes": 1279252,
+      "sha256": "805beebed667853622a840ba8eeb307ac22e17b372e8fc6aef91dc36ee571bee"
+    },
+    {
+      "file": "before/en-1440-showcase.png",
+      "bytes": 1375757,
+      "sha256": "4ac94ce6c0c5ee3e6d542c5fdf3452c81748b0acbd546f105ea683c95d3a557a"
+    },
+    {
+      "file": "before/en-375-agencies.png",
+      "bytes": 487704,
+      "sha256": "240256019ea87a9993365b949962161911375898630fba27c25cded613833451"
+    },
+    {
+      "file": "before/en-375-ai.png",
+      "bytes": 417403,
+      "sha256": "61b56a18bd670d663e4125052f46f4db6f065dd59090b0e74957b2e945af0b22"
+    },
+    {
+      "file": "before/en-375-analytics.png",
+      "bytes": 213029,
+      "sha256": "54f65e3c2f1aad4608375e88bc046e88e94636f73d9fe771bc5aa2d1ed83ce04"
+    },
+    {
+      "file": "before/en-375-assistant-open.png",
+      "bytes": 55549,
+      "sha256": "2e7a6974518f968a5e8fb060034da573478a372afe0b525c9bea4d3d93378be2"
+    },
+    {
+      "file": "before/en-375-billing.png",
+      "bytes": 116869,
+      "sha256": "209748aef1687270dace92bdf186a2b4640668fbb93cfb8d143bd6a1ad17801d"
+    },
+    {
+      "file": "before/en-375-campaign-review.png",
+      "bytes": 177623,
+      "sha256": "39792d9c7850f5a232a7b6fc72cfc9557696a2f331625a777661918e059f52c8"
+    },
+    {
+      "file": "before/en-375-campaigns.png",
+      "bytes": 106960,
+      "sha256": "86deea37fdf004d2c3adbb9b509bdae0f2b7fc4997e5a9d68c1f6d4f329c9fa6"
+    },
+    {
+      "file": "before/en-375-contact.png",
+      "bytes": 206877,
+      "sha256": "b0b5c056dc93d7e9ec5b81c5b48fef0f6575c05ce8aff588849ed4fd59e4d8be"
+    },
+    {
+      "file": "before/en-375-create.png",
+      "bytes": 113760,
+      "sha256": "83ff93e316ba04f118579abecce68591b5a331fbd905476539171a1978c7d249"
+    },
+    {
+      "file": "before/en-375-dashboard.png",
+      "bytes": 191355,
+      "sha256": "63af7edd204ede3df3464b4fc20b2b591e818ece718dc506851439b5fbedcf5e"
+    },
+    {
+      "file": "before/en-375-editor.png",
+      "bytes": 55825,
+      "sha256": "ba00fb92ae4f7d809dcf029d674bac6b7a40f54d7a864618b304238da67211a8"
+    },
+    {
+      "file": "before/en-375-empty-dashboard.png",
+      "bytes": 81058,
+      "sha256": "00ce5c5aab239d66901bfd3aab732037a2863354e50d4bf67ac283636497756c"
+    },
+    {
+      "file": "before/en-375-faq.png",
+      "bytes": 198344,
+      "sha256": "3365074561b1f539e8fa6d3072e4bdde09124c40f3b02b451702ab78c7d4b286"
+    },
+    {
+      "file": "before/en-375-home.png",
+      "bytes": 596227,
+      "sha256": "cd0b4e85d2d3c940dc19ce762c6adb9c8ecd2db28fb601cdd879fca105c4125f"
+    },
+    {
+      "file": "before/en-375-how-it-works.png",
+      "bytes": 294078,
+      "sha256": "f5eb72fc19d60486cf7f0177dcdb73c39db0787d0481f45698b51490815e51a0"
+    },
+    {
+      "file": "before/en-375-inbox.png",
+      "bytes": 111610,
+      "sha256": "33298bdb76e4a5340f41e430bd9416df8e53979f2a7c46a3305fd0e6bfa093a3"
+    },
+    {
+      "file": "before/en-375-integrations.png",
+      "bytes": 384707,
+      "sha256": "ac7a3e4e4be9c1c3dcac48883fed6b10313242a9734ff1db8ed0f02355faf617"
+    },
+    {
+      "file": "before/en-375-inventory.png",
+      "bytes": 181228,
+      "sha256": "bc48a3d9581d7e9a202c0e53fa3412e3ede4da8a1b54050e29ad12d36fcc1c6c"
+    },
+    {
+      "file": "before/en-375-launch.png",
+      "bytes": 145093,
+      "sha256": "f1a178cffb5960490ad790bace791c90ffd21ad2bfd59e6aecedcb81f3d26ff6"
+    },
+    {
+      "file": "before/en-375-leads.png",
+      "bytes": 194542,
+      "sha256": "c47a4bee1f9ac0d9b2f57bb472440f037b683d2f71176bee17e254bec316fb33"
+    },
+    {
+      "file": "before/en-375-platform.png",
+      "bytes": 424632,
+      "sha256": "2b226371e72e68e7f9b8756c5a858cc831b34c101da547ccd33fe2f7a020b9d9"
+    },
+    {
+      "file": "before/en-375-pricing.png",
+      "bytes": 407172,
+      "sha256": "1366a0ad81929f4a1d8f735f1d967c938bbfbd8525bfab06574371510229543d"
+    },
+    {
+      "file": "before/en-375-property.png",
+      "bytes": 213669,
+      "sha256": "b15565dc5499f425d60fc50473055727d72db6a2af515ed8e9df4605e7827e7d"
+    },
+    {
+      "file": "before/en-375-publish.png",
+      "bytes": 302184,
+      "sha256": "50a74bf6593af4d964ec5098d7d7e0d887eefc93d857ce3e5a68ab7d037de578"
+    },
+    {
+      "file": "before/en-375-settings.png",
+      "bytes": 73450,
+      "sha256": "4914c4588c12a8f15977ff57b7ef7c88695a93fbb16dbfd60336f0e63fd5f06a"
+    },
+    {
+      "file": "before/en-375-showcase-detail.png",
+      "bytes": 827210,
+      "sha256": "09d2d9c19ceefe5546fb4a56c770baf63e1356a5f83d49d917eeb025b334df27"
+    },
+    {
+      "file": "before/en-375-showcase.png",
+      "bytes": 1100023,
+      "sha256": "b2f258a5064720110ff9d4880b24f33fe2ade1aec7970374c8319868f64749dd"
+    },
+    {
+      "file": "after/ar-1024-agencies.png",
+      "bytes": 660773,
+      "sha256": "11c9823003366a451eb4386178d2c5f9b7dda08e7f361530c70f22375f055b70"
+    },
+    {
+      "file": "after/ar-1024-ai.png",
+      "bytes": 470165,
+      "sha256": "254e0298b71644c5bad5df9bc4df511cf2e25676f43c183a91d24b3e275f88d9"
+    },
+    {
+      "file": "after/ar-1024-analytics.png",
+      "bytes": 224374,
+      "sha256": "1268d48ad5ad6f55269f88e6484e881bbe237b57a8195e75eb501d4821d2a386"
+    },
+    {
+      "file": "after/ar-1024-assistant-open.png",
+      "bytes": 380478,
+      "sha256": "87389d221b5e9d2ca7edf538736e888066946b28df9831b15d5833fdbc7420eb"
+    },
+    {
+      "file": "after/ar-1024-billing.png",
+      "bytes": 124805,
+      "sha256": "7ebf5e0e6ed47a831c31d643d5515047b9c10cb5996ad39e7fd05a3edfd71e78"
+    },
+    {
+      "file": "after/ar-1024-campaign-review.png",
+      "bytes": 158168,
+      "sha256": "3e2d0c691fb105f7eb6ce8fd68035c65a98b85b511970af38e0bd88bf088afd2"
+    },
+    {
+      "file": "after/ar-1024-campaigns.png",
+      "bytes": 99844,
+      "sha256": "dd5d34cd8e54b4101869931c55bcf9c18833664604f15d11a2db243d03a0176b"
+    },
+    {
+      "file": "after/ar-1024-contact.png",
+      "bytes": 198508,
+      "sha256": "aac710c9b0944677099b108accd351be9812aa63934a65357644d25a5e295a2b"
+    },
+    {
+      "file": "after/ar-1024-create.png",
+      "bytes": 105846,
+      "sha256": "7a60ffb838043fff29326a65df55ca90354cfe5e3826475d5d907cfb355b254e"
+    },
+    {
+      "file": "after/ar-1024-dashboard.png",
+      "bytes": 173465,
+      "sha256": "df1ae9eb2ae94a90ef4cb2a07b9b928db1c0315deed7edd17536a37576b7c1e2"
+    },
+    {
+      "file": "after/ar-1024-editor.png",
+      "bytes": 105995,
+      "sha256": "19bc620c71b1516c6b265edf6de387c40033b86b3a5ba37b6de1779fe1ef8f27"
+    },
+    {
+      "file": "after/ar-1024-empty-dashboard.png",
+      "bytes": 79582,
+      "sha256": "d7762f112856c2e8234657cc02bcf1ee42a5987a69412f490154fa759746e497"
+    },
+    {
+      "file": "after/ar-1024-faq.png",
+      "bytes": 199190,
+      "sha256": "27b7877284374a06617dc3bb1f5a58dcfc262149a1bb11e6ccc68e348cd14cc6"
+    },
+    {
+      "file": "after/ar-1024-home.png",
+      "bytes": 688968,
+      "sha256": "c78d9fb97b0399a981027872b068afd7ccb18a51ec312c2af2d9c41a22fb603a"
+    },
+    {
+      "file": "after/ar-1024-how-it-works.png",
+      "bytes": 289549,
+      "sha256": "25c818fbcb6d2636fdb4a5eee138158d390016488ba6a7090f3b52284560451a"
+    },
+    {
+      "file": "after/ar-1024-inbox.png",
+      "bytes": 154580,
+      "sha256": "0f397fcb4aee8930d2bcb344261fc6ed74ed9bd3bb088b287af653d42b78b4a7"
+    },
+    {
+      "file": "after/ar-1024-integrations.png",
+      "bytes": 366613,
+      "sha256": "2338b1ded7fd7413614d6417678fc718415bd939747c30196ea7c04491be13e4"
+    },
+    {
+      "file": "after/ar-1024-inventory.png",
+      "bytes": 157080,
+      "sha256": "5565f92e1809bede1560b2c83d229701e47905767381a2b910d6f753743f9957"
+    },
+    {
+      "file": "after/ar-1024-launch.png",
+      "bytes": 141186,
+      "sha256": "f5f8c50cc6a2a17e8be516030d7d6d880b4fd1cfe54f7e81480a7b97f131bab9"
+    },
+    {
+      "file": "after/ar-1024-leads.png",
+      "bytes": 162484,
+      "sha256": "65f821105052422dd7d00719efa68a57393b4c3136eebc845bb5fdc4288ef3ab"
+    },
+    {
+      "file": "after/ar-1024-platform.png",
+      "bytes": 479286,
+      "sha256": "bc9f3624e259f415a84419f7532be3a9bc9004633fd80e50fe621649effcada3"
+    },
+    {
+      "file": "after/ar-1024-pricing.png",
+      "bytes": 313982,
+      "sha256": "91f98f6fa32053843977e323f0dfde0bc9b1c62b3093e2b048d755614650bcfa"
+    },
+    {
+      "file": "after/ar-1024-property.png",
+      "bytes": 385685,
+      "sha256": "7e5131b9156158026cbb7b0aebd4c6b7b8d415e798dd812017a0828a97130c8e"
+    },
+    {
+      "file": "after/ar-1024-publish.png",
+      "bytes": 346143,
+      "sha256": "fdec38908a7716f2e78e8d5b4bb9d8d5c286292ef178a25c962821573beb393e"
+    },
+    {
+      "file": "after/ar-1024-settings.png",
+      "bytes": 74783,
+      "sha256": "b5ffbbf914c5b60b120728ac18a3641964e852071c4631ddc14ae0c2475e99d8"
+    },
+    {
+      "file": "after/ar-1024-showcase-detail.png",
+      "bytes": 1541972,
+      "sha256": "2048f0297c0819775cf12b137c37433c050648937d8e01599c3730308435d5f9"
+    },
+    {
+      "file": "after/ar-1024-showcase.png",
+      "bytes": 1829502,
+      "sha256": "9cfcb1a210fc72b040030ea2d1d492f46d08bedd58c13776b71fafbc742100f6"
+    },
+    {
+      "file": "after/ar-1280-agencies.png",
+      "bytes": 843400,
+      "sha256": "ce9633f0aaabb8e22d4e6997e2f1a0a6af99914d293125e3b8aad579c32633e0"
+    },
+    {
+      "file": "after/ar-1280-ai.png",
+      "bytes": 503801,
+      "sha256": "1d4f72b65fd6b98316cfb82768415d9033379efd55a00082ab3f0dc4d86472f0"
+    },
+    {
+      "file": "after/ar-1280-analytics.png",
+      "bytes": 256462,
+      "sha256": "27763e0b03760c78b2c0bd695ff09c8685894adc4272c80e9924a6ae11424981"
+    },
+    {
+      "file": "after/ar-1280-assistant-open.png",
+      "bytes": 416220,
+      "sha256": "e9508d819b9a9230cb07cf74c51c020286cae6c72660bce8ddff06519c2b2329"
+    },
+    {
+      "file": "after/ar-1280-billing.png",
+      "bytes": 152656,
+      "sha256": "054c474309f6cfdf7c894278be2f4198babcbf6ea00fc3d73e7584f9ee5faae9"
+    },
+    {
+      "file": "after/ar-1280-campaign-review.png",
+      "bytes": 190776,
+      "sha256": "fa2a3f6170000c49744ae392423d11583b1e03519ffdab18525bea64a7e8775b"
+    },
+    {
+      "file": "after/ar-1280-campaigns.png",
+      "bytes": 130932,
+      "sha256": "369f5c02d85c8d3078864981c9a03c74b00aac824fe15fb1f6789004bc6bfb62"
+    },
+    {
+      "file": "after/ar-1280-contact.png",
+      "bytes": 218211,
+      "sha256": "ef90174d55e67f4d7c1e69541dc4ea0bb4d31e306cea1f7081cfb7cda5a3006b"
+    },
+    {
+      "file": "after/ar-1280-create.png",
+      "bytes": 137951,
+      "sha256": "df3426b93b874d0f8dc83f3e782c383caeefaca38aeb6b95526a80a063277050"
+    },
+    {
+      "file": "after/ar-1280-dashboard.png",
+      "bytes": 206146,
+      "sha256": "e41c4fb1f69e63a64a3ab6c11d68fe0a82594a4bce02645da3aaffce7ba48a31"
+    },
+    {
+      "file": "after/ar-1280-editor.png",
+      "bytes": 138371,
+      "sha256": "dd09866feb66a2aa247e4fd60025ff81f46d558a05ecc344dbff02759b7ec1bf"
+    },
+    {
+      "file": "after/ar-1280-empty-dashboard.png",
+      "bytes": 110665,
+      "sha256": "00de143a9eedf098fb69d11414c3bcac70d1144b8164008eda6291aa04ae272a"
+    },
+    {
+      "file": "after/ar-1280-faq.png",
+      "bytes": 220776,
+      "sha256": "86bfe05d936f0bb6f6f1023e42ce569a16acf09a412850bcef1ac1bac8fe6c18"
+    },
+    {
+      "file": "after/ar-1280-home.png",
+      "bytes": 759563,
+      "sha256": "20ca8a9b89574bfdb17663a335f875cbd0cfba166944407c8866d13fe81ce012"
+    },
+    {
+      "file": "after/ar-1280-how-it-works.png",
+      "bytes": 345059,
+      "sha256": "455311eb2f180c83a3f8c789aee4b3bf13d6556f6373c68f7840c128290afa50"
+    },
+    {
+      "file": "after/ar-1280-inbox.png",
+      "bytes": 179705,
+      "sha256": "299512ed931b68cdf1972a59719d5589fccb00008df1ce700489d8bf39466ff5"
+    },
+    {
+      "file": "after/ar-1280-integrations.png",
+      "bytes": 393605,
+      "sha256": "a1cb701005ac04c4a87673d2cacc4f042cb830f48b668e6352e4df6724559035"
+    },
+    {
+      "file": "after/ar-1280-inventory.png",
+      "bytes": 189119,
+      "sha256": "602481a3d9a6486156515ee2399522b8057807d00428062ce5999c2c9167ae67"
+    },
+    {
+      "file": "after/ar-1280-launch.png",
+      "bytes": 174023,
+      "sha256": "8e388aeb04070c86ae5af288e385d9b4be6532afdb334e1aa783efdb9060eff7"
+    },
+    {
+      "file": "after/ar-1280-leads.png",
+      "bytes": 194994,
+      "sha256": "a34c59bad8f4c11455454b5ce4a417834ed9ffb75c2bc55dc0326b59451a35ae"
+    },
+    {
+      "file": "after/ar-1280-platform.png",
+      "bytes": 581963,
+      "sha256": "50e9a4b219c4daa5a0418bc94bbab9294574d1c9f99215ad350341163847a56c"
+    },
+    {
+      "file": "after/ar-1280-pricing.png",
+      "bytes": 349316,
+      "sha256": "a6827216baea6703ee8031ffecb44196be967e71c43d6de8efd5252e7637ddd1"
+    },
+    {
+      "file": "after/ar-1280-property.png",
+      "bytes": 422164,
+      "sha256": "1f218fad7e734ff7fc7f169d0e420103c47acfb9a8767f574316debbd069bdff"
+    },
+    {
+      "file": "after/ar-1280-publish.png",
+      "bytes": 385830,
+      "sha256": "b625a71cfdcd0cc601f666b29ffb97343f24d61c55d69330fd65b1d372524dfb"
+    },
+    {
+      "file": "after/ar-1280-settings.png",
+      "bytes": 106493,
+      "sha256": "0bf1d55e25f76a0f8e1ae6786cb90e36a80953df17cd232abbd6f4bd1ea4b0aa"
+    },
+    {
+      "file": "after/ar-1280-showcase-detail.png",
+      "bytes": 1277881,
+      "sha256": "5fc8a21669e54ae55f1b0eb476f69b6741d6e6833069489a6821f74874af0324"
+    },
+    {
+      "file": "after/ar-1280-showcase.png",
+      "bytes": 1228609,
+      "sha256": "41b01d91076f318e25c4067be12de03aad42fd13f1c0d81971f02a0ef8270ab0"
+    },
+    {
+      "file": "after/ar-1440-agencies.png",
+      "bytes": 889385,
+      "sha256": "339664f6d2116a940255077bec3781896b46b3fc1c47a0208f1a0421c8aeed85"
+    },
+    {
+      "file": "after/ar-1440-ai.png",
+      "bytes": 527712,
+      "sha256": "9c613530be5f8aad9ec744a86081bed295bff538e89c394468629a604698ddef"
+    },
+    {
+      "file": "after/ar-1440-analytics.png",
+      "bytes": 261194,
+      "sha256": "97865b1817e2d0274857add32f9c2d466b993b6f12c7f696c8e4351f58a4c2d4"
+    },
+    {
+      "file": "after/ar-1440-assistant-open.png",
+      "bytes": 469303,
+      "sha256": "e6ff272aa58ab4f32543df66c62dd6e1a6e278ea9ff9eb4bf04204573c7fcee3"
+    },
+    {
+      "file": "after/ar-1440-billing.png",
+      "bytes": 160513,
+      "sha256": "9916ebd8f98d1d8f061d5fb4259b75d63a141f97534118d424f1e72f54739406"
+    },
+    {
+      "file": "after/ar-1440-campaign-review.png",
+      "bytes": 191695,
+      "sha256": "36f3ae3edb3f72026ef32d03f58b6d2ec7646e6fe5ce8fbe1b2fdf2a1dc457be"
+    },
+    {
+      "file": "after/ar-1440-campaigns.png",
+      "bytes": 131866,
+      "sha256": "9d9258379c329ac80ea9ca19c9f22cb474ef41251e05acb0eaf2e4d015d1d8c8"
+    },
+    {
+      "file": "after/ar-1440-contact.png",
+      "bytes": 226244,
+      "sha256": "5af65a49e9285dba212ce1ec520b0fbacd9d5fdc635c2b1005087efd2e5fcd87"
+    },
+    {
+      "file": "after/ar-1440-create.png",
+      "bytes": 139867,
+      "sha256": "b5b9bca076f6422b1908d0c03e55deccc3b12d869b62cdbf233c5d539095a7d3"
+    },
+    {
+      "file": "after/ar-1440-dashboard.png",
+      "bytes": 209156,
+      "sha256": "fd5ad7f3ccc123183b02d90b868cada7b074c095fda82f943b290b034b2ab4cd"
+    },
+    {
+      "file": "after/ar-1440-editor.png",
+      "bytes": 141065,
+      "sha256": "16c642c23468932c67250c778ea1066dd112fd591eed6019e105ccc5705b64b2"
+    },
+    {
+      "file": "after/ar-1440-empty-dashboard.png",
+      "bytes": 112802,
+      "sha256": "bdddaa8424cf1903ae16d5bba95dfd94b686b3f61f51d4a59fe5b10d70c9715c"
+    },
+    {
+      "file": "after/ar-1440-faq.png",
+      "bytes": 230562,
+      "sha256": "85c90e675fca643b801e85ba9d1a230b60096560bb284e8cd7603af14479b97d"
+    },
+    {
+      "file": "after/ar-1440-home.png",
+      "bytes": 794514,
+      "sha256": "dbdc6a18c7820a0a36064b1b66d0793888ee19c9980dfd304f6db3d2dc0383ac"
+    },
+    {
+      "file": "after/ar-1440-how-it-works.png",
+      "bytes": 359761,
+      "sha256": "ee1ce91bc08c67d4e399f6f99c44c574937b83968bab2937118cfac62c42a18d"
+    },
+    {
+      "file": "after/ar-1440-inbox.png",
+      "bytes": 183806,
+      "sha256": "99519e67046ba213b9f047f3c914f7eb4819deead0db94a87b33f1ddf913150d"
+    },
+    {
+      "file": "after/ar-1440-integrations.png",
+      "bytes": 406533,
+      "sha256": "e2bf326d555b900567a2b7e96f7e84df4eb6b413bf71d062e9d27dbbfc0535f3"
+    },
+    {
+      "file": "after/ar-1440-inventory.png",
+      "bytes": 192022,
+      "sha256": "5397ee991924b040f84618f55fa009ef799a0facbc5d1d8bc14ee9183a5d12d0"
+    },
+    {
+      "file": "after/ar-1440-launch.png",
+      "bytes": 176972,
+      "sha256": "f9719acea08781d0b5022938b85386671f2029f926f4b65aa95f1d1d81554d53"
+    },
+    {
+      "file": "after/ar-1440-leads.png",
+      "bytes": 202448,
+      "sha256": "d319dfb125d69828d75fd2553408e7df5da3705d1ffd6b62b5577a17b1324623"
+    },
+    {
+      "file": "after/ar-1440-platform.png",
+      "bytes": 612642,
+      "sha256": "c2627b029505bbc4d6eb4f1aa0f922d3349ddc8c6f5809e1b5c04ecc9012a4dd"
+    },
+    {
+      "file": "after/ar-1440-pricing.png",
+      "bytes": 356525,
+      "sha256": "022aa38d9ba3dba7be4a4d3c530256b75b328e08f2ff4dfd916472150ef763e0"
+    },
+    {
+      "file": "after/ar-1440-property.png",
+      "bytes": 467281,
+      "sha256": "18be2a2e890a111bade1f8ac406705ffdada626b31452006bab39dea609e45b9"
+    },
+    {
+      "file": "after/ar-1440-publish.png",
+      "bytes": 411923,
+      "sha256": "787358266bb43364b5fdc2ba56f00acb0bc6ac36225deb851b12afa649c66152"
+    },
+    {
+      "file": "after/ar-1440-settings.png",
+      "bytes": 108542,
+      "sha256": "343ceeeec10ea984106c5966b55adf31b1ded3731d2a795006334bcae9180cd4"
+    },
+    {
+      "file": "after/ar-1440-showcase-detail.png",
+      "bytes": 1323451,
+      "sha256": "52b55ed657894ca361dbfa43e2febeb0e4d73bd0ec13d76b28124d3f37dc2691"
+    },
+    {
+      "file": "after/ar-1440-showcase.png",
+      "bytes": 1275561,
+      "sha256": "5e06cc0dca22b4c5b22d5ffeba268ac074d2cdeebaf4087455d9224bcb58351f"
+    },
+    {
+      "file": "after/ar-320-agencies.png",
+      "bytes": 396798,
+      "sha256": "8f83a8f6ad8b9946252b42b72f424fa8447aed957d8a7be56fff5b34d3dfa2f3"
+    },
+    {
+      "file": "after/ar-320-ai.png",
+      "bytes": 405746,
+      "sha256": "9e7484efc59427b3820771e8fb567bd0cfe6c1ac11dbf0cda7ee36b313a921ca"
+    },
+    {
+      "file": "after/ar-320-analytics.png",
+      "bytes": 188773,
+      "sha256": "bc0c1b9672d537681a8ec48f23ff4c7215bc95338eb2f2890e4c1277dce59292"
+    },
+    {
+      "file": "after/ar-320-assistant-open.png",
+      "bytes": 52007,
+      "sha256": "c1cae066ef9cfb21e92e47a60dd0b17e04b0a39dcff0cfb0a2c46c3a596e0f7a"
+    },
+    {
+      "file": "after/ar-320-billing.png",
+      "bytes": 96587,
+      "sha256": "b17d2903cc463d31a8e41848d3431ccc6454270dfd35193c5de1f41e52d72ab2"
+    },
+    {
+      "file": "after/ar-320-campaign-review.png",
+      "bytes": 153744,
+      "sha256": "84f7eea88bdbd3be336eacee4a8edf7a94708fc2ee918c50902b70e0d17ef2ec"
+    },
+    {
+      "file": "after/ar-320-campaigns.png",
+      "bytes": 93364,
+      "sha256": "ccb8f1239effa0dda56fd44c315fc269a14a7843bc7e86692f617cb3275585da"
+    },
+    {
+      "file": "after/ar-320-contact.png",
+      "bytes": 182808,
+      "sha256": "22fc65164153e124a6e7fdbef5315b12ea340c8c4e6ccf6d36c44f57c4254f00"
+    },
+    {
+      "file": "after/ar-320-create.png",
+      "bytes": 96560,
+      "sha256": "6473cd0bba0f7d1784194424b5c0643d4d4dbc2add5f3f3cc42ae65407f2f446"
+    },
+    {
+      "file": "after/ar-320-dashboard.png",
+      "bytes": 173380,
+      "sha256": "d4d1c5477d57d0289c92fa71f6f11efd6e191289825d154dc05c1cc2032d5dc5"
+    },
+    {
+      "file": "after/ar-320-editor.png",
+      "bytes": 47900,
+      "sha256": "eacd25abe0536f66bae0f5975db364b252f50b0888d7ab72121c4e0a2014dead"
+    },
+    {
+      "file": "after/ar-320-empty-dashboard.png",
+      "bytes": 73767,
+      "sha256": "a1da7d52c7d50e5908805dae6b9224183fd744c55b6c4a8019adc175a9db25ba"
+    },
+    {
+      "file": "after/ar-320-faq.png",
+      "bytes": 179462,
+      "sha256": "261f0ff6f8a38f775b23b634db6f3ddba77372a5973d94459d216eeb274e84d9"
+    },
+    {
+      "file": "after/ar-320-home.png",
+      "bytes": 611847,
+      "sha256": "6515f944f6252987a482264f2a904d93aaed097a02e6651918e4ab6e7c7c89b0"
+    },
+    {
+      "file": "after/ar-320-how-it-works.png",
+      "bytes": 255251,
+      "sha256": "6b70a2a8f20cacbb603df55db4833c842d7768f55915d7bb6eba29c11ef75890"
+    },
+    {
+      "file": "after/ar-320-inbox.png",
+      "bytes": 105790,
+      "sha256": "97255851ecec2f0776ab811da81385f6ce11df13dd570eef74ed71f56609b06f"
+    },
+    {
+      "file": "after/ar-320-integrations.png",
+      "bytes": 352054,
+      "sha256": "e52d4749de283521545513d3387a82991406301a87673dd74297b6a2674cf12d"
+    },
+    {
+      "file": "after/ar-320-inventory.png",
+      "bytes": 169314,
+      "sha256": "e6031054056ee98875ac3dd3ac3eb5498f58c9463a04589d2506bd2dd0606246"
+    },
+    {
+      "file": "after/ar-320-launch.png",
+      "bytes": 131715,
+      "sha256": "b2906e0e88ca50ca1625df919a2aef5f0146712566faee7f6187ae7386ae8028"
+    },
+    {
+      "file": "after/ar-320-leads.png",
+      "bytes": 157721,
+      "sha256": "57074bf61dddd919eb33bb01e566d2e0227a9464990d5fa23b31d28c4f54b80b"
+    },
+    {
+      "file": "after/ar-320-platform.png",
+      "bytes": 334775,
+      "sha256": "68dafe25cf66a216bcbfdf7f1f92106f50cc5e48d7a1d012d976452e3e826587"
+    },
+    {
+      "file": "after/ar-320-pricing.png",
+      "bytes": 354558,
+      "sha256": "76e074da4a477d4893a18175ae3a471e54918900426eed0b4456eaefea22bcd3"
+    },
+    {
+      "file": "after/ar-320-property.png",
+      "bytes": 188352,
+      "sha256": "0c10e327df82f2d1969fdea2daa8e01a5070a9f2a2506a7a0c6b25345383c3fe"
+    },
+    {
+      "file": "after/ar-320-publish.png",
+      "bytes": 259653,
+      "sha256": "7a8d60f3538daec9d93624e502c6f22642c16bb22d1e1febb8a124dd5bcd5099"
+    },
+    {
+      "file": "after/ar-320-settings.png",
+      "bytes": 63102,
+      "sha256": "e9b7fa5ea096f4e7b9596d3a1db1665d01a8c5e55ad2ed8bfe03be646b2c36e8"
+    },
+    {
+      "file": "after/ar-320-showcase-detail.png",
+      "bytes": 656208,
+      "sha256": "0dcfd1fc44dd2515d4f1d62a0b60f33d6f991aa5eef2f9a46d1aa915001a259f"
+    },
+    {
+      "file": "after/ar-320-showcase.png",
+      "bytes": 816882,
+      "sha256": "be84362eb9ef58d33ec96e214561f570430535419a48ea35046444b63620e832"
+    },
+    {
+      "file": "after/ar-375-agencies.png",
+      "bytes": 452321,
+      "sha256": "1102bef7c6a807bd6adbd1ad3b7cf406138899afc23a9c838f8294278161dcfc"
+    },
+    {
+      "file": "after/ar-375-ai.png",
+      "bytes": 421276,
+      "sha256": "01f89093380b6a8d39ea6b2296d6cbec9135cfc6c25715b1f32d62615e1ecbad"
+    },
+    {
+      "file": "after/ar-375-analytics.png",
+      "bytes": 192888,
+      "sha256": "c3e86ffe94384a5cf0ee796455a8f80d36e4544bd7bae819760c6b853ddbea21"
+    },
+    {
+      "file": "after/ar-375-assistant-open.png",
+      "bytes": 53037,
+      "sha256": "1e5d207f0f222d1570cd610d8d0f5b44cbad9993539832e6ee224b9248841b87"
+    },
+    {
+      "file": "after/ar-375-billing.png",
+      "bytes": 101361,
+      "sha256": "f7d3b0a503b420490f2fcf6e2f62becf55bbfff835cddca52d07ddc2fb18f261"
+    },
+    {
+      "file": "after/ar-375-campaign-review.png",
+      "bytes": 155897,
+      "sha256": "39d6c75d5e7e265f411925e600d2796f60ab083e950dfabab2ef08bb25dd19e7"
+    },
+    {
+      "file": "after/ar-375-campaigns.png",
+      "bytes": 92796,
+      "sha256": "8ac051a57a0dbddf94899d7be5084c1cc808274ef5c00b0e42dca421768f8e61"
+    },
+    {
+      "file": "after/ar-375-contact.png",
+      "bytes": 184534,
+      "sha256": "4152b6ac20667973713b7e5cf70e018cbc66f72296077d5fc8dffd59d39ee362"
+    },
+    {
+      "file": "after/ar-375-create.png",
+      "bytes": 97534,
+      "sha256": "9a4e694d2640d91a8b32c10c64ab74e1fe55e87ce3adc05b53c24152fc85fc26"
+    },
+    {
+      "file": "after/ar-375-dashboard.png",
+      "bytes": 174308,
+      "sha256": "f3380f2419559c1fb464743a229f4c7cfdd6b72e1a0687158fb6bd318c040737"
+    },
+    {
+      "file": "after/ar-375-editor.png",
+      "bytes": 50071,
+      "sha256": "66b87a57efa89787921459711270d9dd354d194793c94aa648ae525fd78a3570"
+    },
+    {
+      "file": "after/ar-375-empty-dashboard.png",
+      "bytes": 73472,
+      "sha256": "fae644d5c38188ebecfba9666725e721a4e6240910b49e725f0a4c4f64ee1dba"
+    },
+    {
+      "file": "after/ar-375-faq.png",
+      "bytes": 182244,
+      "sha256": "ab8ce0feca9d4d481190517be629b5a59289f4ff20c9bf4f81a18dc9115820fa"
+    },
+    {
+      "file": "after/ar-375-home.png",
+      "bytes": 634319,
+      "sha256": "e01d1a2d45022d92cc786a813893445b68e614ac1bd768f7f5e580f032896bf8"
+    },
+    {
+      "file": "after/ar-375-how-it-works.png",
+      "bytes": 281018,
+      "sha256": "708c16052e3b5c5ef3287fee38a297064ae9705d9037ec2a6dba1ec9e7811891"
+    },
+    {
+      "file": "after/ar-375-inbox.png",
+      "bytes": 106157,
+      "sha256": "b74dd3a6465cc46b96aa000583a26a76ef9419fbf829a2aea7d41d548ee0749f"
+    },
+    {
+      "file": "after/ar-375-integrations.png",
+      "bytes": 353429,
+      "sha256": "2f9c9459e7de0f9e37542e0c48eeba354306ed39c4deff7c7fc23439f01dfdd3"
+    },
+    {
+      "file": "after/ar-375-inventory.png",
+      "bytes": 171281,
+      "sha256": "6f237dc27f9e5fd87e2470f4672159bfff376723c257f5913e4afc5c50f24599"
+    },
+    {
+      "file": "after/ar-375-launch.png",
+      "bytes": 132816,
+      "sha256": "21e16d0910df4b4551a347a04d2fcdb6bf727b31a3c7ff11652891cb75ace3a1"
+    },
+    {
+      "file": "after/ar-375-leads.png",
+      "bytes": 158086,
+      "sha256": "13b1c19872350cc9d0c9335b7d4e183ffdd17387fe07684760f455610756de21"
+    },
+    {
+      "file": "after/ar-375-platform.png",
+      "bytes": 357482,
+      "sha256": "303ffcf74911de85083b52f3dbbb9f52f4b1bbfa97ba86c79202b82302129ceb"
+    },
+    {
+      "file": "after/ar-375-pricing.png",
+      "bytes": 358715,
+      "sha256": "619fcbc0b58225fd7f9e1911598c573dc9ed11ca88bd5227cb522b874ab89069"
+    },
+    {
+      "file": "after/ar-375-property.png",
+      "bytes": 207028,
+      "sha256": "098fd7dd340648e086121c3099096c65bc334452059953fa00d37b9750e6ecea"
+    },
+    {
+      "file": "after/ar-375-publish.png",
+      "bytes": 278315,
+      "sha256": "6f9040fa750b5deed8b1f36053e84ed90e4a36f2822dc7abdc486fe2c93034b0"
+    },
+    {
+      "file": "after/ar-375-settings.png",
+      "bytes": 63167,
+      "sha256": "b7447562810c1a77f1f654afd4e59877848f89259b3665130d901a6783ee0e26"
+    },
+    {
+      "file": "after/ar-375-showcase-detail.png",
+      "bytes": 778074,
+      "sha256": "177a0ad50ffc8ba71f798954b0f229e8bd47d8cab649529e1b10eac1340ea339"
+    },
+    {
+      "file": "after/ar-375-showcase.png",
+      "bytes": 1044770,
+      "sha256": "8fea488ff06edb1d6101b1ab9f35bf07d2ac47524c0259219bf25d6edab623b3"
+    },
+    {
+      "file": "after/ar-768-agencies.png",
+      "bytes": 511406,
+      "sha256": "66178156306287a93e9a5f7f1e856ba867a8a5b7b4493f022983cdde2a94df21"
+    },
+    {
+      "file": "after/ar-768-ai.png",
+      "bytes": 502748,
+      "sha256": "ba47045d1071b9e6a5a7e9f726bec8a4c4ae97de304406f2a3cec051990432a9"
+    },
+    {
+      "file": "after/ar-768-analytics.png",
+      "bytes": 219344,
+      "sha256": "124d2db99c0e5d4cd49d9ed02aad3d667c6faf6a10e58fd3c7057c6d3aec6b19"
+    },
+    {
+      "file": "after/ar-768-assistant-open.png",
+      "bytes": 234644,
+      "sha256": "e9a2f13ed3cbbeaa660479f4093a319ba5355f8509fb38ef7ce624ac5a59e2bf"
+    },
+    {
+      "file": "after/ar-768-billing.png",
+      "bytes": 116146,
+      "sha256": "9baaef76ca3326a961f44a51fd6195aa7e979d003305273feba1867d894d0069"
+    },
+    {
+      "file": "after/ar-768-campaign-review.png",
+      "bytes": 158618,
+      "sha256": "2d6ee5b900704a8380377de53c63c71a908b0f0ebcfc4a64e816f960712b898d"
+    },
+    {
+      "file": "after/ar-768-campaigns.png",
+      "bytes": 99972,
+      "sha256": "b0e31e317e597f84bff599fbd44c10096dea3a04ec5b9247e3e3bce73545cefb"
+    },
+    {
+      "file": "after/ar-768-contact.png",
+      "bytes": 193596,
+      "sha256": "1dee6dca92d798ed5757a912526113d3fdac033368fb6979d9175a805a130eb8"
+    },
+    {
+      "file": "after/ar-768-create.png",
+      "bytes": 102997,
+      "sha256": "cd16c513bc8a1d8fa2838d25e291b7eeb020d77f066068c6ec570b94627e7aba"
+    },
+    {
+      "file": "after/ar-768-dashboard.png",
+      "bytes": 199161,
+      "sha256": "cf2b32fd3133cc3f75e02aad26fec8b1dd29d64da10e599ea4fe2e7ab0a4d542"
+    },
+    {
+      "file": "after/ar-768-editor.png",
+      "bytes": 82487,
+      "sha256": "8acd39332f4f377d68a593268271e75f5c1c0ce84cd8ef08f1bd9c3a58c4c69b"
+    },
+    {
+      "file": "after/ar-768-empty-dashboard.png",
+      "bytes": 79198,
+      "sha256": "b8b7b57cea23f93254e0ba27ff96fee3d41a96d2038c651a15c2713e4c24cc87"
+    },
+    {
+      "file": "after/ar-768-faq.png",
+      "bytes": 192626,
+      "sha256": "c3c14da7b097654013922ab50c247a075f7442d1ee11031624d275cb98c4cb27"
+    },
+    {
+      "file": "after/ar-768-home.png",
+      "bytes": 663085,
+      "sha256": "9f2ce1f472a359a7b2d1738c6779fbc88b4fb87402909895b3181434df179c14"
+    },
+    {
+      "file": "after/ar-768-how-it-works.png",
+      "bytes": 304289,
+      "sha256": "bee23a68665306d5481668bf14bf9a7bfeff92a8ea04494705c560f58ac46a5d"
+    },
+    {
+      "file": "after/ar-768-inbox.png",
+      "bytes": 117245,
+      "sha256": "b19e1e11b2f2dc663712c82fc319d82a46c2ea81f0be8d976f49f1a0947b88da"
+    },
+    {
+      "file": "after/ar-768-integrations.png",
+      "bytes": 362129,
+      "sha256": "d67aeddecc470a64caf1e40591c01fcce519e56dfe59dbeb6cd33ddcdcf63da7"
+    },
+    {
+      "file": "after/ar-768-inventory.png",
+      "bytes": 184640,
+      "sha256": "80f2ebf08efb66a972c44616b782a0c6e43789ed2ca558f3a7669c5d9fe7f385"
+    },
+    {
+      "file": "after/ar-768-launch.png",
+      "bytes": 145734,
+      "sha256": "63379e950492f243444ecbecf94cab62420f633bf046ed8e581e38a54f4e8094"
+    },
+    {
+      "file": "after/ar-768-leads.png",
+      "bytes": 168316,
+      "sha256": "a949ac3854ec4dc647017dccce4e9420d1c17d6cd8df7fc9e8fd4b9a8c3c15f3"
+    },
+    {
+      "file": "after/ar-768-platform.png",
+      "bytes": 397203,
+      "sha256": "f591650327dd92696c333c1ee20ef3c2f0a859d63a8c492a730118ba4d1fddaa"
+    },
+    {
+      "file": "after/ar-768-pricing.png",
+      "bytes": 316437,
+      "sha256": "230155e9e12fca04cd28c2771847f0d3e220f8b4848d38f4b6c0c9fe067ffe3d"
+    },
+    {
+      "file": "after/ar-768-property.png",
+      "bytes": 307744,
+      "sha256": "0990072faf357e161e16c59337d5242bc9806e9ff071536fd7407de4d55f4de2"
+    },
+    {
+      "file": "after/ar-768-publish.png",
+      "bytes": 407723,
+      "sha256": "77aa9e588c95b1b442d74252d6d6bf7d1b545162283d6c5f49fce20e07856007"
+    },
+    {
+      "file": "after/ar-768-settings.png",
+      "bytes": 70825,
+      "sha256": "246b11ed1869ba3d68bf689f9c0f11d889b58b1e7f783080a855aac512570bb9"
+    },
+    {
+      "file": "after/ar-768-showcase-detail.png",
+      "bytes": 1068405,
+      "sha256": "e6d6389ed069683739dec6c89f717577e51120388487195f0fad8f8f92659391"
+    },
+    {
+      "file": "after/ar-768-showcase.png",
+      "bytes": 1067783,
+      "sha256": "4643c6b76c72c68cf5f6a7b8107862fbd2f7f230a7d6c56851568b54fdd0904b"
+    },
+    {
+      "file": "after/en-1024-agencies.png",
+      "bytes": 748889,
+      "sha256": "1e5cdc9a11be506c87623368712c3613e2a387fff0b0870c4cd4902d733d7f99"
+    },
+    {
+      "file": "after/en-1024-ai.png",
+      "bytes": 527685,
+      "sha256": "be6478966e49fc85582f8fd6ebe13f3d71fadd465b6ce74e73574d659c3f5ac4"
+    },
+    {
+      "file": "after/en-1024-analytics.png",
+      "bytes": 249993,
+      "sha256": "1182e825dc0084940eb09f2d90ca66fd8741c3b2a2e0ca553d5812998343b249"
+    },
+    {
+      "file": "after/en-1024-assistant-open.png",
+      "bytes": 410716,
+      "sha256": "55ad329c5f9bbc662b523854781ab178be525f613212d087ea08aafee1e4fa82"
+    },
+    {
+      "file": "after/en-1024-billing.png",
+      "bytes": 139068,
+      "sha256": "85760d35fd8548813b10b7e908cbbdf0d6aa4271c23f407f3aadd5097b10e53a"
+    },
+    {
+      "file": "after/en-1024-campaign-review.png",
+      "bytes": 190631,
+      "sha256": "342f400852cc57bafb194f60f029ee1651d5387acc5beaf4c5f168a531100c9e"
+    },
+    {
+      "file": "after/en-1024-campaigns.png",
+      "bytes": 116081,
+      "sha256": "6d46870362131b7a0265f2577a68d37440769de7d2929f2a768c3050ae08885b"
+    },
+    {
+      "file": "after/en-1024-contact.png",
+      "bytes": 232248,
+      "sha256": "4f186bb80dd4e4df16ca84a922ec6f3f4961796d1281babd6254f589cc31499b"
+    },
+    {
+      "file": "after/en-1024-create.png",
+      "bytes": 130170,
+      "sha256": "8d0b3ef45e64bf3902e9326f89927e1f7a3b16ed00c0cf00b91e759e6e8ee9a4"
+    },
+    {
+      "file": "after/en-1024-dashboard.png",
+      "bytes": 194552,
+      "sha256": "ebc3dbb28ad9174b23b873c53bbc716ca1654036d64599bdeb6c64c6257bf27a"
+    },
+    {
+      "file": "after/en-1024-editor.png",
+      "bytes": 124030,
+      "sha256": "1e09d5a9a2e9419f0b5deb7d0ed198739385a5e4e11a854e1ff0f4074468739c"
+    },
+    {
+      "file": "after/en-1024-empty-dashboard.png",
+      "bytes": 90722,
+      "sha256": "a01a5ad2fbfc43865f28597a3e9b958e2bb3cf2911328458cf7293cb3139d478"
+    },
+    {
+      "file": "after/en-1024-faq.png",
+      "bytes": 224228,
+      "sha256": "417a5c6628b683304cbf8101294091a26c0c85b89fcf8b69e2313e99eed9b942"
+    },
+    {
+      "file": "after/en-1024-home.png",
+      "bytes": 808443,
+      "sha256": "dacf59c5df7dd8feac32cfbb4f86749a6298c5df1f83ba9a13a74c3373257a9b"
+    },
+    {
+      "file": "after/en-1024-how-it-works.png",
+      "bytes": 335899,
+      "sha256": "aa062532d05739ab458300c9ec32a117542197c24266a2dd5a55824db92cb6ac"
+    },
+    {
+      "file": "after/en-1024-inbox.png",
+      "bytes": 168105,
+      "sha256": "813018a1549e5aee73a664822923fd9c69924132a31ca588edf855f638bde28d"
+    },
+    {
+      "file": "after/en-1024-integrations.png",
+      "bytes": 449521,
+      "sha256": "35ed9fd836e186ece7deae916d615b6dbc7d2bb8ce081a793cc313e88317f7be"
+    },
+    {
+      "file": "after/en-1024-inventory.png",
+      "bytes": 172304,
+      "sha256": "da6104ab493eb3f8b686731776f4f404c9c5e74a8ec14dbf368ce52f13e0863d"
+    },
+    {
+      "file": "after/en-1024-launch.png",
+      "bytes": 156524,
+      "sha256": "df58f4445f0527f76795b2e0deff56a1d30217dd7ad7ea5a337448da5dacef45"
+    },
+    {
+      "file": "after/en-1024-leads.png",
+      "bytes": 180455,
+      "sha256": "36483884f42511176ea765719e9b9c456563a6f34a513eeb31821846545985e7"
+    },
+    {
+      "file": "after/en-1024-platform.png",
+      "bytes": 573640,
+      "sha256": "0479cb10b605597f0f1583b58da20c3b9cad1b9a718c1447c564bc87f7ee76ad"
+    },
+    {
+      "file": "after/en-1024-pricing.png",
+      "bytes": 362841,
+      "sha256": "b8c66449d4ec2b1a534a66687d6772a60e4095b997a5ee57d7276246d908130c"
+    },
+    {
+      "file": "after/en-1024-property.png",
+      "bytes": 410280,
+      "sha256": "4f11122f48f9e7ef8ee6da29d669b93afa5bff25146a26100ad5fd605ee2b745"
+    },
+    {
+      "file": "after/en-1024-publish.png",
+      "bytes": 378987,
+      "sha256": "27923c4bdbc29110e7c806191cb3124fb47f9a59abc96e9653c624449a083974"
+    },
+    {
+      "file": "after/en-1024-settings.png",
+      "bytes": 87288,
+      "sha256": "2c1c7ca9be9d5da76723dc59ff3e277da770295e975cee75efe6760b2d4e7f6c"
+    },
+    {
+      "file": "after/en-1024-showcase-detail.png",
+      "bytes": 1573378,
+      "sha256": "b12169992126557f2b56113bac0ee948ebc306ee2aacfff6959d97ebc9d119cf"
+    },
+    {
+      "file": "after/en-1024-showcase.png",
+      "bytes": 1829059,
+      "sha256": "057a94d01bedd1c872e923a6db3f86241b558cc8be38c568159fa0cfd21eeb74"
+    },
+    {
+      "file": "after/en-1280-agencies.png",
+      "bytes": 938803,
+      "sha256": "048668787ca61162d59244e7846499b61a357f27aa4897ae8fd7f720333710de"
+    },
+    {
+      "file": "after/en-1280-ai.png",
+      "bytes": 549131,
+      "sha256": "1a09284d752adaa12f89ce1b7754188433ebc5aa110ada0089fdc88d760857a4"
+    },
+    {
+      "file": "after/en-1280-analytics.png",
+      "bytes": 286477,
+      "sha256": "7ac7a7fb83c7ed1d682919da0219d5e9cbb51bde212502bccdc6989a367b7b00"
+    },
+    {
+      "file": "after/en-1280-assistant-open.png",
+      "bytes": 454003,
+      "sha256": "35f815ee88abaec7e07887416a6a0be015876bce6d0a0289494d75ae25d93b5c"
+    },
+    {
+      "file": "after/en-1280-billing.png",
+      "bytes": 172375,
+      "sha256": "3c420d74155df620023869379e2376df2d78a19de0b4380dd5c8759412671c06"
+    },
+    {
+      "file": "after/en-1280-campaign-review.png",
+      "bytes": 227109,
+      "sha256": "f98139c8c518255f6811b8d4c7ef549e550dda761f418c4db5f312d41523e5b4"
+    },
+    {
+      "file": "after/en-1280-campaigns.png",
+      "bytes": 151116,
+      "sha256": "4a07e318991755706fc630e689e99f9e639dcdfa093312e9b648443111f3fc87"
+    },
+    {
+      "file": "after/en-1280-contact.png",
+      "bytes": 253919,
+      "sha256": "e09ace155390090692a99519aad3d0030deab9f5118015c25e33e11c563142dd"
+    },
+    {
+      "file": "after/en-1280-create.png",
+      "bytes": 167831,
+      "sha256": "36beceb15a298a3e1839db7ba918b0f847c281efeac5f1d2d07e7bebf75ebb2d"
+    },
+    {
+      "file": "after/en-1280-dashboard.png",
+      "bytes": 233097,
+      "sha256": "540662bf7bb76d03ac7c1957fe163884cd4b680785f43da8c5dbea6735f70eb3"
+    },
+    {
+      "file": "after/en-1280-editor.png",
+      "bytes": 160646,
+      "sha256": "d4bdfba38f1ca2c95fb516fcc091a124c7de993d92179c24a14a9b49139f6d11"
+    },
+    {
+      "file": "after/en-1280-empty-dashboard.png",
+      "bytes": 126910,
+      "sha256": "98fa105b71717b03e844308291b95536438925f054a98086dd8f6a0cd32c0992"
+    },
+    {
+      "file": "after/en-1280-faq.png",
+      "bytes": 242086,
+      "sha256": "f2b30472df0d1eb5422857c1cb2842be95f4fefc022af143d9d41d78ab686a1e"
+    },
+    {
+      "file": "after/en-1280-home.png",
+      "bytes": 861743,
+      "sha256": "afc3702acd1a8888c3cb194aa93fdb2c20351f4aea5753c8dab79aa53389d185"
+    },
+    {
+      "file": "after/en-1280-how-it-works.png",
+      "bytes": 392732,
+      "sha256": "38de97b57fea5618cf8955dfd51867570e3d1c6433124ad28f23abe4462e309b"
+    },
+    {
+      "file": "after/en-1280-inbox.png",
+      "bytes": 196788,
+      "sha256": "d0ea739662617ceb7542c1e87252fbd62757607e48f444a2950fb940f3c0448f"
+    },
+    {
+      "file": "after/en-1280-integrations.png",
+      "bytes": 464922,
+      "sha256": "cd413e600c2b8852747642fca5f30fe4761dcbb33c694a4e9e109081fef03244"
+    },
+    {
+      "file": "after/en-1280-inventory.png",
+      "bytes": 211275,
+      "sha256": "f262936d0a1d8512b74a57f6089de5e6e90eed1835bacade46282ecf511dd117"
+    },
+    {
+      "file": "after/en-1280-launch.png",
+      "bytes": 193352,
+      "sha256": "08d32c79e77fea3f03491587c9cd6c99db21735816da6950a9809a8be8510a1d"
+    },
+    {
+      "file": "after/en-1280-leads.png",
+      "bytes": 216976,
+      "sha256": "3cdcaa4f29401d7be5bd3e972a519bc8adc66cdab3368f081ec867e91d879d6b"
+    },
+    {
+      "file": "after/en-1280-platform.png",
+      "bytes": 689638,
+      "sha256": "9715d94678d342a6928fa04aa52d031e086005a4dade259d9e40287c373398da"
+    },
+    {
+      "file": "after/en-1280-pricing.png",
+      "bytes": 394588,
+      "sha256": "a4c442f1d53195c8ab4bea3a1ddaa759529e1b111b24b52bab57d2904d047dc3"
+    },
+    {
+      "file": "after/en-1280-property.png",
+      "bytes": 454682,
+      "sha256": "a9937268388335733e2c3ae7c95251ee28020259e54c53b6f5c26bc89b9c46b6"
+    },
+    {
+      "file": "after/en-1280-publish.png",
+      "bytes": 421379,
+      "sha256": "524e5d59d8c5a65c12c9cc4736099a9ba33e7a8bfe02f847da4918988b4ec62d"
+    },
+    {
+      "file": "after/en-1280-settings.png",
+      "bytes": 123941,
+      "sha256": "8add9cddd99362f9759eaf12bb51645f58a92a39cfd93f7e650ea3879c4d90b5"
+    },
+    {
+      "file": "after/en-1280-showcase-detail.png",
+      "bytes": 1301947,
+      "sha256": "4dc842859e6cc600bce73b85b762919314e1a04c1ffcc1098844b97bc15d9cdb"
+    },
+    {
+      "file": "after/en-1280-showcase.png",
+      "bytes": 1235637,
+      "sha256": "fe6ff4138373b6eb2d6542482aab2e65354e175389a90f6ad7c2bc4bb2476e6d"
+    },
+    {
+      "file": "after/en-1440-agencies.png",
+      "bytes": 985727,
+      "sha256": "4b058ceca191cbcd34647e50676eb67bcc7447850e5fbce8da297835855aecac"
+    },
+    {
+      "file": "after/en-1440-ai.png",
+      "bytes": 573903,
+      "sha256": "b2e0057b4ea81dc9ddb64fd2d1c518b97791c7d7a213e13795a7608077d481dc"
+    },
+    {
+      "file": "after/en-1440-analytics.png",
+      "bytes": 290530,
+      "sha256": "9af0cfa78dbdd93cc3caca0b89030ce7793368c686697a0c0689cba93c361f52"
+    },
+    {
+      "file": "after/en-1440-assistant-open.png",
+      "bytes": 511008,
+      "sha256": "613d7ff5a1813d3eb9b2bfb5f98ab8abc2a62b4623af968d6625751355c1fdd0"
+    },
+    {
+      "file": "after/en-1440-billing.png",
+      "bytes": 180302,
+      "sha256": "e148004a9b686f2f98d29b0a8b08db1f7fc49525cf506f7d58dc6c255c4b2495"
+    },
+    {
+      "file": "after/en-1440-campaign-review.png",
+      "bytes": 228719,
+      "sha256": "ff9633feea007c05dc7443114b8dd8a26c3226c703e3e7aeeb8a225eb4cf5e25"
+    },
+    {
+      "file": "after/en-1440-campaigns.png",
+      "bytes": 152492,
+      "sha256": "e4fe6257aca45eb352a2ba2fdcd469adeca169a3942dbc60823eb7fb04555576"
+    },
+    {
+      "file": "after/en-1440-contact.png",
+      "bytes": 262824,
+      "sha256": "2a928ed9a0c503a0c0b172434fc6b222acc5cd5372b1904afd316926841e08f4"
+    },
+    {
+      "file": "after/en-1440-create.png",
+      "bytes": 169056,
+      "sha256": "170293fe9ca8a994483e0b364382d9c962d0f15c8f052ee37bdecd9dfe942564"
+    },
+    {
+      "file": "after/en-1440-dashboard.png",
+      "bytes": 234098,
+      "sha256": "8b6c01c77182ad0a707cd45f7bffc112e4db918c874c31e395f6c86bcabfe9cc"
+    },
+    {
+      "file": "after/en-1440-editor.png",
+      "bytes": 163134,
+      "sha256": "54464c237d5e1f1e52950d6352cdd44cc98ca2ef4da2fad27d22318378b76dbe"
+    },
+    {
+      "file": "after/en-1440-empty-dashboard.png",
+      "bytes": 128494,
+      "sha256": "feb9342944298723b0c49a8b9cf9c74baaedc5b2e4fe60cadce5258d6f2cd4ba"
+    },
+    {
+      "file": "after/en-1440-faq.png",
+      "bytes": 252719,
+      "sha256": "2f0ee4f3e1b756a8090935d05ba2260e31b9c0ac2913775a20c125515fc15b23"
+    },
+    {
+      "file": "after/en-1440-home.png",
+      "bytes": 894407,
+      "sha256": "07dbc5a47f59335c53a1c573b22e2601a7d07671883f54786a132570b5a2f2db"
+    },
+    {
+      "file": "after/en-1440-how-it-works.png",
+      "bytes": 412439,
+      "sha256": "f60a30fca2c3ad32c439e9dd6b993bb348dd9d158bde220577ebc9cb533f07c2"
+    },
+    {
+      "file": "after/en-1440-inbox.png",
+      "bytes": 200103,
+      "sha256": "fcdf681c031fff9dddf0b47d85d2eb52215cc99de35846496e0da95c99993f55"
+    },
+    {
+      "file": "after/en-1440-integrations.png",
+      "bytes": 478714,
+      "sha256": "00c2a0296be07036063e2b9d3858ccf6e5b068ba4fa24c3f47ff4cddbc9dbc03"
+    },
+    {
+      "file": "after/en-1440-inventory.png",
+      "bytes": 214057,
+      "sha256": "9feccc0ad2e53678005796232003e8812af03c62017eb21b28e6ecfd8143cc3d"
+    },
+    {
+      "file": "after/en-1440-launch.png",
+      "bytes": 194640,
+      "sha256": "9e014bef8de09ce3c9b9bf0e7994566e5ff8c50b2f0c3af9b0a0931ae17f7017"
+    },
+    {
+      "file": "after/en-1440-leads.png",
+      "bytes": 228109,
+      "sha256": "6ce61f4f41f1ffadc1d7fac21fcf7cd3d90986b4f65ce1fd8d397e097efb6851"
+    },
+    {
+      "file": "after/en-1440-platform.png",
+      "bytes": 722347,
+      "sha256": "8cb25b5173281a103a3820458f3653c0bac803cdbde8b46ab0663753b41f394f"
+    },
+    {
+      "file": "after/en-1440-pricing.png",
+      "bytes": 403427,
+      "sha256": "19a9ceef5caf2d5e417b63ff0e60b0b32cda26d5bd8225c1f027b7149a90303b"
+    },
+    {
+      "file": "after/en-1440-property.png",
+      "bytes": 501643,
+      "sha256": "b34164dec3168e2397c4f676804360025a15aedc53ffd3836106f7efe5d48322"
+    },
+    {
+      "file": "after/en-1440-publish.png",
+      "bytes": 450482,
+      "sha256": "ed2f5b6593905a36e35e8cf7b48fd694c010b9c1186540cfe1774bb41ec692c9"
+    },
+    {
+      "file": "after/en-1440-settings.png",
+      "bytes": 126268,
+      "sha256": "9afd7a9d8d34bf4af3d5d511697ae17f0bd1fc77836d335306f1ef3fcd2a3474"
+    },
+    {
+      "file": "after/en-1440-showcase-detail.png",
+      "bytes": 1347783,
+      "sha256": "6df60b21ced6c7473120103c1091de731c9270a86911524847e0e9fbe7c06151"
+    },
+    {
+      "file": "after/en-1440-showcase.png",
+      "bytes": 1291060,
+      "sha256": "78181a207c84686662e6e85b4b2a588000d3e50256ad9d912fa723f81e969058"
+    },
+    {
+      "file": "after/en-320-agencies.png",
+      "bytes": 454764,
+      "sha256": "7f9586045af7d2e07eaf17f6f1402d219c68c3e883268979e38c4bc7882d66ba"
+    },
+    {
+      "file": "after/en-320-ai.png",
+      "bytes": 455472,
+      "sha256": "5eb013da2f6af465fd37c8113980563ca046a728e88e1d3862d5f8f82ceecd37"
+    },
+    {
+      "file": "after/en-320-analytics.png",
+      "bytes": 215582,
+      "sha256": "5d710083aeec0247b6c0620c4d99ce7810289e392a7ff3ceb9e8e6ab39dec0b9"
+    },
+    {
+      "file": "after/en-320-assistant-open.png",
+      "bytes": 59034,
+      "sha256": "cc8c31daad889b87b4d713e22d57b2a2fae4505e9793cd0304fffe13f30a3030"
+    },
+    {
+      "file": "after/en-320-billing.png",
+      "bytes": 118132,
+      "sha256": "3f4d51fc71ffc5cc20985f89310da5c8e5398004bca480625bffa59266238ae6"
+    },
+    {
+      "file": "after/en-320-campaign-review.png",
+      "bytes": 185156,
+      "sha256": "1e5818997c822ed07bc23a1ae2600060793a110ba903caa50ae59bd79def1c2d"
+    },
+    {
+      "file": "after/en-320-campaigns.png",
+      "bytes": 111859,
+      "sha256": "c20b9969d330d7daf2512519d9193b3997e72aa0f437886c309e103d8733132c"
+    },
+    {
+      "file": "after/en-320-contact.png",
+      "bytes": 209469,
+      "sha256": "66c9dade22fada6e1260725dca92a8d8989c1f050f0408e64f5b897ceacbe8a7"
+    },
+    {
+      "file": "after/en-320-create.png",
+      "bytes": 118688,
+      "sha256": "19bbef4dc1ab2f8100ca7bad09abf582be120e402d77d2e96b9f973413aa2dd0"
+    },
+    {
+      "file": "after/en-320-dashboard.png",
+      "bytes": 196980,
+      "sha256": "11509a00626d20824a4589c8d879c5274bb206304aa90edf3095834133c0f46f"
+    },
+    {
+      "file": "after/en-320-editor.png",
+      "bytes": 57648,
+      "sha256": "c91199573fce7f64b66e53ca275b7a04b01b03b30796362b418938fea7175f87"
+    },
+    {
+      "file": "after/en-320-empty-dashboard.png",
+      "bytes": 87919,
+      "sha256": "95ad2e8eb1171d2255ec2de1604e191ff51e29ba3efc810dcd32887077825ba6"
+    },
+    {
+      "file": "after/en-320-faq.png",
+      "bytes": 203976,
+      "sha256": "34e984b405867e24a492b9211aa92bb5035fed08ae30922c03b0437ecd7d7f77"
+    },
+    {
+      "file": "after/en-320-home.png",
+      "bytes": 697331,
+      "sha256": "164507d6b50507ab5592a68a07bfdcc7a0df2f935339989e6efc28e33b7077e3"
+    },
+    {
+      "file": "after/en-320-how-it-works.png",
+      "bytes": 294210,
+      "sha256": "ff443a24bc48b2222d830f70c0e5e921178be38175a0687763592debc9c09096"
+    },
+    {
+      "file": "after/en-320-inbox.png",
+      "bytes": 117933,
+      "sha256": "132222d22845d3f32faeda348f1a07f618bbc676456c39dc8ecf25b01fa12f79"
+    },
+    {
+      "file": "after/en-320-integrations.png",
+      "bytes": 430999,
+      "sha256": "4db744c7454f96c88ad0ca9d987f2a3dd4d0ac2e30bc2b0d0efc5014770d992f"
+    },
+    {
+      "file": "after/en-320-inventory.png",
+      "bytes": 189832,
+      "sha256": "c2ef3e8d843ed45aa66fae35090b56b85a34a9d66d743bed69a0de26a17dc1d7"
+    },
+    {
+      "file": "after/en-320-launch.png",
+      "bytes": 150804,
+      "sha256": "38a8cd86adaad93de44b143c8f8019005745de54f1fa6ede39084310250b7a2e"
+    },
+    {
+      "file": "after/en-320-leads.png",
+      "bytes": 180941,
+      "sha256": "bd1e102030ed291f0d1471bc4db6fb588b02da13d5ce843c3d92ee906f82b876"
+    },
+    {
+      "file": "after/en-320-platform.png",
+      "bytes": 406480,
+      "sha256": "21b6e4382fe129e1fd5f42e661acbb1ffae5bfaed2c61a8163881216a5e089c5"
+    },
+    {
+      "file": "after/en-320-pricing.png",
+      "bytes": 417860,
+      "sha256": "ed663e6cd55eb61b33489959f37e1feb137d4915edbab5368407bb715aad1595"
+    },
+    {
+      "file": "after/en-320-property.png",
+      "bytes": 201856,
+      "sha256": "5873ac6798fdd8dc5a7b7ff5b5d34c6bd852d8630db90c705078714ffe9f5600"
+    },
+    {
+      "file": "after/en-320-publish.png",
+      "bytes": 287738,
+      "sha256": "97df4c195f915a5460c1896d0dae731ab0304f6f8467319156acae9c92a55172"
+    },
+    {
+      "file": "after/en-320-settings.png",
+      "bytes": 77100,
+      "sha256": "fad7b4f34a59f556b512507f15968eb140b52e9b0a91be714de7058bed6b70c8"
+    },
+    {
+      "file": "after/en-320-showcase-detail.png",
+      "bytes": 686867,
+      "sha256": "4b49f32b2b359bae99ea2c4ea308870b6318df91982ea6087f034a11eab24513"
+    },
+    {
+      "file": "after/en-320-showcase.png",
+      "bytes": 830036,
+      "sha256": "c611934dc1b3e7da15e262712373461137d98a8bfb45024fca1e19f1f45f8ea6"
+    },
+    {
+      "file": "after/en-375-agencies.png",
+      "bytes": 510750,
+      "sha256": "462a8e16fe293acd01920ca6b041bea91792598ecade94f5d1e760c0e93baa88"
+    },
+    {
+      "file": "after/en-375-ai.png",
+      "bytes": 470555,
+      "sha256": "84df49c579ff3cdfc2206eb31f8a07ed3c28777982867dc16550884d7f83054c"
+    },
+    {
+      "file": "after/en-375-analytics.png",
+      "bytes": 216884,
+      "sha256": "e706d21d19033902dc64d3920dd1013c98c6f00e6674df303ac359c8baf37ac0"
+    },
+    {
+      "file": "after/en-375-assistant-open.png",
+      "bytes": 59705,
+      "sha256": "bee07a606704a960a938b534fbfe34115b629a76a4ce9c3b6f87f5fbc385abae"
+    },
+    {
+      "file": "after/en-375-billing.png",
+      "bytes": 119003,
+      "sha256": "b059f439f5da6114a66acac2845e60c5ed8dc239f3858a5aeb1c98750d47eb2f"
+    },
+    {
+      "file": "after/en-375-campaign-review.png",
+      "bytes": 185625,
+      "sha256": "4b448ec57b257f6e47c01164ab8e0415109c93fb7d0f21fdddb0af91851d7d63"
+    },
+    {
+      "file": "after/en-375-campaigns.png",
+      "bytes": 113005,
+      "sha256": "b35b6643889892d1088f1ff0cc663f006f0a02e8fd5bc9b85f53e09ba11f2e49"
+    },
+    {
+      "file": "after/en-375-contact.png",
+      "bytes": 214282,
+      "sha256": "75706af3540da50c55da1ff9ab200d6e9fec90785da5f4c9c67a9448a427d91d"
+    },
+    {
+      "file": "after/en-375-create.png",
+      "bytes": 120485,
+      "sha256": "66c3114875fc1a8d1ef0932c5efdf2ca4757a9e5111496a23bd2e15fdaaa3c42"
+    },
+    {
+      "file": "after/en-375-dashboard.png",
+      "bytes": 195847,
+      "sha256": "039fc253370c811b352e0fa89467596a622b2edd917901c99aa840ea3be0d8d7"
+    },
+    {
+      "file": "after/en-375-editor.png",
+      "bytes": 59287,
+      "sha256": "52eafa7a5a942cad4d7062e1fdc38ebd5f2e8b33b2072e69501ae839c562b210"
+    },
+    {
+      "file": "after/en-375-empty-dashboard.png",
+      "bytes": 88470,
+      "sha256": "bef5da38d3cc89f22df0e8a98347a7d361316b3dca7fbed52013e16b2e7bb6ce"
+    },
+    {
+      "file": "after/en-375-faq.png",
+      "bytes": 204017,
+      "sha256": "384fe45d2a12882b6fa31faa0ea7a4d327596adc343d9e028f8a0c45715d91c5"
+    },
+    {
+      "file": "after/en-375-home.png",
+      "bytes": 718936,
+      "sha256": "be86c7041421c9a1f4a8e4e4b27dc09a53b052be8889676a0dd708791b8a24f4"
+    },
+    {
+      "file": "after/en-375-how-it-works.png",
+      "bytes": 321343,
+      "sha256": "46ff12d003c5e0f8f0df9b9823638dc2560351aa02bc2b816665b0ed38ea2aa6"
+    },
+    {
+      "file": "after/en-375-inbox.png",
+      "bytes": 116769,
+      "sha256": "b31bd5d1ed20114cd9c3e7cc0571dd8628f1120c07acb882f635db09ef5a523c"
+    },
+    {
+      "file": "after/en-375-integrations.png",
+      "bytes": 429237,
+      "sha256": "633d6e361ab8e5194ec2553848beb77704b239e150acc0385400c42586977b8b"
+    },
+    {
+      "file": "after/en-375-inventory.png",
+      "bytes": 191999,
+      "sha256": "21cf43d188a501a708ec1e5781e558231b819dd576f4aa1880dbfbb49a2dc0c5"
+    },
+    {
+      "file": "after/en-375-launch.png",
+      "bytes": 150296,
+      "sha256": "57bbe75e61f682379a8ed10dccb0b9e82a5e583c5c2c7b14c9a32ff2b5927696"
+    },
+    {
+      "file": "after/en-375-leads.png",
+      "bytes": 180718,
+      "sha256": "b1c2813badeb71b7ed5fc5d8e35a36abbb9781aea16408d772d95ad0a667b731"
+    },
+    {
+      "file": "after/en-375-platform.png",
+      "bytes": 430687,
+      "sha256": "0f62e18f354fd361a36b5a060fddda12f5596f181676f33b2fb509831d9427d0"
+    },
+    {
+      "file": "after/en-375-pricing.png",
+      "bytes": 416764,
+      "sha256": "5342cfebda1baabb8a71a59853d016fafb34d89a080eb485ccf616fb3372505f"
+    },
+    {
+      "file": "after/en-375-property.png",
+      "bytes": 219433,
+      "sha256": "8a4629790c37bf63788412220146941af7b20ee5c81581df14ac7e71a824e792"
+    },
+    {
+      "file": "after/en-375-publish.png",
+      "bytes": 306694,
+      "sha256": "6611120f9a2071f67e02020610f431b31641b93adaf3de136be0116e20caa9b0"
+    },
+    {
+      "file": "after/en-375-settings.png",
+      "bytes": 77841,
+      "sha256": "d2fbcffd241187eb0038c9539241e9a2fe5b9698fb3f68f5460de4e9877de773"
+    },
+    {
+      "file": "after/en-375-showcase-detail.png",
+      "bytes": 808366,
+      "sha256": "865c29b079e475a94e8ac4a004884a9a6136ab6df4378603b5ddaad530192edc"
+    },
+    {
+      "file": "after/en-375-showcase.png",
+      "bytes": 1053757,
+      "sha256": "ca0922386eb451136d9a59879133c3775fbb1b836cd85cf9e21e32ca28a46000"
+    },
+    {
+      "file": "after/en-768-agencies.png",
+      "bytes": 588104,
+      "sha256": "ee99f4f394d73f9c895ae77f3218e2c9c4993e28ca3c96b2cd77b773d946a30f"
+    },
+    {
+      "file": "after/en-768-ai.png",
+      "bytes": 566196,
+      "sha256": "0318d8afcef1d726da3089730f5403d60ca05ec41c1a3ddd0bd1287a164ab127"
+    },
+    {
+      "file": "after/en-768-analytics.png",
+      "bytes": 244786,
+      "sha256": "46c1bef806291bd6cde891a1ce744e87a103c5dbc849d586c57be5f7e714615c"
+    },
+    {
+      "file": "after/en-768-assistant-open.png",
+      "bytes": 265944,
+      "sha256": "a60d6a08ecc187d647e6eda6964d78819d3947f44e649785eb94fe972b4b0896"
+    },
+    {
+      "file": "after/en-768-billing.png",
+      "bytes": 131507,
+      "sha256": "8df34b329a8bff744c762b2f180f77643d012577df831a0967ba88084385a0a8"
+    },
+    {
+      "file": "after/en-768-campaign-review.png",
+      "bytes": 190704,
+      "sha256": "6c8819a1df01fd4a1b6e08da5ac5645c30c6699bd5ead8fb744728db636e6c75"
+    },
+    {
+      "file": "after/en-768-campaigns.png",
+      "bytes": 118445,
+      "sha256": "94c7bd084ef172b4ddc459233142c0c07a0254b57fe40fd9a7113009ce1a8310"
+    },
+    {
+      "file": "after/en-768-contact.png",
+      "bytes": 226852,
+      "sha256": "ef35a8d06e0daed66bd94ce5d9d9dedc9af049c7e2afc676e210b160efc5b683"
+    },
+    {
+      "file": "after/en-768-create.png",
+      "bytes": 122815,
+      "sha256": "00274e610d1226966e0b348bb510f62293ed51bec0656fa944ce320500241339"
+    },
+    {
+      "file": "after/en-768-dashboard.png",
+      "bytes": 222095,
+      "sha256": "5bc460fcf37c812c4e0c972996a43e2eddeb297e1f3df76c24199cc5e880a8b0"
+    },
+    {
+      "file": "after/en-768-editor.png",
+      "bytes": 97543,
+      "sha256": "adbf575715abc70d51a37f52564fb1ed86988a0fc1a6c7a20b8f3c4f71a88160"
+    },
+    {
+      "file": "after/en-768-empty-dashboard.png",
+      "bytes": 91231,
+      "sha256": "164adacdc8941ee30ee1ce5a63a5d84a52283bf3f0a9b85f4802132ef23fe2ca"
+    },
+    {
+      "file": "after/en-768-faq.png",
+      "bytes": 217490,
+      "sha256": "30f07aaf1a532aa2aece111e1b1bd56513c150c00e07b6c6270f43fe14ad212d"
+    },
+    {
+      "file": "after/en-768-home.png",
+      "bytes": 761914,
+      "sha256": "8775f204c30120cf68b0d9988c391f9e61e2ecdb064a711e42e9efe952c10990"
+    },
+    {
+      "file": "after/en-768-how-it-works.png",
+      "bytes": 352419,
+      "sha256": "5b1f184a2e5920e2786513ff178ede3e5e4c35e2b692b3142342873393bdbf06"
+    },
+    {
+      "file": "after/en-768-inbox.png",
+      "bytes": 130524,
+      "sha256": "8726fc57cb97573c67be81f30d6eb86ea47e44a3709aab858209073681893692"
+    },
+    {
+      "file": "after/en-768-integrations.png",
+      "bytes": 447765,
+      "sha256": "077fb807706f063bc8094019cb88e9b2dbb22eeec3c88a8b6d8b9f46c9c54178"
+    },
+    {
+      "file": "after/en-768-inventory.png",
+      "bytes": 206068,
+      "sha256": "6f629bb70164fe704b2a58750231dd441c200f7ea8c8cb72177a19b4c9b70869"
+    },
+    {
+      "file": "after/en-768-launch.png",
+      "bytes": 163759,
+      "sha256": "8dbb90c2d86ad490852a1aed48c7bca98baab84b1a395096927dbd683838a61e"
+    },
+    {
+      "file": "after/en-768-leads.png",
+      "bytes": 190797,
+      "sha256": "f4013085b74b1b387f5981f054edc6caaee7ce726721532cf6f114b6aee0f071"
+    },
+    {
+      "file": "after/en-768-platform.png",
+      "bytes": 481058,
+      "sha256": "4917b46a68bdd046197dfce91bd1a5b876b05379318185de57ae83a4a2e7d6db"
+    },
+    {
+      "file": "after/en-768-pricing.png",
+      "bytes": 369636,
+      "sha256": "1311b8a7eee239adedff9caaa0ca5b778a7d817b60ab9b9da5e83ae63baf139e"
+    },
+    {
+      "file": "after/en-768-property.png",
+      "bytes": 334681,
+      "sha256": "8e1a579e3b19f78f30bcb72bfad8cfab24e02a52789405ac6f8ba7a1f133ecd8"
+    },
+    {
+      "file": "after/en-768-publish.png",
+      "bytes": 437087,
+      "sha256": "a90f726c705161757f5007e8dc6f787f78b70a9da9041628f921cc005e1608d6"
+    },
+    {
+      "file": "after/en-768-settings.png",
+      "bytes": 85296,
+      "sha256": "7ff0151bd62d052f692e08dc74d015a80368de4ee1047d0ad591b9382fc05c4c"
+    },
+    {
+      "file": "after/en-768-showcase-detail.png",
+      "bytes": 1100053,
+      "sha256": "df1c98597ad58e730b1226bdcd4c7d26a69b722fb42f86ac26b7f9c25ddf84aa"
+    },
+    {
+      "file": "after/en-768-showcase.png",
+      "bytes": 1078236,
+      "sha256": "20045afd2e670566f23cca12b9b309108b4f5fb595a2cc2eb8922a26a1e514d2"
+    },
+    {
+      "file": "interactions/ar-1024-editor-assistant.png",
+      "bytes": 124024,
+      "sha256": "313d82911828022242bff8fdb3a43222f30a365cb732ffb9e3bdbff02439b78c"
+    },
+    {
+      "file": "interactions/ar-1024-inbox-assistant.png",
+      "bytes": 146498,
+      "sha256": "2e62639d82f640cf10ddd50c31b891f17892f8a3286a7bb1997811016f33f264"
+    },
+    {
+      "file": "interactions/ar-1024-public-assistant.png",
+      "bytes": 120948,
+      "sha256": "d9c55a78fbf673134789bfa4e98c480ab50456221d359117f4d5317e5787dc9e"
+    },
+    {
+      "file": "interactions/ar-1280-editor-assistant.png",
+      "bytes": 156527,
+      "sha256": "52121bcb1bc5b5c7ccf030e1fe5d91202cc60dcdb69e716f8ac69e97a83820ab"
+    },
+    {
+      "file": "interactions/ar-1280-inbox-assistant.png",
+      "bytes": 188033,
+      "sha256": "f6048b34f34d1c97d0acc1165f5b941e6d1f806c6283e6e82299cf00efea09f2"
+    },
+    {
+      "file": "interactions/ar-1280-public-assistant.png",
+      "bytes": 162887,
+      "sha256": "d3d7e6d75f40da7bedd2d38c2d62728159c8331554ad4ea68ae7b75774d74003"
+    },
+    {
+      "file": "interactions/ar-1440-editor-assistant.png",
+      "bytes": 159856,
+      "sha256": "075fc4d63ff3f924f0d168e71303f06349c047da0e8d0b9ca38c82e6425f7202"
+    },
+    {
+      "file": "interactions/ar-1440-inbox-assistant.png",
+      "bytes": 194642,
+      "sha256": "dacce7149d1caaa3611916c74a5b7b111d0801ee27123e92a78de578b2b9cb76"
+    },
+    {
+      "file": "interactions/ar-1440-public-assistant.png",
+      "bytes": 169859,
+      "sha256": "92f3d5a262e42f62f798b4ba7d05f33996ec52805c1563c0e953b316517e509b"
+    },
+    {
+      "file": "interactions/ar-320-editor-assistant.png",
+      "bytes": 44198,
+      "sha256": "e2ec76b6e204051ac0d8fe5c6418f2a08568f9eb82f1a68a8a6518b6b442f4ce"
+    },
+    {
+      "file": "interactions/ar-320-inbox-assistant.png",
+      "bytes": 44858,
+      "sha256": "1d48bc85b57c16ebe2da4ea777be9b6085a577b507d9b9083a838fb38be94a4e"
+    },
+    {
+      "file": "interactions/ar-320-public-assistant.png",
+      "bytes": 35438,
+      "sha256": "bd1e87d58d0a40d6007780db3fa55868aaf0b7036fab79e823772d0ceb112511"
+    },
+    {
+      "file": "interactions/ar-375-editor-assistant.png",
+      "bytes": 46086,
+      "sha256": "145ccf63a60b4f6db6fd8d41e20cbebaf0591280662b4dbb3f4881667a908b02"
+    },
+    {
+      "file": "interactions/ar-375-inbox-assistant.png",
+      "bytes": 45792,
+      "sha256": "c4890c7e6fe6cb17d0858ac4539366805ffb0adaf361b6519bb9c8ca9c25bedd"
+    },
+    {
+      "file": "interactions/ar-375-public-assistant.png",
+      "bytes": 35599,
+      "sha256": "c627a8bc8b1a66cb1ea862876a8867934d13d15d923fcf317750abec88b8fafb"
+    },
+    {
+      "file": "interactions/ar-768-editor-assistant.png",
+      "bytes": 108396,
+      "sha256": "8c5b093b4e5ce89d353ed98a82eedf10d3e2df2de3c4c1cc8a5e642224fc759e"
+    },
+    {
+      "file": "interactions/ar-768-inbox-assistant.png",
+      "bytes": 109510,
+      "sha256": "8c5e41ecda3dd34837cd359ab2e37d5252b295039cb4a2f907845d772f8a7e32"
+    },
+    {
+      "file": "interactions/ar-768-public-assistant.png",
+      "bytes": 100517,
+      "sha256": "71ae3c06ec8010aa85a76a0cbc5badbfbbe297de2d968b5c69c14201a7142186"
+    },
+    {
+      "file": "interactions/en-1024-editor-assistant.png",
+      "bytes": 148288,
+      "sha256": "8bbfa2085cf04c30070556db47d27507ff4877a1b6b1e4b187b90ff49d0bb73b"
+    },
+    {
+      "file": "interactions/en-1024-inbox-assistant.png",
+      "bytes": 161103,
+      "sha256": "6dd1ddd04073b0d9ce743224368b1dfc3f6b83e3729c9cdf20f1c002e7793fe7"
+    },
+    {
+      "file": "interactions/en-1024-public-assistant.png",
+      "bytes": 137417,
+      "sha256": "a6b7588796d6e1db78612338cf09d34613ce8e05b643852dac8d0bef12024001"
+    },
+    {
+      "file": "interactions/en-1280-editor-assistant.png",
+      "bytes": 186113,
+      "sha256": "07724340f75e1342debfd826d97d58afe962c71ae6852d5a8441fb17ca088c1a"
+    },
+    {
+      "file": "interactions/en-1280-inbox-assistant.png",
+      "bytes": 208708,
+      "sha256": "8b941905cd257a7e965650bab2a79ce5ade0c3319c241cd49b35f3550149ebb8"
+    },
+    {
+      "file": "interactions/en-1280-public-assistant.png",
+      "bytes": 182699,
+      "sha256": "0a34099b46a59585ec286d4c89f20054ea20ff0a4e3fd253b1d54ab8164d8995"
+    },
+    {
+      "file": "interactions/en-1440-editor-assistant.png",
+      "bytes": 189700,
+      "sha256": "33e7676889255e6c40b0585285f9401760db59d77ba906b8c5295d00aea14b2b"
+    },
+    {
+      "file": "interactions/en-1440-inbox-assistant.png",
+      "bytes": 214834,
+      "sha256": "f3b729d1854099ae5ffc6ccb1de148e528f19b7440baa90d0d5125d284916724"
+    },
+    {
+      "file": "interactions/en-1440-public-assistant.png",
+      "bytes": 194876,
+      "sha256": "4e0e73a9334cd22aaf19a132919c1720ececefed7707d741baaacef0f6fd7679"
+    },
+    {
+      "file": "interactions/en-320-editor-assistant.png",
+      "bytes": 52569,
+      "sha256": "cac83c5f1ce9feae7e1f40b3f4a2564ba60e6c6a772e82ef022493ffd7aef76c"
+    },
+    {
+      "file": "interactions/en-320-inbox-assistant.png",
+      "bytes": 53515,
+      "sha256": "cfa0cc110cadf01e24ef787808c2c0741d17e101312abf313ce506f527aef339"
+    },
+    {
+      "file": "interactions/en-320-public-assistant.png",
+      "bytes": 38521,
+      "sha256": "6fbcb86a7f6acca729a23c04be84b1a9aebbd20926122f17677f01da87a0aedd"
+    },
+    {
+      "file": "interactions/en-375-editor-assistant.png",
+      "bytes": 53017,
+      "sha256": "2e6d7a6f0d1d66b6e479fb1e48798d1b6a4fb02a4497b1598b69d0da937300b6"
+    },
+    {
+      "file": "interactions/en-375-inbox-assistant.png",
+      "bytes": 53963,
+      "sha256": "d2d2c5d736122280028b817c1e16b467465f8f5e0565be9829bc15c339dac432"
+    },
+    {
+      "file": "interactions/en-375-public-assistant.png",
+      "bytes": 38815,
+      "sha256": "fb5f4ce40a6d5b9b722a7f1e98ee522885e3e3560cc805d7eb82f94d3d153630"
+    },
+    {
+      "file": "interactions/en-768-editor-assistant.png",
+      "bytes": 125864,
+      "sha256": "b17cfc7126362c4ed276c510d00a50079ffc2f6825a3b4827d777686b0799f11"
+    },
+    {
+      "file": "interactions/en-768-inbox-assistant.png",
+      "bytes": 121719,
+      "sha256": "0a8e76a00521d557c4e78365decfab4587d44219ee1dfbc6f4952d8aa3af03a0"
+    },
+    {
+      "file": "interactions/en-768-public-assistant.png",
+      "bytes": 118027,
+      "sha256": "adc8d59c52ed239d43375574972e158d2a848625485d99c460065104c6b657dc"
+    }
+  ]
+}

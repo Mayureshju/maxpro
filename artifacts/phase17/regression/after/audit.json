@@ -1,0 +1,518 @@
+[
+  {
+    "kind": "empty",
+    "text": "Your agency, at a glance.\n\nDemo Daily Agency\n\nAdd property\nGETTING STARTED\nWelcome. Let’s add your first property.\n\nA fictional agency, saved only in this browser. Progress follows your saved records.\n\nStart\n1\nCreate your first property\nTo do\n2\nComplete listing information\nTo do\n3\nReview your listing\nTo do\n4\nChoose a promotion channel\nTo do\n5\nInspect publishing results\nTo do\n\nOptional: use MaxPro AI to review missing information or prepare bilingual copy. You stay in control of every saved suggestion. Reopen this guide anytime.\n\nAI Property Launch\nCreate campaign\nReview leads\nAsk MaxPro AI"
+  },
+  {
+    "kind": "one",
+    "text": "Your agency, at a glance.\n\nDemo Daily Agency\n\nAdd property\nProperties\n1\nRecorded enquiries\n1\nPending listing actions\n1\nLocal channel records\n0\nUpcoming viewings\n0\nAI Property Launch\nCreate campaign\nReview leads\nAsk MaxPro AI\nNeeds attention\nAll properties\nDemo daily home 1\nReview listing · The Pearl\nEnquiries to follow up\nOpen enquiries\nDemo visitor 1\nWebsite · Awaiting assignment\nChannel & campaign status\nPublish & Promote\n\nNo recorded channel blockers or campaigns awaiting action.\n\nReview campaigns\nLocal preparation only · no provider acceptance\nToday’s work\nUpcoming viewings\n\nNo upcoming local viewings. Arrange one from an enquiry.\n\nView schedule\nRecorded tasks only · viewing dates use Qatar time\nRecent properties\nView inventory\nDemo daily home 1\nThe Pearl · 5,000 QAR\nReview listing\nRecent activity\n\nSaved property, channel and enquiry activity will appear here.\n\nGETTING STARTED\nPick up where you left off.\n\nA fictional agency, saved only in this browser. Progress follows your saved records.\n\nDemo daily home 1 · 2 / 5\n\nContinue · Review your listing\nCreate your first property\nSaved\nComplete listing information\nSaved\n3\nReview your listing\nTo do\n4\nChoose a promotion channel\nTo do\n5\nInspect publishing results\nTo do\n\nOptional: use MaxPro AI to review missing information or prepare bilingual copy. You stay in control of every saved suggestion. Reopen this guide anytime."
+  },
+  {
+    "kind": "established",
+    "text": "Your agency, at a glance.\n\nDemo Daily Agency\n\nAdd property\nProperties\n25\nRecorded enquiries\n32\nPending listing actions\n7\nLocal channel records\n3\nUpcoming viewings\n0\nAI Property Launch\nCreate campaign\nReview leads\nAsk MaxPro AI\nNeeds attention\nAll properties\nDemo daily home 1\nReview listing · The Pearl\nDemo daily home 5\nReview listing · The Pearl\nDemo daily home 9\nReview listing · The Pearl\nDemo daily home 13\nReview listing · The Pearl\nEnquiries to follow up\nOpen enquiries\nDemo visitor 10\nWhatsApp · Awaiting assignment\nDemo visitor 25\nWhatsApp · Awaiting assignment\nDemo visitor 4\nMeta Lead Ads · Awaiting assignment\nDemo visitor 9\nMeta Lead Ads · Awaiting assignment\nChannel & campaign status\nPublish & Promote\nProperty Finder\nDemo daily home 3 · Blocked locally\nDemo daily campaign\nDraft\nReview campaigns\nLocal preparation only · no provider acceptance\nToday’s work\nUpcoming viewings\n\nNo upcoming local viewings. Arrange one from an enquiry.\n\nView schedule\nRecorded tasks only · viewing dates use Qatar time\nRecent properties\nView inventory\nDemo daily home 14\nThe Pearl · 11,500 QAR\nPublish & Promote\nDemo daily home 13\nThe Pearl · 11,000 QAR\nReview listing\nDemo daily home 12\nThe Pearl · 10,500 QAR\nPublish & Promote\nRecent activity\nReply saved locally\n14 Nov 2026, 13:00\nEnquiry assignment updated\n14 Nov 2026, 13:00\nExample enquiry intake recorded\n14 Nov 2026, 13:00\nWorkspace activity recorded\n14 Nov 2026, 13:00\nGetting-started help"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "name": "dashboard",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "name": "inventory",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "name": "quick-add",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "name": "property",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "name": "publish",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "name": "leads",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "name": "inbox",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "name": "dashboard",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "name": "inventory",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "name": "quick-add",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "name": "property",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "name": "publish",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "name": "leads",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "name": "inbox",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "name": "dashboard",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "name": "inventory",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "name": "quick-add",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "name": "property",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "name": "publish",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "name": "leads",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "name": "inbox",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "name": "dashboard",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "name": "inventory",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "name": "quick-add",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "name": "property",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "name": "publish",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "name": "leads",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "name": "inbox",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "name": "dashboard",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "name": "inventory",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "name": "quick-add",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "name": "property",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "name": "publish",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "name": "leads",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "name": "inbox",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "name": "dashboard",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "name": "inventory",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "name": "quick-add",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "name": "property",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "name": "publish",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "name": "leads",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "name": "inbox",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "name": "dashboard",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "name": "inventory",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "name": "quick-add",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "name": "property",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "name": "publish",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "name": "leads",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "name": "inbox",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "name": "dashboard",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "name": "inventory",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "name": "quick-add",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "name": "property",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "name": "publish",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "name": "leads",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "name": "inbox",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "name": "dashboard",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "name": "inventory",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "name": "quick-add",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "name": "property",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "name": "publish",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "name": "leads",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "name": "inbox",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "name": "dashboard",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "name": "inventory",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "name": "quick-add",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "name": "property",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "name": "publish",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "name": "leads",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "name": "inbox",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "name": "dashboard",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "name": "inventory",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "name": "quick-add",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "name": "property",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "name": "publish",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "name": "leads",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "name": "inbox",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "name": "dashboard",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "name": "inventory",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "name": "quick-add",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "name": "property",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "name": "publish",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "name": "leads",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "name": "inbox",
+    "overflow": false
+  }
+]

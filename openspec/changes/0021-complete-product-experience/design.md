@@ -1,0 +1,9 @@
+# Design decisions
+
+Reuse emerald/forest tokens, Manrope/IBM Plex Sans Arabic, native dialogs, existing proposal inspector, Copilot intents and all domain engines. Shared assistant launcher/frame/composer; public assistant imports only public product constants and FAQ data. Workspace session lives in the persistent shell, keyed by organization and persona, never pathname. Memory-only question/answer snapshots retain source revisions and user input through minimize/navigation. Route changes update current context, while historical answers retain their original source labels. Reopening never applies or sends anything.
+
+Logical inline-end placement: bottom-right EN, bottom-left AR. Reserve footer clearance; lift compact mobile launcher above editor/composer actions. Native modal focus/Escape/backdrop and owner-based scroll lock; no automatic opening. Hide floating launcher while the mobile sidebar is active. Context tasks stay bounded, with unsupported-request recovery. Public session is discarded at workspace boundaries and cannot import the demo provider.
+
+Homepage uses actual screenshots, a user-controlled five-stage sequence, six truthful AI outcomes, owner/broker/agency examples and per-group unavailable statuses including eligible Google Business Profile as future work. Retain the existing dedicated AI page and other public IA/metadata. Refresh genuine product screenshots with provenance.
+
+Workspace uses the current 28px titles and readable controls. Move setup help below operational panels for populated agencies. Keep empty getting-started behavior. Expose purpose next to inventory search/status. Compact CRM navigation/summary/filter spacing; keep every current filter visible and compatible rather than hiding regression-critical controls. Demote simulator action to secondary styling. Add direct property section links to existing authorities, not duplicate editors.

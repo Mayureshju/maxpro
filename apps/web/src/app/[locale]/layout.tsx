@@ -1,4 +1,5 @@
 import {marketingOrigin} from '@/lib/marketing-metadata';
+import {PublicAssistant} from '@/components/marketing/public-assistant';
 import {publicBrand} from '@/lib/marketing-content';
 import type {Metadata} from 'next';
 import {hasLocale, NextIntlClientProvider} from 'next-intl';import {setRequestLocale} from 'next-intl/server';import {notFound} from 'next/navigation';import {routing} from '@/i18n/routing';import '@/app/globals.css';
@@ -20,7 +21,7 @@ export default async function LocaleLayout({children, params}: {
   return (
     <html data-scroll-behavior="smooth" lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'}>
       <body>
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider>{children}<PublicAssistant/></NextIntlClientProvider>
       </body>
     </html>
   );

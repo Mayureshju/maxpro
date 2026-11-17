@@ -1,0 +1,32 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test agency-first.spec.ts product-experience.spec.ts --grep 'guided property|launcher placement|retained answers' --timeout=60000 --trace=off
+
+
+Running 12 tests using 4 workers
+
+(node:22693) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:22691) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:22692) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:22694) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   2 [chromium] › tests/e2e/product-experience.spec.ts:38:2 › experience en: retained answers cannot rebase a copy proposal after a cross-tab edit (2.6s)
+  ✓   1 [mobile-chromium] › tests/e2e/product-experience.spec.ts:38:2 › experience en: retained answers cannot rebase a copy proposal after a cross-tab edit (2.7s)
+  -   6 [mobile-chromium] › tests/e2e/product-experience.spec.ts:50:2 › experience en: launcher placement, focus, zoom and accessibility at all widths
+  ✓   7 [mobile-chromium] › tests/e2e/product-experience.spec.ts:38:2 › experience ar: retained answers cannot rebase a copy proposal after a cross-tab edit (2.5s)
+  -   8 [mobile-chromium] › tests/e2e/product-experience.spec.ts:50:2 › experience ar: launcher placement, focus, zoom and accessibility at all widths
+  ✓   3 [mobile-chromium] › tests/e2e/agency-first.spec.ts:41:2 › agency en: registration → guided property → reviewed suggestions → portal outcome (9.6s)
+  ✓   4 [chromium] › tests/e2e/agency-first.spec.ts:41:2 › agency en: registration → guided property → reviewed suggestions → portal outcome (9.6s)
+  ✓  10 [chromium] › tests/e2e/agency-first.spec.ts:41:2 › agency ar: registration → guided property → reviewed suggestions → portal outcome (6.0s)
+  ✓   9 [mobile-chromium] › tests/e2e/agency-first.spec.ts:41:2 › agency ar: registration → guided property → reviewed suggestions → portal outcome (7.7s)
+  ✘   5 [chromium] › tests/e2e/product-experience.spec.ts:50:2 › experience en: launcher placement, focus, zoom and accessibility at all widths (1.7m)
+
+  1 interrupted
+    [chromium] › tests/e2e/product-experience.spec.ts:50:2 › experience en: launcher placement, focus, zoom and accessibility at all widths 
+  2 skipped
+  2 did not run
+  7 passed (1.8m)
+ ELIFECYCLE  Command failed with exit code 130.

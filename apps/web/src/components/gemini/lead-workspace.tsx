@@ -357,13 +357,9 @@ export function LeadsPage({
       <Intro
         eyebrow={t('RELATIONSHIPS / CRM', 'العلاقات / إدارة العملاء')}
         title={t('Lead manager', 'إدارة العملاء')}
-        description={t(
-          'One property, one source identity, one continuous record. Follow each fictional enquiry from intake to outcome.',
-          'عقار واحد ومصدر واحد وسجل متصل. تابع كل استفسار خيالي من الاستقبال إلى النتيجة.',
-        )}
         action={
           <button
-            className="px-button px-button-dark"
+            className="px-button px-button-outline"
             aria-expanded={intake}
             onClick={() => setIntake(!intake)}
           >

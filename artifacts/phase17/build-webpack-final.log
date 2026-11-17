@@ -1,0 +1,253 @@
+
+> @maxpro/web@0.1.0 build /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> next build --webpack
+
+▲ Next.js 16.4.6 (webpack)
+✓ Running next.config.ts took 23ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 3.9s
+  Running TypeScript ...
+  Finished TypeScript in 1098ms ...
+  Collecting page data using 11 workers ...
+  Generating static pages using 11 workers (0/167) ...
+  Generating static pages using 11 workers (41/167) 
+  Generating static pages using 11 workers (83/167) 
+  Generating static pages using 11 workers (125/167) 
+✓ Generating static pages using 11 workers (167/167) in 501ms
+  Finalizing page optimization ...
+  Collecting build traces ...
+
+Route (app)
+┌ ○ /_not-found
+├ ƒ /[locale]
+├ ƒ /[locale]/about
+├   /[locale]/agencies
+│ ├ ● /en/agencies
+│ └ ● /ar/agencies
+├ ƒ /[locale]/agencies/[id]
+├   /[locale]/compare
+│ ├ ● /en/compare
+│ └ ● /ar/compare
+├ ƒ /[locale]/contact
+├ ƒ /[locale]/faq
+├   /[locale]/favorites
+│ ├ ● /en/favorites
+│ └ ● /ar/favorites
+├ ƒ /[locale]/features/ai-assistance
+├ ƒ /[locale]/features/leads-and-inbox
+├ ƒ /[locale]/features/property-management
+├ ƒ /[locale]/features/publish-and-promote
+├ ƒ /[locale]/how-it-works
+├ ƒ /[locale]/integrations
+├   /[locale]/map
+│ ├ ● /en/map
+│ └ ● /ar/map
+├ ƒ /[locale]/pricing
+├   /[locale]/privacy
+│ ├ ● /en/privacy
+│ └ ● /ar/privacy
+├   /[locale]/properties
+│ ├ ● /en/properties
+│ └ ● /ar/properties
+├ ƒ /[locale]/properties/[id]
+├   /[locale]/register
+│ ├ ● /en/register
+│ └ ● /ar/register
+├ ƒ /[locale]/resources
+├   /[locale]/saved-searches
+│ ├ ● /en/saved-searches
+│ └ ● /ar/saved-searches
+├   /[locale]/sign-in
+│ ├ ● /en/sign-in
+│ └ ● /ar/sign-in
+├ ƒ /[locale]/solutions
+├ ƒ /[locale]/solutions/agencies
+├   /[locale]/terms
+│ ├ ● /en/terms
+│ └ ● /ar/terms
+├   /[locale]/workspace
+│ ├ ● /en/workspace
+│ └ ● /ar/workspace
+├   /[locale]/workspace/admin
+│ ├ ● /en/workspace/admin
+│ └ ● /ar/workspace/admin
+├   /[locale]/workspace/admin/audit
+│ ├ ● /en/workspace/admin/audit
+│ └ ● /ar/workspace/admin/audit
+├   /[locale]/workspace/admin/cms
+│ ├ ● /en/workspace/admin/cms
+│ └ ● /ar/workspace/admin/cms
+├   /[locale]/workspace/admin/connector-health
+│ ├ ● /en/workspace/admin/connector-health
+│ └ ● /ar/workspace/admin/connector-health
+├   /[locale]/workspace/admin/integrations
+│ ├ ● /en/workspace/admin/integrations
+│ └ ● /ar/workspace/admin/integrations
+├   /[locale]/workspace/admin/moderation
+│ ├ ● /en/workspace/admin/moderation
+│ └ ● /ar/workspace/admin/moderation
+├   /[locale]/workspace/admin/organizations
+│ ├ ● /en/workspace/admin/organizations
+│ └ ● /ar/workspace/admin/organizations
+├   /[locale]/workspace/admin/plans
+│ ├ ● /en/workspace/admin/plans
+│ └ ● /ar/workspace/admin/plans
+├   /[locale]/workspace/admin/reports
+│ ├ ● /en/workspace/admin/reports
+│ └ ● /ar/workspace/admin/reports
+├   /[locale]/workspace/admin/taxonomies
+│ ├ ● /en/workspace/admin/taxonomies
+│ └ ● /ar/workspace/admin/taxonomies
+├   /[locale]/workspace/admin/users
+│ ├ ● /en/workspace/admin/users
+│ └ ● /ar/workspace/admin/users
+├   /[locale]/workspace/ads/attribution
+│ ├ ● /en/workspace/ads/attribution
+│ └ ● /ar/workspace/ads/attribution
+├   /[locale]/workspace/ads/catalogue
+│ ├ ● /en/workspace/ads/catalogue
+│ └ ● /ar/workspace/ads/catalogue
+├   /[locale]/workspace/ads/placements
+│ ├ ● /en/workspace/ads/placements
+│ └ ● /ar/workspace/ads/placements
+├   /[locale]/workspace/analytics
+│ ├ ● /en/workspace/analytics
+│ └ ● /ar/workspace/analytics
+├   /[locale]/workspace/billing
+│ ├ ● /en/workspace/billing
+│ └ ● /ar/workspace/billing
+├   /[locale]/workspace/billing/dunning
+│ ├ ● /en/workspace/billing/dunning
+│ └ ● /ar/workspace/billing/dunning
+├   /[locale]/workspace/billing/invoices
+│ ├ ● /en/workspace/billing/invoices
+│ └ ● /ar/workspace/billing/invoices
+├ ƒ /[locale]/workspace/billing/invoices/[id]
+├   /[locale]/workspace/campaigns
+│ ├ ● /en/workspace/campaigns
+│ └ ● /ar/workspace/campaigns
+├ ƒ /[locale]/workspace/campaigns/[id]
+├   /[locale]/workspace/campaigns/new
+│ ├ ● /en/workspace/campaigns/new
+│ └ ● /ar/workspace/campaigns/new
+├   /[locale]/workspace/hub
+│ ├ ● /en/workspace/hub
+│ └ ● /ar/workspace/hub
+├   /[locale]/workspace/hub/connectors
+│ ├ ● /en/workspace/hub/connectors
+│ └ ● /ar/workspace/hub/connectors
+├ ƒ /[locale]/workspace/hub/connectors/[id]
+├   /[locale]/workspace/hub/feeds
+│ ├ ● /en/workspace/hub/feeds
+│ └ ● /ar/workspace/hub/feeds
+├   /[locale]/workspace/hub/jobs
+│ ├ ● /en/workspace/hub/jobs
+│ └ ● /ar/workspace/hub/jobs
+├   /[locale]/workspace/hub/mappings
+│ ├ ● /en/workspace/hub/mappings
+│ └ ● /ar/workspace/hub/mappings
+├   /[locale]/workspace/hub/marketplace
+│ ├ ● /en/workspace/hub/marketplace
+│ └ ● /ar/workspace/hub/marketplace
+├ ƒ /[locale]/workspace/inbox
+├   /[locale]/workspace/integrations/ga4
+│ ├ ● /en/workspace/integrations/ga4
+│ └ ● /ar/workspace/integrations/ga4
+├   /[locale]/workspace/integrations/google-ads
+│ ├ ● /en/workspace/integrations/google-ads
+│ └ ● /ar/workspace/integrations/google-ads
+├   /[locale]/workspace/integrations/meta-catalog
+│ ├ ● /en/workspace/integrations/meta-catalog
+│ └ ● /ar/workspace/integrations/meta-catalog
+├   /[locale]/workspace/integrations/whatsapp
+│ ├ ● /en/workspace/integrations/whatsapp
+│ └ ● /ar/workspace/integrations/whatsapp
+├   /[locale]/workspace/inventory
+│ ├ ● /en/workspace/inventory
+│ └ ● /ar/workspace/inventory
+├ ƒ /[locale]/workspace/inventory/[id]
+├ ƒ /[locale]/workspace/inventory/[id]/edit
+├ ƒ /[locale]/workspace/inventory/[id]/enquiries
+├ ƒ /[locale]/workspace/inventory/[id]/media
+├ ƒ /[locale]/workspace/inventory/[id]/publishing
+├   /[locale]/workspace/inventory/import
+│ ├ ● /en/workspace/inventory/import
+│ └ ● /ar/workspace/inventory/import
+├   /[locale]/workspace/inventory/new
+│ ├ ● /en/workspace/inventory/new
+│ └ ● /ar/workspace/inventory/new
+├ ƒ /[locale]/workspace/leads
+├ ƒ /[locale]/workspace/leads/[id]
+├   /[locale]/workspace/leads/assignment
+│ ├ ● /en/workspace/leads/assignment
+│ └ ● /ar/workspace/leads/assignment
+├ ƒ /[locale]/workspace/leads/viewings
+├   /[locale]/workspace/notifications
+│ ├ ● /en/workspace/notifications
+│ └ ● /ar/workspace/notifications
+├   /[locale]/workspace/organization
+│ ├ ● /en/workspace/organization
+│ └ ● /ar/workspace/organization
+├   /[locale]/workspace/organization/new
+│ ├ ● /en/workspace/organization/new
+│ └ ● /ar/workspace/organization/new
+├   /[locale]/workspace/publish
+│ ├ ● /en/workspace/publish
+│ └ ● /ar/workspace/publish
+├   /[locale]/workspace/settings
+│ ├ ● /en/workspace/settings
+│ └ ● /ar/workspace/settings
+├   /[locale]/workspace/settings/demo
+│ ├ ● /en/workspace/settings/demo
+│ └ ● /ar/workspace/settings/demo
+├   /[locale]/workspace/settings/domains
+│ ├ ● /en/workspace/settings/domains
+│ └ ● /ar/workspace/settings/domains
+├   /[locale]/workspace/settings/domains/preview
+│ ├ ● /en/workspace/settings/domains/preview
+│ └ ● /ar/workspace/settings/domains/preview
+├   /[locale]/workspace/settings/integrations
+│ ├ ● /en/workspace/settings/integrations
+│ └ ● /ar/workspace/settings/integrations
+├   /[locale]/workspace/settings/privacy
+│ ├ ● /en/workspace/settings/privacy
+│ └ ● /ar/workspace/settings/privacy
+├   /[locale]/workspace/studio
+│ ├ ● /en/workspace/studio
+│ └ ● /ar/workspace/studio
+├   /[locale]/workspace/support/assistant
+│ ├ ● /en/workspace/support/assistant
+│ └ ● /ar/workspace/support/assistant
+├   /[locale]/workspace/support/evaluations
+│ ├ ● /en/workspace/support/evaluations
+│ └ ● /ar/workspace/support/evaluations
+├   /[locale]/workspace/support/knowledge
+│ ├ ● /en/workspace/support/knowledge
+│ └ ● /ar/workspace/support/knowledge
+├   /[locale]/workspace/team
+│ ├ ● /en/workspace/team
+│ └ ● /ar/workspace/team
+├   /[locale]/workspace/verification
+│ ├ ● /en/workspace/verification
+│ └ ● /ar/workspace/verification
+├   /[locale]/workspace/whatsapp/packs
+│ ├ ● /en/workspace/whatsapp/packs
+│ └ ● /ar/workspace/whatsapp/packs
+├   /[locale]/workspace/whatsapp/sla
+│ ├ ● /en/workspace/whatsapp/sla
+│ └ ● /ar/workspace/whatsapp/sla
+├   /[locale]/workspace/whatsapp/templates
+│ ├ ● /en/workspace/whatsapp/templates
+│ └ ● /ar/workspace/whatsapp/templates
+├ ○ /icon.svg
+├ ○ /robots.txt
+└ ○ /sitemap.xml
+
+
+ƒ Proxy (Middleware)
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
+

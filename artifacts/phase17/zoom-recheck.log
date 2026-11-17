@@ -1,0 +1,36 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test product-experience.spec.ts website-polish.spec.ts agency-first.spec.ts --grep 'launcher placement|guided property|responsive screenshot modes|six widths' --timeout=60000 --trace=off
+
+
+Running 16 tests using 4 workers
+
+(node:25794) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:25795) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:25792) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:25793) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/e2e/website-polish.spec.ts:8:2 › polish en: responsive screenshot modes, enlargement and keyboard (1.8s)
+  ✓   5 [chromium] › tests/e2e/website-polish.spec.ts:58:2 › polish en: six widths, zoom, short viewport and throttled motion (2.8s)
+  ✓   2 [chromium] › tests/e2e/agency-first.spec.ts:41:2 › agency en: registration → guided property → reviewed suggestions → portal outcome (5.5s)
+  ✓   6 [chromium] › tests/e2e/website-polish.spec.ts:8:2 › polish ar: responsive screenshot modes, enlargement and keyboard (1.5s)
+  ✓   3 [mobile-chromium] › tests/e2e/agency-first.spec.ts:41:2 › agency en: registration → guided property → reviewed suggestions → portal outcome (6.6s)
+  ✓   8 [chromium] › tests/e2e/website-polish.spec.ts:58:2 › polish ar: six widths, zoom, short viewport and throttled motion (2.9s)
+(node:25943) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  -  10 [mobile-chromium] › tests/e2e/product-experience.spec.ts:55:2 › experience en: launcher placement, focus, zoom and accessibility at all widths
+  -  11 [mobile-chromium] › tests/e2e/product-experience.spec.ts:55:2 › experience ar: launcher placement, focus, zoom and accessibility at all widths
+  ✓   4 [chromium] › tests/e2e/product-experience.spec.ts:55:2 › experience en: launcher placement, focus, zoom and accessibility at all widths (10.4s)
+  ✓   7 [chromium] › tests/e2e/agency-first.spec.ts:41:2 › agency ar: registration → guided property → reviewed suggestions → portal outcome (5.2s)
+  ✓  12 [mobile-chromium] › tests/e2e/website-polish.spec.ts:8:2 › polish en: responsive screenshot modes, enlargement and keyboard (2.2s)
+  ✓   9 [mobile-chromium] › tests/e2e/agency-first.spec.ts:41:2 › agency ar: registration → guided property → reviewed suggestions → portal outcome (5.5s)
+  ✓  14 [mobile-chromium] › tests/e2e/website-polish.spec.ts:58:2 › polish en: six widths, zoom, short viewport and throttled motion (2.5s)
+  ✓  15 [mobile-chromium] › tests/e2e/website-polish.spec.ts:8:2 › polish ar: responsive screenshot modes, enlargement and keyboard (2.1s)
+  ✓  13 [chromium] › tests/e2e/product-experience.spec.ts:55:2 › experience ar: launcher placement, focus, zoom and accessibility at all widths (8.2s)
+  ✓  16 [mobile-chromium] › tests/e2e/website-polish.spec.ts:58:2 › polish ar: six widths, zoom, short viewport and throttled motion (2.3s)
+
+  2 skipped
+  14 passed (19.8s)

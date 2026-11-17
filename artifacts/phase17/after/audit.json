@@ -1,0 +1,7553 @@
+{
+  "records": [
+    {
+      "locale": "en",
+      "width": 320,
+      "name": "home",
+      "route": "",
+      "status": 200,
+      "file": "en-320-home.png",
+      "overflow": false,
+      "heading": "One property.Every opportunity.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 188.359375,
+          "y": 747.953125,
+          "width": 119.640625,
+          "height": 44,
+          "top": 747.953125,
+          "right": 308,
+          "bottom": 791.953125,
+          "left": 188.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "name": "platform",
+      "route": "/solutions",
+      "status": 200,
+      "file": "en-320-platform.png",
+      "overflow": false,
+      "heading": "The work is connected.\nYour tools should be too.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 188.359375,
+          "y": 747.953125,
+          "width": 119.640625,
+          "height": 44,
+          "top": 747.953125,
+          "right": 308,
+          "bottom": 791.953125,
+          "left": 188.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "name": "ai",
+      "route": "/features/ai-assistance",
+      "status": 200,
+      "file": "en-320-ai.png",
+      "overflow": false,
+      "heading": "A helping hand. You keep the final say.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 188.359375,
+          "y": 747.953125,
+          "width": 119.640625,
+          "height": 44,
+          "top": 747.953125,
+          "right": 308,
+          "bottom": 791.953125,
+          "left": 188.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "name": "how-it-works",
+      "route": "/how-it-works",
+      "status": 200,
+      "file": "en-320-how-it-works.png",
+      "overflow": false,
+      "heading": "Take one property\nthrough the whole day.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 188.359375,
+          "y": 539.328125,
+          "width": 119.640625,
+          "height": 44,
+          "top": 539.328125,
+          "right": 308,
+          "bottom": 583.328125,
+          "left": 188.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "name": "integrations",
+      "route": "/integrations",
+      "status": 200,
+      "file": "en-320-integrations.png",
+      "overflow": false,
+      "heading": "Every channel\nhas a purpose.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 188.359375,
+          "y": 747.953125,
+          "width": 119.640625,
+          "height": 44,
+          "top": 747.953125,
+          "right": 308,
+          "bottom": 791.953125,
+          "left": 188.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "name": "pricing",
+      "route": "/pricing",
+      "status": 200,
+      "file": "en-320-pricing.png",
+      "overflow": false,
+      "heading": "Sized for your portfolio.\nClear about the limits.",
+      "firstRow": 2890.828125,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 188.359375,
+          "y": 747.953125,
+          "width": 119.640625,
+          "height": 44,
+          "top": 747.953125,
+          "right": 308,
+          "bottom": 791.953125,
+          "left": 188.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "name": "agencies",
+      "route": "/solutions/agencies",
+      "status": 200,
+      "file": "en-320-agencies.png",
+      "overflow": false,
+      "heading": "A better handoff.\nA clearer agency day.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 188.359375,
+          "y": 747.953125,
+          "width": 119.640625,
+          "height": 44,
+          "top": 747.953125,
+          "right": 308,
+          "bottom": 791.953125,
+          "left": 188.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "name": "contact",
+      "route": "/contact",
+      "status": 200,
+      "file": "en-320-contact.png",
+      "overflow": false,
+      "heading": "Start with\na better question.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 188.359375,
+          "y": 747.953125,
+          "width": 119.640625,
+          "height": 44,
+          "top": 747.953125,
+          "right": 308,
+          "bottom": 791.953125,
+          "left": 188.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "name": "faq",
+      "route": "/faq",
+      "status": 200,
+      "file": "en-320-faq.png",
+      "overflow": false,
+      "heading": "The details,\nwithout the guesswork.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 188.359375,
+          "y": 747.953125,
+          "width": 119.640625,
+          "height": 44,
+          "top": 747.953125,
+          "right": 308,
+          "bottom": 791.953125,
+          "left": 188.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "name": "showcase",
+      "route": "/properties",
+      "status": 200,
+      "file": "en-320-showcase.png",
+      "overflow": false,
+      "heading": "Find somewhere that feels right.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 188.359375,
+          "y": 475.125,
+          "width": 119.640625,
+          "height": 44,
+          "top": 475.125,
+          "right": 308,
+          "bottom": 519.125,
+          "left": 188.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "name": "showcase-detail",
+      "route": "/properties/AQ-10233",
+      "status": 200,
+      "file": "en-320-showcase-detail.png",
+      "overflow": false,
+      "heading": "Freehold residence, Viva Bahriya",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 188.359375,
+          "y": 747.953125,
+          "width": 119.640625,
+          "height": 44,
+          "top": 747.953125,
+          "right": 308,
+          "bottom": 791.953125,
+          "left": 188.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "name": "dashboard",
+      "route": "/workspace",
+      "status": 200,
+      "file": "en-320-dashboard.png",
+      "overflow": false,
+      "heading": "Your agency, at a glance.",
+      "attention": 583.6875,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 188.359375,
+          "y": 619.5625,
+          "width": 119.640625,
+          "height": 44,
+          "top": 619.5625,
+          "right": 308,
+          "bottom": 663.5625,
+          "left": 188.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "name": "inventory",
+      "route": "/workspace/inventory",
+      "status": 200,
+      "file": "en-320-inventory.png",
+      "overflow": false,
+      "heading": "Property inventory",
+      "firstRow": 526.09375,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 188.359375,
+          "y": 715.859375,
+          "width": 119.640625,
+          "height": 44,
+          "top": 715.859375,
+          "right": 308,
+          "bottom": 759.859375,
+          "left": 188.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "name": "create",
+      "route": "/workspace/inventory/new",
+      "status": 200,
+      "file": "en-320-create.png",
+      "overflow": false,
+      "heading": "Create a property",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 188.359375,
+          "y": 475.125,
+          "width": 119.640625,
+          "height": 44,
+          "top": 475.125,
+          "right": 308,
+          "bottom": 519.125,
+          "left": 188.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "name": "property",
+      "route": "/workspace/inventory/AQ-10233",
+      "status": 200,
+      "file": "en-320-property.png",
+      "overflow": false,
+      "heading": "Freehold residence, Viva Bahriya",
+      "attention": 1236.9375,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 188.359375,
+          "y": 731.90625,
+          "width": 119.640625,
+          "height": 44,
+          "top": 731.90625,
+          "right": 308,
+          "bottom": 775.90625,
+          "left": 188.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "name": "editor",
+      "route": "/workspace/inventory/AQ-10233/edit",
+      "status": 200,
+      "file": "en-320-editor.png",
+      "overflow": false,
+      "heading": "Build a better property record.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 188.359375,
+          "y": 551.359375,
+          "width": 119.640625,
+          "height": 44,
+          "top": 551.359375,
+          "right": 308,
+          "bottom": 595.359375,
+          "left": 188.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "name": "launch",
+      "route": "/workspace/publish?mode=launch&property=AQ-10233",
+      "status": 200,
+      "file": "en-320-launch.png",
+      "overflow": false,
+      "heading": "AI Property Launch",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 188.359375,
+          "y": 731.90625,
+          "width": 119.640625,
+          "height": 44,
+          "top": 731.90625,
+          "right": 308,
+          "bottom": 775.90625,
+          "left": 188.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "name": "publish",
+      "route": "/workspace/publish?property=AQ-10233&goal=portals&channels=qatar-living&channel=qatar-living",
+      "status": 200,
+      "file": "en-320-publish.png",
+      "overflow": false,
+      "heading": "Publish & Promote",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 188.359375,
+          "y": 747.953125,
+          "width": 119.640625,
+          "height": 44,
+          "top": 747.953125,
+          "right": 308,
+          "bottom": 791.953125,
+          "left": 188.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "name": "campaigns",
+      "route": "/workspace/campaigns",
+      "status": 200,
+      "file": "en-320-campaigns.png",
+      "overflow": false,
+      "heading": "Property marketing, with a review trail.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 188.359375,
+          "y": 715.859375,
+          "width": 119.640625,
+          "height": 44,
+          "top": 715.859375,
+          "right": 308,
+          "bottom": 759.859375,
+          "left": 188.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "name": "campaign-review",
+      "route": "/workspace/campaigns/new?property=AQ-10233",
+      "status": 200,
+      "file": "en-320-campaign-review.png",
+      "overflow": false,
+      "heading": "Start with the canonical property.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 188.359375,
+          "y": 555.375,
+          "width": 119.640625,
+          "height": 44,
+          "top": 555.375,
+          "right": 308,
+          "bottom": 599.375,
+          "left": 188.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "name": "leads",
+      "route": "/workspace/leads",
+      "status": 200,
+      "file": "en-320-leads.png",
+      "overflow": false,
+      "heading": "Lead manager",
+      "firstRow": 1155.1875,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 188.359375,
+          "y": 555.375,
+          "width": 119.640625,
+          "height": 44,
+          "top": 555.375,
+          "right": 308,
+          "bottom": 599.375,
+          "left": 188.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "name": "inbox",
+      "route": "/workspace/inbox",
+      "status": 200,
+      "file": "en-320-inbox.png",
+      "overflow": false,
+      "heading": "Unified inbox",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 188.359375,
+          "y": 535.3125,
+          "width": 119.640625,
+          "height": 44,
+          "top": 535.3125,
+          "right": 308,
+          "bottom": 579.3125,
+          "left": 188.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "name": "analytics",
+      "route": "/workspace/analytics",
+      "status": 200,
+      "file": "en-320-analytics.png",
+      "overflow": false,
+      "heading": "See which channels create opportunities.",
+      "firstRow": 1643.78125,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 188.359375,
+          "y": 491.171875,
+          "width": 119.640625,
+          "height": 44,
+          "top": 491.171875,
+          "right": 308,
+          "bottom": 535.171875,
+          "left": 188.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "name": "billing",
+      "route": "/workspace/billing",
+      "status": 200,
+      "file": "en-320-billing.png",
+      "overflow": false,
+      "heading": "Usage and plan rules",
+      "firstRow": 1098.3125,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 188.359375,
+          "y": 154.171875,
+          "width": 119.640625,
+          "height": 44,
+          "top": 154.171875,
+          "right": 308,
+          "bottom": 198.171875,
+          "left": 188.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "name": "settings",
+      "route": "/workspace/settings",
+      "status": 200,
+      "file": "en-320-settings.png",
+      "overflow": false,
+      "heading": "Agency settings",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 188.359375,
+          "y": 186.265625,
+          "width": 119.640625,
+          "height": 44,
+          "top": 186.265625,
+          "right": 308,
+          "bottom": 230.265625,
+          "left": 188.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "name": "assistant-open",
+      "route": "/workspace/inventory/AQ-10233",
+      "status": 200,
+      "file": "en-320-assistant-open.png",
+      "overflow": false,
+      "heading": "Freehold residence, Viva Bahriya",
+      "attention": 1236.9375,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 188.359375,
+          "y": 731.90625,
+          "width": 119.640625,
+          "height": 44,
+          "top": 731.90625,
+          "right": 308,
+          "bottom": 775.90625,
+          "left": 188.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "name": "empty-dashboard",
+      "route": "/workspace",
+      "status": 200,
+      "file": "en-320-empty-dashboard.png",
+      "overflow": false,
+      "heading": "Your agency, at a glance.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 188.359375,
+          "y": 394.890625,
+          "width": 119.640625,
+          "height": 44,
+          "top": 394.890625,
+          "right": 308,
+          "bottom": 438.890625,
+          "left": 188.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "home",
+      "route": "",
+      "status": 200,
+      "file": "en-375-home.png",
+      "overflow": false,
+      "heading": "One property.Every opportunity.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 243.359375,
+          "y": 747.953125,
+          "width": 119.640625,
+          "height": 44,
+          "top": 747.953125,
+          "right": 363,
+          "bottom": 791.953125,
+          "left": 243.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "platform",
+      "route": "/solutions",
+      "status": 200,
+      "file": "en-375-platform.png",
+      "overflow": false,
+      "heading": "The work is connected.\nYour tools should be too.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 243.359375,
+          "y": 747.953125,
+          "width": 119.640625,
+          "height": 44,
+          "top": 747.953125,
+          "right": 363,
+          "bottom": 791.953125,
+          "left": 243.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "ai",
+      "route": "/features/ai-assistance",
+      "status": 200,
+      "file": "en-375-ai.png",
+      "overflow": false,
+      "heading": "A helping hand. You keep the final say.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 243.359375,
+          "y": 747.953125,
+          "width": 119.640625,
+          "height": 44,
+          "top": 747.953125,
+          "right": 363,
+          "bottom": 791.953125,
+          "left": 243.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "how-it-works",
+      "route": "/how-it-works",
+      "status": 200,
+      "file": "en-375-how-it-works.png",
+      "overflow": false,
+      "heading": "Take one property\nthrough the whole day.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 243.359375,
+          "y": 507.234375,
+          "width": 119.640625,
+          "height": 44,
+          "top": 507.234375,
+          "right": 363,
+          "bottom": 551.234375,
+          "left": 243.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "integrations",
+      "route": "/integrations",
+      "status": 200,
+      "file": "en-375-integrations.png",
+      "overflow": false,
+      "heading": "Every channel\nhas a purpose.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 243.359375,
+          "y": 747.953125,
+          "width": 119.640625,
+          "height": 44,
+          "top": 747.953125,
+          "right": 363,
+          "bottom": 791.953125,
+          "left": 243.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "pricing",
+      "route": "/pricing",
+      "status": 200,
+      "file": "en-375-pricing.png",
+      "overflow": false,
+      "heading": "Sized for your portfolio.\nClear about the limits.",
+      "firstRow": 2680.359375,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 243.359375,
+          "y": 747.953125,
+          "width": 119.640625,
+          "height": 44,
+          "top": 747.953125,
+          "right": 363,
+          "bottom": 791.953125,
+          "left": 243.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "agencies",
+      "route": "/solutions/agencies",
+      "status": 200,
+      "file": "en-375-agencies.png",
+      "overflow": false,
+      "heading": "A better handoff.\nA clearer agency day.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 243.359375,
+          "y": 747.953125,
+          "width": 119.640625,
+          "height": 44,
+          "top": 747.953125,
+          "right": 363,
+          "bottom": 791.953125,
+          "left": 243.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "contact",
+      "route": "/contact",
+      "status": 200,
+      "file": "en-375-contact.png",
+      "overflow": false,
+      "heading": "Start with\na better question.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 243.359375,
+          "y": 747.953125,
+          "width": 119.640625,
+          "height": 44,
+          "top": 747.953125,
+          "right": 363,
+          "bottom": 791.953125,
+          "left": 243.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "faq",
+      "route": "/faq",
+      "status": 200,
+      "file": "en-375-faq.png",
+      "overflow": false,
+      "heading": "The details,\nwithout the guesswork.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 243.359375,
+          "y": 747.953125,
+          "width": 119.640625,
+          "height": 44,
+          "top": 747.953125,
+          "right": 363,
+          "bottom": 791.953125,
+          "left": 243.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "showcase",
+      "route": "/properties",
+      "status": 200,
+      "file": "en-375-showcase.png",
+      "overflow": false,
+      "heading": "Find somewhere that feels right.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 243.359375,
+          "y": 443.03125,
+          "width": 119.640625,
+          "height": 44,
+          "top": 443.03125,
+          "right": 363,
+          "bottom": 487.03125,
+          "left": 243.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "showcase-detail",
+      "route": "/properties/AQ-10233",
+      "status": 200,
+      "file": "en-375-showcase-detail.png",
+      "overflow": false,
+      "heading": "Freehold residence, Viva Bahriya",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 243.359375,
+          "y": 747.953125,
+          "width": 119.640625,
+          "height": 44,
+          "top": 747.953125,
+          "right": 363,
+          "bottom": 791.953125,
+          "left": 243.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "dashboard",
+      "route": "/workspace",
+      "status": 200,
+      "file": "en-375-dashboard.png",
+      "overflow": false,
+      "heading": "Your agency, at a glance.",
+      "attention": 534.09375,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 243.359375,
+          "y": 491.171875,
+          "width": 119.640625,
+          "height": 44,
+          "top": 491.171875,
+          "right": 363,
+          "bottom": 535.171875,
+          "left": 243.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "inventory",
+      "route": "/workspace/inventory",
+      "status": 200,
+      "file": "en-375-inventory.png",
+      "overflow": false,
+      "heading": "Property inventory",
+      "firstRow": 490.59375,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 243.359375,
+          "y": 667.703125,
+          "width": 119.640625,
+          "height": 44,
+          "top": 667.703125,
+          "right": 363,
+          "bottom": 711.703125,
+          "left": 243.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "create",
+      "route": "/workspace/inventory/new",
+      "status": 200,
+      "file": "en-375-create.png",
+      "overflow": false,
+      "heading": "Create a property",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 243.359375,
+          "y": 475.125,
+          "width": 119.640625,
+          "height": 44,
+          "top": 475.125,
+          "right": 363,
+          "bottom": 519.125,
+          "left": 243.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "property",
+      "route": "/workspace/inventory/AQ-10233",
+      "status": 200,
+      "file": "en-375-property.png",
+      "overflow": false,
+      "heading": "Freehold residence, Viva Bahriya",
+      "attention": 1166.1875,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 243.359375,
+          "y": 699.796875,
+          "width": 119.640625,
+          "height": 44,
+          "top": 699.796875,
+          "right": 363,
+          "bottom": 743.796875,
+          "left": 243.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "editor",
+      "route": "/workspace/inventory/AQ-10233/edit",
+      "status": 200,
+      "file": "en-375-editor.png",
+      "overflow": false,
+      "heading": "Build a better property record.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 243.359375,
+          "y": 439.015625,
+          "width": 119.640625,
+          "height": 44,
+          "top": 439.015625,
+          "right": 363,
+          "bottom": 483.015625,
+          "left": 243.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "launch",
+      "route": "/workspace/publish?mode=launch&property=AQ-10233",
+      "status": 200,
+      "file": "en-375-launch.png",
+      "overflow": false,
+      "heading": "AI Property Launch",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 243.359375,
+          "y": 731.90625,
+          "width": 119.640625,
+          "height": 44,
+          "top": 731.90625,
+          "right": 363,
+          "bottom": 775.90625,
+          "left": 243.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "publish",
+      "route": "/workspace/publish?property=AQ-10233&goal=portals&channels=qatar-living&channel=qatar-living",
+      "status": 200,
+      "file": "en-375-publish.png",
+      "overflow": false,
+      "heading": "Publish & Promote",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 243.359375,
+          "y": 747.953125,
+          "width": 119.640625,
+          "height": 44,
+          "top": 747.953125,
+          "right": 363,
+          "bottom": 791.953125,
+          "left": 243.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "campaigns",
+      "route": "/workspace/campaigns",
+      "status": 200,
+      "file": "en-375-campaigns.png",
+      "overflow": false,
+      "heading": "Property marketing, with a review trail.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 243.359375,
+          "y": 667.703125,
+          "width": 119.640625,
+          "height": 44,
+          "top": 667.703125,
+          "right": 363,
+          "bottom": 711.703125,
+          "left": 243.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "campaign-review",
+      "route": "/workspace/campaigns/new?property=AQ-10233",
+      "status": 200,
+      "file": "en-375-campaign-review.png",
+      "overflow": false,
+      "heading": "Start with the canonical property.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 243.359375,
+          "y": 555.375,
+          "width": 119.640625,
+          "height": 44,
+          "top": 555.375,
+          "right": 363,
+          "bottom": 599.375,
+          "left": 243.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "leads",
+      "route": "/workspace/leads",
+      "status": 200,
+      "file": "en-375-leads.png",
+      "overflow": false,
+      "heading": "Lead manager",
+      "firstRow": 1095.1875,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 243.359375,
+          "y": 410.9375,
+          "width": 119.640625,
+          "height": 44,
+          "top": 410.9375,
+          "right": 363,
+          "bottom": 454.9375,
+          "left": 243.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "inbox",
+      "route": "/workspace/inbox",
+      "status": 200,
+      "file": "en-375-inbox.png",
+      "overflow": false,
+      "heading": "Unified inbox",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 243.359375,
+          "y": 519.265625,
+          "width": 119.640625,
+          "height": 44,
+          "top": 519.265625,
+          "right": 363,
+          "bottom": 563.265625,
+          "left": 243.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "analytics",
+      "route": "/workspace/analytics",
+      "status": 200,
+      "file": "en-375-analytics.png",
+      "overflow": false,
+      "heading": "See which channels create opportunities.",
+      "firstRow": 1535.6875,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 243.359375,
+          "y": 475.125,
+          "width": 119.640625,
+          "height": 44,
+          "top": 475.125,
+          "right": 363,
+          "bottom": 519.125,
+          "left": 243.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "billing",
+      "route": "/workspace/billing",
+      "status": 200,
+      "file": "en-375-billing.png",
+      "overflow": false,
+      "heading": "Usage and plan rules",
+      "firstRow": 972.21875,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 243.359375,
+          "y": 138.125,
+          "width": 119.640625,
+          "height": 44,
+          "top": 138.125,
+          "right": 363,
+          "bottom": 182.125,
+          "left": 243.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "settings",
+      "route": "/workspace/settings",
+      "status": 200,
+      "file": "en-375-settings.png",
+      "overflow": false,
+      "heading": "Agency settings",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 243.359375,
+          "y": 186.265625,
+          "width": 119.640625,
+          "height": 44,
+          "top": 186.265625,
+          "right": 363,
+          "bottom": 230.265625,
+          "left": 243.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "assistant-open",
+      "route": "/workspace/inventory/AQ-10233",
+      "status": 200,
+      "file": "en-375-assistant-open.png",
+      "overflow": false,
+      "heading": "Freehold residence, Viva Bahriya",
+      "attention": 1166.1875,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 243.359375,
+          "y": 699.796875,
+          "width": 119.640625,
+          "height": 44,
+          "top": 699.796875,
+          "right": 363,
+          "bottom": 743.796875,
+          "left": 243.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "empty-dashboard",
+      "route": "/workspace",
+      "status": 200,
+      "file": "en-375-empty-dashboard.png",
+      "overflow": false,
+      "heading": "Your agency, at a glance.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 243.359375,
+          "y": 747.953125,
+          "width": 119.640625,
+          "height": 44,
+          "top": 747.953125,
+          "right": 363,
+          "bottom": 791.953125,
+          "left": 243.359375
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "name": "home",
+      "route": "",
+      "status": 200,
+      "file": "en-768-home.png",
+      "overflow": false,
+      "heading": "One property.Every opportunity.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 595.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 748,
+          "bottom": 980.0625,
+          "left": 595.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "name": "platform",
+      "route": "/solutions",
+      "status": 200,
+      "file": "en-768-platform.png",
+      "overflow": false,
+      "heading": "The work is connected.\nYour tools should be too.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 595.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 748,
+          "bottom": 980.0625,
+          "left": 595.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "name": "ai",
+      "route": "/features/ai-assistance",
+      "status": 200,
+      "file": "en-768-ai.png",
+      "overflow": false,
+      "heading": "A helping hand. You keep the final say.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 595.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 748,
+          "bottom": 980.0625,
+          "left": 595.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "name": "how-it-works",
+      "route": "/how-it-works",
+      "status": 200,
+      "file": "en-768-how-it-works.png",
+      "overflow": false,
+      "heading": "Take one property\nthrough the whole day.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 595.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 748,
+          "bottom": 980.0625,
+          "left": 595.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "name": "integrations",
+      "route": "/integrations",
+      "status": 200,
+      "file": "en-768-integrations.png",
+      "overflow": false,
+      "heading": "Every channel\nhas a purpose.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 595.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 748,
+          "bottom": 980.0625,
+          "left": 595.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "name": "pricing",
+      "route": "/pricing",
+      "status": 200,
+      "file": "en-768-pricing.png",
+      "overflow": false,
+      "heading": "Sized for your portfolio.\nClear about the limits.",
+      "firstRow": 2763.65625,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 595.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 748,
+          "bottom": 980.0625,
+          "left": 595.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "name": "agencies",
+      "route": "/solutions/agencies",
+      "status": 200,
+      "file": "en-768-agencies.png",
+      "overflow": false,
+      "heading": "A better handoff.\nA clearer agency day.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 595.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 748,
+          "bottom": 980.0625,
+          "left": 595.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "name": "contact",
+      "route": "/contact",
+      "status": 200,
+      "file": "en-768-contact.png",
+      "overflow": false,
+      "heading": "Start with\na better question.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 595.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 748,
+          "bottom": 980.0625,
+          "left": 595.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "name": "faq",
+      "route": "/faq",
+      "status": 200,
+      "file": "en-768-faq.png",
+      "overflow": false,
+      "heading": "The details,\nwithout the guesswork.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 595.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 748,
+          "bottom": 980.0625,
+          "left": 595.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "name": "showcase",
+      "route": "/properties",
+      "status": 200,
+      "file": "en-768-showcase.png",
+      "overflow": false,
+      "heading": "Find somewhere that feels right.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 595.578125,
+          "y": 685.234375,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 685.234375,
+          "right": 748,
+          "bottom": 740.734375,
+          "left": 595.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "name": "showcase-detail",
+      "route": "/properties/AQ-10233",
+      "status": 200,
+      "file": "en-768-showcase-detail.png",
+      "overflow": false,
+      "heading": "Freehold residence, Viva Bahriya",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 595.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 748,
+          "bottom": 980.0625,
+          "left": 595.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "name": "dashboard",
+      "route": "/workspace",
+      "status": 200,
+      "file": "en-768-dashboard.png",
+      "overflow": false,
+      "heading": "Your agency, at a glance.",
+      "attention": 387.09375,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 595.578125,
+          "y": 334.203125,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 334.203125,
+          "right": 748,
+          "bottom": 389.703125,
+          "left": 595.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "name": "inventory",
+      "route": "/workspace/inventory",
+      "status": 200,
+      "file": "en-768-inventory.png",
+      "overflow": false,
+      "heading": "Property inventory",
+      "firstRow": 351.5,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 595.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 748,
+          "bottom": 980.0625,
+          "left": 595.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "name": "create",
+      "route": "/workspace/inventory/new",
+      "status": 200,
+      "file": "en-768-create.png",
+      "overflow": false,
+      "heading": "Create a property",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 595.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 748,
+          "bottom": 980.0625,
+          "left": 595.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "name": "property",
+      "route": "/workspace/inventory/AQ-10233",
+      "status": 200,
+      "file": "en-768-property.png",
+      "overflow": false,
+      "heading": "Freehold residence, Viva Bahriya",
+      "attention": 841.09375,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 595.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 748,
+          "bottom": 980.0625,
+          "left": 595.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "name": "editor",
+      "route": "/workspace/inventory/AQ-10233/edit",
+      "status": 200,
+      "file": "en-768-editor.png",
+      "overflow": false,
+      "heading": "Build a better property record.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 595.578125,
+          "y": 685.234375,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 685.234375,
+          "right": 748,
+          "bottom": 740.734375,
+          "left": 595.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "name": "launch",
+      "route": "/workspace/publish?mode=launch&property=AQ-10233",
+      "status": 200,
+      "file": "en-768-launch.png",
+      "overflow": false,
+      "heading": "AI Property Launch",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 595.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 748,
+          "bottom": 980.0625,
+          "left": 595.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "name": "publish",
+      "route": "/workspace/publish?property=AQ-10233&goal=portals&channels=qatar-living&channel=qatar-living",
+      "status": 200,
+      "file": "en-768-publish.png",
+      "overflow": false,
+      "heading": "Publish & Promote",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 595.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 748,
+          "bottom": 980.0625,
+          "left": 595.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "name": "campaigns",
+      "route": "/workspace/campaigns",
+      "status": 200,
+      "file": "en-768-campaigns.png",
+      "overflow": false,
+      "heading": "Property marketing, with a review trail.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 595.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 748,
+          "bottom": 980.0625,
+          "left": 595.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "name": "campaign-review",
+      "route": "/workspace/campaigns/new?property=AQ-10233",
+      "status": 200,
+      "file": "en-768-campaign-review.png",
+      "overflow": false,
+      "heading": "Start with the canonical property.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 595.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 748,
+          "bottom": 980.0625,
+          "left": 595.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "name": "leads",
+      "route": "/workspace/leads",
+      "status": 200,
+      "file": "en-768-leads.png",
+      "overflow": false,
+      "heading": "Lead manager",
+      "firstRow": 834.09375,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 595.578125,
+          "y": 238.46875,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 238.46875,
+          "right": 748,
+          "bottom": 293.96875,
+          "left": 595.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "name": "inbox",
+      "route": "/workspace/inbox",
+      "status": 200,
+      "file": "en-768-inbox.png",
+      "overflow": false,
+      "heading": "Unified inbox",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 595.578125,
+          "y": 477.796875,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 477.796875,
+          "right": 748,
+          "bottom": 533.296875,
+          "left": 595.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "name": "analytics",
+      "route": "/workspace/analytics",
+      "status": 200,
+      "file": "en-768-analytics.png",
+      "overflow": false,
+      "heading": "See which channels create opportunities.",
+      "firstRow": 1099.3125,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 595.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 748,
+          "bottom": 980.0625,
+          "left": 595.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "name": "billing",
+      "route": "/workspace/billing",
+      "status": 200,
+      "file": "en-768-billing.png",
+      "overflow": false,
+      "heading": "Usage and plan rules",
+      "firstRow": 581.21875,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 595.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 748,
+          "bottom": 980.0625,
+          "left": 595.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "name": "settings",
+      "route": "/workspace/settings",
+      "status": 200,
+      "file": "en-768-settings.png",
+      "overflow": false,
+      "heading": "Agency settings",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 595.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 748,
+          "bottom": 980.0625,
+          "left": 595.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "name": "assistant-open",
+      "route": "/workspace/inventory/AQ-10233",
+      "status": 200,
+      "file": "en-768-assistant-open.png",
+      "overflow": false,
+      "heading": "Freehold residence, Viva Bahriya",
+      "attention": 841.09375,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 595.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 748,
+          "bottom": 980.0625,
+          "left": 595.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "name": "empty-dashboard",
+      "route": "/workspace",
+      "status": 200,
+      "file": "en-768-empty-dashboard.png",
+      "overflow": false,
+      "heading": "Your agency, at a glance.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 595.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 748,
+          "bottom": 980.0625,
+          "left": 595.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "name": "home",
+      "route": "",
+      "status": 200,
+      "file": "en-1024-home.png",
+      "overflow": false,
+      "heading": "One property.Every opportunity.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 851.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1004,
+          "bottom": 980.0625,
+          "left": 851.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "name": "platform",
+      "route": "/solutions",
+      "status": 200,
+      "file": "en-1024-platform.png",
+      "overflow": false,
+      "heading": "The work is connected.\nYour tools should be too.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 851.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1004,
+          "bottom": 980.0625,
+          "left": 851.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "name": "ai",
+      "route": "/features/ai-assistance",
+      "status": 200,
+      "file": "en-1024-ai.png",
+      "overflow": false,
+      "heading": "A helping hand. You keep the final say.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 851.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1004,
+          "bottom": 980.0625,
+          "left": 851.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "name": "how-it-works",
+      "route": "/how-it-works",
+      "status": 200,
+      "file": "en-1024-how-it-works.png",
+      "overflow": false,
+      "heading": "Take one property\nthrough the whole day.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 851.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1004,
+          "bottom": 980.0625,
+          "left": 851.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "name": "integrations",
+      "route": "/integrations",
+      "status": 200,
+      "file": "en-1024-integrations.png",
+      "overflow": false,
+      "heading": "Every channel\nhas a purpose.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 851.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1004,
+          "bottom": 980.0625,
+          "left": 851.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "name": "pricing",
+      "route": "/pricing",
+      "status": 200,
+      "file": "en-1024-pricing.png",
+      "overflow": false,
+      "heading": "Sized for your portfolio.\nClear about the limits.",
+      "firstRow": 1600.34375,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 851.578125,
+          "y": 908.609375,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 908.609375,
+          "right": 1004,
+          "bottom": 964.109375,
+          "left": 851.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "name": "agencies",
+      "route": "/solutions/agencies",
+      "status": 200,
+      "file": "en-1024-agencies.png",
+      "overflow": false,
+      "heading": "A better handoff.\nA clearer agency day.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 851.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1004,
+          "bottom": 980.0625,
+          "left": 851.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "name": "contact",
+      "route": "/contact",
+      "status": 200,
+      "file": "en-1024-contact.png",
+      "overflow": false,
+      "heading": "Start with\na better question.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 851.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1004,
+          "bottom": 980.0625,
+          "left": 851.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "name": "faq",
+      "route": "/faq",
+      "status": 200,
+      "file": "en-1024-faq.png",
+      "overflow": false,
+      "heading": "The details,\nwithout the guesswork.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 851.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1004,
+          "bottom": 980.0625,
+          "left": 851.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "name": "showcase",
+      "route": "/properties",
+      "status": 200,
+      "file": "en-1024-showcase.png",
+      "overflow": false,
+      "heading": "Find somewhere that feels right.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 851.578125,
+          "y": 382.0625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 382.0625,
+          "right": 1004,
+          "bottom": 437.5625,
+          "left": 851.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "name": "showcase-detail",
+      "route": "/properties/AQ-10233",
+      "status": 200,
+      "file": "en-1024-showcase-detail.png",
+      "overflow": false,
+      "heading": "Freehold residence, Viva Bahriya",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 851.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1004,
+          "bottom": 980.0625,
+          "left": 851.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "name": "dashboard",
+      "route": "/workspace",
+      "status": 200,
+      "file": "en-1024-dashboard.png",
+      "overflow": false,
+      "heading": "Your agency, at a glance.",
+      "attention": 336.09375,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 851.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1004,
+          "bottom": 980.0625,
+          "left": 851.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "name": "inventory",
+      "route": "/workspace/inventory",
+      "status": 200,
+      "file": "en-1024-inventory.png",
+      "overflow": false,
+      "heading": "Property inventory",
+      "firstRow": 397.9375,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 851.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1004,
+          "bottom": 980.0625,
+          "left": 851.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "name": "create",
+      "route": "/workspace/inventory/new",
+      "status": 200,
+      "file": "en-1024-create.png",
+      "overflow": false,
+      "heading": "Create a property",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 851.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1004,
+          "bottom": 980.0625,
+          "left": 851.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "name": "property",
+      "route": "/workspace/inventory/AQ-10233",
+      "status": 200,
+      "file": "en-1024-property.png",
+      "overflow": false,
+      "heading": "Freehold residence, Viva Bahriya",
+      "attention": 813.59375,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 851.578125,
+          "y": 765,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 765,
+          "right": 1004,
+          "bottom": 820.5,
+          "left": 851.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "name": "editor",
+      "route": "/workspace/inventory/AQ-10233/edit",
+      "status": 200,
+      "file": "en-1024-editor.png",
+      "overflow": false,
+      "heading": "Build a better property record.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 851.578125,
+          "y": 828.828125,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 828.828125,
+          "right": 1004,
+          "bottom": 884.328125,
+          "left": 851.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "name": "launch",
+      "route": "/workspace/publish?mode=launch&property=AQ-10233",
+      "status": 200,
+      "file": "en-1024-launch.png",
+      "overflow": false,
+      "heading": "AI Property Launch",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 851.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1004,
+          "bottom": 980.0625,
+          "left": 851.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "name": "publish",
+      "route": "/workspace/publish?property=AQ-10233&goal=portals&channels=qatar-living&channel=qatar-living",
+      "status": 200,
+      "file": "en-1024-publish.png",
+      "overflow": false,
+      "heading": "Publish & Promote",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 851.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1004,
+          "bottom": 980.0625,
+          "left": 851.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "name": "campaigns",
+      "route": "/workspace/campaigns",
+      "status": 200,
+      "file": "en-1024-campaigns.png",
+      "overflow": false,
+      "heading": "Property marketing, with a review trail.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 851.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1004,
+          "bottom": 980.0625,
+          "left": 851.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "name": "campaign-review",
+      "route": "/workspace/campaigns/new?property=AQ-10233",
+      "status": 200,
+      "file": "en-1024-campaign-review.png",
+      "overflow": false,
+      "heading": "Start with the canonical property.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 851.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1004,
+          "bottom": 980.0625,
+          "left": 851.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "name": "leads",
+      "route": "/workspace/leads",
+      "status": 200,
+      "file": "en-1024-leads.png",
+      "overflow": false,
+      "heading": "Lead manager",
+      "firstRow": 761.03125,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 851.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1004,
+          "bottom": 980.0625,
+          "left": 851.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "name": "inbox",
+      "route": "/workspace/inbox",
+      "status": 200,
+      "file": "en-1024-inbox.png",
+      "overflow": false,
+      "heading": "Unified inbox",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 851.578125,
+          "y": 796.921875,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 796.921875,
+          "right": 1004,
+          "bottom": 852.421875,
+          "left": 851.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "name": "analytics",
+      "route": "/workspace/analytics",
+      "status": 200,
+      "file": "en-1024-analytics.png",
+      "overflow": false,
+      "heading": "See which channels create opportunities.",
+      "firstRow": 1012.8125,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 851.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1004,
+          "bottom": 980.0625,
+          "left": 851.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "name": "billing",
+      "route": "/workspace/billing",
+      "status": 200,
+      "file": "en-1024-billing.png",
+      "overflow": false,
+      "heading": "Usage and plan rules",
+      "firstRow": 581.21875,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 851.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1004,
+          "bottom": 980.0625,
+          "left": 851.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "name": "settings",
+      "route": "/workspace/settings",
+      "status": 200,
+      "file": "en-1024-settings.png",
+      "overflow": false,
+      "heading": "Agency settings",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 851.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1004,
+          "bottom": 980.0625,
+          "left": 851.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "name": "assistant-open",
+      "route": "/workspace/inventory/AQ-10233",
+      "status": 200,
+      "file": "en-1024-assistant-open.png",
+      "overflow": false,
+      "heading": "Freehold residence, Viva Bahriya",
+      "attention": 813.59375,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 851.578125,
+          "y": 765,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 765,
+          "right": 1004,
+          "bottom": 820.5,
+          "left": 851.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "name": "empty-dashboard",
+      "route": "/workspace",
+      "status": 200,
+      "file": "en-1024-empty-dashboard.png",
+      "overflow": false,
+      "heading": "Your agency, at a glance.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 851.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1004,
+          "bottom": 980.0625,
+          "left": 851.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "name": "home",
+      "route": "",
+      "status": 200,
+      "file": "en-1280-home.png",
+      "overflow": false,
+      "heading": "One property.Every opportunity.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1107.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1260,
+          "bottom": 980.0625,
+          "left": 1107.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "name": "platform",
+      "route": "/solutions",
+      "status": 200,
+      "file": "en-1280-platform.png",
+      "overflow": false,
+      "heading": "The work is connected.\nYour tools should be too.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1107.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1260,
+          "bottom": 980.0625,
+          "left": 1107.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "name": "ai",
+      "route": "/features/ai-assistance",
+      "status": 200,
+      "file": "en-1280-ai.png",
+      "overflow": false,
+      "heading": "A helping hand. You keep the final say.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1107.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1260,
+          "bottom": 980.0625,
+          "left": 1107.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "name": "how-it-works",
+      "route": "/how-it-works",
+      "status": 200,
+      "file": "en-1280-how-it-works.png",
+      "overflow": false,
+      "heading": "Take one property\nthrough the whole day.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1107.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1260,
+          "bottom": 980.0625,
+          "left": 1107.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "name": "integrations",
+      "route": "/integrations",
+      "status": 200,
+      "file": "en-1280-integrations.png",
+      "overflow": false,
+      "heading": "Every channel\nhas a purpose.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1107.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1260,
+          "bottom": 980.0625,
+          "left": 1107.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "name": "pricing",
+      "route": "/pricing",
+      "status": 200,
+      "file": "en-1280-pricing.png",
+      "overflow": false,
+      "heading": "Sized for your portfolio.\nClear about the limits.",
+      "firstRow": 1562.953125,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1107.578125,
+          "y": 860.734375,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 860.734375,
+          "right": 1260,
+          "bottom": 916.234375,
+          "left": 1107.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "name": "agencies",
+      "route": "/solutions/agencies",
+      "status": 200,
+      "file": "en-1280-agencies.png",
+      "overflow": false,
+      "heading": "A better handoff.\nA clearer agency day.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1107.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1260,
+          "bottom": 980.0625,
+          "left": 1107.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "name": "contact",
+      "route": "/contact",
+      "status": 200,
+      "file": "en-1280-contact.png",
+      "overflow": false,
+      "heading": "Start with\na better question.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1107.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1260,
+          "bottom": 980.0625,
+          "left": 1107.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "name": "faq",
+      "route": "/faq",
+      "status": 200,
+      "file": "en-1280-faq.png",
+      "overflow": false,
+      "heading": "The details,\nwithout the guesswork.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1107.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1260,
+          "bottom": 980.0625,
+          "left": 1107.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "name": "showcase",
+      "route": "/properties",
+      "status": 200,
+      "file": "en-1280-showcase.png",
+      "overflow": false,
+      "heading": "Find somewhere that feels right.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1107.578125,
+          "y": 382.0625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 382.0625,
+          "right": 1260,
+          "bottom": 437.5625,
+          "left": 1107.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "name": "showcase-detail",
+      "route": "/properties/AQ-10233",
+      "status": 200,
+      "file": "en-1280-showcase-detail.png",
+      "overflow": false,
+      "heading": "Freehold residence, Viva Bahriya",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1107.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1260,
+          "bottom": 980.0625,
+          "left": 1107.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "name": "dashboard",
+      "route": "/workspace",
+      "status": 200,
+      "file": "en-1280-dashboard.png",
+      "overflow": false,
+      "heading": "Your agency, at a glance.",
+      "attention": 336.09375,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1107.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1260,
+          "bottom": 980.0625,
+          "left": 1107.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "name": "inventory",
+      "route": "/workspace/inventory",
+      "status": 200,
+      "file": "en-1280-inventory.png",
+      "overflow": false,
+      "heading": "Property inventory",
+      "firstRow": 397.9375,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1107.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1260,
+          "bottom": 980.0625,
+          "left": 1107.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "name": "create",
+      "route": "/workspace/inventory/new",
+      "status": 200,
+      "file": "en-1280-create.png",
+      "overflow": false,
+      "heading": "Create a property",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1107.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1260,
+          "bottom": 980.0625,
+          "left": 1107.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "name": "property",
+      "route": "/workspace/inventory/AQ-10233",
+      "status": 200,
+      "file": "en-1280-property.png",
+      "overflow": false,
+      "heading": "Freehold residence, Viva Bahriya",
+      "attention": 813.59375,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1107.578125,
+          "y": 765,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 765,
+          "right": 1260,
+          "bottom": 820.5,
+          "left": 1107.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "name": "editor",
+      "route": "/workspace/inventory/AQ-10233/edit",
+      "status": 200,
+      "file": "en-1280-editor.png",
+      "overflow": false,
+      "heading": "Build a better property record.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1107.578125,
+          "y": 828.828125,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 828.828125,
+          "right": 1260,
+          "bottom": 884.328125,
+          "left": 1107.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "name": "launch",
+      "route": "/workspace/publish?mode=launch&property=AQ-10233",
+      "status": 200,
+      "file": "en-1280-launch.png",
+      "overflow": false,
+      "heading": "AI Property Launch",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1107.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1260,
+          "bottom": 980.0625,
+          "left": 1107.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "name": "publish",
+      "route": "/workspace/publish?property=AQ-10233&goal=portals&channels=qatar-living&channel=qatar-living",
+      "status": 200,
+      "file": "en-1280-publish.png",
+      "overflow": false,
+      "heading": "Publish & Promote",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1107.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1260,
+          "bottom": 980.0625,
+          "left": 1107.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "name": "campaigns",
+      "route": "/workspace/campaigns",
+      "status": 200,
+      "file": "en-1280-campaigns.png",
+      "overflow": false,
+      "heading": "Property marketing, with a review trail.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1107.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1260,
+          "bottom": 980.0625,
+          "left": 1107.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "name": "campaign-review",
+      "route": "/workspace/campaigns/new?property=AQ-10233",
+      "status": 200,
+      "file": "en-1280-campaign-review.png",
+      "overflow": false,
+      "heading": "Start with the canonical property.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1107.578125,
+          "y": 892.65625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 892.65625,
+          "right": 1260,
+          "bottom": 948.15625,
+          "left": 1107.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "name": "leads",
+      "route": "/workspace/leads",
+      "status": 200,
+      "file": "en-1280-leads.png",
+      "overflow": false,
+      "heading": "Lead manager",
+      "firstRow": 594.03125,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1107.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1260,
+          "bottom": 980.0625,
+          "left": 1107.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "name": "inbox",
+      "route": "/workspace/inbox",
+      "status": 200,
+      "file": "en-1280-inbox.png",
+      "overflow": false,
+      "heading": "Unified inbox",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1107.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1260,
+          "bottom": 980.0625,
+          "left": 1107.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "name": "analytics",
+      "route": "/workspace/analytics",
+      "status": 200,
+      "file": "en-1280-analytics.png",
+      "overflow": false,
+      "heading": "See which channels create opportunities.",
+      "firstRow": 1012.8125,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1107.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1260,
+          "bottom": 980.0625,
+          "left": 1107.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "name": "billing",
+      "route": "/workspace/billing",
+      "status": 200,
+      "file": "en-1280-billing.png",
+      "overflow": false,
+      "heading": "Usage and plan rules",
+      "firstRow": 581.21875,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1107.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1260,
+          "bottom": 980.0625,
+          "left": 1107.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "name": "settings",
+      "route": "/workspace/settings",
+      "status": 200,
+      "file": "en-1280-settings.png",
+      "overflow": false,
+      "heading": "Agency settings",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1107.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1260,
+          "bottom": 980.0625,
+          "left": 1107.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "name": "assistant-open",
+      "route": "/workspace/inventory/AQ-10233",
+      "status": 200,
+      "file": "en-1280-assistant-open.png",
+      "overflow": false,
+      "heading": "Freehold residence, Viva Bahriya",
+      "attention": 813.59375,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1107.578125,
+          "y": 765,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 765,
+          "right": 1260,
+          "bottom": 820.5,
+          "left": 1107.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "name": "empty-dashboard",
+      "route": "/workspace",
+      "status": 200,
+      "file": "en-1280-empty-dashboard.png",
+      "overflow": false,
+      "heading": "Your agency, at a glance.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1107.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1260,
+          "bottom": 980.0625,
+          "left": 1107.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "home",
+      "route": "",
+      "status": 200,
+      "file": "en-1440-home.png",
+      "overflow": false,
+      "heading": "One property.Every opportunity.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1267.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1420,
+          "bottom": 980.0625,
+          "left": 1267.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "platform",
+      "route": "/solutions",
+      "status": 200,
+      "file": "en-1440-platform.png",
+      "overflow": false,
+      "heading": "The work is connected.\nYour tools should be too.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1267.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1420,
+          "bottom": 980.0625,
+          "left": 1267.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "ai",
+      "route": "/features/ai-assistance",
+      "status": 200,
+      "file": "en-1440-ai.png",
+      "overflow": false,
+      "heading": "A helping hand. You keep the final say.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1267.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1420,
+          "bottom": 980.0625,
+          "left": 1267.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "how-it-works",
+      "route": "/how-it-works",
+      "status": 200,
+      "file": "en-1440-how-it-works.png",
+      "overflow": false,
+      "heading": "Take one property\nthrough the whole day.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1267.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1420,
+          "bottom": 980.0625,
+          "left": 1267.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "integrations",
+      "route": "/integrations",
+      "status": 200,
+      "file": "en-1440-integrations.png",
+      "overflow": false,
+      "heading": "Every channel\nhas a purpose.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1267.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1420,
+          "bottom": 980.0625,
+          "left": 1267.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "pricing",
+      "route": "/pricing",
+      "status": 200,
+      "file": "en-1440-pricing.png",
+      "overflow": false,
+      "heading": "Sized for your portfolio.\nClear about the limits.",
+      "firstRow": 1562.953125,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1267.578125,
+          "y": 860.734375,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 860.734375,
+          "right": 1420,
+          "bottom": 916.234375,
+          "left": 1267.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "agencies",
+      "route": "/solutions/agencies",
+      "status": 200,
+      "file": "en-1440-agencies.png",
+      "overflow": false,
+      "heading": "A better handoff.\nA clearer agency day.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1267.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1420,
+          "bottom": 980.0625,
+          "left": 1267.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "contact",
+      "route": "/contact",
+      "status": 200,
+      "file": "en-1440-contact.png",
+      "overflow": false,
+      "heading": "Start with\na better question.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1267.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1420,
+          "bottom": 980.0625,
+          "left": 1267.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "faq",
+      "route": "/faq",
+      "status": 200,
+      "file": "en-1440-faq.png",
+      "overflow": false,
+      "heading": "The details,\nwithout the guesswork.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1267.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1420,
+          "bottom": 980.0625,
+          "left": 1267.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "showcase",
+      "route": "/properties",
+      "status": 200,
+      "file": "en-1440-showcase.png",
+      "overflow": false,
+      "heading": "Find somewhere that feels right.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1267.578125,
+          "y": 398.03125,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 398.03125,
+          "right": 1420,
+          "bottom": 453.53125,
+          "left": 1267.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "showcase-detail",
+      "route": "/properties/AQ-10233",
+      "status": 200,
+      "file": "en-1440-showcase-detail.png",
+      "overflow": false,
+      "heading": "Freehold residence, Viva Bahriya",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1267.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1420,
+          "bottom": 980.0625,
+          "left": 1267.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "dashboard",
+      "route": "/workspace",
+      "status": 200,
+      "file": "en-1440-dashboard.png",
+      "overflow": false,
+      "heading": "Your agency, at a glance.",
+      "attention": 312.09375,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1267.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1420,
+          "bottom": 980.0625,
+          "left": 1267.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "inventory",
+      "route": "/workspace/inventory",
+      "status": 200,
+      "file": "en-1440-inventory.png",
+      "overflow": false,
+      "heading": "Property inventory",
+      "firstRow": 397.9375,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1267.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1420,
+          "bottom": 980.0625,
+          "left": 1267.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "create",
+      "route": "/workspace/inventory/new",
+      "status": 200,
+      "file": "en-1440-create.png",
+      "overflow": false,
+      "heading": "Create a property",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1267.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1420,
+          "bottom": 980.0625,
+          "left": 1267.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "property",
+      "route": "/workspace/inventory/AQ-10233",
+      "status": 200,
+      "file": "en-1440-property.png",
+      "overflow": false,
+      "heading": "Freehold residence, Viva Bahriya",
+      "attention": 813.59375,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1267.578125,
+          "y": 765,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 765,
+          "right": 1420,
+          "bottom": 820.5,
+          "left": 1267.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "editor",
+      "route": "/workspace/inventory/AQ-10233/edit",
+      "status": 200,
+      "file": "en-1440-editor.png",
+      "overflow": false,
+      "heading": "Build a better property record.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1267.578125,
+          "y": 828.828125,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 828.828125,
+          "right": 1420,
+          "bottom": 884.328125,
+          "left": 1267.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "launch",
+      "route": "/workspace/publish?mode=launch&property=AQ-10233",
+      "status": 200,
+      "file": "en-1440-launch.png",
+      "overflow": false,
+      "heading": "AI Property Launch",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1267.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1420,
+          "bottom": 980.0625,
+          "left": 1267.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "publish",
+      "route": "/workspace/publish?property=AQ-10233&goal=portals&channels=qatar-living&channel=qatar-living",
+      "status": 200,
+      "file": "en-1440-publish.png",
+      "overflow": false,
+      "heading": "Publish & Promote",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1267.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1420,
+          "bottom": 980.0625,
+          "left": 1267.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "campaigns",
+      "route": "/workspace/campaigns",
+      "status": 200,
+      "file": "en-1440-campaigns.png",
+      "overflow": false,
+      "heading": "Property marketing, with a review trail.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1267.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1420,
+          "bottom": 980.0625,
+          "left": 1267.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "campaign-review",
+      "route": "/workspace/campaigns/new?property=AQ-10233",
+      "status": 200,
+      "file": "en-1440-campaign-review.png",
+      "overflow": false,
+      "heading": "Start with the canonical property.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1267.578125,
+          "y": 860.734375,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 860.734375,
+          "right": 1420,
+          "bottom": 916.234375,
+          "left": 1267.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "leads",
+      "route": "/workspace/leads",
+      "status": 200,
+      "file": "en-1440-leads.png",
+      "overflow": false,
+      "heading": "Lead manager",
+      "firstRow": 594.03125,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1267.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1420,
+          "bottom": 980.0625,
+          "left": 1267.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "inbox",
+      "route": "/workspace/inbox",
+      "status": 200,
+      "file": "en-1440-inbox.png",
+      "overflow": false,
+      "heading": "Unified inbox",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1267.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1420,
+          "bottom": 980.0625,
+          "left": 1267.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "analytics",
+      "route": "/workspace/analytics",
+      "status": 200,
+      "file": "en-1440-analytics.png",
+      "overflow": false,
+      "heading": "See which channels create opportunities.",
+      "firstRow": 1012.8125,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1267.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1420,
+          "bottom": 980.0625,
+          "left": 1267.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "billing",
+      "route": "/workspace/billing",
+      "status": 200,
+      "file": "en-1440-billing.png",
+      "overflow": false,
+      "heading": "Usage and plan rules",
+      "firstRow": 581.21875,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1267.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1420,
+          "bottom": 980.0625,
+          "left": 1267.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "settings",
+      "route": "/workspace/settings",
+      "status": 200,
+      "file": "en-1440-settings.png",
+      "overflow": false,
+      "heading": "Agency settings",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1267.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1420,
+          "bottom": 980.0625,
+          "left": 1267.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "assistant-open",
+      "route": "/workspace/inventory/AQ-10233",
+      "status": 200,
+      "file": "en-1440-assistant-open.png",
+      "overflow": false,
+      "heading": "Freehold residence, Viva Bahriya",
+      "attention": 813.59375,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1267.578125,
+          "y": 765,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 765,
+          "right": 1420,
+          "bottom": 820.5,
+          "left": 1267.578125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "empty-dashboard",
+      "route": "/workspace",
+      "status": 200,
+      "file": "en-1440-empty-dashboard.png",
+      "overflow": false,
+      "heading": "Your agency, at a glance.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 1267.578125,
+          "y": 924.5625,
+          "width": 152.421875,
+          "height": 55.5,
+          "top": 924.5625,
+          "right": 1420,
+          "bottom": 980.0625,
+          "left": 1267.578125
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "name": "home",
+      "route": "",
+      "status": 200,
+      "file": "ar-320-home.png",
+      "overflow": false,
+      "heading": "عقار واحد.كل الفرص.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 748.078125,
+          "width": 125.40625,
+          "height": 44,
+          "top": 748.078125,
+          "right": 137.40625,
+          "bottom": 792.078125,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "name": "platform",
+      "route": "/solutions",
+      "status": 200,
+      "file": "ar-320-platform.png",
+      "overflow": false,
+      "heading": "العمل مترابط.\nوأدواتك كذلك.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 748.078125,
+          "width": 125.40625,
+          "height": 44,
+          "top": 748.078125,
+          "right": 137.40625,
+          "bottom": 792.078125,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "name": "ai",
+      "route": "/features/ai-assistance",
+      "status": 200,
+      "file": "ar-320-ai.png",
+      "overflow": false,
+      "heading": "مساعدة في الإعداد. والقرار لك.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 748.078125,
+          "width": 125.40625,
+          "height": 44,
+          "top": 748.078125,
+          "right": 137.40625,
+          "bottom": 792.078125,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "name": "how-it-works",
+      "route": "/how-it-works",
+      "status": 200,
+      "file": "ar-320-how-it-works.png",
+      "overflow": false,
+      "heading": "رافق عقاراً واحداً\nطوال يوم العمل.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 476.953125,
+          "width": 125.40625,
+          "height": 44,
+          "top": 476.953125,
+          "right": 137.40625,
+          "bottom": 520.953125,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "name": "integrations",
+      "route": "/integrations",
+      "status": 200,
+      "file": "ar-320-integrations.png",
+      "overflow": false,
+      "heading": "لكل قناة\nدور واضح.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 748.078125,
+          "width": 125.40625,
+          "height": 44,
+          "top": 748.078125,
+          "right": 137.40625,
+          "bottom": 792.078125,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "name": "pricing",
+      "route": "/pricing",
+      "status": 200,
+      "file": "ar-320-pricing.png",
+      "overflow": false,
+      "heading": "تناسب محفظتك.\nوتوضح الحدود.",
+      "firstRow": 2683.90625,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 748.078125,
+          "width": 125.40625,
+          "height": 44,
+          "top": 748.078125,
+          "right": 137.40625,
+          "bottom": 792.078125,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "name": "agencies",
+      "route": "/solutions/agencies",
+      "status": 200,
+      "file": "ar-320-agencies.png",
+      "overflow": false,
+      "heading": "تنسيق أفضل.\nويوم عمل أوضح.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 748.078125,
+          "width": 125.40625,
+          "height": 44,
+          "top": 748.078125,
+          "right": 137.40625,
+          "bottom": 792.078125,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "name": "contact",
+      "route": "/contact",
+      "status": 200,
+      "file": "ar-320-contact.png",
+      "overflow": false,
+      "heading": "ابدأ\nبسؤال أوضح.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 748.078125,
+          "width": 125.40625,
+          "height": 44,
+          "top": 748.078125,
+          "right": 137.40625,
+          "bottom": 792.078125,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "name": "faq",
+      "route": "/faq",
+      "status": 200,
+      "file": "ar-320-faq.png",
+      "overflow": false,
+      "heading": "التفاصيل،\nبلا تخمين.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 748.078125,
+          "width": 125.40625,
+          "height": 44,
+          "top": 748.078125,
+          "right": 137.40625,
+          "bottom": 792.078125,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "name": "showcase",
+      "route": "/properties",
+      "status": 200,
+      "file": "ar-320-showcase.png",
+      "overflow": false,
+      "heading": "اعثر على المكان المناسب لك.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 445.0625,
+          "width": 125.40625,
+          "height": 44,
+          "top": 445.0625,
+          "right": 137.40625,
+          "bottom": 489.0625,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "name": "showcase-detail",
+      "route": "/properties/AQ-10233",
+      "status": 200,
+      "file": "ar-320-showcase-detail.png",
+      "overflow": false,
+      "heading": "مسكن للتملك الحر في فيفا بحرية",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 748.078125,
+          "width": 125.40625,
+          "height": 44,
+          "top": 748.078125,
+          "right": 137.40625,
+          "bottom": 792.078125,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "name": "dashboard",
+      "route": "/workspace",
+      "status": 200,
+      "file": "ar-320-dashboard.png",
+      "overflow": false,
+      "heading": "وكالتك في لمحة.",
+      "attention": 542.5,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 126.09375,
+          "width": 125.40625,
+          "height": 44,
+          "top": 126.09375,
+          "right": 137.40625,
+          "bottom": 170.09375,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "name": "inventory",
+      "route": "/workspace/inventory",
+      "status": 200,
+      "file": "ar-320-inventory.png",
+      "overflow": false,
+      "heading": "العقارات",
+      "firstRow": 534.5,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 716.171875,
+          "width": 125.40625,
+          "height": 44,
+          "top": 716.171875,
+          "right": 137.40625,
+          "bottom": 760.171875,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "name": "create",
+      "route": "/workspace/inventory/new",
+      "status": 200,
+      "file": "ar-320-create.png",
+      "overflow": false,
+      "heading": "إنشاء عقار",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 317.46875,
+          "width": 125.40625,
+          "height": 44,
+          "top": 317.46875,
+          "right": 137.40625,
+          "bottom": 361.46875,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "name": "property",
+      "route": "/workspace/inventory/AQ-10233",
+      "status": 200,
+      "file": "ar-320-property.png",
+      "overflow": false,
+      "heading": "مسكن للتملك الحر في فيفا بحرية",
+      "attention": 1183.296875,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 716.171875,
+          "width": 125.40625,
+          "height": 44,
+          "top": 716.171875,
+          "right": 137.40625,
+          "bottom": 760.171875,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "name": "editor",
+      "route": "/workspace/inventory/AQ-10233/edit",
+      "status": 200,
+      "file": "ar-320-editor.png",
+      "overflow": false,
+      "heading": "جهّز سجل عقارك.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 504.859375,
+          "width": 125.40625,
+          "height": 44,
+          "top": 504.859375,
+          "right": 137.40625,
+          "bottom": 548.859375,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "name": "launch",
+      "route": "/workspace/publish?mode=launch&property=AQ-10233",
+      "status": 200,
+      "file": "ar-320-launch.png",
+      "overflow": false,
+      "heading": "إطلاق العقار بمساعدة AI",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 748.078125,
+          "width": 125.40625,
+          "height": 44,
+          "top": 748.078125,
+          "right": 137.40625,
+          "bottom": 792.078125,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "name": "publish",
+      "route": "/workspace/publish?property=AQ-10233&goal=portals&channels=qatar-living&channel=qatar-living",
+      "status": 200,
+      "file": "ar-320-publish.png",
+      "overflow": false,
+      "heading": "النشر والترويج",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 748.078125,
+          "width": 125.40625,
+          "height": 44,
+          "top": 748.078125,
+          "right": 137.40625,
+          "bottom": 792.078125,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "name": "campaigns",
+      "route": "/workspace/campaigns",
+      "status": 200,
+      "file": "ar-320-campaigns.png",
+      "overflow": false,
+      "heading": "تسويق العقارات مع سجل مراجعة.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 684.28125,
+          "width": 125.40625,
+          "height": 44,
+          "top": 684.28125,
+          "right": 137.40625,
+          "bottom": 728.28125,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "name": "campaign-review",
+      "route": "/workspace/campaigns/new?property=AQ-10233",
+      "status": 200,
+      "file": "ar-320-campaign-review.png",
+      "overflow": false,
+      "heading": "ابدأ من سجل العقار الأساسي.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 556.6875,
+          "width": 125.40625,
+          "height": 44,
+          "top": 556.6875,
+          "right": 137.40625,
+          "bottom": 600.6875,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "name": "leads",
+      "route": "/workspace/leads",
+      "status": 200,
+      "file": "ar-320-leads.png",
+      "overflow": false,
+      "heading": "إدارة العملاء",
+      "firstRow": 1060.09375,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 429.109375,
+          "width": 125.40625,
+          "height": 44,
+          "top": 429.109375,
+          "right": 137.40625,
+          "bottom": 473.109375,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "name": "inbox",
+      "route": "/workspace/inbox",
+      "status": 200,
+      "file": "ar-320-inbox.png",
+      "overflow": false,
+      "heading": "صندوق المحادثات الموحد",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 504.859375,
+          "width": 125.40625,
+          "height": 44,
+          "top": 504.859375,
+          "right": 137.40625,
+          "bottom": 548.859375,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "name": "analytics",
+      "route": "/workspace/analytics",
+      "status": 200,
+      "file": "ar-320-analytics.png",
+      "overflow": false,
+      "heading": "تعرّف على القنوات التي تصنع الفرص.",
+      "firstRow": 1544.703125,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 492.90625,
+          "width": 125.40625,
+          "height": 44,
+          "top": 492.90625,
+          "right": 137.40625,
+          "bottom": 536.90625,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "name": "billing",
+      "route": "/workspace/billing",
+      "status": 200,
+      "file": "ar-320-billing.png",
+      "overflow": false,
+      "heading": "الاستخدام وقواعد الباقة",
+      "firstRow": 980.625,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 142.046875,
+          "width": 125.40625,
+          "height": 44,
+          "top": 142.046875,
+          "right": 137.40625,
+          "bottom": 186.046875,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "name": "settings",
+      "route": "/workspace/settings",
+      "status": 200,
+      "file": "ar-320-settings.png",
+      "overflow": false,
+      "heading": "إعدادات الوكالة",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 173.9375,
+          "width": 125.40625,
+          "height": 44,
+          "top": 173.9375,
+          "right": 137.40625,
+          "bottom": 217.9375,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "name": "assistant-open",
+      "route": "/workspace/inventory/AQ-10233",
+      "status": 200,
+      "file": "ar-320-assistant-open.png",
+      "overflow": false,
+      "heading": "مسكن للتملك الحر في فيفا بحرية",
+      "attention": 1183.296875,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 716.171875,
+          "width": 125.40625,
+          "height": 44,
+          "top": 716.171875,
+          "right": 137.40625,
+          "bottom": 760.171875,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "name": "empty-dashboard",
+      "route": "/workspace",
+      "status": 200,
+      "file": "ar-320-empty-dashboard.png",
+      "overflow": false,
+      "heading": "وكالتك في لمحة.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 748.078125,
+          "width": 125.40625,
+          "height": 44,
+          "top": 748.078125,
+          "right": 137.40625,
+          "bottom": 792.078125,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "home",
+      "route": "",
+      "status": 200,
+      "file": "ar-375-home.png",
+      "overflow": false,
+      "heading": "عقار واحد.كل الفرص.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 748.078125,
+          "width": 125.40625,
+          "height": 44,
+          "top": 748.078125,
+          "right": 137.40625,
+          "bottom": 792.078125,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "platform",
+      "route": "/solutions",
+      "status": 200,
+      "file": "ar-375-platform.png",
+      "overflow": false,
+      "heading": "العمل مترابط.\nوأدواتك كذلك.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 748.078125,
+          "width": 125.40625,
+          "height": 44,
+          "top": 748.078125,
+          "right": 137.40625,
+          "bottom": 792.078125,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "ai",
+      "route": "/features/ai-assistance",
+      "status": 200,
+      "file": "ar-375-ai.png",
+      "overflow": false,
+      "heading": "مساعدة في الإعداد. والقرار لك.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 748.078125,
+          "width": 125.40625,
+          "height": 44,
+          "top": 748.078125,
+          "right": 137.40625,
+          "bottom": 792.078125,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "how-it-works",
+      "route": "/how-it-works",
+      "status": 200,
+      "file": "ar-375-how-it-works.png",
+      "overflow": false,
+      "heading": "رافق عقاراً واحداً\nطوال يوم العمل.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 476.953125,
+          "width": 125.40625,
+          "height": 44,
+          "top": 476.953125,
+          "right": 137.40625,
+          "bottom": 520.953125,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "integrations",
+      "route": "/integrations",
+      "status": 200,
+      "file": "ar-375-integrations.png",
+      "overflow": false,
+      "heading": "لكل قناة\nدور واضح.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 716.171875,
+          "width": 125.40625,
+          "height": 44,
+          "top": 716.171875,
+          "right": 137.40625,
+          "bottom": 760.171875,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "pricing",
+      "route": "/pricing",
+      "status": 200,
+      "file": "ar-375-pricing.png",
+      "overflow": false,
+      "heading": "تناسب محفظتك.\nوتوضح الحدود.",
+      "firstRow": 2660.515625,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 748.078125,
+          "width": 125.40625,
+          "height": 44,
+          "top": 748.078125,
+          "right": 137.40625,
+          "bottom": 792.078125,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "agencies",
+      "route": "/solutions/agencies",
+      "status": 200,
+      "file": "ar-375-agencies.png",
+      "overflow": false,
+      "heading": "تنسيق أفضل.\nويوم عمل أوضح.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 748.078125,
+          "width": 125.40625,
+          "height": 44,
+          "top": 748.078125,
+          "right": 137.40625,
+          "bottom": 792.078125,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "contact",
+      "route": "/contact",
+      "status": 200,
+      "file": "ar-375-contact.png",
+      "overflow": false,
+      "heading": "ابدأ\nبسؤال أوضح.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 748.078125,
+          "width": 125.40625,
+          "height": 44,
+          "top": 748.078125,
+          "right": 137.40625,
+          "bottom": 792.078125,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "faq",
+      "route": "/faq",
+      "status": 200,
+      "file": "ar-375-faq.png",
+      "overflow": false,
+      "heading": "التفاصيل،\nبلا تخمين.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 748.078125,
+          "width": 125.40625,
+          "height": 44,
+          "top": 748.078125,
+          "right": 137.40625,
+          "bottom": 792.078125,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "showcase",
+      "route": "/properties",
+      "status": 200,
+      "file": "ar-375-showcase.png",
+      "overflow": false,
+      "heading": "اعثر على المكان المناسب لك.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 445.0625,
+          "width": 125.40625,
+          "height": 44,
+          "top": 445.0625,
+          "right": 137.40625,
+          "bottom": 489.0625,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "showcase-detail",
+      "route": "/properties/AQ-10233",
+      "status": 200,
+      "file": "ar-375-showcase-detail.png",
+      "overflow": false,
+      "heading": "مسكن للتملك الحر في فيفا بحرية",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 748.078125,
+          "width": 125.40625,
+          "height": 44,
+          "top": 748.078125,
+          "right": 137.40625,
+          "bottom": 792.078125,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "dashboard",
+      "route": "/workspace",
+      "status": 200,
+      "file": "ar-375-dashboard.png",
+      "overflow": false,
+      "heading": "وكالتك في لمحة.",
+      "attention": 526.5,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 492.90625,
+          "width": 125.40625,
+          "height": 44,
+          "top": 492.90625,
+          "right": 137.40625,
+          "bottom": 536.90625,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "inventory",
+      "route": "/workspace/inventory",
+      "status": 200,
+      "file": "ar-375-inventory.png",
+      "overflow": false,
+      "heading": "العقارات",
+      "firstRow": 499,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 668.328125,
+          "width": 125.40625,
+          "height": 44,
+          "top": 668.328125,
+          "right": 137.40625,
+          "bottom": 712.328125,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "create",
+      "route": "/workspace/inventory/new",
+      "status": 200,
+      "file": "ar-375-create.png",
+      "overflow": false,
+      "heading": "إنشاء عقار",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 492.90625,
+          "width": 125.40625,
+          "height": 44,
+          "top": 492.90625,
+          "right": 137.40625,
+          "bottom": 536.90625,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "property",
+      "route": "/workspace/inventory/AQ-10233",
+      "status": 200,
+      "file": "ar-375-property.png",
+      "overflow": false,
+      "heading": "مسكن للتملك الحر في فيفا بحرية",
+      "attention": 1147.796875,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 716.171875,
+          "width": 125.40625,
+          "height": 44,
+          "top": 716.171875,
+          "right": 137.40625,
+          "bottom": 760.171875,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "editor",
+      "route": "/workspace/inventory/AQ-10233/edit",
+      "status": 200,
+      "file": "ar-375-editor.png",
+      "overflow": false,
+      "heading": "جهّز سجل عقارك.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 504.859375,
+          "width": 125.40625,
+          "height": 44,
+          "top": 504.859375,
+          "right": 137.40625,
+          "bottom": 548.859375,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "launch",
+      "route": "/workspace/publish?mode=launch&property=AQ-10233",
+      "status": 200,
+      "file": "ar-375-launch.png",
+      "overflow": false,
+      "heading": "إطلاق العقار بمساعدة AI",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 716.171875,
+          "width": 125.40625,
+          "height": 44,
+          "top": 716.171875,
+          "right": 137.40625,
+          "bottom": 760.171875,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "publish",
+      "route": "/workspace/publish?property=AQ-10233&goal=portals&channels=qatar-living&channel=qatar-living",
+      "status": 200,
+      "file": "ar-375-publish.png",
+      "overflow": false,
+      "heading": "النشر والترويج",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 748.078125,
+          "width": 125.40625,
+          "height": 44,
+          "top": 748.078125,
+          "right": 137.40625,
+          "bottom": 792.078125,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "campaigns",
+      "route": "/workspace/campaigns",
+      "status": 200,
+      "file": "ar-375-campaigns.png",
+      "overflow": false,
+      "heading": "تسويق العقارات مع سجل مراجعة.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 636.4375,
+          "width": 125.40625,
+          "height": 44,
+          "top": 636.4375,
+          "right": 137.40625,
+          "bottom": 680.4375,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "campaign-review",
+      "route": "/workspace/campaigns/new?property=AQ-10233",
+      "status": 200,
+      "file": "ar-375-campaign-review.png",
+      "overflow": false,
+      "heading": "ابدأ من سجل العقار الأساسي.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 748.078125,
+          "width": 125.40625,
+          "height": 44,
+          "top": 748.078125,
+          "right": 137.40625,
+          "bottom": 792.078125,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "leads",
+      "route": "/workspace/leads",
+      "status": 200,
+      "file": "ar-375-leads.png",
+      "overflow": false,
+      "heading": "إدارة العملاء",
+      "firstRow": 1021.09375,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 381.265625,
+          "width": 125.40625,
+          "height": 44,
+          "top": 381.265625,
+          "right": 137.40625,
+          "bottom": 425.265625,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "inbox",
+      "route": "/workspace/inbox",
+      "status": 200,
+      "file": "ar-375-inbox.png",
+      "overflow": false,
+      "heading": "صندوق المحادثات الموحد",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 504.859375,
+          "width": 125.40625,
+          "height": 44,
+          "top": 504.859375,
+          "right": 137.40625,
+          "bottom": 548.859375,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "analytics",
+      "route": "/workspace/analytics",
+      "status": 200,
+      "file": "ar-375-analytics.png",
+      "overflow": false,
+      "heading": "تعرّف على القنوات التي تصنع الفرص.",
+      "firstRow": 1520.203125,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 461,
+          "width": 125.40625,
+          "height": 44,
+          "top": 461,
+          "right": 137.40625,
+          "bottom": 505,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "billing",
+      "route": "/workspace/billing",
+      "status": 200,
+      "file": "ar-375-billing.png",
+      "overflow": false,
+      "heading": "الاستخدام وقواعد الباقة",
+      "firstRow": 980.625,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 301.53125,
+          "width": 125.40625,
+          "height": 44,
+          "top": 301.53125,
+          "right": 137.40625,
+          "bottom": 345.53125,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "settings",
+      "route": "/workspace/settings",
+      "status": 200,
+      "file": "ar-375-settings.png",
+      "overflow": false,
+      "heading": "إعدادات الوكالة",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 748.078125,
+          "width": 125.40625,
+          "height": 44,
+          "top": 748.078125,
+          "right": 137.40625,
+          "bottom": 792.078125,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "assistant-open",
+      "route": "/workspace/inventory/AQ-10233",
+      "status": 200,
+      "file": "ar-375-assistant-open.png",
+      "overflow": false,
+      "heading": "مسكن للتملك الحر في فيفا بحرية",
+      "attention": 1147.796875,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 716.171875,
+          "width": 125.40625,
+          "height": 44,
+          "top": 716.171875,
+          "right": 137.40625,
+          "bottom": 760.171875,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "empty-dashboard",
+      "route": "/workspace",
+      "status": 200,
+      "file": "ar-375-empty-dashboard.png",
+      "overflow": false,
+      "heading": "وكالتك في لمحة.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 12,
+          "y": 748.078125,
+          "width": 125.40625,
+          "height": 44,
+          "top": 748.078125,
+          "right": 137.40625,
+          "bottom": 792.078125,
+          "left": 12
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 768,
+      "name": "home",
+      "route": "",
+      "status": 200,
+      "file": "ar-768-home.png",
+      "overflow": false,
+      "heading": "عقار واحد.كل الفرص.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 768,
+      "name": "platform",
+      "route": "/solutions",
+      "status": 200,
+      "file": "ar-768-platform.png",
+      "overflow": false,
+      "heading": "العمل مترابط.\nوأدواتك كذلك.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 768,
+      "name": "ai",
+      "route": "/features/ai-assistance",
+      "status": 200,
+      "file": "ar-768-ai.png",
+      "overflow": false,
+      "heading": "مساعدة في الإعداد. والقرار لك.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 768,
+      "name": "how-it-works",
+      "route": "/how-it-works",
+      "status": 200,
+      "file": "ar-768-how-it-works.png",
+      "overflow": false,
+      "heading": "رافق عقاراً واحداً\nطوال يوم العمل.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 768,
+      "name": "integrations",
+      "route": "/integrations",
+      "status": 200,
+      "file": "ar-768-integrations.png",
+      "overflow": false,
+      "heading": "لكل قناة\nدور واضح.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 768,
+      "name": "pricing",
+      "route": "/pricing",
+      "status": 200,
+      "file": "ar-768-pricing.png",
+      "overflow": false,
+      "heading": "تناسب محفظتك.\nوتوضح الحدود.",
+      "firstRow": 2761.015625,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 768,
+      "name": "agencies",
+      "route": "/solutions/agencies",
+      "status": 200,
+      "file": "ar-768-agencies.png",
+      "overflow": false,
+      "heading": "تنسيق أفضل.\nويوم عمل أوضح.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 768,
+      "name": "contact",
+      "route": "/contact",
+      "status": 200,
+      "file": "ar-768-contact.png",
+      "overflow": false,
+      "heading": "ابدأ\nبسؤال أوضح.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 768,
+      "name": "faq",
+      "route": "/faq",
+      "status": 200,
+      "file": "ar-768-faq.png",
+      "overflow": false,
+      "heading": "التفاصيل،\nبلا تخمين.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 768,
+      "name": "showcase",
+      "route": "/properties",
+      "status": 200,
+      "file": "ar-768-showcase.png",
+      "overflow": false,
+      "heading": "اعثر على المكان المناسب لك.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 683.75,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 683.75,
+          "right": 164.578125,
+          "bottom": 739.25,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 768,
+      "name": "showcase-detail",
+      "route": "/properties/AQ-10233",
+      "status": 200,
+      "file": "ar-768-showcase-detail.png",
+      "overflow": false,
+      "heading": "مسكن للتملك الحر في فيفا بحرية",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 876.3125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 876.3125,
+          "right": 164.578125,
+          "bottom": 931.8125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 768,
+      "name": "dashboard",
+      "route": "/workspace",
+      "status": 200,
+      "file": "ar-768-dashboard.png",
+      "overflow": false,
+      "heading": "وكالتك في لمحة.",
+      "attention": 395.5,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 346.765625,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 346.765625,
+          "right": 164.578125,
+          "bottom": 402.265625,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 768,
+      "name": "inventory",
+      "route": "/workspace/inventory",
+      "status": 200,
+      "file": "ar-768-inventory.png",
+      "overflow": false,
+      "heading": "العقارات",
+      "firstRow": 353.5,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 768,
+      "name": "create",
+      "route": "/workspace/inventory/new",
+      "status": 200,
+      "file": "ar-768-create.png",
+      "overflow": false,
+      "heading": "إنشاء عقار",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 768,
+      "name": "property",
+      "route": "/workspace/inventory/AQ-10233",
+      "status": 200,
+      "file": "ar-768-property.png",
+      "overflow": false,
+      "heading": "مسكن للتملك الحر في فيفا بحرية",
+      "attention": 814.296875,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 768,
+      "name": "editor",
+      "route": "/workspace/inventory/AQ-10233/edit",
+      "status": 200,
+      "file": "ar-768-editor.png",
+      "overflow": false,
+      "heading": "جهّز سجل عقارك.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 812.125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 812.125,
+          "right": 164.578125,
+          "bottom": 867.625,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 768,
+      "name": "launch",
+      "route": "/workspace/publish?mode=launch&property=AQ-10233",
+      "status": 200,
+      "file": "ar-768-launch.png",
+      "overflow": false,
+      "heading": "إطلاق العقار بمساعدة AI",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 768,
+      "name": "publish",
+      "route": "/workspace/publish?property=AQ-10233&goal=portals&channels=qatar-living&channel=qatar-living",
+      "status": 200,
+      "file": "ar-768-publish.png",
+      "overflow": false,
+      "heading": "النشر والترويج",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 768,
+      "name": "campaigns",
+      "route": "/workspace/campaigns",
+      "status": 200,
+      "file": "ar-768-campaigns.png",
+      "overflow": false,
+      "heading": "تسويق العقارات مع سجل مراجعة.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 768,
+      "name": "campaign-review",
+      "route": "/workspace/campaigns/new?property=AQ-10233",
+      "status": 200,
+      "file": "ar-768-campaign-review.png",
+      "overflow": false,
+      "heading": "ابدأ من سجل العقار الأساسي.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 768,
+      "name": "leads",
+      "route": "/workspace/leads",
+      "status": 200,
+      "file": "ar-768-leads.png",
+      "overflow": false,
+      "heading": "إدارة العملاء",
+      "firstRow": 836.09375,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 768,
+      "name": "inbox",
+      "route": "/workspace/inbox",
+      "status": 200,
+      "file": "ar-768-inbox.png",
+      "overflow": false,
+      "heading": "صندوق المحادثات الموحد",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 459.09375,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 459.09375,
+          "right": 164.578125,
+          "bottom": 514.59375,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 768,
+      "name": "analytics",
+      "route": "/workspace/analytics",
+      "status": 200,
+      "file": "ar-768-analytics.png",
+      "overflow": false,
+      "heading": "تعرّف على القنوات التي تصنع الفرص.",
+      "firstRow": 1117.015625,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 768,
+      "name": "billing",
+      "route": "/workspace/billing",
+      "status": 200,
+      "file": "ar-768-billing.png",
+      "overflow": false,
+      "heading": "الاستخدام وقواعد الباقة",
+      "firstRow": 567.53125,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 768,
+      "name": "settings",
+      "route": "/workspace/settings",
+      "status": 200,
+      "file": "ar-768-settings.png",
+      "overflow": false,
+      "heading": "إعدادات الوكالة",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 768,
+      "name": "assistant-open",
+      "route": "/workspace/inventory/AQ-10233",
+      "status": 200,
+      "file": "ar-768-assistant-open.png",
+      "overflow": false,
+      "heading": "مسكن للتملك الحر في فيفا بحرية",
+      "attention": 814.296875,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 768,
+      "name": "empty-dashboard",
+      "route": "/workspace",
+      "status": 200,
+      "file": "ar-768-empty-dashboard.png",
+      "overflow": false,
+      "heading": "وكالتك في لمحة.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1024,
+      "name": "home",
+      "route": "",
+      "status": 200,
+      "file": "ar-1024-home.png",
+      "overflow": false,
+      "heading": "عقار واحد.كل الفرص.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1024,
+      "name": "platform",
+      "route": "/solutions",
+      "status": 200,
+      "file": "ar-1024-platform.png",
+      "overflow": false,
+      "heading": "العمل مترابط.\nوأدواتك كذلك.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1024,
+      "name": "ai",
+      "route": "/features/ai-assistance",
+      "status": 200,
+      "file": "ar-1024-ai.png",
+      "overflow": false,
+      "heading": "مساعدة في الإعداد. والقرار لك.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1024,
+      "name": "how-it-works",
+      "route": "/how-it-works",
+      "status": 200,
+      "file": "ar-1024-how-it-works.png",
+      "overflow": false,
+      "heading": "رافق عقاراً واحداً\nطوال يوم العمل.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1024,
+      "name": "integrations",
+      "route": "/integrations",
+      "status": 200,
+      "file": "ar-1024-integrations.png",
+      "overflow": false,
+      "heading": "لكل قناة\nدور واضح.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1024,
+      "name": "pricing",
+      "route": "/pricing",
+      "status": 200,
+      "file": "ar-1024-pricing.png",
+      "overflow": false,
+      "heading": "تناسب محفظتك.\nوتوضح الحدود.",
+      "firstRow": 1522.828125,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 844.21875,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 844.21875,
+          "right": 164.578125,
+          "bottom": 899.71875,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1024,
+      "name": "agencies",
+      "route": "/solutions/agencies",
+      "status": 200,
+      "file": "ar-1024-agencies.png",
+      "overflow": false,
+      "heading": "تنسيق أفضل.\nويوم عمل أوضح.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1024,
+      "name": "contact",
+      "route": "/contact",
+      "status": 200,
+      "file": "ar-1024-contact.png",
+      "overflow": false,
+      "heading": "ابدأ\nبسؤال أوضح.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1024,
+      "name": "faq",
+      "route": "/faq",
+      "status": 200,
+      "file": "ar-1024-faq.png",
+      "overflow": false,
+      "heading": "التفاصيل،\nبلا تخمين.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1024,
+      "name": "showcase",
+      "route": "/properties",
+      "status": 200,
+      "file": "ar-1024-showcase.png",
+      "overflow": false,
+      "heading": "اعثر على المكان المناسب لك.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 378.859375,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 378.859375,
+          "right": 164.578125,
+          "bottom": 434.359375,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1024,
+      "name": "showcase-detail",
+      "route": "/properties/AQ-10233",
+      "status": 200,
+      "file": "ar-1024-showcase-detail.png",
+      "overflow": false,
+      "heading": "مسكن للتملك الحر في فيفا بحرية",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 876.3125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 876.3125,
+          "right": 164.578125,
+          "bottom": 931.8125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1024,
+      "name": "dashboard",
+      "route": "/workspace",
+      "status": 200,
+      "file": "ar-1024-dashboard.png",
+      "overflow": false,
+      "heading": "وكالتك في لمحة.",
+      "attention": 328.5,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1024,
+      "name": "inventory",
+      "route": "/workspace/inventory",
+      "status": 200,
+      "file": "ar-1024-inventory.png",
+      "overflow": false,
+      "heading": "العقارات",
+      "firstRow": 399.9375,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1024,
+      "name": "create",
+      "route": "/workspace/inventory/new",
+      "status": 200,
+      "file": "ar-1024-create.png",
+      "overflow": false,
+      "heading": "إنشاء عقار",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1024,
+      "name": "property",
+      "route": "/workspace/inventory/AQ-10233",
+      "status": 200,
+      "file": "ar-1024-property.png",
+      "overflow": false,
+      "heading": "مسكن للتملك الحر في فيفا بحرية",
+      "attention": 799.546875,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 747.9375,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 747.9375,
+          "right": 164.578125,
+          "bottom": 803.4375,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1024,
+      "name": "editor",
+      "route": "/workspace/inventory/AQ-10233/edit",
+      "status": 200,
+      "file": "ar-1024-editor.png",
+      "overflow": false,
+      "heading": "جهّز سجل عقارك.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 828.171875,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 828.171875,
+          "right": 164.578125,
+          "bottom": 883.671875,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1024,
+      "name": "launch",
+      "route": "/workspace/publish?mode=launch&property=AQ-10233",
+      "status": 200,
+      "file": "ar-1024-launch.png",
+      "overflow": false,
+      "heading": "إطلاق العقار بمساعدة AI",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1024,
+      "name": "publish",
+      "route": "/workspace/publish?property=AQ-10233&goal=portals&channels=qatar-living&channel=qatar-living",
+      "status": 200,
+      "file": "ar-1024-publish.png",
+      "overflow": false,
+      "heading": "النشر والترويج",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1024,
+      "name": "campaigns",
+      "route": "/workspace/campaigns",
+      "status": 200,
+      "file": "ar-1024-campaigns.png",
+      "overflow": false,
+      "heading": "تسويق العقارات مع سجل مراجعة.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1024,
+      "name": "campaign-review",
+      "route": "/workspace/campaigns/new?property=AQ-10233",
+      "status": 200,
+      "file": "ar-1024-campaign-review.png",
+      "overflow": false,
+      "heading": "ابدأ من سجل العقار الأساسي.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 892.359375,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 892.359375,
+          "right": 164.578125,
+          "bottom": 947.859375,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1024,
+      "name": "leads",
+      "route": "/workspace/leads",
+      "status": 200,
+      "file": "ar-1024-leads.png",
+      "overflow": false,
+      "heading": "إدارة العملاء",
+      "firstRow": 763.03125,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1024,
+      "name": "inbox",
+      "route": "/workspace/inbox",
+      "status": 200,
+      "file": "ar-1024-inbox.png",
+      "overflow": false,
+      "heading": "صندوق المحادثات الموحد",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 780.03125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 780.03125,
+          "right": 164.578125,
+          "bottom": 835.53125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1024,
+      "name": "analytics",
+      "route": "/workspace/analytics",
+      "status": 200,
+      "file": "ar-1024-analytics.png",
+      "overflow": false,
+      "heading": "تعرّف على القنوات التي تصنع الفرص.",
+      "firstRow": 1030.515625,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1024,
+      "name": "billing",
+      "route": "/workspace/billing",
+      "status": 200,
+      "file": "ar-1024-billing.png",
+      "overflow": false,
+      "heading": "الاستخدام وقواعد الباقة",
+      "firstRow": 567.53125,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1024,
+      "name": "settings",
+      "route": "/workspace/settings",
+      "status": 200,
+      "file": "ar-1024-settings.png",
+      "overflow": false,
+      "heading": "إعدادات الوكالة",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1024,
+      "name": "assistant-open",
+      "route": "/workspace/inventory/AQ-10233",
+      "status": 200,
+      "file": "ar-1024-assistant-open.png",
+      "overflow": false,
+      "heading": "مسكن للتملك الحر في فيفا بحرية",
+      "attention": 799.546875,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 747.9375,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 747.9375,
+          "right": 164.578125,
+          "bottom": 803.4375,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1024,
+      "name": "empty-dashboard",
+      "route": "/workspace",
+      "status": 200,
+      "file": "ar-1024-empty-dashboard.png",
+      "overflow": false,
+      "heading": "وكالتك في لمحة.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1280,
+      "name": "home",
+      "route": "",
+      "status": 200,
+      "file": "ar-1280-home.png",
+      "overflow": false,
+      "heading": "عقار واحد.كل الفرص.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1280,
+      "name": "platform",
+      "route": "/solutions",
+      "status": 200,
+      "file": "ar-1280-platform.png",
+      "overflow": false,
+      "heading": "العمل مترابط.\nوأدواتك كذلك.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1280,
+      "name": "ai",
+      "route": "/features/ai-assistance",
+      "status": 200,
+      "file": "ar-1280-ai.png",
+      "overflow": false,
+      "heading": "مساعدة في الإعداد. والقرار لك.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1280,
+      "name": "how-it-works",
+      "route": "/how-it-works",
+      "status": 200,
+      "file": "ar-1280-how-it-works.png",
+      "overflow": false,
+      "heading": "رافق عقاراً واحداً\nطوال يوم العمل.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1280,
+      "name": "integrations",
+      "route": "/integrations",
+      "status": 200,
+      "file": "ar-1280-integrations.png",
+      "overflow": false,
+      "heading": "لكل قناة\nدور واضح.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1280,
+      "name": "pricing",
+      "route": "/pricing",
+      "status": 200,
+      "file": "ar-1280-pricing.png",
+      "overflow": false,
+      "heading": "تناسب محفظتك.\nوتوضح الحدود.",
+      "firstRow": 1578.921875,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 892.359375,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 892.359375,
+          "right": 164.578125,
+          "bottom": 947.859375,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1280,
+      "name": "agencies",
+      "route": "/solutions/agencies",
+      "status": 200,
+      "file": "ar-1280-agencies.png",
+      "overflow": false,
+      "heading": "تنسيق أفضل.\nويوم عمل أوضح.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1280,
+      "name": "contact",
+      "route": "/contact",
+      "status": 200,
+      "file": "ar-1280-contact.png",
+      "overflow": false,
+      "heading": "ابدأ\nبسؤال أوضح.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1280,
+      "name": "faq",
+      "route": "/faq",
+      "status": 200,
+      "file": "ar-1280-faq.png",
+      "overflow": false,
+      "heading": "التفاصيل،\nبلا تخمين.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1280,
+      "name": "showcase",
+      "route": "/properties",
+      "status": 200,
+      "file": "ar-1280-showcase.png",
+      "overflow": false,
+      "heading": "اعثر على المكان المناسب لك.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 378.859375,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 378.859375,
+          "right": 164.578125,
+          "bottom": 434.359375,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1280,
+      "name": "showcase-detail",
+      "route": "/properties/AQ-10233",
+      "status": 200,
+      "file": "ar-1280-showcase-detail.png",
+      "overflow": false,
+      "heading": "مسكن للتملك الحر في فيفا بحرية",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 892.359375,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 892.359375,
+          "right": 164.578125,
+          "bottom": 947.859375,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1280,
+      "name": "dashboard",
+      "route": "/workspace",
+      "status": 200,
+      "file": "ar-1280-dashboard.png",
+      "overflow": false,
+      "heading": "وكالتك في لمحة.",
+      "attention": 328.5,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1280,
+      "name": "inventory",
+      "route": "/workspace/inventory",
+      "status": 200,
+      "file": "ar-1280-inventory.png",
+      "overflow": false,
+      "heading": "العقارات",
+      "firstRow": 399.9375,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1280,
+      "name": "create",
+      "route": "/workspace/inventory/new",
+      "status": 200,
+      "file": "ar-1280-create.png",
+      "overflow": false,
+      "heading": "إنشاء عقار",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1280,
+      "name": "property",
+      "route": "/workspace/inventory/AQ-10233",
+      "status": 200,
+      "file": "ar-1280-property.png",
+      "overflow": false,
+      "heading": "مسكن للتملك الحر في فيفا بحرية",
+      "attention": 799.546875,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 747.9375,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 747.9375,
+          "right": 164.578125,
+          "bottom": 803.4375,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1280,
+      "name": "editor",
+      "route": "/workspace/inventory/AQ-10233/edit",
+      "status": 200,
+      "file": "ar-1280-editor.png",
+      "overflow": false,
+      "heading": "جهّز سجل عقارك.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 828.171875,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 828.171875,
+          "right": 164.578125,
+          "bottom": 883.671875,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1280,
+      "name": "launch",
+      "route": "/workspace/publish?mode=launch&property=AQ-10233",
+      "status": 200,
+      "file": "ar-1280-launch.png",
+      "overflow": false,
+      "heading": "إطلاق العقار بمساعدة AI",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1280,
+      "name": "publish",
+      "route": "/workspace/publish?property=AQ-10233&goal=portals&channels=qatar-living&channel=qatar-living",
+      "status": 200,
+      "file": "ar-1280-publish.png",
+      "overflow": false,
+      "heading": "النشر والترويج",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1280,
+      "name": "campaigns",
+      "route": "/workspace/campaigns",
+      "status": 200,
+      "file": "ar-1280-campaigns.png",
+      "overflow": false,
+      "heading": "تسويق العقارات مع سجل مراجعة.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1280,
+      "name": "campaign-review",
+      "route": "/workspace/campaigns/new?property=AQ-10233",
+      "status": 200,
+      "file": "ar-1280-campaign-review.png",
+      "overflow": false,
+      "heading": "ابدأ من سجل العقار الأساسي.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 828.171875,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 828.171875,
+          "right": 164.578125,
+          "bottom": 883.671875,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1280,
+      "name": "leads",
+      "route": "/workspace/leads",
+      "status": 200,
+      "file": "ar-1280-leads.png",
+      "overflow": false,
+      "heading": "إدارة العملاء",
+      "firstRow": 596.03125,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1280,
+      "name": "inbox",
+      "route": "/workspace/inbox",
+      "status": 200,
+      "file": "ar-1280-inbox.png",
+      "overflow": false,
+      "heading": "صندوق المحادثات الموحد",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1280,
+      "name": "analytics",
+      "route": "/workspace/analytics",
+      "status": 200,
+      "file": "ar-1280-analytics.png",
+      "overflow": false,
+      "heading": "تعرّف على القنوات التي تصنع الفرص.",
+      "firstRow": 1030.515625,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1280,
+      "name": "billing",
+      "route": "/workspace/billing",
+      "status": 200,
+      "file": "ar-1280-billing.png",
+      "overflow": false,
+      "heading": "الاستخدام وقواعد الباقة",
+      "firstRow": 567.53125,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1280,
+      "name": "settings",
+      "route": "/workspace/settings",
+      "status": 200,
+      "file": "ar-1280-settings.png",
+      "overflow": false,
+      "heading": "إعدادات الوكالة",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1280,
+      "name": "assistant-open",
+      "route": "/workspace/inventory/AQ-10233",
+      "status": 200,
+      "file": "ar-1280-assistant-open.png",
+      "overflow": false,
+      "heading": "مسكن للتملك الحر في فيفا بحرية",
+      "attention": 799.546875,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 747.9375,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 747.9375,
+          "right": 164.578125,
+          "bottom": 803.4375,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1280,
+      "name": "empty-dashboard",
+      "route": "/workspace",
+      "status": 200,
+      "file": "ar-1280-empty-dashboard.png",
+      "overflow": false,
+      "heading": "وكالتك في لمحة.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "home",
+      "route": "",
+      "status": 200,
+      "file": "ar-1440-home.png",
+      "overflow": false,
+      "heading": "عقار واحد.كل الفرص.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "platform",
+      "route": "/solutions",
+      "status": 200,
+      "file": "ar-1440-platform.png",
+      "overflow": false,
+      "heading": "العمل مترابط.\nوأدواتك كذلك.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "ai",
+      "route": "/features/ai-assistance",
+      "status": 200,
+      "file": "ar-1440-ai.png",
+      "overflow": false,
+      "heading": "مساعدة في الإعداد. والقرار لك.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "how-it-works",
+      "route": "/how-it-works",
+      "status": 200,
+      "file": "ar-1440-how-it-works.png",
+      "overflow": false,
+      "heading": "رافق عقاراً واحداً\nطوال يوم العمل.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "integrations",
+      "route": "/integrations",
+      "status": 200,
+      "file": "ar-1440-integrations.png",
+      "overflow": false,
+      "heading": "لكل قناة\nدور واضح.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "pricing",
+      "route": "/pricing",
+      "status": 200,
+      "file": "ar-1440-pricing.png",
+      "overflow": false,
+      "heading": "تناسب محفظتك.\nوتوضح الحدود.",
+      "firstRow": 1613.921875,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 908.40625,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 908.40625,
+          "right": 164.578125,
+          "bottom": 963.90625,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "agencies",
+      "route": "/solutions/agencies",
+      "status": 200,
+      "file": "ar-1440-agencies.png",
+      "overflow": false,
+      "heading": "تنسيق أفضل.\nويوم عمل أوضح.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "contact",
+      "route": "/contact",
+      "status": 200,
+      "file": "ar-1440-contact.png",
+      "overflow": false,
+      "heading": "ابدأ\nبسؤال أوضح.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "faq",
+      "route": "/faq",
+      "status": 200,
+      "file": "ar-1440-faq.png",
+      "overflow": false,
+      "heading": "التفاصيل،\nبلا تخمين.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "showcase",
+      "route": "/properties",
+      "status": 200,
+      "file": "ar-1440-showcase.png",
+      "overflow": false,
+      "heading": "اعثر على المكان المناسب لك.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 394.90625,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 394.90625,
+          "right": 164.578125,
+          "bottom": 450.40625,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "showcase-detail",
+      "route": "/properties/AQ-10233",
+      "status": 200,
+      "file": "ar-1440-showcase-detail.png",
+      "overflow": false,
+      "heading": "مسكن للتملك الحر في فيفا بحرية",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 892.359375,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 892.359375,
+          "right": 164.578125,
+          "bottom": 947.859375,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "dashboard",
+      "route": "/workspace",
+      "status": 200,
+      "file": "ar-1440-dashboard.png",
+      "overflow": false,
+      "heading": "وكالتك في لمحة.",
+      "attention": 320.5,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "inventory",
+      "route": "/workspace/inventory",
+      "status": 200,
+      "file": "ar-1440-inventory.png",
+      "overflow": false,
+      "heading": "العقارات",
+      "firstRow": 399.9375,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "create",
+      "route": "/workspace/inventory/new",
+      "status": 200,
+      "file": "ar-1440-create.png",
+      "overflow": false,
+      "heading": "إنشاء عقار",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "property",
+      "route": "/workspace/inventory/AQ-10233",
+      "status": 200,
+      "file": "ar-1440-property.png",
+      "overflow": false,
+      "heading": "مسكن للتملك الحر في فيفا بحرية",
+      "attention": 799.546875,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 747.9375,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 747.9375,
+          "right": 164.578125,
+          "bottom": 803.4375,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "editor",
+      "route": "/workspace/inventory/AQ-10233/edit",
+      "status": 200,
+      "file": "ar-1440-editor.png",
+      "overflow": false,
+      "heading": "جهّز سجل عقارك.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 828.171875,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 828.171875,
+          "right": 164.578125,
+          "bottom": 883.671875,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "launch",
+      "route": "/workspace/publish?mode=launch&property=AQ-10233",
+      "status": 200,
+      "file": "ar-1440-launch.png",
+      "overflow": false,
+      "heading": "إطلاق العقار بمساعدة AI",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "publish",
+      "route": "/workspace/publish?property=AQ-10233&goal=portals&channels=qatar-living&channel=qatar-living",
+      "status": 200,
+      "file": "ar-1440-publish.png",
+      "overflow": false,
+      "heading": "النشر والترويج",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "campaigns",
+      "route": "/workspace/campaigns",
+      "status": 200,
+      "file": "ar-1440-campaigns.png",
+      "overflow": false,
+      "heading": "تسويق العقارات مع سجل مراجعة.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "campaign-review",
+      "route": "/workspace/campaigns/new?property=AQ-10233",
+      "status": 200,
+      "file": "ar-1440-campaign-review.png",
+      "overflow": false,
+      "heading": "ابدأ من سجل العقار الأساسي.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 828.171875,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 828.171875,
+          "right": 164.578125,
+          "bottom": 883.671875,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "leads",
+      "route": "/workspace/leads",
+      "status": 200,
+      "file": "ar-1440-leads.png",
+      "overflow": false,
+      "heading": "إدارة العملاء",
+      "firstRow": 596.03125,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "inbox",
+      "route": "/workspace/inbox",
+      "status": 200,
+      "file": "ar-1440-inbox.png",
+      "overflow": false,
+      "heading": "صندوق المحادثات الموحد",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "analytics",
+      "route": "/workspace/analytics",
+      "status": 200,
+      "file": "ar-1440-analytics.png",
+      "overflow": false,
+      "heading": "تعرّف على القنوات التي تصنع الفرص.",
+      "firstRow": 1030.515625,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "billing",
+      "route": "/workspace/billing",
+      "status": 200,
+      "file": "ar-1440-billing.png",
+      "overflow": false,
+      "heading": "الاستخدام وقواعد الباقة",
+      "firstRow": 567.53125,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "settings",
+      "route": "/workspace/settings",
+      "status": 200,
+      "file": "ar-1440-settings.png",
+      "overflow": false,
+      "heading": "إعدادات الوكالة",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "assistant-open",
+      "route": "/workspace/inventory/AQ-10233",
+      "status": 200,
+      "file": "ar-1440-assistant-open.png",
+      "overflow": false,
+      "heading": "مسكن للتملك الحر في فيفا بحرية",
+      "attention": 799.546875,
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 747.9375,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 747.9375,
+          "right": 164.578125,
+          "bottom": 803.4375,
+          "left": 20
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "empty-dashboard",
+      "route": "/workspace",
+      "status": 200,
+      "file": "ar-1440-empty-dashboard.png",
+      "overflow": false,
+      "heading": "وكالتك في لمحة.",
+      "launcher": {
+        "position": "fixed",
+        "bounds": {
+          "x": 20,
+          "y": 924.453125,
+          "width": 144.578125,
+          "height": 55.5,
+          "top": 924.453125,
+          "right": 164.578125,
+          "bottom": 979.953125,
+          "left": 20
+        }
+      }
+    }
+  ],
+  "errors": []
+}

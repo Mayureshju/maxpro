@@ -2824,3 +2824,6 @@ html:has(.ag-property-editor) {
 }
 
 .ag-empty-totals {display:none;}
+.ag-property-sections {display:flex;flex-wrap:wrap;gap:4px 20px;margin-block:16px;border-block:1px solid var(--line);padding:4px 0;}
+.ag-property-sections a {display:inline-flex;align-items:center;min-block-size:44px;color:var(--primary);font-size:14px;}
+@media(min-width:769px) {.ag-compact-inventory .fx-inventory-toolbar {display:flex;flex-wrap:wrap;}.ag-compact-inventory .fx-inventory-toolbar>.px-search {flex:1;min-inline-size:200px;}.ag-compact-inventory .fx-inventory-toolbar>select {inline-size:auto;max-inline-size:190px;}}

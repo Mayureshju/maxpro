@@ -961,3 +961,10 @@ main:has(.crm-nav) :is(input,textarea)::placeholder {
   align-items: end;
   gap: 9px;
   display: flex;background:var(--surface);border-block-start:1px solid var(--line);}
+/* Bring real enquiry work into view while retaining all existing filter controls. */
+.prototype-main:has(.crm-quick-filters) .crm-nav {margin-block:0 12px;padding-block:0 8px;}
+.prototype-main:has(.crm-quick-filters) .crm-summary {padding-block:10px;margin-block-end:12px;}
+.prototype-main:has(.crm-quick-filters) .crm-summary b {font-size:18px;font-weight:650;}
+.prototype-main:has(.crm-quick-filters) .crm-filters {margin-block:8px 12px;padding-block:8px;gap:10px 16px;}
+.prototype-main:has(.crm-quick-filters) .crm-quick-filters {padding-block:10px;gap:6px;}
+@media(min-width:1280px) {.prototype-main:has(.crm-quick-filters) .crm-filters {grid-template-columns:repeat(8,minmax(0,1fr));}.prototype-main:has(.crm-quick-filters) .crm-filters>label:first-child {grid-column:span 2;}}

@@ -22,9 +22,9 @@ for(const locale of ['en','ar']){
  test(`client reference ${locale}: compact navigation, fonts, keyboard and reduced motion`,async({page})=>{
   await page.setViewportSize({width:1440,height:1000});await page.goto(`/${locale}`);await page.evaluate(async()=>{await Promise.all([document.fonts.load('16px Manrope'),document.fonts.load('16px "IBM Plex Sans Arabic"')]);await document.fonts.ready;});
   expect(await page.evaluate(()=>document.fonts.check('16px Manrope'))).toBe(true);expect(await page.evaluate(()=>document.fonts.check('16px "IBM Plex Sans Arabic"'))).toBe(true);
-  await expect(page.locator('.desktop-nav>details,.desktop-nav>a')).toHaveCount(4);
+  await expect(page.locator('.desktop-nav>details,.desktop-nav>a')).toHaveCount(5);
   const platform=page.locator('.mk-nav-disclosure summary');await platform.focus();await page.keyboard.press('Enter');await expect(page.locator('.mk-nav-disclosure')).toHaveAttribute('open','');await page.keyboard.press('Escape');await expect(platform).toBeFocused();
-  await page.locator('.header-cta').click();await expect(page).toHaveURL(new RegExp(`/${locale}/register$`));await expect(page.getByRole('combobox',{name:/persona|شخصية/})).toHaveCount(0);
+  await page.locator('.header-cta').click();await expect(page).toHaveURL(new RegExp(`/${locale}/sign-in$`));await expect(page.getByRole('combobox',{name:/persona|شخصية/})).toHaveCount(0);
   await page.emulateMedia({reducedMotion:'reduce'});await page.goto(`/${locale}/workspace`);await expect(page.locator('html')).toHaveAttribute('dir',ar?'rtl':'ltr');
   const collapse=page.getByRole('button',{name:t('Collapse sidebar','طي الشريط الجانبي'),exact:true});await collapse.click();await page.reload();await expect(page.locator('.prototype-shell')).toHaveClass(/sidebar-collapsed/);expect(await page.locator('.prototype-shell').evaluate(el=>parseFloat(getComputedStyle(el).transitionDuration))).toBeLessThanOrEqual(.01);
  });

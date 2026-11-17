@@ -1,5 +1,5 @@
 {
-  "captureBuild": "Phase 15 Webpack production preview",
+  "captureBuild": "Phase 17 Webpack production preview",
   "records": [
     {
       "locale": "en",
@@ -9,7 +9,7 @@
         "height": 812
       },
       "file": "en-inbox-task-mobile.webp",
-      "sha256": "d6657996da3d7b1456f7f53ec4b65859da6e311c0321af146c007a79c5b66cc4"
+      "sha256": "112b27e9ebb840efd313cc797967cd8d035a726c002d011c9a669474cce0678c"
     },
     {
       "locale": "en",
@@ -19,7 +19,7 @@
         "height": 812
       },
       "file": "en-campaign-task-mobile.webp",
-      "sha256": "b5df2f2181a68b22f9e9279234fd88ee4b68ac9965f0685f2d583647fb839dab"
+      "sha256": "bd2c0b0f3a8c3d0fe772f49be684b484708ce9285b6395cc6f8d8f1cceef5bf5"
     },
     {
       "locale": "ar",
@@ -29,7 +29,7 @@
         "height": 812
       },
       "file": "ar-inbox-task-mobile.webp",
-      "sha256": "30a5704e01292e14e2ba361c0040de6c0c7da31815f1b55bf55bbbdd1dada519"
+      "sha256": "9e396208e8a4d2018036b4290ae378eda6643ec73e0e0a556a1b508a9e300984"
     },
     {
       "locale": "ar",
@@ -39,7 +39,7 @@
         "height": 812
       },
       "file": "ar-campaign-task-mobile.webp",
-      "sha256": "0aa15f250cc68d2ff33408142a80b84a33a5dd1d5900bce6604202d1070a30db"
+      "sha256": "ccbf9cdac577acf446d14876dd58f053dfa08005657e38df3f92e2d7b7d84568"
     }
   ]
 }

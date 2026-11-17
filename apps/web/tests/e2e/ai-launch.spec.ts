@@ -77,7 +77,7 @@ for(const locale of ['en','ar']){
  });
  test(`AI ${locale}: six-width rendered evidence and accessibility`,async({page},info)=>{
   test.skip(info.project.name==='mobile-chromium','The complete width matrix runs once per locale. All workflow cases run in both projects.');test.setTimeout(180000);await seed(page);
-  const root=resolve('../../artifacts/phase16/after');mkdirSync(root,{recursive:true});const records=[];const pkg=readdirSync(resolve('../../node_modules/.pnpm')).find(n=>n.startsWith('axe-core@'))!;const axe=resolve('../../node_modules/.pnpm',pkg,'node_modules/axe-core/axe.min.js');
+  const root=resolve(`../../${process.env.MAXPRO_EVIDENCE_ROOT??'artifacts/phase16'}/after`);mkdirSync(root,{recursive:true});const records=[];const pkg=readdirSync(resolve('../../node_modules/.pnpm')).find(n=>n.startsWith('axe-core@'))!;const axe=resolve('../../node_modules/.pnpm',pkg,'node_modules/axe-core/axe.min.js');
   const routes=[['dashboard',''],['inventory-populated','/inventory'],['property','/inventory/AQ-50002'],['launch','/publish?mode=launch&property=AQ-50002&goal=portals&channels=qatar-living&channel=qatar-living'],['publish','/publish?property=AQ-50002&goal=portals&channels=qatar-living&channel=qatar-living'],['campaign-review','/campaigns/DEMO-CAMPAIGN-00000000-0000-4000-8000-000000000014'],['leads','/leads'],['inbox','/inbox?lead=LE-2100'],['copilot','/inventory/AQ-50002']];
   for(const width of [320,375,768,1024,1280,1440]){
    await page.setViewportSize({width,height:width<600?812:1000});

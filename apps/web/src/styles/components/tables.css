@@ -155,3 +155,8 @@ main:has(.oa-nav) .px-table-scroll:focus-visible {
  .prototype-shell .ag-daily-inventory td {padding-block:8px;}
  .prototype-shell .ag-daily-inventory th {padding-block:12px;}
 }
+@media(max-width:768px) {
+ .prototype-shell .ag-daily-leads tbody tr td {padding:0;}
+ .prototype-shell .ag-daily-leads td:nth-child(3),.prototype-shell .ag-daily-leads td:last-child {grid-column:auto;min-inline-size:0;}
+ .ag-daily-leads td:nth-child(3)>a {display:inline-flex;align-items:center;min-block-size:44px;}
+}

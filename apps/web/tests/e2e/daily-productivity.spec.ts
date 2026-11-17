@@ -80,7 +80,7 @@ for(const locale of ['en','ar']){
    await page.goto(`/${locale}/workspace${route}`);await expect(page.locator('main h1')).toBeVisible();if(!route)await page.getByRole('button',{name:t('Getting-started help','مساعدة البداية'),exact:true}).click();if(route==='/inventory/new')await page.getByRole('button',{name:t('Save & continue','حفظ ومتابعة'),exact:true}).click();
    await page.addScriptTag({path:axe});const result=await page.evaluate('window.axe.run(document,{runOnly:{type:"tag",values:["wcag2a","wcag2aa","wcag21aa","wcag22aa"]}})') as {violations:unknown[]};reports.push({route,violations:result.violations});
   }
-  const root=resolve('../../artifacts/phase14/accessibility');mkdirSync(root,{recursive:true});writeFileSync(resolve(root,`${info.project.name}-${locale}.json`),JSON.stringify(reports,null,2));expect(reports.flatMap(r=>r.violations)).toEqual([]);
+  const root=resolve(`../../${process.env.MAXPRO_EVIDENCE_ROOT??'artifacts/phase14'}/accessibility`);mkdirSync(root,{recursive:true});writeFileSync(resolve(root,`${info.project.name}-${locale}.json`),JSON.stringify(reports,null,2));expect(reports.flatMap(r=>r.violations)).toEqual([]);
  });
  test(`daily ${locale}: enquiry triage links properties and protects an unsaved Inbox reply`,async({page})=>{
   const state=await seed(page);await page.goto(`/${locale}/workspace/leads`);await page.getByRole('button',{name:new RegExp(t('Unanswered recorded messages','رسائل مسجلة دون رد'))}).click();await expect(page.locator('.ag-daily-leads tbody tr')).toHaveCount(state.crm.leads.filter(l=>unansweredEnquiry(l)&&!['Won','Lost'].includes(l.stage)).length);

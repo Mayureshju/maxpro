@@ -1,0 +1,26 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test product-experience.spec.ts --grep 'public assistant|floating entry|launcher placement' --timeout=60000 --trace=off
+
+
+Running 12 tests using 2 workers
+
+(node:28053) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:28052) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   2 [chromium] › tests/e2e/product-experience.spec.ts:43:2 › experience en: public assistant never reads saved agency records or writes state (1.3s)
+  ✓   1 [mobile-chromium] › tests/e2e/product-experience.spec.ts:43:2 › experience en: public assistant never reads saved agency records or writes state (1.3s)
+  ✓   4 [mobile-chromium] › tests/e2e/product-experience.spec.ts:50:2 › experience en: floating entry clears inventory actions after scrolling (643ms)
+  ✓   3 [chromium] › tests/e2e/product-experience.spec.ts:50:2 › experience en: floating entry clears inventory actions after scrolling (693ms)
+  -   5 [mobile-chromium] › tests/e2e/product-experience.spec.ts:55:2 › experience en: launcher placement, focus, zoom and accessibility at all widths
+  ✓   7 [mobile-chromium] › tests/e2e/product-experience.spec.ts:43:2 › experience ar: public assistant never reads saved agency records or writes state (1.2s)
+  ✓   8 [mobile-chromium] › tests/e2e/product-experience.spec.ts:50:2 › experience ar: floating entry clears inventory actions after scrolling (673ms)
+  -   9 [mobile-chromium] › tests/e2e/product-experience.spec.ts:55:2 › experience ar: launcher placement, focus, zoom and accessibility at all widths
+  ✓   6 [chromium] › tests/e2e/product-experience.spec.ts:55:2 › experience en: launcher placement, focus, zoom and accessibility at all widths (8.5s)
+  ✓  10 [chromium] › tests/e2e/product-experience.spec.ts:43:2 › experience ar: public assistant never reads saved agency records or writes state (845ms)
+  ✓  11 [chromium] › tests/e2e/product-experience.spec.ts:50:2 › experience ar: floating entry clears inventory actions after scrolling (592ms)
+  ✓  12 [chromium] › tests/e2e/product-experience.spec.ts:55:2 › experience ar: launcher placement, focus, zoom and accessibility at all widths (7.7s)
+
+  2 skipped
+  10 passed (20.8s)
