@@ -1,0 +1,321 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test --timeout=60000 --trace=off
+
+
+Running 1116 tests using 4 workers
+
+(node:10700) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:10698) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:10701) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:10699) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓     4 [chromium] › tests/e2e/agency-first.spec.ts:19:1 › agency assistance: only explicitly labelled source facts become proposals (289ms)
+  ✓     3 [chromium] › tests/e2e/ai-launch.spec.ts:13:1 › AI intents are bounded, grounded, independently scoped and never authorize tools (289ms)
+  ✓     2 [chromium] › tests/e2e/campaigns.spec.ts:111:1 › campaign domain: ordered approvals, stale revisions, roles, tenant and setup guards (292ms)
+  ✓     7 [chromium] › tests/e2e/campaigns.spec.ts:152:1 › campaign domain: policy blockers include licensing, review, media, targeted exclusions, numeric facts and caps (70ms)
+  ✓     5 [chromium] › tests/e2e/ai-launch.spec.ts:26:1 › AI acceptance retains canonical revision rejection, review invalidation and suspension guard (71ms)
+  ✓     6 [chromium] › tests/e2e/agency-first.spec.ts:25:1 › agency sharing: independent revisions preserve listing queues, campaigns and reviewed copy (79ms)
+  ✓     8 [chromium] › tests/e2e/campaigns.spec.ts:173:1 › campaign domain: deterministic bilingual suggestions cite only current canonical facts; accept/reject is audited (79ms)
+  ✓    11 [chromium] › tests/e2e/campaigns.spec.ts:242:1 › campaign domain: property changes invalidate approvals and stale creative references on recovery (85ms)
+  ✓    12 [chromium] › tests/e2e/campaigns.spec.ts:262:1 › campaign domain: optional admin, cancel/resume/duplicate and rejection retain independent histories (91ms)
+  ✓    13 [chromium] › tests/e2e/campaigns.spec.ts:295:1 › campaign domain: Meta and Google attributed lead intake deduplicates and reports actual fictional CRM observations (91ms)
+  ✓    14 [chromium] › tests/e2e/campaigns.spec.ts:371:1 › campaign domain: migration and corrupted state preserve valid records and strip unknown fields (83ms)
+  ✓    10 [chromium] › tests/e2e/agency-first.spec.ts:33:1 › agency editing: stale wizard media cannot overwrite another operator and testing roles stay usable (868ms)
+  ✓     9 [chromium] › tests/e2e/ai-launch.spec.ts:38:2 › AI en: empty agency starts directly, selects context and safely falls back (980ms)
+  ✓    17 [chromium] › tests/e2e/ai-launch.spec.ts:47:2 › AI en: contextual copy requires acceptance and keeps property through launch (504ms)
+  ✓    15 [chromium] › tests/e2e/campaigns.spec.ts:520:3 › campaign full journey en: canonical selection to grounded creative, approvals and enquiry without seeded campaigns (1.6s)
+  ✓    18 [chromium] › tests/e2e/ai-launch.spec.ts:54:2 › AI en: property selectors retain launch mode and explicit Copilot context (639ms)
+  ✓     1 [chromium] › tests/e2e/client-reference.spec.ts:5:2 › client reference en: registration, canonical preview and organization recovery (2.5s)
+  ✓    21 [chromium] › tests/e2e/client-reference.spec.ts:22:2 › client reference en: compact navigation, fonts, keyboard and reduced motion (763ms)
+  ✓    22 [chromium] › tests/e2e/client-reference.spec.ts:31:2 › client reference en: sharing preview reflects canonical edits without replacing catalogue examples (694ms)
+  ✓    19 [chromium] › tests/e2e/campaigns.spec.ts:520:3 › campaign full journey ar: canonical selection to grounded creative, approvals and enquiry without seeded campaigns (1.7s)
+  ✓    20 [chromium] › tests/e2e/ai-launch.spec.ts:60:2 › AI en: stale proposals reject cross-tab changes and organization context is reset (1.9s)
+  ✓    25 [chromium] › tests/e2e/ai-launch.spec.ts:66:2 › AI en: existing portal engine owns approval, local queue and revision invalidation (459ms)
+  ✓    16 [chromium] › tests/e2e/agency-first.spec.ts:41:2 › agency en: registration → guided property → reviewed suggestions → portal outcome (3.9s)
+  ✓    24 [chromium] › tests/e2e/campaigns.spec.ts:589:3 › campaign en: create from canonical property, persist, edit and grounded proposal review (1.3s)
+  ✓    26 [chromium] › tests/e2e/ai-launch.spec.ts:71:2 › AI en: Copilot links retain existing unsaved-change navigation protection (585ms)
+  ✓    27 [chromium] › tests/e2e/agency-first.spec.ts:63:2 › agency en: returning sign-in and clean mobile navigation (1.3s)
+  ✓    30 [chromium] › tests/e2e/agency-first.spec.ts:67:2 › agency en: separate portal, paid ad and WhatsApp message outcomes (1.7s)
+  ✓    28 [chromium] › tests/e2e/campaigns.spec.ts:642:3 › campaign en: policy blockers, ordered approval, simulation, attributed lead replay and analytics (3.0s)
+  ✓    23 [chromium] › tests/e2e/client-reference.spec.ts:37:2 › client reference en: core journeys fit six widths and short viewports (4.6s)
+  ✓    31 [chromium] › tests/e2e/agency-first.spec.ts:78:2 › agency en: linked enquiry assistance requires draft review before a local reply (820ms)
+  ✓    32 [chromium] › tests/e2e/campaigns.spec.ts:689:3 › campaign en: approval invalidation, cancel/resume/duplicate and property integrity (1.4s)
+  ✓    33 [chromium] › tests/e2e/client-reference.spec.ts:5:2 › client reference ar: registration, canonical preview and organization recovery (2.1s)
+  ✓    35 [chromium] › tests/e2e/campaigns.spec.ts:722:3 › campaign en: invalid IDs, corrupt records, old-envelope migration and missing prerequisites (1.0s)
+  ✓    36 [chromium] › tests/e2e/client-reference.spec.ts:22:2 › client reference ar: compact navigation, fonts, keyboard and reduced motion (858ms)
+  ✓    38 [chromium] › tests/e2e/client-reference.spec.ts:31:2 › client reference ar: sharing preview reflects canonical edits without replacing catalogue examples (769ms)
+  ✓    37 [chromium] › tests/e2e/campaigns.spec.ts:760:3 › campaign en: provider catalogue, Google plan and consent-aware event preview (1.9s)
+  ✓    34 [chromium] › tests/e2e/agency-first.spec.ts:81:2 › agency en: four-width actual screenshots and accessibility (4.6s)
+  ✓    40 [chromium] › tests/e2e/campaigns.spec.ts:800:5 › campaign evidence en 1440: screenshots and responsive workflow (2.7s)
+  ✓    39 [chromium] › tests/e2e/client-reference.spec.ts:37:2 › client reference ar: core journeys fit six widths and short viewports (4.7s)
+  ✓    43 [chromium] › tests/e2e/connector-hub.spec.ts:39:1 › internal export contracts handle invalid values, Unicode, XML controls and CSV formulas (80ms)
+  ✓    44 [chromium] › tests/e2e/connector-hub.spec.ts:49:1 › command guards reject stale approval, unsupported destinations, missing approval and quota bypass (69ms)
+  ✓    41 [chromium] › tests/e2e/agency-first.spec.ts:41:2 › agency ar: registration → guided property → reviewed suggestions → portal outcome (3.8s)
+  ✓    45 [chromium] › tests/e2e/connector-hub.spec.ts:58:1 › job migration retains old local history and rejects forged or corrupt attempt metadata (73ms)
+  ✓    42 [chromium] › tests/e2e/campaigns.spec.ts:800:5 › campaign evidence en 1024: screenshots and responsive workflow (2.5s)
+  ✓    46 [chromium] › tests/e2e/agency-first.spec.ts:63:2 › agency ar: returning sign-in and clean mobile navigation (1.1s)
+  ✓    47 [chromium] › tests/e2e/connector-hub.spec.ts:66:2 › connector smoke en: directory filtering, setup, removal and eligibility (1.2s)
+  ✓    50 [chromium] › tests/e2e/connector-hub.spec.ts:74:2 › connector smoke en: newly created property drives escaped XML JSON CSV and downloads (895ms)
+  ✓    29 [chromium] › tests/e2e/ai-launch.spec.ts:74:2 › AI en: six-width rendered evidence and accessibility (14.4s)
+  ✓    49 [chromium] › tests/e2e/agency-first.spec.ts:67:2 › agency ar: separate portal, paid ad and WhatsApp message outcomes (1.5s)
+  ✓    48 [chromium] › tests/e2e/campaigns.spec.ts:800:5 › campaign evidence en 768: screenshots and responsive workflow (2.2s)
+  ✓    53 [chromium] › tests/e2e/agency-first.spec.ts:78:2 › agency ar: linked enquiry assistance requires draft review before a local reply (409ms)
+  ✓    51 [chromium] › tests/e2e/connector-hub.spec.ts:85:2 › connector smoke en: blocked retry revalidates, correction queues, cancellation and filters persist (1.4s)
+  ✓    52 [chromium] › tests/e2e/ai-launch.spec.ts:38:2 › AI ar: empty agency starts directly, selects context and safely falls back (1.3s)
+  ✓    54 [chromium] › tests/e2e/campaigns.spec.ts:800:5 › campaign evidence en 375: screenshots and responsive workflow (1.6s)
+  ✓    57 [chromium] › tests/e2e/ai-launch.spec.ts:47:2 › AI ar: contextual copy requires acceptance and keeps property through launch (848ms)
+  ✓    56 [chromium] › tests/e2e/connector-hub.spec.ts:93:2 › connector en: property revision invalidates workbench and retry approval across tabs (1.7s)
+  ✓    59 [chromium] › tests/e2e/ai-launch.spec.ts:54:2 › AI ar: property selectors retain launch mode and explicit Copilot context (694ms)
+  ✓    55 [chromium] › tests/e2e/agency-first.spec.ts:81:2 › agency ar: four-width actual screenshots and accessibility (3.0s)
+  ✓    61 [chromium] › tests/e2e/ai-launch.spec.ts:60:2 › AI ar: stale proposals reject cross-tab changes and organization context is reset (845ms)
+  ✓    63 [chromium] › tests/e2e/ai-launch.spec.ts:66:2 › AI ar: existing portal engine owns approval, local queue and revision invalidation (412ms)
+  ✓    64 [chromium] › tests/e2e/ai-launch.spec.ts:71:2 › AI ar: Copilot links retain existing unsaved-change navigation protection (402ms)
+  ✓    58 [chromium] › tests/e2e/campaigns.spec.ts:874:3 › campaign accessibility en: axe across editor stages, approvals, portfolio, catalogue and analytics (2.9s)
+  ✓    60 [chromium] › tests/e2e/connector-hub.spec.ts:98:2 › connector en: responsive sections and keyboard controls at required widths (2.6s)
+  ✓    66 [chromium] › tests/e2e/campaigns.spec.ts:589:3 › campaign ar: create from canonical property, persist, edit and grounded proposal review (1.3s)
+  ✓    67 [chromium] › tests/e2e/connector-hub.spec.ts:66:2 › connector smoke ar: directory filtering, setup, removal and eligibility (1.2s)
+  ✓    69 [chromium] › tests/e2e/connector-hub.spec.ts:74:2 › connector smoke ar: newly created property drives escaped XML JSON CSV and downloads (1.1s)
+  ✓    68 [chromium] › tests/e2e/campaigns.spec.ts:642:3 › campaign ar: policy blockers, ordered approval, simulation, attributed lead replay and analytics (2.5s)
+  ✓    70 [chromium] › tests/e2e/connector-hub.spec.ts:85:2 › connector smoke ar: blocked retry revalidates, correction queues, cancellation and filters persist (1.1s)
+  ✓    71 [chromium] › tests/e2e/campaigns.spec.ts:689:3 › campaign ar: approval invalidation, cancel/resume/duplicate and property integrity (959ms)
+  ✓    72 [chromium] › tests/e2e/connector-hub.spec.ts:93:2 › connector ar: property revision invalidates workbench and retry approval across tabs (1.5s)
+  ✓    73 [chromium] › tests/e2e/campaigns.spec.ts:722:3 › campaign ar: invalid IDs, corrupt records, old-envelope migration and missing prerequisites (1.0s)
+  ✓    75 [chromium] › tests/e2e/campaigns.spec.ts:760:3 › campaign ar: provider catalogue, Google plan and consent-aware event preview (461ms)
+  ✓    76 [chromium] › tests/e2e/campaigns.spec.ts:800:5 › campaign evidence ar 1440: screenshots and responsive workflow (1.9s)
+  ✓    74 [chromium] › tests/e2e/connector-hub.spec.ts:98:2 › connector ar: responsive sections and keyboard controls at required widths (3.0s)
+  ✓    78 [chromium] › tests/e2e/connector-hub.spec.ts:106:1 › corrupt connector state recovers valid properties and excludes malformed job attempts (1.2s)
+  ✓    77 [chromium] › tests/e2e/campaigns.spec.ts:800:5 › campaign evidence ar 1024: screenshots and responsive workflow (2.0s)
+  ✓    65 [chromium] › tests/e2e/ai-launch.spec.ts:74:2 › AI ar: six-width rendered evidence and accessibility (12.1s)
+  ✓    80 [chromium] › tests/e2e/campaigns.spec.ts:800:5 › campaign evidence ar 768: screenshots and responsive workflow (1.7s)
+  ✓    81 [chromium] › tests/e2e/daily-productivity.spec.ts:18:1 › daily progress selects a coherent completed journey over an older draft; source changes regress it (73ms)
+  ✓    83 [chromium] › tests/e2e/daily-productivity.spec.ts:23:1 › daily activity preserves actual command context, safely presents unknown/missing/denied events and restores snapshots (84ms)
+  ✓    79 [chromium] › tests/e2e/connector-hub.spec.ts:111:33 › connector en: correcting canonical data lets a blocked job retry at the current revision (2.4s)
+  ✓    84 [chromium] › tests/e2e/daily-productivity.spec.ts:36:1 › daily event intake distinguishes saved accepted and duplicate receipts; suspended agency cannot create (69ms)
+  ✓    86 [chromium] › tests/e2e/daily-productivity.spec.ts:42:1 › daily latest channel status follows updated attempts rather than array position (78ms)
+  ✓    87 [chromium] › tests/e2e/daily-productivity.spec.ts:49:2 › daily en: complete setup stays compact, readable activity and scoped boundaries (792ms)
+  ✓    82 [chromium] › tests/e2e/campaigns.spec.ts:800:5 › campaign evidence ar 375: screenshots and responsive workflow (1.6s)
+  ✓    88 [chromium] › tests/e2e/daily-productivity.spec.ts:58:2 › daily en: Quick Add validates, protects edits, saves a partial draft and prevents duplicate continuation (642ms)
+  ✓    62 [chromium] › tests/e2e/daily-audit.spec.ts:7:1 › daily workspace browser audit and responsive evidence (15.3s)
+  ✓    90 [chromium] › tests/e2e/daily-productivity.spec.ts:66:2 › daily en: large inventory filters and useful property/channel recovery survive reload (671ms)
+  ✓    91 [chromium] › tests/e2e/enterprise-ux.spec.ts:8:2 › enterprise en: property search, no results, clear, Escape and manual keyboard commitment (442ms)
+  ✓    85 [chromium] › tests/e2e/connector-hub.spec.ts:111:33 › connector ar: correcting canonical data lets a blocked job retry at the current revision (2.4s)
+  ✓    94 [chromium] › tests/e2e/final-acceptance.spec.ts:14:1 › final acceptance: independent organization command slices, guards and linked records (83ms)
+  ✓    92 [chromium] › tests/e2e/daily-productivity.spec.ts:74:2 › daily en: archived property offers guarded resume and retains revision safety (402ms)
+  ✓    95 [chromium] › tests/e2e/final-acceptance.spec.ts:28:33 › final acceptance en: organization switching, reload and unknown-record recovery (894ms)
+  ✓    89 [chromium] › tests/e2e/campaigns.spec.ts:874:3 › campaign accessibility ar: axe across editor stages, approvals, portfolio, catalogue and analytics (2.5s)
+  ✓    93 [chromium] › tests/e2e/enterprise-ux.spec.ts:17:2 › enterprise en: long portfolios scroll, keep RTL alignment and escape mobile overflow (1.8s)
+  ✓    98 [chromium] › tests/e2e/final-copy.spec.ts:4:33 › final copy en: UI source labels translate and original enquiry messages stay intact (632ms)
+  ✓    99 [chromium] › tests/e2e/enterprise-ux.spec.ts:31:2 › enterprise en: purpose radios, inline validation and incomplete drafts persist (469ms)
+  ✓    97 [chromium] › tests/e2e/final-acceptance.spec.ts:28:33 › final acceptance ar: organization switching, reload and unknown-record recovery (1.7s)
+  ✓   100 [chromium] › tests/e2e/final-copy.spec.ts:4:33 › final copy ar: UI source labels translate and original enquiry messages stay intact (606ms)
+  ✓   102 [chromium] › tests/e2e/final-acceptance.spec.ts:35:1 › final acceptance: scoped repository rejects stale organization and revision envelopes (86ms)
+  ✓   101 [chromium] › tests/e2e/enterprise-ux.spec.ts:37:2 › enterprise en: agent search, disabled choices, clearing and saved context (625ms)
+  ✓   105 [chromium] › tests/e2e/enterprise-ux.spec.ts:42:2 › enterprise en: combobox open accessibility and no accidental Tab commit (506ms)
+  ✓   104 [chromium] › tests/e2e/final-acceptance.spec.ts:41:1 › final acceptance: Arabic controls and validation are translated while source inputs stay original (748ms)
+  ✓    96 [chromium] › tests/e2e/daily-productivity.spec.ts:77:2 › daily en: daily controls and completed guide pass whole-document accessibility checks (3.5s)
+  ✓   106 [chromium] › tests/e2e/enterprise-ux.spec.ts:46:2 › enterprise en: campaign search, consistent controls and contextual role disclosure (472ms)
+  ✓   109 [chromium] › tests/e2e/enterprise-ux.spec.ts:8:2 › enterprise ar: property search, no results, clear, Escape and manual keyboard commitment (487ms)
+  ✓   107 [chromium] › tests/e2e/final-acceptance.spec.ts:45:33 › final acceptance en: property pack and branded preview use selected canonical records (888ms)
+  ✓   108 [chromium] › tests/e2e/daily-productivity.spec.ts:85:2 › daily en: enquiry triage links properties and protects an unsaved Inbox reply (1.5s)
+  ✓   112 [chromium] › tests/e2e/daily-productivity.spec.ts:49:2 › daily ar: complete setup stays compact, readable activity and scoped boundaries (675ms)
+  ✓   110 [chromium] › tests/e2e/enterprise-ux.spec.ts:17:2 › enterprise ar: long portfolios scroll, keep RTL alignment and escape mobile overflow (1.6s)
+  ✓   111 [chromium] › tests/e2e/final-acceptance.spec.ts:45:33 › final acceptance ar: property pack and branded preview use selected canonical records (2.0s)
+  ✓   114 [chromium] › tests/e2e/enterprise-ux.spec.ts:31:2 › enterprise ar: purpose radios, inline validation and incomplete drafts persist (612ms)
+  ✓   113 [chromium] › tests/e2e/daily-productivity.spec.ts:58:2 › daily ar: Quick Add validates, protects edits, saves a partial draft and prevents duplicate continuation (706ms)
+  ✓   115 [chromium] › tests/e2e/final-acceptance.spec.ts:53:1 › final acceptance: native media drag reorder persists with keyboard alternatives (489ms)
+  ✓   118 [chromium] › tests/e2e/final-acceptance.spec.ts:57:1 › final acceptance: administrator membership edits update the correct inactive routing pool (83ms)
+  ✓   119 [chromium] › tests/e2e/final-acceptance.spec.ts:62:1 › final acceptance: domain guards reject foreign records even in a malformed host slice (88ms)
+  ✓   116 [chromium] › tests/e2e/enterprise-ux.spec.ts:37:2 › enterprise ar: agent search, disabled choices, clearing and saved context (567ms)
+  ✓   120 [chromium] › tests/e2e/final-acceptance.spec.ts:67:50 › final acceptance: new landlord receives enquiries directly without team management (66ms)
+  ✓   122 [chromium] › tests/e2e/final-acceptance.spec.ts:67:50 › final acceptance: new broker receives enquiries directly without team management (85ms)
+  ✓   117 [chromium] › tests/e2e/daily-productivity.spec.ts:66:2 › daily ar: large inventory filters and useful property/channel recovery survive reload (762ms)
+  ✓   123 [chromium] › tests/e2e/final-acceptance.spec.ts:71:1 › final acceptance: source-message wording is not mistaken for a fictional actor label (73ms)
+  ✓   125 [chromium] › tests/e2e/first-use.spec.ts:13:1 › first-use progress derives one saved property journey and ignores navigation/preparation alone (86ms)
+  ✓   121 [chromium] › tests/e2e/enterprise-ux.spec.ts:42:2 › enterprise ar: combobox open accessibility and no accidental Tab commit (451ms)
+  ✓   124 [chromium] › tests/e2e/daily-productivity.spec.ts:74:2 › daily ar: archived property offers guarded resume and retains revision safety (350ms)
+  ✓   127 [chromium] › tests/e2e/enterprise-ux.spec.ts:46:2 › enterprise ar: campaign search, consistent controls and contextual role disclosure (389ms)
+  ✓   129 [chromium] › tests/e2e/frontend-polish.spec.ts:7:2 › frontend en: inventory filters combine, validate, reset and preserve both views (405ms)
+  ✓   103 [chromium] › tests/e2e/final-visual.spec.ts:8:2 › final visual en: every major workflow in the running app (5.9s)
+  ✓   128 [chromium] › tests/e2e/daily-productivity.spec.ts:77:2 › daily ar: daily controls and completed guide pass whole-document accessibility checks (2.4s)
+  ✓   126 [chromium] › tests/e2e/first-use.spec.ts:23:2 › first use en: empty agency → quick add → resume → review → local queue → fictional enquiry → follow-up (3.3s)
+  ✓   130 [chromium] › tests/e2e/frontend-polish.spec.ts:27:2 › frontend en: unsaved edits survive stay and failed save; successful save releases navigation (2.6s)
+  ✓   132 [chromium] › tests/e2e/daily-productivity.spec.ts:85:2 › daily ar: enquiry triage links properties and protects an unsaved Inbox reply (1.2s)
+  ✓   135 [chromium] › tests/e2e/lead-crm.spec.ts:81:1 › CRM domain: five internal payloads preserve source, event, property, timestamps and same-name identities (181ms)
+  ✓   136 [chromium] › tests/e2e/lead-crm.spec.ts:100:1 › CRM domain: replay is idempotent and does not rotate; different source same event is distinct (101ms)
+  ✓   134 [chromium] › tests/e2e/frontend-polish.spec.ts:46:2 › frontend en: dashboard links to canonical creation and scoped activity (878ms)
+  ✓   137 [chromium] › tests/e2e/lead-crm.spec.ts:113:1 › CRM domain: malformed, foreign-org, missing-property, future and personal data inputs reject without mutations (94ms)
+  ✓   133 [chromium] › tests/e2e/first-use.spec.ts:48:2 › first use en: full editor carries quick facts and repeated submit creates one draft (1.2s)
+  ✓   139 [chromium] › tests/e2e/lead-crm.spec.ts:155:1 › CRM domain: round-robin survives hydration and skips unavailable/inactive agents (90ms)
+  ✓   141 [chromium] › tests/e2e/lead-crm.spec.ts:177:1 › CRM domain: fallback, backlog, manual and invalid assignment have explicit outcomes (105ms)
+  ✓   138 [chromium] › tests/e2e/frontend-polish.spec.ts:54:2 › frontend en: simplified navigation and mobile focus remain usable (282ms)
+  ✓   142 [chromium] › tests/e2e/lead-crm.spec.ts:204:1 › CRM domain: arbitrary new canonical properties receive leads; unknown IDs do not substitute (66ms)
+  ✓   144 [chromium] › tests/e2e/lead-crm.spec.ts:217:1 › CRM domain: stage, qualification, notes, opt-out and replies share one lead and response cohort (85ms)
+  ✓   145 [chromium] › tests/e2e/lead-crm.spec.ts:247:1 › CRM domain: viewing conflicts, cancellation and valid transitions persist (85ms)
+  ✓   146 [chromium] › tests/e2e/lead-crm.spec.ts:293:1 › CRM domain: date filters use inclusive Qatar received dates and explicit costs only (65ms)
+  ✓   147 [chromium] › tests/e2e/lead-crm.spec.ts:317:1 › CRM storage: migration, invalid references, schema, identity and nested metadata recover safely (73ms)
+  ✓   143 [chromium] › tests/e2e/frontend-polish.spec.ts:61:2 › frontend en: bulk import, FAQ and agency preview have truthful behavior (490ms)
+  ✓   140 [chromium] › tests/e2e/first-use.spec.ts:54:2 › first use en: missing source warnings never invent facts or silently save (714ms)
+  ✓   149 [chromium] › tests/e2e/frontend-polish.spec.ts:7:2 › frontend ar: inventory filters combine, validate, reset and preserve both views (462ms)
+  ✓   148 [chromium] › tests/e2e/lead-crm.spec.ts:355:3 › CRM en: intake replay, invalid event, filters and keyboard pipeline work (679ms)
+  ✓   151 [chromium] › tests/e2e/frontend-polish.spec.ts:27:2 › frontend ar: unsaved edits survive stay and failed save; successful save releases navigation (2.4s)
+  ✓   153 [chromium] › tests/e2e/frontend-polish.spec.ts:46:2 › frontend ar: dashboard links to canonical creation and scoped activity (343ms)
+  ✓   152 [chromium] › tests/e2e/lead-crm.spec.ts:397:3 › CRM en: stage, conversation, handover, viewing cancellation and analytics persist (2.8s)
+  ✓   154 [chromium] › tests/e2e/frontend-polish.spec.ts:54:2 › frontend ar: simplified navigation and mobile focus remain usable (241ms)
+  ✓   155 [chromium] › tests/e2e/lead-crm.spec.ts:355:3 › CRM ar: intake replay, invalid event, filters and keyboard pipeline work (600ms)
+  ✓   156 [chromium] › tests/e2e/frontend-polish.spec.ts:61:2 › frontend ar: bulk import, FAQ and agency preview have truthful behavior (601ms)
+  ✓   150 [chromium] › tests/e2e/first-use.spec.ts:23:2 › first use ar: empty agency → quick add → resume → review → local queue → fictional enquiry → follow-up (4.9s)
+  ✓   158 [chromium] › tests/e2e/frontend-polish.spec.ts:69:33 › frontend en: public responsive layouts keep research actions, footer and editorial content inside viewport (1.0s)
+  ✓   159 [chromium] › tests/e2e/first-use.spec.ts:48:2 › first use ar: full editor carries quick facts and repeated submit creates one draft (695ms)
+  ✓   157 [chromium] › tests/e2e/lead-crm.spec.ts:397:3 › CRM ar: stage, conversation, handover, viewing cancellation and analytics persist (1.9s)
+  ✓   160 [chromium] › tests/e2e/frontend-polish.spec.ts:69:33 › frontend ar: public responsive layouts keep research actions, footer and editorial content inside viewport (1.1s)
+  ✓   161 [chromium] › tests/e2e/first-use.spec.ts:54:2 › first use ar: missing source warnings never invent facts or silently save (704ms)
+  ✓   162 [chromium] › tests/e2e/lead-crm.spec.ts:467:1 › CRM browser: routing cursor persists, unavailable agents are excluded, manual intake enters backlog (673ms)
+  ✓   163 [chromium] › tests/e2e/frontend-polish.spec.ts:76:33 › frontend en: newly saved campaign keeps the next stage after navigation (379ms)
+  ✓   166 [chromium] › tests/e2e/frontend-polish.spec.ts:76:33 › frontend ar: newly saved campaign keeps the next stage after navigation (448ms)
+  ✓   167 [chromium] › tests/e2e/marketing.spec.ts:8:2 › marketing en: unique routes, localized metadata and public navigation (1.6s)
+  ✓   165 [chromium] › tests/e2e/lead-crm.spec.ts:489:1 › CRM browser: a newly created canonical property can receive a simulated lead (2.2s)
+  ✓   168 [chromium] › tests/e2e/marketing.spec.ts:14:2 › marketing en: product tabs, keyboard navigation and authentic mobile images (778ms)
+  ✓   170 [chromium] › tests/e2e/marketing.spec.ts:18:2 › marketing en: guided tour back, next, step selection and demo destination (627ms)
+  ✓   169 [chromium] › tests/e2e/lead-crm.spec.ts:520:1 › CRM browser: corrupt saved CRM excludes invalid leads but preserves properties and jobs; unknown ID is explicit (1.3s)
+  ✓   164 [chromium] › tests/e2e/lifecycle.spec.ts:36:2 › lifecycle en create, resume, review, media and per-destination history (4.0s)
+  ✓   171 [chromium] › tests/e2e/marketing.spec.ts:21:2 › marketing en: mobile menu contains focus, closes on Escape and returns scroll (512ms)
+  ✓   174 [chromium] › tests/e2e/marketing.spec.ts:24:2 › marketing en: pricing limits, explanations and keyboard FAQ (392ms)
+  ✓   172 [chromium] › tests/e2e/lead-crm.spec.ts:549:1 › CRM browser: fictional spend and date/property filters have explicit provenance (1.2s)
+  ✓   175 [chromium] › tests/e2e/marketing.spec.ts:27:2 › marketing en: fictional contact preview and reviewed assistance stay local (324ms)
+  ✓   173 [chromium] › tests/e2e/lifecycle.spec.ts:117:2 › lifecycle en invalid IDs never fall back to a sample (1.3s)
+  ✓   177 [chromium] › tests/e2e/marketing.spec.ts:30:2 › marketing en: primary CTA enters existing demo onboarding (1.2s)
+  ✓   179 [chromium] › tests/e2e/marketing.spec.ts:33:2 › marketing en: locale switching keeps feature route, query and hash (330ms)
+  ✓   176 [chromium] › tests/e2e/lead-crm.spec.ts:576:5 › CRM visual en 1440: eight connected operational workspaces (1.7s)
+  ✓   180 [chromium] › tests/e2e/marketing.spec.ts:36:2 › marketing en: reduced motion and narrow/short layouts (758ms)
+  ✓   178 [chromium] › tests/e2e/lifecycle.spec.ts:36:2 › lifecycle ar create, resume, review, media and per-destination history (3.2s)
+  ✓   181 [chromium] › tests/e2e/lead-crm.spec.ts:576:5 › CRM visual en 1024: eight connected operational workspaces (2.3s)
+  ✓   183 [chromium] › tests/e2e/lifecycle.spec.ts:117:2 › lifecycle ar invalid IDs never fall back to a sample (1.8s)
+  ✓   184 [chromium] › tests/e2e/lead-crm.spec.ts:576:5 › CRM visual en 768: eight connected operational workspaces (1.9s)
+  ✓   182 [chromium] › tests/e2e/marketing.spec.ts:39:2 › marketing en: full-document accessibility including expanded controls (3.7s)
+  ✓   185 [chromium] › tests/e2e/lifecycle.spec.ts:125:1 › arbitrary Studio input and document selection never fabricate extracted property facts (527ms)
+  ✓   188 [chromium] › tests/e2e/lifecycle.spec.ts:133:1 › file metadata persists without binary or blob URLs and changes actual media checks (1.1s)
+  ✓   131 [chromium] › tests/e2e/final-visual.spec.ts:12:2 › final accessibility en: every active page and translation inventory (22.8s)
+  ✓   187 [chromium] › tests/e2e/marketing.spec.ts:8:2 › marketing ar: unique routes, localized metadata and public navigation (2.3s)
+  ✓   189 [chromium] › tests/e2e/lifecycle.spec.ts:143:1 › fact edits invalidate review while media changes alter preflight and preserve revisions (1.3s)
+  ✓   186 [chromium] › tests/e2e/lead-crm.spec.ts:576:5 › CRM visual en 375: eight connected operational workspaces (2.6s)
+  ✓   191 [chromium] › tests/e2e/marketing.spec.ts:14:2 › marketing ar: product tabs, keyboard navigation and authentic mobile images (733ms)
+  ✓   192 [chromium] › tests/e2e/lifecycle.spec.ts:153:2 › starter enforces 3 listing reservations and preserves drafts over quota (717ms)
+  ✓   194 [chromium] › tests/e2e/marketing.spec.ts:18:2 › marketing ar: guided tour back, next, step selection and demo destination (509ms)
+  ✓   196 [chromium] › tests/e2e/marketing.spec.ts:21:2 › marketing ar: mobile menu contains focus, closes on Escape and returns scroll (460ms)
+  ✓   195 [chromium] › tests/e2e/lifecycle.spec.ts:153:2 › pro enforces 25 listing reservations and preserves drafts over quota (801ms)
+  ✓   193 [chromium] › tests/e2e/lead-crm.spec.ts:576:5 › CRM visual ar 1440: eight connected operational workspaces (2.0s)
+  ✓   197 [chromium] › tests/e2e/marketing.spec.ts:24:2 › marketing ar: pricing limits, explanations and keyboard FAQ (569ms)
+  ✓   200 [chromium] › tests/e2e/marketing.spec.ts:27:2 › marketing ar: fictional contact preview and reviewed assistance stay local (323ms)
+  ✓   198 [chromium] › tests/e2e/lifecycle.spec.ts:167:1 › Pro portal quota and Starter Meta entitlement are separate from draft saving (1.1s)
+  ✓   202 [chromium] › tests/e2e/lifecycle.spec.ts:172:1 › corrupt canonical records are excluded while valid drafts and legacy edits recover (622ms)
+  ✓   201 [chromium] › tests/e2e/marketing.spec.ts:30:2 › marketing ar: primary CTA enters existing demo onboarding (1.1s)
+  ✓   199 [chromium] › tests/e2e/lead-crm.spec.ts:576:5 › CRM visual ar 1024: eight connected operational workspaces (2.0s)
+  ✓   204 [chromium] › tests/e2e/marketing.spec.ts:33:2 › marketing ar: locale switching keeps feature route, query and hash (638ms)
+  ✓   203 [chromium] › tests/e2e/lifecycle.spec.ts:179:1 › changing a record in another tab rejects stale editor saves and resets publishing approval (1.4s)
+  ✓   207 [chromium] › tests/e2e/lifecycle.spec.ts:187:1 › Studio creates a stable route and resumes saved source and proposed copy after reload (491ms)
+  ✓   206 [chromium] › tests/e2e/marketing.spec.ts:36:2 › marketing ar: reduced motion and narrow/short layouts (1.2s)
+  ✓   208 [chromium] › tests/e2e/lifecycle.spec.ts:191:1 › valid Phase 0 edits migrate into canonical revisions without losing source identity (507ms)
+  ✓   205 [chromium] › tests/e2e/lead-crm.spec.ts:576:5 › CRM visual ar 768: eight connected operational workspaces (2.5s)
+  ✓   210 [chromium] › tests/e2e/lifecycle.spec.ts:197:1 › Studio refuses to overwrite facts changed by another tab (846ms)
+  ✓   212 [chromium] › tests/e2e/lifecycle.spec.ts:201:1 › portal quota includes destinations already reserved on other properties (766ms)
+  ✓   213 [chromium] › tests/e2e/organization-admin.spec.ts:41:20 › organization domain: six personas, denied commands, foreign directory and stale revisions (165ms)
+  ✓   214 [chromium] › tests/e2e/organization-admin.spec.ts:87:20 › organization domain: seat reservation, last owner, membership routing and CRM persistence (104ms)
+  ✓   215 [chromium] › tests/e2e/organization-admin.spec.ts:164:20 › organization domain: configurable terms drive connector and AI consumption guards (154ms)
+  ✓   216 [chromium] › tests/e2e/organization-admin.spec.ts:214:20 › organization commands: property, publishing, lead assignment, campaign and billing guards agree (87ms)
+  ✓   217 [chromium] › tests/e2e/organization-admin.spec.ts:254:20 › organization commands: moderation receipt, property change, campaign approval and stale dispatch (93ms)
+  ✓   218 [chromium] › tests/e2e/organization-admin.spec.ts:299:20 › organization storage: additive migration, corruption projection and stale approval recovery (82ms)
+  ✓   190 [chromium] › tests/e2e/final-visual.spec.ts:18:2 › final responsive en: tablet and narrow desktop (9.8s)
+  ✓   211 [chromium] › tests/e2e/lead-crm.spec.ts:576:5 › CRM visual ar 375: eight connected operational workspaces (2.3s)
+  ✓   221 [chromium] › tests/e2e/lead-crm.spec.ts:632:1 › CRM domain: rejected receipts preserve safe event IDs and inconsistent restored references are excluded (70ms)
+  ✓   209 [chromium] › tests/e2e/marketing.spec.ts:39:2 › marketing ar: full-document accessibility including expanded controls (3.9s)
+  ✓   223 [chromium] › tests/e2e/marketing.spec.ts:45:1 › marketing sitemap and robots never index internal fictional workspaces (96ms)
+  ✓   224 [chromium] › tests/e2e/productivity.spec.ts:10:1 › content completeness is independent of human review and portal configuration (58ms)
+  ✓   222 [chromium] › tests/e2e/lead-crm.spec.ts:654:1 › CRM browser: advanced filters, qualification, reply preference and empty states use the same lead (1.1s)
+  ✓   219 [chromium] › tests/e2e/organization-admin.spec.ts:332:22 › organization en: onboarding, directory, profile and shared persistence (2.2s)
+  ✓   225 [chromium] › tests/e2e/productivity.spec.ts:18:2 › productivity en: sidebar preference, active navigation and modal drawer focus (1.7s)
+  ✓   227 [chromium] › tests/e2e/organization-admin.spec.ts:388:22 › organization en: roles, team updates, subscriptions and guarded controls (1.1s)
+  ✘   220 [chromium] › tests/e2e/final-visual.spec.ts:8:2 › final visual ar: every major workflow in the running app (3.0s)
+  ✘   228 [chromium] › tests/e2e/productivity.spec.ts:30:2 › productivity en: sticky context, draft persistence, missing field navigation and safe dock (688ms)
+  ✘   229 [chromium] › tests/e2e/organization-admin.spec.ts:442:22 › organization en: canonical moderation and approval invalidation (361ms)
+  ✘   226 [chromium] › tests/e2e/lead-crm.spec.ts:698:3 › CRM accessibility en: WCAG A/AA axe checks on touched main content (1.9s)
+
+
+  1) [chromium] › tests/e2e/final-visual.spec.ts:8:2 › final visual ar: every major workflow in the running app 
+
+    Test was interrupted.
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator:  locator('main h1')
+    Expected: visible
+    Received: undefined
+
+
+       8 |  test(`final visual ${locale}: every major workflow in the running app`,async({page},info)=>{
+       9 |   test.setTimeout(180000);mkdirSync(`${output}/screenshots`,{recursive:true});
+    > 10 |   for(const [name,route] of workflows){await page.goto(`/${locale}/workspace${route?'/'+route:''}`);await expect(page.locator('main h1')).toBeVisible();await page.evaluate(()=>document.fonts.ready);await page.screenshot({path:`${output}/screenshots/${info.project.name}-${locale}-${name}.png`,fullPage:true,scale:'css'});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),`${locale}/${route}`).toBe(true);}
+         |                                                                                                                                           ^
+      11 |  });
+      12 |  test(`final accessibility ${locale}: every active page and translation inventory`,async({page},info)=>{
+      13 |   test.setTimeout(300000);mkdirSync(`${output}/logs`,{recursive:true});const pkg=readdirSync(resolve('../../node_modules/.pnpm')).find(n=>n.startsWith('axe-core@'))!;const axe=resolve('../../node_modules/.pnpm',pkg,'node_modules/axe-core/axe.min.js');const reports=[];const copy=[];
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/final-visual.spec.ts:10:139
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/final-visual-final-visual--06e44-workflow-in-the-running-app-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/e2e/organization-admin.spec.ts:442:22 › organization en: canonical moderation and approval invalidation 
+
+    Test was interrupted.
+
+    Error: locator.click: Test ended.
+    Call log:
+      - waiting for getByRole('button', { name: /^(?:Review AQ-10233|مراجعة AQ-10233)$/ })
+
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/organization-admin.spec.ts:451:8
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/organization-admin-organiz-c6910-n-and-approval-invalidation-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/organization-admin-organiz-c6910-n-and-approval-invalidation-chromium/error-context.md
+
+  3) [chromium] › tests/e2e/productivity.spec.ts:30:2 › productivity en: sticky context, draft persistence, missing field navigation and safe dock 
+
+    Test was interrupted.
+
+    Error: locator.click: Test ended.
+    Call log:
+      - waiting for locator('.ag-steps button').nth(1)
+        - locator resolved to <button class="" type="button">…</button>
+      - attempting click action
+        - waiting for element to be visible, enabled and stable
+
+
+      32 |   const price=page.getByRole('spinbutton',{name:t('Price (QAR)','السعر (ر.ق)'),exact:true});await price.fill('0');await page.getByRole('button',{name:t('Save draft','حفظ المسودة'),exact:true}).click();await page.reload();await expect(price).toHaveValue('0');
+      33 |   await page.locator('.ag-steps button').nth(3).click();await page.locator('.ag-missing-fields button').filter({hasText:t('Positive price','سعر موجب')}).click();await expect(price).toBeFocused();
+    > 34 |   await page.locator('.ag-steps button').nth(1).click();const description=page.getByRole('textbox',{name:t('Description — English','الوصف بالإنجليزية'),exact:true});await description.fill('A long demo description. '.repeat(80));
+         |                                                 ^
+      35 |   if(info.project.name==='mobile-chromium')await page.setViewportSize({width:375,height:500});
+      36 |   const arabic=page.locator('#property-descriptionAr');await arabic.focus();await expect.poll(async()=>{const a=await arabic.boundingBox(),dock=await page.locator('.ag-editor-footer').boundingBox();return a!.y+a!.height<=dock!.y+1;}).toBe(true);
+      37 |   const header=await page.locator('.prototype-topbar').boundingBox(),dock=await page.locator('.ag-editor-footer').boundingBox();expect(header!.y).toBe(0);expect(header!.height).toBe(64);expect(dock!.y+dock!.height).toBeLessThanOrEqual(page.viewportSize()!.height+1);
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/productivity.spec.ts:34:49
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/productivity-productivity--f7c0b-ld-navigation-and-safe-dock-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/productivity-productivity--f7c0b-ld-navigation-and-safe-dock-chromium/error-context.md
+
+  4 interrupted
+    [chromium] › tests/e2e/final-visual.spec.ts:8:2 › final visual ar: every major workflow in the running app 
+    [chromium] › tests/e2e/lead-crm.spec.ts:698:3 › CRM accessibility en: WCAG A/AA axe checks on touched main content 
+    [chromium] › tests/e2e/organization-admin.spec.ts:442:22 › organization en: canonical moderation and approval invalidation 
+    [chromium] › tests/e2e/productivity.spec.ts:30:2 › productivity en: sticky context, draft persistence, missing field navigation and safe dock 
+  887 did not run
+  225 passed (1.4m)
+ ELIFECYCLE  Command failed with exit code 130.

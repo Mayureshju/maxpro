@@ -444,12 +444,12 @@ html[dir="rtl"] .prototype-sidebar {
 }
 
 .prototype-shell .px-intro {
-  margin-block-end: 24px;
-  gap: 24px;
+  margin-block-end: 16px;
+  gap: 16px;
 }
 
 .prototype-shell .px-intro h1 {
-  font-size: var(--type-page);
+  font-size: var(--ws-page-heading);
   font-weight: 650;
   letter-spacing: -.04em;
   line-height: 1.2;
@@ -476,7 +476,7 @@ html[dir="rtl"] .prototype-sidebar {
 }
 
 .prototype-shell .px-section-head {
-  padding: 20px 24px;
+  padding: 14px 20px;
   gap: 16px;
 }
 
@@ -823,14 +823,13 @@ html[dir="rtl"] .prototype-sidebar {
     margin-block-start: 3px;
   }
   .ws-breadcrumbs li:nth-last-child(2):not(:first-child) {
-    display: flex;
-    max-inline-size: 90px;
+    display: none;
   }
   .ws-breadcrumbs li:nth-last-child(2):before {
     display: none;
   }
   .ws-breadcrumbs li:last-child:before {
-    display: block;
+    display: none;
   }
   .ws-breadcrumbs li:only-child:before {
     display: none;
@@ -861,6 +860,12 @@ html[dir="rtl"] .prototype-sidebar {
     white-space: nowrap;
     margin-block-start: 3px;
   }
+}
+
+/* Keep the current section readable beside AI, locale and notifications on phones. */
+@media (max-width:650px) {
+  .prototype-topbar .topbar-user {display:none;}
+  .ws-mobile-agency {display:none;}
 }
 
 /* Coherent agency navigation; existing collapse/drawer interaction remains authoritative. */

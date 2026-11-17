@@ -51,7 +51,8 @@
   --ws-header-height: 64px;
   --ws-content-wide: 1440px;
   --ws-content-form: 1120px;
-  --ws-gutter: 32px;
+  --ws-gutter: 24px;
+  --ws-page-heading: 28px;
   --ws-space-1: 4px;
   --ws-space-2: 8px;
   --ws-space-3: 12px;

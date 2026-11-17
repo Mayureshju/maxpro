@@ -1,0 +1,37 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test ai-launch.spec.ts --grep-invert six-width --timeout=30000 --trace=off
+
+
+Running 24 tests using 2 workers
+
+(node:7703) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7702) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   2 [chromium] › tests/e2e/ai-launch.spec.ts:13:1 › AI intents are bounded, grounded, independently scoped and never authorize tools (109ms)
+  ✓   1 [mobile-chromium] › tests/e2e/ai-launch.spec.ts:13:1 › AI intents are bounded, grounded, independently scoped and never authorize tools (134ms)
+  ✓   3 [chromium] › tests/e2e/ai-launch.spec.ts:26:1 › AI acceptance retains canonical revision rejection, review invalidation and suspension guard (61ms)
+  ✓   4 [mobile-chromium] › tests/e2e/ai-launch.spec.ts:26:1 › AI acceptance retains canonical revision rejection, review invalidation and suspension guard (74ms)
+  ✓   5 [chromium] › tests/e2e/ai-launch.spec.ts:38:2 › AI en: empty agency starts directly, selects context and safely falls back (1.3s)
+  ✓   6 [mobile-chromium] › tests/e2e/ai-launch.spec.ts:38:2 › AI en: empty agency starts directly, selects context and safely falls back (1.3s)
+  ✓   7 [chromium] › tests/e2e/ai-launch.spec.ts:47:2 › AI en: contextual copy requires acceptance and keeps property through launch (434ms)
+  ✓   8 [mobile-chromium] › tests/e2e/ai-launch.spec.ts:47:2 › AI en: contextual copy requires acceptance and keeps property through launch (467ms)
+  ✓   9 [chromium] › tests/e2e/ai-launch.spec.ts:54:2 › AI en: stale proposals reject cross-tab changes and organization context is reset (668ms)
+  ✓  10 [mobile-chromium] › tests/e2e/ai-launch.spec.ts:54:2 › AI en: stale proposals reject cross-tab changes and organization context is reset (673ms)
+  ✓  11 [chromium] › tests/e2e/ai-launch.spec.ts:60:2 › AI en: existing portal engine owns approval, local queue and revision invalidation (326ms)
+  ✓  12 [mobile-chromium] › tests/e2e/ai-launch.spec.ts:60:2 › AI en: existing portal engine owns approval, local queue and revision invalidation (388ms)
+  ✓  13 [chromium] › tests/e2e/ai-launch.spec.ts:65:2 › AI en: Copilot links retain existing unsaved-change navigation protection (312ms)
+  ✓  14 [mobile-chromium] › tests/e2e/ai-launch.spec.ts:65:2 › AI en: Copilot links retain existing unsaved-change navigation protection (340ms)
+  ✓  15 [chromium] › tests/e2e/ai-launch.spec.ts:38:2 › AI ar: empty agency starts directly, selects context and safely falls back (447ms)
+  ✓  16 [mobile-chromium] › tests/e2e/ai-launch.spec.ts:38:2 › AI ar: empty agency starts directly, selects context and safely falls back (506ms)
+  ✓  17 [chromium] › tests/e2e/ai-launch.spec.ts:47:2 › AI ar: contextual copy requires acceptance and keeps property through launch (375ms)
+  ✓  18 [mobile-chromium] › tests/e2e/ai-launch.spec.ts:47:2 › AI ar: contextual copy requires acceptance and keeps property through launch (443ms)
+  ✓  19 [chromium] › tests/e2e/ai-launch.spec.ts:54:2 › AI ar: stale proposals reject cross-tab changes and organization context is reset (526ms)
+  ✓  21 [chromium] › tests/e2e/ai-launch.spec.ts:60:2 › AI ar: existing portal engine owns approval, local queue and revision invalidation (291ms)
+  ✓  20 [mobile-chromium] › tests/e2e/ai-launch.spec.ts:54:2 › AI ar: stale proposals reject cross-tab changes and organization context is reset (621ms)
+  ✓  22 [chromium] › tests/e2e/ai-launch.spec.ts:65:2 › AI ar: Copilot links retain existing unsaved-change navigation protection (303ms)
+  ✓  23 [mobile-chromium] › tests/e2e/ai-launch.spec.ts:60:2 › AI ar: existing portal engine owns approval, local queue and revision invalidation (319ms)
+  ✓  24 [mobile-chromium] › tests/e2e/ai-launch.spec.ts:65:2 › AI ar: Copilot links retain existing unsaved-change navigation protection (294ms)
+
+  24 passed (6.4s)

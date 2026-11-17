@@ -11,12 +11,12 @@ export type CopilotAnswer={intent:CopilotIntent;title:string;body:string;items:{
 export function copilotIntent(prompt:string):CopilotIntent{
  const text=prompt.trim().toLowerCase();
  if(/\b(spend|delete|approve|remotely|credentials|api key)\b|أنفق|احذف|وافق|كلمة المرور/.test(text))return 'unsupported';
+ if(/unanswered|enquir|leads|استفسار|استفسارات|دون رد/.test(text))return 'leads';
  if(/follow.?up|reply|whatsapp|متابعة|رد|واتساب/.test(text))return 'follow-up';
  if(/campaign|facebook|instagram|حملة|حملات|فيسبوك/.test(text))return 'campaign';
  if(/improve|arabic|bilingual|description|copy|حسن|حسّن|وصف|باللغتين/.test(text))return 'copy';
  if(/channel|portal|publish|قنوات|قناة|بواب|النشر/.test(text))return 'channels';
  if(/ready|readiness|blocker|missing|not ready|جاهز|جاهزية|ناقص|عوائق/.test(text))return 'readiness';
- if(/unanswered|enquir|leads|استفسار|استفسارات|دون رد/.test(text))return 'leads';
  if(/metric|performance|analytics|أداء|الأداء|مقاييس/.test(text))return 'performance';
  if(/attention|next|properties|locate|find|اهتمام|التالي|عقارات|عقار/.test(text))return 'attention';
  return 'unsupported';
@@ -31,6 +31,7 @@ export function copilotAnswer(state:DemoState,prompt:string,propertyId:string|un
  // An explicit record reference must agree with selected context; never edit a different record silently.
  const mentioned=prompt.match(/(?:AQ-\d+|DEMO-[\da-f-]{36})/ig);
  if(mentioned?.some(id=>id.toLowerCase()!==p?.id.toLowerCase()))intent='unsupported';
+ if(properties.some(other=>other.id!==p?.id&&[other.facts.titleEn,other.facts.titleAr].some(title=>title.trim().length>=4&&prompt.toLowerCase().includes(title.toLowerCase()))))intent='unsupported';
  const sources=[org,...(p?[`${p.id}@${p.revision} · facts / source / media`]:[])];
  const result=(title:string,body:string,items:CopilotAnswer['items']=[],extra:Partial<CopilotAnswer>={}):CopilotAnswer=>({intent,title,body,items,sources,...extra});
  const select=()=>result(t('Choose a property first','اختر عقاراً أولاً'),t('Use the context selector above or create a canonical draft. No property is selected automatically.','استخدم محدد السياق أعلاه أو أنشئ مسودة أساسية. لا يُختار عقار تلقائياً.'),[{label:t('Create a property draft','إنشاء مسودة عقار'),href:'/workspace/inventory/new'}]);

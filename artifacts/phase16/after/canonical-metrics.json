@@ -1,0 +1,402 @@
+[
+  {
+    "locale": "en",
+    "width": 1440,
+    "name": "canonical-dashboard",
+    "file": "en-1440-canonical-dashboard.png",
+    "heading": "28px",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "name": "canonical-inventory",
+    "file": "en-1440-canonical-inventory.png",
+    "heading": "28px",
+    "firstRow": 397.9375,
+    "rowHeight": 64.6875,
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "name": "canonical-property",
+    "file": "en-1440-canonical-property.png",
+    "heading": "28px",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "name": "canonical-publish",
+    "file": "en-1440-canonical-publish.png",
+    "heading": "28px",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "name": "canonical-launch",
+    "file": "en-1440-canonical-launch.png",
+    "heading": "28px",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "name": "canonical-campaign-review",
+    "file": "en-1440-canonical-campaign-review.png",
+    "heading": "28px",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "name": "canonical-leads",
+    "file": "en-1440-canonical-leads.png",
+    "heading": "28px",
+    "firstRow": 809.125,
+    "rowHeight": 110.328125,
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "name": "canonical-inbox",
+    "file": "en-1440-canonical-inbox.png",
+    "heading": "28px",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "name": "canonical-copilot",
+    "file": "en-1440-canonical-copilot.png",
+    "heading": "28px",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "name": "launch-proposal",
+    "file": "en-1440-launch-proposal.png",
+    "heading": "28px",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "name": "dashboard-empty",
+    "file": "en-1440-dashboard-empty.png",
+    "heading": "28px",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "name": "inventory-empty",
+    "file": "en-1440-inventory-empty.png",
+    "heading": "28px",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "name": "canonical-dashboard",
+    "file": "en-375-canonical-dashboard.png",
+    "heading": "28px",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "name": "canonical-inventory",
+    "file": "en-375-canonical-inventory.png",
+    "heading": "28px",
+    "firstRow": 490.59375,
+    "rowHeight": 315.046875,
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "name": "canonical-property",
+    "file": "en-375-canonical-property.png",
+    "heading": "28px",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "name": "canonical-publish",
+    "file": "en-375-canonical-publish.png",
+    "heading": "28px",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "name": "canonical-launch",
+    "file": "en-375-canonical-launch.png",
+    "heading": "28px",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "name": "canonical-campaign-review",
+    "file": "en-375-canonical-campaign-review.png",
+    "heading": "28px",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "name": "canonical-leads",
+    "file": "en-375-canonical-leads.png",
+    "heading": "28px",
+    "firstRow": 1271.6875,
+    "rowHeight": 508.75,
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "name": "canonical-inbox",
+    "file": "en-375-canonical-inbox.png",
+    "heading": "28px",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "name": "canonical-copilot",
+    "file": "en-375-canonical-copilot.png",
+    "heading": "28px",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "name": "launch-proposal",
+    "file": "en-375-launch-proposal.png",
+    "heading": "28px",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "name": "dashboard-empty",
+    "file": "en-375-dashboard-empty.png",
+    "heading": "28px",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "name": "inventory-empty",
+    "file": "en-375-inventory-empty.png",
+    "heading": "28px",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "name": "canonical-dashboard",
+    "file": "ar-1440-canonical-dashboard.png",
+    "heading": "28px",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "name": "canonical-inventory",
+    "file": "ar-1440-canonical-inventory.png",
+    "heading": "28px",
+    "firstRow": 399.9375,
+    "rowHeight": 64.6875,
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "name": "canonical-property",
+    "file": "ar-1440-canonical-property.png",
+    "heading": "28px",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "name": "canonical-publish",
+    "file": "ar-1440-canonical-publish.png",
+    "heading": "28px",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "name": "canonical-launch",
+    "file": "ar-1440-canonical-launch.png",
+    "heading": "28px",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "name": "canonical-campaign-review",
+    "file": "ar-1440-canonical-campaign-review.png",
+    "heading": "28px",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "name": "canonical-leads",
+    "file": "ar-1440-canonical-leads.png",
+    "heading": "28px",
+    "firstRow": 793.03125,
+    "rowHeight": 110.328125,
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "name": "canonical-inbox",
+    "file": "ar-1440-canonical-inbox.png",
+    "heading": "28px",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "name": "canonical-copilot",
+    "file": "ar-1440-canonical-copilot.png",
+    "heading": "28px",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "name": "launch-proposal",
+    "file": "ar-1440-launch-proposal.png",
+    "heading": "28px",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "name": "dashboard-empty",
+    "file": "ar-1440-dashboard-empty.png",
+    "heading": "28px",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "name": "inventory-empty",
+    "file": "ar-1440-inventory-empty.png",
+    "heading": "28px",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "name": "canonical-dashboard",
+    "file": "ar-375-canonical-dashboard.png",
+    "heading": "28px",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "name": "canonical-inventory",
+    "file": "ar-375-canonical-inventory.png",
+    "heading": "28px",
+    "firstRow": 499,
+    "rowHeight": 315.046875,
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "name": "canonical-property",
+    "file": "ar-375-canonical-property.png",
+    "heading": "28px",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "name": "canonical-publish",
+    "file": "ar-375-canonical-publish.png",
+    "heading": "28px",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "name": "canonical-launch",
+    "file": "ar-375-canonical-launch.png",
+    "heading": "28px",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "name": "canonical-campaign-review",
+    "file": "ar-375-canonical-campaign-review.png",
+    "heading": "28px",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "name": "canonical-leads",
+    "file": "ar-375-canonical-leads.png",
+    "heading": "28px",
+    "firstRow": 1168.09375,
+    "rowHeight": 487.953125,
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "name": "canonical-inbox",
+    "file": "ar-375-canonical-inbox.png",
+    "heading": "28px",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "name": "canonical-copilot",
+    "file": "ar-375-canonical-copilot.png",
+    "heading": "28px",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "name": "launch-proposal",
+    "file": "ar-375-launch-proposal.png",
+    "heading": "28px",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "name": "dashboard-empty",
+    "file": "ar-375-dashboard-empty.png",
+    "heading": "28px",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "name": "inventory-empty",
+    "file": "ar-375-inventory-empty.png",
+    "heading": "28px",
+    "overflow": false
+  }
+]

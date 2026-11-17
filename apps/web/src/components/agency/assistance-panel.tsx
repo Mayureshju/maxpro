@@ -4,6 +4,7 @@ import {useEffect,useId,useRef,useState} from 'react';
 import {Button} from '@/components/ui/button';
 import {useLocale} from 'next-intl';
 import {Pencil,Sparkles,X} from 'lucide-react';
+import {lockBodyScroll} from '@/lib/body-scroll-lock';
 
 export type AssistanceField={key:string;label:string;before:string;after:string;dir?:'ltr'|'rtl';editable?:boolean};
 export type AssistanceSource={label:string;value:string};
@@ -18,9 +19,9 @@ export function AssistancePanel({title,sourceKey,sources,fields,acceptLabel,onAc
  const [values,setValues]=useState(()=>Object.fromEntries(fields.map(f=>[f.key,f.after]))),[editing,setEditing]=useState(false),[error,setError]=useState('');
  const stale=snapshot.sourceKey!==sourceKey;
  useEffect(()=>{
-  const node=dialog.current,trigger=document.activeElement instanceof HTMLElement?document.activeElement:null;const previous=document.body.style.overflow;
-  node?.showModal();document.body.style.overflow='hidden';
-  return()=>{node?.close();document.body.style.overflow=previous;if(trigger?.isConnected)trigger.focus();};
+  const node=dialog.current,trigger=document.activeElement instanceof HTMLElement?document.activeElement:null;const releaseScroll=lockBodyScroll();
+  node?.showModal();
+  return()=>{node?.close();releaseScroll();if(trigger?.isConnected)trigger.focus();};
  },[]);
  return <dialog ref={dialog} className="ag-assistant" aria-labelledby={id} onCancel={e=>{e.preventDefault();onClose();}} onClick={e=>{if(e.target===e.currentTarget)onClose();}}>
   <div className="ag-assistant-inner"><header><div><span className="ag-ai-label"><Sparkles size={16}/>{t('AI Assistance · Local demo','مساعدة ذكية · تجربة محلية')}</span><h2 id={id}>{title}</h2></div><button type="button" className="ag-icon-button" autoFocus aria-label={t('Close assistance','إغلاق المساعدة')} onClick={onClose}><X size={21}/></button></header>

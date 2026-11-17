@@ -150,3 +150,8 @@ main:has(.oa-nav) .px-table-scroll:focus-visible {
 .prototype-shell .px-table th {background:var(--canvas);color:var(--muted);font-size:13px;font-weight:600;letter-spacing:0;text-transform:none;}
 .prototype-shell .px-table td {font-size:14px;border-color:var(--line);padding-block:16px;}
 .prototype-shell .px-table tbody tr:hover {background:var(--canvas);}
+
+@media(min-width:769px) {
+ .prototype-shell .ag-daily-inventory td {padding-block:8px;}
+ .prototype-shell .ag-daily-inventory th {padding-block:12px;}
+}

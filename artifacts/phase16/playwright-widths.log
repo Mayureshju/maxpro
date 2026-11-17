@@ -1,0 +1,68 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test ai-launch.spec.ts --grep six-width --timeout=180000 --trace=off
+
+
+Running 4 tests using 2 workers
+
+(node:7779) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7778) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  -  1 [mobile-chromium] › tests/e2e/ai-launch.spec.ts:68:2 › AI en: six-width rendered evidence and accessibility
+  -  3 [mobile-chromium] › tests/e2e/ai-launch.spec.ts:68:2 › AI ar: six-width rendered evidence and accessibility
+  ✘  2 [chromium] › tests/e2e/ai-launch.spec.ts:68:2 › AI en: six-width rendered evidence and accessibility (10.0s)
+(node:7907) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  4 [chromium] › tests/e2e/ai-launch.spec.ts:68:2 › AI ar: six-width rendered evidence and accessibility (8.1s)
+
+
+  1) [chromium] › tests/e2e/ai-launch.spec.ts:68:2 › AI en: six-width rendered evidence and accessibility 
+
+    Error: expect(received).toBeLessThan(expected)
+
+    Expected: < 400
+    Received:   424.03125
+
+      76 |     await page.evaluate(()=>document.fonts.ready);expect(await page.evaluate(()=>document.documentElement.scrollWidth),`${name}@${width}`).toBeLessThanOrEqual(width+1);
+      77 |     await page.screenshot({path:resolve(root,`${locale}-${width}-${name}.png`),fullPage:true,animations:'disabled'});
+    > 78 |     if(width===1440&&name==='inventory-populated'){const rows=page.locator('tbody tr');expect((await rows.first().boundingBox())!.y).toBeLessThan(400);expect((await rows.nth(5).boundingBox())!.y).toBeLessThan(950);}
+         |                                                                                                                                      ^
+      79 |     if(['copilot','launch','inventory-populated'].includes(name)){await page.addScriptTag({path:axe});const report=await page.evaluate('window.axe.run(document,{runOnly:{type:"tag",values:["wcag2a","wcag2aa","wcag21aa","wcag22aa"]}})') as {violations:unknown[]};records.push({locale,width,name,violations:report.violations});}
+      80 |    }
+      81 |   }
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/ai-launch.spec.ts:78:134
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/ai-launch-AI-en-six-width--024f9--evidence-and-accessibility-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/ai-launch-AI-en-six-width--024f9--evidence-and-accessibility-chromium/error-context.md
+
+  2) [chromium] › tests/e2e/ai-launch.spec.ts:68:2 › AI ar: six-width rendered evidence and accessibility 
+
+    Error: expect(received).toBeLessThan(expected)
+
+    Expected: < 400
+    Received:   432.4375
+
+      76 |     await page.evaluate(()=>document.fonts.ready);expect(await page.evaluate(()=>document.documentElement.scrollWidth),`${name}@${width}`).toBeLessThanOrEqual(width+1);
+      77 |     await page.screenshot({path:resolve(root,`${locale}-${width}-${name}.png`),fullPage:true,animations:'disabled'});
+    > 78 |     if(width===1440&&name==='inventory-populated'){const rows=page.locator('tbody tr');expect((await rows.first().boundingBox())!.y).toBeLessThan(400);expect((await rows.nth(5).boundingBox())!.y).toBeLessThan(950);}
+         |                                                                                                                                      ^
+      79 |     if(['copilot','launch','inventory-populated'].includes(name)){await page.addScriptTag({path:axe});const report=await page.evaluate('window.axe.run(document,{runOnly:{type:"tag",values:["wcag2a","wcag2aa","wcag21aa","wcag22aa"]}})') as {violations:unknown[]};records.push({locale,width,name,violations:report.violations});}
+      80 |    }
+      81 |   }
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/ai-launch.spec.ts:78:134
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/ai-launch-AI-ar-six-width--b5bb9--evidence-and-accessibility-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/ai-launch-AI-ar-six-width--b5bb9--evidence-and-accessibility-chromium/error-context.md
+
+  2 failed
+    [chromium] › tests/e2e/ai-launch.spec.ts:68:2 › AI en: six-width rendered evidence and accessibility 
+    [chromium] › tests/e2e/ai-launch.spec.ts:68:2 › AI ar: six-width rendered evidence and accessibility 
+  2 skipped
+ ELIFECYCLE  Command failed with exit code 1.

@@ -1,0 +1,258 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test ai-launch.spec.ts --timeout=60000 --trace=off
+
+
+Running 28 tests using 2 workers
+
+(node:7074) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7075) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/e2e/ai-launch.spec.ts:13:1 › AI intents are bounded, grounded, independently scoped and never authorize tools (402ms)
+  ✓   2 [mobile-chromium] › tests/e2e/ai-launch.spec.ts:13:1 › AI intents are bounded, grounded, independently scoped and never authorize tools (409ms)
+  ✘   3 [chromium] › tests/e2e/ai-launch.spec.ts:25:1 › AI acceptance retains canonical revision rejection, campaign invalidation and organization role guard (113ms)
+  ✘   4 [mobile-chromium] › tests/e2e/ai-launch.spec.ts:25:1 › AI acceptance retains canonical revision rejection, campaign invalidation and organization role guard (112ms)
+(node:7126) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7127) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   5 [chromium] › tests/e2e/ai-launch.spec.ts:37:2 › AI en: empty agency starts directly, selects context and safely falls back (3.3s)
+  ✓   6 [mobile-chromium] › tests/e2e/ai-launch.spec.ts:37:2 › AI en: empty agency starts directly, selects context and safely falls back (3.4s)
+  ✓   7 [chromium] › tests/e2e/ai-launch.spec.ts:46:2 › AI en: contextual copy requires acceptance and keeps property through launch (1.1s)
+  ✓   8 [mobile-chromium] › tests/e2e/ai-launch.spec.ts:46:2 › AI en: contextual copy requires acceptance and keeps property through launch (1.1s)
+  ✘   9 [chromium] › tests/e2e/ai-launch.spec.ts:53:2 › AI en: stale proposals reject cross-tab changes and organization context is reset (1.0m)
+  ✘  10 [mobile-chromium] › tests/e2e/ai-launch.spec.ts:53:2 › AI en: stale proposals reject cross-tab changes and organization context is reset (1.0m)
+(node:7502) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7501) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  11 [chromium] › tests/e2e/ai-launch.spec.ts:59:2 › AI en: existing portal engine owns approval, local queue and revision invalidation (8.7s)
+  ✘  12 [mobile-chromium] › tests/e2e/ai-launch.spec.ts:59:2 › AI en: existing portal engine owns approval, local queue and revision invalidation (8.7s)
+(node:7542) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7543) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  13 [chromium] › tests/e2e/ai-launch.spec.ts:64:2 › AI en: Copilot links retain existing unsaved-change navigation protection (52.3s)
+  ✘  14 [mobile-chromium] › tests/e2e/ai-launch.spec.ts:64:2 › AI en: Copilot links retain existing unsaved-change navigation protection (52.3s)
+
+
+  1) [chromium] › tests/e2e/ai-launch.spec.ts:25:1 › AI acceptance retains canonical revision rejection, campaign invalidation and organization role guard 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: false
+    Received: true
+
+      28 |  s=store.getSnapshot().state;expect(s.properties[p.id].source.copyReviewed).toBe(false);expect(s.properties[p.id].revision).toBe(p.revision+1);
+      29 |  expect(store.saveProperty(p.id,p.revision,{facts:p.facts},'Stale AI proposal')).toBe(false);
+    > 30 |  store.organizationCommand({type:'persona',role:'landlord'});expect(store.saveProperty(p.id,p.revision+1,{facts:p.facts},'Denied AI proposal')).toBe(false);
+         |                                                                                                                                                 ^
+      31 | });
+      32 |
+      33 | for(const locale of ['en','ar']){
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/ai-launch.spec.ts:30:145
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/ai-launch-AI-acceptance-re-3db64-and-organization-role-guard-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/ai-launch-AI-acceptance-re-3db64-and-organization-role-guard-chromium/error-context.md
+
+  2) [chromium] › tests/e2e/ai-launch.spec.ts:53:2 › AI en: stale proposals reject cross-tab changes and organization context is reset 
+
+    Test timeout of 60000ms exceeded.
+
+    Error: locator.fill: Test timeout of 60000ms exceeded.
+    Call log:
+      - waiting for getByRole('textbox', { name: 'Property title', exact: true })
+
+
+      53 |  });
+      54 |  test(`AI ${locale}: stale proposals reject cross-tab changes and organization context is reset`,async({page,context})=>{
+    > 55 |   await seed(page,'one');await page.goto(`/${locale}/workspace/publish?mode=launch&property=AQ-50001`);await page.getByRole('button',{name:t('Review bilingual suggestion','مراجعة اقتراح باللغتين'),exact:true}).click();
+         |                                                                                                                                                                                              ^
+      56 |   const other=await context.newPage();await other.goto(`/${locale}/workspace/inventory/AQ-50001/edit`);await other.getByRole('textbox',{name:t('Property title','عنوان العقار'),exact:true}).fill('Demo changed in another tab');await other.getByRole('button',{name:t('Save draft','حفظ المسودة'),exact:true}).click();
+      57 |   const proposal=page.locator('dialog.ag-assistant');await expect(proposal.getByRole('button',{name:t('Accept & save descriptions','قبول الأوصاف وحفظها'),exact:true})).toBeDisabled();await expect(proposal).toContainText(t('Source changed','تغيّر المصدر'));await page.keyboard.press('Escape');await other.close();
+      58 |   await entry(page).click();await expect(drawer(page)).toContainText('AQ-50001');await page.keyboard.press('Escape');await selectDemoOrganization(page,'ORG-DEMO-DAILY-B');await page.goto(`/${locale}/workspace`);await entry(page).click();await expect(drawer(page)).not.toContainText('AQ-50001');await drawer(page).getByRole('button',{name:t('Which properties need attention?','أي عقارات تحتاج إلى اهتمام؟'),exact:true}).click();await expect(drawer(page).locator('.ai-answer')).not.toContainText('Demo changed in another tab');
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/ai-launch.spec.ts:55:190
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/ai-launch-AI-en-stale-prop-546ee-ganization-context-is-reset-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/ai-launch-AI-en-stale-prop-546ee-ganization-context-is-reset-chromium/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/ai-launch-AI-en-stale-prop-546ee-ganization-context-is-reset-chromium/error-context.md
+
+  3) [chromium] › tests/e2e/ai-launch.spec.ts:59:2 › AI en: existing portal engine owns approval, local queue and revision invalidation 
+
+    Error: expect(locator).toBeDisabled() failed
+
+    Locator: getByRole('button', { name: 'Already queued locally', exact: true })
+    Expected: disabled
+    Timeout: 8000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeDisabled" getByRole('button', { name: 'Already queued locally', exact: true }) with timeout 8000ms
+      - waiting for getByRole('button', { name: 'Already queued locally', exact: true })
+
+
+      60 |  test(`AI ${locale}: existing portal engine owns approval, local queue and revision invalidation`,async({page})=>{
+      61 |   await seed(page,'one');await page.goto(`/${locale}/workspace/publish?mode=launch&property=AQ-50001&goal=portals&channels=qatar-living&channel=qatar-living`);
+    > 62 |   const approval=page.getByRole('checkbox',{name:t('I reviewed this listing and the checks for this portal.','راجعت هذا الإعلان وفحوصات هذه البوابة.'),exact:true});await approval.check();await page.getByRole('button',{name:t('Simulate listing','محاكاة الإعلان العقاري'),exact:true}).click();await expect(page.getByRole('button',{name:t('Already queued locally','موجود بالقائمة المحلية'),exact:true})).toBeDisabled();const jobs=(await saved(page)).jobs;expect(jobs).toHaveLength(1);expect(jobs[0].status).toBe('queued-demo');
+         |                                                                                                                                                                                                                                                                                                                                                                                                                  ^
+      63 |   await page.getByRole('button',{name:t('Review bilingual suggestion','مراجعة اقتراح باللغتين'),exact:true}).click();await page.locator('.ag-assistant').getByRole('button',{name:t('Accept & save descriptions','قبول الأوصاف وحفظها'),exact:true}).click();await expect(approval).not.toBeChecked();await expect(page.getByRole('button',{name:t('Simulate listing','محاكاة الإعلان العقاري'),exact:true})).toBeDisabled();expect((await saved(page)).jobs).toHaveLength(1);await expect(page.locator('.ag-promotion-page')).toContainText(t('No provider acknowledgement','لا يوجد إقرار من الخدمة'));
+      64 |  });
+      65 |  test(`AI ${locale}: Copilot links retain existing unsaved-change navigation protection`,async({page})=>{
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/ai-launch.spec.ts:62:402
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/ai-launch-AI-en-existing-p-6a56c-e-and-revision-invalidation-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/ai-launch-AI-en-existing-p-6a56c-e-and-revision-invalidation-chromium/error-context.md
+
+  4) [mobile-chromium] › tests/e2e/ai-launch.spec.ts:25:1 › AI acceptance retains canonical revision rejection, campaign invalidation and organization role guard 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: false
+    Received: true
+
+      28 |  s=store.getSnapshot().state;expect(s.properties[p.id].source.copyReviewed).toBe(false);expect(s.properties[p.id].revision).toBe(p.revision+1);
+      29 |  expect(store.saveProperty(p.id,p.revision,{facts:p.facts},'Stale AI proposal')).toBe(false);
+    > 30 |  store.organizationCommand({type:'persona',role:'landlord'});expect(store.saveProperty(p.id,p.revision+1,{facts:p.facts},'Denied AI proposal')).toBe(false);
+         |                                                                                                                                                 ^
+      31 | });
+      32 |
+      33 | for(const locale of ['en','ar']){
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/ai-launch.spec.ts:30:145
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/ai-launch-AI-acceptance-re-3db64-and-organization-role-guard-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/ai-launch-AI-acceptance-re-3db64-and-organization-role-guard-mobile-chromium/error-context.md
+
+  5) [mobile-chromium] › tests/e2e/ai-launch.spec.ts:53:2 › AI en: stale proposals reject cross-tab changes and organization context is reset 
+
+    Test timeout of 60000ms exceeded.
+
+    Error: locator.fill: Test timeout of 60000ms exceeded.
+    Call log:
+      - waiting for getByRole('textbox', { name: 'Property title', exact: true })
+
+
+      53 |  });
+      54 |  test(`AI ${locale}: stale proposals reject cross-tab changes and organization context is reset`,async({page,context})=>{
+    > 55 |   await seed(page,'one');await page.goto(`/${locale}/workspace/publish?mode=launch&property=AQ-50001`);await page.getByRole('button',{name:t('Review bilingual suggestion','مراجعة اقتراح باللغتين'),exact:true}).click();
+         |                                                                                                                                                                                              ^
+      56 |   const other=await context.newPage();await other.goto(`/${locale}/workspace/inventory/AQ-50001/edit`);await other.getByRole('textbox',{name:t('Property title','عنوان العقار'),exact:true}).fill('Demo changed in another tab');await other.getByRole('button',{name:t('Save draft','حفظ المسودة'),exact:true}).click();
+      57 |   const proposal=page.locator('dialog.ag-assistant');await expect(proposal.getByRole('button',{name:t('Accept & save descriptions','قبول الأوصاف وحفظها'),exact:true})).toBeDisabled();await expect(proposal).toContainText(t('Source changed','تغيّر المصدر'));await page.keyboard.press('Escape');await other.close();
+      58 |   await entry(page).click();await expect(drawer(page)).toContainText('AQ-50001');await page.keyboard.press('Escape');await selectDemoOrganization(page,'ORG-DEMO-DAILY-B');await page.goto(`/${locale}/workspace`);await entry(page).click();await expect(drawer(page)).not.toContainText('AQ-50001');await drawer(page).getByRole('button',{name:t('Which properties need attention?','أي عقارات تحتاج إلى اهتمام؟'),exact:true}).click();await expect(drawer(page).locator('.ai-answer')).not.toContainText('Demo changed in another tab');
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/ai-launch.spec.ts:55:190
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/ai-launch-AI-en-stale-prop-546ee-ganization-context-is-reset-mobile-chromium/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/ai-launch-AI-en-stale-prop-546ee-ganization-context-is-reset-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/ai-launch-AI-en-stale-prop-546ee-ganization-context-is-reset-mobile-chromium/error-context.md
+
+  6) [mobile-chromium] › tests/e2e/ai-launch.spec.ts:59:2 › AI en: existing portal engine owns approval, local queue and revision invalidation 
+
+    Error: expect(locator).toBeDisabled() failed
+
+    Locator: getByRole('button', { name: 'Already queued locally', exact: true })
+    Expected: disabled
+    Timeout: 8000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeDisabled" getByRole('button', { name: 'Already queued locally', exact: true }) with timeout 8000ms
+      - waiting for getByRole('button', { name: 'Already queued locally', exact: true })
+
+
+      60 |  test(`AI ${locale}: existing portal engine owns approval, local queue and revision invalidation`,async({page})=>{
+      61 |   await seed(page,'one');await page.goto(`/${locale}/workspace/publish?mode=launch&property=AQ-50001&goal=portals&channels=qatar-living&channel=qatar-living`);
+    > 62 |   const approval=page.getByRole('checkbox',{name:t('I reviewed this listing and the checks for this portal.','راجعت هذا الإعلان وفحوصات هذه البوابة.'),exact:true});await approval.check();await page.getByRole('button',{name:t('Simulate listing','محاكاة الإعلان العقاري'),exact:true}).click();await expect(page.getByRole('button',{name:t('Already queued locally','موجود بالقائمة المحلية'),exact:true})).toBeDisabled();const jobs=(await saved(page)).jobs;expect(jobs).toHaveLength(1);expect(jobs[0].status).toBe('queued-demo');
+         |                                                                                                                                                                                                                                                                                                                                                                                                                  ^
+      63 |   await page.getByRole('button',{name:t('Review bilingual suggestion','مراجعة اقتراح باللغتين'),exact:true}).click();await page.locator('.ag-assistant').getByRole('button',{name:t('Accept & save descriptions','قبول الأوصاف وحفظها'),exact:true}).click();await expect(approval).not.toBeChecked();await expect(page.getByRole('button',{name:t('Simulate listing','محاكاة الإعلان العقاري'),exact:true})).toBeDisabled();expect((await saved(page)).jobs).toHaveLength(1);await expect(page.locator('.ag-promotion-page')).toContainText(t('No provider acknowledgement','لا يوجد إقرار من الخدمة'));
+      64 |  });
+      65 |  test(`AI ${locale}: Copilot links retain existing unsaved-change navigation protection`,async({page})=>{
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/ai-launch.spec.ts:62:402
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/ai-launch-AI-en-existing-p-6a56c-e-and-revision-invalidation-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/ai-launch-AI-en-existing-p-6a56c-e-and-revision-invalidation-mobile-chromium/error-context.md
+
+  7) [chromium] › tests/e2e/ai-launch.spec.ts:64:2 › AI en: Copilot links retain existing unsaved-change navigation protection 
+
+    Test was interrupted.
+
+    Error: locator.fill: Test ended.
+    Call log:
+      - waiting for getByRole('textbox', { name: 'Property title', exact: true })
+
+
+      64 |  });
+      65 |  test(`AI ${locale}: Copilot links retain existing unsaved-change navigation protection`,async({page})=>{
+    > 66 |   await seed(page);await page.goto(`/${locale}/workspace/inventory/AQ-50002/edit`);await page.getByRole('textbox',{name:t('Property title','عنوان العقار'),exact:true}).fill('Demo unsaved local title');await entry(page).click();await drawer(page).getByRole('button',{name:t('Which properties need attention?','أي عقارات تحتاج إلى اهتمام؟'),exact:true}).click();await drawer(page).locator('.ai-answer a').first().click();const guard=page.getByRole('dialog',{name:t('Leave unsaved changes?','هل تريد مغادرة التعديلات غير المحفوظة؟'),exact:true});await expect(guard).toBeVisible();await guard.getByRole('button',{name:t('Keep editing','متابعة التحرير'),exact:true}).click();await page.keyboard.press('Escape');await expect(page.getByRole('textbox',{name:t('Property title','عنوان العقار'),exact:true})).toHaveValue('Demo unsaved local title');
+         |                                                                                                                                                                         ^
+      67 |  });
+      68 |  test(`AI ${locale}: six-width rendered evidence and accessibility`,async({page},info)=>{
+      69 |   test.skip(info.project.name==='mobile-chromium','The complete width matrix runs once per locale. All workflow cases run in both projects.');test.setTimeout(180000);await seed(page);
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/ai-launch.spec.ts:66:169
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/ai-launch-AI-en-Copilot-li-735f4-hange-navigation-protection-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/ai-launch-AI-en-Copilot-li-735f4-hange-navigation-protection-chromium/error-context.md
+
+  8) [mobile-chromium] › tests/e2e/ai-launch.spec.ts:64:2 › AI en: Copilot links retain existing unsaved-change navigation protection 
+
+    Test was interrupted.
+
+    Error: locator.fill: Test ended.
+    Call log:
+      - waiting for getByRole('textbox', { name: 'Property title', exact: true })
+
+
+      64 |  });
+      65 |  test(`AI ${locale}: Copilot links retain existing unsaved-change navigation protection`,async({page})=>{
+    > 66 |   await seed(page);await page.goto(`/${locale}/workspace/inventory/AQ-50002/edit`);await page.getByRole('textbox',{name:t('Property title','عنوان العقار'),exact:true}).fill('Demo unsaved local title');await entry(page).click();await drawer(page).getByRole('button',{name:t('Which properties need attention?','أي عقارات تحتاج إلى اهتمام؟'),exact:true}).click();await drawer(page).locator('.ai-answer a').first().click();const guard=page.getByRole('dialog',{name:t('Leave unsaved changes?','هل تريد مغادرة التعديلات غير المحفوظة؟'),exact:true});await expect(guard).toBeVisible();await guard.getByRole('button',{name:t('Keep editing','متابعة التحرير'),exact:true}).click();await page.keyboard.press('Escape');await expect(page.getByRole('textbox',{name:t('Property title','عنوان العقار'),exact:true})).toHaveValue('Demo unsaved local title');
+         |                                                                                                                                                                         ^
+      67 |  });
+      68 |  test(`AI ${locale}: six-width rendered evidence and accessibility`,async({page},info)=>{
+      69 |   test.skip(info.project.name==='mobile-chromium','The complete width matrix runs once per locale. All workflow cases run in both projects.');test.setTimeout(180000);await seed(page);
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/ai-launch.spec.ts:66:169
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/ai-launch-AI-en-Copilot-li-735f4-hange-navigation-protection-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/ai-launch-AI-en-Copilot-li-735f4-hange-navigation-protection-mobile-chromium/error-context.md
+
+  6 failed
+    [chromium] › tests/e2e/ai-launch.spec.ts:25:1 › AI acceptance retains canonical revision rejection, campaign invalidation and organization role guard 
+    [chromium] › tests/e2e/ai-launch.spec.ts:53:2 › AI en: stale proposals reject cross-tab changes and organization context is reset 
+    [chromium] › tests/e2e/ai-launch.spec.ts:59:2 › AI en: existing portal engine owns approval, local queue and revision invalidation 
+    [mobile-chromium] › tests/e2e/ai-launch.spec.ts:25:1 › AI acceptance retains canonical revision rejection, campaign invalidation and organization role guard 
+    [mobile-chromium] › tests/e2e/ai-launch.spec.ts:53:2 › AI en: stale proposals reject cross-tab changes and organization context is reset 
+    [mobile-chromium] › tests/e2e/ai-launch.spec.ts:59:2 › AI en: existing portal engine owns approval, local queue and revision invalidation 
+  2 interrupted
+    [chromium] › tests/e2e/ai-launch.spec.ts:64:2 › AI en: Copilot links retain existing unsaved-change navigation protection 
+    [mobile-chromium] › tests/e2e/ai-launch.spec.ts:64:2 › AI en: Copilot links retain existing unsaved-change navigation protection 
+  14 did not run
+  6 passed (2.2m)
+ ELIFECYCLE  Command failed with exit code 130.

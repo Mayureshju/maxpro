@@ -2706,13 +2706,14 @@ html:has(.ag-property-editor) {
  .ag-small-heading { margin-inline:16px; }
 }
 /* Daily workspace, focused creation, inventory and editor share one surface system. */
-.ag-workspace-totals {display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:16px;margin-block:0 24px;border:0;padding:0;background:transparent;}
-.ag-workspace-totals>a {min-inline-size:0;display:flex;flex-direction:column;gap:12px;padding:20px;background:var(--surface);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow-card);transition:border-color .16s;}
+.ag-workspace-totals {display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:0;margin-block:0 12px;border-block:1px solid var(--line);padding:0;background:transparent;}
+.ag-workspace-totals>a {min-inline-size:0;display:flex;flex-direction:row;align-items:center;justify-content:space-between;gap:8px;padding:12px;background:transparent;border:0;border-inline-end:1px solid var(--line);border-radius:0;box-shadow:none;transition:background .16s;}
+.ag-workspace-totals>a:last-child {border-inline-end:0;}
 .ag-workspace-totals>a:hover {border-color:var(--primary);}
 .ag-workspace-totals>a>span {display:flex;align-items:flex-start;justify-content:space-between;flex-direction:row-reverse;gap:8px;font-size:13px;color:var(--muted);line-height:1.5;}
 .ag-workspace-totals svg {flex-shrink:0;color:var(--primary);}
-.ag-workspace-totals b {font-size:28px;font-weight:650;line-height:1.15;color:var(--ink);letter-spacing:-.03em;}
-.ag-workspace-totals small {font-size:12px;display:flex;align-items:center;gap:8px;color:var(--primary);}
+.ag-workspace-totals b {font-size:20px;font-weight:650;line-height:1.15;color:var(--ink);letter-spacing:-.03em;}
+.ag-workspace-totals small,.ag-workspace-totals>a>span>svg {display:none;}
 .ag-dashboard-grid {display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:24px;margin-block:0 24px;align-items:start;}
 .ag-dashboard-bottom {display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:24px;align-items:start;}
 .ag-property-row {display:flex;align-items:center;gap:14px;padding:16px 24px;border-block-end:1px solid var(--line);min-inline-size:0;transition:background .16s;}
@@ -2772,7 +2773,7 @@ html:has(.ag-property-editor) {
 @media (max-width:1280px) {.ag-workspace-totals {gap:12px;}.ag-workspace-totals>a {padding:16px;}.ag-create-layout {grid-template-columns:minmax(0,1fr) 280px;}}
 @media (max-width:1024px) {.ag-create-layout {grid-template-columns:minmax(0,1fr) 280px;}}
 @media (max-width:768px) {.ag-dashboard-grid,.ag-dashboard-bottom,.ag-create-layout {grid-template-columns:1fr;gap:16px;}.ag-workspace-totals {grid-template-columns:repeat(3,minmax(0,1fr));}.ag-create-guide {padding:24px;}.ag-create-guide ol {grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;}.ag-create-guide li {flex-direction:column;}}
-@media (max-width:650px) {.ag-workspace-totals {grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;}.ag-workspace-totals>a {padding:16px;gap:10px;}.ag-workspace-totals>a:last-child {grid-column:1/-1;}.ag-workspace-totals b {font-size:26px;}.ag-workspace-totals small {display:none;}.ag-property-row,.ag-simple-row {padding:16px;gap:12px;}.ag-property-row .px-pill {display:none;}.ag-quick-add {padding:20px 16px;}.ag-quick-add .ag-form-grid {grid-template-columns:1fr;gap:20px;}.ag-create-guide ol {grid-template-columns:1fr;}.ag-create-guide li {flex-direction:row;}.ag-create-guide {padding:20px;}.ag-record-tabs {gap:0;flex-wrap:wrap;}.ag-record-tabs button {padding-inline:12px;font-size:13px;}}
+@media (max-width:650px) {.ag-workspace-totals {grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;}.ag-workspace-totals>a {padding:10px 8px;gap:8px;}.ag-workspace-totals>a:last-child {grid-column:1/-1;}.ag-workspace-totals b {font-size:20px;}.ag-workspace-totals small {display:none;}.ag-property-row,.ag-simple-row {padding:16px;gap:12px;}.ag-property-row .px-pill {display:none;}.ag-quick-add {padding:20px 16px;}.ag-quick-add .ag-form-grid {grid-template-columns:1fr;gap:20px;}.ag-create-guide ol {grid-template-columns:1fr;}.ag-create-guide li {flex-direction:row;}.ag-create-guide {padding:20px;}.ag-record-tabs {gap:0;flex-wrap:wrap;}.ag-record-tabs button {padding-inline:12px;font-size:13px;}}
 /* Account entry and local property preview use the same brand surfaces. */
 .ag-entry {background:var(--canvas);}
 .ag-entry-story {padding:32px;background:var(--forest);color:#fff;border-radius:16px;}
@@ -2802,3 +2803,24 @@ html:has(.ag-property-editor) {
 @media(max-width:650px) {.ag-property-editor .ag-editor-footer {padding:12px 0 calc(12px + env(safe-area-inset-bottom));min-block-size:68px;gap:10px;}.ag-entry-grid {gap:24px;padding-inline:16px;}.ag-entry-form {padding:24px 20px;}}
 .ag-local-gallery .px-property-image {inline-size:100%;min-block-size:0;aspect-ratio:1.4;}
 .ag-local-preview :is(figure,h1,p,.px-overline) {min-inline-size:0;overflow-wrap:anywhere;}
+
+/* Compact operational collection; field and mobile-row owners remain unchanged. */
+.ag-task-shortcuts {display:flex;align-items:center;gap:8px 20px;flex-wrap:wrap;margin-block:0 16px;border-block-end:1px solid var(--line);padding-block-end:12px;}
+.ag-task-shortcuts>a {display:inline-flex;align-items:center;gap:6px;min-block-size:44px;font-size:13px;font-weight:600;color:var(--primary);}
+.ag-task-shortcuts>button {display:inline-flex;align-items:center;gap:6px;}
+.ag-inventory-counts {display:flex;gap:16px;color:var(--muted);font-size:13px;flex-wrap:wrap;}
+.ag-compact-inventory .fx-inventory-toolbar {padding:12px 20px;}
+.ag-compact-inventory .fx-results-bar {padding:8px 20px;}
+.ag-inventory-import {min-block-size:44px;display:inline-flex;align-items:center;gap:6px;}
+@media(min-width:769px) {
+ .ag-compact-inventory .fx-inventory-record>.px-property-image {inline-size:48px;block-size:40px;}
+ .ag-dashboard-page .ag-property-row,.ag-dashboard-page .ag-simple-row {padding-block:10px;}
+ .ag-dashboard-page .ag-property-row>.px-property-image {inline-size:48px;block-size:40px;}
+}
+@media(max-width:650px) {
+ .ag-task-shortcuts {gap:4px 16px;}
+ .ag-inventory-counts {gap:4px 12px;}
+ .ag-compact-inventory .fx-inventory-toolbar,.ag-compact-inventory .fx-results-bar {padding-inline:12px;}
+}
+
+.ag-empty-totals {display:none;}
