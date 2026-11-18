@@ -1,0 +1,432 @@
+{
+  "stage": "before",
+  "baseline": "6db0bfbd73660025768a01a6380bb4753ac60ee8",
+  "fixtureSha256": "a7f1a21ce139f38a0526b9bf8a56942360c0a910cb3e8818e5a1d5dc182af545",
+  "measurements": [
+    {
+      "name": "create-property",
+      "start": "/en/workspace/inventory",
+      "end": "/en/workspace/inventory/DEMO-1da369b3-9b58-44ac-844e-4a5aa8ea2402/edit",
+      "activations": 2,
+      "entries": 3,
+      "fixtureProperties": 25,
+      "method": "Scripted semantic-control path; excludes initial route load, scrolling and reading; not human usability research"
+    },
+    {
+      "name": "prepare-campaign-draft",
+      "start": "/en/workspace/inventory/AQ-50002",
+      "end": "/en/workspace/campaigns/DEMO-CAMPAIGN-131bb85e-dee7-4d54-8ea1-2103bcede1c6?step=0",
+      "activations": 2,
+      "entries": 0,
+      "fixtureProperties": 25,
+      "method": "Scripted semantic-control path; excludes initial route load, scrolling and reading; not human usability research"
+    },
+    {
+      "name": "open-enquiry-and-prepare-reply",
+      "start": "/en/workspace/leads",
+      "end": "/en/workspace/inbox?lead=LE-2100",
+      "activations": 4,
+      "entries": 0,
+      "fixtureProperties": 25,
+      "method": "Scripted semantic-control path; excludes initial route load, scrolling and reading; not human usability research"
+    },
+    {
+      "name": "find-unassigned-lead",
+      "start": "/en/workspace/leads",
+      "end": "/en/workspace/leads",
+      "activations": 1,
+      "entries": 0,
+      "fixtureProperties": 25,
+      "method": "Scripted semantic-control path; excludes initial route load, scrolling and reading; not human usability research"
+    },
+    {
+      "name": "locate-among-25-properties",
+      "start": "/en/workspace/inventory",
+      "end": "/en/workspace/inventory/AQ-50002",
+      "activations": 1,
+      "entries": 1,
+      "fixtureProperties": 25,
+      "method": "Scripted semantic-control path; excludes initial route load, scrolling and reading; not human usability research"
+    },
+    {
+      "name": "property-campaign-lead-navigation",
+      "start": "/en/workspace/inventory/AQ-50002",
+      "end": "/en/workspace/inventory/AQ-50002/enquiries",
+      "activations": 3,
+      "entries": 0,
+      "fixtureProperties": 25,
+      "method": "Scripted semantic-control path; excludes initial route load, scrolling and reading; not human usability research"
+    }
+  ],
+  "captures": [
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "home-fixture",
+      "file": "en-1440-home-fixture.png",
+      "route": "/en",
+      "sha256": "9230ef58fbcd222c864ab34489c509f1209b219440c7ed2f5d1c47de06a1c2bc",
+      "overflow": false,
+      "heading": "One property.Every opportunity."
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "crm-fixture",
+      "file": "en-1440-crm-fixture.png",
+      "route": "/en/workspace/leads",
+      "sha256": "63022d83445341650234f4e68d84f8f26456d78d88e33441d6f7d6c9879395e6",
+      "overflow": false,
+      "heading": "Lead manager",
+      "firstRow": 594.03125,
+      "primaryAction": {
+        "x": 1246.8125,
+        "y": 96,
+        "width": 169.1875,
+        "height": 48,
+        "top": 96,
+        "right": 1416,
+        "bottom": 144,
+        "left": 1246.8125
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "lead-fixture",
+      "file": "en-1440-lead-fixture.png",
+      "route": "/en/workspace/leads/LE-2101",
+      "sha256": "d02cf7a076f69493c29d3a4a9522b1c0757300668aaabe9948e14edcd285c3f9",
+      "overflow": false,
+      "heading": "Demo visitor 2",
+      "firstRow": 672.71875,
+      "primaryAction": {
+        "x": 1262.640625,
+        "y": 105.046875,
+        "width": 153.359375,
+        "height": 48,
+        "top": 105.046875,
+        "right": 1416,
+        "bottom": 153.046875,
+        "left": 1262.640625
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "dashboard-fixture",
+      "file": "en-1440-dashboard-fixture.png",
+      "route": "/en/workspace",
+      "sha256": "c207df9ac905720adefbee9932fc5d79d67a90e9a95c417857ce9092a8218049",
+      "overflow": false,
+      "heading": "Your agency, at a glance.",
+      "primaryAction": {
+        "x": 1272.71875,
+        "y": 105.046875,
+        "width": 143.28125,
+        "height": 48,
+        "top": 105.046875,
+        "right": 1416,
+        "bottom": 153.046875,
+        "left": 1272.71875
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "public-crm-fixture",
+      "file": "en-1440-public-crm-fixture.png",
+      "route": "/en/features/leads-and-inbox",
+      "sha256": "4a391b29f556c4a61b4e1a4a5701052667cafe66a18379c95cb570069e2d065b",
+      "overflow": false,
+      "heading": "Every enquiry, with its context"
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "public-ai-fixture",
+      "file": "en-1440-public-ai-fixture.png",
+      "route": "/en/features/ai-assistance",
+      "sha256": "b1a0be0801ecebec535182696174b25cf5b4bf2c4529176104a5bf806d8c8afc",
+      "overflow": false,
+      "heading": "A helping hand. You keep the final say."
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "home-fixture",
+      "file": "en-375-home-fixture.png",
+      "route": "/en",
+      "sha256": "2e9648a0f321c198321d762b647ed377317ecbf457a5b80438ea9a024c3f1375",
+      "overflow": false,
+      "heading": "One property.Every opportunity."
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "crm-fixture",
+      "file": "en-375-crm-fixture.png",
+      "route": "/en/workspace/leads",
+      "sha256": "3ef6c8bb056cc1223e2846f306dd988deac173974c1aa1d672050de2860de6ab",
+      "overflow": false,
+      "heading": "Lead manager",
+      "firstRow": 1155.1875,
+      "primaryAction": {
+        "x": 16,
+        "y": 145.59375,
+        "width": 343,
+        "height": 44,
+        "top": 145.59375,
+        "right": 359,
+        "bottom": 189.59375,
+        "left": 16
+      }
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "lead-fixture",
+      "file": "en-375-lead-fixture.png",
+      "route": "/en/workspace/leads/LE-2101",
+      "sha256": "c164bd313898e553ce17318c2701e6cb937afa7762c3b480d76dc0ef9a11ccb8",
+      "overflow": false,
+      "heading": "Demo visitor 2",
+      "firstRow": 2490.046875,
+      "primaryAction": {
+        "x": 16,
+        "y": 170.09375,
+        "width": 343,
+        "height": 44,
+        "top": 170.09375,
+        "right": 359,
+        "bottom": 214.09375,
+        "left": 16
+      }
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "dashboard-fixture",
+      "file": "en-375-dashboard-fixture.png",
+      "route": "/en/workspace",
+      "sha256": "b0a3aec5ac07512ab5cbd8436644906dbbf2fd0259e763077eec115fbcdab83b",
+      "overflow": false,
+      "heading": "Your agency, at a glance.",
+      "primaryAction": {
+        "x": 16,
+        "y": 170.09375,
+        "width": 343,
+        "height": 44,
+        "top": 170.09375,
+        "right": 359,
+        "bottom": 214.09375,
+        "left": 16
+      }
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "public-crm-fixture",
+      "file": "en-375-public-crm-fixture.png",
+      "route": "/en/features/leads-and-inbox",
+      "sha256": "05b1697149d58fd8696ba018f7807beca99e0657de639b77a436241652527198",
+      "overflow": false,
+      "heading": "Every enquiry, with its context"
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "public-ai-fixture",
+      "file": "en-375-public-ai-fixture.png",
+      "route": "/en/features/ai-assistance",
+      "sha256": "d104f0aabb011de41ba3da75c779c5bf43c2194be2b95f85a95483808af538cc",
+      "overflow": false,
+      "heading": "A helping hand. You keep the final say."
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "home-fixture",
+      "file": "ar-1440-home-fixture.png",
+      "route": "/ar",
+      "sha256": "76bb0cf3ef662dc13282efab6720780ac7504bbdf272779697363172a8e02bf5",
+      "overflow": false,
+      "heading": "عقار واحد.كل الفرص."
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "crm-fixture",
+      "file": "ar-1440-crm-fixture.png",
+      "route": "/ar/workspace/leads",
+      "sha256": "f142e8e30921d262e65eb3412f40710ce99e82db32a542b062b8c92e18a217fb",
+      "overflow": false,
+      "heading": "إدارة العملاء",
+      "firstRow": 596.03125,
+      "primaryAction": {
+        "x": 24,
+        "y": 97,
+        "width": 144.21875,
+        "height": 48,
+        "top": 97,
+        "right": 168.21875,
+        "bottom": 145,
+        "left": 24
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "lead-fixture",
+      "file": "ar-1440-lead-fixture.png",
+      "route": "/ar/workspace/leads/LE-2101",
+      "sha256": "4ddebc87455acf0a3366bbd6ec67967be7f71c3dd66899b75f037604622f511e",
+      "overflow": false,
+      "heading": "زائر تجريبي 2",
+      "firstRow": 660.328125,
+      "primaryAction": {
+        "x": 24,
+        "y": 109.25,
+        "width": 99.390625,
+        "height": 48,
+        "top": 109.25,
+        "right": 123.390625,
+        "bottom": 157.25,
+        "left": 24
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "dashboard-fixture",
+      "file": "ar-1440-dashboard-fixture.png",
+      "route": "/ar/workspace",
+      "sha256": "bd54999016933395bff1cc240a0e906beb03e93f29231687963af97a93b9ed91",
+      "overflow": false,
+      "heading": "وكالتك في لمحة.",
+      "primaryAction": {
+        "x": 24,
+        "y": 109.25,
+        "width": 115.6875,
+        "height": 48,
+        "top": 109.25,
+        "right": 139.6875,
+        "bottom": 157.25,
+        "left": 24
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "public-crm-fixture",
+      "file": "ar-1440-public-crm-fixture.png",
+      "route": "/ar/features/leads-and-inbox",
+      "sha256": "5ea4308d0fdd154f94c27944907e17a8cf44de0e6616559e4e2812963fc6e185",
+      "overflow": false,
+      "heading": "كل استفسار في سياقه"
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "public-ai-fixture",
+      "file": "ar-1440-public-ai-fixture.png",
+      "route": "/ar/features/ai-assistance",
+      "sha256": "6c9a1492b61e9600a97998e5061ef64bed7d589bb94109be44627b96e9ad5b4c",
+      "overflow": false,
+      "heading": "مساعدة في الإعداد. والقرار لك."
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "home-fixture",
+      "file": "ar-375-home-fixture.png",
+      "route": "/ar",
+      "sha256": "6edbce69aba8b030bcd7aa05cf2db996096be48acfb30eeb2e4f038530ee1194",
+      "overflow": false,
+      "heading": "عقار واحد.كل الفرص."
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "crm-fixture",
+      "file": "ar-375-crm-fixture.png",
+      "route": "/ar/workspace/leads",
+      "sha256": "1d53eaaab4ac189529287347a9699f827933f31cfe1047fb48472c71b2d7c9ab",
+      "overflow": false,
+      "heading": "إدارة العملاء",
+      "firstRow": 1060.09375,
+      "primaryAction": {
+        "x": 16,
+        "y": 154,
+        "width": 343,
+        "height": 44,
+        "top": 154,
+        "right": 359,
+        "bottom": 198,
+        "left": 16
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "lead-fixture",
+      "file": "ar-375-lead-fixture.png",
+      "route": "/ar/workspace/leads/LE-2101",
+      "sha256": "d7b825c632f7fd3692d55c86885df22bc4a8b3acad50d4de37dd97ab4adb666b",
+      "overflow": false,
+      "heading": "زائر تجريبي 2",
+      "firstRow": 2444.859375,
+      "primaryAction": {
+        "x": 16,
+        "y": 178.5,
+        "width": 343,
+        "height": 44,
+        "top": 178.5,
+        "right": 359,
+        "bottom": 222.5,
+        "left": 16
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "dashboard-fixture",
+      "file": "ar-375-dashboard-fixture.png",
+      "route": "/ar/workspace",
+      "sha256": "3183ef9df07dd4cd7c47d225238a63c714757e61e6406243e739d27607a1d21d",
+      "overflow": false,
+      "heading": "وكالتك في لمحة.",
+      "primaryAction": {
+        "x": 16,
+        "y": 178.5,
+        "width": 343,
+        "height": 44,
+        "top": 178.5,
+        "right": 359,
+        "bottom": 222.5,
+        "left": 16
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "public-crm-fixture",
+      "file": "ar-375-public-crm-fixture.png",
+      "route": "/ar/features/leads-and-inbox",
+      "sha256": "b32d418c80f54a19edbbf9d7fe440c6731b86f54837364d073c0c1ddc18f4da1",
+      "overflow": false,
+      "heading": "كل استفسار في سياقه"
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "public-ai-fixture",
+      "file": "ar-375-public-ai-fixture.png",
+      "route": "/ar/features/ai-assistance",
+      "sha256": "4a49c9d75a4516b50e399b023298362d9daf32a2dbad5dce5f5d86b4aac2e762",
+      "overflow": false,
+      "heading": "مساعدة في الإعداد. والقرار لك."
+    }
+  ],
+  "errors": []
+}

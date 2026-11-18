@@ -940,6 +940,8 @@ main:has(.crm-nav) :is(input,textarea)::placeholder {
 }
 
 @media(max-width:768px) {
+ .prototype-main:has(.crm-quick-filters) .crm-quick-filters {flex-wrap:nowrap;overflow-x:auto;padding-block:10px;scroll-padding-inline:16px;}
+ .crm-quick-filters>button {flex:0 0 auto;min-block-size:44px;white-space:nowrap;}
  .crm-inbox .px-inbox-list { display:block; max-block-size:360px; overflow:auto; }
  .crm-inbox .ag-inbox-filters { position:sticky; inset-block-start:0; background:var(--surface); z-index:1; }
 }
@@ -967,4 +969,43 @@ main:has(.crm-nav) :is(input,textarea)::placeholder {
 .prototype-main:has(.crm-quick-filters) .crm-summary b {font-size:18px;font-weight:650;}
 .prototype-main:has(.crm-quick-filters) .crm-filters {margin-block:8px 12px;padding-block:8px;gap:10px 16px;}
 .prototype-main:has(.crm-quick-filters) .crm-quick-filters {padding-block:10px;gap:6px;}
+
+/* Canonical CRM extensions: compact working forms, explicit local task history. */
+.crm-productivity {display:grid;gap:18px;margin-block:18px;min-inline-size:0;}
+.crm-productivity>div {min-inline-size:0;scroll-margin-block-start:90px;}
+.crm-context-actions {margin-block:12px 18px;}
+.crm-requirement-actions {padding:16px 20px;}
+.crm-requirement-editor {margin:0 20px 20px;border-block-start:1px solid var(--line);}
+.crm-requirement-editor>summary {cursor:pointer;min-block-size:48px;padding-block:12px;font-weight:600;}
+.crm-requirement-editor form,.crm-local-form {display:grid;gap:16px;min-inline-size:0;}
+.crm-local-form {margin:16px 20px;padding-block:16px;border-block-start:1px solid var(--line);}
+.crm-local-form h3 {font-size:16px;margin:0;}
+.crm-local-form input,.crm-local-form select,.crm-requirement-editor input,.crm-requirement-editor select {max-inline-size:100%;min-inline-size:0;}
+.crm-task-list,.crm-match-list {list-style:none;margin:0;padding:0;}
+.crm-task-list>li {display:grid;gap:10px;padding:16px 20px;border-block-start:1px solid var(--line);overflow-wrap:anywhere;}
+.crm-task-list strong,.crm-task-list small,.crm-match-list small {display:block;}
+.crm-task-list small,.crm-match-list small {color:var(--muted);font-size:13px;line-height:1.7;margin-block-start:5px;}
+.crm-task-list .crm-actions {gap:8px 16px;}
+.crm-task-list button,.crm-task-list a {min-block-size:44px;color:var(--primary);font-size:14px;}
+.crm-task-list button {background:transparent;border:0;text-decoration:underline;cursor:pointer;}
+.crm-task-list button:disabled {color:var(--muted);cursor:default;}
+.crm-task-due {padding-inline:20px;color:var(--primary);font-weight:600;}
+.crm-match-results {padding:0 20px 20px;overflow-wrap:anywhere;}
+.crm-match-results h3 {font-size:17px;}
+.crm-match-results>p {font-size:14px;line-height:1.7;}
+.crm-match-list li {border-block-start:1px solid var(--line);}
+.crm-match-list a {display:block;padding-block:14px;}
+.crm-lane .crm-lead-tile>a {display:grid;gap:5px;}
+.crm-lead-tile .px-field {margin-block-start:12px;font-size:13px;}
+.crm-table td:last-child {min-inline-size:170px;max-inline-size:240px;}
+.crm-table td:last-child>a {display:block;min-block-size:44px;white-space:normal;}
+@media(max-width:768px) {
+ .ag-daily-leads td[data-label]::before {content:attr(data-label);display:block;font-size:12px;font-weight:600;color:var(--muted);margin-block-end:4px;}
+ .ag-daily-leads td:last-child {grid-column:1/-1;max-inline-size:none;border-block-start:1px solid var(--line);padding-block-start:10px!important;}
+ .crm-productivity .px-section-head {align-items:start;flex-wrap:wrap;gap:12px;}
+ .crm-productivity .px-field-grid {grid-template-columns:1fr;}
+ .crm-requirement-actions,.crm-task-list>li {padding-inline:16px;}
+ .crm-requirement-editor,.crm-local-form {margin-inline:16px;}
+ .crm-local-form .crm-actions>button {inline-size:100%;}
+}
 @media(min-width:1280px) {.prototype-main:has(.crm-quick-filters) .crm-filters {grid-template-columns:repeat(8,minmax(0,1fr));}.prototype-main:has(.crm-quick-filters) .crm-filters>label:first-child {grid-column:span 2;}}

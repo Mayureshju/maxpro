@@ -1,0 +1,36 @@
+{
+  "baseline": "6db0bfbd73660025768a01a6380bb4753ac60ee8",
+  "productionBuildId": "joMi3OmJWDXxWStk35kYG",
+  "commands": {
+    "CI=true pnpm install --frozen-lockfile": "passed; tool output retained in conversation",
+    "pnpm typecheck": "passed",
+    "pnpm lint": "passed",
+    "pnpm build": "failed: documented Turbopack sandbox worker-port restriction",
+    "pnpm --dir apps/web build --webpack": "passed",
+    "pnpm --dir apps/web test:e2e --timeout=60000 --trace=off": {
+      "passed": 1143,
+      "expectedSkips": 45,
+      "failed": 0,
+      "total": 1188,
+      "duration": "4.7 minutes"
+    }
+  },
+  "additionalAccessibility": {
+    "scans": 96,
+    "violations": 0,
+    "keyboardWrapEscapeReturnFocus": "passed"
+  },
+  "primaryScreenshots": {
+    "before": 132,
+    "after": 528,
+    "total": 660
+  },
+  "visualReview": "All 12 EN/AR contact sheets inspected, plus full-resolution representative new forms/proposals/matches. No blocking overlap or document overflow.",
+  "independentReview": "No remaining source blockers; not a production security or human usability certification.",
+  "limitations": [
+    "Browser-local editable fictional records; no production authentication or secure tenant isolation",
+    "No backend, live model, provider, send, spend, remote publishing, notification or calendar connection",
+    "Arabic professional review, physical devices, Safari/Firefox, assistive technology and participant research pending"
+  ],
+  "committedPushedOrDeployed": false
+}

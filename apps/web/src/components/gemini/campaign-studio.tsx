@@ -522,6 +522,7 @@ function CampaignEditor({
         }
       />
       <CampaignNavigation />
+      {p&&<nav className="crm-actions crm-context-actions" aria-label={t('Campaign source records','سجلات مصدر الحملة')}><Link href={`/workspace/inventory/${p.id}`}>{t('Open source property','فتح العقار المصدر')} · <bdi>{p.id}</bdi></Link><Link href={`/workspace/leads?property=${p.id}`}>{t('Review linked enquiries','مراجعة الاستفسارات المرتبطة')}</Link></nav>}
       <div className="cm-record-bar">
         <div>
           <Pill tone={c?.status === "simulated" ? "info" : "warning"}>

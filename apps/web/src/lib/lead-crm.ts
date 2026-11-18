@@ -3,6 +3,7 @@ import type {OrganizationRepository} from './organization-engine';
 /** Internal fictional contracts only. No provider webhook/API or production authorization. */
 import {demoOrganizationId, type CanonicalProperty} from './canonical-property';
 import {isRecord, textValue} from './property-storage';
+import {cleanRequirements, leadSnapshot, validRequirements} from './crm-productivity';
 export const leadSources = [
   'Website',
   'Property Finder',
@@ -49,6 +50,12 @@ export type Viewing = {
   status: 'Requested' | 'Confirmed' | 'Completed' | 'Cancelled';
   at: string;
 };
+export type LeadRequirements = {
+  purpose:'rent'|'sale'|null; location:string; maxBudgetQar:number|null;
+  budgetPeriod:'month'|'year'|'total'|null; propertyType:string; bedrooms:number|null;
+  moveIn:string; viewingInterest:boolean|null; contactMethod:string;
+};
+export type FollowUp = {id:string;date:string;time:string;reason:string;assignee:string;status:'open'|'completed'|'cancelled';outcome:string;createdAt:string;updatedAt:string};
 export type CanonicalLead = {
   id: string;
   organizationId: string;
@@ -81,6 +88,8 @@ export type CanonicalLead = {
   notes: Activity[];
   viewings: Viewing[];
   activity: Activity[];
+  requirements?: {values:LeadRequirements;confirmedAt:string};
+  followUps?: FollowUp[];
 };
 export type Receipt = {
   id: string;
@@ -110,6 +119,9 @@ export type CrmHost = {
   fallbackAgent: string;
 };
 export type CrmCommand =
+  | {type:'requirements';leadId:string;expectedSnapshot:string;values:LeadRequirements;confirmed:boolean}
+  | {type:'follow-up';leadId:string;expectedSnapshot:string;taskId?:string;date:string;time:string;reason:string;assignee:string}
+  | {type:'follow-up-status';leadId:string;expectedSnapshot:string;taskId:string;status:'completed'|'cancelled';outcome:string}
   | {type: 'intake'; source: LeadSource; payload: string; acknowledged: boolean}
   | {type: 'assign'; leadId: string; agent: string | null}
   | {type: 'stage'; leadId: string; stage: LeadStage}
@@ -542,8 +554,34 @@ export function applyCrmCommand(
     return fail('Lead or canonical property is missing in this organization.');
   if (lead.activity.length >= 500)
     return fail('Local lead history capacity reached.');
+  if ('expectedSnapshot' in cmd && cmd.expectedSnapshot !== leadSnapshot(lead))
+    return fail('Lead changed. Review the current record before saving.');
   let action = '';
-  if (cmd.type === 'assign') {
+  if (cmd.type === 'requirements') {
+    if (!cmd.confirmed || !validRequirements(cmd.values)) return fail('Review and confirm valid requirements. A budget needs a purpose and matching period.');
+    lead.requirements={values:cleanRequirements(cmd.values),confirmedAt:at};
+    action='Customer requirements explicitly confirmed locally.';
+  } else if (cmd.type === 'follow-up') {
+    if (['Won','Lost'].includes(lead.stage)) return fail('Reopen the lead before scheduling a follow-up.');
+    if (!dateValid(cmd.date)||!timeValid(cmd.time)||!short(cmd.reason,500)||!agentValid(cmd.assignee)||crm.unavailableAgents.includes(cmd.assignee)) return fail('Choose a valid Qatar date/time, reason and available organization agent.');
+    const tasks=lead.followUps??[];
+    if (cmd.taskId) {
+      const task=tasks.find(t=>t.id===cmd.taskId);
+      if(!task||task.status!=='open')return fail('Only an open recorded task can be rescheduled.');
+      Object.assign(task,{date:cmd.date,time:cmd.time,reason:cmd.reason.trim(),assignee:cmd.assignee,updatedAt:at});
+      action=`Follow-up rescheduled locally: ${cmd.date} ${cmd.time} Qatar · ${cmd.assignee} · ${cmd.reason.trim()}.`;
+    } else {
+      if(tasks.length>=100)return fail('Local follow-up capacity reached.');
+      tasks.push({id:`TASK-${uid()}`,date:cmd.date,time:cmd.time,reason:cmd.reason.trim(),assignee:cmd.assignee,status:'open',outcome:'',createdAt:at,updatedAt:at});
+      action=`Follow-up recorded locally: ${cmd.date} ${cmd.time} Qatar · ${cmd.assignee} · ${cmd.reason.trim()}. No reminder scheduled.`;
+    }
+    lead.followUps=tasks;
+  } else if(cmd.type==='follow-up-status') {
+    const task=lead.followUps?.find(t=>t.id===cmd.taskId);
+    if(!task||task.status!=='open'||!['completed','cancelled'].includes(cmd.status)||!short(cmd.outcome,500))return fail('Choose an open task and record an outcome or cancellation reason.');
+    task.status=cmd.status;task.outcome=cmd.outcome.trim();task.updatedAt=at;
+    action=`Follow-up ${cmd.status} locally. Outcome: ${cmd.outcome.trim()}`;
+  } else if (cmd.type === 'assign') {
     if (
       cmd.agent !== null &&
       (!agentValid(cmd.agent) || host.crm.unavailableAgents.includes(cmd.agent))

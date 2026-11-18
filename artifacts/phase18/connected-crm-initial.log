@@ -1,0 +1,187 @@
+
+> @maxpro/web@0.1.0 test:e2e /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> playwright test tests/e2e/connected-crm.spec.ts --timeout=30000 --trace=off
+
+
+Running 34 tests using 2 workers
+
+(node:34966) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:34967) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   2 [chromium] › tests/e2e/connected-crm.spec.ts:23:1 › connected CRM: legacy hydration, safe extension round-trip and corrupt extension recovery (101ms)
+  ✓   1 [mobile-chromium] › tests/e2e/connected-crm.spec.ts:23:1 › connected CRM: legacy hydration, safe extension round-trip and corrupt extension recovery (123ms)
+  ✓   3 [chromium] › tests/e2e/connected-crm.spec.ts:33:1 › connected CRM: confirmed requirements and task commands reject stale, foreign, invalid and unavailable input (62ms)
+  ✓   4 [mobile-chromium] › tests/e2e/connected-crm.spec.ts:33:1 › connected CRM: confirmed requirements and task commands reject stale, foreign, invalid and unavailable input (90ms)
+  ✓   5 [chromium] › tests/e2e/connected-crm.spec.ts:43:1 › connected CRM: Qatar due boundary, reschedule, completion outcome and history share canonical commands (52ms)
+  ✓   7 [chromium] › tests/e2e/connected-crm.spec.ts:55:1 › connected CRM: candidate evidence is explicit, contradictory facts are omitted, and suggestions do not mutate (59ms)
+  ✓   6 [mobile-chromium] › tests/e2e/connected-crm.spec.ts:43:1 › connected CRM: Qatar due boundary, reschedule, completion outcome and history share canonical commands (82ms)
+  ✓   8 [chromium] › tests/e2e/connected-crm.spec.ts:63:1 › connected CRM: matching normalizes rental periods and excludes foreign/archived/wrong-purpose records (63ms)
+  ✓   9 [mobile-chromium] › tests/e2e/connected-crm.spec.ts:55:1 › connected CRM: candidate evidence is explicit, contradictory facts are omitted, and suggestions do not mutate (82ms)
+  ✓  10 [chromium] › tests/e2e/connected-crm.spec.ts:70:1 › connected CRM: scoped summaries, matching, briefing, performance and relevant drafts are read-only (64ms)
+  ✓  11 [mobile-chromium] › tests/e2e/connected-crm.spec.ts:63:1 › connected CRM: matching normalizes rental periods and excludes foreign/archived/wrong-purpose records (85ms)
+  ✓  13 [mobile-chromium] › tests/e2e/connected-crm.spec.ts:70:1 › connected CRM: scoped summaries, matching, briefing, performance and relevant drafts are read-only (88ms)
+  ✓  12 [chromium] › tests/e2e/connected-crm.spec.ts:83:2 › connected CRM en: candidate review, confirmation, matching and draft acceptance survive refresh (1.0s)
+  ✓  14 [mobile-chromium] › tests/e2e/connected-crm.spec.ts:83:2 › connected CRM en: candidate review, confirmation, matching and draft acceptance survive refresh (1.9s)
+  ✓  15 [chromium] › tests/e2e/connected-crm.spec.ts:91:2 › connected CRM en: dated task due view, reschedule and completion share one record (1.4s)
+  ✓  16 [mobile-chromium] › tests/e2e/connected-crm.spec.ts:91:2 › connected CRM en: dated task due view, reschedule and completion share one record (1.5s)
+  ✓  17 [chromium] › tests/e2e/connected-crm.spec.ts:98:2 › connected CRM en: shared board stage, scoped assistant and organization switch (1.3s)
+  ✓  19 [chromium] › tests/e2e/connected-crm.spec.ts:102:2 › connected CRM en: stale proposal and task forms preserve edits and block acceptance (957ms)
+  ✓  18 [mobile-chromium] › tests/e2e/connected-crm.spec.ts:98:2 › connected CRM en: shared board stage, scoped assistant and organization switch (1.4s)
+  ✓  21 [mobile-chromium] › tests/e2e/connected-crm.spec.ts:102:2 › connected CRM en: stale proposal and task forms preserve edits and block acceptance (876ms)
+  ✘  20 [chromium] › tests/e2e/connected-crm.spec.ts:107:2 › connected CRM en: same-route stage and source links apply the selected property cohort (8.7s)
+(node:35074) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  22 [mobile-chromium] › tests/e2e/connected-crm.spec.ts:107:2 › connected CRM en: same-route stage and source links apply the selected property cohort (8.6s)
+  ✓  23 [chromium] › tests/e2e/connected-crm.spec.ts:83:2 › connected CRM ar: candidate review, confirmation, matching and draft acceptance survive refresh (969ms)
+(node:35084) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  25 [mobile-chromium] › tests/e2e/connected-crm.spec.ts:83:2 › connected CRM ar: candidate review, confirmation, matching and draft acceptance survive refresh (1.3s)
+  ✓  24 [chromium] › tests/e2e/connected-crm.spec.ts:91:2 › connected CRM ar: dated task due view, reschedule and completion share one record (1.5s)
+  ✓  27 [chromium] › tests/e2e/connected-crm.spec.ts:98:2 › connected CRM ar: shared board stage, scoped assistant and organization switch (1.3s)
+  ✓  26 [mobile-chromium] › tests/e2e/connected-crm.spec.ts:91:2 › connected CRM ar: dated task due view, reschedule and completion share one record (1.5s)
+  ✓  28 [chromium] › tests/e2e/connected-crm.spec.ts:102:2 › connected CRM ar: stale proposal and task forms preserve edits and block acceptance (852ms)
+  ✓  29 [mobile-chromium] › tests/e2e/connected-crm.spec.ts:98:2 › connected CRM ar: shared board stage, scoped assistant and organization switch (1.3s)
+  ✓  31 [mobile-chromium] › tests/e2e/connected-crm.spec.ts:102:2 › connected CRM ar: stale proposal and task forms preserve edits and block acceptance (848ms)
+  ✘  30 [chromium] › tests/e2e/connected-crm.spec.ts:107:2 › connected CRM ar: same-route stage and source links apply the selected property cohort (8.7s)
+(node:35145) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  33 [chromium] › tests/e2e/connected-crm.spec.ts:112:1 › connected CRM evidence fixture can be reproduced without adding default demo facts (382ms)
+  ✘  32 [mobile-chromium] › tests/e2e/connected-crm.spec.ts:107:2 › connected CRM ar: same-route stage and source links apply the selected property cohort (8.5s)
+(node:35155) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  -  34 [mobile-chromium] › tests/e2e/connected-crm.spec.ts:112:1 › connected CRM evidence fixture can be reproduced without adding default demo facts
+
+
+  1) [chromium] › tests/e2e/connected-crm.spec.ts:107:2 › connected CRM en: same-route stage and source links apply the selected property cohort 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('tr[data-lead-id]')
+    Expected: 1
+    Received: 2
+    Timeout:  8000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('tr[data-lead-id]') with timeout 8000ms
+      - waiting for locator('tr[data-lead-id]')
+        20 × locator resolved to 2 elements
+           - unexpected value "2"
+
+
+      106 |  });
+      107 |  test(`connected CRM ${locale}: same-route stage and source links apply the selected property cohort`,async({page})=>{
+    > 108 |   await seed(page);await page.goto(`/${locale}/workspace/leads?property=AQ-50002`);await page.getByRole('button',{name:t('MaxPro AI','ماكس برو AI'),exact:true}).click();await page.getByRole('button',{name:t('Explain recorded performance','شرح الأداء المسجل'),exact:true}).click();await page.locator('.ai-answer').getByRole('link').filter({hasText:t('New','جديد')}).click();await expect(page).toHaveURL(/stage=New.*property=AQ-50002/);await expect(page.locator('tr[data-lead-id]')).toHaveCount(1);await expect(page.getByRole('combobox',{name:t('Stage','المرحلة'),exact:true})).toHaveValue('New');
+          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ^
+      109 |  });
+      110 | }
+      111 |
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/connected-crm.spec.ts:108:482
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/connected-crm-connected-CR-55162-he-selected-property-cohort-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/connected-crm-connected-CR-55162-he-selected-property-cohort-chromium/error-context.md
+
+  2) [chromium] › tests/e2e/connected-crm.spec.ts:107:2 › connected CRM ar: same-route stage and source links apply the selected property cohort 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('tr[data-lead-id]')
+    Expected: 1
+    Received: 2
+    Timeout:  8000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('tr[data-lead-id]') with timeout 8000ms
+      - waiting for locator('tr[data-lead-id]')
+        20 × locator resolved to 2 elements
+           - unexpected value "2"
+
+
+      106 |  });
+      107 |  test(`connected CRM ${locale}: same-route stage and source links apply the selected property cohort`,async({page})=>{
+    > 108 |   await seed(page);await page.goto(`/${locale}/workspace/leads?property=AQ-50002`);await page.getByRole('button',{name:t('MaxPro AI','ماكس برو AI'),exact:true}).click();await page.getByRole('button',{name:t('Explain recorded performance','شرح الأداء المسجل'),exact:true}).click();await page.locator('.ai-answer').getByRole('link').filter({hasText:t('New','جديد')}).click();await expect(page).toHaveURL(/stage=New.*property=AQ-50002/);await expect(page.locator('tr[data-lead-id]')).toHaveCount(1);await expect(page.getByRole('combobox',{name:t('Stage','المرحلة'),exact:true})).toHaveValue('New');
+          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ^
+      109 |  });
+      110 | }
+      111 |
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/connected-crm.spec.ts:108:482
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/connected-crm-connected-CR-a3028-he-selected-property-cohort-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/connected-crm-connected-CR-a3028-he-selected-property-cohort-chromium/error-context.md
+
+  3) [mobile-chromium] › tests/e2e/connected-crm.spec.ts:107:2 › connected CRM en: same-route stage and source links apply the selected property cohort 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('tr[data-lead-id]')
+    Expected: 1
+    Received: 2
+    Timeout:  8000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('tr[data-lead-id]') with timeout 8000ms
+      - waiting for locator('tr[data-lead-id]')
+        20 × locator resolved to 2 elements
+           - unexpected value "2"
+
+
+      106 |  });
+      107 |  test(`connected CRM ${locale}: same-route stage and source links apply the selected property cohort`,async({page})=>{
+    > 108 |   await seed(page);await page.goto(`/${locale}/workspace/leads?property=AQ-50002`);await page.getByRole('button',{name:t('MaxPro AI','ماكس برو AI'),exact:true}).click();await page.getByRole('button',{name:t('Explain recorded performance','شرح الأداء المسجل'),exact:true}).click();await page.locator('.ai-answer').getByRole('link').filter({hasText:t('New','جديد')}).click();await expect(page).toHaveURL(/stage=New.*property=AQ-50002/);await expect(page.locator('tr[data-lead-id]')).toHaveCount(1);await expect(page.getByRole('combobox',{name:t('Stage','المرحلة'),exact:true})).toHaveValue('New');
+          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ^
+      109 |  });
+      110 | }
+      111 |
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/connected-crm.spec.ts:108:482
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/connected-crm-connected-CR-55162-he-selected-property-cohort-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/connected-crm-connected-CR-55162-he-selected-property-cohort-mobile-chromium/error-context.md
+
+  4) [mobile-chromium] › tests/e2e/connected-crm.spec.ts:107:2 › connected CRM ar: same-route stage and source links apply the selected property cohort 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('tr[data-lead-id]')
+    Expected: 1
+    Received: 2
+    Timeout:  8000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('tr[data-lead-id]') with timeout 8000ms
+      - waiting for locator('tr[data-lead-id]')
+        20 × locator resolved to 2 elements
+           - unexpected value "2"
+
+
+      106 |  });
+      107 |  test(`connected CRM ${locale}: same-route stage and source links apply the selected property cohort`,async({page})=>{
+    > 108 |   await seed(page);await page.goto(`/${locale}/workspace/leads?property=AQ-50002`);await page.getByRole('button',{name:t('MaxPro AI','ماكس برو AI'),exact:true}).click();await page.getByRole('button',{name:t('Explain recorded performance','شرح الأداء المسجل'),exact:true}).click();await page.locator('.ai-answer').getByRole('link').filter({hasText:t('New','جديد')}).click();await expect(page).toHaveURL(/stage=New.*property=AQ-50002/);await expect(page.locator('tr[data-lead-id]')).toHaveCount(1);await expect(page.getByRole('combobox',{name:t('Stage','المرحلة'),exact:true})).toHaveValue('New');
+          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ^
+      109 |  });
+      110 | }
+      111 |
+        at /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web/tests/e2e/connected-crm.spec.ts:108:482
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/connected-crm-connected-CR-a3028-he-selected-property-cohort-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/connected-crm-connected-CR-a3028-he-selected-property-cohort-mobile-chromium/error-context.md
+
+  4 failed
+    [chromium] › tests/e2e/connected-crm.spec.ts:107:2 › connected CRM en: same-route stage and source links apply the selected property cohort 
+    [chromium] › tests/e2e/connected-crm.spec.ts:107:2 › connected CRM ar: same-route stage and source links apply the selected property cohort 
+    [mobile-chromium] › tests/e2e/connected-crm.spec.ts:107:2 › connected CRM en: same-route stage and source links apply the selected property cohort 
+    [mobile-chromium] › tests/e2e/connected-crm.spec.ts:107:2 › connected CRM ar: same-route stage and source links apply the selected property cohort 
+  1 skipped
+  29 passed (30.0s)
+ ELIFECYCLE  Command failed with exit code 1.

@@ -1,0 +1,92 @@
+[
+  {
+    "width": 320,
+    "route": "",
+    "violations": []
+  },
+  {
+    "width": 320,
+    "route": "/workspace/inventory/AQ-50002/edit",
+    "violations": []
+  },
+  {
+    "width": 320,
+    "route": "/workspace/inbox?lead=LE-2100",
+    "violations": []
+  },
+  {
+    "width": 375,
+    "route": "",
+    "violations": []
+  },
+  {
+    "width": 375,
+    "route": "/workspace/inventory/AQ-50002/edit",
+    "violations": []
+  },
+  {
+    "width": 375,
+    "route": "/workspace/inbox?lead=LE-2100",
+    "violations": []
+  },
+  {
+    "width": 768,
+    "route": "",
+    "violations": []
+  },
+  {
+    "width": 768,
+    "route": "/workspace/inventory/AQ-50002/edit",
+    "violations": []
+  },
+  {
+    "width": 768,
+    "route": "/workspace/inbox?lead=LE-2100",
+    "violations": []
+  },
+  {
+    "width": 1024,
+    "route": "",
+    "violations": []
+  },
+  {
+    "width": 1024,
+    "route": "/workspace/inventory/AQ-50002/edit",
+    "violations": []
+  },
+  {
+    "width": 1024,
+    "route": "/workspace/inbox?lead=LE-2100",
+    "violations": []
+  },
+  {
+    "width": 1280,
+    "route": "",
+    "violations": []
+  },
+  {
+    "width": 1280,
+    "route": "/workspace/inventory/AQ-50002/edit",
+    "violations": []
+  },
+  {
+    "width": 1280,
+    "route": "/workspace/inbox?lead=LE-2100",
+    "violations": []
+  },
+  {
+    "width": 1440,
+    "route": "",
+    "violations": []
+  },
+  {
+    "width": 1440,
+    "route": "/workspace/inventory/AQ-50002/edit",
+    "violations": []
+  },
+  {
+    "width": 1440,
+    "route": "/workspace/inbox?lead=LE-2100",
+    "violations": []
+  }
+]

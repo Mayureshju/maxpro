@@ -1,5 +1,6 @@
 import {demoOrganizationId, type CanonicalProperty} from './canonical-property';
 import {isRecord, textValue} from './property-storage';
+import {cleanRequirements,validRequirements} from './crm-productivity';
 import {
   crmAgents,
   leadSources,
@@ -52,6 +53,14 @@ const viewing = (v: unknown,names:readonly string[]=crmAgents) =>
   v.agent !== null &&
   agent(v.agent,names) &&
   oneOf(v.status, ['Requested', 'Confirmed', 'Completed', 'Cancelled']);
+function extensions(v:Record<string,unknown>,names:readonly string[]):Pick<CanonicalLead,'requirements'|'followUps'> {
+ const result:Pick<CanonicalLead,'requirements'|'followUps'>={};
+ if(isRecord(v.requirements)&&at(v.requirements.confirmedAt)&&validRequirements(v.requirements.values))result.requirements={values:cleanRequirements(v.requirements.values),confirmedAt:v.requirements.confirmedAt};
+ if(list(v.followUps,t=>isRecord(t)&&id(t.id)&&/^TASK-[a-f0-9-]{36}$/.test(t.id)&&viewing({...t,agent:t.assignee,status:'Requested',at:t.createdAt},names)&&text(t.reason,500)&&t.reason.trim().length>0&&oneOf(t.status,['open','completed','cancelled'])&&text(t.outcome,500)&&(t.status==='open'?t.outcome==='':t.outcome.trim().length>0)&&at(t.updatedAt)&&Date.parse(t.updatedAt)>=Date.parse(t.createdAt as string),100)) {
+  result.followUps=(v.followUps as NonNullable<CanonicalLead['followUps']>).map(t=>({id:t.id,date:t.date,time:t.time,reason:t.reason,assignee:t.assignee,status:t.status,outcome:t.outcome,createdAt:t.createdAt,updatedAt:t.updatedAt}));
+ }
+ return result;
+}
 function readLead(
   v: unknown,
   properties: Record<string, CanonicalProperty>,
@@ -203,6 +212,7 @@ function readLead(
       at: b.at,
     })),
     activity: l.activity.map((a) => ({id: a.id, at: a.at, text: a.text})),
+    ...extensions(v,names),
   };
 }
 export function restoreCrm(
@@ -235,6 +245,7 @@ export function restoreCrm(
         ? JSON.stringify([l.organizationId, l.source, l.sourceEventId])
         : '';
       if (l && !seen.has(key) && !ids.has(l.id)) {
+        if(isRecord(v)&&((v.requirements!==undefined&&!l.requirements)||(v.followUps!==undefined&&!l.followUps)))corrupt=true;
         crm.leads.push(l);
         seen.add(key);
         ids.add(l.id);

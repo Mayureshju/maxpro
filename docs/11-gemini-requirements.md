@@ -35,6 +35,8 @@
 
 ## Explicit milestone gates
 
+OpenSpec `0022-connected-crm-productivity` extends GEM-01/02/03/13/14/15/16/17/19/21/22/24 with optional confirmed lead requirements, dated local follow-ups, organization-scoped saved-property matching, record-backed CRM Copilot assistance and connected campaign/enquiry navigation. Existing schema-v1 leads and identities remain compatible. See [current-state classification, scenario coverage and acceptance evidence](39-connected-crm-productivity.md). All behavior remains browser-local and deterministic; production status for every row above remains NOT IMPLEMENTED.
+
 **Prototype Gate A (visual):** Every core route has task-specific composition, desktop/mobile/Arabic screenshots, copy completeness, keyboard states and design signoff; no repeated generic KPI-card grids.
 
 **Prototype Gate B (functional):** Person can open inventory, edit sample canonical facts, prepare local provider connection(s), run per-destination checks, simulate publishing into local history, inspect source-attributed leads, test round-robin, preview channel ROI, and review plan limits. No blank links or inert controls in these critical journeys.

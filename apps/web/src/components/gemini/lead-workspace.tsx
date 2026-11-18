@@ -4,10 +4,14 @@ import {UnsavedChanges} from '@/components/prototype/unsaved-changes';
 import {SearchCombobox} from '@/components/ui/search-combobox';
 import {NativeSelect} from '@/components/ui/field';
 import {LeadAssistance} from '@/components/agency/lead-assistance';
+import {LeadProductivity} from '@/components/agency/lead-productivity';
+import {CopilotButton} from '@/components/agency/maxpro-ai';
+import {dueFollowUps,nextFollowUp} from '@/lib/crm-productivity';
 import {usePrototypeCopy} from '@/components/prototype/use-prototype-copy';
 import {can} from '@/lib/organization-engine';
 import {useEffect,useRef,useState, type ReactNode} from 'react';
 import {useLocale} from 'next-intl';
+import {useSearchParams} from 'next/navigation';
 import {Link, usePathname} from '@/i18n/navigation';
 import {Intro, Notice, Pill, Section} from '@/components/prototype/primitives';
 import {
@@ -324,22 +328,25 @@ export function LeadsPage({
   initialProperty?: string;
   initialIntake?: boolean;
 }) {const copyText=usePrototypeCopy();const ar=useLocale()==='ar';
-  const {state, hydrated} = useGeminiDemo();
+  const {state, hydrated,crmCommand} = useGeminiDemo();
   const t = useCrmCopy();
+  const query=useSearchParams();
   const [search, setSearch] = useState('');
-  const [source, setSource] = useState('All');
+  const [source, setSource] = useState(query.get('source')??'All');
   const [property, setProperty] = useState(initialProperty ?? 'All');
-  const [owner, setOwner] = useState('All');
-  const [stage, setStage] = useState('All');
+  const [owner, setOwner] = useState(query.get('work')==='unassigned'?'Unassigned':'All');
+  const [stage, setStage] = useState(query.get('stage')??'All');
   const [priority, setPriority] = useState('All');
   const [qualification, setQualification] = useState('All');
   const [view, setView] = useState('table');
   const [intake, setIntake] = useState(initialIntake);
-  const [work,setWork]=useState('all');
+  const [work,setWork]=useState(query.get('work')==='unanswered'?'unanswered':query.get('work')==='due'?'due':'all');
+  const [stageError,setStageError]=useState('');
+  const currentMember=state.organization.members.find(m=>m.organizationId===activeOrganizationId(state.organization)&&m.status==='active-demo'&&m.role===state.organization.actor);
   if (!hydrated) return <CrmLoading />;
   const filtered = state.crm.leads.filter(
     (l) =>
-      (work==='all'||work==='unanswered'&&activeEnquiry(l)&&unansweredEnquiry(l)||work==='qualified'&&l.qualification==='Qualified'||work==='viewing'&&l.stage==='Viewing') &&
+      (work==='all'||work==='mine'&&l.assignee===currentMember?.alias||work==='due'&&dueFollowUps(l).length>0||work==='closed'&&['Won','Lost'].includes(l.stage)||work==='unanswered'&&activeEnquiry(l)&&unansweredEnquiry(l)||work==='qualified'&&l.qualification==='Qualified'||work==='viewing'&&l.viewings.some(v=>['Requested','Confirmed'].includes(v.status)&&Date.parse(`${v.date}T${v.time}:00+03:00`)>=Date.now())) &&
       (source === 'All' || l.source === source) &&
       (property === 'All' || l.propertyId === property) &&
       (owner === 'All' ||
@@ -408,7 +415,7 @@ export function LeadsPage({
           </div>
         }
       >
-        <div className="crm-quick-filters" aria-label={t('Quick lead filters','فلاتر سريعة للاستفسارات')}><button type="button" aria-pressed={work==='unanswered'} onClick={()=>setWork(work==='unanswered'?'all':'unanswered')}>{t('Unanswered recorded messages','رسائل مسجلة دون رد')} · {state.crm.leads.filter(l=>activeEnquiry(l)&&unansweredEnquiry(l)).length}</button><button type="button" aria-pressed={work==='qualified'} onClick={()=>setWork(work==='qualified'?'all':'qualified')}>{t('Qualified','مؤهل')}</button><button type="button" aria-pressed={work==='viewing'} onClick={()=>setWork(work==='viewing'?'all':'viewing')}>{t('Viewing follow-up','متابعة المعاينات')}</button><button type="button" aria-pressed={owner==='Unassigned'} onClick={()=>setOwner(owner==='Unassigned'?'All':'Unassigned')}>{t('Needs assignment','بحاجة إلى تعيين')} · {state.crm.leads.filter(l=>!l.assignee).length}</button><button type="button" aria-pressed={stage==='New'} onClick={()=>setStage(stage==='New'?'All':'New')}>{t('New enquiries','الاستفسارات الجديدة')} · {metrics.new}</button>          <button
+        <div className="crm-quick-filters" aria-label={t('Quick lead filters','فلاتر سريعة للاستفسارات')}><button type="button" aria-pressed={work==='all'&&owner==='All'} onClick={()=>{setWork('all');setOwner('All');setStage('All');}}>{t('All leads','كل العملاء')}</button><button type="button" aria-pressed={work==='mine'} disabled={!currentMember} title={currentMember?currentMember.alias:t('No active member for this demo role','لا عضو نشط لهذا الدور التجريبي')} onClick={()=>setWork(work==='mine'?'all':'mine')}>{t('My leads','عملائي')}</button><button type="button" aria-pressed={work==='due'} onClick={()=>setWork(work==='due'?'all':'due')}>{t('Follow-ups due','متابعات مستحقة')} · {state.crm.leads.filter(l=>dueFollowUps(l).length).length}</button><button type="button" aria-pressed={work==='closed'} onClick={()=>setWork(work==='closed'?'all':'closed')}>{t('Won & lost','ناجحة ومفقودة')}</button><button type="button" aria-pressed={work==='unanswered'} onClick={()=>setWork(work==='unanswered'?'all':'unanswered')}>{t('Unanswered recorded messages','رسائل مسجلة دون رد')} · {state.crm.leads.filter(l=>activeEnquiry(l)&&unansweredEnquiry(l)).length}</button><button type="button" aria-pressed={work==='qualified'} onClick={()=>setWork(work==='qualified'?'all':'qualified')}>{t('Qualified','مؤهل')}</button><button type="button" aria-pressed={work==='viewing'} onClick={()=>setWork(work==='viewing'?'all':'viewing')}>{t('Upcoming viewings','المعاينات القادمة')}</button><button type="button" aria-pressed={owner==='Unassigned'} onClick={()=>{setWork('all');setOwner(owner==='Unassigned'?'All':'Unassigned');}}>{t('Needs assignment','بحاجة إلى تعيين')} · {state.crm.leads.filter(l=>!l.assignee).length}</button><button type="button" aria-pressed={stage==='New'} onClick={()=>{setWork('all');setStage(stage==='New'?'All':'New');}}>{t('New enquiries','الاستفسارات الجديدة')} · {metrics.new}</button>          <button
             className="px-mini-action"
             onClick={() => {
               setSearch('');setWork('all');
@@ -487,6 +494,8 @@ export function LeadsPage({
           ))}
 
         </div>
+        {work==='mine'&&<p className="ag-help">{t('Demo member for this simulated role','العضو التجريبي لهذا الدور المحاكى')}: {currentMember?.alias??t('No active member','لا عضو نشط')}</p>}
+        {stageError&&<p role="alert" className="crm-error">{stageError}</p>}
         {!filtered.length ? (
           <div className="crm-empty">
             <h3>{copyText(t('No matching leads', 'لا توجد نتائج مطابقة'))}</h3>
@@ -515,6 +524,7 @@ export function LeadsPage({
                     'Qualification',
                     'Owner',
                     'Last recorded activity',
+                    'Next action',
                   ].map((s) => (
                     <th scope="col" key={s}>
                       {copyText(t(
@@ -528,6 +538,7 @@ export function LeadsPage({
                             Qualification: 'التأهيل',
                             Owner: 'المسؤول',
                             'Last recorded activity': 'آخر نشاط مسجل',
+                            'Next action': 'الإجراء التالي',
                           } as Record<string, string>
                         )[s],
                       ))}
@@ -544,16 +555,16 @@ export function LeadsPage({
                         <small>{copyText(l.id)}</small>
                       </Link><Link className="crm-row-action" href={!l.assignee?`/workspace/leads/${l.id}`:`/workspace/inbox?lead=${l.id}`}>{!l.assignee?t('Assign enquiry','تعيين الاستفسار'):unansweredEnquiry(l)?t('Reply in Inbox','الرد في الوارد'):t('Open conversation','فتح المحادثة')}</Link>
                     </td>
-                    <td>
+                    <td data-label={t('Source','المصدر')}>
                       {copyText(l.source)}
                       <small>{unansweredEnquiry(l)?t('Latest message: inbound','آخر رسالة: واردة'):t('Local conversation','محادثة محلية')}</small>
                     </td>
-                    <td>
+                    <td data-label={t('Property','العقار')}>
                       <Link href={`/workspace/inventory/${l.propertyId}`}>
                         <PropertyLabel id={l.propertyId} />
                       </Link>
                     </td>
-                    <td>
+                    <td data-label={t('Stage','المرحلة')}>
                       <Pill
                         tone={
                           l.stage === 'Won'
@@ -568,7 +579,7 @@ export function LeadsPage({
                         {copyText(t(l.stage, stageAr[l.stage]))}
                       </Pill>
                     </td>
-                    <td>
+                    <td data-label={t('Qualification','التأهيل')}>
                       {copyText(t(
                         l.qualification,
                         {
@@ -584,11 +595,12 @@ export function LeadsPage({
                         ))}
                       </small>
                     </td>
-                    <td>{copyText(l.assignee ?? t('Unassigned', 'غير موزع'))}</td>
-                    <td>
+                    <td data-label={t('Owner','المسؤول')}>{copyText(l.assignee ?? t('Unassigned', 'غير موزع'))}</td>
+                    <td data-label={t('Last activity','آخر نشاط')}>
                       <time dateTime={lastLeadActivity(l)}>
                         {copyText(lastLeadActivity(l).slice(0, 16).replace('T', ' '))} {copyText(" UTC ")}</time>
                     </td>
+                    <td data-label={t('Next action','الإجراء التالي')}>{nextFollowUp(l)?<Link href={`/workspace/leads/${l.id}#follow-ups`}><strong>{nextFollowUp(l)!.reason}</strong><small><bdi>{nextFollowUp(l)!.date} · {nextFollowUp(l)!.time}</bdi> · {t('Qatar time','توقيت قطر')}</small></Link>:<Link href={`/workspace/leads/${l.id}${!l.assignee?'':'#requirements'}`}>{!l.assignee?t('Assign agent','تعيين وكيل'):t('Review requirements','مراجعة المتطلبات')}</Link>}</td>
                   </tr>
                 ))}
               </tbody>
@@ -610,16 +622,12 @@ export function LeadsPage({
                 {filtered
                   .filter((l) => l.stage === s)
                   .map((l) => (
-                    <Link
-                      className="crm-lead-tile"
-                      key={l.id}
-                      href={`/workspace/leads/${l.id}`}
-                    >
+                    <div className="crm-lead-tile" key={l.id}><Link href={`/workspace/leads/${l.id}`}>
                       <b>{copyText(l.identity.alias)}</b>
                       <span>{copyText(l.source)}</span>
                       <small>{copyText(l.propertyId)}</small>
                       <small>{copyText(l.assignee ?? t('Unassigned', 'غير موزع'))}</small>
-                    </Link>
+                    </Link><label className="px-field"><span>{t('Change stage','تغيير المرحلة')} · {l.identity.alias}</span><NativeSelect value={l.stage} disabled={!can(state.organization,'lead.work')} onChange={e=>{const result=crmCommand({type:'stage',leadId:l.id,stage:e.target.value as LeadStage});setStageError(result.error?t('Stage could not be changed. Review the current record.','تعذر تغيير المرحلة. راجع السجل الحالي.'): '');}}>{leadStages.map(stage=><option key={stage} value={stage}>{t(stage,stageAr[stage])}</option>)}</NativeSelect></label></div>
                   ))}
                 {!filtered.some((l) => l.stage === s) && (
                   <p>{copyText(t('No leads', 'لا عملاء'))}</p>
@@ -698,7 +706,7 @@ function LeadDossier({lead: l}: {lead: CanonicalLead}) {const copyText=useProtot
           </Link>
         }
       />
-      {l.sourceEventId.startsWith('DEMO-FIRST-')&&<div className="ag-first-enquiry"><strong>{t('Your fictional property enquiry','استفسار عقارك الخيالي')}</strong><p>{t('This example connects the property, source channel and agent follow-up. Review ownership below, then open the conversation to save a local reply.','يربط هذا المثال العقار وقناة المصدر ومتابعة الوكيل. راجع المسؤولية أدناه ثم افتح المحادثة لحفظ رد محلي.')}</p>{!l.assignee&&exampleOwner&&can(state.organization,'lead.assign')&&<><p>{t('No agent is assigned yet. For this example, make the demo owner available and assign this enquiry to them.','لم يُعيّن وكيل بعد. لهذا المثال، اجعل المالك التجريبي متاحاً وأسند إليه الاستفسار.')} <bdi>{exampleOwner.alias}</bdi></p><button type="button" className="px-button px-button-outline" onClick={()=>{if(run({type:'availability',agent:exampleOwner.alias,available:true}))run({type:'assign',leadId:l.id,agent:exampleOwner.alias});}}>{t('Make owner available & assign','إتاحة المالك وتعيينه')}</button></>}<div className="ag-action-row"><Link className="px-text-link" href={`/workspace/inventory/${l.propertyId}`}>{t('Back to property','العودة إلى العقار')}</Link><Link className="px-text-link" href="/workspace">{t('Back to dashboard','العودة إلى لوحة الوكالة')}</Link></div></div>}<CrmNavigation /><LeadAssistance leadId={l.id}/>
+      {l.sourceEventId.startsWith('DEMO-FIRST-')&&<div className="ag-first-enquiry"><strong>{t('Your fictional property enquiry','استفسار عقارك الخيالي')}</strong><p>{t('This example connects the property, source channel and agent follow-up. Review ownership below, then open the conversation to save a local reply.','يربط هذا المثال العقار وقناة المصدر ومتابعة الوكيل. راجع المسؤولية أدناه ثم افتح المحادثة لحفظ رد محلي.')}</p>{!l.assignee&&exampleOwner&&can(state.organization,'lead.assign')&&<><p>{t('No agent is assigned yet. For this example, make the demo owner available and assign this enquiry to them.','لم يُعيّن وكيل بعد. لهذا المثال، اجعل المالك التجريبي متاحاً وأسند إليه الاستفسار.')} <bdi>{exampleOwner.alias}</bdi></p><button type="button" className="px-button px-button-outline" onClick={()=>{if(run({type:'availability',agent:exampleOwner.alias,available:true}))run({type:'assign',leadId:l.id,agent:exampleOwner.alias});}}>{t('Make owner available & assign','إتاحة المالك وتعيينه')}</button></>}<div className="ag-action-row"><Link className="px-text-link" href={`/workspace/inventory/${l.propertyId}`}>{t('Back to property','العودة إلى العقار')}</Link><Link className="px-text-link" href="/workspace">{t('Back to dashboard','العودة إلى لوحة الوكالة')}</Link></div></div>}<CrmNavigation /><div className="crm-actions crm-context-actions"><LeadAssistance leadId={l.id}/><CopilotButton prompt={t('Summarize this customer','لخّص هذا العميل')}/></div>
       <Feedback {...result} />
       <div className="crm-dossier">
         <div>
@@ -794,6 +802,7 @@ function LeadDossier({lead: l}: {lead: CanonicalLead}) {const copyText=useProtot
               {copyText(t('Request a viewing', 'طلب معاينة'))} →
             </Link>
           </Section>
+          <LeadProductivity key={l.id} lead={l}/>
           <Section title={t('Qualification & follow-up', 'التأهيل والمتابعة')}>
             <form
               onSubmit={(e) => {

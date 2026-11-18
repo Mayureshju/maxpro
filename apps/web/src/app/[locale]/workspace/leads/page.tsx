@@ -1,2 +1,2 @@
 import {LeadsPage} from '@/components/gemini/lead-workspace';
-export default async function Page({searchParams}:{searchParams:Promise<{property?:string;intake?:string}>}){const {property,intake}=await searchParams;return <LeadsPage key={property??'all'} initialProperty={property} initialIntake={intake==='1'}/>;}
+export default async function Page({searchParams}:{searchParams:Promise<{property?:string;intake?:string;source?:string;stage?:string;work?:string}>}){const query=await searchParams;return <LeadsPage key={JSON.stringify([query.property,query.intake,query.source,query.stage,query.work])} initialProperty={query.property} initialIntake={query.intake==='1'}/>;}

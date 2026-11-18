@@ -1,0 +1,8 @@
+
+> maxpro-platform@0.1.0 lint /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3
+> pnpm --dir apps/web lint
+
+
+> @maxpro/web@0.1.0 lint /Users/dieturetech/Developer/isha/maxpro-gemini-aligned-v3/apps/web
+> eslint .
+

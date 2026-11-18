@@ -23,7 +23,13 @@ export function AssistancePanel({title,sourceKey,sources,fields,acceptLabel,onAc
   node?.showModal();
   return()=>{node?.close();releaseScroll();if(trigger?.isConnected)trigger.focus();};
  },[]);
- return <dialog ref={dialog} className="ag-assistant" aria-labelledby={id} onCancel={e=>{e.preventDefault();onClose();}} onClick={e=>{if(e.target===e.currentTarget)onClose();}}>
+ return <dialog ref={dialog} className="ag-assistant" aria-labelledby={id} onKeyDown={e=>{
+  if(e.key!=='Tab')return;
+  const controls=Array.from(e.currentTarget.querySelectorAll<HTMLElement>('a[href],button:not([disabled]),input:not([disabled]),select:not([disabled]),textarea:not([disabled]),summary,[tabindex="0"]')).filter(el=>el.getClientRects().length>0&&!el.closest('[hidden]'));
+  const first=controls[0],last=controls.at(-1);
+  if(e.shiftKey&&document.activeElement===first){e.preventDefault();last?.focus();}
+  else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first?.focus();}
+ }} onCancel={e=>{e.preventDefault();onClose();}} onClick={e=>{if(e.target===e.currentTarget)onClose();}}>
   <div className="ag-assistant-inner"><header><div><span className="ag-ai-label"><Sparkles size={16}/>{t('AI Assistance · Local demo','مساعدة ذكية · تجربة محلية')}</span><h2 id={id}>{title}</h2></div><button type="button" className="ag-icon-button" autoFocus aria-label={t('Close assistance','إغلاق المساعدة')} onClick={onClose}><X size={21}/></button></header>
    <div className="ag-assistant-body"><p className="ag-help">{t('Deterministic suggestions from the sources below. Review every change before accepting. Nothing is sent to an AI service.','اقتراحات حتمية من المصادر أدناه. راجع كل تغيير قبل قبوله. لا تُرسل بيانات إلى خدمة ذكاء اصطناعي.')}</p>
     <details className="ag-assistant-source" open><summary>{t('Source facts','حقائق المصدر')}</summary><dl>{snapshot.sources.map((s,i)=><div key={i}><dt>{s.label}</dt><dd dir="auto">{s.value||t('Not recorded','غير مسجل')}</dd></div>)}</dl></details>

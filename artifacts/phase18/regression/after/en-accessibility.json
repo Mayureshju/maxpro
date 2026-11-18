@@ -1,0 +1,110 @@
+[
+  {
+    "locale": "en",
+    "width": 320,
+    "name": "inventory-populated",
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "name": "launch",
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "name": "copilot",
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "name": "inventory-populated",
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "name": "launch",
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "name": "copilot",
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "name": "inventory-populated",
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "name": "launch",
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "name": "copilot",
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "name": "inventory-populated",
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "name": "launch",
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "name": "copilot",
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "name": "inventory-populated",
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "name": "launch",
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "name": "copilot",
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "name": "inventory-populated",
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "name": "launch",
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "name": "copilot",
+    "violations": []
+  }
+]

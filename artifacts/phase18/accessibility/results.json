@@ -1,0 +1,674 @@
+[
+  {
+    "locale": "en",
+    "width": 320,
+    "name": "public-home",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "name": "crm-table",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "name": "crm-board",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "name": "follow-up-form",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "name": "qualification-proposal",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "name": "requirements-form",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "name": "property-matches",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "name": "lead-summary",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "name": "public-home",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "name": "crm-table",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "name": "crm-board",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "name": "follow-up-form",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "name": "qualification-proposal",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "name": "requirements-form",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "name": "property-matches",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "name": "lead-summary",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "name": "public-home",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "name": "crm-table",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "name": "crm-board",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "name": "follow-up-form",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "name": "qualification-proposal",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "name": "requirements-form",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "name": "property-matches",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "name": "lead-summary",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "name": "public-home",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "name": "crm-table",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "name": "crm-board",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "name": "follow-up-form",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "name": "qualification-proposal",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "name": "requirements-form",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "name": "property-matches",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "name": "lead-summary",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "name": "public-home",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "name": "crm-table",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "name": "crm-board",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "name": "follow-up-form",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "name": "qualification-proposal",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "name": "requirements-form",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "name": "property-matches",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "name": "lead-summary",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "name": "public-home",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "name": "crm-table",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "name": "crm-board",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "name": "follow-up-form",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "name": "qualification-proposal",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "name": "requirements-form",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "name": "property-matches",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "name": "lead-summary",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "name": "public-home",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "name": "crm-table",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "name": "crm-board",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "name": "follow-up-form",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "name": "qualification-proposal",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "name": "requirements-form",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "name": "property-matches",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "name": "lead-summary",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "name": "public-home",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "name": "crm-table",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "name": "crm-board",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "name": "follow-up-form",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "name": "qualification-proposal",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "name": "requirements-form",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "name": "property-matches",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "name": "lead-summary",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "name": "public-home",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "name": "crm-table",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "name": "crm-board",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "name": "follow-up-form",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "name": "qualification-proposal",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "name": "requirements-form",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "name": "property-matches",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "name": "lead-summary",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "name": "public-home",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "name": "crm-table",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "name": "crm-board",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "name": "follow-up-form",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "name": "qualification-proposal",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "name": "requirements-form",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "name": "property-matches",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "name": "lead-summary",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "name": "public-home",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "name": "crm-table",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "name": "crm-board",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "name": "follow-up-form",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "name": "qualification-proposal",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "name": "requirements-form",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "name": "property-matches",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "name": "lead-summary",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "name": "public-home",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "name": "crm-table",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "name": "crm-board",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "name": "follow-up-form",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "name": "qualification-proposal",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "name": "requirements-form",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "name": "property-matches",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "name": "lead-summary",
+    "overflow": false,
+    "violations": []
+  }
+]
