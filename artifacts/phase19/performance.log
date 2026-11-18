@@ -1,0 +1,152 @@
+[
+  {
+    locale: 'en',
+    mobile: false,
+    trial: 1,
+    lcpMs: 84,
+    cls: 0.0011370524691358024,
+    maxInteractionMs: 40,
+    imageRequests: [
+      'http://localhost:3219/product/stories/en-hero.webp',
+      'http://localhost:3219/product/stories/en-property.webp',
+      'http://localhost:3219/product/stories/en-follow.webp'
+    ]
+  },
+  {
+    locale: 'en',
+    mobile: false,
+    trial: 2,
+    lcpMs: 60,
+    cls: 0.0011130005787037037,
+    maxInteractionMs: 48,
+    imageRequests: [
+      'http://localhost:3219/product/stories/en-hero.webp',
+      'http://localhost:3219/product/stories/en-property.webp',
+      'http://localhost:3219/product/stories/en-follow.webp'
+    ]
+  },
+  {
+    locale: 'en',
+    mobile: false,
+    trial: 3,
+    lcpMs: 72,
+    cls: 0.0011130005787037037,
+    maxInteractionMs: 48,
+    imageRequests: [
+      'http://localhost:3219/product/stories/en-hero.webp',
+      'http://localhost:3219/product/stories/en-property.webp',
+      'http://localhost:3219/product/stories/en-follow.webp'
+    ]
+  },
+  {
+    locale: 'en',
+    mobile: true,
+    trial: 1,
+    lcpMs: 1544,
+    cls: 0.0017450970206750952,
+    maxInteractionMs: 40,
+    imageRequests: [
+      'http://localhost:3219/product/stories/en-hero-mobile.webp',
+      'http://localhost:3219/product/stories/en-property-mobile.webp'
+    ]
+  },
+  {
+    locale: 'en',
+    mobile: true,
+    trial: 2,
+    lcpMs: 1564,
+    cls: 0.0017450970206750952,
+    maxInteractionMs: 40,
+    imageRequests: [
+      'http://localhost:3219/product/stories/en-hero-mobile.webp',
+      'http://localhost:3219/product/stories/en-property-mobile.webp'
+    ]
+  },
+  {
+    locale: 'en',
+    mobile: true,
+    trial: 3,
+    lcpMs: 1556,
+    cls: 0.0017450970206750952,
+    maxInteractionMs: 48,
+    imageRequests: [
+      'http://localhost:3219/product/stories/en-hero-mobile.webp',
+      'http://localhost:3219/product/stories/en-property-mobile.webp'
+    ]
+  },
+  {
+    locale: 'ar',
+    mobile: false,
+    trial: 1,
+    lcpMs: 48,
+    cls: 0.01257601273148148,
+    maxInteractionMs: 40,
+    imageRequests: [
+      'http://localhost:3219/product/stories/ar-hero.webp',
+      'http://localhost:3219/product/stories/ar-property.webp',
+      'http://localhost:3219/product/stories/ar-follow.webp'
+    ]
+  },
+  {
+    locale: 'ar',
+    mobile: false,
+    trial: 2,
+    lcpMs: 60,
+    cls: 0.01257601273148148,
+    maxInteractionMs: 40,
+    imageRequests: [
+      'http://localhost:3219/product/stories/ar-hero.webp',
+      'http://localhost:3219/product/stories/ar-follow.webp',
+      'http://localhost:3219/product/stories/ar-property.webp'
+    ]
+  },
+  {
+    locale: 'ar',
+    mobile: false,
+    trial: 3,
+    lcpMs: 64,
+    cls: 0.01257601273148148,
+    maxInteractionMs: 40,
+    imageRequests: [
+      'http://localhost:3219/product/stories/ar-hero.webp',
+      'http://localhost:3219/product/stories/ar-property.webp',
+      'http://localhost:3219/product/stories/ar-follow.webp'
+    ]
+  },
+  {
+    locale: 'ar',
+    mobile: true,
+    trial: 1,
+    lcpMs: 1536,
+    cls: 0.0236185188106158,
+    maxInteractionMs: 56,
+    imageRequests: [
+      'http://localhost:3219/product/stories/ar-hero-mobile.webp',
+      'http://localhost:3219/product/stories/ar-property-mobile.webp'
+    ]
+  },
+  {
+    locale: 'ar',
+    mobile: true,
+    trial: 2,
+    lcpMs: 1544,
+    cls: 0.0236185188106158,
+    maxInteractionMs: 48,
+    imageRequests: [
+      'http://localhost:3219/product/stories/ar-hero-mobile.webp',
+      'http://localhost:3219/product/stories/ar-property-mobile.webp'
+    ]
+  },
+  {
+    locale: 'ar',
+    mobile: true,
+    trial: 3,
+    lcpMs: 1544,
+    cls: 0.0236185188106158,
+    maxInteractionMs: 48,
+    imageRequests: [
+      'http://localhost:3219/product/stories/ar-hero-mobile.webp',
+      'http://localhost:3219/product/stories/ar-property-mobile.webp'
+    ]
+  }
+]

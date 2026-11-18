@@ -5,21 +5,10 @@ import {test,expect} from './fixtures';
 const evidence=resolve(`../../${process.env.MAXPRO_EVIDENCE_ROOT??'artifacts/phase12'}/polish`);mkdirSync(evidence,{recursive:true});
 for(const locale of ['en','ar']){
  const ar=locale==='ar';
- test(`polish ${locale}: responsive screenshot modes, enlargement and keyboard`,async({page},info)=>{
-  await page.goto(`/${locale}`);
-  const preview=page.getByTestId('product-preview');
-  const shot=preview.locator('.mk-shot'),image=shot.locator('img'),link=shot.locator('a[target=_blank]');
-  await shot.getByRole('button',{name:ar?'تفاصيل الميزة':'Feature detail',exact:true}).focus();await page.keyboard.press('Enter');
-  await expect(shot).toHaveAttribute('data-view','detail');await expect(image).toHaveAttribute('src',`/product/${locale}-editor-detail.webp`);
-  await expect(shot.getByRole('button',{name:ar?'تفاصيل الميزة':'Feature detail',exact:true})).toHaveAttribute('aria-pressed','true');
-  await link.focus();const [popup]=await Promise.all([page.waitForEvent('popup'),page.keyboard.press('Enter')]);
-  await expect(popup).toHaveURL(new RegExp(`${locale}-editor-detail${info.project.name==='mobile-chromium'?'-mobile':''}.webp$`));await popup.close();
-  await shot.getByRole('button',{name:ar?'مساحة العمل كاملة':'Full workspace',exact:true}).click();
-  await expect.poll(()=>image.evaluate((el:HTMLImageElement)=>el.currentSrc)).toMatch(/\.webp$/);const current=await image.evaluate((el:HTMLImageElement)=>el.currentSrc);await expect(link).toHaveAttribute('href',current.replace(new URL(current).origin,''));
-  const [full]=await Promise.all([page.waitForEvent('popup'),link.click()]);await expect(full).toHaveURL(current);await full.close();
-  if(info.project.name==='mobile-chromium')expect(current).toContain('-mobile.webp');else expect(current).not.toContain('-mobile.webp');
-  await page.setViewportSize({width:320,height:500});await expect(link).toHaveAttribute('href',`/product/${locale}-editor-mobile.webp`);
-  await page.screenshot({path:`${evidence}/${info.project.name}-${locale}-screenshot-controls.png`,animations:'disabled'});
+ test(`polish ${locale}: focused screenshot enlargement and keyboard`,async({page},info)=>{
+  await page.goto(`/${locale}`);const preview=page.getByTestId('product-preview'),image=preview.locator('img'),link=preview.locator('a[target=_blank]');
+  await expect(image).toHaveAttribute('src',`/product/stories/${locale}-property.webp`);await link.focus();const [popup]=await Promise.all([page.waitForEvent('popup'),page.keyboard.press('Enter')]);await expect(popup).toHaveURL(new RegExp(`${locale}-property${info.project.name==='mobile-chromium'?'-mobile':''}.webp$`));await popup.close();
+  await page.setViewportSize({width:320,height:500});await expect.poll(()=>image.evaluate((el:HTMLImageElement)=>el.currentSrc)).toContain('-mobile.webp');const [mobile]=await Promise.all([page.waitForEvent('popup'),link.click()]);await expect(mobile).toHaveURL(new RegExp(`${locale}-property-mobile.webp$`));await mobile.close();await page.screenshot({path:`${evidence}/${info.project.name}-${locale}-screenshot-controls.png`,animations:'disabled'});
  });
  test(`polish ${locale}: buyer navigation, current section and fictional entry`,async({page})=>{
   await page.setViewportSize({width:1440,height:900});await page.goto(`/${locale}/features/property-management`);
@@ -35,7 +24,7 @@ for(const locale of ['en','ar']){
  });
  test(`polish ${locale}: task navigation and truthful integration disclosure`,async({page})=>{
   for(const slug of ['property-management','publish-and-promote','ai-assistance','leads-and-inbox']){
-   await page.goto(`/${locale}/features/${slug}`);await expect(page.locator('.mk-feature-hero-evidence .mk-shot')).toHaveAttribute('data-view','detail');
+   await page.goto(`/${locale}/features/${slug}`);await expect(page.locator('.mk-feature-hero-evidence .mx-evidence')).toBeVisible();
    await page.locator('.mk-feature-steps a').last().click();await expect(page.locator('#chapter-3')).toBeInViewport();
    await expect(page.locator('.mk-related a')).toHaveCount(3);
   }
@@ -60,7 +49,7 @@ for(const locale of ['en','ar']){
   for(const width of [1440,1280,1024,768,375,320]){
    await page.setViewportSize({width,height:width===768?400:812});await page.goto(`/${locale}`);
    expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBeLessThanOrEqual(width+1);
-   const caption=page.locator('.mk-shot figcaption').first();expect(await caption.evaluate(el=>parseFloat(getComputedStyle(el).fontSize))).toBeGreaterThanOrEqual(13);
+   const caption=page.locator('.mx-evidence figcaption').first();expect(await caption.evaluate(el=>parseFloat(getComputedStyle(el).fontSize))).toBeGreaterThanOrEqual(13);
   }
   await page.setViewportSize({width:1024,height:600});await page.goto(`/${locale}`);await page.evaluate(()=>{document.documentElement.style.zoom='2';});
   expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBeLessThanOrEqual(1025);
@@ -69,7 +58,7 @@ for(const locale of ['en','ar']){
   await page.setViewportSize({width:320,height:500});await page.getByRole('tab').nth(1).click();await expect(page.getByRole('tabpanel')).toContainText(ar?'ابدأ بالحقائق':'Start from facts');
   await page.emulateMedia({reducedMotion:'reduce'});await page.getByRole('tab').nth(2).click();
   expect(await page.getByRole('tabpanel').evaluate(el=>getComputedStyle(el).animationName)).toBe('none');
-  expect(await page.getByTestId('product-preview').locator('.mk-shot picture').evaluate(el=>getComputedStyle(el).animationName)).toBe('none');
+  expect(await page.getByTestId('product-preview').locator('.mx-evidence picture').evaluate(el=>getComputedStyle(el).animationName)).toBe('none');
   await page.screenshot({path:`${evidence}/${info.project.name}-${locale}-throttled-reduced-motion.png`,animations:'disabled'});await cdp.detach();
  });
 }

@@ -1,0 +1,2859 @@
+{
+  "browser": "145.0.7632.6",
+  "method": "Chromium production localhost; cache disabled; desktop unthrottled; mobile 4x CPU, 150ms RTT, 1.6Mbps down. 3 runs each. LCP/CLS from PerformanceObserver; event durations are lab interaction samples, not field INP.",
+  "results": [
+    {
+      "locale": "en",
+      "mobile": false,
+      "trial": 1,
+      "initial": {
+        "lcp": 84,
+        "cls": 0.0011370524691358024,
+        "events": [],
+        "longTasks": [],
+        "resources": [
+          {
+            "url": "http://localhost:3219/_next/static/css/fd392a6ed3d40013.css",
+            "transferSize": 50773,
+            "kind": "link"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/webpack-db216dcaeed73e2e.js",
+            "transferSize": 1973,
+            "kind": "link"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/main-app-cd116f931a8be1f6.js",
+            "transferSize": 815,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/14ce1dcc-69de798abf5786f5.js",
+            "transferSize": 64359,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/8598-f89f6cd0c2ce68d7.js",
+            "transferSize": 67698,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/8671-ced78db08cde050b.js",
+            "transferSize": 7333,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/7984-ad4e37feaea8425b.js",
+            "transferSize": 5945,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/4499-a093f81821fd2079.js",
+            "transferSize": 6337,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/6891-62e38cb0b57a91a4.js",
+            "transferSize": 7455,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/product/stories/en-hero.webp",
+            "transferSize": 57146,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/2342-defee4c2e074917b.js",
+            "transferSize": 3974,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/app/%5Blocale%5D/page-83edff09c56aff64.js",
+            "transferSize": 4052,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/app/%5Blocale%5D/layout-fd8b24e45c2f4f22.js",
+            "transferSize": 10658,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/fonts/manrope.ttf",
+            "transferSize": 69160,
+            "kind": "css"
+          },
+          {
+            "url": "http://localhost:3219/_next/image?url=%2Fdemo-media%2Faqarpro-logo.webp&w=256&q=75",
+            "transferSize": 4708,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/product/stories/en-property.webp",
+            "transferSize": 17038,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/product/stories/en-follow.webp",
+            "transferSize": 10476,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/fonts/ibm-plex-sans-arabic-semibold.ttf",
+            "transferSize": 108784,
+            "kind": "css"
+          },
+          {
+            "url": "http://localhost:3219/fonts/ibm-plex-sans-arabic-regular.ttf",
+            "transferSize": 103980,
+            "kind": "css"
+          },
+          {
+            "url": "http://localhost:3219/en/how-it-works?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 559,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/features/ai-assistance?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 570,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/integrations?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 558,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/pricing?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 554,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/sign-in?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 561,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/how-it-works?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1467,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/features/ai-assistance?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1482,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/integrations?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1488,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/pricing?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1489,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1532,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/sign-in?_rsc=FUh3Gxqryw1dTRX2",
+            "transferSize": 3518,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/sign-in?_rsc=xq5yKsklNTJFM-Fw",
+            "transferSize": 1718,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/7489-45e9ca8fa7ad9493.js",
+            "transferSize": 52979,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/7603-90dc94ad1122822b.js",
+            "transferSize": 32609,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/app/%5Blocale%5D/sign-in/page-5765a46ba2befee0.js",
+            "transferSize": 459,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/9299-19b7e60a48169724.js",
+            "transferSize": 6029,
+            "kind": "script"
+          }
+        ],
+        "navigation": {
+          "name": "http://localhost:3219/en",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 127.5,
+          "initiatorType": "navigation",
+          "deliveryType": "",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "contentEncoding": "gzip",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 0.10000014305114746,
+          "domainLookupStart": 2.6000001430511475,
+          "domainLookupEnd": 2.6000001430511475,
+          "connectStart": 2.6000001430511475,
+          "secureConnectionStart": 0,
+          "connectEnd": 2.700000047683716,
+          "requestStart": 3.200000047683716,
+          "responseStart": 9.100000143051147,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 9.100000143051147,
+          "responseEnd": 10.300000190734863,
+          "transferSize": 14673,
+          "encodedBodySize": 14373,
+          "decodedBodySize": 63579,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 0,
+          "unloadEventEnd": 0,
+          "domInteractive": 74.40000009536743,
+          "domContentLoadedEventStart": 74.40000009536743,
+          "domContentLoadedEventEnd": 74.40000009536743,
+          "domComplete": 127.5,
+          "loadEventStart": 127.5,
+          "loadEventEnd": 127.5,
+          "type": "navigate",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null,
+          "confidence": {
+            "randomizedTriggerRate": 0.4994798,
+            "value": "high"
+          }
+        }
+      },
+      "interactions": [
+        {
+          "name": "pointerdown",
+          "duration": 40,
+          "interactionId": 7579
+        },
+        {
+          "name": "pointerup",
+          "duration": 40,
+          "interactionId": 7579
+        },
+        {
+          "name": "click",
+          "duration": 40,
+          "interactionId": 7579
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "mobile": false,
+      "trial": 2,
+      "initial": {
+        "lcp": 60,
+        "cls": 0.0011130005787037037,
+        "events": [],
+        "longTasks": [],
+        "resources": [
+          {
+            "url": "http://localhost:3219/_next/static/css/fd392a6ed3d40013.css",
+            "transferSize": 50773,
+            "kind": "link"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/webpack-db216dcaeed73e2e.js",
+            "transferSize": 1973,
+            "kind": "link"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/14ce1dcc-69de798abf5786f5.js",
+            "transferSize": 64359,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/main-app-cd116f931a8be1f6.js",
+            "transferSize": 815,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/8671-ced78db08cde050b.js",
+            "transferSize": 7333,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/7984-ad4e37feaea8425b.js",
+            "transferSize": 5945,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/6891-62e38cb0b57a91a4.js",
+            "transferSize": 7455,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/8598-f89f6cd0c2ce68d7.js",
+            "transferSize": 67698,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/product/stories/en-hero.webp",
+            "transferSize": 57146,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/4499-a093f81821fd2079.js",
+            "transferSize": 6337,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/app/%5Blocale%5D/page-83edff09c56aff64.js",
+            "transferSize": 4052,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/2342-defee4c2e074917b.js",
+            "transferSize": 3974,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/app/%5Blocale%5D/layout-fd8b24e45c2f4f22.js",
+            "transferSize": 10658,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/fonts/manrope.ttf",
+            "transferSize": 69160,
+            "kind": "css"
+          },
+          {
+            "url": "http://localhost:3219/_next/image?url=%2Fdemo-media%2Faqarpro-logo.webp&w=256&q=75",
+            "transferSize": 4708,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/product/stories/en-property.webp",
+            "transferSize": 17038,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/product/stories/en-follow.webp",
+            "transferSize": 10476,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/fonts/ibm-plex-sans-arabic-semibold.ttf",
+            "transferSize": 108784,
+            "kind": "css"
+          },
+          {
+            "url": "http://localhost:3219/fonts/ibm-plex-sans-arabic-regular.ttf",
+            "transferSize": 103980,
+            "kind": "css"
+          },
+          {
+            "url": "http://localhost:3219/en/how-it-works?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 559,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/features/ai-assistance?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 570,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/integrations?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 558,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/pricing?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 554,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/sign-in?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 561,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/how-it-works?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1466,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/features/ai-assistance?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1483,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/integrations?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1487,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/pricing?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1487,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1533,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/sign-in?_rsc=FUh3Gxqryw1dTRX2",
+            "transferSize": 3518,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/sign-in?_rsc=xq5yKsklNTJFM-Fw",
+            "transferSize": 1718,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/7603-90dc94ad1122822b.js",
+            "transferSize": 32609,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/7489-45e9ca8fa7ad9493.js",
+            "transferSize": 52979,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/app/%5Blocale%5D/sign-in/page-5765a46ba2befee0.js",
+            "transferSize": 459,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/9299-19b7e60a48169724.js",
+            "transferSize": 6029,
+            "kind": "script"
+          }
+        ],
+        "navigation": {
+          "name": "http://localhost:3219/en",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 98.90000009536743,
+          "initiatorType": "navigation",
+          "deliveryType": "",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "contentEncoding": "gzip",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 0.10000014305114746,
+          "domainLookupStart": 0.5,
+          "domainLookupEnd": 0.5,
+          "connectStart": 0.5,
+          "secureConnectionStart": 0,
+          "connectEnd": 0.7000000476837158,
+          "requestStart": 0.7000000476837158,
+          "responseStart": 7.6000001430511475,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 7.6000001430511475,
+          "responseEnd": 8.600000143051147,
+          "transferSize": 14673,
+          "encodedBodySize": 14373,
+          "decodedBodySize": 63579,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 0,
+          "unloadEventEnd": 0,
+          "domInteractive": 76.40000009536743,
+          "domContentLoadedEventStart": 76.40000009536743,
+          "domContentLoadedEventEnd": 76.5,
+          "domComplete": 98.80000019073486,
+          "loadEventStart": 98.90000009536743,
+          "loadEventEnd": 98.90000009536743,
+          "type": "navigate",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null,
+          "confidence": {
+            "randomizedTriggerRate": 0.4994798,
+            "value": "low"
+          }
+        }
+      },
+      "interactions": [
+        {
+          "name": "pointerdown",
+          "duration": 48,
+          "interactionId": 8762
+        },
+        {
+          "name": "pointerup",
+          "duration": 48,
+          "interactionId": 8762
+        },
+        {
+          "name": "click",
+          "duration": 48,
+          "interactionId": 8762
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "mobile": false,
+      "trial": 3,
+      "initial": {
+        "lcp": 72,
+        "cls": 0.0011130005787037037,
+        "events": [],
+        "longTasks": [],
+        "resources": [
+          {
+            "url": "http://localhost:3219/_next/static/css/fd392a6ed3d40013.css",
+            "transferSize": 50773,
+            "kind": "link"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/webpack-db216dcaeed73e2e.js",
+            "transferSize": 1973,
+            "kind": "link"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/14ce1dcc-69de798abf5786f5.js",
+            "transferSize": 64359,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/main-app-cd116f931a8be1f6.js",
+            "transferSize": 815,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/7984-ad4e37feaea8425b.js",
+            "transferSize": 5945,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/8671-ced78db08cde050b.js",
+            "transferSize": 7333,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/4499-a093f81821fd2079.js",
+            "transferSize": 6337,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/6891-62e38cb0b57a91a4.js",
+            "transferSize": 7455,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/app/%5Blocale%5D/page-83edff09c56aff64.js",
+            "transferSize": 4052,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/8598-f89f6cd0c2ce68d7.js",
+            "transferSize": 67698,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/product/stories/en-hero.webp",
+            "transferSize": 57146,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/2342-defee4c2e074917b.js",
+            "transferSize": 3974,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/app/%5Blocale%5D/layout-fd8b24e45c2f4f22.js",
+            "transferSize": 10658,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/fonts/manrope.ttf",
+            "transferSize": 69160,
+            "kind": "css"
+          },
+          {
+            "url": "http://localhost:3219/_next/image?url=%2Fdemo-media%2Faqarpro-logo.webp&w=256&q=75",
+            "transferSize": 4708,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/product/stories/en-property.webp",
+            "transferSize": 17038,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/product/stories/en-follow.webp",
+            "transferSize": 10476,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/fonts/ibm-plex-sans-arabic-semibold.ttf",
+            "transferSize": 108784,
+            "kind": "css"
+          },
+          {
+            "url": "http://localhost:3219/fonts/ibm-plex-sans-arabic-regular.ttf",
+            "transferSize": 103980,
+            "kind": "css"
+          },
+          {
+            "url": "http://localhost:3219/en/how-it-works?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 559,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/features/ai-assistance?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 570,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/pricing?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 554,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/integrations?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 558,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/sign-in?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 561,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/how-it-works?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1467,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/features/ai-assistance?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1483,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/integrations?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1485,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/pricing?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1489,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1533,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/sign-in?_rsc=FUh3Gxqryw1dTRX2",
+            "transferSize": 3518,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/sign-in?_rsc=xq5yKsklNTJFM-Fw",
+            "transferSize": 1718,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/7489-45e9ca8fa7ad9493.js",
+            "transferSize": 52979,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/7603-90dc94ad1122822b.js",
+            "transferSize": 32609,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/app/%5Blocale%5D/sign-in/page-5765a46ba2befee0.js",
+            "transferSize": 459,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/9299-19b7e60a48169724.js",
+            "transferSize": 6029,
+            "kind": "script"
+          }
+        ],
+        "navigation": {
+          "name": "http://localhost:3219/en",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 114.70000004768372,
+          "initiatorType": "navigation",
+          "deliveryType": "",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "contentEncoding": "gzip",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 0.10000014305114746,
+          "domainLookupStart": 0.7000000476837158,
+          "domainLookupEnd": 0.7000000476837158,
+          "connectStart": 0.7000000476837158,
+          "secureConnectionStart": 0,
+          "connectEnd": 1,
+          "requestStart": 1,
+          "responseStart": 9.5,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 9.5,
+          "responseEnd": 11.100000143051147,
+          "transferSize": 14673,
+          "encodedBodySize": 14373,
+          "decodedBodySize": 63579,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 0,
+          "unloadEventEnd": 0,
+          "domInteractive": 88.70000004768372,
+          "domContentLoadedEventStart": 88.70000004768372,
+          "domContentLoadedEventEnd": 88.70000004768372,
+          "domComplete": 114.70000004768372,
+          "loadEventStart": 114.70000004768372,
+          "loadEventEnd": 114.70000004768372,
+          "type": "navigate",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null,
+          "confidence": {
+            "randomizedTriggerRate": 0.4994798,
+            "value": "high"
+          }
+        }
+      },
+      "interactions": [
+        {
+          "name": "pointerdown",
+          "duration": 48,
+          "interactionId": 5180
+        },
+        {
+          "name": "pointerup",
+          "duration": 48,
+          "interactionId": 5180
+        },
+        {
+          "name": "click",
+          "duration": 48,
+          "interactionId": 5180
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "mobile": true,
+      "trial": 1,
+      "initial": {
+        "lcp": 1544,
+        "cls": 0.0017450970206750952,
+        "events": [],
+        "longTasks": [
+          92,
+          83,
+          83
+        ],
+        "resources": [
+          {
+            "url": "http://localhost:3219/_next/static/css/fd392a6ed3d40013.css",
+            "transferSize": 50773,
+            "kind": "link"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/main-app-cd116f931a8be1f6.js",
+            "transferSize": 815,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/webpack-db216dcaeed73e2e.js",
+            "transferSize": 1973,
+            "kind": "link"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/8671-ced78db08cde050b.js",
+            "transferSize": 7333,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/14ce1dcc-69de798abf5786f5.js",
+            "transferSize": 64359,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/8598-f89f6cd0c2ce68d7.js",
+            "transferSize": 67698,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/7984-ad4e37feaea8425b.js",
+            "transferSize": 5945,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/4499-a093f81821fd2079.js",
+            "transferSize": 6337,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/6891-62e38cb0b57a91a4.js",
+            "transferSize": 7455,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/app/%5Blocale%5D/page-83edff09c56aff64.js",
+            "transferSize": 4052,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/2342-defee4c2e074917b.js",
+            "transferSize": 3974,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/app/%5Blocale%5D/layout-fd8b24e45c2f4f22.js",
+            "transferSize": 10658,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/product/stories/en-hero-mobile.webp",
+            "transferSize": 20774,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/fonts/manrope.ttf",
+            "transferSize": 69160,
+            "kind": "css"
+          },
+          {
+            "url": "http://localhost:3219/_next/image?url=%2Fdemo-media%2Faqarpro-logo.webp&w=256&q=75",
+            "transferSize": 4708,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/product/stories/en-property-mobile.webp",
+            "transferSize": 15350,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/en/sign-in?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 561,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/how-it-works?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 559,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1535,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/sign-in?_rsc=FUh3Gxqryw1dTRX2",
+            "transferSize": 3518,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/sign-in?_rsc=xq5yKsklNTJFM-Fw",
+            "transferSize": 1718,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/how-it-works?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1466,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/fonts/ibm-plex-sans-arabic-semibold.ttf",
+            "transferSize": 108784,
+            "kind": "css"
+          },
+          {
+            "url": "http://localhost:3219/fonts/ibm-plex-sans-arabic-regular.ttf",
+            "transferSize": 103980,
+            "kind": "css"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/7489-45e9ca8fa7ad9493.js",
+            "transferSize": 52979,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/7603-90dc94ad1122822b.js",
+            "transferSize": 32609,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/9299-19b7e60a48169724.js",
+            "transferSize": 6029,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/app/%5Blocale%5D/sign-in/page-5765a46ba2befee0.js",
+            "transferSize": 459,
+            "kind": "script"
+          }
+        ],
+        "navigation": {
+          "name": "http://localhost:3219/en",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 2129.899999856949,
+          "initiatorType": "navigation",
+          "deliveryType": "",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "contentEncoding": "gzip",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 0.09999990463256836,
+          "domainLookupStart": 0.6999998092651367,
+          "domainLookupEnd": 0.6999998092651367,
+          "connectStart": 0.6999998092651367,
+          "secureConnectionStart": 0,
+          "connectEnd": 1,
+          "requestStart": 1,
+          "responseStart": 8.199999809265137,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 8.199999809265137,
+          "responseEnd": 230.09999990463257,
+          "transferSize": 14673,
+          "encodedBodySize": 14373,
+          "decodedBodySize": 63579,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 0,
+          "unloadEventEnd": 0,
+          "domInteractive": 1539.3999998569489,
+          "domContentLoadedEventStart": 1539.3999998569489,
+          "domContentLoadedEventEnd": 1539.3999998569489,
+          "domComplete": 2129.899999856949,
+          "loadEventStart": 2129.899999856949,
+          "loadEventEnd": 2129.899999856949,
+          "type": "navigate",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null,
+          "confidence": {
+            "randomizedTriggerRate": 0.4994798,
+            "value": "high"
+          }
+        }
+      },
+      "interactions": [
+        {
+          "name": "pointerdown",
+          "duration": 40,
+          "interactionId": 5296
+        },
+        {
+          "name": "pointerup",
+          "duration": 40,
+          "interactionId": 5296
+        },
+        {
+          "name": "click",
+          "duration": 40,
+          "interactionId": 5296
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "mobile": true,
+      "trial": 2,
+      "initial": {
+        "lcp": 1564,
+        "cls": 0.0017450970206750952,
+        "events": [],
+        "longTasks": [
+          99,
+          79,
+          95
+        ],
+        "resources": [
+          {
+            "url": "http://localhost:3219/_next/static/css/fd392a6ed3d40013.css",
+            "transferSize": 50773,
+            "kind": "link"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/webpack-db216dcaeed73e2e.js",
+            "transferSize": 1973,
+            "kind": "link"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/14ce1dcc-69de798abf5786f5.js",
+            "transferSize": 64359,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/8598-f89f6cd0c2ce68d7.js",
+            "transferSize": 67698,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/main-app-cd116f931a8be1f6.js",
+            "transferSize": 815,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/8671-ced78db08cde050b.js",
+            "transferSize": 7333,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/7984-ad4e37feaea8425b.js",
+            "transferSize": 5945,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/6891-62e38cb0b57a91a4.js",
+            "transferSize": 7455,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/4499-a093f81821fd2079.js",
+            "transferSize": 6337,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/app/%5Blocale%5D/page-83edff09c56aff64.js",
+            "transferSize": 4052,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/2342-defee4c2e074917b.js",
+            "transferSize": 3974,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/app/%5Blocale%5D/layout-fd8b24e45c2f4f22.js",
+            "transferSize": 10658,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/product/stories/en-hero-mobile.webp",
+            "transferSize": 20774,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/fonts/manrope.ttf",
+            "transferSize": 69160,
+            "kind": "css"
+          },
+          {
+            "url": "http://localhost:3219/_next/image?url=%2Fdemo-media%2Faqarpro-logo.webp&w=256&q=75",
+            "transferSize": 4708,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/product/stories/en-property-mobile.webp",
+            "transferSize": 15350,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/en/sign-in?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 561,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/how-it-works?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 559,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1536,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/sign-in?_rsc=FUh3Gxqryw1dTRX2",
+            "transferSize": 3518,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/sign-in?_rsc=xq5yKsklNTJFM-Fw",
+            "transferSize": 1718,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/how-it-works?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1468,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/7489-45e9ca8fa7ad9493.js",
+            "transferSize": 52979,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/7603-90dc94ad1122822b.js",
+            "transferSize": 32609,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/9299-19b7e60a48169724.js",
+            "transferSize": 6029,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/app/%5Blocale%5D/sign-in/page-5765a46ba2befee0.js",
+            "transferSize": 459,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/fonts/ibm-plex-sans-arabic-semibold.ttf",
+            "transferSize": 108784,
+            "kind": "css"
+          },
+          {
+            "url": "http://localhost:3219/fonts/ibm-plex-sans-arabic-regular.ttf",
+            "transferSize": 103980,
+            "kind": "css"
+          }
+        ],
+        "navigation": {
+          "name": "http://localhost:3219/en",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 3871.399999856949,
+          "initiatorType": "navigation",
+          "deliveryType": "",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "contentEncoding": "gzip",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 0.20000004768371582,
+          "domainLookupStart": 0.39999985694885254,
+          "domainLookupEnd": 0.39999985694885254,
+          "connectStart": 0.39999985694885254,
+          "secureConnectionStart": 0,
+          "connectEnd": 0.5999999046325684,
+          "requestStart": 0.7000000476837158,
+          "responseStart": 5.799999952316284,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 5.799999952316284,
+          "responseEnd": 230.70000004768372,
+          "transferSize": 14673,
+          "encodedBodySize": 14373,
+          "decodedBodySize": 63579,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 0,
+          "unloadEventEnd": 0,
+          "domInteractive": 1562.8999998569489,
+          "domContentLoadedEventStart": 1562.8999998569489,
+          "domContentLoadedEventEnd": 1562.8999998569489,
+          "domComplete": 3871.399999856949,
+          "loadEventStart": 3871.399999856949,
+          "loadEventEnd": 3871.399999856949,
+          "type": "navigate",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null,
+          "confidence": {
+            "randomizedTriggerRate": 0.4994798,
+            "value": "low"
+          }
+        }
+      },
+      "interactions": [
+        {
+          "name": "pointerdown",
+          "duration": 40,
+          "interactionId": 1102
+        },
+        {
+          "name": "pointerup",
+          "duration": 40,
+          "interactionId": 1102
+        },
+        {
+          "name": "click",
+          "duration": 40,
+          "interactionId": 1102
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "mobile": true,
+      "trial": 3,
+      "initial": {
+        "lcp": 1556,
+        "cls": 0.0017450970206750952,
+        "events": [],
+        "longTasks": [
+          104,
+          84,
+          76
+        ],
+        "resources": [
+          {
+            "url": "http://localhost:3219/_next/static/css/fd392a6ed3d40013.css",
+            "transferSize": 50773,
+            "kind": "link"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/webpack-db216dcaeed73e2e.js",
+            "transferSize": 1973,
+            "kind": "link"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/14ce1dcc-69de798abf5786f5.js",
+            "transferSize": 64359,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/main-app-cd116f931a8be1f6.js",
+            "transferSize": 815,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/8671-ced78db08cde050b.js",
+            "transferSize": 7333,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/7984-ad4e37feaea8425b.js",
+            "transferSize": 5945,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/4499-a093f81821fd2079.js",
+            "transferSize": 6337,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/6891-62e38cb0b57a91a4.js",
+            "transferSize": 7455,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/app/%5Blocale%5D/page-83edff09c56aff64.js",
+            "transferSize": 4052,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/2342-defee4c2e074917b.js",
+            "transferSize": 3974,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/app/%5Blocale%5D/layout-fd8b24e45c2f4f22.js",
+            "transferSize": 10658,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/8598-f89f6cd0c2ce68d7.js",
+            "transferSize": 67698,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/product/stories/en-hero-mobile.webp",
+            "transferSize": 20774,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/fonts/manrope.ttf",
+            "transferSize": 69160,
+            "kind": "css"
+          },
+          {
+            "url": "http://localhost:3219/_next/image?url=%2Fdemo-media%2Faqarpro-logo.webp&w=256&q=75",
+            "transferSize": 4708,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/product/stories/en-property-mobile.webp",
+            "transferSize": 15350,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/en/sign-in?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 561,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/how-it-works?_rsc=ry-B8umWgNEV4JR9",
+            "transferSize": 559,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1532,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/sign-in?_rsc=FUh3Gxqryw1dTRX2",
+            "transferSize": 3518,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/sign-in?_rsc=xq5yKsklNTJFM-Fw",
+            "transferSize": 1718,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en/how-it-works?_rsc=1vwYfVB7_E9t4fEj",
+            "transferSize": 1466,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/fonts/ibm-plex-sans-arabic-semibold.ttf",
+            "transferSize": 108784,
+            "kind": "css"
+          },
+          {
+            "url": "http://localhost:3219/fonts/ibm-plex-sans-arabic-regular.ttf",
+            "transferSize": 103980,
+            "kind": "css"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/7489-45e9ca8fa7ad9493.js",
+            "transferSize": 52979,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/7603-90dc94ad1122822b.js",
+            "transferSize": 32609,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/9299-19b7e60a48169724.js",
+            "transferSize": 6029,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/app/%5Blocale%5D/sign-in/page-5765a46ba2befee0.js",
+            "transferSize": 459,
+            "kind": "script"
+          }
+        ],
+        "navigation": {
+          "name": "http://localhost:3219/en",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 2121.5,
+          "initiatorType": "navigation",
+          "deliveryType": "",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "contentEncoding": "gzip",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 0.09999990463256836,
+          "domainLookupStart": 0.39999985694885254,
+          "domainLookupEnd": 0.39999985694885254,
+          "connectStart": 0.39999985694885254,
+          "secureConnectionStart": 0,
+          "connectEnd": 0.5999999046325684,
+          "requestStart": 0.5999999046325684,
+          "responseStart": 5.3999998569488525,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 5.3999998569488525,
+          "responseEnd": 222.5,
+          "transferSize": 14673,
+          "encodedBodySize": 14373,
+          "decodedBodySize": 63579,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 0,
+          "unloadEventEnd": 0,
+          "domInteractive": 1552.0999999046326,
+          "domContentLoadedEventStart": 1552.0999999046326,
+          "domContentLoadedEventEnd": 1552.0999999046326,
+          "domComplete": 2121.399999856949,
+          "loadEventStart": 2121.5,
+          "loadEventEnd": 2121.5,
+          "type": "navigate",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null,
+          "confidence": {
+            "randomizedTriggerRate": 0.4994798,
+            "value": "high"
+          }
+        }
+      },
+      "interactions": [
+        {
+          "name": "pointerdown",
+          "duration": 48,
+          "interactionId": 3427
+        },
+        {
+          "name": "pointerup",
+          "duration": 48,
+          "interactionId": 3427
+        },
+        {
+          "name": "click",
+          "duration": 48,
+          "interactionId": 3427
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "mobile": false,
+      "trial": 1,
+      "initial": {
+        "lcp": 48,
+        "cls": 0.01257601273148148,
+        "events": [],
+        "longTasks": [],
+        "resources": [
+          {
+            "url": "http://localhost:3219/_next/static/css/fd392a6ed3d40013.css",
+            "transferSize": 50773,
+            "kind": "link"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/webpack-db216dcaeed73e2e.js",
+            "transferSize": 1973,
+            "kind": "link"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/main-app-cd116f931a8be1f6.js",
+            "transferSize": 815,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/8671-ced78db08cde050b.js",
+            "transferSize": 7333,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/7984-ad4e37feaea8425b.js",
+            "transferSize": 5945,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/6891-62e38cb0b57a91a4.js",
+            "transferSize": 7455,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/4499-a093f81821fd2079.js",
+            "transferSize": 6337,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/8598-f89f6cd0c2ce68d7.js",
+            "transferSize": 67698,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/14ce1dcc-69de798abf5786f5.js",
+            "transferSize": 64359,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/app/%5Blocale%5D/page-83edff09c56aff64.js",
+            "transferSize": 4052,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/2342-defee4c2e074917b.js",
+            "transferSize": 3974,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/product/stories/ar-hero.webp",
+            "transferSize": 52162,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/app/%5Blocale%5D/layout-fd8b24e45c2f4f22.js",
+            "transferSize": 10658,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/fonts/ibm-plex-sans-arabic-regular.ttf",
+            "transferSize": 103980,
+            "kind": "css"
+          },
+          {
+            "url": "http://localhost:3219/fonts/ibm-plex-sans-arabic-semibold.ttf",
+            "transferSize": 108784,
+            "kind": "css"
+          },
+          {
+            "url": "http://localhost:3219/product/stories/ar-property.webp",
+            "transferSize": 12620,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/_next/image?url=%2Fdemo-media%2Faqarpro-logo.webp&w=256&q=75",
+            "transferSize": 4708,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/product/stories/ar-follow.webp",
+            "transferSize": 8968,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/ar/how-it-works?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 559,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/features/ai-assistance?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 570,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/integrations?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 558,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/pricing?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 555,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/sign-in?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 561,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/features/ai-assistance?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1564,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/integrations?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1562,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/how-it-works?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1556,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/pricing?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1571,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1432,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/sign-in?_rsc=C3vWxWDl48yMklKY",
+            "transferSize": 3920,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/sign-in?_rsc=5kfgSyo2YJ0OW6Bh",
+            "transferSize": 1803,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/7489-45e9ca8fa7ad9493.js",
+            "transferSize": 52979,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/7603-90dc94ad1122822b.js",
+            "transferSize": 32609,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/app/%5Blocale%5D/sign-in/page-5765a46ba2befee0.js",
+            "transferSize": 459,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/9299-19b7e60a48169724.js",
+            "transferSize": 6029,
+            "kind": "script"
+          }
+        ],
+        "navigation": {
+          "name": "http://localhost:3219/ar",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 68.20000004768372,
+          "initiatorType": "navigation",
+          "deliveryType": "",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "contentEncoding": "gzip",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 0.10000014305114746,
+          "domainLookupStart": 0.40000009536743164,
+          "domainLookupEnd": 0.40000009536743164,
+          "connectStart": 0.40000009536743164,
+          "secureConnectionStart": 0,
+          "connectEnd": 0.6000001430511475,
+          "requestStart": 0.6000001430511475,
+          "responseStart": 5.400000095367432,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 5.400000095367432,
+          "responseEnd": 6.700000047683716,
+          "transferSize": 15749,
+          "encodedBodySize": 15449,
+          "decodedBodySize": 70620,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 0,
+          "unloadEventEnd": 0,
+          "domInteractive": 48.299999952316284,
+          "domContentLoadedEventStart": 48.299999952316284,
+          "domContentLoadedEventEnd": 48.299999952316284,
+          "domComplete": 68.20000004768372,
+          "loadEventStart": 68.20000004768372,
+          "loadEventEnd": 68.20000004768372,
+          "type": "navigate",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null,
+          "confidence": {
+            "randomizedTriggerRate": 0.4994798,
+            "value": "low"
+          }
+        }
+      },
+      "interactions": [
+        {
+          "name": "pointerdown",
+          "duration": 40,
+          "interactionId": 7082
+        },
+        {
+          "name": "pointerup",
+          "duration": 40,
+          "interactionId": 7082
+        },
+        {
+          "name": "click",
+          "duration": 40,
+          "interactionId": 7082
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "mobile": false,
+      "trial": 2,
+      "initial": {
+        "lcp": 60,
+        "cls": 0.01257601273148148,
+        "events": [],
+        "longTasks": [],
+        "resources": [
+          {
+            "url": "http://localhost:3219/_next/static/chunks/webpack-db216dcaeed73e2e.js",
+            "transferSize": 1973,
+            "kind": "link"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/css/fd392a6ed3d40013.css",
+            "transferSize": 50773,
+            "kind": "link"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/main-app-cd116f931a8be1f6.js",
+            "transferSize": 815,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/8671-ced78db08cde050b.js",
+            "transferSize": 7333,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/8598-f89f6cd0c2ce68d7.js",
+            "transferSize": 67698,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/14ce1dcc-69de798abf5786f5.js",
+            "transferSize": 64359,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/7984-ad4e37feaea8425b.js",
+            "transferSize": 5945,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/6891-62e38cb0b57a91a4.js",
+            "transferSize": 7455,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/product/stories/ar-hero.webp",
+            "transferSize": 52162,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/4499-a093f81821fd2079.js",
+            "transferSize": 6337,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/app/%5Blocale%5D/page-83edff09c56aff64.js",
+            "transferSize": 4052,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/2342-defee4c2e074917b.js",
+            "transferSize": 3974,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/app/%5Blocale%5D/layout-fd8b24e45c2f4f22.js",
+            "transferSize": 10658,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/fonts/ibm-plex-sans-arabic-regular.ttf",
+            "transferSize": 103980,
+            "kind": "css"
+          },
+          {
+            "url": "http://localhost:3219/fonts/ibm-plex-sans-arabic-semibold.ttf",
+            "transferSize": 108784,
+            "kind": "css"
+          },
+          {
+            "url": "http://localhost:3219/_next/image?url=%2Fdemo-media%2Faqarpro-logo.webp&w=256&q=75",
+            "transferSize": 4708,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/product/stories/ar-follow.webp",
+            "transferSize": 8968,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/product/stories/ar-property.webp",
+            "transferSize": 12620,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/ar/how-it-works?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 559,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/features/ai-assistance?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 570,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/integrations?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 558,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/pricing?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 555,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/sign-in?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 561,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/how-it-works?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1556,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/features/ai-assistance?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1565,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/integrations?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1561,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/pricing?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1572,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1434,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/sign-in?_rsc=C3vWxWDl48yMklKY",
+            "transferSize": 3920,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/sign-in?_rsc=5kfgSyo2YJ0OW6Bh",
+            "transferSize": 1803,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/7489-45e9ca8fa7ad9493.js",
+            "transferSize": 52979,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/9299-19b7e60a48169724.js",
+            "transferSize": 6029,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/7603-90dc94ad1122822b.js",
+            "transferSize": 32609,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/app/%5Blocale%5D/sign-in/page-5765a46ba2befee0.js",
+            "transferSize": 459,
+            "kind": "script"
+          }
+        ],
+        "navigation": {
+          "name": "http://localhost:3219/ar",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 81.39999985694885,
+          "initiatorType": "navigation",
+          "deliveryType": "",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "contentEncoding": "gzip",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 0.09999990463256836,
+          "domainLookupStart": 0.8999998569488525,
+          "domainLookupEnd": 0.8999998569488525,
+          "connectStart": 0.8999998569488525,
+          "secureConnectionStart": 0,
+          "connectEnd": 1.1999998092651367,
+          "requestStart": 1.2999999523162842,
+          "responseStart": 9.5,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 9.5,
+          "responseEnd": 10.5,
+          "transferSize": 15749,
+          "encodedBodySize": 15449,
+          "decodedBodySize": 70620,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 0,
+          "unloadEventEnd": 0,
+          "domInteractive": 58.799999952316284,
+          "domContentLoadedEventStart": 58.799999952316284,
+          "domContentLoadedEventEnd": 58.799999952316284,
+          "domComplete": 81.39999985694885,
+          "loadEventStart": 81.39999985694885,
+          "loadEventEnd": 81.39999985694885,
+          "type": "navigate",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null,
+          "confidence": {
+            "randomizedTriggerRate": 0.4994798,
+            "value": "high"
+          }
+        }
+      },
+      "interactions": [
+        {
+          "name": "pointerdown",
+          "duration": 40,
+          "interactionId": 9622
+        },
+        {
+          "name": "pointerup",
+          "duration": 40,
+          "interactionId": 9622
+        },
+        {
+          "name": "click",
+          "duration": 40,
+          "interactionId": 9622
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "mobile": false,
+      "trial": 3,
+      "initial": {
+        "lcp": 64,
+        "cls": 0.01257601273148148,
+        "events": [],
+        "longTasks": [],
+        "resources": [
+          {
+            "url": "http://localhost:3219/_next/static/css/fd392a6ed3d40013.css",
+            "transferSize": 50773,
+            "kind": "link"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/webpack-db216dcaeed73e2e.js",
+            "transferSize": 1973,
+            "kind": "link"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/14ce1dcc-69de798abf5786f5.js",
+            "transferSize": 64359,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/main-app-cd116f931a8be1f6.js",
+            "transferSize": 815,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/7984-ad4e37feaea8425b.js",
+            "transferSize": 5945,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/8671-ced78db08cde050b.js",
+            "transferSize": 7333,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/6891-62e38cb0b57a91a4.js",
+            "transferSize": 7455,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/app/%5Blocale%5D/page-83edff09c56aff64.js",
+            "transferSize": 4052,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/4499-a093f81821fd2079.js",
+            "transferSize": 6337,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/2342-defee4c2e074917b.js",
+            "transferSize": 3974,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/8598-f89f6cd0c2ce68d7.js",
+            "transferSize": 67698,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/product/stories/ar-hero.webp",
+            "transferSize": 52162,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/app/%5Blocale%5D/layout-fd8b24e45c2f4f22.js",
+            "transferSize": 10658,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/fonts/ibm-plex-sans-arabic-regular.ttf",
+            "transferSize": 103980,
+            "kind": "css"
+          },
+          {
+            "url": "http://localhost:3219/fonts/ibm-plex-sans-arabic-semibold.ttf",
+            "transferSize": 108784,
+            "kind": "css"
+          },
+          {
+            "url": "http://localhost:3219/_next/image?url=%2Fdemo-media%2Faqarpro-logo.webp&w=256&q=75",
+            "transferSize": 4708,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/product/stories/ar-property.webp",
+            "transferSize": 12620,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/product/stories/ar-follow.webp",
+            "transferSize": 8968,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/ar/how-it-works?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 559,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/features/ai-assistance?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 570,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/integrations?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 558,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/pricing?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 555,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/sign-in?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 561,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/how-it-works?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1556,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/features/ai-assistance?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1565,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/integrations?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1563,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/pricing?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1571,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1434,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/sign-in?_rsc=C3vWxWDl48yMklKY",
+            "transferSize": 3920,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/sign-in?_rsc=5kfgSyo2YJ0OW6Bh",
+            "transferSize": 1803,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/7489-45e9ca8fa7ad9493.js",
+            "transferSize": 52979,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/7603-90dc94ad1122822b.js",
+            "transferSize": 32609,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/app/%5Blocale%5D/sign-in/page-5765a46ba2befee0.js",
+            "transferSize": 459,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/9299-19b7e60a48169724.js",
+            "transferSize": 6029,
+            "kind": "script"
+          }
+        ],
+        "navigation": {
+          "name": "http://localhost:3219/ar",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 87.89999985694885,
+          "initiatorType": "navigation",
+          "deliveryType": "",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "contentEncoding": "gzip",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 0.19999980926513672,
+          "domainLookupStart": 0.7999999523162842,
+          "domainLookupEnd": 0.7999999523162842,
+          "connectStart": 0.7999999523162842,
+          "secureConnectionStart": 0,
+          "connectEnd": 1.0999999046325684,
+          "requestStart": 1.0999999046325684,
+          "responseStart": 9.699999809265137,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 9.699999809265137,
+          "responseEnd": 11.099999904632568,
+          "transferSize": 15749,
+          "encodedBodySize": 15449,
+          "decodedBodySize": 70620,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 0,
+          "unloadEventEnd": 0,
+          "domInteractive": 64.5,
+          "domContentLoadedEventStart": 64.5,
+          "domContentLoadedEventEnd": 64.5,
+          "domComplete": 87.89999985694885,
+          "loadEventStart": 87.89999985694885,
+          "loadEventEnd": 87.89999985694885,
+          "type": "navigate",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null,
+          "confidence": {
+            "randomizedTriggerRate": 0.4994798,
+            "value": "high"
+          }
+        }
+      },
+      "interactions": [
+        {
+          "name": "pointerdown",
+          "duration": 40,
+          "interactionId": 9926
+        },
+        {
+          "name": "pointerup",
+          "duration": 40,
+          "interactionId": 9926
+        },
+        {
+          "name": "click",
+          "duration": 40,
+          "interactionId": 9926
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "mobile": true,
+      "trial": 1,
+      "initial": {
+        "lcp": 1536,
+        "cls": 0.0236185188106158,
+        "events": [],
+        "longTasks": [
+          89,
+          84
+        ],
+        "resources": [
+          {
+            "url": "http://localhost:3219/_next/static/css/fd392a6ed3d40013.css",
+            "transferSize": 50773,
+            "kind": "link"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/webpack-db216dcaeed73e2e.js",
+            "transferSize": 1973,
+            "kind": "link"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/14ce1dcc-69de798abf5786f5.js",
+            "transferSize": 64359,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/main-app-cd116f931a8be1f6.js",
+            "transferSize": 815,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/8671-ced78db08cde050b.js",
+            "transferSize": 7333,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/7984-ad4e37feaea8425b.js",
+            "transferSize": 5945,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/6891-62e38cb0b57a91a4.js",
+            "transferSize": 7455,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/8598-f89f6cd0c2ce68d7.js",
+            "transferSize": 67698,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/4499-a093f81821fd2079.js",
+            "transferSize": 6337,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/app/%5Blocale%5D/page-83edff09c56aff64.js",
+            "transferSize": 4052,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/2342-defee4c2e074917b.js",
+            "transferSize": 3974,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/app/%5Blocale%5D/layout-fd8b24e45c2f4f22.js",
+            "transferSize": 10658,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/product/stories/ar-hero-mobile.webp",
+            "transferSize": 19010,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/fonts/ibm-plex-sans-arabic-regular.ttf",
+            "transferSize": 103980,
+            "kind": "css"
+          },
+          {
+            "url": "http://localhost:3219/fonts/ibm-plex-sans-arabic-semibold.ttf",
+            "transferSize": 108784,
+            "kind": "css"
+          },
+          {
+            "url": "http://localhost:3219/_next/image?url=%2Fdemo-media%2Faqarpro-logo.webp&w=256&q=75",
+            "transferSize": 4708,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/product/stories/ar-property-mobile.webp",
+            "transferSize": 12670,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/ar/sign-in?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 561,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/how-it-works?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 559,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1434,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/sign-in?_rsc=C3vWxWDl48yMklKY",
+            "transferSize": 3920,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/sign-in?_rsc=5kfgSyo2YJ0OW6Bh",
+            "transferSize": 1803,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/how-it-works?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1555,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/7489-45e9ca8fa7ad9493.js",
+            "transferSize": 52979,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/7603-90dc94ad1122822b.js",
+            "transferSize": 32609,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/9299-19b7e60a48169724.js",
+            "transferSize": 6029,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/app/%5Blocale%5D/sign-in/page-5765a46ba2befee0.js",
+            "transferSize": 459,
+            "kind": "script"
+          }
+        ],
+        "navigation": {
+          "name": "http://localhost:3219/ar",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 3396.4000000953674,
+          "initiatorType": "navigation",
+          "deliveryType": "",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "contentEncoding": "gzip",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 0.10000014305114746,
+          "domainLookupStart": 0.6000001430511475,
+          "domainLookupEnd": 0.6000001430511475,
+          "connectStart": 0.6000001430511475,
+          "secureConnectionStart": 0,
+          "connectEnd": 0.9000000953674316,
+          "requestStart": 1,
+          "responseStart": 8,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 8,
+          "responseEnd": 236.10000014305115,
+          "transferSize": 15749,
+          "encodedBodySize": 15449,
+          "decodedBodySize": 70620,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 0,
+          "unloadEventEnd": 0,
+          "domInteractive": 1535.9000000953674,
+          "domContentLoadedEventStart": 1535.9000000953674,
+          "domContentLoadedEventEnd": 1536,
+          "domComplete": 3396,
+          "loadEventStart": 3396.4000000953674,
+          "loadEventEnd": 3396.4000000953674,
+          "type": "navigate",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null,
+          "confidence": {
+            "randomizedTriggerRate": 0.4994798,
+            "value": "high"
+          }
+        }
+      },
+      "interactions": [
+        {
+          "name": "pointerdown",
+          "duration": 56,
+          "interactionId": 7456
+        },
+        {
+          "name": "pointerup",
+          "duration": 56,
+          "interactionId": 7456
+        },
+        {
+          "name": "click",
+          "duration": 56,
+          "interactionId": 7456
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "mobile": true,
+      "trial": 2,
+      "initial": {
+        "lcp": 1544,
+        "cls": 0.0236185188106158,
+        "events": [],
+        "longTasks": [
+          102,
+          81
+        ],
+        "resources": [
+          {
+            "url": "http://localhost:3219/_next/static/css/fd392a6ed3d40013.css",
+            "transferSize": 50773,
+            "kind": "link"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/webpack-db216dcaeed73e2e.js",
+            "transferSize": 1973,
+            "kind": "link"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/main-app-cd116f931a8be1f6.js",
+            "transferSize": 815,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/8671-ced78db08cde050b.js",
+            "transferSize": 7333,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/14ce1dcc-69de798abf5786f5.js",
+            "transferSize": 64359,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/8598-f89f6cd0c2ce68d7.js",
+            "transferSize": 67698,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/7984-ad4e37feaea8425b.js",
+            "transferSize": 5945,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/6891-62e38cb0b57a91a4.js",
+            "transferSize": 7455,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/4499-a093f81821fd2079.js",
+            "transferSize": 6337,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/app/%5Blocale%5D/page-83edff09c56aff64.js",
+            "transferSize": 4052,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/2342-defee4c2e074917b.js",
+            "transferSize": 3974,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/app/%5Blocale%5D/layout-fd8b24e45c2f4f22.js",
+            "transferSize": 10658,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/product/stories/ar-hero-mobile.webp",
+            "transferSize": 19010,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/fonts/ibm-plex-sans-arabic-regular.ttf",
+            "transferSize": 103980,
+            "kind": "css"
+          },
+          {
+            "url": "http://localhost:3219/fonts/ibm-plex-sans-arabic-semibold.ttf",
+            "transferSize": 108784,
+            "kind": "css"
+          },
+          {
+            "url": "http://localhost:3219/_next/image?url=%2Fdemo-media%2Faqarpro-logo.webp&w=256&q=75",
+            "transferSize": 4708,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/product/stories/ar-property-mobile.webp",
+            "transferSize": 12670,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/ar/sign-in?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 561,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/how-it-works?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 559,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1433,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/sign-in?_rsc=C3vWxWDl48yMklKY",
+            "transferSize": 3920,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/sign-in?_rsc=5kfgSyo2YJ0OW6Bh",
+            "transferSize": 1803,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/how-it-works?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1555,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/7489-45e9ca8fa7ad9493.js",
+            "transferSize": 52979,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/7603-90dc94ad1122822b.js",
+            "transferSize": 32609,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/app/%5Blocale%5D/sign-in/page-5765a46ba2befee0.js",
+            "transferSize": 459,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/9299-19b7e60a48169724.js",
+            "transferSize": 6029,
+            "kind": "script"
+          }
+        ],
+        "navigation": {
+          "name": "http://localhost:3219/ar",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 3364.2000000476837,
+          "initiatorType": "navigation",
+          "deliveryType": "",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "contentEncoding": "gzip",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 0.09999990463256836,
+          "domainLookupStart": 0.40000009536743164,
+          "domainLookupEnd": 0.40000009536743164,
+          "connectStart": 0.40000009536743164,
+          "secureConnectionStart": 0,
+          "connectEnd": 0.5,
+          "requestStart": 0.5,
+          "responseStart": 5.599999904632568,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 5.599999904632568,
+          "responseEnd": 230.70000004768372,
+          "transferSize": 15749,
+          "encodedBodySize": 15449,
+          "decodedBodySize": 70620,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 0,
+          "unloadEventEnd": 0,
+          "domInteractive": 1543.7000000476837,
+          "domContentLoadedEventStart": 1543.7000000476837,
+          "domContentLoadedEventEnd": 1543.7000000476837,
+          "domComplete": 3364.2000000476837,
+          "loadEventStart": 3364.2000000476837,
+          "loadEventEnd": 3364.2000000476837,
+          "type": "navigate",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null,
+          "confidence": {
+            "randomizedTriggerRate": 0.4994798,
+            "value": "high"
+          }
+        }
+      },
+      "interactions": [
+        {
+          "name": "pointerdown",
+          "duration": 48,
+          "interactionId": 3441
+        },
+        {
+          "name": "pointerup",
+          "duration": 48,
+          "interactionId": 3441
+        },
+        {
+          "name": "click",
+          "duration": 48,
+          "interactionId": 3441
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "mobile": true,
+      "trial": 3,
+      "initial": {
+        "lcp": 1544,
+        "cls": 0.0236185188106158,
+        "events": [],
+        "longTasks": [
+          96,
+          81
+        ],
+        "resources": [
+          {
+            "url": "http://localhost:3219/_next/static/css/fd392a6ed3d40013.css",
+            "transferSize": 50773,
+            "kind": "link"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/webpack-db216dcaeed73e2e.js",
+            "transferSize": 1973,
+            "kind": "link"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/main-app-cd116f931a8be1f6.js",
+            "transferSize": 815,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/8671-ced78db08cde050b.js",
+            "transferSize": 7333,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/7984-ad4e37feaea8425b.js",
+            "transferSize": 5945,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/14ce1dcc-69de798abf5786f5.js",
+            "transferSize": 64359,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/8598-f89f6cd0c2ce68d7.js",
+            "transferSize": 67698,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/4499-a093f81821fd2079.js",
+            "transferSize": 6337,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/6891-62e38cb0b57a91a4.js",
+            "transferSize": 7455,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/app/%5Blocale%5D/page-83edff09c56aff64.js",
+            "transferSize": 4052,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/2342-defee4c2e074917b.js",
+            "transferSize": 3974,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/app/%5Blocale%5D/layout-fd8b24e45c2f4f22.js",
+            "transferSize": 10658,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/product/stories/ar-hero-mobile.webp",
+            "transferSize": 19010,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/fonts/ibm-plex-sans-arabic-regular.ttf",
+            "transferSize": 103980,
+            "kind": "css"
+          },
+          {
+            "url": "http://localhost:3219/fonts/ibm-plex-sans-arabic-semibold.ttf",
+            "transferSize": 108784,
+            "kind": "css"
+          },
+          {
+            "url": "http://localhost:3219/_next/image?url=%2Fdemo-media%2Faqarpro-logo.webp&w=256&q=75",
+            "transferSize": 4708,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/product/stories/ar-property-mobile.webp",
+            "transferSize": 12670,
+            "kind": "img"
+          },
+          {
+            "url": "http://localhost:3219/ar/sign-in?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 561,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/how-it-works?_rsc=uHqCsj4SQR6vibxi",
+            "transferSize": 559,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/en?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1434,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/sign-in?_rsc=5kfgSyo2YJ0OW6Bh",
+            "transferSize": 1803,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/sign-in?_rsc=C3vWxWDl48yMklKY",
+            "transferSize": 3920,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/ar/how-it-works?_rsc=SDmtiWM5AYQMkhhI",
+            "transferSize": 1556,
+            "kind": "fetch"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/7489-45e9ca8fa7ad9493.js",
+            "transferSize": 52979,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/7603-90dc94ad1122822b.js",
+            "transferSize": 32609,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/9299-19b7e60a48169724.js",
+            "transferSize": 6029,
+            "kind": "script"
+          },
+          {
+            "url": "http://localhost:3219/_next/static/chunks/app/%5Blocale%5D/sign-in/page-5765a46ba2befee0.js",
+            "transferSize": 459,
+            "kind": "script"
+          }
+        ],
+        "navigation": {
+          "name": "http://localhost:3219/ar",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 3378.5,
+          "initiatorType": "navigation",
+          "deliveryType": "",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "contentEncoding": "gzip",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 0.09999990463256836,
+          "domainLookupStart": 0.2999999523162842,
+          "domainLookupEnd": 0.2999999523162842,
+          "connectStart": 0.2999999523162842,
+          "secureConnectionStart": 0,
+          "connectEnd": 0.5,
+          "requestStart": 0.5,
+          "responseStart": 6,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 6,
+          "responseEnd": 236.70000004768372,
+          "transferSize": 15749,
+          "encodedBodySize": 15449,
+          "decodedBodySize": 70620,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 0,
+          "unloadEventEnd": 0,
+          "domInteractive": 1544.2000000476837,
+          "domContentLoadedEventStart": 1544.2000000476837,
+          "domContentLoadedEventEnd": 1544.2000000476837,
+          "domComplete": 3378.5,
+          "loadEventStart": 3378.5,
+          "loadEventEnd": 3378.5,
+          "type": "navigate",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null,
+          "confidence": {
+            "randomizedTriggerRate": 0.4994798,
+            "value": "high"
+          }
+        }
+      },
+      "interactions": [
+        {
+          "name": "pointerdown",
+          "duration": 48,
+          "interactionId": 8343
+        },
+        {
+          "name": "pointerup",
+          "duration": 48,
+          "interactionId": 8343
+        },
+        {
+          "name": "click",
+          "duration": 48,
+          "interactionId": 8343
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,550 @@
+{
+  "stage": "before",
+  "records": [
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "home",
+      "route": "",
+      "overflow": false,
+      "height": 7344
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "platform",
+      "route": "/solutions",
+      "overflow": false,
+      "height": 4271
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "ai",
+      "route": "/features/ai-assistance",
+      "overflow": false,
+      "height": 4683
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "promote",
+      "route": "/features/publish-and-promote",
+      "overflow": false,
+      "height": 4457
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "crm",
+      "route": "/features/leads-and-inbox",
+      "overflow": false,
+      "height": 4843
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "property",
+      "route": "/features/property-management",
+      "overflow": false,
+      "height": 4345
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "integrations",
+      "route": "/integrations",
+      "overflow": false,
+      "height": 3988
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "pricing",
+      "route": "/pricing",
+      "overflow": false,
+      "height": 3602
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "register",
+      "route": "/register",
+      "overflow": false,
+      "height": 1000
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "entry",
+      "route": "/sign-in",
+      "overflow": false,
+      "height": 1000
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "agencies",
+      "route": "/solutions/agencies",
+      "overflow": false,
+      "height": 4220
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "tour",
+      "route": "/how-it-works",
+      "overflow": false,
+      "height": 2585
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "faq",
+      "route": "/faq",
+      "overflow": false,
+      "height": 2688
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "contact",
+      "route": "/contact",
+      "overflow": false,
+      "height": 2214
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "about",
+      "route": "/about",
+      "overflow": false,
+      "height": 2411
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "resources",
+      "route": "/resources",
+      "overflow": false,
+      "height": 1878
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "showcase",
+      "route": "/properties",
+      "overflow": false,
+      "height": 2424
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "home",
+      "route": "",
+      "overflow": false,
+      "height": 10841
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "platform",
+      "route": "/solutions",
+      "overflow": false,
+      "height": 5611
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "ai",
+      "route": "/features/ai-assistance",
+      "overflow": false,
+      "height": 7074
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "promote",
+      "route": "/features/publish-and-promote",
+      "overflow": false,
+      "height": 6315
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "crm",
+      "route": "/features/leads-and-inbox",
+      "overflow": false,
+      "height": 7082
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "property",
+      "route": "/features/property-management",
+      "overflow": false,
+      "height": 5861
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "integrations",
+      "route": "/integrations",
+      "overflow": false,
+      "height": 6323
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "pricing",
+      "route": "/pricing",
+      "overflow": false,
+      "height": 6889
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "register",
+      "route": "/register",
+      "overflow": false,
+      "height": 1054
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "entry",
+      "route": "/sign-in",
+      "overflow": false,
+      "height": 812
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "agencies",
+      "route": "/solutions/agencies",
+      "overflow": false,
+      "height": 5082
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "tour",
+      "route": "/how-it-works",
+      "overflow": false,
+      "height": 3948
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "faq",
+      "route": "/faq",
+      "overflow": false,
+      "height": 3367
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "contact",
+      "route": "/contact",
+      "overflow": false,
+      "height": 3365
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "about",
+      "route": "/about",
+      "overflow": false,
+      "height": 3352
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "resources",
+      "route": "/resources",
+      "overflow": false,
+      "height": 3051
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "name": "showcase",
+      "route": "/properties",
+      "overflow": false,
+      "height": 5171
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "home",
+      "route": "",
+      "overflow": false,
+      "height": 7103
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "platform",
+      "route": "/solutions",
+      "overflow": false,
+      "height": 4349
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "ai",
+      "route": "/features/ai-assistance",
+      "overflow": false,
+      "height": 4762
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "promote",
+      "route": "/features/publish-and-promote",
+      "overflow": false,
+      "height": 4402
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "crm",
+      "route": "/features/leads-and-inbox",
+      "overflow": false,
+      "height": 4877
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "property",
+      "route": "/features/property-management",
+      "overflow": false,
+      "height": 4219
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "integrations",
+      "route": "/integrations",
+      "overflow": false,
+      "height": 3994
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "pricing",
+      "route": "/pricing",
+      "overflow": false,
+      "height": 3634
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "register",
+      "route": "/register",
+      "overflow": false,
+      "height": 1000
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "entry",
+      "route": "/sign-in",
+      "overflow": false,
+      "height": 1000
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "agencies",
+      "route": "/solutions/agencies",
+      "overflow": false,
+      "height": 4261
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "tour",
+      "route": "/how-it-works",
+      "overflow": false,
+      "height": 2600
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "faq",
+      "route": "/faq",
+      "overflow": false,
+      "height": 2803
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "contact",
+      "route": "/contact",
+      "overflow": false,
+      "height": 2200
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "about",
+      "route": "/about",
+      "overflow": false,
+      "height": 2337
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "resources",
+      "route": "/resources",
+      "overflow": false,
+      "height": 1863
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "name": "showcase",
+      "route": "/properties",
+      "overflow": false,
+      "height": 2424
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "home",
+      "route": "",
+      "overflow": false,
+      "height": 10207
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "platform",
+      "route": "/solutions",
+      "overflow": false,
+      "height": 5357
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "ai",
+      "route": "/features/ai-assistance",
+      "overflow": false,
+      "height": 6733
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "promote",
+      "route": "/features/publish-and-promote",
+      "overflow": false,
+      "height": 6056
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "crm",
+      "route": "/features/leads-and-inbox",
+      "overflow": false,
+      "height": 6727
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "property",
+      "route": "/features/property-management",
+      "overflow": false,
+      "height": 5714
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "integrations",
+      "route": "/integrations",
+      "overflow": false,
+      "height": 5964
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "pricing",
+      "route": "/pricing",
+      "overflow": false,
+      "height": 6762
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "register",
+      "route": "/register",
+      "overflow": false,
+      "height": 974
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "entry",
+      "route": "/sign-in",
+      "overflow": false,
+      "height": 812
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "agencies",
+      "route": "/solutions/agencies",
+      "overflow": false,
+      "height": 4814
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "tour",
+      "route": "/how-it-works",
+      "overflow": false,
+      "height": 3847
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "faq",
+      "route": "/faq",
+      "overflow": false,
+      "height": 3341
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "contact",
+      "route": "/contact",
+      "overflow": false,
+      "height": 3264
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "about",
+      "route": "/about",
+      "overflow": false,
+      "height": 3247
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "resources",
+      "route": "/resources",
+      "overflow": false,
+      "height": 2952
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "name": "showcase",
+      "route": "/properties",
+      "overflow": false,
+      "height": 5148
+    }
+  ],
+  "errors": []
+}

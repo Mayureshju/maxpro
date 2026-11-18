@@ -10,7 +10,7 @@ export function AssistantLauncher({onOpen,raised=false}:{onOpen:()=>void;raised?
  useEffect(()=>{
   let frame=0;
   const measure=()=>{frame=0;const node=launcher.current;if(!node||document.querySelector('dialog[open]'))return;const box=node.getBoundingClientRect(),base=raised&&innerWidth<=650?88:20;
-   const controls=Array.from(document.querySelectorAll<HTMLElement>('a[href],button,input,select,textarea,[role="combobox"],.ag-editor-footer,.px-chat-compose')).filter(el=>el!==node&&!node.contains(el)&&!el.closest('dialog,[inert]')&&!el.matches('.mk-shot > a,input[readonly],textarea[readonly],:disabled')).map(el=>el.getBoundingClientRect()).filter(r=>r.width&&r.height&&r.bottom>0&&r.top<innerHeight&&r.left<box.right+8&&r.right>box.left-8);
+   const controls=Array.from(document.querySelectorAll<HTMLElement>('a[href],button,input,select,textarea,[role="combobox"],.ag-editor-footer,.px-chat-compose')).filter(el=>el!==node&&!node.contains(el)&&!el.closest('dialog,[inert]')&&!el.matches('.mk-shot > a,.mx-evidence > a,input[readonly],textarea[readonly],:disabled')).map(el=>el.getBoundingClientRect()).filter(r=>r.width&&r.height&&r.bottom>0&&r.top<innerHeight&&r.left<box.right+8&&r.right>box.left-8);
    let next=base;for(let candidate=base;candidate<innerHeight-box.height-80;candidate+=16){const bottom=innerHeight-candidate,top=bottom-box.height;if(!controls.some(r=>r.top<bottom+8&&r.bottom>top-8)){next=candidate;break;}}
    const scale=box.width/(node.offsetWidth||box.width)||1;
    setOffset(previous=>previous===next/scale?previous:next/scale);

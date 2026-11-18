@@ -1,6 +1,6 @@
 {
-  "source": "Actual Phase 17 Webpack production workspace; fictional records",
-  "baseline": "ad1c430",
+  "source": "Actual Phase 19 production workspace; fictional records; utility assistant launcher omitted for unobstructed evidence, workflow styling untouched",
+  "baseline": "cf0b187aec5cf7b804b0152b771e829d8f42c72a",
   "screens": [
     {
       "locale": "en",
@@ -11,7 +11,7 @@
         "height": 1000
       },
       "file": "en-dashboard.webp",
-      "sha256": "0c3f4de128ac1e6ca85802a8729d7907a427f5b038ed89ee04ed804e76c5e319"
+      "sha256": "52914633a64fc4b16ed66cca530cb97419e42190e69fe449a4399633d00f6442"
     },
     {
       "locale": "en",
@@ -22,7 +22,7 @@
         "height": 1000
       },
       "file": "en-inventory.webp",
-      "sha256": "ddd730a918b4d9b693e7be11683df271c8742fd9bbc45097f5b61a55e066b8b3"
+      "sha256": "1503a8d259fc0ce8eca2055f9508b7af5ac14d3e4dd1607045093e3db1858b67"
     },
     {
       "locale": "en",
@@ -33,7 +33,7 @@
         "height": 1000
       },
       "file": "en-editor.webp",
-      "sha256": "dda9aeaef607cbb326378c6f20a8b0281122f9a168df23fab6bd23efb2e70fe9"
+      "sha256": "8ff02f6310568f8ab136de028dc243063137c27a43a149ca8af086e3e6bcab0b"
     },
     {
       "locale": "en",
@@ -44,7 +44,7 @@
         "height": 1000
       },
       "file": "en-media.webp",
-      "sha256": "85a19b691388327783c8896f666aa9216e26ea9d1fb68f47c0c5dc40d81aa85c"
+      "sha256": "f6a07e8e44fe45afb48d814619e0909e0133c7bbb852ecaf0f47e26905bbdda2"
     },
     {
       "locale": "en",
@@ -55,7 +55,7 @@
         "height": 1000
       },
       "file": "en-publish.webp",
-      "sha256": "47d349485775cad93b8ec5fd618d629da281500cb11e3c9600929b400dcf5490"
+      "sha256": "50d4824371b9ba1376953f59c44b7a12411ceb86a99e3326216f08f48b7a70e8"
     },
     {
       "locale": "en",
@@ -66,7 +66,7 @@
         "height": 1000
       },
       "file": "en-review.webp",
-      "sha256": "47d349485775cad93b8ec5fd618d629da281500cb11e3c9600929b400dcf5490"
+      "sha256": "50d4824371b9ba1376953f59c44b7a12411ceb86a99e3326216f08f48b7a70e8"
     },
     {
       "locale": "en",
@@ -77,7 +77,7 @@
         "height": 1000
       },
       "file": "en-leads.webp",
-      "sha256": "64fb66e6c84b7a7f10532b1a748ca5c47c70e7ad9c72ca763b3d6e3f23576c80"
+      "sha256": "0e600674b09b0de87c50dc2109ecb548e4d243146d895b890439d890cd159b9e"
     },
     {
       "locale": "en",
@@ -88,7 +88,7 @@
         "height": 1000
       },
       "file": "en-inbox.webp",
-      "sha256": "ee6f630d7abbbf29c011f07b51101366accef2b24b039e0258828c1a40b858f9"
+      "sha256": "237a676ff1a0f77ba6e7d9333cced9c33e2b36510bf72b1ce9753cad70666bee"
     },
     {
       "locale": "en",
@@ -99,7 +99,7 @@
         "height": 1000
       },
       "file": "en-campaign.webp",
-      "sha256": "a250f351d5da77d755e95e688ac876e9d438ceadffed61694cfa9d601189caad"
+      "sha256": "23778afc802e09858985df44ee3f4e863ce64663a1ba43f9953b148c5d9b5ccc"
     },
     {
       "locale": "en",
@@ -121,7 +121,7 @@
         "height": 1000
       },
       "file": "ar-dashboard.webp",
-      "sha256": "f422b5d854d10496d85cf72e99ca6c68069cd4cd6d30f1fa6aa3a977d70a234b"
+      "sha256": "15f91a4ccc4c3b14ac094951bcc5a87bab413f084d118592fc3b165d4f85f212"
     },
     {
       "locale": "ar",
@@ -132,7 +132,7 @@
         "height": 1000
       },
       "file": "ar-inventory.webp",
-      "sha256": "4ffa5590d8387b2488ada264db35fe64e38a8d47ba5b1b5772eccc88b0d63c8c"
+      "sha256": "aae8c1786336aafaf5cf68601c84337d7d9ca3543edcab12e36d4ef200b3bf2d"
     },
     {
       "locale": "ar",
@@ -143,7 +143,7 @@
         "height": 1000
       },
       "file": "ar-editor.webp",
-      "sha256": "0770086a4bfb8c5d12839c744126bc0afbcf328fd0c7ecdac5d9c9c2d96e8ada"
+      "sha256": "eb36c001ba21c418de14cbf505f12d277ed6996f7b7cc8ec7488866df0498b6e"
     },
     {
       "locale": "ar",
@@ -154,7 +154,7 @@
         "height": 1000
       },
       "file": "ar-media.webp",
-      "sha256": "0adbe1b63f5af6dad344f5132754edc0d79372c3a5c69787ce579e8a9af5dab2"
+      "sha256": "8afbee27786a118f2fd25238ddde2113bc3eaa91ab5ba7d47f1a8c3281015345"
     },
     {
       "locale": "ar",
@@ -165,7 +165,7 @@
         "height": 1000
       },
       "file": "ar-publish.webp",
-      "sha256": "5ae41691576330e6a3ddb6ef76fb98754e8204a1a4c9cd76b89eba7f6d23ed45"
+      "sha256": "37fc1b900688c424c9bf813f050304eb9fd4a263a69dd416c5880fee87dde070"
     },
     {
       "locale": "ar",
@@ -176,7 +176,7 @@
         "height": 1000
       },
       "file": "ar-review.webp",
-      "sha256": "5ae41691576330e6a3ddb6ef76fb98754e8204a1a4c9cd76b89eba7f6d23ed45"
+      "sha256": "37fc1b900688c424c9bf813f050304eb9fd4a263a69dd416c5880fee87dde070"
     },
     {
       "locale": "ar",
@@ -187,7 +187,7 @@
         "height": 1000
       },
       "file": "ar-leads.webp",
-      "sha256": "e7aad66f8498dab035d42cae4dfc8a55354500e2014752e470bd8e37657f6658"
+      "sha256": "0110c8970f636129ad81b0a72bc9fed2f5c6d0f33c9301877272763d22debfaf"
     },
     {
       "locale": "ar",
@@ -198,7 +198,7 @@
         "height": 1000
       },
       "file": "ar-inbox.webp",
-      "sha256": "31879e983c95b9f3e1b7a4452d79ab8eb739504959a2b6bca768e63140c3b243"
+      "sha256": "af77ec335eb61ee8c762235ded1a6836be7909e44ca9efc0f5e8473dd027662b"
     },
     {
       "locale": "ar",
@@ -209,7 +209,7 @@
         "height": 1000
       },
       "file": "ar-campaign.webp",
-      "sha256": "a05055fd6b8fdfdefdb88f982713abdc11b09e649d21c41eb33c9fcec28bc973"
+      "sha256": "31a2c9fb1e043a5b265a132767f552e1bd767546ab3ed590f6d1bebca6b3fe40"
     },
     {
       "locale": "ar",

@@ -54,7 +54,7 @@ for(const locale of ['en','ar']){
  });
  test(`experience ${locale}: launcher placement, focus, zoom and accessibility at all widths`,async({page},info)=>{
   test.skip(info.project.name==='mobile-chromium','The six-width matrix runs once per locale.');test.setTimeout(180000);await seed(page);
-  const pkg=readdirSync(resolve('../../node_modules/.pnpm')).find(n=>n.startsWith('axe-core@'))!,axe=resolve('../../node_modules/.pnpm',pkg,'node_modules/axe-core/axe.min.js'),root=resolve('../../artifacts/phase17/interactions');mkdirSync(root,{recursive:true});const records=[];
+  const pkg=readdirSync(resolve('../../node_modules/.pnpm')).find(n=>n.startsWith('axe-core@'))!,axe=resolve('../../node_modules/.pnpm',pkg,'node_modules/axe-core/axe.min.js'),root=resolve(`../../${process.env.MAXPRO_EVIDENCE_ROOT??'artifacts/phase17'}/interactions`);mkdirSync(root,{recursive:true});const records=[];
   for(const width of [320,375,768,1024,1280,1440])for(const route of ['', '/workspace/inventory/AQ-50002/edit','/workspace/inbox?lead=LE-2100']){
    await page.setViewportSize({width,height:width<600?812:1000});await page.goto(`/${locale}${route}`);await expect(page.locator('main h1')).toBeVisible();const entry=launcher(page);await expect(entry).toBeVisible();expect(await entry.evaluate(el=>getComputedStyle(el).position)).toBe('fixed');const box=(await entry.boundingBox())!;expect(ar?box.x:width-box.x-box.width).toBeLessThan(30);
    if(width<651&&route.includes('/edit')){const footer=(await page.locator('.ag-editor-footer').boundingBox())!;expect(box.y+box.height).toBeLessThanOrEqual(footer.y+1);}

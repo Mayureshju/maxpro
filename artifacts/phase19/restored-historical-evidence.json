@@ -1,0 +1,142 @@
+[
+  {
+    "restoredBaseline": "artifacts/phase17/interactions/ar-1024-editor-assistant.png",
+    "currentRun": "artifacts/phase19/regression-legacy-outputs/phase17/interactions/ar-1024-editor-assistant.png"
+  },
+  {
+    "restoredBaseline": "artifacts/phase17/interactions/ar-1024-inbox-assistant.png",
+    "currentRun": "artifacts/phase19/regression-legacy-outputs/phase17/interactions/ar-1024-inbox-assistant.png"
+  },
+  {
+    "restoredBaseline": "artifacts/phase17/interactions/ar-1024-public-assistant.png",
+    "currentRun": "artifacts/phase19/regression-legacy-outputs/phase17/interactions/ar-1024-public-assistant.png"
+  },
+  {
+    "restoredBaseline": "artifacts/phase17/interactions/ar-1280-editor-assistant.png",
+    "currentRun": "artifacts/phase19/regression-legacy-outputs/phase17/interactions/ar-1280-editor-assistant.png"
+  },
+  {
+    "restoredBaseline": "artifacts/phase17/interactions/ar-1280-inbox-assistant.png",
+    "currentRun": "artifacts/phase19/regression-legacy-outputs/phase17/interactions/ar-1280-inbox-assistant.png"
+  },
+  {
+    "restoredBaseline": "artifacts/phase17/interactions/ar-1280-public-assistant.png",
+    "currentRun": "artifacts/phase19/regression-legacy-outputs/phase17/interactions/ar-1280-public-assistant.png"
+  },
+  {
+    "restoredBaseline": "artifacts/phase17/interactions/ar-1440-editor-assistant.png",
+    "currentRun": "artifacts/phase19/regression-legacy-outputs/phase17/interactions/ar-1440-editor-assistant.png"
+  },
+  {
+    "restoredBaseline": "artifacts/phase17/interactions/ar-1440-inbox-assistant.png",
+    "currentRun": "artifacts/phase19/regression-legacy-outputs/phase17/interactions/ar-1440-inbox-assistant.png"
+  },
+  {
+    "restoredBaseline": "artifacts/phase17/interactions/ar-1440-public-assistant.png",
+    "currentRun": "artifacts/phase19/regression-legacy-outputs/phase17/interactions/ar-1440-public-assistant.png"
+  },
+  {
+    "restoredBaseline": "artifacts/phase17/interactions/ar-320-editor-assistant.png",
+    "currentRun": "artifacts/phase19/regression-legacy-outputs/phase17/interactions/ar-320-editor-assistant.png"
+  },
+  {
+    "restoredBaseline": "artifacts/phase17/interactions/ar-320-inbox-assistant.png",
+    "currentRun": "artifacts/phase19/regression-legacy-outputs/phase17/interactions/ar-320-inbox-assistant.png"
+  },
+  {
+    "restoredBaseline": "artifacts/phase17/interactions/ar-320-public-assistant.png",
+    "currentRun": "artifacts/phase19/regression-legacy-outputs/phase17/interactions/ar-320-public-assistant.png"
+  },
+  {
+    "restoredBaseline": "artifacts/phase17/interactions/ar-375-editor-assistant.png",
+    "currentRun": "artifacts/phase19/regression-legacy-outputs/phase17/interactions/ar-375-editor-assistant.png"
+  },
+  {
+    "restoredBaseline": "artifacts/phase17/interactions/ar-375-inbox-assistant.png",
+    "currentRun": "artifacts/phase19/regression-legacy-outputs/phase17/interactions/ar-375-inbox-assistant.png"
+  },
+  {
+    "restoredBaseline": "artifacts/phase17/interactions/ar-375-public-assistant.png",
+    "currentRun": "artifacts/phase19/regression-legacy-outputs/phase17/interactions/ar-375-public-assistant.png"
+  },
+  {
+    "restoredBaseline": "artifacts/phase17/interactions/ar-768-editor-assistant.png",
+    "currentRun": "artifacts/phase19/regression-legacy-outputs/phase17/interactions/ar-768-editor-assistant.png"
+  },
+  {
+    "restoredBaseline": "artifacts/phase17/interactions/ar-768-inbox-assistant.png",
+    "currentRun": "artifacts/phase19/regression-legacy-outputs/phase17/interactions/ar-768-inbox-assistant.png"
+  },
+  {
+    "restoredBaseline": "artifacts/phase17/interactions/ar-768-public-assistant.png",
+    "currentRun": "artifacts/phase19/regression-legacy-outputs/phase17/interactions/ar-768-public-assistant.png"
+  },
+  {
+    "restoredBaseline": "artifacts/phase17/interactions/en-1024-editor-assistant.png",
+    "currentRun": "artifacts/phase19/regression-legacy-outputs/phase17/interactions/en-1024-editor-assistant.png"
+  },
+  {
+    "restoredBaseline": "artifacts/phase17/interactions/en-1024-inbox-assistant.png",
+    "currentRun": "artifacts/phase19/regression-legacy-outputs/phase17/interactions/en-1024-inbox-assistant.png"
+  },
+  {
+    "restoredBaseline": "artifacts/phase17/interactions/en-1024-public-assistant.png",
+    "currentRun": "artifacts/phase19/regression-legacy-outputs/phase17/interactions/en-1024-public-assistant.png"
+  },
+  {
+    "restoredBaseline": "artifacts/phase17/interactions/en-1280-editor-assistant.png",
+    "currentRun": "artifacts/phase19/regression-legacy-outputs/phase17/interactions/en-1280-editor-assistant.png"
+  },
+  {
+    "restoredBaseline": "artifacts/phase17/interactions/en-1280-inbox-assistant.png",
+    "currentRun": "artifacts/phase19/regression-legacy-outputs/phase17/interactions/en-1280-inbox-assistant.png"
+  },
+  {
+    "restoredBaseline": "artifacts/phase17/interactions/en-1280-public-assistant.png",
+    "currentRun": "artifacts/phase19/regression-legacy-outputs/phase17/interactions/en-1280-public-assistant.png"
+  },
+  {
+    "restoredBaseline": "artifacts/phase17/interactions/en-1440-editor-assistant.png",
+    "currentRun": "artifacts/phase19/regression-legacy-outputs/phase17/interactions/en-1440-editor-assistant.png"
+  },
+  {
+    "restoredBaseline": "artifacts/phase17/interactions/en-1440-inbox-assistant.png",
+    "currentRun": "artifacts/phase19/regression-legacy-outputs/phase17/interactions/en-1440-inbox-assistant.png"
+  },
+  {
+    "restoredBaseline": "artifacts/phase17/interactions/en-1440-public-assistant.png",
+    "currentRun": "artifacts/phase19/regression-legacy-outputs/phase17/interactions/en-1440-public-assistant.png"
+  },
+  {
+    "restoredBaseline": "artifacts/phase17/interactions/en-320-editor-assistant.png",
+    "currentRun": "artifacts/phase19/regression-legacy-outputs/phase17/interactions/en-320-editor-assistant.png"
+  },
+  {
+    "restoredBaseline": "artifacts/phase17/interactions/en-320-inbox-assistant.png",
+    "currentRun": "artifacts/phase19/regression-legacy-outputs/phase17/interactions/en-320-inbox-assistant.png"
+  },
+  {
+    "restoredBaseline": "artifacts/phase17/interactions/en-375-editor-assistant.png",
+    "currentRun": "artifacts/phase19/regression-legacy-outputs/phase17/interactions/en-375-editor-assistant.png"
+  },
+  {
+    "restoredBaseline": "artifacts/phase17/interactions/en-375-inbox-assistant.png",
+    "currentRun": "artifacts/phase19/regression-legacy-outputs/phase17/interactions/en-375-inbox-assistant.png"
+  },
+  {
+    "restoredBaseline": "artifacts/phase17/interactions/en-375-public-assistant.png",
+    "currentRun": "artifacts/phase19/regression-legacy-outputs/phase17/interactions/en-375-public-assistant.png"
+  },
+  {
+    "restoredBaseline": "artifacts/phase17/interactions/en-768-editor-assistant.png",
+    "currentRun": "artifacts/phase19/regression-legacy-outputs/phase17/interactions/en-768-editor-assistant.png"
+  },
+  {
+    "restoredBaseline": "artifacts/phase17/interactions/en-768-inbox-assistant.png",
+    "currentRun": "artifacts/phase19/regression-legacy-outputs/phase17/interactions/en-768-inbox-assistant.png"
+  },
+  {
+    "restoredBaseline": "artifacts/phase17/interactions/en-768-public-assistant.png",
+    "currentRun": "artifacts/phase19/regression-legacy-outputs/phase17/interactions/en-768-public-assistant.png"
+  }
+]

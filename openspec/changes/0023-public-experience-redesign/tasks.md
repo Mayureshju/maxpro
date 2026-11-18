@@ -1,0 +1,11 @@
+# Tasks
+- [x] Verify baseline and inspect source, product contracts and actual before captures.
+- [x] Research current B2B product demonstrations and usability guidance.
+- [x] Author proposal, design and acceptance specification.
+- [x] Implement complete homepage and four-part story.
+- [x] Extend public family and demo entry; preserve assistant and showcase.
+- [x] Refresh authentic product imagery and provenance.
+- [x] Update meaningful interaction and evidence tests.
+- [x] Run required static/build/full browser checks.
+- [x] Inspect EN/AR six-width captures and accessibility/performance evidence.
+- [x] Independent review and repair; write exact delivery results.

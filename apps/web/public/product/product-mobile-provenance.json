@@ -1,6 +1,6 @@
 {
-  "source": "Actual Phase 17 Webpack production workspace; fictional records",
-  "baseline": "ad1c430",
+  "source": "Actual Phase 19 production workspace; fictional records; utility assistant launcher omitted for unobstructed evidence, workflow styling untouched",
+  "baseline": "cf0b187aec5cf7b804b0152b771e829d8f42c72a",
   "screens": [
     {
       "locale": "en",
@@ -11,7 +11,7 @@
         "height": 812
       },
       "file": "en-dashboard-mobile.webp",
-      "sha256": "9881c82c85a2101b33a85605ecfb877dda6a6703a0014cc82d0ceb91b6d32f69"
+      "sha256": "1ca818a856e3113883e0d103d5e15b1fd2617794156c9bf6a7da99c5ef45a646"
     },
     {
       "locale": "en",
@@ -22,7 +22,7 @@
         "height": 812
       },
       "file": "en-inventory-mobile.webp",
-      "sha256": "aa00cc1c3037b7381fde9ef4c322c73e2f5d4a696538d5b83e3703dd285887aa"
+      "sha256": "55076293ddc4f172839f6a2c9ef899cf92ec63323bd6ae4111b5e9948015ee68"
     },
     {
       "locale": "en",
@@ -33,7 +33,7 @@
         "height": 812
       },
       "file": "en-editor-mobile.webp",
-      "sha256": "5b5d4b740d499cab87f82dfde8bdc22a2fe04705af9ea01559b0611c47b52c9b"
+      "sha256": "5080bd3f1ea77d8d567495dc857df162398a5215d4083480cbebdb929fe783b5"
     },
     {
       "locale": "en",
@@ -44,7 +44,7 @@
         "height": 812
       },
       "file": "en-media-mobile.webp",
-      "sha256": "867d6b323c85c90d4ab056d07f9effdcff60f2f6cef7d73337ddfe7d2d2ef529"
+      "sha256": "f096d29ed6f6f09ef1e41bd37416904e8c72c3c52dd5490b74824d65bfe10438"
     },
     {
       "locale": "en",
@@ -55,7 +55,7 @@
         "height": 812
       },
       "file": "en-publish-mobile.webp",
-      "sha256": "2ca4ea2b570a21b4b6e962a9176dd69e6ffcc156e5992b673f91c743f4c96e3b"
+      "sha256": "3c075c634ee73e0ba5afc064dd547ed3204a23edba8070b2aab1ceb9efe016bd"
     },
     {
       "locale": "en",
@@ -66,7 +66,7 @@
         "height": 812
       },
       "file": "en-review-mobile.webp",
-      "sha256": "2ca4ea2b570a21b4b6e962a9176dd69e6ffcc156e5992b673f91c743f4c96e3b"
+      "sha256": "3c075c634ee73e0ba5afc064dd547ed3204a23edba8070b2aab1ceb9efe016bd"
     },
     {
       "locale": "en",
@@ -77,7 +77,7 @@
         "height": 812
       },
       "file": "en-leads-mobile.webp",
-      "sha256": "45bd03b049ee54e0f1c37c3773a11cfd6ead3980fdb44ea996c041dcb096261a"
+      "sha256": "cd20c8a737bb77bc15ad0be18ec6e8aea143b28c021b41b4ae8c308228e39953"
     },
     {
       "locale": "en",
@@ -88,7 +88,7 @@
         "height": 812
       },
       "file": "en-inbox-mobile.webp",
-      "sha256": "112b27e9ebb840efd313cc797967cd8d035a726c002d011c9a669474cce0678c"
+      "sha256": "a8e17e3416f5d5418ac8ef0f1a75d87b7e1170b03f0bc9547e08ff6f10f6ee44"
     },
     {
       "locale": "en",
@@ -99,7 +99,7 @@
         "height": 812
       },
       "file": "en-campaign-mobile.webp",
-      "sha256": "bd2c0b0f3a8c3d0fe772f49be684b484708ce9285b6395cc6f8d8f1cceef5bf5"
+      "sha256": "802ce8a1db44e3e33148ec513833c36bc151f189636fc152ab8dc13d3c3347e4"
     },
     {
       "locale": "en",
@@ -121,7 +121,7 @@
         "height": 812
       },
       "file": "ar-dashboard-mobile.webp",
-      "sha256": "472f15d495a14f567b216b6765dea6cfbf35f82d25916ae92aa82f9d23e4ca3e"
+      "sha256": "e45c39ce616f0a94277a2d2d356a7aebb78d4b5208a3a187b6dbaa21e6d54f71"
     },
     {
       "locale": "ar",
@@ -132,7 +132,7 @@
         "height": 812
       },
       "file": "ar-inventory-mobile.webp",
-      "sha256": "22cd01e011b61e8b1f831c83d5c3663532233e342af3806e230ed1012e2f3b46"
+      "sha256": "9b3ede12fc4bf5994c44bc3c6c4bc62f92b4787254efe2ef61d557a57538a99f"
     },
     {
       "locale": "ar",
@@ -143,7 +143,7 @@
         "height": 812
       },
       "file": "ar-editor-mobile.webp",
-      "sha256": "838c01899717307ea1a85fac4aa7c937b359c45c8ae15daa96d30ee32c301155"
+      "sha256": "9d6586247f78c521a6da0daecc07f0fae77bdf0dae7b333ffe5d8aeba9af1137"
     },
     {
       "locale": "ar",
@@ -154,7 +154,7 @@
         "height": 812
       },
       "file": "ar-media-mobile.webp",
-      "sha256": "6248a740c2c22950f92052078f73d31133de7222b7d2814316fde79aca16dd04"
+      "sha256": "4d6a267bac7666a4be78b2888d3acbb527c6d7326d71524bd160ac1d02e9bb0a"
     },
     {
       "locale": "ar",
@@ -165,7 +165,7 @@
         "height": 812
       },
       "file": "ar-publish-mobile.webp",
-      "sha256": "bab90e1126c4b201da27e377ab9838968d28e2f0c50c24670b4b47dc664e75ba"
+      "sha256": "2812efc6a46d58bb23a02044fe0f99ea32de353fb001d085dcfd9b5304feac76"
     },
     {
       "locale": "ar",
@@ -176,7 +176,7 @@
         "height": 812
       },
       "file": "ar-review-mobile.webp",
-      "sha256": "bab90e1126c4b201da27e377ab9838968d28e2f0c50c24670b4b47dc664e75ba"
+      "sha256": "2812efc6a46d58bb23a02044fe0f99ea32de353fb001d085dcfd9b5304feac76"
     },
     {
       "locale": "ar",
@@ -187,7 +187,7 @@
         "height": 812
       },
       "file": "ar-leads-mobile.webp",
-      "sha256": "d6b66747b82441d77b151b171d0b45742000f8f4d56e40e9663403bedd49a989"
+      "sha256": "8fbcfc64432e9c46a566b5135dd379d2f9904e53284f20c0eb96fa604cc221e4"
     },
     {
       "locale": "ar",
@@ -198,7 +198,7 @@
         "height": 812
       },
       "file": "ar-inbox-mobile.webp",
-      "sha256": "9e396208e8a4d2018036b4290ae378eda6643ec73e0e0a556a1b508a9e300984"
+      "sha256": "46b4b140c5a64a7fd13d747125caf7253e9161cf50851017cadedb69c97ed332"
     },
     {
       "locale": "ar",
@@ -209,7 +209,7 @@
         "height": 812
       },
       "file": "ar-campaign-mobile.webp",
-      "sha256": "ccbf9cdac577acf446d14876dd58f053dfa08005657e38df3f92e2d7b7d84568"
+      "sha256": "c625ff15a74c92e4eb3da7c59793d16622b827d704a1ab5dc225f4d25c7f5319"
     },
     {
       "locale": "ar",

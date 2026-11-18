@@ -1,0 +1,12 @@
+{
+  "localBranch": "main",
+  "localCommit": "cf0b187aec5cf7b804b0152b771e829d8f42c72a",
+  "remoteMainCommit": "cf0b187aec5cf7b804b0152b771e829d8f42c72a",
+  "remote": "https://github.com/Mayureshju/maxpro",
+  "verifiedDate": "2026-11-18",
+  "initialWorktree": "clean",
+  "sourceOfRemoteVerification": "GitHub connector fetch_commit(main); read only",
+  "committed": false,
+  "pushed": false,
+  "deployed": false
+}

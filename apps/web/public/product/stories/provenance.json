@@ -1,0 +1,525 @@
+{
+  "baseline": "cf0b187aec5cf7b804b0152b771e829d8f42c72a",
+  "records": [
+    {
+      "locale": "en",
+      "viewport": {
+        "width": 1440,
+        "height": 1100
+      },
+      "name": "hero",
+      "route": "/workspace/inventory/AQ-10231",
+      "selector": ".ag-property-overview",
+      "rectangle": {
+        "x": 272,
+        "y": 225.59375,
+        "width": 1144,
+        "height": 414
+      },
+      "file": "en-hero.webp",
+      "sha256": "89e3cb428b6c679b2b69d8ab2d1e52d8e4e476f9cb89354127c1812ca1a9d8ef",
+      "sourceSha256": "8ddd55c26dd240bbc0aff155f733be4c0d393eb12d5231052787df5ca6fd4c16",
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "width": 1144,
+        "height": 414
+      },
+      "method": "Native Playwright element screenshot followed by exact top detail crop and WebP encoding. No drawing or compositing. Shell topbar, utility assistant launcher and development indicator omitted for unobstructed evidence; workflow styling untouched. Fictional canonical sample in fresh context."
+    },
+    {
+      "locale": "en",
+      "viewport": {
+        "width": 1440,
+        "height": 1100
+      },
+      "name": "property",
+      "route": "/workspace/inventory/AQ-10231",
+      "selector": ".ag-property-facts",
+      "rectangle": {
+        "x": 857.921875,
+        "y": 226.59375,
+        "width": 558,
+        "height": 412
+      },
+      "file": "en-property.webp",
+      "sha256": "0fec6dfd63deca600bfe0d3a01347cf5241943aa007a277c16e6197035b01933",
+      "sourceSha256": "1be7c4b54ca8df05406deba23f01bc476e54db6b1b75506235ef96adfbb8907a",
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "width": 558,
+        "height": 412
+      },
+      "method": "Native Playwright element screenshot followed by exact top detail crop and WebP encoding. No drawing or compositing. Shell topbar, utility assistant launcher and development indicator omitted for unobstructed evidence; workflow styling untouched. Fictional canonical sample in fresh context."
+    },
+    {
+      "locale": "en",
+      "viewport": {
+        "width": 1440,
+        "height": 1100
+      },
+      "name": "prepare",
+      "route": "/workspace/inventory/AQ-10231/edit?step=1",
+      "selector": ".ag-proposal section:first-child",
+      "rectangle": {
+        "x": 905,
+        "y": 395.15625,
+        "width": 511,
+        "height": 294
+      },
+      "file": "en-prepare.webp",
+      "sha256": "b27cc9ebbd1c32c1031301305c3ed318a9c28b8676deefa4d7824da578642c33",
+      "sourceSha256": "91d979f932bad12d72441106ab4ef3f83ee794a5fa6525ff0e636630e01ce673",
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "width": 511,
+        "height": 294
+      },
+      "method": "Native Playwright element screenshot followed by exact top detail crop and WebP encoding. No drawing or compositing. Shell topbar, utility assistant launcher and development indicator omitted for unobstructed evidence; workflow styling untouched. Fictional canonical sample in fresh context."
+    },
+    {
+      "locale": "en",
+      "viewport": {
+        "width": 1440,
+        "height": 1100
+      },
+      "name": "promote",
+      "route": "/workspace/publish?property=AQ-10231&goal=advertising",
+      "selector": ".ag-channel-workflow>div:first-child",
+      "rectangle": {
+        "x": 297,
+        "y": 1213.25,
+        "width": 535,
+        "height": 365
+      },
+      "file": "en-promote.webp",
+      "sha256": "79d32bd02287de40e7a455d31e47025a17854931ab74d1a93ff230c23a737513",
+      "sourceSha256": "3362a316530d21f4d625bbb6a6a4397faa65c8ece0fc68fdffa55661920b642c",
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "width": 535,
+        "height": 365
+      },
+      "method": "Native Playwright element screenshot followed by exact top detail crop and WebP encoding. No drawing or compositing. Shell topbar, utility assistant launcher and development indicator omitted for unobstructed evidence; workflow styling untouched. Fictional canonical sample in fresh context."
+    },
+    {
+      "locale": "en",
+      "viewport": {
+        "width": 1440,
+        "height": 1100
+      },
+      "name": "follow",
+      "route": "/workspace/inbox?lead=LE-2101",
+      "selector": ".px-chat-context",
+      "rectangle": {
+        "x": 1139.34375,
+        "y": 295.09375,
+        "width": 276,
+        "height": 360
+      },
+      "file": "en-follow.webp",
+      "sha256": "8e846b4591a58076db811d3cce8bf55fb9c4d58e948e2e7a0fd9f1b043002306",
+      "sourceSha256": "3c7750a06c61a72e850e26fb8cf17abd449ff0ecf9c51c409e79e2a954739184",
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "width": 276,
+        "height": 360
+      },
+      "method": "Native Playwright element screenshot followed by exact top detail crop and WebP encoding. No drawing or compositing. Shell topbar, utility assistant launcher and development indicator omitted for unobstructed evidence; workflow styling untouched. Fictional canonical sample in fresh context."
+    },
+    {
+      "locale": "en",
+      "viewport": {
+        "width": 375,
+        "height": 920
+      },
+      "name": "hero",
+      "route": "/workspace/inventory/AQ-10231",
+      "selector": ".ag-property-overview",
+      "rectangle": {
+        "x": 16,
+        "y": 263.09375,
+        "width": 343,
+        "height": 330
+      },
+      "file": "en-hero-mobile.webp",
+      "sha256": "897436bc24ce6ce82895cf87a6d886ce9ce6078be6d394529cb48581f97a68ea",
+      "sourceSha256": "cd62967e478aa5b59cada3ae7bb0c4e9bdd63da3be965a4e3fe8195ac621df0d",
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "width": 343,
+        "height": 330
+      },
+      "method": "Native Playwright element screenshot followed by exact top detail crop and WebP encoding. No drawing or compositing. Shell topbar, utility assistant launcher and development indicator omitted for unobstructed evidence; workflow styling untouched. Fictional canonical sample in fresh context."
+    },
+    {
+      "locale": "en",
+      "viewport": {
+        "width": 375,
+        "height": 920
+      },
+      "name": "property",
+      "route": "/workspace/inventory/AQ-10231",
+      "selector": ".ag-property-facts",
+      "rectangle": {
+        "x": 17,
+        "y": 484.09375,
+        "width": 341,
+        "height": 425
+      },
+      "file": "en-property-mobile.webp",
+      "sha256": "3a4530b6962103416701eed668ec5f56515822c2d65592bf84397408c66906c6",
+      "sourceSha256": "bc2b747b01ffcb9537a1cd8da96387d3cc0e0ba996ca93c7587db17d84d6c743",
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "width": 341,
+        "height": 425
+      },
+      "method": "Native Playwright element screenshot followed by exact top detail crop and WebP encoding. No drawing or compositing. Shell topbar, utility assistant launcher and development indicator omitted for unobstructed evidence; workflow styling untouched. Fictional canonical sample in fresh context."
+    },
+    {
+      "locale": "en",
+      "viewport": {
+        "width": 375,
+        "height": 920
+      },
+      "name": "prepare",
+      "route": "/workspace/inventory/AQ-10231/edit?step=1",
+      "selector": ".ag-proposal section:first-child",
+      "rectangle": {
+        "x": 16,
+        "y": 287.90625,
+        "width": 343,
+        "height": 320
+      },
+      "file": "en-prepare-mobile.webp",
+      "sha256": "7db6a8423bbd78ca3eaacd479f62cf2c97848b95b3d715fb5a63f5eccdbe13ce",
+      "sourceSha256": "e23063bdd641564556c62e25a74be46811be8ffe63c922449d61b8aa6bda0617",
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "width": 343,
+        "height": 320
+      },
+      "method": "Native Playwright element screenshot followed by exact top detail crop and WebP encoding. No drawing or compositing. Shell topbar, utility assistant launcher and development indicator omitted for unobstructed evidence; workflow styling untouched. Fictional canonical sample in fresh context."
+    },
+    {
+      "locale": "en",
+      "viewport": {
+        "width": 375,
+        "height": 920
+      },
+      "name": "promote",
+      "route": "/workspace/publish?property=AQ-10231&goal=advertising",
+      "selector": ".ag-channel-workflow>div:first-child",
+      "rectangle": {
+        "x": 33,
+        "y": 1145.09375,
+        "width": 309,
+        "height": 480
+      },
+      "file": "en-promote-mobile.webp",
+      "sha256": "3f667da1f047580336000b034c3012ebeffdc9ceb2bfcadc6cf24dba5bb8c892",
+      "sourceSha256": "f9c53e3608509bf9758eff6b129e7cf1578064c4350ad031022e1dabf51fd843",
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "width": 309,
+        "height": 480
+      },
+      "method": "Native Playwright element screenshot followed by exact top detail crop and WebP encoding. No drawing or compositing. Shell topbar, utility assistant launcher and development indicator omitted for unobstructed evidence; workflow styling untouched. Fictional canonical sample in fresh context."
+    },
+    {
+      "locale": "en",
+      "viewport": {
+        "width": 375,
+        "height": 920
+      },
+      "name": "follow",
+      "route": "/workspace/inbox?lead=LE-2101",
+      "selector": ".px-chat-context",
+      "rectangle": {
+        "x": 17,
+        "y": 1409.84375,
+        "width": 341,
+        "height": 339
+      },
+      "file": "en-follow-mobile.webp",
+      "sha256": "7268626629ed1735898935ca47255129836c386b397828a31722ed4e8c966474",
+      "sourceSha256": "911cced80fb68e8db613b4854e2c62d8d10a2cde14dfd12e6e60cda9658e91b0",
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "width": 341,
+        "height": 339
+      },
+      "method": "Native Playwright element screenshot followed by exact top detail crop and WebP encoding. No drawing or compositing. Shell topbar, utility assistant launcher and development indicator omitted for unobstructed evidence; workflow styling untouched. Fictional canonical sample in fresh context."
+    },
+    {
+      "locale": "ar",
+      "viewport": {
+        "width": 1440,
+        "height": 1100
+      },
+      "name": "hero",
+      "route": "/workspace/inventory/AQ-10231",
+      "selector": ".ag-property-overview",
+      "rectangle": {
+        "x": 24,
+        "y": 234,
+        "width": 1144,
+        "height": 391
+      },
+      "file": "ar-hero.webp",
+      "sha256": "88df70427be84ffea5fcb031d4970acc1a50d5cdc7d226ee0ac2015dd1c859fc",
+      "sourceSha256": "f4dd94042b47097659e0c30e710cd355a42d5c5ac9bf4e5e5a525e447cd51e69",
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "width": 1144,
+        "height": 391
+      },
+      "method": "Native Playwright element screenshot followed by exact top detail crop and WebP encoding. No drawing or compositing. Shell topbar, utility assistant launcher and development indicator omitted for unobstructed evidence; workflow styling untouched. Fictional canonical sample in fresh context."
+    },
+    {
+      "locale": "ar",
+      "viewport": {
+        "width": 1440,
+        "height": 1100
+      },
+      "name": "property",
+      "route": "/workspace/inventory/AQ-10231",
+      "selector": ".ag-property-facts",
+      "rectangle": {
+        "x": 25,
+        "y": 235,
+        "width": 558,
+        "height": 389
+      },
+      "file": "ar-property.webp",
+      "sha256": "b8af61aa9eb71a84843a502e086e7cf27c68d5d09d3b4695fc80aef95aeca45b",
+      "sourceSha256": "ce50d0f6268a9c41097560fb23cae16a2fa5419ee47f48892f5130dc82481b82",
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "width": 558,
+        "height": 389
+      },
+      "method": "Native Playwright element screenshot followed by exact top detail crop and WebP encoding. No drawing or compositing. Shell topbar, utility assistant launcher and development indicator omitted for unobstructed evidence; workflow styling untouched. Fictional canonical sample in fresh context."
+    },
+    {
+      "locale": "ar",
+      "viewport": {
+        "width": 1440,
+        "height": 1100
+      },
+      "name": "prepare",
+      "route": "/workspace/inventory/AQ-10231/edit?step=1",
+      "selector": ".ag-proposal section:first-child",
+      "rectangle": {
+        "x": 24,
+        "y": 420.40625,
+        "width": 511,
+        "height": 294
+      },
+      "file": "ar-prepare.webp",
+      "sha256": "151c364fc48f806806e852b40706198d0aee1fc7eded1a9458a475653ffacf38",
+      "sourceSha256": "7b4158df795b6116c8f7963e3dc8a307ef824509a930d24c14699988fb27d2a0",
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "width": 511,
+        "height": 294
+      },
+      "method": "Native Playwright element screenshot followed by exact top detail crop and WebP encoding. No drawing or compositing. Shell topbar, utility assistant launcher and development indicator omitted for unobstructed evidence; workflow styling untouched. Fictional canonical sample in fresh context."
+    },
+    {
+      "locale": "ar",
+      "viewport": {
+        "width": 1440,
+        "height": 1100
+      },
+      "name": "promote",
+      "route": "/workspace/publish?property=AQ-10231&goal=advertising",
+      "selector": ".ag-channel-workflow>div:first-child",
+      "rectangle": {
+        "x": 608,
+        "y": 1179.546875,
+        "width": 535,
+        "height": 365
+      },
+      "file": "ar-promote.webp",
+      "sha256": "c3e6f9992753b545e6a315175c52f73452c74f81c3ce8e019fcca0bfed0850e4",
+      "sourceSha256": "8a312c6d130b64c2832ef1215d2a1df4125bd78d381fb180ec0953781176a5ec",
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "width": 535,
+        "height": 365
+      },
+      "method": "Native Playwright element screenshot followed by exact top detail crop and WebP encoding. No drawing or compositing. Shell topbar, utility assistant launcher and development indicator omitted for unobstructed evidence; workflow styling untouched. Fictional canonical sample in fresh context."
+    },
+    {
+      "locale": "ar",
+      "viewport": {
+        "width": 1440,
+        "height": 1100
+      },
+      "name": "follow",
+      "route": "/workspace/inbox?lead=LE-2101",
+      "selector": ".px-chat-context",
+      "rectangle": {
+        "x": 25.015625,
+        "y": 279,
+        "width": 276,
+        "height": 440
+      },
+      "file": "ar-follow.webp",
+      "sha256": "6f817e276d9f4eb7385eca3e303526642b6f8e87b321666ed84701ab58327f42",
+      "sourceSha256": "98a65c3e0c03a7e75598ad63612906138391b4eb9b61983baa17c1407d76a8d4",
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "width": 276,
+        "height": 440
+      },
+      "method": "Native Playwright element screenshot followed by exact top detail crop and WebP encoding. No drawing or compositing. Shell topbar, utility assistant launcher and development indicator omitted for unobstructed evidence; workflow styling untouched. Fictional canonical sample in fresh context."
+    },
+    {
+      "locale": "ar",
+      "viewport": {
+        "width": 375,
+        "height": 920
+      },
+      "name": "hero",
+      "route": "/workspace/inventory/AQ-10231",
+      "selector": ".ag-property-overview",
+      "rectangle": {
+        "x": 16,
+        "y": 271.5,
+        "width": 343,
+        "height": 330
+      },
+      "file": "ar-hero-mobile.webp",
+      "sha256": "c16c31319eae0e0429f4865aa5e9380b1484758c33fb16906565b1f9994bc1c1",
+      "sourceSha256": "6b6a695da7aa1f3a30d55856fa1b31cec4239cd31bcd321d735c77f2ad7ac219",
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "width": 343,
+        "height": 330
+      },
+      "method": "Native Playwright element screenshot followed by exact top detail crop and WebP encoding. No drawing or compositing. Shell topbar, utility assistant launcher and development indicator omitted for unobstructed evidence; workflow styling untouched. Fictional canonical sample in fresh context."
+    },
+    {
+      "locale": "ar",
+      "viewport": {
+        "width": 375,
+        "height": 920
+      },
+      "name": "property",
+      "route": "/workspace/inventory/AQ-10231",
+      "selector": ".ag-property-facts",
+      "rectangle": {
+        "x": 17,
+        "y": 492.5,
+        "width": 341,
+        "height": 390
+      },
+      "file": "ar-property-mobile.webp",
+      "sha256": "e4579f69fee8d0d38a34a7555be8214c031758784a32d2ec7c74b5eac3c2e3cd",
+      "sourceSha256": "5d45a6428e9da4da8e9c760deeeb1dc967b90827f86764c6ea065b866c581b09",
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "width": 341,
+        "height": 390
+      },
+      "method": "Native Playwright element screenshot followed by exact top detail crop and WebP encoding. No drawing or compositing. Shell topbar, utility assistant launcher and development indicator omitted for unobstructed evidence; workflow styling untouched. Fictional canonical sample in fresh context."
+    },
+    {
+      "locale": "ar",
+      "viewport": {
+        "width": 375,
+        "height": 920
+      },
+      "name": "prepare",
+      "route": "/workspace/inventory/AQ-10231/edit?step=1",
+      "selector": ".ag-proposal section:first-child",
+      "rectangle": {
+        "x": 16,
+        "y": 288.15625,
+        "width": 343,
+        "height": 319
+      },
+      "file": "ar-prepare-mobile.webp",
+      "sha256": "4fd97c599c81655d46ae21e731074a67d897fd4d0d09f52ca97abd01d3d683a0",
+      "sourceSha256": "e57d4daa4815485ec7a331b4db68b2d0e511a9e3f0d40849a5e3c70e176cd1cb",
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "width": 343,
+        "height": 319
+      },
+      "method": "Native Playwright element screenshot followed by exact top detail crop and WebP encoding. No drawing or compositing. Shell topbar, utility assistant launcher and development indicator omitted for unobstructed evidence; workflow styling untouched. Fictional canonical sample in fresh context."
+    },
+    {
+      "locale": "ar",
+      "viewport": {
+        "width": 375,
+        "height": 920
+      },
+      "name": "promote",
+      "route": "/workspace/publish?property=AQ-10231&goal=advertising",
+      "selector": ".ag-channel-workflow>div:first-child",
+      "rectangle": {
+        "x": 33,
+        "y": 1165.453125,
+        "width": 309,
+        "height": 480
+      },
+      "file": "ar-promote-mobile.webp",
+      "sha256": "86a3a5709237d66fb0aca8b5aa9e9efd9345abf135464ce5017d3172a20242f7",
+      "sourceSha256": "d487bd5d36d2cb7ab3784389d320c4ea8e9ea98675e314216bd7c06745a8a20f",
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "width": 309,
+        "height": 480
+      },
+      "method": "Native Playwright element screenshot followed by exact top detail crop and WebP encoding. No drawing or compositing. Shell topbar, utility assistant launcher and development indicator omitted for unobstructed evidence; workflow styling untouched. Fictional canonical sample in fresh context."
+    },
+    {
+      "locale": "ar",
+      "viewport": {
+        "width": 375,
+        "height": 920
+      },
+      "name": "follow",
+      "route": "/workspace/inbox?lead=LE-2101",
+      "selector": ".px-chat-context",
+      "rectangle": {
+        "x": 17,
+        "y": 1371.65625,
+        "width": 341,
+        "height": 339
+      },
+      "file": "ar-follow-mobile.webp",
+      "sha256": "3ac5f03a8f796a6744a610c30959fbd289789c9b731c58a1fd7e39d93a220c37",
+      "sourceSha256": "d7892c796048ea1dc098fc18e290c0cf7a579c4a8ae16cc150ede8a4b1b37dac",
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "width": 341,
+        "height": 339
+      },
+      "method": "Native Playwright element screenshot followed by exact top detail crop and WebP encoding. No drawing or compositing. Shell topbar, utility assistant launcher and development indicator omitted for unobstructed evidence; workflow styling untouched. Fictional canonical sample in fresh context."
+    }
+  ]
+}

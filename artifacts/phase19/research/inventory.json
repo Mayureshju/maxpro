@@ -1,0 +1,38 @@
+[
+  {
+    "name": "linear",
+    "url": "https://linear.app",
+    "status": 200,
+    "title": "Linear – The system for product development"
+  },
+  {
+    "name": "attio",
+    "url": "https://attio.com",
+    "status": 200,
+    "title": "Attio: The CRM for agentic revenue"
+  },
+  {
+    "name": "notion",
+    "url": "https://www.notion.com",
+    "status": 200,
+    "title": "The AI workspace that works for you. | Notion"
+  },
+  {
+    "name": "hubspot",
+    "url": "https://www.hubspot.com",
+    "status": 200,
+    "title": "HubSpot | Software & Tools for your Business - Homepage"
+  },
+  {
+    "name": "pipedrive",
+    "url": "https://www.pipedrive.com",
+    "status": 200,
+    "title": "Sales CRM & Pipeline Management Software | Pipedrive"
+  },
+  {
+    "name": "webflow",
+    "url": "https://webflow.com",
+    "status": 200,
+    "title": "Webflow: The agentic web platform for modern businesses"
+  }
+]

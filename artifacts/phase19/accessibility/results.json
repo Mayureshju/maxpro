@@ -1,0 +1,506 @@
+[
+  {
+    "locale": "en",
+    "width": 320,
+    "state": "chapter-0",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "state": "chapter-1",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "state": "chapter-2",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "state": "chapter-3",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "state": "ai-accepted",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "state": "assistant-open",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "state": "chapter-0",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "state": "chapter-1",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "state": "chapter-2",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "state": "chapter-3",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "state": "ai-accepted",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "state": "assistant-open",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "state": "chapter-0",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "state": "chapter-1",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "state": "chapter-2",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "state": "chapter-3",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "state": "ai-accepted",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "state": "assistant-open",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "state": "chapter-0",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "state": "chapter-1",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "state": "chapter-2",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "state": "chapter-3",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "state": "ai-accepted",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "state": "assistant-open",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "state": "chapter-0",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "state": "chapter-1",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "state": "chapter-2",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "state": "chapter-3",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "state": "ai-accepted",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "state": "assistant-open",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "state": "chapter-0",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "state": "chapter-1",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "state": "chapter-2",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "state": "chapter-3",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "state": "ai-accepted",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "state": "assistant-open",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "state": "chapter-0",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "state": "chapter-1",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "state": "chapter-2",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "state": "chapter-3",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "state": "ai-accepted",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "state": "assistant-open",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "state": "chapter-0",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "state": "chapter-1",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "state": "chapter-2",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "state": "chapter-3",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "state": "ai-accepted",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "state": "assistant-open",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "state": "chapter-0",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "state": "chapter-1",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "state": "chapter-2",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "state": "chapter-3",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "state": "ai-accepted",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "state": "assistant-open",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "state": "chapter-0",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "state": "chapter-1",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "state": "chapter-2",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "state": "chapter-3",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "state": "ai-accepted",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "state": "assistant-open",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "state": "chapter-0",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "state": "chapter-1",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "state": "chapter-2",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "state": "chapter-3",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "state": "ai-accepted",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "state": "assistant-open",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "state": "chapter-0",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "state": "chapter-1",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "state": "chapter-2",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "state": "chapter-3",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "state": "ai-accepted",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "state": "assistant-open",
+    "overflow": false,
+    "violations": []
+  }
+]
